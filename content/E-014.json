@@ -1,0 +1,40 @@
+{"family": "workbook",
+ "summary": "Superseded working copy of the 2022 chamber-capacity costing kept on a departed employee's laptop. It records the list prices in use for the ICH chamber programme and method validation, with informal notes on occupancy and pull charges. The 2023 commercial handover version replaces it.",
+ "properties": {"title": "Chamber rates 2023 (working copy)"},
+ "sheets": [
+  {"name": "Rates", "start": "A1", "freeze": "A2", "tab_color": "#7F7F7F",
+   "col_widths": {"A": 40, "B": 30, "C": 14, "D": 10, "E": 18},
+   "rows": [
+    ["Service", "Unit", "Price", "Currency", "Volume discount"],
+    ["ICH chamber programme", "per pull (all tests, one condition)", 885, "GBP", "none"],
+    ["Assay and related-substances validation", "per method", 17250, "GBP", "none"],
+    [],
+    ["Rates as list in 2022. Not yet agreed with Finance for the 2023 round."]
+   ],
+   "number_formats": {"C2:C3": "#,##0"},
+   "comments": [
+    {"cell": "C2", "text": "Still 885 on the list. Check with Nick before we quote the per-pull figure to the client, they have asked twice.", "author": "Gareth Bramwell"}
+   ]},
+  {"name": "Capacity notes", "start": "A1", "tab_color": "#7F7F7F",
+   "col_widths": {"A": 28, "B": 70},
+   "rows": [
+    ["Topic", "Working note"],
+    ["Chamber occupancy", "Assumption to be checked against the chamber booking log. Leon and Paride to confirm which chambers are shared with the ICH work and which are dedicated."],
+    ["Pull charges", "Charged per pull per condition, not per sample. Pulls at 40 °C/75% RH and 30 °C/65% RH are priced the same as 25 °C/60% RH on the current list."],
+    ["Storage months", "Monthly storage charge still to be agreed with Finance. Do not quote until Alice has signed it off."],
+    ["Method validation", "Priced per method. Re-validation after a method change is not covered by the list price."],
+    [],
+    ["Open items", ""]
+   ],
+   "merged": ["A1:B1"],
+   "comments": [
+    {"cell": "B3", "text": "Occupancy assumption is a guess from the spring. Don't use it without the booking log.", "author": "Gareth Bramwell"}
+   ]},
+  {"name": "old_calc", "start": "A1", "hidden": true,
+   "rows": [
+    ["scratch: pull charge check"],
+    ["Pulls per year", 4],
+    ["Conditions", 3],
+    ["Pull charge", "=B2*B3"]
+   ]}
+ ]}
