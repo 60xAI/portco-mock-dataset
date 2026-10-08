@@ -1,0 +1,482 @@
+{
+  "family": "document",
+  "summary": "Unfilled working template for HPLC method qualification. Numbered identity, specificity, system-suitability and approval sections retain blank acceptance tables and unresolved placeholders.",
+  "properties": {
+    "title": "HPLC method qualification protocol template"
+  },
+  "header": "Westravelle Analytical Ltd, a Tarnovell company",
+  "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "HPLC method qualification protocol template",
+    "subtitle": "Revision 06 | DRAFT | Unfilled working template",
+    "lines": [
+      "Template date: 14 Aug 2025",
+      "Template owner: Saira Mahmood",
+      "Protocol identifier: [TBC]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Protocol identity",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Field",
+              "Entry"
+            ],
+            "rows": [
+              [
+                "Protocol identifier",
+                "[TBC]"
+              ],
+              [
+                "Client",
+                "[TBC]"
+              ],
+              [
+                "Method title / revision",
+                "[TBC]"
+              ],
+              [
+                "Product / dosage form",
+                "[TBC]"
+              ],
+              [
+                "Accession",
+                "[TBC]"
+              ],
+              [
+                "Stability lot / batch set",
+                "[TBC]"
+              ],
+              [
+                "Storage condition (°C / RH)",
+                "[TBC]"
+              ],
+              [
+                "Protocol date",
+                "[TBC]"
+              ],
+              [
+                "Analyst",
+                ""
+              ],
+              [
+                "Independent checker",
+                ""
+              ]
+            ],
+            "caption": "Protocol cover fields"
+          }
+        },
+        {
+          "p": "Intended use: [TBC]"
+        },
+        {
+          "p": "Qualification scope: [TBC]"
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Batch identity and materials",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Material",
+              "Identity / stability lot",
+              "Storage / location",
+              "Expiry / retest",
+              "Batch-card reference"
+            ],
+            "rows": [
+              [
+                "Sample",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Reference standard",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Impurity reference",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Placebo",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Diluent",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Mobile phase",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            "caption": "Material identity and custody"
+          }
+        },
+        {
+          "table": {
+            "columns": [
+              "Preparation",
+              "Concentration / dilution",
+              "Date",
+              "Prepared by",
+              "Checked by"
+            ],
+            "rows": [
+              [
+                "Sample",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Standard",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Specificity solutions",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            "caption": "Preparation schedule"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Specificity",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Preparation / challenge",
+              "Sequence-sheet reference",
+              "Acceptance criterion",
+              "Assessment"
+            ],
+            "rows": [
+              [
+                "Blank",
+                "",
+                "[TBC]",
+                ""
+              ],
+              [
+                "Placebo",
+                "",
+                "[TBC]",
+                ""
+              ],
+              [
+                "Reference standard",
+                "",
+                "[TBC]",
+                ""
+              ],
+              [
+                "Sample",
+                "",
+                "[TBC]",
+                ""
+              ],
+              [
+                "Impurity mixture",
+                "",
+                "[TBC]",
+                ""
+              ],
+              [
+                "Stressed sample",
+                "",
+                "[TBC]",
+                ""
+              ]
+            ],
+            "caption": "Specificity acceptance table"
+          }
+        },
+        {
+          "p": "Peak identification / interference assessment: [TBC]"
+        },
+        {
+          "p": "Applicable stress conditions and exposure: [TBC]"
+        }
+      ]
+    },
+    {
+      "heading": "3.1 Chromatographic conditions",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "heading": "3.2 Specificity rationale",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 System suitability and acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Parameter",
+              "Acceptance criterion",
+              "Sequence-sheet reference",
+              "Pass / fail"
+            ],
+            "rows": [
+              [
+                "Repeatability",
+                "XX%",
+                "",
+                ""
+              ],
+              [
+                "Resolution",
+                "[TBC]",
+                "",
+                ""
+              ],
+              [
+                "Peak symmetry",
+                "[TBC]",
+                "",
+                ""
+              ],
+              [
+                "Sensitivity",
+                "[TBC]",
+                "",
+                ""
+              ],
+              [
+                "Carryover",
+                "[TBC]",
+                "",
+                ""
+              ],
+              [
+                "Bracketing standard",
+                "[TBC]",
+                "",
+                ""
+              ]
+            ],
+            "caption": "System-suitability acceptance table"
+          }
+        },
+        {
+          "table": {
+            "columns": [
+              "Measurement",
+              "Units",
+              "Acceptance criterion",
+              "Method reference"
+            ],
+            "rows": [
+              [
+                "Assay",
+                "Percent label claim",
+                "XX%",
+                ""
+              ],
+              [
+                "Individual impurity",
+                "Area percent",
+                "XX%",
+                ""
+              ],
+              [
+                "Total impurities",
+                "Area percent",
+                "XX%",
+                ""
+              ]
+            ],
+            "caption": "Method acceptance fields"
+          }
+        },
+        {
+          "p": "Release-gate decision route: [TBC]"
+        }
+      ]
+    },
+    {
+      "heading": "4.1 Repeat analysis authorisation",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "heading": "4.2 Data processing rules",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Deviations and protocol amendments",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Deviation-note reference",
+              "Affected preparation / sequence",
+              "Disposition",
+              "QA authorisation"
+            ],
+            "rows": [
+              [
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            "caption": "Departure register"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "6 Qualification conclusion",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "heading": "7 Approval before execution",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Function",
+              "Name",
+              "Signature",
+              "Date"
+            ],
+            "rows": [
+              [
+                "Prepared by",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Technical review",
+                "",
+                "",
+                ""
+              ],
+              [
+                "QA review",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Authorisation",
+                "",
+                "",
+                ""
+              ]
+            ],
+            "caption": "Protocol approval fields"
+          }
+        },
+        {
+          "p": "Execution release gate: [TBC]"
+        }
+      ]
+    },
+    {
+      "heading": "8 Attachments",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Attachment",
+              "Reference / revision"
+            ],
+            "rows": [
+              [
+                "Sequence sheet",
+                ""
+              ],
+              [
+                "Batch card",
+                ""
+              ],
+              [
+                "Method",
+                ""
+              ],
+              [
+                "Chromatograms",
+                ""
+              ]
+            ],
+            "caption": "Attachment register"
+          }
+        }
+      ]
+    }
+  ],
+  "signature_block": [],
+  "orientation": "portrait"
+}
