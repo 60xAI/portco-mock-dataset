@@ -246,7 +246,7 @@ people:
   home_firm: A
   service_line: medchem
   roles:
-  - title: Site Scientific Director
+  - title: Head of Medicinal Chemistry
     unit: A
     from: '1994-03-14'
     to: null
@@ -255,7 +255,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Established the local scientific operations.
+  notes: Leads synthesis campaigns and route-selection reviews.
 - id: NS02
   canonical_name: Hassan Darwish
   first_name: Hassan
@@ -269,7 +269,7 @@ people:
   home_firm: A
   service_line: medchem
   roles:
-  - title: Study Scientist
+  - title: Senior Synthetic Chemist
     unit: A
     from: '1994-03-14'
     to: null
@@ -278,7 +278,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Runs analogue preparation and intermediate isolation.
 - id: NS03
   canonical_name: Clara Fenwick
   first_name: Clara
@@ -292,7 +292,7 @@ people:
   home_firm: A
   service_line: medchem
   roles:
-  - title: Quality Assurance Manager
+  - title: Analytical Release Lead
     unit: A
     from: '1994-03-14'
     to: null
@@ -301,7 +301,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Oversees identity, purity and delivery-lot release.
 - id: NS04
   canonical_name: Owen Merriman
   first_name: Owen
@@ -315,7 +315,7 @@ people:
   home_firm: A
   service_line: medchem
   roles:
-  - title: Business Development Manager
+  - title: Chemistry Business Development Lead
     unit: A
     from: '1994-03-14'
     to: '2022-12-31'
@@ -324,7 +324,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Left for an independent role; archived folders retained.
+  notes: Led medicinal chemistry quotations; left for an independent role.
 - id: NS05
   canonical_name: Bethany Rowcroft
   first_name: Bethany
@@ -338,7 +338,7 @@ people:
   home_firm: B
   service_line: invitro
   roles:
-  - title: Site Scientific Director
+  - title: Screening Operations Director
     unit: B
     from: '1998-06-01'
     to: null
@@ -347,7 +347,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Established the local scientific operations.
+  notes: Allocates screening capacity and approves study interpretations.
 - id: NS06
   canonical_name: Ravi Deshmukh
   first_name: Ravi
@@ -361,7 +361,7 @@ people:
   home_firm: B
   service_line: invitro
   roles:
-  - title: Study Scientist
+  - title: Electrophysiology Team Lead
     unit: B
     from: '1998-06-01'
     to: null
@@ -370,7 +370,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Runs patch-clamp assays and coordinates channel-screen repeats.
 - id: NS07
   canonical_name: Ines Alvarado
   first_name: Ines
@@ -382,9 +382,9 @@ people:
   - ialvarado
   username: ialvarado
   home_firm: B
-  service_line: invitro
+  service_line: admin
   roles:
-  - title: Quality Assurance Manager
+  - title: Assay Quality Coordinator
     unit: B
     from: '1998-06-01'
     to: null
@@ -393,7 +393,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Checks plate acceptance and report traceability.
 - id: NS08
   canonical_name: Peter Wainford
   first_name: Peter
@@ -407,7 +407,7 @@ people:
   home_firm: B
   service_line: invitro
   roles:
-  - title: Business Development Manager
+  - title: Head of Biology Business Development
     unit: B
     from: '1998-06-01'
     to: '2022-12-31'
@@ -416,7 +416,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Left for an independent role; archived folders retained.
+  notes: Managed biology client accounts before leaving the business.
 - id: NS09
   canonical_name: Megan Larkin
   first_name: Megan
@@ -430,7 +430,7 @@ people:
   home_firm: C
   service_line: dmpk
   roles:
-  - title: Site Scientific Director
+  - title: DMPK Study Director
     unit: C
     from: '2003-02-10'
     to: null
@@ -439,7 +439,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: Established the local scientific operations.
+  notes: Directs integrated metabolism and exposure packages.
 - id: NS10
   canonical_name: Javier Quintana
   first_name: Javier
@@ -453,7 +453,7 @@ people:
   home_firm: C
   service_line: dmpk
   roles:
-  - title: Study Scientist
+  - title: Mass-Spectrometry Manager
     unit: C
     from: '2003-02-10'
     to: null
@@ -462,7 +462,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: ''
+  notes: Oversees LC-MS/MS acquisition and bioanalytical batch troubleshooting.
 - id: NS11
   canonical_name: Helen Marchwood
   first_name: Helen
@@ -474,9 +474,9 @@ people:
   - hmarchwood
   username: hmarchwood
   home_firm: C
-  service_line: dmpk
+  service_line: admin
   roles:
-  - title: Quality Assurance Manager
+  - title: Bioanalytical Quality Manager
     unit: C
     from: '2003-02-10'
     to: null
@@ -485,7 +485,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: ''
+  notes: Coordinates recovery investigations and method qualification.
 - id: NS12
   canonical_name: Adeel Farooqi
   first_name: Adeel
@@ -499,7 +499,7 @@ people:
   home_firm: C
   service_line: dmpk
   roles:
-  - title: Business Development Manager
+  - title: Head of BD North America
     unit: C
     from: '2003-02-10'
     to: '2022-12-31'
@@ -508,7 +508,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: Left for an independent role; archived folders retained.
+  notes: Led US discovery accounts before leaving for an independent role.
 - id: NS13
   canonical_name: Fiona Macrae
   first_name: Fiona
@@ -522,7 +522,7 @@ people:
   home_firm: D
   service_line: compchem
   roles:
-  - title: Site Scientific Director
+  - title: Computational Chemistry Lead
     unit: D
     from: '2009-04-06'
     to: null
@@ -531,7 +531,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Established the local scientific operations.
+  notes: Leads virtual screening and ligand-modelling engagements.
 - id: NS14
   canonical_name: Emil Ostlund
   first_name: Emil
@@ -545,7 +545,7 @@ people:
   home_firm: D
   service_line: compchem
   roles:
-  - title: Study Scientist
+  - title: Senior Computational Biologist
     unit: D
     from: '2009-04-06'
     to: null
@@ -554,7 +554,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Builds omics pipelines and adjudicates analysis outputs.
 - id: NS15
   canonical_name: Nadia Rahmani
   first_name: Nadia
@@ -568,7 +568,7 @@ people:
   home_firm: D
   service_line: compchem
   roles:
-  - title: Quality Assurance Manager
+  - title: Data Curation and Reproducibility Lead
     unit: D
     from: '2009-04-06'
     to: null
@@ -577,7 +577,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Maintains dataset provenance and reproducible delivery records.
 - id: NS16
   canonical_name: Callum Strachan
   first_name: Callum
@@ -591,7 +591,7 @@ people:
   home_firm: D
   service_line: compchem
   roles:
-  - title: Business Development Manager
+  - title: Scientific Partnerships Manager
     unit: D
     from: '2009-04-06'
     to: '2022-12-31'
@@ -600,7 +600,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Left for an independent role; archived folders retained.
+  notes: Scoped external computational collaborations before departure.
 - id: NS17
   canonical_name: Alice Penrose
   first_name: Alice
@@ -614,7 +614,7 @@ people:
   home_firm: E
   service_line: analytical
   roles:
-  - title: Site Scientific Director
+  - title: Head of Analytical Services
     unit: E
     from: '2008-09-01'
     to: null
@@ -623,7 +623,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Established the local scientific operations.
+  notes: Approves analytical protocols and client stability interpretations.
 - id: NS18
   canonical_name: Leon Wu
   first_name: Leon
@@ -637,7 +637,7 @@ people:
   home_firm: E
   service_line: analytical
   roles:
-  - title: Study Scientist
+  - title: Stability Coordinator
     unit: E
     from: '2008-09-01'
     to: null
@@ -646,7 +646,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Schedules chamber placements, pulls and analytical timepoints.
 - id: NS19
   canonical_name: Saira Mahmood
   first_name: Saira
@@ -660,7 +660,7 @@ people:
   home_firm: E
   service_line: analytical
   roles:
-  - title: Quality Assurance Manager
+  - title: QC Method Validation Lead
     unit: E
     from: '2008-09-01'
     to: null
@@ -669,7 +669,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: ''
+  notes: Leads specificity, robustness and transfer investigations.
 - id: NS20
   canonical_name: Gareth Bramwell
   first_name: Gareth
@@ -683,7 +683,7 @@ people:
   home_firm: E
   service_line: analytical
   roles:
-  - title: Business Development Manager
+  - title: Analytical Contracts Manager
     unit: E
     from: '2008-09-01'
     to: '2022-12-31'
@@ -692,7 +692,7 @@ people:
   key: false
   role_hint: null
   nationality: British
-  notes: Left for an independent role; archived folders retained.
+  notes: Managed analytical quotations and chamber-capacity commitments before leaving.
 - id: NS21
   canonical_name: Julia Carver
   first_name: Julia
@@ -706,7 +706,7 @@ people:
   home_firm: F
   service_line: formulation
   roles:
-  - title: Site Scientific Director
+  - title: Formulation Development Lead
     unit: F
     from: '2015-01-12'
     to: null
@@ -715,7 +715,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: Established the local scientific operations.
+  notes: Leads formulation selection and prototype decision meetings.
 - id: NS22
   canonical_name: Miguel Serrano
   first_name: Miguel
@@ -729,7 +729,7 @@ people:
   home_firm: F
   service_line: formulation
   roles:
-  - title: Study Scientist
+  - title: Senior Formulation Scientist
     unit: F
     from: '2015-01-12'
     to: null
@@ -738,7 +738,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: ''
+  notes: Runs vehicle, excipient and physical-stability screens.
 - id: NS23
   canonical_name: Lena Patel
   first_name: Lena
@@ -752,7 +752,7 @@ people:
   home_firm: F
   service_line: formulation
   roles:
-  - title: Quality Assurance Manager
+  - title: CMC Technical Transfer Manager
     unit: F
     from: '2015-01-12'
     to: null
@@ -761,7 +761,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: ''
+  notes: Coordinates prototype records and early manufacturing hand-offs.
 - id: NS24
   canonical_name: Eric Langford
   first_name: Eric
@@ -775,7 +775,7 @@ people:
   home_firm: F
   service_line: formulation
   roles:
-  - title: Business Development Manager
+  - title: Early Development Accounts Lead
     unit: F
     from: '2015-01-12'
     to: '2022-12-31'
@@ -784,7 +784,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: Left for an independent role; archived folders retained.
+  notes: Managed early-development accounts before leaving the business.
 - id: NS25
   canonical_name: Rachel Okafor
   first_name: Rachel
@@ -798,7 +798,7 @@ people:
   home_firm: G
   service_line: tox
   roles:
-  - title: Site Scientific Director
+  - title: Toxicology Study Director
     unit: G
     from: '2007-05-07'
     to: null
@@ -807,7 +807,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: Established the local scientific operations.
+  notes: Directs in vitro safety batteries and exploratory animal studies.
 - id: NS26
   canonical_name: Kenji Morita
   first_name: Kenji
@@ -821,7 +821,7 @@ people:
   home_firm: G
   service_line: tox
   roles:
-  - title: Study Scientist
+  - title: Genetic Toxicology Scientist
     unit: G
     from: '2007-05-07'
     to: null
@@ -830,7 +830,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: ''
+  notes: Runs bacterial and mammalian genotoxicity investigations.
 - id: NS27
   canonical_name: Lucia Moretti
   first_name: Lucia
@@ -842,9 +842,9 @@ people:
   - lmoretti
   username: lmoretti
   home_firm: G
-  service_line: tox
+  service_line: admin
   roles:
-  - title: Quality Assurance Manager
+  - title: GLP Quality Assurance and Archive Lead
     unit: G
     from: '2007-05-07'
     to: null
@@ -853,7 +853,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: ''
+  notes: Oversees independent QA inspections and controlled study archiving.
 - id: NS28
   canonical_name: Samuel Hartwell
   first_name: Samuel
@@ -867,7 +867,7 @@ people:
   home_firm: G
   service_line: tox
   roles:
-  - title: Business Development Manager
+  - title: Toxicology Client Services Lead
     unit: G
     from: '2007-05-07'
     to: '2022-12-31'
@@ -876,7 +876,7 @@ people:
   key: false
   role_hint: null
   nationality: American
-  notes: Left for an independent role; archived folders retained.
+  notes: Managed toxicology contracts and study slots before departure.
 - id: NS29
   canonical_name: Andrea Beckett
   first_name: Andrea

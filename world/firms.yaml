@@ -19,13 +19,18 @@ firms:
   units_notes: Chemistry uses mg and mmol; purity is area percent; masses may be handwritten in g.
   share_root: VellacombeData
   naming_style:
-    description: Client-first folders, route subfolders, underscored revision suffixes.
+    description: Client abbreviations and route folders; early DOS-length document names survive alongside chemists'
+      dated notes and revision letters.
     folder_examples:
-    - Programmes/2008/CVL
-    - Chemistry/Routes/Route03
+    - Clients/CVL/Routes/RteB
+    - Archive/1998/DT06/Intermediates
+    - Chemistry/VP10/Delivery_Lot3
     filename_examples:
-    - VD-24-012_Report_v2.doc
-    - A_2024-06-21_Readout_FINAL.pptx
+    - CVL0412.DOC
+    - DT06_RteB_revC_23Apr98.doc
+    - FT09_analogue-delivery_16Sep15.xls
+    - VP10_route_meeting_06May16.pptx
+    - Copy of CVL_routes_revD.doc
   id_formats:
     project_id: VD-{y2}-{n:03d}; VD-24-012
     project_id_regex: VD-\d{2}-\d{3}
@@ -46,9 +51,9 @@ firms:
     milestone: route gate
     record: compound card
   typical_lengths:
-    deck: 12-20 slides
-    report: 18-35 pages
-    proposal: 5-9 pages
+    deck: 8-16 slides
+    report: 12-28 pages plus experimental appendices
+    proposal: 4-7 pages
   templates:
   - id: A-L
     kind: legacy
@@ -117,13 +122,18 @@ firms:
   units_notes: Potency in nM or µM; screening inhibition in percent at a stated concentration.
   share_root: BrindlewytheData
   naming_style:
-    description: Study-year folders, assay subfolders, mixed-case report names.
+    description: Study-year directories and assay run folders; study numbers use underscores, plate workbooks use
+      run dates and signed reports carry revision letters.
     folder_examples:
-    - Studies/2011/Study_014
-    - Screening/PlateMaps
+    - Studies/2011/BW11_0147/hERG
+    - Screening/2021/AP02/CYP/Run_04
+    - Users/rdeshmukh/Plate_maps
     filename_examples:
-    - BW24_0012_Report_v2.doc
-    - B_2024-06-21_Readout_FINAL.pptx
+    - BW11_0147_hERG-CYP_Rpt_revB.doc
+    - AP02_5CYP_18-03-21_RUN04.xlsx
+    - BW25_0328_selectivity_CLIENT.pptx
+    - hERG_repeat_070625_rd.xls
+    - BW21_0382_signed.pdf
   id_formats:
     project_id: BW{y2}_{n:04d}; BW24_0012
     project_id_regex: BW\d{2}_\d{4}
@@ -144,9 +154,9 @@ firms:
     milestone: screen gate
     record: sample card
   typical_lengths:
-    deck: 13-21 slides
-    report: 20-38 pages
-    proposal: 6-10 pages
+    deck: 6-12 slides
+    report: 10-22 pages
+    proposal: 3-6 pages
   templates:
   - id: B-L
     kind: legacy
@@ -214,13 +224,18 @@ firms:
   units_notes: Clearance in µL/min/mg or µL/min/10^6 cells; exposure in ng·h/mL.
   share_root: MerrivossData
   naming_style:
-    description: Uppercase client folders and accession exports, ISO dates in filenames.
+    description: US date stamps and client programme folders; accession worksheets and PK memos precede a report
+      version, while historical slides retain capitalised extensions.
     folder_examples:
-    - CLIENTS/CL003/2006
-    - BIOANALYSIS/ACCESSIONS
+    - Client_Work/ST03/2015_DDI
+    - Bioanalysis/AT15/PK/Batch_07
+    - DMPK/KT12/Hepatocytes
     filename_examples:
-    - MV-2024-012_Report_v2.doc
-    - C_2024-06-21_Readout_FINAL.pptx
+    - ST03_DDI_062315_R1.DOC
+    - AT15_RatPK_101215_Batch07.xls
+    - MV-2024-083_CYP3A4_v03.pdf
+    - KT12_CLint_020921_review.xlsx
+    - NM84_PK_Readout_091423.PPT
   id_formats:
     project_id: MV-{y4}-{n:03d}; MV-2024-012
     project_id_regex: MV-\d{4}-\d{3}
@@ -241,9 +256,9 @@ firms:
     milestone: exposure gate
     record: analyte card
   typical_lengths:
-    deck: 14-22 slides
-    report: 22-41 pages
-    proposal: 7-11 pages
+    deck: 10-18 slides
+    report: 18-42 pages with bioanalytical tables
+    proposal: 6-11 pages
   templates:
   - id: C-L
     kind: legacy
@@ -311,13 +326,18 @@ firms:
   units_notes: Docking scores in kcal/mol; omics contrasts as log2 fold change with adjusted probabilities.
   share_root: QuenverellData
   naming_style:
-    description: Lowercase engagement slugs and analysis revision numbers.
+    description: Analysis tasks are grouped by programme and dataset; lowercase hyphenated outputs carry analysis
+      versions, while scripts and readouts sit in separate folders.
     folder_examples:
-    - Engagements/2014/target-map
-    - Methods/pipelines
+    - engagements/dt-6/docking/tautomers
+    - data/rc-3/rnaseq/processed
+    - deliverables/corvenlith/pathways
     filename_examples:
-    - QV.24.012_Report_v2.doc
-    - D_2024-06-21_Readout_FINAL.pptx
+    - rc3-rnaseq-batch-model-v4.pdf
+    - dt6-docking-hitlist-2013-09-18.xlsx
+    - corvenlith-pathway-readout-v2.pptx
+    - vm-a-procurement-shortlist-approved.csv
+    - vp-b-analysis-plan-draft.docx
   id_formats:
     project_id: QV.{y2}.{n:03d}; QV.24.012
     project_id_regex: QV\.\d{2}\.\d{3}
@@ -338,9 +358,9 @@ firms:
     milestone: model gate
     record: target card
   typical_lengths:
-    deck: 15-23 slides
-    report: 24-44 pages
-    proposal: 8-12 pages
+    deck: 14-26 slides
+    report: 8-24 pages with reproducibility appendix
+    proposal: 5-10 pages
   templates:
   - id: D-L
     kind: legacy
@@ -408,13 +428,18 @@ firms:
   units_notes: Assay as percent label claim; impurities as area percent; chamber temperatures in °C.
   share_root: WestravelleData
   naming_style:
-    description: Batch and chamber folders, approved versus working copies.
+    description: Controlled protocol and report numbers live under stability lots; pull timepoints are explicit
+      and QA-approved files use uppercase release suffixes.
     folder_examples:
-    - Stability/2019/Batch_07
-    - Quality/Approved
+    - Stability/EP19/Lot_02/40C_75RH/06M
+    - Methods/KM12/Validation/Specificity
+    - Quality/Reports/2024/Approved
     filename_examples:
-    - WA-2024-012_Report_v2.doc
-    - E_2024-06-21_Readout_FINAL.pptx
+    - EP19_L02_06M_40C75RH_RESULTS.xls
+    - WA-2020-187_PROTOCOL_Rev02.docx
+    - KM12_HPLC_VALIDATION_QA-APPROVED.pdf
+    - AT22_L03_12M_TREND_Rev1.xlsx
+    - PV30_StabilityReview_12-Oct-2022.pptx
   id_formats:
     project_id: WA/{y4}/{n:03d}; WA/2024/012
     project_id_regex: WA/\d{4}/\d{3}
@@ -435,9 +460,9 @@ firms:
     milestone: release gate
     record: batch card
   typical_lengths:
-    deck: 16-24 slides
-    report: 26-47 pages
-    proposal: 9-13 pages
+    deck: 5-10 slides
+    report: 28-65 pages; stability tables may add 20-40 pages
+    proposal: 5-8 pages
   templates:
   - id: E-L
     kind: legacy
@@ -504,13 +529,18 @@ firms:
   units_notes: Concentration in mg/mL; loading in weight percent; particle sizes in µm.
   share_root: DurnesswickData
   naming_style:
-    description: Year-prefixed job folders and bench-record sequence numbers.
+    description: Prototype folders use client codes and formulation labels; US date stamps and named draft revisions
+      remain common in bench summaries.
     folder_examples:
-    - 2024_JOBS/Formulation_012
-    - DEV/Bench_Records
+    - Development/AU08/Vehicle_Ladder
+    - Projects/JO06/Spray_Dry/Prototype_C
+    - TechTransfer/NM12/Dosing
     filename_examples:
-    - DL_2024_0012_Report_v2.doc
-    - F_2024-06-21_Readout_FINAL.pptx
+    - AU08_vehicle-ladder_041816_JD.xlsx
+    - JO06_SDD_summary_090717_draft2.pptx
+    - NM12-formulation-memo-112020.docx
+    - OD23_dilution-check_082626_revA.pdf
+    - WX11 Redispersion FINAL final.xls
   id_formats:
     project_id: DL_{y4}_{n:04d}; DL_2024_0012
     project_id_regex: DL_\d{4}_\d{4}
@@ -531,9 +561,9 @@ firms:
     milestone: scale gate
     record: recipe card
   typical_lengths:
-    deck: 17-25 slides
-    report: 28-50 pages
-    proposal: 10-14 pages
+    deck: 12-22 slides
+    report: 9-20 pages
+    proposal: 4-8 pages
   templates:
   - id: F-L
     kind: legacy
@@ -601,13 +631,18 @@ firms:
   units_notes: Dose in mg/kg/day; safety potency in µM; observations retain individual-animal identifiers.
   share_root: OsterquillData
   naming_style:
-    description: Protocol-number folders, signed reports and separate QA scans.
+    description: Study-number directories separate protocols, raw observations and signed reports; US dates mark
+      amendments, and QA copies use controlled report suffixes.
     folder_examples:
-    - Studies/2016/Safety_031
-    - GLP/Protocols
+    - Studies/OT-20-S0192/Protocol/Amendments
+    - InVitro/AP02/Genotox/Scoring
+    - Archive/2010/NM31/Animal_Room
     filename_examples:
-    - OT-24-S0012_Report_v2.doc
-    - G_2024-06-21_Readout_FINAL.pptx
+    - OT-20-S0192_RPT_A_signed.pdf
+    - NM31_DRF_081010_AMEND01.doc
+    - AP02_AMES_RAW_042408.xls
+    - ST03_MN_scoring_061915_QAreview.xlsx
+    - OT-23-S0287_SafetyPharm_client.pptx
   id_formats:
     project_id: OT-{y2}-S{n:04d}; OT-24-S0012
     project_id_regex: OT-\d{2}-S\d{4}
@@ -628,9 +663,9 @@ firms:
     milestone: QA gate
     record: animal card
   typical_lengths:
-    deck: 18-26 slides
-    report: 30-53 pages
-    proposal: 11-15 pages
+    deck: 8-14 slides
+    report: 45-110 pages for in vivo work; 16-35 for in vitro
+    proposal: 9-17 pages
   templates:
   - id: G-L
     kind: legacy

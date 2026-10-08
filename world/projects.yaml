@@ -1,9 +1,9 @@
 projects:
 - id: PRJ0001
   firm: B
-  firm_project_id: BW11_0001
-  lims_id: B-ACC-2011-00001
-  title: Forty-analogue kinase safety screen
+  firm_project_id: BW11_0275
+  lims_id: B-ACC-2011-04692
+  title: 'AP02 hinge-binder triage: hERG and five-CYP panel, 40 analogues'
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -18,24 +18,25 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2011-01-15'
-    start: '2011-01-29'
+    quote: '2011-08-23'
+    start: '2011-09-12'
     interim: null
-    completion: '2011-02-17'
+    completion: '2011-09-27'
   status: completed
   price:
     amount: 11800
     currency: GBP
-  turnaround_days: 19
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 15
+  outcome: The paired screen identified an ion-channel liability in the lipophilic branch, and Avernelwick advanced
+    the more polar analogues.
   planted:
   - q2_correct_B1
   notes: ''
 - id: PRJ0002
   firm: B
-  firm_project_id: BW21_0002
-  lims_id: B-ACC-2021-00002
-  title: 'Kinase follow-up: ion channel and CYP interaction'
+  firm_project_id: BW21_0453
+  lims_id: B-ACC-2021-07710
+  title: AP02 second-generation safety panel with CYP3A4 concentration response
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -51,24 +52,25 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2021-01-15'
-    start: '2021-01-29'
+    quote: '2021-10-18'
+    start: '2021-11-08'
     interim: null
-    completion: '2021-02-19'
+    completion: '2021-11-25'
   status: completed
   price:
     amount: 15900
     currency: GBP
-  turnaround_days: 21
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 17
+  outcome: The follow-up retained the hERG margin but exposed a CYP interaction in the basic side-chain subset,
+    prompting a chemistry redesign.
   planted:
   - q2_correct_B2
   notes: ''
 - id: PRJ0003
   firm: C
-  firm_project_id: MV-2015-001
-  lims_id: M15/BIO/00001
-  title: Kinase series rapid safety and DDI package
+  firm_project_id: MV-2015-266
+  lims_id: M15/BIO/06146
+  title: 'ST03 growth-signal programme: rapid hERG/DDI screen of 38 compounds'
   client_id: CL004
   client_variant: Selverant
   services:
@@ -83,24 +85,25 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
+    quote: '2015-11-05'
+    start: '2015-12-08'
     interim: null
-    completion: '2015-02-16'
+    completion: '2015-12-28'
   status: completed
   price:
     amount: 18700
     currency: USD
-  turnaround_days: 18
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 20
+  outcome: The safety package separated a clean progression set from analogues with coupled hERG and CYP liabilities,
+    supporting candidate shortlisting.
   planted:
   - q2_correct_C1
   notes: ''
 - id: PRJ0004
   firm: C
-  firm_project_id: MV-2024-002
-  lims_id: M24/BIO/00002
-  title: Kinase lead-selection safety panel
+  firm_project_id: MV-2024-358
+  lims_id: M24/BIO/08257
+  title: 'TP04 inflammatory kinase follow-up: 40-compound cardiac and CYP screen'
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -116,24 +119,25 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2024-01-15'
-    start: '2024-01-29'
+    quote: '2024-11-11'
+    start: '2024-12-05'
     interim: null
-    completion: '2024-02-18'
+    completion: '2024-12-19'
   status: completed
   price:
     amount: 24700
     currency: USD
-  turnaround_days: 20
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 14
+  outcome: The revised series showed improved ion-channel behaviour while residual CYP inhibition narrowed the set
+    taken into exposure studies.
   planted:
   - q2_correct_C2
   notes: ''
 - id: PRJ0005
   firm: B
-  firm_project_id: BW17_0003
-  lims_id: B-ACC-2017-00003
-  title: Kinase-series ion-channel liability screen
+  firm_project_id: BW17_0167
+  lims_id: B-ACC-2017-02854
+  title: ST03 ion-channel counterscreen, third chemistry shipment
   client_id: CL004
   client_variant: Selverant Therapeutics Inc
   services:
@@ -147,24 +151,25 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
+    quote: '2017-04-27'
+    start: '2017-05-25'
     interim: null
-    completion: '2017-02-15'
+    completion: '2017-06-14'
   status: completed
   price:
     amount: 10900
     currency: GBP
-  turnaround_days: 17
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 20
+  outcome: The hERG-only readout flagged the most basic analogues; Selverant commissioned separate metabolism work
+    before making a progression decision.
   planted:
   - q2_distractor_herg_only
   notes: ''
 - id: PRJ0006
   firm: C
-  firm_project_id: MV-2022-003
-  lims_id: M22/BIO/00003
-  title: GPCR antagonist interaction panel
+  firm_project_id: MV-2022-176
+  lims_id: M22/BIO/04063
+  title: 'OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration'
   client_id: CL012
   client_variant: Orvessant Biosciences Pty Ltd
   services:
@@ -178,24 +183,25 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2022-01-15'
-    start: '2022-01-29'
+    quote: '2022-06-13'
+    start: '2022-07-25'
     interim: null
-    completion: '2022-02-18'
+    completion: '2022-08-10'
   status: completed
   price:
     amount: 12400
     currency: USD
-  turnaround_days: 20
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 16
+  outcome: Orvessant deprioritised the lipophilic antagonist branch after a CYP interaction signal, without requesting
+    cardiac screening in this study.
   planted:
   - q2_distractor_cyp_other_chemotype
   notes: ''
 - id: PRJ0007
   firm: C
-  firm_project_id: MV-2018-004
-  lims_id: M18/BIO/00004
-  title: Kinase-series clearance and binding assessment
+  firm_project_id: MV-2018-052
+  lims_id: M18/BIO/01223
+  title: AP02 clearance and free-fraction assessment, recovery-controlled dialysis
   client_id: CL003
   client_variant: Avernelwick Pharma
   services:
@@ -210,24 +216,25 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
+    quote: '2018-02-20'
+    start: '2018-03-12'
     interim: null
-    completion: '2018-02-17'
+    completion: '2018-04-16'
   status: completed
   price:
     amount: 23500
     currency: USD
-  turnaround_days: 19
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 35
+  outcome: Avernelwick retained the less rapidly cleared analogues and requested hepatocyte work to resolve the
+    discrepancy between binding and microsomal turnover.
   planted:
   - q2_distractor_right_client_wrong_assay
   notes: ''
 - id: PRJ0008
   firm: A
-  firm_project_id: VD-05-001
-  lims_id: VA20050001
-  title: 'Medicinal chemistry: hinge-binder analogue delivery'
+  firm_project_id: VD-05-064
+  lims_id: VA20050581
+  title: CVL azaheterocycle route scout and first analogue delivery
   client_id: CL001
   client_variant: Corvenlea Pharma
   services:
@@ -241,24 +248,25 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2005-01-15'
-    start: '2005-01-29'
-    interim: '2005-03-15'
-    completion: '2005-04-30'
+    quote: '2005-07-08'
+    start: '2005-07-22'
+    interim: '2005-09-14'
+    completion: '2005-11-07'
   status: completed
   price:
     amount: 27000
     currency: GBP
-  turnaround_days: 91
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 108
+  outcome: A revised heteroaryl coupling sequence removed the problematic late-stage purification and supplied the
+    next biology batch.
   planted:
   - q3_target_A
   notes: ''
 - id: PRJ0009
   firm: C
-  firm_project_id: MV-2016-005
-  lims_id: M16/BIO/00005
-  title: Lead-series disposition package
+  firm_project_id: MV-2016-053
+  lims_id: M16/BIO/01247
+  title: 'CVL oral discovery package: microsomes, hepatocytes and plasma binding'
   client_id: CL001
   client_variant: Corvenlea Ltd
   services:
@@ -274,24 +282,25 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-02-19'
-    completion: '2016-03-11'
+    quote: '2016-02-26'
+    start: '2016-04-14'
+    interim: '2016-04-26'
+    completion: '2016-05-09'
   status: completed
   price:
     amount: 23500
     currency: USD
-  turnaround_days: 42
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 25
+  outcome: Species-dependent clearance drove Corvenlea to order a rodent exposure study before committing to the
+    next analogue set.
   planted:
   - q3_target_C
   notes: ''
 - id: PRJ0010
   firm: E
-  firm_project_id: WA/2020/001
-  lims_id: WST-20-000001
-  title: Active-substance stability and impurity method
+  firm_project_id: WA/2020/313
+  lims_id: WST-20-009708
+  title: 'CVL tablet lot 3: twelve-month ICH stability with assay validation'
   client_id: CL001
   client_variant: Corvenlea Pharmaceuticals plc
   services:
@@ -306,24 +315,25 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-05-16'
-    completion: '2020-09-02'
+    quote: '2020-11-05'
+    start: '2020-11-30'
+    interim: '2021-05-31'
+    completion: '2021-11-30'
   status: completed
   price:
     amount: 53000
     currency: GBP
-  turnaround_days: 217
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 365
+  outcome: The tablet lot remained within the agreed assay and impurity limits, and Corvenlea used the report in
+    its formulation transfer package.
   planted:
   - q3_target_E
   notes: ''
 - id: PRJ0011
   firm: D
-  firm_project_id: QV.23.001
-  lims_id: QDATA2023-0001
-  title: Transcriptomic target-prioritisation engagement
+  firm_project_id: QV.23.100
+  lims_id: QDATA2023-0617
+  title: 'Corvenlith immune-cell RNA-seq: donor adjustment and target ranking'
   client_id: CL002
   client_variant: Corvenlith Therapeutics
   services:
@@ -337,24 +347,25 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2023-01-15'
-    start: '2023-01-29'
-    interim: '2023-03-05'
-    completion: '2023-04-09'
+    quote: '2023-09-11'
+    start: '2023-10-30'
+    interim: '2023-11-23'
+    completion: '2023-12-18'
   status: completed
   price:
     amount: 54400
     currency: GBP
-  turnaround_days: 70
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 49
+  outcome: A donor-balanced analysis reduced the apparent inflammatory signature and redirected Corvenlith towards
+    the reproducible receptor pathway.
   planted:
   - q3_lookalike
   notes: ''
 - id: PRJ0012
   firm: G
-  firm_project_id: OT-20-S0001
-  lims_id: OQ/2020/000001
-  title: Exploratory kinase-series safety pharmacology package
+  firm_project_id: OT-20-S0178
+  lims_id: OQ/2020/002872
+  title: 'CVL kinase series: cardiac ion-channel and CYP interaction triage'
   client_id: CL001
   client_variant: Corvenlea (US)
   services:
@@ -369,24 +380,25 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
+    quote: '2020-09-02'
+    start: '2020-10-06'
     interim: null
-    completion: '2020-02-18'
+    completion: '2020-10-20'
   status: completed
   price:
     amount: 22000
     currency: USD
-  turnaround_days: 20
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 14
+  outcome: The combined screen found a low-liability progression branch alongside a basic-substituent hERG signal,
+    informing Corvenlea's next synthesis request.
   planted:
   - q4_G1
   notes: Non-GLP in vitro package; distinct from the regulated animal-study portfolio.
 - id: PRJ0013
   firm: G
-  firm_project_id: OT-23-S0002
-  lims_id: OQ/2023/000002
-  title: Kinase-series rapid channel and CYP assessment
+  firm_project_id: OT-23-S0046
+  lims_id: OQ/2023/000755
+  title: 'AP02 reserve analogues: integrated hERG and CYP screen, 44 compounds'
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -401,24 +413,25 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2023-01-15'
-    start: '2023-01-29'
+    quote: '2023-02-21'
+    start: '2023-03-08'
     interim: null
-    completion: '2023-02-19'
+    completion: '2023-03-23'
   status: completed
   price:
     amount: 25000
     currency: USD
-  turnaround_days: 21
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 15
+  outcome: The reserve set preserved a favourable cardiac profile but retained a CYP-sensitive subseries, so Avernelwick
+    selected alternatives for follow-up.
   planted:
   - q4_G2
   notes: Non-GLP screening package with full control and concentration documentation.
 - id: PRJ0014
   firm: D
-  firm_project_id: QV.25.002
-  lims_id: QDATA2025-0002
-  title: Crystallography-based docking and structure-based design
+  firm_project_id: QV.25.086
+  lims_id: QDATA2025-0522
+  title: Drelvessa stress-kinase co-crystal docking and pocket-water assessment
   client_id: CL007
   client_variant: Drelvessa Therapeutics SAS
   services:
@@ -432,24 +445,25 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-03-08'
-    completion: '2025-04-16'
+    quote: '2025-07-24'
+    start: '2025-09-08'
+    interim: '2025-10-13'
+    completion: '2025-11-13'
   status: completed
   price:
     amount: 60400
     currency: GBP
-  turnaround_days: 77
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 66
+  outcome: Crystallography-based docking identified a solvent-facing substitution opportunity that Drelvessa carried
+    into its next chemistry cycle.
   planted:
   - q5_structbio_D
   notes: 'Structural biology engagement: X-ray co-crystal coordinates guided docking and a ranked design list.'
 - id: PRJ0015
   firm: A
-  firm_project_id: VD-18-002
-  lims_id: VA20180002
-  title: Chemistry collaboration guided by X-ray co-crystal structures
+  firm_project_id: VD-18-131
+  lims_id: VA20181184
+  title: 'Rennelwick receptor programme: co-crystal-guided analogue synthesis'
   client_id: CL014
   client_variant: Rennelwick Institute Drug Discovery Unit
   services:
@@ -463,25 +477,26 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-03-19'
-    completion: '2018-05-07'
+    quote: '2018-09-28'
+    start: '2018-11-05'
+    interim: '2018-12-17'
+    completion: '2019-01-28'
   status: completed
   price:
     amount: 39300
     currency: GBP
-  turnaround_days: 98
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 84
+  outcome: The structural biology collaboration used X-ray co-crystal structures to guide a less hindered substituent
+    and delivered material for binding studies.
   planted:
   - q5_structbio_A
   notes: 'Structural biology collaboration: client-supplied X-ray co-crystal structures guided analogue design;
     crystallography was performed by the client.'
 - id: PRJ0016
   firm: A
-  firm_project_id: VD-96-003
-  lims_id: VA19960003
-  title: Analogue route development and synthesis — work package 01
+  firm_project_id: VD-96-072
+  lims_id: VA19960654
+  title: 'EB05 pyrrolopyridine chemistry: regioisomer separation and 24 analogues'
   client_id: CL006
   client_variant: Elvarmere Biosciences AB
   services:
@@ -495,23 +510,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '1996-01-15'
-    start: '1996-01-29'
-    interim: '1996-03-21'
-    completion: '1996-05-13'
+    quote: '1996-11-04'
+    start: '1996-12-06'
+    interim: '1997-01-09'
+    completion: '1997-02-13'
   status: completed
   price:
     amount: 24000
     currency: GBP
-  turnaround_days: 105
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 69
+  outcome: Preparative separation secured the desired regioisomer and enabled Elvarmere's first comparative potency
+    screen.
   planted: []
   notes: ''
 - id: PRJ0017
   firm: A
-  firm_project_id: VD-98-004
-  lims_id: VA19980004
-  title: Analogue route development and synthesis — work package 02
+  firm_project_id: VD-98-076
+  lims_id: VA19980690
+  title: 'DT06 aminopyridine campaign: convergent route and 32-member set'
   client_id: CL007
   client_variant: Drelvessa Therapeutics SAS
   services:
@@ -524,23 +540,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '1998-01-15'
-    start: '1998-01-29'
-    interim: '1998-03-12'
-    completion: '1998-04-23'
+    quote: '1998-10-19'
+    start: '1998-12-09'
+    interim: '1999-02-09'
+    completion: '1999-04-13'
   status: completed
   price:
     amount: 26500
     currency: GBP
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 125
+  outcome: Moving side-chain installation earlier improved recovery and gave Drelvessa enough material for a matched-pair
+    biology study.
   planted: []
   notes: ''
 - id: PRJ0018
   firm: A
-  firm_project_id: VD-15-005
-  lims_id: VA20150005
-  title: Analogue route development and synthesis — work package 03
+  firm_project_id: VD-15-134
+  lims_id: VA20151235
+  title: FT09 indazole N-substitution map, 40-compound delivery
   client_id: CL010
   client_variant: Feldorune Therapeutics BV
   services:
@@ -553,23 +570,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
-    interim: '2015-03-15'
-    completion: '2015-04-30'
+    quote: '2015-11-04'
+    start: '2015-12-28'
+    interim: '2016-02-12'
+    completion: '2016-03-30'
   status: completed
   price:
     amount: 42300
     currency: GBP
-  turnaround_days: 91
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 93
+  outcome: The N-substitution series was delivered with positional assignments, allowing Feldorune to distinguish
+    two divergent potency trends.
   planted: []
   notes: ''
 - id: PRJ0019
   firm: A
-  firm_project_id: VD-16-006
-  lims_id: VA20160006
-  title: Analogue route development and synthesis — work package 04
+  firm_project_id: VD-16-033
+  lims_id: VA20160323
+  title: VP10 aminoquinoline solubilising side chains, 18 analogues
   client_id: CL011
   client_variant: Valquessia Pharmaceuticals SpA
   services:
@@ -582,23 +600,23 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-03-18'
-    completion: '2016-05-06'
+    quote: '2016-03-04'
+    start: '2016-04-11'
+    interim: '2016-06-20'
+    completion: '2016-08-30'
   status: completed
   price:
     amount: 45300
     currency: GBP
-  turnaround_days: 98
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 141
+  outcome: Valquessia selected the salt-forming side chain for scale-up after the final isolation proved reproducible.
   planted: []
   notes: ''
 - id: PRJ0020
   firm: A
-  firm_project_id: VD-17-007
-  lims_id: VA20170007
-  title: Analogue route development and synthesis — work package 05
+  firm_project_id: VD-17-044
+  lims_id: VA20170410
+  title: 'RI13 phenoxyethyl amides: polar-tail synthesis campaign'
   client_id: CL014
   client_variant: Rennelwick Institute Drug Discovery Unit
   services:
@@ -611,23 +629,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-03-22'
-    completion: '2017-05-14'
+    quote: '2017-03-23'
+    start: '2017-04-24'
+    interim: '2017-06-12'
+    completion: '2017-08-01'
   status: completed
   price:
     amount: 34300
     currency: GBP
-  turnaround_days: 105
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 99
+  outcome: A protected aminoethyl intermediate opened access to the requested polar-tail variants without disrupting
+    the amide coupling.
   planted: []
   notes: ''
 - id: PRJ0021
   firm: A
-  firm_project_id: VD-18-008
-  lims_id: VA20180008
-  title: Analogue route development and synthesis — work package 06
+  firm_project_id: VD-18-059
+  lims_id: VA20180545
+  title: VM14 bicyclic lactam stereochemistry and reference standards
   client_id: CL015
   client_variant: Vesselquarn Medical Research Trust
   services:
@@ -640,23 +659,23 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-03-12'
-    completion: '2018-04-23'
+    quote: '2018-04-25'
+    start: '2018-05-14'
+    interim: '2018-07-19'
+    completion: '2018-09-24'
   status: completed
   price:
     amount: 37300
     currency: GBP
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 133
+  outcome: Vesselquarn received separated stereoisomers and retained both configurations for its ion-channel comparison.
   planted: []
   notes: ''
 - id: PRJ0022
   firm: A
-  firm_project_id: VD-19-009
-  lims_id: VA20190009
-  title: Analogue route development and synthesis — work package 07
+  firm_project_id: VD-19-120
+  lims_id: VA20191084
+  title: DT18 benzofuran acetamide route transfer and 40 analogues
   client_id: CL019
   client_variant: Doventhar Therapeutics
   services:
@@ -669,23 +688,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-03-15'
-    completion: '2019-04-30'
+    quote: '2019-09-02'
+    start: '2019-10-28'
+    interim: '2019-12-30'
+    completion: '2020-03-02'
   status: completed
   price:
     amount: 40300
     currency: GBP
-  turnaround_days: 91
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 126
+  outcome: A crystallisation work-up replaced chromatography for the shared intermediate and supported Doventhar's
+    outsourced follow-up batch.
   planted: []
   notes: ''
 - id: PRJ0023
   firm: A
-  firm_project_id: VD-20-010
-  lims_id: VA20200010
-  title: Analogue route development and synthesis — work package 08
+  firm_project_id: VD-20-028
+  lims_id: VA20200254
+  title: FM20 imidazolidinone late-stage diversification, 18 compounds
   client_id: CL021
   client_variant: Farnovessa Medicines
   services:
@@ -698,23 +718,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-03-18'
-    completion: '2020-05-06'
+    quote: '2020-02-19'
+    start: '2020-03-30'
+    interim: '2020-06-04'
+    completion: '2020-08-10'
   status: completed
   price:
     amount: 43500
     currency: GBP
-  turnaround_days: 98
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 133
+  outcome: The alkylation route favoured the desired substitution site and Farnovessa accepted the analogue set
+    with an impurity reference.
   planted: []
   notes: ''
 - id: PRJ0024
   firm: A
-  firm_project_id: VD-21-011
-  lims_id: VA20210011
-  title: Analogue route development and synthesis — work package 09
+  firm_project_id: VD-21-081
+  lims_id: VA20210739
+  title: 'Vornelquith heteroaryl building block: process impurity isolation'
   client_id: CL063
   client_variant: Vornelquith Biosciences
   services:
@@ -727,23 +748,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2021-01-15'
-    start: '2021-01-29'
-    interim: '2021-03-22'
-    completion: '2021-05-14'
+    quote: '2021-06-04'
+    start: '2021-06-25'
+    interim: '2021-08-30'
+    completion: '2021-11-01'
   status: completed
   price:
     amount: 46800
     currency: GBP
-  turnaround_days: 105
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 129
+  outcome: The isolated side-product explained the client's variable coupling yield and led to a tighter incoming-material
+    specification.
   planted: []
   notes: ''
 - id: PRJ0025
   firm: A
-  firm_project_id: VD-22-012
-  lims_id: VA20220012
-  title: Analogue route development and synthesis — work package 10
+  firm_project_id: VD-22-076
+  lims_id: VA20220698
+  title: Elvarmere chiral intermediate resupply, campaign B
   client_id: CL006
   client_variant: Elvarmere Biosciences AB
   services:
@@ -756,23 +778,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2022-01-15'
-    start: '2022-01-29'
-    interim: '2022-03-12'
-    completion: '2022-04-23'
+    quote: '2022-05-26'
+    start: '2022-07-18'
+    interim: '2022-09-05'
+    completion: '2022-10-24'
   status: completed
   price:
     amount: 50300
     currency: GBP
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 98
+  outcome: The resupply met the agreed enantiomeric-purity specification and restored the client's stalled downstream
+    synthesis.
   planted: []
   notes: ''
 - id: PRJ0026
   firm: A
-  firm_project_id: VD-26-013
-  lims_id: VA20260013
-  title: Analogue route development and synthesis — work package 11
+  firm_project_id: VD-26-068
+  lims_id: VA20260629
+  title: 'Valquessia VP-C amide coupling: scale-up feasibility'
   client_id: CL011
   client_variant: Valquessia Pharmaceuticals SpA
   services:
@@ -785,23 +808,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2026-08-16'
-    start: '2026-08-30'
-    interim: '2026-09-13'
+    quote: '2026-04-22'
+    start: '2026-05-18'
+    interim: '2026-07-08'
     completion: null
   status: in_progress
   price:
     amount: 58000
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The coupling screen is complete, with isolation trials continuing on the preferred solvent system before
+    route selection.
   planted: []
   notes: ''
 - id: PRJ0027
   firm: A
-  firm_project_id: VD-26-014
-  lims_id: VA20260014
-  title: Analogue route development and synthesis — work package 12
+  firm_project_id: VD-26-113
+  lims_id: VA20261023
+  title: 'Doventhar DT-R basic side chains: delivery lot 2'
   client_id: CL019
   client_variant: Doventhar Therapeutics
   services:
@@ -814,23 +838,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2026-08-17'
-    start: '2026-08-31'
-    interim: '2026-09-14'
+    quote: '2026-07-13'
+    start: '2026-08-10'
+    interim: '2026-09-16'
     completion: null
   status: in_progress
   price:
     amount: 42900
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The first side-chain intermediates have been isolated; the final coupling awaits release of the client's
+    replacement core.
   planted: []
   notes: ''
 - id: PRJ0028
   firm: A
-  firm_project_id: VD-26-015
-  lims_id: VA20260015
-  title: Analogue route development and synthesis — work package 13
+  firm_project_id: VD-26-091
+  lims_id: VA20260826
+  title: Nelmudara NLM-A fluorinated building blocks, scout batch
   client_id: CL029
   client_variant: Nelmudara Biosciences
   services:
@@ -843,23 +868,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2026-08-18'
-    start: '2026-09-01'
-    interim: '2026-09-15'
+    quote: '2026-06-09'
+    start: '2026-07-20'
+    interim: '2026-08-21'
     completion: null
   status: in_progress
   price:
     amount: 45400
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: An unstable boronate has delayed the route scout, and the team is evaluating a protected alternative
+    with the client.
   planted: []
   notes: ''
 - id: PRJ0029
   firm: A
-  firm_project_id: VD-25-016
-  lims_id: VA20250016
-  title: Analogue route development and synthesis — work package 14
+  firm_project_id: VD-25-125
+  lims_id: VA20251135
+  title: Zelmorven ZT-6 analogue synthesis quotation
   client_id: CL041
   client_variant: Zelmorven Therapeutics
   services:
@@ -872,7 +898,7 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2025-01-15'
+    quote: '2025-08-15'
     start: null
     interim: null
     completion: null
@@ -881,14 +907,15 @@ projects:
     amount: 46700
     currency: GBP
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Zelmorven placed the work with a lower-priced chemistry supplier after declining the proposed analytical
+    release package.
   planted: []
   notes: ''
 - id: PRJ0030
   firm: A
-  firm_project_id: VD-24-017
-  lims_id: VA20240017
-  title: Analogue route development and synthesis — work package 15
+  firm_project_id: VD-24-109
+  lims_id: VA20240986
+  title: 'Helvessora macrocycle linker supply: feasibility estimate'
   client_id: CL049
   client_variant: Helvessora Biosciences
   services:
@@ -901,7 +928,7 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2024-01-15'
+    quote: '2024-07-16'
     start: null
     interim: null
     completion: null
@@ -910,14 +937,15 @@ projects:
     amount: 48000
     currency: GBP
   turnaround_days: null
-  outcome: Quote issued; no purchase order or response received.
+  outcome: Helvessora has not returned the requested target structures despite a reminder following the feasibility
+    discussion.
   planted: []
   notes: ''
 - id: PRJ0031
   firm: A
-  firm_project_id: VD-25-018
-  lims_id: VA20250018
-  title: Analogue route development and synthesis — work package 16
+  firm_project_id: VD-25-066
+  lims_id: VA20250613
+  title: Rimucavel RC-17 backup route and impurity standards
   client_id: CL059
   client_variant: Rimucavel Therapeutics
   services:
@@ -930,23 +958,24 @@ projects:
   - NS02
   - NS03
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
+    quote: '2025-04-23'
+    start: '2025-05-21'
+    interim: '2025-06-11'
     completion: null
   status: on_hold
   price:
     amount: 51700
     currency: GBP
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: The route campaign is paused after Rimucavel delayed its funding round; isolated intermediates remain
+    in controlled storage.
   planted: []
   notes: ''
 - id: PRJ0032
   firm: B
-  firm_project_id: BW01_0004
-  lims_id: B-ACC-2001-00004
-  title: Assay-led compound progression — work package 01
+  firm_project_id: BW01_0059
+  lims_id: B-ACC-2001-01010
+  title: QP07 metabolic kinase potency and selectivity fingerprint
   client_id: CL008
   client_variant: Quorenthel Pharma GmbH
   services:
@@ -961,23 +990,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2001-01-15'
-    start: '2001-01-29'
-    interim: '2001-02-12'
-    completion: '2001-02-26'
+    quote: '2001-03-14'
+    start: '2001-04-06'
+    interim: '2001-04-27'
+    completion: '2001-05-18'
   status: completed
   price:
     amount: 10700
     currency: GBP
-  turnaround_days: 28
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 42
+  outcome: The primary potency ranking survived the selectivity counterscreen, and Quorenthel progressed the compact
+    heteroaryl subset.
   planted: []
   notes: ''
 - id: PRJ0033
   firm: B
-  firm_project_id: BW03_0005
-  lims_id: B-ACC-2003-00005
-  title: Assay-led compound progression — work package 02
+  firm_project_id: BW03_0098
+  lims_id: B-ACC-2003-01676
+  title: 'BP16 protease programme: manual hERG patch-clamp assessment'
   client_id: CL017
   client_variant: Belquorin Pharma
   services:
@@ -991,23 +1021,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2003-01-15'
-    start: '2003-01-29'
-    interim: '2003-02-15'
-    completion: '2003-03-05'
+    quote: '2003-04-21'
+    start: '2003-05-07'
+    interim: '2003-05-15'
+    completion: '2003-05-23'
   status: completed
   price:
     amount: 8500
     currency: GBP
-  turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 16
+  outcome: The lipophilic cap carried an ion-channel liability, and Belquorin requested less basic replacements
+    rather than further testing of that branch.
   planted: []
   notes: ''
 - id: PRJ0034
   firm: B
-  firm_project_id: BW15_0006
-  lims_id: B-ACC-2015-00006
-  title: Assay-led compound progression — work package 03
+  firm_project_id: BW15_0277
+  lims_id: B-ACC-2015-04728
+  title: 'CB17 nuclear-receptor ligands: CYP interaction risk panel'
   client_id: CL018
   client_variant: Cadrunelle Biosciences
   services:
@@ -1021,23 +1052,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
-    interim: '2015-02-19'
-    completion: '2015-03-12'
+    quote: '2015-07-29'
+    start: '2015-08-10'
+    interim: '2015-08-19'
+    completion: '2015-08-28'
   status: completed
   price:
     amount: 12000
     currency: GBP
-  turnaround_days: 42
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 18
+  outcome: A selective CYP interaction in the thiophene-rich branch led Cadrunelle to favour the oxygen-containing
+    replacements.
   planted: []
   notes: ''
 - id: PRJ0035
   firm: B
-  firm_project_id: BW16_0007
-  lims_id: B-ACC-2016-00007
-  title: Assay-led compound progression — work package 04
+  firm_project_id: BW16_0168
+  lims_id: B-ACC-2016-02878
+  title: 'EB05 early DMPK: microsomal turnover and RED binding'
   client_id: CL006
   client_variant: Elvarmere Biosciences AB
   services:
@@ -1052,23 +1084,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-02-22'
-    completion: '2016-03-18'
+    quote: '2016-05-02'
+    start: '2016-05-23'
+    interim: '2016-06-20'
+    completion: '2016-07-14'
   status: completed
   price:
     amount: 12600
     currency: GBP
-  turnaround_days: 49
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 52
+  outcome: Elvarmere found that high binding did not explain the rapid turnover and commissioned metabolite identification
+    on the retained lead.
   planted: []
   notes: ''
 - id: PRJ0036
   firm: B
-  firm_project_id: BW17_0008
-  lims_id: B-ACC-2017-00008
-  title: Assay-led compound progression — work package 05
+  firm_project_id: BW17_0415
+  lims_id: B-ACC-2017-07069
+  title: 'QP07 hinge substitutions: primary potency plus selectivity panel'
   client_id: CL008
   client_variant: Quorenthel Pharma GmbH
   services:
@@ -1081,23 +1114,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-02-12'
-    completion: '2017-02-26'
+    quote: '2017-10-23'
+    start: '2017-12-04'
+    interim: '2017-12-29'
+    completion: '2018-01-23'
   status: completed
   price:
     amount: 13600
     currency: GBP
-  turnaround_days: 28
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 50
+  outcome: The hinge modification improved selectivity at the cost of some primary potency, giving Quorenthel a
+    clearer optimisation direction.
   planted: []
   notes: ''
 - id: PRJ0037
   firm: B
-  firm_project_id: BW18_0009
-  lims_id: B-ACC-2018-00009
-  title: Assay-led compound progression — work package 06
+  firm_project_id: BW18_0225
+  lims_id: B-ACC-2018-03853
+  title: FT09 indazole cardiac counterscreen, synthesis lot C
   client_id: CL010
   client_variant: Feldorune Therapeutics BV
   services:
@@ -1110,23 +1144,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-02-15'
-    completion: '2018-03-05'
+    quote: '2018-06-06'
+    start: '2018-07-06'
+    interim: '2018-07-16'
+    completion: '2018-07-23'
   status: completed
   price:
     amount: 10600
     currency: GBP
-  turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 17
+  outcome: Feldorune dropped the most strongly basic side chain after reproducible hERG inhibition in the confirmatory
+    run.
   planted: []
   notes: ''
 - id: PRJ0038
   firm: B
-  firm_project_id: BW19_0010
-  lims_id: B-ACC-2019-00010
-  title: Assay-led compound progression — work package 07
+  firm_project_id: BW19_0436
+  lims_id: B-ACC-2019-07416
+  title: 'OB11 antagonist backup set: five-CYP panel'
   client_id: CL012
   client_variant: Orvessant Biosciences Pty Ltd
   services:
@@ -1139,23 +1174,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-02-19'
-    completion: '2019-03-12'
+    quote: '2019-10-22'
+    start: '2019-11-12'
+    interim: '2019-11-20'
+    completion: '2019-11-29'
   status: completed
   price:
     amount: 11500
     currency: GBP
-  turnaround_days: 42
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 17
+  outcome: The ether-linked backup set reduced the CYP liability enough for Orvessant to commission an exposure
+    comparison.
   planted: []
   notes: ''
 - id: PRJ0039
   firm: B
-  firm_project_id: BW20_0011
-  lims_id: B-ACC-2020-00011
-  title: Assay-led compound progression — work package 08
+  firm_project_id: BW20_0137
+  lims_id: B-ACC-2020-02338
+  title: 'RI13 nuclear-receptor programme: HLM stability and free fraction'
   client_id: CL014
   client_variant: Rennelwick Institute Drug Discovery Unit
   services:
@@ -1168,23 +1204,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-02-22'
-    completion: '2020-03-18'
+    quote: '2020-03-27'
+    start: '2020-04-06'
+    interim: '2020-04-29'
+    completion: '2020-05-22'
   status: completed
   price:
     amount: 17100
     currency: GBP
-  turnaround_days: 49
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 46
+  outcome: Rennelwick prioritised the less bound amides for permeability work after the initial stability ranking
+    proved consistent.
   planted: []
   notes: ''
 - id: PRJ0040
   firm: B
-  firm_project_id: BW21_0012
-  lims_id: B-ACC-2021-00012
-  title: Assay-led compound progression — work package 09
+  firm_project_id: BW21_0240
+  lims_id: B-ACC-2021-04086
+  title: TP04 kinase selectivity reassessment after scaffold substitution
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -1197,23 +1234,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2021-01-15'
-    start: '2021-01-29'
-    interim: '2021-02-12'
-    completion: '2021-02-26'
+    quote: '2021-06-04'
+    start: '2021-07-05'
+    interim: '2021-07-27'
+    completion: '2021-08-19'
   status: completed
   price:
     amount: 18400
     currency: GBP
-  turnaround_days: 28
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 45
+  outcome: The revised hinge core reduced off-target activity and Tervemere retained the polar substituents for
+    the next design cycle.
   planted: []
   notes: ''
 - id: PRJ0041
   firm: B
-  firm_project_id: BW22_0013
-  lims_id: B-ACC-2022-00013
-  title: Assay-led compound progression — work package 10
+  firm_project_id: BW22_0141
+  lims_id: B-ACC-2022-02415
+  title: 'CB17 aromatic-cap variants: hERG concentration-response curves'
   client_id: CL018
   client_variant: Cadrunelle Biosciences
   services:
@@ -1226,23 +1264,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2022-01-15'
-    start: '2022-01-29'
-    interim: '2022-02-15'
-    completion: '2022-03-05'
+    quote: '2022-03-29'
+    start: '2022-04-26'
+    interim: '2022-05-04'
+    completion: '2022-05-12'
   status: completed
   price:
     amount: 14200
     currency: GBP
-  turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 16
+  outcome: Cadrunelle found the cardiac signal followed the aromatic cap and chose a less lipophilic replacement
+    series.
   planted: []
   notes: ''
 - id: PRJ0042
   firm: B
-  firm_project_id: BW23_0014
-  lims_id: B-ACC-2023-00014
-  title: Assay-led compound progression — work package 11
+  firm_project_id: BW23_0061
+  lims_id: B-ACC-2023-01043
+  title: 'FM20 protease inhibitors: screening CYP interaction map'
   client_id: CL021
   client_variant: Farnovessa Medicines
   services:
@@ -1255,23 +1294,23 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2023-01-15'
-    start: '2023-01-29'
-    interim: '2023-02-19'
-    completion: '2023-03-12'
+    quote: '2023-02-06'
+    start: '2023-03-13'
+    interim: '2023-03-21'
+    completion: '2023-03-29'
   status: completed
   price:
     amount: 10800
     currency: GBP
-  turnaround_days: 42
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 16
+  outcome: Farnovessa requested time-dependent inhibition follow-up on the urea-containing subset before nomination.
   planted: []
   notes: ''
 - id: PRJ0043
   firm: B
-  firm_project_id: BW24_0015
-  lims_id: B-ACC-2024-00015
-  title: Assay-led compound progression — work package 12
+  firm_project_id: BW24_0253
+  lims_id: B-ACC-2024-04310
+  title: AP02 microsomal clearance and equilibrium-dialysis recovery
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -1284,23 +1323,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2024-01-15'
-    start: '2024-01-29'
-    interim: '2024-02-22'
-    completion: '2024-03-18'
+    quote: '2024-05-29'
+    start: '2024-07-11'
+    interim: '2024-08-05'
+    completion: '2024-08-26'
   status: completed
   price:
     amount: 16200
     currency: GBP
-  turnaround_days: 49
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 46
+  outcome: Low dialysis recovery confounded the first binding run; the repeat with revised labware gave an interpretable
+    free-fraction ranking.
   planted: []
   notes: ''
 - id: PRJ0044
   firm: B
-  firm_project_id: BW25_0016
-  lims_id: B-ACC-2025-00016
-  title: Assay-led compound progression — work package 13
+  firm_project_id: BW25_0600
+  lims_id: B-ACC-2025-10218
+  title: AP02 hinge-binder selectivity sweep, 24 reserve compounds
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -1313,23 +1353,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
-    completion: '2025-02-26'
+    quote: '2025-12-18'
+    start: '2025-12-31'
+    interim: '2026-01-13'
+    completion: '2026-01-26'
   status: completed
   price:
     amount: 17500
     currency: GBP
-  turnaround_days: 28
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 26
+  outcome: Avernelwick selected a reserve compound with a narrower off-target fingerprint for its next medicinal
+    chemistry round.
   planted: []
   notes: ''
 - id: PRJ0045
   firm: B
-  firm_project_id: BW25_0017
-  lims_id: B-ACC-2025-00017
-  title: Assay-led compound progression — work package 14
+  firm_project_id: BW25_0231
+  lims_id: B-ACC-2025-03942
+  title: 'TP04 soluble-tail analogues: hERG follow-up on 32 compounds'
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -1342,23 +1383,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-15'
-    completion: '2025-03-05'
+    quote: '2025-05-15'
+    start: '2025-06-06'
+    interim: '2025-06-16'
+    completion: '2025-06-25'
   status: completed
   price:
     amount: 13300
     currency: GBP
-  turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 19
+  outcome: The soluble-tail design reduced the channel signal and Tervemere resumed exposure testing of the retained
+    branch.
   planted: []
   notes: ''
 - id: PRJ0046
   firm: B
-  firm_project_id: BW26_0018
-  lims_id: B-ACC-2026-00018
-  title: Assay-led compound progression — work package 15
+  firm_project_id: BW26_0401
+  lims_id: B-ACC-2026-06843
+  title: 'EB05 metabolism liabilities: five-isoform CYP screen'
   client_id: CL006
   client_variant: Elvarmere Biosciences AB
   services:
@@ -1371,23 +1413,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2026-08-21'
-    start: '2026-09-04'
-    interim: '2026-09-18'
+    quote: '2026-08-19'
+    start: '2026-09-14'
+    interim: '2026-09-24'
     completion: null
   status: in_progress
   price:
     amount: 14300
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The plate runs are complete and the repeat of a poorly recovered sample remains open before the signed
+    report can be released.
   planted: []
   notes: ''
 - id: PRJ0047
   firm: B
-  firm_project_id: BW26_0019
-  lims_id: B-ACC-2026-00019
-  title: Assay-led compound progression — work package 16
+  firm_project_id: BW26_0368
+  lims_id: B-ACC-2026-06283
+  title: 'QP07 polar tails: microsomal stability and binding package'
   client_id: CL008
   client_variant: Quorenthel Pharma GmbH
   services:
@@ -1400,23 +1443,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2026-08-22'
-    start: '2026-09-05'
-    interim: '2026-09-19'
+    quote: '2026-07-28'
+    start: '2026-08-31'
+    interim: '2026-09-18'
     completion: null
   status: in_progress
   price:
     amount: 20800
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: Binding recovery has been reconciled, with the final stability repeat queued after a delayed reference-control
+    shipment.
   planted: []
   notes: ''
 - id: PRJ0048
   firm: B
-  firm_project_id: BW26_0020
-  lims_id: B-ACC-2026-00020
-  title: Assay-led compound progression — work package 17
+  firm_project_id: BW26_0417
+  lims_id: B-ACC-2026-07111
+  title: QP07 kinase potency retest against selectivity sentinels
   client_id: CL008
   client_variant: Quorenthel Pharma GmbH
   services:
@@ -1429,23 +1473,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2026-08-23'
-    start: '2026-09-06'
-    interim: '2026-09-20'
+    quote: '2026-08-27'
+    start: '2026-09-21'
+    interim: '2026-09-30'
     completion: null
   status: in_progress
   price:
     amount: 21700
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The primary assay is complete; selectivity confirmation is running on fresh dilutions following a precipitation
+    observation.
   planted: []
   notes: ''
 - id: PRJ0049
   firm: B
-  firm_project_id: BW26_0021
-  lims_id: B-ACC-2026-00021
-  title: Assay-led compound progression — work package 18
+  firm_project_id: BW26_0428
+  lims_id: B-ACC-2026-07296
+  title: OB11 non-kinase cardiac screen, resynthesised lot
   client_id: CL012
   client_variant: Orvessant Biosciences Pty Ltd
   services:
@@ -1458,23 +1503,23 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2026-08-24'
-    start: '2026-09-07'
-    interim: '2026-09-21'
+    quote: '2026-09-02'
+    start: '2026-09-22'
+    interim: '2026-10-01'
     completion: null
   status: in_progress
   price:
     amount: 11600
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The replacement lot is in patch-clamp testing after the original shipment failed the concentration check.
   planted: []
   notes: ''
 - id: PRJ0050
   firm: B
-  firm_project_id: BW24_0022
-  lims_id: B-ACC-2024-00022
-  title: Assay-led compound progression — work package 19
+  firm_project_id: BW24_0330
+  lims_id: B-ACC-2024-05636
+  title: Rennelwick RI13 CYP panel with confirmatory dilution set
   client_id: CL014
   client_variant: Rennelwick Institute Drug Discovery Unit
   services:
@@ -1487,7 +1532,7 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2024-01-15'
+    quote: '2024-07-15'
     start: null
     interim: null
     completion: null
@@ -1496,14 +1541,15 @@ projects:
     amount: 11700
     currency: GBP
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Rennelwick moved the screening work to its newly commissioned internal laboratory before accepting the
+    quotation.
   planted: []
   notes: ''
 - id: PRJ0051
   firm: B
-  firm_project_id: BW25_0023
-  lims_id: B-ACC-2025-00023
-  title: Assay-led compound progression — work package 20
+  firm_project_id: BW25_0273
+  lims_id: B-ACC-2025-04654
+  title: 'Belquorin BP16 binding and clearance: discovery package quote'
   client_id: CL017
   client_variant: Belquorin Pharma
   services:
@@ -1516,7 +1562,7 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2025-01-15'
+    quote: '2025-06-09'
     start: null
     interim: null
     completion: null
@@ -1525,14 +1571,14 @@ projects:
     amount: 17500
     currency: GBP
   turnaround_days: null
-  outcome: Quote issued; no purchase order or response received.
+  outcome: Belquorin has left the quotation unanswered while its programme team settles the next compound shipment.
   planted: []
   notes: ''
 - id: PRJ0052
   firm: B
-  firm_project_id: BW24_0024
-  lims_id: B-ACC-2024-00024
-  title: Assay-led compound progression — work package 21
+  firm_project_id: BW24_0303
+  lims_id: B-ACC-2024-05167
+  title: Tervemere TP04 potency/selectivity panel, external capacity request
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -1545,7 +1591,7 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2024-01-15'
+    quote: '2024-06-27'
     start: null
     interim: null
     completion: null
@@ -1554,14 +1600,15 @@ projects:
     amount: 18000
     currency: GBP
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Tervemere chose an incumbent screening laboratory whose panel covered additional requested kinases at
+    the same price.
   planted: []
   notes: ''
 - id: PRJ0053
   firm: B
-  firm_project_id: BW25_0025
-  lims_id: B-ACC-2025-00025
-  title: Assay-led compound progression — work package 22
+  firm_project_id: BW25_0486
+  lims_id: B-ACC-2025-08282
+  title: 'FM20 hERG screen: delayed nomination support'
   client_id: CL021
   client_variant: Farnovessa Medicines
   services:
@@ -1574,23 +1621,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
+    quote: '2025-10-13'
+    start: '2025-11-24'
+    interim: '2025-12-15'
     completion: null
   status: on_hold
   price:
     amount: 14000
     currency: GBP
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: Farnovessa paused the screen while its nomination committee reviews a new efficacy concern unrelated
+    to the assay.
   planted: []
   notes: ''
 - id: PRJ0054
   firm: B
-  firm_project_id: BW24_0026
-  lims_id: B-ACC-2024-00026
-  title: Assay-led compound progression — work package 23
+  firm_project_id: BW24_0097
+  lims_id: B-ACC-2024-01673
+  title: AP02 CYP interaction panel, follow-up shipment cancelled
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -1603,23 +1651,24 @@ projects:
   - NS06
   - NS07
   dates:
-    quote: '2024-01-15'
-    start: '2024-01-29'
-    interim: '2024-02-12'
+    quote: '2024-02-26'
+    start: '2024-03-07'
+    interim: '2024-03-28'
     completion: null
   status: cancelled
   price:
     amount: 14300
     currency: GBP
   turnaround_days: null
-  outcome: Work stopped at the agreed checkpoint; no final report commissioned.
+  outcome: Avernelwick withdrew the shipment after the backup chemistry branch was discontinued, before any screening
+    plates were run.
   planted: []
   notes: ''
 - id: PRJ0055
   firm: C
-  firm_project_id: MV-2006-006
-  lims_id: M06/BIO/00006
-  title: Disposition and exposure assessment — work package 01
+  firm_project_id: MV-2006-090
+  lims_id: M06/BIO/02077
+  title: 'NM08 paired liver systems: HLM and hepatocyte clearance'
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   services:
@@ -1634,23 +1683,23 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2006-01-15'
-    start: '2006-01-29'
-    interim: '2006-02-22'
-    completion: '2006-03-19'
+    quote: '2006-05-22'
+    start: '2006-06-05'
+    interim: '2006-06-26'
+    completion: '2006-07-18'
   status: completed
   price:
     amount: 19200
     currency: USD
-  turnaround_days: 49
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 43
+  outcome: Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed with their microsomal ranking.
   planted: []
   notes: ''
 - id: PRJ0056
   firm: C
-  firm_project_id: MV-2008-007
-  lims_id: M08/BIO/00007
-  title: Disposition and exposure assessment — work package 02
+  firm_project_id: MV-2008-013
+  lims_id: M08/BIO/00303
+  title: KT12 permeability, solubility and plasma-binding decision set
   client_id: CL013
   client_variant: Kelbravik Therapeutics ApS
   services:
@@ -1666,23 +1715,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2008-01-15'
-    start: '2008-01-29'
-    interim: '2008-02-26'
-    completion: '2008-03-25'
+    quote: '2008-01-10'
+    start: '2008-02-18'
+    interim: '2008-03-05'
+    completion: '2008-03-21'
   status: completed
   price:
     amount: 14900
     currency: USD
-  turnaround_days: 56
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 32
+  outcome: Kelbravik separated a permeability-limited branch from a solubility-limited branch and commissioned a
+    focused formulation assessment.
   planted: []
   notes: ''
 - id: PRJ0057
   firm: C
-  firm_project_id: MV-2015-008
-  lims_id: M15/BIO/00008
-  title: Disposition and exposure assessment — work package 03
+  firm_project_id: MV-2015-240
+  lims_id: M15/BIO/05540
+  title: 'AT15 GPCR lead: oral/IV rat exposure and LC-MS/MS assay'
   client_id: CL016
   client_variant: Aldrevessa Therapeutics
   services:
@@ -1696,23 +1746,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
-    interim: '2015-02-15'
-    completion: '2015-03-05'
+    quote: '2015-10-05'
+    start: '2015-11-16'
+    interim: '2015-12-03'
+    completion: '2015-12-21'
   status: completed
   price:
     amount: 9400
     currency: USD
   turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  outcome: Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa to revisit the
+    dosing vehicle.
   planted: []
   notes: ''
 - id: PRJ0058
   firm: C
-  firm_project_id: MV-2016-009
-  lims_id: M16/BIO/00009
-  title: Disposition and exposure assessment — work package 04
+  firm_project_id: MV-2016-095
+  lims_id: M16/BIO/02193
+  title: 'TP04 DDI follow-up: panel inhibition and CYP3A4 curves'
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -1727,23 +1778,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-02-19'
-    completion: '2016-03-11'
+    quote: '2016-04-14'
+    start: '2016-05-30'
+    interim: '2016-06-07'
+    completion: '2016-06-16'
   status: completed
   price:
     amount: 20300
     currency: USD
-  turnaround_days: 42
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 17
+  outcome: Tervemere retained the low-interaction branch after the concentration-response work confirmed the screen's
+    rank order.
   planted: []
   notes: ''
 - id: PRJ0059
   firm: C
-  firm_project_id: MV-2017-010
-  lims_id: M17/BIO/00010
-  title: Disposition and exposure assessment — work package 05
+  firm_project_id: MV-2017-098
+  lims_id: M17/BIO/02257
+  title: EB05 cross-species metabolic stability, fresh hepatocyte lot
   client_id: CL006
   client_variant: Elvarmere Biosciences AB
   services:
@@ -1756,23 +1808,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-02-22'
-    completion: '2017-03-19'
+    quote: '2017-04-12'
+    start: '2017-06-02'
+    interim: '2017-06-21'
+    completion: '2017-07-10'
   status: completed
   price:
     amount: 21900
     currency: USD
-  turnaround_days: 49
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 38
+  outcome: The rat system overpredicted human turnover for the polar subset, and Elvarmere requested additional
+    metabolite coverage.
   planted: []
   notes: ''
 - id: PRJ0060
   firm: C
-  firm_project_id: MV-2018-011
-  lims_id: M18/BIO/00011
-  title: Disposition and exposure assessment — work package 06
+  firm_project_id: MV-2018-336
+  lims_id: M18/BIO/07750
+  title: 'QP07 absorption triage: Caco-2, kinetic solubility and PPB'
   client_id: CL008
   client_variant: Quorenthel Pharma GmbH
   services:
@@ -1785,23 +1838,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-02-26'
-    completion: '2018-03-26'
+    quote: '2018-12-21'
+    start: '2019-01-28'
+    interim: '2019-02-12'
+    completion: '2019-02-28'
   status: completed
   price:
     amount: 23500
     currency: USD
-  turnaround_days: 56
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 31
+  outcome: High efflux in the otherwise soluble branch led Quorenthel to redesign the exposed amine rather than
+    increase lipophilicity.
   planted: []
   notes: ''
 - id: PRJ0061
   firm: C
-  firm_project_id: MV-2019-012
-  lims_id: M19/BIO/00012
-  title: Disposition and exposure assessment — work package 07
+  firm_project_id: MV-2019-081
+  lims_id: M19/BIO/01882
+  title: 'Parvessune PV-221 rat PK: dosing-vehicle comparison'
   client_id: CL057
   client_variant: Parvessune Pharmaceuticals
   services:
@@ -1814,23 +1868,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-02-15'
-    completion: '2019-03-05'
+    quote: '2019-03-20'
+    start: '2019-03-27'
+    interim: '2019-04-18'
+    completion: '2019-05-10'
   status: completed
   price:
     amount: 12600
     currency: USD
-  turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 44
+  outcome: The suspension vehicle gave inconsistent exposure and Parvessune selected the solution vehicle for its
+    next efficacy study.
   planted: []
   notes: ''
 - id: PRJ0062
   firm: C
-  firm_project_id: MV-2020-013
-  lims_id: M20/BIO/00013
-  title: Disposition and exposure assessment — work package 08
+  firm_project_id: MV-2020-088
+  lims_id: M20/BIO/02046
+  title: OB11 antagonist DDI assessment with CYP3A4 confirmation
   client_id: CL012
   client_variant: Orvessant Biosciences Pty Ltd
   services:
@@ -1843,23 +1898,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-02-19'
-    completion: '2020-03-11'
+    quote: '2020-03-25'
+    start: '2020-04-10'
+    interim: '2020-04-20'
+    completion: '2020-04-29'
   status: completed
   price:
     amount: 27100
     currency: USD
-  turnaround_days: 42
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 19
+  outcome: The CYP3A4 follow-up confirmed the liability in the lipophilic cap variants and Orvessant switched to
+    the alternate cap.
   planted: []
   notes: ''
 - id: PRJ0063
   firm: C
-  firm_project_id: MV-2021-014
-  lims_id: M21/BIO/00014
-  title: Disposition and exposure assessment — work package 09
+  firm_project_id: MV-2021-284
+  lims_id: M21/BIO/06539
+  title: 'KT12 protease analogues: hepatocyte versus microsome stability'
   client_id: CL013
   client_variant: Kelbravik Therapeutics ApS
   services:
@@ -1872,23 +1928,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2021-01-15'
-    start: '2021-01-29'
-    interim: '2021-02-22'
-    completion: '2021-03-19'
+    quote: '2021-09-27'
+    start: '2021-11-16'
+    interim: '2021-12-03'
+    completion: '2021-12-20'
   status: completed
   price:
     amount: 20500
     currency: USD
-  turnaround_days: 49
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 34
+  outcome: Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's
+    shortlist.
   planted: []
   notes: ''
 - id: PRJ0064
   firm: C
-  firm_project_id: MV-2022-015
-  lims_id: M22/BIO/00015
-  title: Disposition and exposure assessment — work package 10
+  firm_project_id: MV-2022-111
+  lims_id: M22/BIO/02562
+  title: 'RI13 oral-property panel: permeability recovery investigation'
   client_id: CL014
   client_variant: Rennelwick Institute Drug Discovery Unit
   services:
@@ -1901,23 +1958,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2022-01-15'
-    start: '2022-01-29'
-    interim: '2022-02-26'
-    completion: '2022-03-26'
+    quote: '2022-04-13'
+    start: '2022-04-25'
+    interim: '2022-05-23'
+    completion: '2022-06-20'
   status: completed
   price:
     amount: 22300
     currency: USD
   turnaround_days: 56
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  outcome: A mass-balance repeat resolved the low apparent permeability and Rennelwick reinstated the previously
+    excluded amide.
   planted: []
   notes: ''
 - id: PRJ0065
   firm: C
-  firm_project_id: MV-2023-016
-  lims_id: M23/BIO/00016
-  title: Disposition and exposure assessment — work package 11
+  firm_project_id: MV-2023-288
+  lims_id: M23/BIO/06630
+  title: Nimbravelle NM-84 exposure bridging between dosing lots
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   services:
@@ -1930,23 +1988,23 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2023-01-15'
-    start: '2023-01-29'
-    interim: '2023-02-15'
-    completion: '2023-03-05'
+    quote: '2023-09-14'
+    start: '2023-10-16'
+    interim: '2023-11-06'
+    completion: '2023-11-27'
   status: completed
   price:
     amount: 12000
     currency: USD
-  turnaround_days: 35
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 42
+  outcome: Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation.
   planted: []
   notes: ''
 - id: PRJ0066
   firm: C
-  firm_project_id: MV-2026-017
-  lims_id: M26/BIO/00017
-  title: Disposition and exposure assessment — work package 12
+  firm_project_id: MV-2026-278
+  lims_id: M26/BIO/06402
+  title: BP16 CYP interaction confirmation, soluble protease analogues
   client_id: CL017
   client_variant: Belquorin Pharma
   services:
@@ -1959,23 +2017,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2026-08-20'
-    start: '2026-09-03'
-    interim: '2026-09-17'
+    quote: '2026-08-13'
+    start: '2026-09-10'
+    interim: '2026-09-24'
     completion: null
   status: in_progress
   price:
     amount: 27300
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The screening runs are complete and the concentration-response analysis is awaiting the client's identity
+    confirmation for a relabelled vial.
   planted: []
   notes: ''
 - id: PRJ0067
   firm: C
-  firm_project_id: MV-2026-018
-  lims_id: M26/BIO/00018
-  title: Disposition and exposure assessment — work package 13
+  firm_project_id: MV-2026-264
+  lims_id: M26/BIO/06077
+  title: CB17 human/rat clearance package, autumn delivery
   client_id: CL018
   client_variant: Cadrunelle Biosciences
   services:
@@ -1988,23 +2047,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2026-08-21'
-    start: '2026-09-04'
-    interim: '2026-09-18'
+    quote: '2026-08-06'
+    start: '2026-09-03'
+    interim: '2026-09-25'
     completion: null
   status: in_progress
   price:
     amount: 28700
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: Hepatocyte runs are under way following acceptance of the replacement shipment, with microsomal data
+    already released as an interim memo.
   planted: []
   notes: ''
 - id: PRJ0068
   firm: C
-  firm_project_id: MV-2026-019
-  lims_id: M26/BIO/00019
-  title: Disposition and exposure assessment — work package 14
+  firm_project_id: MV-2026-292
+  lims_id: M26/BIO/06732
+  title: FM20 absorption-support panel, formulation shortlist
   client_id: CL021
   client_variant: Farnovessa Medicines
   services:
@@ -2017,23 +2077,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2026-08-22'
-    start: '2026-09-05'
-    interim: '2026-09-19'
+    quote: '2026-08-18'
+    start: '2026-09-07'
+    interim: '2026-09-28'
     completion: null
   status: in_progress
   price:
     amount: 30000
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The dialysis and solubility results are available; Caco-2 recovery checks remain open for the poorly
+    soluble branch.
   planted: []
   notes: ''
 - id: PRJ0069
   firm: C
-  firm_project_id: MV-2026-020
-  lims_id: M26/BIO/00020
-  title: Disposition and exposure assessment — work package 15
+  firm_project_id: MV-2026-240
+  lims_id: M26/BIO/05530
+  title: Lomervessa LM-07 exploratory oral rat exposure
   client_id: CL027
   client_variant: Lomervessa Pharma
   services:
@@ -2046,23 +2107,24 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2026-08-23'
-    start: '2026-09-06'
-    interim: '2026-09-20'
+    quote: '2026-07-16'
+    start: '2026-08-24'
+    interim: '2026-09-15'
     completion: null
   status: in_progress
   price:
     amount: 15700
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: Bioanalysis is in progress after the dosing phase, with a dilution-integrity repeat required for the
+    peak samples.
   planted: []
   notes: ''
 - id: PRJ0070
   firm: C
-  firm_project_id: MV-2025-021
-  lims_id: M25/BIO/00021
-  title: Disposition and exposure assessment — work package 16
+  firm_project_id: MV-2025-272
+  lims_id: M25/BIO/06272
+  title: 'ST03 CYP panel and 3A4 concentration response: capacity quote'
   client_id: CL004
   client_variant: Selverant
   services:
@@ -2075,7 +2137,7 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2025-01-15'
+    quote: '2025-08-18'
     start: null
     interim: null
     completion: null
@@ -2084,14 +2146,14 @@ projects:
     amount: 22700
     currency: USD
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Selverant chose its existing bioanalysis partner to keep the CYP work alongside a larger exposure package.
   planted: []
   notes: ''
 - id: PRJ0071
   firm: C
-  firm_project_id: MV-2024-022
-  lims_id: M24/BIO/00022
-  title: Disposition and exposure assessment — work package 17
+  firm_project_id: MV-2024-292
+  lims_id: M24/BIO/06736
+  title: 'TP04 metabolic stability package: second chemistry tranche'
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -2104,7 +2166,7 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2024-01-15'
+    quote: '2024-09-13'
     start: null
     interim: null
     completion: null
@@ -2113,14 +2175,14 @@ projects:
     amount: 23400
     currency: USD
   turnaround_days: null
-  outcome: Quote issued; no purchase order or response received.
+  outcome: Tervemere has not confirmed the tranche composition and the reserved hepatocyte slot has been released.
   planted: []
   notes: ''
 - id: PRJ0072
   firm: C
-  firm_project_id: MV-2025-023
-  lims_id: M25/BIO/00023
-  title: Disposition and exposure assessment — work package 18
+  firm_project_id: MV-2025-227
+  lims_id: M25/BIO/05243
+  title: EB05 absorption and binding package, candidate shortlist
   client_id: CL006
   client_variant: Elvarmere Biosciences AB
   services:
@@ -2133,7 +2195,7 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2025-01-15'
+    quote: '2025-07-14'
     start: null
     interim: null
     completion: null
@@ -2142,14 +2204,15 @@ projects:
     amount: 25300
     currency: USD
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Elvarmere rejected the bundled price and commissioned only the solubility measurements from an internal
+    group.
   planted: []
   notes: ''
 - id: PRJ0073
   firm: C
-  firm_project_id: MV-2024-024
-  lims_id: M24/BIO/00024
-  title: Disposition and exposure assessment — work package 19
+  firm_project_id: MV-2024-171
+  lims_id: M24/BIO/03939
+  title: 'Celmorath CM-34 rat exposure: assay qualification paused'
   client_id: CL044
   client_variant: Celmorath Pharma
   services:
@@ -2162,23 +2225,23 @@ projects:
   - NS10
   - NS11
   dates:
-    quote: '2024-01-15'
-    start: '2024-01-29'
-    interim: '2024-02-12'
+    quote: '2024-05-30'
+    start: '2024-07-01'
+    interim: '2024-07-22'
     completion: null
   status: on_hold
   price:
     amount: 13000
     currency: USD
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: Celmorath paused qualification after its candidate failed an efficacy replication; no animals were dosed.
   planted: []
   notes: ''
 - id: PRJ0074
   firm: D
-  firm_project_id: QV.11.003
-  lims_id: QDATA2011-0003
-  title: Target evidence and computational prioritisation — work package 01
+  firm_project_id: QV.11.073
+  lims_id: QDATA2011-0467
+  title: 'Rimucavel RC-3 tumour RNA-seq: batch-aware expression atlas'
   client_id: CL059
   client_variant: Rimucavel Therapeutics
   services:
@@ -2192,23 +2255,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2011-01-15'
-    start: '2011-01-29'
-    interim: '2011-03-12'
-    completion: '2011-04-23'
+    quote: '2011-12-23'
+    start: '2012-01-25'
+    interim: '2012-02-28'
+    completion: '2012-04-03'
   status: completed
   price:
     amount: 45000
     currency: GBP
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 69
+  outcome: Batch correction removed a handling-associated cluster and left a reproducible tumour-subtype signature
+    for follow-up.
   planted: []
   notes: ''
 - id: PRJ0075
   firm: D
-  firm_project_id: QV.13.004
-  lims_id: QDATA2013-0004
-  title: Target evidence and computational prioritisation — work package 02
+  firm_project_id: QV.13.055
+  lims_id: QDATA2013-0351
+  title: 'Drelvessa DT-6 virtual library: conformer and docking triage'
   client_id: CL007
   client_variant: Drelvessa Therapeutics SAS
   services:
@@ -2222,23 +2286,23 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2013-01-15'
-    start: '2013-01-29'
-    interim: '2013-03-01'
-    completion: '2013-04-02'
+    quote: '2013-08-12'
+    start: '2013-09-30'
+    interim: '2013-10-18'
+    completion: '2013-11-06'
   status: completed
   price:
     amount: 49600
     currency: GBP
-  turnaround_days: 63
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 37
+  outcome: The protonation-state review changed the hit ranking and Drelvessa ordered the consensus-ranked compounds.
   planted: []
   notes: ''
 - id: PRJ0076
   firm: D
-  firm_project_id: QV.15.005
-  lims_id: QDATA2015-0005
-  title: Target evidence and computational prioritisation — work package 03
+  firm_project_id: QV.15.065
+  lims_id: QDATA2015-0400
+  title: 'Doventhar neuronal RNA-seq: splice-junction reanalysis'
   client_id: CL019
   client_variant: Doventhar Therapeutics
   services:
@@ -2251,23 +2315,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
-    interim: '2015-03-05'
-    completion: '2015-04-09'
+    quote: '2015-08-24'
+    start: '2015-10-05'
+    interim: '2015-11-13'
+    completion: '2015-12-23'
   status: completed
   price:
     amount: 54600
     currency: GBP
-  turnaround_days: 70
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 79
+  outcome: A junction-level analysis resolved the apparent gene-expression conflict and supported a focused validation
+    experiment.
   planted: []
   notes: ''
 - id: PRJ0077
   firm: D
-  firm_project_id: QV.16.006
-  lims_id: QDATA2016-0006
-  title: Target evidence and computational prioritisation — work package 04
+  firm_project_id: QV.16.049
+  lims_id: QDATA2016-0318
+  title: Bravossent BV-11 ligand docking with tautomer sensitivity
   client_id: CL043
   client_variant: Bravossent Therapeutics
   services:
@@ -2280,23 +2345,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-03-07'
-    completion: '2016-04-15'
+    quote: '2016-06-03'
+    start: '2016-07-21'
+    interim: '2016-08-18'
+    completion: '2016-09-15'
   status: completed
   price:
     amount: 58500
     currency: GBP
-  turnaround_days: 77
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 56
+  outcome: The tautomer sweep exposed unstable docking ranks and Bravossent limited procurement to the consistently
+    ranked chemotypes.
   planted: []
   notes: ''
 - id: PRJ0078
   firm: D
-  firm_project_id: QV.17.007
-  lims_id: QDATA2017-0007
-  title: Target evidence and computational prioritisation — work package 05
+  firm_project_id: QV.17.021
+  lims_id: QDATA2017-0146
+  title: Corvenlith pathway prioritisation from matched omics samples
   client_id: CL002
   client_variant: Corvenlith Therapeutics
   services:
@@ -2309,23 +2375,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-03-12'
-    completion: '2017-04-23'
+    quote: '2017-02-27'
+    start: '2017-03-13'
+    interim: '2017-04-20'
+    completion: '2017-05-29'
   status: completed
   price:
     amount: 44300
     currency: GBP
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 77
+  outcome: The integrated pathway analysis favoured a receptor-signalling hypothesis that Corvenlith carried into
+    cell-based validation.
   planted: []
   notes: ''
 - id: PRJ0079
   firm: D
-  firm_project_id: QV.18.008
-  lims_id: QDATA2018-0008
-  title: Target evidence and computational prioritisation — work package 06
+  firm_project_id: QV.18.027
+  lims_id: QDATA2018-0189
+  title: 'Vesselquarn VM-A virtual screen: diversity selection for purchase'
   client_id: CL015
   client_variant: Vesselquarn Medical Research Trust
   services:
@@ -2338,23 +2405,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-03-01'
-    completion: '2018-04-02'
+    quote: '2018-03-05'
+    start: '2018-03-16'
+    interim: '2018-04-27'
+    completion: '2018-06-08'
   status: completed
   price:
     amount: 48100
     currency: GBP
-  turnaround_days: 63
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 84
+  outcome: A diversity-constrained shortlist avoided overbuying one aromatic chemotype and supplied Vesselquarn's
+    first screening plate.
   planted: []
   notes: ''
 - id: PRJ0080
   firm: D
-  firm_project_id: QV.19.009
-  lims_id: QDATA2019-0009
-  title: Target evidence and computational prioritisation — work package 07
+  firm_project_id: QV.19.050
+  lims_id: QDATA2019-0323
+  title: Pelmucent single-cell annotation and marker adjudication
   client_id: CL031
   client_variant: Pelmucent Therapeutics
   services:
@@ -2367,23 +2435,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-03-05'
-    completion: '2019-04-09'
+    quote: '2019-05-20'
+    start: '2019-06-27'
+    interim: '2019-07-17'
+    completion: '2019-08-06'
   status: completed
   price:
     amount: 52100
     currency: GBP
-  turnaround_days: 70
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 40
+  outcome: Manual marker adjudication corrected a mixed-cell cluster and enabled Pelmucent to revise its target-expression
+    map.
   planted: []
   notes: ''
 - id: PRJ0081
   firm: D
-  firm_project_id: QV.26.010
-  lims_id: QDATA2026-0010
-  title: Target evidence and computational prioritisation — work package 08
+  firm_project_id: QV.26.077
+  lims_id: QDATA2026-0476
+  title: 'Vornelquith VB-9 virtual library: docking queue and hit clustering'
   client_id: CL063
   client_variant: Vornelquith Biosciences
   services:
@@ -2396,23 +2465,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2026-08-13'
-    start: '2026-08-27'
-    interim: '2026-09-10'
+    quote: '2026-06-12'
+    start: '2026-07-27'
+    interim: '2026-09-03'
     completion: null
   status: in_progress
   price:
     amount: 65100
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The docking queue is complete and the client is reviewing cluster representatives before the purchasing
+    shortlist is frozen.
   planted: []
   notes: ''
 - id: PRJ0082
   firm: D
-  firm_project_id: QV.26.011
-  lims_id: QDATA2026-0011
-  title: Target evidence and computational prioritisation — work package 09
+  firm_project_id: QV.26.091
+  lims_id: QDATA2026-0554
+  title: 'Valquessia VP-B bulk RNA-seq: clinical covariate model'
   client_id: CL011
   client_variant: Valquessia Pharmaceuticals SpA
   services:
@@ -2425,23 +2495,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2026-08-14'
-    start: '2026-08-28'
-    interim: '2026-09-11'
+    quote: '2026-07-08'
+    start: '2026-08-17'
+    interim: '2026-09-23'
     completion: null
   status: in_progress
   price:
     amount: 68400
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The count matrix has been accepted and covariate modelling is continuing after receipt of revised sample
+    metadata.
   planted: []
   notes: ''
 - id: PRJ0083
   firm: D
-  firm_project_id: QV.25.012
-  lims_id: QDATA2025-0012
-  title: Target evidence and computational prioritisation — work package 10
+  firm_project_id: QV.25.108
+  lims_id: QDATA2025-0672
+  title: Jelmorath JT-8 virtual screening scoping proposal
   client_id: CL025
   client_variant: Jelmorath Therapeutics
   services:
@@ -2454,7 +2525,7 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2025-01-15'
+    quote: '2025-09-09'
     start: null
     interim: null
     completion: null
@@ -2463,14 +2534,15 @@ projects:
     amount: 69900
     currency: GBP
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Jelmorath selected an internal modelling team after deciding to keep the unreleased chemical library
+    in-house.
   planted: []
   notes: ''
 - id: PRJ0084
   firm: D
-  firm_project_id: QV.24.013
-  lims_id: QDATA2024-0013
-  title: Target evidence and computational prioritisation — work package 11
+  firm_project_id: QV.24.026
+  lims_id: QDATA2024-0164
+  title: Rimucavel longitudinal omics reanalysis, data-access proposal
   client_id: CL059
   client_variant: Rimucavel Therapeutics
   services:
@@ -2483,7 +2555,7 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2024-01-15'
+    quote: '2024-03-01'
     start: null
     interim: null
     completion: null
@@ -2492,14 +2564,15 @@ projects:
     amount: 71300
     currency: GBP
   turnaround_days: null
-  outcome: Quote issued; no purchase order or response received.
+  outcome: The proposal remains unanswered because Rimucavel has not obtained permission to share the legacy patient
+    metadata.
   planted: []
   notes: ''
 - id: PRJ0085
   firm: D
-  firm_project_id: QV.25.014
-  lims_id: QDATA2025-0014
-  title: Target evidence and computational prioritisation — work package 12
+  firm_project_id: QV.25.103
+  lims_id: QDATA2025-0638
+  title: 'Drelvessa DT-8 ligand-series expansion: procurement hold'
   client_id: CL007
   client_variant: Drelvessa Therapeutics SAS
   services:
@@ -2512,23 +2585,24 @@ projects:
   - NS14
   - NS15
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
+    quote: '2025-08-27'
+    start: '2025-09-08'
+    interim: '2025-09-29'
     completion: null
   status: on_hold
   price:
     amount: 54000
     currency: GBP
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: Drelvessa stopped procurement while its chemistry team resolves a scaffold ownership question, leaving
+    the ranked hit list in draft.
   planted: []
   notes: ''
 - id: PRJ0086
   firm: E
-  firm_project_id: WA/2011/002
-  lims_id: WST-11-000002
-  title: Batch quality and shelf-life assessment — work package 01
+  firm_project_id: WA/2011/192
+  lims_id: WST-11-005959
+  title: 'EP19 capsule blend: six-month accelerated stability'
   client_id: CL020
   client_variant: Esmervane Pharmaceuticals
   services:
@@ -2542,23 +2616,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2011-01-15'
-    start: '2011-01-29'
-    interim: '2011-05-21'
-    completion: '2011-09-10'
+    quote: '2011-10-12'
+    start: '2011-11-07'
+    interim: '2012-02-06'
+    completion: '2012-05-07'
   status: completed
   price:
     amount: 44800
     currency: GBP
-  turnaround_days: 224
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 182
+  outcome: An emerging degradant at the warm condition led Esmervane to revise the capsule moisture barrier before
+    long-term testing.
   planted: []
   notes: ''
 - id: PRJ0087
   firm: E
-  firm_project_id: WA/2013/003
-  lims_id: WST-13-000003
-  title: Batch quality and shelf-life assessment — work package 02
+  firm_project_id: WA/2013/269
+  lims_id: WST-13-008363
+  title: Kalmorveth KM-12 related-substances HPLC validation
   client_id: CL052
   client_variant: Kalmorveth Pharma
   services:
@@ -2572,23 +2647,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2013-01-15'
-    start: '2013-01-29'
-    interim: '2013-05-24'
-    completion: '2013-09-17'
+    quote: '2013-12-20'
+    start: '2014-01-27'
+    interim: '2014-02-20'
+    completion: '2014-03-17'
   status: completed
   price:
     amount: 49500
     currency: GBP
-  turnaround_days: 231
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 49
+  outcome: The specificity challenge resolved the co-eluting degradant and Kalmorveth accepted the method for release
+    testing.
   planted: []
   notes: ''
 - id: PRJ0088
   firm: E
-  firm_project_id: WA/2015/004
-  lims_id: WST-15-000004
-  title: Batch quality and shelf-life assessment — work package 03
+  firm_project_id: WA/2015/137
+  lims_id: WST-15-004255
+  title: 'Wexanthel WX-4 tablets: eighteen-month stability and method qualification'
   client_id: CL064
   client_variant: Wexanthel Medicines
   services:
@@ -2603,23 +2679,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
-    interim: '2015-05-14'
-    completion: '2015-08-27'
+    quote: '2015-06-09'
+    start: '2015-07-22'
+    interim: '2016-04-22'
+    completion: '2017-01-23'
   status: completed
   price:
     amount: 54600
     currency: GBP
-  turnaround_days: 210
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 551
+  outcome: The qualified method detected a packaging-dependent impurity trend, and Wexanthel adopted the higher-barrier
+    blister.
   planted: []
   notes: ''
 - id: PRJ0089
   firm: E
-  firm_project_id: WA/2016/005
-  lims_id: WST-16-000005
-  title: Batch quality and shelf-life assessment — work package 04
+  firm_project_id: WA/2016/068
+  lims_id: WST-16-002115
+  title: 'Auvrelquith AU-06 solution: twelve-month refrigerated stability'
   client_id: CL068
   client_variant: Auvrelquith Biosciences
   services:
@@ -2632,23 +2709,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-05-16'
-    completion: '2016-09-02'
+    quote: '2016-03-14'
+    start: '2016-04-25'
+    interim: '2016-10-24'
+    completion: '2017-04-25'
   status: completed
   price:
     amount: 58700
     currency: GBP
-  turnaround_days: 217
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 365
+  outcome: Auvrelquith retained refrigerated storage after ambient samples developed an unacceptable appearance
+    change.
   planted: []
   notes: ''
 - id: PRJ0090
   firm: E
-  firm_project_id: WA/2017/006
-  lims_id: WST-17-000006
-  title: Batch quality and shelf-life assessment — work package 05
+  firm_project_id: WA/2017/185
+  lims_id: WST-17-005742
+  title: 'OB11 drug substance: assay and related-substances method validation'
   client_id: CL012
   client_variant: Orvessant Biosciences Pty Ltd
   services:
@@ -2661,23 +2739,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-05-21'
-    completion: '2017-09-10'
+    quote: '2017-07-24'
+    start: '2017-08-30'
+    interim: '2017-09-25'
+    completion: '2017-10-20'
   status: completed
   price:
     amount: 62900
     currency: GBP
-  turnaround_days: 224
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 51
+  outcome: The validation supported the proposed release specification and Orvessant transferred the method to its
+    manufacturing laboratory.
   planted: []
   notes: ''
 - id: PRJ0091
   firm: E
-  firm_project_id: WA/2018/007
-  lims_id: WST-18-000007
-  title: Batch quality and shelf-life assessment — work package 06
+  firm_project_id: WA/2018/082
+  lims_id: WST-18-002559
+  title: 'Istravune IS-3 tablets: twenty-four-month ICH programme'
   client_id: CL024
   client_variant: Istravune Biosciences
   services:
@@ -2690,23 +2769,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-05-24'
-    completion: '2018-09-17'
+    quote: '2018-03-23'
+    start: '2018-04-30'
+    interim: '2019-04-30'
+    completion: '2020-04-30'
   status: completed
   price:
     amount: 47600
     currency: GBP
-  turnaround_days: 231
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 731
+  outcome: The long-term trend supported Istravune's proposed shelf life and the method remained suitable through
+    the final pull.
   planted: []
   notes: ''
 - id: PRJ0092
   firm: E
-  firm_project_id: WA/2019/008
-  lims_id: WST-19-000008
-  title: Batch quality and shelf-life assessment — work package 07
+  firm_project_id: WA/2019/010
+  lims_id: WST-19-000327
+  title: 'Odraverne OD-18 powder: six-month humidity challenge'
   client_id: CL030
   client_variant: Odraverne Pharmaceuticals
   services:
@@ -2719,23 +2799,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-05-14'
-    completion: '2019-08-27'
+    quote: '2019-01-03'
+    start: '2019-02-12'
+    interim: '2019-05-13'
+    completion: '2019-08-12'
   status: completed
   price:
     amount: 51700
     currency: GBP
-  turnaround_days: 210
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 181
+  outcome: Moisture uptake explained the assay drift and Odraverne specified desiccant protection for the next pack
+    configuration.
   planted: []
   notes: ''
 - id: PRJ0093
   firm: E
-  firm_project_id: WA/2020/009
-  lims_id: WST-20-000009
-  title: Batch quality and shelf-life assessment — work package 08
+  firm_project_id: WA/2020/224
+  lims_id: WST-20-006965
+  title: Ardelvune AR-27 chromatographic specificity and robustness
   client_id: CL042
   client_variant: Ardelvune Pharmaceuticals
   services:
@@ -2748,23 +2829,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-05-16'
-    completion: '2020-09-02'
+    quote: '2020-08-07'
+    start: '2020-08-24'
+    interim: '2020-09-14'
+    completion: '2020-10-06'
   status: completed
   price:
     amount: 55900
     currency: GBP
-  turnaround_days: 217
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 43
+  outcome: The robustness study identified sensitivity to mobile-phase preparation and Ardelvune tightened the buffer
+    instructions.
   planted: []
   notes: ''
 - id: PRJ0094
   firm: E
-  firm_project_id: WA/2021/010
-  lims_id: WST-21-000010
-  title: Batch quality and shelf-life assessment — work package 09
+  firm_project_id: WA/2021/270
+  lims_id: WST-21-008374
+  title: 'Parvessune PV-30 capsules: twelve-month stability with impurity validation'
   client_id: CL057
   client_variant: Parvessune Pharmaceuticals
   services:
@@ -2777,23 +2859,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2021-01-15'
-    start: '2021-01-29'
-    interim: '2021-05-21'
-    completion: '2021-09-10'
+    quote: '2021-09-16'
+    start: '2021-09-30'
+    interim: '2022-03-31'
+    completion: '2022-09-30'
   status: completed
   price:
     amount: 60400
     currency: GBP
-  turnaround_days: 224
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 365
+  outcome: An impurity reference resolved a late-eluting peak and Parvessune retained the capsule formulation for
+    transfer.
   planted: []
   notes: ''
 - id: PRJ0095
   firm: E
-  firm_project_id: WA/2022/011
-  lims_id: WST-22-000011
-  title: Batch quality and shelf-life assessment — work package 10
+  firm_project_id: WA/2022/226
+  lims_id: WST-22-007025
+  title: 'Xarnelvune XA-5 suspension: eighteen-month in-use stability'
   client_id: CL065
   client_variant: Xarnelvune Pharmaceuticals
   services:
@@ -2806,23 +2889,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2022-01-15'
-    start: '2022-01-29'
-    interim: '2022-05-24'
-    completion: '2022-09-17'
+    quote: '2022-07-27'
+    start: '2022-08-08'
+    interim: '2023-05-09'
+    completion: '2024-02-08'
   status: completed
   price:
     amount: 65000
     currency: GBP
-  turnaround_days: 231
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 549
+  outcome: The resuspension assessment supported the dosing instructions and Xarnelvune added a shake-before-use
+    instruction.
   planted: []
   notes: ''
 - id: PRJ0096
   firm: E
-  firm_project_id: WA/2023/012
-  lims_id: WST-23-000012
-  title: Batch quality and shelf-life assessment — work package 11
+  firm_project_id: WA/2023/136
+  lims_id: WST-23-004243
+  title: 'Culdrevane CU-19 HPLC transfer: column-equivalence study'
   client_id: CL070
   client_variant: Culdrevane Pharma
   services:
@@ -2835,23 +2919,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2023-01-15'
-    start: '2023-01-29'
-    interim: '2023-05-14'
-    completion: '2023-08-27'
+    quote: '2023-04-28'
+    start: '2023-05-18'
+    interim: '2023-06-14'
+    completion: '2023-07-12'
   status: completed
   price:
     amount: 69800
     currency: GBP
-  turnaround_days: 210
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 55
+  outcome: The alternate column reproduced the required separation, giving Culdrevane a qualified backup for routine
+    release.
   planted: []
   notes: ''
 - id: PRJ0097
   firm: E
-  firm_project_id: WA/2024/013
-  lims_id: WST-24-000013
-  title: Batch quality and shelf-life assessment — work package 12
+  firm_project_id: WA/2024/211
+  lims_id: WST-24-006564
+  title: 'Aldrevessa AT-22 tablets: twelve-month stability and assay validation'
   client_id: CL016
   client_variant: Aldrevessa Therapeutics
   services:
@@ -2864,23 +2949,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2024-01-15'
-    start: '2024-01-29'
-    interim: '2024-05-16'
-    completion: '2024-09-02'
+    quote: '2024-07-01'
+    start: '2024-07-22'
+    interim: '2025-01-20'
+    completion: '2025-07-22'
   status: completed
   price:
     amount: 74800
     currency: GBP
-  turnaround_days: 217
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 365
+  outcome: Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven impurity
+    increase.
   planted: []
   notes: ''
 - id: PRJ0098
   firm: E
-  firm_project_id: WA/2026/014
-  lims_id: WST-26-000014
-  title: Batch quality and shelf-life assessment — work package 13
+  firm_project_id: WA/2026/027
+  lims_id: WST-26-000862
+  title: 'Lomervessa LM-5 tablet lot: long-term stability placement'
   client_id: CL027
   client_variant: Lomervessa Pharma
   services:
@@ -2893,23 +2979,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2026-08-17'
-    start: '2026-08-31'
-    interim: '2026-09-14'
+    quote: '2026-01-20'
+    start: '2026-02-23'
+    interim: '2026-08-24'
     completion: null
   status: in_progress
   price:
     amount: 58000
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The first scheduled pull has been analysed and the long-term chambers remain on programme pending later
+    timepoints.
   planted: []
   notes: ''
 - id: PRJ0099
   firm: E
-  firm_project_id: WA/2026/015
-  lims_id: WST-26-000015
-  title: Batch quality and shelf-life assessment — work package 14
+  firm_project_id: WA/2026/275
+  lims_id: WST-26-008543
+  title: 'Xelvessune XE-2 assay validation: forced-degradation specificity'
   client_id: CL039
   client_variant: Xelvessune Pharma
   services:
@@ -2922,23 +3009,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2026-08-18'
-    start: '2026-09-01'
-    interim: '2026-09-15'
+    quote: '2026-08-11'
+    start: '2026-09-08'
+    interim: '2026-09-29'
     completion: null
   status: in_progress
   price:
     amount: 61500
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The forced-degradation work is complete and integration rules are being finalised for a shoulder peak
+    before validation sign-off.
   planted: []
   notes: ''
 - id: PRJ0100
   firm: E
-  firm_project_id: WA/2026/016
-  lims_id: WST-26-000016
-  title: Batch quality and shelf-life assessment — work package 15
+  firm_project_id: WA/2026/047
+  lims_id: WST-26-001463
+  title: 'Jorvessara JO-14 granules: stability start and chromatographic validation'
   client_id: CL051
   client_variant: Jorvessara Pharmaceuticals
   services:
@@ -2951,8 +3039,8 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2026-08-19'
-    start: '2026-09-02'
+    quote: '2026-02-05'
+    start: '2026-03-16'
     interim: '2026-09-16'
     completion: null
   status: in_progress
@@ -2960,14 +3048,15 @@ projects:
     amount: 64900
     currency: GBP
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The method qualification is complete and the first chamber pull is in review, with later stability timepoints
+    still pending.
   planted: []
   notes: ''
 - id: PRJ0101
   firm: E
-  firm_project_id: WA/2025/017
-  lims_id: WST-25-000017
-  title: Batch quality and shelf-life assessment — work package 16
+  firm_project_id: WA/2025/108
+  lims_id: WST-25-003364
+  title: 'Telquorath TE-9 tablet stability: storage and pull schedule quote'
   client_id: CL061
   client_variant: Telquorath Pharma
   services:
@@ -2980,7 +3069,7 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2025-01-15'
+    quote: '2025-03-31'
     start: null
     interim: null
     completion: null
@@ -2989,14 +3078,15 @@ projects:
     amount: 66600
     currency: GBP
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Telquorath selected a lower-cost storage provider and retained its existing laboratory for the analytical
+    pulls.
   planted: []
   notes: ''
 - id: PRJ0102
   firm: E
-  firm_project_id: WA/2024/018
-  lims_id: WST-24-000018
-  title: Batch quality and shelf-life assessment — work package 17
+  firm_project_id: WA/2024/143
+  lims_id: WST-24-004452
+  title: Zostremal ZO-31 release-method validation proposal
   client_id: CL067
   client_variant: Zostremal Pharma
   services:
@@ -3009,7 +3099,7 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2024-01-15'
+    quote: '2024-05-02'
     start: null
     interim: null
     completion: null
@@ -3018,14 +3108,14 @@ projects:
     amount: 68200
     currency: GBP
   turnaround_days: null
-  outcome: Quote issued; no purchase order or response received.
+  outcome: Zostremal has not supplied the impurity standards needed to finalise the protocol or accept the proposal.
   planted: []
   notes: ''
 - id: PRJ0103
   firm: E
-  firm_project_id: WA/2025/019
-  lims_id: WST-25-000019
-  title: Batch quality and shelf-life assessment — work package 18
+  firm_project_id: WA/2025/407
+  lims_id: WST-25-012645
+  title: 'QP07 clinical prototype: stability and method-transfer hold'
   client_id: CL008
   client_variant: Quorenthel Pharma GmbH
   services:
@@ -3038,23 +3128,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
+    quote: '2025-12-09'
+    start: '2026-01-14'
+    interim: '2026-02-04'
     completion: null
   status: on_hold
   price:
     amount: 73300
     currency: GBP
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: Quorenthel suspended new pulls while it changes the prototype composition; existing chamber samples are
+    retained pending instructions.
   planted: []
   notes: ''
 - id: PRJ0104
   firm: E
-  firm_project_id: WA/2024/020
-  lims_id: WST-24-000020
-  title: Batch quality and shelf-life assessment — work package 19
+  firm_project_id: WA/2024/314
+  lims_id: WST-24-009763
+  title: 'Esmervane EP-7 capsule stability: development termination'
   client_id: CL020
   client_variant: Esmervane Pharmaceuticals
   services:
@@ -3067,23 +3158,24 @@ projects:
   - NS18
   - NS19
   dates:
-    quote: '2024-01-15'
-    start: '2024-01-29'
-    interim: '2024-02-12'
+    quote: '2024-10-03'
+    start: '2024-10-29'
+    interim: '2024-11-19'
     completion: null
   status: cancelled
   price:
     amount: 74800
     currency: GBP
   turnaround_days: null
-  outcome: Work stopped at the agreed checkpoint; no final report commissioned.
+  outcome: Esmervane terminated the formulation after a clinical strategy change and authorised closure of the remaining
+    stability pulls.
   planted: []
   notes: ''
 - id: PRJ0105
   firm: F
-  firm_project_id: DL_2016_0001
-  lims_id: DF16-00001
-  title: Early formulation feasibility — work package 01
+  firm_project_id: DL_2016_0027
+  lims_id: DF16-00334
+  title: 'Auvrelquith AU-08 oral solution: pH and excipient screen'
   client_id: CL068
   client_variant: Auvrelquith Biosciences
   services:
@@ -3097,23 +3189,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-03-07'
-    completion: '2016-04-15'
+    quote: '2016-04-04'
+    start: '2016-04-19'
+    interim: '2016-05-13'
+    completion: '2016-06-06'
   status: completed
   price:
     amount: 31000
     currency: USD
-  turnaround_days: 77
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 48
+  outcome: A buffer adjustment prevented precipitation on dilution and Auvrelquith selected the solution for exposure
+    work.
   planted: []
   notes: ''
 - id: PRJ0106
   firm: F
-  firm_project_id: DL_2018_0002
-  lims_id: DF18-00002
-  title: Early formulation feasibility — work package 02
+  firm_project_id: DL_2018_0010
+  lims_id: DF18-00131
+  title: 'NM08 kinase series: suspension-vehicle compatibility'
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   services:
@@ -3126,23 +3219,23 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-03-12'
-    completion: '2018-04-23'
+    quote: '2018-01-10'
+    start: '2018-02-08'
+    interim: '2018-03-19'
+    completion: '2018-04-26'
   status: completed
   price:
     amount: 34400
     currency: USD
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 77
+  outcome: Nimbravelle selected a wetting-agent combination after the initial vehicle caused irreversible aggregation.
   planted: []
   notes: ''
 - id: PRJ0107
   firm: F
-  firm_project_id: DL_2016_0003
-  lims_id: DF16-00003
-  title: Early formulation feasibility — work package 03
+  firm_project_id: DL_2016_0044
+  lims_id: DF16-00532
+  title: 'Esmervane EP-3 capsule blend: flow and content uniformity'
   client_id: CL020
   client_variant: Esmervane Pharmaceuticals
   services:
@@ -3155,23 +3248,23 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-03-14'
-    completion: '2016-04-29'
+    quote: '2016-07-25'
+    start: '2016-09-02'
+    interim: '2016-10-13'
+    completion: '2016-11-23'
   status: completed
   price:
     amount: 34500
     currency: USD
-  turnaround_days: 91
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 82
+  outcome: The blend-screen results favoured a coarser filler and Esmervane commissioned a small encapsulation trial.
   planted: []
   notes: ''
 - id: PRJ0108
   firm: F
-  firm_project_id: DL_2016_0004
-  lims_id: DF16-00004
-  title: Early formulation feasibility — work package 04
+  firm_project_id: DL_2016_0014
+  lims_id: DF16-00173
+  title: 'Odraverne OD-5 injectable concentrate: dilution precipitation'
   client_id: CL030
   client_variant: Odraverne Pharmaceuticals
   services:
@@ -3184,23 +3277,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-03-04'
-    completion: '2016-04-08'
+    quote: '2016-02-01'
+    start: '2016-02-24'
+    interim: '2016-03-21'
+    completion: '2016-04-15'
   status: completed
   price:
     amount: 36200
     currency: USD
-  turnaround_days: 70
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 51
+  outcome: The dilution study identified a practical concentration ceiling and Odraverne revised the infusion preparation
+    instructions.
   planted: []
   notes: ''
 - id: PRJ0109
   firm: F
-  firm_project_id: DL_2017_0005
-  lims_id: DF17-00005
-  title: Early formulation feasibility — work package 05
+  firm_project_id: DL_2017_0070
+  lims_id: DF17-00864
+  title: 'Jorvessara JO-6 amorphous dispersion: polymer shortlist'
   client_id: CL051
   client_variant: Jorvessara Pharmaceuticals
   services:
@@ -3213,23 +3307,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-03-08'
-    completion: '2017-04-16'
+    quote: '2017-10-23'
+    start: '2017-11-07'
+    interim: '2017-12-13'
+    completion: '2018-01-19'
   status: completed
   price:
     amount: 38900
     currency: USD
-  turnaround_days: 77
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 73
+  outcome: A polymer blend resisted recrystallisation during the stress screen and Jorvessara commissioned a larger
+    drying run.
   planted: []
   notes: ''
 - id: PRJ0110
   firm: F
-  firm_project_id: DL_2018_0006
-  lims_id: DF18-00006
-  title: Early formulation feasibility — work package 06
+  firm_project_id: DL_2018_0034
+  lims_id: DF18-00421
+  title: 'Wexanthel WX-11 suspension: particle-size and redispersibility screen'
   client_id: CL064
   client_variant: Wexanthel Medicines
   services:
@@ -3242,23 +3337,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-03-12'
-    completion: '2018-04-23'
+    quote: '2018-05-14'
+    start: '2018-06-01'
+    interim: '2018-06-27'
+    completion: '2018-07-24'
   status: completed
   price:
     amount: 41600
     currency: USD
-  turnaround_days: 84
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 53
+  outcome: The micronised lot settled into a compact cake, leading Wexanthel to retain the coarser particle-size
+    distribution.
   planted: []
   notes: ''
 - id: PRJ0111
   firm: F
-  firm_project_id: DL_2019_0007
-  lims_id: DF19-00007
-  title: Early formulation feasibility — work package 07
+  firm_project_id: DL_2019_0071
+  lims_id: DF19-00879
+  title: 'Auvrelquith AU-10 salt forms: early formulation feasibility'
   client_id: CL068
   client_variant: Auvrelquith Biosciences
   services:
@@ -3271,23 +3367,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-03-15'
-    completion: '2019-04-30'
+    quote: '2019-09-05'
+    start: '2019-10-04'
+    interim: '2019-10-28'
+    completion: '2019-11-18'
   status: completed
   price:
     amount: 31600
     currency: USD
-  turnaround_days: 91
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 45
+  outcome: The preferred salt dissolved readily but remained moisture-sensitive, so Auvrelquith requested protective-packaging
+    work.
   planted: []
   notes: ''
 - id: PRJ0112
   firm: F
-  firm_project_id: DL_2020_0008
-  lims_id: DF20-00008
-  title: Early formulation feasibility — work package 08
+  firm_project_id: DL_2020_0050
+  lims_id: DF20-00615
+  title: 'Nimbravelle NM-12 oral vehicle: precipitation-on-dilution follow-up'
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   services:
@@ -3300,23 +3397,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-03-04'
-    completion: '2020-04-08'
+    quote: '2020-06-15'
+    start: '2020-07-06'
+    interim: '2020-08-17'
+    completion: '2020-09-28'
   status: completed
   price:
     amount: 34200
     currency: USD
-  turnaround_days: 70
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 84
+  outcome: The cosolvent-rich vehicle failed the dilution challenge and Nimbravelle selected a dispersed dosing
+    approach.
   planted: []
   notes: ''
 - id: PRJ0113
   firm: F
-  firm_project_id: DL_2026_0009
-  lims_id: DF26-00009
-  title: Early formulation feasibility — work package 09
+  firm_project_id: DL_2026_0085
+  lims_id: DF26-01022
+  title: 'Esmervane EP-11 capsule excipients: compatibility matrix'
   client_id: CL020
   client_variant: Esmervane Pharmaceuticals
   services:
@@ -3329,23 +3427,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2026-08-12'
-    start: '2026-08-26'
-    interim: '2026-09-09'
+    quote: '2026-07-29'
+    start: '2026-08-24'
+    interim: '2026-09-25'
     completion: null
   status: in_progress
   price:
     amount: 41900
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: Stress samples are being analysed after a colour change appeared in the lactose-containing blend; the
+    alternative filler remains under evaluation.
   planted: []
   notes: ''
 - id: PRJ0114
   firm: F
-  firm_project_id: DL_2026_0010
-  lims_id: DF26-00010
-  title: Early formulation feasibility — work package 10
+  firm_project_id: DL_2026_0093
+  lims_id: DF26-01134
+  title: 'Odraverne OD-23 solubilisation: prototype vehicle ladder'
   client_id: CL030
   client_variant: Odraverne Pharmaceuticals
   services:
@@ -3358,23 +3457,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2026-08-13'
-    start: '2026-08-27'
-    interim: '2026-09-10'
+    quote: '2026-08-04'
+    start: '2026-09-01'
+    interim: '2026-09-22'
     completion: null
   status: in_progress
   price:
     amount: 44100
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The initial solubility ladder is complete and dilution stability is being repeated at the client's proposed
+    administration temperature.
   planted: []
   notes: ''
 - id: PRJ0115
   firm: F
-  firm_project_id: DL_2024_0011
-  lims_id: DF24-00011
-  title: Early formulation feasibility — work package 11
+  firm_project_id: DL_2024_0134
+  lims_id: DF24-01617
+  title: Jorvessara JO-18 dispersion feasibility and scale-up estimate
   client_id: CL051
   client_variant: Jorvessara Pharmaceuticals
   services:
@@ -3387,7 +3487,7 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2024-01-15'
+    quote: '2024-12-23'
     start: null
     interim: null
     completion: null
@@ -3396,14 +3496,15 @@ projects:
     amount: 44100
     currency: USD
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Jorvessara chose its manufacturing partner to run the screen alongside pilot-scale drying, rather than
+    contract the feasibility work separately.
   planted: []
   notes: ''
 - id: PRJ0116
   firm: F
-  firm_project_id: DL_2025_0012
-  lims_id: DF25-00012
-  title: Early formulation feasibility — work package 12
+  firm_project_id: DL_2025_0130
+  lims_id: DF25-01573
+  title: 'Wexanthel WX-19 paediatric suspension: vehicle optimisation'
   client_id: CL064
   client_variant: Wexanthel Medicines
   services:
@@ -3416,23 +3517,24 @@ projects:
   - NS22
   - NS23
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
+    quote: '2025-12-01'
+    start: '2026-01-19'
+    interim: '2026-02-09'
     completion: null
   status: on_hold
   price:
     amount: 47400
     currency: USD
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: Wexanthel paused optimisation pending its flavour-panel decision, and the physical stability samples
+    remain under observation.
   planted: []
   notes: ''
 - id: PRJ0117
   firm: G
-  firm_project_id: OT-08-S0003
-  lims_id: OQ/2008/000003
-  title: Safety assessment and dose selection — work package 01
+  firm_project_id: OT-08-S0114
+  lims_id: OQ/2008/001843
+  title: 'AP02 discovery genotoxicity: HepG2, Ames and micronucleus battery'
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -3448,23 +3550,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2008-01-15'
-    start: '2008-01-29'
-    interim: '2008-04-04'
-    completion: '2008-06-10'
+    quote: '2008-09-29'
+    start: '2008-10-15'
+    interim: '2008-10-31'
+    completion: '2008-11-17'
   status: completed
   price:
     amount: 32300
     currency: USD
-  turnaround_days: 133
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 33
+  outcome: The bacterial and mammalian assays gave discordant signals, prompting Avernelwick to commission a focused
+    follow-up before advancing the series.
   planted: []
   notes: ''
 - id: PRJ0118
   firm: G
-  firm_project_id: OT-10-S0004
-  lims_id: OQ/2010/000004
-  title: Safety assessment and dose selection — work package 02
+  firm_project_id: OT-10-S0019
+  lims_id: OQ/2010/000311
+  title: NM-31 exploratory seven-day rat DRF and recovery observations
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   services:
@@ -3478,23 +3581,23 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2010-01-15'
-    start: '2010-01-29'
-    interim: '2010-03-26'
-    completion: '2010-05-21'
+    quote: '2010-02-01'
+    start: '2010-02-11'
+    interim: '2010-03-15'
+    completion: '2010-04-12'
   status: completed
   price:
     amount: 133800
     currency: USD
-  turnaround_days: 112
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 60
+  outcome: Dose-related tolerability findings defined a workable range for Nimbravelle's planned longer study.
   planted: []
   notes: ''
 - id: PRJ0119
   firm: G
-  firm_project_id: OT-15-S0005
-  lims_id: OQ/2015/000005
-  title: Safety assessment and dose selection — work package 03
+  firm_project_id: OT-15-S0064
+  lims_id: OQ/2015/001043
+  title: 'ST03 growth-signal inhibitors: cytotoxicity and micronucleus follow-up'
   client_id: CL004
   client_variant: Selverant Therapeutics Inc
   services:
@@ -3509,23 +3612,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2015-01-15'
-    start: '2015-01-29'
-    interim: '2015-03-29'
-    completion: '2015-05-28'
+    quote: '2015-04-17'
+    start: '2015-06-04'
+    interim: '2015-06-24'
+    completion: '2015-07-14'
   status: completed
   price:
     amount: 42300
     currency: USD
-  turnaround_days: 119
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 40
+  outcome: The micronucleus signal tracked cytotoxic exposure and Selverant requested a lower-exposure repeat before
+    attributing it to genotoxicity.
   planted: []
   notes: ''
 - id: PRJ0120
   firm: G
-  firm_project_id: OT-16-S0006
-  lims_id: OQ/2016/000006
-  title: Safety assessment and dose selection — work package 04
+  firm_project_id: OT-16-S0176
+  lims_id: OQ/2016/002828
+  title: TP04 pre-nomination in vitro safety battery, synthesis lot D
   client_id: CL005
   client_variant: Tervemere Pharma AG
   services:
@@ -3538,23 +3642,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2016-01-15'
-    start: '2016-01-29'
-    interim: '2016-04-01'
-    completion: '2016-06-03'
+    quote: '2016-10-10'
+    start: '2016-11-14'
+    interim: '2016-12-01'
+    completion: '2016-12-19'
   status: completed
   price:
     amount: 45300
     currency: USD
-  turnaround_days: 126
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 35
+  outcome: The bacterial assay was clear but a mammalian-cell signal led Tervemere to replace the flagged analogue
+    before nomination.
   planted: []
   notes: ''
 - id: PRJ0121
   firm: G
-  firm_project_id: OT-17-S0007
-  lims_id: OQ/2017/000007
-  title: Safety assessment and dose selection — work package 05
+  firm_project_id: OT-17-S0011
+  lims_id: OQ/2017/000188
+  title: Lomervessa LM-12 rat range finding for repeat-dose design
   client_id: CL027
   client_variant: Lomervessa Pharma
   services:
@@ -3567,23 +3672,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2017-01-15'
-    start: '2017-01-29'
-    interim: '2017-04-05'
-    completion: '2017-06-11'
+    quote: '2017-01-09'
+    start: '2017-02-15'
+    interim: '2017-04-04'
+    completion: '2017-05-22'
   status: completed
   price:
     amount: 128700
     currency: USD
-  turnaround_days: 133
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 96
+  outcome: The range-finding study identified a tolerability limit and Lomervessa reduced the upper dose in the
+    subsequent protocol.
   planted: []
   notes: ''
 - id: PRJ0122
   firm: G
-  firm_project_id: OT-18-S0008
-  lims_id: OQ/2018/000008
-  title: Safety assessment and dose selection — work package 06
+  firm_project_id: OT-18-S0075
+  lims_id: OQ/2018/001213
+  title: NM08 cytotoxicity-linked micronucleus assessment
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   services:
@@ -3596,23 +3702,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2018-01-15'
-    start: '2018-01-29'
-    interim: '2018-03-26'
-    completion: '2018-05-21'
+    quote: '2018-04-16'
+    start: '2018-05-21'
+    interim: '2018-06-18'
+    completion: '2018-07-16'
   status: completed
   price:
     amount: 37300
     currency: USD
-  turnaround_days: 112
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 56
+  outcome: Nimbravelle retained the less cytotoxic analogues after the micronucleus follow-up separated the subseries
+    by exposure tolerance.
   planted: []
   notes: ''
 - id: PRJ0123
   firm: G
-  firm_project_id: OT-19-S0009
-  lims_id: OQ/2019/000009
-  title: Safety assessment and dose selection — work package 07
+  firm_project_id: OT-19-S0100
+  lims_id: OQ/2019/001605
+  title: 'VP10 aminoquinolines: bacterial and mammalian genotoxicity package'
   client_id: CL011
   client_variant: Valquessia Pharmaceuticals SpA
   services:
@@ -3625,23 +3732,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2019-01-15'
-    start: '2019-01-29'
-    interim: '2019-03-29'
-    completion: '2019-05-28'
+    quote: '2019-05-20'
+    start: '2019-07-08'
+    interim: '2019-07-29'
+    completion: '2019-08-19'
   status: completed
   price:
     amount: 40300
     currency: USD
-  turnaround_days: 119
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 42
+  outcome: Valquessia dropped the reactive side-chain branch after the assay battery produced a consistent genotoxicity
+    concern.
   planted: []
   notes: ''
 - id: PRJ0124
   firm: G
-  firm_project_id: OT-20-S0010
-  lims_id: OQ/2020/000010
-  title: Safety assessment and dose selection — work package 08
+  firm_project_id: OT-20-S0198
+  lims_id: OQ/2020/003196
+  title: 'Emlucera EM-4 exploratory rat DRF: vehicle and dose selection'
   client_id: CL046
   client_variant: Emlucera Therapeutics
   services:
@@ -3654,23 +3762,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2020-01-15'
-    start: '2020-01-29'
-    interim: '2020-04-01'
-    completion: '2020-06-03'
+    quote: '2020-10-05'
+    start: '2020-11-02'
+    interim: '2020-12-18'
+    completion: '2021-02-02'
   status: completed
   price:
     amount: 163100
     currency: USD
-  turnaround_days: 126
-  outcome: Deliverables accepted; controls met protocol acceptance criteria.
+  turnaround_days: 92
+  outcome: Vehicle-related observations in the first cohort prompted a reformulation, and the repeat established
+    a usable dose range.
   planted: []
   notes: ''
 - id: PRJ0125
   firm: G
-  firm_project_id: OT-26-S0011
-  lims_id: OQ/2026/000011
-  title: Safety assessment and dose selection — work package 09
+  firm_project_id: OT-26-S0192
+  lims_id: OQ/2026/003086
+  title: 'VM14 channel modulators: cytotoxicity and micronucleus screen'
   client_id: CL015
   client_variant: Vesselquarn Medical Research Trust
   services:
@@ -3683,23 +3792,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2026-08-14'
-    start: '2026-08-28'
-    interim: '2026-09-11'
+    quote: '2026-08-05'
+    start: '2026-09-02'
+    interim: '2026-09-24'
     completion: null
   status: in_progress
   price:
     amount: 53000
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: Cell-exposure checks are continuing after precipitation limited the initial high-concentration conditions;
+    no final interpretation has been issued.
   planted: []
   notes: ''
 - id: PRJ0126
   firm: G
-  firm_project_id: OT-26-S0012
-  lims_id: OQ/2026/000012
-  title: Safety assessment and dose selection — work package 10
+  firm_project_id: OT-26-S0177
+  lims_id: OQ/2026/002835
+  title: 'BP16 protease inhibitors: pre-selection genotoxicity battery'
   client_id: CL017
   client_variant: Belquorin Pharma
   services:
@@ -3712,23 +3822,24 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2026-08-15'
-    start: '2026-08-29'
-    interim: '2026-09-12'
+    quote: '2026-07-22'
+    start: '2026-08-17'
+    interim: '2026-09-18'
     completion: null
   status: in_progress
   price:
     amount: 55500
     currency: USD
   turnaround_days: null
-  outcome: Interim work issued; final analysis and report pending.
+  outcome: The bacterial phase is complete and the mammalian assay repeat is in progress after a cytotoxicity-related
+    scoring exclusion.
   planted: []
   notes: ''
 - id: PRJ0127
   firm: G
-  firm_project_id: OT-24-S0013
-  lims_id: OQ/2024/000013
-  title: Safety assessment and dose selection — work package 11
+  firm_project_id: OT-24-S0136
+  lims_id: OQ/2024/002184
+  title: Sarnelvessa SA-2 rodent DRF protocol and budget
   client_id: CL060
   client_variant: Sarnelvessa Agrochem
   services:
@@ -3741,7 +3852,7 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2024-01-15'
+    quote: '2024-06-12'
     start: null
     interim: null
     completion: null
@@ -3750,14 +3861,15 @@ projects:
     amount: 207000
     currency: USD
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Sarnelvessa withdrew the request after its regulatory adviser recommended a different species for the
+    development plan.
   planted: []
   notes: ''
 - id: PRJ0128
   firm: G
-  firm_project_id: OT-25-S0014
-  lims_id: OQ/2025/000014
-  title: Safety assessment and dose selection — work package 12
+  firm_project_id: OT-25-S0245
+  lims_id: OQ/2025/003927
+  title: 'CVL backup branch: HepG2 and micronucleus proposal'
   client_id: CL001
   client_variant: Corvenlea (US)
   services:
@@ -3770,7 +3882,7 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2025-01-15'
+    quote: '2025-10-16'
     start: null
     interim: null
     completion: null
@@ -3779,14 +3891,14 @@ projects:
     amount: 41800
     currency: USD
   turnaround_days: null
-  outcome: Quote issued; no purchase order or response received.
+  outcome: Corvenlea's US team has not confirmed shipment because the backup branch remains under portfolio review.
   planted: []
   notes: ''
 - id: PRJ0129
   firm: G
-  firm_project_id: OT-24-S0015
-  lims_id: OQ/2024/000015
-  title: Safety assessment and dose selection — work package 13
+  firm_project_id: OT-24-S0163
+  lims_id: OQ/2024/002613
+  title: AP02 nomination-support genotoxicity battery quotation
   client_id: CL003
   client_variant: Avernelwick Pharmaceuticals Ltd
   services:
@@ -3799,7 +3911,7 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2024-01-15'
+    quote: '2024-07-12'
     start: null
     interim: null
     completion: null
@@ -3808,14 +3920,15 @@ projects:
     amount: 43200
     currency: USD
   turnaround_days: null
-  outcome: Proposal declined after budget review; no experimental work commissioned.
+  outcome: Avernelwick placed the package with the laboratory already contracted for its later regulatory toxicology
+    programme.
   planted: []
   notes: ''
 - id: PRJ0130
   firm: G
-  firm_project_id: OT-25-S0016
-  lims_id: OQ/2025/000016
-  title: Safety assessment and dose selection — work package 14
+  firm_project_id: OT-25-S0229
+  lims_id: OQ/2025/003671
+  title: 'Valquessia VP-28 rat DRF: protocol amendment hold'
   client_id: CL011
   client_variant: Valquessia Pharmaceuticals SpA
   services:
@@ -3828,15 +3941,16 @@ projects:
   - NS26
   - NS27
   dates:
-    quote: '2025-01-15'
-    start: '2025-01-29'
-    interim: '2025-02-12'
+    quote: '2025-09-26'
+    start: '2025-10-06'
+    interim: '2025-10-27'
     completion: null
   status: on_hold
   price:
     amount: 175300
     currency: USD
   turnaround_days: null
-  outcome: Client paused further work pending portfolio review.
+  outcome: Valquessia paused the study before dosing while a new formulation is qualified; the draft protocol remains
+    awaiting amendment.
   planted: []
   notes: ''

@@ -21,7 +21,8 @@ assays:
   units: '% yield / % purity'
   variants:
     A:
-    - Vellacombe Custom synthesis and analogue preparation
+    - Analogue preparation
+    - Route scout and delivery
 - id: herg
   name: hERG patch clamp
   service_line: invitro
@@ -42,7 +43,7 @@ assays:
   units: '% inhibition'
   variants:
     B:
-    - CYP inhibition panel at 10 µM
+    - 5-isoform CYP panel
     C:
     - Five-isoform DDI screen
     G:
@@ -54,11 +55,11 @@ assays:
   units: µM
   variants:
     B:
-    - Brindlewythe CYP3A4 inhibition IC50
+    - 3A4 concentration response
     C:
-    - Merrivoss CYP3A4 inhibition IC50
+    - CYP3A4 inhibition curves
     G:
-    - Osterquill CYP3A4 inhibition IC50
+    - CYP3A4 follow-up IC50
 - id: kinase_primary
   name: Primary kinase IC50
   service_line: invitro
@@ -66,7 +67,8 @@ assays:
   units: nM
   variants:
     B:
-    - Brindlewythe Primary kinase IC50
+    - Primary potency assay
+    - Kinase concentration response
 - id: kinase_panel
   name: Kinase selectivity panel
   service_line: invitro
@@ -74,7 +76,8 @@ assays:
   units: '% inhibition at 1 µM'
   variants:
     B:
-    - Brindlewythe Kinase selectivity panel
+    - Selectivity sweep
+    - Off-target kinase panel
 - id: mic_stab
   name: Liver microsomal stability
   service_line: dmpk
@@ -82,9 +85,10 @@ assays:
   units: µL/min/mg
   variants:
     B:
-    - Brindlewythe Liver microsomal stability
+    - HLM/RLM stability
+    - Met stab
     C:
-    - Merrivoss Liver microsomal stability
+    - Microsomal CLint
 - id: hep_stab
   name: Hepatocyte stability
   service_line: dmpk
@@ -92,9 +96,9 @@ assays:
   units: µL/min/10^6 cells
   variants:
     B:
-    - Brindlewythe Hepatocyte stability
+    - Fresh hepatocyte turnover
     C:
-    - Merrivoss Hepatocyte stability
+    - Hepatocyte depletion CLint
 - id: ppb
   name: Plasma protein binding (equilibrium dialysis)
   service_line: dmpk
@@ -102,9 +106,9 @@ assays:
   units: '% bound'
   variants:
     B:
-    - Brindlewythe Plasma protein binding (equilibrium dialysis)
+    - RED PPB
     C:
-    - Merrivoss Plasma protein binding (equilibrium dialysis)
+    - fu,p by equilibrium dialysis
 - id: caco2
   name: Caco-2 permeability
   service_line: dmpk
@@ -112,9 +116,9 @@ assays:
   units: 10^-6 cm/s
   variants:
     B:
-    - Brindlewythe Caco-2 permeability
+    - Bidirectional Caco-2
     C:
-    - Merrivoss Caco-2 permeability
+    - Caco-2 flux and efflux ratio
 - id: solubility
   name: Kinetic solubility
   service_line: dmpk
@@ -122,9 +126,9 @@ assays:
   units: µM
   variants:
     B:
-    - Brindlewythe Kinetic solubility
+    - Kinetic solubility screen
     C:
-    - Merrivoss Kinetic solubility
+    - DMSO-dilution solubility
 - id: rodent_pk
   name: Rodent pharmacokinetics with LC-MS/MS bioanalysis
   service_line: dmpk
@@ -132,7 +136,8 @@ assays:
   units: mixed
   variants:
     C:
-    - Merrivoss Rodent pharmacokinetics with LC-MS/MS bioanalysis
+    - Rat exposure with tandem-MS bioanalysis
+    - Oral/IV PK
 - id: comp_screen
   name: Virtual screening and docking
   service_line: compchem
@@ -140,7 +145,8 @@ assays:
   units: kcal/mol
   variants:
     D:
-    - Quenverell Virtual screening and docking
+    - Virtual library triage
+    - Docking and hit clustering
 - id: bioinf
   name: Bioinformatics analysis (target ID, omics, NGS)
   service_line: compchem
@@ -148,7 +154,9 @@ assays:
   units: ''
   variants:
     D:
-    - Quenverell Bioinformatics analysis (target ID
+    - RNA-seq differential expression
+    - Omics target prioritisation
+    - NGS reanalysis
 - id: stability
   name: ICH stability study
   service_line: analytical
@@ -156,7 +164,8 @@ assays:
   units: '% label claim / % area'
   variants:
     E:
-    - Westravelle ICH stability study
+    - ICH chamber programme
+    - Stability pulls
 - id: method_val
   name: HPLC method development and validation
   service_line: analytical
@@ -164,7 +173,8 @@ assays:
   units: mixed
   variants:
     E:
-    - Westravelle HPLC method development and validation
+    - Assay and related-substances validation
+    - HPLC method qualification
 - id: form_screen
   name: Formulation screening
   service_line: formulation
@@ -172,7 +182,8 @@ assays:
   units: mg/mL
   variants:
     F:
-    - Durnesswick Formulation screening
+    - Vehicle ladder
+    - Excipient compatibility screen
 - id: cytotox
   name: In vitro cytotoxicity (HepG2)
   service_line: tox
@@ -180,7 +191,7 @@ assays:
   units: µM
   variants:
     G:
-    - Osterquill In vitro cytotoxicity (HepG2)
+    - HepG2 viability screen
 - id: ames
   name: Bacterial reverse mutation (Ames)
   service_line: tox
@@ -188,7 +199,7 @@ assays:
   units: revertants/plate
   variants:
     G:
-    - Osterquill Bacterial reverse mutation (Ames)
+    - Bacterial mutation assay with and without S9
 - id: micronucleus
   name: In vitro micronucleus
   service_line: tox
@@ -196,7 +207,7 @@ assays:
   units: '% MN cells'
   variants:
     G:
-    - Osterquill In vitro micronucleus
+    - Mammalian-cell micronucleus assessment
 - id: drf
   name: Rodent dose-range-finding study
   service_line: tox
@@ -204,4 +215,5 @@ assays:
   units: mg/kg/day
   variants:
     G:
-    - Osterquill Rodent dose-range-finding study
+    - Exploratory rat range finding
+    - Rat DRF and recovery
