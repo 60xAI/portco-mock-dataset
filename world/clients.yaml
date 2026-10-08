@@ -1,0 +1,1402 @@
+clients:
+- id: CL001
+  canonical_name: Corvenlea Pharma
+  role: q3_target
+  segment: mid_pharma
+  location:
+    city: London
+    country: UK
+  notes: UK parent traded as Corvenlea Pharma, then Corvenlea Ltd; a 2019 listing created Corvenlea Pharmaceuticals
+    plc. Corvenlea (US) is the US subsidiary contracting only with Osterquill. There are no purchases from Quenverell
+    or Durnesswick.
+  variants:
+  - name: Corvenlea Pharma
+    firm: A
+    from: '2001-01-01'
+    to: '2009-12-31'
+  - name: Corvenlea Ltd
+    firm: C
+    from: '2012-01-01'
+    to: '2018-12-31'
+  - name: Corvenlea Pharmaceuticals plc
+    firm: E
+    from: '2019-01-01'
+    to: null
+  - name: Corvenlea (US)
+    firm: G
+    from: '2013-01-01'
+    to: null
+- id: CL002
+  canonical_name: Corvenlith Therapeutics
+  role: q3_lookalike
+  segment: biotech
+  location:
+    city: Boston
+    country: US
+  notes: Independent biotech; similar spelling does not imply a relationship with Corvenlea.
+  lookalike_of: CL001
+  variants:
+  - name: Corvenlith Therapeutics
+    firm: D
+    from: '2011-01-01'
+    to: null
+  - name: Corvenlith Therapeutics
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL003
+  canonical_name: Avernelwick Pharmaceuticals Ltd
+  role: key
+  segment: mid_pharma
+  location:
+    city: Oxford
+    country: UK
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Avernelwick Pharmaceuticals Ltd
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Avernelwick Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Avernelwick Pharmaceuticals Ltd
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL004
+  canonical_name: Selverant Therapeutics Inc
+  role: key
+  segment: biotech
+  location:
+    city: San Diego
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Selverant Therapeutics Inc
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Selverant
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Selverant Therapeutics Inc
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL005
+  canonical_name: Tervemere Pharma AG
+  role: key
+  segment: mid_pharma
+  location:
+    city: Basel
+    country: Switzerland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Tervemere Pharma AG
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Tervemere Pharma AG
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Tervemere Pharma AG
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL006
+  canonical_name: Elvarmere Biosciences AB
+  role: key
+  segment: biotech
+  location:
+    city: Uppsala
+    country: Sweden
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Elvarmere Biosciences AB
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Elvarmere Biosciences AB
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Elvarmere Biosciences AB
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL007
+  canonical_name: Drelvessa Therapeutics SAS
+  role: key
+  segment: biotech
+  location:
+    city: Lyon
+    country: France
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Drelvessa Therapeutics SAS
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Drelvessa Therapeutics SAS
+    firm: D
+    from: '2011-01-01'
+    to: null
+  - name: Drelvessa Therapeutics SAS
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL008
+  canonical_name: Quorenthel Pharma GmbH
+  role: key
+  segment: mid_pharma
+  location:
+    city: Munich
+    country: Germany
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Quorenthel Pharma GmbH
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Quorenthel Pharma GmbH
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Quorenthel Pharma GmbH
+    firm: E
+    from: '2011-01-01'
+    to: null
+- id: CL009
+  canonical_name: Nimbravelle Medicines Inc
+  role: key
+  segment: virtual_biotech
+  location:
+    city: Seattle
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Nimbravelle Medicines Inc
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Nimbravelle Medicines Inc
+    firm: F
+    from: '2016-01-01'
+    to: null
+  - name: Nimbravelle Medicines Inc
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL010
+  canonical_name: Feldorune Therapeutics BV
+  role: key
+  segment: biotech
+  location:
+    city: Leiden
+    country: Netherlands
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Feldorune Therapeutics BV
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Feldorune Therapeutics BV
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Feldorune Therapeutics BV
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL011
+  canonical_name: Valquessia Pharmaceuticals SpA
+  role: key
+  segment: mid_pharma
+  location:
+    city: Milan
+    country: Italy
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Valquessia Pharmaceuticals SpA
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Valquessia Pharmaceuticals SpA
+    firm: D
+    from: '2011-01-01'
+    to: null
+  - name: Valquessia Pharmaceuticals SpA
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL012
+  canonical_name: Orvessant Biosciences Pty Ltd
+  role: key
+  segment: biotech
+  location:
+    city: Melbourne
+    country: Australia
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Orvessant Biosciences Pty Ltd
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Orvessant Biosciences Pty Ltd
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Orvessant Biosciences Pty Ltd
+    firm: E
+    from: '2011-01-01'
+    to: null
+- id: CL013
+  canonical_name: Kelbravik Therapeutics ApS
+  role: key
+  segment: virtual_biotech
+  location:
+    city: Copenhagen
+    country: Denmark
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Kelbravik Therapeutics ApS
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Kelbravik Therapeutics ApS
+    firm: F
+    from: '2016-01-01'
+    to: null
+  - name: Kelbravik Therapeutics ApS
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL014
+  canonical_name: Rennelwick Institute Drug Discovery Unit
+  role: key
+  segment: academic
+  location:
+    city: Bristol
+    country: UK
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Rennelwick Institute Drug Discovery Unit
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Rennelwick Institute Drug Discovery Unit
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Rennelwick Institute Drug Discovery Unit
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL015
+  canonical_name: Vesselquarn Medical Research Trust
+  role: key
+  segment: academic
+  location:
+    city: Dublin
+    country: Ireland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Vesselquarn Medical Research Trust
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Vesselquarn Medical Research Trust
+    firm: D
+    from: '2011-01-01'
+    to: null
+  - name: Vesselquarn Medical Research Trust
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL016
+  canonical_name: Aldrevessa Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Toronto
+    country: Canada
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Aldrevessa Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Aldrevessa Therapeutics
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Aldrevessa Therapeutics
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL017
+  canonical_name: Belquorin Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Brussels
+    country: Belgium
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Belquorin Pharma
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Belquorin Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Belquorin Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL018
+  canonical_name: Cadrunelle Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Paris
+    country: France
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Cadrunelle Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Cadrunelle Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Cadrunelle Biosciences
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL019
+  canonical_name: Doventhar Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Boston
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Doventhar Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Doventhar Therapeutics
+    firm: D
+    from: '2011-01-01'
+    to: null
+- id: CL020
+  canonical_name: Esmervane Pharmaceuticals
+  role: background
+  segment: generics
+  location:
+    city: Mumbai
+    country: India
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Esmervane Pharmaceuticals
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Esmervane Pharmaceuticals
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL021
+  canonical_name: Farnovessa Medicines
+  role: background
+  segment: biotech
+  location:
+    city: Cambridge
+    country: UK
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Farnovessa Medicines
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Farnovessa Medicines
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Farnovessa Medicines
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL022
+  canonical_name: Grespalune Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Berlin
+    country: Germany
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Grespalune Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Grespalune Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Grespalune Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL023
+  canonical_name: Havorlenn Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Oslo
+    country: Norway
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Havorlenn Pharma
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Havorlenn Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Havorlenn Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL024
+  canonical_name: Istravune Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Barcelona
+    country: Spain
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Istravune Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Istravune Biosciences
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Istravune Biosciences
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL025
+  canonical_name: Jelmorath Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Austin
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Jelmorath Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Jelmorath Therapeutics
+    firm: D
+    from: '2011-01-01'
+    to: null
+- id: CL026
+  canonical_name: Kestravelle Animal Health
+  role: background
+  segment: animal_health
+  location:
+    city: Utrecht
+    country: Netherlands
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Kestravelle Animal Health
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Kestravelle Animal Health
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL027
+  canonical_name: Lomervessa Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Lisbon
+    country: Portugal
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Lomervessa Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Lomervessa Pharma
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Lomervessa Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL028
+  canonical_name: Marnelquith Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Cork
+    country: Ireland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Marnelquith Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Marnelquith Therapeutics
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Marnelquith Therapeutics
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL029
+  canonical_name: Nelmudara Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Helsinki
+    country: Finland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Nelmudara Biosciences
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Nelmudara Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Nelmudara Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL030
+  canonical_name: Odraverne Pharmaceuticals
+  role: background
+  segment: generics
+  location:
+    city: Ahmedabad
+    country: India
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Odraverne Pharmaceuticals
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Odraverne Pharmaceuticals
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL031
+  canonical_name: Pelmucent Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: San Francisco
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Pelmucent Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Pelmucent Therapeutics
+    firm: D
+    from: '2011-01-01'
+    to: null
+- id: CL032
+  canonical_name: Quessavorn Pharma
+  role: background
+  segment: big_pharma
+  location:
+    city: Zurich
+    country: Switzerland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Quessavorn Pharma
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Quessavorn Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Quessavorn Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL033
+  canonical_name: Raveldessa Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Montreal
+    country: Canada
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Raveldessa Biosciences
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Raveldessa Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Raveldessa Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL034
+  canonical_name: Sedravik Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Stockholm
+    country: Sweden
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Sedravik Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Sedravik Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Sedravik Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL035
+  canonical_name: Tovesslen Pharmaceuticals
+  role: background
+  segment: mid_pharma
+  location:
+    city: Warsaw
+    country: Poland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Tovesslen Pharmaceuticals
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Tovesslen Pharmaceuticals
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Tovesslen Pharmaceuticals
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL036
+  canonical_name: Ulvornessa Medicines
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Sydney
+    country: Australia
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Ulvornessa Medicines
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Ulvornessa Medicines
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL037
+  canonical_name: Vardelquith Agrochem
+  role: background
+  segment: agrochem
+  location:
+    city: Ghent
+    country: Belgium
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Vardelquith Agrochem
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Vardelquith Agrochem
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL038
+  canonical_name: Welmorath Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Manchester
+    country: UK
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Welmorath Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Welmorath Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Welmorath Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL039
+  canonical_name: Xelvessune Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Seoul
+    country: South Korea
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Xelvessune Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Xelvessune Pharma
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Xelvessune Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL040
+  canonical_name: Yarvesselle Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Tokyo
+    country: Japan
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Yarvesselle Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Yarvesselle Biosciences
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Yarvesselle Biosciences
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL041
+  canonical_name: Zelmorven Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Singapore
+    country: Singapore
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Zelmorven Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Zelmorven Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Zelmorven Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL042
+  canonical_name: Ardelvune Pharmaceuticals
+  role: background
+  segment: generics
+  location:
+    city: Hyderabad
+    country: India
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Ardelvune Pharmaceuticals
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Ardelvune Pharmaceuticals
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL043
+  canonical_name: Bravossent Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Denver
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Bravossent Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Bravossent Therapeutics
+    firm: D
+    from: '2011-01-01'
+    to: null
+- id: CL044
+  canonical_name: Celmorath Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Prague
+    country: Czechia
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Celmorath Pharma
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Celmorath Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Celmorath Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL045
+  canonical_name: Darmeciel Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Vienna
+    country: Austria
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Darmeciel Biosciences
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Darmeciel Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Darmeciel Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL046
+  canonical_name: Emlucera Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Auckland
+    country: New Zealand
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Emlucera Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Emlucera Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Emlucera Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL047
+  canonical_name: Felmorvane Pharma
+  role: background
+  segment: big_pharma
+  location:
+    city: Frankfurt
+    country: Germany
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Felmorvane Pharma
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Felmorvane Pharma
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Felmorvane Pharma
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL048
+  canonical_name: Garnelquith Medicines
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Cambridge
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Garnelquith Medicines
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Garnelquith Medicines
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL049
+  canonical_name: Helvessora Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Tel Aviv
+    country: Israel
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Helvessora Biosciences
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Helvessora Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Helvessora Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL050
+  canonical_name: Ilcavreth Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Bologna
+    country: Italy
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Ilcavreth Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Ilcavreth Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Ilcavreth Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL051
+  canonical_name: Jorvessara Pharmaceuticals
+  role: background
+  segment: generics
+  location:
+    city: Johannesburg
+    country: South Africa
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Jorvessara Pharmaceuticals
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Jorvessara Pharmaceuticals
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL052
+  canonical_name: Kalmorveth Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Mexico City
+    country: Mexico
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Kalmorveth Pharma
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Kalmorveth Pharma
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Kalmorveth Pharma
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL053
+  canonical_name: Lervessune Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Sao Paulo
+    country: Brazil
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Lervessune Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Lervessune Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Lervessune Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL054
+  canonical_name: Meldravora Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Copenhagen
+    country: Denmark
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Meldravora Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Meldravora Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Meldravora Biosciences
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL055
+  canonical_name: Norrustel Animal Health
+  role: background
+  segment: animal_health
+  location:
+    city: Wellington
+    country: New Zealand
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Norrustel Animal Health
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Norrustel Animal Health
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL056
+  canonical_name: Osselmorath Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Los Angeles
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Osselmorath Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Osselmorath Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL057
+  canonical_name: Parvessune Pharmaceuticals
+  role: background
+  segment: mid_pharma
+  location:
+    city: Taipei
+    country: Taiwan
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Parvessune Pharmaceuticals
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Parvessune Pharmaceuticals
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Parvessune Pharmaceuticals
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL058
+  canonical_name: Qeldravora Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Shanghai
+    country: China
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Qeldravora Biosciences
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Qeldravora Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Qeldravora Biosciences
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL059
+  canonical_name: Rimucavel Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Lausanne
+    country: Switzerland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Rimucavel Therapeutics
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Rimucavel Therapeutics
+    firm: D
+    from: '2011-01-01'
+    to: null
+  - name: Rimucavel Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL060
+  canonical_name: Sarnelvessa Agrochem
+  role: background
+  segment: agrochem
+  location:
+    city: Reims
+    country: France
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Sarnelvessa Agrochem
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Sarnelvessa Agrochem
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL061
+  canonical_name: Telquorath Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Budapest
+    country: Hungary
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Telquorath Pharma
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Telquorath Pharma
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Telquorath Pharma
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL062
+  canonical_name: Urdelvessa Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Edinburgh
+    country: UK
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Urdelvessa Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Urdelvessa Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+- id: CL063
+  canonical_name: Vornelquith Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Bergen
+    country: Norway
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Vornelquith Biosciences
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Vornelquith Biosciences
+    firm: D
+    from: '2011-01-01'
+    to: null
+  - name: Vornelquith Biosciences
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL064
+  canonical_name: Wexanthel Medicines
+  role: background
+  segment: biotech
+  location:
+    city: Brisbane
+    country: Australia
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Wexanthel Medicines
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Wexanthel Medicines
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Wexanthel Medicines
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL065
+  canonical_name: Xarnelvune Pharmaceuticals
+  role: background
+  segment: generics
+  location:
+    city: Bangkok
+    country: Thailand
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Xarnelvune Pharmaceuticals
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Xarnelvune Pharmaceuticals
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL066
+  canonical_name: Yondravik Therapeutics
+  role: background
+  segment: biotech
+  location:
+    city: Vancouver
+    country: Canada
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Yondravik Therapeutics
+    firm: B
+    from: '2001-01-01'
+    to: null
+  - name: Yondravik Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Yondravik Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL067
+  canonical_name: Zostremal Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Santiago
+    country: Chile
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Zostremal Pharma
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Zostremal Pharma
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Zostremal Pharma
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL068
+  canonical_name: Auvrelquith Biosciences
+  role: background
+  segment: biotech
+  location:
+    city: Reykjavik
+    country: Iceland
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Auvrelquith Biosciences
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Auvrelquith Biosciences
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Auvrelquith Biosciences
+    firm: F
+    from: '2016-01-01'
+    to: null
+- id: CL069
+  canonical_name: Bevrasselle Therapeutics
+  role: background
+  segment: virtual_biotech
+  location:
+    city: San Diego
+    country: US
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Bevrasselle Therapeutics
+    firm: C
+    from: '2006-01-01'
+    to: null
+  - name: Bevrasselle Therapeutics
+    firm: G
+    from: '2008-01-01'
+    to: null
+- id: CL070
+  canonical_name: Culdrevane Pharma
+  role: background
+  segment: mid_pharma
+  location:
+    city: Ljubljana
+    country: Slovenia
+  notes: Local purchasing identities retained in contracts; no corporate relationship to other directory entries.
+  variants:
+  - name: Culdrevane Pharma
+    firm: A
+    from: '1996-01-01'
+    to: null
+  - name: Culdrevane Pharma
+    firm: E
+    from: '2011-01-01'
+    to: null
+  - name: Culdrevane Pharma
+    firm: F
+    from: '2016-01-01'
+    to: null

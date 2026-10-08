@@ -1,0 +1,4481 @@
+people:
+- id: ST01
+  canonical_name: Martin Ellerscombe
+  first_name: Martin
+  last_name: Ellerscombe
+  title: Dr
+  variants:
+  - Dr M. Ellerscombe
+  - Martin Ellerscombe
+  - mellerscombe
+  username: mellerscombe
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Senior In Vitro Biologist
+    unit: B
+    from: '1999-01-04'
+    to: '2019-07-31'
+  joined: '1999-01-04'
+  left: '2019-07-31'
+  key: true
+  role_hint: leaver_old_laptop
+  nationality: British
+  notes: Old laptop working folder retained after departure.
+- id: ST02
+  canonical_name: Anika Veldershain
+  first_name: Anika
+  last_name: Veldershain
+  title: Dr
+  variants:
+  - Dr A. Veldershain
+  - Anika Veldershain
+  - aveldershain
+  username: aveldershain
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: B
+    from: '2001-01-08'
+    to: '2018-12-31'
+  joined: '2001-01-08'
+  left: '2018-12-31'
+  key: true
+  role_hint: q2_lead_B_early
+  nationality: German
+  notes: ''
+- id: ST03
+  canonical_name: Leila Benmezroun
+  first_name: Leila
+  last_name: Benmezroun
+  title: Dr
+  variants:
+  - Dr L. Benmezroun
+  - Leila Benmezroun
+  - lbenmezroun
+  username: lbenmezroun
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: B
+    from: '2018-03-05'
+    to: null
+  joined: '2018-03-05'
+  left: null
+  key: true
+  role_hint: q2_lead_B_recent
+  nationality: French-Algerian
+  notes: ''
+- id: ST04
+  canonical_name: Matteo Rinalvesi
+  first_name: Matteo
+  last_name: Rinalvesi
+  title: Dr
+  variants:
+  - Dr M. Rinalvesi
+  - Matteo Rinalvesi
+  - mrinalvesi
+  username: mrinalvesi
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: DMPK Lead
+    unit: C
+    from: '2010-02-01'
+    to: '2019-06-28'
+  joined: '2010-02-01'
+  left: '2019-06-28'
+  key: true
+  role_hint: q2_lead_C_early
+  nationality: Italian
+  notes: ''
+- id: ST05
+  canonical_name: Priya Nandekuri
+  first_name: Priya
+  last_name: Nandekuri
+  title: Dr
+  variants:
+  - Dr P. Nandekuri
+  - Priya Nandekuri
+  - pnandekuri
+  username: pnandekuri
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: DMPK Lead
+    unit: C
+    from: '2019-01-07'
+    to: null
+  joined: '2019-01-07'
+  left: null
+  key: true
+  role_hint: q2_lead_C_recent
+  nationality: Indian
+  notes: ''
+- id: ST06
+  canonical_name: Tomasz Zawiernicki
+  first_name: Tomasz
+  last_name: Zawiernicki
+  title: Dr
+  variants:
+  - Dr T. Zawiernicki
+  - Tomasz Zawiernicki
+  - tzawiernicki
+  username: tzawiernicki
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Head of Bioinformatics
+    unit: D
+    from: '2011-01-10'
+    to: null
+  joined: '2011-01-10'
+  left: null
+  key: true
+  role_hint: bioinf_lead_D
+  nationality: Polish
+  notes: ''
+- id: ST07
+  canonical_name: Eleanor Vellacombe
+  first_name: Eleanor
+  last_name: Vellacombe
+  title: Dr
+  variants:
+  - Dr E. Vellacombe
+  - Eleanor Vellacombe
+  - evellacombe
+  username: evellacombe
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Founder and Managing Director
+    unit: A
+    from: '1994-03-14'
+    to: '2019-12-31'
+  - title: Group Chair
+    unit: HO
+    from: '2020-01-01'
+    to: null
+  joined: '1994-03-14'
+  left: null
+  key: true
+  role_hint: founder_A
+  nationality: British
+  notes: Founding scientist; moved to group chair after the investment.
+- id: ST08
+  canonical_name: Daniel Grellacott
+  first_name: Daniel
+  last_name: Grellacott
+  title: null
+  variants:
+  - D. Grellacott
+  - Daniel Grellacott
+  - dgrellacott
+  username: dgrellacott
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group Chief Executive
+    unit: HO
+    from: '2020-01-06'
+    to: null
+  joined: '2020-01-06'
+  left: null
+  key: true
+  role_hint: group_ceo
+  nationality: American
+  notes: ''
+- id: ST09
+  canonical_name: Sofia Lindervik
+  first_name: Sofia
+  last_name: Lindervik
+  title: null
+  variants:
+  - S. Lindervik
+  - Sofia Lindervik
+  - slindervik
+  username: slindervik
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Integration Director
+    unit: HO
+    from: '2024-04-08'
+    to: null
+  joined: '2024-04-08'
+  left: null
+  key: true
+  role_hint: integration_director
+  nationality: Swedish
+  notes: ''
+- id: ST10
+  canonical_name: Naomi Takamori
+  first_name: Naomi
+  last_name: Takamori
+  title: Dr
+  variants:
+  - Dr N. Takamori
+  - Naomi Takamori
+  - ntakamori
+  username: ntakamori
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Head of Toxicology
+    unit: G
+    from: '2010-01-11'
+    to: null
+  joined: '2010-01-11'
+  left: null
+  key: true
+  role_hint: tox_lead_G
+  nationality: Japanese-American
+  notes: ''
+- id: NS01
+  canonical_name: Ruth Calderwood
+  first_name: Ruth
+  last_name: Calderwood
+  title: Dr
+  variants:
+  - Dr R. Calderwood
+  - Ruth Calderwood
+  - rcalderwood
+  username: rcalderwood
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Site Scientific Director
+    unit: A
+    from: '1994-03-14'
+    to: null
+  joined: '1994-03-14'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Established the local scientific operations.
+- id: NS02
+  canonical_name: Hassan Darwish
+  first_name: Hassan
+  last_name: Darwish
+  title: Dr
+  variants:
+  - Dr H. Darwish
+  - Hassan Darwish
+  - hdarwish
+  username: hdarwish
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Study Scientist
+    unit: A
+    from: '1994-03-14'
+    to: null
+  joined: '1994-03-14'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS03
+  canonical_name: Clara Fenwick
+  first_name: Clara
+  last_name: Fenwick
+  title: null
+  variants:
+  - C. Fenwick
+  - Clara Fenwick
+  - cfenwick
+  username: cfenwick
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Quality Assurance Manager
+    unit: A
+    from: '1994-03-14'
+    to: null
+  joined: '1994-03-14'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS04
+  canonical_name: Owen Merriman
+  first_name: Owen
+  last_name: Merriman
+  title: null
+  variants:
+  - O. Merriman
+  - Owen Merriman
+  - omerriman
+  username: omerriman
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Business Development Manager
+    unit: A
+    from: '1994-03-14'
+    to: '2022-12-31'
+  joined: '1994-03-14'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Left for an independent role; archived folders retained.
+- id: NS05
+  canonical_name: Bethany Rowcroft
+  first_name: Bethany
+  last_name: Rowcroft
+  title: Dr
+  variants:
+  - Dr B. Rowcroft
+  - Bethany Rowcroft
+  - browcroft
+  username: browcroft
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Site Scientific Director
+    unit: B
+    from: '1998-06-01'
+    to: null
+  joined: '1998-06-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Established the local scientific operations.
+- id: NS06
+  canonical_name: Ravi Deshmukh
+  first_name: Ravi
+  last_name: Deshmukh
+  title: Dr
+  variants:
+  - Dr R. Deshmukh
+  - Ravi Deshmukh
+  - rdeshmukh
+  username: rdeshmukh
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Study Scientist
+    unit: B
+    from: '1998-06-01'
+    to: null
+  joined: '1998-06-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS07
+  canonical_name: Ines Alvarado
+  first_name: Ines
+  last_name: Alvarado
+  title: null
+  variants:
+  - I. Alvarado
+  - Ines Alvarado
+  - ialvarado
+  username: ialvarado
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Quality Assurance Manager
+    unit: B
+    from: '1998-06-01'
+    to: null
+  joined: '1998-06-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS08
+  canonical_name: Peter Wainford
+  first_name: Peter
+  last_name: Wainford
+  title: null
+  variants:
+  - P. Wainford
+  - Peter Wainford
+  - pwainford
+  username: pwainford
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Business Development Manager
+    unit: B
+    from: '1998-06-01'
+    to: '2022-12-31'
+  joined: '1998-06-01'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Left for an independent role; archived folders retained.
+- id: NS09
+  canonical_name: Megan Larkin
+  first_name: Megan
+  last_name: Larkin
+  title: Dr
+  variants:
+  - Dr M. Larkin
+  - Megan Larkin
+  - mlarkin
+  username: mlarkin
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Site Scientific Director
+    unit: C
+    from: '2003-02-10'
+    to: null
+  joined: '2003-02-10'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: Established the local scientific operations.
+- id: NS10
+  canonical_name: Javier Quintana
+  first_name: Javier
+  last_name: Quintana
+  title: Dr
+  variants:
+  - Dr J. Quintana
+  - Javier Quintana
+  - jquintana
+  username: jquintana
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Study Scientist
+    unit: C
+    from: '2003-02-10'
+    to: null
+  joined: '2003-02-10'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: ''
+- id: NS11
+  canonical_name: Helen Marchwood
+  first_name: Helen
+  last_name: Marchwood
+  title: null
+  variants:
+  - H. Marchwood
+  - Helen Marchwood
+  - hmarchwood
+  username: hmarchwood
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Quality Assurance Manager
+    unit: C
+    from: '2003-02-10'
+    to: null
+  joined: '2003-02-10'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: ''
+- id: NS12
+  canonical_name: Adeel Farooqi
+  first_name: Adeel
+  last_name: Farooqi
+  title: null
+  variants:
+  - A. Farooqi
+  - Adeel Farooqi
+  - afarooqi
+  username: afarooqi
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Business Development Manager
+    unit: C
+    from: '2003-02-10'
+    to: '2022-12-31'
+  joined: '2003-02-10'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: American
+  notes: Left for an independent role; archived folders retained.
+- id: NS13
+  canonical_name: Fiona Macrae
+  first_name: Fiona
+  last_name: Macrae
+  title: Dr
+  variants:
+  - Dr F. Macrae
+  - Fiona Macrae
+  - fmacrae
+  username: fmacrae
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Site Scientific Director
+    unit: D
+    from: '2009-04-06'
+    to: null
+  joined: '2009-04-06'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Established the local scientific operations.
+- id: NS14
+  canonical_name: Emil Ostlund
+  first_name: Emil
+  last_name: Ostlund
+  title: Dr
+  variants:
+  - Dr E. Ostlund
+  - Emil Ostlund
+  - eostlund
+  username: eostlund
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Study Scientist
+    unit: D
+    from: '2009-04-06'
+    to: null
+  joined: '2009-04-06'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS15
+  canonical_name: Nadia Rahmani
+  first_name: Nadia
+  last_name: Rahmani
+  title: null
+  variants:
+  - N. Rahmani
+  - Nadia Rahmani
+  - nrahmani
+  username: nrahmani
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Quality Assurance Manager
+    unit: D
+    from: '2009-04-06'
+    to: null
+  joined: '2009-04-06'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS16
+  canonical_name: Callum Strachan
+  first_name: Callum
+  last_name: Strachan
+  title: null
+  variants:
+  - C. Strachan
+  - Callum Strachan
+  - cstrachan
+  username: cstrachan
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Business Development Manager
+    unit: D
+    from: '2009-04-06'
+    to: '2022-12-31'
+  joined: '2009-04-06'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Left for an independent role; archived folders retained.
+- id: NS17
+  canonical_name: Alice Penrose
+  first_name: Alice
+  last_name: Penrose
+  title: Dr
+  variants:
+  - Dr A. Penrose
+  - Alice Penrose
+  - alicep
+  username: alicep
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Site Scientific Director
+    unit: E
+    from: '2008-09-01'
+    to: null
+  joined: '2008-09-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Established the local scientific operations.
+- id: NS18
+  canonical_name: Leon Wu
+  first_name: Leon
+  last_name: Wu
+  title: Dr
+  variants:
+  - Dr L. Wu
+  - Leon Wu
+  - leonw
+  username: leonw
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Study Scientist
+    unit: E
+    from: '2008-09-01'
+    to: null
+  joined: '2008-09-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS19
+  canonical_name: Saira Mahmood
+  first_name: Saira
+  last_name: Mahmood
+  title: null
+  variants:
+  - S. Mahmood
+  - Saira Mahmood
+  - sairam
+  username: sairam
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Quality Assurance Manager
+    unit: E
+    from: '2008-09-01'
+    to: null
+  joined: '2008-09-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS20
+  canonical_name: Gareth Bramwell
+  first_name: Gareth
+  last_name: Bramwell
+  title: null
+  variants:
+  - G. Bramwell
+  - Gareth Bramwell
+  - garethb
+  username: garethb
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Business Development Manager
+    unit: E
+    from: '2008-09-01'
+    to: '2022-12-31'
+  joined: '2008-09-01'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Left for an independent role; archived folders retained.
+- id: NS21
+  canonical_name: Julia Carver
+  first_name: Julia
+  last_name: Carver
+  title: Dr
+  variants:
+  - Dr J. Carver
+  - Julia Carver
+  - carverj
+  username: carverj
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Site Scientific Director
+    unit: F
+    from: '2015-01-12'
+    to: null
+  joined: '2015-01-12'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: Established the local scientific operations.
+- id: NS22
+  canonical_name: Miguel Serrano
+  first_name: Miguel
+  last_name: Serrano
+  title: Dr
+  variants:
+  - Dr M. Serrano
+  - Miguel Serrano
+  - serranom
+  username: serranom
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Study Scientist
+    unit: F
+    from: '2015-01-12'
+    to: null
+  joined: '2015-01-12'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: ''
+- id: NS23
+  canonical_name: Lena Patel
+  first_name: Lena
+  last_name: Patel
+  title: null
+  variants:
+  - L. Patel
+  - Lena Patel
+  - patell
+  username: patell
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Quality Assurance Manager
+    unit: F
+    from: '2015-01-12'
+    to: null
+  joined: '2015-01-12'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: ''
+- id: NS24
+  canonical_name: Eric Langford
+  first_name: Eric
+  last_name: Langford
+  title: null
+  variants:
+  - E. Langford
+  - Eric Langford
+  - langforde
+  username: langforde
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Business Development Manager
+    unit: F
+    from: '2015-01-12'
+    to: '2022-12-31'
+  joined: '2015-01-12'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: American
+  notes: Left for an independent role; archived folders retained.
+- id: NS25
+  canonical_name: Rachel Okafor
+  first_name: Rachel
+  last_name: Okafor
+  title: Dr
+  variants:
+  - Dr R. Okafor
+  - Rachel Okafor
+  - rokafor
+  username: rokafor
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Site Scientific Director
+    unit: G
+    from: '2007-05-07'
+    to: null
+  joined: '2007-05-07'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: Established the local scientific operations.
+- id: NS26
+  canonical_name: Kenji Morita
+  first_name: Kenji
+  last_name: Morita
+  title: Dr
+  variants:
+  - Dr K. Morita
+  - Kenji Morita
+  - kmorita
+  username: kmorita
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Study Scientist
+    unit: G
+    from: '2007-05-07'
+    to: null
+  joined: '2007-05-07'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: ''
+- id: NS27
+  canonical_name: Lucia Moretti
+  first_name: Lucia
+  last_name: Moretti
+  title: null
+  variants:
+  - L. Moretti
+  - Lucia Moretti
+  - lmoretti
+  username: lmoretti
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Quality Assurance Manager
+    unit: G
+    from: '2007-05-07'
+    to: null
+  joined: '2007-05-07'
+  left: null
+  key: false
+  role_hint: null
+  nationality: American
+  notes: ''
+- id: NS28
+  canonical_name: Samuel Hartwell
+  first_name: Samuel
+  last_name: Hartwell
+  title: null
+  variants:
+  - S. Hartwell
+  - Samuel Hartwell
+  - shartwell
+  username: shartwell
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Business Development Manager
+    unit: G
+    from: '2007-05-07'
+    to: '2022-12-31'
+  joined: '2007-05-07'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: American
+  notes: Left for an independent role; archived folders retained.
+- id: NS29
+  canonical_name: Andrea Beckett
+  first_name: Andrea
+  last_name: Beckett
+  title: null
+  variants:
+  - A. Beckett
+  - Andrea Beckett
+  - abeckett
+  username: abeckett
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group Finance Director
+    unit: HO
+    from: '1996-04-01'
+    to: null
+  joined: '1996-04-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Established the local scientific operations.
+- id: NS30
+  canonical_name: Nils Bergstrom
+  first_name: Nils
+  last_name: Bergstrom
+  title: null
+  variants:
+  - N. Bergstrom
+  - Nils Bergstrom
+  - nbergstrom
+  username: nbergstrom
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: People Operations Manager
+    unit: HO
+    from: '1996-04-01'
+    to: null
+  joined: '1996-04-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS31
+  canonical_name: Yasmin Farhat
+  first_name: Yasmin
+  last_name: Farhat
+  title: null
+  variants:
+  - Y. Farhat
+  - Yasmin Farhat
+  - yfarhat
+  username: yfarhat
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group Quality Director
+    unit: HO
+    from: '1996-04-01'
+    to: null
+  joined: '1996-04-01'
+  left: null
+  key: false
+  role_hint: null
+  nationality: British
+  notes: ''
+- id: NS32
+  canonical_name: Oliver Pritchard
+  first_name: Oliver
+  last_name: Pritchard
+  title: null
+  variants:
+  - O. Pritchard
+  - Oliver Pritchard
+  - opritchard
+  username: opritchard
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Commercial Development Manager
+    unit: HO
+    from: '1996-04-01'
+    to: '2022-12-31'
+  joined: '1996-04-01'
+  left: '2022-12-31'
+  key: false
+  role_hint: null
+  nationality: British
+  notes: Left for an independent role; archived folders retained.
+- id: BG001
+  canonical_name: Christiane Antoine
+  first_name: Christiane
+  last_name: Antoine
+  title: null
+  variants:
+  - C. Antoine
+  - Christiane Antoine
+  - cantoine
+  username: cantoine
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Chemist
+    unit: A
+    from: &id001 2000-07-05
+    to: &id002 2021-06-21
+  joined: *id001
+  left: *id002
+  key: false
+  nationality: French
+- id: BG002
+  canonical_name: Louis Iqbal
+  first_name: Louis
+  last_name: Iqbal
+  title: Dr
+  variants:
+  - Dr L. Iqbal
+  - Louis Iqbal
+  - liqbal
+  username: liqbal
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Associate Director, Chemistry
+    unit: A
+    from: &id003 2002-04-07
+    to: 2006-11-18
+  - title: Chemist
+    unit: A
+    from: 2006-11-19
+    to: &id004 2021-04-13
+  joined: *id003
+  left: *id004
+  key: false
+  nationality: British
+- id: BG003
+  canonical_name: Mohammad Mills
+  first_name: Mohammad
+  last_name: Mills
+  title: Dr
+  variants:
+  - Dr M. Mills
+  - Mohammad Mills
+  - mmills
+  username: mmills
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Team Leader, Chemistry
+    unit: A
+    from: &id005 2009-03-19
+    to: null
+  joined: *id005
+  left: null
+  key: false
+  nationality: British
+- id: BG004
+  canonical_name: Elizabeth Brown
+  first_name: Elizabeth
+  last_name: Brown
+  title: null
+  variants:
+  - E. Brown
+  - Elizabeth Brown
+  - ebrown
+  username: ebrown
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Associate Director, Chemistry
+    unit: A
+    from: &id006 2009-03-26
+    to: null
+  joined: *id006
+  left: null
+  key: false
+  nationality: American
+- id: BG005
+  canonical_name: Annette Andrews
+  first_name: Annette
+  last_name: Andrews
+  title: Dr
+  variants:
+  - Dr A. Andrews
+  - Annette Andrews
+  - aandrews
+  username: aandrews
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Principal Scientist
+    unit: A
+    from: &id007 2006-02-05
+    to: null
+  joined: *id007
+  left: null
+  key: false
+  nationality: British
+- id: BG006
+  canonical_name: Jessika Köster
+  first_name: Jessika
+  last_name: Köster
+  title: null
+  variants:
+  - J. Köster
+  - Jessika Köster
+  - jköster
+  username: jköster
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Associate Director, Chemistry
+    unit: A
+    from: &id008 1999-07-20
+    to: 2006-03-29
+  - title: Synthetic Chemist
+    unit: A
+    from: 2006-03-30
+    to: &id009 2013-08-10
+  joined: *id008
+  left: *id009
+  key: false
+  nationality: German
+- id: BG007
+  canonical_name: Armando Verdi
+  first_name: Armando
+  last_name: Verdi
+  title: Dr
+  variants:
+  - Dr A. Verdi
+  - Armando Verdi
+  - averdi
+  username: averdi
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Senior Chemist
+    unit: A
+    from: &id010 2018-02-17
+    to: 2020-05-05
+  - title: Chemist
+    unit: A
+    from: 2020-05-06
+    to: &id011 2026-04-07
+  joined: *id010
+  left: *id011
+  key: false
+  nationality: Italian
+- id: BG008
+  canonical_name: Witold Wita
+  first_name: Witold
+  last_name: Wita
+  title: Dr
+  variants:
+  - Dr W. Wita
+  - Witold Wita
+  - wwita
+  username: wwita
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Associate Director, Chemistry
+    unit: A
+    from: &id012 2003-02-05
+    to: null
+  joined: *id012
+  left: null
+  key: false
+  nationality: Polish
+- id: BG009
+  canonical_name: Patrick Mallick
+  first_name: Patrick
+  last_name: Mallick
+  title: Dr
+  variants:
+  - Dr P. Mallick
+  - Patrick Mallick
+  - pmallick
+  username: pmallick
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Chemist
+    unit: A
+    from: &id013 2001-07-28
+    to: &id014 2024-10-07
+  joined: *id013
+  left: *id014
+  key: false
+  nationality: Indian
+- id: BG010
+  canonical_name: Patricia Howell
+  first_name: Patricia
+  last_name: Howell
+  title: Dr
+  variants:
+  - Dr P. Howell
+  - Patricia Howell
+  - phowell
+  username: phowell
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Associate Director, Chemistry
+    unit: A
+    from: &id015 2020-03-09
+    to: &id016 2023-07-19
+  joined: *id015
+  left: *id016
+  key: false
+  nationality: American
+- id: BG011
+  canonical_name: Ljubica Rogner
+  first_name: Ljubica
+  last_name: Rogner
+  title: null
+  variants:
+  - L. Rogner
+  - Ljubica Rogner
+  - lrogner
+  username: lrogner
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Team Leader, Chemistry
+    unit: A
+    from: &id017 2026-02-17
+    to: null
+  joined: *id017
+  left: null
+  key: false
+  nationality: German
+- id: BG012
+  canonical_name: Aarush Vala
+  first_name: Aarush
+  last_name: Vala
+  title: null
+  variants:
+  - A. Vala
+  - Aarush Vala
+  - avala
+  username: avala
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Principal Scientist
+    unit: A
+    from: &id018 2022-12-07
+    to: null
+  joined: *id018
+  left: null
+  key: false
+  nationality: Indian
+- id: BG013
+  canonical_name: Vinaya Kamdar
+  first_name: Vinaya
+  last_name: Kamdar
+  title: null
+  variants:
+  - V. Kamdar
+  - Vinaya Kamdar
+  - vkamdar
+  username: vkamdar
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Team Leader, Chemistry
+    unit: A
+    from: &id019 2022-08-24
+    to: &id020 2026-07-16
+  joined: *id019
+  left: *id020
+  key: false
+  nationality: Indian
+- id: BG014
+  canonical_name: Joanne Price
+  first_name: Joanne
+  last_name: Price
+  title: null
+  variants:
+  - J. Price
+  - Joanne Price
+  - jprice
+  username: jprice
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Chemist
+    unit: A
+    from: &id021 2004-12-22
+    to: 2007-09-20
+  - title: Associate Director, Chemistry
+    unit: A
+    from: 2007-09-21
+    to: &id022 2010-08-09
+  joined: *id021
+  left: *id022
+  key: false
+  nationality: British
+- id: BG015
+  canonical_name: Andrew May
+  first_name: Andrew
+  last_name: May
+  title: null
+  variants:
+  - A. May
+  - Andrew May
+  - amay
+  username: amay
+  home_firm: A
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: A
+    from: &id023 1997-03-15
+    to: null
+  joined: *id023
+  left: null
+  key: false
+  nationality: American
+- id: BG016
+  canonical_name: Patrick Jones
+  first_name: Patrick
+  last_name: Jones
+  title: Dr
+  variants:
+  - Dr P. Jones
+  - Patrick Jones
+  - pjones
+  username: pjones
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Chemist
+    unit: A
+    from: &id024 1997-01-24
+    to: 2008-12-16
+  - title: Synthetic Chemist
+    unit: A
+    from: 2008-12-17
+    to: &id025 2017-09-29
+  joined: *id024
+  left: *id025
+  key: false
+  nationality: British
+- id: BG017
+  canonical_name: Eugene Maughan
+  first_name: Eugene
+  last_name: Maughan
+  title: null
+  variants:
+  - E. Maughan
+  - Eugene Maughan
+  - emaughan
+  username: emaughan
+  home_firm: A
+  service_line: admin
+  roles:
+  - title: Finance Manager
+    unit: A
+    from: &id026 2012-05-23
+    to: 2019-04-25
+  - title: Office Manager
+    unit: A
+    from: 2019-04-26
+    to: null
+  joined: *id026
+  left: null
+  key: false
+  nationality: Irish
+- id: BG018
+  canonical_name: Nathan Wheeler
+  first_name: Nathan
+  last_name: Wheeler
+  title: Dr
+  variants:
+  - Dr N. Wheeler
+  - Nathan Wheeler
+  - nwheeler
+  username: nwheeler
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Synthetic Chemist
+    unit: A
+    from: &id027 2015-12-21
+    to: null
+  joined: *id027
+  left: null
+  key: false
+  nationality: American
+- id: BG019
+  canonical_name: Owen Evans
+  first_name: Owen
+  last_name: Evans
+  title: null
+  variants:
+  - O. Evans
+  - Owen Evans
+  - oevans
+  username: oevans
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Synthetic Chemist
+    unit: A
+    from: &id028 2025-06-08
+    to: &id029 2026-07-18
+  joined: *id028
+  left: *id029
+  key: false
+  nationality: British
+- id: BG020
+  canonical_name: Carol Frost
+  first_name: Carol
+  last_name: Frost
+  title: Dr
+  variants:
+  - Dr C. Frost
+  - Carol Frost
+  - cfrost
+  username: cfrost
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Associate Director, Chemistry
+    unit: A
+    from: &id030 2001-09-21
+    to: &id031 2005-02-24
+  joined: *id030
+  left: *id031
+  key: false
+  nationality: British
+- id: BG021
+  canonical_name: Lisandro Acedo
+  first_name: Lisandro
+  last_name: Acedo
+  title: null
+  variants:
+  - L. Acedo
+  - Lisandro Acedo
+  - lacedo
+  username: lacedo
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Chemist
+    unit: A
+    from: &id032 2009-04-28
+    to: &id033 2016-12-12
+  joined: *id032
+  left: *id033
+  key: false
+  nationality: Spanish
+- id: BG022
+  canonical_name: Joerg Ruppersberger
+  first_name: Joerg
+  last_name: Ruppersberger
+  title: null
+  variants:
+  - J. Ruppersberger
+  - Joerg Ruppersberger
+  - jruppersberger
+  username: jruppersberger
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Principal Scientist
+    unit: A
+    from: &id034 2017-08-02
+    to: 2019-12-26
+  - title: Associate Director, Chemistry
+    unit: A
+    from: 2019-12-27
+    to: &id035 2024-07-08
+  joined: *id034
+  left: *id035
+  key: false
+  nationality: German
+- id: BG023
+  canonical_name: Jose Cole
+  first_name: Jose
+  last_name: Cole
+  title: null
+  variants:
+  - J. Cole
+  - Jose Cole
+  - jcole
+  username: jcole
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Synthetic Chemist
+    unit: A
+    from: &id036 1999-04-29
+    to: 2022-12-09
+  - title: Team Leader, Chemistry
+    unit: A
+    from: 2022-12-10
+    to: null
+  joined: *id036
+  left: null
+  key: false
+  nationality: American
+- id: BG024
+  canonical_name: Ewelina Stryjek
+  first_name: Ewelina
+  last_name: Stryjek
+  title: null
+  variants:
+  - E. Stryjek
+  - Ewelina Stryjek
+  - estryjek
+  username: estryjek
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Senior Chemist
+    unit: A
+    from: &id037 2016-08-28
+    to: 2021-10-06
+  - title: Associate Director, Chemistry
+    unit: A
+    from: 2021-10-07
+    to: null
+  joined: *id037
+  left: null
+  key: false
+  nationality: Polish
+- id: BG025
+  canonical_name: Karen Moreno
+  first_name: Karen
+  last_name: Moreno
+  title: Dr
+  variants:
+  - Dr K. Moreno
+  - Karen Moreno
+  - kmoreno
+  username: kmoreno
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Synthetic Chemist
+    unit: A
+    from: &id038 2019-11-04
+    to: &id039 2022-05-17
+  joined: *id038
+  left: *id039
+  key: false
+  nationality: American
+- id: BG026
+  canonical_name: Françoise Schneider
+  first_name: Françoise
+  last_name: Schneider
+  title: null
+  variants:
+  - F. Schneider
+  - Françoise Schneider
+  - fschneider
+  username: fschneider
+  home_firm: A
+  service_line: admin
+  roles:
+  - title: Finance Manager
+    unit: A
+    from: &id040 2007-04-13
+    to: null
+  joined: *id040
+  left: null
+  key: false
+  nationality: French
+- id: BG027
+  canonical_name: Kai Briere
+  first_name: Kai
+  last_name: Briere
+  title: null
+  variants:
+  - K. Briere
+  - Kai Briere
+  - kbriere
+  username: kbriere
+  home_firm: A
+  service_line: medchem
+  roles:
+  - title: Team Leader, Chemistry
+    unit: A
+    from: &id041 2014-09-02
+    to: null
+  joined: *id041
+  left: null
+  key: false
+  nationality: Dutch
+- id: BG028
+  canonical_name: Henning Flantz
+  first_name: Henning
+  last_name: Flantz
+  title: null
+  variants:
+  - H. Flantz
+  - Henning Flantz
+  - hflantz
+  username: hflantz
+  home_firm: B
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: B
+    from: &id042 2021-06-11
+    to: null
+  joined: *id042
+  left: null
+  key: false
+  nationality: German
+- id: BG029
+  canonical_name: Gerda Gude
+  first_name: Gerda
+  last_name: Gude
+  title: null
+  variants:
+  - G. Gude
+  - Gerda Gude
+  - ggude
+  username: ggude
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Electrophysiologist
+    unit: B
+    from: &id043 2018-07-18
+    to: &id044 2021-08-20
+  joined: *id043
+  left: *id044
+  key: false
+  nationality: German
+- id: BG030
+  canonical_name: John Mckinney
+  first_name: John
+  last_name: Mckinney
+  title: null
+  variants:
+  - J. Mckinney
+  - John Mckinney
+  - jmckinney
+  username: jmckinney
+  home_firm: B
+  service_line: admin
+  roles:
+  - title: Project Manager
+    unit: B
+    from: &id045 2021-09-10
+    to: &id046 2026-06-24
+  joined: *id045
+  left: *id046
+  key: false
+  nationality: American
+- id: BG031
+  canonical_name: Stéphane Guillaume
+  first_name: Stéphane
+  last_name: Guillaume
+  title: Dr
+  variants:
+  - Dr S. Guillaume
+  - Stéphane Guillaume
+  - sguillaume
+  username: sguillaume
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: B
+    from: &id047 2010-02-27
+    to: null
+  joined: *id047
+  left: null
+  key: false
+  nationality: French
+- id: BG032
+  canonical_name: Daniel Ben
+  first_name: Daniel
+  last_name: Ben
+  title: Dr
+  variants:
+  - Dr D. Ben
+  - Daniel Ben
+  - dben
+  username: dben
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: Mass Spectrometry Specialist
+    unit: B
+    from: &id048 2002-11-22
+    to: &id049 2017-11-04
+  joined: *id048
+  left: *id049
+  key: false
+  nationality: Indian
+- id: BG033
+  canonical_name: Jack Rees
+  first_name: Jack
+  last_name: Rees
+  title: Dr
+  variants:
+  - Dr J. Rees
+  - Jack Rees
+  - jrees
+  username: jrees
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Assay Biologist
+    unit: B
+    from: &id050 2021-01-02
+    to: null
+  joined: *id050
+  left: null
+  key: false
+  nationality: British
+- id: BG034
+  canonical_name: Anna Leon
+  first_name: Anna
+  last_name: Leon
+  title: null
+  variants:
+  - A. Leon
+  - Anna Leon
+  - aleon
+  username: aleon
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Senior Scientist
+    unit: B
+    from: &id051 2001-10-19
+    to: null
+  joined: *id051
+  left: null
+  key: false
+  nationality: American
+- id: BG035
+  canonical_name: Jeremy Ford
+  first_name: Jeremy
+  last_name: Ford
+  title: null
+  variants:
+  - J. Ford
+  - Jeremy Ford
+  - jford
+  username: jford
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: DMPK Scientist
+    unit: B
+    from: &id052 2007-02-22
+    to: &id053 2009-02-03
+  joined: *id052
+  left: *id053
+  key: false
+  nationality: American
+- id: BG036
+  canonical_name: Berenice Bongiorno
+  first_name: Berenice
+  last_name: Bongiorno
+  title: null
+  variants:
+  - B. Bongiorno
+  - Berenice Bongiorno
+  - bbongiorno
+  username: bbongiorno
+  home_firm: B
+  service_line: admin
+  roles:
+  - title: Quality Assurance Manager
+    unit: B
+    from: &id054 2021-11-18
+    to: &id055 2026-05-10
+  joined: *id054
+  left: *id055
+  key: false
+  nationality: Italian
+- id: BG037
+  canonical_name: Margot Bruneau
+  first_name: Margot
+  last_name: Bruneau
+  title: null
+  variants:
+  - M. Bruneau
+  - Margot Bruneau
+  - mbruneau
+  username: mbruneau
+  home_firm: B
+  service_line: admin
+  roles:
+  - title: IT Support Analyst
+    unit: B
+    from: &id056 2024-12-04
+    to: &id057 2026-05-28
+  joined: *id056
+  left: *id057
+  key: false
+  nationality: French
+- id: BG038
+  canonical_name: Nilima Savant
+  first_name: Nilima
+  last_name: Savant
+  title: null
+  variants:
+  - N. Savant
+  - Nilima Savant
+  - nsavant
+  username: nsavant
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: Bioanalyst
+    unit: B
+    from: &id058 2024-04-14
+    to: &id059 2025-09-26
+  joined: *id058
+  left: *id059
+  key: false
+  nationality: Indian
+- id: BG039
+  canonical_name: Bernard Dixon
+  first_name: Bernard
+  last_name: Dixon
+  title: null
+  variants:
+  - B. Dixon
+  - Bernard Dixon
+  - bdixon
+  username: bdixon
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: Bioanalyst
+    unit: B
+    from: &id060 2002-05-30
+    to: null
+  joined: *id060
+  left: null
+  key: false
+  nationality: British
+- id: BG040
+  canonical_name: Jason Scanlon
+  first_name: Jason
+  last_name: Scanlon
+  title: null
+  variants:
+  - J. Scanlon
+  - Jason Scanlon
+  - jscanlon
+  username: jscanlon
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Senior Scientist
+    unit: B
+    from: &id061 2006-03-20
+    to: 2016-11-16
+  - title: Electrophysiologist
+    unit: B
+    from: 2016-11-17
+    to: null
+  joined: *id061
+  left: null
+  key: false
+  nationality: Irish
+- id: BG041
+  canonical_name: Diane Martinez
+  first_name: Diane
+  last_name: Martinez
+  title: null
+  variants:
+  - D. Martinez
+  - Diane Martinez
+  - dmartinez
+  username: dmartinez
+  home_firm: B
+  service_line: admin
+  roles:
+  - title: HR Advisor
+    unit: B
+    from: &id062 2014-06-18
+    to: 2019-02-09
+  - title: Project Manager
+    unit: B
+    from: 2019-02-10
+    to: &id063 2023-05-28
+  joined: *id062
+  left: *id063
+  key: false
+  nationality: American
+- id: BG042
+  canonical_name: Αρετή Ραδιοπούλου
+  first_name: Αρετή
+  last_name: Ραδιοπούλου
+  title: Dr
+  variants:
+  - Dr Α. Ραδιοπούλου
+  - Αρετή Ραδιοπούλου
+  - αραδιοπούλου
+  username: αραδιοπούλου
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: B
+    from: &id064 2018-07-06
+    to: &id065 2021-01-20
+  joined: *id064
+  left: *id065
+  key: false
+  nationality: Greek
+- id: BG043
+  canonical_name: Afonso Pinho
+  first_name: Afonso
+  last_name: Pinho
+  title: null
+  variants:
+  - A. Pinho
+  - Afonso Pinho
+  - apinho
+  username: apinho
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: Senior DMPK Scientist
+    unit: B
+    from: &id066 2025-06-04
+    to: null
+  joined: *id066
+  left: null
+  key: false
+  nationality: Portuguese
+- id: BG044
+  canonical_name: Zara Glasses
+  first_name: Zara
+  last_name: Glasses
+  title: Dr
+  variants:
+  - Dr Z. Glasses
+  - Zara Glasses
+  - zglasses
+  username: zglasses
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: Senior DMPK Scientist
+    unit: B
+    from: &id067 2023-08-30
+    to: &id068 2026-02-24
+  joined: *id067
+  left: *id068
+  key: false
+  nationality: Dutch
+- id: BG045
+  canonical_name: Nina Jones
+  first_name: Nina
+  last_name: Jones
+  title: Dr
+  variants:
+  - Dr N. Jones
+  - Nina Jones
+  - njones
+  username: njones
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: B
+    from: &id069 2022-12-28
+    to: null
+  joined: *id069
+  left: null
+  key: false
+  nationality: American
+- id: BG046
+  canonical_name: Bianca Bonaventura
+  first_name: Bianca
+  last_name: Bonaventura
+  title: null
+  variants:
+  - B. Bonaventura
+  - Bianca Bonaventura
+  - bbonaventura
+  username: bbonaventura
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: DMPK Scientist
+    unit: B
+    from: &id070 2024-01-11
+    to: null
+  joined: *id070
+  left: null
+  key: false
+  nationality: Italian
+- id: BG047
+  canonical_name: Ιγνατία Πιπερίγκος
+  first_name: Ιγνατία
+  last_name: Πιπερίγκος
+  title: null
+  variants:
+  - Ι. Πιπερίγκος
+  - Ιγνατία Πιπερίγκος
+  - ιπιπερίγκος
+  username: ιπιπερίγκος
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Electrophysiologist
+    unit: B
+    from: &id071 2015-06-23
+    to: null
+  joined: *id071
+  left: null
+  key: false
+  nationality: Greek
+- id: BG048
+  canonical_name: Roger Davidson
+  first_name: Roger
+  last_name: Davidson
+  title: null
+  variants:
+  - R. Davidson
+  - Roger Davidson
+  - rdavidson
+  username: rdavidson
+  home_firm: B
+  service_line: dmpk
+  roles:
+  - title: Study Director, DMPK
+    unit: B
+    from: &id072 2011-03-23
+    to: 2016-03-27
+  - title: DMPK Scientist
+    unit: B
+    from: 2016-03-28
+    to: &id073 2018-03-24
+  joined: *id072
+  left: *id073
+  key: false
+  nationality: British
+- id: BG049
+  canonical_name: Alejandro Riley
+  first_name: Alejandro
+  last_name: Riley
+  title: Dr
+  variants:
+  - Dr A. Riley
+  - Alejandro Riley
+  - ariley
+  username: ariley
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Assay Biologist
+    unit: B
+    from: &id074 2006-08-07
+    to: null
+  joined: *id074
+  left: null
+  key: false
+  nationality: American
+- id: BG050
+  canonical_name: Tony Byrne
+  first_name: Tony
+  last_name: Byrne
+  title: Dr
+  variants:
+  - Dr T. Byrne
+  - Tony Byrne
+  - tbyrne
+  username: tbyrne
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Senior Scientist
+    unit: B
+    from: &id075 2014-04-10
+    to: 2019-12-28
+  - title: Research Scientist
+    unit: B
+    from: 2019-12-29
+    to: null
+  joined: *id075
+  left: null
+  key: false
+  nationality: British
+- id: BG051
+  canonical_name: Joseph Begum
+  first_name: Joseph
+  last_name: Begum
+  title: null
+  variants:
+  - J. Begum
+  - Joseph Begum
+  - jbegum
+  username: jbegum
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: B
+    from: &id076 2014-09-26
+    to: null
+  joined: *id076
+  left: null
+  key: false
+  nationality: British
+- id: BG052
+  canonical_name: Aadhya Mittal
+  first_name: Aadhya
+  last_name: Mittal
+  title: null
+  variants:
+  - A. Mittal
+  - Aadhya Mittal
+  - amittal
+  username: amittal
+  home_firm: B
+  service_line: admin
+  roles:
+  - title: Office Manager
+    unit: B
+    from: &id077 2016-06-14
+    to: null
+  joined: *id077
+  left: null
+  key: false
+  nationality: Indian
+- id: BG053
+  canonical_name: Tom Jones
+  first_name: Tom
+  last_name: Jones
+  title: Dr
+  variants:
+  - Dr T. Jones
+  - Tom Jones
+  - tjones
+  username: tjones
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: B
+    from: &id078 2020-10-24
+    to: 2023-09-01
+  - title: Assay Biologist
+    unit: B
+    from: 2023-09-02
+    to: &id079 2026-02-20
+  joined: *id078
+  left: *id079
+  key: false
+  nationality: British
+- id: BG054
+  canonical_name: Morena Campise
+  first_name: Morena
+  last_name: Campise
+  title: null
+  variants:
+  - M. Campise
+  - Morena Campise
+  - mcampise
+  username: mcampise
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: B
+    from: &id080 2015-08-31
+    to: null
+  joined: *id080
+  left: null
+  key: false
+  nationality: Italian
+- id: BG055
+  canonical_name: Gina Shanley
+  first_name: Gina
+  last_name: Shanley
+  title: null
+  variants:
+  - G. Shanley
+  - Gina Shanley
+  - gshanley
+  username: gshanley
+  home_firm: B
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: B
+    from: &id081 2011-06-17
+    to: null
+  joined: *id081
+  left: null
+  key: false
+  nationality: Irish
+- id: BG056
+  canonical_name: Carole Mills
+  first_name: Carole
+  last_name: Mills
+  title: Dr
+  variants:
+  - Dr C. Mills
+  - Carole Mills
+  - cmills
+  username: cmills
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: DMPK Scientist
+    unit: C
+    from: &id082 2011-12-20
+    to: null
+  joined: *id082
+  left: null
+  key: false
+  nationality: British
+- id: BG057
+  canonical_name: Linda Burke
+  first_name: Linda
+  last_name: Burke
+  title: null
+  variants:
+  - L. Burke
+  - Linda Burke
+  - lburke
+  username: lburke
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Research Scientist
+    unit: C
+    from: &id083 2015-08-27
+    to: &id084 2023-08-20
+  joined: *id083
+  left: *id084
+  key: false
+  nationality: American
+- id: BG058
+  canonical_name: Paolo Iannelli
+  first_name: Paolo
+  last_name: Iannelli
+  title: Dr
+  variants:
+  - Dr P. Iannelli
+  - Paolo Iannelli
+  - piannelli
+  username: piannelli
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: C
+    from: &id085 2006-05-29
+    to: 2013-09-05
+  - title: Electrophysiologist
+    unit: C
+    from: 2013-09-06
+    to: null
+  joined: *id085
+  left: null
+  key: false
+  nationality: Italian
+- id: BG059
+  canonical_name: John Morris
+  first_name: John
+  last_name: Morris
+  title: Dr
+  variants:
+  - Dr J. Morris
+  - John Morris
+  - jmorris
+  username: jmorris
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Senior Scientist
+    unit: C
+    from: &id086 2019-08-31
+    to: &id087 2026-06-15
+  joined: *id086
+  left: *id087
+  key: false
+  nationality: British
+- id: BG060
+  canonical_name: Kornel Konat
+  first_name: Kornel
+  last_name: Konat
+  title: null
+  variants:
+  - K. Konat
+  - Kornel Konat
+  - kkonat
+  username: kkonat
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: DMPK Scientist
+    unit: C
+    from: &id088 2012-02-12
+    to: &id089 2014-07-23
+  joined: *id088
+  left: *id089
+  key: false
+  nationality: Polish
+- id: BG061
+  canonical_name: Wayne Moore
+  first_name: Wayne
+  last_name: Moore
+  title: Dr
+  variants:
+  - Dr W. Moore
+  - Wayne Moore
+  - wmoore
+  username: wmoore
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Bioanalyst
+    unit: C
+    from: &id090 2011-09-05
+    to: 2014-10-03
+  - title: Study Director, DMPK
+    unit: C
+    from: 2014-10-04
+    to: &id091 2016-05-27
+  joined: *id090
+  left: *id091
+  key: false
+  nationality: British
+- id: BG062
+  canonical_name: Faustino Salmerón
+  first_name: Faustino
+  last_name: Salmerón
+  title: Dr
+  variants:
+  - Dr F. Salmerón
+  - Faustino Salmerón
+  - fsalmerón
+  username: fsalmerón
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: C
+    from: &id092 2017-04-12
+    to: 2022-02-26
+  - title: Research Scientist
+    unit: C
+    from: 2022-02-27
+    to: null
+  joined: *id092
+  left: null
+  key: false
+  nationality: Spanish
+- id: BG063
+  canonical_name: Amol Dey
+  first_name: Amol
+  last_name: Dey
+  title: null
+  variants:
+  - A. Dey
+  - Amol Dey
+  - adey
+  username: adey
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: C
+    from: &id093 2011-03-10
+    to: 2025-03-24
+  - title: Laboratory Technician
+    unit: C
+    from: 2025-03-25
+    to: null
+  joined: *id093
+  left: null
+  key: false
+  nationality: Indian
+- id: BG064
+  canonical_name: John Bell
+  first_name: John
+  last_name: Bell
+  title: null
+  variants:
+  - J. Bell
+  - John Bell
+  - jbell
+  username: jbell
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Mass Spectrometry Specialist
+    unit: C
+    from: &id094 2017-12-21
+    to: null
+  joined: *id094
+  left: null
+  key: false
+  nationality: American
+- id: BG065
+  canonical_name: Daisuke Sato
+  first_name: Daisuke
+  last_name: Sato
+  title: Dr
+  variants:
+  - Dr D. Sato
+  - Daisuke Sato
+  - dsato
+  username: dsato
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Assay Biologist
+    unit: C
+    from: &id095 2020-10-04
+    to: null
+  joined: *id095
+  left: null
+  key: false
+  nationality: Japanese
+- id: BG066
+  canonical_name: Vamakshi Pingle
+  first_name: Vamakshi
+  last_name: Pingle
+  title: null
+  variants:
+  - V. Pingle
+  - Vamakshi Pingle
+  - vpingle
+  username: vpingle
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Electrophysiologist
+    unit: C
+    from: &id096 2012-12-23
+    to: &id097 2016-04-16
+  joined: *id096
+  left: *id097
+  key: false
+  nationality: Indian
+- id: BG067
+  canonical_name: Tommy Petty
+  first_name: Tommy
+  last_name: Petty
+  title: null
+  variants:
+  - T. Petty
+  - Tommy Petty
+  - tpetty
+  username: tpetty
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Study Director, DMPK
+    unit: C
+    from: &id098 2013-11-22
+    to: null
+  joined: *id098
+  left: null
+  key: false
+  nationality: American
+- id: BG068
+  canonical_name: Anna Grant
+  first_name: Anna
+  last_name: Grant
+  title: null
+  variants:
+  - A. Grant
+  - Anna Grant
+  - agrant
+  username: agrant
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Bioanalyst
+    unit: C
+    from: &id099 2025-08-24
+    to: &id100 2026-09-22
+  joined: *id099
+  left: *id100
+  key: false
+  nationality: American
+- id: BG069
+  canonical_name: Anna Lund
+  first_name: Anna
+  last_name: Lund
+  title: Dr
+  variants:
+  - Dr A. Lund
+  - Anna Lund
+  - alund
+  username: alund
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: C
+    from: &id101 2007-05-23
+    to: 2016-05-15
+  - title: Senior Scientist
+    unit: C
+    from: 2016-05-16
+    to: null
+  joined: *id101
+  left: null
+  key: false
+  nationality: Swedish
+- id: BG070
+  canonical_name: Benjamin Ahuja
+  first_name: Benjamin
+  last_name: Ahuja
+  title: Dr
+  variants:
+  - Dr B. Ahuja
+  - Benjamin Ahuja
+  - bahuja
+  username: bahuja
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Mass Spectrometry Specialist
+    unit: C
+    from: &id102 2017-10-01
+    to: 2022-01-18
+  - title: DMPK Scientist
+    unit: C
+    from: 2022-01-19
+    to: null
+  joined: *id102
+  left: null
+  key: false
+  nationality: Indian
+- id: BG071
+  canonical_name: Kalpit Balay
+  first_name: Kalpit
+  last_name: Balay
+  title: null
+  variants:
+  - K. Balay
+  - Kalpit Balay
+  - kbalay
+  username: kbalay
+  home_firm: C
+  service_line: admin
+  roles:
+  - title: Quality Assurance Manager
+    unit: C
+    from: &id103 2010-07-12
+    to: null
+  joined: *id103
+  left: null
+  key: false
+  nationality: Indian
+- id: BG072
+  canonical_name: Corey Davidson
+  first_name: Corey
+  last_name: Davidson
+  title: null
+  variants:
+  - C. Davidson
+  - Corey Davidson
+  - cdavidson
+  username: cdavidson
+  home_firm: C
+  service_line: admin
+  roles:
+  - title: Office Manager
+    unit: C
+    from: &id104 2016-09-08
+    to: null
+  joined: *id104
+  left: null
+  key: false
+  nationality: American
+- id: BG073
+  canonical_name: Blanka Uziębło
+  first_name: Blanka
+  last_name: Uziębło
+  title: null
+  variants:
+  - B. Uziębło
+  - Blanka Uziębło
+  - buziębło
+  username: buziębło
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Electrophysiologist
+    unit: C
+    from: &id105 2020-02-03
+    to: 2025-07-02
+  - title: Laboratory Technician
+    unit: C
+    from: 2025-07-03
+    to: null
+  joined: *id105
+  left: null
+  key: false
+  nationality: Polish
+- id: BG074
+  canonical_name: Leon Newman
+  first_name: Leon
+  last_name: Newman
+  title: Dr
+  variants:
+  - Dr L. Newman
+  - Leon Newman
+  - lnewman
+  username: lnewman
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Study Director
+    unit: C
+    from: &id106 2011-02-26
+    to: null
+  joined: *id106
+  left: null
+  key: false
+  nationality: British
+- id: BG075
+  canonical_name: Agnolo Argento
+  first_name: Agnolo
+  last_name: Argento
+  title: null
+  variants:
+  - A. Argento
+  - Agnolo Argento
+  - aargento
+  username: aargento
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Mass Spectrometry Specialist
+    unit: C
+    from: &id107 2013-07-07
+    to: 2016-04-25
+  - title: DMPK Scientist
+    unit: C
+    from: 2016-04-26
+    to: &id108 2025-07-16
+  joined: *id107
+  left: *id108
+  key: false
+  nationality: Italian
+- id: BG076
+  canonical_name: Oscar Thaman
+  first_name: Oscar
+  last_name: Thaman
+  title: null
+  variants:
+  - O. Thaman
+  - Oscar Thaman
+  - othaman
+  username: othaman
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Mass Spectrometry Specialist
+    unit: C
+    from: &id109 2017-01-20
+    to: null
+  joined: *id109
+  left: null
+  key: false
+  nationality: Indian
+- id: BG077
+  canonical_name: Gema Badía
+  first_name: Gema
+  last_name: Badía
+  title: null
+  variants:
+  - G. Badía
+  - Gema Badía
+  - gbadía
+  username: gbadía
+  home_firm: C
+  service_line: invitro
+  roles:
+  - title: Assay Biologist
+    unit: C
+    from: &id110 2009-11-13
+    to: &id111 2019-06-10
+  joined: *id110
+  left: *id111
+  key: false
+  nationality: Spanish
+- id: BG078
+  canonical_name: Lindsey Vaughan
+  first_name: Lindsey
+  last_name: Vaughan
+  title: null
+  variants:
+  - L. Vaughan
+  - Lindsey Vaughan
+  - lvaughan
+  username: lvaughan
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Study Director, DMPK
+    unit: C
+    from: &id112 2015-05-22
+    to: &id113 2020-03-21
+  joined: *id112
+  left: *id113
+  key: false
+  nationality: British
+- id: BG079
+  canonical_name: Joan Holland
+  first_name: Joan
+  last_name: Holland
+  title: Dr
+  variants:
+  - Dr J. Holland
+  - Joan Holland
+  - jholland
+  username: jholland
+  home_firm: C
+  service_line: dmpk
+  roles:
+  - title: Senior DMPK Scientist
+    unit: C
+    from: &id114 2008-12-07
+    to: null
+  joined: *id114
+  left: null
+  key: false
+  nationality: British
+- id: BG080
+  canonical_name: Tatjana Werner
+  first_name: Tatjana
+  last_name: Werner
+  title: null
+  variants:
+  - T. Werner
+  - Tatjana Werner
+  - twerner
+  username: twerner
+  home_firm: C
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: C
+    from: &id115 2011-08-24
+    to: null
+  joined: *id115
+  left: null
+  key: false
+  nationality: German
+- id: BG081
+  canonical_name: Audrey Briand
+  first_name: Audrey
+  last_name: Briand
+  title: Dr
+  variants:
+  - Dr A. Briand
+  - Audrey Briand
+  - abriand
+  username: abriand
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Bioinformatician
+    unit: D
+    from: &id116 2021-03-15
+    to: 2024-07-09
+  - title: Senior Bioinformatician
+    unit: D
+    from: 2024-07-10
+    to: null
+  joined: *id116
+  left: null
+  key: false
+  nationality: French
+- id: BG082
+  canonical_name: Gianna Aulenti
+  first_name: Gianna
+  last_name: Aulenti
+  title: null
+  variants:
+  - G. Aulenti
+  - Gianna Aulenti
+  - gaulenti
+  username: gaulenti
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Data Scientist
+    unit: D
+    from: &id117 2014-04-17
+    to: 2022-07-12
+  - title: Senior Bioinformatician
+    unit: D
+    from: 2022-07-13
+    to: null
+  joined: *id117
+  left: null
+  key: false
+  nationality: Italian
+- id: BG083
+  canonical_name: Julie Lindsey
+  first_name: Julie
+  last_name: Lindsey
+  title: null
+  variants:
+  - J. Lindsey
+  - Julie Lindsey
+  - jlindsey
+  username: jlindsey
+  home_firm: D
+  service_line: admin
+  roles:
+  - title: Finance Manager
+    unit: D
+    from: &id118 2017-03-09
+    to: 2020-09-24
+  - title: Project Manager
+    unit: D
+    from: 2020-09-25
+    to: null
+  joined: *id118
+  left: null
+  key: false
+  nationality: American
+- id: BG084
+  canonical_name: Tina Powell
+  first_name: Tina
+  last_name: Powell
+  title: null
+  variants:
+  - T. Powell
+  - Tina Powell
+  - tpowell
+  username: tpowell
+  home_firm: D
+  service_line: admin
+  roles:
+  - title: Quality Assurance Manager
+    unit: D
+    from: &id119 2019-05-08
+    to: 2023-05-13
+  - title: Finance Manager
+    unit: D
+    from: 2023-05-14
+    to: null
+  joined: *id119
+  left: null
+  key: false
+  nationality: American
+- id: BG085
+  canonical_name: Elliott Hopkins
+  first_name: Elliott
+  last_name: Hopkins
+  title: null
+  variants:
+  - E. Hopkins
+  - Elliott Hopkins
+  - ehopkins
+  username: ehopkins
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Bioinformatician
+    unit: D
+    from: &id120 2015-01-17
+    to: 2023-08-16
+  - title: Data Scientist
+    unit: D
+    from: 2023-08-17
+    to: null
+  joined: *id120
+  left: null
+  key: false
+  nationality: British
+- id: BG086
+  canonical_name: Lukas Huberts
+  first_name: Lukas
+  last_name: Huberts
+  title: null
+  variants:
+  - L. Huberts
+  - Lukas Huberts
+  - lhuberts
+  username: lhuberts
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Bioinformatician
+    unit: D
+    from: &id121 2021-05-06
+    to: &id122 2026-05-07
+  joined: *id121
+  left: *id122
+  key: false
+  nationality: Dutch
+- id: BG087
+  canonical_name: Ji-ho Jung
+  first_name: Ji-ho
+  last_name: Jung
+  title: Dr
+  variants:
+  - Dr J. Jung
+  - Ji-ho Jung
+  - jjung
+  username: jjung
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Computational Chemist
+    unit: D
+    from: &id123 2021-03-04
+    to: &id124 2026-09-06
+  joined: *id123
+  left: *id124
+  key: false
+  nationality: Korean
+- id: BG088
+  canonical_name: Luisina Carbonell
+  first_name: Luisina
+  last_name: Carbonell
+  title: null
+  variants:
+  - L. Carbonell
+  - Luisina Carbonell
+  - lcarbonell
+  username: lcarbonell
+  home_firm: D
+  service_line: admin
+  roles:
+  - title: HR Advisor
+    unit: D
+    from: &id125 2023-08-25
+    to: &id126 2025-05-03
+  joined: *id125
+  left: *id126
+  key: false
+  nationality: Spanish
+- id: BG089
+  canonical_name: Samantha Scott
+  first_name: Samantha
+  last_name: Scott
+  title: null
+  variants:
+  - S. Scott
+  - Samantha Scott
+  - sscott
+  username: sscott
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Computational Chemist
+    unit: D
+    from: &id127 2011-04-07
+    to: &id128 2018-11-23
+  joined: *id127
+  left: *id128
+  key: false
+  nationality: British
+- id: BG090
+  canonical_name: Adriana Gregorio
+  first_name: Adriana
+  last_name: Gregorio
+  title: null
+  variants:
+  - A. Gregorio
+  - Adriana Gregorio
+  - agregorio
+  username: agregorio
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Data Scientist
+    unit: D
+    from: &id129 2024-05-20
+    to: &id130 2026-07-15
+  joined: *id129
+  left: *id130
+  key: false
+  nationality: Italian
+- id: BG091
+  canonical_name: Evita Solana
+  first_name: Evita
+  last_name: Solana
+  title: Dr
+  variants:
+  - Dr E. Solana
+  - Evita Solana
+  - esolana
+  username: esolana
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Data Scientist
+    unit: D
+    from: &id131 2012-05-29
+    to: null
+  joined: *id131
+  left: null
+  key: false
+  nationality: Spanish
+- id: BG092
+  canonical_name: Seo-yeon Choi
+  first_name: Seo-yeon
+  last_name: Choi
+  title: null
+  variants:
+  - S. Choi
+  - Seo-yeon Choi
+  - schoi
+  username: schoi
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Data Scientist
+    unit: D
+    from: &id132 2021-06-28
+    to: null
+  joined: *id132
+  left: null
+  key: false
+  nationality: Korean
+- id: BG093
+  canonical_name: Leigh Turner
+  first_name: Leigh
+  last_name: Turner
+  title: null
+  variants:
+  - L. Turner
+  - Leigh Turner
+  - lturner
+  username: lturner
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Data Scientist
+    unit: D
+    from: &id133 2025-03-19
+    to: null
+  joined: *id133
+  left: null
+  key: false
+  nationality: British
+- id: BG094
+  canonical_name: Conor O'Herlihy
+  first_name: Conor
+  last_name: O'Herlihy
+  title: Dr
+  variants:
+  - Dr C. O'Herlihy
+  - Conor O'Herlihy
+  - coherlihy
+  username: coherlihy
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Bioinformatician
+    unit: D
+    from: &id134 2011-08-29
+    to: 2014-03-04
+  - title: Data Scientist
+    unit: D
+    from: 2014-03-05
+    to: null
+  joined: *id134
+  left: null
+  key: false
+  nationality: Irish
+- id: BG095
+  canonical_name: Martyn Chamberlain
+  first_name: Martyn
+  last_name: Chamberlain
+  title: Dr
+  variants:
+  - Dr M. Chamberlain
+  - Martyn Chamberlain
+  - mchamberlain
+  username: mchamberlain
+  home_firm: D
+  service_line: compchem
+  roles:
+  - title: Bioinformatician
+    unit: D
+    from: &id135 2015-04-21
+    to: 2022-07-03
+  - title: Data Scientist
+    unit: D
+    from: 2022-07-04
+    to: null
+  joined: *id135
+  left: null
+  key: false
+  nationality: British
+- id: BG096
+  canonical_name: Andrea Tucker
+  first_name: Andrea
+  last_name: Tucker
+  title: null
+  variants:
+  - A. Tucker
+  - Andrea Tucker
+  - andreat
+  username: andreat
+  home_firm: E
+  service_line: admin
+  roles:
+  - title: Quality Assurance Manager
+    unit: E
+    from: &id136 2012-11-21
+    to: &id137 2020-01-01
+  joined: *id136
+  left: *id137
+  key: false
+  nationality: British
+- id: BG097
+  canonical_name: Mark Campbell
+  first_name: Mark
+  last_name: Campbell
+  title: null
+  variants:
+  - M. Campbell
+  - Mark Campbell
+  - markc
+  username: markc
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id138 2015-11-16
+    to: 2026-01-22
+  - title: QC Analyst
+    unit: E
+    from: 2026-01-23
+    to: null
+  joined: *id138
+  left: null
+  key: false
+  nationality: American
+- id: BG098
+  canonical_name: Paride Eco
+  first_name: Paride
+  last_name: Eco
+  title: Dr
+  variants:
+  - Dr P. Eco
+  - Paride Eco
+  - paridee
+  username: paridee
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Stability Coordinator
+    unit: E
+    from: &id139 2019-07-17
+    to: null
+  joined: *id139
+  left: null
+  key: false
+  nationality: Italian
+- id: BG099
+  canonical_name: Ivan Moreira
+  first_name: Ivan
+  last_name: Moreira
+  title: null
+  variants:
+  - I. Moreira
+  - Ivan Moreira
+  - ivanm
+  username: ivanm
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Stability Coordinator
+    unit: E
+    from: &id140 2022-08-07
+    to: &id141 2024-04-13
+  joined: *id140
+  left: *id141
+  key: false
+  nationality: Portuguese
+- id: BG100
+  canonical_name: Carla Smith
+  first_name: Carla
+  last_name: Smith
+  title: Dr
+  variants:
+  - Dr C. Smith
+  - Carla Smith
+  - carlas
+  username: carlas
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id142 2015-08-20
+    to: null
+  joined: *id142
+  left: null
+  key: false
+  nationality: American
+- id: BG101
+  canonical_name: Arunima Andra
+  first_name: Arunima
+  last_name: Andra
+  title: null
+  variants:
+  - A. Andra
+  - Arunima Andra
+  - arunimaa
+  username: arunimaa
+  home_firm: E
+  service_line: admin
+  roles:
+  - title: IT Support Analyst
+    unit: E
+    from: &id143 2017-09-06
+    to: 2025-01-05
+  - title: Quality Assurance Manager
+    unit: E
+    from: 2025-01-06
+    to: null
+  joined: *id143
+  left: null
+  key: false
+  nationality: Indian
+- id: BG102
+  canonical_name: Amanda Bailey
+  first_name: Amanda
+  last_name: Bailey
+  title: null
+  variants:
+  - A. Bailey
+  - Amanda Bailey
+  - amandab
+  username: amandab
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id144 2016-09-04
+    to: 2024-05-14
+  - title: Senior Analyst
+    unit: E
+    from: 2024-05-15
+    to: null
+  joined: *id144
+  left: null
+  key: false
+  nationality: British
+- id: BG103
+  canonical_name: Denis Miller
+  first_name: Denis
+  last_name: Miller
+  title: null
+  variants:
+  - D. Miller
+  - Denis Miller
+  - denism
+  username: denism
+  home_firm: E
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: E
+    from: &id145 2022-11-07
+    to: null
+  joined: *id145
+  left: null
+  key: false
+  nationality: British
+- id: BG104
+  canonical_name: Damien Grant
+  first_name: Damien
+  last_name: Grant
+  title: null
+  variants:
+  - D. Grant
+  - Damien Grant
+  - damieng
+  username: damieng
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QC Analyst
+    unit: E
+    from: &id146 2020-03-26
+    to: null
+  joined: *id146
+  left: null
+  key: false
+  nationality: British
+- id: BG105
+  canonical_name: Nicholas Hennebry
+  first_name: Nicholas
+  last_name: Hennebry
+  title: null
+  variants:
+  - N. Hennebry
+  - Nicholas Hennebry
+  - nicholash
+  username: nicholash
+  home_firm: E
+  service_line: admin
+  roles:
+  - title: Business Development Manager
+    unit: E
+    from: &id147 2016-12-27
+    to: 2020-12-28
+  - title: Finance Manager
+    unit: E
+    from: 2020-12-29
+    to: &id148 2026-02-05
+  joined: *id147
+  left: *id148
+  key: false
+  nationality: Irish
+- id: BG106
+  canonical_name: Valerie Turner
+  first_name: Valerie
+  last_name: Turner
+  title: Dr
+  variants:
+  - Dr V. Turner
+  - Valerie Turner
+  - valeriet
+  username: valeriet
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id149 2021-09-14
+    to: null
+  joined: *id149
+  left: null
+  key: false
+  nationality: British
+- id: BG107
+  canonical_name: Théophile Evrard
+  first_name: Théophile
+  last_name: Evrard
+  title: Dr
+  variants:
+  - Dr T. Evrard
+  - Théophile Evrard
+  - théophilee
+  username: théophilee
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Analytical Chemist
+    unit: E
+    from: &id150 2014-06-20
+    to: null
+  joined: *id150
+  left: null
+  key: false
+  nationality: French
+- id: BG108
+  canonical_name: Amelia Austin
+  first_name: Amelia
+  last_name: Austin
+  title: null
+  variants:
+  - A. Austin
+  - Amelia Austin
+  - ameliaa
+  username: ameliaa
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QC Analyst
+    unit: E
+    from: &id151 2025-08-31
+    to: &id152 2026-09-20
+  joined: *id151
+  left: *id152
+  key: false
+  nationality: British
+- id: BG109
+  canonical_name: François Boulay
+  first_name: François
+  last_name: Boulay
+  title: Dr
+  variants:
+  - Dr F. Boulay
+  - François Boulay
+  - françoisb
+  username: françoisb
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QC Analyst
+    unit: E
+    from: &id153 2017-02-03
+    to: null
+  joined: *id153
+  left: null
+  key: false
+  nationality: French
+- id: BG110
+  canonical_name: Connor Cunningham
+  first_name: Connor
+  last_name: Cunningham
+  title: null
+  variants:
+  - C. Cunningham
+  - Connor Cunningham
+  - connorc
+  username: connorc
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QC Analyst
+    unit: E
+    from: &id154 2025-09-20
+    to: null
+  joined: *id154
+  left: null
+  key: false
+  nationality: British
+- id: BG111
+  canonical_name: Lena Ackermann
+  first_name: Lena
+  last_name: Ackermann
+  title: Dr
+  variants:
+  - Dr L. Ackermann
+  - Lena Ackermann
+  - lenaa
+  username: lenaa
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Analytical Chemist
+    unit: E
+    from: &id155 2022-06-30
+    to: 2024-10-02
+  - title: Stability Coordinator
+    unit: E
+    from: 2024-10-03
+    to: null
+  joined: *id155
+  left: null
+  key: false
+  nationality: German
+- id: BG112
+  canonical_name: Gaurav Kibe
+  first_name: Gaurav
+  last_name: Kibe
+  title: null
+  variants:
+  - G. Kibe
+  - Gaurav Kibe
+  - gauravk
+  username: gauravk
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id156 2022-08-29
+    to: &id157 2024-02-16
+  joined: *id156
+  left: *id157
+  key: false
+  nationality: Indian
+- id: BG113
+  canonical_name: Elaine Ali
+  first_name: Elaine
+  last_name: Ali
+  title: null
+  variants:
+  - E. Ali
+  - Elaine Ali
+  - elainea
+  username: elainea
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Analytical Chemist
+    unit: E
+    from: &id158 2021-02-07
+    to: null
+  joined: *id158
+  left: null
+  key: false
+  nationality: British
+- id: BG114
+  canonical_name: Erik Liljegren
+  first_name: Erik
+  last_name: Liljegren
+  title: null
+  variants:
+  - E. Liljegren
+  - Erik Liljegren
+  - erikl
+  username: erikl
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Analytical Chemist
+    unit: E
+    from: &id159 2017-04-26
+    to: null
+  joined: *id159
+  left: null
+  key: false
+  nationality: Swedish
+- id: BG115
+  canonical_name: Kristen Petersen
+  first_name: Kristen
+  last_name: Petersen
+  title: null
+  variants:
+  - K. Petersen
+  - Kristen Petersen
+  - kristenp
+  username: kristenp
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: Senior Analyst
+    unit: E
+    from: &id160 2012-04-16
+    to: null
+  joined: *id160
+  left: null
+  key: false
+  nationality: American
+- id: BG116
+  canonical_name: Jing Zhao
+  first_name: Jing
+  last_name: Zhao
+  title: Dr
+  variants:
+  - Dr J. Zhao
+  - Jing Zhao
+  - jingz
+  username: jingz
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id161 2025-03-07
+    to: &id162 2026-03-27
+  joined: *id161
+  left: *id162
+  key: false
+  nationality: Chinese
+- id: BG117
+  canonical_name: Richard Wilson
+  first_name: Richard
+  last_name: Wilson
+  title: Dr
+  variants:
+  - Dr R. Wilson
+  - Richard Wilson
+  - richardw
+  username: richardw
+  home_firm: E
+  service_line: analytical
+  roles:
+  - title: QA Officer
+    unit: E
+    from: &id163 2011-08-07
+    to: null
+  joined: *id163
+  left: null
+  key: false
+  nationality: British
+- id: BG118
+  canonical_name: Maurice Holmes
+  first_name: Maurice
+  last_name: Holmes
+  title: null
+  variants:
+  - M. Holmes
+  - Maurice Holmes
+  - holmesm
+  username: holmesm
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Pre-formulation Scientist
+    unit: F
+    from: &id164 2025-10-18
+    to: null
+  joined: *id164
+  left: null
+  key: false
+  nationality: British
+- id: BG119
+  canonical_name: Min-jun Kim
+  first_name: Min-jun
+  last_name: Kim
+  title: Dr
+  variants:
+  - Dr M. Kim
+  - Min-jun Kim
+  - kimm
+  username: kimm
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Formulation Scientist
+    unit: F
+    from: &id165 2020-03-05
+    to: null
+  joined: *id165
+  left: null
+  key: false
+  nationality: Korean
+- id: BG120
+  canonical_name: Julie Talbot
+  first_name: Julie
+  last_name: Talbot
+  title: null
+  variants:
+  - J. Talbot
+  - Julie Talbot
+  - talbotj
+  username: talbotj
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Senior Formulation Scientist
+    unit: F
+    from: &id166 2020-05-28
+    to: null
+  joined: *id166
+  left: null
+  key: false
+  nationality: British
+- id: BG121
+  canonical_name: Gauri Batta
+  first_name: Gauri
+  last_name: Batta
+  title: null
+  variants:
+  - G. Batta
+  - Gauri Batta
+  - battag
+  username: battag
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Formulation Scientist
+    unit: F
+    from: &id167 2017-08-07
+    to: 2021-09-22
+  - title: Senior Formulation Scientist
+    unit: F
+    from: 2021-09-23
+    to: &id168 2023-02-05
+  joined: *id167
+  left: *id168
+  key: false
+  nationality: Indian
+- id: BG122
+  canonical_name: Piergiuseppe Abbagnale
+  first_name: Piergiuseppe
+  last_name: Abbagnale
+  title: Dr
+  variants:
+  - Dr P. Abbagnale
+  - Piergiuseppe Abbagnale
+  - abbagnalep
+  username: abbagnalep
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Senior Formulation Scientist
+    unit: F
+    from: &id169 2021-07-26
+    to: 2024-03-21
+  - title: Pre-formulation Scientist
+    unit: F
+    from: 2024-03-22
+    to: null
+  joined: *id169
+  left: null
+  key: false
+  nationality: Italian
+- id: BG123
+  canonical_name: Ashley King
+  first_name: Ashley
+  last_name: King
+  title: null
+  variants:
+  - A. King
+  - Ashley King
+  - kinga
+  username: kinga
+  home_firm: F
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: F
+    from: &id170 2023-05-19
+    to: null
+  joined: *id170
+  left: null
+  key: false
+  nationality: British
+- id: BG124
+  canonical_name: Kristen Fields
+  first_name: Kristen
+  last_name: Fields
+  title: null
+  variants:
+  - K. Fields
+  - Kristen Fields
+  - fieldsk
+  username: fieldsk
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: CMC Lead
+    unit: F
+    from: &id171 2024-09-30
+    to: null
+  joined: *id171
+  left: null
+  key: false
+  nationality: American
+- id: BG125
+  canonical_name: Ahmad Olsson
+  first_name: Ahmad
+  last_name: Olsson
+  title: Dr
+  variants:
+  - Dr A. Olsson
+  - Ahmad Olsson
+  - olssona
+  username: olssona
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: CMC Lead
+    unit: F
+    from: &id172 2020-12-10
+    to: &id173 2022-03-27
+  joined: *id172
+  left: *id173
+  key: false
+  nationality: Swedish
+- id: BG126
+  canonical_name: Annabel Eijkelboom
+  first_name: Annabel
+  last_name: Eijkelboom
+  title: null
+  variants:
+  - A. Eijkelboom
+  - Annabel Eijkelboom
+  - eijkelbooma
+  username: eijkelbooma
+  home_firm: F
+  service_line: admin
+  roles:
+  - title: IT Support Analyst
+    unit: F
+    from: &id174 2016-04-10
+    to: 2020-07-24
+  - title: Business Development Manager
+    unit: F
+    from: 2020-07-25
+    to: &id175 2023-03-07
+  joined: *id174
+  left: *id175
+  key: false
+  nationality: Dutch
+- id: BG127
+  canonical_name: Daniel Walker
+  first_name: Daniel
+  last_name: Walker
+  title: null
+  variants:
+  - D. Walker
+  - Daniel Walker
+  - walkerd
+  username: walkerd
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: CMC Lead
+    unit: F
+    from: &id176 2020-01-16
+    to: 2024-06-16
+  - title: Formulation Scientist
+    unit: F
+    from: 2024-06-17
+    to: null
+  joined: *id176
+  left: null
+  key: false
+  nationality: British
+- id: BG128
+  canonical_name: Dean French
+  first_name: Dean
+  last_name: French
+  title: null
+  variants:
+  - D. French
+  - Dean French
+  - frenchd
+  username: frenchd
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Senior Formulation Scientist
+    unit: F
+    from: &id177 2021-09-17
+    to: &id178 2022-11-13
+  joined: *id177
+  left: *id178
+  key: false
+  nationality: British
+- id: BG129
+  canonical_name: Donna Bell
+  first_name: Donna
+  last_name: Bell
+  title: null
+  variants:
+  - D. Bell
+  - Donna Bell
+  - belld
+  username: belld
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Formulation Scientist
+    unit: F
+    from: &id179 2016-05-27
+    to: 2022-02-27
+  - title: CMC Lead
+    unit: F
+    from: 2022-02-28
+    to: null
+  joined: *id179
+  left: null
+  key: false
+  nationality: American
+- id: BG130
+  canonical_name: Owen Leach
+  first_name: Owen
+  last_name: Leach
+  title: null
+  variants:
+  - O. Leach
+  - Owen Leach
+  - leacho
+  username: leacho
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Formulation Scientist
+    unit: F
+    from: &id180 2022-10-10
+    to: null
+  joined: *id180
+  left: null
+  key: false
+  nationality: British
+- id: BG131
+  canonical_name: Νικηφόρος Σαλέμη
+  first_name: Νικηφόρος
+  last_name: Σαλέμη
+  title: Dr
+  variants:
+  - Dr Ν. Σαλέμη
+  - Νικηφόρος Σαλέμη
+  - σαλέμην
+  username: σαλέμην
+  home_firm: F
+  service_line: formulation
+  roles:
+  - title: Formulation Scientist
+    unit: F
+    from: &id181 2019-11-27
+    to: 2026-01-04
+  - title: CMC Lead
+    unit: F
+    from: 2026-01-05
+    to: null
+  joined: *id181
+  left: null
+  key: false
+  nationality: Greek
+- id: BG132
+  canonical_name: Upadhriti Srinivasan
+  first_name: Upadhriti
+  last_name: Srinivasan
+  title: null
+  variants:
+  - U. Srinivasan
+  - Upadhriti Srinivasan
+  - usrinivasan
+  username: usrinivasan
+  home_firm: G
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: G
+    from: &id182 2019-03-25
+    to: null
+  joined: *id182
+  left: null
+  key: false
+  nationality: Indian
+- id: BG133
+  canonical_name: Eesha Sarma
+  first_name: Eesha
+  last_name: Sarma
+  title: null
+  variants:
+  - E. Sarma
+  - Eesha Sarma
+  - esarma
+  username: esarma
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: In Vivo Technician
+    unit: G
+    from: &id183 2021-11-09
+    to: &id184 2025-02-10
+  joined: *id183
+  left: *id184
+  key: false
+  nationality: Indian
+- id: BG134
+  canonical_name: Luke Oza
+  first_name: Luke
+  last_name: Oza
+  title: Dr
+  variants:
+  - Dr L. Oza
+  - Luke Oza
+  - loza
+  username: loza
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Study Director
+    unit: G
+    from: &id185 2016-07-29
+    to: &id186 2025-11-17
+  joined: *id185
+  left: *id186
+  key: false
+  nationality: Indian
+- id: BG135
+  canonical_name: Leonard Porter
+  first_name: Leonard
+  last_name: Porter
+  title: Dr
+  variants:
+  - Dr L. Porter
+  - Leonard Porter
+  - lporter
+  username: lporter
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Study Director
+    unit: G
+    from: &id187 2019-01-01
+    to: &id188 2021-04-01
+  joined: *id187
+  left: *id188
+  key: false
+  nationality: British
+- id: BG136
+  canonical_name: Kirsty Greenwood
+  first_name: Kirsty
+  last_name: Greenwood
+  title: null
+  variants:
+  - K. Greenwood
+  - Kirsty Greenwood
+  - kgreenwood
+  username: kgreenwood
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: G
+    from: &id189 2016-10-08
+    to: 2025-11-27
+  - title: Office Manager
+    unit: G
+    from: 2025-11-28
+    to: null
+  joined: *id189
+  left: null
+  key: false
+  nationality: British
+- id: BG137
+  canonical_name: Rebecca Hawkins
+  first_name: Rebecca
+  last_name: Hawkins
+  title: Dr
+  variants:
+  - Dr R. Hawkins
+  - Rebecca Hawkins
+  - rhawkins
+  username: rhawkins
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: In Vivo Technician
+    unit: G
+    from: &id190 2009-04-26
+    to: &id191 2023-08-09
+  joined: *id190
+  left: *id191
+  key: false
+  nationality: British
+- id: BG138
+  canonical_name: Kathryn Holmes
+  first_name: Kathryn
+  last_name: Holmes
+  title: null
+  variants:
+  - K. Holmes
+  - Kathryn Holmes
+  - kholmes
+  username: kholmes
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: Project Manager
+    unit: G
+    from: &id192 2021-06-14
+    to: null
+  joined: *id192
+  left: null
+  key: false
+  nationality: American
+- id: BG139
+  canonical_name: Etta Veltroni
+  first_name: Etta
+  last_name: Veltroni
+  title: null
+  variants:
+  - E. Veltroni
+  - Etta Veltroni
+  - eveltroni
+  username: eveltroni
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Study Director
+    unit: G
+    from: &id193 2008-09-28
+    to: &id194 2021-08-31
+  joined: *id193
+  left: *id194
+  key: false
+  nationality: Italian
+- id: BG140
+  canonical_name: Marliese Wernecke
+  first_name: Marliese
+  last_name: Wernecke
+  title: null
+  variants:
+  - M. Wernecke
+  - Marliese Wernecke
+  - mwernecke
+  username: mwernecke
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Senior Toxicologist
+    unit: G
+    from: &id195 2021-04-12
+    to: &id196 2024-01-24
+  joined: *id195
+  left: *id196
+  key: false
+  nationality: German
+- id: BG141
+  canonical_name: Corey Cobb
+  first_name: Corey
+  last_name: Cobb
+  title: null
+  variants:
+  - C. Cobb
+  - Corey Cobb
+  - ccobb
+  username: ccobb
+  home_firm: G
+  service_line: invitro
+  roles:
+  - title: Senior Scientist
+    unit: G
+    from: &id197 2026-03-01
+    to: null
+  joined: *id197
+  left: null
+  key: false
+  nationality: American
+- id: BG142
+  canonical_name: Giorgia Varano
+  first_name: Giorgia
+  last_name: Varano
+  title: null
+  variants:
+  - G. Varano
+  - Giorgia Varano
+  - gvarano
+  username: gvarano
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: Project Manager
+    unit: G
+    from: &id198 2008-02-25
+    to: &id199 2015-09-24
+  joined: *id198
+  left: *id199
+  key: false
+  nationality: Italian
+- id: BG143
+  canonical_name: Nathan Wade
+  first_name: Nathan
+  last_name: Wade
+  title: null
+  variants:
+  - N. Wade
+  - Nathan Wade
+  - nwade
+  username: nwade
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Pathology Coordinator
+    unit: G
+    from: &id200 2019-05-10
+    to: null
+  joined: *id200
+  left: null
+  key: false
+  nationality: American
+- id: BG144
+  canonical_name: John Castaneda
+  first_name: John
+  last_name: Castaneda
+  title: null
+  variants:
+  - J. Castaneda
+  - John Castaneda
+  - jcastaneda
+  username: jcastaneda
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: Project Manager
+    unit: G
+    from: &id201 2010-07-30
+    to: null
+  joined: *id201
+  left: null
+  key: false
+  nationality: American
+- id: BG145
+  canonical_name: Sam Kloppert
+  first_name: Sam
+  last_name: Kloppert
+  title: null
+  variants:
+  - S. Kloppert
+  - Sam Kloppert
+  - skloppert
+  username: skloppert
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: Business Development Manager
+    unit: G
+    from: &id202 2012-05-20
+    to: 2022-02-04
+  - title: IT Support Analyst
+    unit: G
+    from: 2022-02-05
+    to: null
+  joined: *id202
+  left: null
+  key: false
+  nationality: Dutch
+- id: BG146
+  canonical_name: Ying Hu
+  first_name: Ying
+  last_name: Hu
+  title: null
+  variants:
+  - Y. Hu
+  - Ying Hu
+  - yhu
+  username: yhu
+  home_firm: G
+  service_line: invitro
+  roles:
+  - title: Electrophysiologist
+    unit: G
+    from: &id203 2021-10-31
+    to: null
+  joined: *id203
+  left: null
+  key: false
+  nationality: Chinese
+- id: BG147
+  canonical_name: Victoria Bautista
+  first_name: Victoria
+  last_name: Bautista
+  title: null
+  variants:
+  - V. Bautista
+  - Victoria Bautista
+  - vbautista
+  username: vbautista
+  home_firm: G
+  service_line: invitro
+  roles:
+  - title: Research Scientist
+    unit: G
+    from: &id204 2009-07-30
+    to: 2018-08-11
+  - title: Senior Scientist
+    unit: G
+    from: 2018-08-12
+    to: null
+  joined: *id204
+  left: null
+  key: false
+  nationality: American
+- id: BG148
+  canonical_name: Benjamin Lall
+  first_name: Benjamin
+  last_name: Lall
+  title: null
+  variants:
+  - B. Lall
+  - Benjamin Lall
+  - blall
+  username: blall
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: HR Advisor
+    unit: G
+    from: &id205 2019-04-09
+    to: &id206 2024-10-15
+  joined: *id205
+  left: *id206
+  key: false
+  nationality: Indian
+- id: BG149
+  canonical_name: Zachary Currie
+  first_name: Zachary
+  last_name: Currie
+  title: null
+  variants:
+  - Z. Currie
+  - Zachary Currie
+  - zcurrie
+  username: zcurrie
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Toxicologist
+    unit: G
+    from: &id207 2012-03-31
+    to: null
+  joined: *id207
+  left: null
+  key: false
+  nationality: Irish
+- id: BG150
+  canonical_name: Ganga Datta
+  first_name: Ganga
+  last_name: Datta
+  title: Dr
+  variants:
+  - Dr G. Datta
+  - Ganga Datta
+  - gdatta
+  username: gdatta
+  home_firm: G
+  service_line: tox
+  roles:
+  - title: Pathology Coordinator
+    unit: G
+    from: &id208 2016-12-27
+    to: 2024-10-18
+  - title: Toxicologist
+    unit: G
+    from: 2024-10-19
+    to: null
+  joined: *id208
+  left: null
+  key: false
+  nationality: Indian
+- id: BG151
+  canonical_name: Henrique Barros
+  first_name: Henrique
+  last_name: Barros
+  title: null
+  variants:
+  - H. Barros
+  - Henrique Barros
+  - hbarros
+  username: hbarros
+  home_firm: G
+  service_line: admin
+  roles:
+  - title: Sample Management Coordinator
+    unit: G
+    from: &id209 2011-04-09
+    to: null
+  joined: *id209
+  left: null
+  key: false
+  nationality: Portuguese
+- id: BG152
+  canonical_name: Gail White
+  first_name: Gail
+  last_name: White
+  title: Dr
+  variants:
+  - Dr G. White
+  - Gail White
+  - gwhite
+  username: gwhite
+  home_firm: G
+  service_line: invitro
+  roles:
+  - title: Laboratory Technician
+    unit: G
+    from: &id210 2011-10-28
+    to: &id211 2026-01-22
+  joined: *id210
+  left: *id211
+  key: false
+  nationality: British
+- id: BG153
+  canonical_name: Arjun Hayer
+  first_name: Arjun
+  last_name: Hayer
+  title: null
+  variants:
+  - A. Hayer
+  - Arjun Hayer
+  - arjun.hayer
+  username: arjun.hayer
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group HR Business Partner
+    unit: HO
+    from: &id212 2004-02-17
+    to: 2006-05-29
+  - title: Group Financial Controller
+    unit: HO
+    from: 2006-05-30
+    to: &id213 2019-05-07
+  joined: *id212
+  left: *id213
+  key: false
+  nationality: Indian
+- id: BG154
+  canonical_name: Praneel Pal
+  first_name: Praneel
+  last_name: Pal
+  title: null
+  variants:
+  - P. Pal
+  - Praneel Pal
+  - praneel.pal
+  username: praneel.pal
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Integration PMO Analyst
+    unit: HO
+    from: &id214 1997-07-14
+    to: 2021-12-02
+  - title: Group HR Business Partner
+    unit: HO
+    from: 2021-12-03
+    to: null
+  joined: *id214
+  left: null
+  key: false
+  nationality: Indian
+- id: BG155
+  canonical_name: Nikita Cowley
+  first_name: Nikita
+  last_name: Cowley
+  title: null
+  variants:
+  - N. Cowley
+  - Nikita Cowley
+  - nikita.cowley
+  username: nikita.cowley
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Executive Assistant
+    unit: HO
+    from: &id215 2022-09-11
+    to: &id216 2023-12-08
+  joined: *id215
+  left: *id216
+  key: false
+  nationality: Irish
+- id: BG156
+  canonical_name: Ruggero Tonisto
+  first_name: Ruggero
+  last_name: Tonisto
+  title: null
+  variants:
+  - R. Tonisto
+  - Ruggero Tonisto
+  - ruggero.tonisto
+  username: ruggero.tonisto
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group HR Business Partner
+    unit: HO
+    from: &id217 1996-07-08
+    to: 2007-10-11
+  - title: Group Commercial Director
+    unit: HO
+    from: 2007-10-12
+    to: null
+  joined: *id217
+  left: null
+  key: false
+  nationality: Italian
+- id: BG157
+  canonical_name: Lawrence Hutchinson
+  first_name: Lawrence
+  last_name: Hutchinson
+  title: null
+  variants:
+  - L. Hutchinson
+  - Lawrence Hutchinson
+  - lawrence.hutchinson
+  username: lawrence.hutchinson
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group Finance Director
+    unit: HO
+    from: &id218 1998-11-24
+    to: 2017-10-13
+  - title: Group Commercial Director
+    unit: HO
+    from: 2017-10-14
+    to: null
+  joined: *id218
+  left: null
+  key: false
+  nationality: British
+- id: BG158
+  canonical_name: Judith Wilson
+  first_name: Judith
+  last_name: Wilson
+  title: null
+  variants:
+  - J. Wilson
+  - Judith Wilson
+  - judith.wilson
+  username: judith.wilson
+  home_firm: HO
+  service_line: admin
+  roles:
+  - title: Group HR Business Partner
+    unit: HO
+    from: &id219 2010-11-01
+    to: null
+  joined: *id219
+  left: null
+  key: false
+  nationality: British

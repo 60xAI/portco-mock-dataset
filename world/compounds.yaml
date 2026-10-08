@@ -1,0 +1,277 @@
+series:
+- id: SER01
+  name: Corvenlea aminopyrimidine series 01
+  chemotype: Aminopyrimidine
+  is_kinase: true
+  target: Kinase hinge site
+  client_id: CL001
+  core_smiles: Nc1nc([*:1])cc([*:2])n1
+  r_groups:
+    '1': &id001
+    - '[*:1]c1ccccc1'
+    - '[*:1]c1ccc(F)cc1'
+    - '[*:1]c1ccc(Cl)cc1'
+    - '[*:1]c1cc(F)cc(F)c1'
+    - '[*:1]c1ccncc1'
+    - '[*:1]c1cccnc1'
+    - '[*:1]c1ccc(C#N)cc1'
+    - '[*:1]c1ccc(OC)cc1'
+    '2': &id002
+    - '[*:2]N1CCOCC1'
+    - '[*:2]N1CCCCC1'
+    - '[*:2]N1CCN(C)CC1'
+    - '[*:2]OC'
+    - '[*:2]OCC'
+    - '[*:2]NC'
+    - '[*:2]NC(C)C'
+    - '[*:2]C1CC1'
+  compound_prefix: CVL
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER02
+  name: Avernelwick aminopyrimidine regioisomer series 02
+  chemotype: Aminopyrimidine regioisomer
+  is_kinase: true
+  target: Kinase hinge site
+  client_id: CL003
+  core_smiles: Nc1ncc([*:1])c([*:2])n1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: AP02
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER03
+  name: Selverant aminoquinazoline series 03
+  chemotype: Aminoquinazoline
+  is_kinase: true
+  target: Growth-signal kinase
+  client_id: CL004
+  core_smiles: c1cc([*:1])c2ncnc(N)c2c1[*:2]
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: ST03
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER04
+  name: Tervemere aminopyrazolopyrimidine series 04
+  chemotype: Aminopyrazolopyrimidine
+  is_kinase: true
+  target: Inflammatory-signal kinase
+  client_id: CL005
+  core_smiles: c1([*:1])nn([*:2])c2ncnc(N)c12
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: TP04
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER05
+  name: Elvarmere pyrrolopyridine series 05
+  chemotype: Pyrrolopyridine
+  is_kinase: true
+  target: Cell-cycle kinase
+  client_id: CL006
+  core_smiles: c1([*:1])cnc2[nH]cc([*:2])c2c1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: EB05
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER06
+  name: Drelvessa aminopyridine series 06
+  chemotype: Aminopyridine
+  is_kinase: true
+  target: Stress-response kinase
+  client_id: CL007
+  core_smiles: Nc1ncc([*:1])cc1[*:2]
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: DT06
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER07
+  name: Quorenthel aminopyrazine series 07
+  chemotype: Aminopyrazine
+  is_kinase: true
+  target: Metabolic-signal kinase
+  client_id: CL008
+  core_smiles: Nc1cnc([*:1])c([*:2])n1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: QP07
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER08
+  name: Nimbravelle aminotriazine series 08
+  chemotype: Aminotriazine
+  is_kinase: true
+  target: Immune-signalling kinase
+  client_id: CL009
+  core_smiles: Nc1nc([*:1])nc([*:2])n1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: NM08
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER09
+  name: Feldorune indazole series 09
+  chemotype: Indazole
+  is_kinase: true
+  target: Receptor-associated kinase
+  client_id: CL010
+  core_smiles: c1([*:1])ccc2[nH]nc([*:2])c2c1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: FT09
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER10
+  name: Valquessia aminoquinoline series 10
+  chemotype: Aminoquinoline
+  is_kinase: true
+  target: Mitotic kinase
+  client_id: CL011
+  core_smiles: Nc1ncc([*:1])c2ccc([*:2])cc12
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: VP10
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER11
+  name: Orvessant piperidyl benzamide series 11
+  chemotype: Piperidyl benzamide
+  is_kinase: false
+  target: GPCR antagonist
+  client_id: CL012
+  core_smiles: O=C(NC1CCN([*:1])CC1)c1cc([*:2])ccc1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: OB11
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER12
+  name: Kelbravik cyclopropyl carboxamide series 12
+  chemotype: Cyclopropyl carboxamide
+  is_kinase: false
+  target: Protease inhibitor
+  client_id: CL013
+  core_smiles: O=C(NC1CC1)C1CC([*:1])N([*:2])C1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: KT12
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER13
+  name: Rennelwick phenoxyethyl amide series 13
+  chemotype: Phenoxyethyl amide
+  is_kinase: false
+  target: Nuclear receptor modulator
+  client_id: CL014
+  core_smiles: O=C(NCCOc1ccc([*:1])cc1)c1cccc([*:2])c1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: RI13
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER14
+  name: Vesselquarn bicyclic lactam series 14
+  chemotype: Bicyclic lactam
+  is_kinase: false
+  target: Ion-channel blocker
+  client_id: CL015
+  core_smiles: O=C1N([*:1])CC2CCC([*:2])CC12
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: VM14
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER15
+  name: Aldrevessa sulfonyl piperazine series 15
+  chemotype: Sulfonyl piperazine
+  is_kinase: false
+  target: GPCR ligand
+  client_id: CL016
+  core_smiles: O=S(=O)(c1ccc([*:1])cc1)N1CCN([*:2])CC1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: AT15
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER16
+  name: Belquorin oxazole carboxamide series 16
+  chemotype: Oxazole carboxamide
+  is_kinase: false
+  target: Protease inhibitor
+  client_id: CL017
+  core_smiles: O=C(NCC[*:2])c1nc([*:1])co1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: BP16
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER17
+  name: Cadrunelle thiophene amide series 17
+  chemotype: Thiophene amide
+  is_kinase: false
+  target: Nuclear receptor ligand
+  client_id: CL018
+  core_smiles: O=C(NC1CC([*:2])CC1)c1sccc1[*:1]
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: CB17
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER18
+  name: Doventhar benzofuran acetamide series 18
+  chemotype: Benzofuran acetamide
+  is_kinase: false
+  target: Ion-channel modulator
+  client_id: CL019
+  core_smiles: O=C(NCC[*:2])Cc1oc2ccc([*:1])cc2c1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: DT18
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER19
+  name: Esmervane pyridyl urea series 19
+  chemotype: Pyridyl urea
+  is_kinase: false
+  target: GPCR ligand
+  client_id: CL020
+  core_smiles: O=C(NCC[*:2])Nc1ccc([*:1])nc1
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: EP19
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.
+- id: SER20
+  name: Farnovessa imidazolidinone series 20
+  chemotype: Imidazolidinone
+  is_kinase: false
+  target: Protease inhibitor
+  client_id: CL021
+  core_smiles: O=C1N([*:1])CC([*:2])N1C
+  r_groups:
+    '1': *id001
+    '2': *id002
+  compound_prefix: FM20
+  notes: Fictional scaffold and substitution programme; the full 8 × 8 design grid supports historical subsets.
+    Series ownership stays with the client across service firms.

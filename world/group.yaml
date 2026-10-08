@@ -1,0 +1,60 @@
+group:
+  name: Tarnovell Bioscience Group
+  short_name: Tarnovell
+  legal_name: Tarnovell Bioscience Group Ltd
+  formed: '1996-04-01'
+  head_office:
+    city: Nottingham
+    country: UK
+  share_root: Tarnovell_Group
+  email_domain: tarnovell-group.co.uk
+  brand_line_pattern: '{firm}, a Tarnovell company'
+  template:
+    id: HO-G2020
+    kind: group
+    from: '2020-01-01'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Tarnovell Bioscience Group | Confidential
+    brand_line: Tarnovell Bioscience Group
+    notes: ''
+  integration:
+    name: One Group, Many Practices
+    started: '2024-04-08'
+    lead: ST09
+    status: Active; local scientific operations retained while shared processes converge
+    workstreams:
+    - name: Price harmonisation
+      status: in_progress
+      notes: Three of six integrated firms mapped; historical local currencies and discounts retained.
+    - name: Brand migration
+      status: in_progress
+      notes: A-E use the common master; F is completing migration; G remains legacy.
+    - name: LIMS consolidation
+      status: in_progress
+      notes: Common export dictionary agreed; local accession numbers retained.
+    - name: Cross-sell
+      status: in_progress
+      notes: Client identity bridge in progress; subsidiary and lookalike checks required.
+    - name: HR and payroll
+      status: complete
+      notes: A-F directory consolidated; G payroll onboarding has not started.
+    - name: IT and SharePoint migration
+      status: in_progress
+      notes: Local shares are preserved as archive roots; leaver folders require ownership checks.
+    - name: G onboarding
+      status: not_started
+      notes: Acquisition closed 1 October 2026; archive deliberately held apart pending access and QA mapping.
+  history:
+  - '1994: Vellacombe Discovery begins as an independent medicinal chemistry laboratory.'
+  - '1996: Vellacombe becomes the acquisition platform; group formation predates the current brand.'
+  - '2001-2019: Biology, DMPK, computational and analytical businesses join while retaining local scientific and
+    filing practices.'
+  - '2019: Private equity investment funds the next acquisition phase and a common commercial identity.'
+  - '2020: The Tarnovell brand and group template launch; legacy records are not retrospectively restyled.'
+  - '2024: Formulation acquisition prompts a formal integration programme led by Sofia Lindervik.'
+  - '2026: Osterquill acquisition closes; its archive remains outside the integrated repository.'

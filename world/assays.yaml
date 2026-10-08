@@ -1,34 +1,209 @@
-# Service lines and canonical assay catalogue.
-# Canonical ids and `endpoint` are fixed (the numbers script keys on them).
-# The world-core agent fills `variants` (per-firm names, with optional dates) during the firms stage.
 service_lines:
-  - {id: medchem, name: Medicinal chemistry}
-  - {id: invitro, name: In vitro biology and screening}
-  - {id: dmpk, name: DMPK and bioanalysis}
-  - {id: compchem, name: Bioinformatics and computational chemistry}
-  - {id: analytical, name: Analytical chemistry and stability testing}
-  - {id: formulation, name: Formulation and early CMC}
-  - {id: tox, name: Toxicology}
-
+- id: medchem
+  name: Medicinal chemistry
+- id: invitro
+  name: In vitro biology and screening
+- id: dmpk
+  name: DMPK and bioanalysis
+- id: compchem
+  name: Bioinformatics and computational chemistry
+- id: analytical
+  name: Analytical chemistry and stability testing
+- id: formulation
+  name: Formulation and early CMC
+- id: tox
+  name: Toxicology
 assays:
-  - {id: synthesis, name: Custom synthesis and analogue preparation, service_line: medchem, endpoint: synthesis, units: "% yield / % purity", variants: {}}
-  - {id: herg, name: hERG patch clamp, service_line: invitro, endpoint: herg_ic50, units: µM, variants: {}}
-  - {id: cyp_inhib, name: CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM, service_line: invitro, endpoint: cyp_pct, units: "% inhibition", variants: {}}
-  - {id: cyp_ic50, name: CYP3A4 inhibition IC50, service_line: invitro, endpoint: cyp_ic50, units: µM, variants: {}}
-  - {id: kinase_primary, name: Primary kinase IC50, service_line: invitro, endpoint: kinase_ic50, units: nM, variants: {}}
-  - {id: kinase_panel, name: Kinase selectivity panel, service_line: invitro, endpoint: kinase_panel, units: "% inhibition at 1 µM", variants: {}}
-  - {id: mic_stab, name: Liver microsomal stability, service_line: dmpk, endpoint: mic_clint, units: µL/min/mg, variants: {}}
-  - {id: hep_stab, name: Hepatocyte stability, service_line: dmpk, endpoint: hep_clint, units: µL/min/10^6 cells, variants: {}}
-  - {id: ppb, name: Plasma protein binding (equilibrium dialysis), service_line: dmpk, endpoint: ppb, units: "% bound", variants: {}}
-  - {id: caco2, name: Caco-2 permeability, service_line: dmpk, endpoint: caco2, units: 10^-6 cm/s, variants: {}}
-  - {id: solubility, name: Kinetic solubility, service_line: dmpk, endpoint: solubility, units: µM, variants: {}}
-  - {id: rodent_pk, name: Rodent pharmacokinetics with LC-MS/MS bioanalysis, service_line: dmpk, endpoint: pk, units: mixed, variants: {}}
-  - {id: comp_screen, name: Virtual screening and docking, service_line: compchem, endpoint: docking, units: kcal/mol, variants: {}}
-  - {id: bioinf, name: Bioinformatics analysis (target ID, omics, NGS), service_line: compchem, endpoint: none, units: "", variants: {}}
-  - {id: stability, name: ICH stability study, service_line: analytical, endpoint: stability, units: "% label claim / % area", variants: {}}
-  - {id: method_val, name: HPLC method development and validation, service_line: analytical, endpoint: method_val, units: mixed, variants: {}}
-  - {id: form_screen, name: Formulation screening, service_line: formulation, endpoint: formulation, units: mg/mL, variants: {}}
-  - {id: cytotox, name: In vitro cytotoxicity (HepG2), service_line: tox, endpoint: cytotox_ic50, units: µM, variants: {}}
-  - {id: ames, name: Bacterial reverse mutation (Ames), service_line: tox, endpoint: ames, units: revertants/plate, variants: {}}
-  - {id: micronucleus, name: In vitro micronucleus, service_line: tox, endpoint: micronucleus, units: "% MN cells", variants: {}}
-  - {id: drf, name: Rodent dose-range-finding study, service_line: tox, endpoint: drf, units: mg/kg/day, variants: {}}
+- id: synthesis
+  name: Custom synthesis and analogue preparation
+  service_line: medchem
+  endpoint: synthesis
+  units: '% yield / % purity'
+  variants:
+    A:
+    - Vellacombe Custom synthesis and analogue preparation
+- id: herg
+  name: hERG patch clamp
+  service_line: invitro
+  endpoint: herg_ic50
+  units: µM
+  variants:
+    B:
+    - hERG automated patch clamp
+    - hERG channel screen
+    C:
+    - IKr inhibition
+    G:
+    - hERG (IKr) safety pharmacology
+- id: cyp_inhib
+  name: CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM
+  service_line: invitro
+  endpoint: cyp_pct
+  units: '% inhibition'
+  variants:
+    B:
+    - CYP inhibition panel at 10 µM
+    C:
+    - Five-isoform DDI screen
+    G:
+    - CYP safety interaction panel
+- id: cyp_ic50
+  name: CYP3A4 inhibition IC50
+  service_line: invitro
+  endpoint: cyp_ic50
+  units: µM
+  variants:
+    B:
+    - Brindlewythe CYP3A4 inhibition IC50
+    C:
+    - Merrivoss CYP3A4 inhibition IC50
+    G:
+    - Osterquill CYP3A4 inhibition IC50
+- id: kinase_primary
+  name: Primary kinase IC50
+  service_line: invitro
+  endpoint: kinase_ic50
+  units: nM
+  variants:
+    B:
+    - Brindlewythe Primary kinase IC50
+- id: kinase_panel
+  name: Kinase selectivity panel
+  service_line: invitro
+  endpoint: kinase_panel
+  units: '% inhibition at 1 µM'
+  variants:
+    B:
+    - Brindlewythe Kinase selectivity panel
+- id: mic_stab
+  name: Liver microsomal stability
+  service_line: dmpk
+  endpoint: mic_clint
+  units: µL/min/mg
+  variants:
+    B:
+    - Brindlewythe Liver microsomal stability
+    C:
+    - Merrivoss Liver microsomal stability
+- id: hep_stab
+  name: Hepatocyte stability
+  service_line: dmpk
+  endpoint: hep_clint
+  units: µL/min/10^6 cells
+  variants:
+    B:
+    - Brindlewythe Hepatocyte stability
+    C:
+    - Merrivoss Hepatocyte stability
+- id: ppb
+  name: Plasma protein binding (equilibrium dialysis)
+  service_line: dmpk
+  endpoint: ppb
+  units: '% bound'
+  variants:
+    B:
+    - Brindlewythe Plasma protein binding (equilibrium dialysis)
+    C:
+    - Merrivoss Plasma protein binding (equilibrium dialysis)
+- id: caco2
+  name: Caco-2 permeability
+  service_line: dmpk
+  endpoint: caco2
+  units: 10^-6 cm/s
+  variants:
+    B:
+    - Brindlewythe Caco-2 permeability
+    C:
+    - Merrivoss Caco-2 permeability
+- id: solubility
+  name: Kinetic solubility
+  service_line: dmpk
+  endpoint: solubility
+  units: µM
+  variants:
+    B:
+    - Brindlewythe Kinetic solubility
+    C:
+    - Merrivoss Kinetic solubility
+- id: rodent_pk
+  name: Rodent pharmacokinetics with LC-MS/MS bioanalysis
+  service_line: dmpk
+  endpoint: pk
+  units: mixed
+  variants:
+    C:
+    - Merrivoss Rodent pharmacokinetics with LC-MS/MS bioanalysis
+- id: comp_screen
+  name: Virtual screening and docking
+  service_line: compchem
+  endpoint: docking
+  units: kcal/mol
+  variants:
+    D:
+    - Quenverell Virtual screening and docking
+- id: bioinf
+  name: Bioinformatics analysis (target ID
+  omics: null
+  NGS): null
+  service_line: compchem
+  endpoint: none
+  units: ''
+  variants:
+    D:
+    - Quenverell Bioinformatics analysis (target ID
+- id: stability
+  name: ICH stability study
+  service_line: analytical
+  endpoint: stability
+  units: '% label claim / % area'
+  variants:
+    E:
+    - Westravelle ICH stability study
+- id: method_val
+  name: HPLC method development and validation
+  service_line: analytical
+  endpoint: method_val
+  units: mixed
+  variants:
+    E:
+    - Westravelle HPLC method development and validation
+- id: form_screen
+  name: Formulation screening
+  service_line: formulation
+  endpoint: formulation
+  units: mg/mL
+  variants:
+    F:
+    - Durnesswick Formulation screening
+- id: cytotox
+  name: In vitro cytotoxicity (HepG2)
+  service_line: tox
+  endpoint: cytotox_ic50
+  units: µM
+  variants:
+    G:
+    - Osterquill In vitro cytotoxicity (HepG2)
+- id: ames
+  name: Bacterial reverse mutation (Ames)
+  service_line: tox
+  endpoint: ames
+  units: revertants/plate
+  variants:
+    G:
+    - Osterquill Bacterial reverse mutation (Ames)
+- id: micronucleus
+  name: In vitro micronucleus
+  service_line: tox
+  endpoint: micronucleus
+  units: '% MN cells'
+  variants:
+    G:
+    - Osterquill In vitro micronucleus
+- id: drf
+  name: Rodent dose-range-finding study
+  service_line: tox
+  endpoint: drf
+  units: mg/kg/day
+  variants:
+    G:
+    - Osterquill Rodent dose-range-finding study

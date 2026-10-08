@@ -1,0 +1,656 @@
+firms:
+- letter: A
+  legacy_name: Vellacombe Discovery Ltd
+  short_name: Vellacombe
+  service_focus: Medicinal chemistry
+  location:
+    city: Nottingham
+    country: UK
+  service_lines:
+  - medchem
+  role: founder
+  founded: '1994-03-14'
+  joined_group: '1996-04-01'
+  date_convention: UK
+  date_formats:
+  - DD/MM/YYYY
+  - DD Mon YYYY
+  - YYYY-MM-DD
+  units_notes: Chemistry uses mg and mmol; purity is area percent; masses may be handwritten in g.
+  share_root: VellacombeData
+  naming_style:
+    description: Client-first folders, route subfolders, underscored revision suffixes.
+    folder_examples:
+    - Programmes/2008/CVL
+    - Chemistry/Routes/Route03
+    filename_examples:
+    - VD-24-012_Report_v2.doc
+    - A_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: VD-{y2}-{n:03d}; VD-24-012
+    project_id_regex: VD-\d{2}-\d{3}
+    lims_id: VA{y4}{n:04d}; VA20240012
+    lims_id_regex: VA\d{8}
+    report_id: A-R-year-sequence-revision
+  username_style: '{f}{last}'
+  email_domain: vellacombe.co.uk
+  voice: 'Write as working chemists: state the hypothesis, route risk and next analogue. Short conclusions distinguish
+    isolated material from proposed structures.'
+  terminology:
+    study: programme
+    series: analogue set
+    worksheet: route scout
+    QC: isolated yield
+    memo: chemistry note
+    batch: delivery lot
+    milestone: route gate
+    record: compound card
+  typical_lengths:
+    deck: 12-20 slides
+    report: 18-35 pages
+    proposal: 5-9 pages
+  templates:
+  - id: A-L
+    kind: legacy
+    from: '1994-03-14'
+    to: '2019-12-31'
+    primary_colour: '#324C38'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Vellacombe Discovery Ltd | Confidential
+    brand_line: Vellacombe Discovery Ltd
+    notes: ''
+  - id: A-T
+    kind: transition
+    from: '2020-01-01'
+    to: '2020-12-30'
+    primary_colour: '#324C38'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Vellacombe Discovery Ltd, a Tarnovell company | Confidential
+    brand_line: Vellacombe Discovery Ltd, a Tarnovell company
+    notes: Local colours and section numbering retained during one-year migration.
+  - id: A-G
+    kind: group
+    from: '2020-12-31'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Vellacombe Discovery Ltd, a Tarnovell company | Confidential
+    brand_line: Vellacombe Discovery Ltd, a Tarnovell company
+    notes: Common palette; local scientific tables and IDs retained.
+  transition_rules: Legacy files retain their original appearance. The group identity starts 2020-01-01, local master
+    retained for one year, then group palette adopted; project and accession numbers remain local.
+  file_era_start: 1996
+  history:
+  - '1994-03-14: Independent medicinal chemistry business established in Nottingham.'
+  - '1996: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '1996-04-01: Business becomes the group acquisition platform.'
+  - '2020-01-01: Commercial brand migration begins; old client names persist in signed records.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
+- letter: B
+  legacy_name: Brindlewythe Biosciences Ltd
+  short_name: Brindlewythe
+  service_focus: In vitro biology and screening
+  location:
+    city: Cambridge
+    country: UK
+  service_lines:
+  - invitro
+  - dmpk
+  role: acquired
+  founded: '1998-06-01'
+  joined_group: '2001-07-02'
+  date_convention: UK
+  date_formats:
+  - DD/MM/YYYY
+  - DD Mon YYYY
+  - YYYY-MM-DD
+  units_notes: Potency in nM or µM; screening inhibition in percent at a stated concentration.
+  share_root: BrindlewytheData
+  naming_style:
+    description: Study-year folders, assay subfolders, mixed-case report names.
+    folder_examples:
+    - Studies/2011/Study_014
+    - Screening/PlateMaps
+    filename_examples:
+    - BW24_0012_Report_v2.doc
+    - B_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: BW{y2}_{n:04d}; BW24_0012
+    project_id_regex: BW\d{2}_\d{4}
+    lims_id: B-ACC-{y4}-{n:05d}; B-ACC-2024-00012
+    lims_id_regex: B-ACC-\d{4}-\d{5}
+    report_id: B-R-year-sequence-revision
+  username_style: '{f}{last}'
+  email_domain: brindlewythe.co.uk
+  voice: Use concise assay-led prose with control acceptance before interpretation. Keep screening decisions separate
+    from mechanistic claims.
+  terminology:
+    study: study
+    series: screening set
+    worksheet: run sheet
+    QC: plate acceptance
+    memo: biology memo
+    batch: test lot
+    milestone: screen gate
+    record: sample card
+  typical_lengths:
+    deck: 13-21 slides
+    report: 20-38 pages
+    proposal: 6-10 pages
+  templates:
+  - id: B-L
+    kind: legacy
+    from: '1998-06-01'
+    to: '2019-12-31'
+    primary_colour: '#683C57'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Brindlewythe Biosciences Ltd | Confidential
+    brand_line: Brindlewythe Biosciences Ltd
+    notes: ''
+  - id: B-T
+    kind: transition
+    from: '2020-01-01'
+    to: '2020-12-30'
+    primary_colour: '#683C57'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential
+    brand_line: Brindlewythe Biosciences Ltd, a Tarnovell company
+    notes: Local colours and section numbering retained during one-year migration.
+  - id: B-G
+    kind: group
+    from: '2020-12-31'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential
+    brand_line: Brindlewythe Biosciences Ltd, a Tarnovell company
+    notes: Common palette; local scientific tables and IDs retained.
+  transition_rules: Legacy files retain their original appearance. The group identity starts 2020-01-01, local master
+    retained for one year, then group palette adopted; project and accession numbers remain local.
+  file_era_start: 2001
+  history:
+  - '1998-06-01: Independent in vitro biology and screening business established in Cambridge.'
+  - '2001: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '2001-07-02: Acquisition closes with local scientific leadership retained.'
+  - '2020-01-01: Commercial brand migration begins; old client names persist in signed records.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
+- letter: C
+  legacy_name: Merrivoss Bioanalysis Inc
+  short_name: Merrivoss
+  service_focus: DMPK and bioanalysis
+  location:
+    city: Madison
+    country: US
+  service_lines:
+  - dmpk
+  - invitro
+  role: acquired
+  founded: '2003-02-10'
+  joined_group: '2008-03-03'
+  date_convention: US
+  date_formats:
+  - MM/DD/YYYY
+  - YYYY-MM-DD
+  units_notes: Clearance in µL/min/mg or µL/min/10^6 cells; exposure in ng·h/mL.
+  share_root: MerrivossData
+  naming_style:
+    description: Uppercase client folders and accession exports, ISO dates in filenames.
+    folder_examples:
+    - CLIENTS/CL003/2006
+    - BIOANALYSIS/ACCESSIONS
+    filename_examples:
+    - MV-2024-012_Report_v2.doc
+    - C_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: MV-{y4}-{n:03d}; MV-2024-012
+    project_id_regex: MV-\d{4}-\d{3}
+    lims_id: M{y2}/BIO/{n:05d}; M24/BIO/00012
+    lims_id_regex: M\d{2}/BIO/\d{5}
+    report_id: C-R-year-sequence-revision
+  username_style: '{f}{last}'
+  email_domain: merrivoss.com
+  voice: Report matrix, species and analytical limits before the exposure conclusion. Use careful quantitative prose
+    and spell out assumptions in footnotes.
+  terminology:
+    study: study
+    series: test article set
+    worksheet: assay worksheet
+    QC: matrix acceptance
+    memo: DMPK memo
+    batch: accession lot
+    milestone: exposure gate
+    record: analyte card
+  typical_lengths:
+    deck: 14-22 slides
+    report: 22-41 pages
+    proposal: 7-11 pages
+  templates:
+  - id: C-L
+    kind: legacy
+    from: '2003-02-10'
+    to: '2019-12-31'
+    primary_colour: '#284F78'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Merrivoss Bioanalysis Inc | Confidential
+    brand_line: Merrivoss Bioanalysis Inc
+    notes: ''
+  - id: C-T
+    kind: transition
+    from: '2020-01-01'
+    to: '2020-12-30'
+    primary_colour: '#284F78'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential
+    brand_line: Merrivoss Bioanalysis Inc, a Tarnovell company
+    notes: Local colours and section numbering retained during one-year migration.
+  - id: C-G
+    kind: group
+    from: '2020-12-31'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential
+    brand_line: Merrivoss Bioanalysis Inc, a Tarnovell company
+    notes: Common palette; local scientific tables and IDs retained.
+  transition_rules: Legacy files retain their original appearance. The group identity starts 2020-01-01, local master
+    retained for one year, then group palette adopted; project and accession numbers remain local.
+  file_era_start: 2006
+  history:
+  - '2003-02-10: Independent dmpk and bioanalysis business established in Madison.'
+  - '2006: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '2008-03-03: Acquisition closes with local scientific leadership retained.'
+  - '2020-01-01: Commercial brand migration begins; old client names persist in signed records.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
+- letter: D
+  legacy_name: Quenverell Computational Ltd
+  short_name: Quenverell
+  service_focus: Bioinformatics and computational chemistry
+  location:
+    city: Edinburgh
+    country: UK
+  service_lines:
+  - compchem
+  role: acquired
+  founded: '2009-04-06'
+  joined_group: '2014-10-01'
+  date_convention: UK
+  date_formats:
+  - DD/MM/YYYY
+  - DD Mon YYYY
+  - YYYY-MM-DD
+  units_notes: Docking scores in kcal/mol; omics contrasts as log2 fold change with adjusted probabilities.
+  share_root: QuenverellData
+  naming_style:
+    description: Lowercase engagement slugs and analysis revision numbers.
+    folder_examples:
+    - Engagements/2014/target-map
+    - Methods/pipelines
+    filename_examples:
+    - QV.24.012_Report_v2.doc
+    - D_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: QV.{y2}.{n:03d}; QV.24.012
+    project_id_regex: QV\.\d{2}\.\d{3}
+    lims_id: QDATA{y4}-{n:04d}; QDATA2024-0012
+    lims_id_regex: QDATA\d{4}-\d{4}
+    report_id: D-R-year-sequence-revision
+  username_style: '{f}{last}'
+  email_domain: quenverell.co.uk
+  voice: Lead with the biological question and data provenance. Discuss model uncertainty plainly, with reproducible
+    analysis steps and restrained claims.
+  terminology:
+    study: engagement
+    series: candidate set
+    worksheet: analysis notebook
+    QC: data acceptance
+    memo: technical note
+    batch: data drop
+    milestone: model gate
+    record: target card
+  typical_lengths:
+    deck: 15-23 slides
+    report: 24-44 pages
+    proposal: 8-12 pages
+  templates:
+  - id: D-L
+    kind: legacy
+    from: '2009-04-06'
+    to: '2019-12-31'
+    primary_colour: '#41416E'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Quenverell Computational Ltd | Confidential
+    brand_line: Quenverell Computational Ltd
+    notes: ''
+  - id: D-T
+    kind: transition
+    from: '2020-01-01'
+    to: '2020-12-30'
+    primary_colour: '#41416E'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Quenverell Computational Ltd, a Tarnovell company | Confidential
+    brand_line: Quenverell Computational Ltd, a Tarnovell company
+    notes: Local colours and section numbering retained during one-year migration.
+  - id: D-G
+    kind: group
+    from: '2020-12-31'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Quenverell Computational Ltd, a Tarnovell company | Confidential
+    brand_line: Quenverell Computational Ltd, a Tarnovell company
+    notes: Common palette; local scientific tables and IDs retained.
+  transition_rules: Legacy files retain their original appearance. The group identity starts 2020-01-01, local master
+    retained for one year, then group palette adopted; project and accession numbers remain local.
+  file_era_start: 2011
+  history:
+  - '2009-04-06: Independent bioinformatics and computational chemistry business established in Edinburgh.'
+  - '2011: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '2014-10-01: Acquisition closes with local scientific leadership retained.'
+  - '2020-01-01: Commercial brand migration begins; old client names persist in signed records.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
+- letter: E
+  legacy_name: Westravelle Analytical Ltd
+  short_name: Westravelle
+  service_focus: Analytical chemistry and stability testing
+  location:
+    city: York
+    country: UK
+  service_lines:
+  - analytical
+  role: acquired
+  founded: '2008-09-01'
+  joined_group: '2019-06-03'
+  date_convention: UK
+  date_formats:
+  - DD/MM/YYYY
+  - DD Mon YYYY
+  - YYYY-MM-DD
+  units_notes: Assay as percent label claim; impurities as area percent; chamber temperatures in °C.
+  share_root: WestravelleData
+  naming_style:
+    description: Batch and chamber folders, approved versus working copies.
+    folder_examples:
+    - Stability/2019/Batch_07
+    - Quality/Approved
+    filename_examples:
+    - WA-2024-012_Report_v2.doc
+    - E_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: WA/{y4}/{n:03d}; WA/2024/012
+    project_id_regex: WA/\d{4}/\d{3}
+    lims_id: WST-{y2}-{n:06d}; WST-24-000012
+    lims_id_regex: WST-\d{2}-\d{6}
+    report_id: E-R-year-sequence-revision
+  username_style: '{first}{l}'
+  email_domain: westravelle.co.uk
+  voice: Write in numbered, auditable sections with batch and storage details. Deviations are factual and conclusions
+    stay within the tested interval.
+  terminology:
+    study: protocol
+    series: batch set
+    worksheet: sequence sheet
+    QC: system suitability
+    memo: deviation note
+    batch: stability lot
+    milestone: release gate
+    record: batch card
+  typical_lengths:
+    deck: 16-24 slides
+    report: 26-47 pages
+    proposal: 9-13 pages
+  templates:
+  - id: E-L
+    kind: legacy
+    from: '2008-09-01'
+    to: '2019-12-31'
+    primary_colour: '#735434'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Westravelle Analytical Ltd | Confidential
+    brand_line: Westravelle Analytical Ltd
+    notes: ''
+  - id: E-T
+    kind: transition
+    from: '2020-01-01'
+    to: '2020-12-30'
+    primary_colour: '#735434'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Westravelle Analytical Ltd, a Tarnovell company | Confidential
+    brand_line: Westravelle Analytical Ltd, a Tarnovell company
+    notes: Local colours and section numbering retained during one-year migration.
+  - id: E-G
+    kind: group
+    from: '2020-12-31'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Westravelle Analytical Ltd, a Tarnovell company | Confidential
+    brand_line: Westravelle Analytical Ltd, a Tarnovell company
+    notes: Common palette; local scientific tables and IDs retained.
+  transition_rules: Legacy files retain their original appearance. The group identity starts 2020-01-01, local master
+    retained for one year, then group palette adopted; project and accession numbers remain local.
+  file_era_start: 2011
+  history:
+  - '2008-09-01: Independent analytical chemistry and stability testing business established in York.'
+  - '2011: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '2019-06-03: Acquisition closes with local scientific leadership retained.'
+  - '2020-01-01: Commercial brand migration begins; old client names persist in signed records.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
+- letter: F
+  legacy_name: Durnesswick Laboratories Inc
+  short_name: Durnesswick
+  service_focus: Formulation and early CMC
+  location:
+    city: Durham
+    country: US
+  service_lines:
+  - formulation
+  role: acquired
+  founded: '2015-01-12'
+  joined_group: '2024-02-01'
+  date_convention: US
+  date_formats:
+  - MM/DD/YYYY
+  - YYYY-MM-DD
+  units_notes: Concentration in mg/mL; loading in weight percent; particle sizes in µm.
+  share_root: DurnesswickData
+  naming_style:
+    description: Year-prefixed job folders and bench-record sequence numbers.
+    folder_examples:
+    - 2024_JOBS/Formulation_012
+    - DEV/Bench_Records
+    filename_examples:
+    - DL_2024_0012_Report_v2.doc
+    - F_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: DL_{y4}_{n:04d}; DL_2024_0012
+    project_id_regex: DL_\d{4}_\d{4}
+    lims_id: DF{y2}-{n:05d}; DF24-00012
+    lims_id_regex: DF\d{2}-\d{5}
+    report_id: F-R-year-sequence-revision
+  username_style: '{last}{f}'
+  email_domain: durnesswick.com
+  voice: Use practical development language around dose, loading and manufacturability. Make tradeoffs explicit
+    and distinguish exploratory screens from locked processes.
+  terminology:
+    study: work package
+    series: formulation set
+    worksheet: bench sheet
+    QC: screen suitability
+    memo: development note
+    batch: pilot lot
+    milestone: scale gate
+    record: recipe card
+  typical_lengths:
+    deck: 17-25 slides
+    report: 28-50 pages
+    proposal: 10-14 pages
+  templates:
+  - id: F-L
+    kind: legacy
+    from: '2015-01-12'
+    to: '2024-01-31'
+    primary_colour: '#315E61'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Durnesswick Laboratories Inc | Confidential
+    brand_line: Durnesswick Laboratories Inc
+    notes: ''
+  - id: F-T
+    kind: transition
+    from: '2024-02-01'
+    to: '2025-01-30'
+    primary_colour: '#315E61'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Durnesswick Laboratories Inc, a Tarnovell company | Confidential
+    brand_line: Durnesswick Laboratories Inc, a Tarnovell company
+    notes: Local colours and section numbering retained during one-year migration.
+  - id: F-G
+    kind: group
+    from: '2025-01-31'
+    to: null
+    primary_colour: '#183C4C'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Arial
+    footer_text: Durnesswick Laboratories Inc, a Tarnovell company | Confidential
+    brand_line: Durnesswick Laboratories Inc, a Tarnovell company
+    notes: Common palette; local scientific tables and IDs retained.
+  transition_rules: Legacy files retain their original appearance. The group identity starts 2024-02-01, local master
+    retained for one year, then group palette adopted; project and accession numbers remain local.
+  file_era_start: 2016
+  history:
+  - '2015-01-12: Independent formulation and early cmc business established in Durham.'
+  - '2016: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '2024-02-01: Acquisition closes with local scientific leadership retained.'
+  - '2024-02-01: Commercial brand migration begins; old client names persist in signed records.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
+- letter: G
+  legacy_name: Osterquill Toxicology Inc
+  short_name: Osterquill
+  service_focus: Toxicology (in vitro and in vivo, GLP)
+  location:
+    city: Portland
+    country: US
+  service_lines:
+  - tox
+  - invitro
+  role: held_back
+  founded: '2007-05-07'
+  joined_group: '2026-10-01'
+  date_convention: US
+  date_formats:
+  - MM/DD/YYYY
+  - YYYY-MM-DD
+  units_notes: Dose in mg/kg/day; safety potency in µM; observations retain individual-animal identifiers.
+  share_root: OsterquillData
+  naming_style:
+    description: Protocol-number folders, signed reports and separate QA scans.
+    folder_examples:
+    - Studies/2016/Safety_031
+    - GLP/Protocols
+    filename_examples:
+    - OT-24-S0012_Report_v2.doc
+    - G_2024-06-21_Readout_FINAL.pptx
+  id_formats:
+    project_id: OT-{y2}-S{n:04d}; OT-24-S0012
+    project_id_regex: OT-\d{2}-S\d{4}
+    lims_id: OQ/{y4}/{n:06d}; OQ/2024/000012
+    lims_id_regex: OQ/\d{4}/\d{6}
+    report_id: G-R-year-sequence-revision
+  username_style: '{f}{last}'
+  email_domain: osterquill.com
+  voice: Write formal study-director prose with animal welfare and control validity stated. Separate GLP conclusions
+    from exploratory in vitro packages.
+  terminology:
+    study: investigation
+    series: test article cohort
+    worksheet: observation sheet
+    QC: control validity
+    memo: study amendment
+    batch: dose lot
+    milestone: QA gate
+    record: animal card
+  typical_lengths:
+    deck: 18-26 slides
+    report: 30-53 pages
+    proposal: 11-15 pages
+  templates:
+  - id: G-L
+    kind: legacy
+    from: '2007-05-07'
+    to: null
+    primary_colour: '#542F39'
+    secondary_colour: '#F2F0E9'
+    accent_colour: '#C5A35A'
+    font_heading: Arial
+    font_body: Times New Roman
+    footer_text: Osterquill Toxicology Inc | Confidential
+    brand_line: Osterquill Toxicology Inc
+    notes: ''
+  transition_rules: Legacy files retain their original appearance. Archive held apart; brand and systems migration
+    await onboarding.
+  file_era_start: 2008
+  history:
+  - '2007-05-07: Independent toxicology (in vitro and in vivo, glp) business established in Portland.'
+  - '2008: Surviving electronic archive begins; earlier paper records remain incomplete.'
+  - '2026-10-01: Acquisition closes with local scientific leadership retained.'
+  - '2026-10-01: Legacy master remains in use pending integration.'
+  - Scientific roles and leaver dates are recorded in the staff directory; personal working folders are retained
+    as archive material.
