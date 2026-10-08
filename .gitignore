@@ -9,3 +9,4 @@ data/models/
 /scratch/
 state/git.lock
 .serena/
+.~lock.*
