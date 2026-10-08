@@ -19,6 +19,8 @@ Repo: `/Users/kertlaansalu/projects/portco-mock-dataset`. Run every command from
 - **Stay in the era.** Use the firm's date format, units, terminology and brand line for that date. Before 2020 the group brand "Tarnovell" did not exist. Nobody appears before they joined, and no client name appears before it was in use.
 - **Never mention cryo-EM.**
 - **Never write about the pack or the data you were given** ("the supplied data", "the pack gives", "counts tie"). The document is written by the firm's staff. If the pack looks inconsistent, write around it and report it in your reply.
+- **Prose must agree with the tables.** Before describing QC rules, flags, repeats, counts or recoveries, read the table's rows and notes in the pack and say what they say. Use real compound IDs from the tables; never invent ID ranges, extra lots or extra measurements. If a texture asks for detail the pack lacks (individual animals, lot masses), reference the source record qualitatively instead.
+- **Brand line:** from the date the pack's era notes give for the group identity, put the firm's brand line (e.g. "<Firm>, a Tarnovell company") on title slides, report covers and workbook summary sheets.
 - Write like the firm. Each firm has its own voice in the pack. Vary sentence structure and avoid boilerplate. Real documents are specific: sample counts, run dates, who checked what, what was decided.
 - Readouts and capability decks use charts (`chart` with `ref`) and molecule grids (`image` `molecule_grid`) where the pack has data. Reports put the key table early.
 - Output files must be plain JSON (no comments, no trailing commas, `true`/`false`/`null`).
