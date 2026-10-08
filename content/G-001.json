@@ -1,0 +1,114 @@
+{
+  "family": "deck",
+  "summary": "Final client readout for Corvenlea (US) covering hERG (IKr) safety pharmacology and the CYP safety interaction panel. Low-liability progression branch identified alongside a basic-substituent hERG signal.",
+  "properties": {
+    "title": "OT-20-S0178 client readout",
+    "subject": "OT-20-S0178 client readout",
+    "keywords": "Osterquill; control validity; safety"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "CVL aminopyrimidine: integrated safety screen",
+      "subtitle": "OT-20-S0178 | Corvenlea (US) | 10/20/2020\nDr N. Takamori | Osterquill Toxicology Inc",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Client decision",
+      "bullets": [
+        "{{PRJ0012:n_compounds}} test articles evaluated in the non-GLP in vitro investigation.",
+        "Low-liability progression branch identified alongside a basic-substituent hERG signal.",
+        "Screening ranks test articles; it does not establish clinical safety or a GLP conclusion."
+      ],
+      "notes": "Use the low-liability branch to guide the next synthesis request; compare with projected unbound exposure.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Scope and control validity",
+      "bullets": [
+        "Testing interval: 10/06/2020–10/20/2020; LIMS {{PRJ0012:lims_id}}.",
+        "E-4031 IC50 {{PRJ0012:herg.control_e4031_nM}} nM; acceptance interval 5–50 nM.",
+        "CYP control IC50s assessed against 0.5–2 times historical means.",
+        "No live-animal procedures were included; animal welfare oversight of the regulated portfolio is separate."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "hERG (IKr) safety pharmacology: IC50 (µM)",
+      "chart": {
+        "kind": "bar",
+        "title": "hERG (IKr) safety pharmacology: IC50 (µM)",
+        "ref": "PRJ0012:herg",
+        "column": 4
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Cardiac distribution and qualifications",
+      "bullets": [
+        "{{PRJ0012:herg.n_lt_1uM}} below 1 µM; {{PRJ0012:herg.n_1_10uM}} between 1 and 10 µM; {{PRJ0012:herg.n_ge_10uM}} at or above 10 µM.",
+        "Median IC50 {{PRJ0012:herg.median_ic50_uM}} µM; top concentration {{PRJ0012:herg.top_conc_uM}} µM.",
+        "{{PRJ0012:herg.n_censored}} censored estimates and {{PRJ0012:herg.n_flagged}} flagged entries require their observation-sheet qualifications.",
+        "Censored estimates are bounds, not fitted potencies; finite estimates require an exposure comparison."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "CYP safety interaction panel: CYP2C9 inhibition at 10 µM",
+      "chart": {
+        "kind": "bar",
+        "title": "CYP safety interaction panel: CYP2C9 inhibition at 10 µM",
+        "ref": "PRJ0012:cyp_inhib",
+        "column": 2
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "CYP-sensitive test articles",
+      "bullets": [
+        "{{PRJ0012:cyp.n_any_gt50}} test articles exceeded 50% inhibition on at least one isoform.",
+        "CYP1A2 {{PRJ0012:cyp.n_gt50_CYP1A2}}; CYP2C9 {{PRJ0012:cyp.n_gt50_CYP2C9}}; CYP2C19 {{PRJ0012:cyp.n_gt50_CYP2C19}}; CYP2D6 {{PRJ0012:cyp.n_gt50_CYP2D6}}; CYP3A4 {{PRJ0012:cyp.n_gt50_CYP3A4}}.",
+        "CYP2C9 was most frequently flagged. Counts overlap and must not be summed.",
+        "The single-concentration panel does not establish inhibition mechanism."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Representative test article structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0012",
+        "n": 6
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "CYP panel extract: compare the full fingerprint",
+      "table": {
+        "table_ref": "PRJ0012:cyp_inhib",
+        "max_rows": 8
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Handover and next decision",
+      "bullets": [
+        "Prioritize the selected branch or alternatives using both cardiac potency and CYP fingerprints.",
+        "Resolve flagged hERG entries before relying on rank; obtain concentration responses for CYP liabilities in proposed leads.",
+        "Compare assay potency with projected unbound exposure before progression.",
+        "Full tables and control documentation: OT-20-S0178_RPT_A_signed.pdf."
+      ],
+      "notes": "Dr N. Takamori presents the interpretation. Corvenlea (US) will use the low-liability branch to guide the next synthesis request.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    }
+  ]
+}
