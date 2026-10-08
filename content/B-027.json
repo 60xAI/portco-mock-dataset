@@ -1,54 +1,211 @@
-{"family": "workbook",
- "summary": "Run sheet 04 for BW25_0231, Tervemere Pharma AG: hERG automated patch clamp on 32 compounds from the TP04 soluble-tail set. Plate acceptance is recorded against the E-4031 control before any compound is ranked. Accepted values are in the hERG IC50 sheet and the project benchmark.",
- "properties": {"title": "BW25_0231 RUN04 hERG run sheets"},
- "sheets": [
-  {"name": "Run sheet",
-   "rows": [
-    [{"v": "BW25_0231 run sheet 04: hERG automated patch clamp", "bold": true}],
-    ["Project", "{{PRJ0045:project_id}}"],
-    ["LIMS accession", "{{PRJ0045:lims_id}}"],
-    ["Client", "Tervemere Pharma AG"],
-    ["Series", "TP04 soluble-tail analogues (Tervemere aminopyrazolopyrimidine series 04)"],
-    ["Compounds on run", {"ref": "PRJ0045:n_compounds"}],
-    ["Top concentration (µM)", {"ref": "PRJ0045:herg.top_conc_uM"}],
-    ["Runs", "06/06/2025 to 24/06/2025"],
-    [],
-    ["Lead", "Bethany Rowcroft"],
-    ["Electrophysiology", "Ravi Deshmukh"],
-    ["Assay quality", "Ines Alvarado"],
-    ["Sample cards", "Compound lots, sample card numbers and solvent check recorded per card before the run."]
-   ],
-   "col_widths": {"A": 24, "B": 62},
-   "merged": ["A1:B1"],
-   "comments": [{"cell": "B13", "text": "Confirm the top concentration against the study plan before the set is released", "author": "Ines Alvarado"}]},
-  {"name": "Plate acceptance",
-   "rows": [
-    [{"v": "Plate acceptance", "bold": true}],
-    ["Criterion", "Acceptance", "Observed", "Status"],
-    ["E-4031 control IC50 (nM)", "Within historical range", {"ref": "PRJ0045:herg.control_e4031_nM"}, "Accepted"],
-    ["Seal resistance", "Above plate minimum", "", ""],
-    ["Vehicle current run-down", "Within 10% across the run", "", ""],
-    ["Plate 3 vehicle baseline", "Within 10% across the run", "", "Hold"],
-    ["Reference compound on each plate", "Present on every plate", "Yes", "Accepted"],
-    [],
-    ["Plates accepted", "", "", ""]
-   ],
-   "col_widths": {"A": 32, "B": 28, "C": 14, "D": 12},
-   "comments": [{"cell": "D6", "text": "Plate 3 baseline drifted early in the run. Stéphane to confirm the cell batch before we accept the plate.", "author": "Jason Scanlon"}]},
-  {"name": "hERG IC50",
-   "rows": [
-    [{"v": "hERG IC50, automated patch clamp, 32 compounds", "bold": true}],
-    ["Values marked > were censored at the top concentration. Where one cell was discarded the geomean uses the remaining cells; see the QC note column."],
-    ["Median IC50 (µM)", {"ref": "PRJ0045:herg.median_ic50_uM"}]
-   ],
-   "data_refs": [{"table_ref": "PRJ0045:herg", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 16, "C": 16, "D": 16, "E": 18, "F": 20, "G": 16, "H": 30},
-   "comments": [{"cell": "A2", "text": "Compound 02716 cell 2 is noisy. Keep it in the table and flag it in the report.", "author": "Ravi Deshmukh"}]},
-  {"name": "Benchmark",
-   "rows": [
-    [{"v": "Project benchmark", "bold": true}],
-    ["Turnaround was {{PRJ0045:turnaround_days}} calendar days from start to completion. Tervemere resumed exposure testing of the retained branch after this readout."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0045:benchmark", "at": "A4"}],
-   "col_widths": {"A": 32, "B": 60}}
- ]}
+{
+  "family": "workbook",
+  "summary": "Final run sheets for BW25_0231, Tervemere Pharma AG: hERG automated patch clamp on {{PRJ0045:n_compounds}} TP04 soluble-tail analogues. The E-4031 control met the stated acceptance range. Compound-level qualifications and censoring remain visible in the hERG table.",
+  "properties": {
+    "title": "BW25_0231 RUN04 hERG run sheets"
+  },
+  "sheets": [
+    {
+      "name": "Run sheet",
+      "rows": [
+        [
+          {
+            "v": "Brindlewythe Biosciences Ltd, a Tarnovell company\nBW25_0231 run sheet 04: hERG automated patch clamp",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "{{PRJ0045:project_id}}"
+        ],
+        [
+          "LIMS accession",
+          "{{PRJ0045:lims_id}}"
+        ],
+        [
+          "Client",
+          "Tervemere Pharma AG"
+        ],
+        [
+          "Series",
+          "TP04 soluble-tail analogues (Tervemere aminopyrazolopyrimidine series 04)"
+        ],
+        [
+          "Compounds on run",
+          {
+            "ref": "PRJ0045:n_compounds"
+          }
+        ],
+        [
+          "Top concentration (µM)",
+          {
+            "ref": "PRJ0045:herg.top_conc_uM"
+          }
+        ],
+        [
+          "Study start / completion",
+          "06/06/2025 / 25/06/2025"
+        ],
+        [],
+        [
+          "Lead",
+          "Bethany Rowcroft"
+        ],
+        [
+          "Electrophysiology",
+          "Ravi Deshmukh"
+        ],
+        [
+          "Assay quality",
+          "Ines Alvarado"
+        ],
+        [
+          "Sample cards",
+          "Compound lots, sample card numbers and solvent check recorded per card before the run."
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 62
+      },
+      "merged": [
+        "A1:B1"
+      ],
+      "comments": [
+        {
+          "cell": "B13",
+          "text": "Use the sample cards for test-lot and solvent records.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Plate acceptance",
+      "rows": [
+        [
+          {
+            "v": "Plate acceptance",
+            "bold": true
+          }
+        ],
+        [
+          "Criterion",
+          "Acceptance / interpretation",
+          "Observed",
+          "Record"
+        ],
+        [
+          "E-4031 control IC50 (nM)",
+          "5–50 nM",
+          {
+            "ref": "PRJ0045:herg.control_e4031_nM"
+          },
+          "Accepted"
+        ],
+        [
+          "Cell quality",
+          "Consult original cell records",
+          "See compound QC notes",
+          "Original run sheets"
+        ],
+        [
+          "Concentration response",
+          "6-point, 3-fold dilution",
+          "Top concentration in run sheet",
+          "Original run sheets"
+        ],
+        [
+          "Solubility qualification",
+          "Use highest evaluable concentration",
+          "See compound QC notes",
+          "hERG IC50 table"
+        ],
+        [],
+        [
+          "Final tables",
+          "Plate-level audit trail retained in original run sheets"
+        ]
+      ],
+      "col_widths": {
+        "A": 32,
+        "B": 28,
+        "C": 14,
+        "D": 12
+      },
+      "comments": [
+        {
+          "cell": "C6",
+          "text": "TP04-02866 is solubility-limited; retain its qualification when quoting the result.",
+          "author": "Ravi Deshmukh"
+        }
+      ]
+    },
+    {
+      "name": "hERG IC50",
+      "rows": [
+        [
+          {
+            "v": "hERG IC50, automated patch clamp: {{PRJ0045:n_compounds}} compounds",
+            "bold": true
+          }
+        ],
+        [
+          "Compound IC50 is the geometric mean of finite cell IC50s only when finite values form a majority of accepted cells. Otherwise retain the censored value, using the highest evaluable concentration for solubility-limited records. Blank cell fields do not by themselves indicate exclusion."
+        ],
+        [
+          "Median IC50 (µM)",
+          {
+            "ref": "PRJ0045:herg.median_ic50_uM"
+          }
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0045:herg",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 16,
+        "C": 16,
+        "D": 16,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 30
+      },
+      "comments": [
+        {
+          "cell": "A2",
+          "text": "TP04-02866 carries the solubility qualification. TP04-02716 has no QC flag in the result table.",
+          "author": "Ravi Deshmukh"
+        }
+      ]
+    },
+    {
+      "name": "Benchmark",
+      "rows": [
+        [
+          {
+            "v": "Project benchmark",
+            "bold": true
+          }
+        ],
+        [
+          "Turnaround was {{PRJ0045:turnaround_days}} calendar days from start to completion. Tervemere resumed exposure testing of the retained branch after this readout."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0045:benchmark",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 32,
+        "B": 60
+      }
+    }
+  ]
+}
