@@ -1,0 +1,195 @@
+{
+  "family": "deck",
+  "summary": "Final DT-8 Docking and hit clustering readout for Drelvessa Therapeutics SAS using client-supplied X-ray co-crystal coordinates. The analysis identified a solvent-facing substitution opportunity carried into the next chemistry cycle, with pocket-water uncertainty retained in the design rationale.",
+  "properties": {
+    "title": "QV.25.086 DT-8 pocket-water design readout v1",
+    "subject": "Crystallography-based docking and solvent-facing design",
+    "keywords": "DT-8; X-ray; pocket water; substitution"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "DT-8 stress-kinase: pocket-water assessment and design",
+      "subtitle": "{{PRJ0014:project_id}} | Drelvessa Therapeutics SAS | 13 Nov 2025\nDr T. Zawiernicki\nQuenverell Computational Ltd, a Tarnovell company",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Design question and outcome",
+      "bullets": [
+        "Where can substitution be explored without relying on an uncertain pocket-water interpretation?",
+        "Crystallography-based docking identified a solvent-facing substitution opportunity.",
+        "Drelvessa Therapeutics SAS carried that opportunity into its next chemistry cycle.",
+        "The design hypothesis remains subject to experimental testing."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Coordinate and ligand provenance",
+      "bullets": [
+        "The client supplied in-house X-ray co-crystal coordinates for its stress-kinase ligands.",
+        "Docking and hit clustering used those coordinates as the structural reference.",
+        "Input and preparation records are linked to {{PRJ0014:lims_id}}."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Engagement chronology",
+      "bullets": [
+        "Analysis started 08 Sep 2025.",
+        "Interim interpretation: 13 Oct 2025.",
+        "Final design readout and accompanying report: 13 Nov 2025.",
+        "The ranked design rationale belongs to {{PRJ0014:project_id}}."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Coordinate data acceptance",
+      "bullets": [
+        "Check coordinate identity and the correspondence between modelled ligand and supplied chemistry.",
+        "Review alternate conformations and unresolved regions near the pocket.",
+        "Distinguish observed atoms from preparation choices in the analysis notebook."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Ligand preparation",
+      "bullets": [
+        "Preserve parent identity through protonation and conformer preparation.",
+        "Record stereochemical assumptions rather than silently filling ambiguous assignments.",
+        "Inspect the prepared ligand against the supplied co-crystal geometry."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reference pose as an anchor",
+      "bullets": [
+        "Use the supplied co-crystal pose to constrain interpretation of docking proposals.",
+        "Do not favour score improvement when it requires an implausible pose departure.",
+        "Keep observed geometry distinct from a predicted design pose."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Docking and hit clustering",
+      "bullets": [
+        "Compare proposed designs under a consistent preparation route.",
+        "Cluster related ideas so the ranked list exposes redundant changes.",
+        "Use docking scores in kcal/mol as model outputs, not measured affinity."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Pocket-water question",
+      "bullets": [
+        "Which design conclusions depend on retaining a water in the prepared pocket?",
+        "An observed water position does not establish its free-energy contribution.",
+        "Avoid treating a water-mediated contact as an assured affinity gain."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Water-retention sensitivity",
+      "bullets": [
+        "Retained-water preparation: examine the geometry of water-mediated contacts.",
+        "Preserve the provenance of observed and added atoms."
+      ],
+      "bullets_right": [
+        "Omitted-water preparation: examine whether the design interpretation changes.",
+        "Flag proposals dependent on a particular preparation choice."
+      ],
+      "notes": "Compare assumptions rather than assigning a numerical water-displacement benefit. No numerical docking table is supplied with this readout.",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Conserved-water interpretation",
+      "bullets": [
+        "Assess conservation in the supplied coordinate context.",
+        "Coordinate appearance alone does not establish occupancy in every experimental condition.",
+        "Preserve uncertainty where alternative interaction networks are plausible."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Solvent-facing substitution vector",
+      "bullets": [
+        "The identified opportunity points towards solvent-facing substitution.",
+        "Explore that vector in the next chemistry cycle.",
+        "Retain the co-crystal anchor when judging whether a proposed substituent fits the design rationale."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Design priorities",
+      "bullets": [
+        "Prioritise substitutions that test the solvent-facing hypothesis cleanly.",
+        "Keep water-dependent alternatives distinguishable from the central design direction.",
+        "Avoid interpreting the ranked design list as an experimentally established potency order."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Practical chemistry handover",
+      "bullets": [
+        "Drelvessa Therapeutics SAS took the solvent-facing opportunity into its next chemistry cycle.",
+        "Carry pose rationale and water assumptions with the proposed chemistry.",
+        "Confirm actual sample identity before linking future assay results to a modelled design."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What the model cannot settle",
+      "bullets": [
+        "Docking does not resolve the energetic cost of water displacement by itself.",
+        "Substitution may affect properties outside the binding pocket.",
+        "A plausible pose does not establish cellular activity or selectivity."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Experimental decision after synthesis",
+      "bullets": [
+        "Compare the new material with an appropriate parent reference under matched conditions.",
+        "Interpret measured activity alongside sample quality and relevant properties.",
+        "Return discordant observations to both ligand preparation and pocket-water assumptions."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducibility and report handover",
+      "bullets": [
+        "Dr E. Ostlund: docking interpretation and design ranking.",
+        "Nadia Rahmani: coordinate provenance and preparation mapping.",
+        "Dr T. Zawiernicki: final model-gate recommendation.",
+        "Companion report: drelvessa-qv.25.086-docking-report-v1.pdf, 13 Nov 2025."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final recommendation",
+      "bullets": [
+        "Use the solvent-facing substitution opportunity to guide the next chemistry cycle.",
+        "Keep pocket-water uncertainty explicit in each design rationale.",
+        "Close {{PRJ0014:project_id}} with the computational recommendation and await experimental evidence.",
+        "Dr T. Zawiernicki | 13 Nov 2025"
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
