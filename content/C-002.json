@@ -1,0 +1,138 @@
+{
+  "family": "deck",
+  "summary": "Final MV-2015-240 readout of rat Oral/IV PK with tandem-MS bioanalysis. Systemic clearance was acceptable but oral exposure remained limited, leading Aldrevessa to revisit the dosing vehicle; the displayed PK subset is distinguished from the wider test article set.",
+  "properties": {
+    "title": "AT15 Oral/IV PK: exposure and vehicle decision",
+    "subject": "Aldrevessa Therapeutics final DMPK readout, 12/21/2015",
+    "keywords": "PRJ0057; matrix acceptance; analytical limits; final"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "AT15 Oral/IV PK: exposure and vehicle decision",
+      "subtitle": "Aldrevessa Therapeutics | {{PRJ0057:project_id}} | Final readout, 12/21/2015\nDr M. Larkin | Merrivoss Bioanalysis Inc",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Study scope and displayed subset",
+      "bullets": [
+        "{{PRJ0057:n_compounds}} test articles in the project record; {{PRJ0057:lims_id}}",
+        "The supplied PK table covers the measured subset, not the entire accession lot",
+        "Study 11/16/2015–12/21/2015; interim review 12/03/2015"
+      ],
+      "notes": "The project count is not an animal count or a claim that every test article has a PK row.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Rat matrix and route comparison",
+      "bullets": [
+        "Rat plasma parent-analyte measurements by tandem-MS bioanalysis",
+        "Protocol: 1 mg/kg IV and 5 mg/kg PO; n=3",
+        "Use dose-normalized route exposure for bioavailability; IV clearance describes systemic disposition"
+      ],
+      "notes": "Route comparison assumes comparable assay performance and sufficiently linear disposition over the dose range. The supplied data are derived parameters, not concentration-time profiles.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance comes first",
+      "bullets": [
+        "Helen Marchwood: review rat-plasma matrix acceptance for reporting sequences",
+        "Javier Quintana: inspect calibration, extracted controls and carryover for each analyte",
+        "A plausible PK profile does not establish satisfactory analytical performance"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analytical and sampling limits",
+      "bullets": [
+        "Terminal estimates require quantifiable late samples and an identifiable elimination interval",
+        "Do not replace below-quantitation observations with invented concentrations",
+        "AUC, Cmax, sampling times and compound-specific quantitation limits are not supplied"
+      ],
+      "notes": "Exposure is conventionally expressed in ng·h/mL. No numerical AUC or concentration-time profile is reconstructed from clearance and bioavailability.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Rat Oral/IV PK: supplied parameters",
+      "table": {
+        "table_ref": "PRJ0057:rodent_pk",
+        "max_rows": 6
+      },
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Systemic disposition: IV clearance",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0057:rodent_pk",
+        "column": 1,
+        "title": "CL (mL/min/kg)"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Route comparison: oral bioavailability",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0057:rodent_pk",
+        "column": 4,
+        "title": "F (%)"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "AT15 sulfonyl piperazines",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0057",
+        "n": 6
+      },
+      "notes": "Representative structures aid identity matching; they do not designate nominated leads.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Read the routes together",
+      "bullets": [
+        "Acceptable systemic clearance does not establish satisfactory absorption",
+        "The recorded project interpretation was limited oral exposure despite acceptable systemic clearance",
+        "Bioavailability varies across the displayed subset; the vehicle decision does not mean uniformly poor F"
+      ],
+      "notes": "The interpretation concerns the project exposure gate, not a common mechanism assigned to every analogue.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision: revisit the dosing vehicle",
+      "bullets": [
+        "Aldrevessa Therapeutics returned to the vehicle before the next oral exposure assessment",
+        "Review delivery, dispersion and dose preparation alongside the parent-analyte record",
+        "Preserve a suitable IV reference in the repeat comparison to separate formulation from disposition"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final handoff",
+      "bullets": [
+        "Megan Larkin: retain route assumptions in the DMPK memo",
+        "Javier Quintana: keep analytical limits with the analyte cards",
+        "Archive the current summary under {{PRJ0057:lims_id}}; vehicle follow-up is a subsequent study"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    }
+  ]
+}
