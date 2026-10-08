@@ -1,0 +1,12 @@
+{"family": "document",
+ "summary": "One-page separator sheet from October 2019 with a title and a short note. A RECEIVED stamp was applied across the top, slightly off square. The page carries no sample, client or study information.",
+ "properties": {"title": "Receipt separator"},
+ "header": "Westravelle Analytical Ltd",
+ "footer": "Westravelle Analytical Ltd | Confidential",
+ "watermark": null,
+ "title_block": {"title": "Sample receipt separator", "subtitle": "Unsorted scan", "lines": ["Date: 24/10/2019"]},
+ "sections": [
+  {"heading": "Receipt", "level": 1, "blocks": [{"p": "RECEIVED", "style": "bold"}, {"p": "Batch paperwork for the morning intake was filed behind this sheet. Check against the intake log before anything is moved.", "style": "small"}]}
+ ],
+ "signature_block": [],
+ "orientation": "portrait"}
