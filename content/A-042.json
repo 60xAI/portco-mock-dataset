@@ -1,0 +1,191 @@
+{
+  "family": "scan",
+  "summary": "Scanned signed purity-release protocol preserves controlled revision A and the area-percent acceptance procedure. Bench annotations draw attention to integration history and sample preparation while a light approval stamp leaves the controlled issue legible.",
+  "document": {
+    "family": "document",
+    "summary": "Controlled purity-release procedure requires chromatographic area-percent acceptance against the agreed programme specification, independent identity evidence and delivery-lot traceability. Integration changes, holds and repeat analyses remain part of the compound-card history.",
+    "properties": {
+      "title": "Purity-release protocol | Revision A"
+    },
+    "header": "Vellacombe Discovery Ltd | Purity-release protocol | Revision A | 16 Oct 2012",
+    "footer": "Vellacombe Discovery Ltd | Confidential | Controlled revision A",
+    "title_block": {
+      "title": "Purity-release protocol",
+      "subtitle": "Controlled revision A | Vellacombe Discovery Ltd",
+      "lines": [
+        "Effective: 16 Oct 2012",
+        "Prepared by Clara Fenwick",
+        "Analytical Release Lead"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Controlled issue and responsibilities",
+        "blocks": [
+          {
+            "p": "Purpose: to release isolated material against an agreed chromatographic purity specification while retaining the evidence for identity, sample traceability and interpretation. This protocol applies to Analogue preparation and Route scout and delivery. It does not establish biological suitability or replace the chemical assignment."
+          },
+          {
+            "p": "This controlled issue is revision A, effective 16 Oct 2012. Clara Fenwick owns the analytical release procedure. Ruth Calderwood approves its chemical application. A bench annotation may identify an observation or query, but cannot change the controlled acceptance criteria. Proposed changes must be considered and issued as a controlled revision."
+          },
+          {
+            "p": "The preparing chemist links the isolated material to its compound card and preparation. The analyst retains the method, sample preparation and analytical trace. Clara Fenwick reviews the release evidence. Ruth Calderwood resolves chemical questions that prevent assignment or affect intended use."
+          },
+          {
+            "p": "Before analysis, establish the programme requirement in writing. State the area-percent acceptance specification, detection conditions and any separately controlled impurity requirement on the compound card. Where those requirements are absent or ambiguous, hold the material for clarification rather than applying an assumed default."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Material identity and analytical sample",
+        "blocks": [
+          {
+            "p": "Check the compound card against the material submitted. The identifier, material form and preparation reference must describe the same isolated material. Proposed structures must be labelled as proposed. A chromatographic peak with the expected retention behaviour is supporting evidence, not a complete structural assignment."
+          },
+          {
+            "p": "Prepare a representative analytical sample using a solvent and handling procedure appropriate to the material. Record any insoluble residue, colour change or deterioration during preparation. Do not remove an unexplained fraction and then present the resulting trace as representative of the whole isolated material without explaining the limitation."
+          },
+          {
+            "p": "Link the analytical sample to the delivery lot and retain the preparation details. Record relevant dilution and handling steps in the analytical entry. If the compound card or label is inconsistent, resolve the discrepancy before continuing the release review."
+          },
+          {
+            "p": "Use the agreed detection conditions and retain the method reference with the trace. Examine blank contributions and carry-over where they may affect integration. A method that fails to resolve the relevant impurity question requires investigation; repeated injection alone does not establish suitability."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Integration and area-percent calculation",
+        "blocks": [
+          {
+            "p": "Integrate the trace according to the documented method. Inspect the baseline, shoulders and integration boundaries before accepting the result. Retain the original trace and identify any manual integration change with a reason. Do not omit a visible sample-related peak solely to improve the reported purity."
+          },
+          {
+            "p": "Calculate the assigned compound peak area as a percentage of the total included sample-related integrated area under the stated detection conditions. Apply exclusions only where the method identifies them and evidence supports the exclusion. Record excluded solvent, blank or system contributions so that the calculation can be reconstructed."
+          },
+          {
+            "p": "Area percent is a detector-response measure. Different compounds may respond differently, and a non-detected component will not be represented in the integrated total. Report the result as chromatographic area-percent purity, with the method context; do not translate it into absolute mass purity without an independent basis."
+          },
+          {
+            "p": "If the desired compound co-elutes with another component, the combined area cannot be assigned wholly to the desired compound without supporting evidence. Refer the separation problem for method development or an alternative analytical approach. Preserve the unresolved trace as part of the compound-card history."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Acceptance criteria and hold decisions",
+        "blocks": [
+          {
+            "p": "Release requires the chromatographic area-percent result to meet the written programme specification under the agreed method. Identity must be supported independently of the purity calculation, and the sample must be traceable to the isolated material intended for delivery. All applicable impurity requirements must also be addressed."
+          },
+          {
+            "table": {
+              "columns": [
+                "Decision",
+                "Required evidence"
+              ],
+              "rows": [
+                [
+                  "Release",
+                  "Agreed area-percent specification met; identity supported; traceability complete"
+                ],
+                [
+                  "Hold",
+                  "Purity, assignment, separation or sample link unresolved"
+                ],
+                [
+                  "Reanalyse",
+                  "Defined analytical question and retained earlier evidence"
+                ],
+                [
+                  "Re-isolate",
+                  "New isolation linked to the original compound card"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Hold material when purity falls outside the agreed specification, when integration is unresolved, when a relevant impurity is not separated or when identity remains uncertain. Material may also be held where handling observations suggest that the analytical sample no longer represents the delivery lot."
+          },
+          {
+            "p": "A repeated analysis must address a defined question. Record why the repeat is needed, how sample preparation or method conditions differ and what conclusion follows. Retain the earlier result; do not replace an unfavourable trace with a later favourable trace without explaining the discrepancy."
+          },
+          {
+            "p": "If additional purification is proposed, return the material to the preparing chemist with the reason for hold. Link the new isolation and subsequent analytical sample to the compound card. A conditional acceptance or changed requirement must be authorised and documented before release, with the limitation carried into the chemistry note."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Release entry and delivery handover",
+        "blocks": [
+          {
+            "p": "The release entry identifies the compound, delivery lot, analytical sample and method. It gives the reported area-percent purity and the written acceptance specification, refers to identity evidence and records the reviewer, date and disposition. State any limitations explicitly rather than leaving the recipient to infer them from the trace."
+          },
+          {
+            "p": "Record the isolated mass in mg and amount in mmol where applicable. Use the assigned material form for amount calculations. Isolated yield belongs to the preparation account and must remain distinguishable from chromatographic purity. Where a bench entry uses g, preserve the original entry and make any conversion explicit."
+          },
+          {
+            "p": "Before assembling a delivery lot, compare container labels with the released compound cards and delivery list. Held material must remain separate from released material. A target with no isolated material must not appear on the released list merely because its structure was proposed."
+          },
+          {
+            "p": "Supply the agreed analytical traces and chemistry note with the delivery documentation. Carry forward impurity, stability and handling observations relevant to use. An unresolved assignment prevents an unqualified identity claim even where the area-percent requirement has been met."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "6 Retention, deviations and approval",
+        "blocks": [
+          {
+            "p": "Retain the analytical trace, integration history, method reference and sample preparation with the compound card. Retain the written programme specification and release decision so that the acceptance can be reconstructed without relying on recollection. Keep the chemical assignment evidence linked to the same material."
+          },
+          {
+            "p": "Deviations must describe the event, its effect on interpretation and the decision taken. Clara Fenwick assesses the analytical consequence; Ruth Calderwood assesses the chemical consequence where needed. A note that says only that material is acceptable is insufficient when the reason for the original hold remains unresolved."
+          },
+          {
+            "p": "Bench annotations on this copy are observations only. They do not supersede revision A or authorise a different purity requirement. If an annotation reveals a recurring ambiguity, Clara Fenwick will consider a controlled amendment and communicate the revised procedure before it is used."
+          },
+          {
+            "p": "Approved for use on 16 Oct 2012. Clara Fenwick confirms the analytical procedure and Ruth Calderwood confirms the chemical release responsibilities. The controlled revision remains visible on every page; approval applies to the procedure, not to an individual delivery lot."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Clara Fenwick",
+        "role": "Analytical Release Lead",
+        "date": "16 Oct 2012",
+        "signed": true
+      },
+      {
+        "name": "Ruth Calderwood",
+        "role": "Head of Medicinal Chemistry",
+        "date": "16 Oct 2012",
+        "signed": true
+      }
+    ],
+    "comments": [],
+    "tracked_changes": []
+  },
+  "scan": {
+    "skew_deg": 0.4,
+    "noise": 0.1,
+    "blur": 0.2,
+    "stamp": "APPROVED 16 OCT 2012",
+    "handwriting": "Keep original integration. Note any insoluble residue on the compound card. C. Fenwick",
+    "pages": null
+  }
+}
