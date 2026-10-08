@@ -1,0 +1,6 @@
+{"family": "deck",
+ "summary": "Near-empty group title master for Merrivoss DMPK and bioanalysis decks, left with a single title slide and placeholder text for the study name, client and matrix acceptance section.",
+ "properties": {"title": "Presentation1", "subject": "", "keywords": ""},
+ "slides": [
+  {"layout": "title", "title": "[Study / test article set title]", "subtitle": "Merrivoss Bioanalysis Inc, a Tarnovell company | Matrix acceptance: [matrix] | Draft"}
+ ]}
