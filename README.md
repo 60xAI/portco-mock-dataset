@@ -2,7 +2,7 @@
 
 A fictional document archive for demoing AI Brain on a buy-and-build portfolio company (DEV-1369, DEV-1370). Everything in it is invented: the firms, people, clients, compounds, projects and results.
 
-- **Ready to ingest:** `tarnovell_archive.zip` (306 files) first, then `tarnovell_firm_G_heldback.zip` (34 files, firm G) for the acquisition step. Unzipped sources: `output/archive/` and `output/heldback_firm_G/`.
+- **Ready to ingest:** the eight zips in `tarnovell_archive/` first (306 files, one zip per top-level folder; select them all in one upload), then `tarnovell_firm_G_heldback.zip` (34 files, firm G) for the acquisition step. Every zip is under AI Brain's 30 MB upload limit; the archive as one zip (49 MB) is not. Unzipped sources: `output/archive/` and `output/heldback_firm_G/`.
 - **Why firm G is held back:** buy-and-build groups keep acquiring, so the demo needs to show what happens the day a new company's archive lands. Firm G (Osterquill Toxicology) is the newest acquisition, closing on 1 October 2026. You ingest the main archive and ask a question, then ingest firm G and ask the same question again. New answers appear straight away: two more matching projects, and a client record ("Corvenlea (US)") that links to the group's existing Corvenlea history. That shows AI Brain makes a newly bought firm's knowledge usable from day one, without any integration work.
 - **Answer key:** `output/golden_set.json`. Don't ingest it.
 - **How it was made and how to regenerate it:** [`docs/datasheet.md`](docs/datasheet.md).
@@ -106,11 +106,6 @@ Each question has a planted answer. `output/golden_set.json` gives the expected 
 
 ### Packaging for ingestion
 
-File dates are part of the realism and `zip` keeps them. After cloning, run `uv run mockgen export` once to restore the dates (git doesn't store them). Then:
-
-```bash
-cd output/archive && zip -r -X ~/Desktop/tarnovell_archive.zip . -x '.DS_Store' '*/.DS_Store'
-cd ../heldback_firm_G && zip -r -X ~/Desktop/tarnovell_firm_G_heldback.zip . -x '.DS_Store' '*/.DS_Store'
-```
+File dates are part of the realism and zips keep them. `uv run mockgen zips` restores the dates (git doesn't store them; it runs `mockgen export` first), then rebuilds `tarnovell_archive/*.zip` and `tarnovell_firm_G_heldback.zip`. It fails if any zip reaches the 30 MB upload limit.
 
 All names were screened so they don't clash with real companies or people.
