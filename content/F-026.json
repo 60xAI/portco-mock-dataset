@@ -1,0 +1,131 @@
+{
+  "family": "document",
+  "summary": "Final Vehicle ladder proposal for Auvrelquith Biosciences quoting the pH and excipient work package and its planned execution period. Eric Langford’s retained personal copy includes informal scope notes without later results.",
+  "properties": {
+    "title": "AU-08 oral solution: Vehicle ladder proposal"
+  },
+  "header": "Durnesswick Laboratories Inc",
+  "footer": "Durnesswick Laboratories Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "AU-08 oral solution: Vehicle ladder proposal",
+    "subtitle": "Final proposal — personal working copy",
+    "lines": [
+      "Project {{PRJ0105:project_id}}",
+      "Accession {{PRJ0105:lims_id}}",
+      "Client: Auvrelquith Biosciences",
+      "Date: 04/04/2016",
+      "Prepared by: Eric Langford"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Proposal and commercial scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Durnesswick Laboratories Inc proposes a Vehicle ladder work package for the Auvrelquith AU-08 oral solution. The objective is to identify an exposure-preparation route and test whether apparently suitable concentrates remain usable after dilution. This proposal does not promise a final commercial formulation."
+        },
+        {
+          "p": "The quoted work-package price is {{PRJ0105:price}}. The scope covers the pH and excipient screen, dilution checks, practical recipe-card instructions and a final development report. Julia Carver will lead the technical work, with Miguel Serrano supporting formulation comparisons and Lena Patel addressing the preparation handoff."
+        },
+        {
+          "p": "This is Eric Langford’s retained working copy of the final quotation. Personal annotations explain the agreed boundary of the offer; they do not change its quoted price or technical scope."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Planned Vehicle ladder",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Prepare a formulation set spanning aqueous suspending media, mixed solvent systems, cyclodextrin and buffered aqueous conditions. Use nominal 10 mg/mL loading as the initial screen setting. Record initial appearance, equilibrium-solubility findings and physical behavior after standing on linked bench sheets."
+        },
+        {
+          "p": "The pH and excipient comparison will distinguish a true solution from a fine suspension, and ordinary settling from deposits that cannot be redistributed by the intended handling. The aim is a usable exposure preparation, so a visually clear starting point will not be selected without a dilution check."
+        },
+        {
+          "p": "If the initial set reveals a handling limitation, evaluate an adjustment within the agreed screen rather than assuming that greater solvent content is the preferred answer. Record recipe identity and mixing sequence so the development decision remains reproducible."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Dilution checks and decision rules",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assess candidate preparations by dilution into defined aqueous receiving conditions. Record the receiving medium, dilution sequence and observations immediately after preparation and after a planned hold. Protocol settings will be agreed on the bench sheet before the challenge; they are not promised as a universal operating range."
+        },
+        {
+          "p": "A candidate passes the physical handling decision only if its intended material state remains usable during the assessed sequence. Precipitation after dilution, persistent deposits or a need for unplanned rescue mixing will trigger adjustment or rejection. Any buffer adjustment must be recorded as part of the recipe, including its order of addition."
+        },
+        {
+          "p": "Deliver a qualitative recommendation with the supporting observations. Where a dilution condition fails, identify that limitation rather than reporting only favorable preparations. Chemical stability, biological performance and excipient tolerance are not established by these physical checks."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Schedule and deliverables",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The planned execution period is {{PRJ0105:turnaround_days}} days. The proposed start is 04/19/2016, with an interim discussion on 05/13/2016 and planned completion on 06/06/2016. These dates assume the necessary material and preparation requirements are available for the agreed start."
+        },
+        {
+          "p": "At interim, provide the initial Vehicle ladder findings and identify candidates requiring dilution adjustment. The final report will bring together the formulation comparison, dilution observations, selected preparation if supported, and explicit handling limits. Recipe cards and bench sheets will retain the link to {{PRJ0105:project_id}} / {{PRJ0105:lims_id}}."
+        },
+        {
+          "p": "Lena Patel will focus the handoff on reproducible preparation and clear hold criteria. No exposure result is a deliverable of this formulation work package. A recommendation to proceed into exposure work will remain conditional on the physical preparation being suitable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Assumptions, exclusions and acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Auvrelquith Biosciences will supply the material and intended exposure-preparation requirements needed for the screen. Changes in target loading, receiving medium or dosing presentation may require a revised formulation set. Agree such changes before treating them as covered by the current quotation."
+        },
+        {
+          "p": "The price covers the stated exploratory work package. It excludes commercial process qualification, long-term stability, packaging qualification and exposure measurement. Further work will be scoped after the Vehicle ladder decision rather than bundled implicitly into the initial preparation screen."
+        },
+        {
+          "p": "Eric Langford is the commercial contact for this proposal; Julia Carver owns the technical decision. Acceptance should refer to the project identifier and the stated scope so the dilution checks remain part of the authorized work. No client signature is represented in this retained copy."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Eric Langford",
+      "role": "Early Development Accounts Lead",
+      "date": "04/04/2016",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "comments": [
+    {
+      "anchor": "This proposal does not promise a final commercial formulation.",
+      "text": "EL working copy: keep dilution checks in the base scope. Do not let the exposure timetable turn this into a promise of a finished formulation.",
+      "author": "Eric Langford"
+    },
+    {
+      "anchor": "No exposure result is a deliverable of this formulation work package.",
+      "text": "Personal note: retain this copy with the AU08 quotation correspondence; Julia owns the technical scope.",
+      "author": "Eric Langford"
+    }
+  ]
+}
