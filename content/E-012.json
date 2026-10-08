@@ -1,63 +1,218 @@
-{"family": "workbook",
- "summary": "Interim sequence sheets for the XE-2 assay validation under WA/2026/275 for Xelvessune Pharma: forced-degradation specificity is complete, and integration rules for a shoulder peak in the acid and peroxide stressed samples are being finalised before validation sign-off. Method validation parameters are partly run; the table is interim and not yet signed.",
- "properties": {"title": "XE2 first pull review (interim draft), Rev01"},
- "sheets": [
-  {"name": "Summary", "start": "A1",
-   "rows": [
-    [{"v": "WA/2026/275 XE2 assay validation: INTERIM DRAFT", "bold": true, "fill": "#FFF2CC"}],
-    ["Status: interim. Forced degradation complete; integration rules and validation sign-off pending."],
-    [],
-    ["Project", {"ref": "PRJ0099:project_id"}],
-    ["LIMS", {"ref": "PRJ0099:lims_id"}],
-    ["Client", "{{PRJ0099:client_variant}}"],
-    ["Lead", "Alice Penrose"],
-    ["Method validation", "Saira Mahmood"],
-    ["Sequence owner", "Leon Wu"],
-    [],
-    ["Milestone", "Date"],
-    ["Quote accepted", "11/08/2026"],
-    ["Protocol start", "08/09/2026"],
-    ["Interim data review", "29/09/2026"],
-    ["Completion", "To be confirmed"],
-    [],
-    ["Result (interim)", "Value"],
-    ["Overall outcome so far", "Specificity established for the stressed samples at the peaks already integrated; shoulder peak under review"],
-    [],
-    ["Prepared by", "Saira Mahmood", null, "Interim draft 29/09/2026"]
-   ],
-   "col_widths": {"A": 30, "B": 52},
-   "merged": ["A1:D1"]
+{
+  "family": "workbook",
+  "summary": "Interim sequence sheets for the XE-2 assay validation under WA/2026/275 for Xelvessune Pharma record completed forced-degradation work and the available qualification parameters. Integration rules for a shoulder peak are being finalised before validation sign-off; the table remains interim and unsigned.",
+  "properties": {
+    "title": "XE2 first pull review (interim draft), Rev01"
   },
-  {"name": "Forced degradation", "start": "A1",
-   "rows": [
-    [{"v": "Forced degradation: specificity sequence (interim)", "bold": true}],
-    ["Stress conditions as per protocol. Peak purity assessed on the main peak in every stressed sample. Blank cells are results not yet reviewed."],
-    [],
-    ["Stress condition", "Protocol setting", "Exposure", "Main peak purity", "Shoulder peak", "Integration reviewed", "Comment"],
-    ["Acid", "0.1 M HCl, 60 °C", "Complete", "Pass", "Present", "No", "Integration rule being set"],
-    ["Base", "0.1 M NaOH, 60 °C", "Complete", "Pass", "Not seen", "Yes", "No action"],
-    ["Peroxide", "3% H2O2, room temperature", "Complete", "Pass", "Present", "No", "Same shoulder as acid sample"],
-    ["Heat (solid)", "80 °C, 7 days", "Complete", "Pass", null, null, null],
-    ["Light", "ICH Q1B exposure", "Complete", "Pass", null, null, null],
-    ["Hydrolysis control", "Water, 60 °C", null, null, null, null, null]
-   ],
-   "col_widths": {"A": 24, "B": 26, "C": 14, "D": 20, "E": 16, "F": 20, "G": 34},
-   "merged": ["A1:G1"],
-   "freeze": "A5",
-   "comments": [
-    {"cell": "E5", "text": "Shoulder is the same width in the acid and peroxide samples. Do not integrate it into the main peak until the rule is agreed.", "author": "Alice Penrose"},
-    {"cell": "A9", "text": "Hydrolysis control row is empty. Leon to confirm whether the control was run in this sequence or the next.", "author": "Saira Mahmood"}
-   ]
-  },
-  {"name": "Method validation", "start": "A1",
-   "rows": [
-    [{"v": "HPLC method qualification: interim parameters", "bold": true}],
-    ["Parameters run to date. Specificity and robustness not yet signed off; see forced degradation sheet."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0099:method_val", "at": "A4", "max_rows": null, "columns": null, "header": true}],
-   "merged": ["A1:C1"],
-   "col_widths": {"A": 28, "B": 16, "C": 18},
-   "freeze": "A5"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          "Westravelle Analytical Ltd, a Tarnovell company"
+        ],
+        [
+          {
+            "v": "WA/2026/275 XE2 assay validation: INTERIM DRAFT",
+            "bold": true,
+            "fill": "#FFF2CC"
+          }
+        ],
+        [
+          "Status: interim. Forced degradation complete; integration rules and validation sign-off pending."
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0099:project_id"
+          }
+        ],
+        [
+          "LIMS",
+          {
+            "ref": "PRJ0099:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0099:client_variant}}"
+        ],
+        [
+          "Lead",
+          "Alice Penrose"
+        ],
+        [
+          "Method validation",
+          "Saira Mahmood"
+        ],
+        [
+          "Sequence owner",
+          "Leon Wu"
+        ],
+        [],
+        [
+          "Milestone",
+          "Date"
+        ],
+        [
+          "Quote",
+          "11/08/2026"
+        ],
+        [
+          "Protocol start",
+          "08/09/2026"
+        ],
+        [
+          "Interim data review",
+          "29/09/2026"
+        ],
+        [
+          "Completion",
+          "To be confirmed"
+        ],
+        [],
+        [
+          "Result (interim)",
+          "Value"
+        ],
+        [
+          "Overall outcome so far",
+          "Forced-degradation work complete; shoulder-peak integration rules and validation sign-off pending."
+        ],
+        [],
+        [
+          "Prepared by",
+          "Saira Mahmood",
+          null,
+          "Interim draft 29/09/2026"
+        ]
+      ],
+      "col_widths": {
+        "A": 30,
+        "B": 52
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Forced degradation",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Forced-degradation review tracker (interim)",
+            "bold": true
+          }
+        ],
+        [
+          "Forced-degradation work is complete. Stress settings, chromatograms and peak assessments remain in the source sequence records; blank cells below are pending review or sign-off entries."
+        ],
+        [],
+        [
+          "Review item",
+          "Status",
+          "Reviewer",
+          "Date",
+          "Sign-off"
+        ],
+        [
+          "Forced-degradation work",
+          "Complete",
+          null,
+          null,
+          null
+        ],
+        [
+          "Shoulder-peak integration rules",
+          "Being finalised",
+          "Saira Mahmood",
+          null,
+          null
+        ],
+        [
+          "Specificity conclusion",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Validation sign-off",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Report issue",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 26,
+        "C": 14,
+        "D": 20,
+        "E": 16,
+        "F": 20,
+        "G": 34
+      },
+      "merged": [
+        "A1:G1"
+      ],
+      "freeze": "A5",
+      "comments": [
+        {
+          "cell": "B6",
+          "text": "Agree the shoulder-peak integration rule before validation sign-off.",
+          "author": "Alice Penrose"
+        },
+        {
+          "cell": "B7",
+          "text": "Keep the specificity conclusion pending until the integration review is complete.",
+          "author": "Saira Mahmood"
+        }
+      ]
+    },
+    {
+      "name": "Method validation",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "HPLC method qualification: interim parameters",
+            "bold": true
+          }
+        ],
+        [
+          "Parameters run to date. Specificity and robustness not yet signed off; see forced degradation sheet."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0099:method_val",
+          "at": "A4",
+          "max_rows": null,
+          "columns": null,
+          "header": true
+        }
+      ],
+      "merged": [
+        "A1:C1"
+      ],
+      "col_widths": {
+        "A": 28,
+        "B": 16,
+        "C": 18
+      },
+      "freeze": "A5"
+    }
+  ]
+}
