@@ -1,0 +1,260 @@
+{
+  "family": "document",
+  "summary": "The hERG channel screen covered {{PRJ0037:herg.n_tested}} compounds. E-4031 gave a control IC50 of {{PRJ0037:herg.control_e4031_nM}} nM and the compound median was {{PRJ0037:herg.median_ic50_uM}} µM. Cell-level estimates, censoring and recording qualifications are retained in the released table. Feldorune Therapeutics BV dropped the most strongly basic side chain after reproducible hERG inhibition in the confirmatory run.",
+  "properties": {
+    "title": "FT09 indazole cardiac counterscreen: synthesis lot C",
+    "subject": "Assess hERG current inhibition in the submitted screening set and provide a cardiac counterscreen profile for the chemistry decision."
+  },
+  "header": "Brindlewythe Biosciences Ltd | {{PRJ0037:project_id}} | Revision B",
+  "footer": "Brindlewythe Biosciences Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "FT09 indazole cardiac counterscreen: synthesis lot C",
+    "subtitle": "Final signed study report — revision B",
+    "lines": [
+      "Study {{PRJ0037:project_id}}",
+      "Accession {{PRJ0037:lims_id}}",
+      "Client: Feldorune Therapeutics BV",
+      "Date: 23 Jul 2018",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and control acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The hERG channel screen covered {{PRJ0037:herg.n_tested}} compounds. E-4031 gave a control IC50 of {{PRJ0037:herg.control_e4031_nM}} nM and the compound median was {{PRJ0037:herg.median_ic50_uM}} µM. Cell-level estimates, censoring and recording qualifications are retained in the released table."
+        },
+        {
+          "p": "Control acceptance preceded interpretation. Ines Alvarado checked the acceptance record and its link to the sample cards before the screening conclusions were released. Censored estimates and individual qualifications remain part of the accepted endpoint record; study acceptance does not remove them."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0037:benchmark",
+            "caption": "Table 1. Study summary and benchmarks"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Study objective and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assess hERG current inhibition in the submitted screening set and provide a cardiac counterscreen profile for the chemistry decision."
+        },
+        {
+          "p": "The study covered {{PRJ0037:n_compounds}} compounds for Feldorune Therapeutics BV under {{PRJ0037:project_id}}, accession {{PRJ0037:lims_id}}. Work began on 06 Jul 2018. The interim position was recorded on 16 Jul 2018 and the completed assessment was issued on 23 Jul 2018. Revision B supersedes the interim position."
+        },
+        {
+          "p": "The screen gate concerned the next chemistry decision. It was not a clinical assessment or an assertion that the intended target mechanism had been demonstrated. Dr B. Rowcroft was responsible for the scientific interpretation and final release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test articles and accountability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Synthesis lot C identifies the material used for the FT09 confirmatory assessment. The full FT09 identifiers were retained from the sample cards to the electrophysiology run sheets. Confirmation belongs to this lot; a replacement synthesis must retain its own material identity."
+        },
+        {
+          "p": "Test lot identity was preserved from receipt through preparation and measurement. The reportable compound identifier belongs to the material submitted for this study. A replacement lot, new solid form or formulation is not covered merely because it has the same chemistry designation."
+        },
+        {
+          "p": "The sample card provides the connection between retained material and the assay record. Follow-up work should carry that connection forward while recording any change of lot. Result transfer must use full identifiers rather than rack position or abbreviated suffix."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Experimental procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "hERG current was measured by patch clamp with a repeated voltage protocol. A stable vehicle baseline preceded compound addition. Tail-current amplitude was normalised to the baseline in the same cell, and each concentration was allowed to approach a stable response before further addition. Current stability and recording quality were assessed before fitting."
+        },
+        {
+          "p": "The test concentration range extended to {{PRJ0037:herg.top_conc_uM}} µM. Independent cell recordings were retained in the endpoint table. Vehicle measurements addressed current drift; E-4031 demonstrated reference blocker sensitivity. The reference control is expressed in nM, while compound IC50 values are expressed in µM."
+        },
+        {
+          "p": "The run sheet retained baseline behaviour and recording limitations. An unacceptable recording was not rescued by averaging with acceptable cells. Available recordings and finite estimates are distinguished in the table. Absence of a fitted estimate at the top concentration is handled by censoring rather than substitution of that concentration as an exact IC50."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Plate acceptance and calculation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dr R. Deshmukh checked reference sensitivity and current stability before interpreting the compound data. E-4031 gave an IC50 of {{PRJ0037:herg.control_e4031_nM}} nM. The study was accepted against the established recording and control criteria; individual cell or compound qualifications remained attached to the endpoints."
+        },
+        {
+          "p": "Normalised current inhibition was used for concentration-response fitting. Finite cell estimates were summarised geometrically where appropriate. Greater-than values were retained with their censoring symbols. The n cells (finite) field distinguishes available recordings from the subset contributing finite estimates and must accompany the compound summary."
+        },
+        {
+          "p": "Ines Alvarado checked units, column mapping and retention of qualifiers during report preparation. Bethany Rowcroft then considered the accepted endpoints against the study objective. A reference control demonstrates assay responsiveness under the test conditions; it does not establish specificity or suitability of a test compound outside those conditions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Results: numerical record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The distribution was {{PRJ0037:herg.n_lt_1uM}} compounds below 1 µM, {{PRJ0037:herg.n_1_10uM}} in the 1–10 µM band and {{PRJ0037:herg.n_ge_10uM}} at or above 10 µM. The supplied record contains {{PRJ0037:herg.n_censored}} censored summaries and {{PRJ0037:herg.n_flagged}} flagged summaries. Censored compounds remain part of the distribution, not additional test articles."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0037:herg",
+            "caption": "Table 2. hERG channel screen: cell IC50, compound summary and inhibition at 10 µM"
+          }
+        },
+        {
+          "p": "The released tables are the primary numerical record. A blank cell is not a zero. A greater-than value is not an exact estimate. Concentration, matrix and endpoint units must remain attached to each result when it is copied from this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Comparison within the screening set",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reproducibility in the confirmatory assessment supported removal of the strongly basic side chain. That chemistry decision rests on an accepted current-inhibition profile, not an assigned binding site or a clinical risk estimate. The confirmatory record should remain distinguishable from any earlier screen."
+        },
+        {
+          "p": "Comparison within the present study is preferred to an unqualified comparison with historical screening sets. Test lot, preparation and assay conditions can change the apparent separation between candidates. A useful chemistry association remains a screening observation unless a further experiment distinguishes its possible causes."
+        },
+        {
+          "p": "The assay profile should be read in full before selecting a favourable isolated result. An optimisation preference does not change the endpoint, and a less favoured branch does not become an assay failure because the client chooses another direction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Qualifications and interpretation limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "hERG current inhibition is an in vitro liability endpoint. It does not assess all cardiac ion channels, tissue response or clinical arrhythmia risk. A result above the tested range is not an exact potency estimate. No dose or exposure margin can be derived from these assay data alone."
+        },
+        {
+          "p": "No compound summary was flagged in the supplied record. This does not imply that every cell field is populated. A blank field and an above-range value have different meanings and are preserved separately."
+        },
+        {
+          "p": "No exposure margin has been calculated. Such a calculation requires an agreed exposure measure and a justified connection between that measure and this assay endpoint. The report establishes neither a dose nor an in vivo response. These limits define the intended use of the screen."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate and client decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Feldorune Therapeutics BV dropped the most strongly basic side chain after reproducible hERG inhibition in the confirmatory run."
+        },
+        {
+          "p": "Confirmation supports the chemistry direction already under consideration. A less basic replacement must be assessed on its own record rather than assigned the present branch result."
+        },
+        {
+          "p": "Feldorune Therapeutics BV owns the chemistry decision. Brindlewythe Biosciences Ltd supplies the accepted experimental profile and its interpretation limits. The decision is recorded separately so that a progression preference is not mistaken for an additional experimental observation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Follow-up work specification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Replacement compounds should receive their own hERG channel screen with a range that brackets the response where material permits. Retain reference-control logic and cell-level data. Exposure-based interpretation should follow only once the client has supplied an agreed pharmacokinetic context."
+        },
+        {
+          "p": "Any further study should state its question before allocating samples. Retain the existing compound identifier and test lot, and use a new accession for newly submitted material. A repeat intended to resolve a qualification should retain that purpose in its run sheet rather than being merged silently with the present result."
+        },
+        {
+          "p": "Proposed follow-up does not imply that the additional experiment has already been completed. Only the assays and endpoints in this report are released under the current study."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Study records and data transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dr R. Deshmukh checked the electrophysiology assessment. Ines Alvarado checked transfer of cell values, unit labels and censoring symbols. Resolve recording qualifications through the original current records and run sheets rather than through a copied compound geomean."
+        },
+        {
+          "p": "The study file contains the sample-card link, preparation record, run sheets and released endpoint tables. Bethany Rowcroft prepared the interpretation and Ines Alvarado checked it against the accepted assay record. The final report should be retained with those records rather than used as a replacement for them."
+        },
+        {
+          "p": "When quoting the assessment, retain {{PRJ0037:project_id}}, revision B, the report date and endpoint units. A copied ranking without its qualifications loses information needed at the screen gate. This report is confidential to Feldorune Therapeutics BV and Brindlewythe Biosciences Ltd."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Conclusion and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Feldorune Therapeutics BV dropped the most strongly basic side chain after reproducible hERG inhibition in the confirmatory run."
+        },
+        {
+          "p": "The accepted experimental record supports that screening decision within the conditions specified. It does not extend the scope to untested compounds, matrices or biological endpoints. The numerical tables and qualifications remain the basis for any subsequent use of the results."
+        },
+        {
+          "p": "Revision B is the final report issued on 23 Jul 2018. The signatures record scientific release and the check of sample mapping, units and result qualifications."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "23 Jul 2018",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — report check",
+      "date": "23 Jul 2018",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
