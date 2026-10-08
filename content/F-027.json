@@ -1,0 +1,241 @@
+{
+  "family": "document",
+  "summary": "Proposal for Nimbravelle Medicines Inc covering a Vehicle ladder follow-up for NM-12. The work package defines dilution challenges, sample requirements and decision gates for solution versus dispersed dosing, with a fixed fee and dated execution plan.",
+  "properties": {
+    "title": "NM-12 oral vehicle: precipitation-on-dilution follow-up"
+  },
+  "header": "Durnesswick Laboratories Inc",
+  "footer": "Durnesswick Laboratories Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "NM-12 oral vehicle: precipitation-on-dilution follow-up",
+    "subtitle": "Final proposal | Revision A",
+    "lines": [
+      "Date: 06/15/2020",
+      "Prepared by: Eric Langford | Early Development Accounts Lead",
+      "Project: {{PRJ0112:project_id}}",
+      "Client: Nimbravelle Medicines Inc"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Proposed development decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Nimbravelle Medicines Inc requires an oral dosing vehicle for NM-12 that remains usable after preparation and dilution. A clear dosing stock is only useful if the administration step does not produce uncontrolled precipitation. This work package will examine that transition directly and compare it with a deliberately dispersed dosing approach."
+        },
+        {
+          "p": "Durnesswick proposes a Vehicle ladder follow-up under {{PRJ0112:project_id}}, accession {{PRJ0112:lims_id}}. The question is whether the cosolvent-rich option can support the dose under an agreed dilution procedure, or whether a redispersible formulation set offers a more dependable preparation route. Neither route is selected before the challenge."
+        },
+        {
+          "table": {
+            "columns": [
+              "Commercial item",
+              "Proposal basis"
+            ],
+            "rows": [
+              [
+                "Client",
+                "Nimbravelle Medicines Inc"
+              ],
+              [
+                "Work package",
+                "{{PRJ0112:project_id}}"
+              ],
+              [
+                "Fixed fee",
+                "{{PRJ0112:price}}"
+              ],
+              [
+                "Execution window",
+                "{{PRJ0112:turnaround_days}} days"
+              ],
+              [
+                "Planned start",
+                "07/06/2020"
+              ],
+              [
+                "Interim discussion",
+                "08/17/2020"
+              ],
+              [
+                "Final delivery",
+                "09/28/2020"
+              ]
+            ],
+            "caption": "Proposal at a glance"
+          }
+        },
+        {
+          "p": "The deliverable is a dosing recommendation with preparation limits and supporting evidence. It is an exploratory development recommendation, not a validated manufacturing process or a specification for release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Vehicle ladder basis and selection",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "table_ref": "PRJ0112:form_screen",
+            "caption": "Table 1. Vehicle ladder basis at the target loading; dilution behavior remains to be established."
+          }
+        },
+        {
+          "p": "The clear cosolvent-containing option warrants a dilution challenge rather than automatic progression. Other vehicles give suspensions, with redispersion, crystal growth or caking differentiating practical use. Initial clarity and equilibrium solubility address different questions; neither establishes that a prepared dose stays homogeneous through administration."
+        },
+        {
+          "p": "Miguel Serrano will nominate a solution-led arm and a dispersion-led comparator. Vehicles with caking or crystal growth will not advance solely because they appear acceptable immediately after mixing. Julia Carver will approve the comparison before material is committed."
+        },
+        {
+          "p": "The target concentration is 10 mg/mL. Loading changes will be treated as planned experimental conditions and shown beside the original target rather than substituted silently. A change in excipient composition requires a new recipe card."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Experimental work package",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Preparation will follow a recorded order of addition. NM-12 will be weighed into the designated vessel, wetted in the agreed first component and mixed before the remaining vehicle is added. Temperature, mixing method, hold time and final volume will be entered on the bench sheet. A vehicle blank will follow the same route."
+        },
+        {
+          "list": [
+            "Prepare independent replicates and retain an undiluted comparator.",
+            "Challenge at 1:2, 1:5 and 1:10 ratios, expressed as stock volume to final volume.",
+            "Observe immediately, after 30 minutes, after 2 hours and at 24 hours.",
+            "Compare ambient preparation with a 37 °C dilution condition where the dosing sequence justifies it.",
+            "Record settling and redispersion after a defined inversion sequence; distinguish a deposit from a hard cake."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "The screen will distinguish new precipitation from pre-existing dispersed material. Where visual observations are ambiguous, microscopy may describe particle appearance in µm. Any concentration measurement will use an agreed sampling and separation procedure, retaining the distinction between dissolved material and total dispersed material."
+        },
+        {
+          "p": "A solution that precipitates will be assessed against the dosing hold interval. A dispersion will be assessed for redispersion and representative sampling. A dispersion is not an unsuccessful solution if it provides the more manageable dose."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Material and information required",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Nimbravelle Medicines Inc will provide NM-12 as a labeled solid with lot identity, stated purity or assay, storage instructions and safe-handling information. Material should arrive in a sealed primary container suitable for repeated weighing. Requested mass will be agreed after the matrix and analytical allocation are confirmed."
+        },
+        {
+          "list": [
+            "Intended dose, maximum dosing volume and administration route.",
+            "Permitted excipients and vehicle restrictions.",
+            "Available analytical procedure and recovery information.",
+            "Known solid form, moisture sensitivity and previous preparation difficulties.",
+            "Target hold interval between preparation, dilution and administration."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Material will be logged against {{PRJ0112:lims_id}}. Container condition and discrepancies will be documented before use. Missing identity or handling information will pause preparation rather than be inferred from the project name."
+        },
+        {
+          "p": "Lena Patel will reconcile the dosing sequence with draft recipe cards. Differences in mixing or transfer at the administration bench must be resolved before the final challenge. Unused material will be retained pending written disposition instructions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Execution plan and scale gates",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Date",
+              "Activity",
+              "Output"
+            ],
+            "rows": [
+              [
+                "07/06/2020",
+                "Receipt readiness and preparation review",
+                "Approved matrix and bench sheets"
+              ],
+              [
+                "08/17/2020",
+                "Interim dilution review",
+                "Continue solution arm, adjust or prioritize dispersion"
+              ],
+              [
+                "09/28/2020",
+                "Final development note and recipe cards",
+                "Dosing recommendation and limitations"
+              ]
+            ],
+            "caption": "Planned execution dates"
+          }
+        },
+        {
+          "p": "The execution period is {{PRJ0112:turnaround_days}} days and assumes material and essential information are ready for the planned start. Durnesswick will notify Nimbravelle Medicines Inc if a receipt issue, analytical limitation or scope change affects the schedule."
+        },
+        {
+          "p": "Julia Carver owns the scientific decision at each scale gate. Miguel Serrano will execute the Vehicle ladder and check screen suitability. Lena Patel will review whether the proposed preparation can be followed at the dosing bench without undocumented operator judgment."
+        },
+        {
+          "p": "The interim discussion will focus on behavior through dilution, not just stock appearance. If neither route is usable, Durnesswick will identify the failed condition and discuss a revised matrix. Further experimental work requires agreement on scope and fee before it starts."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Fee, deliverables and authorization",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The fixed fee is {{PRJ0112:price}}. It covers preparation, the agreed dilution challenge, screen suitability review, interim discussion and final documentation. Pilot-lot manufacture, long-term stability, formal analytical validation and locked-process transfer are excluded."
+        },
+        {
+          "list": [
+            "Final development note with conditions, observations, deviations and dosing recommendation.",
+            "Vehicle ladder comparison identifying unsuitable or non-evaluable conditions.",
+            "Recipe cards for the recommended preparation and an appropriate fallback, if supported.",
+            "Bench-sheet summary of dilution temperature, hold intervals and redispersion.",
+            "Technical discussion of dose, loading and preparation tradeoffs."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "The final package will state which limits remain open. A favorable exploratory screen does not establish shelf life, biological suitability of the excipients or reproducibility at manufacturing scale. Those questions require separate agreed work packages."
+        },
+        {
+          "p": "Nimbravelle Medicines Inc should confirm scope and provide its purchasing reference to Eric Langford to authorize execution. Scientific changes will be routed through Julia Carver. This final proposal is issued for commercial approval; the dated plan is subject to receipt readiness and authorization."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Eric Langford",
+      "role": "Early Development Accounts Lead",
+      "date": "06/15/2020",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
