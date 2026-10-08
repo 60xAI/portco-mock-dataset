@@ -1,0 +1,133 @@
+{
+ "family": "document",
+ "summary": "Interim deviation note WA/2025/407 for Quorenthel Pharma GmbH, QP07 clinical prototype. Records that new ICH chamber pulls are suspended while the prototype composition changes, summarises interim stability and method validation data, and lists the retained samples and restart points still awaiting client instruction.",
+ "properties": {
+  "title": "WA-2025-407 QP07 Hold Note Rev01"
+ },
+ "header": "WA-2025-407 | QP07 hold note | Interim",
+ "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+ "watermark": "DRAFT",
+ "title_block": {
+  "title": "QP07 Clinical Prototype: Stability Hold Note",
+  "subtitle": "Deviation note, interim",
+  "lines": [
+   "Project WA/2025/407 (LIMS WST-25-012645)",
+   "Client: Quorenthel Pharma GmbH",
+   "Date: 06/02/2026"
+  ]
+ },
+ "sections": [
+  {
+   "heading": "1 Purpose",
+   "level": 1,
+   "blocks": [
+    {
+     "p": "This note records the hold placed on new pulls from the QP07 stability programme after Quorenthel Pharma GmbH notified us of a change to the prototype composition. It sets out the interim data already generated, the samples still in chamber and the points that need client instruction before testing can restart. Conclusions are interim and stay within the tested conditions."
+    }
+   ]
+  },
+   {
+   "heading": "2 Background",
+   "level": 1,
+   "blocks": [
+    {
+     "p": "The stability programme for the QP07 clinical prototype runs under the ICH chamber programme at 25 °C/60% RH, 30 °C/65% RH and 40 °C/75% RH. The method validation for the assay and related substances was completed in the HPLC method qualification and is summarised in Table 2."
+    },
+    {
+     "p": "On the notification received from the client, the prototype composition is being changed and the current lot will not be used for the remaining pulls. New pulls were suspended from the date of the hold. Samples already in the chambers are retained under the storage conditions of the protocol."
+    }
+   ]
+  },
+  {
+   "heading": "3 Interim stability results",
+   "level": 1,
+   "blocks": [
+    {
+     "p": "Table 1 gives the results for all pulls generated to date. Every pull is marked Complies against the specification. Assay (% label claim) started at {{PRJ0103:stability.t0_assay}} and stayed within the specification at all three conditions. The largest change is at 40 °C/75% RH, where total impurities rise steadily with time and the assay at the last pull is the lowest in the set."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0103:stability",
+      "caption": "Table 1 Interim stability results (assay % label claim; impurities % area; water KF % w/w)"
+     }
+    },
+    {
+     "p": "At 25 °C/60% RH and 30 °C/65% RH total impurities stay low and change little up to 3 months, with a small rise at 6 months. Imp B RRT 1.12 is below the reporting limit at both conditions until the 6-month pull. Water KF values move between pulls without a trend and are not treated as a stability signal on their own.",
+     "style": "small"
+    }
+   ]
+  },
+  {
+   "heading": "4 Method validation",
+   "level": 1,
+   "blocks": [
+    {
+     "p": "The HPLC method used for the assay and related substances met all the acceptance criteria in the validation summary in Table 2. [TBC: confirm whether the robustness study is complete before this note is issued as final.]"
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0103:method_val",
+      "caption": "Table 2 Method validation summary"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "5 Retained samples and status",
+   "level": 1,
+   "blocks": [
+    {
+     "p": "Retained samples for the QP07 lot are held in the chamber file under the protocol storage conditions. The number of units in each chamber is XX pending a physical count at the next scheduled chamber check, and the count will be recorded against the batch card when it is done."
+    },
+    {
+     "list": [
+      "No new pulls to be placed until the client confirms the restart instruction in writing",
+      "Retained samples not to be discarded or moved without a written instruction",
+      "Restart date and any change to the pull schedule: [TBC]"
+     ],
+     "ordered": false
+    },
+    {
+     "p": "Project status is on hold. Completion date and final outcome are not set and will be recorded at close-out."
+    }
+   ]
+  },
+  {
+   "heading": "6 Next steps",
+   "level": 1,
+   "blocks": [
+    {
+     "p": "The project lead will write to the client to request the restart instruction and the revised composition details. Stability and method validation records stay open until the client gives the instruction. Any further pulls will be reported as a separate interim update so that results from the old and new composition are not mixed in one table."
+    }
+   ]
+  }
+ ],
+ "signature_block": [
+  {
+   "name": "Leon Wu",
+   "role": "Stability Coordinator",
+   "date": "06/02/2026",
+   "signed": false
+  },
+  {
+   "name": "Alice Penrose",
+   "role": "Head of Analytical Services",
+   "date": "",
+   "signed": false
+  }
+ ],
+ "appendices": [],
+ "comments": [
+  {
+   "anchor": "Samples already in the chambers are retained under the storage conditions of the protocol.",
+   "text": "Can we name the protocol number here? The client will ask which one.",
+   "author": "Alice Penrose"
+  },
+  {
+   "anchor": "The number of units in each chamber is XX pending a physical count",
+   "text": "Need the count from Denis before this goes to Quorenthel. Leave the XX until then.",
+   "author": "Saira Mahmood"
+  }
+ ],
+ "orientation": "portrait"
+}
