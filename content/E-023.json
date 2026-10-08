@@ -1,11 +1,117 @@
-{"family": "deck",
- "summary": "Training reference copy on plate acceptance for the analytical screening group. Sets out the control-well checks, the actions when a plate fails, and how plate acceptance differs from system suitability on the stability side. Copied from the master and lightly edited for Westravelle use.",
- "properties": {"title": "Plate acceptance: training reference", "subject": "QA training", "keywords": "plate acceptance; controls; system suitability; training"},
- "slides": [
-  {"layout": "title", "title": "Plate acceptance: training reference", "subtitle": "Westravelle Analytical Ltd, a Tarnovell company | QA training | Reference copy, September 2024", "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"},
-  {"layout": "title_content", "title": "1 Purpose", "bullets": ["Plate acceptance decides whether a screening plate can be used for reporting at all", "It is checked before any compound well is read", "It is separate from system suitability, which applies to the chromatographic runs in the stability programme", {"text": "Both are recorded on the batch card; neither replaces the other", "level": 1}], "notes": "Trainees often confuse the two. Walk through the difference on slide 5 before they start on the bench.", "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"},
-  {"layout": "table", "title": "2 Plate acceptance checks", "table": {"columns": ["Check", "What is looked at", "Action if it fails"], "rows": [["Control wells present", "Each control type is in the positions set in the plate map", "Do not read; raise a deviation note"], ["Positive control signal", "Signal sits inside the window set in the protocol", "Do not read; repeat the plate once"], ["Negative control signal", "Background is low and flat across the plate", "Check reagent make-up and washing before any repeat"], ["Edge wells", "No drift from the outer rows and columns that is wider than the protocol allows", "Note on the batch card; read only if the protocol permits"], ["Z' for the plate", "Calculated from the control wells as stated in the protocol", "Plate rejected; no partial reporting"]]}, "notes": "The window values live in the current protocol, not in this deck. Quote the protocol revision on the batch card.", "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"},
-  {"layout": "two_content", "title": "3 Controls and layout", "bullets": ["Controls go in the positions shown on the plate map", "Do not move a control to rescue a plate", "Plate map is printed and filed with the batch card", "Replicate wells follow the layout in the protocol"], "bullets_right": ["Edge effects are looked at on every plate, not just new ones", "Column 1 and 24 are used for controls only where the protocol says so", "A plate with a missing control is not partly read"], "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"},
-  {"layout": "title_content", "title": "4 Failed plates", "bullets": ["A failed plate is marked on the batch card and not deleted", "Raise a deviation note for every rejected plate, giving the plate ID and the check that failed", "One repeat is allowed where the protocol allows it; the repeat is recorded as a new plate", "Two failures on the same compound set go to the QC method validation lead before any further work"], "notes": "Do not average the rejected plate into the repeat. Keep both on file.", "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"},
-  {"layout": "title_content", "title": "5 Plate acceptance and system suitability", "bullets": ["Plate acceptance is applied to each screening plate before reading", "System suitability is applied to each chromatographic sequence before sample results are released", "A passing plate does not show that the instrument was suitable on the day, and a passing sequence does not accept a plate", {"text": "Sequence sheets carry the system suitability entries; plate maps carry the plate acceptance entries", "level": 1}, "Both are signed by the analyst and checked by a second person before the batch card is closed"], "notes": "Saira Mahmood and Mark Campbell have agreed the wording of this slide. Check the current version of the protocol before use.", "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"}
- ]}
+{
+  "family": "deck",
+  "summary": "Reference copy of Brindlewythe Biosciences plate-acceptance training, lightly rebadged for Westravelle. Retains screening-control diagrams and adds a local cover note comparing plate acceptance with chromatographic system suitability. The current approved protocol governs acceptance criteria and repeat decisions.",
+  "properties": {
+    "title": "Plate acceptance: training reference",
+    "subject": "QA training",
+    "keywords": "plate acceptance; controls; system suitability; training"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Plate acceptance: training reference",
+      "subtitle": "Westravelle Analytical Ltd, a Tarnovell company | 19 Sep 2024 | Copy of Brindlewythe Biosciences training deck",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "notes": "Local cover note — Carla Smith: retained as a training reference. Screening plate acceptance illustrates a control-based reporting gate; apply Westravelle system suitability requirements to chromatographic sequences. This copy does not authorise a local screening procedure."
+    },
+    {
+      "layout": "title_content",
+      "title": "1 Purpose",
+      "bullets": [
+        "Brindlewythe Biosciences reference: plate acceptance determines whether acquired screening data are suitable for interpretation and reporting",
+        "Confirm the plate map and required controls before acquisition; evaluate control signals and plate statistics after acquisition",
+        "Westravelle comparison: system suitability establishes whether a chromatographic sequence meets its method criteria",
+        {
+          "text": "Use the approved protocol or method for the criteria, documentation and reporting decision; the two checks are not interchangeable",
+          "level": 1
+        }
+      ],
+      "notes": "Local comparison added for Westravelle training; source screening terminology retained on the following slides.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "2 Plate acceptance checks",
+      "table": {
+        "columns": [
+          "Check",
+          "What is looked at",
+          "Action if it fails"
+        ],
+        "rows": [
+          [
+            "Control wells present",
+            "Required control types and positions agree with the approved plate map",
+            "Hold reporting; document the discrepancy and assess under the protocol"
+          ],
+          [
+            "Positive control signal",
+            "Response meets the protocol-defined window",
+            "Reject if the acceptance criterion fails; investigate before repeating"
+          ],
+          [
+            "Negative control signal",
+            "Background and variability meet the protocol criteria",
+            "Hold reporting and investigate the failure"
+          ],
+          [
+            "Edge wells",
+            "Spatial effects assessed against the protocol criteria",
+            "Document and apply the pre-defined acceptance rule; no retrospective rescue"
+          ],
+          [
+            "Z′ for the plate",
+            "Calculated from acquired control-well signals as stated in the protocol",
+            "Apply the protocol criterion; retain rejected data without reporting them as accepted results"
+          ]
+        ]
+      },
+      "notes": "Acceptance windows and any permitted exclusions belong to the approved protocol. Record its revision with the plate record.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "3 Screening-control layout — retained reference diagram",
+      "image": {
+        "kind": "org_chart",
+        "boxes": [
+          "Approved plate map > Positive-control wells",
+          "Approved plate map > Negative-control wells",
+          "Approved plate map > Test-compound wells",
+          "Acquired control signals > Response windows and variability",
+          "Response windows and variability > Plate acceptance decision"
+        ]
+      },
+      "notes": "Brindlewythe Biosciences training schematic; not a well-position map. Control and replicate positions follow the approved protocol. Do not move or exclude controls to rescue a failed plate. Evaluate spatial effects using the acquired data.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "4 Failed plates",
+      "bullets": [
+        "Retain the failed plate data, plate map and acceptance assessment in the screening record",
+        "Document the plate identifier, failed criterion and investigation in the required deviation record",
+        "Repeat only as authorised by the approved protocol or documented investigation; preserve the link to the original plate",
+        "Escalate recurrent failures to the responsible scientific and quality reviewers before further work"
+      ],
+      "notes": "Do not average rejected results into accepted repeat results. This reference copy sets no repeat allowance or escalation count.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "5 Plate acceptance and system suitability",
+      "image": {
+        "kind": "org_chart",
+        "boxes": [
+          "Screening plate > Acquire control and compound signals",
+          "Acquire control and compound signals > Evaluate plate acceptance",
+          "Evaluate plate acceptance > Interpret accepted screening data",
+          "Chromatographic sequence > Evaluate method system suitability",
+          "Evaluate method system suitability > Release eligible sample results"
+        ]
+      },
+      "notes": "Local comparison: plate records carry screening acceptance decisions; sequence sheets carry chromatographic system suitability entries. A pass in either workflow does not establish acceptance in the other. Review and sign-off follow the applicable approved procedure.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
