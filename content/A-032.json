@@ -1,0 +1,317 @@
+{
+  "family": "document",
+  "summary": "Final Route scout and delivery report for Valquessia Pharmaceuticals SpA, covering {{PRJ0019:n_compounds}} isolated compounds under VD-16-033. Valquessia Pharmaceuticals SpA selected the salt-forming side chain for scale-up after final isolation proved reproducible. Proposed structures remain separate from the completed delivery.",
+  "properties": {
+    "title": "Aminoquinolines: solubilising side chains and reproducible isolation"
+  },
+  "header": "Vellacombe Discovery Ltd | VD-16-033 | Final report, revision A",
+  "footer": "Vellacombe Discovery Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Aminoquinolines: solubilising side chains and reproducible isolation",
+    "subtitle": "Route scout and delivery — final report, revision A",
+    "lines": [
+      "Programme: VD-16-033",
+      "Accession: {{PRJ0019:lims_id}}",
+      "Client: Valquessia Pharmaceuticals SpA",
+      "Date: 31 Aug 2016",
+      "Author: Dr R. Calderwood, Head of Medicinal Chemistry"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Final material schedule",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Valquessia Pharmaceuticals SpA received {{PRJ0019:n_compounds}} compounds under VD-16-033. Analogue preparation began on 11 Apr 2016; the interim checkpoint was 20 Jun 2016, and chemistry completion was recorded on 30 Aug 2016. This final Route scout and delivery report is issued by Dr R. Calderwood on 31 Aug 2016."
+        },
+        {
+          "p": "Valquessia Pharmaceuticals SpA selected the salt-forming side chain for scale-up after final isolation proved reproducible. Hassan Darwish kept that isolation as an operation to reproduce in the route scout. Ruth Calderwood favoured identifiable material recovered consistently. The decision is supported by completed analogue preparation; it does not mean every possible salt has been made. The selected side chain belongs to the delivered chemistry, while expanded scale remains follow-on work."
+        },
+        {
+          "p": "Table 1 brings the identifier, assigned structure, molecular weight, isolated yield, UV area purity and amount into the same entry. Only this schedule constitutes the reported delivery. Suggested structures elsewhere in the report are not additional isolated compounds."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0019:synthesis",
+            "max_rows": 45,
+            "caption": "Table 1. Compounds delivered; final isolated yield, HPLC purity in UV area percent at 254 nm and amount in mg."
+          }
+        }
+      ]
+    },
+    {
+      "heading": "2 Remit, chronology and responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The remit was Analogue preparation for the VP10 set. The report covers route decisions affecting access to material and the identity basis needed for the client comparison. The programme turnaround was {{PRJ0019:turnaround_days}} days. That figure describes the programme interval, not a reaction time or assay incubation."
+        },
+        {
+          "p": "Dr R. Calderwood led the programme, Dr H. Darwish directed synthetic execution and Clara Fenwick led analytical release. The final gate closed on 30 Aug 2016; this report follows completion rather than reopening the route as a draft. Programme accession {{PRJ0019:lims_id}} links the material schedule to the benchmark below."
+        },
+        {
+          "p": "Earlier intermediates remain useful experimental context but are not counted again as delivered compounds. A repeat request should name the released identifier and the chemistry question. The final schedule is the endpoint for reconciling the set; individual compound cards remain the source for recovering a preparation."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0019:benchmark",
+            "caption": "Table 2. Programme benchmark and administrative reconciliation."
+          }
+        }
+      ]
+    },
+    {
+      "heading": "3 Chemistry hypothesis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The aminoquinoline programme explored solubilising side chains and a salt-forming option. The working hypothesis was that a promising side chain must also support reproducible final isolation before becoming a sensible scale-up choice. Salt-forming capacity and practical recovery were therefore considered together. The presence of a basic group is not a measured solubility result, and a proposed salt drawing is not evidence of a characterised solid form."
+        },
+        {
+          "p": "The programme was organised around material needed to answer the client question. Route success was judged at the isolated product, not at an attractive intermediate or plausible scheme. This distinction limits the final claims: chemistry establishes access and identity for the delivered set but supplies no biological ranking that has not been measured here. The proposed follow-up must retain the same distinction."
+        }
+      ]
+    },
+    {
+      "heading": "4 Route gate and sequence decision",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Valquessia Pharmaceuticals SpA selected the salt-forming side chain for scale-up after final isolation proved reproducible. Hassan Darwish kept that isolation as an operation to reproduce in the route scout. Ruth Calderwood favoured identifiable material recovered consistently. The decision is supported by completed analogue preparation; it does not mean every possible salt has been made. The selected side chain belongs to the delivered chemistry, while expanded scale remains follow-on work."
+        },
+        {
+          "p": "The interim discussion on 20 Jun 2016 was a route checkpoint, not the delivery endpoint. By 30 Aug 2016, the completed material schedule could be reconciled with the programme. A repeat chemist should preserve the reason for the route choice as well as the sequence. Repeating an operation without knowing which recovery or identity risk it controlled can recreate the original difficulty."
+        }
+      ]
+    },
+    {
+      "heading": "5 Analogue preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The aminoquinoline core provides the common comparison while side-chain changes alter basicity and practical recovery. Additional ionisable functions can affect extraction and isolation even when the bond-forming step is straightforward. The compound card should distinguish parent identity from the isolation description and the form actually handled. A drawing of the neutral parent cannot establish a counter-ion, salt composition or solvent content that is not stated."
+        },
+        {
+          "p": "For repeat work, follow the compound card for the chosen identifier and reconcile the intended product with Table 1. A common scaffold is not a common experimental outcome. Substitution changes can affect work-up, purification and the evidence needed for assignment. No unprepared variant is claimed to have crossed the route gate merely because its drawing resembles a delivered compound."
+        }
+      ]
+    },
+    {
+      "heading": "6 Separation, work-up and recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Reproducible final isolation was the deciding practical feature. A clear reaction mixture or a dominant analytical peak would not provide the same evidence. Table 1 concerns reported isolated material, not predicted process-scale recovery. For repeat work, recover the actual work-up and isolation from the compound card. Changing acid, solvent or drying history can alter handling and should be treated as a route change rather than a harmless substitution."
+        },
+        {
+          "p": "Isolated yield is a route measure and delivered amount is a material measure. Both matter because the comparison requires the actual compound in hand. Neither column tells a chemist where loss occurred. Return to intermediate and fraction entries for that question. An estimate derived only from the final table would conceal the difference between reaction performance and recovery."
+        }
+      ]
+    },
+    {
+      "heading": "7 Identity and assignment",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Clara Fenwick handled analytical release for the aminoquinoline set. Organic-parent identity and isolated-form description remain separate where the latter is not fully characterised. The molecular-weight field must not be used to infer a counter-ion or water content. UV area purity describes the detected organic profile and does not establish salt stoichiometry. The chemistry supports selection of the side chain without extending that conclusion into an unsupported solid-form claim."
+        },
+        {
+          "p": "The release entry must stay connected to the isolate. A structure redrawn for a client presentation should retain the chemistry identifier so the assignment basis can be recovered. This report does not reproduce raw spectra or supply invented peak assignments. It records the programme conclusion and explains where the underlying experimental history is retained."
+        }
+      ]
+    },
+    {
+      "heading": "8 Purity statement and analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The HPLC values in Table 1 are UV area percent at 254 nm. They describe the reported chromatographic profile under that detection basis. They are not weight percent, solvent content or a direct assay of active parent in a weighed portion. The amount field is expressed in mg and must remain separate from purity when planning the comparison."
+        },
+        {
+          "p": "Clara Fenwick led analytical release. Identity and chromatographic purity answer complementary questions: a dominant peak cannot independently establish the assigned connection, position or configuration. An assigned structure also does not remove the need to consider impurities. The schedule retains the available numerical values without adding a universal purity threshold or an unstated correction to the delivered amounts."
+        },
+        {
+          "p": "A client query concerning precipitation, unexpected peaks or identity should return against the delivery identifier. The compact table is a reconciliation aid, not a substitute for the analytical entry needed to investigate a particular sample."
+        }
+      ]
+    },
+    {
+      "heading": "9 Isolated yield and material accounting",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Final yields and amounts remain separated by compound. No pooled recovery or campaign mean has been calculated. Such a figure could blur route differences and imply a common experimental basis that the delivery table does not establish. The practical question is whether identifier, structure and amount refer to the same released material."
+        },
+        {
+          "p": "Compound cards may contain intermediate masses, recovered fractions and material held for further work. Those entries do not automatically belong to the client delivery. Use Table 1 for the delivered set and the route scout for an individual recovery question. A request for more material must distinguish repeat product from a new proposed analogue."
+        },
+        {
+          "p": "The programme closed with {{PRJ0019:n_compounds}} delivered compounds. This count is not enlarged by an intermediate, an alternative drawing or a proposed comparison. Detailed weighing and transfer history belong to the individual chemistry entries; the final schedule supplies report-level reconciliation."
+        }
+      ]
+    },
+    {
+      "heading": "10 Client hand-off and identifier continuity",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The VP10 identifiers connect isolated chemistry to the client comparison. Use VD-16-033 and accession {{PRJ0019:lims_id}} for clarification. Assigned structures help reconcile a vial label with its intended product, but the delivery identifier remains the primary link to prepared material."
+        },
+        {
+          "p": "If a client transfers material for biological preparation, retain the original identifier and distinguish that later preparation description from chemistry release. Replacing an identifier with a proposed structure name risks merging different samples under a general scaffold label. The risk matters particularly where apparently similar structures address different chemical questions."
+        },
+        {
+          "p": "Chemistry completion was recorded on 30 Aug 2016. This report supplies no unstated courier date, receipt signature or storage condition. Dr H. Darwish is the route contact; Clara Fenwick is the analytical reconciliation contact; Dr R. Calderwood retains responsibility for the overall chemistry conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "11 Interpretation for the client comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The selected salt-forming side chain has a practical advantage: reproducible isolation made it credible for scale-up. This report provides no measured aqueous solubility or mitotic kinase potency values. Those properties require their own measurements on the intended material. Valquessia Pharmaceuticals SpA should retain the delivery identifier so that any form tested can be reconciled with its chemistry entry. The selection is a route recommendation, not a complete developability assessment."
+        },
+        {
+          "p": "The useful follow-up is a comparison whose members can be traced to released material. Keep the intended chemical difference explicit. Do not combine a proposed product and an isolated compound within a result entry. A later biological trend may justify new chemistry, but cannot change retrospectively which material was delivered."
+        },
+        {
+          "p": "This is a chemistry close-out. It provides no invented response values, selectivity ratios or potency rankings. Programme turnaround is not an assay setting, and isolated yield is not an indicator of target activity."
+        }
+      ]
+    },
+    {
+      "heading": "12 Next analogue and carried route risk",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The next proposed analogue retains the selected salt-forming function while making a modest change in its attachment environment. It is outside the completed delivery. The aim would be to learn whether the isolation advantage survives that change. Before broadening diversity, repeat the selected isolate at the intended working scale and preserve the form description. Familiar acid-base behaviour does not guarantee unchanged recovery after a scale or solvent-history change."
+        },
+        {
+          "p": "A repeat route scout should identify the operation controlling the original risk and the evidence that closed it. Do not omit that gate because the final compound looks familiar. Substituent changes and material history can affect recovery without changing the intended chemical question. Preserve the link between the proposed route and the actual isolated outcome."
+        },
+        {
+          "p": "The report does not qualify a working scale beyond the delivered chemistry or impose new process conditions. Recover charge quantities, timings and purification parameters from the relevant experimental entry. A change in the established sequence needs its own reason and compound-card history."
+        }
+      ]
+    },
+    {
+      "heading": "13 Follow-up decision and status",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The next analogue described above is proposed chemistry. It has no additional delivery entry, assigned yield, purity, amount or biological result in this report. Its purpose is a defined extension of the successful route while retaining the chemical distinction that motivated the programme."
+        },
+        {
+          "p": "Dr R. Calderwood recommends that Valquessia Pharmaceuticals SpA reconcile the intended comparison with the released identifiers before expanding preparation. Once the chemical question is selected, the next route scout can be scoped around it. A broad set assembled before that choice may add material without clarifying interpretation."
+        },
+        {
+          "p": "The gate for a new analogue remains identifiable isolated material. A convincing scheme is not a completed delivery. This final report closes the present programme and proposes a reasoned next step without presenting it as work already performed."
+        }
+      ]
+    },
+    {
+      "heading": "Appendix A — Delivery-table conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Compound is the delivery identifier linking material to chemistry. SMILES is the compact assigned-structure field. MW is the reported molecular-weight field associated with it. These fields must not be used to infer an unstated counter-ion, solvate or assignment detail. The drawing summarises identity; the compound card preserves its basis."
+        },
+        {
+          "p": "Yield (%) is the reported isolated yield. HPLC purity is UV area percent at 254 nm. Amount (mg) is the reported isolated amount. Keep the bases separate. The table supplies no raw peak areas, moisture correction, uncertainty estimate or across-programme normalisation. It also does not substitute for a preparation-specific experimental entry."
+        },
+        {
+          "p": "To reproduce a delivered product, select the identifier, recover its compound card and reconcile the final isolate with its route history. To extend the chemistry, create a route proposal rather than repurposing an existing delivery entry for an unmade structure."
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B — Experimental history and repeat instructions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "VP10_route_meeting_30Aug16.pptx records the final route discussion on 30 Aug 2016. It compares the aminoquinoline side chains and explains the isolation preference. Compound cards remain the source for executing an individual preparation. No new salt-screen result, counter-ion assignment or process charge is added in this report. Repeat work should begin with the selected identity and actual final isolation, rather than a generic salt-formation recipe."
+        },
+        {
+          "p": "A repeat request should identify the compound, why additional material is needed and the route question to preserve. The chemist can then recover the operation sequence and compare the repeat with the established identity basis. A broad scaffold description is insufficient when the conclusion depends on separation, selective access or assignment."
+        },
+        {
+          "p": "The report remains the final account of delivered chemistry. It does not overwrite experimental entries or create replacement conditions. If subsequent preparation departs from the established route, retain that departure in its own compound card and distinguish the new material history from the present delivery."
+        }
+      ]
+    },
+    {
+      "heading": "14 Final conclusion and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Valquessia Pharmaceuticals SpA selected the salt-forming side chain for scale-up after final isolation proved reproducible. Hassan Darwish kept that isolation as an operation to reproduce in the route scout. Ruth Calderwood favoured identifiable material recovered consistently. The decision is supported by completed analogue preparation; it does not mean every possible salt has been made. The selected side chain belongs to the delivered chemistry, while expanded scale remains follow-on work."
+        },
+        {
+          "p": "The final delivery comprises {{PRJ0019:n_compounds}} isolated compounds for Valquessia Pharmaceuticals SpA. Amounts, isolated yields and UV area purity are recorded in Table 1. The route supports the reported client comparison; proposed follow-up structures remain outside the delivery. No biological ranking is assigned in this conclusion."
+        },
+        {
+          "p": "Issued on 31 Aug 2016, after completion on 30 Aug 2016. Dr R. Calderwood authorises the chemistry conclusion. Dr H. Darwish is identified for synthetic execution and Clara Fenwick for analytical release. Revision A is final and has no open comments or provisional replacements for the material schedule."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr R. Calderwood",
+      "role": "Head of Medicinal Chemistry — final report authorisation",
+      "date": "31 Aug 2016",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
