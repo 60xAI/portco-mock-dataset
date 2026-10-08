@@ -1,0 +1,215 @@
+{
+  "family": "document",
+  "summary": "Final quotation for Telquorath Pharma covering TE-9 tablet storage and Stability pulls. It defines the fee, customer inputs and programme release gates without a committed turnaround. Commercial follow-up records selection of a lower-cost storage provider and retention of the client’s existing analytical laboratory.",
+  "properties": {
+    "title": "TE-9 tablets: storage and pull schedule"
+  },
+  "header": "Westravelle Analytical Ltd, a Tarnovell company",
+  "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "TE-9 tablets: storage and pull schedule",
+    "subtitle": "Final quotation — {{PRJ0101:project_id}}",
+    "lines": [
+      "Client: Telquorath Pharma",
+      "Date: 31/03/2025",
+      "Prepared by: Dr A. Penrose"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Proposal basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This proposal defines an integrated ICH chamber programme for TE-9 tablets, including controlled receipt, chamber placement, scheduled Stability pulls and agreed analytical assessment. Telquorath Pharma must approve stability-lot allocation, packaging configuration and the pull schedule before material is placed in a chamber."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Basis / disposition"
+            ],
+            "rows": [
+              [
+                "Quotation",
+                "{{PRJ0101:project_id}}"
+              ],
+              [
+                "Programme fee",
+                "{{PRJ0101:price}}"
+              ],
+              [
+                "Start date",
+                "Not committed"
+              ],
+              [
+                "Turnaround",
+                "Not committed; governed by the approved pull schedule"
+              ],
+              [
+                "Programme status",
+                "Not commissioned"
+              ]
+            ],
+            "caption": "Schedule: 1 Proposal basis"
+          }
+        },
+        {
+          "p": "The fee applies to the programme agreed at protocol approval. It does not establish a storage start date or completion interval. Dates require an approved protocol, accepted materials and confirmation of chamber allocation by Dr Leon Wu. The quotation is a final commercial proposal, not an instruction to start storage."
+        },
+        {
+          "p": "Dr A. Penrose is responsible for the scope. Dr Leon Wu will coordinate storage accountability and Saira Mahmood will assess the analytical instructions. The laboratory reference is {{PRJ0101:lims_id}}. No analytical results or statement about TE-9 shelf life are represented by this document."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Customer inputs and receipt",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Telquorath Pharma shall provide a consignment plan identifying each stability lot, manufacturing date, primary pack, pack orientation and intended storage condition. The allocation must distinguish scheduled analysis, reserve material and investigation material. Container labels must reconcile to the shipment list and client batch cards."
+        },
+        {
+          "p": "The customer inputs comprise the approved specification, method versions, proposed time points and chamber conditions, allocation by stability lot and packaging configuration, and assay and impurity reference materials with certificates. Transport, receipt, pre-placement storage and post-withdrawal handling instructions must be explicit. The client must identify the function authorised to approve protocol changes and disposition."
+        },
+        {
+          "p": "Denis Miller will reconcile receipt against the shipment list and document damaged packs, missing labels or unexpected transport conditions. Material with unresolved identity or storage instructions will remain segregated. A courier receipt or delivery date will not be treated as chamber placement."
+        },
+        {
+          "p": "The receipt record will retain client lot identification and connect it to {{PRJ0101:lims_id}}. Insufficient material for the agreed schedule will be raised before placement. Telquorath Pharma may then supply replacement packs or approve a revised allocation; the laboratory will not silently reduce the programme."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Chamber allocation and pull control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The signed protocol will specify temperature in °C and relative humidity where relevant for each storage allocation. Long-term and accelerated conditions will be agreed for the product and packaging. A generic chamber setting will not substitute for the client-approved programme."
+        },
+        {
+          "p": "Dr Leon Wu will confirm capacity before authorising placement. The placement record will identify the stability lot, packaging configuration, chamber, position and actual date. Pull dates will be calculated from actual placement and entered on the controlled schedule. Reserve packs will remain separately accounted for."
+        },
+        {
+          "p": "At withdrawal, the coordinator will record the packs removed, scheduled time point, actual withdrawal date, condition and destination. Identity must be checked before analysis. A pack leaving the chamber is not considered analysed until its sequence sheet and analytical record are complete."
+        },
+        {
+          "p": "Chamber excursions, missed pulls and damaged packs will be entered in a deviation note. The note will distinguish the event from its potential scientific effect. Telquorath Pharma will be consulted where material disposition or a revised schedule is required. Subsequent reporting will retain the actual dates rather than relabelling a late pull as an on-time event."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Analytical interface and reports",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The analytical scope will be settled against the supplied specification and method versions before protocol approval. Assay will be expressed as percent label claim and impurities as area percent, with stated corrections where required. Other tests must be listed explicitly; they are not implied by the phrase Stability pulls."
+        },
+        {
+          "p": "Saira Mahmood will assess sample preparation, standard requirements and system suitability instructions. If the supplied method cannot be executed as written, the issue will be referred to Telquorath Pharma before the first sequence. Method development or validation outside the agreed instructions requires a separate scope."
+        },
+        {
+          "p": "Each pull report will identify the stability lot, packaging configuration, storage condition, time point, actual withdrawal and analysis dates, method version and specification. Deviations and pending investigations will be visible beside affected results. Original results will remain traceable if a repeat determination is authorised."
+        },
+        {
+          "p": "Technical conclusions will remain within the interval examined. A satisfactory early pull does not establish later shelf life. The release gate is completion of technical review and resolution, or explicit qualification, of material deviations. Telquorath Pharma remains responsible for product disposition and regulatory use of the findings."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Commercial terms and changes",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quoted programme fee is {{PRJ0101:price}}. The purchase order must identify Telquorath Pharma and {{PRJ0101:project_id}}. Invoicing stages will be agreed to reflect chamber placement and scheduled work. Payment is due within 30 days of invoice; applicable tax will be itemised separately."
+        },
+        {
+          "p": "No chamber allocation is a confirmed booking until commercial acceptance and protocol approval are complete. Additional stability lots, packaging configurations, extra time points, out-of-schedule pulls or revised analytical instructions will be assessed as changes. Their cost and schedule effects require written approval before execution."
+        },
+        {
+          "p": "Return or disposal instructions for residual material must be agreed at closure. Transfer to another storage provider requires a handover record identifying packs, their condition and the storage history supplied. Dispatch alone does not establish acceptance by the receiving provider."
+        },
+        {
+          "p": "Client materials, methods and data will remain confidential and controlled records will be retained under the laboratory archive procedure. A decision to place work elsewhere does not authorise disclosure of the method or specification. Any future instruction will require confirmation of current capacity, scope and commercial terms."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Commercial follow-up and disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Telquorath Pharma selected a lower-cost storage provider and retained its existing laboratory for the analytical pulls. The integrated Westravelle proposal was therefore not commissioned. This commercial entry does not assess the capability or quality of either external service."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Basis / disposition"
+            ],
+            "rows": [
+              [
+                "Commercial acceptance",
+                "Not received; opportunity closed as lost"
+              ],
+              [
+                "Protocol",
+                "Not commissioned"
+              ],
+              [
+                "Chamber placement",
+                "No start authorised"
+              ],
+              [
+                "Analytical execution",
+                "No results issued"
+              ],
+              [
+                "Turnaround",
+                "None agreed"
+              ]
+            ],
+            "caption": "Schedule: 6 Commercial follow-up and disposition"
+          }
+        },
+        {
+          "p": "The final issued quotation is retained with this follow-up. It must not be used as a purchase authority, chamber placement instruction or analytical sequence instruction. No customer acceptance signature is represented, and there are no laboratory results to append."
+        },
+        {
+          "p": "If Telquorath Pharma requests a future programme, Dr A. Penrose will reassess materials, storage allocation and the analytical interface. The present price and uncommitted schedule will not automatically carry forward. The reference {{PRJ0101:project_id}} remains available for tracing this proposal only."
+        },
+        {
+          "p": "Prepared by Dr A. Penrose, Head of Analytical Services, 31/03/2025. Storage coordination: Dr Leon Wu. Analytical method interface: Saira Mahmood."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr A. Penrose",
+      "role": "Head of Analytical Services — proposal issued",
+      "date": "2025-03-31",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "comments": [],
+  "tracked_changes": [],
+  "orientation": "portrait"
+}
