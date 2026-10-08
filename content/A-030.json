@@ -1,0 +1,317 @@
+{
+  "family": "document",
+  "summary": "Final Route scout and delivery report for Drelvessa Therapeutics SAS, covering {{PRJ0017:n_compounds}} isolated compounds under VD-98-076. Earlier side-chain installation improved recovery and furnished enough material for the matched-pair biology programme. Proposed structures remain separate from the completed delivery.",
+  "properties": {
+    "title": "Aminopyridines: convergent route and matched-pair delivery"
+  },
+  "header": "Vellacombe Discovery Ltd | VD-98-076 | Final report, revision A",
+  "footer": "Vellacombe Discovery Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Aminopyridines: convergent route and matched-pair delivery",
+    "subtitle": "Route scout and delivery — final report, revision A",
+    "lines": [
+      "Programme: VD-98-076",
+      "Accession: {{PRJ0017:lims_id}}",
+      "Client: Drelvessa Therapeutics SAS",
+      "Date: 14 Apr 1999",
+      "Author: Dr R. Calderwood, Head of Medicinal Chemistry"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Final material schedule",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Drelvessa Therapeutics SAS received {{PRJ0017:n_compounds}} compounds under VD-98-076. Analogue preparation began on 09 Dec 1998; the interim checkpoint was 09 Feb 1999, and chemistry completion was recorded on 13 Apr 1999. This final Route scout and delivery report is issued by Dr R. Calderwood on 14 Apr 1999."
+        },
+        {
+          "p": "Earlier side-chain installation improved recovery and furnished enough material for the matched-pair biology programme. The route gate was a decision about sequence, not a new biological hypothesis. Hassan Darwish organised the route scout around earlier installation; Ruth Calderwood accepted the revised sequence as the practical basis of the campaign. A successful intermediate was not itself a delivered analogue: final isolation and analytical release remained necessary."
+        },
+        {
+          "p": "Table 1 brings the identifier, assigned structure, molecular weight, isolated yield, UV area purity and amount into the same entry. Only this schedule constitutes the reported delivery. Suggested structures elsewhere in the report are not additional isolated compounds."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0017:synthesis",
+            "max_rows": 45,
+            "caption": "Table 1. Compounds delivered; final isolated yield, HPLC purity in UV area percent at 254 nm and amount in mg."
+          }
+        }
+      ]
+    },
+    {
+      "heading": "2 Remit, chronology and responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The remit was Analogue preparation for the DT06 set. The report covers route decisions affecting access to material and the identity basis needed for the client comparison. The programme turnaround was {{PRJ0017:turnaround_days}} days. That figure describes the programme interval, not a reaction time or assay incubation."
+        },
+        {
+          "p": "Dr R. Calderwood led the programme, Dr H. Darwish directed synthetic execution and Clara Fenwick led analytical release. The final gate closed on 13 Apr 1999; this report follows completion rather than reopening the route as a draft. Programme accession {{PRJ0017:lims_id}} links the material schedule to the benchmark below."
+        },
+        {
+          "p": "Earlier intermediates remain useful experimental context but are not counted again as delivered compounds. A repeat request should name the released identifier and the chemistry question. The final schedule is the endpoint for reconciling the set; individual compound cards remain the source for recovering a preparation."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0017:benchmark",
+            "caption": "Table 2. Programme benchmark and administrative reconciliation."
+          }
+        }
+      ]
+    },
+    {
+      "heading": "3 Chemistry hypothesis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The aminopyridine programme needed a convergent route supplying enough isolated material for matched-pair biology. Late side-chain installation placed a difficult operation close to the finished analogue, where loss could consume useful material. The working hypothesis was to move that installation earlier and use the resulting intermediate as the point of convergence. The change addressed practical delivery risk without changing the intended final compound."
+        },
+        {
+          "p": "The programme was organised around material needed to answer the client question. Route success was judged at the isolated product, not at an attractive intermediate or plausible scheme. This distinction limits the final claims: chemistry establishes access and identity for the delivered set but supplies no biological ranking that has not been measured here. The proposed follow-up must retain the same distinction."
+        }
+      ]
+    },
+    {
+      "heading": "4 Route gate and sequence decision",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Earlier side-chain installation improved recovery and furnished enough material for the matched-pair biology programme. The route gate was a decision about sequence, not a new biological hypothesis. Hassan Darwish organised the route scout around earlier installation; Ruth Calderwood accepted the revised sequence as the practical basis of the campaign. A successful intermediate was not itself a delivered analogue: final isolation and analytical release remained necessary."
+        },
+        {
+          "p": "The interim discussion on 09 Feb 1999 was a route checkpoint, not the delivery endpoint. By 13 Apr 1999, the completed material schedule could be reconciled with the programme. A repeat chemist should preserve the reason for the route choice as well as the sequence. Repeating an operation without knowing which recovery or identity risk it controlled can recreate the original difficulty."
+        }
+      ]
+    },
+    {
+      "heading": "5 Analogue preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Convergence is useful only while the common intermediate tolerates the downstream changes. Installing the side chain earlier leaves its functional groups in the route for longer, making compatibility with later operations the relevant control. The delivered set demonstrates access to the compounds in Table 1. It does not establish compatibility for every unmade substituent. Extensions should retain the established intermediate while changing a single convergent partner."
+        },
+        {
+          "p": "For repeat work, follow the compound card for the chosen identifier and reconcile the intended product with Table 1. A common scaffold is not a common experimental outcome. Substitution changes can affect work-up, purification and the evidence needed for assignment. No unprepared variant is claimed to have crossed the route gate merely because its drawing resembles a delivered compound."
+        }
+      ]
+    },
+    {
+      "heading": "6 Separation, work-up and recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Intermediate recovery and final isolated yield must remain distinct. Better recovery earlier can improve the amount reaching the end without making final purification easier. Table 1 provides final amounts and yields by compound, not a numerical before-and-after comparison of route sequences. The conclusion about earlier side-chain installation is qualitative. It must not be expanded into a fabricated efficiency ratio or an assumption that every stage improved."
+        },
+        {
+          "p": "Isolated yield is a route measure and delivered amount is a material measure. Both matter because the comparison requires the actual compound in hand. Neither column tells a chemist where loss occurred. Return to intermediate and fraction entries for that question. An estimate derived only from the final table would conceal the difference between reaction performance and recovery."
+        }
+      ]
+    },
+    {
+      "heading": "7 Identity and assignment",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The revised operation order still had to reach the intended aminopyridine. The common intermediate, convergent partner and final compound identifier must remain connected on the compound card. Clara Fenwick handled release with that route history available. Nominal mass alone would not exclude an alternative connection or carried-through intermediate. The final structure entry should be read with the identity basis, rather than treated as proof by itself."
+        },
+        {
+          "p": "The release entry must stay connected to the isolate. A structure redrawn for a client presentation should retain the chemistry identifier so the assignment basis can be recovered. This report does not reproduce raw spectra or supply invented peak assignments. It records the programme conclusion and explains where the underlying experimental history is retained."
+        }
+      ]
+    },
+    {
+      "heading": "8 Purity statement and analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The HPLC values in Table 1 are UV area percent at 254 nm. They describe the reported chromatographic profile under that detection basis. They are not weight percent, solvent content or a direct assay of active parent in a weighed portion. The amount field is expressed in mg and must remain separate from purity when planning the comparison."
+        },
+        {
+          "p": "Clara Fenwick led analytical release. Identity and chromatographic purity answer complementary questions: a dominant peak cannot independently establish the assigned connection, position or configuration. An assigned structure also does not remove the need to consider impurities. The schedule retains the available numerical values without adding a universal purity threshold or an unstated correction to the delivered amounts."
+        },
+        {
+          "p": "A client query concerning precipitation, unexpected peaks or identity should return against the delivery identifier. The compact table is a reconciliation aid, not a substitute for the analytical entry needed to investigate a particular sample."
+        }
+      ]
+    },
+    {
+      "heading": "9 Isolated yield and material accounting",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Final yields and amounts remain separated by compound. No pooled recovery or campaign mean has been calculated. Such a figure could blur route differences and imply a common experimental basis that the delivery table does not establish. The practical question is whether identifier, structure and amount refer to the same released material."
+        },
+        {
+          "p": "Compound cards may contain intermediate masses, recovered fractions and material held for further work. Those entries do not automatically belong to the client delivery. Use Table 1 for the delivered set and the route scout for an individual recovery question. A request for more material must distinguish repeat product from a new proposed analogue."
+        },
+        {
+          "p": "The programme closed with {{PRJ0017:n_compounds}} delivered compounds. This count is not enlarged by an intermediate, an alternative drawing or a proposed comparison. Detailed weighing and transfer history belong to the individual chemistry entries; the final schedule supplies report-level reconciliation."
+        }
+      ]
+    },
+    {
+      "heading": "10 Client hand-off and identifier continuity",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The DT06 identifiers connect isolated chemistry to the client comparison. Use VD-98-076 and accession {{PRJ0017:lims_id}} for clarification. Assigned structures help reconcile a vial label with its intended product, but the delivery identifier remains the primary link to prepared material."
+        },
+        {
+          "p": "If a client transfers material for biological preparation, retain the original identifier and distinguish that later preparation description from chemistry release. Replacing an identifier with a proposed structure name risks merging different samples under a general scaffold label. The risk matters particularly where apparently similar structures address different chemical questions."
+        },
+        {
+          "p": "Chemistry completion was recorded on 13 Apr 1999. This report supplies no unstated courier date, receipt signature or storage condition. Dr H. Darwish is the route contact; Clara Fenwick is the analytical reconciliation contact; Dr R. Calderwood retains responsibility for the overall chemistry conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "11 Interpretation for the client comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Drelvessa Therapeutics SAS received material for matched-pair biology. The chemistry outcome was practical recovery sufficient to support that comparison. No stress-response kinase potency values are provided here. The client should interpret pairs using the actual released compounds and amounts, rather than assuming equal recovery across the analogue set. A request for an expanded comparison should name the pairs requiring repeat preparation."
+        },
+        {
+          "p": "The useful follow-up is a comparison whose members can be traced to released material. Keep the intended chemical difference explicit. Do not combine a proposed product and an isolated compound within a result entry. A later biological trend may justify new chemistry, but cannot change retrospectively which material was delivered."
+        },
+        {
+          "p": "This is a chemistry close-out. It provides no invented response values, selectivity ratios or potency rankings. Programme turnaround is not an assay setting, and isolated yield is not an indicator of target activity."
+        }
+      ]
+    },
+    {
+      "heading": "12 Next analogue and carried route risk",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The next proposed analogue retains the earlier installed side chain and changes a single convergent partner. It is outside the completed delivery. That comparison would test whether the practical route advantage survives a modest change without adding a second redesign. The main risk is downstream sensitivity from having the side chain present earlier. A repeat route scout should retain the common-intermediate identity and document each isolation separately."
+        },
+        {
+          "p": "A repeat route scout should identify the operation controlling the original risk and the evidence that closed it. Do not omit that gate because the final compound looks familiar. Substituent changes and material history can affect recovery without changing the intended chemical question. Preserve the link between the proposed route and the actual isolated outcome."
+        },
+        {
+          "p": "The report does not qualify a working scale beyond the delivered chemistry or impose new process conditions. Recover charge quantities, timings and purification parameters from the relevant experimental entry. A change in the established sequence needs its own reason and compound-card history."
+        }
+      ]
+    },
+    {
+      "heading": "13 Follow-up decision and status",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The next analogue described above is proposed chemistry. It has no additional delivery entry, assigned yield, purity, amount or biological result in this report. Its purpose is a defined extension of the successful route while retaining the chemical distinction that motivated the programme."
+        },
+        {
+          "p": "Dr R. Calderwood recommends that Drelvessa Therapeutics SAS reconcile the intended comparison with the released identifiers before expanding preparation. Once the chemical question is selected, the next route scout can be scoped around it. A broad set assembled before that choice may add material without clarifying interpretation."
+        },
+        {
+          "p": "The gate for a new analogue remains identifiable isolated material. A convincing scheme is not a completed delivery. This final report closes the present programme and proposes a reasoned next step without presenting it as work already performed."
+        }
+      ]
+    },
+    {
+      "heading": "Appendix A — Delivery-table conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Compound is the delivery identifier linking material to chemistry. SMILES is the compact assigned-structure field. MW is the reported molecular-weight field associated with it. These fields must not be used to infer an unstated counter-ion, solvate or assignment detail. The drawing summarises identity; the compound card preserves its basis."
+        },
+        {
+          "p": "Yield (%) is the reported isolated yield. HPLC purity is UV area percent at 254 nm. Amount (mg) is the reported isolated amount. Keep the bases separate. The table supplies no raw peak areas, moisture correction, uncertainty estimate or across-programme normalisation. It also does not substitute for a preparation-specific experimental entry."
+        },
+        {
+          "p": "To reproduce a delivered product, select the identifier, recover its compound card and reconcile the final isolate with its route history. To extend the chemistry, create a route proposal rather than repurposing an existing delivery entry for an unmade structure."
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B — Experimental history and repeat instructions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "DT06_RteB_13Apr99.xls, closed on 13 Apr 1999, contains intermediate recoveries, the earlier side-chain installation and final release purity. Use the route scout to recover the sequence for a particular compound and Table 1 to reconcile final delivery. This report does not reconstruct unavailable charge quantities or invent reaction times. A repeat chemist should obtain the actual operation order from the compound card, not infer it from the final structure."
+        },
+        {
+          "p": "A repeat request should identify the compound, why additional material is needed and the route question to preserve. The chemist can then recover the operation sequence and compare the repeat with the established identity basis. A broad scaffold description is insufficient when the conclusion depends on separation, selective access or assignment."
+        },
+        {
+          "p": "The report remains the final account of delivered chemistry. It does not overwrite experimental entries or create replacement conditions. If subsequent preparation departs from the established route, retain that departure in its own compound card and distinguish the new material history from the present delivery."
+        }
+      ]
+    },
+    {
+      "heading": "14 Final conclusion and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Earlier side-chain installation improved recovery and furnished enough material for the matched-pair biology programme. The route gate was a decision about sequence, not a new biological hypothesis. Hassan Darwish organised the route scout around earlier installation; Ruth Calderwood accepted the revised sequence as the practical basis of the campaign. A successful intermediate was not itself a delivered analogue: final isolation and analytical release remained necessary."
+        },
+        {
+          "p": "The final delivery comprises {{PRJ0017:n_compounds}} isolated compounds for Drelvessa Therapeutics SAS. Amounts, isolated yields and UV area purity are recorded in Table 1. The route supports the reported client comparison; proposed follow-up structures remain outside the delivery. No biological ranking is assigned in this conclusion."
+        },
+        {
+          "p": "Issued on 14 Apr 1999, after completion on 13 Apr 1999. Dr R. Calderwood authorises the chemistry conclusion. Dr H. Darwish is identified for synthetic execution and Clara Fenwick for analytical release. Revision A is final and has no open comments or provisional replacements for the material schedule."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr R. Calderwood",
+      "role": "Head of Medicinal Chemistry — final report authorisation",
+      "date": "14 Apr 1999",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
