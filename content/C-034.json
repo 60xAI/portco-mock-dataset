@@ -1,0 +1,107 @@
+{
+ "family": "scan",
+ "summary": "Signed matrix acceptance sign-off for the bioanalytical QA group, September 2011: tandem-MS calibration checks, batch-review responsibilities and a handwritten correction to the control-lot reference. Scanned from the signed paper copy.",
+ "document": {
+  "family": "document",
+  "summary": "Matrix acceptance sign-off covering calibration checks, batch review responsibilities and the control-lot reference.",
+  "properties": {
+   "title": "Matrix acceptance sign-off 09/13/2011"
+  },
+  "header": "Matrix acceptance sign-off | QA",
+  "footer": "Merrivoss Bioanalysis Inc | Confidential",
+  "title_block": {
+   "title": "Matrix acceptance sign-off",
+   "subtitle": "Bioanalytical QA, signed copy",
+   "lines": [
+    "Merrivoss Bioanalysis Inc, Madison",
+    "Prepared by: Helen Marchwood, Bioanalytical Quality Manager",
+    "Date: 09/13/2011"
+   ]
+  },
+  "sections": [
+   {
+    "heading": "1 Purpose",
+    "blocks": [
+     {
+      "p": "This sign-off records the matrix acceptance rules that the bioanalysis group applies to tandem-MS runs from this date. It replaces the working note circulated in the spring and should be filed with the current assay worksheet template."
+     }
+    ]
+   },
+   {
+    "heading": "2 Calibration checks",
+    "blocks": [
+     {
+      "p": "Each run carries a full calibration curve prepared in the matrix of the study samples. Curves are fitted with a weighted linear regression. A calibration point is only used if it back-calculates within the accepted window on the day of the run."
+     },
+     {
+      "table": {
+       "columns": ["Check", "Applied to", "Action if it fails"],
+       "rows": [
+        ["Curve fit and back-calculation", "Every calibration point", "Point excluded and curve refitted; the exclusion is written on the worksheet"],
+        ["Blank matrix response", "Each batch, before the first standard", "Batch held until the carry-over source is identified"],
+        ["Internal standard response", "Every sample", "Sample reanalysed; not corrected by arithmetic"],
+        ["Quality control placement", "Start, middle and end of each batch", "Batch rejected and repeated if the run-level QC fails"]
+       ],
+       "caption": "Table 1 Calibration and matrix checks applied to each run"
+      }
+     },
+     {
+      "p": "Transition multiples are confirmed against the reference standard before each new analyte card is opened. Where two transitions disagree beyond the tolerance on the card, the quantitation transition is used and the discrepancy is noted in the analyst's comments."
+     }
+    ]
+   },
+   {
+    "heading": "3 Batch review responsibilities",
+    "blocks": [
+     {
+      "p": "The analyst prepares the batch and completes the first review. A second scientist, not involved in the run, checks the calibration, QC and internal standard data before the batch is released to the study director."
+     },
+     {
+      "list": [
+       "Analyst: batch preparation, first review, worksheet entries",
+       "Second reviewer: independent check of calibration and QC, signed on the worksheet",
+       "Mass-spectrometry manager: instrument status and any tuning changes",
+       "Study director: release of data to the study report, after matrix acceptance is recorded"
+      ]
+     },
+     {
+      "p": "Reviews are signed and dated on the worksheet in ink. Electronic reviews are accepted only where the LIMS audit trail is available for the same run."
+     }
+    ]
+   },
+   {
+    "heading": "4 Control lot reference",
+    "blocks": [
+     {
+      "p": "Quality control samples are prepared from the control lot held in the matrix freezer. The lot reference on the worksheet must match the freezer log before the batch is started. A new control lot is only put into use after it has been checked against the outgoing lot in at least one run."
+     },
+     {
+      "p": "Correction to the control lot reference in the draft of this sign-off has been made by hand on the signed copy and is initialled below."
+     }
+    ]
+   },
+   {
+    "heading": "5 Sign-off",
+    "blocks": [
+     {
+      "table": {
+       "columns": ["Role", "Name", "Date"],
+       "rows": [
+        ["Bioanalytical Quality Manager", "Helen Marchwood", "09/13/2011"],
+        ["DMPK Lead", "Matteo Rinalvesi", "09/13/2011"],
+        ["Mass-Spectrometry Manager", "Javier Quintana", "09/14/2011"]
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "scan": {
+  "skew_deg": 0.7,
+  "noise": 0.25,
+  "blur": 0.5,
+  "stamp": "RECEIVED 14 SEP 2011",
+  "handwriting": "control lot ref corrected - HM"
+ }
+}
