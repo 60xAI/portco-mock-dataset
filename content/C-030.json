@@ -1,0 +1,412 @@
+{
+  "family": "document",
+  "summary": "Final Five-isoform DDI screen and CYP3A4 inhibition curves report for Orvessant Biosciences Pty Ltd. Human microsomal data, reference-response benchmarks and analytical qualifications precede the chemistry decision.",
+  "properties": {
+    "title": "MV-2020-088 OB11 DDI final report"
+  },
+  "header": "Merrivoss Bioanalysis Inc, a Tarnovell company | MV-2020-088 | Final R1",
+  "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "OB11 DDI Assessment with CYP3A4 Confirmation",
+    "subtitle": "Final study report R1",
+    "lines": [
+      "Study {{PRJ0062:project_id}}",
+      "Accession {{PRJ0062:lims_id}}",
+      "Prepared for Orvessant Biosciences Pty Ltd",
+      "Dr M. Larkin, DMPK Study Director",
+      "04/29/2020"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Study scope and identification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This final report concerns the OB11 test article set for Orvessant Biosciences Pty Ltd. The study comprised {{PRJ0062:n_compounds}} compounds and opened on 04/10/2020. The interim communication was dated 04/20/2020; this R1 report closes interpretation on 04/29/2020."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0062:benchmark",
+            "caption": "Table 1. Study scope and DDI benchmarks"
+          }
+        },
+        {
+          "p": "The Five-isoform DDI screen and CYP3A4 inhibition curves answer related but distinct questions. Single-concentration inhibition identifies follow-up concerns; concentration-response work defines the CYP3A4 interaction under its probe-substrate conditions. Neither is a measured clinical interaction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Five-isoform DDI screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The human liver microsomal panel assessed CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4 at 10 µM test article. Values below are percentage inhibition of probe-substrate activity under the screen conditions."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0062:cyp_inhib",
+            "caption": "Table 2. Five-isoform inhibition at 10 µM"
+          }
+        },
+        {
+          "p": "The screen uses a common test concentration for comparison, not an IC50 estimate for each isoform. Negative inhibition values remain in the released table; they are not reclassified as a demonstrated activation mechanism."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 CYP3A4 confirmation table",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "CYP3A4 inhibition curves used midazolam 1′-hydroxylation as the probe reaction. The reported IC50 is expressed in µM. Bound entries remain bound statements rather than exact potency estimates."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0062:cyp_ic50",
+            "caption": "Table 3. CYP3A4 concentration-response results"
+          }
+        },
+        {
+          "p": "The probe-substrate designation is retained with the values because CYP3A4 inhibition may be substrate-dependent. A curve measured with this reaction is not a general potency value for every CYP3A4 substrate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Matrix and species",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Assessment",
+              "Biological matrix",
+              "Species",
+              "Readout"
+            ],
+            "rows": [
+              [
+                "Five-isoform DDI screen",
+                "Liver microsomes",
+                "Human",
+                "% inhibition at 10 µM"
+              ],
+              [
+                "CYP3A4 inhibition curves",
+                "Liver microsomal probe-reaction context",
+                "Human",
+                "IC50 in µM; midazolam 1′-hydroxylation"
+              ]
+            ],
+            "caption": "Table 4. Matrix and readout definitions"
+          }
+        },
+        {
+          "p": "No rat inhibition table or whole-cell induction result is supplied. These are enzyme-inhibition observations in a human in vitro context. They do not establish the concentration of test article at the enzyme in a patient."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Accession-lot and parent identity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The controlling accession is {{PRJ0062:lims_id}}. Complete OB11 identifiers connect the inhibition screen, the confirmation table and the companion assay worksheet. The submitted parent is the analyte designation used throughout."
+        },
+        {
+          "p": "The comparison assumes consistent test article identity between screen and curve work. A later chemistry change must retain a predecessor link while receiving its own compound and accession identity. The present results cannot be transferred to a new cap or branch without measurement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Screen procedure and interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The panel measures reduction of probe-substrate activity relative to the assay reference at 10 µM test article. Because the test concentration is fixed, the screen is useful for prioritization but does not supply a full concentration-response relationship."
+        },
+        {
+          "p": "The five isoforms are retained separately. A concern in one column is not proof of equivalent inhibition in the others. The CYP3A4 confirmation is a targeted follow-up and does not replace the remaining screen columns."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Concentration-response procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The CYP3A4 follow-up assesses activity across concentrations and reports the resulting IC50 or limit statement. The probe is midazolam, and the reaction is 1′-hydroxylation. No alternative probe curve is supplied."
+        },
+        {
+          "p": "An IC50 describes inhibition within the stated assay context. No Ki, time-dependent inactivation constant or mechanistic inhibition class is derived here. Those quantities require experiments beyond this screen-and-confirmation design."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Reference-response benchmarks",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The released reference-response values are shown with their historical comparators. The comparison supports a reading of assay behavior without introducing a numerical acceptance band absent from the supplied record."
+        },
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Current reference response (µM)",
+              "Historical comparator (µM)"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "{{PRJ0062:cyp.control_CYP1A2_uM}}",
+                "{{PRJ0062:cyp.hist_CYP1A2_uM}}"
+              ],
+              [
+                "CYP2C9",
+                "{{PRJ0062:cyp.control_CYP2C9_uM}}",
+                "{{PRJ0062:cyp.hist_CYP2C9_uM}}"
+              ],
+              [
+                "CYP2C19",
+                "{{PRJ0062:cyp.control_CYP2C19_uM}}",
+                "{{PRJ0062:cyp.hist_CYP2C19_uM}}"
+              ],
+              [
+                "CYP2D6",
+                "{{PRJ0062:cyp.control_CYP2D6_uM}}",
+                "{{PRJ0062:cyp.hist_CYP2D6_uM}}"
+              ],
+              [
+                "CYP3A4",
+                "{{PRJ0062:cyp.control_CYP3A4_uM}}",
+                "{{PRJ0062:cyp.hist_CYP3A4_uM}}"
+              ]
+            ],
+            "caption": "Table 5. Reference response and historical comparison"
+          }
+        },
+        {
+          "p": "Current and historical values are not test article results. Their proximity or difference cannot, by itself, establish that every underlying analytical sample passed a numerical criterion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen summary by isoform",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "At the 50% screen flag, the numbers of compounds above the flag are {{PRJ0062:cyp.n_gt50_CYP1A2}} for CYP1A2, {{PRJ0062:cyp.n_gt50_CYP2C9}} for CYP2C9, {{PRJ0062:cyp.n_gt50_CYP2C19}} for CYP2C19, {{PRJ0062:cyp.n_gt50_CYP2D6}} for CYP2D6 and {{PRJ0062:cyp.n_gt50_CYP3A4}} for CYP3A4."
+        },
+        {
+          "p": "The number above the flag in any isoform is {{PRJ0062:cyp.n_any_gt50}}. Counts across columns overlap and must not be summed as a count of distinct compounds. The benchmark identifies {{PRJ0062:cyp.most_flagged}} as the most flagged isoform; that designation is not a declaration that other isoforms are free of concern."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 CYP3A4 confirmation summary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The concentration-response release includes {{PRJ0062:cyp3a4_ic50.n_tested}} compounds. The number with IC50 below 1 µM is {{PRJ0062:cyp3a4_ic50.n_lt_1uM}}; the number below 10 µM is {{PRJ0062:cyp3a4_ic50.n_lt_10uM}}. These are nested categories and must not be added."
+        },
+        {
+          "p": "The screen percentage and curve IC50 have different units and meanings. Their agreement is assessed by direction and relative ordering, not by treating a percentage as a concentration or forcing a numeric conversion between them."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Analytical measurement responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Javier Quintana is the mass-spectrometry lead. Analyte cards and the assay worksheet retain matrix-associated analytical details and parent assignment. The report provides released inhibition results rather than reproducing individual analytical acquisitions."
+        },
+        {
+          "p": "Interference with probe-product measurement can resemble inhibition if analytical response is not kept separate from enzyme activity. The final narrative therefore retains the matrix context and does not assign mechanism solely from a reduction in measured activity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Numerical quantitation limits, calibration ranges and raw response values are not supplied with the final tables. The report does not create them. The result release supports comparison of inhibition, not reconstruction of every probe-product measurement."
+        },
+        {
+          "p": "A greater-than IC50 entry indicates that the reported boundary was not crossed within the released range. It is neither zero inhibition nor an exact IC50 at the printed limit. Negative screen values likewise remain part of the signed data presentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Matrix acceptance and exceptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helen Marchwood is responsible for bioanalytical quality. The companion assay worksheet contains matrix acceptance checks. Reference-response benchmarks are retained above as the context supplied with this final result record."
+        },
+        {
+          "p": "No named sample-level exception, repeat history or numerical acceptance interval is supplied. None is inferred. The report does not equate a favorable test article profile with acceptance of all analytical samples, nor add an exclusion list that is absent from the record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Comparison of screen and follow-up",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "For the OB11 cap decision, the CYP3A4 follow-up confirmed the interaction concern in the lipophilic cap variants. Concentration-response work supplied a more specific basis than the single-concentration screen alone."
+        },
+        {
+          "p": "Confirmation remains probe-specific and CYP3A4-specific. It does not supply concentration-response results for the other isoforms. The complete panel should remain available when the client considers later chemistry choices."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Chemistry decision basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The CYP3A4 follow-up confirmed the liability in the lipophilic cap variants and Orvessant switched to the alternate cap. The cap choice is the client’s recorded response to the confirmed in vitro concern."
+        },
+        {
+          "p": "The alternate cap is a next chemistry direction. No result for newly prepared alternate-cap material is supplied, and switching the design does not by itself prove that the next test article set will meet an exposure gate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Exposure context and DDI boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The study contains no circulating exposure measurement, unbound clinical concentration or administered-dose record. An in vitro IC50 cannot be converted into clinical interaction risk without that additional context."
+        },
+        {
+          "p": "No induction, time-dependent inhibition or transporter assessment is reported. The term DDI screen is the house name for this inhibition panel; it must not be expanded into a claim that all mechanisms of interaction have been evaluated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Handoff to later work",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The alternate-cap handoff should preserve a predecessor link to the lipophilic cap variants. New test articles require their own accession and inhibition records so that the chemistry response can be assessed against this baseline."
+        },
+        {
+          "p": "Later work should keep the probe reaction and test concentration visible when comparing results. A different assay context can answer a useful question but should not be treated as identical evidence without qualification."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Final conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The CYP3A4 follow-up confirmed the liability in the lipophilic cap variants and Orvessant switched to the alternate cap. Megan Larkin records this as the final study outcome for Orvessant Biosciences Pty Ltd under {{PRJ0062:project_id}}."
+        },
+        {
+          "p": "The decision is supported within the scope of the released human microsomal inhibition data. Matrix definitions, probe specificity, limit handling and analytical qualifications remain part of any extract used for the exposure gate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Report control and assumptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This final R1 report is dated 04/29/2020. The companion MV-2020-088_AssayWorksheet_042920_v03.xlsx holds accession-lot mapping and matrix acceptance. The 04/20/2020 interim communication is superseded for closeout by this final interpretation."
+        },
+        {
+          "list": [
+            "Preserve complete compound and accession identifiers.",
+            "Do not sum overlapping isoform flag counts.",
+            "Keep nested curve counts distinct.",
+            "Retain bound signs and negative screen values.",
+            "Keep the midazolam probe reaction with CYP3A4 IC50 results.",
+            "Do not extend this inhibition release to clinical risk or untested chemistry."
+          ]
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director",
+      "date": "04/29/2020",
+      "signed": true
+    },
+    {
+      "name": "Javier Quintana",
+      "role": "Mass-Spectrometry Manager",
+      "date": "04/29/2020",
+      "signed": true
+    },
+    {
+      "name": "Helen Marchwood",
+      "role": "Bioanalytical Quality Manager",
+      "date": "04/29/2020",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
