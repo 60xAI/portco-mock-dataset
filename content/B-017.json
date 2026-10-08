@@ -1,0 +1,270 @@
+{
+  "family": "document",
+  "summary": "{{PRJ0039:n_compounds}} RI13 compounds were assessed by HLM/RLM stability and RED PPB. The completed stability ranking was consistent with the interim assessment; binding supplied a separate basis for choosing permeability follow-up. Rennelwick prioritised the less bound amides for permeability work after the initial stability ranking proved consistent.",
+  "properties": {
+    "title": "BW20_0137 final study report, revision B",
+    "subject": "RI13 nuclear-receptor programme: HLM stability and free fraction"
+  },
+  "header": "Brindlewythe Biosciences Ltd, a Tarnovell company | BW20_0137 | Final report",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "RI13 nuclear-receptor programme: HLM stability and free fraction",
+    "subtitle": "Final study report | Revision B",
+    "lines": [
+      "Brindlewythe Biosciences Ltd, a Tarnovell company",
+      "Study BW20_0137",
+      "Accession {{PRJ0039:lims_id}}",
+      "Client: Rennelwick Institute Drug Discovery Unit",
+      "Date: 22 May 2020",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and plate acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "{{PRJ0039:n_compounds}} RI13 compounds were assessed by HLM/RLM stability and RED PPB. The completed stability ranking was consistent with the interim assessment; binding supplied a separate basis for choosing permeability follow-up."
+        },
+        {
+          "p": "Microsomal turnover and RED PPB control assessments supported acceptance. Stability and binding runs were considered independently. Agreement between endpoints was not used to substitute for control acceptance."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0039:benchmark",
+            "caption": "Table 1. Study benchmark"
+          }
+        },
+        {
+          "p": "Control acceptance precedes interpretation. The benchmark summarises the study; the complete compound tables below are the basis of selection. Screening decisions are recorded separately from the endpoints."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Principal results",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "table_ref": "PRJ0039:mic_stab",
+            "caption": "Table 2. HLM/RLM stability, 0.5 mg/mL protein, 1 µM"
+          }
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0039:ppb",
+            "caption": "Table 3. Human RED PPB, 4 h at 37 °C"
+          }
+        },
+        {
+          "p": "Compound identifiers follow the sample cards. Units are part of the headings. Compare like endpoints under the stated conditions. A position in a table is not an estimate of clinical performance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Study remit and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rennelwick Institute Drug Discovery Unit commissioned HLM/RLM stability and RED PPB to support a chemistry screen gate for this screening set. The remit was not a complete disposition or safety assessment."
+        },
+        {
+          "p": "Study work began on 06 Apr 2020. The interim checkpoint was 29 Apr 2020. This final revision closes the study on 22 May 2020. Dr B. Rowcroft is responsible for scientific release; Ines Alvarado checked plate acceptance and table transfer."
+        },
+        {
+          "p": "The completed study covers {{PRJ0039:n_compounds}} compounds under accession {{PRJ0039:lims_id}}. The accession links submitted material, sample cards and run sheets. No later screening set is included."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Test-lot handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Human and rat microsomal results and plasma binding results retain the same RI13 identifiers. Matrix names stay attached to every endpoint. The sample cards link each result to the submitted amide; no structure assignment is inferred from assay behaviour."
+        },
+        {
+          "p": "Sample-card identifiers carried through preparation, assay allocation and result collation. Working solutions were prepared for the scheduled assay with matched vehicle. Results refer to the submitted test lot, rather than a claim that a later resynthesis will behave identically."
+        },
+        {
+          "p": "Preparation details, positions and handling observations remain in the run sheets. Qualifications stay with the endpoint; they are not removed to simplify a ranking."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Assay procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HLM/RLM stability used liver microsomes at 0.5 mg/mL protein and compound at 1 µM. Timed aliquots were taken after cofactor addition, quenched and analysed for parent remaining. Parallel no-cofactor incubations distinguished cofactor-dependent turnover from other loss under the incubation conditions."
+        },
+        {
+          "p": "Parent-loss rates were fitted over the usable time course. Half-life and intrinsic clearance were reported separately for human and rat microsomes. A half-life beyond the observation window is reported as a bound, not as an exact fitted value."
+        },
+        {
+          "p": "RED PPB used human plasma and buffer compartments incubated for 4 h at 37 °C. Both compartments were sampled after incubation. Matrix-matched preparation supported concentration comparison. Recovery was assessed separately from bound and unbound fractions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Control assessment and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Microsomal turnover and RED PPB control assessments supported acceptance. Stability and binding runs were considered independently. Agreement between endpoints was not used to substitute for control acceptance."
+        },
+        {
+          "p": "Stability run sheets retain reference turnover and no-cofactor assessments. Binding run sheets retain the equilibration and recovery checks. The compound recovery column is supplied in Table 3; numerical control values not present in the released tables are not invented here."
+        },
+        {
+          "p": "Ines Alvarado checked that control assessment preceded the screening interpretation. Dr B. Rowcroft authorised release. Acceptance supports use within the stated assay; it does not eliminate compound-specific questions that need follow-up."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Data reduction",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Microsomal half-life derives from the parent-loss rate; intrinsic clearance is normalised to protein concentration. RED PPB reports bound fraction, unbound fraction and recovery as distinct quantities. Recovery must not silently replace or correct an unbound result."
+        },
+        {
+          "p": "Reported precision and units are retained. Rounding must not manufacture distinctions between near neighbours. The screening decision should use complete rows with qualifications visible."
+        },
+        {
+          "p": "Summary endpoints and individual observations have different purposes. The benchmark does not replace the detailed table. No additional fitted values or composite scores have been inferred for presentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Screening-set interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The completed stability ranking remained consistent. Rennelwick used binding results to favour less bound amides for the next screen gate. Lower binding is a measured property in this system, not proof of improved membrane passage."
+        },
+        {
+          "p": "Stability and binding remain separate columns in selection. A less bound compound can turn over rapidly; a stable compound can be strongly bound. The tables preserve this distinction without an unsupported composite score."
+        },
+        {
+          "p": "A chemistry association can identify the next experiment without establishing the molecular cause of the assay response. This report makes no target-mechanism claim from screening data alone."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rennelwick prioritised the less bound amides for permeability work after the initial stability ranking proved consistent."
+        },
+        {
+          "p": "Measure permeability directly in the selected amides, retaining their sample-card identities. Bidirectional assessment can address transport separately from turnover and binding. No permeability endpoint, efflux ratio or exposure result is claimed here."
+        },
+        {
+          "p": "The screen gate records the client’s use of the data. A proposed follow-up is not a completed result. No endpoint from that later work is incorporated into this signed report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Study limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Microsomal intrinsic clearance is not measured whole-body clearance. Human and rat values are separate observations; apparent species agreement does not eliminate the need for exposure measurements."
+        },
+        {
+          "p": "Half-lives beyond the observation window remain censored. Do not assign invented exact values to rank slowly turning-over compounds."
+        },
+        {
+          "p": "RED PPB depends on the stated dialysis conditions. Recovery must be considered with unbound fraction. Binding is not a permeability endpoint."
+        },
+        {
+          "p": "These endpoints apply to the submitted screening set and test lots. No extrapolation is made to an untested analogue, formulation or biological system. Later measurements should retain identifiers and conditions for comparison."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HLM/RLM stability and RED PPB is complete for BW20_0137. Control assessment supports release of the detailed tables for the specified client decision."
+        },
+        {
+          "p": "Rennelwick prioritised the less bound amides for permeability work after the initial stability ranking proved consistent."
+        },
+        {
+          "p": "The results support the stated next step. They do not alone resolve exposure, efficacy or nomination suitability. Any later integrated assessment must identify its additional supporting studies."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Record index and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The retained study record comprises sample cards linked to {{PRJ0039:lims_id}}, preparation and assay run sheets, control assessment, result tables and this final report. The interim checkpoint forms part of the chronology and does not replace the completed dataset."
+        },
+        {
+          "p": "Revision B is the final report issued to Rennelwick Institute Drug Discovery Unit on 22 May 2020. Read principal results with the methods and limitations. Preserve study identity, units and qualifications when using tables for the screen gate."
+        },
+        {
+          "p": "Scientific release: Dr B. Rowcroft, Screening Operations Director. Plate acceptance and report-table transfer: Ines Alvarado, Assay Quality Coordinator. Signatures apply to this completed study and its bounded interpretation."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr B. Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "22 May 2020",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — plate acceptance and table transfer",
+      "date": "22 May 2020",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "comments": [],
+  "tracked_changes": []
+}
