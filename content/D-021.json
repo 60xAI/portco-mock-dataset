@@ -1,0 +1,164 @@
+{
+  "family": "document",
+  "summary": "Final proposal to Drelvessa Therapeutics SAS for Docking and hit clustering using client X-ray co-crystal coordinates. The fixed fee is {{PRJ0014:price}} with {{PRJ0014:turnaround_days}} days quoted for coordinate review, pocket-water assessment and a reproducible ranked design list.",
+  "properties": {
+    "title": "DT-8 stress-kinase co-crystal docking and pocket-water assessment"
+  },
+  "header": "Quenverell Computational Ltd, a Tarnovell company",
+  "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "DT-8 stress-kinase co-crystal docking and pocket-water assessment",
+    "subtitle": "Final proposal",
+    "lines": [
+      "Proposal: {{PRJ0014:project_id}}",
+      "Accession: {{PRJ0014:lims_id}}",
+      "Client: {{PRJ0014:client_variant}}",
+      "Date: 24 Jul 2025",
+      "Prepared by Dr T. Zawiernicki, Head of Bioinformatics"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Biological question and proposed engagement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Drelvessa Therapeutics SAS wishes to use its stress-kinase X-ray co-crystal coordinates to guide the next ligand-design decision. Quenverell proposes Docking and hit clustering with coordinate review and pocket-water assessment. The question is which design ideas are supported by the supplied binding-site evidence and which remain sensitive to preparation assumptions."
+        },
+        {
+          "p": "The proposed output is a reproducible ranked design list, with state and pose provenance and a clear account of uncertainty. This proposal dated 24 Jul 2025 does not pre-empt the analytical outcome. No substitution vector or activity improvement is promised before the coordinate and ligand inputs have passed data acceptance."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence or requirement",
+              "Interpretation",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Client co-crystal coordinates",
+                "Input to modelling; not a new structure determination",
+                "Review provenance and local interpretability"
+              ],
+              [
+                "Pocket waters",
+                "Assess alternative retention assumptions",
+                "Carry uncertainty into ranking"
+              ],
+              [
+                "Ranked designs",
+                "Computational prioritisation",
+                "Confirm experimentally"
+              ]
+            ],
+            "caption": "Table 1. Decision and scope summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Required inputs and coordinate review",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Drelvessa Therapeutics SAS will supply its in-house X-ray co-crystal coordinates, associated ligand identities and the supporting description needed to interpret the stress-kinase pocket. Coordinate versions, chain identity, ligand assignment, occupancy information and relevant experimental context must remain linked. A structure image alone is not an adequate modelling input."
+        },
+        {
+          "p": "Data acceptance will examine coordinate completeness around the binding site, ligand representation, alternate conformations and the distinction between modelled and experimentally supported local features. Nadia Rahmani will maintain the input inventory under {{PRJ0014:lims_id}}. Material that cannot support the intended comparison will be raised at the acceptance model gate before ranked designs are generated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Ligand preparation and Docking and hit clustering",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client candidate set will be prepared with parent identifiers retained. Protonation, tautomer and stereochemical choices will be documented, and prepared states will remain distinct from purchasable or synthesised compound identity. Fiona Macrae will lead the computational chemistry interpretation, with Tomasz Zawiernicki responsible for the engagement."
+        },
+        {
+          "p": "Docking comparisons will use a defined receptor preparation and search region. Scores will be reported in kcal/mol as computational ranking outputs, not converted into predicted potency. Pose plausibility and preparation sensitivity will inform the parent-level ranking. Hit clustering will help present chemical alternatives without implying that similar compounds share an experimentally confirmed binding mode."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Pocket-water assessment and design interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Pocket waters will be assessed in the context of the client co-crystal evidence. The route will distinguish confidently interpretable local water positions from uncertain or preparation-dependent features. Alternative retained-water and displaced-water assumptions will be kept visible where they materially affect a design interpretation."
+        },
+        {
+          "p": "A favourable pose under one water treatment is not proof of displacement energetics. The ranked list will explain where a design depends on water assumptions, local coordinate uncertainty or a particular ligand state. The assessment is intended to guide a chemistry decision; new crystallography, synthesis, affinity measurement and functional testing are outside the proposed scope."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Model gates, timing and communication",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed start is 08 Sep 2025 after authorisation and receipt of usable inputs. The interim readout is planned for 13 Oct 2025 and final delivery for 13 Nov 2025. The quoted turnaround is {{PRJ0014:turnaround_days}} days. These dates assume the coordinate and ligand data are available for the acceptance step; a material input delay requires an agreed revised schedule."
+        },
+        {
+          "p": "The acceptance model gate confirms an analysable coordinate and ligand set. The interim model gate presents preparation choices, pocket-water uncertainties and the proposed ranking route. The final handover will include the ranked design list and reproducibility appendix. Julie Lindsey will coordinate delivery questions; scientific changes affecting the agreed question will be discussed before additional work is undertaken."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Deliverables and acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Deliverables are a client report, a ranked design list with parent-state mapping, the interpretation of pocket-water alternatives and an analysis notebook route sufficient to reproduce the comparison from accepted inputs. Each design entry will retain its rationale and uncertainty rather than presenting a score without context. Accession {{PRJ0014:lims_id}} will link the input inventory and output revision."
+        },
+        {
+          "p": "Deliverable acceptance concerns completeness, provenance and consistency with the agreed scope. It does not depend on finding a more potent ligand or on the client choosing a particular design. The final report will distinguish supplied structural evidence from modelling assumptions. Drelvessa Therapeutics SAS retains responsibility for experimental confirmation and the subsequent chemistry selection."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Fixed fee, assumptions and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The fixed fee for {{PRJ0014:project_id}} is {{PRJ0014:price}} for the scope described here. It covers coordinate review, Docking and hit clustering, pocket-water assessment and the reproducible ranked design list. The quoted turnaround is {{PRJ0014:turnaround_days}} days from the agreed analytical start with usable inputs. Compound synthesis, new diffraction work and experimental assays are not included in this fee."
+        },
+        {
+          "p": "Authorisation should confirm permission to use the supplied co-crystal coordinates and ligand representations for this engagement, the agreed candidate set and the nominated client decision route. A changed target state, substantially revised coordinate set or expanded design question requires scope discussion before execution. This final proposal is ready for client authorisation; it is not a statement that modelling has already identified a preferred substitution."
+        }
+      ]
+    }
+  ],
+  "appendices": [],
+  "signature_block": [
+    {
+      "name": "Tomasz Zawiernicki",
+      "role": "Head of Bioinformatics",
+      "date": "24 Jul 2025",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
