@@ -1,56 +1,181 @@
-{"family": "workbook",
- "summary": "Assay worksheet for the NM-84 exposure bridging study between the two dosing lots, run as rat exposure with tandem-MS bioanalysis. Matrix acceptance is recorded per run and the dosing and sampling protocol is set out for the record. The lot comparison itself is in the readout.",
- "properties": {"title": "MV-2023-288 assay worksheet"},
- "sheets": [
-  {"name": "Summary", "rows": [
-    [{"v": "MV-2023-288 assay worksheet", "bold": true}],
-    ["Project", "MV-2023-288"],
-    ["LIMS reference", "M23/BIO/06630"],
-    ["Client", "Nimbravelle Medicines Inc"],
-    ["Study", "NM-84 exposure bridging between dosing lots"],
-    ["Assay", "Rat exposure with tandem-MS bioanalysis, oral and IV PK"],
-    ["Turnaround (calendar days)", "{{PRJ0065:turnaround_days}}"],
-    [],
-    ["Status", "Final"],
-    ["Prepared by", "Javier Quintana", null, "11/27/2023"],
-    ["Reviewed by", "Helen Marchwood", null, "QC'd 11/27/2023"]
-   ],
-   "col_widths": {"A": 26, "B": 56, "C": 4, "D": 16},
-   "merged": ["A1:D1"]},
-  {"name": "Accession lots", "rows": [
-    [{"v": "Accession-lot mapping", "bold": true}],
-    ["Accession lot", "Dosing lot", "Role in the bridge", "Received", "Storage"],
-    ["M23/BIO/06630-01", "Lot A (reference)", "Comparator arm", "10/12/2023", "-20 °C"],
-    ["M23/BIO/06630-02", "Lot B (new)", "Bridging arm", "10/12/2023", "-20 °C"],
-    ["M23/BIO/06630-03", "Blank plasma, rat", "Matrix blank and calibration", "10/09/2023", "-80 °C"],
-    [],
-    ["Dosing formulations are logged against the lot numbers on the dosing record."]
-   ],
-   "col_widths": {"A": 20, "B": 20, "C": 30, "D": 14, "E": 14},
-   "freeze": "A3"},
-  {"name": "Dosing record", "rows": [
-    [{"v": "Dosing and sampling protocol", "bold": true}],
-    ["Group", "Dosing lot", "Route", "Animals", "Sampling time points (h)"],
-    ["1", "Lot A (reference)", "Oral", "4 per group", "0.25, 0.5, 1, 2, 4, 8, 24"],
-    ["2", "Lot B (new)", "Oral", "4 per group", "0.25, 0.5, 1, 2, 4, 8, 24"],
-    ["3", "Lot A (reference)", "IV", "4 per group", "0.083, 0.25, 0.5, 1, 2, 4, 8, 24"],
-    ["4", "Lot B (new)", "IV", "4 per group", "0.083, 0.25, 0.5, 1, 2, 4, 8, 24"],
-    [],
-    ["Sampling was timed from the dose, and the dose-day schedule was agreed with Megan Larkin before the first animal was dosed."]
-   ],
-   "col_widths": {"A": 8, "B": 20, "C": 10, "D": 14, "E": 40},
-   "freeze": "A3",
-   "comments": [{"cell": "E4", "text": "IV early point is 5 min. Confirm the label on the sampling sheet matches before the bridge is written up.", "author": "Carole Mills"}]},
-  {"name": "Matrix acceptance", "rows": [
-    [{"v": "Matrix acceptance by run", "bold": true}],
-    ["Run", "Date", "Calibrators", "QC levels", "Accepted", "Checked by"],
-    ["R1", "10/25/2023", "Met", "Met", "Yes", "Benjamin Ahuja"],
-    ["R2", "10/31/2023", "Met", "Met", "Yes", "Benjamin Ahuja"],
-    ["R3", "11/03/2023", "Met, one level re-prepared", "Met", "Yes", "Helen Marchwood"],
-    ["R4", "11/06/2023", "Met", "Met", "Yes", "Helen Marchwood"],
-    []
-   ],
-   "col_widths": {"A": 8, "B": 14, "C": 28, "D": 14, "E": 12, "F": 20},
-   "freeze": "A3",
-   "comments": [{"cell": "C5", "text": "Re-prepared level kept in the run, original preparation noted on the bench sheet", "author": "Helen Marchwood"}]}
- ]}
+{
+  "family": "workbook",
+  "summary": "MV-2023-288 is a source-record index for the NM-84 rat exposure bridge between two dosing lots. Doses, vehicles, sample matrix and analytical limits belong to the signed dosing plan and assay-method records under M23/BIO/06630; no numerical exposure or independent run acceptance is reproduced here. Comparable exposure allowed Nimbravelle to retain the original efficacy interpretation, as reported in MV-2023-288_Readout_112723_R1.pptx.",
+  "properties": {
+    "title": "MV-2023-288 assay worksheet"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc, a Tarnovell company: MV-2023-288 assay worksheet",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "MV-2023-288"
+        ],
+        [
+          "LIMS reference",
+          "M23/BIO/06630"
+        ],
+        [
+          "Client",
+          "Nimbravelle Medicines Inc"
+        ],
+        [
+          "Study",
+          "NM-84 exposure bridging between dosing lots"
+        ],
+        [
+          "Assay",
+          "Rat exposure with tandem-MS bioanalysis, oral and IV PK"
+        ],
+        [
+          "Turnaround (calendar days)",
+          "{{PRJ0065:turnaround_days}}"
+        ],
+        [],
+        [
+          "Status",
+          "Final"
+        ],
+        [
+          "Prepared by",
+          "Javier Quintana",
+          null,
+          "11/27/2023"
+        ],
+        [
+          "Reviewed by",
+          "Helen Marchwood",
+          null,
+          "QC'd 11/27/2023"
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 56,
+        "C": 4,
+        "D": 16
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Accession lots",
+      "rows": [
+        [
+          {
+            "v": "Accession-lot source mapping",
+            "bold": true
+          }
+        ],
+        [
+          "Item",
+          "Source record"
+        ],
+        [
+          "Reference and bridging dosing lots",
+          "Signed lot-receipt/analyte cards and dosing-plan allocation under M23/BIO/06630; local lot identifiers remain in those records."
+        ],
+        [
+          "Rat bioanalytical samples",
+          "Sample accession cards identify matrix, anticoagulant, storage and lot/group mapping; these details are not independently reconstructed here."
+        ]
+      ],
+      "col_widths": {
+        "A": 20,
+        "B": 20,
+        "C": 30,
+        "D": 14,
+        "E": 14
+      },
+      "freeze": "A3"
+    },
+    {
+      "name": "Dosing record",
+      "rows": [
+        [
+          {
+            "v": "Dosing-plan source index",
+            "bold": true
+          }
+        ],
+        [
+          "Field",
+          "Authoritative source / scope"
+        ],
+        [
+          "Administered dose and vehicle",
+          "MV-2023-288 signed dosing plan under M23/BIO/06630: lot/route-specific dose, dose volume, formulation concentration and vehicle composition. Values not transcribed here."
+        ],
+        [
+          "Animal and sampling linkage",
+          "Executed dosing/sampling sheets under the same accession: animal identifiers, dose time, nominal/actual collection times and rat matrix."
+        ],
+        [
+          "Exposure-bridge interpretation",
+          "MerrivossData/Client_Work/MV-2023-288/MV-2023-288/MV-2023-288_Readout_112723_R1.pptx: comparable exposure retained original efficacy interpretation. This qualitative conclusion is not a numerical equivalence claim."
+        ]
+      ],
+      "col_widths": {
+        "A": 8,
+        "B": 20,
+        "C": 10,
+        "D": 14,
+        "E": 40
+      },
+      "freeze": "A3"
+    },
+    {
+      "name": "Matrix acceptance",
+      "rows": [
+        [
+          {
+            "v": "Assay-method and run-disposition source index",
+            "bold": true
+          }
+        ],
+        [
+          "Requirement",
+          "Record to consult",
+          "Scope"
+        ],
+        [
+          "Matrix definition",
+          "MV-2023-288 signed assay method and sample accession cards under M23/BIO/06630",
+          "Rat matrix type and anticoagulant must match the method; not transcribed here."
+        ],
+        [
+          "Calibration range / LLOQ",
+          "Analyte-specific method and calibration records under M23/BIO/06630",
+          "Range, units, LLOQ and dilution provisions belong to the method, not this index."
+        ],
+        [
+          "Run criteria",
+          "Method acceptance section and signed run acceptance sheets",
+          "Blank analyte/internal-standard interference, back-calculated calibrator bias/proportion and QC bias/proportions overall/per level."
+        ],
+        [
+          "Run disposition",
+          "Original run sheets and any rejected/repeated-run disposition records",
+          "Identifiers, exclusions, repeat reasons and sample reanalysis linkage; no Met or accepted status inferred here."
+        ]
+      ],
+      "col_widths": {
+        "A": 8,
+        "B": 14,
+        "C": 28,
+        "D": 14,
+        "E": 12,
+        "F": 20
+      },
+      "freeze": "A3"
+    }
+  ]
+}
