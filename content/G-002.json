@@ -1,0 +1,114 @@
+{
+  "family": "deck",
+  "summary": "Final client readout for Avernelwick Pharmaceuticals Ltd covering hERG (IKr) safety pharmacology and the CYP safety interaction panel. Favourable cardiac profile retained, with a CYP-sensitive subseries; alternatives selected for follow-up.",
+  "properties": {
+    "title": "OT-23-S0046 client readout v3 FINAL_final",
+    "subject": "OT-23-S0046 client readout v3 FINAL_final",
+    "keywords": "Osterquill; control validity; safety"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "AP02 aminopyrimidine regioisomer: integrated safety screen",
+      "subtitle": "OT-23-S0046 | Avernelwick Pharmaceuticals Ltd | 03/23/2023\nDr N. Takamori | Osterquill Toxicology Inc | v3 FINAL_final",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Client decision",
+      "bullets": [
+        "{{PRJ0013:n_compounds}} test articles evaluated in the non-GLP in vitro investigation.",
+        "Favourable cardiac profile retained, with a CYP-sensitive subseries; alternatives selected for follow-up.",
+        "Screening ranks test articles; it does not establish clinical safety or a GLP conclusion."
+      ],
+      "notes": "v3 client copy: alternatives selected replaces earlier recommendation to consider alternatives; results unchanged.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Scope and control validity",
+      "bullets": [
+        "Testing interval: 03/08/2023–03/23/2023; LIMS {{PRJ0013:lims_id}}.",
+        "E-4031 IC50 {{PRJ0013:herg.control_e4031_nM}} nM; acceptance interval 5–50 nM.",
+        "CYP control IC50s assessed against 0.5–2 times historical means.",
+        "No live-animal procedures were included; animal welfare oversight of the regulated portfolio is separate."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "hERG (IKr) safety pharmacology: IC50 (µM)",
+      "chart": {
+        "kind": "bar",
+        "title": "hERG (IKr) safety pharmacology: IC50 (µM)",
+        "ref": "PRJ0013:herg",
+        "column": 4
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Cardiac distribution and qualifications",
+      "bullets": [
+        "{{PRJ0013:herg.n_lt_1uM}} below 1 µM; {{PRJ0013:herg.n_1_10uM}} between 1 and 10 µM; {{PRJ0013:herg.n_ge_10uM}} at or above 10 µM.",
+        "Median IC50 {{PRJ0013:herg.median_ic50_uM}} µM; top concentration {{PRJ0013:herg.top_conc_uM}} µM.",
+        "{{PRJ0013:herg.n_censored}} censored estimates and {{PRJ0013:herg.n_flagged}} flagged entries require their observation-sheet qualifications.",
+        "Censored estimates are bounds, not fitted potencies; finite estimates require an exposure comparison."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "CYP safety interaction panel: CYP3A4 inhibition at 10 µM",
+      "chart": {
+        "kind": "bar",
+        "title": "CYP safety interaction panel: CYP3A4 inhibition at 10 µM",
+        "ref": "PRJ0013:cyp_inhib",
+        "column": 5
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "CYP-sensitive test articles",
+      "bullets": [
+        "{{PRJ0013:cyp.n_any_gt50}} test articles exceeded 50% inhibition on at least one isoform.",
+        "CYP1A2 {{PRJ0013:cyp.n_gt50_CYP1A2}}; CYP2C9 {{PRJ0013:cyp.n_gt50_CYP2C9}}; CYP2C19 {{PRJ0013:cyp.n_gt50_CYP2C19}}; CYP2D6 {{PRJ0013:cyp.n_gt50_CYP2D6}}; CYP3A4 {{PRJ0013:cyp.n_gt50_CYP3A4}}.",
+        "CYP3A4 was most frequently flagged. Counts overlap and must not be summed.",
+        "The single-concentration panel does not establish inhibition mechanism."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Representative test article structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0013",
+        "n": 6
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "CYP panel extract: compare the full fingerprint",
+      "table": {
+        "table_ref": "PRJ0013:cyp_inhib",
+        "max_rows": 8
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Handover and next decision",
+      "bullets": [
+        "Prioritize the selected branch or alternatives using both cardiac potency and CYP fingerprints.",
+        "Resolve flagged hERG entries before relying on rank; obtain concentration responses for CYP liabilities in proposed leads.",
+        "Compare assay potency with projected unbound exposure before progression.",
+        "Full tables and control documentation: OT-23-S0046_RPT_A_signed.pdf."
+      ],
+      "notes": "Dr N. Takamori presents the interpretation. v3 retains the panel extract for discussion; the condensed meeting copy may omit it.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    }
+  ]
+}
