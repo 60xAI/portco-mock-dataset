@@ -1,0 +1,321 @@
+{
+  "family": "document",
+  "summary": "Final report for Farnovessa Medicines on {{PRJ0023:n_compounds}} imidazolidinones. The alkylation route favoured the desired substitution site and the analogue set was accepted with an impurity reference; the complete synthesis table defines delivered material.",
+  "properties": {
+    "title": "VD-20-028 | Route scout and delivery | Revision A"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "VD-20-028 | Route scout and delivery | Revision A",
+    "subtitle": "Farnovessa Medicines | Final report",
+    "lines": [
+      "Date: 11 Aug 2020",
+      "Programme {{PRJ0023:project_id}} | Accession {{PRJ0023:lims_id}}",
+      "Prepared by: Ruth Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Final disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Farnovessa Medicines accepted the {{PRJ0023:n_compounds}} imidazolidinones with an impurity reference. The alkylation route favoured the desired substitution site; the reference accompanied the interpretation of the analogue set."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0023:synthesis",
+            "max_rows": 45,
+            "caption": "Table 1. Complete delivered analogue set: isolated yields, HPLC UV area-percent purity and amounts."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Programme remit",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Late-stage diversification of the imidazolidinone scaffold was intended to provide defined material while controlling ambiguity about the alkylation site. Route selection and identity assignment therefore formed separate route gates."
+        },
+        {
+          "p": "The quotation was dated 19 Feb 2020. Preparation started on 30 Mar 2020, the interim point was 04 Jun 2020 and the programme completed on 10 Aug 2020. This final issue is dated 11 Aug 2020."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Programme account",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The administrative summary below identifies the programme and commissioned scope. Its source heading “Compounds tested” should be read as the synthesis set, not a claim of protease assay data."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0023:benchmark",
+            "max_rows": 45,
+            "caption": "Table 2. Programme benchmark summary."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Chemistry hypothesis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The route was chosen to favour alkylation at the desired substitution site of the imidazolidinone. A competing site could produce material that is related in composition yet inappropriate for the intended structural comparison."
+        },
+        {
+          "p": "The outcome supports the selected route’s direction. It supplies no numerical site-selectivity ratio, so no ratio is assigned in this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Structures and material",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The FM20 compound identifiers in Table 1 describe the delivered analogue set. Design drawings for further diversification remain proposed structures."
+        },
+        {
+          "p": "The representative grid helps orient the scaffold discussion. For material handling, use the complete table and individual compound cards rather than treating a representative drawing as a delivery label."
+        },
+        {
+          "image": {
+            "kind": "molecule_grid",
+            "ref": "PRJ0023",
+            "n": 8
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Responsibility at route gates",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ruth Calderwood directed the analogue priorities and site-selectivity decision. Hassan Darwish led synthetic execution and interpretation. Clara Fenwick held analytical-release responsibility."
+        },
+        {
+          "p": "A preferred reaction outcome does not remove the release gate. Each isolated analogue needs evidence for the intended identity, with the impurity reference supporting interpretation where relevant."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Alkylation-site assignment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The intended site must be identified in the structure carried on the compound card. An alkylated product should not be described as the desired analogue solely because the reaction consumed its starting material."
+        },
+        {
+          "p": "Site assignment belongs to the identity evidence. Keep that assignment separate from a proposed explanation for why the reaction favoured the site; a mechanistic argument alone cannot release material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Competing material",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A side-product may resemble the desired analogue in a routine chromatographic trace. The accepted impurity reference provides a material comparison for interpretation rather than leaving the relevant feature as an unnamed peak."
+        },
+        {
+          "p": "Do not assume that every additional peak is the same impurity. The reference supports a specific comparison; other unexplained features require their own assessment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Reference purpose",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Farnovessa accepted the analogue set with an impurity reference. The reference should be labelled and handled for that purpose so it is not mistaken for a progression candidate."
+        },
+        {
+          "p": "Acceptance with a reference does not imply that an unlimited impurity level is acceptable. No numerical impurity acceptance limit is supplied in the programme export, and this report creates none."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Isolation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Isolation separates the recoverable desired material from the reaction mixture and associated impurities. The final-product compound card should preserve that distinction even where the route uses common late-stage chemistry."
+        },
+        {
+          "p": "A mixed fraction is not automatically interchangeable with an isolated analogue. Any combination of recoveries needs an identity and purity assessment on the resulting material rather than reliance on the cleanest earlier fraction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Yield basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The isolated yields in Table 1 are chemistry results for the delivered analogues. Read them alongside the amounts and identity fields, not as measurements of protease inhibition."
+        },
+        {
+          "p": "Yield is useful for deciding where another route scout may be needed. It does not establish that a structure is worth biological progression or that a low-yielding analogue should be excluded without client testing."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Purity interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HPLC purity in Table 1 is UV area percent at 254 nm. Retain the detector and measurement context when discussing release or preparing the client’s material inventory."
+        },
+        {
+          "p": "Area-percent purity is not a mass-fraction assay. The impurity reference aids interpretation of the chromatographic evidence but does not convert the measurement into a quantitative content assay."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Delivered-material reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The table provides amounts in mg for the delivered analogue set. Use compound identifiers to link the material to its released compound card and intended structure."
+        },
+        {
+          "p": "Andrew May’s sample-management function supports reconciliation at handover. Keep the impurity-reference purpose visible in the handover rather than folding reference material into the analogue count."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Acceptance and interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme outcome records acceptance by Farnovessa Medicines of the analogue set with the impurity reference. The chemistry conclusion is that the route favoured the desired substitution site."
+        },
+        {
+          "p": "No biological activity results are supplied here. The accepted chemistry package allows the client to test its programme question without treating an alternative alkylation site as the intended identity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Follow-up route gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "For another diversification round, retain the site-assignment requirement and reference comparison. Changes to the alkylating partner may alter reaction preference or final-product isolation."
+        },
+        {
+          "p": "Hassan Darwish should reopen the chemistry assessment if a changed partner produces an unfamiliar profile. Previous acceptance of the set is not a standing release decision for new material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Next analogue",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Select the next analogue using the client’s testing results and a clear structural comparison. A change in substituent should remain a proposal until prepared and assigned."
+        },
+        {
+          "p": "Ruth Calderwood’s next route decision should weigh the synthetic risk alongside that comparison. Avoid interpreting a site-selectivity change as biological improvement before the correct material is tested."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The commissioned programme completed with {{PRJ0023:n_compounds}} imidazolidinones, a recorded turnaround of {{PRJ0023:turnaround_days}} calendar days and price of {{PRJ0023:price}}."
+        },
+        {
+          "p": "The delivered table and accepted impurity-reference outcome form the final chemistry account. No unprovided impurity abundance or site-selectivity value is added to the source results."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Final statement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The alkylation route favoured the desired substitution site and Farnovessa Medicines accepted the analogue set with an impurity reference. Isolated compounds are identified in Table 1."
+        },
+        {
+          "p": "Ruth Calderwood closes the programme with proposed structures separate from delivered material, and with biological interpretation reserved to the client’s subsequent experiments."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Ruth Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "11 Aug 2020",
+      "signed": true
+    },
+    {
+      "name": "Clara Fenwick",
+      "role": "Analytical Release Lead",
+      "date": "11 Aug 2020",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
