@@ -1,0 +1,53 @@
+{"family": "workbook",
+ "summary": "Resupply workbook for VD-22-076, the Elvarmere chiral intermediate campaign B for Elvarmere Biosciences AB. It links the enantiomeric-purity measurements to the isolated mass for each lot, and records the approved release of the delivery lot that restarted the client's downstream synthesis.",
+ "properties": {"title": "VD-22-076 Elvarmere resupply, lot B"},
+ "sheets": [
+  {"name": "Summary",
+   "rows": [
+    [{"v": "VD-22-076 Elvarmere chiral intermediate resupply, campaign B", "bold": true}],
+    ["Project", "{{PRJ0025:project_id}}"],
+    ["LIMS", "{{PRJ0025:lims_id}}"],
+    ["Client", "{{PRJ0025:client_variant}}"],
+    ["Price", "{{PRJ0025:price}}"],
+    ["Turnaround (days)", {"ref": "PRJ0025:turnaround_days"}],
+    [],
+    ["Outcome", "Resupply met the enantiomeric-purity specification agreed at quote. Elvarmere's downstream synthesis restarted on release."],
+    ["Lot status", "Released. Measurements and isolated mass are on the Lot sheet; the release sign-off is on the Release sheet."],
+    [],
+    ["Compiled by", "Clara Fenwick", null, "24/10/2022"],
+    ["Approved by", "Dr R. Calderwood", null, "24/10/2022"]
+   ],
+   "col_widths": {"A": 22, "B": 70},
+   "merged": ["A1:D1"],
+   "tab_color": "#1F4E79"},
+  {"name": "Lot",
+   "rows": [
+    [{"v": "Lot B: chiral purity and isolated mass", "bold": true}],
+    ["Enantiomeric purity by chiral HPLC on the method in the study plan. Isolated mass from the balance record, in g for the bulk lot."],
+    [],
+    [{"v": "Item", "bold": true}, {"v": "Measurement", "bold": true}, {"v": "Result", "bold": true}, {"v": "Note", "bold": true}],
+    ["Starting material", "Chiral HPLC, enantiomeric purity", "Recorded on the run sheet", "Matches the lot sent for the resupply."],
+    ["Crystallised intermediate", "Chiral HPLC, enantiomeric purity", "Recorded on the run sheet", "Second crystallisation was needed to reach the specification."],
+    ["Bulk lot, final", "Chiral HPLC, enantiomeric purity", "Recorded on the run sheet", "Within the agreed specification."],
+    ["Bulk lot, final", "Isolated mass", "Recorded on the balance record", "Handwritten mass transcribed here in g; checked by CF."],
+    [],
+    ["Note", "The downstream synthesis at Elvarmere needs the isolated mass and the chiral result together. Keep both on the same line."]
+   ],
+   "col_widths": {"A": 26, "B": 34, "C": 30, "D": 60},
+   "freeze": "A5"},
+  {"name": "Release",
+   "rows": [
+    [{"v": "Delivery lot release", "bold": true}],
+    [],
+    ["Release decision", "Approved for delivery"],
+    ["Release by", "Clara Fenwick", null, "24/10/2022"],
+    ["Approved by", "Dr R. Calderwood", null, "24/10/2022"],
+    [],
+    ["Client", "{{PRJ0025:client_variant}}"],
+    ["Delivered to", "Elvarmere Biosciences AB, Uppsala, Sweden"],
+    ["Turnaround", {"ref": "PRJ0025:turnaround_days"}],
+    [],
+    ["Note", "No analogue set on this campaign, so there is no compound table. Series is not applicable."]
+   ],
+   "col_widths": {"A": 22, "B": 60}}
+ ]}
