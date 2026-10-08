@@ -1,0 +1,7 @@
+{"family": "deck",
+ "summary": "Unfinished local scratch deck on control validity for a study amendment. It stops after the heading and two open to-do points, with no acceptance limits written yet.",
+ "properties": {"title": "Control validity: draft", "subject": "Working notes", "keywords": "control validity; draft"},
+ "slides": [
+  {"layout": "title", "title": "Control validity: draft", "subtitle": "Osterquill Toxicology Inc | KM | 09 Aug 2022"},
+  {"layout": "title_content", "title": "Control validity", "bullets": ["Vehicle control: acceptance criteria TODO", {"text": "Check against the study plan before the next amendment", "level": 1}, "Positive control: TODO, confirm the reference compound and dose"]}
+ ]}
