@@ -1,0 +1,308 @@
+{
+  "family": "scan",
+  "summary": "Scanned signed Protocol A for NM-31 Rat DRF and recovery. It defines the prospective seven-day dosing phase, individual-animal observations, humane stopping criteria and handwritten QA checks before initiation.",
+  "document": {
+    "family": "document",
+    "summary": "Scanned signed Protocol A for NM-31 Rat DRF and recovery. It defines the prospective seven-day dosing phase, individual-animal observations, humane stopping criteria and handwritten QA checks before initiation.",
+    "properties": {
+      "title": "NM-31 Rat DRF and recovery: Protocol A"
+    },
+    "header": "Osterquill Toxicology Inc | {{PRJ0118:project_id}} | Protocol A",
+    "footer": "Osterquill Toxicology Inc | Confidential",
+    "watermark": null,
+    "title_block": {
+      "title": "NM-31 Rat DRF and recovery",
+      "subtitle": "Protocol A | signed authorization pages",
+      "lines": [
+        "Investigation: {{PRJ0118:project_id}}",
+        "LIMS: {{PRJ0118:lims_id}}",
+        "Client: Nimbravelle Medicines Inc",
+        "Approval date: 02/10/2010",
+        "Planned first administration: 02/11/2010"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Protocol authorization and purpose",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "This signed Protocol A authorizes the planned exploratory seven-day phase of Rat DRF and recovery for NM-31, supplied by Nimbravelle Medicines Inc. The investigation is intended to identify a tolerable working dose range and to guide the design of later work. It does not establish a definitive safety profile or make a GLP regulatory claim."
+          },
+          {
+            "p": "Rachel Okafor is responsible for the protocol and execution instructions. Naomi Takamori provides scientific oversight. Lucia Moretti checks the approval trail and documentary QA gates. The planned start is 02/11/2010; no findings from that phase are available on the signature date, 02/10/2010."
+          },
+          {
+            "p": "Animal welfare decisions take precedence over collection of a planned observation. This authorization is conditional on animal-room readiness, suitable formulations and completion of the pre-dose gate. The signed pages are retained as a scanned copy; the original signatures remain in the protocol archive."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Scientific objective and exploratory status",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The objective is to describe tolerability during repeated NM-31 administration and after cessation where recovery observations are justified. The report will relate findings to administered dose, sex, timing and individual animal identity. Group summaries will not replace the individual-animal observations on which a welfare or dose decision rests."
+          },
+          {
+            "p": "The seven-day phase is range finding. It will inform a subsequent longer investigation without claiming that the selected range is safe under a different duration, formulation or route. An apparent absence of signs must be considered alongside the adequacy of exposure and observations."
+          },
+          {
+            "p": "This protocol is not a GLP compliance declaration. Source traceability, approved instructions and QA checks are required for the exploratory work, but any future GLP investigation must have its own approved scope. No in vitro package is authorized by these animal-phase instructions."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Responsibilities and escalation",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Rachel Okafor will release dosing readiness, assess departures and decide whether the next administration is permitted after a concern. Naomi Takamori will support scientific escalation. Rebecca Hawkins will perform assigned in vivo tasks only where trained and approved for the procedure."
+          },
+          {
+            "p": "Lucia Moretti will check the signed protocol, study amendments and archive reconciliation. Giorgia Varano will coordinate client communications without directing welfare decisions. Samuel Hartwell will route commercial matters; price discussions must not delay care or change an exposure instruction."
+          },
+          {
+            "p": "The responsible veterinary oversight and animal care contact must be identified on the room instruction before dosing. Personnel must know how to obtain an urgent assessment if the director is unavailable. The observer will document the concern and immediate response before subsequent scientific discussion."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Dose lot receipt and accountability",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Nimbravelle Medicines Inc will supply NM-31 with clear dose lot identity, available characterization, storage guidance and handling precautions. The receipt observation sheet will capture container condition, label reconciliation and quantity available. Unresolved identity or handling questions require a hold before preparation."
+          },
+          {
+            "p": "Each aliquot and formulation will retain the investigation identifier and originating dose lot. Material use will be recorded sufficiently to connect an administration to its preparation. A replacement dose lot cannot be introduced silently; suitability and any effect on interpretation must be reviewed."
+          },
+          {
+            "p": "Unused material will remain under specified storage pending client instructions. This protocol does not authorize undocumented disposal. Preparation staff will notify Rachel Okafor if insufficient suitable material would prevent the intended exposure or necessitate a change in concentration."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Animal allocation and identification",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The planned allocation is a vehicle control and NM-31 dose groups at 30, 100 and 300 mg/kg/day, each with 3 males and 3 females. These are prospective protocol settings, not measured tolerability results. Recovery allocation will be approved before any additional animals are assigned."
+          },
+          {
+            "p": "Individual-animal identifiers will use the investigation reference with group, sex and animal suffixes. Each identifier must agree across cage labels, dosing instructions, observation sheets and animal cards. The allocation sheet is the controlling link; a cage position is not an animal identity."
+          },
+          {
+            "p": "Allocation will follow satisfactory health and baseline review. An animal not suitable for dosing will be referred for assessment and will not be replaced without documented authorization. The reason for any changed allocation must remain visible in the final account of animals used."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "6 Acclimation, husbandry and baseline gate",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Before exposure, the room will confirm acclimation, health suitability, housing and access to feed and water. Baseline body weight and clinical observations will be retained for each animal. A pre-existing sign must be distinguishable from a treatment-emergent observation."
+          },
+          {
+            "p": "Environmental conditions and husbandry events will be recorded on the room observation sheets. Unusual noise, interrupted water access or other relevant conditions will be referred to Rachel Okafor where they could affect welfare or interpretation. A satisfactory room check is required before the first administration."
+          },
+          {
+            "p": "Animals will not be dosed if monitoring or urgent veterinary assessment cannot be provided. The pre-dose gate includes trained personnel, readable identifiers, approved formulation instructions and an accessible welfare contact route. Lucia Moretti will check that the release is documented."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "7 Formulation and administration instructions",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "NM-31 will be administered orally once daily for seven days using the approved vehicle and formulation instructions. The control receives vehicle by the same route and handling procedure. Formulation concentration, dose volume and current body weight must support the intended dose in mg/kg/day."
+          },
+          {
+            "p": "Preparation instructions will define mixing, storage and permissible use period before dosing release. Homogeneity and stability suitability must be supported for the intended conditions. A preparation outside its approved use period cannot be used to avoid a schedule delay."
+          },
+          {
+            "p": "The animal card will retain administration date, time, formulation identity, intended dose, administered volume and dosing observation. A partial, missed or uncertain administration will be described as such. No compensatory extra dose may be given without Rachel Okafor’s written direction."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "8 Daily observations and measurement schedule",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Clinical observations will be made before dosing, after dosing during the period of expected acute response and at routine room checks. The protocol observation sheet will retain actual times. Activity, posture, respiration, gait, appearance and access to food and water will use descriptive terms rather than an unexplained normal/abnormal tick."
+          },
+          {
+            "p": "Body weight will be measured before the first dose and at defined checks through the seven-day phase, including the final assessment. Additional weighing may be directed for a welfare concern. Food consumption will retain its cage basis and interval; it must not be attributed to one animal without supporting observation."
+          },
+          {
+            "p": "Missed measurements remain identified as missed. Observations may not be reconstructed from memory after the event or copied from a cage mate. Rachel Okafor will determine whether a missing measurement affects interpretation or the next dosing decision."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "9 Individual-animal welfare checks",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The observer will assess each animal rather than relying only on the group’s general appearance. Reduced activity, abnormal respiration, impaired movement, dehydration, inability to feed or drink and evidence of pain require prompt attention. A detailed animal-card entry will identify onset, severity, persistence and accompanying signs."
+          },
+          {
+            "p": "If concern is detected, the observer will seek immediate assessment under the room welfare procedure and notify Rachel Okafor. Increased monitoring, withholding a dose or removal from the procedure may be needed. The exact action, decision maker and time must be recorded."
+          },
+          {
+            "p": "The client will be informed through the investigation communication route once immediate care is secured. Client permission is not a prerequisite for urgent welfare intervention. A later group summary must preserve the affected animal’s identifier and the sequence of observations and action."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "10 Humane stopping criteria",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Dosing will be withheld pending assessment where severe or persistent distress, compromised mobility, inability to reach feed or water, marked deterioration or a veterinary concern makes continued exposure unjustified. An animal may be humanely euthanized according to the approved care procedure when recovery cannot be reasonably expected or suffering cannot be controlled."
+          },
+          {
+            "p": "Clinical judgement is required; a numerical measurement is not the sole trigger. Rachel Okafor and veterinary oversight will review the entire individual-animal presentation. An animal must not remain exposed while staff wait to determine whether a group endpoint can still be collected."
+          },
+          {
+            "p": "Stopping decisions will retain animal identity, observed signs, time, consultation and disposition. The report will distinguish humane removal from a scheduled terminal examination. Unscheduled removal is not a missing-data inconvenience and must not be omitted from the tolerability interpretation."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "11 Dose review and hold decisions",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Rachel Okafor will review emerging observations before continued dosing where a concern has been raised. The higher-dose group is not entitled to complete all administrations regardless of the animals’ condition. A hold may apply to an individual or group, with its extent and rationale recorded."
+          },
+          {
+            "p": "No dose increase beyond the signed allocation is permitted under these instructions. Changing dose, route or duration requires an approved study amendment after welfare and scientific review. Reducing or stopping exposure for urgent welfare reasons must be documented immediately and reconciled through the amendment trail as appropriate."
+          },
+          {
+            "p": "Naomi Takamori will review material changes affecting the investigation’s ability to define a working range. Decisions must use the available observations without claiming a maximum tolerated dose before the phase has been completed and reviewed."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "12 Recovery and terminal procedures",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "After the dosing phase, recovery observations may be undertaken only for animals and endpoints specified in an approved recovery instruction. The purpose is to describe the course of signs after cessation, not to prolong distress in order to demonstrate reversal. Welfare stopping criteria continue to apply."
+          },
+          {
+            "p": "Terminal procedures will retain animal identity, timing and the distinction between scheduled examination and an unscheduled welfare intervention. Gross observations and retained specimens will be linked to the animal card. Additional specialized analysis is outside scope unless separately authorized."
+          },
+          {
+            "p": "The director will report the actual duration of observation and any endpoint not obtained. Recovery without a sign is different from a period cut short by removal. Both must remain explicit when the client uses the findings to plan longer administration."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "13 Control validity, deviations and reporting",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Control validity requires a suitable vehicle, reliable preparations, traceable administration, baseline information and adequate observation coverage. The vehicle group supports interpretation but cannot replace review of the individual dose-group animals. Environmental or handling differences will be assessed for their relevance."
+          },
+          {
+            "p": "Departures will be entered contemporaneously with the affected animal or procedure and reviewed by Rachel Okafor. Lucia Moretti will check report-to-source agreement and the completeness of the amendment trail. A deviation cannot be erased by rewriting the planned method as if the changed procedure had always been intended."
+          },
+          {
+            "p": "The planned interim communication is 03/15/2010 and target final completion is 04/12/2010. The overall investigation interval is {{PRJ0118:turnaround_days}} calendar days. The report will present actual observations and limitations; these signed protocol pages contain no prospective result claim."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "14 Signed approval and QA annotations",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Rachel Okafor approves Protocol A on 02/10/2010 for the planned exploratory phase, conditional on closure of the pre-dose gate. Naomi Takamori approves the scientific direction. Lucia Moretti confirms that the signature copy and welfare instructions are to be retained together in the controlled protocol archive."
+          },
+          {
+            "p": "Client acknowledgement: signed for Nimbravelle Medicines Inc; signature retained on the original approval page dated 02/10/2010. This acknowledgement does not require client consultation before an urgent humane intervention. Material scope changes will be communicated separately."
+          },
+          {
+            "p": "Handwritten QA annotation, L. Moretti: individual animal IDs must carry through dose, welfare and terminal pages; check contact sheet before first dose. R. Okafor: acknowledged 02/10/2010.",
+            "style": "note"
+          },
+          {
+            "p": "Approved instructions remain in force unless superseded by a signed study amendment. No later outcome or dose-selection conclusion has been added to this scan of the pre-dose protocol."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Rachel Okafor",
+        "role": "Toxicology Study Director",
+        "date": "02/10/2010",
+        "signed": true
+      },
+      {
+        "name": "Naomi Takamori",
+        "role": "Head of Toxicology",
+        "date": "02/10/2010",
+        "signed": true
+      },
+      {
+        "name": "Lucia Moretti",
+        "role": "GLP Quality Assurance and Archive Lead — documentary review",
+        "date": "02/10/2010",
+        "signed": true
+      }
+    ]
+  },
+  "scan": {
+    "skew_deg": -0.5,
+    "noise": 0.18,
+    "blur": 0.3,
+    "stamp": "PROTOCOL APPROVED 02/10/2010",
+    "handwriting": "L. Moretti: Check welfare contact sheet before first dose. Individual IDs on every animal card. R. Okafor acknowledged.",
+    "pages": null
+  }
+}
