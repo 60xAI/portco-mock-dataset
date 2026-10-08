@@ -1,62 +1,220 @@
-{"family": "workbook",
- "summary": "Run sheets for BW21_0240 (Tervemere Pharma AG, TP04 aminopyrazolopyrimidine series 04): plate acceptance, primary IC50 for all 24 compounds against the inflammatory-signal kinase and the 16-kinase selectivity sweep at 1 µM on six of them. Accepted 19 August 2021; the scaffold change reduced off-target activity.",
- "properties": {"title": "BW21_0240 run sheets"},
- "sheets": [
-  {"name": "Summary", "start": "A1",
-   "rows": [
-    [{"v": "Brindlewythe Biosciences Ltd, a Tarnovell company", "bold": true}],
-    [{"v": "BW21_0240 run sheets: TP04 kinase selectivity after scaffold substitution", "bold": true}],
-    ["Project", {"ref": "PRJ0040:project_id"}, "LIMS", {"ref": "PRJ0040:lims_id"}],
-    ["Client", "{{PRJ0040:client_variant}}"],
-    ["Series", "SER04, aminopyrazolopyrimidine, TP04 prefix"],
-    ["Compounds", {"ref": "PRJ0040:n_compounds"}, "Best IC50 (nM)", {"ref": "PRJ0040:kinase.best_ic50_nM"}],
-    [],
-    ["Stage", "Date", "Sheet", "Checked by"],
-    ["Interim read", "27/07/2021", "Primary IC50, first 12 compounds", "I. Alvarado"],
-    ["Final read", "19/08/2021", "Full set and selectivity sweep", "I. Alvarado"],
-    [],
-    ["Reviewed by", "Dr R. Deshmukh", null, "19/08/2021"],
-    ["Outcome", "The revised hinge core reduced off-target activity. Tervemere kept the polar substituents for the next design cycle."]
-   ],
-   "col_widths": {"A": 26, "B": 22, "C": 34, "D": 22},
-   "merged": ["A1:D1", "A2:D2"],
-   "comments": [{"cell": "B6", "text": "Client name as it stood on the 2021 quote. Tervemere is the legal name used on the signed statement of work.", "author": "Ines Alvarado"}]},
-  {"name": "Plate acceptance", "start": "A1",
-   "rows": [
-    ["Plate", "Read", "Compound block", "Top conc", "Reference inhibitor", "Vehicle", "Accepted", "Note"],
-    ["PA-11", "Interim", "TP04-02701 to 02712", "10 µM", "Within range", "Within range", "Yes", "Read after the Z' check"],
-    ["PA-12", "Final", "TP04-02713 to 02724", "10 µM", "Within range", "Within range", "Yes", ""],
-    ["PA-13", "Final", "TP04-02725 to 02736", "10 µM", "Within range", "Within range", "Yes", "Two wells re-dispensed"],
-    ["PA-14", "Final", "TP04-02737 to 02748", "10 µM", "Within range", "Within range", "Yes", ""],
-    [],
-    ["Acceptance as per study plan. Reference inhibitor and vehicle both within the historical range on every plate; the selectivity plates were read against the same reference.", null, null, null, null, null, null, null],
-    [],
-    [{"v": "Plate acceptance: all four plates accepted for the final fit.", "bold": true}]
-   ],
-   "col_widths": {"A": 12, "B": 12, "C": 24, "D": 12, "E": 20, "F": 18, "G": 12, "H": 34},
-   "merged": ["A6:H6"],
-   "freeze": "A2",
-   "comments": [{"cell": "H4", "text": "Re-dispense on PA-13 was a pipetting correction before read, not a re-run. Noted here for the record.", "author": "Stéphane Guillaume"}]},
-  {"name": "Primary IC50", "start": "A1",
-   "rows": [
-    [{"v": "Inflammatory-signal kinase IC50, 10-point concentration response, ATP at Km", "bold": true}],
-    ["Hill slopes outside the study plan window were re-fitted with the top fixed before the value was accepted. Replicate fits are on the run sheet."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0040:kinase_primary", "at": "A4", "header": true}],
-   "freeze": "A5",
-   "col_widths": {"A": 18, "B": 14, "C": 12},
-   "number_formats": {"B5:B40": "0.0", "C5:C40": "0.00"},
-   "chart": {"kind": "bar", "ref": "PRJ0040:kinase_primary", "column": 1, "title": "Inflammatory-signal kinase IC50 (nM)", "y_label": "IC50 (nM)"},
-   "chart_at": "F4",
-   "tab_color": "#1F4E79"},
-  {"name": "Selectivity", "start": "A1",
-   "rows": [
-    [{"v": "Kinase selectivity panel: % inhibition at 1 µM, six representative compounds", "bold": true}],
-    ["Readings at or above 50% are flagged for a concentration response before any conclusion. Single-point only at this stage."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0040:kinase_panel", "at": "A4", "header": true}],
-   "comments": [{"cell": "A4", "text": "Compounds with broad off-target readings were set aside. The polar substituents carried through to the next cycle held the panel down.", "author": "Ravi Deshmukh"}],
-   "tab_color": "#1F4E79"}
- ]}
+{
+  "family": "workbook",
+  "summary": "BW21_0240 records primary potency summaries for {{PRJ0040:n_compounds}} TP04 compounds and a selectivity sweep on six compounds named in the panel. Compound inventory is explicit in the primary table; plate assignment and interim membership remain in original sample-card/run records. The revised hinge core reduced off-target activity and Tervemere retained polar substituents for the next design cycle.",
+  "properties": {
+    "title": "BW21_0240 run sheets"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Brindlewythe Biosciences Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "BW21_0240 run sheets: TP04 kinase selectivity after scaffold substitution",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          {
+            "ref": "PRJ0040:project_id"
+          },
+          "LIMS",
+          {
+            "ref": "PRJ0040:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0040:client_variant}}"
+        ],
+        [
+          "Series",
+          "SER04, aminopyrazolopyrimidine, TP04 prefix"
+        ],
+        [
+          "Compounds",
+          {
+            "ref": "PRJ0040:n_compounds"
+          },
+          "Best IC50 (nM)",
+          {
+            "ref": "PRJ0040:kinase.best_ic50_nM"
+          }
+        ],
+        [],
+        [
+          "Stage",
+          "Date",
+          "Sheet",
+          "Checked by"
+        ],
+        [
+          "Interim read",
+          "27/07/2021",
+          "Interim membership: original dated run records; no inferred first-twelve subset",
+          "I. Alvarado"
+        ],
+        [
+          "Final read",
+          "19/08/2021",
+          "Full set and selectivity sweep",
+          "I. Alvarado"
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Dr R. Deshmukh",
+          null,
+          "19/08/2021"
+        ],
+        [
+          "Outcome",
+          "The revised hinge core reduced off-target activity. Tervemere kept the polar substituents for the next design cycle."
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 34,
+        "D": 22
+      },
+      "merged": [
+        "A1:D1",
+        "A2:D2"
+      ],
+      "comments": [
+        {
+          "cell": "B6",
+          "text": "Client name as it stood on the 2021 quote. Tervemere is the legal name used on the signed statement of work.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Plate acceptance",
+      "start": "A1",
+      "rows": [
+        [
+          "Plate assignment and control acceptance: source-record index"
+        ],
+        [
+          "Scope",
+          "Source",
+          "Use"
+        ],
+        [
+          "Full primary inventory",
+          "Every compound on Primary IC50",
+          "All reported IDs, including those after TP04-02748, belong to the inventory; consecutive ranges are not plate assignments."
+        ],
+        [
+          "Compound-to-plate mapping",
+          "BW21_0240 original RUN04 layouts and sample cards under B-ACC-2021-04086",
+          "Use plate/well field for each compound; mapping is not reproduced here."
+        ],
+        [
+          "Interim membership",
+          "27/07/2021 run records linked to sample cards",
+          "No interim membership inferred from ID order."
+        ],
+        [
+          "Control validity",
+          "Original plate acceptance records and study-plan criteria",
+          "No per-plate acceptance result asserted by this index."
+        ]
+      ],
+      "col_widths": {
+        "A": 12,
+        "B": 12,
+        "C": 24,
+        "D": 12,
+        "E": 20,
+        "F": 18,
+        "G": 12,
+        "H": 34
+      },
+      "freeze": "A2"
+    },
+    {
+      "name": "Primary IC50",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Inflammatory-signal kinase IC50, 10-point concentration response, ATP at Km",
+            "bold": true
+          }
+        ],
+        [
+          "One summary IC50 and Hill slope per compound are shown. Replicate curves, fit settings and plate/well mapping are not reproduced; no top-fixed rescue rule or affected-compound list asserted. Consult original RUN04 curve records linked to sample cards under B-ACC-2021-04086 for processing history."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0040:kinase_primary",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 18,
+        "B": 14,
+        "C": 12
+      },
+      "number_formats": {
+        "B5:B40": "0.0",
+        "C5:C40": "0.00"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0040:kinase_primary",
+        "column": 1,
+        "title": "Inflammatory-signal kinase IC50 (nM)",
+        "y_label": "IC50 (nM)"
+      },
+      "chart_at": "F4",
+      "tab_color": "#1F4E79"
+    },
+    {
+      "name": "Selectivity",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Kinase selectivity panel: % inhibition at 1 µM, six representative compounds",
+            "bold": true
+          }
+        ],
+        [
+          "Readings at or above 50% are flagged for a concentration response before any conclusion. Single-point only at this stage."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0040:kinase_panel",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "comments": [
+        {
+          "cell": "A4",
+          "text": "Compounds with broad off-target readings were set aside. The polar substituents carried through to the next cycle held the panel down.",
+          "author": "Ravi Deshmukh"
+        }
+      ],
+      "tab_color": "#1F4E79"
+    }
+  ]
+}
