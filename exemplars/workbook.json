@@ -1,0 +1,10 @@
+{"family": "workbook",
+ "summary": "Results workbook for a kinase follow-up: summary sheet, primary IC50 data for all compounds, and selectivity panel, with QC notes.",
+ "properties": {"title": "Kinase follow-up results"},
+ "sheets": [
+  {"name": "Summary", "rows": [[{"v": "Kinase follow-up results", "bold": true}], ["Project", {"ref": "PRJ0040:project_id"}], ["Client", "{{PRJ0040:client_variant}}"], ["Compounds", {"ref": "PRJ0040:n_compounds"}], ["Best IC50 (nM)", {"ref": "PRJ0040:kinase.best_ic50_nM"}], [], ["Reviewed by", "<reviewer from the pack>", null, "QC'd 02/03"]],
+   "col_widths": {"A": 22, "B": 28}, "merged": ["A1:D1"], "comments": [{"cell": "B5", "text": "Re-test of top 3 pending", "author": "Analyst"}]},
+  {"name": "IC50 data", "data_refs": [{"table_ref": "PRJ0040:kinase_primary", "at": "A1"}], "freeze": "A2", "chart": {"kind": "bar", "ref": "PRJ0040:kinase_primary", "column": 1, "title": "IC50 (nM)"}, "chart_at": "F2"},
+  {"name": "Panel", "data_refs": [{"table_ref": "PRJ0040:kinase_panel", "at": "A3"}], "rows": [["Selectivity at 1 µM (% inhibition)"]]},
+  {"name": "old_calc", "hidden": true, "rows": [["scratch"], [1, 2, "=A2+B2"]]}
+ ]}

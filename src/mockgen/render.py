@@ -529,6 +529,14 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
             tcolor = RGBColor(255, 255, 255)
         else:
             tcolor = prim
+        if sd.layout in ("title", "section"):
+            for ph in s.placeholders:
+                idx = ph.placeholder_format.idx
+                ph.left, ph.width = Inches(0.8), W - Inches(1.6)
+                if idx == 0:
+                    ph.top, ph.height = int(H * 0.30), Inches(1.6)
+                elif idx == 1:
+                    ph.top, ph.height = int(H * 0.30) + Inches(1.7), Inches(1.2)
         if title_ph is not None:
             if sd.layout not in ("title", "section"):
                 title_ph.top, title_ph.height = Inches(0.15), Inches(0.9)
@@ -568,8 +576,8 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
                 body._element.getparent().remove(body._element)
         elif sd.layout == "two_content":
             phs = [p for p in s.placeholders if p.placeholder_format.idx in (1, 2)]
-            for ph, items, left in zip(phs, [sd.bullets, sd.bullets_right], [Inches(0.5), W / 2 + Inches(0.1)]):
-                ph.top, ph.height, ph.left, ph.width = body_top, body_h, left, W / 2 - Inches(0.6)
+            for ph, items, left in zip(phs, [sd.bullets, sd.bullets_right], [Inches(0.5), W // 2 + Inches(0.1)]):
+                ph.top, ph.height, ph.left, ph.width = body_top, body_h, left, W // 2 - Inches(0.6)
                 if items:
                     bullets_into(ph.text_frame, items, base=18)
                 else:
@@ -595,7 +603,7 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
                 th = min(H - y - Inches(0.7), Inches(0.3) * nrows)
                 shape = s.shapes.add_table(nrows, len(cols), Inches(0.5), y, avail_w, th)
                 tbl = shape.table
-                fs = 11 if nrows <= 8 else (9 if nrows <= 13 else 8)
+                fs = 14 if nrows <= 8 else (12 if nrows <= 13 else 10)
                 if len(cols) > 7:
                     fs -= 1
                 for j, c in enumerate(cols):
@@ -622,15 +630,15 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
             from PIL import Image as PImage
             im = PImage.open(io.BytesIO(pic_png))
             maxh = H - y - Inches(0.6)
-            maxw = avail_w if sd.layout != "title_content" or not sd.bullets else W / 2 - Inches(0.5)
-            left = Inches(0.5) if not (sd.layout == "title_content" and sd.bullets) else W / 2
+            maxw = avail_w if sd.layout != "title_content" or not sd.bullets else W // 2 - Inches(0.5)
+            left = Inches(0.5) if not (sd.layout == "title_content" and sd.bullets) else W // 2
             ratio = im.width / im.height
             wdt = min(maxw, int(maxh * ratio))
-            s.shapes.add_picture(io.BytesIO(pic_png), left + int((maxw - wdt) / 2), y, width=wdt)
+            s.shapes.add_picture(io.BytesIO(pic_png), int(left + (maxw - wdt) // 2), int(y), width=int(wdt))
             if sd.layout == "title_content" and sd.bullets:
                 body = [p for p in s.placeholders if p.placeholder_format.idx == 1]
                 if body:
-                    body[0].width = W / 2 - Inches(0.6)
+                    body[0].width = W // 2 - Inches(0.6)
         # footer
         if sd.layout not in ("title",):
             ft = s.shapes.add_textbox(Inches(0.4), H - Inches(0.45), W - Inches(0.8), Inches(0.3))
@@ -860,8 +868,8 @@ def render_document(content, entry, style: Style, people, out: Path, errors: lis
                     r.italic = True; r.font.size = Pt(9)
                 elif b.style == "small":
                     r.font.size = Pt(8.5)
-            if b.list:
-                for it in b.list:
+            if b.items:
+                for it in b.items:
                     text = it if isinstance(it, str) else it.text
                     lvl = 0 if isinstance(it, str) else it.level
                     sname = ("List Number" if b.ordered else "List Bullet") + (f" {lvl + 1}" if lvl else "")
@@ -1072,7 +1080,9 @@ def make_scan(pdf_in: Path, pdf_out: Path, settings, seed: str):
             except Exception:
                 fnt = ImageFont.load_default()
             x, y = int(W * 0.58), int(H * 0.06)
-            draw.rectangle([x - 18, y - 12, x + 22 * len(settings.stamp) + 30, y + 64], outline=70, width=5)
+            tw = draw.textlength(settings.stamp, font=fnt)
+            x = min(x, int(W - tw - 80))
+            draw.rectangle([x - 18, y - 12, x + tw + 18, y + 64], outline=70, width=5)
             draw.text((x, y), settings.stamp, fill=70, font=fnt)
         if i == 0 and settings.handwriting:
             try:

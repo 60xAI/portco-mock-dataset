@@ -136,9 +136,10 @@ class Workbook(M):
 
 
 class Block(M):
+    model_config = ConfigDict(extra="forbid", populate_by_name=True)
     p: Optional[str] = None
     style: Optional[Literal["normal", "quote", "note", "small", "bold"]] = None
-    list: Optional[list[Union[str, BulletObj]]] = None
+    items: Optional[list[Union[str, BulletObj]]] = Field(None, alias="list")
     ordered: bool = False
     table: Optional[Table] = None
     chart: Optional[Chart] = None

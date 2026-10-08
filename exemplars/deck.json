@@ -1,0 +1,11 @@
+{"family": "deck",
+ "summary": "Results readout for a kinase selectivity follow-up: primary IC50s for 24 analogues, selectivity panel for six, and a recommendation to progress two compounds.",
+ "properties": {"title": "Kinase follow-up readout", "subject": "Results readout", "keywords": "kinase; IC50; selectivity"},
+ "slides": [
+  {"layout": "title", "title": "Kinase follow-up: results readout", "subtitle": "{{PRJ0040:project_id}} | {{PRJ0040:client_variant}} | Data review"},
+  {"layout": "title_content", "title": "Summary", "bullets": ["{{PRJ0040:n_compounds}} analogues profiled in the primary assay (ATP at Km)", {"text": "Best IC50 {{PRJ0040:kinase.best_ic50_nM}} nM", "level": 1}, "Selectivity panel run on six representatives at 1 µM", "Two compounds recommended for DMPK follow-up"], "notes": "Lead with the recommendation; the client asked for a go/no-go on the two front-runners."},
+  {"layout": "table", "title": "Primary IC50 (top 10 by potency)", "table": {"table_ref": "PRJ0040:kinase_primary", "max_rows": 10}},
+  {"layout": "chart", "title": "Potency across the set", "chart": {"kind": "bar", "ref": "PRJ0040:kinase_primary", "column": 1, "title": "IC50 (nM)", "y_label": "IC50 (nM)"}},
+  {"layout": "image", "title": "Representative structures", "image": {"kind": "molecule_grid", "ref": "PRJ0040", "n": 6}},
+  {"layout": "two_content", "title": "Next steps", "bullets": ["Resynthesise front-runners (50 mg)", "Microsomal stability + PPB"], "bullets_right": ["Panel at 10 µM for the two leads", "Decision meeting w/c 14 June"]}
+ ]}

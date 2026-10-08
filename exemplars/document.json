@@ -1,0 +1,14 @@
+{"family": "document",
+ "summary": "Final study report for a kinase follow-up: methods, primary IC50 and selectivity results, discussion and recommendation.",
+ "properties": {"title": "Kinase follow-up final report"},
+ "header": "{{PRJ0040:project_id}} Final Report", "footer": "Confidential",
+ "title_block": {"title": "Kinase Follow-up: Primary Potency and Selectivity", "subtitle": "Final report", "lines": ["Study {{PRJ0040:project_id}} (LIMS {{PRJ0040:lims_id}})", "Sponsor: {{PRJ0040:client_variant}}"]},
+ "sections": [
+  {"heading": "1 Summary", "blocks": [{"p": "{{PRJ0040:n_compounds}} compounds were tested in the primary assay; the best IC50 was {{PRJ0040:kinase.best_ic50_nM}} nM."}, {"table": {"table_ref": "PRJ0040:benchmark", "caption": "Table 1 Study summary"}}]},
+  {"heading": "2 Methods", "blocks": [{"list": ["Recombinant enzyme, ATP at Km", "10-point, 3-fold dilution from 10 µM", {"text": "Staurosporine reference on every plate", "level": 1}]}]},
+  {"heading": "3 Results", "blocks": [{"table": {"table_ref": "PRJ0040:kinase_primary", "caption": "Table 2 Primary IC50"}}, {"chart": {"kind": "bar", "ref": "PRJ0040:kinase_primary", "column": 1, "title": "IC50 (nM)"}}]},
+  {"heading": "4 Conclusion", "blocks": [{"p": "Two compounds meet the progression criteria and are recommended for DMPK profiling."}]}
+ ],
+ "signature_block": [{"name": "<study director from the pack>", "role": "Study Director", "date": "2021-02-26"}],
+ "tracked_changes": [{"find": "are recommended for DMPK profiling", "insert": " (subject to resynthesis)", "author": "Reviewer", "date": "2021-02-25"}],
+ "comments": [{"anchor": "Two compounds meet", "text": "Name them here?", "author": "Reviewer"}]}

@@ -1,0 +1,6 @@
+{"family": "scan",
+ "summary": "Scanned signed quotation acceptance from 2004 with a received stamp and a handwritten note.",
+ "document": {"family": "document", "summary": "Signed quotation acceptance", "title_block": {"title": "Quotation Acceptance", "lines": ["Quotation ref: Q-04-112", "Date: 12/03/2004"]},
+   "sections": [{"heading": "Scope", "blocks": [{"p": "We accept the quotation for the synthesis of twelve analogues as described in the attached schedule, at the agreed price and timeline."}, {"list": ["Delivery in two lots", "Purity >95% by LCMS", "Analytical data with each lot"]}]},
+                {"heading": "Terms", "blocks": [{"p": "Payment 30 days from invoice. Either party may terminate on 30 days written notice."}]}]},
+ "scan": {"skew_deg": 0.9, "noise": 0.3, "blur": 0.6, "stamp": "RECEIVED 15 MAR 2004", "handwriting": "PO to follow - EV"}}

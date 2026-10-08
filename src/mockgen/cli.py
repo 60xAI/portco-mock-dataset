@@ -38,6 +38,10 @@ def cmd_manifest(a):
     if a.action == "planted":
         print(Mf.planted_for(a.firm))
         return 0
+    if a.action == "seed-planted":
+        from .planted import build
+        print(build())
+        return 0
     if a.action == "merge":
         print(Mf.merge())
         return 0
@@ -118,7 +122,7 @@ def main(argv=None):
     s.set_defaults(fn=cmd_world)
 
     s = sub.add_parser("manifest")
-    s.add_argument("action", choices=["validate", "planted", "merge", "tree"])
+    s.add_argument("action", choices=["validate", "planted", "seed-planted", "merge", "tree"])
     s.add_argument("--firm")
     s.set_defaults(fn=cmd_manifest)
 

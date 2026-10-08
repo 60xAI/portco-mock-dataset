@@ -85,7 +85,11 @@ def _herg(ctx: Ctx, top=30.0):
         for k in range(2 if r.random() > 0.15 else 3):
             reps.append(10 ** (6 - (piC + r.gauss(0, 0.12))) )
         reps_um = [x for x in reps]
-        gm = 10 ** np.mean([math.log10(x) for x in reps_um])
+        quant = [x for x in reps_um if x < top]
+        if len(quant) * 2 > len(reps_um):
+            gm = 10 ** np.mean([math.log10(x) for x in quant])
+        else:
+            gm = top * 1.01
         flag = ""
         if r.random() < 0.04:
             flag = r.choice(["Seal resistance <500 MΩ in 1 of 3 cells; n=2 reported", "Precipitation observed at top concentration",
@@ -117,23 +121,40 @@ def _herg(ctx: Ctx, top=30.0):
         ctx.values[f"herg.{row[0]}.ic50_uM"] = row[4]
 
 
+CYP_HIT = {"CYP1A2": 0.15, "CYP2C9": 0.2, "CYP2C19": 0.2, "CYP2D6": 0.12, "CYP3A4": 0.3}
+
+
+def _z(xs):
+    xs = np.asarray(xs, dtype=float)
+    sd = xs.std() or 1.0
+    return (xs - xs.mean()) / sd
+
+
+def _cyp_pic(ctx: Ctx, iso: str):
+    """Calibrated pIC50 per compound: model ranking + per-isoform hit rate (P[IC50<10 uM])."""
+    from statistics import NormalDist
+    p = ctx.pred(CYP_KEYS[iso])
+    base_p = p if p is not None else np.array([0.3] * len(ctx.c))
+    clogp = np.array([c["clogp"] for c in ctx.c])
+    z = _z(0.75 * _z(base_p) + 0.4 * _z(clogp) if len(ctx.c) > 2 else base_p)
+    f = min(0.6, max(0.03, CYP_HIT[iso] + rng_for(ctx.s.id if ctx.s else ctx.p.id, "cyphit", iso).gauss(0, 0.07)))
+    base = 5 - 1.1 * NormalDist().inv_cdf(1 - f)
+    return [base + 1.1 * zi + _frag_effect(ctx.s, c["smiles"] + iso, 0.15) for zi, c in zip(z, ctx.c)]
+
+
 def _cyp(ctx: Ctx):
     r = rng_for(ctx.p.id, "cyp")
-    rows = []
+    rows = [[c["id"]] for c in ctx.c]
     counts = {k: 0 for k in CYPS}
-    for i, c in enumerate(ctx.c):
-        row = [c["id"]]
-        for iso in CYPS:
-            p = ctx.pred(CYP_KEYS[iso])
-            pb = p[i] if p is not None else 0.3
-            pic = 4.1 + 2.0 * pb + 0.15 * (c["clogp"] - 3) + _frag_effect(ctx.s, c["smiles"] + iso, 0.3)
+    for iso in CYPS:
+        pics = _cyp_pic(ctx, iso)
+        for i, pic in enumerate(pics):
             ic = 10 ** (6 - pic)
             pct = 100 / (1 + ic / 10) + r.gauss(0, 5)
             pct = max(-12, min(100, pct))
             if pct > 50:
                 counts[iso] += 1
-            row.append(f"{pct:.0f}")
-        rows.append(row)
+            rows[i].append(f"{pct:.0f}")
     ctrls = {iso: sig(v * math.exp(r.gauss(0, 0.15)), 2) for iso, (n, v) in CYP_CONTROLS.items()}
     ctx.tables["cyp_inhib"] = {"title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
                                "columns": ["Compound"] + [f"{i} (%)" for i in CYPS], "rows": rows,
@@ -149,12 +170,10 @@ def _cyp(ctx: Ctx):
 
 def _cyp_ic50(ctx: Ctx):
     r = rng_for(ctx.p.id, "cyp_ic50")
-    p = ctx.pred("cyp3a4")
+    pics = _cyp_pic(ctx, "CYP3A4")
     rows = []
     for i, c in enumerate(ctx.c):
-        pb = p[i] if p is not None else 0.3
-        pic = 4.1 + 2.0 * pb + 0.15 * (c["clogp"] - 3) + _frag_effect(ctx.s, c["smiles"] + "CYP3A4", 0.3)
-        ic = 10 ** (6 - pic) * math.exp(r.gauss(0, 0.2))
+        ic = 10 ** (6 - pics[i]) * math.exp(r.gauss(0, 0.2))
         rows.append([c["id"], ">50" if ic > 50 else sig(ic, 2), "midazolam" if r.random() < 0.6 else "testosterone"])
     ctx.tables["cyp_ic50"] = {"title": "CYP3A4 IC50 (µM)", "columns": ["Compound", "IC50 (µM)", "Probe substrate"], "rows": rows,
                               "notes": ["7-point curve, top 50 µM; ketoconazole control"]}
