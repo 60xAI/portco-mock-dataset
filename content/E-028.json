@@ -1,0 +1,651 @@
+{
+  "family": "document",
+  "summary": "Final approved report WA/2016/068 for Auvrelquith Biosciences, covering ICH chamber programme for AU-06 solution. Auvrelquith Biosciences retained refrigerated storage after ambient samples developed an unacceptable appearance change. Numerical evidence, sample traceability and interpretation limits are retained.",
+  "properties": {
+    "title": "WA/2016/068 Approved Report"
+  },
+  "header": "Westravelle Analytical Ltd | WA/2016/068",
+  "footer": "Westravelle Analytical Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Auvrelquith AU-06 solution: twelve-month refrigerated stability",
+    "subtitle": "Final report — QA approved",
+    "lines": [
+      "Westravelle Analytical Ltd",
+      "Report no. E-R-2017-028-01",
+      "Project: WA/2016/068 | LIMS: WST-16-002115",
+      "Client: Auvrelquith Biosciences",
+      "Report date: 27 Apr 2017",
+      "Scientific lead: Dr A. Penrose"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Approved summary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "WA/2016/068 reports ICH chamber programme for Auvrelquith Biosciences: AU-06 solution. Work began on 25 Apr 2016; the completed evidence set was closed on 25 Apr 2017. Auvrelquith Biosciences retained refrigerated storage after ambient samples developed an unacceptable appearance change."
+        },
+        {
+          "p": "Dr A. Penrose authorises this final report on 27 Apr 2017. The key table retains the approved endpoint labels and units. Conclusions apply to the material, method and conditions tested. This issue supersedes working interpretations for the completed protocol; it does not authorise an altered product configuration or analytical procedure."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0089:stability",
+            "max_rows": 45,
+            "caption": "Table 1. Approved stability results"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "2 Protocol identity and responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Project WA/2016/068, accession WST-16-002115, is the reference for receipt, preparation, acquisition and reporting. The client name in this approved issue is Auvrelquith Biosciences. Product identity remains AU-06 solution; an informal label does not replace the accession. The protocol addresses ICH chamber programme."
+        },
+        {
+          "p": "Alice Penrose holds scientific responsibility. Leon Wu maintains sample and storage linkage. Saira Mahmood checks the procedure and system suitability assessment. At the release gate, the final endpoint must trace to both the material selected for analysis and the eligible sequence that generated it."
+        },
+        {
+          "table": {
+            "columns": [
+              "Responsibility",
+              "Person",
+              "Release evidence"
+            ],
+            "rows": [
+              [
+                "Scientific conclusion",
+                "Dr A. Penrose",
+                "Approved report"
+              ],
+              [
+                "Sample traceability",
+                "Dr L. Wu",
+                "Batch card and handling trail"
+              ],
+              [
+                "Analytical review",
+                "Saira Mahmood",
+                "Method and sequence sheets"
+              ]
+            ],
+            "caption": "Responsibilities at final release"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "3 Objective and decision boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Ambient samples of AU-06 solution developed an unacceptable appearance change. Auvrelquith Biosciences consequently retained refrigerated storage. Appearance is a separate product endpoint: an acceptable chromatographic measurement does not negate an unacceptable visible change in the solution."
+        },
+        {
+          "p": "The acceptance question is settled against the agreed endpoint definitions. Meeting an analytical criterion is not automatically a general product-quality statement. Material identity, exposure history and procedure remain part of the decision. No clinical interpretation or commercial forecast is included. The report gives the evidence and its boundary so that the client can retain both when using the conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "4 Chronology and release gates",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Work started on 25 Apr 2016. The interim evidence point was 24 Oct 2016; work concluded on 25 Apr 2017. Final reporting occurred on 27 Apr 2017. These dates describe the protocol chronology and do not replace actual acquisition times on individual sequence sheets."
+        },
+        {
+          "p": "Interim interpretation was limited to the available evidence. Final release incorporated the completed evidence set and review of sample linkage and suitability. Earlier extracts preserve chronology but do not supersede this issue. A copied sequence date should remain its original date; resetting it to the report approval date would lose the relationship between preparation, acquisition and interpretation."
+        }
+      ]
+    },
+    {
+      "heading": "5 Receipt and accession control",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Material was accepted using the client product designation and the assigned accession. Supplied labels, container description and intended analytical use were linked on the batch card. A local aliquot identifier remained subordinate to that accession. Identity was taken from the client documentation; an independent structural identity investigation was outside the protocol."
+        },
+        {
+          "p": "The file distinguishes material as received from preparations made for injection. A prepared solution is not a new stability lot. Labels were checked before opening material and again at preparation. This prevents an apparently eligible chromatogram from being reported under the wrong product description. The accession is retained on the preparation trail as well as the report."
+        }
+      ]
+    },
+    {
+      "heading": "6 Batch card and sample genealogy",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The batch card links receipt, handling and preparation. Original product designations were retained when material was split. Each sequence sheet identifies the preparation, its source and its intended analytical purpose. Repeated injection remains linked to the existing preparation; a fresh preparation has its own entry."
+        },
+        {
+          "p": "Review followed the chain from receipt to reported endpoint, then traced the endpoint back to its source. A short chromatogram label alone cannot establish this chain. The report carries the project and accession so that an extracted page can be returned to the right file. Product identity is retained throughout the chain, including at the final calculation step."
+        }
+      ]
+    },
+    {
+      "heading": "7 Storage and handling before analysis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Material remained under its assigned handling conditions until removal or preparation. Removed material was distinguished from retained reserve. Time outside controlled storage and the preparation sequence belong to the sample history; they are not discarded because the eventual analytical result is satisfactory."
+        },
+        {
+          "p": "Containers were checked for label legibility, closure integrity and sufficient material. A compromised container would require a deviation note and impact decision before inclusion. Handling observations remain with the batch card, allowing later review to distinguish a change in the product from an event introduced during sampling. The report does not reconstruct an unrecorded temperature history."
+        }
+      ]
+    },
+    {
+      "heading": "8 References and reagent preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Reference preparations establish the response used for calculation. Preparation entries retain the reference designation, applicable potency correction and dilution trail. Reference potency was not inferred from the observed peak area. Blank, reference and sample preparations were identified separately so that their distinct purposes remained visible."
+        },
+        {
+          "p": "Reagent and mobile-phase labels were checked against the sequence sheet. A replacement preparation was linked to its actual point of use rather than silently inheriting its predecessor identity. The controlled preparation file retains the laboratory detail needed to repeat the accepted procedure. This report uses generic solvent and reagent descriptions without assigning unsupported reference-material results."
+        }
+      ]
+    },
+    {
+      "heading": "9 Sequence construction",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Sequences distinguish blank response, reference response, sample response and subsequent checks of system suitability. Suitability was assessed before release and considered across the sequence. A suitable opening check alone cannot justify data acquired after a later failure. Injection order was retained as acquired so that the check-to-sample relationship could be reviewed."
+        },
+        {
+          "p": "The sequence sheet links acquisition files, preparation entries and calculations. Re-injection retains its reason; an unexplained repeat cannot be selected solely because its value looks preferable. If a sequence is replaced, the earlier acquisition remains with its disposition. The reported table contains released evidence, without treating an ineligible sequence as a second acceptable measurement."
+        }
+      ]
+    },
+    {
+      "heading": "10 System suitability and data eligibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "System suitability addresses separation, repeat response and the ability to measure the required endpoints. Acceptance uses the criteria attached to the controlled method. Samples become eligible for reporting when their applicable checks support interpretation. Suitability assesses the measurement sequence and is not an alternative product specification."
+        },
+        {
+          "p": "Saira Mahmood checked the suitability decision for the reference and sample data used in the calculations. Chromatographic appearance was considered with the numerical checks, particularly where a shoulder or neighbouring peak could affect integration. The report-level evidence retains the parameter and criterion together; it does not infer a new numerical suitability result from a general approval statement."
+        }
+      ]
+    },
+    {
+      "heading": "11 Calculation and reporting conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Assay is reported as percent label claim and related substances as area percent under the qualified conventions. Relative retention assists peak tracking but does not establish chemical identity alone. The original reporting precision and any censoring symbol are preserved. A value below a reporting boundary is not replaced by zero."
+        },
+        {
+          "p": "Calculations retain dilution, reference correction and source response in the analytical file. Review used this trail before releasing the report table. Units are carried in the headings rather than inferred from neighbouring endpoints. Water, where supplied, uses percent w/w and is not subtracted from assay to create an unqualified corrected value. These distinctions remain part of any transferred evidence."
+        }
+      ]
+    },
+    {
+      "heading": "12 Chromatogram and integration review",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Complete traces were reviewed before numerical transcription. Boundaries were applied consistently between reference, challenged or aged material and routine sample preparations. The blank was considered in the same retention region as each reported impurity. An intervention retained the source trace and the reason for the adjusted boundary."
+        },
+        {
+          "p": "An unexpected peak was not removed merely because it was absent from the reference. Its treatment followed the method reporting conventions. A principal-peak shoulder required a separation and integration assessment instead of an automatic increase in principal-component area. The report assigns no chemical structure from retention alone and does not invent a mechanism for a changing secondary peak."
+        }
+      ]
+    },
+    {
+      "heading": "13 Storage restriction",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Ambient samples of AU-06 solution developed an unacceptable appearance change. Auvrelquith Biosciences consequently retained refrigerated storage. Appearance is a separate product endpoint: an acceptable chromatographic measurement does not negate an unacceptable visible change in the solution."
+        },
+        {
+          "p": "The supplied numerical table contains generic chamber labels and has no refrigerated-arm or appearance column. Those rows are reproduced faithfully as analytical evidence, not relabelled as refrigerated results. The storage decision is the protocol outcome; a separate quantitative refrigerated profile or an onset time for the appearance change is not asserted here."
+        }
+      ]
+    },
+    {
+      "heading": "14 Analytical scope of the chamber programme",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The scope is the ICH chamber programme, without a separate method validation package. Analytical sequences remain subject to system suitability and review. These controls establish whether a measurement can be interpreted; they do not create an uncommissioned Assay and related-substances validation conclusion."
+        },
+        {
+          "p": "The supplied numerical table has assay, related-substances and water columns. These are reproduced with their original headings. They do not supply a quantitative appearance endpoint or a refrigerated-arm table. The product storage decision is discussed separately. This distinction preserves the analytical evidence without claiming a numerical result for an observation that was supplied only as the protocol outcome."
+        }
+      ]
+    },
+    {
+      "heading": "15 ICH chamber programme — design",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The programme followed AU-06 solution through a reported interval of {{PRJ0089:stability.last_timepoint_months}} months. Long-term and elevated-temperature observations retain their assignments in the approved table. Pulls were assigned before preparation with disposition captured on the batch card. The final timepoint bounds the reported evidence."
+        },
+        {
+          "p": "Each condition is interpreted within itself before comparisons are made. A short stress exposure is not inserted as a later long-term observation. Storage history remains relevant even when assay response is little changed. A reader must be able to identify condition and timepoint without relying on an unstated default. No missing pull is reconstructed here."
+        }
+      ]
+    },
+    {
+      "heading": "16 Chamber assignment and monitoring",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Leon Wu maintained the link between material placed into storage and its assigned condition. Monitoring entries were retained with the protocol. A location change would require continuity of exposure and documentation of any period outside the intended condition. An eligible analytical sequence alone cannot establish that the exposure was maintained."
+        },
+        {
+          "p": "Review distinguished routine access from an excursion requiring assessment. Impact depends on affected material, timing and endpoint, rather than an alarm entry alone. This report does not reconstruct an unrecorded temperature reading. Chamber labels in the approved table remain the supplied labels, and the report does not create additional numerical storage arms."
+        }
+      ]
+    },
+    {
+      "heading": "17 Stability pulls — removal and reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Pull instructions were reconciled to the batch card and the intended endpoint before removal. Material remained identifiable through appearance examination and preparation. Remaining units retained their assigned disposition. A pulled container was not described as untouched reserve simply because only a portion had been used."
+        },
+        {
+          "p": "The sequence sheet identifies the analytical use of removed material. Review checked the intended pull instead of relying on a calendar month in a filename. Pull chronology was considered with interim and completion release gates. A delay affecting exposure or preparation would require assessment before reporting. The source entries remain the basis for that assessment."
+        }
+      ]
+    },
+    {
+      "heading": "18 Condition-specific numerical evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The table below reproduces the released condition-specific evidence. Timepoint is in months; assay and impurities retain their original units. The Result column belongs to the analytical table and is not rewritten to force agreement with a broader product decision. Initial entries remain attached to their individual conditions rather than collapsed into a universal baseline."
+        },
+        {
+          "p": "The supplied numerical table contains generic chamber labels and has no refrigerated-arm or appearance column. Those rows are reproduced faithfully as analytical evidence, not relabelled as refrigerated results. The storage decision is the protocol outcome; a separate quantitative refrigerated profile or an onset time for the appearance change is not asserted here."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0089:stability",
+            "max_rows": 45,
+            "caption": "Table 3. Stability pulls with original condition and timepoint labels"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "19 Assay through the interval",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Assay measures the principal component under the qualified reporting procedure. Comparison uses the condition-specific progression in the table. No averaged baseline is substituted for initial rows. An apparent change is read with preparation control and sequence suitability, rather than interpreted as a standalone product mechanism."
+        },
+        {
+          "p": "Assay is considered with the other endpoints. An acceptable principal-component result can coexist with a change in impurity distribution or appearance. The client decision therefore uses the combined evidence instead of assay alone. No additional result is created to summarise that decision."
+        }
+      ]
+    },
+    {
+      "heading": "20 Related-substances profile",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Individual impurity columns retain relative-retention labels from the approved evidence. Total impurities remains the reported aggregate under the method convention. A changing column is not converted into a structural identification. Review checks whether the same region remains evaluable as samples age or experience different storage conditions."
+        },
+        {
+          "p": "A small principal-component change does not explain every secondary peak. The accepted numerical values retain censoring and reporting precision. No mechanism is assigned from relative retention alone, and no unsupported secondary-peak value is added to the table."
+        }
+      ]
+    },
+    {
+      "heading": "21 Water and physical endpoints",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Water KF retains the supplied percent w/w heading. Its measurement basis differs from assay and area-percent impurities. These values are not subtracted to create an unqualified corrected assay. Physical examination remains linked to the inspected container and pull, complementing the chemical measurements."
+        },
+        {
+          "p": "AU-06 is a solution. The generic water column is not a quantitative explanation of its appearance change and is not converted into a precipitation measurement. The report assigns no composition to the visible change. Ambient appearance remains material to the storage restriction even if a listed analytical endpoint is acceptable."
+        }
+      ]
+    },
+    {
+      "heading": "22 Long-term interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The supplied numerical table contains generic chamber labels and has no refrigerated-arm or appearance column. Those rows are reproduced faithfully as analytical evidence, not relabelled as refrigerated results. The storage decision is the protocol outcome; a separate quantitative refrigerated profile or an onset time for the appearance change is not asserted here."
+        },
+        {
+          "p": "The report does not create a later observation by extending a fitted line. Final sample identity and analytical suitability are both required for the endpoint decision. The client may combine this evidence with its product knowledge; additional claims remain outside the observations supplied here. A copied table must preserve the completed interval rather than presenting the endpoint as indefinite evidence."
+        }
+      ]
+    },
+    {
+      "heading": "23 Ambient and elevated-temperature interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Ambient AU-06 exposure produced an unacceptable appearance change. This supports retaining refrigerated storage and does not establish an ambient allowance. Generic chamber rows cannot substitute for a refrigerated-arm profile."
+        },
+        {
+          "p": "Cross-condition comparison retains identity and endpoint definition. Packaging and handling differences are considered before attributing all change to temperature. The scientific conclusion remains at the level supported by the protocol. No kinetic parameter, untested exposure duration or additional quantitative condition is inferred from the qualitative client outcome."
+        }
+      ]
+    },
+    {
+      "heading": "24 Configuration-specific decision",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Ambient samples of AU-06 solution developed an unacceptable appearance change. Auvrelquith Biosciences consequently retained refrigerated storage. Appearance is a separate product endpoint: an acceptable chromatographic measurement does not negate an unacceptable visible change in the solution."
+        },
+        {
+          "p": "The tested configuration bounds the report. Container, closure and product presentation are not changed by editing a downstream label. Implementing the client decision retains the relevant configuration description. Later changes require assessment of the changed material against the historical evidence. The report does not create a new packaging or handling specification merely through inclusion in a transfer file."
+        }
+      ]
+    },
+    {
+      "heading": "25 Suitability at the final pull",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Final-pull results used analytically eligible evidence. Suitability was considered with earlier checks. An initial method conclusion would not excuse an unresolved interference in aged material at completion."
+        },
+        {
+          "p": "Review considered whether evolving secondary peaks compromised assay or impurity measurement before drawing the product conclusion. A reported final result does not itself create a numerical method-performance value. The accepted method table supplies that evidence where commissioned. For the chamber-only scope, sequence checks support measurement eligibility without implying a separate validation package."
+        }
+      ]
+    },
+    {
+      "heading": "26 Endpoint reconciliation at completion",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The completion release gate on 25 Apr 2017 brought together storage history, pull identity and released analytical evidence. The final reported interval is {{PRJ0089:stability.last_timepoint_months}} months. Report release followed that evidence close, rather than creating a further exposure interval."
+        },
+        {
+          "p": "Reconciliation considered the condition-specific table and the product observation used for the client decision. The initial analytical rows are not silently replaced by a project-level summary baseline. Analytical Result labels are retained, even where a broader appearance or packaging conclusion requires separate interpretation. This preserves what was measured and what was decided without conflating the two."
+        }
+      ]
+    },
+    {
+      "heading": "27 Appendix A — pull trace for reuse",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "A reused row retains accession, product, condition, timepoint, preparation and eligible sequence. A summary can shorten narrative but must not reduce the trace to a product name followed by an unexplained number. Follow the reported endpoint back to removal and acquisition, then check the forward path from receipt and placement."
+        },
+        {
+          "p": "An incorrect condition assignment can survive a perfectly sound chromatographic calculation. The trace therefore carries the exposure basis as well as the response calculation. The approved table remains the numerical source; this appendix supplies its use context without adding a later pull."
+        }
+      ]
+    },
+    {
+      "heading": "28 Appendix B — unit and condition key",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Temperature uses °C; relative humidity remains in the condition label where supplied. Timepoint uses months from placement. Assay uses percent label claim, impurities area percent and water percent w/w. These conventions remain attached to exported data."
+        },
+        {
+          "p": "A missing condition-specific observation is not filled from a neighbouring row. Reporting-boundary symbols are preserved when formats change. A trend display should retain condition grouping and endpoint units. No table row is relabelled to create an arm absent from the supplied evidence."
+        }
+      ]
+    },
+    {
+      "heading": "29 Appendix C — final-pull inquiry",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "A final-pull inquiry retains removal history, preparation and suitability together. The completion date alone does not demonstrate exposure duration. If a copy loses its storage label, it no longer establishes the intended condition-specific conclusion."
+        },
+        {
+          "p": "Begin with the final row, then reconcile condition and timepoint to the batch card. Return through preparation and acquisition to the released table. This appendix describes use of the completed evidence; it does not assert a newly measured observation after the completion release gate."
+        }
+      ]
+    },
+    {
+      "heading": "30 Appendix D — interpretation safeguards",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The supplied numerical table contains generic chamber labels and has no refrigerated-arm or appearance column. Those rows are reproduced faithfully as analytical evidence, not relabelled as refrigerated results. The storage decision is the protocol outcome; a separate quantitative refrigerated profile or an onset time for the appearance change is not asserted here."
+        },
+        {
+          "p": "Method performance supports measurement; it does not replace an unacceptable product observation. An expected product trend does not justify accepting an unsuitable sequence. These distinctions remain visible in the client summary so that a downstream user can tell the numerical evidence from the product-level decision."
+        }
+      ]
+    },
+    {
+      "heading": "31 Appendix E — client package contents",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The package for Auvrelquith Biosciences contains this approved report, the released numerical evidence and the controlled procedure context. Project identity is the package reference; the accession remains the laboratory source-data reference. Neither is replaced by an informal product label."
+        },
+        {
+          "p": "The package supports the recorded decision. A later user seeking a different claim needs evidence appropriate to that claim. The protocol conclusion and its limitations accompany the result tables when supplied for client reuse."
+        }
+      ]
+    },
+    {
+      "heading": "32 Appendix F — reading order",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Read protocol and product identity first, then condition and timepoint, then endpoint and unit. Consider sequence eligibility and any material physical observation before reading the scientific conclusion. This order prevents a favourable isolated value from being detached from its interpretation basis."
+        },
+        {
+          "p": "Ambient samples of AU-06 solution developed an unacceptable appearance change. Auvrelquith Biosciences consequently retained refrigerated storage. Appearance is a separate product endpoint: an acceptable chromatographic measurement does not negate an unacceptable visible change in the solution."
+        }
+      ]
+    },
+    {
+      "heading": "33 Deviations and disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Final release contains no unresolved deviation changing the stated conclusion. This report does not introduce an extra assay value to stand for a correction or repeat. A deviation note belongs with its source acquisition or preparation and the associated impact decision. Ineligible evidence is not made acceptable by losing its history in a copied table."
+        },
+        {
+          "p": "The unacceptable ambient appearance is a product observation, not a laboratory deviation to dismiss. Retaining refrigerated storage addresses that finding. Analytical Result labels remain unchanged rather than concealing the physical observation."
+        }
+      ]
+    },
+    {
+      "heading": "34 Scientific conclusion and client disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Auvrelquith Biosciences retained refrigerated storage after ambient samples developed an unacceptable appearance change."
+        },
+        {
+          "p": "The supplied numerical table contains generic chamber labels and has no refrigerated-arm or appearance column. Those rows are reproduced faithfully as analytical evidence, not relabelled as refrigerated results. The storage decision is the protocol outcome; a separate quantitative refrigerated profile or an onset time for the appearance change is not asserted here."
+        },
+        {
+          "p": "Alice Penrose considers the evidence sufficient for the stated decision at completion on 25 Apr 2017. No observation beyond the tested interval or outside the method scope is asserted. Future material and future sequences require their own identity and suitability checks. The protocol outcome is retained with the underlying evidence under WST-16-002115."
+        }
+      ]
+    },
+    {
+      "heading": "35 Archive index and approval basis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The report is filed under WA/2016/068 and WST-16-002115. The accession file retains approved results, sequence sheets and the batch-card trail. This issue assigns no additional companion filename."
+        },
+        {
+          "p": "The approval package retains receipt entries, preparation trails, source chromatograms, calculations and suitability decisions. Leon Wu checked sample linkage; Saira Mahmood checked analytical evidence; Alice Penrose approved the conclusion. An extracted table should carry project, product, units, condition where applicable and approved issue status. The retained copy bears the original issue date."
+        },
+        {
+          "table": {
+            "columns": [
+              "Component",
+              "Purpose",
+              "Link"
+            ],
+            "rows": [
+              [
+                "Batch card",
+                "Identity and handling",
+                "Accession and product"
+              ],
+              [
+                "Sequence sheets",
+                "Acquisition and suitability",
+                "Preparation and injection order"
+              ],
+              [
+                "Calculations",
+                "Result derivation",
+                "Response and dilution trail"
+              ],
+              [
+                "Report",
+                "Decision and limits",
+                "Project and issue date"
+              ]
+            ],
+            "caption": "Approved archive navigation"
+          }
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Leon Wu",
+      "role": "Stability Coordinator — sample traceability",
+      "date": "27 Apr 2017",
+      "signed": true
+    },
+    {
+      "name": "Saira Mahmood",
+      "role": "QC Method Validation Lead — analytical review",
+      "date": "27 Apr 2017",
+      "signed": true
+    },
+    {
+      "name": "Andrea Tucker",
+      "role": "Quality Assurance Manager",
+      "date": "27 Apr 2017",
+      "signed": true
+    },
+    {
+      "name": "Alice Penrose",
+      "role": "Head of Analytical Services — approval",
+      "date": "27 Apr 2017",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [],
+  "comments": []
+}
