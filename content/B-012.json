@@ -160,7 +160,7 @@
           "p": "A fixed-concentration CYP panel cannot yield a compound inhibition constant, a test-compound IC50 or a clinical drug-interaction prediction. Microsomal inhibition is distinct from induction and from time-dependent inhibition. No exposure or substrate-dependent clinical margin is included in this report."
         },
         {
-          "p": "The benchmark identifies {{PRJ0034:cyp.most_flagged}} as the most-flagged isoform, but the supplied counts tie CYP2C19, CYP2D6 and CYP3A4. The narrative therefore does not present CYP2C19 as a uniquely dominant liability. Per-compound patterns in Table 2 are the appropriate basis for selecting follow-up."
+          "p": "{{PRJ0034:cyp.most_flagged}} were flagged most often ({{PRJ0034:cyp.most_flagged_n}} compounds each), so no single isoform dominates the liability. Per-compound patterns in Table 2 are the better basis for selecting follow-up."
         },
         {
           "p": "No exposure margin has been calculated. Such a calculation requires an agreed exposure measure and a justified connection between that measure and this assay endpoint. The report establishes neither a dose nor an in vivo response. These limits define the intended use of the screen."
