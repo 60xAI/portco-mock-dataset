@@ -1,0 +1,58 @@
+{"family": "workbook",
+ "summary": "Bench sheets for the Auvrelquith AU-08 oral solution work package (DL_2016_0027). The vehicle ladder covers eight candidate vehicles at 10 mg/mL, the pH and excipient checks show which recipes resisted precipitation on dilution, and the recipe card records the buffer-adjusted solution Auvrelquith took forward for exposure work.",
+ "properties": {"title": "DL_2016_0027 AU-08 vehicle ladder bench sheets"},
+ "sheets": [
+  {"name": "Summary", "tab_color": "#1F4E79", "col_widths": {"A": 24, "B": 48},
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc: bench sheets, AU-08 oral solution", "bold": true}],
+    [],
+    ["Project", "{{PRJ0105:project_id}}"],
+    ["LIMS reference", "{{PRJ0105:lims_id}}"],
+    ["Title", "Auvrelquith AU-08 oral solution: pH and excipient screen"],
+    ["Client", "{{PRJ0105:client_variant}}"],
+    ["Lead", "Dr J. Carver"],
+    ["Team", "Dr M. Serrano, L. Patel"],
+    ["Quote", "04/04/2016"],
+    ["Start", "04/19/2016"],
+    ["Interim review", "05/13/2016"],
+    ["Completion", "06/06/2016"],
+    ["Work package value", "{{PRJ0105:price}}"],
+    [],
+    ["Outcome", "{{PRJ0105:project_id}} closed: the buffer adjustment stopped precipitation on dilution and the client selected the solution for exposure work."],
+    ["Sheets", "Vehicle screen (table of 8 vehicles), Recipe card (buffer-adjusted solution), Notes"]
+   ],
+   "merged": ["A1:B1"]},
+  {"name": "Vehicle screen", "tab_color": "#1F4E79", "col_widths": {"A": 36, "B": 22, "C": 36, "D": 36},
+   "rows": [
+    [{"v": "Vehicle screen, target loading 10 mg/mL", "bold": true}],
+    ["Solubility in mg/mL at equilibrium. Stability read at 24 h after loading at 10 mg/mL."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0105:form_screen", "at": "A4", "header": true}],
+   "merged": ["A1:D1"],
+   "freeze": "A5",
+   "chart": {"kind": "bar", "ref": "PRJ0105:form_screen", "column": 1, "title": "Equilibrium solubility (mg/mL)"},
+   "chart_at": "F4"},
+  {"name": "Recipe card", "tab_color": "#548235", "col_widths": {"A": 30, "B": 40, "C": 30},
+   "rows": [
+    [{"v": "Recipe card: AU-08 buffer-adjusted oral solution", "bold": true}],
+    ["Status", "Selected for exposure work. Pilot lot scale is not yet agreed with the client."],
+    [],
+    ["Component", "Role", "Basis"],
+    ["Active (AU-08)", "Model compound", "Target 10 mg/mL"],
+    ["Citrate buffer", "pH control", "Buffer adjustment prevented precipitation on dilution"],
+    ["Solubilising cosolvent", "Solubility aid", "Kept at the lowest level that held the solution clear"],
+    ["Preservative", "Microbial control", "Per client excipient list"],
+    ["Flavour and sweetener", "Palatability", "Deferred to the client's paediatric panel"],
+    [],
+    ["Note for the pilot lot", "The unbuffered recipe precipitated on dilution. Do not drop the buffer step when scaling."]
+   ]},
+  {"name": "Notes", "tab_color": "#7F7F7F", "col_widths": {"A": 16, "B": 90},
+   "rows": [
+    ["Date", "Development note"],
+    ["05/13/2016", "Interim read: the cosolvent-rich recipes held at 10 mg/mL but grew crystals within 24 h. Buffer adjustment looks like the fix; dilution photos go in the readout."],
+    ["05/24/2016", "Excipient compatibility repeat run on the buffered recipe. No colour change. Screen suitability checks passed."],
+    ["06/06/2016", "Final bench sheet. Readout DL_2016_0027 issued the same day. Recipe card locked for the exposure work."]
+   ],
+   "col_widths": {"A": 16, "B": 90}}
+ ]}
