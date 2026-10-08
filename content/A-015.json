@@ -1,0 +1,57 @@
+{"family": "workbook",
+ "summary": "Christiane Antoine's working copy of the VD-15-134 FT09 indazole delivery workbook for Feldorune Therapeutics BV. It records the N-substitution map across 40 analogues, the N1/N2 assignments and isolated yields, with reviewer comments left in the cells. Kept on the leaver's old laptop, so the notes are informal and some are not yet agreed.",
+ "properties": {"title": "FT09 analogue delivery (working copy)"},
+ "sheets": [
+  {"name": "Summary",
+   "rows": [
+    [{"v": "FT09 indazole N-substitution map, delivery", "bold": true}],
+    ["Project", "{{PRJ0018:project_id}}"],
+    ["LIMS", "{{PRJ0018:lims_id}}"],
+    ["Client", "{{PRJ0018:client_variant}}"],
+    ["Series", "FT09 indazole, analogue set 09"],
+    ["Compounds", {"ref": "PRJ0018:n_compounds"}],
+    ["Price", "{{PRJ0018:price}}"],
+    [],
+    ["Where it stands", "Delivered. Positional assignments in the N-substitution sheet are the ones we sent. The two open ones are flagged in the comments."],
+    ["Chase", "CA: NOESY for the N2 set is in the folder, not yet on the LIMS. Ask CF whether it goes in the lot record."],
+    [],
+    ["Owner", "Christiane Antoine", null, "30/03/2016"]
+   ],
+   "col_widths": {"A": 22, "B": 70},
+   "merged": ["A1:D1"]},
+  {"name": "N-substitution",
+   "rows": [
+    [{"v": "N-substitution: alkylation conditions and the N1/N2 split", "bold": true}],
+    [],
+    [{"v": "Route", "bold": true}, {"v": "Conditions", "bold": true}, {"v": "Scale (mmol)", "bold": true}, {"v": "Note", "bold": true}],
+    ["A", "NaH, DMF, 0 C then alkyl bromide", "0.5 per analogue", "Gives a mixture. Ratio is the thing to watch, so run both isomers through the column."],
+    ["B", "Cs2CO3, MeCN, 60 C", "0.5 per analogue", "Favours N1 for the bulkier halides. Less useful for the small alkyls."],
+    ["C", "Mitsunobu, DIAD, PPh3, THF", "0.2 per analogue", "Only for the hydroxyethyl side chains. Slow but clean."],
+    [],
+    ["Assignment", "N1 vs N2 by HMBC and NOESY. Not from 1H shifts alone, the shifts overlap on the aryl ring."],
+    ["Trend", "Two divergent potency trends. Seems to follow the N-substituent size, which is what the study plan asked for."]
+   ],
+   "col_widths": {"A": 12, "B": 36, "C": 18, "D": 72},
+   "freeze": "A4"},
+  {"name": "Delivery",
+   "rows": [
+    [{"v": "Analogues for Feldorune Therapeutics BV, FT09 series", "bold": true}],
+    ["Yield is isolated. Purity is HPLC area % at 254 nm. Amounts are delivered mg per compound. Some SMILES here were typed in from the lab book and need checking."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0018:synthesis", "at": "A4", "header": true}],
+   "col_widths": {"A": 14, "B": 60, "C": 9, "D": 11, "E": 22, "F": 14},
+   "number_formats": {"C5:C50": "0.0", "D5:D50": "0", "E5:E50": "0.0", "F5:F50": "0"},
+   "freeze": "A5",
+   "comments": [
+    {"cell": "A4", "text": "Lot list is the one from the shared drive, this copy is a month older. Use the shared one.", "author": "Clara Fenwick"},
+    {"cell": "D5", "text": "Yield column came from the old template, check it matches the final cards before anyone quotes it.", "author": "Ruth Calderwood"}
+   ],
+   "tab_color": "#1F4E79"},
+  {"name": "scratch",
+   "rows": [
+    ["todo: send NOESY to CF"],
+    ["todo: redo the Mitsunobu for FT09-07015 if the lot is short"],
+    ["DON'T forget the desiccant for the vials"]
+   ],
+   "col_widths": {"A": 60}}
+ ]}
