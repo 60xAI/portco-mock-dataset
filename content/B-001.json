@@ -1,0 +1,118 @@
+{
+  "family": "deck",
+  "summary": "Final readout of the AP02 hERG channel screen and 5-isoform CYP panel. The lipophilic branch carries an ion-channel liability and Avernelwick advanced the more polar analogues.",
+  "properties": {
+    "title": "AP02 hinge-binder triage: paired safety screen",
+    "subject": "{{PRJ0001:project_id}} final readout",
+    "keywords": "Brindlewythe; plate acceptance; PRJ0001"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "AP02 hinge-binder triage: paired safety screen",
+      "subtitle": "{{PRJ0001:project_id}} | {{PRJ0001:client_variant}}\n27 Sep 2011 | Dr A. Veldershain\nBrindlewythe Biosciences Ltd",
+      "notes": "Final client readout. Study accession {{PRJ0001:lims_id}}.",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Study scope and plate acceptance",
+      "bullets": [
+        "{{PRJ0001:n_compounds}} analogues; hERG automated patch clamp and 5-isoform CYP panel.",
+        "Test period 12–27 Sep 2011; sample cards linked to {{PRJ0001:lims_id}}.",
+        "Ravi Deshmukh checked cell-level fits; Ines Alvarado checked the run sheets before release.",
+        "E-4031 control IC50 {{PRJ0001:herg.control_e4031_nM}} nM; accepted for interpretation."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Controls and reporting rules",
+      "bullets": [
+        "CYP3A4 control {{PRJ0001:cyp.control_CYP3A4_uM}} µM; historical reference {{PRJ0001:cyp.hist_CYP3A4_uM}} µM.",
+        "CYP2D6 control {{PRJ0001:cyp.control_CYP2D6_uM}} µM; historical reference {{PRJ0001:cyp.hist_CYP2D6_uM}} µM.",
+        "hERG upper concentration {{PRJ0001:herg.top_conc_uM}} µM; greater-than values remain censored.",
+        "Flagged hERG entries: {{PRJ0001:herg.n_flagged}}. Retain cell counts and plate acceptance notes when ranking."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "hERG: cell support and inhibition",
+      "table": {
+        "table_ref": "PRJ0001:herg",
+        "columns": [
+          0,
+          4,
+          5,
+          6,
+          7
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "hERG screening-set profile",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0001:herg",
+        "column": 4,
+        "title": "hERG IC50 (µM)",
+        "y_label": "hERG IC50 (µM)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "hERG interpretation",
+      "bullets": [
+        "{{PRJ0001:herg.n_1_10uM}} compounds in the 1–10 µM band; {{PRJ0001:herg.n_ge_10uM}} at or above 10 µM.",
+        "Below 1 µM: {{PRJ0001:herg.n_lt_1uM}}. Median IC50 {{PRJ0001:herg.median_ic50_uM}} µM.",
+        "The lipophilic branch carries the ion-channel liability; prefer the more polar analogues at this screen gate.",
+        "These measurements do not establish an exposure-based safety margin."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "5-isoform CYP panel: inhibition at 10 µM",
+      "table": {
+        "table_ref": "PRJ0001:cyp_inhib",
+        "columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "AP02 representatives for the chemistry discussion",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0001",
+        "n": 6
+      },
+      "notes": "Representative structures identify the screening set; this grid is not a potency ranking.",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Progression decision and handover",
+      "bullets": [
+        "Avernelwick advanced the more polar analogues; deprioritise the lipophilic branch.",
+        "Any CYP isoform above 50% inhibition at 10 µM: {{PRJ0001:cyp.n_any_gt50}} compounds; CYP3A4 is most frequently flagged.",
+        "Cross-check the chosen analogue against both complete assay listings, retaining censored and flagged hERG results.",
+        "Dr A. Veldershain to carry the paired ranking into the biology memo; the single-concentration CYP panel does not establish mechanism."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    }
+  ]
+}
