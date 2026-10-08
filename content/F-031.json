@@ -1,0 +1,449 @@
+{
+  "family": "document",
+  "summary": "Service catalogue describing Vehicle ladder and Excipient compatibility screen inputs and deliverables. It explains dose-loading decisions, formulation-set documentation and early-CMC pilot-lot handoff while bounding exploratory claims.",
+  "properties": {
+    "title": "Durnesswick formulation and early CMC services"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Durnesswick formulation and early CMC services",
+    "subtitle": "Service catalogue | Revision A",
+    "lines": [
+      "Date: 02/05/2026",
+      "Owner: Julia Carver | Formulation Development Lead"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 From a dosing question to a practical preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Durnesswick Laboratories Inc, a Tarnovell company, supports formulation and early CMC work in Durham. Our starting point is the dose that must be prepared, handled and delivered. We build work packages around that decision rather than treating the clearest vial or the highest loading as an automatic winner."
+        },
+        {
+          "p": "A formulation may be easy to prepare but difficult to sample after standing. A solution may lose its advantage when diluted. A dispersion may be practical if its redispersion step is simple and repeatable. We make these tradeoffs explicit so that development teams can choose a route with known limits."
+        },
+        {
+          "list": [
+            "Vehicle ladder for dose concentration, preparation and dilution questions.",
+            "Excipient compatibility screen for early formulation choices.",
+            "Formulation-set comparison and recipe-card development.",
+            "Pilot-lot handoff planning and early-CMC scale gates."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Julia Carver leads formulation development. Miguel Serrano supports screen execution and suitability. Lena Patel connects bench preparation with technical transfer. Each work package identifies its owner, decision criteria and deliverables before execution."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Choosing the right work package",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Tell us what decision you need to make and what a usable preparation must do. A request for solubility can mean equilibrium dissolved concentration, preparation at a target loading or retention of an apparently dissolved dose after dilution. These questions need different observations and should not be combined under one unexplained number."
+        },
+        {
+          "table": {
+            "columns": [
+              "Decision",
+              "Starting service",
+              "Key boundary"
+            ],
+            "rows": [
+              [
+                "Can the intended dose be prepared?",
+                "Vehicle ladder",
+                "Preparation and handling conditions"
+              ],
+              [
+                "Will dilution change the preparation?",
+                "Vehicle ladder dilution follow-up",
+                "Diluent, temperature and hold"
+              ],
+              [
+                "Which excipients deserve progression?",
+                "Excipient compatibility screen",
+                "Contact conditions and analytical capability"
+              ],
+              [
+                "Can a recipe be handed to a pilot team?",
+                "Early-CMC handoff",
+                "Equipment and scale assumptions"
+              ]
+            ],
+            "caption": "Service selection guide"
+          }
+        },
+        {
+          "p": "We agree a bounded formulation set, material allocation and review points. If the screen shows that the initial question cannot be answered with available material or methods, we identify the gap before expanding experiments. A scope change requires agreement."
+        },
+        {
+          "p": "Commercial timing and fees are quoted for the agreed work package. This catalogue contains no standard turnaround promise or fixed service price; material readiness and the requested analytical support determine the execution plan."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Material and information at intake",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Send material with a clear identity, lot designation, assay or purity statement, storage requirements and safe-handling information. Solid-form and moisture information are useful where wetting, dissolution or drying behavior may depend on the material history. We agree sample quantity after the experimental matrix is defined."
+        },
+        {
+          "list": [
+            "Target dose, route and maximum administration volume.",
+            "Permitted excipients and restrictions.",
+            "Current preparation sequence and observed difficulties.",
+            "Available analytical procedure and known recovery issues.",
+            "Intended hold, dilution and transfer conditions.",
+            "Required destination for recipe cards or pilot-lot handoff."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Ashley King supports sample-management coordination. Receipt discrepancies are resolved before preparation. A project identifier and accession provide traceability; they do not substitute for identity evidence or handling instructions."
+        },
+        {
+          "p": "Limited material can support a narrower question. We can prioritize a decisive comparison and retain material for confirmation, but will state which candidates and conditions were not examined. Lack of material is not a basis for presenting an incomplete screen as comprehensive."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Vehicle ladder: preparation at the intended dose",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Vehicle ladder compares candidate vehicles at the loading relevant to the dose. We record composition, addition order, wetting, mixing and hold conditions. Initial appearance is considered alongside settling, caking, redispersion and sampling behavior."
+        },
+        {
+          "p": "Concentration is reported in mg/mL with its basis identified. Nominal preparation concentration, dissolved concentration and total dispersed concentration are different quantities. Where a mass-based formulation is appropriate, loading is reported in weight percent and the recipe retains the mass basis."
+        },
+        {
+          "list": [
+            "Recipe cards identifying components and preparation sequence.",
+            "Bench sheets recording actual handling conditions.",
+            "Vehicle blanks and relevant independent preparations.",
+            "Comparison of appearance, hold behavior and dose sampling.",
+            "Development note recommending progression or identifying the limiting step."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "A clear stock is a candidate, not a promise of dosing performance. If use involves dilution, warming, transfer or an extended hold, that step belongs in the work package. A stable-looking preparation at the bench does not establish shelf life."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Dilution follow-up: examine the transition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dilution can change solvent strength, temperature and mixing history at the same time. Our follow-up separates these effects sufficiently to support a preparation decision. The diluent and addition sequence are chosen to reflect the intended use rather than a convenient laboratory default."
+        },
+        {
+          "p": "The bench sheet records stock, diluent and mixed-sample temperatures, aliquot volumes and actual observation times. Ratios state the stock-to-final-volume convention. An undiluted comparator helps distinguish changes caused by standing from changes associated with dilution."
+        },
+        {
+          "table": {
+            "columns": [
+              "Observation",
+              "Development meaning"
+            ],
+            "rows": [
+              [
+                "New haze or precipitate",
+                "Solution route may require a different preparation or hold"
+              ],
+              [
+                "Reversible settling",
+                "Handling instruction may support dispersed dosing"
+              ],
+              [
+                "Hard cake",
+                "Redispersion may be impractical"
+              ],
+              [
+                "Sampling inconsistency",
+                "Dose delivery requires further work"
+              ]
+            ],
+            "caption": "Interpreting dilution observations"
+          }
+        },
+        {
+          "p": "Calculated nominal concentration after dilution is not evidence that the drug remained dissolved. Analytical work must define the fraction sampled and any separation procedure. We carry that distinction into the recommendation and avoid ranking candidates by incomparable concentration measurements."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Excipient compatibility screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Excipient compatibility screen examines candidate excipients under agreed contact conditions. It helps narrow a formulation set before more demanding development work. The matrix reflects the intended presentation, loading and preparation route."
+        },
+        {
+          "list": [
+            "Identify material and excipient lots.",
+            "Define contact ratio, preparation order, temperature and observation interval.",
+            "Include appropriate material and excipient comparators.",
+            "Document visual and analytical observations separately.",
+            "Assess whether the analytical method can distinguish change from matrix interference."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "An appearance change may be a useful warning without establishing its chemical cause. An unchanged appearance cannot establish chemical compatibility. If analytical recovery is unsuitable, we state that limitation rather than present a negative visual finding as proof of stability."
+        },
+        {
+          "p": "Deliverables describe the tested contact conditions, observations and rationale for retaining or excluding candidates. A favorable exploratory screen supports further development; it does not establish long-term stability, a final excipient specification or suitability for all process conditions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Dispersion feasibility and loading choices",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A dispersed approach can support a dose that is difficult to maintain in solution. Feasibility work considers wetting, mixing, settling, redispersion and representative sampling as a connected preparation problem. We distinguish a manageable sediment from a cake that requires impractical intervention."
+        },
+        {
+          "p": "Increasing loading can reduce dose volume or excipient mass but make a preparation harder to mix or sample. Reducing loading may improve handling while increasing the quantity that must be administered. We compare these consequences against the intended dose instead of maximizing loading without a use case."
+        },
+        {
+          "list": [
+            "Wet-preparation comparison across a bounded formulation set.",
+            "Documented redispersion sequence and hold interval.",
+            "Sampling assessment under intended handling.",
+            "Particle observations in µm where a measurement is included.",
+            "Recipe-card recommendation with unresolved limits identified."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Particle appearance alone does not establish solid form or a particle-size distribution. Where a measured size is needed for the decision, the work package defines the method and sample preparation. The report distinguishes a qualitative observation from an analytical result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Screen suitability and decision quality",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A useful screen needs evidence that the comparison itself was suitable. We check traceability, blanks, timing, temperature and sampling before interpreting candidate performance. Analytical recovery is assessed for the fraction being reported."
+        },
+        {
+          "table": {
+            "columns": [
+              "Check",
+              "Why it matters"
+            ],
+            "rows": [
+              [
+                "Preparation identity",
+                "Links the observation to an actual recipe"
+              ],
+              [
+                "Blank behavior",
+                "Separates vehicle effects from material behavior"
+              ],
+              [
+                "Time and temperature",
+                "Bounds the claim to tested conditions"
+              ],
+              [
+                "Representative sampling",
+                "Supports the dosing question"
+              ],
+              [
+                "Recovery and method",
+                "Defines what concentration means"
+              ]
+            ],
+            "caption": "Screen suitability considerations"
+          }
+        },
+        {
+          "p": "A non-evaluable condition stays visible in the final package. We explain whether a repeat resolved the issue and which observations remain usable. Repetition receives its own preparation identifier; an unfavorable original record is not removed."
+        },
+        {
+          "p": "A progression recommendation connects the observation to the agreed decision criteria. Where the data cannot distinguish candidates, we describe the remaining question. That can be more useful than an unsupported ranking and helps direct the next allocation of material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 What a formulation-set delivery contains",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The delivery is designed to be used by the next team. Recipe cards describe what was prepared. Bench sheets preserve how it was prepared and observed. The development note explains the decision, including alternatives that were unsuitable or could not be evaluated."
+        },
+        {
+          "list": [
+            "Formulation-set index and preparation identifiers.",
+            "Composition and calculation basis with mg/mL or weight percent stated.",
+            "Order of addition, mixing endpoint, temperature and hold.",
+            "Observation and analytical tables where included in scope.",
+            "Screen suitability and deviation disposition.",
+            "Recommendation, fallback where supported and next scale gate."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "We use local project and accession identifiers throughout the package. Source observations and calculations remain linked to the summarized results. A recipe change receives a new identity so that a later team can distinguish the recommended preparation from an earlier candidate."
+        },
+        {
+          "p": "Deliverables identify analytical limits, sampling assumptions and untested intervals. The package should be sufficient to reconstruct the tested preparation; it will not fill missing manufacturing details with implied instructions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Early CMC and pilot-lot handoff",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Lena Patel leads technical-transfer planning for recipes ready to leave the development bench. The handoff identifies what can be transferred directly and what requires a pilot-scale check. Bench success can depend on vessel geometry, mixing, feed hold or collection conditions that change at scale."
+        },
+        {
+          "list": [
+            "Component and material information needed by the receiving team.",
+            "Recipe sequence and operational endpoints.",
+            "Mass or volume basis and material-balance assumptions.",
+            "Storage, transfer and redispersion instructions.",
+            "Equipment constraints and scale-dependent uncertainties.",
+            "Pilot-lot scale gate and proposed evidence for progression."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "For a drying route, the receiving team’s equipment, solvent constraints, workable feed quantity and collection arrangement must inform the plan. A bench drying condition cannot simply be copied into a larger operation and described as qualified."
+        },
+        {
+          "p": "Pilot-lot execution is scoped separately from a feasibility screen. The handoff can support planning and an estimate, but it does not establish manufacturing yield, release performance or process capability before the relevant work has been completed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Exploratory evidence and locked-process work",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Exploratory formulation work helps choose a route and discover limits. A locked process requires its own defined materials, equipment, operating ranges and acceptance criteria. The transition must be deliberate: a preferred recipe does not become a specification because it is the last version in a development note."
+        },
+        {
+          "table": {
+            "columns": [
+              "Exploratory output",
+              "Further evidence before a locked claim"
+            ],
+            "rows": [
+              [
+                "Preferred vehicle",
+                "Defined operating range and representative preparations"
+              ],
+              [
+                "Usable hold interval",
+                "Stability work under agreed storage and use"
+              ],
+              [
+                "Acceptable dispersion handling",
+                "Reproducible sampling and dose performance"
+              ],
+              [
+                "Pilot-lot outline",
+                "Execution and assessment at intended scale"
+              ],
+              [
+                "Screen concentration",
+                "Fit-for-purpose or validated method as required"
+              ]
+            ],
+            "caption": "Boundaries for progression"
+          }
+        },
+        {
+          "p": "We identify next scale gates in the final recommendation. These may include additional preparations, method work, longer holds or a receiving-site trial. The choice depends on the consequence of failure and the use of the material."
+        },
+        {
+          "p": "The catalogue makes no blanket claim of product stability, clinical suitability or manufacturing readiness. Each quoted package states which questions it answers and which remain with later development or the client’s product and manufacturing teams."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Planning a work package with Durnesswick",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Begin with a short description of the intended dose and the decision that is blocking progression. Include material availability, the present preparation and any restrictions on excipients or processing. If a receiving manufacturing team is already selected, provide its constraints early so the formulation set does not develop around an unusable route."
+        },
+        {
+          "list": [
+            "Agree the decision and the relevant use conditions.",
+            "Define material allocation and analytical support.",
+            "Approve the formulation matrix, deliverables and review points.",
+            "Confirm receipt readiness and commercial authorization.",
+            "Execute, assess screen suitability and discuss the recommendation.",
+            "Agree any further work at the next scale gate."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Julia Carver coordinates the scientific scope. Miguel Serrano clarifies preparation and dilution requirements. Lena Patel addresses technical transfer and pilot-lot assumptions. Commercial terms and scheduling are set in the project quotation after the work package is defined."
+        },
+        {
+          "p": "Durnesswick Laboratories Inc, a Tarnovell company, retains practical formulation decisions at the center of this service offering: a dose that can be prepared, an instruction that another team can follow and a clear account of the evidence still needed before scale or process commitment. This edition is issued on 02/05/2026."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "02/05/2026",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
