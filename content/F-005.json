@@ -1,0 +1,253 @@
+{
+  "family": "deck",
+  "summary": "Transition-brand capability deck covering Vehicle ladder and Excipient compatibility screen services. It explains sample requirements, loading tradeoffs and pilot-lot handoff boundaries without claiming a locked process from exploratory work.",
+  "properties": {
+    "title": "Early CMC: practical formulation development",
+    "subject": "Julia Carver, Formulation Development Lead | 06/18/2024",
+    "keywords": "Vehicle ladder; Excipient compatibility screen; early CMC"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Early CMC: practical formulation development",
+      "subtitle": "Julia Carver, Formulation Development Lead | 06/18/2024 | Durnesswick Laboratories Inc, a Tarnovell company",
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "The decision we help you make",
+      "bullets": [
+        "Select a usable formulation direction for the next exposure or preparation step.",
+        "Identify loading and handling limits before committing scarce material.",
+        "Carry a clear recipe card into the next scale gate."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Our development work packages",
+      "bullets": [
+        "Vehicle ladder: compare candidate vehicles at agreed loading.",
+        "Excipient compatibility screen: assess defined material/excipient combinations."
+      ],
+      "bullets_right": [
+        "Follow-up: resolve dilution, settling or preparation questions.",
+        "Pilot-lot handoff: document what the receiving team must reproduce."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Start with intended use",
+      "bullets": [
+        "Tell us the dose, route and available administration volume.",
+        "Distinguish exposure preparation from a product intended for storage.",
+        "Identify dilution medium and any constraints on excipient loading."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Sample requirements at intake",
+      "table": {
+        "columns": [
+          "Information",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Identity and physical form",
+            "Avoid changing material state unknowingly"
+          ],
+          [
+            "Available mass and reserve",
+            "Balance breadth with follow-up"
+          ],
+          [
+            "Known solubility and handling history",
+            "Choose informative starting conditions"
+          ],
+          [
+            "Material-lot relationship",
+            "Assess whether dosing uses comparable material"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Sample receipt and scientific ownership",
+      "bullets": [
+        "Ashley King coordinates sample receipt and material allocation.",
+        "Julia Carver defines the development decision and screen boundaries.",
+        "Miguel Serrano translates the question into an executable formulation set."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Vehicle ladder workflow",
+      "bullets": [
+        "Agree target concentration in mg/mL before choosing recipes.",
+        "Prepare candidate vehicles and capture preparation behavior on bench sheets.",
+        "Compare standing and dilution observations alongside initial appearance."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Appearance does not establish dose suitability",
+      "bullets": [
+        "A clear concentrate may precipitate when diluted.",
+        "A suspension may settle yet remain usable if it redisperses reliably.",
+        "The selected route must match the intended withdrawal and handling steps."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Dose loading: explicit tradeoffs",
+      "bullets": [
+        "Higher concentration can reduce required dose volume.",
+        "Increasing excipient weight percent can improve solvent support."
+      ],
+      "bullets_right": [
+        "Viscosity and mixing can limit preparation and withdrawal.",
+        "Dilution can remove the support that made the concentrate attractive."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Excipient compatibility screen",
+      "bullets": [
+        "Define the excipient combinations and comparison conditions.",
+        "Capture appearance and relevant compatibility observations.",
+        "Use the result to prioritize follow-up; do not infer shelf-life from a short screen."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Screen suitability and interpretation",
+      "table": {
+        "columns": [
+          "Check",
+          "Interpretation boundary"
+        ],
+        "rows": [
+          [
+            "Material identity and recipe traceability",
+            "Comparisons must refer to the intended preparation"
+          ],
+          [
+            "Preparation sequence",
+            "A changed order can change behavior"
+          ],
+          [
+            "Standing and dilution conditions",
+            "Claims apply to the examined condition"
+          ],
+          [
+            "Visible exceptions",
+            "Retain failures beside the preferred route"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Particle size and suspension handling",
+      "bullets": [
+        "Describe measured particle sizes in µm.",
+        "Consider wetting, settling, caking and recovery together.",
+        "A finer distribution is useful only when the resulting preparation remains workable."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Manufacturability questions before expansion",
+      "bullets": [
+        "Can the addition order and mixing method be reproduced?",
+        "Does the container permit recovery of settled material?",
+        "What material demand follows from preparation losses and repeat needs?"
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Pilot-lot preparation is a new scale gate",
+      "bullets": [
+        "Agree preparation volume, equipment class and hold interval.",
+        "Carry forward the screen rationale, not only the selected excipient list.",
+        "Document differences from the exploratory recipe before treating output as comparable."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Handoff package",
+      "table": {
+        "columns": [
+          "Deliverable",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Recipe card",
+            "Composition, addition order and handling"
+          ],
+          [
+            "Bench sheets",
+            "Traceable observations and exceptions"
+          ],
+          [
+            "Development note",
+            "Selection rationale and rejected routes"
+          ],
+          [
+            "Transfer discussion",
+            "Resolve receiving-team assumptions"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Responsibilities at handoff",
+      "bullets": [
+        "Julia Carver: interpretation and development recommendation.",
+        "Miguel Serrano: preparation detail and formulation-set evidence."
+      ],
+      "bullets_right": [
+        "Lena Patel: CMC technical transfer and receiving-team instructions.",
+        "Client team: intended use and local preparation constraints."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Scope and capability boundaries",
+      "bullets": [
+        "Exploratory screening supports a next-step decision.",
+        "A locked process requires evidence of reproducibility under defined controls.",
+        "Shelf-life, dose uniformity and larger-scale performance must be scoped when required."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Bring the next development question",
+      "bullets": [
+        "Share material form, available mass, target loading and intended use.",
+        "Agree the decision and deliverables with Julia Carver.",
+        "Durnesswick Laboratories Inc, a Tarnovell company: local scientific leadership and local project identifiers retained."
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
