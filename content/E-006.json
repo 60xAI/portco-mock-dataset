@@ -1,70 +1,218 @@
-{"family": "workbook",
- "summary": "Approved sequence sheets for OD-18 powder (WA/2019/010) for Odraverne Pharmaceuticals: six-month humidity challenge pulls, the sealed and unsealed configurations compared, and the agreed actions. Moisture uptake explained the assay drift, and Odraverne specified desiccant protection for the next pack configuration.",
- "properties": {"title": "OD18 pulls and humidity results Rev03"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-     [{"v": "Westravelle Analytical Ltd", "bold": true}],
-     [{"v": "Odraverne OD-18 powder: six-month humidity challenge", "bold": true}],
-     [],
-     ["Project", {"ref": "PRJ0092:project_id"}],
-     ["LIMS reference", {"ref": "PRJ0092:lims_id"}],
-     ["Client", "{{PRJ0092:client_variant}}"],
-     ["Protocol lead", "Dr A. Penrose"],
-     ["Prepared by", "Dr L. Wu"],
-     ["Start / completion", "12 Feb 2019", "12 Aug 2019"],
-     [],
-     ["1. Scope"],
-     ["Six-month stability of OD-18 powder under humidity challenge at 25 °C/60% RH and 40 °C/75% RH. Pulls at 0, 3 and 6 months; the three-month interim review was completed on 13 May 2019."],
-     [],
-     ["2. Result"],
-     ["Assay at time zero was {{PRJ0092:stability.t0_assay}} % label claim. The assay drift seen at the warm condition followed moisture uptake, not chemical instability. Odraverne specified desiccant protection for the next pack configuration."],
-     [],
-     ["3. Sheets"],
-     ["Pulls", "Stability results and total impurities chart"],
-     ["Humidity", "Configurations tested and storage"],
-     ["Actions", "Agreed actions and owners"]
-   ],
-   "col_widths": {"A": 24, "B": 30, "C": 22, "D": 14},
-   "merged": ["A1:D1"]
+{
+  "family": "workbook",
+  "summary": "Approved sequence sheets for OD-18 powder (WA/2019/010) for Odraverne Pharmaceuticals cover six-month humidity challenge results and the packaging recommendation. The project review attributed assay drift to moisture uptake, and Odraverne specified desiccant protection for the next pack configuration.",
+  "properties": {
+    "title": "OD18 pulls and humidity results Rev03"
   },
-  {"name": "Pulls",
-   "rows": [
-     [{"v": "Stability pulls: OD-18 powder", "bold": true}],
-     ["Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pulls from the ICH chamber programme as recorded on the batch card."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0092:stability", "at": "A4"}],
-   "col_widths": {"A": 18, "B": 16, "C": 14, "D": 18, "E": 18, "F": 20, "G": 16, "H": 14},
-   "number_formats": {"C5:C16": "0.0", "F5:F16": "0.00"},
-   "freeze": "A5",
-   "chart": {"kind": "bar", "ref": "PRJ0092:stability", "column": 2, "title": "Assay (% LC) by pull"},
-   "chart_at": "J4"
-  },
-  {"name": "Humidity",
-   "rows": [
-     [{"v": "Humidity challenge: configurations and storage", "bold": true}],
-     ["Powder held in open dish and in the two sealed configurations below, at both conditions. Sealed samples were opened only at the pull."],
-     [],
-     ["Configuration", "Storage", "Notes"],
-     ["Open dish", "25 °C/60% RH and 40 °C/75% RH", "Worst-case exposure, reference only"],
-     ["Sealed bottle, no desiccant", "25 °C/60% RH and 40 °C/75% RH", "Current pack configuration"],
-     ["Sealed bottle with desiccant canister", "25 °C/60% RH and 40 °C/75% RH", "Proposed for the next pack configuration"],
-     [],
-     ["Chamber logs were reviewed at each pull. No alarm affected the warm condition during the study."]
-   ],
-   "col_widths": {"A": 36, "B": 34, "C": 40}
-  },
-  {"name": "Actions",
-   "rows": [
-     [{"v": "Agreed actions", "bold": true}],
-     ["Action", "Owner", "Due", "Status"],
-     ["Specify desiccant canister in the next pack configuration", "Dr L. Wu", "30 Sep 2019", "Agreed with Odraverne"],
-     ["Add moisture-uptake check at the three-month pull for future humidity programmes", "Dr A. Penrose", "31 Dec 2019", "Open"],
-     ["Re-run assay on retained samples from the six-month pull after the moisture check", "S. Mahmood", "15 Sep 2019", "Closed"]
-   ],
-   "col_widths": {"A": 62, "B": 16, "C": 14, "D": 24},
-   "comments": [{"cell": "D3", "text": "Recommendation accepted for the next pack configuration.", "author": "Andrea Tucker"}],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Westravelle Analytical Ltd",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "Odraverne OD-18 powder: six-month humidity challenge",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0092:project_id"
+          }
+        ],
+        [
+          "LIMS reference",
+          {
+            "ref": "PRJ0092:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0092:client_variant}}"
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ],
+        [
+          "Prepared by",
+          "Dr L. Wu"
+        ],
+        [
+          "Start / completion",
+          "12 Feb 2019",
+          "12 Aug 2019"
+        ],
+        [],
+        [
+          "1. Scope"
+        ],
+        [
+          "Six-month stability of OD-18 powder under humidity challenge at 25 °C/60% RH, 30 °C/65% RH and 40 °C/75% RH. Initial analysis followed by pulls at 1, 3 and 6 months; the three-month interim review was completed on 13 May 2019."
+        ],
+        [],
+        [
+          "2. Result"
+        ],
+        [
+          "Assay at time zero was {{PRJ0092:stability.t0_assay}} % label claim. The project review attributed assay drift to moisture uptake. Water results fluctuate and impurities also increase at the warm condition; this table alone does not exclude chemical degradation. Odraverne specified desiccant protection for the next pack configuration."
+        ],
+        [],
+        [
+          "3. Sheets"
+        ],
+        [
+          "Pulls",
+          "Stability results and assay chart"
+        ],
+        [
+          "Humidity",
+          "Configurations tested and storage"
+        ],
+        [
+          "Actions",
+          "Agreed actions and owners"
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 30,
+        "C": 22,
+        "D": 14
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Pulls",
+      "rows": [
+        [
+          {
+            "v": "Stability pulls: OD-18 powder",
+            "bold": true
+          }
+        ],
+        [
+          "Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pulls from the ICH chamber programme as recorded on the batch card. Time zero is one initial analysis shared by all storage conditions; repeated initial rows do not represent separate pulls."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0092:stability",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 16,
+        "C": 14,
+        "D": 18,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 14
+      },
+      "number_formats": {
+        "C5:C16": "0.0",
+        "F5:F16": "0.00"
+      },
+      "freeze": "A5",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0092:stability",
+        "column": 2,
+        "title": "Assay (% LC) by pull"
+      },
+      "chart_at": "J4"
+    },
+    {
+      "name": "Humidity",
+      "rows": [
+        [
+          {
+            "v": "Humidity challenge: storage and interpretation",
+            "bold": true
+          }
+        ],
+        [
+          "Condition",
+          "Record"
+        ],
+        [
+          "25 °C/60% RH",
+          "Long-term reference"
+        ],
+        [
+          "30 °C/65% RH",
+          "Intermediate"
+        ],
+        [
+          "40 °C/75% RH",
+          "Accelerated"
+        ],
+        [],
+        [
+          "Pack configurations and chamber history are recorded on the batch card and chamber logs. The result table does not separate sealed and unsealed presentations."
+        ],
+        [
+          "Desiccant protection was specified for the next pack configuration; effectiveness of that future configuration is not established by these results."
+        ]
+      ],
+      "col_widths": {
+        "A": 36,
+        "B": 34,
+        "C": 40
+      }
+    },
+    {
+      "name": "Actions",
+      "rows": [
+        [
+          {
+            "v": "Packaging disposition and follow-up",
+            "bold": true
+          }
+        ],
+        [
+          "Item",
+          "Status"
+        ],
+        [
+          "Desiccant protection for the next pack configuration",
+          "Specified by Odraverne"
+        ],
+        [
+          "Future pack assessment",
+          "Any confirmatory protocol, dates and owners are to be agreed separately."
+        ],
+        [
+          "Repeat analysis / deviation history",
+          "Refer to the approved sequence sheets; no additional repeat results are reported here."
+        ]
+      ],
+      "col_widths": {
+        "A": 62,
+        "B": 16,
+        "C": 14,
+        "D": 24
+      },
+      "comments": [
+        {
+          "cell": "B3",
+          "text": "Carry the desiccant recommendation into the next pack protocol.",
+          "author": "Andrea Tucker"
+        }
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
