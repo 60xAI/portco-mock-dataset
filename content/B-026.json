@@ -1,0 +1,62 @@
+{"family": "workbook",
+ "summary": "Run sheets for BW25_0600 (Avernelwick Pharmaceuticals Ltd, AP02 aminopyrimidine regioisomer series 02): hinge-site IC50 for 24 reserve compounds and the 16-kinase selectivity sweep at 1 µM on six of them. Accepted 26 January 2026; Avernelwick chose a reserve compound with a narrower off-target fingerprint for its next chemistry round.",
+ "properties": {"title": "BW25_0600 run sheets"},
+ "sheets": [
+  {"name": "Summary", "start": "A1",
+   "rows": [
+    [{"v": "Brindlewythe Biosciences Ltd, a Tarnovell company", "bold": true}],
+    [{"v": "BW25_0600 run sheets: AP02 hinge-binder selectivity sweep", "bold": true}],
+    ["Project", {"ref": "PRJ0044:project_id"}, "LIMS", {"ref": "PRJ0044:lims_id"}],
+    ["Client", "{{PRJ0044:client_variant}}"],
+    ["Series", "SER02, aminopyrimidine regioisomer, AP02 prefix"],
+    ["Compounds", {"ref": "PRJ0044:n_compounds"}, "Best IC50 (nM)", {"ref": "PRJ0044:kinase.best_ic50_nM"}],
+    [],
+    ["Stage", "Date", "Sheet", "Checked by"],
+    ["Interim read", "13/01/2026", "Hinge-site IC50, full set", "I. Alvarado"],
+    ["Final read", "26/01/2026", "Selectivity sweep, six compounds", "I. Alvarado"],
+    [],
+    ["Reviewed by", "Dr R. Deshmukh", null, "26/01/2026"],
+    ["Outcome", "Avernelwick selected a reserve compound with a narrower off-target fingerprint for its next medicinal chemistry round."]
+   ],
+   "col_widths": {"A": 26, "B": 22, "C": 34, "D": 22},
+   "merged": ["A1:D1", "A2:D2"],
+   "comments": [{"cell": "B6", "text": "Compound count is the reserve set Avernelwick sent in December. Two of the 24 were resynthesised lots; the lot numbers are on the sample cards.", "author": "Ines Alvarado"}]},
+  {"name": "Plate acceptance", "start": "A1",
+   "rows": [
+    ["Plate", "Read", "Compound block", "Top conc", "Reference inhibitor", "Vehicle", "Accepted", "Note"],
+    ["PA-26-01", "Interim", "AP02-01400 to 01412", "10 µM", "Within range", "Within range", "Yes", "ATP at Km, as per study plan"],
+    ["PA-26-02", "Interim", "AP02-01414 to 01424", "10 µM", "Within range", "Within range", "Yes", ""],
+    ["PA-26-03", "Final", "Full set re-read", "10 µM", "Within range", "Within range", "Yes", "Re-read after a plate-reader service"],
+    ["PA-26-04", "Final", "Selectivity plates", "1 µM", "Within range", "Within range", "Yes", "Single point; read against the same reference"],
+    [],
+    ["Acceptance follows the study plan. Plates were accepted only where both the reference and vehicle were in range; no plate was accepted on one control alone.", null, null, null, null, null, null, null],
+    [],
+    [{"v": "Plate acceptance: all four plates accepted for the final fit and the sweep.", "bold": true}]
+   ],
+   "col_widths": {"A": 12, "B": 12, "C": 22, "D": 12, "E": 20, "F": 18, "G": 12, "H": 38},
+   "merged": ["A6:H6"],
+   "freeze": "A2",
+   "comments": [{"cell": "H5", "text": "Reader service was booked for the week of the interim, so the re-read was planned in and not a deviation.", "author": "Martin Ellerscombe"}]},
+  {"name": "Hinge IC50", "start": "A1",
+   "rows": [
+    [{"v": "Kinase hinge site IC50, 10-point concentration response, ATP at Km", "bold": true}],
+    ["Hill slopes outside the study plan window were re-fitted with the top fixed before the value was accepted. Replicate fits are on the run sheet."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0044:kinase_primary", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 18, "B": 14, "C": 12},
+   "number_formats": {"B5:B40": "0.0", "C5:C40": "0.00"},
+   "chart": {"kind": "bar", "ref": "PRJ0044:kinase_primary", "column": 1, "title": "Kinase hinge site IC50 (nM)", "y_label": "IC50 (nM)"},
+   "chart_at": "F4",
+   "tab_color": "#1F4E79"},
+  {"name": "Selectivity", "start": "A1",
+   "rows": [
+    [{"v": "Kinase selectivity panel: % inhibition at 1 µM, six representative compounds", "bold": true}],
+    ["Readings at or above 50% are flagged for a concentration response before any conclusion. Single-point only."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0044:kinase_panel", "at": "A4", "header": true}],
+   "comments": [{"cell": "A4", "text": "AP02-01430 has one reading above 50%. That is the compound Avernelwick took forward; the fingerprint is narrower than its neighbours, not clean.", "author": "Ravi Deshmukh"}],
+   "tab_color": "#1F4E79"}
+ ]}
