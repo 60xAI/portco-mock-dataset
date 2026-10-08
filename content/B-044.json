@@ -1,0 +1,179 @@
+{
+  "family": "scan",
+  "summary": "Five-page signed quotation for BW03_0098, Belquorin Pharma, covering the BP16 hERG channel screen. The legacy return copy has faint signature ink and a received stamp; commercial acceptance is distinct from scientific acceptance of future recordings.",
+  "document": {
+    "family": "document",
+    "summary": "Signed offer for the BP16 hERG channel screen. The quotation sets the patch-clamp scope, acceptance conditions and package price before laboratory work.",
+    "properties": {
+      "title": "BW03_0098 signed quotation"
+    },
+    "header": "BW03_0098 | Quotation",
+    "footer": "Brindlewythe Biosciences Ltd | Confidential",
+    "title_block": {
+      "title": "BP16 hERG channel screen — signed quotation",
+      "subtitle": "Returned acceptance copy",
+      "lines": [
+        "Brindlewythe Biosciences Ltd",
+        "Client: Belquorin Pharma",
+        "Quotation: {{PRJ0033:project_id}}",
+        "Date: 21/04/2003"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Signed offer summary",
+        "blocks": [
+          {
+            "p": "Belquorin Pharma accepts the hERG channel screen for the BP16 oxazole carboxamide screening set under this quotation. The purpose is to measure inhibition of hERG tail current over a concentration range, then support a screening decision. This contract copy is dated before assay work and contains no measured outcome."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Accepted offer"
+              ],
+              "rows": [
+                [
+                  "Quotation",
+                  "{{PRJ0033:project_id}}"
+                ],
+                [
+                  "Client",
+                  "Belquorin Pharma"
+                ],
+                [
+                  "Compounds",
+                  "{{PRJ0033:n_compounds}}"
+                ],
+                [
+                  "Scope",
+                  "hERG channel screen — whole-cell patch-clamp concentration response"
+                ],
+                [
+                  "Total price",
+                  "{{PRJ0033:price}}"
+                ],
+                [
+                  "Turnaround from assay-ready start",
+                  "{{PRJ0033:turnaround_days}} days"
+                ]
+              ],
+              "caption": "Scope and commercial schedule"
+            }
+          },
+          {
+            "p": "Plate acceptance and cell acceptance precede interpretation. An uninterpretable current recording is not evidence of low channel inhibition. Bethany Rowcroft is responsible for the offered scope; Ravi Deshmukh will coordinate electrophysiology work. The signed return is retained with the received stamp."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Test lot and receipt conditions",
+        "blocks": [
+          {
+            "p": "Belquorin will supply a reconciled BP16 stock list with identifiers, nominal concentrations, solvent, usable volume and storage instructions. Containers must be individually labelled and packaged against leakage. The client supplies identity and concentration; routine independent structure confirmation and stock quantitation are excluded."
+          },
+          {
+            "p": "The accession reference {{PRJ0033:lims_id}} connects receipt, sample cards and run sheets. Stocks with unclear labels, insufficient volume or visible material problems are held pending clarification. Replacement stock is logged separately even when its parent identifier is unchanged."
+          },
+          {
+            "p": "The assay-ready start follows written acceptance and release of the test lot through receipt reconciliation. The quotation does not treat a shipment date as proof that suitable stock is available. Known solubility limitations and maximum solvent requirements must be supplied before working dilutions are prepared."
+          },
+          {
+            "list": [
+              "Maintain the BP16 identifiers throughout dilution and recording.",
+              "Record freeze–thaw and mixing restrictions.",
+              "Confirm that material supports primary recording and routine technical repeat.",
+              "Agree residual-material return or disposal after reporting."
+            ]
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Patch-clamp protocol",
+        "blocks": [
+          {
+            "p": "The hERG channel screen uses whole-cell recordings from cells expressing hERG. The proposed protocol holds at −80 mV, depolarises to +40 mV for 2 seconds and repolarises to −50 mV for 2 seconds to measure tail current. Sweeps are repeated at 0.1 Hz. Recordings are performed at room temperature with vehicle baseline established before compound addition."
+          },
+          {
+            "p": "Compounds are applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM, with final DMSO no higher than 0.3%. The run sheet records actual exposure time, current stability and any precipitation. A concentration that cannot be evaluated reliably is excluded with its reason and does not become a finite fitted endpoint."
+          },
+          {
+            "p": "E-4031 is the reference inhibitor. Its concentration response is checked alongside the cell acceptance record. Ravi Deshmukh will document recording conditions and control disposition. The screen measures channel-current inhibition; it does not establish a clinical arrhythmia risk or the molecular basis of inhibition."
+          },
+          {
+            "list": [
+              "Keep current traces linked to the compound preparation.",
+              "Record slow onset rather than assume equilibrium.",
+              "Identify the highest evaluable concentration in a qualified result."
+            ]
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Acceptance, reporting and exceptions",
+        "blocks": [
+          {
+            "p": "A cell must support stable baseline tail current and acceptable seal resistance. The proposed acceptance limits are seal resistance at least 500 MΩ before break-in and at least 200 MΩ during recording, baseline tail current at least 200 pA and vehicle run-down no greater than 10%. E-4031 IC50 must fall within the working reference range of 5–50 nM."
+          },
+          {
+            "p": "Control or recording failure requires rejection and technical repeat. Ines Alvarado will check that the accepted traces, exclusions and fit qualifiers support the released result. The first record remains retained with its rejection reason. Stock limitations or persistent precipitation require a client decision before further work beyond routine repeat scope."
+          },
+          {
+            "p": "The report gives concentration-response IC50 in µM, accepted-cell information and qualifiers for incomplete curves or limited top concentration. It will lead with acceptance and the key compound table, then describe methods, deviations and screening implications. A censored endpoint will not be treated as an exact measured potency."
+          },
+          {
+            "p": "The included deliverables are a signed report and a compound-level results table. No CYP or metabolism experiment is part of this contract. Follow-up testing and comparison with projected free exposure require separate agreement or client-supplied context."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Terms and returned acceptance",
+        "blocks": [
+          {
+            "p": "The accepted fixed-scope price is {{PRJ0033:price}} for {{PRJ0033:n_compounds}} BP16 compounds. Routine preparation, controls, ordinary technical repeats and reporting are included. Additional compounds, independent shipments and expanded experimental work require written agreement of scope and price before they begin."
+          },
+          {
+            "p": "The planning allowance is {{PRJ0033:turnaround_days}} days from assay-ready start. Brindlewythe will confirm working dates after receipt and will notify Belquorin if unsuitable material or an unresolved recording exception affects report release. An administrative deadline does not override acceptance of the traces."
+          },
+          {
+            "p": "Belquorin compound identities and study data are confidential. Records are retained under the agreed custody terms. Any cancellation after commencement is reconciled to completed and committed work. Applicable tax and transport details are addressed through the purchase documentation."
+          },
+          {
+            "p": "Accepted for Belquorin Pharma: the hERG channel screen and terms described in BW03_0098. Approval is recorded on this signed return. The faint signature is retained as received; the client acceptance is not represented as a result approval."
+          },
+          {
+            "p": "For Brindlewythe Biosciences Ltd: Dr B. Rowcroft, signed 21/04/2003. Received copy filed against the quotation and accession references. Remaining material will be returned or disposed of following the written client instruction."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Bethany Rowcroft",
+        "role": "Screening Operations Director — signed for Brindlewythe Biosciences Ltd",
+        "date": "21/04/2003",
+        "signed": true
+      }
+    ]
+  },
+  "scan": {
+    "skew_deg": -0.65,
+    "noise": 0.2,
+    "blur": 0.5,
+    "stamp": "RECEIVED 21 APR 2003",
+    "handwriting": "Signed return filed — B. Rowcroft",
+    "pages": null
+  }
+}
