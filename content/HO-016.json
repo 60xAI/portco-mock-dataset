@@ -1,0 +1,54 @@
+{"family": "document",
+ "summary": "Closeout memo for the A to F HR and payroll consolidation, written in December 2025 by Nils Bergstrom. It records that the staff directories for A to F are reconciled, names who owns payroll data after the move and where sign-off sits for leavers and starters. It states plainly that the pending acquisition is outside the completed scope.",
+ "properties": {"title": "HR and payroll consolidation closeout (A to F)"},
+ "header": "HR and payroll consolidation closeout | December 2025",
+ "footer": "Tarnovell Bioscience Group | Confidential",
+ "watermark": null,
+ "title_block": {"title": "HR and Payroll Consolidation: Closeout for Firms A to F", "subtitle": "Closeout memo", "lines": ["Report no. TG-HO-HR-2025-004", "Date: 18 December 2025"]},
+ "sections": [
+  {"heading": "1 Purpose", "level": 1, "blocks": [
+    {"p": "This memo closes the HR and payroll consolidation workstream for firms A to F. It records what was completed, what was handed over and where responsibility now sits. It is written for the steering group and for the firm HR leads, who will be asked to confirm the handover in January."},
+    {"p": "The workstream is complete for the six firms named. Payroll onboarding for the pending acquisition has not started and is not covered by this memo.", "style": "bold"}
+  ]},
+  {"heading": "2 What was completed", "level": 1, "blocks": [
+    {"p": "The directory for each firm has been moved into the group HR system. Each record has been matched against the firm's payroll extract and the differences cleared by the firm HR lead. Records that could not be matched have been left in the local directory with a flag, not deleted."},
+    {"table": {"columns": ["Firm", "Directory", "Payroll extract", "Status"], "rows": [
+      ["A Vellacombe", "Moved to group HR", "Matched and cleared", "Complete"],
+      ["B Brindlewythe", "Moved to group HR", "Matched and cleared", "Complete"],
+      ["C Merrivoss", "Moved to group HR", "Matched; two US leave records flagged", "Complete, flags open"],
+      ["D Quenverell", "Moved to group HR", "Matched and cleared", "Complete"],
+      ["E Westravelle", "Moved to group HR", "Matched and cleared", "Complete"],
+      ["F Durnesswick", "Moved to group HR", "Matched; contractor records pending", "Complete, contractor records open"]
+    ], "caption": "Table 1 Directory and payroll status by firm"}},
+    {"p": "The two open items for firm C and the contractor records for firm F are listed in section 4. They do not block the closeout."}
+  ]},
+  {"heading": "3 Ownership after handover", "level": 1, "blocks": [
+    {"p": "From 1 January 2026 the group People Operations team owns the directory and the payroll interface. Firm HR leads continue to own local queries about their own staff and their own leave, and they approve changes to a record before it is sent to payroll."},
+    {"list": [
+      "Starters and leavers: the firm HR lead submits, People Operations keys, and the firm HR lead approves before payroll runs.",
+      "Pay changes: approved by the firm's finance contact and the Group Finance Director for any change above the threshold agreed in the handover.",
+      {"text": "Corrections after payroll has run go through People Operations and are logged against the period concerned.", "level": 1},
+      "Local directories: read-only from 1 January 2026, retained for six years in line with the archive policy."
+    ], "ordered": false}
+  ]},
+  {"heading": "4 Open items", "level": 1, "blocks": [
+    {"table": {"columns": ["Item", "Firm", "Owner", "Due"], "rows": [
+      ["Two leave records with mismatched accrual dates", "C Merrivoss", "Nils Bergstrom with the firm HR lead", "31 January 2026"],
+      ["Contractor records not yet classified", "F Durnesswick", "Praneel Pal", "31 January 2026"],
+      ["Confirm leaver folder owners on local shares", "All", "Judith Wilson", "28 February 2026"]
+    ], "caption": "Table 2 Open items at closeout"}},
+    {"p": "None of these items affects an active payroll run. They are tracked in the IT and SharePoint workstream as well, because the leaver folders sit on the local shares.", "style": "small"}
+  ]},
+  {"heading": "5 Scope boundary", "level": 1, "blocks": [
+    {"p": "The pending acquisition is outside this closeout. Its staff are not in the group directory, its payroll is not connected to the group system, and no one should assume that its records follow the same pattern as A to F."},
+    {"p": "The steering group will decide the onboarding approach for the pending firm once its archive has been through access and QA mapping. Until then no HR or payroll data from that firm should be loaded into any group system.", "style": "note"}
+  ]},
+  {"heading": "6 Sign-off", "level": 1, "blocks": [
+    {"p": "The HR leads for each firm are asked to confirm the handover by email to the People Operations team. Confirmation is not needed for items already closed in section 2."}
+  ]}
+ ],
+ "signature_block": [
+  {"name": "Nils Bergstrom", "role": "People Operations Manager", "date": "18 December 2025", "signed": true},
+  {"name": "Praneel Pal", "role": "Group HR Business Partner", "date": "18 December 2025", "signed": true}
+ ],
+ "orientation": "portrait"}
