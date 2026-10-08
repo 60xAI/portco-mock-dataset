@@ -1,0 +1,54 @@
+{"family": "workbook",
+ "summary": "Interim stability results for WA/2026/047 (Jorvessara JO-14 granules) covering the ICH chamber pulls at 0 to 6 months and the HPLC assay and related-substances validation. Method qualification is complete. Results to date are interim, and the conclusion stays open until the remaining pulls are reviewed.",
+ "properties": {"title": "JO14 first pull review (draft)"},
+ "sheets": [
+  {"name": "Summary", "col_widths": {"A": 26, "B": 40, "C": 18, "D": 18}, "merged": ["A1:D1"], "tab_color": "#1F4E79",
+   "rows": [
+    [{"v": "Westravelle Analytical Ltd, a Tarnovell company", "bold": true}],
+    ["Protocol", "{{PRJ0100:project_id}}", null, "Interim report, first chamber pull"],
+    ["LIMS", "{{PRJ0100:lims_id}}"],
+    ["Client", "{{PRJ0100:client_variant}}"],
+    ["Title", "Jorvessara JO-14 granules: stability start and chromatographic validation"],
+    ["Status", "Interim: results to date, conclusions pending"],
+    ["Lead", "Alice Penrose", null, "Team: Leon Wu, Saira Mahmood"],
+    [],
+    ["Pull schedule", "Timepoint (months)", "Status", "Sign-off"],
+    ["ICH 25 °C/60% RH, 30 °C/65% RH, 40 °C/75% RH", 0, "Reported", "Leon Wu"],
+    ["ICH 25 °C/60% RH, 30 °C/65% RH, 40 °C/75% RH", 1, "Reported", "Leon Wu"],
+    ["ICH 25 °C/60% RH, 30 °C/65% RH, 40 °C/75% RH", 3, "Reported, in review", null],
+    ["ICH 25 °C/60% RH, 30 °C/65% RH, 40 °C/75% RH", 6, "Reported, in review", null],
+    ["ICH 25 °C/60% RH, 30 °C/65% RH, 40 °C/75% RH", 9, "Scheduled", null],
+    ["ICH 25 °C/60% RH, 30 °C/65% RH, 40 °C/75% RH", 12, "Not yet scheduled", null],
+    [],
+    ["Interim reviewed by", null, null, "Date"]
+   ],
+   "comments": [
+    {"cell": "A6", "text": "Leon, can you confirm the chamber pull dates for the 3 and 6 month pulls? The tracker and the chamber log need to match before we send.", "author": "Saira Mahmood"},
+    {"cell": "C12", "text": "Sign-off column is blank for 3 and 6 months. Don't mark as reviewed until the chromatograms are checked.", "author": "Alice Penrose"}
+   ]},
+  {"name": "Stability_Pulls", "start": "A1", "freeze": "A2", "tab_color": "#1F4E79",
+   "rows": [
+    [{"v": "Stability results, WA/2026/047", "bold": true}],
+    ["Assay (% LC) and impurities (% area) against the ICH chamber programme. Water by KF (% w/w). Interim data to 6 months."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0100:stability", "at": "A4", "header": true}],
+   "col_widths": {"A": 18, "B": 16, "C": 14, "D": 18, "E": 18, "F": 18, "G": 16, "H": 14},
+   "number_formats": {"C5:C16": "0.0", "F5:F16": "0.00", "G5:G16": "0.0"},
+   "comments": [
+    {"cell": "F9", "text": "Total impurities at 40 °C, 3 months is above the 25 and 30 °C results at the same pull. Check the integration on the RRT 0.86 peak before we quote it externally.", "author": "Saira Mahmood"}
+   ],
+   "chart": {"kind": "line", "ref": "PRJ0100:stability", "column": 2, "title": "Assay at 40 °C/75% RH (% LC)"}, "chart_at": "J4"},
+  {"name": "Method_Val", "start": "A1", "freeze": "A2", "tab_color": "#7F7F7F",
+   "rows": [
+    [{"v": "HPLC method qualification: summary", "bold": true}],
+    ["Qualification complete. Acceptance criteria as set in the validation protocol."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0100:method_val", "at": "A4", "header": true}],
+   "col_widths": {"A": 28, "B": 14, "C": 18},
+   "hidden": false,
+   "comments": [
+    {"cell": "B7", "text": "Linearity result is within criteria. Still need the signed range report from the QC system before this goes in the final package.", "author": "Saira Mahmood"}
+   ]}
+ ]}
