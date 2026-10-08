@@ -1,0 +1,302 @@
+{
+  "family": "document",
+  "summary": "Service catalogue for Analogue preparation, Route scout and delivery, impurity isolation and compound-card release. Defines required inputs, deliverables and realistic chemistry route-gate limitations.",
+  "properties": {
+    "title": "Vellacombe chemistry service catalogue"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Vellacombe chemistry service catalogue",
+    "subtitle": "Services | January 2025",
+    "lines": [
+      "Date: 21 Jan 2025",
+      "Prepared by: Ruth Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Chemistry services at a glance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Vellacombe Discovery Ltd supplies medicinal chemistry from Nottingham. Work starts with a chemical question and ends with a clear statement of what was isolated, what was learned about the route and what remains a proposed structure."
+        },
+        {
+          "p": "Analogue preparation and Route scout and delivery are the core service names. Impurity isolation and compound-card release support programmes needing a defined reference or a traceable handover."
+        },
+        {
+          "table": {
+            "columns": [
+              "Service",
+              "Output",
+              "Route gate"
+            ],
+            "rows": [
+              [
+                "Analogue preparation",
+                "Isolated analogues and compound cards",
+                "Identity and recoverable material"
+              ],
+              [
+                "Route scout and delivery",
+                "Route decision and released material",
+                "Isolation supports intended use"
+              ],
+              [
+                "Impurity isolation",
+                "Assigned reference and interpretation",
+                "Feature becomes defined material"
+              ],
+              [
+                "Compound-card release",
+                "Assessed identity, purity and delivery account",
+                "Evidence matches physical material"
+              ]
+            ],
+            "caption": "Table 1. Service scope"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Analogue preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Use Analogue preparation for a defined structural comparison: a substituent change, scaffold variation or late-stage diversification evaluated with isolated material. Agree intended structures and the testing purpose before preparation starts."
+        },
+        {
+          "p": "The deliverable is the isolated analogue set with compound cards. A route attempt can teach useful chemistry without yielding deliverable material; the report states that distinction rather than counting every proposed drawing as a completed analogue."
+        },
+        {
+          "p": "Ruth Calderwood, Head of Medicinal Chemistry, leads the programme question and route gates. Priorities may change where recovery or identity risk makes a comparison impractical, but changed structures require a recorded decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Route scout and delivery",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Use Route scout and delivery when the route needs an evidence-based decision. Examples include an uncertain transformation, an isolation limiting recovery or a shared intermediate whose handling affects several final analogues."
+        },
+        {
+          "p": "The scout examines whether the intended structure can be made and isolated for the next operation or client handover. Conversion is useful evidence; the delivery decision depends on isolated material and identity."
+        },
+        {
+          "p": "Hassan Darwish, Senior Synthetic Chemist, provides route interpretation. The chemistry note identifies the risk, route-gate outcome and next experiment. It is not automatically a manufacturing process package."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Isolation and work-up development",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A work-up can determine whether a promising transformation becomes a useful route. Crystallisation, precipitation and chromatography are chosen for the material and question rather than treated as interchangeable finishing steps."
+        },
+        {
+          "p": "Replacing chromatography with crystallisation requires attention to isolated form, solution composition and mother-liquor disposition. A solid’s appearance does not establish identity or purity. A further crop requires assessment on the material obtained."
+        },
+        {
+          "p": "The service can establish a workable isolation within the commissioned scope. Scale, solvent history and incoming-material composition may require another route gate; earlier success does not guarantee unchanged recovery."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Impurity isolation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Use impurity isolation when a relevant feature needs to become a defined reference. The question may involve a competing substitution site, heteroaryl side-product or component associated with variable downstream recovery."
+        },
+        {
+          "p": "Start with the observation making the feature relevant and the source material. An unexplained peak is an observation, not yet an identity. Proposed structures remain hypotheses until supported by isolated-material evidence."
+        },
+        {
+          "p": "The handover distinguishes reference from desired analogue and states its use. A reference supports comparison and interpretation; it does not establish a numerical incoming-material limit or prove that every later failure has the same cause."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Compound-card release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A compound card joins the assigned structure to isolated material, analytical evidence and delivery account. Clara Fenwick, Analytical Release Lead, assesses evidence before material is described as released."
+        },
+        {
+          "p": "Chromatographic purity is area percent with method context. It is not mass purity and cannot be converted directly into assay concentration. Isolated mass, sampling and dispatched amount remain separate entries."
+        },
+        {
+          "p": "Unresolved identity or an unsuitable analytical profile places material on hold. A qualified handover requires an explicit decision and a qualification the recipient understands."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Inputs required",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Provide unambiguous intended structures and describe the programme comparison. State acceptable material forms, downstream use and identity or purity questions that would prevent that use."
+        },
+        {
+          "p": "For route transfer, supply the existing route, isolation observations and incoming-material identities. For impurity isolation, supply source material and evidence connecting the feature to the process question. Disclose instability or handling sensitivities before shipping."
+        },
+        {
+          "table": {
+            "columns": [
+              "Input",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Target structures",
+                "Avoid site or material-form mismatch"
+              ],
+              [
+                "Route and observations",
+                "Locate uncertain route gate"
+              ],
+              [
+                "Source material identity",
+                "Support meaningful impurity comparison"
+              ],
+              [
+                "Downstream use",
+                "Define appropriate release requirement"
+              ],
+              [
+                "Handling qualification",
+                "Preserve interpretation at receipt"
+              ]
+            ],
+            "caption": "Table 2. Commissioning inputs"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Agree the route gates",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Agree the evidence for continuation, replanning or closure before starting. A gate may be isolation of an intermediate, desired alkylation-site assignment or reference availability for an incoming-material question."
+        },
+        {
+          "p": "Specify the handover separately from experimental ambition. A requested structure is not necessarily accessible; a route proposal is not a delivery promise. The team reports constraints as they become clear."
+        },
+        {
+          "p": "When a route gate fails, the supported cause and next experiment are useful outputs. Further preparation follows an agreed revised question rather than silent substitution of easier material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Reporting and handover",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reports put delivered-material accounts early and distinguish isolated compounds from proposed structures. Identifiers connect the account to analytical evidence and physical labels. Chemistry conclusions remain separate from biological interpretation."
+        },
+        {
+          "p": "Andrew May, Sample Management Coordinator, supports delivery-lot reconciliation. The handover identifies material, purpose and qualification. Reference material is labelled so it cannot be confused with a testing analogue."
+        },
+        {
+          "p": "A report can describe route learning without delivered material. It then states what the scout established and why the delivery gate was not passed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Practical limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Related products may be difficult to separate or assign. A clean chromatographic feature may leave positional identity unresolved. High conversion does not guarantee recoverable final material."
+        },
+        {
+          "p": "Analogue changes can alter solubility, isolation and stability. A shared route is a starting point; each isolated compound needs its own account. Multiple simultaneous structural changes may weaken the intended comparison."
+        },
+        {
+          "p": "Dates and quantities are agreed for the commissioned scope after inputs and risks are understood. This catalogue gives no universal turnaround, guaranteed yield or fixed price; those decisions depend on the actual chemistry."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Choosing the next analogue",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The next analogue should answer a specific question using client testing and route learning. A readily prepared structure is not necessarily the most informative comparison."
+        },
+        {
+          "p": "Ruth Calderwood separates the comparison from synthetic risks. An informative but difficult analogue may justify another route scout; an easy change affecting several properties may leave the question unanswered."
+        },
+        {
+          "p": "A proposal remains a proposal until material is isolated and released. Retain that language so the testing team knows which structures are physically available."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Starting a programme",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Bring the question, structures and source material to Ruth Calderwood for scope discussion. Hassan Darwish addresses route uncertainty; Clara Fenwick addresses compound-card release evidence."
+        },
+        {
+          "p": "The scope records intended material, route gates, release requirements and handover. Where inputs are incomplete, a bounded route scout can resolve uncertainty before a larger analogue preparation is agreed."
+        },
+        {
+          "p": "Issued on 21 Jan 2025, this catalogue commits to a traceable chemistry outcome: isolated material when the delivery gate passes, clear route learning and a practical next decision where further work is needed."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Ruth Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "21 Jan 2025",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "comments": [],
+  "tracked_changes": [],
+  "orientation": "portrait"
+}
