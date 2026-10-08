@@ -1,0 +1,170 @@
+{
+  "family": "deck",
+  "summary": "Final Wexanthel Medicines redispersion readout retained as the FINAL final working revision. The micronised pilot lot formed a compact cake, leading to retention of the coarser distribution; numerical particle-size data are not included in the supplied Vehicle ladder.",
+  "properties": {
+    "title": "WX-11: retain the coarser distribution",
+    "subject": "{{PRJ0110:project_id}} | {{PRJ0110:lims_id}} | Wexanthel Medicines | Miguel Serrano | 07/24/2018 | FINAL final",
+    "keywords": "Vehicle ladder; Excipient compatibility screen; early CMC"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "WX-11: retain the coarser distribution",
+      "subtitle": "{{PRJ0110:project_id}} | {{PRJ0110:lims_id}} | Wexanthel Medicines | Miguel Serrano | 07/24/2018 | FINAL final | Durnesswick Laboratories Inc",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Recommendation retained",
+      "bullets": [
+        "Wexanthel Medicines retained the coarser particle-size distribution.",
+        "The micronised pilot lot formed a compact cake.",
+        "Smaller particles did not give the preferred handling behavior."
+      ],
+      "notes": "FINAL final working revision: handoff wording now emphasizes recovery after standing rather than initial appearance.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Vehicle ladder: physical behavior beside capacity",
+      "table": {
+        "table_ref": "PRJ0110:form_screen",
+        "max_rows": 8
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Equilibrium capacity is only part of the choice",
+      "chart": {
+        "kind": "hbar",
+        "ref": "PRJ0110:form_screen",
+        "column": 1,
+        "title": "Equilibrium solubility (mg/mL)"
+      },
+      "notes": "Target loading 10 mg/mL. This chart does not measure dilution behavior or particle-size distribution.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Work package history",
+      "bullets": [
+        "Started 06/01/2018; interim discussion 06/27/2018; completed 07/24/2018.",
+        "Miguel Serrano prepared the comparison under Julia Carver’s development lead.",
+        "Lena Patel supported the practical dosing handoff."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Particle-size comparison: qualitative conclusion",
+      "bullets": [
+        "Coarser pilot lot retained for dosing.",
+        "Recoverability after settling is more useful than a fine appearance alone."
+      ],
+      "bullets_right": [
+        "Micronised pilot lot settled into a compact cake.",
+        "The handling penalty outweighed the expected benefit of size reduction."
+      ],
+      "notes": "No D10, D50 or D90 measurements in µm are supplied. The solubility chart is not a particle-size plot.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Redispersion is a use condition",
+      "bullets": [
+        "Compare the settled preparation before and after the defined mixing step.",
+        "Note base adhesion and hard sediment that remains.",
+        "Uniform appearance during active mixing does not establish recovery after standing."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Vehicle observations relevant to recovery",
+      "table": {
+        "table_ref": "PRJ0110:form_screen",
+        "max_rows": 8,
+        "columns": [
+          0,
+          2,
+          3
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Keep vehicle and size as separate variables",
+      "bullets": [
+        "The ladder distinguishes redispersible preparations from caking preparations.",
+        "The particle-size follow-up independently identified the micronised compact cake.",
+        "Do not assign that failure to a ladder row without the linked recipe card."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Decision consequences",
+      "table": {
+        "columns": [
+          "Item",
+          "Instruction"
+        ],
+        "rows": [
+          [
+            "Material condition",
+            "Retain coarser distribution; no micronised substitution"
+          ],
+          [
+            "Size description",
+            "Report future measured distributions in µm"
+          ],
+          [
+            "Settled preparation",
+            "Resuspend before withdrawal"
+          ],
+          [
+            "Material change",
+            "Repeat recovery assessment before extending use"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Complete decision; further process work",
+      "bullets": [
+        "The client’s choice of coarser material is complete.",
+        "The compact cake explains the rejection of micronisation."
+      ],
+      "bullets_right": [
+        "This deck sets no numerical size specification.",
+        "Transfer-scale preparation and storage claims need supporting observations."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Handoff to Lena Patel",
+      "bullets": [
+        "Carry material condition and resuspension instructions together.",
+        "Retain both pilot-lot observations so the rejected route remains understandable.",
+        "Agree container geometry and mixing method before larger preparation."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final position / working revision retained",
+      "bullets": [
+        "Coarser material retained; micronisation is not the default next step.",
+        "Future changes should address recovery, concentration and manufacturability together.",
+        "FINAL final wording: “redispersible after standing” replaces “fine suspension” in the handoff."
+      ],
+      "notes": "Presentation wording revised; the scientific choice is unchanged.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    }
+  ]
+}
