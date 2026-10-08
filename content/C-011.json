@@ -1,0 +1,151 @@
+{
+  "family": "deck",
+  "summary": "Copied panel matrix acceptance training deck, lightly rebadged for Merrivoss on 05/12/2021. The panel workflow is retained with local annotations distinguishing accession lots from tandem-MS analytical batch acceptance.",
+  "properties": {
+    "title": "Copy of Matrix Acceptance",
+    "subject": "Copied panel matrix acceptance training deck, lightly rebadged for Merrivoss on 05/12/2021. The panel workflow is retained with local annotations distinguishing accession lots from tandem-MS analytical batch acceptance.",
+    "keywords": "Merrivoss; DMPK; matrix acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Copy of Matrix Acceptance",
+      "subtitle": "Panel workflow training | Merrivoss annotations\n05/12/2021 | Helen Marchwood\nMerrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Panel workflow: acceptance belongs to the run",
+      "bullets": [
+        "Confirm plate identity and assay worksheet before reviewing activity.",
+        "Read blanks and reference responses in context.",
+        "Flag an unsuitable run before interpreting article rankings."
+      ],
+      "notes": "Original panel teaching sequence retained. Merrivoss annotation: preserve accession-lot identity when results cross between assays.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Panel workflow | retained diagram",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Plate map > Sample placement",
+          "Sample placement > Blank and reference checks",
+          "Blank and reference checks > Panel run acceptance",
+          "Panel run acceptance > Article interpretation",
+          "Article interpretation > Report review"
+        ]
+      },
+      "notes": "Retained shared panel diagram. Merrivoss addition: tandem-MS analytical acceptance precedes use of concentrations for exposure conclusions.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Local annotation: two acceptance questions",
+      "bullets": [
+        "Accession lot: which material was received and used?",
+        "Preserve label, identity trail and handling notes.",
+        "An accession lot can appear in multiple runs."
+      ],
+      "bullets_right": [
+        "Tandem-MS analytical batch: is this measurement sequence suitable?",
+        "Review calibration, matrix controls and qualifications.",
+        "Run acceptance does not establish material identity."
+      ],
+      "notes": "The original panel language refers to run acceptance. Analytical batch here means a measurement sequence, not an accession lot.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Before the run: keep the matrix visible",
+      "bullets": [
+        "Record species and matrix on the assay worksheet.",
+        "Use appropriate matrix for calibration and reference checks.",
+        "An unchanged analyte name does not establish method transfer.",
+        "Merrivoss annotation: attach matrix context to the analyte card."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reference checks: compare like with like",
+      "bullets": [
+        "Review reference response within the method and matrix in use.",
+        "Investigate blank response, carryover and unexpected background.",
+        "Historical response is context, not a limit unless the procedure defines it.",
+        "Keep the original observation when a qualified rerun is needed."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Panel record to tandem-MS record",
+      "table": {
+        "columns": [
+          "Retained panel element",
+          "Merrivoss annotation"
+        ],
+        "rows": [
+          [
+            "Plate map",
+            "Link to article and accession lot"
+          ],
+          [
+            "Blank and reference checks",
+            "Retain matrix-specific evidence"
+          ],
+          [
+            "Run acceptance",
+            "Assess analytical batch separately"
+          ],
+          [
+            "Article interpretation",
+            "Resolve identity before release"
+          ],
+          [
+            "Report review",
+            "Carry limits into the DMPK memo"
+          ]
+        ]
+      },
+      "notes": "Training crosswalk, not a change to a validated procedure.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reporting limits: avoid a false zero",
+      "bullets": [
+        "Below quantitation means no reportable concentration can be assigned.",
+        "It does not demonstrate absence of analyte.",
+        "Preserve qualifications through concentration summaries and exposure calculations.",
+        "Merrivoss annotation: state the handling rule before the exposure conclusion."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Discussion exercise: identity and response",
+      "bullets": [
+        "The reference response is suitable, but a vial label disagrees with the assay worksheet.",
+        "Would run acceptance resolve the label discrepancy?",
+        "Hold named-article interpretation until the identity trail is resolved.",
+        "Record the action in the analyte card rather than silently changing the name."
+      ],
+      "notes": "Qualitative classroom scenario; no client study or numerical result is implied.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Closeout checklist | Helen Marchwood",
+      "bullets": [
+        "Retain the panel workflow diagram when reusing this copy.",
+        "Use accession lot for material tracking and analytical batch for tandem-MS acceptance.",
+        "Escalate identity or matrix questions before the exposure gate.",
+        "Attach acceptance decisions and qualifications to the assay worksheet."
+      ],
+      "notes": "Final training copy, 05/12/2021. Local annotations supplement the shared panel workflow; study-specific procedures govern acceptance.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
