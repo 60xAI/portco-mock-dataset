@@ -235,7 +235,7 @@
    "notes": [
     "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
     "Controls (IC50, µM): furafylline (CYP1A2) 1.7; sulfaphenazole (CYP2C9) 0.41; ticlopidine (CYP2C19) 1.2; quinidine (CYP2D6) 0.049; ketoconazole (CYP3A4) 0.021",
-    "INTERIM: 11 of 18 results reported; remaining in progress"
+    "INTERIM: 11 of 18 planned rows reported; remaining in progress"
    ]
   },
   "cyp_ic50": {
@@ -299,7 +299,7 @@
    ],
    "notes": [
     "7-point curve, top 50 µM; ketoconazole control run alongside on every plate",
-    "INTERIM: 10 of 18 results reported; remaining in progress"
+    "INTERIM: 10 of 18 planned rows reported; remaining in progress"
    ]
   },
   "benchmark": {

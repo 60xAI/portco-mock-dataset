@@ -231,7 +231,7 @@
  ],
  "tables": {
   "herg": {
-   "title": "hERG IC50 (automated patch clamp)",
+   "title": "hERG IC50 (manual patch clamp)",
    "columns": [
     "Compound",
     "IC50 cell 1 (µM)",

@@ -447,7 +447,7 @@
    "notes": [
     "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 15 nM (acceptance 5-50 nM)",
     "Compound IC50 = geometric mean of finite cell IC50s when they are the majority of accepted cells; otherwise reported as >30 µM (or >10 µM where solubility-limited)",
-    "INTERIM: 20 of 32 results reported; remaining in progress"
+    "INTERIM: 20 of 32 planned rows reported; remaining in progress"
    ]
   },
   "benchmark": {

@@ -331,7 +331,7 @@
    ],
    "notes": [
     "Chlorpromazine control",
-    "INTERIM: 18 of 32 results reported; remaining in progress"
+    "INTERIM: 18 of 32 planned rows reported; remaining in progress"
    ]
   },
   "ames": {
@@ -628,7 +628,7 @@
    ],
    "notes": [
     "Positive controls valid in all strains; outcome: negative",
-    "INTERIM: 35 of 32 results reported; remaining in progress"
+    "INTERIM: 35 of 70 planned rows reported; remaining in progress"
    ]
   },
   "micronucleus": {
@@ -691,7 +691,7 @@
    ],
    "notes": [
     "Outcome: negative",
-    "INTERIM: 8 of 32 results reported; remaining in progress"
+    "INTERIM: 8 of 12 planned rows reported; remaining in progress"
    ]
   },
   "benchmark": {

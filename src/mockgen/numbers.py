@@ -111,7 +111,8 @@ def _herg(ctx: Ctx, top=30.0):
         rows.append([c["id"], rep_disp[0], rep_disp[1], rep_disp[2] if len(rep_disp) > 2 else "", disp,
                      f"{max(-5, min(100, pct10)):.0f}", f"{len(reps)} ({len(quant)})", flag])
     ctrl = 10 ** (6 - r.gauss(7.85, 0.08)) * 1000  # nM
-    ctx.tables["herg"] = {"title": "hERG IC50 (automated patch clamp)", "columns": ["Compound", "IC50 cell 1 (µM)", "IC50 cell 2 (µM)", "IC50 cell 3 (µM)", "IC50 geomean (µM)", "% inhibition @10 µM", "n cells (finite)", "QC note"],
+    method = "manual" if "manual" in ctx.p.title.lower() else "automated"
+    ctx.tables["herg"] = {"title": f"hERG IC50 ({method} patch clamp)", "columns": ["Compound", "IC50 cell 1 (µM)", "IC50 cell 2 (µM)", "IC50 cell 3 (µM)", "IC50 geomean (µM)", "% inhibition @10 µM", "n cells (finite)", "QC note"],
                           "rows": rows, "notes": [f"Top concentration {top:g} µM; 6-point, 3-fold dilution; positive control E-4031 IC50 {sig(ctrl, 2)} nM (acceptance 5-50 nM)",
                                                   f"Compound IC50 = geometric mean of finite cell IC50s when they are the majority of accepted cells; otherwise reported as >{top:g} µM (or >10 µM where solubility-limited)"]}
     vals = [g for g, q in ic50s]
@@ -473,9 +474,10 @@ def generate() -> str:
                 for k, t in ctx.tables.items():
                     if k == "stability":
                         continue  # stability is already cut at the months elapsed
-                    keep = max(1, int(len(t["rows"]) * r.uniform(0.4, 0.7)))
+                    total = len(t["rows"])
+                    keep = max(1, int(total * r.uniform(0.4, 0.7)))
                     t["rows"] = t["rows"][:keep]
-                    t["notes"].append(f"INTERIM: {keep} of {len(cmpds) or keep} results reported; remaining in progress" if p.status == "in_progress" else "Work stopped; partial data only")
+                    t["notes"].append(f"INTERIM: {keep} of {total} planned rows reported; remaining in progress" if p.status == "in_progress" else "Work stopped; partial data only")
         if s:
             _benchmark(ctx, w)
         ctx.values.update({"price": f"{p.price.currency} {p.price.amount:,.0f}", "n_compounds": str(p.n_compounds),
