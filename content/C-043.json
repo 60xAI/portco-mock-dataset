@@ -1,0 +1,13 @@
+{"family": "document",
+ "summary": "Scanner cover sheet saved to the unsorted 2018 scans folder. It carries the legacy Merrivoss brand line and a blank routing field. No study content is present.",
+ "properties": {"title": "Scan_0043"},
+ "header": "Merrivoss Bioanalysis Inc",
+ "footer": "Merrivoss Bioanalysis Inc | Confidential",
+ "watermark": null,
+ "title_block": {"title": "Scan cover sheet", "subtitle": "", "lines": ["Routing: ____________", "Date: 2018-10-09"]},
+ "sections": [
+  {"heading": "Routing", "level": 1, "blocks": [{"p": "Dept: ________   Pages: ___", "style": "small"}, {"p": "Please file with the original batch record. Do not discard.", "style": "note"}]}
+ ],
+ "signature_block": [],
+ "appendices": [],
+ "orientation": "portrait"}
