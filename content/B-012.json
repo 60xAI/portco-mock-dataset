@@ -1,0 +1,260 @@
+{
+  "family": "document",
+  "summary": "The 5-isoform CYP panel was accepted for the CB17 thiophene amide screening set. At 10 µM, {{PRJ0034:cyp.n_any_gt50}} compounds exceeded 50% inhibition at at least one isoform. The full isoform pattern is retained rather than collapsed into a single compound pass/fail label. A selective CYP interaction in the thiophene-rich branch led Cadrunelle Biosciences to favour the oxygen-containing replacements.",
+  "properties": {
+    "title": "CB17 nuclear-receptor ligands: CYP interaction panel",
+    "subject": "Examine reversible CYP inhibition at a fixed test concentration in the CB17 nuclear-receptor ligand screening set, to support comparison of the thiophene-rich branch and oxygen-containing replacements."
+  },
+  "header": "Brindlewythe Biosciences Ltd | {{PRJ0034:project_id}} | Revision B",
+  "footer": "Brindlewythe Biosciences Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "CB17 nuclear-receptor ligands: CYP interaction panel",
+    "subtitle": "Final signed study report — revision B",
+    "lines": [
+      "Study {{PRJ0034:project_id}}",
+      "Accession {{PRJ0034:lims_id}}",
+      "Client: Cadrunelle Biosciences",
+      "Date: 28 Aug 2015",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and control acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The 5-isoform CYP panel was accepted for the CB17 thiophene amide screening set. At 10 µM, {{PRJ0034:cyp.n_any_gt50}} compounds exceeded 50% inhibition at at least one isoform. The full isoform pattern is retained rather than collapsed into a single compound pass/fail label."
+        },
+        {
+          "p": "Control acceptance preceded interpretation. Ines Alvarado checked the acceptance record and its link to the sample cards before the screening conclusions were released. Censored estimates and individual qualifications remain part of the accepted endpoint record; study acceptance does not remove them."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0034:benchmark",
+            "caption": "Table 1. Study summary and benchmarks"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Study objective and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Examine reversible CYP inhibition at a fixed test concentration in the CB17 nuclear-receptor ligand screening set, to support comparison of the thiophene-rich branch and oxygen-containing replacements."
+        },
+        {
+          "p": "The study covered {{PRJ0034:n_compounds}} compounds for Cadrunelle Biosciences under {{PRJ0034:project_id}}, accession {{PRJ0034:lims_id}}. Work began on 10 Aug 2015. The interim position was recorded on 19 Aug 2015 and the completed assessment was issued on 28 Aug 2015. Revision B supersedes the interim position."
+        },
+        {
+          "p": "The screen gate concerned the next chemistry decision. It was not a clinical assessment or an assertion that the intended target mechanism had been demonstrated. Dr B. Rowcroft was responsible for the scientific interpretation and final release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test articles and accountability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "CB17 sample cards were reconciled with the dilution and incubation map. A common compound identifier linked all isoform measurements. No CYP result was taken as evidence of nuclear-receptor activity; the panel is a liability screen supporting the chemistry programme rather than a measurement of its intended pharmacology."
+        },
+        {
+          "p": "Test lot identity was preserved from receipt through preparation and measurement. The reportable compound identifier belongs to the material submitted for this study. A replacement lot, new solid form or formulation is not covered merely because it has the same chemistry designation."
+        },
+        {
+          "p": "The sample card provides the connection between retained material and the assay record. Follow-up work should carry that connection forward while recording any change of lot. Result transfer must use full identifiers rather than rack position or abbreviated suffix."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Experimental procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The 5-isoform CYP panel used human liver microsomes and isoform-appropriate probe substrates for CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4. Test articles were assessed at 10 µM with matched vehicle controls. Probe turnover was measured within the working range of the incubation, and inhibition was expressed relative to the corresponding vehicle condition."
+        },
+        {
+          "p": "Reference inhibitor concentration responses accompanied the panel. The reference-control IC50 values were considered against the historical assay values before test-compound inhibition was interpreted. Each isoform had its own control comparison; a satisfactory CYP3A4 reference did not substitute for a control at another isoform."
+        },
+        {
+          "p": "The incubation sequence and sample identity were retained on the run sheet. This fixed-concentration study did not include a test-compound IC50 determination, a preincubation comparison for time-dependent inhibition or an enzyme-induction experiment. Those endpoints cannot be reconstructed from a single inhibition value."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Plate acceptance and calculation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reference IC50 values (µM) were CYP1A2 {{PRJ0034:cyp.control_CYP1A2_uM}}, CYP2C9 {{PRJ0034:cyp.control_CYP2C9_uM}}, CYP2C19 {{PRJ0034:cyp.control_CYP2C19_uM}}, CYP2D6 {{PRJ0034:cyp.control_CYP2D6_uM}} and CYP3A4 {{PRJ0034:cyp.control_CYP3A4_uM}}. Corresponding historical values were {{PRJ0034:cyp.hist_CYP1A2_uM}}, {{PRJ0034:cyp.hist_CYP2C9_uM}}, {{PRJ0034:cyp.hist_CYP2C19_uM}}, {{PRJ0034:cyp.hist_CYP2D6_uM}} and {{PRJ0034:cyp.hist_CYP3A4_uM}} µM. The control comparison supported plate acceptance; historical values are context, not compound results."
+        },
+        {
+          "p": "Probe-turnover inhibition was normalised within each isoform. The threshold above 50% at 10 µM was used as a follow-up screen flag, not an IC50 or a clinical classification. Small negative inhibition values were retained as normalised observations rather than forced to zero or interpreted as enzyme induction."
+        },
+        {
+          "p": "Ines Alvarado checked units, column mapping and retention of qualifiers during report preparation. Bethany Rowcroft then considered the accepted endpoints against the study objective. A reference control demonstrates assay responsiveness under the test conditions; it does not establish specificity or suitability of a test compound outside those conditions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Results: numerical record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Counts above 50% at 10 µM were CYP1A2 {{PRJ0034:cyp.n_gt50_CYP1A2}}, CYP2C9 {{PRJ0034:cyp.n_gt50_CYP2C9}}, CYP2C19 {{PRJ0034:cyp.n_gt50_CYP2C19}}, CYP2D6 {{PRJ0034:cyp.n_gt50_CYP2D6}} and CYP3A4 {{PRJ0034:cyp.n_gt50_CYP3A4}}. A compound can contribute to more than one isoform count. The union count, {{PRJ0034:cyp.n_any_gt50}}, must therefore not be obtained by adding these counts."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0034:cyp_inhib",
+            "caption": "Table 2. 5-isoform CYP panel: inhibition (%) at 10 µM"
+          }
+        },
+        {
+          "p": "The released tables are the primary numerical record. A blank cell is not a zero. A greater-than value is not an exact estimate. Concentration, matrix and endpoint units must remain attached to each result when it is copied from this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Comparison within the screening set",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The branch comparison was more useful than a total flag count. The thiophene-rich branch carried a selective interaction pattern that favoured oxygen-containing replacements at the screen gate. This association does not establish that the thiophene group itself causes the interaction; other substitution differences remain possible contributors."
+        },
+        {
+          "p": "Comparison within the present study is preferred to an unqualified comparison with historical screening sets. Test lot, preparation and assay conditions can change the apparent separation between candidates. A useful chemistry association remains a screening observation unless a further experiment distinguishes its possible causes."
+        },
+        {
+          "p": "The assay profile should be read in full before selecting a favourable isolated result. An optimisation preference does not change the endpoint, and a less favoured branch does not become an assay failure because the client chooses another direction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Qualifications and interpretation limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A fixed-concentration CYP panel cannot yield a compound inhibition constant, a test-compound IC50 or a clinical drug-interaction prediction. Microsomal inhibition is distinct from induction and from time-dependent inhibition. No exposure or substrate-dependent clinical margin is included in this report."
+        },
+        {
+          "p": "The benchmark identifies {{PRJ0034:cyp.most_flagged}} as the most-flagged isoform, but the supplied counts tie CYP2C19, CYP2D6 and CYP3A4. The narrative therefore does not present CYP2C19 as a uniquely dominant liability. Per-compound patterns in Table 2 are the appropriate basis for selecting follow-up."
+        },
+        {
+          "p": "No exposure margin has been calculated. Such a calculation requires an agreed exposure measure and a justified connection between that measure and this assay endpoint. The report establishes neither a dose nor an in vivo response. These limits define the intended use of the screen."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate and client decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A selective CYP interaction in the thiophene-rich branch led Cadrunelle Biosciences to favour the oxygen-containing replacements."
+        },
+        {
+          "p": "Oxygen-containing replacements are the preferred next chemistry branch. A replacement with acceptable intended activity still requires its own CYP assessment. The present branch decision does not assign a favourable CYP profile to untested structures."
+        },
+        {
+          "p": "Cadrunelle Biosciences owns the chemistry decision. Brindlewythe Biosciences Ltd supplies the accepted experimental profile and its interpretation limits. The decision is recorded separately so that a progression preference is not mistaken for an additional experimental observation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Follow-up work specification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "For retained replacements, concentration-response testing at the affected isoforms would establish whether the fixed-concentration separation persists across a range. A time-dependent inhibition study would need a defined preincubation design. Do not label that question resolved by the present panel."
+        },
+        {
+          "p": "Any further study should state its question before allocating samples. Retain the existing compound identifier and test lot, and use a new accession for newly submitted material. A repeat intended to resolve a qualification should retain that purpose in its run sheet rather than being merged silently with the present result."
+        },
+        {
+          "p": "Proposed follow-up does not imply that the additional experiment has already been completed. Only the assays and endpoints in this report are released under the current study."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Study records and data transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ines Alvarado checked isoform column order and the union count against the panel record. Preserve negative values and the stated 10 µM concentration during transfer. Reference control IC50 values must remain separate from the test-compound percent-inhibition table."
+        },
+        {
+          "p": "The study file contains the sample-card link, preparation record, run sheets and released endpoint tables. Bethany Rowcroft prepared the interpretation and Ines Alvarado checked it against the accepted assay record. The final report should be retained with those records rather than used as a replacement for them."
+        },
+        {
+          "p": "When quoting the assessment, retain {{PRJ0034:project_id}}, revision B, the report date and endpoint units. A copied ranking without its qualifications loses information needed at the screen gate. This report is confidential to Cadrunelle Biosciences and Brindlewythe Biosciences Ltd."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Conclusion and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A selective CYP interaction in the thiophene-rich branch led Cadrunelle Biosciences to favour the oxygen-containing replacements."
+        },
+        {
+          "p": "The accepted experimental record supports that screening decision within the conditions specified. It does not extend the scope to untested compounds, matrices or biological endpoints. The numerical tables and qualifications remain the basis for any subsequent use of the results."
+        },
+        {
+          "p": "Revision B is the final report issued on 28 Aug 2015. The signatures record scientific release and the check of sample mapping, units and result qualifications."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "28 Aug 2015",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — report check",
+      "date": "28 Aug 2015",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
