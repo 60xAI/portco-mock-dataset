@@ -6,10 +6,11 @@ import os
 import shutil
 import subprocess
 import tempfile
+import zipfile
 from pathlib import Path
 
 from . import manifest as Mf
-from .paths import ARCHIVE_ROOT, HELDBACK_ROOT, OUTPUT, CONTENT
+from .paths import ARCHIVE_ROOT, HELDBACK_ROOT, OUTPUT, CONTENT, ROOT
 
 UI_LIMIT = 30 * 1000 * 1000
 INGEST_LIMIT = 60 * 1024 * 1024
@@ -88,3 +89,35 @@ def export() -> str:
     (OUTPUT / "MANIFEST.tsv").write_text("\n".join(lines) + "\n")
     missing = sum(1 for e in es if not out_path(e).exists())
     return f"export: {ARCHIVE_ROOT} and {HELDBACK_ROOT}; listing at {OUTPUT / 'MANIFEST.tsv'} ({len(es)} files, {missing} missing)"
+
+
+def _zip_tree(root: Path, base: Path, dest: Path) -> int:
+    """Zip every file under root with paths relative to base, keeping modification times."""
+    files = sorted(f for f in root.rglob("*") if f.is_file() and f.name != ".DS_Store")
+    with zipfile.ZipFile(dest, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in files:
+            z.write(f, f.relative_to(base).as_posix())
+    return len(files)
+
+
+def package() -> str:
+    """Ingest zips, each under the AI Brain web upload limit (UI_LIMIT).
+
+    The main archive is one zip per top-level folder in tarnovell_archive/, since it
+    is too big for one upload; firm G stays a single zip. Dates are restored first.
+    """
+    export()
+    out = ROOT / "tarnovell_archive"
+    out.mkdir(exist_ok=True)
+    for old in out.glob("*.zip"):
+        old.unlink()
+    zips = [(d, ARCHIVE_ROOT, out / f"tarnovell_archive_{d.name}.zip") for d in sorted(ARCHIVE_ROOT.iterdir()) if d.is_dir()]
+    zips.append((HELDBACK_ROOT, HELDBACK_ROOT, ROOT / "tarnovell_firm_G_heldback.zip"))
+    lines = []
+    for src, base, dest in zips:
+        count = _zip_tree(src, base, dest)
+        size = dest.stat().st_size
+        if size >= UI_LIMIT:
+            raise SystemExit(f"{dest.name} is {size / 1e6:.1f} MB, over the {UI_LIMIT / 1e6:.0f} MB upload limit")
+        lines.append(f"{dest.relative_to(ROOT)}\t{count} files\t{size / 1e6:.1f} MB")
+    return "\n".join(lines)

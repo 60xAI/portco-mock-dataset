@@ -147,6 +147,12 @@ def cmd_export(a):
     return 0
 
 
+def cmd_zips(a):
+    from .archive import package
+    print(package())
+    return 0
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="mockgen")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -181,6 +187,7 @@ def main(argv=None):
     s = sub.add_parser("validate"); s.add_argument("--all", action="store_true", required=True); s.set_defaults(fn=cmd_validate)
     s = sub.add_parser("golden"); s.set_defaults(fn=cmd_golden)
     s = sub.add_parser("export"); s.set_defaults(fn=cmd_export)
+    s = sub.add_parser("zips"); s.set_defaults(fn=cmd_zips)
     s = sub.add_parser("commit"); s.add_argument("file_ids", nargs="+"); s.add_argument("-m", "--message"); s.add_argument("--no-push", action="store_true")
     s.set_defaults(fn=cmd_commit)
 
