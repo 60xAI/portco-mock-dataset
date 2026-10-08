@@ -1,52 +1,204 @@
-{"family": "workbook",
- "summary": "Route scout and delivery workbook for VD-96-072 (Elvarmere Biosciences AB, EB05 pyrrolopyridine series). It records the bromination step that gave two ring-position regioisomers, their separation by preparative HPLC and assignment by 2D NMR, and the 24 analogues delivered for the first potency screen, with isolated yields and delivery-lot purity.",
- "properties": {"title": "VD-96-072 route scout and delivery workbook"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-    [{"v": "VD-96-072 route scout and delivery", "bold": true}],
-    ["Project", "{{PRJ0016:project_id}}"],
-    ["LIMS", "{{PRJ0016:lims_id}}"],
-    ["Client", "{{PRJ0016:client_variant}}"],
-    ["Series", "EB05 pyrrolopyridine, analogue set 05"],
-    ["Compounds delivered", {"ref": "PRJ0016:n_compounds"}],
-    ["Price", "{{PRJ0016:price}}"],
-    [],
-    ["Route decision", "Route A taken forward. The separated regioisomer goes into the analogue set; the mixture does not."],
-    ["Open point", "Ring-position assignment rests on 2D NMR alone. Dr R. Calderwood asked for the NOESY spectrum to be filed with the lot records."],
-    [],
-    ["Compiled by", "Dr H. Darwish", null, "13/02/1997"],
-    ["Checked by", "Clara Fenwick", null, "13/02/1997"],
-    [],
-    ["Project benchmark"]
-   ],
-   "data_refs": [{"table_ref": "PRJ0016:benchmark", "at": "A16", "header": true}],
-   "col_widths": {"A": 24, "B": 62, "C": 16, "D": 12},
-   "merged": ["A1:D1"]},
-  {"name": "Route scout",
-   "rows": [
-    [{"v": "Route scout: pyrrolopyridine core and side-chain steps", "bold": true}],
-    [],
-    [{"v": "Step", "bold": true}, {"v": "Transformation", "bold": true}, {"v": "Scale (mmol)", "bold": true}, {"v": "Outcome", "bold": true}],
-    ["1", "Core bromination, NBS in DMF, room temperature", "2.0", "Two regioisomers in the crude. Ratio read from the HPLC trace, not yet a yield."],
-    ["2", "Preparative HPLC separation of the regioisomers", "crude from step 1", "Regioisomer A isolated. Regioisomer B kept as the reference for the ring-position question."],
-    ["3", "2D NMR assignment (HMBC, NOESY)", "sample from step 2", "Ring position assigned to regioisomer A. Assignment accepted by the team on 9 January."],
-    ["4", "Suzuki coupling, aryl boronic acid, Pd(PPh3)4, K2CO3", "0.5 per analogue", "Route gate passed: coupling clean on the model aryl, so the set can go ahead."],
-    ["5", "Amide formation, EDC/HOBt, amine in excess", "0.2 per analogue", "Route risk. The piperazine-bearing members need the excess amine and a longer work-up."],
-    [],
-    ["Next analogue", "Swap the aryl boronic acid at step 4 and keep steps 1 to 3 fixed. No further bromination work is planned for this series."]
-   ],
-   "col_widths": {"A": 8, "B": 52, "C": 18, "D": 70},
-   "freeze": "A4"},
-  {"name": "Delivery lots",
-   "rows": [
-    [{"v": "Analogues delivered to Elvarmere Biosciences AB for the first potency screen", "bold": true}],
-    ["Yield is isolated. Purity is HPLC area % at 254 nm. Amounts are delivered mg per compound."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0016:synthesis", "at": "A4", "header": true}],
-   "col_widths": {"A": 14, "B": 60, "C": 9, "D": 11, "E": 22, "F": 14},
-   "number_formats": {"C5:C40": "0.0", "D5:D40": "0", "E5:E40": "0.0", "F5:F40": "0"},
-   "freeze": "A5",
-   "comments": [{"cell": "A4", "text": "Lot numbers to be added when the delivery note is signed off.", "author": "Ruth Calderwood"}],
-   "tab_color": "#1F4E79"}
- ]}
+{
+  "family": "workbook",
+  "summary": "Route scout and delivery workbook for VD-96-072 (Elvarmere Biosciences AB, EB05 pyrrolopyridine series). It records the bromination step that gave two ring-position regioisomers, their separation by preparative HPLC and assignment by 2D NMR, and the 24 analogues delivered for the first potency screen, with isolated yields and delivery-lot purity.",
+  "properties": {
+    "title": "VD-96-072 route scout and delivery workbook"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "VD-96-072 route scout and delivery",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "{{PRJ0016:project_id}}"
+        ],
+        [
+          "LIMS",
+          "{{PRJ0016:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0016:client_variant}}"
+        ],
+        [
+          "Series",
+          "EB05 pyrrolopyridine, analogue set 05"
+        ],
+        [
+          "Compounds delivered",
+          {
+            "ref": "PRJ0016:n_compounds"
+          }
+        ],
+        [
+          "Price",
+          "{{PRJ0016:price}}"
+        ],
+        [],
+        [
+          "Route decision",
+          "Route A taken forward. The separated regioisomer goes into the analogue set; the mixture does not."
+        ],
+        [
+          "Assignment source",
+          "Accepted ring-position assignment: VD-96-072 compound cards and their HMBC/NOESY spectrum records under VA19960654; read with EB05_RteA_13Feb97.ppt. A is a separation label, not a ring-position designation."
+        ],
+        [],
+        [
+          "Compiled by",
+          "Dr H. Darwish",
+          null,
+          "13/02/1997"
+        ],
+        [
+          "Checked by",
+          "Clara Fenwick",
+          null,
+          "13/02/1997"
+        ],
+        [],
+        [
+          "Project benchmark"
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0016:benchmark",
+          "at": "A16",
+          "header": true
+        }
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 62,
+        "C": 16,
+        "D": 12
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Route scout",
+      "rows": [
+        [
+          {
+            "v": "Route scout: pyrrolopyridine core and side-chain steps",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          {
+            "v": "Step",
+            "bold": true
+          },
+          {
+            "v": "Transformation",
+            "bold": true
+          },
+          {
+            "v": "Scale (mmol)",
+            "bold": true
+          },
+          {
+            "v": "Outcome",
+            "bold": true
+          }
+        ],
+        [
+          "1",
+          "Core bromination, NBS in DMF, room temperature",
+          "2.0",
+          "Two regioisomers in the crude. Ratio read from the HPLC trace, not yet a yield."
+        ],
+        [
+          "2",
+          "Preparative HPLC separation of the regioisomers",
+          "crude from step 1",
+          "Regioisomer A isolated. Regioisomer B kept as the reference for the ring-position question."
+        ],
+        [
+          "3",
+          "2D NMR assignment (HMBC, NOESY)",
+          "sample from step 2",
+          "Desired separated regioisomer taken forward. Accepted ring-position structure is on the VD-96-072 compound card; consult linked HMBC/NOESY spectrum record under VA19960654 rather than treating fraction label A as the assignment."
+        ],
+        [
+          "4",
+          "Suzuki coupling, aryl boronic acid, Pd(PPh3)4, K2CO3",
+          "0.5 per analogue",
+          "Route gate passed: coupling clean on the model aryl, so the set can go ahead."
+        ],
+        [
+          "5",
+          "Amide formation, EDC/HOBt, amine in excess",
+          "0.2 per analogue",
+          "Route risk. The piperazine-bearing members need the excess amine and a longer work-up."
+        ],
+        [],
+        [
+          "Next analogue",
+          "Swap the aryl boronic acid at step 4 and keep steps 1 to 3 fixed. No further bromination work is planned for this series."
+        ]
+      ],
+      "col_widths": {
+        "A": 8,
+        "B": 52,
+        "C": 18,
+        "D": 70
+      },
+      "freeze": "A4"
+    },
+    {
+      "name": "Delivery lots",
+      "rows": [
+        [
+          {
+            "v": "Analogues delivered to Elvarmere Biosciences AB for the first potency screen",
+            "bold": true
+          }
+        ],
+        [
+          "Yield is isolated; purity is HPLC area % at 254 nm; amounts are delivered mg per compound. For each listed compound, signed VD-96-072 delivery note and compound card under VA19960654 identify delivered lot and release record; lot identifiers are not re-created here."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0016:synthesis",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "col_widths": {
+        "A": 14,
+        "B": 60,
+        "C": 9,
+        "D": 11,
+        "E": 22,
+        "F": 14
+      },
+      "number_formats": {
+        "C5:C40": "0.0",
+        "D5:D40": "0",
+        "E5:E40": "0.0",
+        "F5:F40": "0"
+      },
+      "freeze": "A5",
+      "comments": [
+        {
+          "cell": "A4",
+          "text": "Trace by compound ID to signed VD-96-072 delivery note and compound card, including accepted ring-position drawing and linked HMBC/NOESY record.",
+          "author": "Ruth Calderwood"
+        }
+      ],
+      "tab_color": "#1F4E79"
+    }
+  ]
+}
