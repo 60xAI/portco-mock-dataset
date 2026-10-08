@@ -1,0 +1,384 @@
+{
+  "family": "document",
+  "summary": "Final offer for the RI13 CYP panel and a bounded confirmatory dilution set. It states the package price and purchase conditions without implying that an unaccepted study was started.",
+  "properties": {
+    "title": "BW24_0330 quotation rev A"
+  },
+  "header": "BW24_0330 | Quotation rev A",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "RI13 5-isoform CYP panel — quotation",
+    "subtitle": "Quotation rev A",
+    "lines": [
+      "Brindlewythe Biosciences Ltd, a Tarnovell company",
+      "Client: Rennelwick Institute Drug Discovery Unit",
+      "Study: {{PRJ0050:project_id}}",
+      "Accession reference: {{PRJ0050:lims_id}}",
+      "Prepared by Dr B. Rowcroft, Screening Operations Director",
+      "Date: 15 Jul 2024"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Quoted package",
+      "blocks": [
+        {
+          "p": "Rennelwick Institute Drug Discovery Unit has requested a 5-isoform CYP panel for its RI13 phenoxyethyl amide screening set. The proposed work is a single-concentration liability screen with a confirmatory dilution step for technically uncertain calls. This quotation establishes the offered scope; it does not record a purchase instruction or authorise the laboratory to start."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Quoted basis"
+            ],
+            "rows": [
+              [
+                "Reference",
+                "{{PRJ0050:project_id}}"
+              ],
+              [
+                "Screening set",
+                "RI13 phenoxyethyl amides"
+              ],
+              [
+                "Compound count",
+                "{{PRJ0050:n_compounds}}"
+              ],
+              [
+                "Test concentration",
+                "10 µM"
+              ],
+              [
+                "Total price",
+                "{{PRJ0050:price}}"
+              ],
+              [
+                "Turnaround",
+                "Working dates to be agreed following acceptance"
+              ]
+            ],
+            "caption": "Offer summary"
+          }
+        },
+        {
+          "p": "Plate acceptance will be resolved before compound ranking. All deliverables depend on receipt of usable material and written acceptance. The accession reference is reserved for record linkage and is not evidence that a test lot has arrived."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Scientific question",
+      "blocks": [
+        {
+          "p": "The proposed screen asks whether RI13 compounds suppress isoform-selective metabolite formation in human liver microsomes. Nuclear receptor activity is not measured here. The five readouts will help Rennelwick select compounds for fuller interaction assessment without describing a single-concentration flag as a mechanistic finding."
+        },
+        {
+          "p": "The screen gate is a request for follow-up where inhibition exceeds the agreed flag threshold or a sample limitation prevents interpretation. A low measured endpoint is informative only when the run is accepted and the compound was available to the incubation. Solubility and dilution uncertainty remain attached to the affected identifier."
+        },
+        {
+          "list": [
+            "CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4 included.",
+            "Screening inhibition reported in percent at 10 µM.",
+            "No clinical exposure model included.",
+            "No nuclear receptor assay or metabolite identification included."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Scope boundary and confirmatory dilution",
+      "blocks": [
+        {
+          "p": "The package covers {{PRJ0050:n_compounds}} compounds supplied together as an assay-ready test lot. Primary incubations will be prepared in duplicate. A confirmatory dilution is used to investigate a questionable transfer, poor replicate agreement or an apparent out-of-range endpoint; it is not an automatic full concentration response for the screening set."
+        },
+        {
+          "p": "The run sheet will distinguish the original dilution from the confirmatory preparation. Where a fresh preparation agrees with the original accepted result, the report will retain the result and note the check. Where it does not, Bethany Rowcroft will decide whether further material or a revised experiment is required before releasing that endpoint."
+        },
+        {
+          "p": "Concentration-response fitting, time-dependent inhibition and additional substrate conditions would require an amended quotation. The current price is for the stated panel and ordinary technical resolution, not an open-ended follow-up programme."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Receipt and identifier reconciliation",
+      "blocks": [
+        {
+          "p": "The shipment must include the RI13 identifier list, nominal stock concentrations, solvent composition, available volume and storage requirements. Henning Flantz will compare that list with container labels and open a sample card for each item. An inconsistency will be referred to Rennelwick before the compound is placed on a run sheet."
+        },
+        {
+          "p": "The client remains responsible for identity and concentration of supplied stocks. Brindlewythe will record container condition, shortages and visible material problems. Independent identity confirmation and quantitative stock analysis are excluded. A replacement stock will be linked to the original sample card rather than silently overwriting its preparation history."
+        },
+        {
+          "list": [
+            "Use the RI13 parent identifier consistently.",
+            "Declare salts and any change of solvent.",
+            "Include restrictions on freeze–thaw handling.",
+            "Separate the shipping list from the laboratory plate map."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Transport and storage",
+      "blocks": [
+        {
+          "p": "Rennelwick will arrange transport and provide packaging suitable for the supplied solvent and stability requirements. Sealed containers should be individually labelled and accompanied by handling information. The offer assumes sufficient material for primary testing and ordinary technical repeats; the laboratory will request a replacement if material cannot support an interpretable check."
+        },
+        {
+          "p": "Receipt confirmation will identify the test lot and state whether it has passed reconciliation. Samples requiring clarification will be held separately from assay-ready stock. Testing will not be started merely to meet a provisional calendar date while identity, concentration or usable volume remains uncertain."
+        },
+        {
+          "p": "Storage instructions supplied with the shipment govern stock handling. Working dilutions will be prepared for the accepted experiment and their preparation recorded. Residual material will be retained pending the agreed return or disposal instruction. Multiple independent deliveries may change laboratory preparation requirements and must be discussed before dispatch."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Microsomal method",
+      "blocks": [
+        {
+          "p": "The proposed assay uses pooled human liver microsomes at 0.1 mg/mL protein with an isoform-selective probe near its working Km. Compound is tested at 10 µM in duplicate, with matched solvent in vehicle incubations. NADPH starts the reaction; incubations proceed at 37 °C for 10 minutes before quench and metabolite measurement by LC-MS/MS."
+        },
+        {
+          "p": "The actual substrate concentrations, final solvent fraction and analytical sequence will be entered in the run sheet. Blanks and no-NADPH incubations support background correction. Transfer failures and visible precipitation will be recorded when observed, before compound results are reduced."
+        },
+        {
+          "list": [
+            "Keep aliquot identity linked through dilution and injection.",
+            "Use the same vehicle basis for both replicates.",
+            "Retain rejected run sheets with the repeat record.",
+            "Do not fit an IC50 from the single test concentration."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Probe and control schedule",
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Probe substrate",
+              "Reference inhibitor"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "Phenacetin",
+                "Furafylline"
+              ],
+              [
+                "CYP2C9",
+                "Diclofenac",
+                "Sulfaphenazole"
+              ],
+              [
+                "CYP2C19",
+                "S-Mephenytoin",
+                "Ticlopidine"
+              ],
+              [
+                "CYP2D6",
+                "Dextromethorphan",
+                "Quinidine"
+              ],
+              [
+                "CYP3A4",
+                "Midazolam",
+                "Ketoconazole"
+              ]
+            ],
+            "caption": "Planned probe schedule"
+          }
+        },
+        {
+          "p": "Reference inhibitors will be assessed as concentration responses. Appropriate NADPH-supported preincubation is used for furafylline and ticlopidine. That control procedure does not establish time-dependent inhibition for RI13 compounds."
+        },
+        {
+          "p": "Ines Alvarado will check the reference response and the quantifiable vehicle signal for every isoform. Laboratory historical ranges will be entered before compound interpretation. A failed control invalidates the associated readout even if the compound table appears internally consistent. Accepted and rejected runs must remain distinguishable in the report record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Plate acceptance",
+      "blocks": [
+        {
+          "p": "Each readout requires quantifiable vehicle product formation, acceptable blank response and reference inhibitor IC50 within 0.5–2 times the laboratory historical mean. Replicate agreement and analytical range are assessed before calculating the released endpoint. An accepted isoform does not confer acceptance on the remainder of a failed plate."
+        },
+        {
+          "p": "Technical failures within Brindlewythe preparation or measurement will be repeated within the quoted scope. Where stock quality or a compound-specific interference is the limiting factor, the laboratory will describe the problem and request a client decision. Continued investigation beyond routine repeat work requires agreement of an amended scope."
+        },
+        {
+          "p": "The plate acceptance record is checked by Ines Alvarado. Bethany Rowcroft releases the scientific interpretation only after any remaining exception is either resolved or explicitly qualified. Missing values will be recorded as missing; they will not be converted to zero inhibition."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Reduction and screening flags",
+      "blocks": [
+        {
+          "p": "Percent inhibition is relative to matched vehicle metabolite formation after applicable blank correction. Small negative values remain in the data table as measurement variation. Out-of-range results will carry a qualifier, and uninterpretable results will be withheld from ranking."
+        },
+        {
+          "p": "The proposed screening flag is inhibition above 50% at 10 µM. It identifies a reason to consider a concentration response, not a measured IC50. Compound order and identifiers will be matched to the receipt list so that Rennelwick can compare this panel with its own programme records without remapping names."
+        },
+        {
+          "list": [
+            "Report the accepted mean and relevant exception note.",
+            "Identify the dilution preparation supporting a confirmatory call.",
+            "Keep stock recovery concerns separate from biochemical inhibition.",
+            "Do not describe a flagged compound as a clinical interaction risk without additional evidence."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Report and transfer of records",
+      "blocks": [
+        {
+          "p": "The included report will state the screening set, receipt record, accepted methods, control disposition, compound-level table and any deviation. The principal table will appear before extended discussion. A separate results table will support transfer into Rennelwick programme records; it will preserve units and qualifiers from the report."
+        },
+        {
+          "p": "A brief biology memo may accompany the report to identify follow-up options. That memo will distinguish a concentration-response recommendation from a request to repair an uncertain stock preparation. No primary target data or external laboratory comparison is generated under this quotation."
+        },
+        {
+          "p": "Run sheets and analytical files are retained against {{PRJ0050:lims_id}}. If Rennelwick chooses to undertake the panel in its internal laboratory instead, no Brindlewythe result document will be issued. The offered method description must not be mistaken for evidence that Brindlewythe has tested the screening set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Start instruction and working dates",
+      "blocks": [
+        {
+          "p": "No laboratory start or fixed turnaround is committed in this quotation. Working dates will be agreed when Rennelwick returns acceptance and the test lot passes receipt reconciliation. John Mckinney can coordinate purchase and shipment information; Bethany Rowcroft remains responsible for scientific scope."
+        },
+        {
+          "p": "The start instruction must identify this quotation, the complete compound list and the intended test lot. A discussion of the assay or a request for method information is not a purchase instruction. The laboratory will confirm readiness before reserving plate runs."
+        },
+        {
+          "p": "If Rennelwick elects to carry out the screen internally, it should notify Brindlewythe so that provisional planning can stop. Until the quotation is accepted there is no authorisation to prepare samples, issue screening data or invoice completed testing. Changes in compound availability will be addressed before dates are set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Fixed-scope price",
+      "blocks": [
+        {
+          "p": "The offered price is {{PRJ0050:price}} for the {{PRJ0050:n_compounds}}-compound package. It includes routine assay preparation, reference controls, the confirmatory dilution work described in this quotation, reduction and reporting. The price is quoted for the package; no unquoted per-compound or per-isoform rate is implied."
+        },
+        {
+          "p": "Applicable taxes will be addressed in the purchase documentation. Shipping and extraordinary stock characterisation are not part of routine testing. Additional compounds, independent repeat shipments and concentration-response work require written agreement before they are undertaken."
+        },
+        {
+          "p": "If the work is not accepted, the quotation remains an offer rather than a record of expenditure. After acceptance, any cancellation reconciliation will distinguish work completed from work not performed. A partial experiment will not be presented as a completed panel simply to close the commercial record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Confidentiality and change control",
+      "blocks": [
+        {
+          "p": "RI13 identities, supplied structures and programme information are confidential. They will be used for the agreed study and its plate acceptance checks. Data will not be circulated as a public example or supplied to another client. The report will identify Rennelwick Institute Drug Discovery Unit as its recipient."
+        },
+        {
+          "p": "Any change to the compound list or test design must be recorded with the client instruction that authorised it. The original shipment reconciliation and run sheets remain available after amendment. A corrected identifier must be traceable through the compound table rather than changed only in the report title."
+        },
+        {
+          "p": "Material return or disposal will follow the agreed written instruction. Administrative closure does not delete evidence of a rejected run or unresolved exception. Report corrections will identify the superseded document and the reason for amendment so that programme copies can be replaced consistently."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Acceptance schedule",
+      "blocks": [
+        {
+          "p": "To accept, return written approval of {{PRJ0050:project_id}} rev A, the purchase instruction and the nominated scientific contact. Approval must cover the 5-isoform CYP panel and the confirmatory dilution boundary described here. Receipt dates and working dates will then be confirmed separately."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Required acceptance information"
+            ],
+            "rows": [
+              [
+                "Client",
+                "Rennelwick Institute Drug Discovery Unit"
+              ],
+              [
+                "Scope",
+                "{{PRJ0050:n_compounds}} RI13 compounds; panel at 10 µM"
+              ],
+              [
+                "Price",
+                "{{PRJ0050:price}}"
+              ],
+              [
+                "Authority",
+                "Client authorised signatory and purchase instruction"
+              ],
+              [
+                "Shipment",
+                "Reconciled stock list and handling information"
+              ],
+              [
+                "Scheduling",
+                "To be agreed after acceptance"
+              ]
+            ],
+            "caption": "Client acceptance requirements"
+          }
+        },
+        {
+          "p": "This is the final issued quotation, not a signed client acceptance. No assay outcome is represented. Questions about the confirmatory dilution set should be settled with Bethany Rowcroft before the test lot is shipped."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — quotation issued",
+      "date": "15/07/2024"
+    }
+  ]
+}
