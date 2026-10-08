@@ -1,0 +1,388 @@
+{
+  "family": "document",
+  "summary": "Final Merrivoss service catalogue for 02/12/2024 covering DMPK, transport, safety and rat exposure services. Each entry describes required inputs, species or matrix, reportable endpoints and analytical limitations before decision use.",
+  "properties": {
+    "title": "Merrivoss Service Catalogue 2024"
+  },
+  "header": "Merrivoss Bioanalysis Inc, a Tarnovell company | Service Catalogue 2024",
+  "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Merrivoss Service Catalogue",
+    "subtitle": "DMPK and bioanalysis | R1",
+    "lines": [
+      "Merrivoss Bioanalysis Inc, a Tarnovell company",
+      "Madison, US",
+      "Issued: 02/12/2024",
+      "Prepared by: Priya Nandekuri, DMPK Lead"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Selecting an exposure gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Merrivoss supports test article selection with complementary DMPK, transport, safety and bioanalytical studies. The first question is the matrix and species needed for the decision. A numerical endpoint is useful only when its measurement limits and assay context remain visible."
+        },
+        {
+          "p": "Priya Nandekuri coordinates scientific scope with the study director. Megan Larkin supports DMPK interpretation; Javier Quintana supports tandem-MS analytical assessment; Helen Marchwood supports matrix acceptance review. The study plan connects the requested endpoint to the material and biological system before an accession lot is scheduled."
+        },
+        {
+          "p": "This catalogue describes services rather than guaranteed performance for every analyte. Amounts, concentrations, species, sampling schedules and analytical range are agreed for each study. A service entry does not constitute a quoted price or a fixed turnaround commitment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Service map",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Choose the service by the question it can answer. Depletion estimates, unbound fraction and transport are complementary observations. None is a complete prediction of oral exposure in isolation. Safety assays likewise require comparison with the relevant exposure context."
+        },
+        {
+          "p": "The service names below are used in proposals, assay worksheets and final reports. Retain them when combining outputs so that protein-normalized, cell-normalized and exposure endpoints are not confused."
+        },
+        {
+          "table": {
+            "columns": [
+              "Service",
+              "System / matrix",
+              "Primary output"
+            ],
+            "rows": [
+              [
+                "Microsomal CLint",
+                "Liver microsomes; species agreed",
+                "µL/min/mg"
+              ],
+              [
+                "Hepatocyte depletion CLint",
+                "Cryopreserved hepatocytes; species agreed",
+                "µL/min/10^6 cells"
+              ],
+              [
+                "fu,p by equilibrium dialysis",
+                "Plasma",
+                "Unbound fraction"
+              ],
+              [
+                "Caco-2 flux and efflux ratio",
+                "Cell monolayer; donor and receiver",
+                "Directional flux and ratio"
+              ],
+              [
+                "DMSO-dilution solubility",
+                "Agreed aqueous medium",
+                "Dissolved parent under stated conditions"
+              ],
+              [
+                "IKr inhibition",
+                "hERG-expressing cells",
+                "Inhibition concentration response"
+              ],
+              [
+                "Five-isoform DDI screen",
+                "Human liver microsomes",
+                "Isoform-specific inhibition"
+              ],
+              [
+                "CYP3A4 inhibition curves",
+                "Human liver microsomes",
+                "Concentration-response assessment"
+              ],
+              [
+                "Rat exposure with tandem-MS bioanalysis",
+                "Rat plasma",
+                "Parent profile and exposure"
+              ]
+            ],
+            "caption": "Table 1. Services and matrices"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Material intake and analyte cards",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Provide a traceable test article identifier, chemical form, stock concentration or material mass, solvent, storage instructions and any known handling limitations. Include the intended species and decision question. Where a solubility or adsorption concern is known, disclose it before the dilution design is fixed."
+        },
+        {
+          "p": "The analyte card links those inputs to the accession lot and agreed analytical procedure. Identity and purity claims supplied with the material remain distinct from the assay endpoint. A change of material form or dosing lot may require a bridge rather than direct reuse of an earlier result."
+        },
+        {
+          "p": "Provide the expected concentration range and matrix for bioanalysis. Unknown response, interference or instability may require method development before routine samples can be scheduled. Sample quantity and reserve material are agreed during scope confirmation; no universal amount is specified here."
+        },
+        {
+          "table": {
+            "columns": [
+              "Input",
+              "Why required"
+            ],
+            "rows": [
+              [
+                "Material identity and form",
+                "Prevent ambiguous cross-study comparison"
+              ],
+              [
+                "Stock / solvent and storage",
+                "Define dilution and handling feasibility"
+              ],
+              [
+                "Species and matrix",
+                "Select the biological and analytical system"
+              ],
+              [
+                "Known liabilities",
+                "Plan recovery and qualification checks"
+              ],
+              [
+                "Decision question",
+                "Choose an endpoint that supports the exposure gate"
+              ]
+            ],
+            "caption": "Table 2. Intake checklist"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Microsomal CLint",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix and species: liver microsomes from the agreed species. Input: traceable test article stock compatible with the incubation and analytical procedure. The study plan states protein concentration, test concentration, sampling interval and cofactor conditions. Human and rat are available as distinct comparisons rather than interchangeable sources."
+        },
+        {
+          "p": "Parent disappearance is measured over time and converted to apparent intrinsic clearance in µL/min/mg. Half-life may accompany the estimate. The report retains censoring where the observation interval cannot resolve slow depletion and flags analytical limitations where late samples approach the qualified quantitation range."
+        },
+        {
+          "p": "Matrix acceptance includes assessment of the parent measurement and controls appropriate to the depletion design. Background loss and cofactor-dependent loss should be distinguished. Protein-normalized clearance is not plasma clearance and cannot by itself predict exposure. A reassuring microsomal result may warrant hepatocyte follow-up when cellular routes remain relevant."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Hepatocyte depletion CLint",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix and species: cryopreserved hepatocytes from the agreed species. Input: test article stock, intended concentration and any known uptake, precipitation or binding concerns. Cell density, viability assessment and timed sampling are defined in the study plan."
+        },
+        {
+          "p": "Parent depletion is expressed as apparent intrinsic clearance in µL/min/10^6 cells. The cellular system adds biological context absent from microsomes, but measured parent loss may reflect multiple processes. The report separates the released estimate from a proposed metabolic mechanism."
+        },
+        {
+          "p": "Cell-number normalization must accompany every value. Direct numerical ratios with protein-normalized microsomal results are inappropriate without a defined scaling model. Analytical limits, noncellular loss and the interpretable time-course interval are considered before a clearance conclusion. Use paired matrices when a selection decision depends on whether the microsomal screen captures the relevant liability."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 fu,p by equilibrium dialysis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix and species: plasma from the requested species, with anticoagulant and source characteristics stated. Input: traceable stock and an expected concentration range. The plan defines incubation conditions and checks for equilibration, stability and recovery appropriate to the analyte."
+        },
+        {
+          "p": "The report describes the fraction unbound in plasma, fu,p, under the tested conditions. Dialysate and plasma measurements have different matrix demands; acceptable response in one does not establish acceptability in the other. Recovery, volume effects and adsorption must be considered before the fraction is released."
+        },
+        {
+          "p": "Very low dialysate response can limit precision. A below-range response is not proof of zero unbound fraction. The result informs free-exposure interpretation but does not establish intracellular unbound concentration or binding at every dose. Concentration dependence requires a design that actually tests it."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Caco-2 flux and efflux ratio",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "System: polarized Caco-2 monolayers with defined donor and receiver media. Input: material identity, stock solvent, solubility information and the intended concentration range. The plan specifies the two transport directions, sampling conditions and integrity assessment."
+        },
+        {
+          "p": "Directional flux is measured before an efflux ratio is interpreted. Recovery and mass balance are reported with matrix acceptance because loss from the measured compartments can distort the ratio. A low receiver signal requires attention to the analytical range, not an automatic claim of negligible transport."
+        },
+        {
+          "p": "An asymmetric result can motivate a transporter investigation but does not establish a specific transporter mechanism. Precipitation, surface binding and monolayer disruption can each limit interpretation. The final report states whether the recovered mass and analytical sensitivity support the client decision. Repeat work is scoped to the suspected cause rather than treated as an automatic remedy."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 DMSO-dilution solubility",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix: an agreed aqueous medium after dilution from DMSO stock. Input: verified stock concentration, chemical form and the medium relevant to the intended assay. Incubation duration, temperature, solvent fraction and separation procedure are specified in the study plan."
+        },
+        {
+          "p": "The endpoint is dissolved parent under the tested conditions. It is an operational solubility measurement, not a claim of thermodynamic equilibrium or oral absorption. Particle handling and separation can affect the measured fraction and must remain consistent across a test article set."
+        },
+        {
+          "p": "Analytical response is qualified in the chosen medium. Apparent loss can involve precipitation, adsorption or instability; interpretation follows the evidence available. Solubility information is useful when selecting concentrations for transport and inhibition assays, but a clear solution does not establish free concentration in a protein-containing matrix."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 IKr inhibition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "System: cells expressing the hERG channel, evaluated by electrophysiological recording. Input: traceable test article stock, solvent compatibility and known solubility limits. The plan sets a concentration range, exposure duration and recording acceptance criteria."
+        },
+        {
+          "p": "The concentration response describes inhibition of the recorded IKr-related current under the assay conditions. E-4031 may be used as a generic reference control. Paolo Iannelli supports electrophysiological scope and interpretation. Recording integrity and control behavior precede release of a fitted inhibition estimate."
+        },
+        {
+          "p": "A censored estimate above the highest evaluable concentration remains censored. Precipitation and slow-onset effects may limit the claim. An in vitro inhibition concentration should be compared with relevant free exposure before a safety margin is discussed. The service does not determine clinical arrhythmia risk by itself."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Five-isoform DDI screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix: human liver microsomes with isoform-selective substrate reactions. The screen covers CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4. Input: test article stock and a concentration selected for the decision question, with solvent and solubility constraints disclosed."
+        },
+        {
+          "p": "The primary output is isoform-specific inhibition relative to the matched control condition. Probe metabolite measurement and reference inhibitor response support matrix acceptance. A fixed-concentration result is a triage observation; it is not an IC50 and must not be labeled as one."
+        },
+        {
+          "p": "Inhibition can guide a concentration-response follow-up. The standard screen does not establish induction or distinguish every time-dependent mechanism. Substrate conditions and preincubation are described explicitly when they are part of the agreed design. Interpretation should consider anticipated unbound exposure rather than treating a screening flag as an automatic clinical interaction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 CYP3A4 inhibition curves",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix: human liver microsomes, with a specified CYP3A4 probe reaction and concentration-response design. Input: stock capable of supporting the dilution series, a relevant upper concentration and any prior screen observations. The plan defines substrate conditions and whether preincubation is included."
+        },
+        {
+          "p": "The curve assessment reports evaluable concentrations and the fitted endpoint only where response supports it. Ketoconazole may be used as a generic reference inhibitor. Analytical range and metabolite response must support the comparison with control conditions."
+        },
+        {
+          "p": "A partial curve may justify a censored result rather than a precise fitted value. Solubility limitations and interference are retained in the report. An assay designed without a time-dependent component cannot establish absence of that liability. The output refines the CYP3A4 observation; it does not replace the other isoform assessments when those remain relevant."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Rat exposure with tandem-MS bioanalysis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Matrix and species: rat plasma, with sample type and anticoagulant agreed before collection. Input: traceable dosing material, formulation context, dose and route records, sampling design and expected concentration range. Oral/IV PK may be scoped when those routes support the question."
+        },
+        {
+          "p": "Parent concentration-time profiles support exposure assessment in ng·h/mL. Actual collection times, below-range observations and the integration interval belong with any derived exposure quantity. A validated or qualified analytical range is specified for the analyte; it is not inferred from a generic catalogue claim."
+        },
+        {
+          "p": "Sample handling, calibration, dilution and matrix acceptance are evaluated before the exposure conclusion. Lot bridging requires material traceability and a comparable study context. Parent exposure does not establish metabolite exposure or efficacy on its own, and a rat result is not a direct prediction of human exposure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Matrix acceptance, limits and deliverables",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Every study separates the measurement claim from the scientific interpretation. Matrix acceptance establishes whether the analytical or recording system supports the endpoint. It does not erase biological assumptions such as depletion linearity, equilibrium, monolayer integrity or dose comparability."
+        },
+        {
+          "p": "Reports carry assay names, matrix, species, units and censoring notation. Assay worksheets preserve calculation and acceptance records. A DMPK memo can summarize a decision, but it should refer back to the controlled study record rather than become the sole location of a limitation."
+        },
+        {
+          "p": "Deliverables are agreed with the study scope. Where a result requires a qualified statement or an investigation, that disposition accompanies the endpoint. Repeats retain the initial measurement and reason for replacement. No result is made acceptable simply because it supports a preferred selection outcome."
+        },
+        {
+          "table": {
+            "columns": [
+              "Deliverable",
+              "Content"
+            ],
+            "rows": [
+              [
+                "Final report",
+                "Methods, released endpoints, limits and interpretation"
+              ],
+              [
+                "Assay worksheet",
+                "Calculations, matrix acceptance and exception links"
+              ],
+              [
+                "DMPK memo when scoped",
+                "Decision-focused synthesis with record references"
+              ]
+            ],
+            "caption": "Table 3. Deliverable functions"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Scope confirmation and scientific contact",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Start with the decision question, material identity, matrix and species. Priya Nandekuri and the study director will confirm the service combination and identify any analytical development needed. The schedule follows scope and material readiness rather than a catalogue-wide promise."
+        },
+        {
+          "p": "For a test article set, agree whether the objective is rank ordering, confirmation of a liability or an exposure bridge. Each requires different evidence. Combining assays can improve the decision when the systems answer complementary questions; adding endpoints without a decision purpose can leave an ambiguous exposure gate."
+        },
+        {
+          "p": "Send material only after handling and input requirements are confirmed. Final scope documents specify quantities, protocol settings, deliverables, price and turnaround. This R1 catalogue dated 02/12/2024 describes current service scope and should be read with the signed project agreement."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Priya Nandekuri",
+      "role": "DMPK Lead",
+      "date": "02/12/2024",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
