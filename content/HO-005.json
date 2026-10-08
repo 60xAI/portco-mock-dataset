@@ -1,0 +1,186 @@
+{
+  "family": "deck",
+  "summary": "Internal commercial training copy of the Quenverell service overview, lightly rebadged for Tarnovell Bioscience Group. Retains local pitch wording and Edinburgh contact footers while covering Virtual library triage, Docking and hit clustering and RNA-seq differential expression.",
+  "properties": {
+    "title": "Copy of Quenverell Service Overview (2)",
+    "subject": "Internal commercial training",
+    "keywords": "Quenverell; service overview; virtual library triage; docking; RNA-seq; copy"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Quenverell service overview",
+      "subtitle": "Tarnovell Bioscience Group | Internal commercial training copy | 11 Mar 2025",
+      "bullets": [
+        "Virtual library triage • Docking and hit clustering • RNA-seq differential expression"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential",
+      "notes": "Lawrence Hutchinson: internal service conversations. Local scientific scoping remains with Quenverell Computational Ltd. The local contact footer remains on the service slides.",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "Bioinformatics for drug discovery",
+      "bullets": [
+        "Turns large biological datasets into decisions at each stage of a programme",
+        {
+          "text": "Target identification: rank disease-linked genes from transcriptomics, genetics and literature-curated pathways",
+          "level": 1
+        },
+        {
+          "text": "Target validation support: check expression in the relevant tissues, cell types and patient subgroups to guide functional testing",
+          "level": 1
+        },
+        {
+          "text": "Mechanism of action: read out pathway responses to compound treatment from RNA-seq and proteomics",
+          "level": 1
+        },
+        {
+          "text": "Biomarker candidates: propose response signatures and monitoring markers for independent validation",
+          "level": 1
+        },
+        {
+          "text": "Safety signals: flag off-target and tissue-expression liabilities before chemistry is committed",
+          "level": 1
+        },
+        "Every analysis is reproducible: data provenance, versioned pipelines and an acceptance check before results are released",
+        "Outcome: fewer, better-evidenced targets and earlier no-go decisions, so lab budget goes on the compounds that matter"
+      ],
+      "notes": "This is the slide people ask for. Walk left to right along a programme: which target, does it matter in patients, what does the compound do, who will respond. Stress that we hand over decisions, not data dumps, and that the group's labs (Brindlewythe, Merrivoss) can test the hypotheses quickly.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Virtual library triage",
+      "bullets": [
+        "Virtual screening of client and commercial-scale libraries",
+        "Physicochemical and ADMET property models to filter candidate sets",
+        "Prioritise what gets made and tested; retain library provenance and selection rules"
+      ],
+      "bullets_right": [
+        "Agreed target question and library identity",
+        "Prioritised purchase or synthesis list",
+        "Explicit exclusions and uncertainty",
+        "Readout linking recommendations to evidence"
+      ],
+      "notes": "Retain the distinction between ranking and activity confirmation. A target campaign requires data acceptance and scientific scoping before analysis.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Docking and hit clustering",
+      "bullets": [
+        "Docking and pose review for hit triage",
+        "Cluster candidates to expose chemical redundancy and preserve interpretable diversity",
+        "Review poses alongside chemical plausibility and the target question",
+        "Analogue prioritisation fed straight to Vellacombe chemists for synthesis",
+        "Predictions guide experiments; scores do not establish measured binding potency"
+      ],
+      "notes": "Ask which structures and target information are available and what purchase or synthesis decision is needed. Docking scope is agreed locally; no separate list price is stated here.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "RNA-seq differential expression",
+      "bullets": [
+        "Bulk and single-cell RNA-seq differential expression",
+        "Pathway and network enrichment against curated knowledge bases",
+        "Compound-treated RNA-seq to read out pathway responses",
+        "Metadata and biological contrasts agreed before analysis"
+      ],
+      "bullets_right": [
+        "Differential-expression results with uncertainty",
+        "Pathway response report",
+        "Candidate markers for independent validation",
+        "Analysis notebook and data acceptance record"
+      ],
+      "notes": "Every engagement starts from the biological question and ends with a decision the project team can act on. Batch effects and confounded contrasts can limit the answer even if processing completes.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Data acceptance and reproducibility",
+      "bullets": [
+        "Metadata reconciled against sample manifests before any analysis",
+        "Batch-effect review and documented exclusions",
+        "Pipelines under version control; every figure traceable to code and input",
+        "Independent review before release; deviations recorded in the analysis notebook"
+      ],
+      "notes": "Clients in regulated settings care about this slide more than the science.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Service conversation and list-price basis",
+      "table": {
+        "columns": [
+          "Service",
+          "Starting question",
+          "2025 charging basis"
+        ],
+        "rows": [
+          [
+            "Virtual library triage",
+            "What should be made or purchased for this target?",
+            "GBP 9,850 per target campaign; no volume discount"
+          ],
+          [
+            "Docking and hit clustering",
+            "Which poses and chemical groups merit review?",
+            "Scope locally; no list price stated"
+          ],
+          [
+            "RNA-seq differential expression",
+            "Which biological contrast and pathway response matter?",
+            "GBP 12,950 per dataset; no volume discount"
+          ]
+        ]
+      },
+      "notes": "Confirm input acceptance, deliverables and scope before quoting. Target campaigns and datasets remain different charging units.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Working with the Tarnovell group",
+      "bullets": [
+        "Predictions tested quickly in group laboratories",
+        {
+          "text": "Brindlewythe Biosciences: target and safety assays",
+          "level": 1
+        },
+        {
+          "text": "Merrivoss Bioanalysis: DMPK and exposure",
+          "level": 1
+        },
+        {
+          "text": "Vellacombe Discovery: synthesis of prioritised analogues",
+          "level": 1
+        },
+        "Agree the project lead, contract scope and data handover before laboratory follow-up."
+      ],
+      "notes": "Local pitch wording retained. Confirm arrangements before promising a consolidated contract or common data system.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Local scientific handover",
+      "bullets": [
+        "Quenverell Computational Ltd, a Tarnovell company, Edinburgh",
+        "Bring the biological question, input inventory and intended decision to scoping.",
+        "Keep local data-acceptance and analysis records with the scientific team.",
+        "Lawrence Hutchinson coordinates the group commercial handover.",
+        "Use the accepted scope for external proposals; this is an internal training copy."
+      ],
+      "notes": "Retained local contact route: Quenverell Computational Ltd, Edinburgh. Keep local service wording when briefing the scientists.",
+      "hidden": false,
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Edinburgh | Confidential"
+    }
+  ]
+}
