@@ -1,0 +1,118 @@
+{
+  "family": "deck",
+  "summary": "Final HLM/RLM stability and RED PPB readout for the RI13 phenoxyethyl amides. The stability ranking remained consistent and Rennelwick prioritised the less bound amides for permeability work.",
+  "properties": {
+    "title": "RI13 amides: stability and free fraction",
+    "subject": "{{PRJ0039:project_id}} final readout",
+    "keywords": "Brindlewythe; plate acceptance; PRJ0039"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "RI13 amides: stability and free fraction",
+      "subtitle": "{{PRJ0039:project_id}} | {{PRJ0039:client_variant}}\n22 May 2020 | Dr B. Rowcroft\nBrindlewythe Biosciences Ltd, a Tarnovell company",
+      "notes": "Final client readout. Study accession {{PRJ0039:lims_id}}.",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Study release and plate acceptance",
+      "bullets": [
+        "Screening set {{PRJ0039:n_compounds}} compounds; accession {{PRJ0039:lims_id}}.",
+        "Started 06 Apr 2020; interim ranking 29 Apr; final release 22 May 2020.",
+        "Ines Alvarado checked run sheets, recovery entries and sample-card correspondence before release.",
+        "Bethany Rowcroft accepted the paired ranking for the screen gate; individual recovery remains visible."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Methods and comparison basis",
+      "bullets": [
+        "HLM/RLM stability: 0.5 mg/mL microsomal protein, compound at 1 µM.",
+        "Compare human and rat CLint in µL/min/mg; half-life in min.",
+        "RED PPB: human plasma, 4 h at 37 °C; read unbound fraction with recovery.",
+        "Censored half-lives remain limits. Binding alone does not establish permeability or in vivo clearance."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "HLM/RLM stability: paired species extract",
+      "table": {
+        "table_ref": "PRJ0039:mic_stab",
+        "columns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_rows": 9
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Human microsomal stability ranking",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0039:mic_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/mg)",
+        "y_label": "Human CLint (µL/min/mg)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "RED PPB: binding and recovery",
+      "table": {
+        "table_ref": "PRJ0039:ppb",
+        "columns": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "max_rows": 9
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Free fraction across the RI13 screening set",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0039:ppb",
+        "column": 2,
+        "title": "Human plasma unbound (%)",
+        "y_label": "Human plasma unbound (%)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Phenoxyethyl amide representatives",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0039",
+        "n": 6
+      },
+      "notes": "Representative structures identify the screening set; this grid is not a potency ranking.",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Rennelwick progression decision",
+      "bullets": [
+        "The initial stability ranking remained consistent at final release.",
+        "Prioritise the less bound amides for permeability work; retain the human/rat stability comparison beside that selection.",
+        "Recovery qualifies free-fraction interpretation and should accompany the permeability request.",
+        "Bethany Rowcroft to transfer paired listings under the same compound identifiers.",
+        "Permeability is the next screen gate; this study does not establish absorption."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
