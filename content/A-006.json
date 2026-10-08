@@ -1,0 +1,152 @@
+{
+  "family": "deck",
+  "summary": "Final campaign B readout for Elvarmere Biosciences AB. The chiral-intermediate resupply met the agreed enantiomeric-purity specification and restored downstream synthesis; this deck gives the qualitative release outcome without inventing analytical values.",
+  "properties": {
+    "title": "EB05 campaign B: chiral-intermediate resupply",
+    "subject": "PRJ0025 | Route scout and delivery",
+    "keywords": "medicinal chemistry; route gate; isolated material"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "EB05 campaign B: chiral-intermediate resupply",
+      "subtitle": "Elvarmere Biosciences AB | VD-22-076 | 24 Oct 2022\nDr H. Darwish | FINAL",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Route gate: resupply completed",
+      "bullets": [
+        "The resupply met the agreed enantiomeric-purity specification.",
+        "The released delivery lot restored the client’s stalled downstream synthesis.",
+        "Completion applies to the intermediate resupply; it does not establish the outcome of downstream chemistry."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Campaign identification",
+      "table": {
+        "columns": [
+          "Item",
+          "Campaign B basis"
+        ],
+        "rows": [
+          [
+            "Programme",
+            "{{PRJ0025:project_id}}"
+          ],
+          [
+            "Accession",
+            "{{PRJ0025:lims_id}}"
+          ],
+          [
+            "Client",
+            "{{PRJ0025:client_variant}}"
+          ],
+          [
+            "Start",
+            "18 Jul 2022"
+          ],
+          [
+            "Interim review",
+            "05 Sep 2022"
+          ],
+          [
+            "Completion",
+            "24 Oct 2022"
+          ],
+          [
+            "Programme turnaround (days)",
+            "{{PRJ0025:turnaround_days}}"
+          ]
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Resupply hypothesis: preserve the stereochemical input",
+      "bullets": [
+        "Downstream synthesis depends on the correct chiral intermediate being available.",
+        "Resupply must preserve the required stereochemical quality as well as provide isolated material.",
+        "The practical route gate is release of usable intermediate, not preparation of a proposed analogue."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Purity: keep the measures distinct",
+      "bullets": [
+        "Enantiomeric purity was assessed against the agreed specification.",
+        "The resupply met that specification.",
+        "This readout records the release conclusion without quoting an unsupported measured value."
+      ],
+      "bullets_right": [
+        "General chromatographic purity and enantiomeric purity answer different questions.",
+        "An area-percent result alone must not be used as a substitute for the chiral assessment.",
+        "Keep the delivery-lot identity with the analytical release information."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Isolation and handling route risk",
+      "bullets": [
+        "Preserve the intermediate identity through work-up and isolation.",
+        "Maintain the link between isolated material and its release assessment.",
+        "Avoid treating an unreleased preparation as interchangeable with the released delivery lot.",
+        "A repeat resupply requires its own release decision."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Delivery lot: available for downstream synthesis",
+      "bullets": [
+        "The released resupply removed the material constraint on Elvarmere’s downstream route.",
+        "Use the delivered intermediate as the reference point for subsequent preparations.",
+        "Keep consumption and remaining stock on the compound card.",
+        "Material quantities are governed by the delivery documentation, not estimated from this deck."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Chemistry and release handover",
+      "bullets": [
+        "Hassan Darwish: campaign B preparation and route context.",
+        "Clara Fenwick: analytical release and specification context.",
+        "Ruth Calderwood: closure of the resupply route gate."
+      ],
+      "bullets_right": [
+        "Elvarmere Biosciences AB: downstream synthesis restart.",
+        "Maintain the intermediate-to-delivery-lot link when material is subdivided.",
+        "Refer route changes back to the resupply sequence before requesting further material."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Boundary of the conclusion",
+      "bullets": [
+        "The agreed enantiomeric-purity specification was met.",
+        "The client’s stalled synthesis was restored by the resupply.",
+        "No downstream product yield, activity or final-product release is asserted here.",
+        "Any next analogue requires a separate preparation plan."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Campaign B closed",
+      "bullets": [
+        "Close VD-22-076 as completed on 24 Oct 2022.",
+        "Retain the released intermediate as the basis for future resupply discussions.",
+        "Carry the stereochemical specification into any repeat campaign.",
+        "Review the next material requirement against the downstream sequence before reopening preparation."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
