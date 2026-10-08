@@ -1,65 +1,231 @@
-{"family": "workbook",
- "summary": "Approved sequence sheets for CVL tablet lot 3 (WA/2020/313): twelve-month ICH stability pulls, HPLC assay and related-substances validation, system suitability and deviation notes. Assay stayed within the agreed limits at every pull and the impurity profile did not trend towards a limit. Corvenlea used this record in its formulation transfer package.",
- "properties": {"title": "CVL pulls and suitability results Rev03"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-     [{"v": "Westravelle Analytical Ltd, a Tarnovell company", "bold": true}],
-     [{"v": "CVL tablet lot 3: twelve-month ICH stability with assay validation", "bold": true}],
-     [],
-     ["Project", {"ref": "PRJ0010:project_id"}],
-     ["LIMS reference", {"ref": "PRJ0010:lims_id"}],
-     ["Client", "{{PRJ0010:client_variant}}"],
-     ["Protocol lead", "Dr A. Penrose"],
-     ["Prepared by", "Dr L. Wu"],
-     ["Start / completion", "30 Nov 2020", "30 Nov 2021"],
-     [],
-     ["1. Scope"],
-     ["Stability of tablet lot 3 under ICH long-term and accelerated conditions, with the HPLC assay and related-substances method qualified before the first pull. Pulls at 0, 3, 6, 9 and 12 months. The six-month interim review was completed on 31 May 2021."],
-     [],
-     ["2. Result"],
-     ["Assay at time zero was {{PRJ0010:stability.t0_assay}} % label claim. Every pull to 12 months complied with the agreed assay and impurity limits. Full pull data are on the Pulls sheet."],
-     [],
-     ["3. Sheets"],
-     ["Pulls", "Stability results and assay chart"],
-     ["Suitability", "Method validation summary and acceptance criteria"],
-     ["Deviations", "Deviation notes raised during the study"]
-   ],
-   "col_widths": {"A": 24, "B": 30, "C": 22, "D": 14},
-   "merged": ["A1:D1"]
+{
+  "family": "workbook",
+  "summary": "Approved sequence sheets for CVL tablet lot 3 (WA/2020/313): twelve-month ICH stability pulls, HPLC assay and related-substances validation, system suitability and deviation notes. Assay stayed within the agreed limits at every pull and the impurity profile did not trend towards a limit. Corvenlea used this record in its formulation transfer package.",
+  "properties": {
+    "title": "CVL pulls and suitability results Rev03"
   },
-  {"name": "Pulls",
-   "rows": [
-     [{"v": "Stability pulls: CVL tablet lot 3", "bold": true}],
-     ["Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pulls from the ICH chamber programme as recorded on the batch card."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0010:stability", "at": "A4"}],
-   "col_widths": {"A": 18, "B": 16, "C": 14, "D": 18, "E": 18, "F": 20, "G": 16, "H": 14},
-   "number_formats": {"C5:C20": "0.0", "F5:F20": "0.00"},
-   "freeze": "A5",
-   "chart": {"kind": "bar", "ref": "PRJ0010:stability", "column": 2, "title": "Assay (% LC) by pull"},
-   "chart_at": "J4"
-  },
-  {"name": "Suitability",
-   "rows": [
-     [{"v": "Method validation summary: assay and related substances", "bold": true}],
-     ["Validated before the first stability pull under the assay and related-substances validation protocol. Acceptance criteria as written in the protocol."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0010:method_val", "at": "A4"}],
-   "col_widths": {"A": 26, "B": 14, "C": 16}
-  },
-  {"name": "Deviations",
-   "rows": [
-     [{"v": "Deviation notes", "bold": true}],
-     ["Ref", "Raised", "Summary", "Status"],
-     ["DN-01", "03 Mar 2021", "Three-month pull taken one working day late after a chamber door alarm. Sample held at the set point through the alarm window; impact assessed as nil.", "Closed 05 Mar 2021"],
-     ["DN-02", "18 Jun 2021", "Chromatography column replaced between the interim review and the nine-month pull. System suitability repeated before the sequence was run.", "Closed 18 Jun 2021"],
-     ["DN-03", "30 Nov 2021", "No further deviations raised at study completion.", "n/a"]
-   ],
-   "col_widths": {"A": 10, "B": 14, "C": 70, "D": 22},
-   "comments": [{"cell": "D4", "text": "Impact assessment agreed. No change to the stability conclusion.", "author": "Mark Campbell"}],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Westravelle Analytical Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "CVL tablet lot 3: twelve-month ICH stability with assay validation",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0010:project_id"
+          }
+        ],
+        [
+          "LIMS reference",
+          {
+            "ref": "PRJ0010:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0010:client_variant}}"
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ],
+        [
+          "Prepared by",
+          "Dr L. Wu"
+        ],
+        [
+          "Start / completion",
+          "30 Nov 2020",
+          "30 Nov 2021"
+        ],
+        [],
+        [
+          "1. Scope"
+        ],
+        [
+          "Stability of tablet lot 3 under ICH long-term, intermediate and accelerated conditions. Long-term and intermediate pulls at 0, 1, 3, 6, 9 and 12 months; accelerated pulls at 0, 1, 3 and 6 months. Interim review: 31 May 2021."
+        ],
+        [],
+        [
+          "2. Result"
+        ],
+        [
+          "Assay at time zero was {{PRJ0010:stability.t0_assay}} % label claim. Every pull to 12 months complied with the agreed assay and impurity limits. Full pull data are on the Pulls sheet."
+        ],
+        [],
+        [
+          "3. Sheets"
+        ],
+        [
+          "Pulls",
+          "Stability results and assay chart"
+        ],
+        [
+          "Suitability",
+          "Method validation summary and acceptance criteria"
+        ],
+        [
+          "Deviations",
+          "Deviation notes raised during the study"
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 30,
+        "C": 22,
+        "D": 14
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Pulls",
+      "rows": [
+        [
+          {
+            "v": "Stability pulls: CVL tablet lot 3",
+            "bold": true
+          }
+        ],
+        [
+          "Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pulls from the ICH chamber programme as recorded on the batch card."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0010:stability",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 16,
+        "C": 14,
+        "D": 18,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 14
+      },
+      "number_formats": {
+        "C5:C20": "0.0",
+        "F5:F20": "0.00"
+      },
+      "freeze": "A5",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0010:stability",
+        "column": 2,
+        "title": "Assay (% LC) by pull"
+      },
+      "chart_at": "J4"
+    },
+    {
+      "name": "Suitability",
+      "rows": [
+        [
+          {
+            "v": "Method validation summary: assay and related substances",
+            "bold": true
+          }
+        ],
+        [
+          "Method validation establishes method performance; it is not sequence-level system suitability. Validation criteria and results are tabulated below."
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "Sequence-level source records"
+        ],
+        [
+          "For each condition/timepoint on Pulls, consult the corresponding WA/2020/313 sequence sheet linked from batch card WST-20-009708. That record carries the sequence identifier, control injections, method-specific control criteria, observed results and acceptance signature. These details are not transcribed here; this validation table must not be used to infer sequence acceptance."
+        ],
+        [
+          "Replacement-column sequence: consult the sequence attachment to DN-02 and the column-change entry in the same batch card. Control criteria and acceptance disposition belong to that sequence record; no replacement-column control result is asserted here."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0010:method_val",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 14,
+        "C": 16
+      }
+    },
+    {
+      "name": "Deviations",
+      "rows": [
+        [
+          {
+            "v": "Deviation notes",
+            "bold": true
+          }
+        ],
+        [
+          "Ref",
+          "Raised",
+          "Summary",
+          "Status"
+        ],
+        [
+          "DN-01",
+          "03 Mar 2021",
+          "Three-month pull taken one working day late after a chamber door alarm. Sample held at the set point through the alarm window; impact assessed as nil.",
+          "Closed 05 Mar 2021"
+        ],
+        [
+          "DN-02",
+          "18 Jun 2021",
+          "Column replacement noted between interim review and nine-month pull. DN-02 and its sequence attachment are the source for replacement-column sequence identifier, controls, criteria and disposition; method validation does not establish repeat suitability.",
+          "Closed 18 Jun 2021"
+        ],
+        [
+          "DN-03",
+          "30 Nov 2021",
+          "No further deviations raised at study completion.",
+          "n/a"
+        ]
+      ],
+      "col_widths": {
+        "A": 10,
+        "B": 14,
+        "C": 70,
+        "D": 22
+      },
+      "comments": [
+        {
+          "cell": "D4",
+          "text": "Read the DN-02 sequence attachment for control results and acceptance disposition. No sequence-level result is reproduced here.",
+          "author": "Mark Campbell"
+        }
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
