@@ -1,1 +1,194 @@
-{"family":"deck","summary":"Board extract for the One Group, Many Practices integration programme, June 2024. Covers the programme launch, workstream owners and status, the Durnesswick integration and its brand and LIMS steps, the open price harmonisation and archive decisions, and the risks the board asked to see. Final version for the June board, with minor wording changes from the draft circulated to workstream owners.","properties":{"title":"Integration board update, June 2024","subject":"Integration programme board update","keywords":"integration board, One Group Many Practices, Durnesswick, June 2024, Tarnovell"},"slides":[{"layout":"title","title":"Integration board update","subtitle":"One Group, Many Practices\nQ2 2024 board meeting\nSofia Lindervik, Integration Director","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Purpose of this update","bullets":["Report progress on the integration programme since the board approved its scope in April","Confirm the workstream owners and their current status","Bring forward the Durnesswick integration decisions for approval","Set out the decisions on price and archive that we still need from the board"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Programme principle","bullets":["One Group, Many Practices: local scientific operations are retained while shared processes converge","Shared functions move to group ownership first: HR, finance, IT and commercial reporting","Local client relationships, study direction and accession numbering are not changed without a specific decision","Each firm's legacy records are kept as they are unless a retention or access decision says otherwise"],"notes":"This principle is the test for every workstream decision. Two items on today's agenda are exceptions and are flagged as such.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"table","title":"Workstreams and owners","table":{"columns":["Workstream","Owner","Status at June 2024"],"rows":[["Price harmonisation","Andrea Beckett","Started; local currencies and discounts under review"],["Brand migration","Daniel Grellacott","Common master agreed; migration planned by firm"],["LIMS consolidation","Yasmin Farhat","Scoping; export fields drafted"],["Cross-sell","Ruggero Tonisto","Client identity bridge being scoped"],["HR and payroll","Nils Bergstrom","Directory consolidation under way for early firms"],["IT and SharePoint migration","Praneel Pal","Local shares to be preserved as archive roots"]]},"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Durnesswick Laboratories: integration status","bullets":["Durnesswick joined the group on 1 February 2024 and is the first firm to join under the programme","Formulation and early CMC work continues with its own scientific leadership and client contracts","Brand migration to the common master is the next visible step, and is planned for the second half of the year","Durnesswick's LIMS cutover is not yet scheduled and will follow the export dictionary decision"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Brand migration","bullets":["Common master template and brand guide agreed with the group communications lead","Firms A to E are sequenced for migration, starting with client-facing templates","Legacy records will not be restyled; only documents issued from migration onwards use the master","Durnesswick will migrate its templates first, followed by its signature blocks and report headers"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"LIMS consolidation","bullets":["Draft export dictionary covers the fields that group reporting needs from each firm","Local accession numbers will be kept for all firms, which the board is asked to confirm","Cutover dates are not set; the draft plan will come back to the board after firm-level reviews","Quality review of the export fields is under way with each site head"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Price harmonisation: current position","bullets":["Price lists and service names are being gathered firm by firm, starting with the older acquisitions","Historical currencies and discounts are recorded as they stand and not netted off","No group price rule has been proposed yet, and no quote should be assumed to follow one","A decision on the normalisation approach is needed from the board before the mapping can be finished"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Cross-sell and client identity","bullets":["A client identity bridge is being built so that one customer is not treated as two by different firms","Subsidiary and lookalike name checks are required before any cross-sell approach is made","No cross-sell activity should start with a client until its identity has been checked against the bridge","Commercial leads have agreed to hold back joint approaches until the first bridge review"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"HR and payroll","bullets":["Directory consolidation is under way and will reach firms A to F in turn","Payroll stays with each firm until its directory entries are confirmed","Staff at Durnesswick are on the group directory from the start of integration","The group will not onboard a firm's payroll until its leavers and contractors are reconciled"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"IT and archive migration","bullets":["Local shares are being kept as archive roots rather than merged into the group estate","Leaver folders need an owner's sign-off before they move or are deleted","Retention decisions are not yet made for the older shares and are listed as open","No shared drive content will be deleted as part of the migration without written approval"],"notes":"The board asked last quarter what happens to leaver folders. This is the current answer, and it will be checked again at the next update.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Risks","bullets":["Price mapping could lock in historical discounts that clients expect to keep, which the commercial team is watching closely","Brand migration may leave mixed templates in client hands if the legacy records are not clearly marked","LIMS cutover dates depend on firm-level reviews that have not yet been scheduled","Archive decisions could slip if ownership of leaver folders is not confirmed in time"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Decisions requested from the board","bullets":["Approve the Durnesswick integration plan for brand, LIMS and HR steps","Confirm that local accession numbers are retained for all firms","Agree that the price normalisation approach comes back to the board in the autumn","Note the archive hold for legacy shares until ownership checks are complete"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Next steps","bullets":["Workstream owners to return updated plans by the end of June 2024","Durnesswick brand migration plan to be circulated to the firm's leadership team","Client identity bridge review at the next steering meeting","Next board update in the autumn with the price approach and LIMS plan"],"footer":"Tarnovell Bioscience Group | Confidential"}]}
+{
+  "family": "deck",
+  "summary": "Board extract for the One Group, Many Practices integration programme, June 2024. Covers the programme launch, workstream owners and status, the Durnesswick integration and its brand and LIMS steps, the open price harmonisation and archive decisions, and the risks the board asked to see. Final version for the June board, with minor wording changes from the draft circulated to workstream owners.",
+  "properties": {
+    "title": "Integration board update, June 2024",
+    "subject": "Integration programme board update",
+    "keywords": "integration board, One Group Many Practices, Durnesswick, June 2024, Tarnovell"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Integration board update",
+      "subtitle": "One Group, Many Practices\nQ2 2024 board meeting\nSofia Lindervik, Integration Director",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Purpose of this update",
+      "bullets": [
+        "Report progress on the integration programme since the board approved its scope in April",
+        "Confirm the workstream owners and their current status",
+        "Bring forward the Durnesswick integration decisions for approval",
+        "Set out the decisions on price and archive that we still need from the board"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Programme principle",
+      "bullets": [
+        "One Group, Many Practices: local scientific operations are retained while shared processes converge",
+        "Shared functions move to group ownership first: HR, finance, IT and commercial reporting",
+        "Local client relationships, study direction and accession numbering are not changed without a specific decision",
+        "Each firm's legacy records are kept as they are unless a retention or access decision says otherwise"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Workstreams and owners",
+      "table": {
+        "columns": [
+          "Workstream",
+          "Owner",
+          "Status at June 2024"
+        ],
+        "rows": [
+          [
+            "Price harmonisation",
+            "Andrea Beckett",
+            "Started; local currencies and discounts under review"
+          ],
+          [
+            "Brand migration",
+            "Daniel Grellacott",
+            "A-E use the common master; Durnesswick migration in progress"
+          ],
+          [
+            "LIMS consolidation",
+            "Yasmin Farhat",
+            "Scoping; export fields drafted"
+          ],
+          [
+            "Cross-sell",
+            "Ruggero Tonisto",
+            "Client identity bridge being scoped"
+          ],
+          [
+            "HR and payroll",
+            "Nils Bergstrom",
+            "Directory consolidation under way for early firms"
+          ],
+          [
+            "IT and SharePoint migration",
+            "Praneel Pal",
+            "Local shares to be preserved as archive roots"
+          ]
+        ]
+      },
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Durnesswick Laboratories: integration status",
+      "bullets": [
+        "Durnesswick joined the group on 1 February 2024; the acquisition prompted the formal integration programme",
+        "Formulation and early CMC work continues with its own scientific leadership and client contracts",
+        "Brand migration to the common master remains in progress; confirm outstanding adoption steps with Durnesswick leadership",
+        "Durnesswick's LIMS cutover is not yet scheduled and will follow the export dictionary decision"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Brand migration",
+      "bullets": [
+        "Common master template and brand guide agreed with the group communications lead",
+        "Firms A to E already use the common master introduced in 2020; Durnesswick is the remaining brand migration workstream",
+        "Legacy records will not be restyled; only documents issued from migration onwards use the master",
+        "Durnesswick will migrate its templates first, followed by its signature blocks and report headers"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "LIMS consolidation",
+      "bullets": [
+        "Draft export dictionary covers the fields that group reporting needs from each firm",
+        "Local accession numbers will be kept for all firms, which the board is asked to confirm",
+        "Cutover dates are not set; the draft plan will come back to the board after firm-level reviews",
+        "Quality review of the export fields is under way with each site head"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Price harmonisation: current position",
+      "bullets": [
+        "Price lists and service names are being gathered firm by firm, starting with the older acquisitions",
+        "Historical currencies and discounts are recorded as they stand and not netted off",
+        "No group price rule has been proposed yet, and no quote should be assumed to follow one",
+        "A decision on the normalisation approach is needed from the board before the mapping can be finished"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Cross-sell and client identity",
+      "bullets": [
+        "A client identity bridge is being built so that one customer is not treated as two by different firms",
+        "Subsidiary and lookalike name checks are required before any cross-sell approach is made",
+        "No cross-sell activity should start with a client until its identity has been checked against the bridge",
+        "Commercial leads have agreed to hold back joint approaches until the first bridge review"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "HR and payroll",
+      "bullets": [
+        "Directory consolidation is under way and will reach firms A to F in turn",
+        "Payroll stays with each firm until its directory entries are confirmed",
+        "Staff at Durnesswick are on the group directory from the start of integration",
+        "The group will not onboard a firm's payroll until its leavers and contractors are reconciled"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "IT and archive migration",
+      "bullets": [
+        "Local shares are being kept as archive roots rather than merged into the group estate",
+        "Leaver folders need an owner's sign-off before they move or are deleted",
+        "Retention decisions are not yet made for the older shares and are listed as open",
+        "No shared drive content will be deleted as part of the migration without written approval"
+      ],
+      "notes": "The board asked last quarter what happens to leaver folders. This is the current answer, and it will be checked again at the next update.",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Risks",
+      "bullets": [
+        "Price mapping could lock in historical discounts that clients expect to keep, which the commercial team is watching closely",
+        "Brand migration may leave mixed templates in client hands if the legacy records are not clearly marked",
+        "LIMS cutover dates depend on firm-level reviews that have not yet been scheduled",
+        "Archive decisions could slip if ownership of leaver folders is not confirmed in time"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decisions requested from the board",
+      "bullets": [
+        "Approve the Durnesswick integration plan for brand, LIMS and HR steps",
+        "Confirm that local accession numbers are retained for all firms",
+        "Agree that the price normalisation approach comes back to the board in the autumn",
+        "Note the archive hold for legacy shares until ownership checks are complete"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Next steps",
+      "bullets": [
+        "Workstream owners to return updated plans by the end of June 2024",
+        "Durnesswick brand migration plan to be circulated to the firm's leadership team",
+        "Client identity bridge review at the next steering meeting",
+        "Next board update in the autumn with the price approach and LIMS plan"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    }
+  ]
+}
