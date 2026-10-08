@@ -1,0 +1,68 @@
+{"family": "document",
+ "summary": "Approved integration programme charter for One Group, Many Practices, dated April 2024 after the Durnesswick acquisition. Sets out the six workstreams, named owners, the escalation gates for price, brand, LIMS and cross-sell decisions, and confirms that local scientific accountability stays with each firm's own lead scientist under Sofia Lindervik's programme office.",
+ "properties": {"title": "One Group, Many Practices: integration programme charter"},
+ "header": "One Group, Many Practices | Programme charter v1",
+ "footer": "Tarnovell Bioscience Group | Confidential",
+ "watermark": null,
+ "title_block": {"title": "One Group, Many Practices", "subtitle": "Integration programme charter", "lines": ["Report no. TG-HO-INT-2024-001", "Date: 22 April 2024"]},
+ "sections": [
+  {"heading": "1 Purpose", "level": 1, "blocks": [
+    {"p": "This charter sets out how the group will converge its shared processes while the firms keep doing their own science. It replaces the informal arrangements that carried the Formulation acquisition through its first quarter and gives each workstream a named owner, a status line and a route for decisions that cross firm boundaries."},
+    {"p": "The programme is not a restructuring. Local scientific operations, study direction and client-facing technical leadership stay where they are. What changes is the common layer underneath: price books, brand assets, the LIMS export format, the client identity used for cross-sell and the HR and payroll directory."}
+  ]},
+  {"heading": "2 Scope", "level": 1, "blocks": [
+    {"p": "The charter covers Vellacombe Discovery (A), Brindlewythe Biosciences (B), Merrivoss Bioanalysis (C), Quenverell Computational (D), Westravelle Analytical (E) and Durnesswick Laboratories (F). Durnesswick joined on 1 February 2024 and its integration is at an earlier stage than the others, so its dates in section 3 are provisional."},
+    {"p": "Archive folders on each firm's legacy share are not moved by this programme. They are preserved as archive roots in the group SharePoint, and access to them is covered in section 5.", "style": "note"}
+  ]},
+  {"heading": "3 Workstreams and owners", "level": 1, "blocks": [
+    {"p": "Each workstream has one accountable owner. The owner reports status to the programme office each fortnight and brings any cross-firm trade-off to the steering group, not to the firm concerned."},
+    {"table": {"columns": ["Workstream", "Owner", "Status at April 2024", "Next milestone"], "rows": [
+      ["Price harmonisation", "Andrea Beckett", "In progress. Three of six integrated firms mapped; historical local currencies and discounts retained.", "Map remaining firms by June 2024"],
+      ["Brand migration", "Ruggero Tonisto", "In progress. A to E use the common master; F is starting its migration.", "F migration signed off by August 2024"],
+      ["LIMS consolidation", "Yasmin Farhat", "In progress. Common export dictionary drafted; local accession numbers retained.", "Dictionary agreed with firms A to E"],
+      ["Cross-sell", "Lawrence Hutchinson", "In progress. Client identity bridge started; subsidiary and lookalike checks required.", "Bridge reviewed by Q3 2024"],
+      ["HR and payroll", "Nils Bergstrom", "Directory consolidation for A to E complete; F onboarding under way.", "F payroll mapped by June 2024"],
+      ["IT and SharePoint migration", "Integration PMO", "In progress. Local shares preserved as archive roots; leaver folders need ownership checks.", "Leaver folder review per firm"]
+    ], "caption": "Table 1 Workstream owners and status"}}
+  ]},
+  {"heading": "4 Escalation gates", "level": 1, "blocks": [
+    {"p": "A decision goes to the steering group only when it crosses one of the gates below. Anything inside a single firm's scientific remit is decided by that firm's lead scientist and does not need a gate."},
+    {"list": [
+      "Price: any change to a list price or discount that applies across two or more firms, or a discount above the level set by the Group Commercial Director.",
+      "Brand: any new use of the Tarnovell name or a subsidiary brand line on client-facing material.",
+      {"text": "Client identity: any merge or split of client records where the parent or subsidiary relationship is unclear.", "level": 1},
+      "LIMS: any change to the common export dictionary or to the accession number scheme.",
+      "People data: any transfer of employee records between firms or into the group payroll."
+    ], "ordered": false},
+    {"p": "Gate decisions are minuted by the programme office and circulated within five working days. A firm can ask for a gate decision to be reopened, but only with new evidence about the affected client or process.", "style": "small"}
+  ]},
+  {"heading": "5 Archives and access", "level": 1, "blocks": [
+    {"p": "Legacy shares belong to the firm that created them until the owner confirms otherwise. The programme office will not grant cross-firm read access to a legacy share without the owning firm's written agreement, and a leaver's folder is only reassigned after the line manager has named an owner."},
+    {"p": "Scientific records keep the accession numbering and study identifiers they were filed under. The programme does not rename, re-date or restyle legacy documents."}
+  ]},
+  {"heading": "6 Local scientific accountability", "level": 1, "blocks": [
+    {"p": "Each firm keeps its own lead scientist, its own study director sign-off and its own quality system until the steering group decides otherwise in writing. Yasmin Farhat remains the group quality owner for the common procedures, but she does not sign off study outputs on behalf of a firm."},
+    {"p": "Nothing in this charter changes who is accountable for a study result. If the programme and a firm disagree on a scientific matter, the firm's lead scientist decides and the programme records the decision."}
+  ]},
+  {"heading": "7 Review and change control", "level": 1, "blocks": [
+    {"p": "The charter is reviewed at each steering group meeting and at the end of each workstream milestone. Changes are made by the Integration Director and issued as a new version. The next scheduled review is in July 2024, after the F brand migration sign-off."},
+    {"p": "The workstream table in section 3 is updated fortnightly by the owners and does not need a charter version change."}
+  ]}
+ ],
+ "signature_block": [
+  {"name": "Sofia Lindervik", "role": "Integration Director", "date": "22 April 2024", "signed": true},
+  {"name": "Daniel Grellacott", "role": "Group Chief Executive", "date": "22 April 2024", "signed": true}
+ ],
+ "appendices": [
+  {"heading": "Appendix A Steering group membership", "level": 1, "blocks": [
+    {"table": {"columns": ["Member", "Role on steering group"], "rows": [
+      ["Daniel Grellacott", "Group Chief Executive (steering group chair)"],
+      ["Andrea Beckett", "Group Finance Director"],
+      ["Yasmin Farhat", "Group Quality Director"],
+      ["Sofia Lindervik", "Integration Director (secretary)"],
+      ["Nils Bergstrom", "People Operations Manager"],
+      ["Ruggero Tonisto", "Group Commercial Director"]
+    ], "caption": "Table A1 Steering group"}}
+  ]}
+ ],
+ "orientation": "portrait"}
