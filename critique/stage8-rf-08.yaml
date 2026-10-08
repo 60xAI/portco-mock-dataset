@@ -1,0 +1,154 @@
+[
+  {
+    "file_id": "F-008",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Recipe card invented citrate, cosolvent optimisation, preservative and paediatric panel details; repeat observations and process lock were unsupported.",
+        "change_made": "Replaced composition and repeat claims with source-record references and bounded the supported selection outcome."
+      },
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "Notes claimed cosolvent-rich recipes held at target loading and grew crystals, whereas only Labrasol/PEG400 was clear and later precipitated.",
+        "change_made": "Aligned the initial-screen narrative with preparation appearance and 24 h observations."
+      }
+    ]
+  },
+  {
+    "file_id": "F-009",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Polymer identities, blend names, weight-percent results, pilot masses and stress measurements were invented; the available table is a liquid-vehicle screen.",
+        "change_made": "Removed invented shortlist and stress rows; cited polymer and stress source records qualitatively while retaining the documented blend outcome."
+      },
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "Liquid-vehicle data were presented alongside an unsupported solid-state shortlist and moisture-uptake ranking.",
+        "change_made": "Explicitly separated liquid-vehicle screening from solid-dispersion stress evidence and bounded stability interpretation."
+      }
+    ]
+  },
+  {
+    "file_id": "F-010",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Dilution ratios, microscopy times, crystal morphology, reference-standard passes and pharmacy handling event were unsupported.",
+        "change_made": "Replaced detailed dilution rows and invented events with source-record references and the documented failure/selection outcome."
+      },
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "HPMC/Tween was claimed clean and citrate acceptable after dilution without source evidence; the screen showed crystal growth and caking respectively.",
+        "change_made": "Separated undiluted from dilution evidence and added explicit redispersion and withdrawal controls without asserting an unrecorded selected vehicle."
+      }
+    ]
+  },
+  {
+    "file_id": "F-012",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "A pending dilution repeat contained a settling/redispersion result copied from the undiluted screen and a numbered stock with an unsupported concentration.",
+        "change_made": "Blanked pending repeat results and removed invented stock identities and concentration; kept partial rows and mixed-unit texture."
+      },
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "Finalisation instruction required mg/mL and nM without stating the mass-to-molar conversion basis.",
+        "change_made": "Required resolution of concentration basis and molecular weight before conversion."
+      }
+    ]
+  },
+  {
+    "file_id": "F-013",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Follow-up log invented dated readings, check initials and caking details beyond the source table; flavour options were fabricated.",
+        "change_made": "Referenced initial observations through the source table, left follow-up cells blank and removed invented option labels."
+      },
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Next observations were deferred until the hold lifted despite the documented ongoing sample observation.",
+        "change_made": "Separated paused optimisation from ongoing physical-stability observation."
+      }
+    ]
+  },
+  {
+    "file_id": "F-022",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Invented card IDs, review dates, correction counts and calibration actions were presented as established facts.",
+        "change_made": "Removed invented identifiers and event details; recorded supported completion areas with source-record references."
+      },
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "No calibration discrepancy and complete traceability were claimed while the action table left a calibration-log gap open; card was described as unchanged and revised.",
+        "change_made": "Removed conflicting action history and clarified that administrative completion does not validate formulations or authorise dosing."
+      }
+    ]
+  },
+  {
+    "file_id": "F-023",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Invented session count, card corrections, June exemption history and assessment pass/repeat counts were unsupported; assessment claimed all modules despite partial coverage in the table.",
+        "change_made": "Removed unsupported history and assessment outcomes, retained module coverage and referred individual dates and signatures to training records."
+      },
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "Weight-percent to mg/mL conversion exercise omitted the required mass/volume basis.",
+        "change_made": "Stated the conversion basis and density requirement where relevant."
+      }
+    ]
+  },
+  {
+    "file_id": "F-030",
+    "verdict": "fix",
+    "fixed": true,
+    "issues": [
+      {
+        "severity": "fix",
+        "area": "science",
+        "problem": "Particle-size span was assigned µm; particle sizing was mandatory even for solutions; loading was claimed invariably to raise viscosity and before/after measurements to prove causation.",
+        "change_made": "Made span dimensionless, allowed justified not-applicable entries, qualified loading effects and removed causal overclaim."
+      },
+      {
+        "severity": "fix",
+        "area": "consistency",
+        "problem": "Generic handoff guidance asserted actual open risks for unidentified lots and an unsupported prior-email replacement history.",
+        "change_made": "Recast risks as review prompts, removed invented history and report identity, and retained approved transition-era use."
+      }
+    ]
+  }
+]
