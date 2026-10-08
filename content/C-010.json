@@ -1,0 +1,218 @@
+{
+  "family": "deck",
+  "summary": "Merrivoss DMPK capabilities covering depletion clearance, plasma binding and rat exposure bioanalysis. Species, matrix acceptance and lower-limit assumptions are defined before exposure gates.",
+  "properties": {
+    "title": "DMPK capabilities: from depletion to exposure",
+    "subject": "Merrivoss DMPK capabilities covering depletion clearance, plasma binding and rat exposure bioanalysis. Species, matrix acceptance and lower-limit assumptions are defined before exposure gates.",
+    "keywords": "Merrivoss; DMPK; matrix acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "DMPK capabilities: from depletion to exposure",
+      "subtitle": "02/18/2025 | R2 | Priya Nandekuri\nMadison\nMerrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Start with the decision",
+      "bullets": [
+        "Which test articles need an exposure explanation before the next study?",
+        "Define species, matrix and intended dose route before selecting the assay sequence.",
+        "A useful DMPK memo connects analytical limits to the exposure gate."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Connected study workflow",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Decision question > Intake",
+          "Intake > In vitro characterization",
+          "Characterization > Analytical readiness",
+          "Readiness > Rat exposure",
+          "Exposure > DMPK memo"
+        ]
+      },
+      "notes": "Service planning workflow, not a turnaround commitment.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Intake and accession lots",
+      "bullets": [
+        "Capture article identity, accession lot, formulation and handling history.",
+        "Separate material identity from assay readiness.",
+        "Maintain the identifier through assay worksheets and analyte cards.",
+        "Discuss limited material before selecting the study sequence."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Species and matrix plan",
+      "bullets": [
+        "Choose microsomes or hepatocytes according to the clearance question.",
+        "Identify plasma species for fu,p by equilibrium dialysis.",
+        "State the matrix for Rat exposure with tandem-MS bioanalysis.",
+        "A matrix change requires assessment of calibration and recovery assumptions."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance before ranking",
+      "bullets": [
+        "Set reference conditions and matrix controls in the study plan.",
+        "Review calibration behaviour, blanks and sample suitability together.",
+        "Preserve qualified observations and their reasons.",
+        "Helen Marchwood, Bioanalytical Quality Manager, supports the acceptance framework."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Microsomal CLint",
+      "bullets": [
+        "Measure depletion in a defined microsomal incubation.",
+        "Cofactor dependence and nonspecific loss distinguish metabolism from other loss routes.",
+        "Report CLint in µL/min/mg with species and conditions attached.",
+        "Flat or very rapid profiles may support bounds rather than precise estimates."
+      ],
+      "notes": "Protein concentration and sampling schedule are selected for the study. No demonstration results are presented.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Hepatocyte depletion CLint",
+      "bullets": [
+        "Use an intact-cell context when the question extends beyond microsomal metabolism.",
+        "Record species, cell handling and the suitable depletion interval.",
+        "Report CLint in µL/min/10^6 cells.",
+        "Do not compare directly with microsomal values without an explicit scaling model."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Choosing the depletion model",
+      "bullets": [
+        "Microsomal CLint: focused assessment of microsomal metabolic loss.",
+        "Compare articles within matched incubation conditions."
+      ],
+      "bullets_right": [
+        "Hepatocyte depletion CLint: integrated intact-cell context.",
+        "Consider when transport or additional metabolic routes affect interpretation."
+      ],
+      "notes": "Neither model alone guarantees in vivo clearance prediction.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "fu,p by equilibrium dialysis",
+      "bullets": [
+        "Measure unbound fraction in the specified plasma matrix.",
+        "Assess recovery, equilibration and stability alongside binding.",
+        "Low unbound fraction requires suitable analytical sensitivity.",
+        "Carry species and matrix into unbound-exposure calculations."
+      ],
+      "notes": "fu,p is dimensionless. Do not silently transfer binding observations between species.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Tandem-MS bioanalytical readiness",
+      "bullets": [
+        "Confirm analyte response in the intended matrix.",
+        "Choose calibration range around the sampling question.",
+        "Consider dilution, carryover and matrix effects before exposure samples arrive.",
+        "Javier Quintana, Mass-Spectrometry Manager, leads analytical planning."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Lower-limit assumptions",
+      "bullets": [
+        "Define how below-quantitation observations enter summaries before reviewing exposure.",
+        "Distinguish low measured concentrations from qualified observations.",
+        "State imputation or exclusion rules in the DMPK memo.",
+        "A terminal phase dominated by qualified observations may not support extrapolation."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Rat exposure with tandem-MS bioanalysis",
+      "bullets": [
+        "Agree route, formulation and sampling against the exposure question.",
+        "Retain dosing-lot and accession-lot linkage.",
+        "Report integrated exposure in ng·h/mL with the integration convention.",
+        "Megan Larkin, DMPK Study Director, connects analytical interpretation to the decision."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Decision-ready DMPK memo",
+      "table": {
+        "columns": [
+          "Record element",
+          "Required context"
+        ],
+        "rows": [
+          [
+            "Identity",
+            "Article and accession lot"
+          ],
+          [
+            "Depletion",
+            "Species, model and CLint units"
+          ],
+          [
+            "Binding",
+            "Plasma matrix and recovery"
+          ],
+          [
+            "Bioanalysis",
+            "Calibration range and reporting limit"
+          ],
+          [
+            "Exposure",
+            "Route, sampling and integration assumptions"
+          ],
+          [
+            "Decision",
+            "Conclusion, qualification and next experiment"
+          ]
+        ]
+      },
+      "notes": "Qualitative reporting checklist; no demonstration study results.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exposure gates: state the assumptions",
+      "bullets": [
+        "Compare articles within matched species, matrix and assay context.",
+        "Use binding and depletion to explain exposure.",
+        "Resolve identity and matrix acceptance questions before named-article recommendations.",
+        "Specify the follow-up experiment when the explanation remains ambiguous."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Planning discussion | Priya Nandekuri",
+      "bullets": [
+        "Bring the test article list, available material and intended exposure decision.",
+        "Agree assay sequence and analytical readiness before study dates.",
+        "Define deliverables: assay worksheets, analyte cards, compound tables and DMPK memo.",
+        "Merrivoss Bioanalysis Inc, a Tarnovell company | Madison"
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
