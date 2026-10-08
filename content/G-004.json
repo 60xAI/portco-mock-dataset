@@ -1,0 +1,168 @@
+{
+  "family": "deck",
+  "summary": "Osterquill capability overview distinguishing exploratory rat range finding and non-GLP in vitro screening from regulated GLP investigations. It explains control validity, individual-animal traceability, welfare oversight and independent QA gates.",
+  "properties": {
+    "title": "Osterquill safety portfolio",
+    "subject": "Osterquill safety portfolio",
+    "keywords": "Osterquill; control validity; safety"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Safety portfolio and investigation pathways",
+      "subtitle": "Osterquill Toxicology Inc | Portland | 05/19/2025\nDr N. Takamori, Head of Toxicology",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Start with the decision the package must support",
+      "bullets": [
+        "Early chemistry triage, dose selection and regulated safety conclusions require different investigation designs.",
+        "Define the compliance scope before accepting test articles.",
+        "Control validity, animal welfare oversight and traceability apply throughout; a non-GLP screen does not become GLP through report formatting."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Exploratory versus regulated work",
+      "bullets": [
+        "Non-GLP in vitro screens rank a test article cohort.",
+        "Exploratory rat range finding informs dose selection and tolerability.",
+        "Limit conclusions to the tested conditions and available exposure."
+      ],
+      "bullets_right": [
+        "GLP investigations follow an approved plan and controlled amendments.",
+        "Independent QA examines conduct and reporting.",
+        "The signed report identifies compliance scope and departures."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "hERG (IKr) safety pharmacology",
+      "bullets": [
+        "Whole-cell patch clamp measures concentration-dependent current inhibition.",
+        "Report potency in µM with evaluable concentration limits and cell-level qualifications.",
+        "Reference-control acceptance precedes test article ranking.",
+        "Interpret in relation to unbound exposure; screening alone cannot establish a clinical safety margin."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "CYP safety interaction panel",
+      "bullets": [
+        "Evaluate inhibition across CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4.",
+        "A fixed-concentration result identifies follow-up needs.",
+        "CYP3A4 follow-up IC50 resolves concentration dependence for selected test articles.",
+        "Record probe, reference control and historical comparison; do not infer mechanism from the initial panel."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "HepG2 viability screen",
+      "bullets": [
+        "ATP-content response provides a cellular viability endpoint.",
+        "Exposure duration, solvent and concentration coverage accompany each result.",
+        "Check assay interference before interpreting reduced signal as toxicity.",
+        "Use the screen to qualify later decisions, rather than extrapolating directly to whole-animal tolerability."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Genetic toxicology",
+      "bullets": [
+        "Bacterial mutation assay with and without S9 addresses activation-dependent responses.",
+        "Mammalian-cell micronucleus assessment retains proliferation and cytotoxicity context.",
+        "Vehicle and positive controls must support each treatment condition.",
+        "Kenji Morita provides scientific interpretation; uncertain exposure-related findings require a defined repeat."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exploratory rat range finding",
+      "bullets": [
+        "Rat DRF and recovery supports selection of doses and observation schedules.",
+        "Express dose in mg/kg/day and retain dose-lot traceability.",
+        "Individual-animal identifiers remain visible in observations, weight changes and pathology links.",
+        "Exploratory findings guide design; they do not constitute a regulated GLP conclusion."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Animal welfare before and during exposure",
+      "bullets": [
+        "Define welfare observations, intervention criteria and escalation responsibilities before dosing.",
+        "Promptly communicate a concerning observation to the responsible Study Director and designated welfare personnel.",
+        "Document the observation time, intervention and subsequent condition on the animal card.",
+        "Welfare action must not await the next scheduled QA gate."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Control validity: a scientific release condition",
+      "bullets": [
+        "Define acceptance criteria before acquiring the test article measurements.",
+        "Retain rejected runs and explain repetition; present only accepted measurements as interpretable results.",
+        "Flag concentration limitations and interference alongside the result.",
+        "Do not suppress a qualification because a client needs a rapid decision."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "QA gates follow the investigation",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Scope agreement > Approved investigation plan",
+          "Test article receipt > Dose-lot and identity reconciliation",
+          "Conduct > Control validity and welfare review",
+          "Interpretation > Independent QA review",
+          "Signed report > Archive transfer"
+        ]
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Roles and independence",
+      "bullets": [
+        "Dr N. Takamori: portfolio oversight and scientific escalation.",
+        "Rachel Okafor: Toxicology Study Director; investigation conduct and conclusions.",
+        "Lucia Moretti: independent GLP Quality Assurance and archive control.",
+        "Kirsty Greenwood: sample management; Nathan Wade: pathology coordination.",
+        "Scientific authors resolve findings; QA retains independent reporting of its observations."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Report and archive handover",
+      "bullets": [
+        "State the tested cohort, conditions, compliance scope and limitations early.",
+        "Link summary findings to observation sheets, animal cards and dose lots.",
+        "Retain original entries, amendments, control-validity evidence and report approval history.",
+        "Separate exploratory recommendations from signed regulated conclusions."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Scope discussion with Osterquill",
+      "bullets": [
+        "Provide the intended decision, test article identity, available exposure information and material constraints.",
+        "Agree assay endpoints and the requested compliance scope before scheduling.",
+        "For in vivo work, establish dose rationale, welfare provisions and recovery objectives.",
+        "Dr N. Takamori and the responsible Study Director will define the investigation and QA gates."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    }
+  ]
+}
