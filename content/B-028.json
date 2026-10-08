@@ -1,0 +1,62 @@
+{"family": "workbook",
+ "summary": "Interim run sheets for BW26_0401, Elvarmere Biosciences AB: 5-isoform CYP inhibition at 10 µM on 40 compounds. All plate runs are complete and the control inhibitors were in range. The repeat of one poorly recovered sample is still open, so the signed report waits for it.",
+ "properties": {"title": "BW26_0401 RUN04 CYP run sheets (interim)"},
+ "sheets": [
+  {"name": "Run sheet",
+   "rows": [
+    [{"v": "BW26_0401 run sheet 04: 5-isoform CYP inhibition (INTERIM)", "bold": true}],
+    ["Status", "Interim. Plate runs complete; repeat of one poorly recovered sample open. Not for release."],
+    ["Project", "{{PRJ0046:project_id}}"],
+    ["LIMS accession", "{{PRJ0046:lims_id}}"],
+    ["Client", "Elvarmere Biosciences AB"],
+    ["Series", "EB05 metabolism liabilities (Elvarmere pyrrolopyridine series 05)"],
+    ["Compounds on run", {"ref": "PRJ0046:n_compounds"}],
+    ["Assay", "5-isoform CYP panel, 10 µM, human liver microsomes, probe substrates"],
+    ["Runs", "14/09/2026 to 24/09/2026"],
+    [],
+    ["Lead", "Bethany Rowcroft"],
+    ["Team", "Ravi Deshmukh, Ines Alvarado"],
+    ["Sample recovery", "Recovery checked per sample card. Blank rows below are for the repeat."],
+    ["Sample card", "Recovery (%)", "Action"],
+    ["", "", ""],
+    ["", "", ""],
+    ["", "", ""]
+   ],
+   "col_widths": {"A": 24, "B": 52, "C": 20},
+   "comments": [{"cell": "B2", "text": "Keep the interim line on every tab until the repeat is in.", "author": "Ines Alvarado"}]},
+  {"name": "Plate acceptance",
+   "rows": [
+    [{"v": "Plate acceptance", "bold": true}],
+    ["Isoform", "Reference inhibitor", "Control IC50 (µM)", "Historical (µM)", "Status"],
+    ["CYP1A2", "Furafylline", {"ref": "PRJ0046:cyp.control_CYP1A2_uM"}, {"ref": "PRJ0046:cyp.hist_CYP1A2_uM"}, "Accepted"],
+    ["CYP2C9", "Sulfaphenazole", {"ref": "PRJ0046:cyp.control_CYP2C9_uM"}, {"ref": "PRJ0046:cyp.hist_CYP2C9_uM"}, "Accepted"],
+    ["CYP2C19", "Ticlopidine", {"ref": "PRJ0046:cyp.control_CYP2C19_uM"}, {"ref": "PRJ0046:cyp.hist_CYP2C19_uM"}, "Accepted"],
+    ["CYP2D6", "Quinidine", {"ref": "PRJ0046:cyp.control_CYP2D6_uM"}, {"ref": "PRJ0046:cyp.hist_CYP2D6_uM"}, "Accepted"],
+    ["CYP3A4", "Ketoconazole", {"ref": "PRJ0046:cyp.control_CYP3A4_uM"}, {"ref": "PRJ0046:cyp.hist_CYP3A4_uM"}, "Accepted"],
+    [],
+    ["Acceptance: control IC50 within the historical range for each isoform on every plate."]
+   ],
+   "col_widths": {"A": 14, "B": 22, "C": 20, "D": 18, "E": 12},
+   "comments": [{"cell": "E6", "text": "Quinidine control drifted at the start of the second plate set. In range, but I want the historical check repeated before the report.", "author": "Afonso Pinho"}]},
+  {"name": "CYP inhibition",
+   "rows": [
+    [{"v": "CYP inhibition, % at 10 µM, 40 compounds (interim)", "bold": true}],
+    ["Negative values are within assay noise. Partial recovery samples are marked in the sample recovery tracker on the run sheet."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0046:cyp_inhib", "at": "A4"}],
+   "col_widths": {"A": 16, "B": 14, "C": 14, "D": 14, "E": 14, "F": 14}},
+  {"name": "Interim summary",
+   "rows": [
+    [{"v": "Interim summary", "bold": true}],
+    ["Status", "Interim: plate runs complete; conclusions pending the repeat of one sample."],
+    ["Compounds on run", {"ref": "PRJ0046:n_compounds"}],
+    ["Compounds >50% inhibition on at least one isoform", {"ref": "PRJ0046:cyp.n_any_gt50"}],
+    ["Most flagged isoform", {"ref": "PRJ0046:cyp.most_flagged"}],
+    ["Compounds >50% on that isoform", {"ref": "PRJ0046:cyp.most_flagged_n"}],
+    ["Price", "{{PRJ0046:price}}"],
+    [],
+    ["Open items", "Repeat of the poorly recovered sample; signed report after the repeat and biology memo review."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0046:benchmark", "at": "A11"}],
+   "col_widths": {"A": 50, "B": 40}}
+ ]}
