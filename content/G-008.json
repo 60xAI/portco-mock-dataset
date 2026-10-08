@@ -1,61 +1,234 @@
 {
- "family": "workbook",
- "summary": "Observation sheets for investigation OT-10-S0019, the seven-day exploratory rat dose-range finding and recovery work for Nimbravelle Medicines Inc (NM-31). Individual-animal identifiers are kept on every observation line. Doses are in mg/kg/day; dose-lot concentrations were recorded on the preparation sheet, with the older vehicle-only lots still logged in the legacy units. The findings set the dose range for Nimbravelle's planned longer study.",
- "properties": {"title": "OT-10-S0019 NM-31 DRF and recovery observations"},
- "sheets": [
-  {"name": "Summary", "rows": [
-    [{"v": "OT-10-S0019 NM-31 range-finding observations", "bold": true}],
-    ["Investigation", "{{PRJ0118:project_id}}"],
-    ["LIMS reference", "{{PRJ0118:lims_id}}"],
-    ["Client", "{{PRJ0118:client_variant}}"],
-    ["Study director", "Rachel Okafor", null, "Lead Naomi Takamori (Head of Toxicology)"],
-    ["Maximum tolerated dose", "{{PRJ0118:drf.mtd}}"],
-    ["Recovery phase", "Animals held after final dose for observation only; no recovery dosing"],
-    [],
-    ["Dose-range table"]
-   ],
-   "data_refs": [{"table_ref": "PRJ0118:drf", "at": "A10", "header": true}],
-   "merged": ["A1:D1"],
-   "col_widths": {"A": 26, "B": 22, "C": 30, "D": 28},
-   "comments": [{"cell": "B6", "text": "MTD wording agreed with Nimbravelle on the 03/12/2010 call. Keep the same phrasing in the report.", "author": "Rachel Okafor"}]
+  "family": "workbook",
+  "summary": "Observation sheets for investigation OT-10-S0019, the exploratory NM-31 rat dose-range finding for Nimbravelle Medicines Inc. The DRF table is a group summary supporting longer-study dose selection. Individual animal cards, recovery findings and dose-lot preparation/conversion records are unavailable in this workbook; their absence limits individual-animal and delivered-dose traceability.",
+  "properties": {
+    "title": "OT-10-S0019 NM-31 DRF and recovery observations"
   },
-  {"name": "Dose preparation", "rows": [
-    ["Dose lot records. Concentrations in mg/mL on the current template; vehicle-only lots logged as mg/ml on the legacy sheet."],
-    ["Lot", "Date prepared", "Concentration", "Reconciled by", "Status"],
-    ["DL-1", "02/12/2010", "per table", "Rebecca Hawkins", "Reconciled"],
-    ["DL-2", "02/12/2010", "µM stock, see note", "Rebecca Hawkins", "Reconciled"],
-    ["DL-3", "02/19/2010", "nM working stock, see note", "Rebecca Hawkins", "Reconciled"],
-    ["DL-4", "02/19/2010", "mg/ml", "Rebecca Hawkins", "Reconciled 02/22/2010"]
-   ],
-   "freeze": "A3",
-   "col_widths": {"A": 10, "B": 16, "C": 24, "D": 18, "E": 22},
-   "comments": [{"cell": "C4", "text": "Stock units were µM on the analytical certificate and nM on the working sheet. Left as received; the conversion is in the dose-lot reconciliation.", "author": "Victoria Bautista"}]
-  },
-  {"name": "DRF observations", "rows": [
-    ["Seven-day rat dose-range finding. Clinical observations and body-weight change, individual animal identifiers retained on the animal cards."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0118:drf", "at": "A3", "header": true}],
-   "freeze": "A4",
-   "col_widths": {"A": 18, "B": 12, "C": 30, "D": 30},
-   "number_formats": {"C4:C8": "0.0"}
-  },
-  {"name": "Recovery", "rows": [
-    ["Recovery observations. Animals held without dosing for observation; findings recorded on the animal cards."],
-    ["Animal", "Sex", "Day observed", "Finding", "Initials"],
-    ["R-01", "M", "Day 8", "No change from dosing period", "RH"],
-    ["R-02", "F", "Day 8", "Body weight recovery noted", "RH"],
-    ["R-03", "F", "Day 9", "Clinical signs resolved", "VB"]
-   ],
-   "freeze": "A3",
-   "col_widths": {"A": 12, "B": 8, "C": 14, "D": 40, "E": 10}
-  },
-  {"name": "Animal cards", "rows": [
-    ["Animal card cross-check. Each card number matched to the observation sheet. Cards retained at the archive per SOP OQ-QA-014."],
-    ["Card check by Kenji Morita, 04/08/2010. Two cards need the cage location corrected in ink."]
-   ],
-   "comments": [{"cell": "A2", "text": "Cards are complete for the 3M/3F groups. Cross-check against the DRF table is still to be done for the top dose.", "author": "Kenji Morita"}],
-   "col_widths": {"A": 90}
-  }
- ]
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "OT-10-S0019 NM-31 range-finding observations",
+            "bold": true
+          }
+        ],
+        [
+          "Investigation",
+          "{{PRJ0118:project_id}}"
+        ],
+        [
+          "LIMS reference",
+          "{{PRJ0118:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0118:client_variant}}"
+        ],
+        [
+          "Study director",
+          "Rachel Okafor",
+          null,
+          "Lead Naomi Takamori (Head of Toxicology)"
+        ],
+        [
+          "Maximum tolerated dose",
+          "{{PRJ0118:drf.mtd}}"
+        ],
+        [
+          "Recovery phase",
+          "Individual recovery source records unavailable here; no animal-specific recovery conclusion is recorded."
+        ],
+        [],
+        [
+          "Dose-range table"
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0118:drf",
+          "at": "A10",
+          "header": true
+        }
+      ],
+      "merged": [
+        "A1:D1"
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 30,
+        "D": 28
+      },
+      "comments": [
+        {
+          "cell": "B6",
+          "text": "MTD wording agreed with Nimbravelle on the 03/12/2010 call. Keep the same phrasing in the report.",
+          "author": "Rachel Okafor"
+        }
+      ]
+    },
+    {
+      "name": "Dose preparation",
+      "rows": [
+        [
+          "Dose-lot traceability: the DRF table reports delivered dose in mg/kg/day, not formulation concentration."
+        ],
+        [
+          "DRF group",
+          "Dose-lot link",
+          "Administration volume / preparation",
+          "Conversion / reconciliation",
+          "Status"
+        ],
+        [
+          "Vehicle group",
+          "{{PRJ0118:lims_id}}: group-specific preparation source; lot identifier unavailable",
+          "Group administration-volume and preparation record unavailable",
+          "Delivered-dose calculation and signed reconciliation source unavailable",
+          "Not independently reconciled here"
+        ],
+        [
+          "Low-dose group",
+          "{{PRJ0118:lims_id}}: group-specific preparation source; lot identifier unavailable",
+          "Group administration-volume and preparation record unavailable",
+          "Delivered-dose calculation and signed reconciliation source unavailable",
+          "Not independently reconciled here"
+        ],
+        [
+          "Intermediate-dose group",
+          "{{PRJ0118:lims_id}}: group-specific preparation source; lot identifier unavailable",
+          "Group administration-volume and preparation record unavailable",
+          "Delivered-dose calculation and signed reconciliation source unavailable",
+          "Not independently reconciled here"
+        ],
+        [
+          "Top-dose group",
+          "{{PRJ0118:lims_id}}: group-specific preparation source; lot identifier unavailable",
+          "Group administration-volume and preparation record unavailable",
+          "Delivered-dose calculation and signed reconciliation source unavailable",
+          "Not independently reconciled here"
+        ],
+        [
+          "Source units",
+          "Preparation templates use mg/mL or mg/ml; analytical stock labels may use µM or nM. Unit labels are retained as source texture, not concentration results."
+        ]
+      ],
+      "freeze": "A3",
+      "col_widths": {
+        "A": 10,
+        "B": 16,
+        "C": 24,
+        "D": 18,
+        "E": 22
+      },
+      "comments": [
+        {
+          "cell": "C4",
+          "text": "Delivered dose requires concentration, administration volume, body weight and any stock-unit conversion from the group-linked preparation record. Those source records are unavailable here; no concentration or reconciliation result is inferred.",
+          "author": "Victoria Bautista"
+        }
+      ]
+    },
+    {
+      "name": "DRF observations",
+      "rows": [
+        [
+          "Seven-day rat dose-range finding: group-level clinical observations and body-weight changes only. Individual-animal identifiers and welfare intervention details require the group-linked animal cards under {{PRJ0118:lims_id}}, unavailable here."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0118:drf",
+          "at": "A3",
+          "header": true
+        }
+      ],
+      "freeze": "A4",
+      "col_widths": {
+        "A": 18,
+        "B": 12,
+        "C": 30,
+        "D": 30
+      },
+      "number_formats": {
+        "C4:C8": "0.0"
+      }
+    },
+    {
+      "name": "Recovery",
+      "rows": [
+        [
+          "Recovery source-record disposition"
+        ],
+        [
+          "Reference",
+          "Dose-group / animal linkage",
+          "Finding"
+        ],
+        [
+          "{{PRJ0118:lims_id}}: recovery animal cards",
+          "Individual identifiers and originating dose groups unavailable",
+          "Recovery findings not transcribed; no supported individual outcome here"
+        ]
+      ],
+      "freeze": "A3",
+      "col_widths": {
+        "A": 12,
+        "B": 8,
+        "C": 14,
+        "D": 40,
+        "E": 10
+      }
+    },
+    {
+      "name": "Animal cards",
+      "rows": [
+        [
+          "Animal-card linkage and archive limitation"
+        ],
+        [
+          "DRF group",
+          "Source reference",
+          "Disposition"
+        ],
+        [
+          "Vehicle group",
+          "{{PRJ0118:lims_id}}: group animal-card file",
+          "Individual card identifiers unavailable in this workbook"
+        ],
+        [
+          "Low-dose group",
+          "{{PRJ0118:lims_id}}: group animal-card file",
+          "Individual card identifiers unavailable in this workbook"
+        ],
+        [
+          "Intermediate-dose group",
+          "{{PRJ0118:lims_id}}: group animal-card file",
+          "Individual card identifiers unavailable in this workbook"
+        ],
+        [
+          "Top-dose group",
+          "{{PRJ0118:lims_id}}: group animal-card file",
+          "Individual card identifiers unavailable in this workbook"
+        ],
+        [
+          "Top-dose reconciliation",
+          "Group table is retained as the source summary. The individual card for the welfare intervention and its dose allocation are unavailable; complete individual reconciliation cannot be claimed."
+        ]
+      ],
+      "comments": [
+        {
+          "cell": "A2",
+          "text": "Top-dose/card reconciliation cannot be established from the group table alone. Source cards are unavailable in this workbook; group findings remain distinct from individual observations.",
+          "author": "Kenji Morita"
+        }
+      ],
+      "col_widths": {
+        "A": 90
+      }
+    }
+  ]
 }
