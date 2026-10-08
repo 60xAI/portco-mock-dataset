@@ -1,0 +1,63 @@
+{"family": "document",
+ "summary": "Post-close decision memo from Yasmin Farhat, dated 5 October 2026, after the Osterquill acquisition closed on 1 October. It records that the Osterquill archive stays outside the integrated repository, that payroll onboarding has not started and that access and QA mapping of the GLP records must be finished before any integration step is taken.",
+ "properties": {"title": "Osterquill onboarding: access decision"},
+ "header": "Osterquill onboarding: access decision | 5 October 2026",
+ "footer": "Tarnovell Bioscience Group | Confidential",
+ "watermark": null,
+ "title_block": {"title": "Osterquill Onboarding: Access Decision", "subtitle": "Decision memo following completion of the acquisition", "lines": ["Report no. TG-HO-QA-2026-011", "Date: 5 October 2026"]},
+ "sections": [
+  {"heading": "1 Decision", "level": 1, "blocks": [
+    {"p": "The Osterquill archive remains outside the integrated group repository. No Osterquill share, mailbox or document store is connected to the group SharePoint, the group LIMS export or the group HR system at this stage. This decision applies from the completion date of 1 October 2026 and will be reviewed when the access and QA mapping is finished."},
+    {"p": "The decision was taken by the Group Quality Director after consultation with the Integration Director, the Group Chief Executive and the Osterquill site lead. It is recorded here so that the steering group can see the basis for it.", "style": "bold"}
+  ]},
+  {"heading": "2 Background", "level": 1, "blocks": [
+    {"p": "Osterquill Toxicology Inc operates in vitro and in vivo toxicology under GLP at its Portland site. It is the seventh firm in the group and the first to bring a GLP in vivo practice into the group. Its study records are held under its own quality system, and some are subject to inspection obligations that run for many years after the study closes."},
+    {"p": "The group has not yet adopted any part of that quality system, and nothing in this memo should be read as a statement about its adequacy."}
+  ]},
+  {"heading": "3 Reasons for holding the archive apart", "level": 1, "blocks": [
+    {"list": [
+      "GLP records must keep their original audit trail, and copying them into a group repository risks changing the metadata that an inspector would check.",
+      "Access rights on the Osterquill shares were set by the firm, not by the group, and we have not yet confirmed who needs to see what.",
+      {"text": "Some folders hold personal data relating to study staff and animal care personnel, which has not been classified against the group data rules.", "level": 1},
+      "Leaver ownership has not been checked, so it is not clear who can approve a transfer of a folder."
+    ], "ordered": false},
+    {"p": "None of these reasons is a finding against the firm. They are the conditions that have to be met before the archive can move, and they are the reason we are not moving it now."}
+  ]},
+  {"heading": "4 Status of onboarding workstreams", "level": 1, "blocks": [
+    {"table": {"columns": ["Workstream", "Status", "Note"], "rows": [
+      ["HR and payroll", "Not started", "Staff directory and payroll interface not built; see the HR closeout for the A to F approach"],
+      ["Brand migration", "Not started", "Osterquill material keeps its own brand until the steering group decides otherwise"],
+      ["LIMS consolidation", "Not started", "Export mapping needs the GLP record structure, which has not been reviewed"],
+      ["IT and SharePoint migration", "Held apart", "Archive stays in its own tenant root; no new shares created"],
+      ["Access and QA mapping", "In progress", "Owned by the Group Quality Director; first pass due before any transfer"]
+    ], "caption": "Table 1 Osterquill workstream status at 5 October 2026"}},
+    {"p": "Payroll onboarding has not started and no date has been set for it. Any staff from Osterquill who need access to group systems in the meantime should be requested through the Integration PMO and approved one by one."}
+  ]},
+  {"heading": "5 Conditions before transfer", "level": 1, "blocks": [
+    {"p": "The archive will not be considered for transfer until each of the following has been completed and recorded."},
+    {"list": [
+      "Access map of every Osterquill share, with the named owner of each folder.",
+      "Classification of any folder holding personal data, agreed with the group data protection lead.",
+      "QA mapping of the GLP study records, confirming the index, the audit trail location and the retention period for each study type.",
+      "Sign-off by the Osterquill site lead and the Group Quality Director that the transfer method preserves the original records unchanged."
+    ], "ordered": true},
+    {"p": "The QA mapping is the critical path. The first pass is planned for the end of October 2026; the date for the second pass depends on what it finds.", "style": "note"}
+  ]},
+  {"heading": "6 Communication", "level": 1, "blocks": [
+    {"p": "Osterquill staff have been told that their existing systems stay in place and that no change to their working arrangements is planned in the next three months. Client-facing material from the firm keeps its existing brand line until the steering group decides otherwise."},
+    {"p": "The Integration PMO will publish a short update to the steering group once the access map is complete. No client communication about the archive is planned."}
+  ]},
+  {"heading": "7 Actions", "level": 1, "blocks": [
+    {"table": {"columns": ["Action", "Owner", "Due"], "rows": [
+      ["Complete access map for all Osterquill shares", "Yasmin Farhat", "30 October 2026"],
+      ["Name leaver folder owners on the Osterquill shares", "Integration PMO", "30 October 2026"],
+      ["Agree data classification for personnel folders", "Yasmin Farhat with the data protection lead", "13 November 2026"],
+      ["Start payroll onboarding scoping", "Nils Bergstrom", "Not before the access map is complete"]
+    ], "caption": "Table 2 Actions"}}
+  ]}
+ ],
+ "signature_block": [
+  {"name": "Yasmin Farhat", "role": "Group Quality Director", "date": "5 October 2026", "signed": true},
+  {"name": "Sofia Lindervik", "role": "Integration Director", "date": "5 October 2026", "signed": true}
+ ],
+ "orientation": "portrait"}
