@@ -1,0 +1,130 @@
+- file_id: E-003
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "Specificity sheet"
+      problem: "Stress conditions omit exposure durations and sequence/sample references, so the resolved-degradant conclusion is difficult to trace to the approved rerun."
+      suggested_change: "Identify the approved stress protocol and rerun sequence; reference their durations, blank checks and resolution evidence without inventing additional results."
+- file_id: E-011
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Stability and Pull schedule sheets; Stability H4 comment"
+      problem: "The results include months 1, 3 and 6 for all three conditions, but the tracker omits month 1 and leaves month 3 blank as 'not yet planned'. The comment says only the first pull is present and requests a six-month row already present."
+      suggested_change: "Track months 0, 1, 3 and 6 as completed for the displayed conditions; describe this as the interim review through month 6 and replace the stale comment. Keep later pulls and sign-off pending."
+    - severity: fix
+      area: consistency
+      where: "Summary and Sign-off sheets"
+      problem: "The required completed system-suitability checks are absent; pending validation sign-off does not establish analytical run acceptance."
+      suggested_change: "Add a qualitative completed system-suitability record with the sequence reference and reviewer, distinguishing accepted analytical runs from pending interim review."
+    - severity: minor
+      area: voice
+      where: "Summary sheet"
+      problem: "The 2026 workbook omits the required group brand line."
+      suggested_change: "Add 'Westravelle Analytical Ltd, a Tarnovell company' above the project heading."
+- file_id: C-014
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Hepatocyte CLint A2; QC and benchmark rows 3-5"
+      problem: "The text says two hepatocyte lots are mapped, but only one hepatocyte lot is listed, without human/rat distinction. Microsomal mapping uses an invented range starting NM08-08401 and an open-ended '08413 onward' instead of the actual sparse compound list."
+      suggested_change: "Map the actual table compound IDs explicitly to their accession lots and species; remove the two-lot assertion unless both hepatocyte lot references are supplied."
+    - severity: fix
+      area: science
+      where: "QC and benchmark matrix acceptance"
+      problem: "The no-NADPH control is described as acceptance for both systems, although it is a microsomal metabolic control, not an equivalent hepatocyte control. Hepatocyte acceptance has no species-specific viability or depletion-control reference."
+      suggested_change: "Label no-NADPH acceptance as microsomal only and separately reference human/rat hepatocyte viability and metabolic-control records; keep the intended mixed-unit texture."
+- file_id: C-018
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Caco-2 sheet and Summary"
+      problem: "The final worksheet interprets efflux without monolayer/control acceptance or a disposition for low recovery and dosing above measured solubility. QP07-08522 has solubility 1.6 µM but is dosed at 10 µM; QP07-08500 has 75% recovery."
+      suggested_change: "Add matrix acceptance and accession-lot references, identify recovery/solubility-limited rows as qualified, and base the soluble-branch redesign conclusion on interpretable soluble compounds. Do not invent replacement measurements."
+    - severity: minor
+      area: science
+      where: "Plasma binding A2"
+      problem: "The text says recovery is reported for both chambers, but the table contains one recovery value per compound."
+      suggested_change: "Replace with 'Total recovery across both chambers is reported as Recovery (%).'"
+- file_id: B-022
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Summary D5; hERG IC50 A1"
+      problem: "Both headings call the method automated, whereas the specific 2003 project is explicitly a manual patch-clamp assessment."
+      suggested_change: "Use 'manual hERG patch-clamp assessment' in the method headings; preserve the supplied result table values."
+    - severity: fix
+      area: science
+      where: "hERG IC50 A2; QC notes row 9"
+      problem: "The prose says one finite cell is enough for a geomean, contrary to the rendered table's finite-majority rule and BP16-05416 (one finite cell, aggregate >30). The two flagged records are described as cell-spread flags without repeats, but their actual QC notes say failed E-4031 controls and repeated runs."
+      suggested_change: "Use the supplied finite-majority aggregation rule verbatim in substance; describe the two flags as first runs rejected for out-of-range E-4031 and subsequently repeated. Remove the unsupported cell-spread and no-repeat statements."
+    - severity: minor
+      area: realism
+      where: "Plate acceptance rows 2-4"
+      problem: "The single supplied project control IC50 is copied as three separate daily measurements, falsely implying independent identical observations."
+      suggested_change: "Report the supplied E-4031 value once as the project control summary and reference daily acceptance records qualitatively."
+- file_id: B-026
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Plate acceptance rows 2-3"
+      problem: "The interim plate blocks stop at AP02-01424, but the 24-member set contains sparse IDs through AP02-01590. Most tested compounds are not mapped despite the claim that the full set was read at interim."
+      suggested_change: "Replace contiguous invented ranges with explicit actual compound-to-plate assignments or auditable sample-card references covering the complete supplied set."
+    - severity: fix
+      area: science
+      where: "Hinge IC50 A2"
+      problem: "Out-of-window Hill slopes are made acceptable by fixing the top, with no stated rationale or repeat requirement; this can hide poor fits. The promised replicate fits are not present in this run sheet."
+      suggested_change: "Say out-of-window curves were reviewed under the study plan and rerun or excluded as appropriate; identify the referenced replicate record and justify any constrained fit rather than treating refitting as automatic acceptance."
+- file_id: A-014
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "Delivery batch A2 and A5 comment"
+      problem: "Purity is described jointly as LCMS and HPLC area percent, but the supplied purity column is specifically HPLC UV area at 254 nm. The residual-solvent comment remains unresolved in an otherwise final release workbook."
+      suggested_change: "Use 'Purity: HPLC UV area %, 254 nm; identity: LCMS and 1H NMR.' Clarify whether the solvent check was ancillary to release and reference the retained result record instead of leaving an unexplained pending-LIMS note."
+- file_id: A-017
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Summary lot status; Lot rows 5-10"
+      problem: "The workbook says measurements and isolated mass are on the Lot sheet and that mass was 'transcribed here in g', yet every result is only 'Recorded on...' and purity/mass are separate rows. No numerical results are supplied by the pack, so inventing values would also be wrong."
+      suggested_change: "State that numerical measurements remain in the retained analytical/balance records; link both record references to the same delivery-lot row and retain the supplied qualitative release outcome. Remove the claim that mass is transcribed here."
+    - severity: minor
+      area: voice
+      where: "Summary sheet"
+      problem: "The 2022 group-era workbook has no firm/group brand line."
+      suggested_change: "Add 'Vellacombe Discovery Ltd, a Tarnovell company' above the title."
+- file_id: G-008
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "DRF observations, Recovery and Animal cards sheets"
+      problem: "The promised individual-animal identifiers are absent from dosing observations, and R-01/R-02/R-03 have no dose-group or card linkage. Recovery findings are invented beyond the supplied group-level DRF results; the final archive also leaves the top-dose cross-check undone."
+      suggested_change: "Retain the supplied DRF table as a group summary; provide only supported animal-card references and dose-group links, without invented recovery outcomes. Resolve the top-dose/card reconciliation or explicitly identify unavailable source records rather than claiming complete individual observations."
+    - severity: fix
+      area: science
+      where: "Dose preparation sheet"
+      problem: "Dose lots are marked reconciled but contain only unit labels or 'per table'; the referenced table gives mg/kg/day, not formulation concentration. No lot maps to a dose group, dose volume or conversion record."
+      suggested_change: "Link each lot to the dose group, administration-volume/preparation record and reconciliation reference. Keep deliberate mixed-unit texture in source labels while making the delivered-dose calculation traceable; do not invent concentration values."
+- file_id: G-012
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Summary exclusions; MN repeat sheet"
+      problem: "HepG2 ATP cytotoxicity is said to exclude a TK6 micronucleus scoring condition. Different cell types and exposures cannot establish TK6 cytotoxicity/RPD, and the excluded article, concentration and treatment are not identified."
+      suggested_change: "Describe HepG2 as a separate preliminary viability screen; attribute the mammalian scoring exclusion to the TK6 cytotoxicity assessment, with its article/condition and source-record reference, leaving unverified details [TBC]."
+    - severity: fix
+      area: consistency
+      where: "Ames sheet, final rendered footer and Summary bacterial result"
+      problem: "The rendered footer says '35 of 32 results reported; remaining in progress' while the bacterial phase is declared complete. The 35 rows are strain/dose conditions with no test-article identity, so the negative result cannot be attributed to the 32-compound cohort."
+      suggested_change: "Replace the row-count-as-compound-count footer with the completed bacterial-phase status, identify the tested article or linked per-article records, and state the scope of the supplied negative outcome explicitly. Preserve blank mammalian repeat cells."
