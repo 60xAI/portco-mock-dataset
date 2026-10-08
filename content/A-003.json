@@ -1,112 +1,130 @@
 {
- "family": "deck",
- "summary": "Owen Merriman's chemistry capability deck (draft 2, 16 May 2007) for prospective partners, covering analogue preparation and route scout and delivery, the 2007 list prices, how a programme runs through route gates, and illustrative isolation gates. A staffing slide and the next steps are still rough.",
- "properties": {
-  "title": "Chemistry capability - analogue preparation and route scout",
-  "subject": "Capability deck",
-  "keywords": "analogue preparation; route scout; capability; 2007"
- },
- "slides": [
-  {
-   "layout": "title",
-   "title": "Chemistry capability: analogue preparation and route scout",
-   "subtitle": "Vellacombe Discovery Ltd | Draft 2 for internal review | 16 May 2007"
+  "family": "deck",
+  "summary": "Owen Merriman's chemistry capability deck (draft 2, 16 May 2007) for prospective partners, covering analogue preparation and route scout and delivery, the 2007 list prices, how a programme runs through route gates, and illustrative isolation gates. A staffing slide and the next steps are still rough.",
+  "properties": {
+    "title": "Chemistry capability - analogue preparation and route scout",
+    "subject": "Capability deck",
+    "keywords": "analogue preparation; route scout; capability; 2007"
   },
-  {
-   "layout": "title_content",
-   "title": "Who we are",
-   "bullets": [
-    "Medicinal chemistry in Nottingham since March 1994",
-    "We make analogue sets for lead optimisation and scout the routes to them",
-    "Every compound we deliver is made in our own laboratories and sent with its compound card",
-    {"text": "Isolated material and proposed structures are kept apart in every report", "level": 1}
-   ]
-  },
-  {
-   "layout": "title_content",
-   "title": "What we offer",
-   "bullets": [
-    "Analogue preparation, priced per compound",
-    "Route scout and delivery, priced per route",
-    "Chemistry note on every programme, summarising the route risk and the next analogue"
-   ],
-   "notes": "Pricing slide follows. Partners always ask about volume, so keep the discount line visible."
-  },
-  {
-   "layout": "table",
-   "title": "2007 list prices",
-   "table": {
-    "columns": ["Service", "Unit", "Price (GBP)", "Volume discount"],
-    "rows": [
-     ["Analogue preparation", "per compound", "530", "5% >30 cpds; 10% >80 cpds"],
-     ["Route scout and delivery", "per route", "8,100", "none"]
-    ]
-   },
-   "footer": "List prices, 2007. Excludes VAT."
-  },
-  {
-   "layout": "title_content",
-   "title": "How a programme runs",
-   "bullets": [
-    "Hypothesis agreed with the partner's medicinal chemists",
-    "Route scout: one or more routes tested on the core",
-    "Route gate: go or no-go on the route before any analogue is made",
-    "Analogue set made and isolated; each compound gets a compound card",
-    "Delivery lot shipped with the chemistry note"
-   ]
-  },
-  {
-   "layout": "two_content",
-   "title": "Reporting standards",
-   "bullets": [
-    "Isolated material reported with isolated yield in mg",
-    "Purity by HPLC area percent",
-    "Masses from the bench may be recorded in g where the balance was not suitable"
-   ],
-   "bullets_right": [
-    "Proposed structures are labelled as proposed",
-    "Route risks listed before the next analogue is chosen",
-    "Structure assignment stated, with the method used"
-   ]
-  },
-  {
-   "layout": "title_content",
-   "title": "Isolation gates (illustrative)",
-   "bullets": [
-    "Gate 1: starting material confirmed by 1H NMR",
-    "Gate 2: crude route product isolated; yield recorded in mg",
-    "Gate 3: purity by area percent before a delivery lot is released"
-   ],
-   "notes": "Gates are illustrative for this deck. Each programme sets its own."
-  },
-  {
-   "layout": "title_content",
-   "title": "Chemistry team (as at April)",
-   "bullets": [
-    "Eleanor Vellacombe, Founder and Managing Director",
-    "Ruth Calderwood, Head of Medicinal Chemistry",
-    "Hassan Darwish, Senior Synthetic Chemist",
-    "Clara Fenwick, Analytical Release Lead",
-    "Owen Merriman, Chemistry Business Development Lead"
-   ],
-   "notes": "Out of date - the Chemistry team list changes after the spring review. Check before this goes to anyone outside the business."
-  },
-  {
-   "layout": "title_content",
-   "title": "Next steps",
-   "bullets": [
-    "Send the price list to two prospective partners",
-    "Agree the route scout template with Ruth",
-    "Analogue set review in June"
-   ]
-  },
-  {
-   "layout": "title_content",
-   "title": "Contact",
-   "bullets": [
-    "Owen Merriman, Chemistry Business Development Lead",
-    "Vellacombe Discovery Ltd, Nottingham"
-   ]
-  }
- ]
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Chemistry capability: analogue preparation and route scout",
+      "subtitle": "Vellacombe Discovery Ltd | Draft 2 for internal review | 16 May 2007"
+    },
+    {
+      "layout": "title_content",
+      "title": "Who we are",
+      "bullets": [
+        "Medicinal chemistry in Nottingham since March 1994",
+        "We make analogue sets for lead optimisation and scout the routes to them",
+        "Every compound we deliver is made in our own laboratories and sent with its compound card",
+        {
+          "text": "Isolated material and proposed structures are kept apart in every report",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "What we offer",
+      "bullets": [
+        "Analogue preparation, priced per compound",
+        "Route scout and delivery, priced per route",
+        "Chemistry note on every programme, summarising the route risk and the next analogue"
+      ],
+      "notes": "Pricing slide follows. Partners always ask about volume, so keep the discount line visible."
+    },
+    {
+      "layout": "table",
+      "title": "2007 list prices",
+      "table": {
+        "columns": [
+          "Service",
+          "Unit",
+          "Price (GBP)",
+          "Volume discount"
+        ],
+        "rows": [
+          [
+            "Analogue preparation",
+            "per compound",
+            "530",
+            "5% >30 cpds; 10% >80 cpds"
+          ],
+          [
+            "Route scout and delivery",
+            "per route",
+            "8,100",
+            "none"
+          ]
+        ]
+      },
+      "footer": "List prices, 2007. Excludes VAT."
+    },
+    {
+      "layout": "title_content",
+      "title": "How a programme runs",
+      "bullets": [
+        "Hypothesis agreed with the partner's medicinal chemists",
+        "Route scout: one or more routes tested on the core",
+        "Route gate: go or no-go on the route before any analogue is made",
+        "Analogue set made and isolated; each compound gets a compound card",
+        "Delivery lot shipped with the chemistry note"
+      ]
+    },
+    {
+      "layout": "two_content",
+      "title": "Reporting standards",
+      "bullets": [
+        "Isolated mass reported in mg; isolated yield reported as a percentage where calculated",
+        "Purity by HPLC area percent",
+        "Bench masses may be handwritten in g; retain the unit when transferring to the compound card"
+      ],
+      "bullets_right": [
+        "Proposed structures are labelled as proposed",
+        "Route risks listed before the next analogue is chosen",
+        "Structure assignment stated, with the method used"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Isolation gates (illustrative)",
+      "bullets": [
+        "Gate 1: starting material confirmed by 1H NMR",
+        "Gate 2: crude route product isolated; mass recorded in mg",
+        "Gate 3: purity by area percent before a delivery lot is released"
+      ],
+      "notes": "Gates are illustrative for this deck. Each programme sets its own."
+    },
+    {
+      "layout": "title_content",
+      "title": "Chemistry team (as at April)",
+      "bullets": [
+        "Eleanor Vellacombe, Founder and Managing Director",
+        "Ruth Calderwood, Head of Medicinal Chemistry",
+        "Hassan Darwish, Senior Synthetic Chemist",
+        "Clara Fenwick, Analytical Release Lead",
+        "Owen Merriman, Chemistry Business Development Lead"
+      ],
+      "notes": "Out of date - the Chemistry team list changes after the spring review. Check before this goes to anyone outside the business."
+    },
+    {
+      "layout": "title_content",
+      "title": "Next steps",
+      "bullets": [
+        "Send the price list to two prospective partners",
+        "Agree the route scout template with Ruth",
+        "Analogue set review in June"
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Contact",
+      "bullets": [
+        "Owen Merriman, Chemistry Business Development Lead",
+        "Vellacombe Discovery Ltd, Nottingham"
+      ]
+    }
+  ]
 }
