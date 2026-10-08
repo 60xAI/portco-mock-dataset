@@ -1,0 +1,323 @@
+{
+  "family": "document",
+  "summary": "Final Route scout and delivery report for Vornelquith Biosciences. An isolated heteroaryl side-product explained variable coupling yield and led to tighter incoming-material requirements; the supplied export carries no compound-level numerical results.",
+  "properties": {
+    "title": "VD-21-081 | Process impurity isolation | Revision A"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "VD-21-081 | Process impurity isolation | Revision A",
+    "subtitle": "Final issue",
+    "lines": [
+      "Date: 02 Nov 2021",
+      "Prepared by: Ruth Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Outcome",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The isolated heteroaryl side-product explained Vornelquith Biosciences’ variable coupling yield. Programme {{PRJ0024:project_id}}, accession {{PRJ0024:lims_id}}, closed with tighter incoming-material requirements."
+        },
+        {
+          "table": {
+            "columns": [
+              "Route gate",
+              "Conclusion"
+            ],
+            "rows": [
+              [
+                "Cause investigation",
+                "Side-product isolated"
+              ],
+              [
+                "Coupling interpretation",
+                "Incoming material contributed to variable yield"
+              ],
+              [
+                "Follow-up control",
+                "Tighter incoming-material specification"
+              ],
+              [
+                "Proposed structures",
+                "Separate from the isolated reference"
+              ]
+            ],
+            "caption": "Table 1. Process-impurity disposition"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Commission",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quotation was dated 04 Jun 2021 and the programme started on 25 Jun 2021. An interim point fell on 30 Aug 2021; completion was 01 Nov 2021."
+        },
+        {
+          "p": "This final chemistry issue of 02 Nov 2021 concerns impurity isolation and route interpretation, not a newly prepared screening analogue set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ruth Calderwood directed the cause investigation. Hassan Darwish led separation and chemistry interpretation; Clara Fenwick held analytical-release responsibility."
+        },
+        {
+          "p": "The client’s coupling observations supplied the practical problem. Vellacombe’s isolated reference made the side-product a material that could be examined rather than a peak label alone."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Source boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme export contains no compound-level result tables. It supports the qualitative outcome but supplies no measured impurity abundance, isolated mass or yield for transcription."
+        },
+        {
+          "p": "This issue does not invent a quantitative impurity limit. The original compound card and client’s approved incoming-material specification remain the sources for numerical acceptance criteria."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Working hypothesis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The chemistry question was whether variation in the heteroaryl building block could account for changing coupling recovery. Incoming-material composition was therefore examined alongside the reaction outcome."
+        },
+        {
+          "p": "Poor isolated yield alone cannot identify a cause. Reaction loss, work-up loss and an impurity in the incoming material must remain separate possibilities until the chemical evidence connects them."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Side-product versus proposal",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme outcome concerns an isolated side-product. That wording is stronger than a tentative structure assigned only to a chromatographic feature."
+        },
+        {
+          "p": "Alternative structures considered during the investigation remain proposed assignments. They should not be substituted for the released identity of the isolated reference in future comparisons."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Isolation purpose",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Isolation provided material for identity assignment and comparison with the client’s incoming building block. A separation used for diagnosis should preserve the connection to the source material."
+        },
+        {
+          "p": "The isolated fraction must be described by its compound card, not by retention order alone. A retention shift under another method does not create a different chemical identity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Fraction handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Fractions that contain the feature of interest need their own traceability through concentration and isolation. Combining fractions for convenience can obscure the evidence for a distinct impurity."
+        },
+        {
+          "p": "Hassan Darwish’s route interpretation is tied to the isolated reference. The supplied export gives no fraction-level values, so this report does not create a retrospective separation ledger."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Identity assignment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The compound card connects the isolated reference to the heteroaryl side-product assignment. Assignment should distinguish observations supporting identity from mechanistic proposals."
+        },
+        {
+          "p": "Clara Fenwick’s release role concerns the reference material and its analytical evidence. A plausible mechanism is useful for route design but cannot replace chemical identity evidence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Coupling-yield interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The isolated side-product explained the client’s variable coupling yield. The resulting control decision was to tighten requirements for the incoming material."
+        },
+        {
+          "p": "This conclusion identifies a material-related route risk. It does not guarantee that every future coupling failure has the same cause or that downstream isolation losses can be ignored."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Yield accounting",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Coupling conversion and isolated yield answer different questions. A reaction mixture can show product formation while recovery is affected by composition, isolation or material form."
+        },
+        {
+          "p": "For subsequent route scouts, retain the incoming-material identity alongside the isolated-yield basis. Do not compare preparations that lack equivalent material traceability as though the reaction conditions alone had changed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Incoming-material control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The revised requirement should identify the heteroaryl building block and the relevant side-product in a way that a receiving chemist can apply. It should retain the analytical method context."
+        },
+        {
+          "p": "The numerical impurity limit is not supplied here. Use the client’s controlled specification rather than deriving a limit from the fact that an impurity was isolated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Reference use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Use the isolated reference to support identification of the relevant feature during incoming-material assessment. Keep reference identity, storage history and analytical suitability connected."
+        },
+        {
+          "p": "A reference is not automatically suitable indefinitely. If its behaviour changes or its condition is uncertain, resolve that uncertainty before treating a comparison as an acceptance decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Delivery and custody",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The isolated side-product is reference material for the cause investigation. Its compound card and handover should identify that purpose so it is not confused with a desired coupling product."
+        },
+        {
+          "p": "Andrew May’s sample-management function supports label and custody reconciliation. Receipt confirmation establishes material identity at handover, not automatic acceptance of the client’s next building-block delivery lot."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Archive count",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The supplied programme export records {{PRJ0024:n_compounds}} in its compound-count field despite the narrative describing an isolated side-product. No screening inventory is inferred from that field."
+        },
+        {
+          "p": "The original reference handover is the appropriate source for physical reconciliation. This report preserves the qualitative outcome without inventing compound identifiers or quantities."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Next route gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Check incoming material against the tighter specification before the next coupling preparation. If yield remains variable after acceptable material is used, reopen the route investigation rather than relaxing the identity requirement."
+        },
+        {
+          "p": "The next chemistry note should separate incoming-material acceptance from reaction and isolation observations. That separation makes a new failure interpretable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme completed on 01 Nov 2021 with a recorded turnaround of {{PRJ0024:turnaround_days}} calendar days and price of {{PRJ0024:price}}."
+        },
+        {
+          "p": "The route decision is to retain the isolated reference and apply the tighter incoming-material requirement. This final issue does not commission another preparation or assign unprovided quantitative limits."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Final chemistry statement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Vornelquith Biosciences’ variable coupling yield was explained by the isolated heteroaryl side-product, leading to a tighter incoming-material specification."
+        },
+        {
+          "p": "Ruth Calderwood closes the cause investigation on that basis. Isolated reference material, proposed structures and future acceptance decisions remain distinct in the programme handover."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Ruth Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "02 Nov 2021",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "comments": [],
+  "tracked_changes": [],
+  "orientation": "portrait"
+}
