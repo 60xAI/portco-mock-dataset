@@ -1,0 +1,266 @@
+{
+  "family": "document",
+  "summary": "The Primary potency assay and Selectivity sweep were accepted for the QP07 aminopyrazine screening set. The best primary IC50 was {{PRJ0036:kinase.best_ic50_nM}} nM. The primary ranking and the fixed-concentration off-target profile answer separate screening questions. The hinge modification improved selectivity at the cost of some primary potency, giving Quorenthel Pharma GmbH a clearer optimisation direction.",
+  "properties": {
+    "title": "QP07 hinge substitutions: primary potency and selectivity",
+    "subject": "Determine potency in the metabolic-signal kinase assay and examine the off-target fingerprint of representatives from the QP07 screening set."
+  },
+  "header": "Brindlewythe Biosciences Ltd | {{PRJ0036:project_id}} | Revision B",
+  "footer": "Brindlewythe Biosciences Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "QP07 hinge substitutions: primary potency and selectivity",
+    "subtitle": "Final signed study report — revision B",
+    "lines": [
+      "Study {{PRJ0036:project_id}}",
+      "Accession {{PRJ0036:lims_id}}",
+      "Client: Quorenthel Pharma GmbH",
+      "Date: 23 Jan 2018",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and control acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Primary potency assay and Selectivity sweep were accepted for the QP07 aminopyrazine screening set. The best primary IC50 was {{PRJ0036:kinase.best_ic50_nM}} nM. The primary ranking and the fixed-concentration off-target profile answer separate screening questions."
+        },
+        {
+          "p": "Control acceptance preceded interpretation. Ines Alvarado checked the acceptance record and its link to the sample cards before the screening conclusions were released. Censored estimates and individual qualifications remain part of the accepted endpoint record; study acceptance does not remove them."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0036:benchmark",
+            "caption": "Table 1. Study summary and benchmarks"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Study objective and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Determine potency in the metabolic-signal kinase assay and examine the off-target fingerprint of representatives from the QP07 screening set."
+        },
+        {
+          "p": "The study covered {{PRJ0036:n_compounds}} compounds for Quorenthel Pharma GmbH under {{PRJ0036:project_id}}, accession {{PRJ0036:lims_id}}. Work began on 04 Dec 2017. The interim position was recorded on 29 Dec 2017 and the completed assessment was issued on 23 Jan 2018. Revision B supersedes the interim position."
+        },
+        {
+          "p": "The screen gate concerned the next chemistry decision. It was not a clinical assessment or an assertion that the intended target mechanism had been demonstrated. Dr B. Rowcroft was responsible for the scientific interpretation and final release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test articles and accountability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Full QP07 identifiers linked the sample cards to the primary dilution map. The Selectivity sweep used a representative subset, identified by the panel column headings. Only those representatives have both primary and panel evidence; membership of the primary screening set does not imply that a compound was tested in the sweep."
+        },
+        {
+          "p": "Test lot identity was preserved from receipt through preparation and measurement. The reportable compound identifier belongs to the material submitted for this study. A replacement lot, new solid form or formulation is not covered merely because it has the same chemistry designation."
+        },
+        {
+          "p": "The sample card provides the connection between retained material and the assay record. Follow-up work should carry that connection forward while recording any change of lot. Result transfer must use full identifiers rather than rack position or abbreviated suffix."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Experimental procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Primary potency assay used recombinant enzyme with ATP at its assay Km. Test articles were prepared as a ten-point, three-fold dilution from 10 µM with duplicate wells. Vehicle and reference inhibitor wells accompanied the dilution series. Residual activity was expressed relative to vehicle after subtraction of assay background."
+        },
+        {
+          "p": "The Selectivity sweep tested representatives at 1 µM against the kinases listed in its result table. Each kinase had its own vehicle and background measurements. Raw signals from different enzymes were not compared directly. The screen returned percent inhibition at a stated concentration rather than off-target concentration-response estimates."
+        },
+        {
+          "p": "Preparation and read order were recorded on the run sheets. Primary and panel measurements were reduced separately. Reference response and background separation established plate acceptance before compound ranking was considered. A satisfactory control does not make an unusual compound curve mechanistically interpretable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Plate acceptance and calculation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Plate acceptance required separation of background and vehicle activity and reference-inhibitor response within the established assay range. Ines Alvarado checked the acceptance record before release. Numerical per-plate controls remain in the run sheets; no control values have been inferred from the compound result table."
+        },
+        {
+          "p": "Primary concentration responses were fitted with a sigmoidal model and released as IC50 in nM with Hill slope. Panel inhibition was normalised to the corresponding kinase vehicle control. Neither a low fixed-concentration response nor a shallow fitted slope was converted into a claim about binding mode."
+        },
+        {
+          "p": "Ines Alvarado checked units, column mapping and retention of qualifiers during report preparation. Bethany Rowcroft then considered the accepted endpoints against the study objective. A reference control demonstrates assay responsiveness under the test conditions; it does not establish specificity or suitability of a test compound outside those conditions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Results: numerical record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Table 2 gives the full primary screening set. Table 3 is the Selectivity sweep at 1 µM; its column headings define the compounds actually counterscreened. The best primary IC50, {{PRJ0036:kinase.best_ic50_nM}} nM, is an assay endpoint rather than a direct affinity measurement."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0036:kinase_primary",
+            "caption": "Table 2. Primary potency assay: IC50 (nM) and Hill slope"
+          }
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0036:kinase_panel",
+            "caption": "Table 3. Selectivity sweep: inhibition (%) at 1 µM"
+          }
+        },
+        {
+          "p": "The released tables are the primary numerical record. A blank cell is not a zero. A greater-than value is not an exact estimate. Concentration, matrix and endpoint units must remain attached to each result when it is copied from this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Comparison within the screening set",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The potency–selectivity trade-off is the useful output of the hinge comparison. Choosing solely on the lowest primary IC50 would miss the reason for examining hinge substitutions. The next chemistry round should retain the narrower fingerprint as an explicit objective while seeking to recover activity in the primary assay."
+        },
+        {
+          "p": "Comparison within the present study is preferred to an unqualified comparison with historical screening sets. Test lot, preparation and assay conditions can change the apparent separation between candidates. A useful chemistry association remains a screening observation unless a further experiment distinguishes its possible causes."
+        },
+        {
+          "p": "The assay profile should be read in full before selecting a favourable isolated result. An optimisation preference does not change the endpoint, and a less favoured branch does not become an assay failure because the client chooses another direction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Qualifications and interpretation limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A fixed-concentration off-target result cannot establish an IC50 or a selectivity ratio. The panel is restricted to its listed kinases and representatives; it cannot exclude activity at untested enzymes or other protein families. The primary assay does not establish cellular activity or an in vivo mechanism."
+        },
+        {
+          "p": "Hill slope is retained as a curve descriptor, not evidence of cooperativity or binding stoichiometry. Closely spaced potency values should be considered with the underlying curves. Negative or low panel inhibition must not be reinterpreted as stimulation or proof of absence of binding."
+        },
+        {
+          "p": "No exposure margin has been calculated. Such a calculation requires an agreed exposure measure and a justified connection between that measure and this assay endpoint. The report establishes neither a dose nor an in vivo response. These limits define the intended use of the screen."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate and client decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The hinge modification improved selectivity at the cost of some primary potency, giving Quorenthel Pharma GmbH a clearer optimisation direction."
+        },
+        {
+          "p": "Preserve the hinge-substitution selectivity gain when designing replacements. Recovering primary potency by returning to the earlier hinge arrangement would require reconsideration of the off-target fingerprint."
+        },
+        {
+          "p": "Quorenthel Pharma GmbH owns the chemistry decision. Brindlewythe Biosciences Ltd supplies the accepted experimental profile and its interpretation limits. The decision is recorded separately so that a progression preference is not mistaken for an additional experimental observation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Follow-up work specification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Concentration responses on the principal off-target signals of a retained candidate would resolve whether its fixed-concentration fingerprint gives useful potency separation. A repeat primary assay using the same test lot would permit comparison under a common material identity. Cellular target activity and exposure require separate studies."
+        },
+        {
+          "p": "Any further study should state its question before allocating samples. Retain the existing compound identifier and test lot, and use a new accession for newly submitted material. A repeat intended to resolve a qualification should retain that purpose in its run sheet rather than being merged silently with the present result."
+        },
+        {
+          "p": "Proposed follow-up does not imply that the additional experiment has already been completed. Only the assays and endpoints in this report are released under the current study."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Study records and data transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The primary and Selectivity sweep run sheets form distinct record groups. Preserve the complete representative identifiers in the panel headings when transferring the tables to the client chemistry register. Do not expand the panel scope by joining it to all rows in the primary table."
+        },
+        {
+          "p": "The study file contains the sample-card link, preparation record, run sheets and released endpoint tables. Bethany Rowcroft prepared the interpretation and Ines Alvarado checked it against the accepted assay record. The final report should be retained with those records rather than used as a replacement for them."
+        },
+        {
+          "p": "When quoting the assessment, retain {{PRJ0036:project_id}}, revision B, the report date and endpoint units. A copied ranking without its qualifications loses information needed at the screen gate. This report is confidential to Quorenthel Pharma GmbH and Brindlewythe Biosciences Ltd."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Conclusion and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The hinge modification improved selectivity at the cost of some primary potency, giving Quorenthel Pharma GmbH a clearer optimisation direction."
+        },
+        {
+          "p": "The accepted experimental record supports that screening decision within the conditions specified. It does not extend the scope to untested compounds, matrices or biological endpoints. The numerical tables and qualifications remain the basis for any subsequent use of the results."
+        },
+        {
+          "p": "Revision B is the final report issued on 23 Jan 2018. The signatures record scientific release and the check of sample mapping, units and result qualifications."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "23 Jan 2018",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — report check",
+      "date": "23 Jan 2018",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
