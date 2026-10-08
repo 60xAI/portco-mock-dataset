@@ -1,69 +1,223 @@
-{"family": "workbook",
- "summary": "Approved sequence sheets for EP19 capsule blend lot L02 (WA/2011/192): six-month accelerated stability at 40 °C/75% RH against the 25 °C/60% RH reference. An emerging degradant at the warm condition grew between the pulls, and Esmervane revised the capsule moisture barrier before long-term testing. Conclusions stay within the tested interval.",
- "properties": {"title": "EP19 L02 six-month results"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-     [{"v": "Westravelle Analytical Ltd", "bold": true}],
-     [{"v": "EP19 capsule blend: six-month accelerated stability", "bold": true}],
-     [],
-     ["Project", {"ref": "PRJ0086:project_id"}],
-     ["LIMS reference", {"ref": "PRJ0086:lims_id"}],
-     ["Client", "{{PRJ0086:client_variant}}"],
-     ["Compounds in series", {"ref": "PRJ0086:n_compounds"}],
-     ["Protocol lead", "Dr A. Penrose"],
-     ["Prepared by", "Dr L. Wu"],
-     ["Start / completion", "07 Nov 2011", "07 May 2012"],
-     [],
-     ["1. Scope"],
-     ["Lot L02 stored at 40 °C/75% RH and at 25 °C/60% RH for six months. Pulls at 0, 3 and 6 months. Assay by HPLC as % label claim; impurities as % area."],
-     [],
-     ["2. Result"],
-     ["Assay at time zero was {{PRJ0086:stability.t0_assay}} % label claim. The warm condition showed an emerging degradant that grew over the six months. Esmervane asked for a higher moisture barrier on the capsule before long-term testing started."],
-     [],
-     ["3. Sheets"],
-     ["Pulls", "Stability results and total impurities chart"],
-     ["Chamber", "Storage conditions and monitoring"],
-     ["Deviations", "Deviation notes"]
-   ],
-   "col_widths": {"A": 24, "B": 30, "C": 22, "D": 14},
-   "merged": ["A1:D1"]
+{
+  "family": "workbook",
+  "summary": "Approved sequence sheets for EP19 capsule blend lot L02 (WA/2011/192): six-month accelerated stability at 40 °C/75% RH against the 25 °C/60% RH reference. An emerging degradant at the warm condition grew between the pulls, and Esmervane revised the capsule moisture barrier before long-term testing. Conclusions stay within the tested interval.",
+  "properties": {
+    "title": "EP19 L02 six-month results"
   },
-  {"name": "Pulls",
-   "rows": [
-     [{"v": "Stability pulls: EP19 L02", "bold": true}],
-     ["Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Ref. degradant peak at RRT 0.86 and 1.12 as set in the protocol."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0086:stability", "at": "A4"}],
-   "col_widths": {"A": 18, "B": 16, "C": 14, "D": 18, "E": 18, "F": 20, "G": 16, "H": 14},
-   "number_formats": {"C5:C16": "0.0", "F5:F16": "0.00"},
-   "freeze": "A5",
-   "chart": {"kind": "bar", "ref": "PRJ0086:stability", "column": 5, "title": "Total impurities (% area)"},
-   "chart_at": "J4"
-  },
-  {"name": "Chamber",
-   "rows": [
-     [{"v": "Storage conditions", "bold": true}],
-     ["Condition", "Chamber", "Set point", "Monitoring", "Use"],
-     ["40 °C/75% RH", "CH-4", "40 °C ± 2 °C; 75% RH ± 5%", "Continuous logger, downloaded weekly", "Accelerated, stress-indicating"],
-     ["25 °C/60% RH", "CH-2", "25 °C ± 2 °C; 60% RH ± 5%", "Continuous logger, downloaded weekly", "Reference"],
-     [],
-     ["Samples were stored in the capsule packaging supplied by Esmervane. Alarm limits were set to the chamber tolerance."],
-     ["CH-4 ran the warm condition for the full six months. No unplanned alarms were recorded for CH-2 during the study."]
-   ],
-   "col_widths": {"A": 18, "B": 12, "C": 30, "D": 36, "E": 30}
-  },
-  {"name": "Deviations",
-   "rows": [
-     [{"v": "Deviation notes", "bold": true}],
-     ["Ref", "Raised", "Summary", "Status"],
-     ["DN-01", "06 Feb 2012", "Three-month pull for the 40 °C/75% RH condition taken one day late because of a weekend chamber service. Sample held at the set point; no impact on the result.", "Closed 08 Feb 2012"],
-     ["DN-02", "21 Feb 2012", "Water content by Karl Fischer repeated on one three-month sample after the first titration failed system suitability. Repeat result reported.", "Closed 22 Feb 2012"],
-     ["DN-03", "07 May 2012", "Capsule moisture barrier revised at client request before long-term testing. Recorded as a change, not a deviation.", "Closed 07 May 2012"]
-   ],
-   "col_widths": {"A": 10, "B": 14, "C": 70, "D": 22},
-   "comments": [{"cell": "D3", "text": "Chamber service dates confirmed with facilities. Closed.", "author": "Richard Wilson"}],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Westravelle Analytical Ltd",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "EP19 capsule blend: six-month accelerated stability",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0086:project_id"
+          }
+        ],
+        [
+          "LIMS reference",
+          {
+            "ref": "PRJ0086:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0086:client_variant}}"
+        ],
+        [
+          "Compounds in series",
+          {
+            "ref": "PRJ0086:n_compounds"
+          }
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ],
+        [
+          "Prepared by",
+          "Dr L. Wu"
+        ],
+        [
+          "Start / completion",
+          "07 Nov 2011",
+          "07 May 2012"
+        ],
+        [],
+        [
+          "1. Scope"
+        ],
+        [
+          "Lot L02 stored at 40 °C/75% RH and at 25 °C/60% RH for six months. Initial analysis followed by pulls at 1, 3 and 6 months; the intermediate condition is 30 °C/65% RH. Assay by HPLC as % label claim; impurities as % area."
+        ],
+        [],
+        [
+          "2. Result"
+        ],
+        [
+          "Assay at time zero was {{PRJ0086:stability.t0_assay}} % label claim. The warm condition showed an emerging degradant that grew over the six months. Esmervane asked for a higher moisture barrier on the capsule before long-term testing started."
+        ],
+        [],
+        [
+          "3. Sheets"
+        ],
+        [
+          "Pulls",
+          "Stability results and total impurities chart"
+        ],
+        [
+          "Chamber",
+          "Storage conditions and monitoring"
+        ],
+        [
+          "Deviations",
+          "Deviation notes"
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 30,
+        "C": 22,
+        "D": 14
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Pulls",
+      "rows": [
+        [
+          {
+            "v": "Stability pulls: EP19 L02",
+            "bold": true
+          }
+        ],
+        [
+          "Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Ref. degradant peak at RRT 0.86 and 1.12 as set in the protocol. Time zero is one initial analysis shared by all storage conditions; repeated initial rows do not represent separate pulls."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0086:stability",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 16,
+        "C": 14,
+        "D": 18,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 14
+      },
+      "number_formats": {
+        "C5:C16": "0.0",
+        "F5:F16": "0.00"
+      },
+      "freeze": "A5",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0086:stability",
+        "column": 5,
+        "title": "Total impurities (% area)"
+      },
+      "chart_at": "J4"
+    },
+    {
+      "name": "Chamber",
+      "rows": [
+        [
+          {
+            "v": "Storage conditions",
+            "bold": true
+          }
+        ],
+        [
+          "Condition",
+          "Use"
+        ],
+        [
+          "25 °C/60% RH",
+          "Long-term reference"
+        ],
+        [
+          "30 °C/65% RH",
+          "Intermediate"
+        ],
+        [
+          "40 °C/75% RH",
+          "Accelerated"
+        ],
+        [],
+        [
+          "Stability lot L02 is identified in the workbook title. Chamber assignment, monitoring and any excursions are documented in the chamber log and batch card."
+        ]
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 12,
+        "C": 30,
+        "D": 36,
+        "E": 30
+      }
+    },
+    {
+      "name": "Deviations",
+      "rows": [
+        [
+          {
+            "v": "Deviation notes and disposition",
+            "bold": true
+          }
+        ],
+        [
+          "Item",
+          "Record"
+        ],
+        [
+          "Deviations / repeat analyses",
+          "Refer to the approved sequence sheets and batch card for any deviation or repeat history."
+        ],
+        [
+          "Client disposition",
+          "Esmervane revised the capsule moisture barrier before long-term testing."
+        ],
+        [
+          "Results",
+          "All reported pulls comply; the warm-condition impurity increase nevertheless informed the packaging decision."
+        ]
+      ],
+      "col_widths": {
+        "A": 10,
+        "B": 14,
+        "C": 70,
+        "D": 22
+      },
+      "comments": [
+        {
+          "cell": "B3",
+          "text": "Keep deviation references with the original batch card.",
+          "author": "Richard Wilson"
+        }
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
