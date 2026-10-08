@@ -1,0 +1,117 @@
+{
+  "family": "deck",
+  "summary": "Final QP07 primary potency and selectivity readout. The potency ranking survived the counterscreen and Quorenthel progressed the compact heteroaryl subset.",
+  "properties": {
+    "title": "QP07 metabolic kinase: potency and selectivity",
+    "subject": "{{PRJ0032:project_id}} final readout",
+    "keywords": "Brindlewythe; plate acceptance; PRJ0032"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "QP07 metabolic kinase: potency and selectivity",
+      "subtitle": "{{PRJ0032:project_id}} | {{PRJ0032:client_variant}}\n18 May 2001 | Dr B. Rowcroft\nBrindlewythe Biosciences Ltd",
+      "notes": "Final client readout. Study accession {{PRJ0032:lims_id}}.",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Plate acceptance and study record",
+      "bullets": [
+        "Study 06 Apr–18 May 2001; interim discussion 27 Apr 2001.",
+        "Screening set: {{PRJ0032:n_compounds}} aminopyrazines; sample cards under {{PRJ0032:lims_id}}.",
+        "Ines Alvarado checked plate controls and run-sheet transcription before release.",
+        "Martin Ellerscombe checked concentration-response fits; Bethany Rowcroft released the screening interpretation."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Assay basis for ranking",
+      "bullets": [
+        "Primary potency assay against the metabolic-signal kinase; IC50 reported in nM.",
+        "Selectivity sweep at 1 µM for the representatives listed in the panel.",
+        "Read potency alongside Hill slope; a fitted value is not a binding mechanism.",
+        "Compare off-target inhibition at the stated concentration separately from primary potency."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Primary potency: compound listing extract",
+      "table": {
+        "table_ref": "PRJ0032:kinase_primary",
+        "columns": [
+          0,
+          1,
+          2
+        ],
+        "max_rows": 12
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Primary potency across the screening set",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0032:kinase_primary",
+        "column": 1,
+        "title": "Primary IC50 (nM)",
+        "y_label": "Primary IC50 (nM)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Selectivity sweep: representative compounds",
+      "table": {
+        "table_ref": "PRJ0032:kinase_panel",
+        "columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "QP07 aminopyrazine representatives",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0032",
+        "n": 6
+      },
+      "notes": "Representative structures identify the screening set; this grid is not a potency ranking.",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Combined screen interpretation",
+      "bullets": [
+        "Best primary IC50 {{PRJ0032:kinase.best_ic50_nM}} nM.",
+        "The primary potency ranking survived the selectivity counterscreen.",
+        "The compact heteroaryl subset provides the progression route; do not rank the set on potency alone.",
+        "The panel is a fingerprint at 1 µM, not a complete off-target concentration-response assessment."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Quorenthel screen gate and next test lot",
+      "bullets": [
+        "Progress the compact heteroaryl subset selected from the combined listings.",
+        "Retain sample-card compound identifiers when requesting replacement material.",
+        "Confirm primary potency on the next test lot and use the same panel concentration for comparison.",
+        "Bethany Rowcroft to issue the biology memo with final run-sheet references; broader selectivity remains follow-up work."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    }
+  ]
+}
