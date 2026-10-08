@@ -1,0 +1,328 @@
+{
+  "family": "document",
+  "summary": "Controlled Vehicle ladder procedure covering preparation order, dilution-temperature records, mg/mL reporting and screen suitability. It defines traceable exploratory observations and prevents their use as locked-process specifications without separate approval.",
+  "properties": {
+    "title": "DL SOP 014 — Vehicle ladder dilution screen"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "DL SOP 014 — Vehicle ladder dilution screen",
+    "subtitle": "Controlled procedure | Revision C | Effective 06/17/2025",
+    "lines": [
+      "Date: 06/17/2025",
+      "Owner: Miguel Serrano | Senior Formulation Scientist"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose, scope and control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This procedure governs exploratory Vehicle ladder preparation and dilution screening at Durnesswick. It provides a common way to compare dosing stocks with the preparations that reach the administration bench. A clear stock may precipitate on dilution; a dispersed preparation may remain usable if it can be redispersed and sampled consistently. The bench sheet must preserve that distinction."
+        },
+        {
+          "p": "Revision C requires an actual temperature record for both stock and diluent, an explicit dilution-ratio convention and separate reporting of nominal loading and measured concentration. It replaces the previous local revision for new work. Existing signed bench sheets retain the procedure revision used when the work was performed."
+        },
+        {
+          "table": {
+            "columns": [
+              "Control item",
+              "Requirement"
+            ],
+            "rows": [
+              [
+                "Procedure owner",
+                "Miguel Serrano"
+              ],
+              [
+                "Scientific authority",
+                "Julia Carver"
+              ],
+              [
+                "Transfer interpretation",
+                "Lena Patel"
+              ],
+              [
+                "Effective date",
+                "06/17/2025"
+              ],
+              [
+                "Use",
+                "Exploratory formulation work packages"
+              ],
+              [
+                "Excluded use",
+                "Manufacturing release or locked-process acceptance"
+              ]
+            ],
+            "caption": "Procedure control"
+          }
+        },
+        {
+          "p": "Use an approved work-package plan to specify material, vehicles, loadings, dilution conditions and decision criteria. If the plan conflicts with this procedure, stop and obtain a documented resolution. A client preference is not permission to omit screen suitability checks."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Responsibilities and readiness",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The executing scientist prepares recipe cards and bench sheets before weighing. The work-package lead approves the matrix and determines whether the planned observations can answer the dosing question. A second scientist checks identity, calculation conventions and critical additions before the comparison is interpreted."
+        },
+        {
+          "list": [
+            "Confirm material identity, lot, receipt condition and handling instructions.",
+            "Confirm permitted excipients, target dose and maximum dosing volume.",
+            "Check balances, temperature devices and volume-delivery equipment are suitable for the intended quantities.",
+            "Define whether concentration refers to dissolved material, total dispersed material or nominal preparation.",
+            "Agree observation times, dilution ratios and redispersion instructions.",
+            "Allocate blanks, independent preparations and retained material."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Do not begin with unresolved safe-handling information. Use the work-package risk assessment for solvent, powder and temperature controls. Dispose of vehicle and test material through the designated waste route; visual clarity does not establish that a waste stream is harmless."
+        },
+        {
+          "p": "Julia Carver resolves scope or dosing-purpose changes. Miguel Serrano owns procedure interpretation. Lena Patel reviews instructions intended for transfer so that bench-specific handling is not mistaken for a manufacturing instruction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Recipe cards and concentration conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assign a unique formulation-set identifier to each composition and a preparation identifier to each independent preparation. Record excipient identity and lot, material mass, component quantities, addition sequence and intended final quantity. Reuse of a name does not authorize substitution of a component."
+        },
+        {
+          "p": "Report concentration in mg/mL. State whether the denominator is final preparation volume or added vehicle volume; use final preparation volume for nominal dose concentration unless the plan explicitly requires another convention. For a mass-based preparation, report loading in weight percent and retain the mass basis. Do not convert between these conventions without a documented density or measured volume basis."
+        },
+        {
+          "table": {
+            "columns": [
+              "Quantity",
+              "Bench-sheet entry"
+            ],
+            "rows": [
+              [
+                "Nominal concentration",
+                "Material mass divided by stated final preparation volume; mg/mL"
+              ],
+              [
+                "Measured concentration",
+                "Analytical result, method and fraction sampled; mg/mL"
+              ],
+              [
+                "Loading",
+                "Material mass divided by total preparation mass; weight percent"
+              ],
+              [
+                "Particle description",
+                "Method and observation; sizes in µm when measured"
+              ],
+              [
+                "Dilution ratio",
+                "Stock aliquot volume : final diluted volume"
+              ]
+            ],
+            "caption": "Reporting conventions"
+          }
+        },
+        {
+          "p": "Account for assay correction only when authorized and supported by material documentation. Retain the uncorrected weighed mass and the correction basis. A change in target loading is a new planned condition, not a correction to an unfavorable observation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Preparation order and hold",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Bring components to the planned preparation condition and record actual temperature. Weigh material into the designated vessel. Add the wetting component first, mix to the planned endpoint and add remaining components in the recipe-card order. Record the time of each critical addition and the mixing method; do not describe a variable mixing sequence simply as mixed."
+        },
+        {
+          "list": [
+            "Inspect the vessel and material before addition; document visible contamination or unusual material appearance.",
+            "For a polymer vehicle, complete the specified hydration step before introducing material unless the recipe requires another order.",
+            "For a mixed-solvent vehicle, preserve the sequence used to dissolve or wet the material.",
+            "Record final mass or volume using the agreed basis.",
+            "Start the preparation hold clock at the defined endpoint, then observe before taking the dilution aliquot."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Use a vehicle blank prepared by the same sequence. Independent replicates must start from separate weighing and preparation; aliquots from one vessel are not independent preparations. Record any warming, sonication or extended mixing as a preparation condition, including its duration and actual temperature."
+        },
+        {
+          "p": "Do not filter a dispersion to improve its appearance. If a separation step is needed for a dissolved-concentration measurement, retain an unseparated comparator and document recovery limitations. A clear filtrate cannot be reported as the concentration of the administered suspension."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Dilution challenge and temperature record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Prepare diluent under the approved plan and measure its temperature immediately before use. Measure stock temperature at the time of aliquoting. Record the diluted preparation temperature after mixing, the time dilution starts and the mixing endpoint. A bath setting alone is not an actual sample-temperature record."
+        },
+        {
+          "list": [
+            "Default exploratory ratios are 1:2, 1:5 and 1:10, expressed as stock volume to final volume.",
+            "Default observation points are immediately after mixing, 30 minutes, 2 hours and 24 hours; the plan may substitute dosing-relevant times.",
+            "Add stock to diluent unless the approved recipe specifies otherwise. Record a reversed addition as a separate condition.",
+            "Use an undiluted comparator and a diluted vehicle blank.",
+            "Keep containers, fill geometry and observation lighting comparable within a formulation set."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Record aliquot and diluent volumes, dilution convention, addition order and actual temperatures on the same bench sheet as the observations. Identify the timing reference for every observation. If the target time is missed, enter the actual elapsed time and assess its effect; never replace it with the intended time."
+        },
+        {
+          "p": "For temperature-sensitive comparisons, keep stock and diluent handling consistent between candidates. If a sample cools during observation, report the observed condition rather than asserting that it remained at the planned temperature."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Observations and screen suitability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Describe appearance using terms that distinguish clear solution, haze, visible precipitate, freely dispersed solids, sediment and hard cake. Record color changes separately. Observe before disturbing the vessel; then apply the defined redispersion sequence and record whether the deposit disperses fully, partly or not at all."
+        },
+        {
+          "table": {
+            "columns": [
+              "Check",
+              "Suitable condition",
+              "Action if unsuitable"
+            ],
+            "rows": [
+              [
+                "Blank",
+                "No interfering appearance or background",
+                "Identify cause; do not rank affected candidates"
+              ],
+              [
+                "Preparation traceability",
+                "Identity, composition and sequence complete",
+                "Resolve before interpretation"
+              ],
+              [
+                "Temperature and time",
+                "Actual conditions available",
+                "Flag missing condition and assess repeat need"
+              ],
+              [
+                "Sampling",
+                "Representative fraction obtainable",
+                "Describe limitation; do not imply dose uniformity"
+              ],
+              [
+                "Analytical recovery",
+                "Method suitable for sampled fraction",
+                "Report observation only or repeat with agreed method"
+              ]
+            ],
+            "caption": "Screen suitability checks"
+          }
+        },
+        {
+          "p": "A failed suitability check invalidates the affected comparison, not necessarily the entire formulation set. The lead must state which observations remain usable and why. A missing temperature record in a temperature-dependent decision normally requires repetition under documented conditions."
+        },
+        {
+          "p": "Microscopy may support a description of crystal or particle appearance. Do not infer solid form from visual morphology alone. A particle-size result requires the method, preparation and units in µm; qualitative photographs do not establish a distribution."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Deviations, calculation and interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Record departures when they occur, including cause, affected preparation identifiers and corrective action. Preserve the original entry. Corrections must remain legible and attributable; electronic changes must retain their history. Repeated preparations receive new identifiers linked to the original."
+        },
+        {
+          "p": "Calculate nominal diluted concentration from stock concentration and the stated stock-to-final-volume ratio. Label this as calculated nominal concentration. It is not a measurement of dissolved drug after precipitation. A measured dissolved fraction must describe separation and sampling; a measured total concentration must describe how dispersed material was included."
+        },
+        {
+          "list": [
+            "Do not average suitable and unsuitable preparations into a single favorable result.",
+            "Compare candidates under equivalent hold and dilution conditions.",
+            "State whether settling is reversible with the specified handling.",
+            "Explain dose-volume and excipient-burden tradeoffs when loading changes.",
+            "Carry analytical and sampling limitations into the recommendation."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "An exploratory pass means that the candidate met the work-package decision criteria under tested conditions. It does not establish a locked process, release specification, shelf life or suitability for every dosing route. Any proposed specification requires separate development, justification and approval."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Completion, review and retained records",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The executing scientist assembles recipe cards, bench sheets, calculations, observations, photographs where used and analytical outputs. Include rejected or non-evaluable preparations and the reasons they were excluded. The lead reviews the comparison before the development note is issued."
+        },
+        {
+          "list": [
+            "Confirm units and concentration basis throughout the final package.",
+            "Check that every observation links to a preparation identifier, actual time and actual temperature.",
+            "Check screen suitability decisions and deviation disposition.",
+            "Ensure the recommendation states the tested hold, dilution and redispersion conditions.",
+            "Identify unresolved transfer assumptions and further scale gates.",
+            "Retain source records under the local work-package and accession identifiers."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "The development note should let another scientist reconstruct the preparation without oral instructions. Lena Patel reviews any pilot-lot handoff for missing mixing endpoints, temperature constraints and sampling instructions. Unresolved details remain limitations until tested; they must not be filled with assumed production settings."
+        },
+        {
+          "p": "Staff must read Revision C before using it and document training through the local controlled-document route. A controlled copy governs execution; a printed copy must be checked against the current revision before use. Proposed procedure changes are referred to Miguel Serrano and approved through document control."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Miguel Serrano",
+      "role": "Senior Formulation Scientist",
+      "date": "06/17/2025",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
