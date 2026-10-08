@@ -1,68 +1,315 @@
-{"family": "workbook",
- "summary": "Run sheets for BW03_0098 (Belquorin Pharma, BP16 oxazole carboxamide series 16): plate acceptance, manual hERG patch-clamp IC50 for all 32 compounds with the E-4031 control, and the QC note on the five censored and two flagged records. Accepted 23 May 2003.",
- "properties": {"title": "BW03_0098 run sheets"},
- "sheets": [
-  {"name": "Summary", "start": "A1",
-   "rows": [
-    [{"v": "BW03_0098 run sheets: BP16 protease programme, hERG patch clamp", "bold": true}],
-    ["Project", {"ref": "PRJ0033:project_id"}, "LIMS", {"ref": "PRJ0033:lims_id"}],
-    ["Client", "{{PRJ0033:client_variant}}"],
-    ["Series", "SER16, oxazole carboxamide, BP16 prefix"],
-    ["Compounds", {"ref": "PRJ0033:n_compounds"}, "Assay", "hERG automated patch clamp"],
-    [],
-    ["Stage", "Date", "Sheet", "Checked by"],
-    ["Interim read", "15/05/2003", "Cells 1 to 3 per compound", "I. Alvarado"],
-    ["Final read", "23/05/2003", "Geomean and QC notes", "I. Alvarado"],
-    [],
-    ["Reviewed by", "Dr R. Deshmukh", null, "23/05/2003"],
-    ["Outcome", "The lipophilic cap carried an ion-channel liability. Belquorin asked for less basic replacements rather than further testing of that branch."]
-   ],
-   "col_widths": {"A": 26, "B": 22, "C": 30, "D": 22},
-   "merged": ["A1:D1"],
-   "comments": [{"cell": "B5", "text": "Top concentration 30 µM per the study plan. Compounds with no block at top concentration are reported as greater than 30 µM, not extrapolated.", "author": "Ines Alvarado"}]},
-  {"name": "Plate acceptance", "start": "A1",
-   "rows": [
-    ["Run", "Date", "E-4031 control (nM)", "Vehicle", "Seal resistance", "Rundown", "Accepted", "Note"],
-    ["HK-01", "08/05/2003", "{{PRJ0033:herg.control_e4031_nM}}", "Within range", "Pass", "None", "Yes", ""],
-    ["HK-02", "12/05/2003", "{{PRJ0033:herg.control_e4031_nM}}", "Within range", "Pass", "Minor", "Yes", "Cell 2 replaced after rundown check"],
-    ["HK-03", "21/05/2003", "{{PRJ0033:herg.control_e4031_nM}}", "Within range", "Pass", "None", "Yes", "Final confirmation read"],
-    [],
-    ["Acceptance: control inhibition within the historical band on each day, vehicle drift under the study plan limit, and seal resistance checked before each compound addition. No cell was carried forward after a failed control.", null, null, null, null, null, null, null],
-    [],
-    [{"v": "Plate acceptance: all three runs accepted. Stability of the control is recorded per run in the sheet above.", "bold": true}]
-   ],
-   "col_widths": {"A": 12, "B": 14, "C": 22, "D": 16, "E": 16, "F": 12, "G": 12, "H": 36},
-   "merged": ["A6:H6"],
-   "freeze": "A2",
-   "comments": [{"cell": "H3", "text": "Rundown on HK-02 is within what we accept for this rig. Left in on purpose, flagged here so it is visible.", "author": "Martin Ellerscombe"}]},
-  {"name": "hERG IC50", "start": "A1",
-   "rows": [
-    [{"v": "hERG IC50, automated patch clamp, cells 1 to 3 per compound", "bold": true}],
-    ["Geomean reported where at least one cell gives a finite value. Censored records are shown with a greater-than sign and are not fitted."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0033:herg", "at": "A4", "header": true}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 16, "C": 16, "D": 16, "E": 18, "F": 20, "G": 16, "H": 30},
-   "chart": {"kind": "bar", "ref": "PRJ0033:herg", "column": 4, "title": "hERG IC50 geomean (µM)", "y_label": "IC50 (µM)"},
-   "chart_at": "J4",
-   "tab_color": "#1F4E79"},
-  {"name": "QC notes", "start": "A1",
-   "rows": [
-    [{"v": "QC notes on the hERG records", "bold": true}],
-    [],
-    ["Measure", "Count", "Comment"],
-    ["Compounds tested", {"ref": "PRJ0033:herg.n_tested"}, "Full set on one run sheet"],
-    ["Under 1 µM", {"ref": "PRJ0033:herg.n_lt_1uM"}, "None in the set"],
-    ["1 to 10 µM", {"ref": "PRJ0033:herg.n_1_10uM"}, "Read against the 10 µM margin in the programme brief"],
-    ["10 µM or above", {"ref": "PRJ0033:herg.n_ge_10uM"}, "Includes the censored records"],
-    ["Censored (greater than top concentration)", {"ref": "PRJ0033:herg.n_censored"}, "Not fitted; reported as greater than 30 µM"],
-    ["Flagged for cell-to-cell spread", {"ref": "PRJ0033:herg.n_flagged"}, "Two records; repeat not requested by Belquorin"],
-    ["Median IC50 (µM)", {"ref": "PRJ0033:herg.median_ic50_uM"}, "Over the finite values only"],
-    [],
-    ["Note. The lipophilic cap is the common feature of the flagged records. Mechanism is not claimed here; the readout is the number."]
-   ],
-   "col_widths": {"A": 40, "B": 12, "C": 52},
-   "merged": ["A11:C11"],
-   "comments": [{"cell": "C8", "text": "Counts are the screen gate for this set; the programme brief sets the 10 µM margin.", "author": "Ravi Deshmukh"}]}
- ]}
+{
+  "family": "workbook",
+  "summary": "Run sheets for BW03_0098 (Belquorin Pharma, BP16 oxazole carboxamide series 16): plate acceptance, manual hERG patch-clamp IC50 for all 32 compounds with the E-4031 control, and the QC note on the five censored and two flagged records. Accepted 23 May 2003.",
+  "properties": {
+    "title": "BW03_0098 run sheets"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "BW03_0098 run sheets: BP16 protease programme, hERG patch clamp",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          {
+            "ref": "PRJ0033:project_id"
+          },
+          "LIMS",
+          {
+            "ref": "PRJ0033:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0033:client_variant}}"
+        ],
+        [
+          "Series",
+          "SER16, oxazole carboxamide, BP16 prefix"
+        ],
+        [
+          "Compounds",
+          {
+            "ref": "PRJ0033:n_compounds"
+          },
+          "Assay",
+          "manual hERG patch-clamp assessment"
+        ],
+        [],
+        [
+          "Stage",
+          "Date",
+          "Sheet",
+          "Checked by"
+        ],
+        [
+          "Interim read",
+          "15/05/2003",
+          "Cells 1 to 3 per compound",
+          "I. Alvarado"
+        ],
+        [
+          "Final read",
+          "23/05/2003",
+          "Geomean and QC notes",
+          "I. Alvarado"
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Dr R. Deshmukh",
+          null,
+          "23/05/2003"
+        ],
+        [
+          "Outcome",
+          "The lipophilic cap carried an ion-channel liability. Belquorin asked for less basic replacements rather than further testing of that branch."
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 30,
+        "D": 22
+      },
+      "merged": [
+        "A1:D1"
+      ],
+      "comments": [
+        {
+          "cell": "B5",
+          "text": "Top concentration 30 µM per the study plan. Compounds with no block at top concentration are reported as greater than 30 µM, not extrapolated.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Plate acceptance",
+      "start": "A1",
+      "rows": [
+        [
+          "Run",
+          "Date",
+          "E-4031 control (nM)",
+          "Vehicle",
+          "Seal resistance",
+          "Rundown",
+          "Accepted",
+          "Note"
+        ],
+        [
+          "HK-01",
+          "08/05/2003",
+          "See retained daily acceptance record",
+          "Within range",
+          "Pass",
+          "None",
+          "Yes",
+          ""
+        ],
+        [
+          "HK-02",
+          "12/05/2003",
+          "See retained daily acceptance record",
+          "Within range",
+          "Pass",
+          "Minor",
+          "Yes",
+          "Cell 2 replaced after rundown check"
+        ],
+        [
+          "HK-03",
+          "21/05/2003",
+          "See retained daily acceptance record",
+          "Within range",
+          "Pass",
+          "None",
+          "Yes",
+          "Final confirmation read"
+        ],
+        [],
+        [
+          "Acceptance: control inhibition within the historical band on each day, vehicle drift under the study plan limit, and seal resistance checked before each compound addition. No cell was carried forward after a failed control.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [],
+        [
+          {
+            "v": "Accepted runs only are carried into the final summary; daily control acceptance is retained with the run records. BP16-05428 and BP16-05482 first runs failed E-4031 acceptance and were repeated.",
+            "bold": true
+          }
+        ],
+        [
+          "Project control summary",
+          "E-4031 IC50 (nM)",
+          {
+            "ref": "PRJ0033:herg.control_e4031_nM"
+          },
+          "Reported once; not independent daily measurements"
+        ]
+      ],
+      "col_widths": {
+        "A": 12,
+        "B": 14,
+        "C": 22,
+        "D": 16,
+        "E": 16,
+        "F": 12,
+        "G": 12,
+        "H": 36
+      },
+      "merged": [
+        "A6:H6"
+      ],
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "H3",
+          "text": "Rundown on HK-02 is within what we accept for this rig. Left in on purpose, flagged here so it is visible.",
+          "author": "Martin Ellerscombe"
+        }
+      ]
+    },
+    {
+      "name": "hERG IC50",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Manual hERG patch-clamp assessment, cells 1 to 3 per compound",
+            "bold": true
+          }
+        ],
+        [
+          "Compound IC50 is the geometric mean of finite cell IC50s when they are the majority of accepted cells; otherwise reported as >{{PRJ0033:herg.top_conc_uM}} µM (or >10 µM where solubility-limited). A single finite cell without a finite majority does not establish a finite aggregate."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0033:herg",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 16,
+        "C": 16,
+        "D": 16,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 30
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0033:herg",
+        "column": 4,
+        "title": "hERG IC50 geomean (µM)",
+        "y_label": "IC50 (µM)"
+      },
+      "chart_at": "J4",
+      "tab_color": "#1F4E79"
+    },
+    {
+      "name": "QC notes",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "QC notes on the hERG records",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Measure",
+          "Count",
+          "Comment"
+        ],
+        [
+          "Compounds tested",
+          {
+            "ref": "PRJ0033:herg.n_tested"
+          },
+          "Full set on one run sheet"
+        ],
+        [
+          "Under 1 µM",
+          {
+            "ref": "PRJ0033:herg.n_lt_1uM"
+          },
+          "None in the set"
+        ],
+        [
+          "1 to 10 µM",
+          {
+            "ref": "PRJ0033:herg.n_1_10uM"
+          },
+          "Read against the 10 µM margin in the programme brief"
+        ],
+        [
+          "10 µM or above",
+          {
+            "ref": "PRJ0033:herg.n_ge_10uM"
+          },
+          "Includes the censored records"
+        ],
+        [
+          "Censored (greater than top concentration)",
+          {
+            "ref": "PRJ0033:herg.n_censored"
+          },
+          "Not fitted; reported as greater than 30 µM"
+        ],
+        [
+          "First-run control failures",
+          {
+            "ref": "PRJ0033:herg.n_flagged"
+          },
+          "BP16-05428 and BP16-05482: first runs rejected for out-of-range E-4031; subsequently repeated."
+        ],
+        [
+          "Median IC50 (µM)",
+          {
+            "ref": "PRJ0033:herg.median_ic50_uM"
+          },
+          "Over the finite values only"
+        ],
+        [],
+        [
+          "Control-failure flags describe run validity, not cell-to-cell spread. The lipophilic-cap conclusion is a screening decision; no mechanism is claimed."
+        ]
+      ],
+      "col_widths": {
+        "A": 40,
+        "B": 12,
+        "C": 52
+      },
+      "merged": [
+        "A11:C11"
+      ],
+      "comments": [
+        {
+          "cell": "C8",
+          "text": "Counts are the screen gate for this set; the programme brief sets the 10 µM margin.",
+          "author": "Ravi Deshmukh"
+        }
+      ]
+    }
+  ]
+}
