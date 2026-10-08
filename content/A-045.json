@@ -1,0 +1,7 @@
+{"family": "deck",
+ "summary": "Two-slide office deck from an abandoned discussion about booking the first-floor meeting room for the Q4 chemistry review. Only the title slide carries text; the second slide was started and left blank.",
+ "properties": {"title": "Room booking Q4 review", "subject": "Office admin", "keywords": "room booking; meeting; Q4"},
+ "slides": [
+  {"layout": "title", "title": "Q4 chemistry review: room booking", "subtitle": "Vellacombe Discovery Ltd, a Tarnovell company | Office admin | 08/11/2023", "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"},
+  {"layout": "blank", "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential", "notes": "Capacity and AV details still to confirm with Ruth before this goes round."}
+ ]}
