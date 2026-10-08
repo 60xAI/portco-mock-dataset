@@ -1,0 +1,406 @@
+{
+  "family": "document",
+  "summary": "Abandoned working quotation for the AP02 five-isoform CYP screen. It retains DRAFT marking, unresolved purchase and method items, and reviewer insertions. The withdrawal annotation states that no screening plates were run and no client acceptance was obtained.",
+  "properties": {
+    "title": "BW24_0097 withdrawn quotation draft"
+  },
+  "header": "BW24_0097 | DRAFT quotation rev A — withdrawn",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "AP02 CYP interaction panel — working quotation",
+    "subtitle": "DRAFT / WITHDRAWN / NOT ACCEPTED",
+    "lines": [
+      "Brindlewythe Biosciences Ltd, a Tarnovell company",
+      "Client: Avernelwick Pharmaceuticals Ltd",
+      "Study: {{PRJ0054:project_id}}",
+      "Accession reference: {{PRJ0054:lims_id}}",
+      "Prepared by Dr B. Rowcroft",
+      "26 Feb 2024"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Working offer — stopped",
+      "blocks": [
+        {
+          "p": "Draft offer for the AP02 aminopyrimidine regioisomer screening set. The planned 5-isoform CYP panel covers {{PRJ0054:n_compounds}} compounds at 10 µM. This working copy was not accepted and must not be used as a purchase instruction. The shipment was withdrawn following discontinuation of the backup chemistry branch; no screening plates were run."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Draft basis"
+            ],
+            "rows": [
+              [
+                "Study",
+                "{{PRJ0054:project_id}}"
+              ],
+              [
+                "Client",
+                "Avernelwick Pharmaceuticals Ltd"
+              ],
+              [
+                "Screening set",
+                "AP02 aminopyrimidine regioisomers"
+              ],
+              [
+                "Compounds",
+                "{{PRJ0054:n_compounds}}"
+              ],
+              [
+                "Indicative package price",
+                "{{PRJ0054:price}}"
+              ],
+              [
+                "Status",
+                "Withdrawn; not accepted; no screening plates run"
+              ]
+            ],
+            "caption": "Working commercial summary"
+          }
+        },
+        {
+          "p": "Prepared by Bethany Rowcroft on 26 Feb 2024. The technical pages below retain the planned method and unresolved review items. They describe proposed work only. This copy is retained to explain the stopped quotation, not to establish an assay result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Screening question",
+      "blocks": [
+        {
+          "p": "The intended screen gate was identification of AP02 compounds needing further CYP interaction work. The panel would measure inhibition of probe metabolite formation in human liver microsomes for CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4. The kinase hinge-site activity of the screening set was outside the offer."
+        },
+        {
+          "p": "The single-concentration panel cannot distinguish reversible from time-dependent inhibition or establish a clinical interaction margin. Proposed flags would lead to a follow-up discussion rather than a mechanistic conclusion. That discussion was not reached because the material was withdrawn before the assay stage."
+        },
+        {
+          "list": [
+            "Proposed test concentration: 10 µM.",
+            "Planned endpoint: percent inhibition relative to vehicle.",
+            "No primary target experiment included.",
+            "No experimental interpretation entered in this working copy."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Provisional test lot",
+      "blocks": [
+        {
+          "p": "The draft assumes an assay-ready AP02 test lot supplied together. A final identifier list was to be reconciled to the labels before any aliquot map was prepared. The reference {{PRJ0054:lims_id}} provides an administrative link; it does not demonstrate receipt or experimental use of a sample."
+        },
+        {
+          "p": "Henning Flantz was to check stock concentration, solvent, available volume and storage instruction for each sample card. Identity and nominal stock concentration would remain client-supplied. Structure confirmation and independent concentration measurement were not included in the draft scope."
+        },
+        {
+          "list": [
+            "Final shipment list: [TBC — never reconciled].",
+            "Salt and parent identifier mapping: [TBC].",
+            "Usable stock volume: [TBC].",
+            "Do not populate receipt fields from the quotation list."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Dispatch assumptions",
+      "blocks": [
+        {
+          "p": "The planned shipment was to use sealed, labelled containers and packaging appropriate to stock stability and solvent. Avernelwick would supply handling information and the compound list with the test lot. The offer assumed sufficient material for primary testing and routine technical repeats."
+        },
+        {
+          "p": "The laboratory receipt gate would have separated assay-ready stock from damaged or uncertain material. A provisional shipping discussion would not have authorised testing. Multiple partial deliveries or replacement preparations would have required a scope and scheduling review before laboratory use."
+        },
+        {
+          "p": "Shipment withdrawn — stop preparation. Do not complete receipt or storage records as though material had been used. The backup chemistry branch was discontinued. This annotation overrides the proposed dispatch assumptions above; it does not describe an assay failure or an unfavourable CYP result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Draft incubation design",
+      "blocks": [
+        {
+          "p": "Proposed method: pooled human liver microsomes at 0.1 mg/mL protein; isoform-selective probe near working Km; AP02 compound at 10 µM in duplicate. NADPH would initiate a 10-minute incubation at 37 °C before quench for LC-MS/MS measurement of probe metabolite. Vehicle solvent would be matched to the sample conditions."
+        },
+        {
+          "p": "No-NADPH incubations and matrix blanks were intended to support background assessment. The run sheet would record actual substrate concentrations, preparation order and any visible precipitation. None of these planned conditions represents a completed run under this quotation."
+        },
+        {
+          "list": [
+            "Final solvent fraction: [TBC].",
+            "Probe working concentrations: to be entered from the approved method.",
+            "Preparation map: not prepared.",
+            "Draft method retained for scope discussion only."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Probes and reference inhibitors",
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Proposed probe",
+              "Reference inhibitor"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "Phenacetin",
+                "Furafylline"
+              ],
+              [
+                "CYP2C9",
+                "Diclofenac",
+                "Sulfaphenazole"
+              ],
+              [
+                "CYP2C19",
+                "S-Mephenytoin",
+                "Ticlopidine"
+              ],
+              [
+                "CYP2D6",
+                "Dextromethorphan",
+                "Quinidine"
+              ],
+              [
+                "CYP3A4",
+                "Midazolam",
+                "Ketoconazole"
+              ]
+            ],
+            "caption": "Unrun control schedule"
+          }
+        },
+        {
+          "p": "Controls were to be run as concentration responses. Furafylline and ticlopidine require the appropriate NADPH-supported preincubation. Their use as controls would not establish time-dependent inhibition for the AP02 compounds."
+        },
+        {
+          "p": "Ines Alvarado was to check that the method range and analytical signal supported every isoform. Control results are intentionally absent from this draft. No control response was generated for the cancelled shipment. The final approved run-sheet format was still to be attached when work stopped."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Proposed plate acceptance",
+      "blocks": [
+        {
+          "p": "Plate acceptance must precede compound interpretation. The working criterion for reference IC50 is 0.5–2 times the laboratory historical mean, supported by quantifiable vehicle metabolite formation and acceptable blanks. Duplicate agreement and analytical range would be reviewed before endpoints were released."
+        },
+        {
+          "p": "If a control failed, the associated sample measurements would be withheld and repeated. Accepted endpoints from another isoform would not resolve the failed readout. The laboratory would retain the rejected run sheet with the reason for repeat rather than replace it with the accepted run alone."
+        },
+        {
+          "p": "Review action still open: Ines Alvarado to confirm the acceptance wording against the local method. No plate acceptance decision has been recorded. The cancelled offer must not carry a pass statement merely because the proposed acceptance criteria are written down."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Repeat and recovery allowance",
+      "blocks": [
+        {
+          "p": "The planned fixed scope included an ordinary technical repeat for a laboratory preparation or measurement failure. Compound-specific poor recovery would require examination of stock dilution, transfer and analytical interference before an inhibition call. Low recovery would not be treated as low CYP inhibition."
+        },
+        {
+          "p": "Further stock characterisation, persistent interference work or a new preparation method would require a written amendment. This boundary had not been settled with Avernelwick when the draft stopped. A cancelled shipment creates no authorisation to order substitute compounds or carry out exploratory work."
+        },
+        {
+          "list": [
+            "Repeat allowance wording: [TBC with Bethany Rowcroft].",
+            "Replacement-stock instructions: [TBC].",
+            "No exception investigation opened.",
+            "No repeat result available."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Draft calculation conventions",
+      "blocks": [
+        {
+          "p": "The proposed table would report percent inhibition relative to matched vehicle formation after applicable blank correction. Small negative values would remain as measurement variation, not a claim of enzyme activation. A value outside the reliable analytical range would carry a qualifier."
+        },
+        {
+          "p": "A screening flag above 50% at 10 µM was intended to identify compounds for a later concentration-response discussion. Such a flag is not an IC50 and does not identify a clinical interaction risk. Missing measurements would remain missing rather than entered as zero."
+        },
+        {
+          "p": "This page is a reporting convention, not a results page. No AP02 endpoints, rankings or control values are inserted because screening plates were not run. The results table and any associated chart were therefore never prepared."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Proposed deliverables",
+      "blocks": [
+        {
+          "p": "Had the offer proceeded, the package would have produced a signed report and a compound-level table with identifiers, accepted endpoints and exception notes. The report would have led with plate acceptance and the key table, followed by methods, deviations and a short screening discussion."
+        },
+        {
+          "p": "A biology memo could have separated a recommendation for concentration response from a request for replacement material. No such memo was issued. The planned screening decision belongs to a programme that was stopped before experimental work; it cannot be reconstructed from the quotation price or method description."
+        },
+        {
+          "list": [
+            "Report layout attachment: [TBC].",
+            "Result-table exchange format: [TBC].",
+            "Deliverables not commissioned.",
+            "No signed study report to be generated from this draft."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Working dates — no commitment",
+      "blocks": [
+        {
+          "p": "Laboratory dates were to follow written acceptance and test-lot reconciliation. No fixed turnaround is quoted. The proposed sequence was receipt release, accepted runs, exception closure and report release. Those screen gates describe planning only."
+        },
+        {
+          "p": "John Mckinney was to coordinate shipment and purchase information. The working schedule should now be closed as withdrawn. It must not be back-filled with dates suggesting that screening occurred. Bethany Rowcroft remains the contact if a future AP02 offer is requested, but a new instruction would require its own agreed scope."
+        },
+        {
+          "list": [
+            "Client purchase instruction: not received.",
+            "Laboratory slot: [TBC — stop].",
+            "Report release date: not assigned.",
+            "Do not circulate this draft as an accepted schedule."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Draft commercial boundary",
+      "blocks": [
+        {
+          "p": "The provisional package price is {{PRJ0054:price}} for {{PRJ0054:n_compounds}} compounds in the stated five-isoform screen. Routine preparation, reference controls, ordinary technical resolution and report preparation were intended to be included. This is an offered amount, not an invoice or a statement of money spent."
+        },
+        {
+          "p": "Additional compounds, concentration-response work, substantial stock characterisation and repeated independent shipments would be excluded unless agreed in writing. Applicable taxes and purchase details had not yet been settled. The draft makes no claim that a cancellation payment was agreed or charged."
+        },
+        {
+          "p": "Commercial action: remove any implication of committed testing. The quotation was unaccepted, the shipment was withdrawn and no screening plates were run. The final purchase terms were never completed; do not copy them into a replacement offer without a fresh agreement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Confidentiality and retained draft",
+      "blocks": [
+        {
+          "p": "The AP02 identity list and programme context are confidential. This stopped copy is retained with the quotation history and should not be used as evidence of a measured metabolism liability. A later request for screening must identify its own test lot and scientific question."
+        },
+        {
+          "p": "Proposed sample-card and run-sheet custody clauses were to be agreed with acceptance. Since the quotation did not proceed, this file records scope development rather than experimental custody. Administrative references must not be used to infer a physical sample history."
+        },
+        {
+          "list": [
+            "Retain draft and reviewer insertions.",
+            "Mark any circulation copy as withdrawn.",
+            "Do not convert proposed methods into completed methods.",
+            "Record-custody attachment: [TBC — not completed]."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Acceptance page — unfinished",
+      "blocks": [
+        {
+          "p": "WITHDRAWN. No client acceptance obtained. Avernelwick discontinued the backup chemistry branch and withdrew the follow-up shipment before any screening plates were run. This draft ends at the purchase review stage."
+        },
+        {
+          "table": {
+            "columns": [
+              "Field",
+              "Working state"
+            ],
+            "rows": [
+              [
+                "Quotation",
+                "{{PRJ0054:project_id}} rev A"
+              ],
+              [
+                "Authority",
+                "Not accepted"
+              ],
+              [
+                "Client signature",
+                "Not obtained"
+              ],
+              [
+                "Purchase instruction",
+                "Not obtained"
+              ],
+              [
+                "Shipment",
+                "Withdrawn"
+              ],
+              [
+                "Assay release",
+                "No screening plates run"
+              ]
+            ],
+            "caption": "Stopped acceptance schedule"
+          }
+        },
+        {
+          "p": "TODO: reconcile the withdrawal note with the commercial register; leave the client signature and start instruction uncompleted. Do not issue. Remaining purchase conditions: [TBC]"
+        }
+      ]
+    }
+  ],
+  "tracked_changes": [
+    {
+      "find": "The draft assumes an assay-ready AP02 test lot supplied together.",
+      "insert": " Shipment details remain unconfirmed; this assumption is not a receipt record.",
+      "author": "Ines Alvarado",
+      "date": "2024-02-26"
+    },
+    {
+      "find": "Plate acceptance must precede compound interpretation.",
+      "insert": " Confirm the local method range before approval of this page.",
+      "author": "Ines Alvarado",
+      "date": "2024-02-26"
+    }
+  ]
+}
