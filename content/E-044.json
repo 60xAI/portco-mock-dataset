@@ -43,7 +43,7 @@
    "level": 1,
    "blocks": [
     {
-     "p": "Table 1 gives the results for all pulls generated to date. Every pull is marked Complies against the specification. Assay (% label claim) started at {{PRJ0103:stability.t0_assay}} and stayed within the specification at all three conditions. The largest change is at 40 °C/75% RH, where total impurities rise steadily with time and the assay at the last pull is the lowest in the set."
+     "p": "Table 1 gives the initial (time-zero) results placed at all three conditions; every result complies with the specification, with assay at {{PRJ0103:stability.t0_assay}}% label claim. New pulls were suspended before the first scheduled timepoint, so no trend with time can be assessed yet."
     },
     {
      "table": {
