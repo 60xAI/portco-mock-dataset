@@ -1,0 +1,79 @@
+{"family": "workbook",
+ "summary": "Interim sequence sheets for the LM-5 tablet lot long-term stability placement under WA/2026/027 for Lomervessa Pharma: the first scheduled pull is analysed and reported here as interim data only. Long-term chambers remain on programme; the pull schedule is partly complete and final conclusions wait for later timepoints.",
+ "properties": {"title": "LM5 first pull review (interim draft), Rev01"},
+ "sheets": [
+  {"name": "Summary", "start": "A1",
+   "rows": [
+    [{"v": "WA/2026/027 LM5 first pull review: INTERIM DRAFT", "bold": true, "fill": "#FFF2CC"}],
+    ["Status: interim. Partial results only; conclusions pending later pulls and sign-off."],
+    [],
+    ["Project", {"ref": "PRJ0098:project_id"}],
+    ["LIMS", {"ref": "PRJ0098:lims_id"}],
+    ["Client", "{{PRJ0098:client_variant}}"],
+    ["Lead", "Alice Penrose"],
+    ["Sequence owner", "Leon Wu"],
+    ["Method validation", "Saira Mahmood"],
+    [],
+    ["Milestone", "Date"],
+    ["Quote accepted", "20/01/2026"],
+    ["Protocol start", "23/02/2026"],
+    ["First pull analysed", "24/08/2026"],
+    ["Completion", "To be confirmed"],
+    [],
+    ["Result (interim)", "Value"],
+    ["Initial assay (% label claim)", {"ref": "PRJ0098:stability.t0_assay"}],
+    ["Last timepoint reported (months)", {"ref": "PRJ0098:stability.last_timepoint_months"}],
+    ["Interim observation", "Complies at the pulls reported so far; no OOS results"],
+    [],
+    ["Prepared by", "Leon Wu", null, "Interim draft 24/08/2026"]
+   ],
+   "col_widths": {"A": 32, "B": 52},
+   "merged": ["A1:D1"]
+  },
+  {"name": "Stability", "start": "A1",
+   "rows": [
+    [{"v": "ICH chamber programme: pulls reported to date (interim)", "bold": true}],
+    ["Assay as % label claim, impurities as % area. Water by Karl Fischer, % w/w. Later timepoints not yet tested and not shown."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0098:stability", "at": "A4", "max_rows": null, "columns": null, "header": true}],
+   "merged": ["A1:H1"],
+   "col_widths": {"A": 18, "B": 18, "C": 14, "D": 18, "E": 18, "F": 20, "G": 18, "H": 14},
+   "freeze": "A5",
+   "number_formats": {"C5:C15": "0.0", "F5:G15": "0.00"},
+   "comments": [
+    {"cell": "H4", "text": "Table still has only the first pull. Check the 6-month row is in before this goes to Lomervessa.", "author": "Saira Mahmood"}
+   ]
+  },
+  {"name": "Pull schedule", "start": "A1",
+   "rows": [
+    [{"v": "Pull schedule tracker (partly complete)", "bold": true}],
+    ["P = pulled and tested, S = scheduled, blank = not yet planned for this row."],
+    [],
+    ["Condition", "0", "3", "6", "9", "12", "18", "24"],
+    ["25 °C/60% RH", "P", null, "P", "S", "S", "S", null],
+    ["30 °C/65% RH", "P", null, "P", "S", "S", null, null],
+    ["40 °C/75% RH", "P", null, "P", "S", null, null, null],
+    ["Photostability", null, null, null, null, null, null, null],
+    ["Retained samples", null, null, null, null, null, null, null]
+   ],
+   "col_widths": {"A": 26, "B": 10, "C": 10, "D": 10, "E": 10, "F": 10, "G": 10, "H": 10},
+   "merged": ["A1:H1"],
+   "freeze": "B5",
+   "comments": [
+    {"cell": "D6", "text": "Pull logged 24/08/2026. Chamber log for this window still to be attached.", "author": "Alice Penrose"},
+    {"cell": "A9", "text": "Retained sample row not filled in yet. Owner to confirm the reserve quantity with sample management.", "author": "Leon Wu"}
+   ]
+  },
+  {"name": "Sign-off", "start": "A1",
+   "rows": [
+    ["Review and sign-off record (interim)", "", "", ""],
+    ["Item", "Owner", "Status", "Date"],
+    ["First pull analysed", "Leon Wu", "Complete", "24/08/2026"],
+    ["Interim review of first pull", "Alice Penrose", "Pending", null],
+    ["Validation of interim results", "Saira Mahmood", "Pending", null],
+    ["Final conclusions", "Alice Penrose", "Not started", null]
+   ],
+   "col_widths": {"A": 60, "B": 18, "C": 16, "D": 14},
+   "merged": ["A1:D1"]
+  }
+ ]}
