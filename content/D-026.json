@@ -1,0 +1,11 @@
+{"family": "workbook",
+ "summary": "Near-empty scratch workbook with one unnamed sheet. It carries the firm brand line and a single data-drop date; no analysis has been entered yet.",
+ "properties": {"title": "Scratch workbook"},
+ "sheets": [
+  {"name": "Sheet1", "rows": [
+    [{"v": "Quenverell Computational Ltd, a Tarnovell company", "bold": true}],
+    [],
+    ["Data drop", "11 May 2026"]
+   ],
+   "col_widths": {"A": 24, "B": 18}}
+ ]}
