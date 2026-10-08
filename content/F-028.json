@@ -1,0 +1,239 @@
+{
+  "family": "document",
+  "summary": "Final quotation for Jorvessara Pharmaceuticals for JO-18 dispersion feasibility and a scale-up estimate. The proposal bounds exploratory screening and pilot-lot handoff; an internal purchasing note records that the manufacturing partner won the work.",
+  "properties": {
+    "title": "JO-18 dispersion feasibility and scale-up estimate"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "JO-18 dispersion feasibility and scale-up estimate",
+    "subtitle": "Final quotation | Unaccepted",
+    "lines": [
+      "Date: 12/23/2024",
+      "Prepared by: Julia Carver | Formulation Development Lead",
+      "Project: {{PRJ0115:project_id}}",
+      "Client: Jorvessara Pharmaceuticals"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Scope offered",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Durnesswick offers a dispersion feasibility work package for JO-18 under {{PRJ0115:project_id}}. The aim is to identify a formulation set supporting the intended dose and describe the practical burden of carrying it into pilot-scale drying. The work would precede a manufacturing commitment and would not establish a locked process."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Quotation basis"
+            ],
+            "rows": [
+              [
+                "Client",
+                "Jorvessara Pharmaceuticals"
+              ],
+              [
+                "Project",
+                "{{PRJ0115:project_id}}"
+              ],
+              [
+                "Reserved accession",
+                "{{PRJ0115:lims_id}}"
+              ],
+              [
+                "Fixed fee",
+                "{{PRJ0115:price}}"
+              ],
+              [
+                "Start",
+                "To be agreed after authorization and material readiness"
+              ],
+              [
+                "Schedule",
+                "To be agreed with the receiving manufacturing team"
+              ]
+            ],
+            "caption": "Commercial and scope summary"
+          }
+        },
+        {
+          "p": "The comparison would consider drug loading in weight percent, wet preparation behavior, redispersion after drying where applicable and representative dose recovery. A visually uniform preparation will not be described as a stable product without a defined hold interval and appropriate measurements."
+        },
+        {
+          "p": "No laboratory results accompany this quotation. The scale-up estimate would identify assumptions and exclusions rather than promise manufacturing performance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Inputs and sample readiness",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Jorvessara Pharmaceuticals would provide JO-18 with lot identity, assay or purity, solid-form information, storage requirements and handling precautions. Requested sample mass would be agreed from the matrix, retained material and analytical consumption. Sending material does not authorize experimental work."
+        },
+        {
+          "list": [
+            "Target dose and permitted administration volume or presentation.",
+            "Excipient preferences and restrictions.",
+            "Known solubility, wetting, thermal and moisture sensitivities.",
+            "Analytical method and recovery from candidate excipients.",
+            "Manufacturing partner solvent, drying and powder-handling constraints.",
+            "Intended pilot-lot destination and technical contact route."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Ashley King would reconcile receipt documentation before preparation. Discrepancies would be referred to Julia Carver. Accession {{PRJ0115:lims_id}} identifies proposed work; it does not imply receipt or testing."
+        },
+        {
+          "p": "A preparation meeting would settle the appropriate vehicle route. The selection would follow dose and manufacturing constraints, with unresolved analytical recovery carried as an explicit limitation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Feasibility activities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Miguel Serrano would prepare a bounded formulation set. A Vehicle ladder would examine wetting and loading where useful; an Excipient compatibility screen would address short-term contact behavior for candidates carried toward drying. Separate bench sheets would retain the purpose of each screen."
+        },
+        {
+          "list": [
+            "Document addition order, mixing method, temperature and hold interval.",
+            "Compare intended loading with lower loading if mixing or sampling is unreliable.",
+            "Observe settling and redispersion before recommending a drying route.",
+            "Evaluate dried material under an agreed feasibility condition and document collection behavior.",
+            "Assess sampling and analytical recovery before ranking candidates."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Candidates would be compared with appropriate blanks. Independent preparations would be included where handling determines the decision. A repeat would retain the original bench sheet, cause and revised condition."
+        },
+        {
+          "p": "High loading can reduce excipient burden while increasing mixing, segregation or redispersion risk. Lower loading may be more workable but increase the dose mass or volume. The recommendation would make that tradeoff visible."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Scale-up estimate and handoff",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Lena Patel would translate the selected recipe into a pilot-lot handoff outline, separating transferable instructions from scale-dependent operations. Mixing energy, feed hold, drying and collection require attention because a workable bench preparation may not reproduce on larger equipment."
+        },
+        {
+          "table": {
+            "columns": [
+              "Element",
+              "Estimate content"
+            ],
+            "rows": [
+              [
+                "Material balance",
+                "Basis, recovery assumptions and unresolved losses"
+              ],
+              [
+                "Preparation",
+                "Order, wetting and mixing endpoints"
+              ],
+              [
+                "Drying",
+                "Candidate route and equipment information needed"
+              ],
+              [
+                "Handling",
+                "Collection, storage and redispersion"
+              ],
+              [
+                "Scale gate",
+                "Evidence needed before pilot-lot authorization"
+              ]
+            ],
+            "caption": "Scale-up estimate contents"
+          }
+        },
+        {
+          "p": "The manufacturing partner would confirm equipment, minimum workable feed volume, solvent limits and containment. Durnesswick would not select production settings from equipment names alone. Missing information would be listed beside each affected assumption."
+        },
+        {
+          "p": "Pilot-scale drying, clinical material manufacture, process qualification and release testing are excluded. If screening and drying are combined at the manufacturing site, handoff should follow that site’s actual preparation sequence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Deliverables and responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "list": [
+            "Development note comparing candidates and recommending a route, or explaining why none can be recommended.",
+            "Recipe cards and bench-sheet summary with preparation and hold conditions.",
+            "Screen suitability assessment and non-evaluable observations.",
+            "Scale-up estimate with assumptions, missing information and scale gates.",
+            "Technical discussion with the client and its partner if authorized."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Start and delivery dates would be agreed after scope approval, sample readiness and confirmation of drying arrangements. No execution slot is reserved. Analytical development or a broader matrix would require agreement before proceeding."
+        },
+        {
+          "p": "Julia Carver would own the recommendation. Miguel Serrano would manage preparation and screen suitability. Lena Patel would own the handoff outline and unresolved manufacturing assumptions."
+        },
+        {
+          "p": "Jorvessara Pharmaceuticals retains responsibility for product requirements, permitted excipients and partner selection. Commercial acceptance would not convert exploratory recipes into release specifications."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Fee and purchasing disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The fee is {{PRJ0115:price}} for feasibility and the scale-up estimate. Pilot-scale drying, manufacturing-site execution, long-term stability and validated release methods are excluded. Additions would require an agreed scope change."
+        },
+        {
+          "p": "Authorization would require written acceptance and a purchasing reference. No start or completion date is assigned to this unaccepted quotation. It is a final statement of offered scope, not a draft laboratory plan."
+        },
+        {
+          "p": "Internal purchasing disposition: Jorvessara Pharmaceuticals chose its manufacturing partner to run the screen alongside pilot-scale drying, rather than contract feasibility separately. The work was not awarded to Durnesswick. No preparation, sample result or completed deliverable is claimed."
+        },
+        {
+          "p": "Julia Carver will retain the quotation as the commercial reference for {{PRJ0115:project_id}}. A later request would require reconfirmation of material availability, manufacturing constraints and scope before an execution plan is issued."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "12/23/2024",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
