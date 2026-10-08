@@ -1,0 +1,48 @@
+{"family": "workbook",
+ "summary": "Results workbook for VD-19-120, the DT18 benzofuran acetamide route transfer for Doventhar Therapeutics. It compares crystallisation and chromatography work-up for the shared intermediate, records the purity of the 40-analogue delivery lot, and notes that the crystallisation route supported Doventhar's outsourced follow-up batch.",
+ "properties": {"title": "VD-19-120 DT18 route transfer and delivery results"},
+ "sheets": [
+  {"name": "Summary",
+   "rows": [
+    [{"v": "VD-19-120 DT18 benzofuran acetamide, route transfer", "bold": true}],
+    ["Project", "{{PRJ0022:project_id}}"],
+    ["LIMS", "{{PRJ0022:lims_id}}"],
+    ["Client", "{{PRJ0022:client_variant}}"],
+    ["Series", "DT18 benzofuran acetamide, analogue set 18"],
+    ["Compounds delivered", {"ref": "PRJ0022:n_compounds"}],
+    ["Price", "{{PRJ0022:price}}"],
+    ["Turnaround (days)", {"ref": "PRJ0022:turnaround_days"}],
+    [],
+    ["Decision", "Crystallisation replaces chromatography for the shared intermediate. The route transfers to the Doventhar team as written."],
+    ["Caveat", "Crystallisation needs the seed from the first lot. Doventhar's batch will need a fresh seed if the lot is run from a new supplier of the acid."],
+    [],
+    ["Compiled by", "Clara Fenwick", null, "02/03/2020"],
+    ["Reviewed by", "Dr H. Darwish", null, "02/03/2020"]
+   ],
+   "col_widths": {"A": 22, "B": 70},
+   "merged": ["A1:D1"]},
+  {"name": "Route transfer",
+   "rows": [
+    [{"v": "Shared intermediate: work-up options compared", "bold": true}],
+    [],
+    [{"v": "Work-up", "bold": true}, {"v": "Procedure", "bold": true}, {"v": "Scale (mmol)", "bold": true}, {"v": "Outcome", "bold": true}],
+    ["Chromatography", "Silica column, EtOAc/heptane gradient", "10", "Recovery accepted for the first runs. Slow, and solvent-heavy on the larger scale."],
+    ["Crystallisation", "Ethanol/water, cool slowly from reflux, filter", "10", "Replaces the column. Crystals filter cleanly. Purity gain is as good or better in the HPLC."],
+    ["Crystallisation, scale-up", "As above, 3x volume", "30", "Ran in Nottingham. Seeded, no oiling out."],
+    [],
+    ["Route gate", "Passed. Shared intermediate goes through crystallisation for all the remaining members."]
+   ],
+   "col_widths": {"A": 24, "B": 52, "C": 16, "D": 72},
+   "freeze": "A4"},
+  {"name": "Delivery lot",
+   "rows": [
+    [{"v": "Analogues delivered to Doventhar Therapeutics, lot 3", "bold": true}],
+    ["Yield is isolated. Purity is HPLC area % at 254 nm. Amounts are delivered mg per compound."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0022:synthesis", "at": "A4", "header": true}],
+   "col_widths": {"A": 14, "B": 60, "C": 9, "D": 11, "E": 22, "F": 14},
+   "number_formats": {"C5:C50": "0.0", "D5:D50": "0", "E5:E50": "0.0", "F5:F50": "0"},
+   "freeze": "A5",
+   "comments": [{"cell": "A4", "text": "Lot 3 release sign-off pending the Doventhar QC report.", "author": "Clara Fenwick"}],
+   "tab_color": "#1F4E79"}
+ ]}
