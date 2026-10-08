@@ -1,0 +1,76 @@
+- file_id: C-012
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Slides 3 and 6 invent routine species coverage, single-donor hepatocyte lots and a pending Q2 lot without source records; mouse coverage also conflicts between slides."
+      change_made: "Referred species, preparation and donor composition to study protocols and source lot records; retained the open Q2 check."
+    - severity: fix
+      area: science
+      problem: "The deck assumes rat clearance predicts human ranking, treats cellular depletion as unqualified intrinsic clearance and imposes a blanket control rule."
+      change_made: "Qualified depletion mechanisms and cross-species interpretation, used assay-specific acceptance criteria and allowed limits for slow depletion."
+    - severity: fix
+      area: consistency
+      problem: "The backup slide asserts reference compounds used for both assays without supporting assay records."
+      change_made: "Referred reference selection and acceptance to the study protocol and assay worksheet."
+- file_id: C-013
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The 2017 introduction describes the firm as independent despite the 2008 acquisition."
+      change_made: "Described its establishment in Madison without claiming continuing independence."
+    - severity: fix
+      area: science
+      problem: "Separate parallel plasma and buffer dialysis misdescribes equilibrium dialysis; pre-dose integrity alone does not support Caco-2 interpretation."
+      change_made: "Described paired membrane-separated compartments and integrity assessment with transport controls."
+    - severity: fix
+      area: consistency
+      problem: "The PK bullet implies both routes within a single-route rate; solubility wording promises an unsupported readout and optional service."
+      change_made: "Clarified oral or IV scope and referred the solubility readout to its assay protocol."
+- file_id: C-034
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "A signature and received stamp occur on 09/14/2011, after the 09/13/2011 last save."
+      change_made: "Aligned both with 09/13/2011."
+    - severity: fix
+      area: science
+      problem: "The memo permits quantitation despite a failed transition comparison and automatic calibrator removal without checking remaining curve acceptance."
+      change_made: "Held affected results for investigation and required documented, method-permitted exclusions and an acceptable remaining curve."
+    - severity: fix
+      area: science
+      problem: "Blank matrix interference is treated solely as carry-over, and universal linear fitting, reanalysis and control-lot qualification rules lack method support."
+      change_made: "Distinguished blank checks and referred regression, investigation and replacement-control qualification to analyte-specific methods and source records."
+- file_id: D-007
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "The deck claims docking score ranking is reliable within a cluster without experimental validation."
+      change_made: "Stated that consistent settings permit comparison but ranking remains tentative pending experimental evidence."
+    - severity: minor
+      area: consistency
+      problem: "Cover notes call the copied Merrivoss deck 'our' deck; the return-data heading gives the computational recipient the wrong perspective."
+      change_made: "Named Merrivoss as the source and Quenverell as the recipient; retained the source footer and old contact table."
+    - severity: minor
+      area: science
+      problem: "Return-data instructions request units without matrix, species, route or clearance normalisation."
+      change_made: "Added the relevant experimental context to the hand-off requirement."
+- file_id: D-013
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Rate notes and effort bands assert docking and clustering are included in triage and define an unsupported standard RNA-seq pipeline."
+      change_made: "Made inclusions subject to each engagement quote and labelled effort bands as proposed scoping prompts without price multipliers."
+    - severity: minor
+      area: realism
+      problem: "The discount comment invents previous commercial practice and an old volume-discount note."
+      change_made: "Retained the negotiated-discount comment while distinguishing the no-discount list from separately approved negotiations."
