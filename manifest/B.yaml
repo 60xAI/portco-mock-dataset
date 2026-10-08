@@ -1,0 +1,1722 @@
+files:
+- id: P10
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2011/BW11_0275/Proposal
+  filename: BW11_0275_Quote_revA.doc
+  format: doc
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2011
+  era: legacy
+  template: B-L
+  created: '2011-08-23T11:40:09'
+  modified: '2011-08-24T10:08:04'
+  author: ST02
+  last_saved_by: ST02
+  projects:
+  - PRJ0001
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_B1_proposal
+  related: []
+  tier: orchestrator
+  target_length: 5-7 pages
+  summary: 'Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 40 kinase-series compounds; price and turnaround
+    stated.'
+  pilot: false
+- id: P11
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2011/BW11_0275/Results
+  filename: BW11_0275_hERG-CYP_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2011
+  era: legacy
+  template: B-L
+  created: '2011-09-12T09:54:08'
+  modified: '2011-09-27T10:59:09'
+  author: ST02
+  last_saved_by: ST02
+  projects:
+  - PRJ0001
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_B1_results
+  related:
+  - id: P10
+    rel: results_for
+  tier: orchestrator
+  target_length: 4-5 sheets
+  summary: 'Results workbook for BW11_0275: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.'
+  pilot: false
+- id: P12
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2011/BW11_0275/Reports
+  filename: BW11_0275_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2011
+  era: legacy
+  template: B-L
+  created: '2011-09-26T11:15:07'
+  modified: '2011-09-27T16:45:06'
+  author: ST02
+  last_saved_by: ST02
+  projects:
+  - PRJ0001
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_B1_report
+  related:
+  - id: P10
+    rel: report_for
+  - id: P11
+    rel: related
+  tier: orchestrator
+  target_length: 10-16 pages
+  summary: 'Final report BW11_0275: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early
+    page.'
+  pilot: false
+- id: P13
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0453/Proposal
+  filename: BW21_0453_Quote_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-10-18T09:33:26'
+  modified: '2021-10-19T13:18:03'
+  author: ST03
+  last_saved_by: ST03
+  projects:
+  - PRJ0002
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_B2_proposal
+  related: []
+  tier: orchestrator
+  target_length: 5-7 pages
+  summary: 'Proposal BW21_0453 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 42 kinase-series compounds; price and turnaround
+    stated.'
+  pilot: false
+- id: P14
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0453/Results
+  filename: BW21_0453_hERG-CYP_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-11-08T12:34:50'
+  modified: '2021-11-25T17:48:57'
+  author: ST03
+  last_saved_by: ST03
+  projects:
+  - PRJ0002
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_B2_results
+  related:
+  - id: P13
+    rel: results_for
+  tier: orchestrator
+  target_length: 4-5 sheets
+  summary: 'Results workbook for BW21_0453: hERG IC50 and 5-isoform CYP inhibition for 42 compounds, with a benchmark summary sheet.'
+  pilot: false
+- id: P15
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0453/Reports
+  filename: BW21_0453_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-11-23T09:29:54'
+  modified: '2021-11-25T12:46:06'
+  author: ST03
+  last_saved_by: ST03
+  projects:
+  - PRJ0002
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_B2_report
+  related:
+  - id: P13
+    rel: report_for
+  - id: P14
+    rel: related
+  tier: orchestrator
+  target_length: 10-16 pages
+  summary: 'Final report BW21_0453: hERG and CYP results for 42 kinase-series compounds, with the benchmark summary table on an early
+    page.'
+  pilot: false
+- id: P22
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2017/BW17_0167/Results
+  filename: BW17_0167_hERG_RUN03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2017
+  era: legacy
+  template: B-L
+  created: '2017-05-25T08:47:08'
+  modified: '2017-06-14T09:04:20'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0005
+  client_id: CL004
+  client_variant: Selverant Therapeutics Inc
+  finish: final
+  mess: []
+  planted:
+  - q2_distractor_herg_only
+  related: []
+  tier: orchestrator
+  target_length: 3 sheets
+  summary: 'Results workbook BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.'
+  pilot: false
+- id: P23
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2017/BW17_0167/Reports
+  filename: BW17_0167_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2017
+  era: legacy
+  template: B-L
+  created: '2017-06-12T12:13:49'
+  modified: '2017-06-14T08:46:10'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0005
+  client_id: CL004
+  client_variant: Selverant Therapeutics Inc
+  finish: final
+  mess: []
+  planted:
+  - q2_distractor_herg_only
+  related: []
+  tier: orchestrator
+  target_length: 8-12 pages
+  summary: 'Report BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.'
+  pilot: false
+- id: B-001
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2011/BW11_0275/Readouts
+  filename: BW11_0275_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2011
+  era: legacy
+  template: B-L
+  created: '2011-09-27T10:41:00'
+  modified: '2011-09-27T13:53:00'
+  author: ST02
+  last_saved_by: ST02
+  projects:
+  - PRJ0001
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW11_0275, Avernelwick Pharmaceuticals
+    Ltd, covering hERG automated patch clamp, 5-isoform CYP panel on 40 compounds; The paired screen identified an ion-channel liability
+    in the lipophilic branch, and Avernelwick advanced the more polar analogues.
+  pilot: false
+- id: B-002
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0453/Readouts
+  filename: BW21_0453_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-11-25T10:41:00'
+  modified: '2021-11-25T13:53:00'
+  author: ST03
+  last_saved_by: ST03
+  projects:
+  - PRJ0002
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW21_0453, Avernelwick Pharmaceuticals
+    Ltd, covering hERG automated patch clamp, 5-isoform CYP panel, 3A4 concentration response on 42 compounds; The follow-up retained
+    the hERG margin but exposed a CYP interaction in the basic side-chain subset, prompting a chemistry redesign.
+  pilot: false
+- id: B-003
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2001/BW01_0059/Readouts
+  filename: BW01_0059_CLIENT.ppt
+  format: ppt
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2001
+  era: legacy
+  template: B-L
+  created: '2001-05-18T10:41:00'
+  modified: '2001-05-18T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0032
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW01_0059, Quorenthel Pharma GmbH, covering
+    Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen, and
+    Quorenthel progressed the compact heteroaryl subset.
+  pilot: false
+- id: B-004
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2003/BW03_0098/Readouts
+  filename: BW03_0098_CLIENT.ppt
+  format: ppt
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2003
+  era: legacy
+  template: B-L
+  created: '2003-05-23T10:41:00'
+  modified: '2003-05-23T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0033
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW03_0098, Belquorin Pharma, covering
+    hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested less basic
+    replacements rather than further testing of that branch.
+  pilot: false
+- id: B-005
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2020/BW20_0137/Readouts
+  filename: BW20_0137_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: B-T
+  created: '2020-05-22T10:41:00'
+  modified: '2020-05-22T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0039
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW20_0137, Rennelwick Institute Drug
+    Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability
+    work after the initial stability ranking proved consistent.
+  pilot: false
+- id: B-006
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0240/Readouts
+  filename: BW21_0240_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-08-19T10:41:00'
+  modified: '2021-08-19T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0040
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW21_0240, Tervemere Pharma AG, covering
+    Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere retained
+    the polar substituents for the next design cycle.
+  pilot: false
+- id: B-007
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2024/BW24_0253/Readouts
+  filename: BW24_0253_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: B-G
+  created: '2024-08-26T10:41:00'
+  modified: '2024-08-26T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0043
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW24_0253, Avernelwick Pharmaceuticals
+    Ltd, covering HLM/RLM stability, RED PPB on 18 compounds; Low dialysis recovery confounded the first binding run; the repeat with
+    revised labware gave an interpretable free-fraction ranking.
+  pilot: false
+- id: B-008
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2025/BW25_0600/Readouts
+  filename: BW25_0600_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-01-26T10:41:00'
+  modified: '2026-01-26T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0044
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0600, Avernelwick Pharmaceuticals
+    Ltd, covering Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower
+    off-target fingerprint for its next medicinal chemistry round.
+  pilot: false
+- id: B-009
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2025/BW25_0231/Readouts
+  filename: BW25_0231_CLIENT.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-06-25T10:41:00'
+  modified: '2025-06-25T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0045
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0231, Tervemere Pharma AG, covering
+    hERG automated patch clamp on 32 compounds; The soluble-tail design reduced the channel signal and Tervemere resumed exposure testing
+    of the retained branch.
+  pilot: false
+- id: B-010
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2001/BW01_0059/Reports
+  filename: BW01_0059_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2001
+  era: legacy
+  template: B-L
+  created: '2001-05-18T10:41:00'
+  modified: '2001-05-18T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0032
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW01_0059, Quorenthel
+    Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity
+    counterscreen, and Quorenthel progressed the compact heteroaryl subset.
+  pilot: false
+- id: B-011
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2003/BW03_0098/Reports
+  filename: BW03_0098_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2003
+  era: legacy
+  template: B-L
+  created: '2003-05-23T10:41:00'
+  modified: '2003-05-23T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0033
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW03_0098, Belquorin
+    Pharma, covering hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin
+    requested less basic replacements rather than further testing of that branch.
+  pilot: false
+- id: B-012
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2015/BW15_0277/Reports
+  filename: BW15_0277_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2015
+  era: legacy
+  template: B-L
+  created: '2015-08-28T10:41:00'
+  modified: '2015-08-28T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0034
+  client_id: CL018
+  client_variant: Cadrunelle Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW15_0277, Cadrunelle
+    Biosciences, covering 5-isoform CYP panel on 40 compounds; A selective CYP interaction in the thiophene-rich branch led Cadrunelle
+    to favour the oxygen-containing replacements.
+  pilot: false
+- id: B-013
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2016/BW16_0168/Reports
+  filename: BW16_0168_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2016
+  era: legacy
+  template: B-L
+  created: '2016-07-14T10:41:00'
+  modified: '2016-07-14T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0035
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW16_0168, Elvarmere
+    Biosciences AB, covering HLM/RLM stability, RED PPB on 18 compounds; Elvarmere found that high binding did not explain the rapid
+    turnover and commissioned metabolite identification on the retained lead.
+  pilot: false
+- id: B-014
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2017/BW17_0415/Reports
+  filename: BW17_0415_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2018
+  era: legacy
+  template: B-L
+  created: '2018-01-23T10:41:00'
+  modified: '2018-01-23T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0036
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW17_0415, Quorenthel
+    Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds; The hinge modification improved selectivity at the
+    cost of some primary potency, giving Quorenthel a clearer optimisation direction.
+  pilot: false
+- id: B-015
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2018/BW18_0225/Reports
+  filename: BW18_0225_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2018
+  era: legacy
+  template: B-L
+  created: '2018-07-23T10:41:00'
+  modified: '2018-07-23T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0037
+  client_id: CL010
+  client_variant: Feldorune Therapeutics BV
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW18_0225, Feldorune
+    Therapeutics BV, covering hERG automated patch clamp on 32 compounds; Feldorune dropped the most strongly basic side chain after
+    reproducible hERG inhibition in the confirmatory run.
+  pilot: false
+- id: B-016
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2019/BW19_0436/Reports
+  filename: BW19_0436_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2019
+  era: legacy
+  template: B-L
+  created: '2019-11-29T10:41:00'
+  modified: '2019-11-29T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0038
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW19_0436, Orvessant
+    Biosciences Pty Ltd, covering 5-isoform CYP panel on 40 compounds; The ether-linked backup set reduced the CYP liability enough
+    for Orvessant to commission an exposure comparison.
+  pilot: false
+- id: B-017
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2020/BW20_0137/Reports
+  filename: BW20_0137_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2020
+  era: transition
+  template: B-T
+  created: '2020-05-22T10:41:00'
+  modified: '2020-05-22T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0039
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW20_0137, Rennelwick
+    Institute Drug Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides
+    for permeability work after the initial stability ranking proved consistent.
+  pilot: false
+- id: B-018
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0240/Reports
+  filename: BW21_0240_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-08-19T10:41:00'
+  modified: '2021-08-19T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0040
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW21_0240, Tervemere
+    Pharma AG, covering Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity
+    and Tervemere retained the polar substituents for the next design cycle.
+  pilot: false
+- id: B-019
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2022/BW22_0141/Reports
+  filename: BW22_0141_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2022
+  era: group
+  template: B-G
+  created: '2022-05-12T10:41:00'
+  modified: '2022-05-12T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0041
+  client_id: CL018
+  client_variant: Cadrunelle Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW22_0141, Cadrunelle
+    Biosciences, covering hERG automated patch clamp on 32 compounds; Cadrunelle found the cardiac signal followed the aromatic cap
+    and chose a less lipophilic replacement series.
+  pilot: false
+- id: B-020
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2023/BW23_0061/Reports
+  filename: BW23_0061_Rpt_revB.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2023
+  era: group
+  template: B-G
+  created: '2023-03-29T10:41:00'
+  modified: '2023-03-29T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0042
+  client_id: CL021
+  client_variant: Farnovessa Medicines
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW23_0061, Farnovessa
+    Medicines, covering 5-isoform CYP panel on 40 compounds; Farnovessa requested time-dependent inhibition follow-up on the urea-containing
+    subset before nomination.
+  pilot: false
+- id: B-021
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2001/BW01_0059/Run_sheets
+  filename: BW01_0059_RUN04.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2001
+  era: legacy
+  template: B-L
+  created: '2001-05-18T10:41:00'
+  modified: '2001-05-18T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0032
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW01_0059, Quorenthel Pharma
+    GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen,
+    and Quorenthel progressed the compact heteroaryl subset.
+  pilot: false
+- id: B-022
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2003/BW03_0098/Run_sheets
+  filename: BW03_0098_RUN04.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2003
+  era: legacy
+  template: B-L
+  created: '2003-05-23T10:41:00'
+  modified: '2003-05-23T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0033
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW03_0098, Belquorin Pharma,
+    covering hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested
+    less basic replacements rather than further testing of that branch.
+  pilot: false
+- id: B-023
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2020/BW20_0137/Run_sheets
+  filename: BW20_0137_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: B-T
+  created: '2020-05-22T10:41:00'
+  modified: '2020-05-22T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0039
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW20_0137, Rennelwick Institute
+    Drug Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability
+    work after the initial stability ranking proved consistent.
+  pilot: false
+- id: B-024
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2021/BW21_0240/Run_sheets
+  filename: BW21_0240_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: B-G
+  created: '2021-08-19T10:41:00'
+  modified: '2021-08-19T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0040
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW21_0240, Tervemere Pharma
+    AG, covering Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere
+    retained the polar substituents for the next design cycle.
+  pilot: false
+- id: B-025
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2024/BW24_0253/Run_sheets
+  filename: BW24_0253_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: B-G
+  created: '2024-08-26T10:41:00'
+  modified: '2024-08-26T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0043
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW24_0253, Avernelwick Pharmaceuticals
+    Ltd, covering HLM/RLM stability, RED PPB on 18 compounds; Low dialysis recovery confounded the first binding run; the repeat with
+    revised labware gave an interpretable free-fraction ranking.
+  pilot: false
+- id: B-026
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2025/BW25_0600/Run_sheets
+  filename: BW25_0600_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-01-26T10:41:00'
+  modified: '2026-01-26T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0044
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW25_0600, Avernelwick Pharmaceuticals
+    Ltd, covering Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower
+    off-target fingerprint for its next medicinal chemistry round.
+  pilot: false
+- id: B-027
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2025/BW25_0231/Run_sheets
+  filename: BW25_0231_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-06-25T10:41:00'
+  modified: '2025-06-25T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0045
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW25_0231, Tervemere Pharma
+    AG, covering hERG automated patch clamp on 32 compounds; The soluble-tail design reduced the channel signal and Tervemere resumed
+    exposure testing of the retained branch.
+  pilot: false
+- id: B-028
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2026/BW26_0401/Run_sheets
+  filename: BW26_0401_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-09-24T10:41:00'
+  modified: '2026-09-24T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0046
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW26_0401, Elvarmere Biosciences
+    AB, covering 5-isoform CYP panel on 40 compounds; The plate runs are complete and the repeat of a poorly recovered sample remains
+    open before the signed report can be released.
+  pilot: false
+- id: B-029
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2026/BW26_0368/Run_sheets
+  filename: BW26_0368_RUN04.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-09-18T10:41:00'
+  modified: '2026-09-18T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0047
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW26_0368, Quorenthel Pharma
+    GmbH, covering HLM/RLM stability, RED PPB on 18 compounds; Binding recovery has been reconciled, with the final stability repeat
+    queued after a delayed reference-control shipment.
+  pilot: false
+- id: B-030
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2025/BW25_0486/Tracking
+  filename: BW25_0486_screen_gate_tracker.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-12-15T10:41:00'
+  modified: '2025-12-15T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0053
+  client_id: CL021
+  client_variant: Farnovessa Medicines
+  finish: abandoned
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Screen gate tracker with shipment receipt, plate allocation and unresolved repeat actions for BW25_0486, Farnovessa Medicines,
+    covering hERG automated patch clamp on 32 compounds; Farnovessa paused the screen while its nomination committee reviews a new efficacy
+    concern unrelated to the assay.
+  pilot: false
+- id: B-031
+  unit: B
+  root: archive
+  path: Archive/Users/mellerscombe_old_laptop/Training/Plate_acceptance
+  filename: Plate_acceptance_training_v2.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2007
+  era: legacy
+  template: B-L
+  created: '2007-09-13T10:41:00'
+  modified: '2007-09-13T13:53:00'
+  author: ST01
+  last_saved_by: ST01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 9 slides
+  summary: Superseded Ellerscombe training slides on primary potency plate acceptance, control drift and rerun decisions, with handwritten
+    speaker-note reminders.
+  pilot: false
+- id: B-032
+  unit: B
+  root: archive
+  path: Archive/Users/mellerscombe_old_laptop/Presentations/Working
+  filename: Copy of Screening_workflow.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2013
+  era: legacy
+  template: B-L
+  created: '2013-02-19T10:41:00'
+  modified: '2013-02-19T13:53:00'
+  author: ST01
+  last_saved_by: ST01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - copy_of
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 9 slides
+  summary: Ellerscombe working copy of the Brindlewythe screening workflow deck, retaining obsolete sample-card routing and a duplicated
+    screen-gate diagram.
+  pilot: false
+- id: B-033
+  unit: B
+  root: archive
+  path: Archive/Users/mellerscombe_old_laptop/Studies/BW18_0225
+  filename: BW18_0225_hERG_CLIENT_v3_FINAL_final.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2018
+  era: legacy
+  template: B-L
+  created: '2018-07-23T10:41:00'
+  modified: '2018-07-23T13:53:00'
+  author: ST01
+  last_saved_by: ST01
+  projects:
+  - PRJ0037
+  client_id: CL010
+  client_variant: Feldorune Therapeutics BV
+  finish: superseded
+  mess:
+  - leaver_folder
+  - version_suffix
+  - comments
+  planted: []
+  related:
+  - id: B-015
+    rel: related
+  tier: haiku
+  target_length: 9 slides
+  summary: Ellerscombe annotated older readout of BW18_0225 for Feldorune Therapeutics BV, with hERG channel screen acceptance and the
+    strongly basic side-chain liability.
+  pilot: false
+- id: B-034
+  unit: B
+  root: archive
+  path: Archive/Users/mellerscombe_old_laptop/Bench/Plate_maps
+  filename: plate_capacity_211106_me.xls
+  format: xls
+  doc_type: wb_other
+  pdf_kind: null
+  year: 2006
+  era: legacy
+  template: B-L
+  created: '2006-11-21T10:41:00'
+  modified: '2006-11-21T13:53:00'
+  author: ST01
+  last_saved_by: ST01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - leaver_folder
+  - mixed_units
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Ellerscombe personal plate-capacity workbook with primary potency assay run slots, reference-control reservations and mixed
+    nM and µM planning annotations.
+  pilot: false
+- id: B-035
+  unit: B
+  root: archive
+  path: Archive/Users/mellerscombe_old_laptop/Handover/Notes
+  filename: handover_biology_notes_v3.docx
+  format: docx
+  doc_type: word_memo
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: B-L
+  created: '2019-07-18T10:41:00'
+  modified: '2019-07-18T13:53:00'
+  author: ST01
+  last_saved_by: ST01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: draft
+  mess:
+  - leaver_folder
+  - comments
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 pages
+  summary: Ellerscombe handover biology memo listing hERG channel screen repeat rules, unresolved control-lot checks and bench responsibilities
+    with an unfinished action column.
+  pilot: false
+- id: B-036
+  unit: B
+  root: archive
+  path: BrindlewytheData/QA/Training/2024
+  filename: Copy of Sample_handover_training.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: B-G
+  created: '2024-09-12T10:41:00'
+  modified: '2024-09-12T13:53:00'
+  author: NS07
+  last_saved_by: NS07
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - duplicate_across_firms
+  - copy_of
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 8 slides
+  summary: Brindlewythe training copy of the shared sample-receipt and chain-of-custody deck originally prepared at Merrivoss Bioanalysis
+    Inc, retaining the source firm footer on two slides and adding local sample-card routing.
+  pilot: false
+- id: B-037
+  unit: B
+  root: archive
+  path: BrindlewytheData/Marketing/Capabilities/2025
+  filename: Brindlewythe_screening_capabilities_revC.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-04-09T10:41:00'
+  modified: '2025-04-09T13:53:00'
+  author: ST03
+  last_saved_by: ST03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: Current Brindlewythe capability deck presenting Primary potency assay, Selectivity sweep, hERG automated patch clamp, 5-isoform
+    CYP panel and RED PPB with plate acceptance criteria and sample requirements.
+  pilot: false
+- id: B-038
+  unit: B
+  root: archive
+  path: BrindlewytheData/Finance/Pricing/2026
+  filename: screening_prices_2026_DRAFT_v3.xlsx
+  format: xlsx
+  doc_type: wb_pricelist
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-06-17T10:41:00'
+  modified: '2026-06-17T13:53:00'
+  author: NS07
+  last_saved_by: NS07
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: draft
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Draft local price list for hERG channel screen, 5-isoform CYP panel and Selectivity sweep with GBP volume bands, unresolved
+    repeat-charge cells and reviewer comments.
+  pilot: false
+- id: B-039
+  unit: B
+  root: archive
+  path: BrindlewytheData/Proposals/2026/BW26_0401
+  filename: BW26_0401_Quote_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-08-19T10:41:00'
+  modified: '2026-08-19T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0046
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Quotation with scope, GBP price, shipment assumptions and acceptance terms for BW26_0401, Elvarmere Biosciences AB, covering
+    5-isoform CYP panel on 40 compounds; The plate runs are complete and the repeat of a poorly recovered sample remains open before
+    the signed report can be released.
+  pilot: false
+- id: B-040
+  unit: B
+  root: archive
+  path: BrindlewytheData/Proposals/2024/BW24_0330
+  filename: BW24_0330_Quote_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: B-G
+  created: '2024-07-15T10:41:00'
+  modified: '2024-07-15T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0050
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: 'Quotation for BW24_0330, Rennelwick Institute Drug Discovery Unit: 5-isoform CYP panel on 40 compounds at GBP 11700; Rennelwick
+    moved the screening work to its newly commissioned internal laboratory before accepting the quotation.'
+  pilot: false
+- id: B-041
+  unit: B
+  root: archive
+  path: BrindlewytheData/Proposals/2025/BW25_0273
+  filename: BW25_0273_Quote_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-06-09T10:41:00'
+  modified: '2025-06-09T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0051
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: 'Quotation for BW25_0273, Belquorin Pharma: HLM/RLM stability, RED PPB on 18 compounds at GBP 17500; Belquorin has left the
+    quotation unanswered while its programme team settles the next compound shipment.'
+  pilot: false
+- id: B-042
+  unit: B
+  root: archive
+  path: BrindlewytheData/Proposals/2024/BW24_0097
+  filename: BW24_0097_Quote_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: B-G
+  created: '2024-02-26T10:41:00'
+  modified: '2024-02-26T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0054
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: abandoned
+  mess:
+  - draft_mark
+  - tracked_changes
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: 'Unaccepted working quotation for BW24_0097, Avernelwick Pharmaceuticals Ltd: 5-isoform CYP panel on 40 compounds at GBP
+    14300, annotated as withdrawn before any screening plates were run.'
+  pilot: false
+- id: B-043
+  unit: B
+  root: archive
+  path: BrindlewytheData/Scans/Contracts/2001
+  filename: BW01_0059_Quote_signed_scan.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 2001
+  era: legacy
+  template: B-L
+  created: '2001-03-14T10:41:00'
+  modified: '2001-03-14T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0032
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 5 pages
+  summary: Scanned signed quotation for BW01_0059, Quorenthel Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds
+    at GBP 10700, with faint signature ink and a received stamp.
+  pilot: false
+- id: B-044
+  unit: B
+  root: archive
+  path: BrindlewytheData/Scans/Contracts/2003
+  filename: BW03_0098_Quote_signed_scan.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 2003
+  era: legacy
+  template: B-L
+  created: '2003-04-21T10:41:00'
+  modified: '2003-04-21T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0033
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 5 pages
+  summary: Scanned signed quotation for BW03_0098, Belquorin Pharma, covering hERG automated patch clamp on 32 compounds at GBP 8500,
+    with faint signature ink and a received stamp.
+  pilot: false
+- id: B-045
+  unit: B
+  root: archive
+  path: BrindlewytheData/Scans/QA/2008
+  filename: Plate_reader_QA_certificate_16-10-08_scan.pdf
+  format: pdf
+  doc_type: word_memo
+  pdf_kind: scan
+  year: 2008
+  era: legacy
+  template: B-L
+  created: '2008-10-16T10:41:00'
+  modified: '2008-10-16T13:53:00'
+  author: NS07
+  last_saved_by: NS07
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 pages
+  summary: Scanned Brindlewythe plate-reader qualification certificate with control response checks, Ines Alvarado signature and a handwritten
+    next-review date.
+  pilot: false
+- id: B-046
+  unit: B
+  root: archive
+  path: BrindlewytheData/Studies/2025/BW25_0600/Readouts
+  filename: BW25_0600_CLIENT_export.pdf
+  format: pdf
+  doc_type: deck_readout
+  pdf_kind: export
+  year: 2026
+  era: group
+  template: B-G
+  created: '2026-01-27T10:41:00'
+  modified: '2026-01-27T13:53:00'
+  author: NS05
+  last_saved_by: NS05
+  projects:
+  - PRJ0044
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: B-008
+    rel: export_of
+  tier: script
+  target_length: 9 pages
+  summary: PDF export of the BW25_0600 client readout for Avernelwick Pharmaceuticals Ltd, preserving the accepted Primary potency assay
+    and Selectivity sweep ranking slides.
+  pilot: false
+- id: B-047
+  unit: B
+  root: archive
+  path: BrindlewytheData/Marketing/Capabilities/2025
+  filename: Brindlewythe_screening_capabilities_revC_export.pdf
+  format: pdf
+  doc_type: deck_capability
+  pdf_kind: export
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-04-10T10:41:00'
+  modified: '2025-04-10T13:53:00'
+  author: ST03
+  last_saved_by: ST03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: B-037
+    rel: export_of
+  tier: script
+  target_length: 12 pages
+  summary: PDF export of the current Brindlewythe screening capability deck, preserving its sample requirements and plate acceptance
+    slides.
+  pilot: false
+- id: B-048
+  unit: B
+  root: archive
+  path: BrindlewytheData/Marketing/Catalogue/2025
+  filename: Brindlewythe_services_2025_revB.pdf
+  format: pdf
+  doc_type: service_catalogue
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-09-03T10:41:00'
+  modified: '2025-09-03T13:53:00'
+  author: ST03
+  last_saved_by: ST03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: Brindlewythe service catalogue defining Primary potency assay, Selectivity sweep, hERG automated patch clamp, 5-isoform CYP
+    panel, 3A4 concentration response, HLM/RLM stability and RED PPB, including acceptance controls, sample requirements and interpretation
+    limits.
+  pilot: false
+- id: B-049
+  unit: B
+  root: archive
+  path: BrindlewytheData/Users/rdeshmukh/Scratch
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: B-G
+  created: '2023-08-09T10:41:00'
+  modified: '2023-08-09T13:53:00'
+  author: NS06
+  last_saved_by: NS06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 slide
+  summary: Near-empty Ravi Deshmukh presentation with a single untitled hERG repeat placeholder slide.
+  pilot: false
+- id: B-050
+  unit: B
+  root: archive
+  path: BrindlewytheData/Users/ialvarado/Working
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: B-G
+  created: '2025-02-11T10:41:00'
+  modified: '2025-02-11T13:53:00'
+  author: NS07
+  last_saved_by: NS07
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 sheet
+  summary: Near-empty Ines Alvarado workbook with one blank run-sheet tab and two column headings.
+  pilot: false
+- id: B-051
+  unit: B
+  root: archive
+  path: BrindlewytheData/Scans/Unsorted/2014
+  filename: Scan_0043.pdf
+  format: pdf
+  doc_type: junk
+  pdf_kind: native
+  year: 2014
+  era: legacy
+  template: B-L
+  created: '2014-04-22T10:41:00'
+  modified: '2014-04-22T13:53:00'
+  author: NS07
+  last_saved_by: NS07
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 page
+  summary: Near-empty native PDF sample-card placeholder saved as Scan_0043, with a blank reverse page and only a faint Brindlewythe
+    received stamp.
+  pilot: false
