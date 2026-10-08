@@ -1,0 +1,58 @@
+{
+ "family": "workbook",
+ "summary": "Owen Merriman's working copy of the 2021 GBP price grid (rev C, 18 Nov 2021), superseded by later revisions. It sets out analogue preparation and route scout and delivery, leaves the optional impurity isolation unpriced, and keeps the discount approval notes from the time.",
+ "properties": {
+  "title": "VD price grid 2021 rev C"
+ },
+ "sheets": [
+  {
+   "name": "Price grid",
+   "start": "A1",
+   "rows": [
+    [{"v": "Vellacombe Discovery Ltd, a Tarnovell company: GBP price grid 2021", "bold": true}],
+    [{"v": "Rev C, 18 Nov 2021. Supersedes rev B. Prices in GBP, excluding VAT.", "bold": false}],
+    [],
+    ["Service", "Unit", "Price (GBP)", "Volume discount", "Notes"],
+    ["Analogue preparation", "per compound", 855, "5% >30 cpds; 10% >80 cpds", "Isolated yield and purity by area percent reported with each compound"],
+    ["Route scout and delivery", "per route", 13100, "none", "Route gate before analogue preparation starts"],
+    ["Optional impurity isolation", "per impurity", "[TBC]", "[TBC]", "Price not agreed; priced per programme for now"],
+    [],
+    ["", "", "", "", ""]
+   ],
+   "col_widths": {"A": 28, "B": 16, "C": 14, "D": 28, "E": 60},
+   "merged": ["A1:E1", "A2:E2"],
+   "number_formats": {"C5:C7": "#,##0"},
+   "comments": [{"cell": "C7", "text": "Left blank until Ruth has seen the impurity isolation time estimate.", "author": "Owen Merriman"}],
+   "tab_color": "#1F4E79"
+  },
+  {
+   "name": "Discounts",
+   "start": "A1",
+   "rows": [
+    ["Date", "Client", "Service", "Requested", "Approved by", "Outcome"],
+    ["08 Mar 2021", "Client on the 2020 framework", "Analogue preparation", "Extra 3% on the 30 compound band", "Eleanor Vellacombe", "Approved for that programme only"],
+    ["27 Jul 2021", "New enquiry", "Route scout and delivery", "Route fee waived for the scout step", "Ruth Calderwood", "Declined. Scout fee stands."],
+    ["19 Oct 2021", "Existing client", "Analogue preparation", "10% band at 40 compounds", "Eleanor Vellacombe", "Approved, subject to a signed programme"],
+    [],
+    ["", "", "", "", "", ""]
+   ],
+   "freeze": "A2",
+   "col_widths": {"A": 14, "B": 30, "C": 26, "D": 34, "E": 20, "F": 40}
+  },
+  {
+   "name": "Notes",
+   "start": "A1",
+   "rows": [
+    ["Notes for the grid"],
+    [],
+    ["The 10% band starts above 80 compounds. Quotes between 30 and 80 compounds take the 5% band."],
+    ["Route scout fees are not discounted. Ruth has asked us to keep it that way."],
+    ["Impurity isolation is quoted separately until the time estimate is agreed."],
+    ["Check with Eleanor before quoting any discount outside the bands above."],
+    [],
+    ["Old grid for reference only. Use the current grid in the commercial folder."]
+   ],
+   "col_widths": {"A": 90}
+  }
+ ]
+}
