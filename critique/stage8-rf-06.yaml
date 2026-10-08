@@ -1,0 +1,140 @@
+- file_id: E-002
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: Scope omitted the intermediate storage condition and one-month pulls.
+    change_made: Added 30 °C/65% RH and the one-month pulls; clarified the shared initial analysis.
+  - severity: fix
+    area: realism
+    problem: Chamber IDs, alarm history, delayed pulls and repeat titrations were unsupported; a dated
+      deviation claimed service and repeat events without source evidence.
+    change_made: Replaced invented event records with qualitative batch-card and sequence-sheet references;
+      retained the supported packaging disposition.
+- file_id: E-004
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: Named pack A/B presentations were absent from the condition table; an eighteen-month pull
+      was dated before the interim review.
+    change_made: Removed invented pack labels and dated deviations; clarified packaging evidence belongs
+      to source records and accelerated reporting stops at six months.
+  - severity: fix
+    area: realism
+    problem: Preparation concentrations, solution expiry and a failed spike/repeat run were invented.
+    change_made: Replaced preparations and deviations with source-record references while preserving mixed
+      mg/mL and mg/ml notation.
+- file_id: E-005
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: science
+    problem: Accelerated results were said to follow the same trend, obscuring greater impurity growth
+      and the six-month accelerated cutoff.
+    change_made: Described the separate reporting intervals, greater accelerated impurity growth and compliance
+      of reported pulls; clarified shared initial analysis.
+  - severity: fix
+    area: realism
+    problem: Pre-first-pull validation timing, unchanged method, identical sequence suitability and dated
+      approvals were not evidenced.
+    change_made: Removed unsupported timing and method-history assertions; retained the project suitability
+      outcome and review responsibilities without invented sign-offs.
+- file_id: E-006
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: science
+    problem: Prose excluded chemical instability even though impurities increase and water measurements
+      fluctuate.
+    change_made: Attributed moisture explanation to the project review without excluding chemical degradation
+      from this table.
+  - severity: fix
+    area: consistency
+    problem: Scope omitted intermediate storage and one-month pulls; sealed/unsealed configurations were
+      invented and a future-due repeat was marked closed.
+    change_made: Aligned scope and shared initial analysis with the table; replaced unsupported configurations,
+      chamber history and dated action records with source references and the desiccant disposition.
+- file_id: E-007
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: Group-era summary sheet lacked the required brand line.
+    change_made: Added Westravelle Analytical Ltd, a Tarnovell company at the top of the summary sheet.
+  - severity: fix
+    area: science
+    problem: All conditions were said to comply at the final twelve-month pull and no OOT results were
+      claimed without an OOT assessment.
+    change_made: Limited compliance to reported pulls; stated accelerated reporting stops at six months
+      and clarified shared initial analysis.
+  - severity: fix
+    area: realism
+    problem: A dated impurity assignment and unchanged-method claim were unsupported.
+    change_made: Retained the supported impurity-reference outcome without invented timing or method-history
+      details.
+- file_id: E-009
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: Group-era summary sheet lacked the required brand line.
+    change_made: Added the group brand line at the top of the summary sheet.
+  - severity: fix
+    area: realism
+    problem: C18 identity, ageing runs, injection counts, separation/plates/tailing passes, equilibration
+      deviation and alternate-only validation were invented.
+    change_made: Replaced fabricated run and deviation records with source references; retained qualification
+      table and supported backup-column outcome.
+  - severity: fix
+    area: consistency
+    problem: Quote date was treated as acceptance and a controlled-method update was asserted without
+      evidence.
+    change_made: Labelled the quote date correctly and referenced controlled implementation records without
+      asserting an update.
+- file_id: E-010
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: Group-era summary sheet lacked the required brand line.
+    change_made: Added the group brand line at the top of the summary sheet.
+  - severity: fix
+    area: science
+    problem: Comparator OOT at 30 °C/75% RH, water-uptake trends and appearance changes were invented;
+      the table has no presentation-specific comparison.
+    change_made: Removed fabricated comparison results and unsupported condition; retained the supported
+      coated-tablet decision and referenced formulation comparison records.
+  - severity: fix
+    area: realism
+    problem: Humidity excursion, both-presentation method qualification and dated approval details were
+      unsupported.
+    change_made: Replaced invented events with source references, corrected quote labelling and clarified
+      reporting intervals and shared initial analysis.
+- file_id: E-012
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: Group-era summary sheet lacked the required brand line.
+    change_made: Added the group brand line at the top of the summary sheet.
+  - severity: fix
+    area: science
+    problem: Stress-specific purity passes and acid/peroxide shoulder identity were invented; specificity
+      was declared established before integration review.
+    change_made: Replaced fabricated experimental results with a partly filled review tracker; kept specificity
+      conclusion and sign-off pending.
+  - severity: fix
+    area: consistency
+    problem: A pending hydrolysis experiment contradicted completed forced-degradation work and a comment
+      targeted the wrong row; quote date implied acceptance.
+    change_made: Made blanks pending review/sign-off entries, corrected reviewer comment locations and
+      labelled the quote date correctly.
