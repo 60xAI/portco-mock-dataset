@@ -1,0 +1,7 @@
+{"family": "deck",
+ "summary": "Near-empty scratch deck for an early candidate-set discussion. Holds a title slide and a placeholder data-provenance slide; the sources and file versions have not been written up yet.",
+ "properties": {"title": "Candidate set: working notes", "subject": "Working notes", "keywords": "candidate set; data provenance"},
+ "slides": [
+  {"layout": "title", "title": "Candidate set: working notes", "subtitle": "Quenverell Computational Ltd, a Tarnovell company | NS | 15 Feb 2024", "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"},
+  {"layout": "title_content", "title": "Data provenance", "bullets": ["Source drops and versions to be listed here", {"text": "Record the data drop date and the acceptance decision for each", "level": 1}], "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"}
+ ]}
