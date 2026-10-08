@@ -1,0 +1,258 @@
+{
+  "family": "document",
+  "summary": "Final capacity quotation for Selverant offers a Five-isoform DDI screen and CYP3A4 inhibition curves for the ST03 test article set. The offer was not accepted; Selverant chose its existing partner and no study began.",
+  "properties": {
+    "title": "ST03 CYP panel and 3A4 concentration response"
+  },
+  "header": "Merrivoss Bioanalysis Inc, a Tarnovell company | MV-2025-272 R1",
+  "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "ST03 CYP panel and 3A4 concentration response",
+    "subtitle": "Final quotation",
+    "lines": [
+      "Capacity quotation: {{PRJ0070:project_id}} R1",
+      "Date: 08/18/2025",
+      "Client: Selverant",
+      "Prepared by: Dr M. Larkin, DMPK Study Director"
+    ]
+  },
+  "orientation": "portrait",
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director — quotation prepared; client acceptance not recorded",
+      "date": "08/18/2025",
+      "signed": false
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "sections": [
+    {
+      "heading": "1 Offer and decision scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Merrivoss offers a human liver microsomal inhibition package for the Selverant ST03 aminoquinazoline test article set. The Five-isoform DDI screen will compare inhibition at a common concentration, and CYP3A4 inhibition curves will supply concentration-response information for the same set. Matrix suitability and analytical limitations will be documented before interpretation."
+        },
+        {
+          "table": {
+            "columns": [
+              "Commercial item",
+              "Offered provision"
+            ],
+            "rows": [
+              [
+                "Quotation",
+                "{{PRJ0070:project_id}} R1"
+              ],
+              [
+                "Client",
+                "Selverant"
+              ],
+              [
+                "Test articles offered",
+                "{{PRJ0070:n_compounds}} ST03 compounds"
+              ],
+              [
+                "Fixed scope price",
+                "{{PRJ0070:price}}"
+              ],
+              [
+                "Assays",
+                "Five-isoform DDI screen; CYP3A4 inhibition curves"
+              ],
+              [
+                "Schedule",
+                "Not booked; dates to be agreed after acceptance"
+              ]
+            ],
+            "caption": "Table 1 Scope and price offered"
+          }
+        },
+        {
+          "p": "This capacity quotation is not a notice of study initiation. Written acceptance and an agreed inventory would be required before an accession lot could be released. No turnaround commitment is stated in this issue. Dr M. Larkin would confirm availability and delivery dates after acceptance and reconciliation of receipt requirements."
+        },
+        {
+          "p": "The intended decision is whether reversible CYP inhibition warrants further assessment. This package does not establish clinical interaction risk. An exposure comparison would require client information outside scope, including projected unbound exposure and dosing context. No exposure model or clinical recommendation is included."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Five-isoform DDI screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed matrix is pooled human liver microsomes. CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4 will be assessed with isoform-selective probe reactions. Each test article will be evaluated at 10 µM against a matched vehicle condition. Probe metabolite formation will be measured by tandem-MS bioanalysis following incubation with the required cofactor."
+        },
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Probe substrate",
+              "Reference inhibitor"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "Phenacetin",
+                "Furafylline"
+              ],
+              [
+                "CYP2C9",
+                "Diclofenac",
+                "Sulfaphenazole"
+              ],
+              [
+                "CYP2C19",
+                "S-mephenytoin",
+                "Ticlopidine"
+              ],
+              [
+                "CYP2D6",
+                "Dextromethorphan",
+                "Quinidine"
+              ],
+              [
+                "CYP3A4",
+                "Midazolam",
+                "Ketoconazole"
+              ]
+            ],
+            "caption": "Table 2 Proposed probe and control framework"
+          }
+        },
+        {
+          "p": "Incubations will be run in duplicate with substrate concentrations near the relevant Km. Protein concentration and reaction time will be selected to maintain a usable metabolite signal within the linear range. Vehicle content will be matched across test articles and controls. The assay worksheet will identify matrix, preparation and actual incubation conditions."
+        },
+        {
+          "p": "Inhibition will be calculated relative to accepted vehicle response. A low signal, interfering analytical response or visible precipitation will trigger review before release. An unsupported concentration will be marked unevaluable, rather than reported as absence of inhibition. Small negative estimates will retain an explanation of analytical variation where appropriate."
+        },
+        {
+          "p": "The single-concentration screen prioritises follow-up; it does not provide an IC50 for every isoform. Time-dependent inhibition, induction and metabolite-mediated inhibition are excluded. Those experiments would require an amended scope and scheduling decision.",
+          "style": "note"
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 CYP3A4 inhibition curves",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "CYP3A4 inhibition curves are offered for all {{PRJ0070:n_compounds}} compounds. Selection for a curve is not contingent on a positive screen. The curve experiment will use the same human microsomal matrix and probe framework, allowing the screen and concentration-response observations to be considered together."
+        },
+        {
+          "p": "The proposed design is an eight-point concentration series with duplicate incubations and a common vehicle control. The highest concentration will be constrained by stock strength, solvent tolerance and apparent solubility. The dilution range will be chosen to span the response where practicable. A range adjustment after suitability assessment will be documented before interpretation."
+        },
+        {
+          "p": "A fitted IC50 will be reported only where the accepted range supports the estimate. The memo will state the model, fitting constraints and omitted points, distinguishing a finite estimate from a result above the highest evaluable concentration. Partial or non-monotonic responses will be described directly rather than forced into a precise ranking."
+        },
+        {
+          "p": "Dr J. Quintana will assess interference in the probe-metabolite channel. Suppression, enhancement or co-elution that prevents reliable comparison will be investigated within routine analytical suitability work. A materially different method or assay design would require discussion of the scientific and commercial consequences before additional work proceeds."
+        },
+        {
+          "p": "CYP3A4 inhibition can depend on the probe substrate. A result from the proposed reaction cannot be assumed to apply unchanged to other substrates. Additional probes and preincubation experiments are outside this quotation. This limitation will accompany any suggested follow-up.",
+          "style": "small"
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Receipt and matrix acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Selverant would supply an inventory before dispatch, including ST03 identifiers, chemical form, stock concentration, solvent, available purity information and storage restrictions. Containers must be individually labelled. A replacement stock or changed salt form must be identified so that an analyte card does not combine different materials without explanation."
+        },
+        {
+          "p": "The provisional local reference is {{PRJ0070:lims_id}}. Allocation for quotation planning does not demonstrate receipt, creation of an experimental assay worksheet or initiation of testing. The inventory would be reconciled before release of an accession lot. Missing or damaged material would be referred to Selverant before use."
+        },
+        {
+          "list": [
+            "Dr M. Larkin: confirm scope, resolve client instructions and agree dates.",
+            "Dr J. Quintana: establish analytical suitability and assess interference.",
+            "Helen Marchwood: check matrix acceptance records, exclusions and report consistency.",
+            "Selverant: supply material information and designate authorised report recipients."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Matrix acceptance will require usable vehicle response, appropriate reference inhibition, acceptable replicate agreement and a traceable analytical sequence. Acceptance ranges will be recorded in the assay worksheet. A failed control will trigger investigation and, where necessary, repetition before affected results are released."
+        },
+        {
+          "p": "The laboratory will distinguish control failure from a test article limitation. Routine repeats caused by laboratory control failure are included. Work arising from unsuitable client material, a revised solvent system or changed objectives requires discussion and written approval. Material will not be consumed in an unagreed extension merely to complete a nominal curve."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Deliverables and commercial terms",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The fixed offered price is {{PRJ0070:price}} for {{PRJ0070:n_compounds}} compounds. It includes the Five-isoform DDI screen, CYP3A4 inhibition curves, routine analytical suitability, matrix acceptance review and a consolidated DMPK memo. Animal exposure work, plasma binding, metabolite identification, induction and time-dependent inhibition are excluded."
+        },
+        {
+          "list": [
+            "Inventory reconciled to the accession reference.",
+            "Screen tables by compound and isoform, with qualifications.",
+            "Curve summaries showing evaluable range and fit status.",
+            "Methods and matrix acceptance account, including exclusions and repeats.",
+            "DMPK memo separating assay observations from exposure-dependent interpretation."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Delivery would be scheduled after written acceptance, suitable receipt and capacity confirmation. No calendar-day estimate is stated. A staged delivery would require agreement of each release and its review status before work began. An interim table would identify outstanding qualifications and would not replace the completed memo."
+        },
+        {
+          "p": "Payment terms are 30 days from invoice. A purchase instruction must reference {{PRJ0070:project_id}} R1 and identify any required invoice reference. Changes to the test article set, concentration range or assays require written agreement of cost and scheduling implications before execution."
+        },
+        {
+          "p": "Client material and information would remain confidential. Analytical records and assay worksheets would be retained under the local accession reference, and the memo sent to designated recipients. Return or disposal of unused material would be agreed separately in writing; neither is authorised by issue of this quotation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Acceptance and commercial disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "To accept, Selverant would return a written instruction referring to {{PRJ0070:project_id}} R1, confirm the inventory and nominate scientific and purchasing contacts. Merrivoss would then confirm capacity and agree start and reporting dates. No acceptance signature is recorded, and no laboratory booking is authorised by this issue."
+        },
+        {
+          "p": "Commercial disposition: unaccepted. Selverant chose its existing bioanalysis partner to keep the CYP work alongside a larger exposure package. No study began at Merrivoss under this quotation. There are no start, interim or completion dates and no experimental results associated with the offer."
+        },
+        {
+          "p": "Retain this final issue as the record of scope and price offered. Sections 2 and 3 describe proposed work, not completed methods. They do not establish that material was received, microsomes were incubated or inhibition was measured. The absence of acceptance must remain evident when the quotation is retrieved alongside active studies."
+        },
+        {
+          "p": "A renewed request would require confirmation of capacity, sample requirements and commercial terms. The provisional reference may retrieve the quote but must not imply that generated results or retained material exist. Dr M. Larkin is the scientific contact for any renewed discussion."
+        },
+        {
+          "p": "Prepared by Dr M. Larkin on 08/18/2025. Final commercial issue R1. Client acceptance: not received. Scientific work authorisation: none.",
+          "style": "bold"
+        },
+        {
+          "p": "Assumptions: human microsomal inhibition is an in vitro observation; stock identity and concentration would come from the client inventory; clinical relevance would require exposure information and additional judgement. The offered scope makes no assurance that ST03 compounds will meet an exposure gate.",
+          "style": "small"
+        }
+      ]
+    }
+  ]
+}
