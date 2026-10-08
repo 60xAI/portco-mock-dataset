@@ -1,35 +1,162 @@
-{"family": "document",
- "summary": "Draft handover memo from Martin Ellerscombe covering the hERG channel screen repeat rules, the control-lot checks still open and who picks up each bench task. Several items are unfinished and carry [TBC] placeholders; the action column is incomplete.",
- "properties": {"title": "Biology handover notes (draft v3)"},
- "header": "Brindlewythe Biosciences Ltd | Biology handover | DRAFT",
- "footer": "Brindlewythe Biosciences Ltd | Confidential",
- "watermark": "DRAFT",
- "title_block": {"title": "Biology handover notes", "subtitle": "Draft v3, not for circulation", "lines": ["Author: Dr M. Ellerscombe, Senior In Vitro Biologist", "Date: 18 Jul 2019", "Status: draft, open items marked [TBC]"]},
- "sections": [
-  {"heading": "1 Purpose", "blocks": [
-    {"p": "This note hands over the biology items I am carrying on the hERG channel screen and the control-lot checks before my last week. Items I have not closed are listed in section 5. Where a decision is still open I have left the placeholder rather than guess at it."},
-    {"p": "The note is for Leila and Ravi. Anika has seen the first version only.", "style": "note"}
-  ]},
-  {"heading": "2 hERG channel screen repeat rules", "blocks": [
-    {"p": "A compound is repeated when its control response falls outside the window on the day it was run. The repeat is run on a fresh sample card, not on the original test lot."},
-    {"list": ["Repeat the whole compound set when the E-4031 reference is outside its window", {"text": "Do not repeat single compounds that fall in a flagged cell; flag them instead", "level": 1}, "Repeats are run at the same concentrations as the first run", "Repeat count per compound: [TBC] (I have not agreed this with Gerda and Nikos)"], "ordered": false},
-    {"p": "Where a compound gives a reproducible result in the repeat, the repeat is the one reported. Where the two runs disagree, both are kept on the record and the study director decides.", "style": "small"}
-  ]},
-  {"heading": "3 Control-lot checks", "blocks": [
-    {"p": "The reference lot change in June needs a bridging check before the screening sets from that month are released. I have not finished the bridging comparison."},
-    {"list": ["Bridging run on the old and new reference lot, same plate layout", "Compare the control IC50 on both lots against the acceptance record", {"text": "Bridging result: [TBC]", "level": 1}, "Check whether the June screening sets need a note in the biology memo"], "ordered": true},
-    {"p": "DRAFT. The comparison table will go in here once the plate data are back.", "style": "note"}
-  ]},
-  {"heading": "4 Bench responsibilities", "blocks": [
-    {"p": "Action column is incomplete. Items marked [TBC] still need an owner or a date."},
-    {"table": {"columns": ["Area", "Owner", "Action", "Status"], "rows": [["hERG repeats", "Gerda Gude", "Confirm repeat count per compound", "[TBC]"], ["Reference lot bridging", "Ravi Deshmukh", "Run old and new lot on one plate", "In progress"], ["Plate acceptance records", "Ines Alvarado", "Check the June run sheets are signed", "XX% checked"], ["Cell line passage log", "Jason Scanlon", "Update the passage record", "[TBC]"], ["Biology memo", "Martin Ellerscombe", "Hand over drafts", "Open"]], "caption": "Table 1 Bench responsibilities at handover"}}
-  ]},
-  {"heading": "5 Open items", "blocks": [
-    {"list": ["Repeat count for hERG compounds", "Bridging comparison for the June reference lot", "Whether the June sets need a memo note", "Owner for the passage log"], "ordered": false},
-    {"p": "I will leave the draft with the group drive folder. Please do not move it until Anika has read section 2.", "style": "note"}
-  ]}
- ],
- "comments": [
-  {"anchor": "Repeat count per compound: [TBC]", "text": "Do we have a number from the study director or is this still open? Gerda thought two.", "author": "Reviewer"},
-  {"anchor": "Bridging result: [TBC]", "text": "Put the plate IDs in here when you have them.", "author": "Reviewer"}
- ]}
+{
+  "family": "document",
+  "summary": "Draft handover memo from Martin Ellerscombe covering the hERG channel screen repeat rules, the control-lot checks still open and who picks up each bench task. Several items are unfinished and carry [TBC] placeholders; the action column is incomplete.",
+  "properties": {
+    "title": "Biology handover notes (draft v3)"
+  },
+  "header": "Brindlewythe Biosciences Ltd | Biology handover | DRAFT",
+  "footer": "Brindlewythe Biosciences Ltd | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "Biology handover notes",
+    "subtitle": "Draft v3, not for circulation",
+    "lines": [
+      "Author: Dr M. Ellerscombe, Senior In Vitro Biologist",
+      "Date: 18 Jul 2019",
+      "Status: draft, open items marked [TBC]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose",
+      "blocks": [
+        {
+          "p": "This note hands over the biology items I am carrying on the hERG channel screen and the control-lot checks before my last week. Items I have not closed are listed in section 5. Where a decision is still open I have left the placeholder rather than guess at it."
+        },
+        {
+          "p": "The note is for Leila and Ravi. Leila has seen the first version only.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "2 hERG channel screen repeat rules",
+      "blocks": [
+        {
+          "p": "Check run acceptance before interpreting any compound. A failed E-4031 control places the affected run on hold. Investigate the failure and repeat the affected work under the assay protocol; keep the original sample card and test-lot identity linked to the repeat."
+        },
+        {
+          "list": [
+            "Hold results from runs that fail the E-4031 acceptance window",
+            {
+              "text": "Check cell-quality flags separately; exclude invalid cells under the protocol and repeat when too few accepted cells remain",
+              "level": 1
+            },
+            "Document the repeat conditions and the link to the original run",
+            "Repeat count per compound: [TBC] (I have not agreed this with Gerda and Ravi)"
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Retain both original and repeat records. Report accepted results under the protocol, preserving censoring and any qualifications; do not choose a repeat merely because its result is preferred. The study director resolves discordant accepted runs.",
+          "style": "small"
+        }
+      ]
+    },
+    {
+      "heading": "3 Control-lot checks",
+      "blocks": [
+        {
+          "p": "The control-lot check is still unresolved. Confirm the lot history and whether a bridging comparison is required before releasing any affected screening sets. I have not closed this review."
+        },
+        {
+          "list": [
+            "Confirm reference-lot identities and change dates from the control records",
+            "If bridging is required, compare reference responses under matched assay conditions",
+            {
+              "text": "Bridging result: [TBC]",
+              "level": 1
+            },
+            "Identify any affected screening sets and whether a biology memo note is required"
+          ],
+          "ordered": true
+        },
+        {
+          "p": "DRAFT. Add the source-record references and comparison here once the review is complete.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "4 Bench responsibilities",
+      "blocks": [
+        {
+          "p": "Action column is incomplete. Items marked [TBC] still need an owner or a date."
+        },
+        {
+          "table": {
+            "columns": [
+              "Area",
+              "Owner",
+              "Action",
+              "Status"
+            ],
+            "rows": [
+              [
+                "hERG repeats",
+                "Gerda Gude",
+                "Confirm repeat count per compound",
+                "[TBC]"
+              ],
+              [
+                "Reference lot review",
+                "Ravi Deshmukh",
+                "Confirm lot history and need for bridging",
+                "[TBC]"
+              ],
+              [
+                "Plate acceptance records",
+                "Ines Alvarado",
+                "Check affected run sheets are signed",
+                "XX% checked"
+              ],
+              [
+                "Cell line passage log",
+                "[TBC]",
+                "Update the passage record",
+                "[TBC]"
+              ],
+              [
+                "Biology memo",
+                "Martin Ellerscombe",
+                "Hand over drafts",
+                "Open"
+              ]
+            ],
+            "caption": "Table 1 Bench responsibilities at handover"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "5 Open items",
+      "blocks": [
+        {
+          "list": [
+            "Repeat count for hERG compounds",
+            "Reference-lot history and any required bridging comparison",
+            "Whether affected sets need a memo note",
+            "Owner for the passage log"
+          ],
+          "ordered": false
+        },
+        {
+          "p": "I will leave the draft in the group drive folder. Please do not move it until Leila has read section 2.",
+          "style": "note"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "anchor": "Repeat count per compound: [TBC]",
+      "text": "Please confirm the repeat limit with the study director and Gerda; still open.",
+      "author": "Reviewer"
+    },
+    {
+      "anchor": "Bridging result: [TBC]",
+      "text": "Add the control-lot and run-sheet references once the review is complete.",
+      "author": "Reviewer"
+    }
+  ]
+}
