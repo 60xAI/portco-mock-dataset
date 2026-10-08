@@ -1,0 +1,597 @@
+{
+  "family": "document",
+  "summary": "Final approved analytical report for WA/2019/010, Odraverne Pharmaceuticals: OD-18 powder. Moisture uptake explained the assay drift and Odraverne specified desiccant protection for the next pack configuration. Numerical results, batch traceability, system suitability and interpretation limits are retained together.",
+  "properties": {
+    "title": "WA/2019/010 QA-approved report"
+  },
+  "header": "Westravelle Analytical Ltd | WA/2019/010",
+  "footer": "Westravelle Analytical Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "OD-18 powder: approved analytical report",
+    "subtitle": "ICH chamber programme",
+    "lines": [
+      "Report no. E-R-2019-010-01",
+      "Project: WA/2019/010 | LIMS: WST-19-000327",
+      "Client: Odraverne Pharmaceuticals",
+      "Protocol interval: 12 Feb 2019 to 12 Aug 2019",
+      "Report date: 14 Aug 2019",
+      "Author: Dr A. Penrose | Head of Analytical Services",
+      "Status: Final, QA-approved"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and principal evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Moisture uptake explained the assay drift and Odraverne specified desiccant protection for the next pack configuration."
+        },
+        {
+          "p": "The following tables preserve the approved numerical data, units, result qualifiers and acceptance entries. They are read with batch-card identity, preparation and system suitability information. The scientific interpretation and client action are developed in the numbered sections."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0092:stability",
+            "caption": "Table 1. Approved stability results; units and qualifiers retained."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Report authority",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This approved report is addressed to Odraverne Pharmaceuticals. Alice Penrose is responsible for scientific interpretation and release. Leon Wu maintains the sample and storage links; Saira Mahmood maintains the analytical method and system suitability links. The accession WST-19-000327 connects analytical preparations to batch cards, without replacing the client stability lot identity."
+        },
+        {
+          "p": "The signed report is the reporting copy. Sequence sheets, storage logs and original chromatographic files remain supporting material. An extract must retain the condition, timepoint, units and result qualifiers. Client decisions are distinguished from analytical findings in the conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Protocol objective",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The work concerns OD-18 powder supplied for Odraverne Pharmaceuticals, under WA/2019/010. Testing opened on 12 Feb 2019, the interim review was dated 13 May 2019, and analytical completion was recorded on 12 Aug 2019. The objective was to establish the analytical basis for the stated client decision."
+        },
+        {
+          "p": "Source material, exposure and preparation route belong to the result. A difference between analytical preparations is not automatically a difference between formulations. Investigative observations are discussed separately from accepted tabulated results. No extrapolated result is inserted into the reporting table."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Source-material traceability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The source chain begins with receipt and client stability lot description, continues through the batch card and withdrawal, and ends with the sequence sheet and approved result. Each preparation is linked to its source container. WST-19-000327 is the accession anchor for this chain."
+        },
+        {
+          "p": "The report does not create alternative stability lot numbers as free-text aliases. The source identifier remains on the batch card. A storage-condition label alone is insufficient evidence of sample identity. Source identity was reconciled before analytical trends were considered."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Receipt and custody",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Product description, container state and accompanying instructions were entered against WST-19-000327. The custody trail distinguishes material reserved for the protocol from material removed for analysis. Handling after withdrawal is recorded because bench exposure can affect interpretation of a humidity comparison."
+        },
+        {
+          "p": "Retained material remains identifiable to its source container. A preparation remainder is not returned to that container. An investigative retained sample requires its exposure history to be established before comparison with scheduled material. The report assigns no unrecorded exposure history to a result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Batch-set allocation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The batch set was managed so that source material, analytical preparations and reference preparations remained distinct. Client stability lot identities are carried on the batch cards. The sequence identifies the preparation used for each injection and its applicable exposure or challenge condition."
+        },
+        {
+          "p": "A fresh preparation examines extraction or handling, whereas reinjection examines an existing solution. These operations answer different questions and are not pooled merely because they share an accession. Subsamples from a container are not counted as independently manufactured stability lots."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Analytical responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Alice Penrose reviewed interpretation against the protocol objective. Leon Wu reconciled storage and withdrawal information. Saira Mahmood checked analytical sequences and system suitability disposition. Mark Campbell reviewed report-to-source links for the approved copy."
+        },
+        {
+          "p": "Approval does not replace contemporaneous analyst entries. Corrections remain attributable on their sequence sheets and original analytical files remain available. Scientific review asks whether the evidence supports the conclusion; quality review establishes faithful reporting and traceability without creating missing numerical evidence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Humidity-challenge design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The OD-18 powder protocol separated scheduled chamber exposure from analytical handling. Closed containers were withdrawn for the relevant pull, with source identity preserved. Chamber-condition labels in the table define the comparison; exposure is not inferred solely from sequence dates."
+        },
+        {
+          "p": "Powder may exchange moisture during manipulation as well as during storage. Handling history therefore mattered to the investigation. Fresh preparation and reinjection were distinguished when considering the assay drift."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Storage chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme opened on 12 Feb 2019. The 13 May 2019 interim review retained the developing humidity question; completion was recorded on 12 Aug 2019. Leon Wu maintained the withdrawal links. The table gives the timepoints actually reported."
+        },
+        {
+          "p": "Material removed for preparation is not described as continuously chamber-stored after withdrawal. The report does not imply that every condition has the same exposure duration or that an omitted timepoint was tested."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Powder handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Water KF and assay were considered on their respective reporting bases. Water is percent w/w, whereas assay remains percent label claim. No water-corrected assay was substituted for the approved result."
+        },
+        {
+          "p": "The question was whether moisture uptake coherently explained drift, not whether an adjusted value could resemble an earlier assay. Container closure and bench exposure remain part of the investigative trail."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Assay preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Test solutions were prepared from identified source material using the protocol extraction and dilution route. Weighing, transfer, dissolution and dilution entries remain on the sequence sheet. Preparations were protected from avoidable evaporation and contamination while awaiting injection."
+        },
+        {
+          "p": "Assay is expressed as percent label claim. The reference basis and dilution factors belong to the calculation. The report does not silently convert assay into a dry-weight result or correct it for water. Reported values are those in the approved numerical table."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Related-substances measurement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Related substances are reported as area percent under the applicable chromatographic method. Integration settings, peak assignment and approved qualifiers accompany the analytical sequence. Retention position assists comparison but is not, by itself, proof of chemical identity."
+        },
+        {
+          "p": "An investigative reprocessing remains linked to its reason and does not overwrite original integration history. A less-than entry is not replaced by zero. Individual impurities and total impurities are read in their stated units rather than treated as an assay deficit."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Reference-material control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reference preparations are identified separately from test preparations. Their batch cards retain the material basis applicable to the calculation. Preparation and use are linked to the analytical sequence, so a visible reference peak is not alone evidence of a valid calibration."
+        },
+        {
+          "p": "A reference used for peak assignment has a different role from one used for assay calibration. An investigative addition to a sample is not automatically its quantitative result. Reference-only, sample-only and combined preparations are interpreted according to the question being investigated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Sequence design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The sequence sheet separates blanks, reference, system suitability and test preparations. Injection order is retained so a sample can be related to its surrounding controls. Sequence completion does not itself establish analytical acceptance."
+        },
+        {
+          "p": "Blanks support assessment of interference and carry-over; bracketing reference preparations support response review. An unexpected signal is assessed against preparation history and injection position. A repeat sequence retains its own identity and link to the original. Rejected measurements are not averaged into accepted results."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 System suitability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "System suitability is a release gate for an analytical sequence. Method-defined checks are applied before sample calculations are accepted. Reference response and the separation relevant to impurity reporting are reviewed for the actual analytical question."
+        },
+        {
+          "p": "Detailed acceptance entries remain on the sequence sheets. This report does not invent numerical suitability values absent from the consolidated source. A sequence requiring investigation retains its initial disposition. Assay suitability cannot be presumed to establish suitability for a more demanding impurity assignment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Calculations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assay retains the percent label claim basis and related substances retain the area percent basis. Water, where tabulated, has its own mass basis. These quantities cannot be added or subtracted as interchangeable measurements. Rounding follows the controlled source table."
+        },
+        {
+          "p": "Missing measurements are not zero results and row status is not a numerical value. Comparisons require matched conditions and source links. The tables are reproduced from controlled project data, preserving qualifiers without manually introducing extra precision or derived result values."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Assay drift",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Read across time within each condition before comparing conditions. Assay drift alone does not establish degradation. Here, moisture uptake explained the drift and supported a packaging response."
+        },
+        {
+          "p": "The conclusion is confined to the tested material and interval. It does not claim that a desiccant-containing pack has already completed a separate programme or that powder behaves identically in all containers."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Impurity and water evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Individual impurities, total impurities and water remain alongside assay in the table. They answer different questions and one column cannot replace another measurement. Low-level qualifiers are preserved."
+        },
+        {
+          "p": "No new impurity identities or quantitative water-change estimates are assigned here. The moisture explanation rests on the reported pattern and handling evidence without requiring structural assignment of every trace peak."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Drift investigation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The investigation considered moisture uptake, preparation handling, container history and the water measurement alongside chromatography. An analytical error was not presumed simply because assay changed."
+        },
+        {
+          "p": "The outcome was a moisture explanation, not a retrospective new stability lot identity. Accepted results remain in their original units. Additional investigation beyond this protocol would need its own sample links and objective."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "20 Packaging decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Odraverne Pharmaceuticals specified desiccant protection for the next pack configuration. The requirement responds to susceptibility revealed by the humidity challenge. It is a client packaging action, not a claim that the next configuration is already qualified."
+        },
+        {
+          "p": "A later pack programme should control closure, pack materials and desiccant arrangement. A generic statement that desiccant is present would not establish equivalence to an actual tested configuration."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "21 Results reading guide",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Condition, timepoint, assay, impurities, water and status form the complete reported row. Chamber temperature is expressed in °C and timepoint in months. These fields should accompany any quoted result."
+        },
+        {
+          "p": "No pooled condition average is introduced. A compliant initial sample does not establish that all later results comply. The individual source status entries remain controlling."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "22 Next-pack release gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The next configuration requires the desiccant protection specified by Odraverne Pharmaceuticals. That requirement belongs in the pack description and subsequent protocol, with the reason retained."
+        },
+        {
+          "p": "Results for that actual configuration are needed for its assessment. Approval of this report closes the powder humidity challenge and does not approve an untested pack change."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "23 Data handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Original chromatographic files, preparation entries and sequence sheets remain associated with WST-19-000327. The archive retains injection order, processing history and the relationship between a preparation and its reported result. A revised integration is distinguishable from the original."
+        },
+        {
+          "p": "Report assembly uses the approved project tables rather than a later working export. Investigative records are retained even when no reported result changes, because they explain the accepted interpretation. Additional analysis is treated as additional work rather than an undocumented alteration to this final report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "24 Interim and final review",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The interim review on 13 May 2019 was considered against the evidence then available. The final interpretation incorporates work completed by 12 Aug 2019. An observation, an investigated explanation and a client decision remain distinguishable."
+        },
+        {
+          "p": "Completion closes the reporting interval under WA/2019/010. It does not extend exposure or create a shelf-life claim. A receiving laboratory needs the preparation basis and suitability requirements from the controlled method rather than having to infer executable instructions from this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "25 Deviation-note disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Deviation notes distinguish a departure from the protocol from a product response during planned testing. An unfavourable result is not itself a procedural deviation. An acceptable result likewise does not cancel a documented handling departure."
+        },
+        {
+          "p": "Investigative measurements remain linked to the question prompting them. This report does not manufacture a chamber excursion, deviation number or repeat-test result absent from the source material. The disposition remains with the relevant sequence sheet and batch card; scientific consequences are discussed below."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "26 Comparison limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Source identity, preparation and exposure control the meaning of comparisons. Dissimilar conditions can inform interpretation but cannot be treated as replicate measurements. A condition-dependent response may support a handling instruction without establishing its chemical mechanism."
+        },
+        {
+          "p": "This report addresses OD-18 powder within the completed interval. It does not certify a new supplier, changed manufacturing process, altered pack or untested environment. The recorded client action should retain the reason for the change in subsequent product documentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "27 Implementation controls",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Handover should preserve the approved method, reference basis, sample-preparation instructions and system suitability requirements. The receiving analyst must be able to link a result to its stability lot and exposure. A report table is insufficient as a stand-alone executable method."
+        },
+        {
+          "p": "A handling instruction must be reproducible and a sensitive method-preparation step must be explicit. Future changes should be assessed against the reason for the original decision, rather than accepted merely because the product name is unchanged. An altered configuration is not described as already tested."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "28 Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Moisture uptake explained the assay drift, and Odraverne Pharmaceuticals specified desiccant protection for the next pack configuration. The conclusion concerns reported conditions through {{PRJ0092:stability.last_timepoint_months}} months."
+        },
+        {
+          "p": "The result workbook and sequence sheets retain preparation, storage and system suitability links. This report does not qualify the next pack or assign a shelf-life extension."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "29 Archive index",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The reporting pair comprises this final report and OD18_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx. Analytical completion was 12 Aug 2019; source records remain under WA/2019/010, accession WST-19-000327. Batch cards, exposure records and sequence sheets remain the authoritative detailed links."
+        },
+        {
+          "p": "The original project-year identifier is retained even where completion occurred in a later year. Branding follows the report date. A later commercial identity is not applied retrospectively to the reporting copy."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "30 Batch-card retrieval",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Retrieve the batch card using WST-19-000327, then confirm client stability lot and container before retrieving the sequence. Searching only by product name can return material from another exposure or preparation."
+        },
+        {
+          "p": "A result query should preserve the reported condition, timepoint and sequence identity. That trail distinguishes a material question from a processing question. This appendix is a retrieval guide, not a replacement batch card."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "31 Sequence-sheet retrieval",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The sequence sheet retains preparation entries, injection order, references and system suitability disposition. Retrieve the accepted original before comparing a reported value with an investigative reinjection."
+        },
+        {
+          "p": "Where reprocessing was used, retain original and revised processing links and the reason. A later working export cannot alone determine which preparation supplied the approved result. Qualifiers remain in any query response."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "32 Result-query routing",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Specify the report identifier, accession and affected row. Establish whether the concern is identity, exposure, preparation, integration, calculation or interpretation. Different questions require different records."
+        },
+        {
+          "p": "Alice Penrose handles interpretation, Leon Wu storage and material links, and Saira Mahmood method and sequence links. A response should preserve original units and limitations. A query does not authorize overwriting an approved result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "33 Controlled vocabulary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Protocol denotes the agreed programme; batch set the material grouping; sequence sheet the preparation and injection record; system suitability the analytical acceptance gate. Stability lot is source identity, not every new preparation."
+        },
+        {
+          "p": "A deviation note retains the issue and disposition. A release gate is an evidence-based decision point. Consistent vocabulary prevents storage, analytical acceptance and client action from being conflated in subsequent extracts."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "34 Units and qualifiers",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assay is percent label claim and related substances area percent. Chamber temperature, where applicable, uses °C. Water KF retains the table’s percent w/w basis. Headings belong to the result."
+        },
+        {
+          "p": "A qualified low-level entry is not an exact zero. Status remains with the row. No derived value from rounded data, retrospective water correction or new acceptance limit is introduced in this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "35 Handover record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The handover retains the approved protocol, method, numerical tables and client action under WA/2019/010. It should also retain preparation and reference instructions needed to interpret the findings."
+        },
+        {
+          "p": "Transfer of a report is not proof of receiving-site performance. Additional work needs its own source links, objective and acceptance disposition. The conclusion here stays within the completed interval."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "36 Reporting-copy closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This final copy closes the interval stated in the title block. It retains the principal evidence, analytical basis and client action. Supporting records remain associated with WA/2019/010 and WST-19-000327."
+        },
+        {
+          "p": "A future amendment identifies the affected reporting element and source basis. Revised instructions or selections are not silently inserted into this dated report. The signed conclusion remains limited to material and work completed here."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Alice Penrose",
+      "role": "Head of Analytical Services — scientific approval",
+      "date": "14 Aug 2019",
+      "signed": true
+    },
+    {
+      "name": "Leon Wu",
+      "role": "Stability Coordinator — material traceability",
+      "date": "14 Aug 2019",
+      "signed": true
+    },
+    {
+      "name": "Saira Mahmood",
+      "role": "QC Method Validation Lead — analytical review",
+      "date": "14 Aug 2019",
+      "signed": true
+    },
+    {
+      "name": "Mark Campbell",
+      "role": "QA Officer — reporting-copy approval",
+      "date": "14 Aug 2019",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [],
+  "comments": []
+}
