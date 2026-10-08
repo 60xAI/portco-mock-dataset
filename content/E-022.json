@@ -1,0 +1,165 @@
+{
+  "family": "deck",
+  "summary": "Final Rev04 training on chamber pull handover, sample reconciliation and system suitability. Distinguishes percent label claim from area percent and requires escalation of failed suitability before client interpretation.",
+  "properties": {
+    "title": "Pull handover and system suitability Rev04",
+    "subject": "Quality training",
+    "keywords": "stability; handover; system suitability; percent label claim; area percent"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Pull handover and system suitability",
+      "subtitle": "Westravelle Analytical Ltd, a Tarnovell company | Rev04 | 11 Apr 2025",
+      "bullets": [
+        "Valerie Turner | QA Officer",
+        "Training: chamber to release gate"
+      ],
+      "notes": "Use the current protocol and method alongside this training. This deck defines the handover decisions; it does not create new pull windows or method limits.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "1. Before a Stability pull",
+      "bullets": [
+        "Leon Wu confirms the protocol, stability lot, condition and scheduled interval.",
+        "Check the chamber location and batch card before removing material.",
+        "Record actual removal date and time, chamber condition in °C and any storage excursion.",
+        "Use the approved pull window; escalate a missed window instead of backdating the pull."
+      ],
+      "notes": "The ICH chamber programme is tied to a condition and an interval. Similar container appearance does not justify substituting another stability lot. Retain the actual event history if the planned pull cannot proceed.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "2. Handover is a reconciliation",
+      "bullets": [
+        "Match container labels to the batch card and pull instruction.",
+        "Record units removed, retained, transferred and consumed.",
+        "Identify storage conditions and the destination of every transfer."
+      ],
+      "bullets_right": [
+        "Denis Miller reconciles receipt against the handover record.",
+        "Resolve a missing, damaged or mismatched container before preparation.",
+        "Both sides record the handover; do not rely on an unlogged verbal exchange."
+      ],
+      "notes": "Do not convert a discrepancy into an assumed count. Keep the stability lot, condition and interval together through aliquoting. Actual quantities belong in the record; this training does not prescribe a universal pull quantity.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "3. Minimum handover record",
+      "table": {
+        "columns": [
+          "Record field",
+          "Required link",
+          "Stop and escalate when"
+        ],
+        "rows": [
+          [
+            "Identity",
+            "Protocol; stability lot; batch card",
+            "Label and instruction disagree"
+          ],
+          [
+            "Storage",
+            "Condition; interval; chamber location",
+            "Excursion or location is unresolved"
+          ],
+          [
+            "Quantity",
+            "Removed; transferred; retained; consumed",
+            "Reconciliation is incomplete"
+          ],
+          [
+            "Handling",
+            "Removal time; transport; receipt; interim storage",
+            "Required history is missing"
+          ],
+          [
+            "Analysis",
+            "Method; sequence sheet; analyst",
+            "Preparation cannot be linked to the pull"
+          ]
+        ]
+      },
+      "notes": "A completed form is useful only if the links are correct. Record any discrepancy factually and preserve the original handover entries.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "4. Percent label claim is not area percent",
+      "bullets": [
+        "Assay: report as percent label claim.",
+        "Reference-standard basis, preparation and dilution support the assay calculation.",
+        "The denominator is the stated label claim, with the method-defined corrections."
+      ],
+      "bullets_right": [
+        "Related substances: report as area percent where the method specifies it.",
+        "Peak integration and method-defined response treatment support the impurity result.",
+        "Area percent does not automatically equal mass percent or percent label claim."
+      ],
+      "notes": "Ask the trainee to identify the denominator before interpreting a value. Do not subtract impurity area percent from assay percent label claim to create an invented mass balance. Each endpoint uses its authorized calculation.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "5. System suitability comes first",
+      "bullets": [
+        "Saira Mahmood confirms the method-specific suitability criteria.",
+        "Sequence sheets identify standards, blanks, suitability injections and sample preparations.",
+        "Assess the required suitability responses before interpreting stability samples.",
+        "Check continuing suitability where the method requires it; an acceptable start does not guarantee the whole sequence."
+      ],
+      "notes": "Criteria belong to the approved HPLC method qualification or Assay and related-substances validation documentation. Do not invent common numerical thresholds across methods. Preserve chromatograms and integration history.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "6. When suitability fails",
+      "bullets": [
+        "Hold affected sample interpretation and client conclusions.",
+        "Record the failed criterion, sequence position and potentially affected samples.",
+        "Notify Saira Mahmood and Valerie Turner; open a factual deviation note.",
+        "Investigate preparation, instrument response and sequence events before deciding on repeat work.",
+        "Retain the original sequence and document the rationale for any reinjection or fresh preparation."
+      ],
+      "notes": "A later passing injection does not erase the earlier failure. Define the affected interval and what the investigation supports. Avoid selecting only a passing repeat without resolving the cause and reportability.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "7. Release gate and client interpretation",
+      "bullets": [
+        "Confirm identity and quantity reconciliation are complete.",
+        "Confirm system suitability and calculation review for each reported endpoint.",
+        "Assess deviations and storage excursions with their effect on interpretation.",
+        "Keep conclusions within the tested condition and interval.",
+        "Alice Penrose resolves scientific reporting questions; QA records the release decision."
+      ],
+      "notes": "Do not infer shelf life from an isolated pull or claim that an untested storage condition is supported. A report may state a limitation or pending investigation; commercial urgency does not change suitability requirements.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "8. Handover exercise: make the next decision",
+      "bullets": [
+        "A label differs from the pull instruction: hold preparation and reconcile the batch card.",
+        "A related-substances result is described as percent label claim: correct the endpoint and calculation basis before release.",
+        "Suitability fails after samples begin: define the affected sequence interval and escalate.",
+        "A client asks for a later interval: state what has been tested and scope the next pull."
+      ],
+      "notes": "Ask each trainee which record they would preserve and who they would contact. Valerie Turner records training completion in the local quality records. Rev04 is final as of 11 Apr 2025.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    }
+  ]
+}
