@@ -1,0 +1,56 @@
+{
+ "family": "workbook",
+ "summary": "INTERIM results for investigation OT-26-S0177, the BP16 protease inhibitor genotoxicity battery for Belquorin Pharma. The bacterial mutation assay with and without S9 is complete. HepG2 viability exclusions are recorded. Mammalian-cell micronucleus repeat scoring is still open, and several cells are marked [TBC] until the repeat plates are read.",
+ "properties": {"title": "OT-26-S0177 BP16 genotoxicity interim results (INTERIM)"},
+ "sheets": [
+  {"name": "Summary", "rows": [
+    [{"v": "OT-26-S0177 BP16 battery: INTERIM results, not final", "bold": true}],
+    ["Status", "INTERIM. Bacterial phase complete. Mammalian repeat in progress."],
+    ["Investigation", "{{PRJ0126:project_id}}"],
+    ["LIMS reference", "{{PRJ0126:lims_id}}"],
+    ["Client", "{{PRJ0126:client_variant}}"],
+    ["Test article cohort", "Oxazole carboxamide series 16 (BP16), target protease inhibitor"],
+    ["Test articles", {"ref": "PRJ0126:n_compounds"}],
+    ["Bacterial mutation result", "{{PRJ0126:ames.outcome}}"],
+    ["Completion", "[TBC]"],
+    ["Turnaround (days)", "[TBC]"],
+    ["Study director", "Naomi Takamori, Head of Toxicology", null, "Prepared by Kenji Morita"],
+    [],
+    ["Exclusions", "HepG2 cytotoxicity exclusion applied to the scoring of one mammalian condition. Repeat scoring XX% complete."]
+   ],
+   "merged": ["A1:D1"],
+   "col_widths": {"A": 26, "B": 30, "C": 22, "D": 28}
+  },
+  {"name": "HepG2 viability", "rows": [
+    ["HepG2 viability screen (ATP content), 24 h and 48 h exposure. INTERIM. Investigation OT-26-S0177."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0126:cytotox", "at": "A3", "header": true}],
+   "freeze": "A4",
+   "col_widths": {"A": 16, "B": 18, "C": 18},
+   "number_formats": {"B4:C21": "0"}
+  },
+  {"name": "Ames", "rows": [
+    ["Bacterial mutation assay with and without S9. Mean revertants per plate, n=3. Phase complete."],
+    ["Control validity met for every strain on the day of scoring."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0126:ames", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 10, "B": 12, "C": 16, "D": 10, "E": 8, "F": 16},
+   "number_formats": {"F5:F40": "0.00"}
+  },
+  {"name": "MN repeat", "rows": [
+    ["Mammalian-cell micronucleus assessment (TK6). INTERIM: repeat scoring in progress."],
+    ["Treatment", "Conc (µg/mL)", "% MN cells", "RPD (%)"],
+    ["3 h +S9", "vehicle", "[TBC]", "[TBC]"],
+    ["3 h +S9", "low", "XX%", ""],
+    ["3 h -S9", "vehicle", "", ""],
+    ["3 h -S9", "high", "[TBC]", ""],
+    []
+   ],
+   "freeze": "A3",
+   "col_widths": {"A": 14, "B": 16, "C": 14, "D": 12},
+   "comments": [{"cell": "C4", "text": "Repeat plates not read yet. Leave the [TBC] values until the second reader signs off.", "author": "Lucia Moretti"}]
+  }
+ ]
+}
