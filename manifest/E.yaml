@@ -1,0 +1,1489 @@
+files:
+- id: P33
+  unit: E
+  root: archive
+  path: WestravelleData/Proposals/2020/CVL/WA-2020-313
+  filename: WA-2020-313_CVL_L03_STABILITY_QUOTE_APPROVED.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: E-T
+  created: '2020-11-05T10:20:40'
+  modified: '2020-11-06T17:54:57'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0010
+  client_id: CL001
+  client_variant: Corvenlea Pharmaceuticals plc
+  finish: final
+  mess: []
+  planted:
+  - q3_target_E
+  related: []
+  tier: orchestrator
+  target_length: 6-12 pages
+  summary: 'word proposal for Corvenlea Pharmaceuticals plc (WA/2020/313): CVL tablet lot 3: twelve-month ICH stability with
+    assay validation. Names the client as ''Corvenlea Pharmaceuticals plc (formerly Corvenlea Ltd)''.'
+  pilot: false
+- id: E-001
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/CVL/WA-2020-313/Results/Approved
+  filename: CVL_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: E-G
+  created: '2021-11-30T10:24:00'
+  modified: '2021-11-30T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0010
+  client_id: CL001
+  client_variant: Corvenlea Pharmaceuticals plc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2020/313 sequence sheets for Corvenlea Pharmaceuticals plc record ICH chamber programme and Assay and related-substances
+    validation, batch identities, system suitability, observed endpoints and the numerical evidence behind the conclusion:
+    The tablet lot remained within the agreed assay and impurity limits, and Corvenlea used the report in its formulation
+    transfer package.'
+  pilot: false
+- id: E-002
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/EP19/WA-2011-192/Results/Approved
+  filename: EP19_L02_06M_40C75RH_RESULTS.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2012
+  era: legacy
+  template: E-L
+  created: '2012-05-07T10:24:00'
+  modified: '2012-05-07T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0086
+  client_id: CL020
+  client_variant: Esmervane Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2011/192 sequence sheets for Esmervane Pharmaceuticals record ICH chamber programme, batch identities, system
+    suitability, observed endpoints and the numerical evidence behind the conclusion: An emerging degradant at the warm condition
+    led Esmervane to revise the capsule moisture barrier before long-term testing.'
+  pilot: false
+- id: E-003
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/KM12/WA-2013-269/Results/Approved
+  filename: KM12_SPECIFICITY_RESULTS_Rev02.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2014
+  era: legacy
+  template: E-L
+  created: '2014-03-17T10:24:00'
+  modified: '2014-03-17T16:38:00'
+  author: NS19
+  last_saved_by: NS19
+  projects:
+  - PRJ0087
+  client_id: CL052
+  client_variant: Kalmorveth Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2013/269 sequence sheets for Kalmorveth Pharma record Assay and related-substances validation, batch identities,
+    system suitability, observed endpoints and the numerical evidence behind the conclusion: The specificity challenge resolved
+    the co-eluting degradant and Kalmorveth accepted the method for release testing.'
+  pilot: false
+- id: E-004
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/WX4/WA-2015-137/Results/Approved
+  filename: WX4_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2017
+  era: legacy
+  template: E-L
+  created: '2017-01-23T10:24:00'
+  modified: '2017-01-23T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0088
+  client_id: CL064
+  client_variant: Wexanthel Medicines
+  finish: final
+  mess:
+  - mixed_units
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2015/137 sequence sheets for Wexanthel Medicines record ICH chamber programme and Assay and related-substances
+    validation, batch identities, system suitability, observed endpoints and the numerical evidence behind the conclusion:
+    The qualified method detected a packaging-dependent impurity trend, and Wexanthel adopted the higher-barrier blister.'
+  pilot: false
+- id: E-005
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/IS3/WA-2018-082/Results/Approved
+  filename: IS3_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: E-T
+  created: '2020-04-30T10:24:00'
+  modified: '2020-04-30T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0091
+  client_id: CL024
+  client_variant: Istravune Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2018/082 sequence sheets for Istravune Biosciences record ICH chamber programme and Assay and related-substances
+    validation, batch identities, system suitability, observed endpoints and the numerical evidence behind the conclusion:
+    The long-term trend supported Istravune''s proposed shelf life and the method remained suitable through the final pull.'
+  pilot: false
+- id: E-006
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/OD18/WA-2019-010/Results/Approved
+  filename: OD18_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: E-L
+  created: '2019-08-12T10:24:00'
+  modified: '2019-08-12T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0092
+  client_id: CL030
+  client_variant: Odraverne Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2019/010 sequence sheets for Odraverne Pharmaceuticals record ICH chamber programme, batch identities, system
+    suitability, observed endpoints and the numerical evidence behind the conclusion: Moisture uptake explained the assay
+    drift and Odraverne specified desiccant protection for the next pack configuration.'
+  pilot: false
+- id: E-007
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/PV30/WA-2021-270/Results/Approved
+  filename: PV30_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: E-G
+  created: '2022-09-30T10:24:00'
+  modified: '2022-09-30T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0094
+  client_id: CL057
+  client_variant: Parvessune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2021/270 sequence sheets for Parvessune Pharmaceuticals record ICH chamber programme and Assay and related-substances
+    validation, batch identities, system suitability, observed endpoints and the numerical evidence behind the conclusion:
+    An impurity reference resolved a late-eluting peak and Parvessune retained the capsule formulation for transfer.'
+  pilot: false
+- id: E-008
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/XA5/WA-2022-226/Results/Approved
+  filename: XA5_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: E-G
+  created: '2024-02-08T10:24:00'
+  modified: '2024-02-08T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0095
+  client_id: CL065
+  client_variant: Xarnelvune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2022/226 sequence sheets for Xarnelvune Pharmaceuticals record ICH chamber programme, batch identities, system
+    suitability, observed endpoints and the numerical evidence behind the conclusion: The resuspension assessment supported
+    the dosing instructions and Xarnelvune added a shake-before-use instruction.'
+  pilot: false
+- id: E-009
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/CU19/WA-2023-136/Results/Approved
+  filename: CU19_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: E-G
+  created: '2023-07-12T10:24:00'
+  modified: '2023-07-12T16:38:00'
+  author: NS19
+  last_saved_by: NS19
+  projects:
+  - PRJ0096
+  client_id: CL070
+  client_variant: Culdrevane Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2023/136 sequence sheets for Culdrevane Pharma record Assay and related-substances validation, batch identities,
+    system suitability, observed endpoints and the numerical evidence behind the conclusion: The alternate column reproduced
+    the required separation, giving Culdrevane a qualified backup for routine release.'
+  pilot: false
+- id: E-010
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/AT22/WA-2024-211/Results/Approved
+  filename: AT22_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-07-22T10:24:00'
+  modified: '2025-07-22T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0097
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: 'WA/2024/211 sequence sheets for Aldrevessa Therapeutics record ICH chamber programme and Assay and related-substances
+    validation, batch identities, system suitability, observed endpoints and the numerical evidence behind the conclusion:
+    Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven impurity increase.'
+  pilot: false
+- id: E-011
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/LM5/WA-2026-027/Results/Interim
+  filename: LM5_FIRST_PULL_REVIEW_DRAFT_Rev01.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: E-G
+  created: '2026-08-24T10:24:00'
+  modified: '2026-08-24T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0098
+  client_id: CL027
+  client_variant: Lomervessa Pharma
+  finish: interim
+  mess:
+  - comments
+  - half_filled
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: 'WA/2026/027 interim sequence sheets for Lomervessa Pharma contain ICH chamber programme observations, completed
+    system-suitability checks and clearly blank pending sign-off or later-pull columns: The first scheduled pull has been
+    analysed and the long-term chambers remain on programme pending later timepoints.'
+  pilot: false
+- id: E-012
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/XE2/WA-2026-275/Results/Interim
+  filename: XE2_FIRST_PULL_REVIEW_DRAFT_Rev01.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: E-G
+  created: '2026-09-29T10:24:00'
+  modified: '2026-09-29T16:38:00'
+  author: NS19
+  last_saved_by: NS19
+  projects:
+  - PRJ0099
+  client_id: CL039
+  client_variant: Xelvessune Pharma
+  finish: interim
+  mess:
+  - comments
+  - half_filled
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: 'WA/2026/275 interim sequence sheets for Xelvessune Pharma contain Assay and related-substances validation observations,
+    completed system-suitability checks and clearly blank pending sign-off or later-pull columns: The forced-degradation work
+    is complete and integration rules are being finalised for a shoulder peak before validation sign-off.'
+  pilot: false
+- id: E-013
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/JO14/WA-2026-047/Results/Interim
+  filename: JO14_FIRST_PULL_REVIEW_DRAFT_Rev01.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: E-G
+  created: '2026-09-16T10:24:00'
+  modified: '2026-09-16T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0100
+  client_id: CL051
+  client_variant: Jorvessara Pharmaceuticals
+  finish: interim
+  mess:
+  - comments
+  - half_filled
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: 'WA/2026/047 interim sequence sheets for Jorvessara Pharmaceuticals contain ICH chamber programme and Assay and
+    related-substances validation observations, completed system-suitability checks and clearly blank pending sign-off or
+    later-pull columns: The method qualification is complete and the first chamber pull is in review, with later stability
+    timepoints still pending.'
+  pilot: false
+- id: E-014
+  unit: E
+  root: archive
+  path: Archive/Users/garethb_old_laptop/Commercial/Chamber_Capacity
+  filename: ChamberRates_2023_v3_FINAL_final.xlsx
+  format: xlsx
+  doc_type: wb_pricelist
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: E-G
+  created: '2022-11-18T10:24:00'
+  modified: '2022-11-18T16:38:00'
+  author: NS20
+  last_saved_by: NS20
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - version_suffix
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Gareth Bramwell's superseded chamber-capacity costing workbook lists GBP storage-month rates, pull charges and
+    occupancy assumptions used before the 2023 commercial handover.
+  pilot: false
+- id: E-015
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/CVL/WA-2020-313/Readouts/Client
+  filename: CVL_StabilityReview_QA-APPROVED.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: E-G
+  created: '2021-12-03T10:24:00'
+  modified: '2021-12-03T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0010
+  client_id: CL001
+  client_variant: Corvenlea Pharmaceuticals plc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-001
+    rel: results_for
+  tier: sol
+  target_length: 8 slides
+  summary: 'WA/2020/313 client readout for Corvenlea Pharmaceuticals plc presents ICH chamber programme and Assay and related-substances
+    validation, batch and storage details, system suitability, deviations and the tested-interval conclusion: The tablet lot
+    remained within the agreed assay and impurity limits, and Corvenlea used the report in its formulation transfer package.'
+  pilot: false
+- id: E-016
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/WX4/WA-2015-137/Readouts/Client
+  filename: WX4_StabilityReview_QA-APPROVED.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2017
+  era: legacy
+  template: E-L
+  created: '2017-01-26T10:24:00'
+  modified: '2017-01-26T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0088
+  client_id: CL064
+  client_variant: Wexanthel Medicines
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-004
+    rel: results_for
+  tier: sol
+  target_length: 8 slides
+  summary: 'WA/2015/137 client readout for Wexanthel Medicines presents ICH chamber programme and Assay and related-substances
+    validation, batch and storage details, system suitability, deviations and the tested-interval conclusion: The qualified
+    method detected a packaging-dependent impurity trend, and Wexanthel adopted the higher-barrier blister.'
+  pilot: false
+- id: E-017
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/PV30/WA-2021-270/Readouts/Client
+  filename: PV30_StabilityReview_QA-APPROVED.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: E-G
+  created: '2022-10-03T10:24:00'
+  modified: '2022-10-03T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0094
+  client_id: CL057
+  client_variant: Parvessune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-007
+    rel: results_for
+  tier: sol
+  target_length: 8 slides
+  summary: 'WA/2021/270 client readout for Parvessune Pharmaceuticals presents ICH chamber programme and Assay and related-substances
+    validation, batch and storage details, system suitability, deviations and the tested-interval conclusion: An impurity
+    reference resolved a late-eluting peak and Parvessune retained the capsule formulation for transfer.'
+  pilot: false
+- id: E-018
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/XA5/WA-2022-226/Readouts/Client
+  filename: XA5_StabilityReview_QA-APPROVED.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: E-G
+  created: '2024-02-11T10:24:00'
+  modified: '2024-02-11T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0095
+  client_id: CL065
+  client_variant: Xarnelvune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-008
+    rel: results_for
+  tier: sol
+  target_length: 8 slides
+  summary: 'WA/2022/226 client readout for Xarnelvune Pharmaceuticals presents ICH chamber programme, batch and storage details,
+    system suitability, deviations and the tested-interval conclusion: The resuspension assessment supported the dosing instructions
+    and Xarnelvune added a shake-before-use instruction.'
+  pilot: false
+- id: E-019
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/CU19/WA-2023-136/Readouts/Client
+  filename: CU19_MethodTransferReview_QA-APPROVED.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: E-G
+  created: '2023-07-15T10:24:00'
+  modified: '2023-07-15T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0096
+  client_id: CL070
+  client_variant: Culdrevane Pharma
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-009
+    rel: results_for
+  tier: sol
+  target_length: 8 slides
+  summary: 'WA/2023/136 client readout for Culdrevane Pharma presents Assay and related-substances validation, batch and storage
+    details, system suitability, deviations and the tested-interval conclusion: The alternate column reproduced the required
+    separation, giving Culdrevane a qualified backup for routine release.'
+  pilot: false
+- id: E-020
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/AT22/WA-2024-211/Readouts/Client
+  filename: AT22_StabilityReview_QA-APPROVED.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-07-25T10:24:00'
+  modified: '2025-07-25T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0097
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-010
+    rel: results_for
+  tier: sol
+  target_length: 8 slides
+  summary: 'WA/2024/211 client readout for Aldrevessa Therapeutics presents ICH chamber programme and Assay and related-substances
+    validation, batch and storage details, system suitability, deviations and the tested-interval conclusion: Aldrevessa selected
+    the coated tablet after the uncoated comparator showed a humidity-driven impurity increase.'
+  pilot: false
+- id: E-021
+  unit: E
+  root: archive
+  path: WestravelleData/Marketing/Capabilities/Legacy
+  filename: WA_ANALYTICAL_CAPABILITY_2011.ppt
+  format: ppt
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2011
+  era: legacy
+  template: E-L
+  created: '2011-09-16T10:24:00'
+  modified: '2011-09-16T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 7 slides
+  summary: Original Westravelle capability deck covers ICH chamber programme, Stability pulls and HPLC method qualification
+    with batch traceability and a six-month accelerated study example.
+  pilot: false
+- id: E-022
+  unit: E
+  root: archive
+  path: WestravelleData/Quality/Training/2025
+  filename: PULL_HANDOVER_SYSTEM_SUITABILITY_Rev04.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-04-11T10:24:00'
+  modified: '2025-04-11T16:38:00'
+  author: BG106
+  last_saved_by: BG106
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Training deck explains chamber pull handover, sample reconciliation, percent label claim versus area percent and
+    escalation of system-suitability failures before client interpretation.
+  pilot: false
+- id: E-023
+  unit: E
+  root: archive
+  path: WestravelleData/Quality/Training/Reference_Copies
+  filename: Copy of PLATE_ACCEPTANCE_WA_Rev01.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: E-G
+  created: '2024-09-19T10:24:00'
+  modified: '2024-09-19T16:38:00'
+  author: BG100
+  last_saved_by: BG100
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - duplicate_across_firms
+  - copy_of
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 6 slides
+  summary: Reference copy of Brindlewythe Biosciences' plate-acceptance training deck retains its screening-control diagrams
+    and a local cover note comparing plate acceptance with Westravelle system suitability.
+  pilot: false
+- id: E-024
+  unit: E
+  root: archive
+  path: Archive/Users/garethb_old_laptop/Commercial/Capacity_Reviews
+  filename: CHAMBER_CAPACITY_2017_Rev02.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2016
+  era: legacy
+  template: E-L
+  created: '2016-11-25T10:24:00'
+  modified: '2016-11-25T16:38:00'
+  author: NS20
+  last_saved_by: NS20
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - leaver_folder
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 6 slides
+  summary: Gareth Bramwell's commercial capacity review records chamber occupancy, reserved pull windows and quote lead-time
+    assumptions without disclosing client study results.
+  pilot: false
+- id: E-025
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/CVL/WA-2020-313/Reports/Approved
+  filename: WA-2020-313_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2021
+  era: group
+  template: E-G
+  created: '2021-12-02T10:24:00'
+  modified: '2021-12-02T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0010
+  client_id: CL001
+  client_variant: Corvenlea Pharmaceuticals plc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-001
+    rel: results_for
+  - id: P33
+    rel: proposal_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2020/313 approved report for Corvenlea Pharmaceuticals plc documents CVL tablet lot 3: twelve-month ICH stability
+    with assay validation, ICH chamber programme and Assay and related-substances validation, batch traceability, system suitability,
+    deviations and the conclusion: The tablet lot remained within the agreed assay and impurity limits, and Corvenlea used
+    the report in its formulation transfer package.'
+  pilot: false
+- id: E-026
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/KM12/WA-2013-269/Reports/Approved
+  filename: WA-2013-269_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2014
+  era: legacy
+  template: E-L
+  created: '2014-03-19T10:24:00'
+  modified: '2014-03-19T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0087
+  client_id: CL052
+  client_variant: Kalmorveth Pharma
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-003
+    rel: results_for
+  tier: sol
+  target_length: 28 pages
+  summary: 'WA/2013/269 approved report for Kalmorveth Pharma documents Kalmorveth KM-12 related-substances HPLC validation,
+    Assay and related-substances validation, batch traceability, system suitability, deviations and the conclusion: The specificity
+    challenge resolved the co-eluting degradant and Kalmorveth accepted the method for release testing.'
+  pilot: false
+- id: E-027
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/WX4/WA-2015-137/Reports/Approved
+  filename: WA-2015-137_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2017
+  era: legacy
+  template: E-L
+  created: '2017-01-25T10:24:00'
+  modified: '2017-01-25T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0088
+  client_id: CL064
+  client_variant: Wexanthel Medicines
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-004
+    rel: results_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2015/137 approved report for Wexanthel Medicines documents Wexanthel WX-4 tablets: eighteen-month stability
+    and method qualification, ICH chamber programme and Assay and related-substances validation, batch traceability, system
+    suitability, deviations and the conclusion: The qualified method detected a packaging-dependent impurity trend, and Wexanthel
+    adopted the higher-barrier blister.'
+  pilot: false
+- id: E-028
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/AU06/WA-2016-068/Reports/Approved
+  filename: WA-2016-068_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2017
+  era: legacy
+  template: E-L
+  created: '2017-04-27T10:24:00'
+  modified: '2017-04-27T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0089
+  client_id: CL068
+  client_variant: Auvrelquith Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2016/068 approved report for Auvrelquith Biosciences documents Auvrelquith AU-06 solution: twelve-month refrigerated
+    stability, ICH chamber programme, batch traceability, system suitability, deviations and the conclusion: Auvrelquith retained
+    refrigerated storage after ambient samples developed an unacceptable appearance change.'
+  pilot: false
+- id: E-029
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/OB11/WA-2017-185/Reports/Approved
+  filename: WA-2017-185_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2017
+  era: legacy
+  template: E-L
+  created: '2017-10-22T10:24:00'
+  modified: '2017-10-22T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0090
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 28 pages
+  summary: 'WA/2017/185 approved report for Orvessant Biosciences Pty Ltd documents OB11 drug substance: assay and related-substances
+    method validation, Assay and related-substances validation, batch traceability, system suitability, deviations and the
+    conclusion: The validation supported the proposed release specification and Orvessant transferred the method to its manufacturing
+    laboratory.'
+  pilot: false
+- id: E-030
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/IS3/WA-2018-082/Reports/Approved
+  filename: WA-2018-082_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2020
+  era: transition
+  template: E-T
+  created: '2020-05-02T10:24:00'
+  modified: '2020-05-02T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0091
+  client_id: CL024
+  client_variant: Istravune Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-005
+    rel: results_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2018/082 approved report for Istravune Biosciences documents Istravune IS-3 tablets: twenty-four-month ICH
+    programme, ICH chamber programme and Assay and related-substances validation, batch traceability, system suitability,
+    deviations and the conclusion: The long-term trend supported Istravune''s proposed shelf life and the method remained
+    suitable through the final pull.'
+  pilot: false
+- id: E-031
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/OD18/WA-2019-010/Reports/Approved
+  filename: WA-2019-010_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2019
+  era: legacy
+  template: E-L
+  created: '2019-08-14T10:24:00'
+  modified: '2019-08-14T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0092
+  client_id: CL030
+  client_variant: Odraverne Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-006
+    rel: results_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2019/010 approved report for Odraverne Pharmaceuticals documents Odraverne OD-18 powder: six-month humidity
+    challenge, ICH chamber programme, batch traceability, system suitability, deviations and the conclusion: Moisture uptake
+    explained the assay drift and Odraverne specified desiccant protection for the next pack configuration.'
+  pilot: false
+- id: E-032
+  unit: E
+  root: archive
+  path: WestravelleData/Methods/AR27/WA-2020-224/Reports/Approved
+  filename: WA-2020-224_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2020
+  era: transition
+  template: E-T
+  created: '2020-10-08T10:24:00'
+  modified: '2020-10-08T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0093
+  client_id: CL042
+  client_variant: Ardelvune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 28 pages
+  summary: 'WA/2020/224 approved report for Ardelvune Pharmaceuticals documents Ardelvune AR-27 chromatographic specificity
+    and robustness, Assay and related-substances validation, batch traceability, system suitability, deviations and the conclusion:
+    The robustness study identified sensitivity to mobile-phase preparation and Ardelvune tightened the buffer instructions.'
+  pilot: false
+- id: E-033
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/PV30/WA-2021-270/Reports/Approved
+  filename: WA-2021-270_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2022
+  era: group
+  template: E-G
+  created: '2022-10-02T10:24:00'
+  modified: '2022-10-02T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0094
+  client_id: CL057
+  client_variant: Parvessune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-007
+    rel: results_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2021/270 approved report for Parvessune Pharmaceuticals documents Parvessune PV-30 capsules: twelve-month stability
+    with impurity validation, ICH chamber programme and Assay and related-substances validation, batch traceability, system
+    suitability, deviations and the conclusion: An impurity reference resolved a late-eluting peak and Parvessune retained
+    the capsule formulation for transfer.'
+  pilot: false
+- id: E-034
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/XA5/WA-2022-226/Reports/Approved
+  filename: WA-2022-226_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2024
+  era: group
+  template: E-G
+  created: '2024-02-10T10:24:00'
+  modified: '2024-02-10T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0095
+  client_id: CL065
+  client_variant: Xarnelvune Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-008
+    rel: results_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2022/226 approved report for Xarnelvune Pharmaceuticals documents Xarnelvune XA-5 suspension: eighteen-month
+    in-use stability, ICH chamber programme, batch traceability, system suitability, deviations and the conclusion: The resuspension
+    assessment supported the dosing instructions and Xarnelvune added a shake-before-use instruction.'
+  pilot: false
+- id: E-035
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/AT22/WA-2024-211/Reports/Approved
+  filename: WA-2024-211_REPORT_QA-APPROVED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-07-24T10:24:00'
+  modified: '2025-07-24T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0097
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-010
+    rel: results_for
+  tier: sol
+  target_length: 36 pages
+  summary: 'WA/2024/211 approved report for Aldrevessa Therapeutics documents Aldrevessa AT-22 tablets: twelve-month stability
+    and assay validation, ICH chamber programme and Assay and related-substances validation, batch traceability, system suitability,
+    deviations and the conclusion: Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven
+    impurity increase.'
+  pilot: false
+- id: E-036
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/EP7/WA-2024-314/Reports/Unreleased
+  filename: WA-2024-314_EP7_CLOSEOUT_DRAFT.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2024
+  era: group
+  template: E-G
+  created: '2024-12-03T10:24:00'
+  modified: '2024-12-03T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0104
+  client_id: CL020
+  client_variant: Esmervane Pharmaceuticals
+  finish: abandoned
+  mess:
+  - draft_mark
+  - empty_sections
+  planted: []
+  related: []
+  tier: sol
+  target_length: 8 pages
+  summary: WA/2024/314 unreleased closeout for Esmervane Pharmaceuticals records the initial ICH chamber programme pull, cancellation
+    instructions and unperformed timepoints, with no final stability or shelf-life conclusion.
+  pilot: false
+- id: E-037
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/EP19/WA-2011-192/Scans/Signed
+  filename: EP19_L02_06M_SIGNED_ANNOTATED.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: scan
+  year: 2012
+  era: legacy
+  template: E-L
+  created: '2012-05-11T10:24:00'
+  modified: '2012-05-11T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0086
+  client_id: CL020
+  client_variant: Esmervane Pharmaceuticals
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-002
+    rel: results_for
+  tier: sol
+  target_length: 32 pages
+  summary: Scanned signed WA/2011/192 report for Esmervane Pharmaceuticals records six-month accelerated Stability pulls and
+    the emerging warm-condition degradant, with handwritten moisture-barrier comments and a faint approval stamp.
+  pilot: false
+- id: E-038
+  unit: E
+  root: archive
+  path: Archive/Users/garethb_old_laptop/Commercial/Signed_Quotes
+  filename: WA-2013-269_KM12_QUOTE_SIGNED.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 2013
+  era: legacy
+  template: E-L
+  created: '2013-12-20T10:24:00'
+  modified: '2013-12-20T16:38:00'
+  author: NS20
+  last_saved_by: NS20
+  projects:
+  - PRJ0087
+  client_id: CL052
+  client_variant: Kalmorveth Pharma
+  finish: final
+  mess:
+  - leaver_folder
+  planted: []
+  related: []
+  tier: sol
+  target_length: 5 pages
+  summary: Scanned accepted WA/2013/269 quote for Kalmorveth Pharma specifies Assay and related-substances validation, GBP
+    49,500, 49 days, impurity-standard responsibilities and signed commercial terms.
+  pilot: false
+- id: E-039
+  unit: E
+  root: archive
+  path: WestravelleData/Quality/Certificates/2018
+  filename: CHAMBER_04_MAPPING_CERT_SIGNED.pdf
+  format: pdf
+  doc_type: word_memo
+  pdf_kind: scan
+  year: 2018
+  era: legacy
+  template: E-L
+  created: '2018-09-14T10:24:00'
+  modified: '2018-09-14T16:38:00'
+  author: BG096
+  last_saved_by: BG096
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 pages
+  summary: Scanned signed chamber-mapping certificate records temperature and humidity logger positions, acceptance checks
+    and a handwritten correction to a probe serial number.
+  pilot: false
+- id: E-040
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/AT22/WA-2024-211/Readouts/Exports
+  filename: AT22_StabilityReview_QA-APPROVED_EXPORT.pdf
+  format: pdf
+  doc_type: deck_readout
+  pdf_kind: export
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-07-25T10:24:00'
+  modified: '2025-07-25T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0097
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: E-020
+    rel: export_of
+  tier: script
+  target_length: 8 pages
+  summary: 'WA/2024/211 client readout for Aldrevessa Therapeutics presents ICH chamber programme and Assay and related-substances
+    validation, batch and storage details, system suitability, deviations and the tested-interval conclusion: Aldrevessa selected
+    the coated tablet after the uncoated comparator showed a humidity-driven impurity increase.'
+  pilot: false
+- id: E-041
+  unit: E
+  root: archive
+  path: WestravelleData/Proposals/2025/WA-2025-108
+  filename: WA-2025-108_TE9_STORAGE_PULL_QUOTE.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-03-31T10:24:00'
+  modified: '2025-03-31T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0101
+  client_id: CL061
+  client_variant: Telquorath Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: WA/2025/108 quote for Telquorath Pharma specifies ICH chamber programme, GBP 66,600, None days and the required
+    customer inputs; commercial follow-up records that telquorath selected a lower-cost storage provider and retained its
+    existing laboratory for the analytical pulls.
+  pilot: false
+- id: E-042
+  unit: E
+  root: archive
+  path: WestravelleData/Proposals/2024/WA-2024-143
+  filename: WA-2024-143_ZO31_VALIDATION_QUOTE.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: E-G
+  created: '2024-05-02T10:24:00'
+  modified: '2024-05-02T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects:
+  - PRJ0102
+  client_id: CL067
+  client_variant: Zostremal Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: WA/2024/143 quote for Zostremal Pharma specifies Assay and related-substances validation, GBP 68,200, None days
+    and the required customer inputs; commercial follow-up records that zostremal has not supplied the impurity standards
+    needed to finalise the protocol or accept the proposal.
+  pilot: false
+- id: E-043
+  unit: E
+  root: archive
+  path: WestravelleData/Quality/SOPs/Controlled
+  filename: WA-SOP-018_STABILITY_PULL_RECONCILIATION_Rev05.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: E-G
+  created: '2023-11-09T10:24:00'
+  modified: '2023-11-09T16:38:00'
+  author: BG100
+  last_saved_by: BG100
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 7 pages
+  summary: Controlled SOP for Stability pulls specifies chamber retrieval, sample reconciliation, excursion handling, system-suitability
+    release gates and retained batch-card signatures.
+  pilot: false
+- id: E-044
+  unit: E
+  root: archive
+  path: WestravelleData/Stability/QP07/WA-2025-407/Deviation_Notes/Hold
+  filename: WA-2025-407_QP07_HOLD_NOTE_Rev01.docx
+  format: docx
+  doc_type: word_memo
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: E-G
+  created: '2026-02-06T10:24:00'
+  modified: '2026-02-06T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects:
+  - PRJ0103
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: interim
+  mess:
+  - comments
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 pages
+  summary: WA/2025/407 deviation note for Quorenthel Pharma GmbH records suspended ICH chamber programme pulls after prototype
+    composition changes, retained samples and unresolved restart instructions.
+  pilot: false
+- id: E-045
+  unit: E
+  root: archive
+  path: WestravelleData/Templates/Protocols/Working
+  filename: WA_PROTOCOL_TEMPLATE_Rev06_DRAFT.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-08-14T10:24:00'
+  modified: '2025-08-14T16:38:00'
+  author: NS19
+  last_saved_by: NS19
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - empty_sections
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: sol
+  target_length: 5 pages
+  summary: Unfilled HPLC method qualification protocol template contains numbered batch-identity, specificity, system-suitability
+    and approval sections with blank acceptance tables.
+  pilot: false
+- id: E-046
+  unit: E
+  root: archive
+  path: WestravelleData/Marketing/Service_Catalogue/Approved
+  filename: WESTRAVELLE_SERVICES_2025_QA-APPROVED.pdf
+  format: pdf
+  doc_type: service_catalogue
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-06-12T10:24:00'
+  modified: '2025-06-12T16:38:00'
+  author: NS17
+  last_saved_by: NS17
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 10 pages
+  summary: Westravelle service catalogue describes ICH chamber programme, Stability pulls, Assay and related-substances validation
+    and HPLC method qualification, including sample requirements, storage options and reporting boundaries.
+  pilot: false
+- id: E-047
+  unit: E
+  root: archive
+  path: WestravelleData/Users/leonw/Scratch
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: E-G
+  created: '2023-02-09T10:24:00'
+  modified: '2023-02-09T16:38:00'
+  author: NS18
+  last_saved_by: NS18
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 slide
+  summary: Near-empty presentation has a stability-pull meeting title and one blank chart placeholder left after an aborted
+    internal meeting.
+  pilot: false
+- id: E-048
+  unit: E
+  root: archive
+  path: WestravelleData/Users/sairam/Scratch
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: E-G
+  created: '2025-02-17T10:24:00'
+  modified: '2025-02-17T16:38:00'
+  author: NS19
+  last_saved_by: NS19
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 sheet
+  summary: Near-empty workbook has a sample-id column, two unused sheet tabs and no measurements or formulas.
+  pilot: false
+- id: E-049
+  unit: E
+  root: archive
+  path: WestravelleData/Scans/Unsorted/2019
+  filename: Scan_0043.pdf
+  format: pdf
+  doc_type: junk
+  pdf_kind: native
+  year: 2019
+  era: legacy
+  template: E-L
+  created: '2019-10-24T10:24:00'
+  modified: '2019-10-24T16:38:00'
+  author: BG096
+  last_saved_by: BG096
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 page
+  summary: Single-page scan shows an almost blank separator sheet with a crooked RECEIVED stamp and no scientific or client
+    information.
+  pilot: false
