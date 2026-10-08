@@ -1,74 +1,245 @@
-{"family": "document",
- "summary": "Draft LIMS consolidation plan (v3, May to September 2026) records the common export dictionary and the decision to keep local accession numbers. Cutover dates for firms A to F and the mapping for firm G are still open, and the reviewer comments on the export fields have not been closed.",
- "properties": {"title": "LIMS consolidation plan (draft v3)"},
- "header": "LIMS consolidation plan | DRAFT v3 | Not for circulation",
- "footer": "Tarnovell Bioscience Group | Confidential",
- "watermark": "DRAFT",
- "title_block": {"title": "LIMS Consolidation Plan", "subtitle": "Draft v3 for steering group comment", "lines": ["Report no. TG-HO-LIMS-2026-003", "Date: 22 September 2026 (draft)"]},
- "sections": [
-  {"heading": "1 Introduction", "level": 1, "blocks": [
-    {"p": "This plan sets out how the group will bring the LIMS of firms A to F onto one export format for group reporting, without moving any firm's study records or changing its accession numbering. Version 3 replaces version 2, which assumed a single accession scheme and has been withdrawn."},
-    {"p": "The common export dictionary was agreed at the steering group on 14 July 2026. The dictionary covers sample identifiers, study and project codes, matrix, dosing route and the date fields used in the monthly group export.", "style": "bold"}
-  ]},
-  {"heading": "2 Current position", "level": 1, "blocks": [
-    {"p": "Each firm still runs its own LIMS instance and its own accession prefix. The August 2026 group export was produced by a script from the agreed dictionary and is used for reporting only. It is not a source for study records."},
-    {"table": {"columns": ["Firm", "Accession scheme", "Export status", "Cutover"], "rows": [
-      ["A Vellacombe", "Retained prefix", "Mapped to dictionary", "[TBC]"],
-      ["B Brindlewythe", "Retained prefix", "Mapped to dictionary", "[TBC]"],
-      ["C Merrivoss", "Retained prefix", "Date fields to confirm", "[TBC]"],
-      ["D Quenverell", "Retained prefix", "Not yet mapped", "[TBC]"],
-      ["E Westravelle", "Retained prefix", "Partly mapped", "[TBC]"],
-      ["F Durnesswick", "Retained prefix", "Mapping in progress", "[TBC]"],
-      ["G (acquisition pending)", "[TBC]", "Not started", "[TBC]"]
-    ], "caption": "Table 1 Firm LIMS position at 22 September 2026"}},
-    {"p": "Firm G is outside the export until the acquisition completes and its archive has been through access and QA mapping. Nothing in this draft assumes G's accession scheme, and the row above stays [TBC] until its LIMS owner has been named.", "style": "note"}
-  ]},
-  {"heading": "3 Common export dictionary", "level": 1, "blocks": [
-    {"p": "The dictionary maps each firm's local field names to a group field. Local names are kept in the source system and in the archive. Only the group field names appear in the export."},
-    {"list": [
-      "Sample identifier: group field carries the local accession number unchanged, with the firm prefix.",
-      "Study code: one group field per study, with the sponsor reference kept in a separate column.",
-      {"text": "Matrix: the controlled list has eleven terms; firm-specific terms are mapped, not replaced.", "level": 1},
-      "Dosing route and date fields: ISO 8601 in the export, local display format unchanged in the source."
-    ], "ordered": false},
-    {"p": "Open point: C Merrivoss records some dates in US month-first order and the mapping has not yet been checked against the source values. [TBC]"}
-  ]},
-  {"heading": "4 Accession numbers", "level": 1, "blocks": [
-    {"p": "Local accession numbers are retained. A group-wide sequence was considered and rejected at the June meeting because it would have required re-issuing numbers on live studies and breaking the links in client reports already issued."},
-    {"p": "The group export carries a firm prefix on every identifier so that two firms cannot produce the same string."}
-  ]},
-  {"heading": "5 Cutover approach", "level": 1, "blocks": [
-    {"p": "Cutover is per firm, not per system. Each firm chooses a month in which its reporting feed switches to the group export, and the local LIMS remains the record of truth throughout."},
-    {"p": "Proposed sequence: B and A first, because their dictionary mapping is closest to complete; then E; then C and D; then F. Dates for each step are [TBC] and depend on the export checks in section 6."},
-    {"p": "The cutover dates have been discussed informally with the firm leads but have not been agreed. They should not be quoted to clients."}
-  ]},
-  {"heading": "6 Checks before cutover", "level": 1, "blocks": [
-    {"list": [
-      "Each firm signs off a dictionary mapping sheet with its lead scientist.",
-      "A sample of at least 40 records per firm is reconciled between the local LIMS and the group export.",
-      "Date and unit fields are checked for month-first and day-first ambiguity.",
-      "Any record without a firm prefix is rejected by the export script, not corrected silently."
-    ], "ordered": true},
-    {"p": "Reconciliation results are reviewed by the Group Quality Director. Results are not included in this plan."}
-  ]},
-  {"heading": "7 Open items", "level": 1, "blocks": [
-    {"table": {"columns": ["Item", "Owner", "Due"], "rows": [
-      ["Name the LIMS owner for firm G", "Integration Director", "[TBC]"],
-      ["Confirm date format for C export", "Yasmin Farhat", "[TBC]"],
-      ["Agree cutover month for B and A", "Steering group", "[TBC]"],
-      ["Mapping sheet sign-off, firms D and F", "Firm leads", "XX October 2026"]
-    ], "caption": "Table 2 Open items"}}
-  ]}
- ],
- "signature_block": [
-  {"name": "Sofia Lindervik", "role": "Integration Director", "date": "2026-09-22", "signed": false}
- ],
- "tracked_changes": [
-  {"find": "The cutover dates have been discussed informally", "insert": "The cutover dates have been discussed with firm leads on a without-prejudice basis", "delete": false, "author": "Yasmin Farhat", "date": "2026-09-14"},
-  {"find": "Nothing in this draft assumes G's accession scheme", "insert": "", "delete": true, "author": "Yasmin Farhat", "date": "2026-09-14"}
- ],
- "comments": [
-  {"anchor": "Open point: C Merrivoss records some dates in US month-first order", "text": "Do we know this is only the date fields? Need to check the free-text notes too before we sign off the mapping.", "author": "Yasmin Farhat"},
-  {"anchor": "A group-wide sequence was considered and rejected", "text": "Worth stating who rejected it and when. Steering minutes are not in the folder yet.", "author": "Yasmin Farhat"}
- ],
- "orientation": "portrait"}
+{
+  "family": "document",
+  "summary": "Draft LIMS consolidation plan (v3, May to September 2026) records the common export dictionary and the decision to keep local accession numbers. Cutover dates for firms A to F and the mapping for firm G are still open, and the reviewer comments on the export fields have not been closed.",
+  "properties": {
+    "title": "LIMS consolidation plan (draft v3)"
+  },
+  "header": "LIMS consolidation plan | DRAFT v3 | Not for circulation",
+  "footer": "Tarnovell Bioscience Group | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "LIMS Consolidation Plan",
+    "subtitle": "Draft v3 for steering group comment",
+    "lines": [
+      "Report no. TG-HO-LIMS-2026-003",
+      "Date: 22 September 2026 (draft)"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This plan sets out how the group will bring the LIMS of firms A to F onto one export format for group reporting, without moving any firm's study records or changing its accession numbering. Version 3 replaces version 2, which assumed a single accession scheme and has been withdrawn."
+        },
+        {
+          "p": "The common export dictionary was agreed at the steering group on 14 July 2026. The dictionary covers sample identifiers, study and project codes, matrix, dosing route and the date fields used in the monthly group export.",
+          "style": "bold"
+        }
+      ]
+    },
+    {
+      "heading": "2 Current position",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Each firm still runs its own LIMS instance and its own accession prefix. The August 2026 group export was produced by a script from the agreed dictionary and is used for reporting only. It is not a source for study records."
+        },
+        {
+          "table": {
+            "columns": [
+              "Firm",
+              "Accession scheme",
+              "Export status",
+              "Cutover"
+            ],
+            "rows": [
+              [
+                "A Vellacombe",
+                "Retained prefix",
+                "Mapped to dictionary",
+                "[TBC]"
+              ],
+              [
+                "B Brindlewythe",
+                "Retained prefix",
+                "Mapped to dictionary",
+                "[TBC]"
+              ],
+              [
+                "C Merrivoss",
+                "Retained prefix",
+                "Date fields to confirm",
+                "[TBC]"
+              ],
+              [
+                "D Quenverell",
+                "Retained prefix",
+                "Not yet mapped",
+                "[TBC]"
+              ],
+              [
+                "E Westravelle",
+                "Retained prefix",
+                "Partly mapped",
+                "[TBC]"
+              ],
+              [
+                "F Durnesswick",
+                "Retained prefix",
+                "Mapping in progress",
+                "[TBC]"
+              ],
+              [
+                "G (acquisition pending)",
+                "[TBC]",
+                "Not started",
+                "[TBC]"
+              ]
+            ],
+            "caption": "Table 1 Firm LIMS position at 22 September 2026"
+          }
+        },
+        {
+          "p": "Firm G is outside the export until the acquisition completes and its archive has been through access and QA mapping. Nothing in this draft assumes G's accession scheme, and The row above stays [TBC] until its LIMS owner has been named.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "3 Common export dictionary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The dictionary maps each firm's local field names to a group field. Local names are kept in the source system and in the archive. Only the group field names appear in the export."
+        },
+        {
+          "list": [
+            "Sample identifier: group field carries the local accession number unchanged, with the firm prefix.",
+            "Study code: one group field per study, with the sponsor reference kept in a separate column.",
+            {
+              "text": "Matrix: the controlled list has eleven terms; firm-specific terms are mapped, not replaced.",
+              "level": 1
+            },
+            "Dosing route: agreed controlled vocabulary. Date fields: ISO 8601 in the export, with local display formats unchanged in the source."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Open point: C Merrivoss records some dates in US month-first order and the mapping has not yet been checked against the source values. [TBC]"
+        }
+      ]
+    },
+    {
+      "heading": "4 Accession numbers",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Local accession numbers are retained. A group-wide sequence was considered and rejected at the June meeting because it would have required re-issuing numbers on live studies and breaking the links in client reports already issued."
+        },
+        {
+          "p": "The group export carries a firm prefix on every identifier so that two firms cannot produce the same string."
+        }
+      ]
+    },
+    {
+      "heading": "5 Cutover approach",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cutover is per firm, not per system. Each firm chooses a month in which its reporting feed switches to the group export, and the local LIMS remains the record of truth throughout."
+        },
+        {
+          "p": "Proposed sequence: B and A first, because their dictionary mapping is closest to complete; then E; then C and D; then F. Dates for each step are [TBC] and depend on the export checks in section 6."
+        },
+        {
+          "p": "The cutover dates have been discussed informally with the firm leads but have not been agreed. They should not be quoted to clients."
+        }
+      ]
+    },
+    {
+      "heading": "6 Checks before cutover",
+      "level": 1,
+      "blocks": [
+        {
+          "list": [
+            "Each firm signs off a dictionary mapping sheet with its lead scientist.",
+            "A sample of at least 40 records per firm is reconciled between the local LIMS and the group export.",
+            "Date and unit fields are checked for month-first and day-first ambiguity.",
+            "Any record without a firm prefix is rejected by the export script, not corrected silently."
+          ],
+          "ordered": true
+        },
+        {
+          "p": "Reconciliation results are reviewed by the Group Quality Director. Results are not included in this plan."
+        }
+      ]
+    },
+    {
+      "heading": "7 Open items",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Owner",
+              "Due"
+            ],
+            "rows": [
+              [
+                "Name the LIMS owner for firm G",
+                "Integration Director",
+                "[TBC]"
+              ],
+              [
+                "Confirm date format for C export",
+                "Yasmin Farhat",
+                "[TBC]"
+              ],
+              [
+                "Agree cutover month for B and A",
+                "Steering group",
+                "[TBC]"
+              ],
+              [
+                "Mapping sheet sign-off, firms D and F",
+                "Firm leads",
+                "XX October 2026"
+              ]
+            ],
+            "caption": "Table 2 Open items"
+          }
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Sofia Lindervik",
+      "role": "Integration Director",
+      "date": "2026-09-22",
+      "signed": false
+    }
+  ],
+  "tracked_changes": [
+    {
+      "find": "The cutover dates have been discussed informally",
+      "insert": "The cutover dates have been discussed with firm leads on a without-prejudice basis",
+      "delete": false,
+      "author": "Yasmin Farhat",
+      "date": "2026-09-14"
+    },
+    {
+      "find": "Nothing in this draft assumes G's accession scheme, and ",
+      "insert": "",
+      "delete": true,
+      "author": "Yasmin Farhat",
+      "date": "2026-09-14"
+    }
+  ],
+  "comments": [
+    {
+      "anchor": "Open point: C Merrivoss records some dates in US month-first order",
+      "text": "Do we know this is only the date fields? Need to check the free-text notes too before we sign off the mapping.",
+      "author": "Yasmin Farhat"
+    },
+    {
+      "anchor": "A group-wide sequence was considered and rejected",
+      "text": "Worth stating who rejected it and when. Steering minutes are not in the folder yet.",
+      "author": "Yasmin Farhat"
+    }
+  ],
+  "orientation": "portrait"
+}
