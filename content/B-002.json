@@ -1,0 +1,120 @@
+{
+  "family": "deck",
+  "summary": "Final AP02 follow-up integrating hERG, the 5-isoform CYP panel and 3A4 concentration response. The hERG profile was retained, while CYP inhibition in the basic side-chain subset prompted chemistry redesign.",
+  "properties": {
+    "title": "AP02 second-generation safety panel",
+    "subject": "{{PRJ0002:project_id}} final readout",
+    "keywords": "Brindlewythe; plate acceptance; PRJ0002"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "AP02 second-generation safety panel",
+      "subtitle": "{{PRJ0002:project_id}} | {{PRJ0002:client_variant}}\n25 Nov 2021 | Dr L. Benmezroun\nBrindlewythe Biosciences Ltd, a Tarnovell company",
+      "notes": "Final client readout. Study accession {{PRJ0002:lims_id}}.",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Release basis: controls before interpretation",
+      "bullets": [
+        "{{PRJ0002:n_compounds}} compounds under {{PRJ0002:lims_id}}; tested 08–25 Nov 2021.",
+        "Ravi Deshmukh checked hERG cell fits; Ines Alvarado completed plate acceptance review.",
+        "E-4031 IC50 {{PRJ0002:herg.control_e4031_nM}} nM; CYP3A4 control {{PRJ0002:cyp.control_CYP3A4_uM}} µM against historical {{PRJ0002:cyp.hist_CYP3A4_uM}} µM.",
+        "Accept the assay readout; retain {{PRJ0002:herg.n_flagged}} flagged hERG entry as qualified."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Panel design and limits",
+      "bullets": [
+        "hERG automated patch clamp to {{PRJ0002:herg.top_conc_uM}} µM; censored fits are not exact IC50s.",
+        "5-isoform CYP panel at 10 µM in human liver microsomes.",
+        "3A4 concentration response uses midazolam hydroxylation; compare within that probe system.",
+        "CYP2C19 control {{PRJ0002:cyp.control_CYP2C19_uM}} µM versus historical {{PRJ0002:cyp.hist_CYP2C19_uM}} µM; keep the comparison with the run sheet."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "hERG profile across the follow-up set",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0002:herg",
+        "column": 4,
+        "title": "hERG IC50 (µM)",
+        "y_label": "hERG IC50 (µM)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "hERG qualified result extract",
+      "table": {
+        "table_ref": "PRJ0002:herg",
+        "columns": [
+          0,
+          4,
+          5,
+          6,
+          7
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "CYP inhibition at 10 µM",
+      "table": {
+        "table_ref": "PRJ0002:cyp_inhib",
+        "columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "3A4 concentration response: compound IC50s",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0002:cyp_ic50",
+        "column": 1,
+        "title": "CYP3A4 IC50 (µM)",
+        "y_label": "CYP3A4 IC50 (µM)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "AP02 structures for side-chain redesign",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0002",
+        "n": 6
+      },
+      "notes": "Representative structures identify the screening set; this grid is not a potency ranking.",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Screen gate: side-chain redesign",
+      "bullets": [
+        "hERG median {{PRJ0002:herg.median_ic50_uM}} µM; {{PRJ0002:herg.n_lt_1uM}} compounds below 1 µM.",
+        "CYP3A4 above 50% inhibition at 10 µM: {{PRJ0002:cyp.n_gt50_CYP3A4}} compounds.",
+        "3A4 response below 10 µM: {{PRJ0002:cyp3a4_ic50.n_lt_10uM}}; below 1 µM: {{PRJ0002:cyp3a4_ic50.n_lt_1uM}}.",
+        "Avernelwick requested redesign of the basic side-chain subset. Re-screen replacements in the paired panel.",
+        "Leila Benmezroun to transfer the qualified rankings; these assays do not establish clinical interaction magnitude."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
