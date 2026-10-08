@@ -1,0 +1,389 @@
+{
+  "family": "document",
+  "summary": "Final quotation for the EB05 screening set, covering the five-isoform panel, sample receipt and recovery exceptions. The offer states the fixed GBP price and keeps signed report release conditional on plate acceptance and closure of unresolved sample work.",
+  "properties": {
+    "title": "BW26_0401 quotation rev A"
+  },
+  "header": "BW26_0401 | Quotation rev A",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "EB05 metabolism liabilities — 5-isoform CYP panel",
+    "subtitle": "Quotation rev A",
+    "lines": [
+      "Brindlewythe Biosciences Ltd, a Tarnovell company",
+      "Client: Elvarmere Biosciences AB",
+      "Study: {{PRJ0046:project_id}}",
+      "Accession reference: {{PRJ0046:lims_id}}",
+      "Prepared by Dr B. Rowcroft, Screening Operations Director",
+      "Date: 19 Aug 2026"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Offer and scope at a glance",
+      "blocks": [
+        {
+          "p": "Elvarmere Biosciences AB requires a five-isoform screen of the EB05 pyrrolopyridine screening set before selecting compounds for further metabolism work. This offer covers the 5-isoform CYP panel at 10 µM on {{PRJ0046:n_compounds}} compounds. Plate acceptance precedes interpretation; an unresolved sample recovery problem will be held open rather than converted into a low-inhibition call."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Offer"
+            ],
+            "rows": [
+              [
+                "Study",
+                "{{PRJ0046:project_id}}"
+              ],
+              [
+                "Screening set",
+                "EB05 pyrrolopyridines"
+              ],
+              [
+                "Compounds",
+                "{{PRJ0046:n_compounds}}"
+              ],
+              [
+                "Assay",
+                "5-isoform CYP panel at 10 µM"
+              ],
+              [
+                "Fixed scope price",
+                "{{PRJ0046:price}}"
+              ],
+              [
+                "Release",
+                "Signed report after plate acceptance and resolution of sample exceptions"
+              ]
+            ],
+            "caption": "Commercial and scientific summary"
+          }
+        },
+        {
+          "p": "The quotation is issued on 19 Aug 2026. It is an offer for laboratory work, not a statement of results. Any decision to extend testing beyond this panel requires a separate written instruction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Purpose and limits of the screen",
+      "blocks": [
+        {
+          "p": "The panel will identify apparent inhibition of CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4 under the stated microsomal incubation conditions. The intended screen gate is selection of EB05 compounds that warrant concentration-response work. It is not a clinical interaction assessment, and potency at the cell-cycle kinase target is outside this scope."
+        },
+        {
+          "p": "A single-concentration result cannot establish an inhibition constant, distinguish reversible from time-dependent inhibition or resolve substrate-dependent effects. The report will separate an accepted biological measurement from an observation limited by sample availability. No screening set will be described as free of metabolism liability solely because an endpoint is unflagged."
+        },
+        {
+          "list": [
+            "Test concentration: 10 µM.",
+            "Matrix: pooled human liver microsomes with isoform-selective probe substrates.",
+            "Readout: percent inhibition relative to the corresponding vehicle incubation.",
+            "Follow-up decisions remain with Elvarmere Biosciences AB."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test lot and sample cards",
+      "blocks": [
+        {
+          "p": "Henning Flantz will reconcile the shipment list to the physical test lot before aliquots are released to the laboratory. Each sample card must carry the EB05 identifier, stock concentration, solvent, volume, storage instruction and any known solubility or stability warning. The accession reference {{PRJ0046:lims_id}} will link sample cards and run sheets; allocating this reference does not itself confirm receipt."
+        },
+        {
+          "p": "Identity and nominal stock concentration are supplied by Elvarmere Biosciences AB. Brindlewythe will check legibility, container condition and consistency of the manifest, but routine structure confirmation and independent stock quantitation are not included. A changed identifier must be reconciled in writing so that a replacement sample is not mistaken for a new member of the screening set."
+        },
+        {
+          "list": [
+            "Provide a single reconciled compound list with the shipment.",
+            "Keep stock and parent identifiers distinguishable.",
+            "Declare salts, solvent changes and any restrictions on thawing.",
+            "Do not substitute a compound without an amended sample card."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Shipment assumptions and receipt gate",
+      "blocks": [
+        {
+          "p": "The price assumes a complete, assay-ready test lot of DMSO solutions with sufficient material for the panel, controls and an ordinary technical repeat. Shipping arrangements and customs documentation are the responsibility of Elvarmere Biosciences AB. Containers should be sealed, labelled individually and packaged to prevent leakage; temperature conditions must follow the stability information supplied for the screening set."
+        },
+        {
+          "p": "On receipt, the laboratory will record damaged containers, shortages and discrepancies before testing. Compromised material will be quarantined from the run sheet until the client agrees its disposition. A delivery date is not treated as a laboratory start date when the stock concentration, compound identity or usable volume remains unresolved."
+        },
+        {
+          "p": "If the screening set arrives in partial shipments, Bethany Rowcroft will agree whether testing can proceed in separate test lots. The original price does not imply that repeated independent shipments can be absorbed without a scope review. Receipt confirmation will state which identifiers are ready and which are held."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Incubation design",
+      "blocks": [
+        {
+          "p": "The proposed method uses human liver microsomes at 0.1 mg/mL protein, probe substrate near its working Km and duplicate compound incubations at 10 µM. Reactions are initiated with NADPH and maintained at 37 °C for 10 minutes before quench. Vehicle is matched across sample and control wells. The run sheet will state the final DMSO fraction and actual substrate conditions for each isoform."
+        },
+        {
+          "p": "The protocol separates compound handling from metabolite measurement. An aliquot map follows the EB05 identifiers through dilution, incubation and analytical injection. No-NADPH and blank incubations support the distinction between enzymatic product formation and background signal. An observed precipitate, unusual colour or transfer failure is entered at the point of observation, not reconstructed after the inhibition calculation."
+        },
+        {
+          "list": [
+            "Use fresh working dilutions for the accepted run.",
+            "Record preparation order and any material loss.",
+            "Do not pool replicate values from rejected and accepted plates.",
+            "Retain the original run sheet when a plate is repeated."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Isoform probes and positive controls",
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Probe",
+              "Positive control"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "Phenacetin",
+                "Furafylline"
+              ],
+              [
+                "CYP2C9",
+                "Diclofenac",
+                "Sulfaphenazole"
+              ],
+              [
+                "CYP2C19",
+                "S-Mephenytoin",
+                "Ticlopidine"
+              ],
+              [
+                "CYP2D6",
+                "Dextromethorphan",
+                "Quinidine"
+              ],
+              [
+                "CYP3A4",
+                "Midazolam",
+                "Ketoconazole"
+              ]
+            ],
+            "caption": "Proposed assay controls"
+          }
+        },
+        {
+          "p": "Positive controls will be run as concentration responses. Furafylline and ticlopidine receive an NADPH-supported preincubation appropriate to their use as mechanism-based reference inhibitors. These control treatments do not convert the EB05 single-concentration panel into a time-dependent inhibition study."
+        },
+        {
+          "p": "The accepted method records the laboratory historical control range before sample results are interpreted. Ines Alvarado will check that the correct reference response and substrate signal support each isoform. If an isoform fails plate acceptance, its sample endpoints are withheld and repeated; acceptance of another isoform does not release the failed readout."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Plate acceptance and repeat rules",
+      "blocks": [
+        {
+          "p": "The run is acceptable only when vehicle metabolite formation is quantifiable, blanks do not compromise the endpoint and the positive-control response is within the method range. The proposed control criterion is 0.5–2 times the historical mean IC50. Duplicate agreement and the usable analytical range will be checked on the run sheet before percent inhibition is issued."
+        },
+        {
+          "p": "A technical failure attributable to Brindlewythe handling or plate performance will be repeated within the agreed scope. Insufficient stock, incorrect concentration or repeated poor recovery attributable to the supplied material will be discussed with Elvarmere before further use. A replacement test item must preserve identifier traceability and may require a revised scheduling agreement."
+        },
+        {
+          "list": [
+            "Ines Alvarado checks plate acceptance independently of ranking.",
+            "Bethany Rowcroft decides whether the exception blocks report release.",
+            "Repeat records retain the reason for rejecting the first run.",
+            "A missing endpoint is shown as unresolved, never as zero inhibition."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Recovery and analytical exceptions",
+      "blocks": [
+        {
+          "p": "A poorly recovered sample may give an apparently reassuring result because little compound was available in the incubation. Where recovery evidence raises that concern, the laboratory will examine the dilution record, transfer history and analytical interference before making an inhibition call. Recovery investigations are described separately from the CYP endpoint."
+        },
+        {
+          "p": "The ordinary technical repeat is intended to resolve handling uncertainty, not to establish a new bioanalytical method for every EB05 compound. If further stock characterisation or method development is required, Bethany Rowcroft will provide a written scope amendment. The client may instead supply a replacement stock with a documented preparation history."
+        },
+        {
+          "p": "An interim communication can identify completed plates and list a pending sample. It will not close the pending sample card or authorise a signed report while the unresolved endpoint could change the screening decision. Release therefore depends on the repeat disposition, even if the main plate runs have been completed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Calculation and reporting conventions",
+      "blocks": [
+        {
+          "p": "Percent inhibition will be calculated relative to the matched vehicle formation rate after the applicable blank correction. Small negative values will be retained where they arise from measurement variation; they will not be rewritten as enhancement of CYP activity. Values outside the reliable range will be qualified rather than interpreted as a precise biochemical effect."
+        },
+        {
+          "p": "The compound table will list the EB05 identifier and the accepted endpoint for every isoform, with exception notes beside the affected compound. Inhibition above 50% at 10 µM is a screening flag for possible follow-up. It is not an IC50 and cannot support an exposure margin without additional work."
+        },
+        {
+          "list": [
+            "Report screening inhibition in percent at the stated concentration.",
+            "Preserve the qualifier for missing or non-evaluable results.",
+            "Keep positive-control concentration responses distinct from compound screens.",
+            "Use the same compound order in the result table and shipment reconciliation."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Deliverables and scientific discussion",
+      "blocks": [
+        {
+          "p": "The included deliverables are a signed study report, a compound-level results table and a concise discussion of screening flags and unresolved observations. The report will lead with plate acceptance and the principal table, then describe methods, deviations and recommendations. Underlying run sheets and analytical records will remain linked to the accession reference."
+        },
+        {
+          "p": "The discussion will identify which isoforms merit confirmatory concentration responses and where a recovery limitation constrains interpretation. It will not recommend abandoning the EB05 chemistry solely on an isolated screening flag. Results from other laboratories, projected exposure and medicinal chemistry considerations can be discussed as client context but are not generated under this quotation."
+        },
+        {
+          "p": "A client query concerning transcription or identifier mapping will be resolved against the original records. Changes to interpretation or additional experiments will be distinguished from correction of the issued document. Controlled amendments will identify the report they replace."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Scheduling and communication",
+      "blocks": [
+        {
+          "p": "Laboratory scheduling will be confirmed after written acceptance, receipt of the purchase instruction and release of the test lot through the receipt gate. No fixed turnaround has been quoted in this offer. Bethany Rowcroft will agree the working dates with Elvarmere Biosciences AB once the material and assay queue are known."
+        },
+        {
+          "p": "The screen gates are receipt reconciliation, accepted plate runs, exception disposition and signed report release. At each gate the communication will state what is complete, what is blocked and what decision is needed. A date for the main plate runs is not a promise of signed report release if a sample repeat remains open."
+        },
+        {
+          "p": "Queries affecting stock identity or recovery will be raised promptly through the nominated client contact. Scientific questions are coordinated by Bethany Rowcroft, with Ines Alvarado responsible for plate acceptance records. Ravi Deshmukh may support internal laboratory coordination; this offer includes no electrophysiology work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Price and scope changes",
+      "blocks": [
+        {
+          "p": "The total fixed-scope price is {{PRJ0046:price}} for the {{PRJ0046:n_compounds}}-compound 5-isoform CYP panel described here. The offer includes routine preparation, assay controls, ordinary technical repeat work, data reduction and the stated report. It does not allocate a separate unit price to an individual isoform or compound."
+        },
+        {
+          "p": "Applicable taxes and exceptional shipping arrangements will be identified on the purchase documentation. Additional compounds, repeated partial shipments, concentration-response studies and substantial recovery method development are outside the quoted scope. No additional work will be charged without written agreement of its scope and price."
+        },
+        {
+          "p": "If Elvarmere withdraws material after work has begun, completed and irreversibly committed work will be reconciled to the agreed scope. Brindlewythe will provide that reconciliation before raising a revised invoice. Cancellation does not authorise release of incomplete measurements as accepted results."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Confidentiality and record custody",
+      "blocks": [
+        {
+          "p": "Compound identities, supplied structures, run sheets and the report will be treated as confidential study material. Access is limited to staff supporting the agreed work and its quality checks. Brindlewythe will not use the EB05 screening set in a public capability presentation or circulate the data to another client without written permission."
+        },
+        {
+          "p": "The accession record connects receipt, aliquot preparation, accepted runs, rejected runs and report amendments. Records will be retained under the agreed record-custody terms; disposal or return of remaining material will require a client instruction consistent with safe handling. The report is supplied for Elvarmere Biosciences AB and should be circulated with its methods and qualifications intact."
+        },
+        {
+          "p": "Any dispute over an endpoint will be traced to the underlying run sheet before a replacement document is issued. Scientific uncertainty is not removed by administrative acceptance of an invoice. The retained record must show the actual evidence available when the signed report was released."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Acceptance and release conditions",
+      "blocks": [
+        {
+          "p": "Elvarmere Biosciences AB may accept this quotation by returning written approval identifying {{PRJ0046:project_id}} and the quoted scope, with the purchase instruction and nominated scientific contact. Client approval of the quotation is separate from plate acceptance. Neither approval permits an unresolved recovery exception to be omitted from the report."
+        },
+        {
+          "table": {
+            "columns": [
+              "Acceptance item",
+              "Client instruction"
+            ],
+            "rows": [
+              [
+                "Quotation reference",
+                "{{PRJ0046:project_id}} rev A"
+              ],
+              [
+                "Scope",
+                "5-isoform CYP panel; {{PRJ0046:n_compounds}} EB05 compounds"
+              ],
+              [
+                "Price",
+                "{{PRJ0046:price}}"
+              ],
+              [
+                "Authorised client signatory",
+                "To be supplied with written acceptance"
+              ],
+              [
+                "Purchase instruction",
+                "To be supplied with written acceptance"
+              ],
+              [
+                "Shipment and working dates",
+                "To be agreed after acceptance"
+              ]
+            ],
+            "caption": "Acceptance schedule"
+          }
+        },
+        {
+          "p": "The issued quotation is complete. Client acceptance has not been represented as a signature in this document. Bethany Rowcroft is the commercial and scientific contact for scope clarification before the test lot is dispatched."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — quotation issued",
+      "date": "19/08/2026"
+    }
+  ]
+}
