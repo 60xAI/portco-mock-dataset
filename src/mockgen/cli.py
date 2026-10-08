@@ -129,7 +129,7 @@ def cmd_commit(a):
     if not paths:
         print("nothing to commit"); return 1
     with FileLock(str(STATE / "git.lock"), timeout=600):
-        subprocess.run(["git", "add", "--"] + paths, cwd=ROOT, check=True)
+        subprocess.run(["git", "add", "-f", "--"] + paths, cwd=ROOT, check=True)
         r = subprocess.run(["git", "commit", "-m", a.message or f"Content: {' '.join(a.file_ids)}", "--"] + paths, cwd=ROOT, capture_output=True, text=True)
         print(r.stdout.strip().splitlines()[0] if r.stdout.strip() else r.stderr.strip()[:300])
         if not a.no_push:

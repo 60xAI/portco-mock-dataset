@@ -6,5 +6,5 @@ state/claims.db*
 .DS_Store
 data/public/
 data/models/
-scratch/
+/scratch/
 state/git.lock
