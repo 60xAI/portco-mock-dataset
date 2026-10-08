@@ -1,0 +1,47 @@
+{"family": "workbook",
+ "summary": "QV.13.055 analysis notebook for Drelvessa Therapeutics SAS (DT-6 virtual library). It records how the library was prepared and docked, the protonation-state review that changed the hit ranking, and the consensus list Drelvessa ordered from. Scores are interpreted in the readout (D-002); this notebook keeps the provenance and the limits on what the docking can support.",
+ "properties": {"title": "DT-6 docking hit list analysis notebook", "subject": "Virtual library triage, DT-6", "keywords": "docking; protonation; consensus; Drelvessa"},
+ "sheets": [
+  {"name": "Cover",
+   "rows": [
+    [{"v": "Quenverell Computational Ltd", "bold": true}],
+    [{"v": "DT-6 virtual library: conformer and docking triage (analysis notebook)", "bold": true}],
+    [],
+    ["Project", "{{PRJ0075:project_id}}"],
+    ["LIMS", "{{PRJ0075:lims_id}}"],
+    ["Client", "{{PRJ0075:client_variant}}"],
+    ["Price", "{{PRJ0075:price}}"],
+    ["Turnaround (days)", {"ref": "PRJ0075:turnaround_days"}],
+    [],
+    ["Author", "Nadia Rahmani"],
+    ["Checked by", "Dr E. Ostlund"],
+    ["Data acceptance", "Accepted 06/11/2013"],
+    [],
+    ["Notebook status", "Final. Read with the DT-6 readout (D-002)."]
+   ],
+   "col_widths": {"A": 24, "B": 60}, "merged": ["A1:B1", "A2:B2"]},
+  {"name": "Protocol",
+   "rows": [
+    ["Step", "Setting", "Note"],
+    ["Ligand preparation", "Protonation states generated at pH 7.4, with a second set at pH 6.0 for ligands carrying an ionisable amine", "Second set added after the protonation-state review; see Consensus"],
+    ["Conformers", "Up to 10 per ligand, RMSD cut-off 0.5 Å", "Conformer set kept with the run files"],
+    ["Receptor grid", "Box centred on the binding site defined in the client's receptor model, 22 Å edge", "Receptor model supplied by Drelvessa; Quenverell did not alter it"],
+    ["Docking", "Best pose per ligand retained for each protonation set", "Scores in kcal/mol"],
+    ["Clustering", "Hit clustering on fingerprint similarity, Butina cut-off", "Clusters used to pick diverse hits for the candidate set"],
+    ["Reference run", "Known binders docked with the same settings before the library run", "Used to confirm the grid reproduces the expected pose"]
+   ],
+   "col_widths": {"A": 20, "B": 60, "C": 48}, "merged": ["A1:C1"], "freeze": "A2",
+   "comments": [{"cell": "B3", "text": "Check the second protonation set against the preparation log before we rerun the clusters", "author": "Dr E. Ostlund"}]},
+  {"name": "Consensus",
+   "rows": [
+    ["Item", "Record"],
+    ["Ranking basis", "Consensus of the two protonation sets, ranked on the better of the two best scores per ligand"],
+    ["Protonation review", "Ranks moved for ligands with an ionisable amine. The review was carried into the ranking before the list was issued."],
+    ["Hit ranking", "Changed from the first pass. The top of the list is the set Drelvessa ordered, as recorded in the readout."],
+    ["Procurement", "Drelvessa ordered the consensus-ranked compounds. Order details are on the engagement file."],
+    ["Interpretation limit", "Docking scores rank poses for triage only. They are not an affinity measure and were not used to claim potency."],
+    ["Open point", "None. The notebook is closed with the readout."]
+   ],
+   "col_widths": {"A": 24, "B": 92}, "freeze": "A2",
+   "comments": [{"cell": "B3", "text": "Protonation review result is in the run log, not in this sheet", "author": "Nadia Rahmani"}]}
+ ]}
