@@ -1,0 +1,61 @@
+{
+ "family": "workbook",
+ "summary": "Observation sheets for investigation OT-10-S0019, the seven-day exploratory rat dose-range finding and recovery work for Nimbravelle Medicines Inc (NM-31). Individual-animal identifiers are kept on every observation line. Doses are in mg/kg/day; dose-lot concentrations were recorded on the preparation sheet, with the older vehicle-only lots still logged in the legacy units. The findings set the dose range for Nimbravelle's planned longer study.",
+ "properties": {"title": "OT-10-S0019 NM-31 DRF and recovery observations"},
+ "sheets": [
+  {"name": "Summary", "rows": [
+    [{"v": "OT-10-S0019 NM-31 range-finding observations", "bold": true}],
+    ["Investigation", "{{PRJ0118:project_id}}"],
+    ["LIMS reference", "{{PRJ0118:lims_id}}"],
+    ["Client", "{{PRJ0118:client_variant}}"],
+    ["Study director", "Rachel Okafor", null, "Lead Naomi Takamori (Head of Toxicology)"],
+    ["Maximum tolerated dose", "{{PRJ0118:drf.mtd}}"],
+    ["Recovery phase", "Animals held after final dose for observation only; no recovery dosing"],
+    [],
+    ["Dose-range table"]
+   ],
+   "data_refs": [{"table_ref": "PRJ0118:drf", "at": "A10", "header": true}],
+   "merged": ["A1:D1"],
+   "col_widths": {"A": 26, "B": 22, "C": 30, "D": 28},
+   "comments": [{"cell": "B6", "text": "MTD wording agreed with Nimbravelle on the 03/12/2010 call. Keep the same phrasing in the report.", "author": "Rachel Okafor"}]
+  },
+  {"name": "Dose preparation", "rows": [
+    ["Dose lot records. Concentrations in mg/mL on the current template; vehicle-only lots logged as mg/ml on the legacy sheet."],
+    ["Lot", "Date prepared", "Concentration", "Reconciled by", "Status"],
+    ["DL-1", "02/12/2010", "per table", "Rebecca Hawkins", "Reconciled"],
+    ["DL-2", "02/12/2010", "µM stock, see note", "Rebecca Hawkins", "Reconciled"],
+    ["DL-3", "02/19/2010", "nM working stock, see note", "Rebecca Hawkins", "Reconciled"],
+    ["DL-4", "02/19/2010", "mg/ml", "Rebecca Hawkins", "Reconciled 02/22/2010"]
+   ],
+   "freeze": "A3",
+   "col_widths": {"A": 10, "B": 16, "C": 24, "D": 18, "E": 22},
+   "comments": [{"cell": "C4", "text": "Stock units were µM on the analytical certificate and nM on the working sheet. Left as received; the conversion is in the dose-lot reconciliation.", "author": "Victoria Bautista"}]
+  },
+  {"name": "DRF observations", "rows": [
+    ["Seven-day rat dose-range finding. Clinical observations and body-weight change, individual animal identifiers retained on the animal cards."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0118:drf", "at": "A3", "header": true}],
+   "freeze": "A4",
+   "col_widths": {"A": 18, "B": 12, "C": 30, "D": 30},
+   "number_formats": {"C4:C8": "0.0"}
+  },
+  {"name": "Recovery", "rows": [
+    ["Recovery observations. Animals held without dosing for observation; findings recorded on the animal cards."],
+    ["Animal", "Sex", "Day observed", "Finding", "Initials"],
+    ["R-01", "M", "Day 8", "No change from dosing period", "RH"],
+    ["R-02", "F", "Day 8", "Body weight recovery noted", "RH"],
+    ["R-03", "F", "Day 9", "Clinical signs resolved", "VB"]
+   ],
+   "freeze": "A3",
+   "col_widths": {"A": 12, "B": 8, "C": 14, "D": 40, "E": 10}
+  },
+  {"name": "Animal cards", "rows": [
+    ["Animal card cross-check. Each card number matched to the observation sheet. Cards retained at the archive per SOP OQ-QA-014."],
+    ["Card check by Kenji Morita, 04/08/2010. Two cards need the cage location corrected in ink."]
+   ],
+   "comments": [{"cell": "A2", "text": "Cards are complete for the 3M/3F groups. Cross-check against the DRF table is still to be done for the top dose.", "author": "Kenji Morita"}],
+   "col_widths": {"A": 90}
+  }
+ ]
+}
