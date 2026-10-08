@@ -1,0 +1,261 @@
+{
+  "family": "scan",
+  "summary": "Returned fax of signed quotation MV-2008-013 for Kelbravik Therapeutics ApS. The scope covers Caco-2 flux and efflux ratio, DMSO-dilution solubility and human fu,p by equilibrium dialysis, with initialled shipping terms.",
+  "document": {
+    "family": "document",
+    "summary": "Signed quotation for Kelbravik Therapeutics ApS covering the KT12 decision set. The returned fax includes initialled sample-shipping terms and the accepted commercial schedule.",
+    "properties": {
+      "title": "KT12 permeability, solubility and plasma-binding decision set"
+    },
+    "header": "Merrivoss Bioanalysis Inc | MV-2008-013",
+    "footer": "Merrivoss Bioanalysis Inc | Confidential",
+    "watermark": null,
+    "title_block": {
+      "title": "KT12 permeability, solubility and plasma-binding decision set",
+      "subtitle": "Final quotation",
+      "lines": [
+        "FAX TRANSMISSION | 01/11/2008 | Merrivoss Bioanalysis Inc to Kelbravik Therapeutics ApS",
+        "Signed quotation: {{PRJ0056:project_id}}",
+        "Issued: 01/10/2008 | Accepted copy returned: 01/11/2008",
+        "Study Director: Dr M. Larkin",
+        "Accepted copy retained by Helen Marchwood"
+      ]
+    },
+    "orientation": "portrait",
+    "signature_block": [
+      {
+        "name": "Megan Larkin",
+        "role": "DMPK Study Director — scope authorised",
+        "date": "01/11/2008",
+        "signed": true
+      },
+      {
+        "name": "Helen Marchwood",
+        "role": "Bioanalytical Quality Manager — accepted copy received",
+        "date": "01/11/2008",
+        "signed": true
+      }
+    ],
+    "appendices": [],
+    "tracked_changes": [],
+    "comments": [],
+    "sections": [
+      {
+        "heading": "1 Accepted scope and schedule",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Kelbravik Therapeutics ApS accepts the work described here for the KT12 cyclopropyl carboxamide test article set. Merrivoss Bioanalysis Inc will assess transport across Caco-2 monolayers, apparent solubility after dilution from DMSO and the unbound fraction in human plasma. These measurements address different constraints on exposure and will be interpreted together without treating any single assay as a prediction of oral bioavailability."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Accepted provision"
+              ],
+              "rows": [
+                [
+                  "Quotation",
+                  "{{PRJ0056:project_id}}"
+                ],
+                [
+                  "Accession reference",
+                  "{{PRJ0056:lims_id}}"
+                ],
+                [
+                  "Test articles",
+                  "{{PRJ0056:n_compounds}} KT12 compounds"
+                ],
+                [
+                  "Assays",
+                  "Caco-2 flux and efflux ratio; DMSO-dilution solubility; fu,p by equilibrium dialysis"
+                ],
+                [
+                  "Fixed price",
+                  "{{PRJ0056:price}}"
+                ],
+                [
+                  "Turnaround",
+                  "{{PRJ0056:turnaround_days}} calendar days"
+                ]
+              ],
+              "caption": "Table 1 Accepted scope"
+            }
+          },
+          {
+            "p": "The planned start is 02/18/2008, the interim communication is scheduled for 03/05/2008 and completion is planned for 03/21/2008. This schedule assumes a complete accession lot, usable stocks and agreement of the receipt information in Section 4. If receipt or matrix acceptance prevents the planned start, Dr M. Larkin will advise the client before the laboratory schedules replacement work."
+          },
+          {
+            "p": "The price includes routine controls, analytical suitability, assay worksheet review and a consolidated DMPK memo. Additional test articles, alternative matrices, transporter mechanism experiments and formulation comparisons require separate written instructions. No extension is authorised by the signatures on this copy."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Matrices and proposed methods",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Caco-2 flux and efflux ratio will be measured in both directions at a proposed concentration of 10 µM, using buffered compartments at pH 7.4. Monolayer integrity, vehicle response and reference transport conditions will be checked on each assay worksheet. Apparent permeability will be expressed in 10^-6 cm/s; recovery and the B-A to A-B ratio will be recorded separately."
+          },
+          {
+            "p": "A ratio will be calculated only where both directions support the comparison. Receiver measurements below the analytical limit, poor mass balance or loss of monolayer integrity will be qualified rather than converted into a precise transport estimate. The memo will identify the affected direction and the reason for any exclusion. An elevated ratio alone will not establish a transporter mechanism."
+          },
+          {
+            "p": "DMSO-dilution solubility will use PBS at pH 7.4 and a common dilution procedure. Concentration will be expressed in µM after equilibration and separation of undissolved material. Stock strength, final solvent content and visible precipitation will be recorded so that an analytical recovery problem can be distinguished from an apparent solubility limitation."
+          },
+          {
+            "p": "fu,p by equilibrium dialysis will use human plasma with a 4 h incubation at 37 °C. Plasma and buffer compartments will be analysed together using matrix-matched controls and recovery checks. Bound and unbound fractions will be reported with recovery, distinguishing a quantified unbound fraction from a value constrained by the buffer-side analytical limit."
+          },
+          {
+            "p": "Analytical sensitivity is analyte-dependent. Dr J. Quintana will review response in each matrix before quantitative comparisons are accepted. The applicable analytical limit and any dilution requirement will accompany the measurement; no universal detection limit is promised in this quotation.",
+            "style": "note"
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Matrix acceptance and reporting",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Matrix acceptance precedes interpretation. The assay worksheet will record the test article identifier, stock preparation, incubation conditions, controls and excluded measurements. Helen Marchwood will check that exclusions and repeats are traceable and that the DMPK memo agrees with the accepted analytical record. This review does not certify client-supplied identity or purity."
+          },
+          {
+            "list": [
+              "Accession inventory linking client identifiers to local analyte cards.",
+              "Compound tables for all three assays, including units, recovery and qualifications.",
+              "Methods account identifying matrix, incubation conditions and controls.",
+              "DMPK memo separating transport, solubility and plasma-binding observations.",
+              "Interim communication identifying receipt concerns and unresolved measurements."
+            ],
+            "ordered": false
+          },
+          {
+            "p": "The interim communication supports discussion of the exposure gate but does not replace the completed memo. Dr M. Larkin will identify observations ready for interpretation and those still dependent on repeat analysis or client clarification. Qualified observations will retain their limitations when transferred into a client discussion."
+          },
+          {
+            "p": "Transport and solubility will be considered together because precipitation in the donor compartment can affect an apparent permeability estimate. Human plasma binding will be discussed separately before an exposure comparison. High binding alone does not demonstrate inadequate exposure, and low apparent permeability does not establish the cause of an in vivo result."
+          },
+          {
+            "p": "Animal dosing, formulation development and exposure modelling are outside scope. A recommendation for follow-up in the completed memo carries no commitment to perform further work. Kelbravik Therapeutics ApS retains responsibility for integrating the findings with potency, safety and its development criteria."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Sample-shipping terms — initialled",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Send the inventory and stock description to Dr M. Larkin before dispatch. Each container must carry the client compound identifier. The accompanying inventory must state chemical form, concentration, solvent, storage conditions and known instability or handling restrictions. A changed stock or salt form must be identified explicitly; it must not be substituted under an unchanged analyte card."
+          },
+          {
+            "table": {
+              "columns": [
+                "Condition on returned copy",
+                "Initialled acknowledgement"
+              ],
+              "rows": [
+                [
+                  "Inventory supplied before dispatch",
+                  "H. Marchwood / client initials present"
+                ],
+                [
+                  "Containers individually labelled and sealed",
+                  "H. Marchwood / client initials present"
+                ],
+                [
+                  "Storage and handling instructions enclosed",
+                  "H. Marchwood / client initials present"
+                ],
+                [
+                  "Dispatch notice sent to Dr M. Larkin",
+                  "H. Marchwood / client initials present"
+                ],
+                [
+                  "Receipt discrepancies resolved before assay release",
+                  "H. Marchwood / client initials present"
+                ]
+              ],
+              "caption": "Table 2 Initialled shipping conditions"
+            }
+          },
+          {
+            "p": "Use packaging appropriate to the declared material and solvent. Kelbravik Therapeutics ApS is responsible for accurate transport declarations and documentation for shipment from Denmark to the receiving laboratory. Customs charges and carrier delays are outside the fixed scope. A dispatch notice is required so that receiving staff can arrange appropriate storage on arrival."
+          },
+          {
+            "p": "Merrivoss will reconcile received containers against the inventory and record damage, leakage or temperature concerns. Discrepancies will be referred to the client before affected material is used. Unaffected material may proceed only where the study director considers that a coherent comparison across the test article set can be preserved."
+          },
+          {
+            "p": "These initials accept the shipping terms; they do not confirm that samples have arrived. The planned start remains dependent on suitable receipt. Return or disposal of unused material will be agreed in writing after completion.",
+            "style": "note"
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Commercial terms and changes",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The accepted fixed price is {{PRJ0056:price}} for {{PRJ0056:n_compounds}} compounds. Routine repeats needed to resolve laboratory control failure are included. Repetition caused by replacement material, a revised client instruction or an added concentration range will be discussed before additional work is authorised."
+          },
+          {
+            "p": "Payment is due within 30 days of invoice. Invoices will reference {{PRJ0056:project_id}} and Kelbravik Therapeutics ApS. The client must communicate any purchasing reference before invoicing. A purchasing reference does not alter the accepted scientific scope; instructions affecting cost and scheduling must be reconciled separately."
+          },
+          {
+            "p": "A change request must identify the affected test articles, assay and deliverable. Dr M. Larkin will document the scientific effect, and a commercial amendment will be issued where needed. A telephone discussion may clarify the request, but additional chargeable work requires a retained written approval."
+          },
+          {
+            "p": "Either party may request suspension in writing. Merrivoss will stop new experimental work as soon as practicable, preserve material under agreed conditions and report the status of completed and committed work. Work already performed and unavoidable commitments will be reconciled with the client. Restart will depend on laboratory capacity and material condition."
+          },
+          {
+            "p": "Client information and results will be confidential and circulated only to staff involved in delivery and client-designated recipients. Analytical records and assay worksheets will remain traceable to {{PRJ0056:lims_id}}. The client will receive the completed DMPK memo; the laboratory accession record remains under local document control."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "6 Signed acceptance and controlled copy",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "This returned fax accepts quotation {{PRJ0056:project_id}}, issued on 01/10/2008, including the scope, fixed price, planned schedule and initialled shipping conditions. The accepted copy was received on 01/11/2008. Preparation for the planned study is authorised; experimental work remains subject to suitable receipt and matrix acceptance."
+          },
+          {
+            "p": "For Kelbravik Therapeutics ApS: authorised client signature present on the returned original, dated 01/11/2008. The signatory name is not transcribed in this copy. Client initials beside the sample-shipping conditions form part of the accepted quotation."
+          },
+          {
+            "p": "Dr M. Larkin is responsible for the scientific scope and interpretation discussion. Dr J. Quintana is responsible for analytical suitability across the matrices. Helen Marchwood retains the accepted copy and checks that laboratory instructions reflect the signed scope. A missing container, changed stock or revised identifier must be resolved before the affected assay worksheet is released."
+          },
+          {
+            "p": "Retain every page together, including the fax heading and shipping schedule. This returned copy supersedes the unsigned issue for acceptance purposes; scope and fixed price are unchanged. A subsequent amendment must reference this quotation and retain its own written approval."
+          },
+          {
+            "p": "Assumptions: the material is suitable for preparation in the stated solvent; stock identity and concentration are supplied by the client; identifiers will be consistent across assays. This quotation contains no experimental results and makes no assurance that a test article will pass the client’s exposure gate.",
+            "style": "small"
+          }
+        ]
+      }
+    ]
+  },
+  "scan": {
+    "skew_deg": 0.45,
+    "noise": 0.16,
+    "blur": 0.25,
+    "stamp": "RECEIVED 01/11/2008",
+    "handwriting": "Shipping terms initialled — HM",
+    "pages": null
+  }
+}
