@@ -1,0 +1,149 @@
+{
+  "family": "document",
+  "summary": "Final quote to Jelmorath Therapeutics offering {{PRJ0083:price}} Virtual library triage conditional on authorised access to the unreleased library. No delivery schedule or analytical outcome is represented; the quote is preserved as the only deliverable after the client chose an internal modelling team.",
+  "properties": {
+    "title": "JT-8 Virtual library triage: scoping quote"
+  },
+  "header": "Quenverell Computational Ltd, a Tarnovell company",
+  "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "JT-8 Virtual library triage: scoping quote",
+    "subtitle": "Final proposal",
+    "lines": [
+      "Proposal: {{PRJ0083:project_id}}",
+      "Accession: {{PRJ0083:lims_id}}",
+      "Client: {{PRJ0083:client_variant}}",
+      "Date: 09 Sep 2025",
+      "Prepared by Dr T. Zawiernicki, Head of Bioinformatics"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 JT-8 question and offer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Jelmorath Therapeutics seeks a scoping offer for Virtual library triage of the JT-8 unreleased chemical library. Quenverell proposes an engagement that links library provenance, preparation assumptions and candidate ranking so that the client can choose an experimentally testable candidate set. The modelling question and the permitted library representation must be agreed before work starts."
+        },
+        {
+          "p": "This quote dated 09 Sep 2025 offers {{PRJ0083:project_id}} at a fixed fee of {{PRJ0083:price}}. No analytical start, interim date or completion date is committed here. Library access is a condition of execution, and the proposed route must not be read as evidence that any library structures have been received or screened."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence or requirement",
+              "Interpretation",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Library access",
+                "Client permission required",
+                "Confirm a usable authorised representation"
+              ],
+              [
+                "Virtual library triage",
+                "Proposed work only",
+                "Begin after scope and inputs are agreed"
+              ],
+              [
+                "Schedule",
+                "Not committed in this quote",
+                "Agree after data-access decision"
+              ]
+            ],
+            "caption": "Table 1. Decision and scope summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Library-access assumptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Jelmorath Therapeutics would need to authorise access to the chemical representations required for preparation and ranking. Original parent identifiers, stereochemical specification and relevant availability information should accompany the agreed library snapshot. The unreleased status of the library is a substantive scope constraint rather than an administrative detail to be settled after modelling."
+        },
+        {
+          "p": "A summary of library size or a list of names without usable representations would not support the proposed triage. If the client chooses to retain the library entirely in-house, this external engagement cannot proceed on the stated basis. Quenverell does not assume access through a third party, substitute public structures or invent chemical representations to bypass that decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Proposed data acceptance and preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "After authorisation, Nadia Rahmani would establish an accepted input inventory linked to {{PRJ0083:lims_id}}. The route would check identifier uniqueness, representation completeness and the distinction between parent compounds and prepared states. Ambiguous identity or unspecified stereochemistry would remain visible rather than being normalised into an unsupported assumption."
+        },
+        {
+          "p": "Preparation would document charge-state, tautomer and conformer choices as appropriate to the agreed question. Prepared states would map back to original parent identifiers. Data acceptance establishes whether the proposed comparison is analysable; it does not guarantee that a useful hit will emerge or establish that the library contains active compounds."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Virtual library triage route and uncertainty",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed triage would use an agreed modelling context and retain its preparation and scoring dependencies in an analysis notebook. Where docking is appropriate, scores would be expressed in kcal/mol and interpreted as computational ranking outputs. State sensitivity and pose plausibility would accompany parent-level prioritisation rather than being hidden behind a single score order."
+        },
+        {
+          "p": "The route would distinguish chemically distinct alternatives and identify preparation-dependent recommendations. It would not convert docking scores into measured affinity or claim mechanism or selectivity. Fiona Macrae would be the computational chemistry contact; Tomasz Zawiernicki would retain engagement responsibility. Experimental confirmation would remain the client next step after any completed ranking."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Proposed deliverables and commercial basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The fixed fee is {{PRJ0083:price}} for the agreed Virtual library triage scope. Proposed deliverables are a ranked candidate list with parent-state provenance, a client report explaining uncertainty and a reproducibility route from the accepted library snapshot. No synthesis, procurement, experimental testing or licence to otherwise unavailable chemical data is included."
+        },
+        {
+          "p": "No turnaround is specified in this quote. Timing would be agreed after the library-access decision and confirmation of usable inputs. An acceptance model gate would precede execution, followed by an agreed interim discussion and final handover. A material change to the library representation or modelling question would require a scope discussion before additional work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Authorisation and decision route",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "To proceed, Jelmorath Therapeutics should confirm that the unreleased library may be supplied for this engagement, identify the authorised snapshot and agree the biological modelling question. The client should also nominate the route for accepting analytical assumptions and receiving the final candidate list. This document is the scoping offer, not an executed analysis."
+        },
+        {
+          "p": "If the library remains in-house, the quoted external route should be closed without claiming a screening deliverable. The proposal does not require the client to release confidential chemical material merely to accept the fee estimate. Quenverell will await an explicit access and authorisation decision before any analytical start or schedule is agreed."
+        }
+      ]
+    }
+  ],
+  "appendices": [],
+  "signature_block": [
+    {
+      "name": "Tomasz Zawiernicki",
+      "role": "Head of Bioinformatics",
+      "date": "09 Sep 2025",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
