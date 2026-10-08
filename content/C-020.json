@@ -1,54 +1,192 @@
-{"family": "workbook",
- "summary": "Assay worksheet for the KT12 protease analogue set run in human and rat liver microsomes and in cryopreserved hepatocytes at 1 µM. Matrix acceptance was recorded before the depletion values were released. Hepatocyte turnover picks up a clearance route that the microsomal screen does not show, which is why the shortlist was revisited.",
- "properties": {"title": "MV-2021-284 assay worksheet"},
- "sheets": [
-  {"name": "Summary", "rows": [
-    [{"v": "MV-2021-284 assay worksheet", "bold": true}],
-    ["Project", "MV-2021-284"],
-    ["LIMS reference", "M21/BIO/06539"],
-    ["Client", "Kelbravik Therapeutics ApS"],
-    ["Series", "SER12 (KT12 cyclopropyl carboxamide)"],
-    ["Compounds tested", "{{PRJ0063:n_compounds}}"],
-    ["Assays", "Liver microsomal stability (0.5 mg/mL protein, 1 µM); hepatocyte stability (0.5×10^6 cells/mL, 1 µM)"],
-    [],
-    ["Status", "Final. Read with the paired readout (MV-2021-284 R1), not on its own."],
-    ["Prepared by", "Javier Quintana", null, "12/20/2021"],
-    ["Reviewed by", "Helen Marchwood", null, "QC'd 12/20/2021"]
-   ],
-   "col_widths": {"A": 22, "B": 64, "C": 4, "D": 16},
-   "merged": ["A1:D1"]},
-  {"name": "Accession lots", "rows": [
-    [{"v": "Accession-lot mapping", "bold": true}],
-    ["Accession lot", "Matrix", "Lot description", "Received", "Storage"],
-    ["M21/BIO/06539-01", "Pooled human liver microsomes", "Human arm, microsomal screen", "11/16/2021", "-80 °C"],
-    ["M21/BIO/06539-02", "Pooled rat liver microsomes", "Rat arm, microsomal screen", "11/16/2021", "-80 °C"],
-    ["M21/BIO/06539-03", "Cryopreserved human hepatocytes", "Human arm, hepatocyte screen", "11/16/2021", "Liquid nitrogen vapour"],
-    ["M21/BIO/06539-04", "Cryopreserved rat hepatocytes", "Rat arm, hepatocyte screen", "11/16/2021", "Liquid nitrogen vapour"],
-    [],
-    ["Lot numbers follow the project LIMS reference. Matrix lots are not reused across projects."]
-   ],
-   "col_widths": {"A": 20, "B": 34, "C": 34, "D": 14, "E": 24},
-   "freeze": "A3",
-   "comments": [{"cell": "A3", "text": "Check the donor pool lots against the receipt sheet before this is filed", "author": "Helen Marchwood"}]},
-  {"name": "Microsomal CLint", "rows": [
-    [{"v": "Liver microsomal stability, human and rat", "bold": true}],
-    ["0.5 mg/mL protein, 1 µM. Runs passed matrix acceptance before release."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0063:mic_stab", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 24, "C": 14, "D": 20, "E": 14},
-   "freeze": "A5",
-   "chart": {"kind": "bar", "ref": "PRJ0063:mic_stab", "column": 1, "title": "Human CLint (µL/min/mg)"},
-   "chart_at": "H4"},
-  {"name": "Hepatocyte CLint", "rows": [
-    [{"v": "Cryopreserved hepatocyte stability, human and rat", "bold": true}],
-    ["1 µM, 0.5×10^6 cells/mL. Turnover here is the reason the shortlist was revisited."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0063:hep_stab", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 30, "C": 26},
-   "freeze": "A5",
-   "comments": [{"cell": "A2", "text": "See the readout for the clearance route discussion. Do not quote these values without the matrix acceptance sheet.", "author": "Javier Quintana"}],
-   "chart": {"kind": "bar", "ref": "PRJ0063:hep_stab", "column": 1, "title": "Human CLint (µL/min/10^6 cells)"},
-   "chart_at": "F4"}
- ]}
+{
+  "family": "workbook",
+  "summary": "Assay worksheet for the KT12 protease analogue set run in human and rat liver microsomes and cryopreserved hepatocytes at 1 µM. CLint values retain their matrix-specific units and should not be compared numerically without scaling. Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist; the depletion results alone do not identify the responsible enzyme.",
+  "properties": {
+    "title": "MV-2021-284 assay worksheet"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc, a Tarnovell company | MV-2021-284 assay worksheet",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "MV-2021-284"
+        ],
+        [
+          "LIMS reference",
+          "M21/BIO/06539"
+        ],
+        [
+          "Client",
+          "Kelbravik Therapeutics ApS"
+        ],
+        [
+          "Series",
+          "SER12 (KT12 cyclopropyl carboxamide)"
+        ],
+        [
+          "Compounds tested",
+          "{{PRJ0063:n_compounds}}"
+        ],
+        [
+          "Assays",
+          "Liver microsomal stability (0.5 mg/mL protein, 1 µM); hepatocyte stability (0.5×10^6 cells/mL, 1 µM)"
+        ],
+        [],
+        [
+          "Status",
+          "Final. Read with the paired readout (MV-2021-284 R1), not on its own."
+        ],
+        [
+          "Prepared by",
+          "Javier Quintana",
+          null,
+          "12/20/2021"
+        ],
+        [
+          "Reviewed by",
+          "Helen Marchwood",
+          null,
+          "12/20/2021"
+        ]
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 64,
+        "C": 4,
+        "D": 16
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Accession lots",
+      "rows": [
+        [
+          {
+            "v": "Accession and matrix source records",
+            "bold": true
+          }
+        ],
+        [
+          "Record",
+          "Matrix",
+          "Source to consult"
+        ],
+        [
+          "{{PRJ0063:lims_id}}",
+          "Human and rat liver microsomes",
+          "Receipt and matrix-lot records linked to the study accession"
+        ],
+        [
+          "{{PRJ0063:lims_id}}",
+          "Cryopreserved human and rat hepatocytes",
+          "Receipt and matrix-lot records linked to the study accession"
+        ],
+        [],
+        [
+          "Individual matrix lots and storage history are recorded in the receipt records; the study accession is not a matrix-lot identifier."
+        ]
+      ],
+      "col_widths": {
+        "A": 20,
+        "B": 34,
+        "C": 34,
+        "D": 14,
+        "E": 24
+      },
+      "freeze": "A3",
+      "comments": [
+        {
+          "cell": "A3",
+          "text": "Use the receipt records for donor-pool and matrix-lot identities.",
+          "author": "Helen Marchwood"
+        }
+      ]
+    },
+    {
+      "name": "Microsomal CLint",
+      "rows": [
+        [
+          {
+            "v": "Liver microsomal stability, human and rat",
+            "bold": true
+          }
+        ],
+        [
+          "0.5 mg/mL protein, 1 µM. Human and rat CLint are reported per mg microsomal protein; matrix acceptance documentation is retained in the study records."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0063:mic_stab",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 24,
+        "C": 14,
+        "D": 20,
+        "E": 14
+      },
+      "freeze": "A5",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0063:mic_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/mg)"
+      },
+      "chart_at": "H4"
+    },
+    {
+      "name": "Hepatocyte CLint",
+      "rows": [
+        [
+          {
+            "v": "Cryopreserved hepatocyte stability, human and rat",
+            "bold": true
+          }
+        ],
+        [
+          "1 µM, 0.5×10^6 cells/mL. Turnover here is the reason the shortlist was revisited."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0063:hep_stab",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 30,
+        "C": 26
+      },
+      "freeze": "A5",
+      "comments": [
+        {
+          "cell": "A2",
+          "text": "See the paired readout for the clearance-route discussion and the study records for matrix acceptance. Retain the per-million-cells units when quoting hepatocyte CLint.",
+          "author": "Javier Quintana"
+        }
+      ],
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0063:hep_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/10^6 cells)"
+      },
+      "chart_at": "F4"
+    }
+  ]
+}
