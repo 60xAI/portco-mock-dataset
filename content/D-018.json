@@ -1,0 +1,75 @@
+{
+  "family": "scan",
+  "summary": "Signed scope for QV.18.027, dated 06 March 2018, covering Virtual library triage and diversity selection for Vesselquarn Medical Research Trust. The agreement records the fee, data acceptance gates and delivery responsibilities before the engagement starts. Callum Strachan's retained copy carries a handwritten delivery-contact instruction beside the acceptance.",
+  "document": {
+    "family": "document",
+    "summary": "Final signed scope for the VM-A virtual library engagement.",
+    "properties": {"title": "QV.18.027 Signed scope"},
+    "header": "QV.18.027 | Signed scope | 06/03/2018",
+    "footer": "Quenverell Computational Ltd | Confidential",
+    "title_block": {
+      "title": "VM-A: Virtual library triage and diversity selection",
+      "subtitle": "Quenverell Computational Ltd | Signed scope of engagement",
+      "lines": ["Client: Vesselquarn Medical Research Trust", "Reference: {{PRJ0079:project_id}} | {{PRJ0079:lims_id}}", "Quotation issued: 05/03/2018 | Acceptance: 06/03/2018", "Prepared by Callum Strachan, Scientific Partnerships Manager", "Agreed fee: {{PRJ0079:price}}"]
+    },
+    "sections": [
+      {
+        "heading": "1. Biological question and agreed purpose",
+        "blocks": [
+          {"p": "Vesselquarn Medical Research Trust wishes to select a purchasable, chemically varied candidate set for its VM-A screening work. The engagement will ask which library entries merit experimental testing when computational ranking, chemical diversity and the reliability of the underlying information are considered together. A high docking rank alone will not be treated as evidence of biological activity. The purpose is to make a defensible purchase decision and leave an analysis trail that can be revisited when experimental observations become available."},
+          {"table": {"columns": ["Agreement item", "Signed scope"], "rows": [["Engagement", "{{PRJ0079:project_id}}"], ["Data accession", "{{PRJ0079:lims_id}}"], ["Service", "Virtual library triage and diversity selection"], ["Fee", "{{PRJ0079:price}}"], ["Planned duration", "{{PRJ0079:turnaround_days}} days"], ["Planned start", "16/03/2018"], ["Interim model gate", "27/04/2018"], ["Planned completion", "08/06/2018"]], "caption": "Commercial and scheduling particulars accepted with this scope"}},
+          {"p": "The assignment concerns virtual entries and analysis files. It does not include receipt of physical test items, experimental screening or the placing of purchase orders. Vesselquarn Medical Research Trust will retain responsibility for the final purchase and for the experimental interpretation of the chosen material. Quenverell will document why entries are retained, deferred or removed so that a shortlist can be understood without relying on the rank column alone."},
+          {"p": "This signed scope supersedes informal discussion of the work. The quotation date and acceptance date are distinct from the planned scientific start. Work will commence once the agreed source material has passed data acceptance and the target assumptions have been recorded. If a necessary input arrives late, the effect on the dated model gates will be discussed before the analysis is extended."}
+        ]
+      },
+      {
+        "heading": "2. Inputs, provenance and data acceptance",
+        "blocks": [
+          {"p": "Vesselquarn Medical Research Trust will provide the intended biological question, the available target information and the library export intended for purchase consideration. Each received data drop will be associated with its source, receipt date and declared version. Where the same entry occurs in different exports, the analysis notebook will preserve the connection to the original identifiers rather than silently replacing them with a new label. Availability information will be treated as a dated statement, not a promise that material remains obtainable at the time of ordering."},
+          {"list": ["Record the origin of structures and target information, including any restrictions on their use.", "Check that structures can be interpreted and that the relationship between a structure and its purchase identifier is retained.", "Identify duplicate entries, salts, mixtures and ambiguous representations before ranking.", "Record unresolved stereochemistry and relevant protonation assumptions explicitly.", "Agree the interpretation of the target card and the intended screening context before Docking and hit clustering begins."]},
+          {"p": "Nadia Rahmani will maintain the provenance register and the data acceptance decisions. Queries that affect the identity of a purchase entry will be returned for resolution. An entry may remain in the source register while being excluded from a modelling step; those are different decisions and will be shown separately. Corrections will be received as a new data drop, with the earlier version retained so that the reason for a changed selection can be reconstructed."},
+          {"p": "Target information will be assessed for suitability to the biological question. Missing experimental detail, uncertain binding-site definition or incompatible source assumptions will be recorded before a model is used to support selection. Quenverell may recommend a narrower interpretation where the available information does not justify the original question. Such a recommendation will be discussed with Vesselquarn Medical Research Trust at the first model gate rather than concealed in the final technical note."}
+        ]
+      },
+      {
+        "heading": "3. Analysis plan and selection rules",
+        "blocks": [
+          {"p": "Tomasz Zawiernicki will oversee the scientific interpretation, with Emil Ostlund undertaking the computational analysis and Nadia Rahmani maintaining reproducibility records. Virtual library triage will establish an interpretable candidate set before docking. Preparation choices will be written into the analysis notebook, including structure normalisation, treatment of uncertain states and reasons for excluding entries. The original client identifiers will remain available throughout the workflow."},
+          {"p": "Docking and hit clustering will be used to organise candidates for inspection. Scores will be reported in kcal/mol where applicable and will be interpreted within the particular model and preparation procedure used. They will not be converted into an experimental affinity claim. Representative poses will be considered alongside the chemical plausibility of the proposed interaction and any uncertainty in the target model. A favourable score that depends on an unsupported preparation choice will be qualified or set aside."},
+          {"p": "Selection will balance the model ranking against diversity. Closely related entries will be grouped so that a heavily represented aromatic chemotype does not dominate the purchase recommendation merely by occupying many neighbouring ranks. Cluster membership and the reason for selecting a representative will be retained. Where a lower-ranked representative gives useful coverage of a distinct candidate set, the final technical note will state that rationale rather than presenting it as the highest-scoring entry."},
+          {"list": ["Preserve the source entry and the prepared representation together.", "Record model assumptions and the version used for each analysis.", "Inspect representatives before forming the purchase shortlist.", "Document diversity-based substitutions and deferred candidates.", "Separate computational preference, purchase availability and experimental suitability in the recommendation."]},
+          {"p": "The selection rules will be agreed at the interim model gate. If the ranking changes materially under a reasonable alternative preparation, that sensitivity will be described. Quenverell will not claim that the selected candidates exhaust the useful chemistry in the source library. The shortlist is a practical recommendation under the agreed information and constraints, intended to support an initial experimental screen."}
+        ]
+      },
+      {
+        "heading": "4. Deliverables and model gates",
+        "blocks": [
+          {"p": "The planned start is 16/03/2018. The interim discussion on 27/04/2018 will address data acceptance, target assumptions, the preliminary clustering and the proposed basis for selection. The discussion is a model gate: Vesselquarn Medical Research Trust will be asked to resolve choices that materially affect the purchase recommendation. An unresolved scientific assumption will be recorded as an open limitation, with its consequences stated before the final analysis is prepared."},
+          {"table": {"columns": ["Delivery", "Content", "Purpose"], "rows": [["Interim technical note", "Source register, acceptance issues, modelling assumptions and preliminary cluster interpretation", "Agree the selection basis"], ["Purchase shortlist", "Source identifiers, representative selection reasons and availability qualifications", "Support the client's purchase decision"], ["Final technical note", "Analysis steps, model limitations, diversity rationale and deferred candidates", "Explain the recommendation"], ["Reproducibility appendix", "Preparation choices, analysis versions and links to retained analysis notebooks", "Permit reconstruction of the work"]], "caption": "Deliverables included in the fee"}},
+          {"p": "Final delivery is planned for 08/06/2018, within the agreed {{PRJ0079:turnaround_days}}-day engagement. The shortlist will be accompanied by a readable explanation of its composition. Entries removed because of identity problems will be distinguished from those deferred for diversity or model reasons. Any outstanding availability question will remain visible so that the client can resolve it before ordering. Quenverell will provide the selection files in a form suitable for reconciliation with the client's original library export."},
+          {"p": "The client review will establish whether the delivered files open correctly, preserve the required source identifiers and contain the agreed analysis explanation. It will not require the computational prediction to be confirmed by experimental activity. Questions about the interpretation of the delivered shortlist are included in the closing discussion. New experimental data, a replacement library or a revised biological question would constitute further work and will be scoped separately."}
+        ]
+      },
+      {
+        "heading": "5. Commercial boundaries and handling of changes",
+        "blocks": [
+          {"p": "The agreed fee for the scope described here is {{PRJ0079:price}}. It covers Virtual library triage, Docking and hit clustering, diversity selection and the stated delivery files. The fee does not include compound acquisition, physical sample handling or experimental assays. Vesselquarn Medical Research Trust will make its own purchasing arrangements after considering the shortlist and any availability qualifications."},
+          {"p": "Callum Strachan will coordinate commercial correspondence and changes to scope. Scientific questions that alter the target card or the selection basis will be referred to Tomasz Zawiernicki. Nadia Rahmani will record an agreed change against the accession so that the analysis notebook and the delivery description remain aligned. A request received in conversation will not silently replace an accepted selection rule; its effect will be written down and returned to the client for agreement."},
+          {"p": "Changes to the library, target assumptions or deliverables may require the schedule and fee to be reconsidered. Quenverell will describe the proposed extra work and its consequences before proceeding. Where an input cannot pass data acceptance, the immediate task will be to identify the missing clarification rather than to force an apparently complete ranking from uncertain material. Both parties may agree a narrower deliverable if that better serves the biological question."},
+          {"p": "Client material and engagement outputs will be handled as confidential. Access within Quenverell will be limited to the staff supporting this engagement. The final technical note and its supporting analysis records will identify the versions used for delivery. The signed scope will remain with the commercial record; a retained personal copy is for reference and does not replace that record."}
+        ]
+      },
+      {
+        "heading": "6. Acceptance and delivery instructions",
+        "blocks": [
+          {"p": "Vesselquarn Medical Research Trust accepts the scope, fee and planned model gates set out in this document for {{PRJ0079:project_id}}. Acceptance authorises preparation for the engagement, subject to data acceptance before the planned start. The scientific outputs are recommendations for experimental selection and carry the limitations described above."},
+          {"p": "Client acceptance: signed on the original for Vesselquarn Medical Research Trust, 06/03/2018. The handwritten signature is retained in this scan; the signatory's name is not transcribed on this reference copy. Quenverell acceptance: Callum Strachan, Scientific Partnerships Manager, 06/03/2018."},
+          {"p": "Delivery correspondence will be coordinated through Callum Strachan. The delivery recipient and the route for confidential transfer are to be confirmed through the client correspondence before files are sent. A commercial contact is not assumed to be the scientific recipient. The annotation beside the signature records the internal delivery contact for this retained copy."},
+          {"p": "Reference copy retained by C. Strachan. Keep with the accepted quotation when checking the scope discussed on the call; send the clean delivery files from the engagement record. The handwritten delivery reminder does not amend the scientific work or the agreed fee."}
+        ]
+      }
+    ],
+    "signature_block": [{"name": "Callum Strachan", "role": "Scientific Partnerships Manager", "date": "06/03/2018"}]
+  },
+  "scan": {"skew_deg": 0.6, "noise": 0.18, "blur": 0.35, "stamp": "ACCEPTED 06 MAR 2018", "handwriting": "Delivery contact: Callum Strachan. Confirm client recipient before sending. C.S.", "pages": null}
+}
