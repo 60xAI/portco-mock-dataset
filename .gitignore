@@ -8,3 +8,4 @@ data/public/
 data/models/
 /scratch/
 state/git.lock
+.serena/
