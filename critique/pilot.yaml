@@ -1,0 +1,209 @@
+- file_id: B-008
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "slides 4, 6 and 7"
+      problem: "Ranking claims one compound has the fewest panel hits above 50%, but AP02-01410 and AP02-01430 each have one. Their primary IC50s are 617 and 144 nM, so potency is not interchangeable; no nominated or rejected compound is named."
+      suggested_change: "Name the reserve selected by Avernelwick, show primary IC50 and panel-hit count for each candidate, and explain the tie-break. Identify both rejected compounds and the evidence for rejection."
+    - severity: fix
+      area: consistency
+      where: "slide 9"
+      problem: "The completed project's outcome is that Avernelwick selected a reserve, but the final readout still leaves Avernelwick to choose one."
+      suggested_change: "Record the selected compound and next chemistry action; label any earlier recommendation separately from the final client decision."
+    - severity: fix
+      area: science
+      where: "slide 3"
+      problem: "Z' >= 0.6, universal control acceptance, no signal interference and two dispensing-error repeats are asserted without run identifiers, control results, acceptance limits or the repeated compound IDs."
+      suggested_change: "Provide the underlying plate-acceptance summary and repeat identifiers from available study records; otherwise qualify these assertions as unsubstantiated rather than inventing acceptance results."
+    - severity: minor
+      area: realism
+      where: "slides 4-6"
+      problem: "The table and chart labels are small relative to the large unused slide areas; the linear IC50 chart makes low-nM compounds difficult to distinguish."
+      suggested_change: "Enlarge tables and labels and show a ranked log-scale potency chart or a focused shortlist alongside the full screening set."
+- file_id: B-046
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "pages 4, 6 and 7"
+      problem: "The export preserves the unsupported unique ranking: AP02-01410 and AP02-01430 both have one panel hit above 50%, with primary IC50s of 617 and 144 nM. It never names the reserve to progress."
+      suggested_change: "Export the corrected B-008 readout with named candidates, a justified tie-break and an explicit selected reserve."
+    - severity: fix
+      area: consistency
+      where: "page 9"
+      problem: "The final export says Avernelwick is still to choose, although the completed project records that a reserve was selected."
+      suggested_change: "Carry the completed client decision into the source deck and its PDF export."
+    - severity: fix
+      area: science
+      where: "page 3"
+      problem: "The PDF repeats unsupported numerical plate-acceptance and repeat-run claims without showing traceable controls or repeat identifiers."
+      suggested_change: "Carry an evidenced plate-acceptance summary from the source deck into the export."
+    - severity: minor
+      area: realism
+      where: "pages 4-6"
+      problem: "Small table and chart labels remain difficult to read at normal full-page viewing despite extensive unused space."
+      suggested_change: "Enlarge the source slide tables and chart labels before exporting again."
+- file_id: A-001
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "slide 3 and slide 7"
+      problem: "The route narrative centres on N-alkylation and its regioisomers, but the displayed pyrrolopyridine cores retain an N-H. No route scheme or regioisomer pair explains the claimed separation or NOE assignment."
+      suggested_change: "Align the route account with the delivered structures. Show the actual regioisomer pair and diagnostic NOE relationship, or remove the unsupported N-alkylation explanation."
+    - severity: fix
+      area: consistency
+      where: "slide 6"
+      problem: "'Analogues delivered (13-24)' contains only three notes, with no compound IDs or delivery results for the second half of the set."
+      suggested_change: "Show compounds 13-24 from the supplied synthesis table with the same columns as slide 5, moving the notes below it."
+    - severity: minor
+      area: science
+      where: "slides 5 and 6"
+      problem: "'Purity LCMS (%)' and 'LCMS area percent at 254 nm' conflate the UV chromatogram with mass-spectral detection."
+      suggested_change: "Use 'HPLC purity (UV area %, 254 nm)' and describe MS identity confirmation separately."
+    - severity: minor
+      area: realism
+      where: "all slides"
+      problem: "The 1997 .ppt uses a widescreen composition and modern alternating-fill tables; the legacy fonts alone do not make it look like a 1997 readout."
+      suggested_change: "Use a 4:3 legacy slide master, simpler table borders and period-style monochrome chemistry drawings while retaining the original firm branding."
+- file_id: B-034
+  verdict: minor
+  issues:
+    - severity: minor
+      area: realism
+      where: "sheet Slots, header row and print view"
+      problem: "'Week commencing' is clipped and the Notes column prints on a separate page from its bookings. The informal notes and mixed control units otherwise fit a personal 2006 workbook."
+      suggested_change: "Widen or wrap the date header and set a one-page-wide print area for Slots, preserving the informal working-copy appearance."
+- file_id: HO-006
+  verdict: minor
+  issues:
+    - severity: minor
+      area: consistency
+      where: "Service map!E7 and J9 comments"
+      problem: "The two-species comparison comment is attached to hERG pricing, while the microsomal ownership comment is attached to the CYP row. Both read as misplaced reviewer annotations."
+      suggested_change: "Move the species-comparison comment to the microsomal price row and the ownership comment to J10 or J11; retain the unfinished assumptions and blanks."
+    - severity: minor
+      area: realism
+      where: "sheet Log; Service map header I3; print view"
+      problem: "The log's narrow columns clip dates and change descriptions; the proposed-price header clips its currency. Printing splits the service map across three unkeyed pages and assumptions across two."
+      suggested_change: "Widen Log columns, wrap I3, and set sensible landscape print areas with repeated identifying columns; keep the deliberately half-filled cells."
+- file_id: C-037
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "section 2, analytical-limits footnote"
+      problem: "The <20% depletion rule is paired with half-life bounds >60 and >120 min, despite 45-min microsomal and 120-min hepatocyte incubations. Those bounds do not represent the stated threshold."
+      suggested_change: "Derive reporting bounds from the actual incubation and quantifiable depletion threshold; distinguish fitted half-lives from censored values."
+    - severity: fix
+      area: science
+      where: "sections 2–3"
+      problem: "Microsomal metabolism is proposed without specifying NADPH, incubation temperature, or controls for non-metabolic parent loss."
+      suggested_change: "State cofactor and temperature conditions, include no-NADPH controls, and explain how nonspecific loss affects CLint reporting."
+    - severity: fix
+      area: realism
+      where: "whole document, pages 1–2"
+      problem: "The seven-page quotation is a two-page outline. Matrix acceptance criteria, calculation conventions and exceptions to the blanket 1 nM LLOQ promise are absent."
+      suggested_change: "Expand the substantive analytical scope, acceptance criteria and reporting limitations rather than adding padding."
+    - severity: minor
+      area: realism
+      where: "page break between sections 4 and 5"
+      problem: "The deliverables list splits after its first bullet; page 2 opens with detached bullets and is mostly empty."
+      suggested_change: "Keep the deliverables list together and rebalance pagination."
+
+- file_id: E-037
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "page 1, Table 1 and specification footnote"
+      problem: "The footnote limits any unspecified impurity to 0.20%, yet the six-month accelerated row reports Imp A 0.35% and Imp B 0.21% as 'Complies'; three-month Imp A is already 0.21%. No separate specified-impurity limits are supplied."
+      suggested_change: "Identify whether A and B are specified impurities and provide their approved limits; otherwise flag the affected rows and discuss the failure."
+    - severity: fix
+      area: science
+      where: "section 3.1"
+      problem: "The report suggests moisture-driven hydrolysis from a temperature/RH trend alone. It omits the available water-KF column and gives no degradant identification or humidity-controlled comparison."
+      suggested_change: "Include water results and describe hydrolysis as a hypothesis requiring confirmation; retain the moisture-barrier recommendation with that limitation."
+    - severity: fix
+      area: realism
+      where: "whole report"
+      problem: "The intended 32-page signed stability report renders as two pages, with page 2 containing only signatures. Packaging configuration, method references, system suitability and supporting analytical records are missing."
+      suggested_change: "Add the protocol, packaging, methods, acceptance criteria and traceable supporting results needed for an auditable report."
+    - severity: fix
+      area: realism
+      where: "page 1 annotations and page 2 signatures"
+      problem: "The approval stamp is bold and sharp rather than faint; the handwritten note crosses '4.1 None'. Signatures are visibly italic typeset surnames, undermining the signed-scan premise."
+      suggested_change: "Use plausible handwritten signatures, a faint uneven approval stamp, and a margin note that leaves the deviations statement readable."
+
+- file_id: E-046
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "whole catalogue, pages 1–2"
+      problem: "The intended ten-page catalogue is a two-page service outline. It lacks useful service-specific sample quantities, submission instructions, method-transfer prerequisites and enquiry details."
+      suggested_change: "Develop practical service pages with sample-planning examples, submission requirements and reporting boundaries."
+    - severity: minor
+      area: science
+      where: "section 4.1"
+      problem: "One undifferentiated validation list includes LOQ for both assay and related-substances methods; the 2025 reference is only 'ICH Q2'."
+      suggested_change: "Name the applicable Q2 revision and distinguish assay validation from quantitative impurity and limit-test requirements."
+    - severity: minor
+      area: realism
+      where: "pages 1–2, section 5"
+      problem: "Sample requirement 5.3 is stranded at the top of page 2, followed by a sparse report-style signature table."
+      suggested_change: "Keep sample requirements together and use catalogue pagination with a compact approval/version block."
+
+- file_id: G-026
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "section 2.0"
+      problem: "Exploratory investigations follow only sections 5.1–5.5, excluding both control-validity review and archive release. This conflicts with reconstructable records and the stated distinction between data-integrity review and GLP certification."
+      suggested_change: "Require proportionate control review and indexed retention for exploratory investigations; distinguish GLP QA requirements separately."
+    - severity: fix
+      area: science
+      where: "sections 4.0 and 5.6"
+      problem: "Control validity is reduced to vehicle and reference groups falling within historical expectations. Not every in vivo investigation has a reference group, and historical ranges alone do not establish validity."
+      suggested_change: "Assess concurrent controls, protocol-specific criteria, dosing and observation integrity, with historical data used as supporting context where applicable."
+    - severity: fix
+      area: realism
+      where: "section 5.1 and whole SOP"
+      problem: "The intended 13-page controlled SOP is two pages and does not specify required animal-card identifiers, issue-register fields, missing-card handling or the archive handover evidence."
+      suggested_change: "Add operational instructions and specimen forms covering investigation/animal identity, card versions, reconciliation, exceptions and indexed transfer."
+    - severity: minor
+      area: realism
+      where: "page 2 approval block"
+      problem: "Controlled approval signatures are rendered as italic surnames with no indication of an electronic approval record."
+      suggested_change: "Use plausible signed approvals or explicitly identify the controlled electronic approval mechanism."
+
+- file_id: F-019
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sections 1, 2 and 4"
+      problem: "The recommended HPMC/Tween suspension is said to remain dosable for 24 hours, but its table row reports precipitation and crystal growth at 24 hours. No redispersibility or dose-homogeneity results justify the recommendation."
+      suggested_change: "Withdraw the established 24-hour hold claim or support it with recorded redispersibility and concentration-uniformity evidence; describe the vehicle as provisional."
+    - severity: fix
+      area: science
+      where: "Table 1 and section 3"
+      problem: "At a stated 10 mg/mL loading, vehicles with solubilities 0.31, 1.7 and 3.2 mg/mL are labelled clear, while PEG400/water with solubility 14 mg/mL is a fine suspension. The report does not distinguish solubility-test specimens from target-loaded formulations."
+      suggested_change: "State the concentration and preparation underlying each observation; separate equilibrium-solubility results from loaded-formulation appearance and stability."
+    - severity: fix
+      area: science
+      where: "sections 3–5"
+      problem: "A 30-minute visual dilution check is presented without individual candidate results, gastric-fluid composition/pH or controls. The 24-hour use instruction also lacks chemical-stability evidence within that interval."
+      suggested_change: "Provide traceable dilution observations and conditions; require suitable chemical stability and homogeneity evidence before assigning an administration hold time."
+    - severity: fix
+      area: realism
+      where: "whole report, pages 1–2"
+      problem: "The intended 15-page final client report is a two-page summary without recipe quantities, excipient percentage bases, pilot-lot identification or preparation and sampling records."
+      suggested_change: "Add a reproducible recipe card, material/lot traceability, preparation sequence and supporting bench results."
+    - severity: minor
+      area: realism
+      where: "section 3 across pages 1–2"
+      problem: "The dilution discussion breaks mid-sentence, and page 2 is largely empty beneath the signature table."
+      suggested_change: "Keep the short discussion together and rebalance pagination."
