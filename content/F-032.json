@@ -1,0 +1,7 @@
+{"family": "deck",
+ "summary": "Near-empty scratch deck for a formulation screen. Holds a title slide and one pasted recipe-card heading, with the loading and concentration values still marked as to be confirmed.",
+ "properties": {"title": "Formulation screen: scratch", "subject": "Working notes", "keywords": "formulation screen; recipe card"},
+ "slides": [
+  {"layout": "title", "title": "Formulation screen: working notes", "subtitle": "Durnesswick Laboratories Inc, a Tarnovell company | LP | 16 Jul 2025", "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"},
+  {"layout": "title_content", "title": "Recipe card: [TBC]", "bullets": ["Loading: XX% w/w, to confirm after the next pilot lot", {"text": "Concentration: [TBC] mg/mL", "level": 1}], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"}
+ ]}
