@@ -1,0 +1,129 @@
+{
+  "family": "deck",
+  "summary": "XA-5 suspension: stability review for Xarnelvune Pharmaceuticals. The resuspension assessment supported the dosing instructions. Xarnelvune added a shake-before-use instruction. Conclusions remain within the tested protocol and are linked to approved sequence sheets.",
+  "properties": {
+    "title": "XA-5 suspension: stability review",
+    "subject": "Xarnelvune Pharmaceuticals | {{PRJ0095:project_id}} | QA-approved client readout",
+    "keywords": "Westravelle; XA-5 suspension; system suitability; stability pulls"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "1. XA-5 suspension: stability review",
+      "subtitle": "Xarnelvune Pharmaceuticals | {{PRJ0095:project_id}} | 11 Feb 2024",
+      "bullets": [
+        "Westravelle Analytical Ltd, a Tarnovell company",
+        "QA-approved client readout | Dr A. Penrose",
+        "ICH chamber programme"
+      ],
+      "notes": "Final readout. Protocol opened 08 Aug 2022; approved results completed 08 Feb 2024. LIMS accession {{PRJ0095:lims_id}}. The resuspension assessment supported the dosing instructions. Xarnelvune added a shake-before-use instruction.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "2. Approved numerical evidence",
+      "table": {
+        "table_ref": "PRJ0095:stability",
+        "max_rows": 18,
+        "columns": [
+          0,
+          1,
+          2,
+          5,
+          7
+        ]
+      },
+      "notes": "Source: E-008 / XA5_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx, approved 08 Feb 2024. Assay is percent label claim; total impurities are area percent. Condition and pull interval remain part of each result identity. Individual impurities and water results are retained in the full sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "3. Protocol identity and sample custody",
+      "bullets": [
+        "Client: Xarnelvune Pharmaceuticals",
+        "Protocol: {{PRJ0095:project_id}} | LIMS: {{PRJ0095:lims_id}}",
+        "Opened 08 Aug 2022; completed 08 Feb 2024",
+        "Dr L. Wu: stability lot and sample-custody reconciliation."
+      ],
+      "bullets_right": [
+        "Storage condition and pull interval are carried with the stability lot on the batch card.",
+        "Sequence sheets retain the pack or presentation identity; results must not be pooled across storage conditions.",
+        "Tested interval: through {{PRJ0095:stability.last_timepoint_months}} months."
+      ],
+      "notes": "The accession links receipt, batch card, preparation and analytical sequence. This readout does not introduce new lot codes or replace approved sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "4. In-use preparation and resuspension",
+      "bullets": [
+        "XA-5 is a suspension: preparation before sampling is part of the reported protocol.",
+        "Interpret assay against the documented resuspension procedure, not against an undisturbed container.",
+        "The resuspension assessment supported the dosing instructions.",
+        "The shake-before-use instruction carries that preparation requirement into use."
+      ],
+      "notes": "Saira Mahmood reviewed analytical interpretation; Dr L. Wu retained the storage and sampling link. This readout reports ICH chamber programme work and does not present a separate method-validation deliverable.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "chart",
+      "title": "5. Impurity trend by storage interval",
+      "chart": {
+        "kind": "stability",
+        "ref": "PRJ0095:stability",
+        "column": 5,
+        "title": "Total impurities (area %)"
+      },
+      "notes": "The resuspension assessment supported the dosing instructions. The plot is a view of the approved stability table; the table supplies condition, interval and compliance status. Do not extrapolate beyond {{PRJ0095:stability.last_timepoint_months}} months.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "6. System suitability and deviation disposition",
+      "bullets": [
+        "Saira Mahmood: analytical method and system suitability review.",
+        "Dr L. Wu: reconciliation of preparation, storage and sequence identity.",
+        "Dr A. Penrose: approved interpretation and client release."
+      ],
+      "bullets_right": [
+        "Approved sequence sheets are the authority for suitability acceptance and any repeat sequence.",
+        "Deviation notes remain linked to the affected batch card; this deck does not replace their disposition.",
+        "No additional chamber excursion, reinjection or acceptance limit is inferred from the trend plot."
+      ],
+      "notes": "Readout source: XA5_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx. Distinguish an observed formulation or packaging effect from an analytical deviation. The resuspension assessment supported the dosing instructions.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "7. Interpretation for transfer",
+      "bullets": [
+        "The resuspension assessment supported the dosing instructions.",
+        "Xarnelvune added a shake-before-use instruction.",
+        "Include the shake-before-use instruction in the dosing text and retain the resuspension procedure with the in-use protocol.",
+        "Conclusion applies to tested storage conditions and the reported {{PRJ0095:stability.last_timepoint_months}}-month interval."
+      ],
+      "notes": "The dosing instruction is supported by the resuspension assessment. The readout does not establish the outcome of dosing without shaking.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "8. Release gate and client decision",
+      "bullets": [
+        "Xarnelvune added a shake-before-use instruction.",
+        "Release basis: XA5_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx; approved 08 Feb 2024.",
+        "Include the shake-before-use instruction in the dosing text and retain the resuspension procedure with the in-use protocol.",
+        "Archive the approved readout with the sequence sheets, batch cards and linked deviation notes."
+      ],
+      "notes": "Dr A. Penrose | Head of Analytical Services | 11 Feb 2024. Final client readout for Xarnelvune Pharmaceuticals. Later shelf-life conclusions require additional approved pulls.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    }
+  ]
+}
