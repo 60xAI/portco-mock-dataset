@@ -1,0 +1,1011 @@
+{
+  "family": "document",
+  "summary": "Final OT-17-S0011 investigation report for Lomervessa Pharma: The exploratory range finding identified a tolerability limit. Lomervessa Pharma reduced the upper dose in the subsequent protocol. Control validity and welfare interpretation are stated separately; conclusions apply only to the exploratory Rat DRF and recovery package.",
+  "properties": {
+    "title": "OT-17-S0011 Final investigation report",
+    "subject": "Lomervessa LM-12 rat range finding for repeat-dose design"
+  },
+  "header": "Osterquill Toxicology Inc | OT-17-S0011",
+  "footer": "Osterquill Toxicology Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Lomervessa LM-12 rat range finding for repeat-dose design",
+    "subtitle": "Final investigation report — exploratory package",
+    "lines": [
+      "Osterquill Toxicology Inc",
+      "Report no. G-R-2017-0011-A",
+      "Investigation OT-17-S0011",
+      "LIMS {{PRJ0121:lims_id}}",
+      "Client: Lomervessa Pharma",
+      "Date: 05/22/2017",
+      "Prepared and authorized by Dr N. Takamori, Head of Toxicology"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Executive conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "OT-17-S0011 was an exploratory rat range-finding investigation for Lomervessa Pharma. The objective was to identify a practical dose range for subsequent repeat-dose design while preserving animal welfare as a constraint on escalation. The work began on 02/15/2017; an interim account was issued on 04/04/2017; final authorization is dated 05/22/2017."
+        },
+        {
+          "p": "The exploratory range finding identified a tolerability limit. Lomervessa Pharma reduced the upper dose in the subsequent protocol."
+        },
+        {
+          "p": "The reported tolerability-limit reference is {{PRJ0121:drf.mtd}}. This value belongs to the reported exploratory conditions. It is not a no-observed-adverse-effect level, a human safety margin or a universal upper dose for later investigations."
+        },
+        {
+          "p": "The subsequent upper dose is reduced in recognition of the observed tolerability limit. The numerical dose chosen for the subsequent protocol is outside this report and is not inferred from the present table."
+        },
+        {
+          "p": "Control validity was accepted for the reported range-finding comparison. Animal observations were evaluated with the concurrent vehicle context and the timing of administration. This report does not make a formal GLP compliance claim."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0121:drf",
+            "caption": "Table 1. Reported 7-day rat dose-range-finding summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Investigation objective",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The objective was dose selection for a subsequent protocol, rather than characterization of every potential target organ or a definitive toxicological threshold. A useful range-finding result identifies both a practicable exposure range and the conditions that constrain its use."
+        },
+        {
+          "p": "The scientific question includes the animal response to administration, the condition of the vehicle comparison and the persistence or reversal of observations. An upper dose selected without this context can increase animal burden while failing to answer the intended repeat-dose question."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Exploratory status and GLP boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The work is an exploratory package. Scientific oversight and archive completeness were retained, but this report is not accompanied by a formal assertion of GLP compliance. It must not be inserted into a regulatory submission as though it were a complete GLP repeat-dose toxicity investigation."
+        },
+        {
+          "p": "The final signature authorizes the interpretation of the present package. It does not retrospectively establish prospectively controlled compliance elements. A later investigation requires its own protocol, welfare authorization, quality assurance arrangements and final compliance statement where applicable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Scientific responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dr N. Takamori is responsible for the integrated interpretation and dose-range recommendation. Scientific questions concerning the distinction between vehicle-associated observations and test article tolerability are referred to the investigation lead before a later protocol is finalized."
+        },
+        {
+          "p": "Lucia Moretti is responsible for the report-to-archive linkage. The archive check is separate from the scientific dose recommendation. Dr K. Morita supported the project documentation; his genetic toxicology role is not presented as evidence that a genetic toxicology endpoint was performed in this package."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Investigation chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The start date is 02/15/2017, the interim date is 04/04/2017, and the completion date is 05/22/2017. These dates describe project handling and reporting; they are not substituted for the administration dates retained on the animal cards."
+        },
+        {
+          "p": "The dose-range table describes a 7-day exposure summary. The elapsed project interval also includes preparation, scientific review and report completion. It must not be read as the duration for which every animal received the test article."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Test article and formulation accountability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Test article preparation was linked to the investigation identifier and the relevant dose lot. Preparation identity, vehicle identity and administration entries must remain connected. A nominal mg/kg/day entry alone is insufficient to establish what an individual animal received."
+        },
+        {
+          "p": "This report does not invent a formulation composition, measured concentration, purity or stability interval. Such information belongs to the preparation documentation. Any later change of vehicle or dose lot requires an assessment of applicability before the range-finding conclusion is carried forward."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Animal identity and source linkage",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Individual-animal identifiers are retained on the source animal cards and their associated observation sheets. Group summaries are not substitutes for that linkage. Each animal remains traceable across dosing, clinical observation, body weight and disposition entries through its source identifier."
+        },
+        {
+          "p": "The reported numerical dataset supplied for this report is a group summary and contains no individual identifier field. Consequently, identifier-level observations are referenced to the original animal cards rather than reconstructed here. No new identifiers or animal-specific signs have been manufactured to expand the summary table."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Allocation and comparison units",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Animals field in Table 1 retains the reported sex allocation for each dose group. Comparisons are made within the scope of that allocation. A group-level body-weight change does not establish that every male and female followed the same trajectory."
+        },
+        {
+          "p": "Individual-animal review is necessary before a group-level conclusion is used to justify an upper dose. A small exploratory allocation supports practical range selection but cannot define population incidence, a sex-specific toxicological threshold or the frequency of a rare response."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Welfare oversight",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Animal welfare constrained the interpretation and the recommendation. Clinical signs were considered for their severity, duration and relationship to administration. The investigation was not an exercise in escalating until an unacceptable response had been demonstrated."
+        },
+        {
+          "p": "An animal showing compromised general condition requires prompt assessment under the applicable welfare procedure. Dose selection for the next protocol should reduce foreseeable burden while retaining the scientific exposure question. The present recommendation must be read with that obligation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Administration context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Administration observations must be distinguished from persistent clinical changes. A sign close to dosing can reflect the procedure, preparation or vehicle as well as the article. The timing and accompanying animal condition are therefore part of the source assessment."
+        },
+        {
+          "p": "No administration route or dose-volume result is added to this report without a source basis. The table reports dose in mg/kg/day. It does not provide the route-specific information needed to transfer the same dose directly to a different administration procedure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Clinical observation framework",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Clinical observations were interpreted in relation to the individual animal, the dose group and the timing of dosing. The table retains the reported group descriptor, while the animal cards preserve the individual chronology. These are complementary levels of documentation."
+        },
+        {
+          "p": "A descriptor in a group summary should not be rewritten as though every animal exhibited the sign. Conversely, a favorable group mean must not conceal an animal whose clinical condition limited further exposure. Dose selection requires the source-level welfare context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Body-weight interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The body-weight-change field in Table 1 is a day 1–7 group summary. It supports the clinical interpretation but does not independently establish systemic toxicity. Changes in general condition, intake, handling and preparation tolerance can affect its meaning."
+        },
+        {
+          "p": "No individual starting weight, final weight or absolute weight difference is derived from the percentage summary. Such a derivation would require source measurements. The report preserves the aggregate value and confines individual interpretation to the source animal cards."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Concurrent vehicle comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The concurrent vehicle group provides the local comparison for the dosing conditions. It is not an historical control cohort and is not replaced by a general expectation of normal rat growth. Vehicle-associated observations can limit the interpretation of treated groups."
+        },
+        {
+          "p": "Control validity concerns whether the concurrent comparison is suitable for the question being asked. A valid repeat comparison does not erase a limitation in an earlier cohort. Each cohort must retain its own preparation and observation context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Control validity statement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Control validity was accepted for the reported range-finding dataset. The vehicle comparison and the clinical and body-weight summaries were considered together. Acceptance permits scientific comparison under the reported conditions; it does not establish that every formulation used during the project was equally tolerable."
+        },
+        {
+          "p": "The report does not introduce an unreported numerical acceptance band. Validity is stated as the scientific evaluation of the available comparison. It remains separate from the decision to reduce an upper dose or to change a vehicle."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Reported dose-range data",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Table 1 is the primary dose-range summary. Dose, allocation, day 1–7 body-weight change and clinical observations are displayed together. These fields should remain joined when the table is copied into protocol planning material."
+        },
+        {
+          "p": "The table does not include individual trajectories, toxicokinetic exposure or pathology results. It must not be extended into those endpoints by inference. The recommendation uses the reported tolerability pattern and the project outcome, with the stated exploratory limitations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Tolerability-limit reference",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The reported tolerability-limit reference is {{PRJ0121:drf.mtd}}. The reference is specific to the present range-finding conditions. Its use in subsequent planning must preserve the dosing duration, formulation context and welfare observations on which the interpretation depends."
+        },
+        {
+          "p": "A tolerability limit is not synonymous with a no-observed-adverse-effect level. The package does not establish all adverse effects, and a short exposure may not reveal limitations relevant to a longer repeat-dose protocol. A lower upper dose may therefore be scientifically appropriate even where short-term dosing was practicable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Dose-response interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The dose-group comparison is interpreted as an exploratory tolerability pattern. A progression of clinical burden or an unfavorable body-weight context can constrain dose selection, but an isolated aggregate descriptor does not supply a complete dose-response model."
+        },
+        {
+          "p": "No fitted curve, extrapolated threshold or statistical significance result is presented. The small exploratory allocation and the limited endpoints support a practical recommendation. They do not justify a precise estimate of risk at doses that were not tested."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Sex and individual variability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Male and female animals remain individually identifiable in the source documentation. The aggregate table retains the reported allocation but does not separate every endpoint by sex. This limits sex-specific interpretation."
+        },
+        {
+          "p": "No claim of identical sensitivity between sexes is made. Similarly, no sex-specific difference is invented from the combined summary. Any subsequent design that depends on such a difference must be supported by a source-level evaluation or additional prospectively planned work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Observation timing",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Temporal relationships assist interpretation of clinical signs. A sign that appears immediately after administration and resolves before the next assessment poses a different question from a persistent deterioration. Source animal cards preserve those distinctions."
+        },
+        {
+          "p": "The group summary contains no full time course. The report therefore does not assign onset, duration or resolution times to an individual animal. The planning recommendation should be checked against the source chronology before observation frequency is reduced in later work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "20 Recovery interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Recovery observations, where retained in the animal cards, provide context for persistence after administration ceases. A return toward usual condition can inform a range-finding decision without demonstrating that every biological change has reversed."
+        },
+        {
+          "p": "The supplied dose-range table is not a separate recovery dataset. No recovery duration, recovery-group size or numerical recovery result is inferred from it. This boundary is material when the report is cited under the Rat DRF and recovery service description."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "21 Attribution framework",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Attribution considered the relationship among dosing, vehicle exposure, clinical condition and body-weight context. A temporal association with test article administration is necessary evidence but is not sufficient to assign a particular mechanism."
+        },
+        {
+          "p": "Vehicle, procedure and article-related effects can coexist. The scientific account retains uncertainty where the endpoints cannot separate them. A conservative dose or formulation decision can be justified without claiming that a molecular cause has been proven."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "22 Welfare consequence of the outcome",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The exploratory range finding identified a tolerability limit. Lomervessa Pharma reduced the upper dose in the subsequent protocol. The next design should use this finding to avoid recreating an exposure condition already shown to constrain tolerability."
+        },
+        {
+          "p": "The welfare consequence is prospective: the subsequent protocol should identify the relevant signs, define observation responsibilities and retain an escalation boundary. The present exploratory report does not authorize an additional cohort or a new dosing schedule."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "23 Subsequent protocol recommendation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The subsequent upper dose is reduced in recognition of the observed tolerability limit. The numerical dose chosen for the subsequent protocol is outside this report and is not inferred from the present table."
+        },
+        {
+          "p": "The next protocol should state why its upper dose is appropriate for its duration and intended endpoints. Longer administration, changed formulation or a different route requires separate consideration. A prior range-finding value is evidence for planning, not a standing authorization to dose at that value."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "24 Exposure information not established",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The package does not report systemic exposure measurements. A nominal administered dose cannot be converted into circulating concentration, tissue exposure or a clinical exposure margin without further data."
+        },
+        {
+          "p": "The dose selection conclusion therefore remains a tolerability conclusion under the administered conditions. It does not establish that pharmacological exposure was adequate for a later efficacy or safety question. Those questions require their own supporting information."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "25 Pathology boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "No unreported clinical pathology or histopathology endpoint is added to the dose-range summary. A clinical sign can indicate a need for further evaluation but is not a diagnosis of a target-organ lesion."
+        },
+        {
+          "p": "The absence of a pathology table in this report must not be recast as absence of pathological findings. The available package supports dose-range planning. A definitive target-organ assessment would require appropriate prospective observations and a separate result account."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "26 Data conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dose is expressed in mg/kg/day. Body-weight change is presented as a percentage over the interval identified in the table. The sex allocation remains in the Animals field. Units and interval labels are retained with every extract."
+        },
+        {
+          "p": "No group-level value is assigned to an individual animal. No blank source field is replaced with zero, and no qualitative clinical descriptor is converted into an invented incidence count. These conventions preserve the distinction between source observations and the reported summary."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "27 Animal-card review route",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A source review begins with the animal identifier and follows the linked administration, clinical observation and body-weight entries. The reviewer must preserve the chronology rather than assemble favorable observations from different days."
+        },
+        {
+          "p": "The source cards remain the authority for individual observations. This report references that route without creating a substitute card. Any later extract containing individual observations should carry the original identifier and source reference exactly as retained in the archive."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "28 Changes and scientific amendments",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A change that affects attribution, the dose recommendation or cohort comparability requires a documented study amendment. The final report must remain traceable to the evidence available at authorization."
+        },
+        {
+          "p": "An editorial correction is not a license to overwrite source observations. If new preparation or animal-card information changes the interpretation, the amendment should identify the original statement, the additional evidence and the revised scientific consequence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "29 Report limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The investigation is short and exploratory. It supports practical dose-range planning with the supplied clinical and body-weight summary, but it does not provide a full repeat-dose toxicity profile, a definitive target-organ conclusion or a human risk estimate."
+        },
+        {
+          "p": "Individual identifiers and detailed welfare chronology remain in the source animal cards. The aggregate table is unsuitable for estimating animal-level incidence or for describing every observation in each sex. These limitations are part of the final conclusion, not qualifications to be removed from client extracts."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "30 Integrated conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The exploratory range finding identified a tolerability limit. Lomervessa Pharma reduced the upper dose in the subsequent protocol. The reported tolerability-limit reference is {{PRJ0121:drf.mtd}}. The subsequent upper dose is reduced in recognition of the observed tolerability limit. The numerical dose chosen for the subsequent protocol is outside this report and is not inferred from the present table."
+        },
+        {
+          "p": "The recommendation is supported within the exploratory package. Scientific authorization is provided by Dr N. Takamori, while archive completeness is maintained by Lucia Moretti. Neither role is used to imply a GLP compliance statement or authorization for further animal work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Upper-dose reduction rationale",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The range-finding outcome identified a tolerability limit, and Lomervessa Pharma reduced the upper dose in the subsequent protocol. This is a direct planning consequence of the exploratory observations."
+        },
+        {
+          "p": "The upper dose for the next study will be set in that study's protocol; the tolerability limit above is a range-finding reference, not a protocol dose."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "heading": "Appendix 1 — Animal identification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "An individual identifier links the animal to its observations. Group and sex descriptors cannot replace it. Identifier continuity is necessary when comparing a clinical sign with administration or body-weight entries."
+        },
+        {
+          "p": "The aggregate report does not expose the source identifier field. Individual extracts must be taken from the original animal cards and retain those identifiers exactly; no substitute identifiers are created in this annex."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 2 — Source observation chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Clinical entries are meaningful in chronological order. A sign before dosing, shortly afterward or during a later observation can have a different interpretation even where the descriptive term is similar."
+        },
+        {
+          "p": "The group summary does not provide that time course. This annex specifies the source route for interpretation without assigning invented dates or times to individual animals."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 3 — Administration linkage",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The administration entry links the preparation and nominal dose to the animal. A preparation label that is detached from an animal-card entry cannot independently establish individual exposure."
+        },
+        {
+          "p": "When a later protocol relies on this range, preparation and administration traceability should be reconciled before interpretation. The report does not calculate delivered concentration from unprovided preparation data."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 4 — Clinical descriptor use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A clinical descriptor reports an observation; it is not automatically a diagnosis. The animal condition, timing and persistence determine its scientific and welfare significance."
+        },
+        {
+          "p": "The descriptor in Table 1 is retained without expansion into unreported diagnoses or incidence counts. Source animal cards are required for any claim about the number of animals with a particular sign."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 5 — General condition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "General condition can constrain dosing even where a group-level numerical endpoint appears favorable. Welfare review should consider whether the animal can continue without avoidable burden."
+        },
+        {
+          "p": "The report does not supply an individual severity score. Any later source extract should preserve the actual observed condition and the corresponding action, rather than converting the summary into an invented graded scale."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 6 — Body-weight source entries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Body-weight measurements belong to the individual animal and measurement date. A percentage summary cannot establish a starting weight or identify an outlier without those entries."
+        },
+        {
+          "p": "The day 1–7 field is retained as an aggregate result. No absolute weight, individual change or standard deviation is derived in this annex."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 7 — Food and water context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Intake can assist interpretation of body-weight change or general condition when it is documented. It should not be assumed merely because a particular clinical sign occurred."
+        },
+        {
+          "p": "The supplied table contains no food or water measurements. This report does not infer intake results. Any later analysis should distinguish measured intake from a clinical interpretation supported by the source cards."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 8 — Dosing-procedure context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The administration procedure can contribute to transient observations. Attribution requires the source chronology and concurrent comparison, not a general presumption that every post-dose sign is article-related."
+        },
+        {
+          "p": "The report does not specify an unprovided route or procedure complication. It retains the need for source-level evaluation before those terms are used in a subsequent summary."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 9 — Vehicle traceability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Vehicle identity remains associated with the preparation and cohort. A vehicle comparison has meaning only within its actual administration condition."
+        },
+        {
+          "p": "Changes in preparation can alter both tolerability and exposure. A later investigator should preserve the source vehicle linkage rather than treating all vehicle groups in the archive as interchangeable controls."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 10 — Dose-lot continuity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dose lot identity should remain linked to the formulation and administration documentation. A new preparation requires a traceable entry even if the target dose is unchanged."
+        },
+        {
+          "p": "This report does not invent lot identifiers or analytical confirmation results. The archive route supplies the preparation detail required to assess whether later material is comparable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 11 — Sex allocation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The reported male and female allocation is preserved in Table 1. Combined endpoint summaries do not establish identical male and female responses."
+        },
+        {
+          "p": "A sex-specific conclusion requires the relevant animal-card observations. It cannot be reconstructed by dividing a combined mean or assigning the same clinical descriptor to every animal of each sex."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 12 — Concurrent comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The concurrent vehicle group is the comparison for the reported dosing condition. Historical expectations can supply context but are not the measured comparison reported here."
+        },
+        {
+          "p": "Control validity is retained as a separate scientific statement. The vehicle group must not be described as free of every possible effect solely because the aggregate clinical descriptor is favorable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 13 — Control validity versus welfare",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Control validity allows an endpoint comparison. Welfare determines whether continued exposure is appropriate for an individual animal. These decisions can have different consequences."
+        },
+        {
+          "p": "An interpretable dataset does not authorize persistence with an unacceptable exposure. A later protocol should retain the relevant welfare boundary even when the scientific comparison is considered valid."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 14 — Upper-dose planning",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The upper dose in a later protocol should reflect the intended duration and question. A short-term reference is one planning input, not a universal setting."
+        },
+        {
+          "p": "The report preserves the dose reduction or formulation-dependent decision stated in the conclusion. It does not introduce a new numerical upper dose for the subsequent investigation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 15 — Intermediate-dose planning",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "An intermediate dose should help interpret the relation between tolerated exposure and any emerging burden. It should not be chosen solely to create equal numerical spacing."
+        },
+        {
+          "p": "The present dataset does not dictate a new dose scheme. Prospective selection requires the later protocol objectives and any additional exposure information, neither of which is replaced by this annex."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 16 — Low-dose planning",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A lower dose can provide context for findings at an upper dose, but its role depends on the later investigation question. A tolerated lower group does not by itself define a no-effect threshold."
+        },
+        {
+          "p": "No new low-dose value is proposed here. The planning team should retain the actual table values as historical evidence while documenting the rationale for its own prospective settings."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 17 — Duration transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A 7-day range-finding summary may not identify limitations that appear during longer administration. The time dimension therefore remains part of the dose recommendation."
+        },
+        {
+          "p": "No prediction of longer-term tolerability is calculated. The subsequent protocol should consider cumulative burden and observation responsibilities under its intended duration."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 18 — Recovery source linkage",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Recovery observations should remain linked to the same individual identifier used during dosing. Changing labels at recovery would break the interpretation of persistence or reversal."
+        },
+        {
+          "p": "The aggregate table does not include a numerical recovery dataset. Recovery claims require the actual source entries and must not be inferred from the project service name."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 19 — Persistence and reversal",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Persistence of a sign and return toward usual condition answer different questions. A favorable recovery observation does not erase the burden experienced during dosing."
+        },
+        {
+          "p": "This annex contains no new recovery outcome. It records how source observations should be used when the later planning team considers whether a dosing condition remains suitable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 20 — Dose interruption",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "An interruption, where documented, affects exposure interpretation and welfare context. It must remain associated with the individual animal and the reason for the action."
+        },
+        {
+          "p": "No interruption is invented in this report. Any later extract should preserve the actual source action rather than treating every group member as having an identical administration history."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 21 — Animal disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Disposition information belongs to the source animal card and the applicable procedure. It is separate from a group-level tolerability descriptor."
+        },
+        {
+          "p": "The supplied summary does not establish mortality, unscheduled removal or terminal findings for particular animals. No such counts or outcomes are added to complete a conventional report heading."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 22 — Humane decision traceability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A welfare action should be traceable to the observed condition and the responsible assessment. The source chronology explains why an intervention was appropriate."
+        },
+        {
+          "p": "The present report preserves welfare as a constraint on the next design. It does not retrospectively manufacture intervention details that are absent from the supplied reporting dataset."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 23 — Adverse-effect terminology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Adversity requires an endpoint-specific interpretation. A practical tolerability limit is not automatically a complete determination of every adverse effect or its threshold."
+        },
+        {
+          "p": "The reported reference value is not labeled as a no-observed-adverse-effect level. Later summaries should retain that distinction rather than expanding the exploratory conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 24 — Mechanistic terminology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A clinical pattern can suggest a follow-up question without establishing mechanism. Terms describing target organs or biochemical causes require direct evidence."
+        },
+        {
+          "p": "No mechanistic diagnosis is assigned in this annex. The reported outcome supports dose-range or formulation planning while leaving broader mechanistic questions outside scope."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 25 — Exposure margin terminology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Administered mg/kg/day and systemic concentration are distinct quantities. A clinical exposure margin requires measurements and a relevant comparison."
+        },
+        {
+          "p": "The package provides no toxicokinetic table or human exposure comparator. No margin is inferred, and the range-finding reference is not presented as a clinical safety limit."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 26 — Statistical language",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The exploratory table supplies group summaries, not a full statistical analysis. Apparent differences can inform planning without supporting a formal significance statement."
+        },
+        {
+          "p": "No p value, confidence interval or fitted threshold is introduced. The report retains qualitative interpretation consistent with the limited package."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 27 — Source amendment handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "New source information can change attribution or a planning recommendation. That change requires a documented scientific assessment linked to the signed report."
+        },
+        {
+          "p": "Lucia Moretti maintains the archive status; Dr N. Takamori authorizes a change to the scientific conclusion. The original issue remains traceable rather than silently overwritten."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 28 — Extract preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A client extract should retain dose units, observation interval, allocation and the clinical context. Removing these fields can make a practical range-finding finding appear more general than it is."
+        },
+        {
+          "p": "An extract containing individual observations should carry the original animal identifiers. An extract containing only Table 1 should be described explicitly as a group summary."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 29 — Protocol handoff",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The later protocol should cite the final investigation and explain how the present outcome informed the upper dose or formulation. The scientific rationale should be understandable without guessing which interim account was used."
+        },
+        {
+          "p": "The handoff does not authorize further dosing. The next work requires a prospectively controlled protocol and its own welfare and quality arrangements."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 30 — Archive completeness",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The signed report, source tables, preparation documentation and animal-card cross-reference remain associated with the investigation identifier. Each serves a different purpose in reconstructing the work."
+        },
+        {
+          "p": "Archive completeness does not supply a formal GLP claim. The exploratory status and the source-data limitations remain part of the final report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix 31 — Final scope reminder",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The conclusion belongs to the reported exploratory package. It informs a subsequent design through the observed tolerability limit or formulation-dependent usable range."
+        },
+        {
+          "p": "It does not establish comprehensive repeat-dose safety, a target-organ diagnosis or a human exposure limit. The original animal cards remain the authority for individual welfare observations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Final report authorization and source notice",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The exploratory range finding identified a tolerability limit. Lomervessa Pharma reduced the upper dose in the subsequent protocol."
+        },
+        {
+          "p": "The subsequent upper dose is reduced in recognition of the observed tolerability limit. The numerical dose chosen for the subsequent protocol is outside this report and is not inferred from the present table."
+        },
+        {
+          "p": "Final scientific authorization: Dr N. Takamori, 05/22/2017. The report is retained under OT-17-S0011, LIMS {{PRJ0121:lims_id}}. Source animal cards preserve individual identifiers and observation chronology. This group-summary report does not recreate absent individual data."
+        },
+        {
+          "p": "Archive completeness: Lucia Moretti. The signatures apply to the present final report and its source linkage; no additional animal work or formal GLP certification is implied."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Naomi Takamori",
+      "role": "Head of Toxicology — scientific authorization",
+      "date": "05/22/2017",
+      "signed": true
+    },
+    {
+      "name": "Lucia Moretti",
+      "role": "GLP Quality Assurance and Archive Lead — archive completeness, not GLP certification",
+      "date": "05/22/2017",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [],
+  "comments": []
+}
