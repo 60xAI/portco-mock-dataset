@@ -1,0 +1,127 @@
+{
+  "family": "deck",
+  "summary": "Interim readout for Doventhar Therapeutics on DT-R delivery lot 2. The first basic side-chain intermediates have been isolated, while final coupling awaits release of the replacement core; the inventory and coupling handover retain explicit unresolved fields.",
+  "properties": {
+    "title": "DT-R delivery lot 2: INTERIM inventory",
+    "subject": "PRJ0027 | Route scout and delivery",
+    "keywords": "medicinal chemistry; route gate; isolated material"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "DT-R delivery lot 2: INTERIM inventory",
+      "subtitle": "Doventhar Therapeutics | VD-26-113 | 16 Sep 2026\nDr H. Darwish | Replacement-core gate open",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Position today: side chains isolated, coupling held",
+      "bullets": [
+        "The first basic side-chain intermediates have been isolated.",
+        "Final coupling awaits release of Doventhar Therapeutics’ replacement core.",
+        "An isolated side-chain intermediate is not a completed DT-R analogue.",
+        "Final delivery-lot composition: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Intermediate inventory — status only",
+      "table": {
+        "columns": [
+          "Material class",
+          "Position at 16 Sep 2026",
+          "Open inventory field"
+        ],
+        "rows": [
+          [
+            "Basic side-chain intermediates",
+            "First intermediates isolated",
+            "Compound-card identifiers and mg [TBC]"
+          ],
+          [
+            "Replacement core",
+            "Client release awaited",
+            "Release reference and available amount [TBC]"
+          ],
+          [
+            "Final coupled material",
+            "Coupling gate pending",
+            "Final identity and isolated yield [TBC]"
+          ],
+          [
+            "Delivery lot 2",
+            "Interim planning only",
+            "Released contents [TBC]"
+          ]
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "What the isolated intermediates establish",
+      "bullets": [
+        "The side-chain route has produced isolated material.",
+        "Keep each intermediate linked to its compound card.",
+        "Reconcile identity and amount before charging the final coupling."
+      ],
+      "bullets_right": [
+        "The replacement core remains a separate dependency.",
+        "No final-coupling outcome can be concluded from the side-chain isolation.",
+        "Allocation to final analogues: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Replacement-core release: required handover",
+      "bullets": [
+        "Doventhar Therapeutics to provide the replacement-core release reference.",
+        "Confirm the released material matches the intended coupling input.",
+        "Replacement-core amount and release date: [TBC].",
+        "Keep the final coupling on hold until the release dependency is resolved."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final coupling route scout",
+      "bullets": [
+        "Start from the isolated basic side-chain intermediates after the core is released.",
+        "Record the charged material identities and quantities on the route scout.",
+        "Assess conversion and recovery separately.",
+        "Coupling conditions and final isolation sequence: [TBC].",
+        "Proposed final structures remain proposals until isolated."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Owners for the next route gate",
+      "bullets": [
+        "Hassan Darwish: intermediate inventory and coupling preparation.",
+        "Clara Fenwick: analytical link for material carried forward.",
+        "Ruth Calderwood: final-coupling route gate."
+      ],
+      "bullets_right": [
+        "Doventhar Therapeutics: replacement-core release.",
+        "Inventory reconciliation date: [TBC].",
+        "Next client update: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interim conclusion: preserve the material, wait for the core",
+      "bullets": [
+        "First side-chain intermediates are isolated.",
+        "Final coupling remains dependent on replacement-core release.",
+        "Complete the compound-card inventory before committing material.",
+        "Final lot release and programme completion: [TBC].",
+        "No final analogue delivery is claimed at this interim gate."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
