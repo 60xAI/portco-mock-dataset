@@ -1,0 +1,176 @@
+{
+  "family": "deck",
+  "summary": "Eric Langford’s final internal training deck translates formulation requests into priced development scopes. The personal laptop copy retains informal speaker notes and distinguishes exploratory screens from locked-process commitments.",
+  "properties": {
+    "title": "Development handoff: scope the decision first",
+    "subject": "Internal accounts training | Eric Langford, Early Development Accounts Lead | 09/15/2021 | Personal working copy",
+    "keywords": "Vehicle ladder; Excipient compatibility screen; early CMC"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Development handoff: scope the decision first",
+      "subtitle": "Internal accounts training | Eric Langford, Early Development Accounts Lead | 09/15/2021 | Personal working copy | Durnesswick Laboratories Inc",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Start with the client’s decision",
+      "bullets": [
+        "Ask what the material must do at the next scale gate.",
+        "A dose vehicle, pilot-lot preparation and storage claim are different deliverables.",
+        "Write the decision before listing the formulation set."
+      ],
+      "notes": "EL laptop copy. Keep this on the call sheet; we can quote a long experiment list and still miss the decision.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Translate the request",
+      "table": {
+        "columns": [
+          "Client wording",
+          "Scope",
+          "Avoid promising"
+        ],
+        "rows": [
+          [
+            "Make it dissolve",
+            "Vehicle ladder at agreed loading and dilution conditions",
+            "A solution for every dosing use"
+          ],
+          [
+            "Check the excipients",
+            "Excipient compatibility screen with defined observations",
+            "Shelf-life compatibility"
+          ],
+          [
+            "Give us a process",
+            "Preparation and handoff with an explicit scale gate",
+            "Process lock from a screen"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Vehicle ladder: scope ingredients",
+      "bullets": [
+        "Target concentration in mg/mL and acceptable dosage form.",
+        "Dilution medium, hold condition and observation points.",
+        "Preparation quantities and material allowance for repeats."
+      ],
+      "notes": "Ask Julia Carver whether the concentration makes sense before fixing the offer. Clear stock is not necessarily usable dose.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Excipient compatibility screen: name the comparison",
+      "bullets": [
+        "Agree candidate excipients and material condition.",
+        "Specify the physical or chemical changes to examine.",
+        "Separate a screening observation from a finished-product specification."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Exploratory wording; process wording",
+      "bullets": [
+        "Compare recipes under agreed screen conditions.",
+        "Recommend a formulation set for follow-up.",
+        "Document visible handling limitations."
+      ],
+      "bullets_right": [
+        "Establish reproducible preparation at agreed scale.",
+        "Define supported process controls.",
+        "Set acceptance criteria when the evidence supports them."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Price the work creating the answer",
+      "bullets": [
+        "Include receipt, preparation, observation and interpretation.",
+        "Include screen suitability checks and ambiguity-resolving repeats.",
+        "Treat new loading, extra excipients or extended hold as scope changes."
+      ],
+      "notes": "No example fee here. Build the priced scope with the scientific owner; explain what the fee covers.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Material request before the offer leaves",
+      "bullets": [
+        "Ask for identity, physical form and available mass.",
+        "Ask whether another material lot will be used for dosing.",
+        "Reserve material for follow-up rather than consuming it all in the broad screen."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Accounts-to-science handoff",
+      "table": {
+        "columns": [
+          "Owner",
+          "Resolve"
+        ],
+        "rows": [
+          [
+            "Eric Langford",
+            "Decision, deliverable and budget boundary"
+          ],
+          [
+            "Julia Carver",
+            "Does the scope answer the decision?"
+          ],
+          [
+            "Miguel Serrano",
+            "Can the formulation set be made from available material?"
+          ],
+          [
+            "Lena Patel",
+            "What must the receiving team reproduce?"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Change control without a surprise invoice",
+      "bullets": [
+        "State assumptions in the offer.",
+        "Agree changed work when intended use changes.",
+        "Offer a clear choice between a smaller answer and expanded scope."
+      ],
+      "notes": "My reminder: call first. A tidy development note does not cure an unagreed extension.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Accounts exercise",
+      "bullets": [
+        "Hypothetical request: a clear preparation for dilution into aqueous dosing medium.",
+        "Explain why concentrate clarity alone is insufficient.",
+        "Draft dilution, recipe-card and recommendation deliverables; keep process lock separate."
+      ],
+      "notes": "Let colleagues answer before showing the dilution point. No client data in this training copy.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Before sending the priced scope",
+      "bullets": [
+        "Decision and intended use appear first.",
+        "Material, conditions and deliverables match the scientific owner’s plan.",
+        "Exploratory claims, transfer responsibilities and change triggers are clear."
+      ],
+      "notes": "Retained langforde laptop working copy. Use these questions, not this deck, as the client attachment.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    }
+  ]
+}
