@@ -1,67 +1,281 @@
-{"family": "document",
- "summary": "December 2021 board extract on local operations. It sets out the post-brand operating model, the integration workstreams and the decisions reserved to the board. Local scientific sign-off and legacy project identifiers stay with each firm.",
- "properties": {"title": "Board extract: local operations, December 2021"},
- "header": "Tarnovell Bioscience Group | Board extract", "footer": "Tarnovell Bioscience Group | Confidential",
- "watermark": null,
- "title_block": {"title": "Board extract: local operations", "subtitle": "Extract from the board pack, December 2021 meeting", "lines": ["Report no. TBG-BD-2021-12-04", "Date: 15 Dec 2021", "Prepared by: Dr E. Vellacombe, Group Chair"]},
- "sections": [
-  {"heading": "1 Purpose", "level": 1, "blocks": [
-    {"p": "This extract records the board's position on how the group's local operations are run now that the Tarnovell brand and group template are in use. It covers the operating model, the workstreams still in progress and the decisions reserved to the board."},
-    {"p": "Legacy records have not been restyled. Where a firm still uses its own template or project numbers, that is intended and is not a gap in the integration."}
-  ]},
-  {"heading": "2 Operating model", "level": 1, "blocks": [
-    {"p": "The integration programme is called One Group, Many Practices. It is active. Local scientific operations are retained in each firm while shared processes converge on group standards.", "style": "bold"},
-    {"list": ["Scientific leadership stays with the local site head", "Shared services (finance, HR, IT, quality policy) are run from head office", "Commercial pricing is set centrally, with local discounts recorded as history", "Client-facing documents may use the common master from the date of brand migration"], "ordered": false},
-    {"p": "Each firm keeps its own accession and project numbering. The group does not renumber historical work.", "style": "note"}
-  ]},
-  {"heading": "3 Group history", "level": 1, "blocks": [
-    {"table": {"columns": ["Year", "Event"], "rows": [
-      ["1994", "Vellacombe Discovery begins as an independent medicinal chemistry laboratory"],
-      ["1996", "Vellacombe becomes the platform for further acquisitions"],
-      ["2001 to 2019", "Biology, DMPK, computational and analytical businesses join, each keeping its local scientific and filing practice"],
-      ["2019", "Private equity investment funds the next phase and a common commercial identity"],
-      ["2020", "The Tarnovell brand and group template launch. Legacy records are not restyled"]
-    ], "caption": "Table 1 Group history to the brand launch"}}
-  ]},
-  {"heading": "4 Firms in the group", "level": 1, "blocks": [
-    {"table": {"columns": ["Firm", "Discipline", "Site", "Joined"], "rows": [
-      ["A Vellacombe Discovery Ltd", "Medicinal chemistry", "Nottingham, UK", "1996-04-01"],
-      ["B Brindlewythe Biosciences Ltd", "In vitro biology and screening", "Cambridge, UK", "2001-07-02"],
-      ["C Merrivoss Bioanalysis Inc", "DMPK and bioanalysis", "Madison, US", "2008-03-03"],
-      ["D Quenverell Computational Ltd", "Bioinformatics and computational chemistry", "Edinburgh, UK", "2014-10-01"],
-      ["E Westravelle Analytical Ltd", "Analytical chemistry and stability testing", "York, UK", "2019-06-03"]
-    ], "caption": "Table 2 Integrated firms at December 2021"}},
-    {"p": "The five firms above are the group at the date of this extract. Firms A to E use the common master for client-facing documents.", "style": "small"}
-  ]},
-  {"heading": "5 Integration workstreams", "level": 1, "blocks": [
-    {"p": "The board reviewed each workstream against the December plan. Status is as reported by the workstream owners."},
-    {"table": {"columns": ["Workstream", "Status", "Position at this meeting"], "rows": [
-      ["Price harmonisation", "In progress", "Three of five integrated firms mapped. Historical local currencies and discounts are retained."],
-      ["Brand migration", "In progress", "Firms A to E use the common master. Some legacy signed records still carry earlier client names."],
-      ["LIMS consolidation", "In progress", "Common export dictionary agreed. Local accession numbers are retained."],
-      ["Cross-sell", "In progress", "Client identity bridge in progress. Subsidiary and lookalike checks are required before any joint approach."],
-      ["HR and payroll", "Complete", "All five firms are in the consolidated directory. Leaver dates are recorded there."],
-      ["IT and SharePoint migration", "In progress", "Local shares are kept as archive roots. Leaver folders need an owner check before they are moved."]
-    ], "caption": "Table 3 Workstream status, December 2021"}}
-  ]},
-  {"heading": "6 Local scientific sign-off", "level": 1, "blocks": [
-    {"p": "The board confirmed that release of scientific reports stays with the firm's own quality lead. Group quality sets the common standard but does not sign individual reports."},
-    {"p": "Reports issued from a legacy template keep that template. Reissuing a historical report in the new brand needs the original signatory's agreement.", "style": "quote"},
-    {"list": ["Scientific sign-off: local quality lead", "Group policy and audit: Group Quality Director", "Commercial terms: Group Commercial Director, with local input"], "ordered": false}
-  ]},
-  {"heading": "7 Reserved decisions", "level": 1, "blocks": [
-    {"p": "The following decisions remain reserved to the board and may not be delegated to a firm or to a workstream:"},
-    {"list": ["Any change to the group template or brand standard", "Any change to shared-service ownership", "Acquisition or disposal of a firm", "Any move of a firm's historical records out of its local share"], "ordered": false},
-    {"p": "Other matters are delegated to the Group Chief Executive and reported at the next meeting.", "style": "small"}
-  ]},
-  {"heading": "8 Actions", "level": 1, "blocks": [
-    {"table": {"columns": ["Action", "Owner", "Due"], "rows": [
-      ["Complete price mapping for the remaining two firms", "Group Finance Director", "Q1 2022"],
-      ["Finish client identity bridge for the cross-sell pilot", "Group Commercial Director", "Q1 2022"],
-      ["Owner check on leaver folders before any move", "People Operations Manager", "Ongoing"]
-    ], "caption": "Table 4 Actions arising"}}
-  ]}
- ],
- "signature_block": [{"name": "Eleanor Vellacombe", "role": "Group Chair", "date": "15 Dec 2021", "signed": true}],
- "comments": [{"anchor": "Legacy records have not been restyled", "text": "Good, but say which firms still use their own template so the board can see the gap.", "author": "Andrea Beckett"}]
+{
+  "family": "document",
+  "summary": "December 2021 board extract on local operations. It sets out the post-brand operating model, the integration workstreams and the decisions reserved to the board. Local scientific sign-off and legacy project identifiers stay with each firm.",
+  "properties": {
+    "title": "Board extract: local operations, December 2021"
+  },
+  "header": "Tarnovell Bioscience Group | Board extract",
+  "footer": "Tarnovell Bioscience Group | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Board extract: local operations",
+    "subtitle": "Extract from the board pack, December 2021 meeting",
+    "lines": [
+      "Report no. TBG-BD-2021-12-04",
+      "Date: 15 Dec 2021",
+      "Prepared by: Dr E. Vellacombe, Group Chair"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This extract records the board's position on how the group's local operations are run now that the Tarnovell brand and group template are in use. It covers the operating model, the workstreams still in progress and the decisions reserved to the board."
+        },
+        {
+          "p": "Legacy records have not been restyled. Where a firm still uses its own template or project numbers, that is intended and is not a gap in the integration."
+        }
+      ]
+    },
+    {
+      "heading": "2 Operating model",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Following the brand launch, local scientific operations remain with each firm while shared processes converge on group standards. This extract records the December 2021 position.",
+          "style": "bold"
+        },
+        {
+          "list": [
+            "Scientific leadership stays with the local site head",
+            "Shared services (finance, HR, IT, quality policy) are run from head office",
+            "Commercial pricing is set centrally, with local discounts recorded as history",
+            "Client-facing documents may use the common master from the date of brand migration"
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Each firm keeps its own accession and project numbering. The group does not renumber historical work.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "3 Group history",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Year",
+              "Event"
+            ],
+            "rows": [
+              [
+                "1994",
+                "Vellacombe Discovery begins as an independent medicinal chemistry laboratory"
+              ],
+              [
+                "1996",
+                "Vellacombe becomes the platform for further acquisitions"
+              ],
+              [
+                "2001 to 2019",
+                "Biology, DMPK, computational and analytical businesses join, each keeping its local scientific and filing practice"
+              ],
+              [
+                "2019",
+                "Private equity investment funds the next phase and a common commercial identity"
+              ],
+              [
+                "2020",
+                "The Tarnovell brand and group template launch. Legacy records are not restyled"
+              ]
+            ],
+            "caption": "Table 1 Group history to the brand launch"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "4 Firms in the group",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Firm",
+              "Discipline",
+              "Site",
+              "Joined"
+            ],
+            "rows": [
+              [
+                "A Vellacombe Discovery Ltd",
+                "Medicinal chemistry",
+                "Nottingham, UK",
+                "1996-04-01"
+              ],
+              [
+                "B Brindlewythe Biosciences Ltd",
+                "In vitro biology and screening",
+                "Cambridge, UK",
+                "2001-07-02"
+              ],
+              [
+                "C Merrivoss Bioanalysis Inc",
+                "DMPK and bioanalysis",
+                "Madison, US",
+                "2008-03-03"
+              ],
+              [
+                "D Quenverell Computational Ltd",
+                "Bioinformatics and computational chemistry",
+                "Edinburgh, UK",
+                "2014-10-01"
+              ],
+              [
+                "E Westravelle Analytical Ltd",
+                "Analytical chemistry and stability testing",
+                "York, UK",
+                "2019-06-03"
+              ]
+            ],
+            "caption": "Table 2 Integrated firms at December 2021"
+          }
+        },
+        {
+          "p": "The five firms above are the group at the date of this extract. Firms A to E use the common master for client-facing documents.",
+          "style": "small"
+        }
+      ]
+    },
+    {
+      "heading": "5 Integration workstreams",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The board reviewed the post-brand workstreams for the five firms held at December 2021. Local identifiers and historical records remain in place."
+        },
+        {
+          "table": {
+            "columns": [
+              "Workstream",
+              "Status",
+              "Position at this meeting"
+            ],
+            "rows": [
+              [
+                "Price harmonisation",
+                "In progress",
+                "Complete mapping across the five firms. Historical local currencies and discounts are retained."
+              ],
+              [
+                "Brand migration",
+                "In progress",
+                "Firms A to E use the common master. Some legacy signed records still carry earlier client names."
+              ],
+              [
+                "LIMS consolidation",
+                "In progress",
+                "Common export dictionary agreed. Local accession numbers are retained."
+              ],
+              [
+                "Cross-sell",
+                "In progress",
+                "Client identity bridge in progress. Subsidiary and lookalike checks are required before any joint approach."
+              ],
+              [
+                "HR and payroll",
+                "Directory review",
+                "Directory scope covers the five firms. Check leaver dates before changing access or moving personal working folders."
+              ],
+              [
+                "IT and SharePoint migration",
+                "In progress",
+                "Local shares are kept as archive roots. Leaver folders need an owner check before they are moved."
+              ]
+            ],
+            "caption": "Table 3 Workstream status, December 2021"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "6 Local scientific sign-off",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The board confirmed that release of scientific reports stays with the firm's own quality lead. Group quality sets the common standard but does not sign individual reports."
+        },
+        {
+          "p": "Reports issued from a legacy template keep that template. Reissuing a historical report in the new brand needs the original signatory's agreement.",
+          "style": "quote"
+        },
+        {
+          "list": [
+            "Scientific sign-off: local quality lead",
+            "Group policy and audit: Group Quality Director",
+            "Commercial terms: Group Commercial Director, with local input"
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "heading": "7 Reserved decisions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The following decisions remain reserved to the board and may not be delegated to a firm or to a workstream:"
+        },
+        {
+          "list": [
+            "Any change to the group template or brand standard",
+            "Any change to shared-service ownership",
+            "Acquisition or disposal of a firm",
+            "Any move of a firm's historical records out of its local share"
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Other matters are delegated to the Group Chief Executive and reported at the next meeting.",
+          "style": "small"
+        }
+      ]
+    },
+    {
+      "heading": "8 Actions",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Action",
+              "Owner",
+              "Due"
+            ],
+            "rows": [
+              [
+                "Complete outstanding price mapping across the five firms",
+                "Group Finance Director",
+                "Q1 2022"
+              ],
+              [
+                "Finish client identity bridge for the cross-sell pilot",
+                "Group Commercial Director",
+                "Q1 2022"
+              ],
+              [
+                "Owner check on leaver folders before any move",
+                "People Operations Manager",
+                "Ongoing"
+              ]
+            ],
+            "caption": "Table 4 Actions arising"
+          }
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Eleanor Vellacombe",
+      "role": "Group Chair",
+      "date": "15 Dec 2021",
+      "signed": true
+    }
+  ]
 }
