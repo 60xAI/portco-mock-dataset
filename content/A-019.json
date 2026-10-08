@@ -1,0 +1,64 @@
+{
+ "family": "workbook",
+ "summary": "Interim tracker for the Nelmudara NLM-A fluorinated building-block scout, dated 21 Aug 2026. It logs the boronate attempts, which were unstable under the first conditions, the protected alternatives under evaluation and the client decisions still open. Several facts are marked [TBC] until they are confirmed.",
+ "properties": {
+  "title": "VD-26-091 NLM-A scout tracker (interim)"
+ },
+ "sheets": [
+  {
+   "name": "Summary",
+   "start": "A1",
+   "rows": [
+    [{"v": "VD-26-091 NLM-A fluorinated building blocks: scout tracker", "bold": true}],
+    [{"v": "Vellacombe Discovery Ltd, a Tarnovell company", "bold": true}],
+    [],
+    ["Client", "{{PRJ0028:client_variant}}"],
+    ["Programme", "{{PRJ0028:project_id}}"],
+    ["LIMS", "{{PRJ0028:lims_id}}"],
+    ["Status", "Interim, 21 Aug 2026. Route scout delayed."],
+    ["Price", "{{PRJ0028:price}}"],
+    ["Lead", "Dr R. Calderwood"],
+    [],
+    ["Current position", "The unstable boronate has stopped the route scout. The team is evaluating a protected alternative with the client. Start date and batch size depend on the client's answer [TBC]."],
+    ["Route gate", "Not passed"]
+   ],
+   "col_widths": {"A": 20, "B": 70},
+   "merged": ["A1:D1", "A2:D2"],
+   "comments": [{"cell": "B11", "text": "Client decision on the protected alternative still pending. Do not quote a date until they reply.", "author": "Clara Fenwick"}],
+   "tab_color": "#1F4E79"
+  },
+  {
+   "name": "Attempt log",
+   "start": "A1",
+   "rows": [
+    ["Attempt", "Boronate form", "Protecting group", "Conditions", "Scale (mg)", "Outcome", "Next step"],
+    ["A-01", "Free boronic acid", "None", "Suzuki partner, aqueous base, 80 °C", 200, "Decomposed on standing; protodeboronation seen by LCMS", "Stop; do not repeat"],
+    ["A-02", "Free boronic acid", "None", "Same, degassed solvents, 60 °C", 200, "[TBC]", "Await LCMS"],
+    ["A-03", "Pinacol ester", "Pinacol", "Suzuki partner, carbonate base, 80 °C", 100, "", "Queued"],
+    ["A-04", "MIDA boronate", "MIDA", "Slow release, aqueous base, 60 °C", 100, "", ""],
+    ["A-05", "Trifluoroborate", "Potassium salt", "", "", "", "Not started"],
+    [],
+    ["", "", "", "", "", "", ""]
+   ],
+   "freeze": "A2",
+   "col_widths": {"A": 10, "B": 20, "C": 18, "D": 36, "E": 12, "F": 46, "G": 24},
+   "number_formats": {"E2:E9": "0"},
+   "comments": [{"cell": "F3", "text": "LCMS trace is in the project folder. Protodeboronation product is clearly visible in the trace.", "author": "Hassan Darwish"}]
+  },
+  {
+   "name": "Client decisions",
+   "start": "A1",
+   "rows": [
+    ["Decision", "Options", "Owner", "Needed by", "Status"],
+    ["Protecting group for the boronate", "Pinacol / MIDA / trifluoroborate", "Nelmudara Biosciences", "[TBC]", "Open"],
+    ["Accept the slower route if it gives a stable intermediate", "Yes / no", "Nelmudara Biosciences", "[TBC]", "Open"],
+    ["Revised batch size for the scout", "[TBC]", "Nelmudara Biosciences", "", "Open"],
+    ["Change of order: attempt a different building block", "[TBC]", "Ruth Calderwood", "", "Not started"],
+    []
+   ],
+   "freeze": "A2",
+   "col_widths": {"A": 50, "B": 34, "C": 22, "D": 14, "E": 12},
+   "comments": [{"cell": "D2", "text": "Client asked for a view by the end of the month. Chase on Monday if nothing by then.", "author": "Clara Fenwick"}]
+  }
+ ]
+}
