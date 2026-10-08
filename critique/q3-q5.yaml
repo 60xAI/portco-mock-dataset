@@ -1,0 +1,148 @@
+- file_id: P28
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "Line manager column: E01005, E01147, E01056 and E01117"
+      problem: "The Chair reports to the Commercial Director and the CEO to an HR Business Partner. Elizabeth Brown and Ewelina Stryjek report to each other. These are implausible reporting lines, including an explicit cycle."
+      suggested_change: "Replace the manager assignments with a coherent hierarchy: leave the Chair's employee manager blank, put the CEO under the Chair, and remove reciprocal reporting. Use appropriate scientific and functional managers for the remaining staff."
+- file_id: P29
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "Received, Started and Reported columns"
+      problem: "One consolidated export mixes US and UK date conventions without a format field (e.g. 05/22/2006 versus 04/11/1996), making ambiguous dates uninterpretable."
+      suggested_change: "Export all dates as YYYY-MM-DD, or add an explicit source date-format field if preserving local strings."
+    - severity: fix
+      area: consistency
+      where: "Rows BW26_0417 and BW26_0428; other late-August/September starts"
+      problem: "The 20 August export includes Received dates of 27 August and 2 September, and marks projects with future Started dates IN PROGRESS. Actual event fields contain events after the snapshot."
+      suggested_change: "Limit actual event dates and statuses to 20 August 2026; retain future work only in clearly named planned-date fields with a scheduled status."
+- file_id: P30
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "First Activity / Last Activity: ACC-0013, ACC-0017, ACC-0027, ACC-0041 and ACC-0087"
+      problem: "The 7 July 2026 export contains activity dated 19 August, 27 August, 2 September, 13 August and 11 August 2026. These are future actual activities in a historical snapshot."
+      suggested_change: "Use activity recorded by 7 July only; leave not-yet-active accounts' activity dates blank. Put future scheduled activity in a separate field if needed."
+    - severity: minor
+      area: realism
+      where: "Owner column"
+      problem: "Every account owner is blank, which makes the otherwise populated multi-CRM export unusually uniform."
+      suggested_change: "Populate known source-system owners for some accounts, or label the column as unavailable in this extraction."
+- file_id: P31
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Section 2 Route scout, Route B and route-risk sentence"
+      problem: "Route B deprotects before amide formation, yet its stated risk is cleavage of the amide during deprotection. The described amide has not been introduced at that point."
+      suggested_change: "Describe the actual vulnerable group at the deprotection stage, or remove the amide-cleavage claim; retain the stated coupling/deprotection/amide sequence."
+    - severity: fix
+      area: science
+      where: "Table 1: CVL-08846 and CVL-08866"
+      problem: "These SMILES contain a central phenyl carboxamide rather than the aminopyrimidine core described as common to the delivered analogue set. The report treats them as products of the same aminochloropyrimidine route without explanation."
+      suggested_change: "Identify these as scaffold controls and describe their separate route, if intentional; otherwise reconcile their compound cards with the intended aminopyrimidine structures."
+    - severity: minor
+      area: realism
+      where: "Sections 3 and 5"
+      problem: "All material is said to meet an agreed purity threshold, but the threshold is never stated; CVL-08812 is reported at 94.9%."
+      suggested_change: "State the agreed release threshold and any approved exceptions so the all-material claim can be interpreted."
+- file_id: P32
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Table 4 Human plasma protein binding, fu column"
+      problem: "The fu values are percentages, not fractions: 92.0% bound is paired with fu 8.01 rather than approximately 0.0801. This creates a hundredfold unit error if used as fu,p."
+      suggested_change: "Rename the column 'Unbound (%)' while retaining the values, or divide values by 100 and label it 'fu,p (unitless)'."
+    - severity: fix
+      area: science
+      where: "Section 2 Analytical limits"
+      problem: "Low depletion is reported as a 'lower bound'. Insufficient depletion provides an upper bound on CLint and a lower bound on half-life; the current sentence does not distinguish them."
+      suggested_change: "Replace with: 'When depletion is below 20%, CLint is reported as an upper bound and half-life as a lower bound at the assay's quantitation limit.'"
+    - severity: fix
+      area: science
+      where: "Section 4 Results, first paragraph"
+      problem: "The claim of broadly similar microsomal/hepatocyte ranking is contradicted by prominent rows: CVL-08816 has human microsomal CLint 4.4 but hepatocyte CLint 36, whereas CVL-08968 has 65 and 17. No lipophilicity data support the accompanying lipophilicity claim."
+      suggested_change: "Replace with: 'Microsomal and hepatocyte rankings differ for several analogues, including CVL-08816 and CVL-08968; these discrepancies warrant follow-up.' Remove the lipophilicity attribution unless supporting measurements are supplied."
+    - severity: fix
+      area: science
+      where: "Section 1 Summary"
+      problem: "Higher rat in vitro intrinsic clearance alone does not establish that rodent exposure will under-represent human exposure. Rat binding is explicitly unmeasured, and absorption and species scaling are unresolved."
+      suggested_change: "Replace the exposure inference with: 'Rat intrinsic clearance is generally higher in these assays; the effect on in vivo exposure requires species-specific binding and PK assessment.'"
+- file_id: P33
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "Sections 3 and 4"
+      problem: "The immediate-release tablet stability scope excludes dissolution, and 'qualification' does not specify demonstration that the method is stability-indicating. The limits of this analytical package are unclear."
+      suggested_change: "State whether dissolution is client-run or excluded, and specify forced-degradation/selectivity evidence for the stability-indicating assay and related-substances method. Clarify that one-lot work supports the stated transfer package."
+- file_id: P34
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Bridge sheet, Osterquill row H30; Change log, 25/08/2026"
+      problem: "An August workbook says the Osterquill acquisition 'closed 01/10/2026', treating a future event as completed."
+      suggested_change: "Replace with 'Proposed Osterquill acquisition; archive mapping pending completion and access/QA agreement', without asserting a completed October event in August."
+    - severity: minor
+      area: consistency
+      where: "Bridge sheet, Quorenthel/Merrivoss and Drelvessa/Vellacombe activity years"
+      problem: "Activity years use inconsistent bases: Quorenthel/Merrivoss is 2019 although CRM first activity is December 2018; Drelvessa/Vellacombe ends in 1998 although LIMS reporting is April 1999."
+      suggested_change: "Define activity as commercial contact, project start or report date and apply it consistently; label separate date types if both are needed."
+- file_id: P35
+  verdict: minor
+  issues:
+    - severity: minor
+      area: realism
+      where: "Matrix row 2 and Notes row 3"
+      problem: "'Rows 9-14' refers to account positions, but the six unfinished accounts occupy worksheet rows 13-18."
+      suggested_change: "Change both notes to 'Accounts 9-14 (worksheet rows 13-18)'."
+    - severity: minor
+      area: realism
+      where: "Matrix row 2 legend"
+      problem: "'Never bought' is an absolute historical claim despite incomplete integration and limited source exports."
+      suggested_change: "Use 'No purchase recorded in reviewed A-F sources' and state the source cut-off; retain Corvenlea's confirmed A/C/E purchases and D/F gaps."
+- file_id: P36
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Section 6 Notes"
+      problem: "Corvenlith is called a new Quenverell client in 2023, but P29/P30/P34 record its Quenverell engagement in 2017."
+      suggested_change: "Replace 'a new client for Quenverell' with 'an existing Quenverell client, separate from Corvenlea Pharma'. Keep the lookalike warning."
+    - severity: fix
+      area: science
+      where: "Sections 1 and 3, donor blocking"
+      problem: "Donor blocking is promised without defining the contrast. A fixed donor term cannot estimate healthy-versus-patient status when each donor belongs to only one group; that effect is confounded with donor."
+      suggested_change: "Specify within-donor stimulation contrasts with donor blocking; for between-donor disease comparisons use an estimable group model with appropriate covariates or a suitable repeated-measures model. Confirm the design after manifest review."
+- file_id: P42
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "Sections 2-4 and missing reproducibility appendix"
+      problem: "The final docking report gives no coordinate identifiers, ligand/design identifiers, docking engine/version, preparation settings or ranked design list. Its two-page qualitative findings cannot be traced to the structures or candidate designs."
+      suggested_change: "Add a provenance/settings appendix and identify the retained/rejected structures, mapped pocket waters, proposed design IDs and the delivered ranking/notebook. Use existing records; do not invent scores or experimental binding results."
+    - severity: minor
+      area: science
+      where: "Sections 4 and 5"
+      problem: "'Tolerates polar substituents' and a new structure 'would resolve' uncertainty overstate computational predictions."
+      suggested_change: "Use 'is predicted to accommodate polar substituents' and 'could help test the proposed pose'. Preserve the biochemical confirmation requirement and client-supplied X-ray provenance."
+- file_id: P43
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "Slides 5-8"
+      problem: "The completed chemistry readout names no intermediate, isolated analogue or delivery-lot identifier and supplies no traceable release evidence. 'Regioisomer controlled below 2%' is a numerical result absent from the context pack's results."
+      suggested_change: "Identify route intermediates and delivered/proposed compound cards, with references to existing lot-release records. Remove the unsupported 2% result unless backed by an authorised record; do not invent yields, quantities or purity results."
+    - severity: minor
+      area: science
+      where: "Slide 3"
+      problem: "A substituent in an observed co-crystal pose is said to clash with a backbone carbonyl and to explain flat SAR, without distinguishing observed contacts from an overlay of proposed analogues."
+      suggested_change: "Clarify that the clash is predicted for the bulky analogue when overlaid on the observed pose; describe it as a hypothesis for the flat SAR. Keep crystallography attributed to the Institute's collaborators."
