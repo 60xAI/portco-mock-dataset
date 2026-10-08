@@ -1,0 +1,117 @@
+- file_id: P01
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "slide 11 and speaker notes"
+      problem: "The 40 candidate genes, seven ranked targets, two exclusions, three assays and within-quarter delivery are invented engagement facts absent from the pack. Calling them engagement counts rather than assay results does not establish their provenance."
+      suggested_change: "Remove the unsupported quantities and timing: 'Combined patient-tissue RNA-seq, genetic evidence and pathway context to prioritise candidate targets; flagged broad tissue expression risks; the client commissioned follow-up cell assays with Brindlewythe.' Delete the numerical justification in the notes."
+    - severity: minor
+      area: science
+      where: "slide 3"
+      problem: "The canonical pitch slide labels expression checks as target validation and presents responder identification as established; these analyses support hypotheses rather than establish causal relevance or predict response without validation."
+      suggested_change: "Use 'Target validation support: assess expression in relevant tissues, cell types and patient subgroups to guide functional testing' and 'Biomarker candidates: propose response signatures and monitoring markers for independent validation'. Keep this as the canonical one-slide explanation."
+- file_id: P02
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "page 11"
+      problem: "The PDF faithfully carries P01's unsupported case-study counts and within-quarter delivery claim; being an export does not make these world facts supported."
+      suggested_change: "Apply P01's qualitative case-study replacement to the source and carry that wording into the PDF export, preserving slide/page correspondence."
+    - severity: minor
+      area: science
+      where: "page 3"
+      problem: "The exported explanation inherits P01's insufficient distinction between expression evidence and functional target validation, and between candidate biomarkers and validated response prediction."
+      suggested_change: "Carry P01's 'Target validation support' and 'Biomarker candidates' wording into this page; preserve its role as the PDF equivalent of the best answer."
+- file_id: P03
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "slides 14-15"
+      problem: "The pack supplies neither the four numerical turnaround ranges nor the case-study counts (25 candidates, three assays/recommendations, one confirmed target). The older alternative is otherwise plausible for 2018."
+      suggested_change: "Replace turnaround ranges with 'Scope and timing agreed after data acceptance'. Rewrite the example qualitatively: 'Combined patient-tissue expression and genetic evidence to recommend a shortlist for cell assays; follow-up testing supported a candidate and led to biomarker work.'"
+    - severity: minor
+      area: voice
+      where: "slide 6"
+      problem: "'QC' and 'QC report' depart from the supplied house term 'data acceptance', despite that term appearing elsewhere in the same deck."
+      suggested_change: "Use 'Data acceptance, alignment and quantification' and 'Data acceptance report'; retain the legacy branding and slide 4 as the older usable answer."
+- file_id: P04
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "slide 4"
+      problem: "The reusable alternative compresses target validation into expression checks and says 'which patients respond' without distinguishing biomarker hypotheses from demonstrated predictive performance. Corvenlea's three-name A/C/E history and D/F white space fit the supplied world."
+      suggested_change: "Use 'Target validation support: expression evidence to guide functional testing' and 'Biomarker candidates: response signatures and monitoring markers for validation'. Preserve the standalone explanatory slide and the client-history bridge."
+- file_id: P05
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "slide 3 speaker notes"
+      problem: "'Superseded - arrays replaced by RNA-seq from 2014. Do not reuse this slide' records a later event inside a file last saved in October 2012. Its outdated microarray emphasis is an appropriate distractor; the retrospective note is not period-plausible."
+      suggested_change: "Replace the note with period wording: 'Lead with expression profiling; RNA-seq remains a pilot offering.' Keep the 2012 date, legacy identity and historical methods."
+    - severity: minor
+      area: realism
+      where: "whole deck"
+      problem: "The deck has 11 slides against a 16-slide target and the firm's usual 14-26-slide capability format; several services are reduced to terse lists."
+      suggested_change: "Expand to 16 slides with period-appropriate explanations of array data acceptance, replicate design, interpretation limits, deliverables and engagement handover, without new result or commercial numbers or modernising the distractor."
+- file_id: P06
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "slide 11"
+      problem: "The copied deck replaces the finished case study with '[TBC - pick an oncology example]' and 'Ask Fiona'. The specified texture is a mostly complete copy with typos and an edited bullet, not an unfinished draft; this blurs its distinction from P08."
+      suggested_change: "Restore a completed qualitative inflammation case study from the corrected P01 rather than invent an oncology case. Retain 'Bioinfromatics', 'likley', the oncology bullet edit and Emil's contact details as intentional copy texture."
+    - severity: minor
+      area: science
+      where: "slide 3"
+      problem: "The copy inherits P01's conflation of expression evidence with target validation and unqualified responder identification; its deliberate spelling mistakes are appropriate benchmark distractors."
+      suggested_change: "Apply P01's scientific qualifications while preserving both planted typos and the tumour-subtype adaptation."
+- file_id: P07
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "slides 5, 8 and 10"
+      problem: "The 12-40-compound scope, 10-50 mg delivery quantities, two-to-three-week delivery cadence and within-week proposal promise lack supplied numerical backing. The generic bioinformatics mention on slide 7 correctly remains insufficient for the benchmark query."
+      suggested_change: "Use 'Analogue set size and delivery quantities agreed in the proposal', 'Delivery lots at agreed route gates' and 'We return a scoped route-scout proposal after reviewing the structures'. Keep slide 7 generic."
+    - severity: minor
+      area: science
+      where: "slide 5"
+      problem: "'Purity release by LCMS area percent' leaves the detector unspecified; MS response varies between compounds, so MS area percentage is not a general purity measure."
+      suggested_change: "Use 'Identity by LC-MS; chromatographic area-percent purity by the specified LC detector and method'."
+    - severity: minor
+      area: consistency
+      where: "slide 9"
+      problem: "'Thirty years of route experience' is slightly premature for a firm founded in March 1994 and a deck dated October 2023."
+      suggested_change: "Use 'Nearly thirty years of route experience'."
+- file_id: P08
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "slide 11 and speaker notes"
+      problem: "The draft repeats P01's unsupported 40/seven/two/three case-study counts and within-quarter delivery assertion. Its DRAFT labels, unfinished explanatory slide, reviewer notes and placeholders are intentional and make a convincing superseded-draft distractor."
+      suggested_change: "Replace slide 11 with P01's qualitative case-study wording and remove the note defending the invented counts. Preserve the deliberate draft gaps, reviewer comments and earlier version identity."
+- file_id: P09
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "slide 9"
+      problem: "A volcano plot's y-axis is described as 'confidence (adjusted p-value)' while high points are called confident. Raw adjusted p-values run in the opposite direction; p-values are not confidence probabilities."
+      suggested_change: "Use 'x-axis: log2 fold change', 'y-axis: -log10(adjusted p-value)' and 'Upper corners: large changes with small adjusted p-values; assess biological relevance and replication separately'."
+    - severity: fix
+      area: science
+      where: "slide 8"
+      problem: "RNA-seq is said to count the RNA copies of each gene in a sample. Conventional RNA-seq measures sampled reads/fragments and estimates relative transcript abundance, not absolute copy counts."
+      suggested_change: "Use 'Sequence sampled RNA-derived fragments and estimate relative transcript abundance after normalisation'."
+    - severity: minor
+      area: science
+      where: "slide 10"
+      problem: "'Check cell numbers' alone omits independent biological replication; many cells from one donor do not provide many independent samples. The internal-training framing is otherwise a plausible distractor."
+      suggested_change: "Use 'Check donor/sample replication, cell numbers and batch effects; cells from one donor are not independent biological replicates'. Keep the internal training title, exercises and instructional format."
