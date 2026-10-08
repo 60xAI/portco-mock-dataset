@@ -1,0 +1,316 @@
+{
+  "family": "document",
+  "summary": "Final local service catalogue for exploratory and regulated toxicology enquiries. Defines control validity, animal welfare, material handover and limits of interpretation while onboarding remains pending.",
+  "properties": {
+    "title": "Osterquill Service Catalogue 10/02/2026"
+  },
+  "header": "Osterquill Toxicology Inc",
+  "footer": "Osterquill Toxicology Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Service Catalogue",
+    "subtitle": "Osterquill Toxicology Inc",
+    "lines": [
+      "10/02/2026 | Portland",
+      "Dr N. Takamori | Head of Toxicology",
+      "Local master | Scientific scope and service enquiries"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Catalogue scope and investigation status",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This catalogue distinguishes exploratory screens from investigations conducted within an agreed regulated GLP scope. A service name does not establish regulatory status. Before work begins, the investigation plan identifies the test article, method, applicable quality requirements and the intended use of the report."
+        },
+        {
+          "p": "Osterquill retains its local scientific and quality systems while onboarding remains pending. Local observation sheets, animal cards and archive arrangements remain in use. No common systems migration is implied by a service booking."
+        },
+        {
+          "p": "Dr N. Takamori oversees toxicology scope. Rachel Okafor coordinates investigation design and Lucia Moretti addresses GLP quality assurance and archiving. Exploratory evidence may guide development decisions but is not relabelled as a regulated conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Selecting an appropriate package",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HepG2 viability screen addresses concentration-dependent effects in a defined cell system. Bacterial mutation assay with and without S9 and Mammalian-cell micronucleus assessment address distinct genetic-toxicology endpoints. Neither endpoint substitutes for the other."
+        },
+        {
+          "p": "hERG (IKr) safety pharmacology and CYP safety interaction panel address selected in vitro safety questions. Rat DRF and recovery explores tolerated dosing and the nature and reversibility of observations under an agreed design. Each service has its own control-validity requirements."
+        },
+        {
+          "p": "Sequence work around the decision to be made. An exploratory signal may justify confirmation, altered exposure conditions or a revised dose plan. Combining services does not remove their individual limitations or create a general claim that a test article is safe."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test article and dose-lot handover",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Provide identity, composition, purity information, lot designation, storage instructions, preparation requirements and relevant hazards with the material. Match container labels to the submission record. Kathryn Holmes coordinates the operational handover and unresolved discrepancies are referred to the scientific lead."
+        },
+        {
+          "p": "Stocks and dose preparations must have an explicit concentration basis. Salt form, solvent and visible preparation changes are recorded. For in vivo work, agree dose vehicle, preparation instructions and any needed concentration or homogeneity assessment before animals are assigned."
+        },
+        {
+          "p": "Required material is determined from the authorized design, sampling and reserve needs. There is no catalogue-wide minimum mass. Inadequate material, uncertain identity or incompatible preparation can delay authorization; an administrative receipt is not scientific acceptance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Control validity and interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Methods specify concurrent negative or vehicle controls, positive references, applicable validity criteria and response handling before execution. Historical control experience provides context but does not replace concurrent evidence."
+        },
+        {
+          "p": "Kenji Morita addresses genetic-toxicology validity; Ying Hu addresses electrophysiology performance. A failed control is investigated before the test article response is interpreted. A repeat retains its reason and the original record. An apparently favorable test article result cannot rescue an invalid experiment."
+        },
+        {
+          "p": "Accepted control performance is necessary but does not resolve every article-specific limitation. Cytotoxicity, precipitation, analytical interference or inadequate exposure may restrict conclusions. Reports distinguish a valid negative response, a valid positive response and a result that cannot answer the intended question."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 HepG2 viability screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The HepG2 viability screen evaluates response in the defined cell culture and exposure configuration. The plan identifies cell handling, concentration range, vehicle, exposure interval and viability readout. It is an exploratory in vitro screen unless a different authorized scope is explicitly established."
+        },
+        {
+          "p": "Control validity requires suitable vehicle response, assay background and a relevant positive reference. Readout interference, precipitation and excessive solvent effects are considered before attributing a signal to cell injury. A concentration response is assessed with its preparation history."
+        },
+        {
+          "p": "Provide material compatible with culture medium and the intended dilution. Report the tested interval and conditions. The screen does not establish organ toxicity, a human tolerated dose or a specific injury mechanism. Follow-up may require an alternative endpoint or a more relevant biological system."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Bacterial mutation assay with and without S9",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Bacterial mutation assay with and without S9 examines mutation response under defined strain, metabolic-activation and exposure conditions. The authorized plan records the strain set, dose selection, activation preparation and scoring approach. Kenji Morita is the scientific contact for design."
+        },
+        {
+          "p": "Control validity requires appropriate negative and strain-specific positive responses, with activation controls where relevant. Article precipitation, bacterial toxicity and effects on the background lawn are recorded. A compromised exposure condition is not reported as a clean negative."
+        },
+        {
+          "p": "Supply identity and preparation information, including solvent compatibility. Dose selection is documented with observed limitations. The assay informs bacterial mutagenicity in the tested conditions and does not alone establish mammalian genetic safety. GLP status is confirmed in the investigation plan and final report, not inferred from the assay title."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Mammalian-cell micronucleus assessment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Mammalian-cell micronucleus assessment addresses chromosomal damage in the nominated cell system. The plan specifies exposure, recovery, metabolic activation where applicable and the method for evaluating proliferation or cytotoxicity. Dose selection must permit interpretable exposure."
+        },
+        {
+          "p": "Control validity includes vehicle and appropriate positive-reference responses and suitable cellular performance. Excessive toxicity or inadequate proliferation may compromise evaluation. Scoring records retain the link between preparation, exposure condition and assessed cells."
+        },
+        {
+          "p": "A response requires assessment in the context of cytotoxicity and the tested range. The endpoint alone does not distinguish all possible mechanisms of chromosome damage. It does not establish whole-organism safety. Regulated conclusions require the authorized GLP scope, documented quality oversight and report-specific limitations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 hERG (IKr) safety pharmacology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "hERG (IKr) safety pharmacology examines current inhibition under a defined recording and exposure protocol. Ying Hu coordinates electrophysiology requirements. The plan states concentration series, vehicle, exposure sequence and recording-quality criteria."
+        },
+        {
+          "p": "Stable usable recordings and accepted vehicle and reference behavior are required. A reference such as E-4031 can demonstrate expected channel response. Failed recordings retain their exclusion reasons. Incomplete or poorly defined responses are reported with their limitation."
+        },
+        {
+          "p": "Stocks must remain compatible with the recording solution. Results use µM and identify the supported range or bound. Nominal concentration may differ from effective exposure because of solubility, adsorption or equilibration. An in vitro channel result does not establish a cardiac safety margin without exposure context and other relevant evidence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 CYP safety interaction panel",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "CYP safety interaction panel examines direct inhibition in the nominated isoform and probe-substrate systems. The plan records concentration, enzyme preparation, substrate conditions and incubation sequence. Single-concentration screening and concentration-response work answer different questions."
+        },
+        {
+          "p": "Control validity includes appropriate inhibition references, vehicle response and analytical suitability. Compound interference or compromised probe response is resolved before a signal is interpreted. A failed comparison is not treated as absent inhibition."
+        },
+        {
+          "p": "The report states percent inhibition at the tested concentration and any limitations. Direct-inhibition screening does not establish induction, time-dependent effects, metabolite inhibition or clinical interaction risk. Further work is scoped around the unresolved question and the intended exposure context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 CYP3A4 follow-up IC50",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "CYP3A4 follow-up IC50 can resolve a nominated panel signal using an agreed probe and concentration series. Retain substrate identity and preparation conditions. A changed substrate creates a separate comparison rather than a silent replacement of the original screen."
+        },
+        {
+          "p": "Accepted controls and analytical response precede fitting. An appropriate reference such as ketoconazole is assessed in the same run. Where the midpoint lies outside the usable range, report a bound or unresolved response instead of extrapolating precise potency."
+        },
+        {
+          "p": "Report IC50 in µM with test conditions and curve limitations. This follow-up does not extend the service automatically to time-dependent inhibition or induction. A development decision must keep assay potency separate from a clinical interaction prediction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Rat DRF and recovery — design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rat DRF and recovery is an exploratory range-finding work package unless the authorized investigation explicitly establishes regulated scope. Rachel Okafor defines the design with the sponsor question, anticipated exposure, dose preparation and monitoring needs. Dose is expressed in mg/kg/day."
+        },
+        {
+          "p": "Animal welfare is part of design and conduct. Justify the model and planned use of animals, define observation and intervention requirements, and establish humane endpoints before dosing. Dose escalation is a scientific and welfare decision, not an automatic sequence."
+        },
+        {
+          "p": "The plan distinguishes treatment observations from recovery observations and states their purpose. Individual-animal identifiers are retained on animal cards. A recovery interval can explore persistence or reversibility under the tested design; it cannot demonstrate reversibility for effects or intervals that were not examined."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Rat DRF and recovery — conduct and records",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dose-lot preparation, administration and observations remain linked to each animal card. Record actual handling events, deviations and interventions contemporaneously. A group summary does not replace individual observations. Nathan Wade coordinates pathology handover where included."
+        },
+        {
+          "p": "Control validity encompasses vehicle-group context, dose-preparation suitability and the integrity of the planned observations. Preparation uncertainty or a missed observation is assessed for its effect on interpretation. Welfare intervention is recorded with the triggering observation and scientific consequence."
+        },
+        {
+          "p": "Reports state the administered design and the limitations of the exploratory cohort. A dose judged usable for the next investigation is conditional on the evidence collected; it is not a universal tolerated dose or an automatic regulated no-adverse-effect conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 GLP scope, quality assurance and archive",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Lucia Moretti confirms applicable quality-assurance and archive arrangements before a regulated investigation begins. The plan identifies responsibilities, approved method, amendments and reporting requirements. Catalogue wording is not a compliance statement for an individual investigation."
+        },
+        {
+          "p": "Exploratory screens retain their scientific records and review, but their conclusions remain exploratory. When preliminary work informs a regulated design, document that relationship without changing the status of the preliminary observations. A subsequent investigation is separately authorized."
+        },
+        {
+          "p": "Amendments identify the change and its reason. Deviations describe what occurred and the impact assessment. The final report states applicable status, unresolved limitations and the location of retained records. Local archive arrangements remain in force while onboarding is pending."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 List prices and quotation boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The USD list prices below apply to the named in vitro services and charging units. The quotation confirms the exact test configuration and authorized reporting scope. Volume discounts are 5% for more than 30 compounds and 10% for more than 80 compounds."
+        },
+        {
+          "p": "HepG2 viability screen, genetic-toxicology work and Rat DRF and recovery require a scoped quotation. No price for those services is stated here. Animal design, preparation assessment, recovery objectives and quality requirements must be defined before commercial scope is finalized."
+        },
+        {
+          "p": "Scheduling is agreed after material and investigation requirements are accepted. This catalogue does not promise an execution period or imply that regulated scope is included in an exploratory screen price."
+        },
+        {
+          "table": {
+            "columns": [
+              "Service",
+              "Unit",
+              "USD list price"
+            ],
+            "rows": [
+              [
+                "hERG (IKr) safety pharmacology",
+                "per compound",
+                "310"
+              ],
+              [
+                "CYP safety interaction panel",
+                "per compound",
+                "175"
+              ],
+              [
+                "CYP3A4 follow-up IC50",
+                "per compound",
+                "400"
+              ]
+            ],
+            "caption": "2026 in vitro list prices"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Authorization and report use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Naomi Takamori is responsible for the catalogue scientific scope. Kathryn Holmes coordinates enquiries; Rachel Okafor addresses in vivo design and Kenji Morita addresses genetic-toxicology questions. Quality and archive requirements are referred to Lucia Moretti."
+        },
+        {
+          "p": "Before authorization, confirm article identity, service question, control-validity criteria, preparation, intended regulatory use and report recipient. A combined package retains service-specific acceptance and limitations. Onboarding remains pending and local records continue to support traceability."
+        },
+        {
+          "p": "Use the report to answer the authorized question. State any follow-up needed before a broader development claim is made. This catalogue is effective 10/02/2026 and retains the Osterquill local master; completed investigations are interpreted against their own plans and records."
+        }
+      ]
+    }
+  ],
+  "orientation": "portrait"
+}
