@@ -1,76 +1,272 @@
-{"family": "workbook",
- "summary": "Assay worksheet for MV-2016-095, the TP04 DDI follow-up for Tervemere Pharma AG: 18 aminopyrazolopyrimidine analogues screened for inhibition of five CYP isoforms at 10 µM, then CYP3A4 IC50 curves on the same set. The concentration-response work confirmed the rank order from the screen, and Tervemere kept the low-interaction branch.",
- "properties": {"title": "MV-2016-095 assay worksheet (TP04 DDI follow-up)"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-    [{"v": "Merrivoss Bioanalysis Inc: assay worksheet", "bold": true}],
-    ["Project", "{{PRJ0058:project_id}}", null, "LIMS", "{{PRJ0058:lims_id}}"],
-    ["Client", "{{PRJ0058:client_variant}}"],
-    ["Study", "TP04 DDI follow-up: panel inhibition and CYP3A4 curves"],
-    ["Series", "SER04, aminopyrazolopyrimidine (TP04 prefix)"],
-    ["Compounds", "{{PRJ0058:n_compounds}}"],
-    ["Quote", "04/14/2016"],
-    ["Start", "05/30/2016"],
-    ["Interim", "06/07/2016"],
-    ["Completion", "06/16/2016"],
-    [],
-    ["Assay", "Protocol", "Sheet"],
-    ["CYP inhibition panel", "Five isoforms at 10 µM, human liver microsomes, probe substrates", "CYP panel"],
-    ["CYP3A4 IC50", "Midazolam 1'-hydroxylation, eight-point curves", "CYP3A4 IC50"],
-    ["Controls", "Reference inhibitors per isoform, see sheet", "Controls and benchmark"],
-    [],
-    ["Reviewed by", "Megan Larkin", null, "Checked", "Helen Marchwood, 06/16/2016"]
-   ],
-   "col_widths": {"A": 26, "B": 66, "C": 22, "D": 12, "E": 26},
-   "merged": ["A1:E1"]
+{
+  "family": "workbook",
+  "summary": "Assay worksheet for MV-2016-095, the TP04 DDI follow-up for Tervemere Pharma AG: {{PRJ0058:n_compounds}} aminopyrazolopyrimidine analogues screened for inhibition of five CYP isoforms at 10 µM, then CYP3A4 IC50 curves on the same set. The concentration-response work confirmed the rank order from the screen, and Tervemere kept the low-interaction branch.",
+  "properties": {
+    "title": "MV-2016-095 assay worksheet (TP04 DDI follow-up)"
   },
-  {"name": "CYP panel",
-   "rows": [
-    [{"v": "CYP inhibition, % inhibition at 10 µM (house name: Five-isoform DDI screen)", "bold": true}],
-    ["Human liver microsomes, probe substrates per isoform. Negative values are read as no inhibition within assay noise."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0058:cyp_inhib", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 14, "C": 14, "D": 14, "E": 14, "F": 14},
-   "number_formats": {"B5:F22": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0058:cyp_inhib", "column": 5, "title": "CYP3A4 inhibition at 10 µM (%)", "y_label": "% inhibition"},
-   "chart_at": "H4",
-   "comments": [{"cell": "D4", "text": "CYP2C19 is the most flagged isoform in this set; flagged compounds carried into the IC50 work.", "author": "Helen Marchwood"}]
-  },
-  {"name": "CYP3A4 IC50",
-   "rows": [
-    [{"v": "CYP3A4 IC50 (house name: CYP3A4 inhibition curves)", "bold": true}],
-    ["Midazolam 1'-hydroxylation, human liver microsomes. Concentrations from 0.1 to 50 µM, eight points, two replicates. IC50 above 50 µM reported as '>50'."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0058:cyp_ic50", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 14, "C": 18},
-   "number_formats": {"B5:B22": "0.00"},
-   "tab_color": "#7F7F7F"
-  },
-  {"name": "Controls and benchmark",
-   "rows": [
-    [{"v": "Reference inhibitors and historical ranges", "bold": true}],
-    ["Isoform", "Reference inhibitor", "Control IC50 (µM)", "Historical (µM)", "Compounds >50% at 10 µM"],
-    ["CYP1A2", "Furafylline", "{{PRJ0058:cyp.control_CYP1A2_uM}}", "{{PRJ0058:cyp.hist_CYP1A2_uM}}", "{{PRJ0058:cyp.n_gt50_CYP1A2}}"],
-    ["CYP2C9", "Sulfaphenazole", "{{PRJ0058:cyp.control_CYP2C9_uM}}", "{{PRJ0058:cyp.hist_CYP2C9_uM}}", "{{PRJ0058:cyp.n_gt50_CYP2C9}}"],
-    ["CYP2C19", "Ticlopidine", "{{PRJ0058:cyp.control_CYP2C19_uM}}", "{{PRJ0058:cyp.hist_CYP2C19_uM}}", "{{PRJ0058:cyp.n_gt50_CYP2C19}}"],
-    ["CYP2D6", "Quinidine", "{{PRJ0058:cyp.control_CYP2D6_uM}}", "{{PRJ0058:cyp.hist_CYP2D6_uM}}", "{{PRJ0058:cyp.n_gt50_CYP2D6}}"],
-    ["CYP3A4", "Ketoconazole", "{{PRJ0058:cyp.control_CYP3A4_uM}}", "{{PRJ0058:cyp.hist_CYP3A4_uM}}", "{{PRJ0058:cyp.n_gt50_CYP3A4}}"],
-    [],
-    ["Most flagged isoform", "{{PRJ0058:cyp.most_flagged}}"],
-    ["Compounds flagged on any isoform", "{{PRJ0058:cyp.n_any_gt50}}"],
-    ["CYP3A4 IC50 below 1 µM", "{{PRJ0058:cyp3a4_ic50.n_lt_1uM}}"],
-    ["CYP3A4 IC50 below 10 µM", "{{PRJ0058:cyp3a4_ic50.n_lt_10uM}}"],
-    [],
-    [{"v": "Project benchmark summary", "bold": true}]
-   ],
-   "data_refs": [{"table_ref": "PRJ0058:benchmark", "at": "A17"}],
-   "col_widths": {"A": 30, "B": 24, "C": 20, "D": 18, "E": 26},
-   "merged": ["A1:E1", "A16:E16"],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc: assay worksheet",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "{{PRJ0058:project_id}}",
+          null,
+          "LIMS",
+          "{{PRJ0058:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0058:client_variant}}"
+        ],
+        [
+          "Study",
+          "TP04 DDI follow-up: panel inhibition and CYP3A4 curves"
+        ],
+        [
+          "Series",
+          "SER04, aminopyrazolopyrimidine (TP04 prefix)"
+        ],
+        [
+          "Compounds",
+          "{{PRJ0058:n_compounds}}"
+        ],
+        [
+          "Quote",
+          "04/14/2016"
+        ],
+        [
+          "Start",
+          "05/30/2016"
+        ],
+        [
+          "Interim",
+          "06/07/2016"
+        ],
+        [
+          "Completion",
+          "06/16/2016"
+        ],
+        [],
+        [
+          "Assay",
+          "Protocol",
+          "Sheet"
+        ],
+        [
+          "CYP inhibition panel",
+          "Five isoforms at 10 µM, human liver microsomes, probe substrates",
+          "CYP panel"
+        ],
+        [
+          "CYP3A4 IC50",
+          "Midazolam 1'-hydroxylation, eight-point curves",
+          "CYP3A4 IC50"
+        ],
+        [
+          "Controls",
+          "Reference inhibitors per isoform, see sheet",
+          "Controls and benchmark"
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Megan Larkin",
+          null,
+          "Checked",
+          "Helen Marchwood, 06/16/2016"
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 66,
+        "C": 22,
+        "D": 12,
+        "E": 26
+      },
+      "merged": [
+        "A1:E1"
+      ]
+    },
+    {
+      "name": "CYP panel",
+      "rows": [
+        [
+          {
+            "v": "CYP inhibition, % inhibition at 10 µM (house name: Five-isoform DDI screen)",
+            "bold": true
+          }
+        ],
+        [
+          "Human liver microsomes, probe substrates per isoform. Negative values are read as no inhibition within assay noise."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0058:cyp_inhib",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 14,
+        "D": 14,
+        "E": 14,
+        "F": 14
+      },
+      "number_formats": {
+        "B5:F22": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0058:cyp_inhib",
+        "column": 5,
+        "title": "CYP3A4 inhibition at 10 µM (%)",
+        "y_label": "% inhibition"
+      },
+      "chart_at": "H4",
+      "comments": [
+        {
+          "cell": "D4",
+          "text": "CYP2C19 and CYP3A4 share the highest count above 50% inhibition at 10 µM. CYP3A4 concentration-response results cover the full test article set.",
+          "author": "Helen Marchwood"
+        }
+      ]
+    },
+    {
+      "name": "CYP3A4 IC50",
+      "rows": [
+        [
+          {
+            "v": "CYP3A4 IC50 (house name: CYP3A4 inhibition curves)",
+            "bold": true
+          }
+        ],
+        [
+          "Midazolam 1'-hydroxylation, human liver microsomes. Concentrations from 0.1 to 50 µM, eight points, two replicates. IC50 above 50 µM reported as '>50'."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0058:cyp_ic50",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 18
+      },
+      "number_formats": {
+        "B5:B22": "0.00"
+      },
+      "tab_color": "#7F7F7F"
+    },
+    {
+      "name": "Controls and benchmark",
+      "rows": [
+        [
+          {
+            "v": "Reference inhibitors and historical comparators",
+            "bold": true
+          }
+        ],
+        [
+          "Isoform",
+          "Reference inhibitor",
+          "Control IC50 (µM)",
+          "Historical (µM)",
+          "Compounds >50% at 10 µM"
+        ],
+        [
+          "CYP1A2",
+          "Furafylline",
+          "{{PRJ0058:cyp.control_CYP1A2_uM}}",
+          "{{PRJ0058:cyp.hist_CYP1A2_uM}}",
+          "{{PRJ0058:cyp.n_gt50_CYP1A2}}"
+        ],
+        [
+          "CYP2C9",
+          "Sulfaphenazole",
+          "{{PRJ0058:cyp.control_CYP2C9_uM}}",
+          "{{PRJ0058:cyp.hist_CYP2C9_uM}}",
+          "{{PRJ0058:cyp.n_gt50_CYP2C9}}"
+        ],
+        [
+          "CYP2C19",
+          "Ticlopidine",
+          "{{PRJ0058:cyp.control_CYP2C19_uM}}",
+          "{{PRJ0058:cyp.hist_CYP2C19_uM}}",
+          "{{PRJ0058:cyp.n_gt50_CYP2C19}}"
+        ],
+        [
+          "CYP2D6",
+          "Quinidine",
+          "{{PRJ0058:cyp.control_CYP2D6_uM}}",
+          "{{PRJ0058:cyp.hist_CYP2D6_uM}}",
+          "{{PRJ0058:cyp.n_gt50_CYP2D6}}"
+        ],
+        [
+          "CYP3A4",
+          "Ketoconazole",
+          "{{PRJ0058:cyp.control_CYP3A4_uM}}",
+          "{{PRJ0058:cyp.hist_CYP3A4_uM}}",
+          "{{PRJ0058:cyp.n_gt50_CYP3A4}}"
+        ],
+        [],
+        [
+          "Most flagged isoforms",
+          "{{PRJ0058:cyp.most_flagged}}"
+        ],
+        [
+          "Compounds flagged on any isoform",
+          "{{PRJ0058:cyp.n_any_gt50}}"
+        ],
+        [
+          "CYP3A4 IC50 below 1 µM",
+          "{{PRJ0058:cyp3a4_ic50.n_lt_1uM}}"
+        ],
+        [
+          "CYP3A4 IC50 below 10 µM",
+          "{{PRJ0058:cyp3a4_ic50.n_lt_10uM}}"
+        ],
+        [],
+        [
+          {
+            "v": "Project benchmark summary",
+            "bold": true
+          }
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0058:benchmark",
+          "at": "A17"
+        }
+      ],
+      "col_widths": {
+        "A": 30,
+        "B": 24,
+        "C": 20,
+        "D": 18,
+        "E": 26
+      },
+      "merged": [
+        "A1:E1",
+        "A16:E16"
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
