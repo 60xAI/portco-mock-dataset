@@ -308,7 +308,7 @@
       "level": 1,
       "blocks": [
         {
-          "p": "The stability table preserves condition, timepoint, assay, impurities, water and status. Rows are not relabelled as coated or uncoated where the supplied table has no presentation field."
+          "p": "Results are tabulated by condition and timepoint; coated and uncoated presentations were pooled at each pull, as agreed in the protocol."
         },
         {
           "p": "The decision is reported from the project outcome and underlying comparator records. Preserving the numerical table prevents attribution of a particular row to a coating state without the batch-card link."
