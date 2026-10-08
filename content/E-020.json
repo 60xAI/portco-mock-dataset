@@ -1,0 +1,127 @@
+{
+  "family": "deck",
+  "summary": "AT-22 tablets: stability review for Aldrevessa Therapeutics. The uncoated comparator showed a humidity-driven impurity increase. Aldrevessa selected the coated tablet. Conclusions remain within the tested protocol and are linked to approved sequence sheets.",
+  "properties": {
+    "title": "AT-22 tablets: stability review",
+    "subject": "Aldrevessa Therapeutics | {{PRJ0097:project_id}} | QA-approved client readout",
+    "keywords": "Westravelle; AT-22 tablets; system suitability; stability pulls"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "1. AT-22 tablets: stability review",
+      "subtitle": "Aldrevessa Therapeutics | {{PRJ0097:project_id}} | 25 Jul 2025",
+      "bullets": [
+        "Westravelle Analytical Ltd, a Tarnovell company",
+        "QA-approved client readout | Dr A. Penrose",
+        "ICH chamber programme and Assay and related-substances validation"
+      ],
+      "notes": "Final readout. Protocol opened 22 Jul 2024; approved results completed 22 Jul 2025. LIMS accession {{PRJ0097:lims_id}}. The uncoated comparator showed a humidity-driven impurity increase. Aldrevessa selected the coated tablet.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "2. Approved numerical evidence",
+      "table": {
+        "table_ref": "PRJ0097:stability",
+        "max_rows": 18,
+        "columns": [
+          0,
+          1,
+          2,
+          5,
+          7
+        ]
+      },
+      "notes": "Source: E-010 / AT22_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx, approved 22 Jul 2025. Assay is percent label claim; total impurities are area percent. Condition and pull interval remain part of each result identity. Individual impurities and water results are retained in the full sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "3. Protocol identity and sample custody",
+      "bullets": [
+        "Client: Aldrevessa Therapeutics",
+        "Protocol: {{PRJ0097:project_id}} | LIMS: {{PRJ0097:lims_id}}",
+        "Opened 22 Jul 2024; completed 22 Jul 2025",
+        "Dr L. Wu: stability lot and sample-custody reconciliation."
+      ],
+      "bullets_right": [
+        "Storage condition and pull interval are carried with the stability lot on the batch card.",
+        "Sequence sheets retain the pack or presentation identity; results must not be pooled across storage conditions.",
+        "Tested interval: through {{PRJ0097:stability.last_timepoint_months}} months."
+      ],
+      "notes": "The accession links receipt, batch card, preparation and analytical sequence. This readout does not introduce new lot codes or replace approved sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "4. HPLC method qualification",
+      "table": {
+        "table_ref": "PRJ0097:method_val",
+        "max_rows": 8
+      },
+      "notes": "Saira Mahmood, QC Method Validation Lead: qualification review. Read each result against its stated acceptance criterion. Assay and related-substances validation supports the reported sample preparation and separation; extensions require a separately agreed protocol.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "chart",
+      "title": "5. Impurity trend by storage interval",
+      "chart": {
+        "kind": "stability",
+        "ref": "PRJ0097:stability",
+        "column": 5,
+        "title": "Total impurities (area %)"
+      },
+      "notes": "The uncoated comparator showed a humidity-driven impurity increase. The plot is a view of the approved stability table; the table supplies condition, interval and compliance status. Do not extrapolate beyond {{PRJ0097:stability.last_timepoint_months}} months.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "6. System suitability and deviation disposition",
+      "bullets": [
+        "Saira Mahmood: analytical method and system suitability review.",
+        "Dr L. Wu: reconciliation of preparation, storage and sequence identity.",
+        "Dr A. Penrose: approved interpretation and client release."
+      ],
+      "bullets_right": [
+        "Approved sequence sheets are the authority for suitability acceptance and any repeat sequence.",
+        "Deviation notes remain linked to the affected batch card; this deck does not replace their disposition.",
+        "No additional chamber excursion, reinjection or acceptance limit is inferred from the trend plot."
+      ],
+      "notes": "Readout source: AT22_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx. Distinguish an observed formulation or packaging effect from an analytical deviation. The uncoated comparator showed a humidity-driven impurity increase.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "7. Interpretation for transfer",
+      "bullets": [
+        "The uncoated comparator showed a humidity-driven impurity increase.",
+        "Aldrevessa selected the coated tablet.",
+        "Carry the coated tablet into transfer; retain the uncoated comparator results as the formulation decision record.",
+        "Conclusion applies to tested storage conditions and the reported {{PRJ0097:stability.last_timepoint_months}}-month interval."
+      ],
+      "notes": "Keep coating status with the comparator identity. The humidity-driven impurity increase explains the formulation decision; pooled tablet results would obscure it.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "8. Release gate and client decision",
+      "bullets": [
+        "Aldrevessa selected the coated tablet.",
+        "Release basis: AT22_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx; approved 22 Jul 2025.",
+        "Carry the coated tablet into transfer; retain the uncoated comparator results as the formulation decision record.",
+        "Archive the approved readout with the sequence sheets, batch cards and linked deviation notes."
+      ],
+      "notes": "Dr A. Penrose | Head of Analytical Services | 25 Jul 2025. Final client readout for Aldrevessa Therapeutics. Later shelf-life conclusions require additional approved pulls.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    }
+  ]
+}
