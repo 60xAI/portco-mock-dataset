@@ -1,0 +1,355 @@
+{
+  "family": "document",
+  "summary": "Controlled procedure for chamber retrieval and reconciliation of Stability pulls. Defines excursion handling, analytical release gates and retention of signed batch cards.",
+  "properties": {
+    "title": "WA-SOP-018 Stability pull reconciliation"
+  },
+  "header": "Westravelle Analytical Ltd, a Tarnovell company",
+  "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "WA-SOP-018 Stability pull reconciliation",
+    "subtitle": "Revision 05 | Controlled SOP",
+    "lines": [
+      "Effective date: 09 Nov 2023",
+      "Prepared by: Dr C. Smith | QA Officer",
+      "Applies to: ICH chamber programme and Stability pulls"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose, scope and control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This procedure controls movement of stability lots from chamber storage to analytical allocation. It applies to scheduled pulls, authorised additional pulls and retrieval following an excursion. The approved protocol remains the authority for storage conditions, pull windows, required containers and tests. This SOP does not authorise a change to those requirements."
+        },
+        {
+          "table": {
+            "columns": [
+              "Control item",
+              "Requirement"
+            ],
+            "rows": [
+              [
+                "Master",
+                "QA retains the approved master and approval evidence."
+              ],
+              [
+                "Working copy",
+                "Check revision against the controlled register before use."
+              ],
+              [
+                "Superseded copy",
+                "Withdraw from points of use; retain with historical execution evidence."
+              ],
+              [
+                "Protocol conflict",
+                "Refer to QA before retrieval."
+              ]
+            ],
+            "caption": "Table 1 Document control"
+          }
+        },
+        {
+          "p": "Revision 05 consolidates retrieval reconciliation, excursion disposition and the system-suitability release gate into one signed chain of custody. Training shall be recorded before independent execution. A printed copy is valid only where its issue and withdrawal can be traced."
+        },
+        {
+          "p": "A pull is complete only when every expected container has a documented disposition. Physical reconciliation and analytical completion are separate release gates. Passing one does not release the other."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Responsibilities and source records",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Function",
+              "Responsibility",
+              "Evidence"
+            ],
+            "rows": [
+              [
+                "Stability Coordinator",
+                "Prepare pull list and reconcile retrieval.",
+                "Pull list and batch card"
+              ],
+              [
+                "Sample Management Coordinator",
+                "Check receipt, identity and allocation.",
+                "Receipt and transfer signatures"
+              ],
+              [
+                "Analyst",
+                "Check method version and document preparation.",
+                "Sequence sheet and raw-data references"
+              ],
+              [
+                "QC Method Validation Lead",
+                "Resolve method and suitability questions.",
+                "Technical assessment"
+              ],
+              [
+                "QA Officer",
+                "Assess departures and approve disposition.",
+                "Deviation note and QA signature"
+              ],
+              [
+                "Head of Analytical Services",
+                "Authorise scientific interpretation.",
+                "Written decision linked to batch card"
+              ]
+            ],
+            "caption": "Table 2 Accountabilities"
+          }
+        },
+        {
+          "p": "The retrieving operator shall not sign the receiving check for an absent recipient. Where independent checking is required, the checker shall inspect the actual labels and source entries. A signature confirms the stated check, not work performed by another person."
+        },
+        {
+          "p": "Use the approved protocol, placement inventory, chamber location register, monitoring history, pull list, batch card and analytical allocation. Identify their versions or traceable locations before opening the chamber. Handwritten amendments shall preserve the original entry and carry initials, date and reason."
+        },
+        {
+          "p": "The Stability Coordinator assigns a receiving location before retrieval. The recipient confirms that the location meets the protocol handling requirements and is available. Resolve any uncertainty before transferring material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Pull planning and chamber retrieval",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "3.1 Prepare the pull list from the placement inventory and approved schedule. Record protocol identifier, stability lot, accession, nominal timepoint, condition in °C and relative humidity, chamber identifier, shelf or tray, container identity and expected quantity. Confirm the permitted retrieval window against the protocol."
+        },
+        {
+          "p": "3.2 Check chamber status and monitoring history since the preceding reviewed pull. Flag alarms, interruptions and unresolved excursion assessments. An unresolved flag accompanies the material even where retrieval is necessary to protect it."
+        },
+        {
+          "p": "3.3 Compare the location label with the pull list before removal. Retrieve only listed containers. Record actual date and time, operator, quantity, label condition and any damaged seal or abnormal appearance. Keep the chamber door open only for the retrieval operation."
+        },
+        {
+          "p": "3.4 Maintain protocol-defined handling conditions in transfer. Identify temporary holding locations and the start and end of each hold. Do not leave unlabelled containers beside an analytical sequence or combine contents to repair a shortfall."
+        },
+        {
+          "p": "3.5 Where identity or location is uncertain, stop that item, secure it separately and notify the Stability Coordinator. Preserve the observed location. Other items may proceed only where their traceability and condition are unaffected."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Receipt and reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "4.1 Before allocation the recipient checks protocol, stability lot, accession, condition, timepoint, container identity and quantity against the pull list and batch card. Record receipt date and time and the receiving signature beside the transfer signature."
+        },
+        {
+          "table": {
+            "columns": [
+              "Field",
+              "Required entry"
+            ],
+            "rows": [
+              [
+                "Expected",
+                "Quantity and identities from placement inventory"
+              ],
+              [
+                "Retrieved",
+                "Quantity and identities physically removed"
+              ],
+              [
+                "Received",
+                "Quantity and identities accepted into holding"
+              ],
+              [
+                "Allocated",
+                "Containers assigned to each test"
+              ],
+              [
+                "Retained or returned",
+                "Identity, location, condition and reason"
+              ],
+              [
+                "Quarantined, damaged or missing",
+                "Identity or expected position and deviation-note reference"
+              ]
+            ],
+            "caption": "Table 3 Reconciliation fields"
+          }
+        },
+        {
+          "p": "4.2 Reconcile expected containers against all documented dispositions. A consumed container remains traceable through allocation and preparation entries. Do not count a replacement as the original retrieval or amend the expected quantity merely to match receipt."
+        },
+        {
+          "p": "4.3 Investigate discrepancies using placement entries, prior transfers and physical locations. Record observations, locations checked and evidence supporting resolution. An unexplained difference remains open; verbal assurance is not reconciliation."
+        },
+        {
+          "p": "4.4 The Stability Coordinator signs physical reconciliation after receipt and allocation agree. QA reviews unresolved differences before affected results can be released."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Excursions and other departures",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "5.1 Open a deviation note for an out-of-window pull, missing or damaged container, unexplained identity difference, unapproved hold or chamber excursion. Record discovery date, affected protocols and stability lots, observed facts and immediate containment. Distinguish the known interval from any interval without monitoring evidence."
+        },
+        {
+          "p": "5.2 Secure affected material with a quarantine identifier and controlled location. Preserve monitoring history and the original pull list. Retrieval to safeguard material does not constitute acceptance or authority to report compliance."
+        },
+        {
+          "p": "5.3 Assess duration and extent, required storage, container integrity and possible effect on testing. State the evidence and its limits. Where exposure cannot be established, retain that uncertainty; do not infer acceptable storage from a subsequent satisfactory assay."
+        },
+        {
+          "p": "5.4 Scientific disposition shall specify whether analysis may proceed for information, whether repeat retrieval is authorised and whether the scheduled point remains reportable. QA approves the disposition and records any necessary client instruction through protocol correspondence."
+        },
+        {
+          "p": "5.5 Link corrective actions and effectiveness checks to the deviation note. Closure requires evidence that affected containers and results carry the approved status. A completed action list alone does not clear the release gate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Analytical and reporting release gates",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Gate",
+              "Evidence",
+              "If unmet"
+            ],
+            "rows": [
+              [
+                "Identity and custody",
+                "Signed retrieval, receipt and reconciliation",
+                "Hold affected material or release"
+              ],
+              [
+                "Method readiness",
+                "Approved method and acceptance criteria",
+                "Refer to QC Method Validation Lead"
+              ],
+              [
+                "System suitability",
+                "Accepted applicable sequence sheet",
+                "Hold analytical results"
+              ],
+              [
+                "Departure disposition",
+                "Approved deviation note and restrictions",
+                "Retain quarantine or information-only status"
+              ],
+              [
+                "Report readiness",
+                "Checked calculations, raw-data links and interpretation",
+                "Do not issue"
+              ]
+            ],
+            "caption": "Table 4 Release gates"
+          }
+        },
+        {
+          "p": "6.1 Check system suitability against the approved method before accepting sample results. Record preparations, injections and acceptance decisions in the sequence sheet. Failed suitability remains visible; do not exclude it because a later sequence passes."
+        },
+        {
+          "p": "6.2 Reinjection, fresh preparation and repeat analysis require a reason and the method-defined decision route. Preserve original data and relate repeats to the same allocation. The reviewer checks that reported values follow the authorised disposition."
+        },
+        {
+          "p": "6.3 Report assay as percent label claim and impurities as area percent where required. Conclusions remain within the tested interval and accepted conditions. Reconciliation and an initial compliant result do not support an untested shelf-life claim."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Retention, signatures and closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "7.1 Retain the batch card with retrieval and receipt signatures, reconciliation, allocation, sequence references and release-gate decisions. Attach or link monitoring history, deviation notes and written disposition. Electronic references must remain accessible from the retained batch card."
+        },
+        {
+          "p": "7.2 Every signature identifies the person, role, date and check performed. A late entry states its actual entry date and the source of the earlier event date. Do not backdate signatures or replace signed pages without retaining the superseded page and amendment history."
+        },
+        {
+          "p": "7.3 Before closure the Stability Coordinator checks remaining chamber inventory against the next pull and retained material. QA confirms that restrictions carry into the next pull list and missing evidence remains open."
+        },
+        {
+          "table": {
+            "columns": [
+              "Closure field",
+              "Entry"
+            ],
+            "rows": [
+              [
+                "Physical reconciliation",
+                "Disposition of every expected container"
+              ],
+              [
+                "Analytical status",
+                "Released, held or information only with authority"
+              ],
+              [
+                "Remaining inventory",
+                "Location and next action"
+              ],
+              [
+                "Deviation status",
+                "Closure evidence or owner and outstanding action"
+              ],
+              [
+                "Retention location",
+                "Archive and raw-data references"
+              ]
+            ],
+            "caption": "Table 5 Closure record"
+          }
+        },
+        {
+          "p": "Dr C. Smith prepared this procedure. Alice Penrose approved scientific responsibilities and Mark Campbell approved QA controls on 09 Nov 2023. Execution signatures belong on the batch card and are not replaced by SOP approval."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Carla Smith",
+      "role": "QA Officer | Prepared",
+      "date": "09/11/2023",
+      "signed": true
+    },
+    {
+      "name": "Alice Penrose",
+      "role": "Head of Analytical Services | Scientific approval",
+      "date": "09/11/2023",
+      "signed": true
+    },
+    {
+      "name": "Mark Campbell",
+      "role": "QA Officer | QA approval",
+      "date": "09/11/2023",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
