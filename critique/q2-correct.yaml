@@ -1,0 +1,226 @@
+- file_id: P10
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "section 3, hERG automated patch clamp"
+      problem: "A fixed 3-5 minute exposure does not establish equilibrium for slow-onset hERG blockers; no plateau or extension rule is stated."
+      suggested_change: "State that tail current must stabilise before moving to the next concentration; extend exposure or flag non-equilibrated recordings."
+    - severity: minor
+      area: realism
+      where: "section 3, assay methods"
+      problem: "The quotation describes unperformed work in the past tense ('were recorded', 'were incubated')."
+      suggested_change: "Use prospective wording: 'will be recorded', 'will be incubated' and 'will be applied'."
+    - severity: minor
+      area: consistency
+      where: "section 5 Timeline"
+      problem: "The quoted 15 working days differs in basis from the 15 calendar days recorded in P11/P12; it should not be read as the achieved turnaround."
+      suggested_change: "Label this as the quoted maximum; retain the actual 12-27 September interval as 15 calendar days in the completed-study documents."
+- file_id: P11
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sheet hERG run sheet, E3 comment and AP02-01428/AP02-01506/AP02-01524"
+      problem: "The comment says censored replicates are excluded, but a finite replicate paired with >30 produces a mean of >30. For AP02-01428, excluding >30 would leave 21, not >30. Mixed censoring cannot establish a geometric mean above 30."
+      suggested_change: "Use a documented censoring rule and mark mixed finite/censored summaries as indeterminate or as justified bounds; retain the individual results and reconcile the benchmark summary."
+    - severity: fix
+      area: science
+      where: "sheet Plate acceptance"
+      problem: "CYP controls are declared passing 'within 3-fold of historical mean' without giving the reference means or numeric limits. 'Result' also mixes hERG nM and CYP µM without units in this sheet."
+      suggested_change: "Label results as IC50 with an explicit unit column and provide the applicable historical reference or acceptance interval for each CYP control."
+    - severity: minor
+      area: consistency
+      where: "sheet Plate acceptance, final statement"
+      problem: "'All runs met plate acceptance criteria' conflicts with run-sheet notes identifying rejected E-4031 runs that were repeated."
+      suggested_change: "Replace with 'All reported results derive from accepted runs; failed runs were excluded and repeated.'"
+- file_id: P12
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "page 2 Methods and page 3 Table 2"
+      problem: "Methods specify an IC50 fitted to mean inhibition, whereas P11 describes geometric means of cell-level IC50s. Table 2 also reports >30 summaries for mixed finite/>30 replicates, including AP02-01428 (21 and >30), without a valid aggregation rule."
+      suggested_change: "Describe the actual per-cell fitting and aggregation procedure, state how censoring is handled, and replace unsupported mixed-censoring summaries with justified bounds or indeterminate results."
+    - severity: fix
+      area: science
+      where: "page 2 CYP methods and page 5 control footnote"
+      problem: "Five CYP control IC50s are reported, but only a single-concentration test protocol is described; control dilution ranges, acceptance limits and any NADPH preincubation for furafylline/ticlopidine are absent. The blanket acceptance claim cannot be assessed from the report."
+      suggested_change: "Add the separate control concentration-response procedure, actual preincubation conditions and numerical acceptance limits; identify the accepted runs after repeats."
+    - severity: minor
+      area: science
+      where: "page 5 Conclusion"
+      problem: "'Widest hERG margin' implies a safety margin although no exposure or potency denominator is supplied."
+      suggested_change: "Say 'highest measured hERG IC50 values', and reserve safety-margin assessment for comparison with unbound exposure."
+- file_id: P13
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "section 2 Scope and section 6 Price"
+      problem: "CYP3A4 curves are included only for up to ten compounds above 50% inhibition, but the price line charges across 42 compounds and P14/P15 contain curves for all 42, including 13 CYP3A4 flags."
+      suggested_change: "State that CYP3A4 concentration responses cover all 42 compounds within the fixed GBP 15,900 package; remove the ten-compound cap and flag-only condition."
+    - severity: minor
+      area: science
+      where: "section 3, 3A4 concentration response"
+      problem: "'Midazolam or testosterone' gives no probe-selection rule, although CYP3A4 inhibition is substrate dependent."
+      suggested_change: "Specify how the probe is assigned, its concentration and metabolite, and that results from different probes are not directly interchangeable."
+    - severity: minor
+      area: realism
+      where: "section 3 Study design"
+      problem: "The proposal uses retrospective assay wording throughout."
+      suggested_change: "Describe the planned assays in the future tense."
+- file_id: P14
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sheet hERG run sheet, AP02-01416/AP02-01506 and E3 comment"
+      problem: "Mixed finite/>30 replicates yield >30 means despite the comment saying censored replicates are excluded; AP02-01416 has >30 and 21 but a >30 summary."
+      suggested_change: "Document a defensible censoring rule, use justified bounds or indeterminate summaries for mixed results, and align the report's fitting/averaging description."
+    - severity: fix
+      area: science
+      where: "sheet Plate acceptance and sheet 3A4 conc response"
+      problem: "CYP pass decisions have no numerical historical reference; the single ketoconazole result is not tied to the midazolam and testosterone assays used in the curve sheet."
+      suggested_change: "Provide control IC50 units, numerical acceptance intervals and probe-specific run/control identifiers for both CYP3A4 assays."
+    - severity: minor
+      area: consistency
+      where: "sheet Plate acceptance, final statement"
+      problem: "'All runs met' ignores the rejected and repeated run noted for AP02-01586."
+      suggested_change: "State that all reported results came from accepted original or repeat runs."
+- file_id: P15
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "page 6 Conclusion and pages 5-6 Table 4"
+      problem: "The conclusion recommends confirming CYP3A4 flags by concentration response, although Table 4 already gives concentration-response results for all 42 compounds. It does not interpret those results or the world's basic-side-chain liability/redesign outcome."
+      suggested_change: "Discuss the existing CYP3A4 curves and substrate dependence; state the documented basic-side-chain concern and chemistry-redesign decision, distinguishing client follow-up from measured assay findings."
+    - severity: fix
+      area: science
+      where: "page 2 hERG methods and page 3 Table 2"
+      problem: "Fitting mean inhibition disagrees with P14's geometric cell-level means, and mixed censored replicates such as AP02-01416 (>30, 21) have unsupported >30 summaries."
+      suggested_change: "Align the fitting and aggregation description with the workbook and report mixed censoring as justified bounds or indeterminate rather than an unsupported mean."
+    - severity: fix
+      area: science
+      where: "page 2 CYP methods and page 5 control footnote/Table 4"
+      problem: "Control IC50 procedures and numerical acceptance limits are missing; the two CYP3A4 probes share one unassigned ketoconazole value. The furafylline/ticlopidine preincubation conditions are unspecified."
+      suggested_change: "Document control curves and actual preincubation conditions, give acceptance intervals, and identify probe-specific CYP3A4 controls and metabolite endpoints."
+    - severity: minor
+      area: science
+      where: "pages 1, 3 and 6 hERG interpretation"
+      problem: "'Most compounds were weak or inactive' obscures the near-even split (20 below 10 µM, 22 at or above), and a finite IC50 is evidence of inhibition rather than inactivity."
+      suggested_change: "Describe the numerical split directly; qualify >30 as no 50% inhibition reached within the tested range and assess margins against unbound exposure separately."
+- file_id: P16
+  verdict: minor
+  issues:
+    - severity: minor
+      area: voice
+      where: "section 1 Introduction and section 3 Study design"
+      problem: "'Matrix, species and analytical limits are stated ... before any interpretation' reads like an instruction to the writer; analytical limits are not actually supplied. UK 'summarised'/'depolarised' also recur in this US firm's prose."
+      suggested_change: "Remove the self-description, state the relevant assay limits directly, and use US spelling in narrative prose."
+    - severity: minor
+      area: realism
+      where: "section 3 assay methods"
+      problem: "The proposal describes planned testing as already completed."
+      suggested_change: "Use future tense for recordings, incubations and compound applications."
+    - severity: minor
+      area: science
+      where: "section 3 IKr inhibition"
+      problem: "No steady-state criterion accompanies the 3-5 minute concentration steps, leaving slow-onset inhibition insufficiently qualified."
+      suggested_change: "Require tail-current stabilisation and describe exposure extension or flagging of non-equilibrated recordings."
+- file_id: P17
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sheet Matrix acceptance"
+      problem: "CYP controls are marked passing against a historical mean that is not supplied; the Result column mixes nM and µM. No analytical acceptance limits accompany the LC-MS/MS screen."
+      suggested_change: "Add explicit IC50 units, numeric control intervals or referenced historical means, and the applicable vehicle/metabolite quantitation and duplicate-acceptance criteria."
+    - severity: minor
+      area: consistency
+      where: "sheet Matrix acceptance, final statement"
+      problem: "'All runs met' conflicts with rejected/repeated E-4031 runs noted for ST03-01224 and ST03-01366."
+      suggested_change: "State that failed runs were excluded and all reported results came from accepted runs."
+    - severity: minor
+      area: consistency
+      where: "sheet Summary, Study Director row"
+      problem: "Matteo Rinalvesi's world role and proposal signature are DMPK Lead, whereas this row silently changes the role to Study Director."
+      suggested_change: "Label the row 'DMPK Lead', or explicitly distinguish study-specific responsibility from his staff title."
+- file_id: P18
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "page 5 Conclusion"
+      problem: "Progression is gated only on absence of CYP flags, despite widespread hERG inhibition (34/38 in the 1-10 µM band). Follow-up is restricted to CYP3A4 even though CYP2C19 has the most flags."
+      suggested_change: "Require acceptable hERG IC50-to-unbound-exposure margins as well as CYP follow-up; obtain concentration responses for the flagged isoforms, particularly CYP2C19, before shortlisting."
+    - severity: fix
+      area: science
+      where: "page 2 Methods and page 5 control footnote"
+      problem: "The report says IC50s are fitted to mean hERG inhibition while P17 specifies geometric means of cell IC50s. CYP control IC50 curves, numerical acceptance limits, analytical limits and furafylline/ticlopidine preincubation conditions are not described."
+      suggested_change: "Align the cell-level fitting/aggregation method; add the actual separate control protocol, preincubation conditions, numeric acceptance limits and metabolite quantitation criteria."
+    - severity: minor
+      area: consistency
+      where: "pages 1 and 5, Matteo Rinalvesi title"
+      problem: "The staff role is DMPK Lead, but the cover and signature substitute Study Director without explanation."
+      suggested_change: "Use 'DMPK Lead' consistently, or state the separate study-specific appointment."
+- file_id: P19
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "section 2 Scope and section 6 Price"
+      problem: "Only up to ten CYP3A4-flagged compounds are promised curves, but the price line covers 40 and P20/P21 report curves for all 40."
+      suggested_change: "Specify CYP3A4 curves for all 40 compounds within the USD 24,700 package; remove the cap and flag-only restriction."
+    - severity: minor
+      area: science
+      where: "section 3 CYP3A4 inhibition curves"
+      problem: "The method alternates midazolam and testosterone without explaining probe assignment or substrate-specific interpretation."
+      suggested_change: "Define probe assignment, concentration and metabolite endpoints, and describe the limitation of comparing results across probes."
+    - severity: minor
+      area: voice
+      where: "sections 1 and 3"
+      problem: "The introduction repeats a writer-facing instruction about matrix/species/limits; planned methods use past tense and UK spelling in a US proposal."
+      suggested_change: "Remove the instruction-like sentence, state actual assay limits, and use prospective US prose."
+- file_id: P20
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sheet IKr, TP04-02800/TP04-02862 and E3 comment"
+      problem: "Censoring is inconsistent: TP04-02776 excludes >30 and reports 23, but TP04-02800 (17, >30) and TP04-02862 (>30, >30, 26) report >30. This contradicts the stated exclusion rule and can distort ranking."
+      suggested_change: "Apply one documented censoring rule, distinguish fully censored from mixed results, and use justified bounds or indeterminate summaries for mixed replicates."
+    - severity: fix
+      area: science
+      where: "sheet Matrix acceptance and sheet 3A4 curves"
+      problem: "CYP acceptance has no numerical reference limits; one ketoconazole value is unassigned despite two probe substrates, and Result mixes nM/µM."
+      suggested_change: "Add IC50 units, numerical acceptance intervals and probe-specific control/run references for both CYP3A4 assays."
+    - severity: minor
+      area: consistency
+      where: "sheet Summary, Study Director row"
+      problem: "Priya Nandekuri is DMPK Lead in the world and P19, but the summary changes her title."
+      suggested_change: "Use 'DMPK Lead', or state her separate study-specific responsibility explicitly."
+- file_id: P21
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "page 6 Conclusion and pages 5-6 Table 4"
+      problem: "The recommendation to run CYP3A4 IC50s ignores the existing results for all 40 compounds, including potent values of 0.18 and 0.17 µM. Discussion calls inhibition 'at a fixed concentration' without interpreting the curves."
+      suggested_change: "Discuss the existing concentration responses, identify the residual CYP liabilities that narrowed the exposure-study set, and recommend exposure-informed assessment plus follow-up of other flagged isoforms."
+    - severity: fix
+      area: science
+      where: "page 2 hERG methods and page 3 Table 2"
+      problem: "Mean-inhibition fitting disagrees with P20's geometric cell-level averaging, and censoring differs between TP04-02776 (24, 21, >30; mean 23) and TP04-02800 (17, >30; mean >30) without explanation."
+      suggested_change: "State the actual fitting/aggregation method and one defensible censoring rule; replace unsupported mixed-censoring summaries with bounds or indeterminate results."
+    - severity: fix
+      area: science
+      where: "page 2 CYP methods and page 5 control footnote"
+      problem: "Separate control curves, numeric acceptance limits and furafylline/ticlopidine preincubation conditions are absent; the sole ketoconazole value is not assigned to either CYP3A4 probe."
+      suggested_change: "Document the actual control and preincubation procedures, probe-specific metabolite endpoints and acceptance results, including analytical quantitation criteria."
+    - severity: minor
+      area: consistency
+      where: "pages 1 and 6, Priya Nandekuri title"
+      problem: "The cover and signature replace the world's DMPK Lead title with Study Director."
+      suggested_change: "Use 'DMPK Lead' consistently, or explain the separate study-specific appointment."
