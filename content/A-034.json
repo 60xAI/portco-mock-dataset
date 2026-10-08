@@ -1,0 +1,317 @@
+{
+  "family": "document",
+  "summary": "Final Route scout and delivery report for Vesselquarn Medical Research Trust, covering {{PRJ0021:n_compounds}} isolated compounds under VD-18-059. Vesselquarn Medical Research Trust received separated stereoisomers and retained both configurations for comparison. Proposed structures remain separate from the completed delivery.",
+  "properties": {
+    "title": "Bicyclic lactams: separated stereoisomers and reference identity"
+  },
+  "header": "Vellacombe Discovery Ltd | VD-18-059 | Final report, revision A",
+  "footer": "Vellacombe Discovery Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Bicyclic lactams: separated stereoisomers and reference identity",
+    "subtitle": "Route scout and delivery — final report, revision A",
+    "lines": [
+      "Programme: VD-18-059",
+      "Accession: {{PRJ0021:lims_id}}",
+      "Client: Vesselquarn Medical Research Trust",
+      "Date: 25 Sep 2018",
+      "Author: Dr R. Calderwood, Head of Medicinal Chemistry"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Final material schedule",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Vesselquarn Medical Research Trust received {{PRJ0021:n_compounds}} compounds under VD-18-059. Analogue preparation began on 14 May 2018; the interim checkpoint was 19 Jul 2018, and chemistry completion was recorded on 24 Sep 2018. This final Route scout and delivery report is issued by Dr R. Calderwood on 25 Sep 2018."
+        },
+        {
+          "p": "Vesselquarn Medical Research Trust received separated stereoisomers and retained both configurations for comparison. Hassan Darwish kept separation in the route to delivered material; Ruth Calderwood retained both configurations in scope rather than selecting one through practical recovery. Reference-standard identity checks supported the material link. This report adds no absolute-configuration proof or stereochemical purity value absent from the delivery data."
+        },
+        {
+          "p": "Table 1 brings the identifier, assigned structure, molecular weight, isolated yield, UV area purity and amount into the same entry. Only this schedule constitutes the reported delivery. Suggested structures elsewhere in the report are not additional isolated compounds."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0021:synthesis",
+            "max_rows": 45,
+            "caption": "Table 1. Compounds delivered; final isolated yield, HPLC purity in UV area percent at 254 nm and amount in mg."
+          }
+        }
+      ]
+    },
+    {
+      "heading": "2 Remit, chronology and responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The remit was Analogue preparation for the VM14 set. The report covers route decisions affecting access to material and the identity basis needed for the client comparison. The programme turnaround was {{PRJ0021:turnaround_days}} days. That figure describes the programme interval, not a reaction time or assay incubation."
+        },
+        {
+          "p": "Dr R. Calderwood led the programme, Dr H. Darwish directed synthetic execution and Clara Fenwick led analytical release. The final gate closed on 24 Sep 2018; this report follows completion rather than reopening the route as a draft. Programme accession {{PRJ0021:lims_id}} links the material schedule to the benchmark below."
+        },
+        {
+          "p": "Earlier intermediates remain useful experimental context but are not counted again as delivered compounds. A repeat request should name the released identifier and the chemistry question. The final schedule is the endpoint for reconciling the set; individual compound cards remain the source for recovering a preparation."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0021:benchmark",
+            "caption": "Table 2. Programme benchmark and administrative reconciliation."
+          }
+        }
+      ]
+    },
+    {
+      "heading": "3 Chemistry hypothesis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The bicyclic lactam programme required separated stereoisomers for an ion-channel comparison. The hypothesis was that both configurations should be retained as defined materials, rather than letting the easier isolation determine the biological question. Identity had to survive separation and reference-standard checks. A stereochemical drawing on a proposal could not establish what was in a vial, and bulk purity could not replace the relevant stereochemical distinction."
+        },
+        {
+          "p": "The programme was organised around material needed to answer the client question. Route success was judged at the isolated product, not at an attractive intermediate or plausible scheme. This distinction limits the final claims: chemistry establishes access and identity for the delivered set but supplies no biological ranking that has not been measured here. The proposed follow-up must retain the same distinction."
+        }
+      ]
+    },
+    {
+      "heading": "4 Route gate and sequence decision",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Vesselquarn Medical Research Trust received separated stereoisomers and retained both configurations for comparison. Hassan Darwish kept separation in the route to delivered material; Ruth Calderwood retained both configurations in scope rather than selecting one through practical recovery. Reference-standard identity checks supported the material link. This report adds no absolute-configuration proof or stereochemical purity value absent from the delivery data."
+        },
+        {
+          "p": "The interim discussion on 19 Jul 2018 was a route checkpoint, not the delivery endpoint. By 24 Sep 2018, the completed material schedule could be reconciled with the programme. A repeat chemist should preserve the reason for the route choice as well as the sequence. Repeating an operation without knowing which recovery or identity risk it controlled can recreate the original difficulty."
+        }
+      ]
+    },
+    {
+      "heading": "5 Analogue preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The bicyclic lactam framework gives the comparison its meaning, but peripheral substitution can change separation behaviour. A route that separates present material does not necessarily resolve every future analogue under the same conditions. Each compound card must connect precursor, separated fraction and final identity. Reference material is useful only when its label and history remain intact. Changing an identifier after unexpected biology would remove evidence needed to investigate the mismatch."
+        },
+        {
+          "p": "For repeat work, follow the compound card for the chosen identifier and reconcile the intended product with Table 1. A common scaffold is not a common experimental outcome. Substitution changes can affect work-up, purification and the evidence needed for assignment. No unprepared variant is claimed to have crossed the route gate merely because its drawing resembles a delivered compound."
+        }
+      ]
+    },
+    {
+      "heading": "6 Separation, work-up and recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Each separated product is material in its own right. Combining different stereoisomer fractions would obscure delivery even if the combined yield looked more favourable. Final yields and amounts in Table 1 are not the stereoisomer ratio of the crude preparation. UV area purity must not be presented as stereochemical purity unless the method distinguishes the relevant alternatives; the compact table does not establish that scope."
+        },
+        {
+          "p": "Isolated yield is a route measure and delivered amount is a material measure. Both matter because the comparison requires the actual compound in hand. Neither column tells a chemist where loss occurred. Return to intermediate and fraction entries for that question. An estimate derived only from the final table would conceal the difference between reaction performance and recovery."
+        }
+      ]
+    },
+    {
+      "heading": "7 Identity and assignment",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Clara Fenwick handled release with reference-standard identity checks linked to separated material. A reference match supports identity within its scope but must not be enlarged into an unsupported absolute stereochemical assignment. The compound card preserves the basis of the configuration label. If a repeat isolate differs from the reference behaviour, investigate identity before giving it the established identifier. A plausible route alone cannot resolve such a discrepancy."
+        },
+        {
+          "p": "The release entry must stay connected to the isolate. A structure redrawn for a client presentation should retain the chemistry identifier so the assignment basis can be recovered. This report does not reproduce raw spectra or supply invented peak assignments. It records the programme conclusion and explains where the underlying experimental history is retained."
+        }
+      ]
+    },
+    {
+      "heading": "8 Purity statement and analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The HPLC values in Table 1 are UV area percent at 254 nm. They describe the reported chromatographic profile under that detection basis. They are not weight percent, solvent content or a direct assay of active parent in a weighed portion. The amount field is expressed in mg and must remain separate from purity when planning the comparison."
+        },
+        {
+          "p": "Clara Fenwick led analytical release. Identity and chromatographic purity answer complementary questions: a dominant peak cannot independently establish the assigned connection, position or configuration. An assigned structure also does not remove the need to consider impurities. The schedule retains the available numerical values without adding a universal purity threshold or an unstated correction to the delivered amounts."
+        },
+        {
+          "p": "A client query concerning precipitation, unexpected peaks or identity should return against the delivery identifier. The compact table is a reconciliation aid, not a substitute for the analytical entry needed to investigate a particular sample."
+        }
+      ]
+    },
+    {
+      "heading": "9 Isolated yield and material accounting",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Final yields and amounts remain separated by compound. No pooled recovery or campaign mean has been calculated. Such a figure could blur route differences and imply a common experimental basis that the delivery table does not establish. The practical question is whether identifier, structure and amount refer to the same released material."
+        },
+        {
+          "p": "Compound cards may contain intermediate masses, recovered fractions and material held for further work. Those entries do not automatically belong to the client delivery. Use Table 1 for the delivered set and the route scout for an individual recovery question. A request for more material must distinguish repeat product from a new proposed analogue."
+        },
+        {
+          "p": "The programme closed with {{PRJ0021:n_compounds}} delivered compounds. This count is not enlarged by an intermediate, an alternative drawing or a proposed comparison. Detailed weighing and transfer history belong to the individual chemistry entries; the final schedule supplies report-level reconciliation."
+        }
+      ]
+    },
+    {
+      "heading": "10 Client hand-off and identifier continuity",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The VM14 identifiers connect isolated chemistry to the client comparison. Use VD-18-059 and accession {{PRJ0021:lims_id}} for clarification. Assigned structures help reconcile a vial label with its intended product, but the delivery identifier remains the primary link to prepared material."
+        },
+        {
+          "p": "If a client transfers material for biological preparation, retain the original identifier and distinguish that later preparation description from chemistry release. Replacing an identifier with a proposed structure name risks merging different samples under a general scaffold label. The risk matters particularly where apparently similar structures address different chemical questions."
+        },
+        {
+          "p": "Chemistry completion was recorded on 24 Sep 2018. This report supplies no unstated courier date, receipt signature or storage condition. Dr H. Darwish is the route contact; Clara Fenwick is the analytical reconciliation contact; Dr R. Calderwood retains responsibility for the overall chemistry conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "11 Interpretation for the client comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Both configurations were retained for the ion-channel comparison at Vesselquarn Medical Research Trust. No ion-channel measurements are supplied, and neither configuration is designated the biological lead. Later results should return against the separated delivery identifiers. The relevant distinction is the material tested, not the configuration expected from a proposed route. Preserve formulation and sample-history differences so an identity question is not mistaken for a potency trend."
+        },
+        {
+          "p": "The useful follow-up is a comparison whose members can be traced to released material. Keep the intended chemical difference explicit. Do not combine a proposed product and an isolated compound within a result entry. A later biological trend may justify new chemistry, but cannot change retrospectively which material was delivered."
+        },
+        {
+          "p": "This is a chemistry close-out. It provides no invented response values, selectivity ratios or potency rankings. Programme turnaround is not an assay setting, and isolated yield is not an indicator of target activity."
+        }
+      ]
+    },
+    {
+      "heading": "12 Next analogue and carried route risk",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The proposed next analogue preserves the bicyclic lactam framework and changes a single peripheral substituent while retaining both stereochemical alternatives as the intended comparison. It is outside this delivery. The main route risk is loss of separation discrimination. Establish separability and reconcile reference identity before broadening the set. A practical advantage for one configuration is not grounds to exclude the other from the ion-channel question."
+        },
+        {
+          "p": "A repeat route scout should identify the operation controlling the original risk and the evidence that closed it. Do not omit that gate because the final compound looks familiar. Substituent changes and material history can affect recovery without changing the intended chemical question. Preserve the link between the proposed route and the actual isolated outcome."
+        },
+        {
+          "p": "The report does not qualify a working scale beyond the delivered chemistry or impose new process conditions. Recover charge quantities, timings and purification parameters from the relevant experimental entry. A change in the established sequence needs its own reason and compound-card history."
+        }
+      ]
+    },
+    {
+      "heading": "13 Follow-up decision and status",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The next analogue described above is proposed chemistry. It has no additional delivery entry, assigned yield, purity, amount or biological result in this report. Its purpose is a defined extension of the successful route while retaining the chemical distinction that motivated the programme."
+        },
+        {
+          "p": "Dr R. Calderwood recommends that Vesselquarn Medical Research Trust reconcile the intended comparison with the released identifiers before expanding preparation. Once the chemical question is selected, the next route scout can be scoped around it. A broad set assembled before that choice may add material without clarifying interpretation."
+        },
+        {
+          "p": "The gate for a new analogue remains identifiable isolated material. A convincing scheme is not a completed delivery. This final report closes the present programme and proposes a reasoned next step without presenting it as work already performed."
+        }
+      ]
+    },
+    {
+      "heading": "Appendix A — Delivery-table conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Compound is the delivery identifier linking material to chemistry. SMILES is the compact assigned-structure field. MW is the reported molecular-weight field associated with it. These fields must not be used to infer an unstated counter-ion, solvate or assignment detail. The drawing summarises identity; the compound card preserves its basis."
+        },
+        {
+          "p": "Yield (%) is the reported isolated yield. HPLC purity is UV area percent at 254 nm. Amount (mg) is the reported isolated amount. Keep the bases separate. The table supplies no raw peak areas, moisture correction, uncertainty estimate or across-programme normalisation. It also does not substitute for a preparation-specific experimental entry."
+        },
+        {
+          "p": "To reproduce a delivered product, select the identifier, recover its compound card and reconcile the final isolate with its route history. To extend the chemistry, create a route proposal rather than repurposing an existing delivery entry for an unmade structure."
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B — Experimental history and repeat instructions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Compound cards retain the preparation history, separated fraction identity and reference-standard comparison for each identifier. Use those entries to recover the specific sequence. No fraction volumes or resolution values are invented here. Repeat work should preserve the reference label and distinguish an identity match from an absolute-configuration claim. Table 1 supplies the final isolated set; the experimental record supplies the history needed to reproduce it."
+        },
+        {
+          "p": "A repeat request should identify the compound, why additional material is needed and the route question to preserve. The chemist can then recover the operation sequence and compare the repeat with the established identity basis. A broad scaffold description is insufficient when the conclusion depends on separation, selective access or assignment."
+        },
+        {
+          "p": "The report remains the final account of delivered chemistry. It does not overwrite experimental entries or create replacement conditions. If subsequent preparation departs from the established route, retain that departure in its own compound card and distinguish the new material history from the present delivery."
+        }
+      ]
+    },
+    {
+      "heading": "14 Final conclusion and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Vesselquarn Medical Research Trust received separated stereoisomers and retained both configurations for comparison. Hassan Darwish kept separation in the route to delivered material; Ruth Calderwood retained both configurations in scope rather than selecting one through practical recovery. Reference-standard identity checks supported the material link. This report adds no absolute-configuration proof or stereochemical purity value absent from the delivery data."
+        },
+        {
+          "p": "The final delivery comprises {{PRJ0021:n_compounds}} isolated compounds for Vesselquarn Medical Research Trust. Amounts, isolated yields and UV area purity are recorded in Table 1. The route supports the reported client comparison; proposed follow-up structures remain outside the delivery. No biological ranking is assigned in this conclusion."
+        },
+        {
+          "p": "Issued on 25 Sep 2018, after completion on 24 Sep 2018. Dr R. Calderwood authorises the chemistry conclusion. Dr H. Darwish is identified for synthetic execution and Clara Fenwick for analytical release. Revision A is final and has no open comments or provisional replacements for the material schedule."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr R. Calderwood",
+      "role": "Head of Medicinal Chemistry — final report authorisation",
+      "date": "25 Sep 2018",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
