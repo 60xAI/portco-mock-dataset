@@ -1,53 +1,246 @@
-{"family": "workbook",
- "summary": "Finance baseline for the integration benefits case, prepared at the end of 2025. Realised administrative savings from firms A-F are kept apart from commercial opportunities that have not been approved, and each site records its reporting currency, period and calculation assumptions. Commercial items are not counted as delivered until they are approved.",
- "properties": {"title": "Integration benefits baseline - December 2025"},
- "sheets": [
-  {"name": "Basis", "start": "A1", "rows": [
-     [{"v": "Integration benefits baseline - December 2025", "bold": true}],
-     ["Prepared by", "Andrea Beckett, Group Finance Director"],
-     ["Baseline date", "31/10/2025"],
-     ["Reporting period", "Financial year 2025 to date, to 30/11/2025"],
-     ["Group reporting currency", "GBP"],
-     ["Local currencies", "Retained for each firm and translated at the monthly group rate. US firms (C and F) report in USD locally."],
-     ["Status", "Final for the December 2025 integration review"],
-     [],
-     ["Rule", "Realised savings are only those evidenced in the ledger after the cost has left the firm. Opportunities stay in the second sheet until the Integration Steering Group approves them."],
-     ["Rule", "Local scientific operations are not reduced by this case. Savings come from shared administration only."]
-   ],
-   "col_widths": {"A": 26, "B": 90},
-   "merged": ["A1:B1"],
-   "comments": [{"cell": "B6", "text": "The historical discounts for the firms that have not moved to the common price list are still applied in the ledger. They are not part of this baseline.", "author": "Andrea Beckett"}]},
-  {"name": "Realised", "start": "A1", "rows": [
-     ["Firm", "Category", "Basis", "Period", "Status", "Assumption"],
-     ["A Vellacombe Discovery", "Shared finance processing", "Ledger posting", "Jan-Nov 2025", "Realised", "Headcount in the old finance team not backfilled"],
-     ["B Brindlewythe Biosciences", "Insurance renewal", "Signed renewal", "Jan-Nov 2025", "Realised", "Single group policy from the 2025 renewal date"],
-     ["C Merrivoss Bioanalysis", "Software licences", "Licence register", "Jan-Nov 2025", "Realised", "Duplicate licences cancelled; no change to user count"],
-     ["D Quenverell Computational", "Office consolidation", "Lease notice", "Jan-Nov 2025", "Realised", "Notice period ends in the 2026 financial year"],
-     ["E Westravelle Analytical", "Shared finance processing", "Ledger posting", "Jan-Nov 2025", "Realised", "Month-end close now run from the group ledger"],
-     ["F Durnesswick Laboratories", "Travel booking", "Booking platform report", "Aug-Nov 2025", "Realised", "Only from the date the group booking account went live"]
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 28, "B": 28, "C": 24, "D": 16, "E": 12, "F": 62},
-   "comments": [{"cell": "E7", "text": "Realised here means posted and evidenced. Anything not yet in the ledger goes on the Opportunities sheet.", "author": "Andrea Beckett"}]},
-  {"name": "Opportunities", "start": "A1", "rows": [
-     ["Firm", "Opportunity", "Owner", "Approval", "Counted in case", "Note"],
-     ["A Vellacombe Discovery", "Consolidate payroll runs", "Nils Bergstrom", "Not approved", "No", "Depends on the HR and payroll consolidation"],
-     ["B Brindlewythe Biosciences", "Shared reagent purchasing", "Ruggero Tonisto", "Under review", "No", "Commercial terms with suppliers still being negotiated"],
-     ["C Merrivoss Bioanalysis", "Shared utilities contract", "Andrea Beckett", "Not approved", "No", "Site contract runs to 2027"],
-     ["D Quenverell Computational", "Cloud hosting consolidation", "Sofia Lindervik", "Not approved", "No", "Requires security review first"],
-     ["E Westravelle Analytical", "Shared calibration service", "Ruggero Tonisto", "Under review", "No", "Quality sign-off outstanding"],
-     ["F Durnesswick Laboratories", "Group insurance review", "Andrea Beckett", "Not approved", "No", "Awaiting broker comparison"],
-     ["Group", "Finance shared services fees", "Andrea Beckett", "Approved", "No", "Recorded as a cost of the integration, not a saving"]
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 28, "B": 32, "C": 20, "D": 16, "E": 18, "F": 56},
-   "hidden": false},
-  {"name": "Notes", "start": "A1", "rows": [
-     ["Assumption", "Basis for the figure", "Reviewed by"],
-     ["Currency", "Local currency converted at the group rate for the period; no rate is fixed in this baseline", "Andrea Beckett"],
-     ["Period", "Figures are cut off at 30/11/2025. December postings are picked up in the next baseline", "Andrea Beckett"],
-     ["Exclusions", "Local scientific headcount, client pricing and historical discounts", "Andrea Beckett"],
-     ["Double counting", "Items already in the price harmonisation workstream are not counted here", "Sofia Lindervik"]
-   ],
-   "col_widths": {"A": 20, "B": 90, "C": 22}}
- ]}
+{
+  "family": "workbook",
+  "summary": "December 2025 finance baseline for A-F administrative integration benefits. Realised savings require ledger evidence and are kept separate from commercial opportunities; approval alone does not establish delivery. Currency, reporting period and calculation assumptions are recorded for each site, with amounts and supporting calculations retained in the finance records.",
+  "properties": {
+    "title": "Integration benefits baseline - December 2025"
+  },
+  "sheets": [
+    {
+      "name": "Basis",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Integration benefits baseline - December 2025",
+            "bold": true
+          }
+        ],
+        [
+          "Prepared by",
+          "Andrea Beckett, Group Finance Director"
+        ],
+        [
+          "Baseline issue",
+          "12/12/2025"
+        ],
+        [
+          "Reporting period",
+          "Financial year 2025 to date, to 30/11/2025"
+        ],
+        [
+          "Group reporting currency",
+          "GBP"
+        ],
+        [
+          "Local currencies",
+          "Retained for each firm and translated at the monthly group rate. US firms (C and F) report in USD locally."
+        ],
+        [
+          "Status",
+          "Final for the December 2025 integration review"
+        ],
+        [],
+        [
+          "Rule",
+          "Realised savings require an evidenced reduction in cost for the reporting period, net of integration costs. Opportunities stay on the Opportunities sheet until approved and evidenced as delivered."
+        ],
+        [
+          "Rule",
+          "Local scientific operations are not reduced by this case. Savings come from shared administration only."
+        ],
+        [
+          "Brand line",
+          "Tarnovell Bioscience Group"
+        ],
+        [
+          "Cut-off",
+          "30/11/2025; December postings belong to the next baseline"
+        ],
+        [
+          "Calculation",
+          "Compare like-for-like administrative costs for the same period; record local currency, applicable group translation rate and one-off integration costs in the supporting schedule."
+        ],
+        [
+          "Exclusions",
+          "Local scientific headcount, client pricing and historical discounts"
+        ],
+        [
+          "Double counting",
+          "Do not repeat benefits already counted in another integration workstream."
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 90
+      },
+      "merged": [
+        "A1:B1"
+      ],
+      "comments": [
+        {
+          "cell": "B6",
+          "text": "The historical discounts for the firms that have not moved to the common price list are still applied in the ledger. They are not part of this baseline.",
+          "author": "Andrea Beckett"
+        }
+      ]
+    },
+    {
+      "name": "Realised",
+      "start": "A1",
+      "rows": [
+        [
+          "Firm",
+          "Scope",
+          "Evidence",
+          "Period",
+          "Currency",
+          "Calculation assumption"
+        ],
+        [
+          "A Vellacombe Discovery",
+          "Realised administrative savings",
+          "Supporting ledger and finance schedule",
+          "Jan-Nov 2025",
+          "GBP",
+          "Use evidenced cost reductions only; net integration costs and retain the local-currency calculation. No amount is reproduced here."
+        ],
+        [
+          "B Brindlewythe Biosciences",
+          "Realised administrative savings",
+          "Supporting ledger and finance schedule",
+          "Jan-Nov 2025",
+          "GBP",
+          "Use evidenced cost reductions only; net integration costs and retain the local-currency calculation. No amount is reproduced here."
+        ],
+        [
+          "C Merrivoss Bioanalysis",
+          "Realised administrative savings",
+          "Supporting ledger and finance schedule",
+          "Jan-Nov 2025",
+          "USD",
+          "Use evidenced cost reductions only; net integration costs and retain the local-currency calculation. No amount is reproduced here."
+        ],
+        [
+          "D Quenverell Computational",
+          "Realised administrative savings",
+          "Supporting ledger and finance schedule",
+          "Jan-Nov 2025",
+          "GBP",
+          "Use evidenced cost reductions only; net integration costs and retain the local-currency calculation. No amount is reproduced here."
+        ],
+        [
+          "E Westravelle Analytical",
+          "Realised administrative savings",
+          "Supporting ledger and finance schedule",
+          "Jan-Nov 2025",
+          "GBP",
+          "Use evidenced cost reductions only; net integration costs and retain the local-currency calculation. No amount is reproduced here."
+        ],
+        [
+          "F Durnesswick Laboratories",
+          "Realised administrative savings",
+          "Supporting ledger and finance schedule",
+          "Jan-Nov 2025",
+          "USD",
+          "Use evidenced cost reductions only; net integration costs and retain the local-currency calculation. No amount is reproduced here."
+        ]
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 28,
+        "B": 28,
+        "C": 24,
+        "D": 16,
+        "E": 12,
+        "F": 62
+      },
+      "comments": [
+        {
+          "cell": "E7",
+          "text": "Only posted, evidenced cost reductions belong here. A lease notice or approval for a future saving is not a realised benefit.",
+          "author": "Andrea Beckett"
+        }
+      ]
+    },
+    {
+      "name": "Opportunities",
+      "start": "A1",
+      "rows": [
+        [
+          "Firm",
+          "Opportunity",
+          "Owner",
+          "Approval",
+          "Counted in case",
+          "Note"
+        ],
+        [
+          "A Vellacombe Discovery",
+          "Consolidate payroll runs",
+          "Nils Bergstrom",
+          "Not approved",
+          "No",
+          "Check remaining payroll-process scope against the consolidated A-F directory."
+        ],
+        [
+          "B Brindlewythe Biosciences",
+          "Shared reagent purchasing",
+          "Ruggero Tonisto",
+          "Under review",
+          "No",
+          "Commercial terms with suppliers still being negotiated"
+        ],
+        [
+          "C Merrivoss Bioanalysis",
+          "Shared utilities contract",
+          "Andrea Beckett",
+          "Not approved",
+          "No",
+          "Confirm the site contract term before developing the case."
+        ],
+        [
+          "D Quenverell Computational",
+          "Cloud hosting consolidation",
+          "Sofia Lindervik",
+          "Not approved",
+          "No",
+          "Requires security review first"
+        ],
+        [
+          "E Westravelle Analytical",
+          "Shared calibration service",
+          "Ruggero Tonisto",
+          "Under review",
+          "No",
+          "Quality sign-off outstanding"
+        ],
+        [
+          "F Durnesswick Laboratories",
+          "Group insurance review",
+          "Andrea Beckett",
+          "Not approved",
+          "No",
+          "Awaiting broker comparison"
+        ],
+        [
+          "Group",
+          "Finance shared services fees",
+          "Andrea Beckett",
+          "Cost treatment",
+          "No",
+          "Deduct shared-services costs from any associated benefit; no saving is claimed for the fee itself."
+        ]
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 28,
+        "B": 32,
+        "C": 20,
+        "D": 16,
+        "E": 18,
+        "F": 56
+      },
+      "hidden": false
+    }
+  ]
+}
