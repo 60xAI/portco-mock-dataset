@@ -1,0 +1,270 @@
+{
+  "family": "document",
+  "summary": "Final report for Rimucavel Therapeutics on handling correction and the retained tumour-subtype signature. The interpretation separates reproducibility within the engagement from independent validation and includes a data-provenance appendix.",
+  "properties": {
+    "title": "RC-3 tumour RNA-seq: batch-aware expression model"
+  },
+  "header": "Quenverell Computational Ltd",
+  "footer": "Quenverell Computational Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "RC-3 tumour RNA-seq: batch-aware expression model",
+    "subtitle": "Final client report",
+    "lines": [
+      "Report: {{PRJ0074:project_id}} | revision 4",
+      "Accession: {{PRJ0074:lims_id}}",
+      "Client: {{PRJ0074:client_variant}}",
+      "Date: 04 Apr 2012",
+      "Prepared by Dr T. Zawiernicki, Head of Bioinformatics"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Biological question and decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rimucavel Therapeutics asked whether the RC-3 tumour expression pattern was a reproducible subtype signal or a consequence of sample handling. A visually distinct cluster shows similarity in the submitted material; it does not by itself establish tumour biology. The engagement separates the subtype question from handling-associated structure and retains model uncertainty in the interpretation."
+        },
+        {
+          "p": "Batch-aware RNA-seq differential expression removed the handling-associated cluster and left a reproducible tumour-subtype signature for follow-up. This is an interpretation of the submitted data, not a validated classifier or a clinical test. The key decision is summarised before the analytical detail."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence or requirement",
+              "Interpretation",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Handling-associated cluster",
+                "Removed after correction",
+                "Retain handling annotations in follow-up"
+              ],
+              [
+                "Tumour-subtype signature",
+                "Reproducible within this engagement",
+                "Confirm independently using a frozen definition"
+              ],
+              [
+                "Clinical prediction",
+                "Not established",
+                "Do not use as a patient decision threshold"
+              ]
+            ],
+            "caption": "Table 1. Decision and scope summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Engagement boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Work under {{PRJ0074:project_id}} began on 25 Jan 2012 and completed on 03 Apr 2012. This report dated 04 Apr 2012 accompanies rc3-rnaseq-batch-model-v4.pptx, the final readout dated 03 Apr 2012. Accession {{PRJ0074:lims_id}} links the source inventory, analysis notebook and deliverables."
+        },
+        {
+          "p": "The scope covers data acceptance, RNA-seq differential expression and interpretation of handling-associated structure. Tissue acquisition, sequencing and independent biological confirmation were outside the engagement. A new data drop requires its own acceptance step before comparison with the frozen signature. The readout is a discussion aid; this report supplies the reproducibility route."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Input provenance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Client-supplied expression inputs and sample descriptions are separate source objects. Original sample labels remain in the inventory and any analysis alias is linked to them. File dates alone do not establish which expression input belongs to which sample. The accession is the join point between the accepted input, model specification and exported contrasts."
+        },
+        {
+          "p": "Nadia Rahmani maintained the provenance route. Handling annotations enter as supplied metadata rather than being inferred from the expression cluster they are intended to explain. This avoids circular removal of a pattern. Biological labels remain attributed to Rimucavel Therapeutics, while analytical choices belong to the Quenverell analysis notebook."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Data acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Acceptance precedes normalisation and examines sample-label uniqueness, feature compatibility, the sample-to-column join and missing annotations. A sample without an interpretable handling label must not inherit a label from a neighbouring column. Ambiguous entries remain explicit uncertainties rather than being resolved from the eventual subtype result."
+        },
+        {
+          "p": "The accepted source is frozen before the final model is fitted. Filtering rules are applied without reference to the expected contrast direction. Sparse features are separated from those that can support stable comparisons. Exploratory copies are derived objects, not alternative accepted sources, and must retain their connection to the accession."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Expression representation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A common feature definition and normalisation route are used across the accepted material. Counts provide the modelling input; transformed expression supports exploratory similarity displays. These representations answer different questions. Distances in a projection are not log2 fold changes or adjusted probabilities."
+        },
+        {
+          "p": "Library composition can influence apparent similarity even when read depth is accommodated. Interpretation therefore follows the specified contrast and its uncertainty rather than sample position in a display. Features with ambiguous identifier mapping are not assigned convenient biological names merely to simplify the final export."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Handling-associated structure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The initial pattern contained a handling-associated cluster. Handling metadata was considered separately from subtype labels so that correction would not be selected merely because it produced cleaner biological separation. The uncorrected representation remains part of the diagnostic context."
+        },
+        {
+          "p": "The handling-associated cluster was removed after correction. This does not mean handling had no effect on the original material. It means the final interpretation no longer treats that cluster as a tumour subtype. Future collections should retain handling annotations even if no comparable cluster is visible."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Model specification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The model distinguishes the tumour-subtype contrast from the handling term. The design is examined for redundancy and combinations in which handling and subtype cannot be separated. A numerical answer can exist even when the intended biological question is not identifiable. Estimability is therefore considered before significance."
+        },
+        {
+          "p": "Emil Ostlund reviewed the contrast definition with Tomasz Zawiernicki. Outputs are interpreted as log2 fold change with adjusted probabilities using a consistent reference direction. Changing the reference condition reverses a sign without changing the underlying observation. Terms and reference levels belong with the contrast export."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Correction and inferential route",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The corrected representation is used to examine residual structure; the inferential route retains the relationship between observed expression and specified covariates. A corrected picture is not a substitute for a documented model. That distinction is necessary when reproducing the subtype contrast."
+        },
+        {
+          "p": "Feature mapping is kept consistent before and after adjustment so that annotation or filtering changes are not attributed to correction. The notebook preserves the dependency order: accepted input, feature handling, normalisation, design, contrast estimation and presentation. Reordering those stages creates a different analytical route."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Retained tumour-subtype signature",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A tumour-subtype signature remained after the handling-associated cluster was removed. Its reproducibility within the engagement supports independent follow-up. The signature definition should be fixed before follow-up material is inspected; selecting new features to improve separation would turn confirmation into renewed discovery."
+        },
+        {
+          "p": "The signature is a coordinated expression pattern, not proof of a causal driver or drug response. Its useful next test is whether direction and coherence persist in an independent collection with recorded handling information. Gene-level interpretation remains tied to the mapping used for this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Sensitivity and uncertainty",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Sensitivity work asks whether the interpretation depends on handling representation, filtering or influential sample information. It is not a search for the most favourable adjusted probability. Diagnostic comparisons remain separate from the final inferential contrast, and the original uncorrected view stays available."
+        },
+        {
+          "p": "Agreement among analyses of the same material is weaker evidence than agreement in independent material. Uncertainty remains where technical history and biological labels are entangled. The conclusion consequently supports follow-up without assigning a classification accuracy or assuming transfer to every tumour collection."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Follow-up model gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Carry the frozen signature and identifier mapping into an independent collection. Define the biological contrast before expression is inspected and collect handling annotations at source. Material that cannot support the intended comparison should be identified before interpretation rather than excluded because it gives a discrepant result."
+        },
+        {
+          "p": "The next model gate should assess direction, joint pattern and dependence on handling. A discrepancy should return to provenance before being dismissed as technical failure. The present outcome justifies a follow-up question; it does not supply a clinical decision rule or replace biological validation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "heading": "Appendix A. Source-to-output dependencies",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reproduction starts with the accepted input linked to {{PRJ0074:lims_id}}, not with a presentation export. The inventory distinguishes the expression input, sample descriptions, handling annotations and feature mapping. Derived objects retain their source links and the model specification that produced them."
+        },
+        {
+          "p": "Nadia Rahmani is the curation contact and Tomasz Zawiernicki the contrast contact. The final readout and report share the rc3-rnaseq-batch-model-v4 revision stem. A matching filename suffix does not replace the need for the accepted source and analysis notebook."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B. Reproduction instructions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Restore the sample join and feature mapping, then apply the documented filtering and normalisation route. Construct the design with handling annotations and the tumour-subtype definition. Check estimability before estimating the contrast and preserve reference direction when exporting log2 fold changes and adjusted probabilities."
+        },
+        {
+          "p": "Generate exploratory views using the specified representation and label corrected and uncorrected versions distinctly. Compare their interpretation with Table 1 without treating the expected outcome as an acceptance rule. If the subtype pattern changes, examine input selection, annotation and design before changing analytical settings."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix C. Handover boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The handover distinguishes information supplied by Rimucavel Therapeutics from analytical decisions made by Quenverell Computational Ltd. The report is complete for the engagement ending 03 Apr 2012. Later material is a new context even when its labels resemble those used here."
+        },
+        {
+          "p": "The conclusion is narrow: correction removed a handling-associated cluster and retained a reproducible tumour-subtype signature for follow-up. Independent confirmation remains the next question. This narrative supplies no numerical result table, sample count or classifier performance estimate; none should be inferred from the qualitative summary."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Tomasz Zawiernicki",
+      "role": "Head of Bioinformatics",
+      "date": "04 Apr 2012",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
