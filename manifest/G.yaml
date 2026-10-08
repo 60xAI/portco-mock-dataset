@@ -1,0 +1,990 @@
+files:
+- id: P37
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-20-S0178/Proposals
+  filename: OT-20-S0178_PROPOSAL_090220.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2020
+  era: legacy
+  template: G-L
+  created: '2020-09-02T16:11:21'
+  modified: '2020-09-03T11:42:43'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0012
+  client_id: CL001
+  client_variant: Corvenlea (US)
+  finish: final
+  mess: []
+  planted:
+  - q4_G1_proposal
+  related: []
+  tier: orchestrator
+  target_length: 6 pages
+  summary: 'Proposal OT-20-S0178 to Corvenlea (US): in vitro safety pharmacology (hERG + CYP) on 40 kinase compounds.'
+  pilot: false
+- id: P38
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-20-S0178/Raw_Observations
+  filename: OT-20-S0178_SafetyPharm_RESULTS_102020.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2020
+  era: legacy
+  template: G-L
+  created: '2020-10-06T14:04:16'
+  modified: '2020-10-20T15:44:08'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0012
+  client_id: CL001
+  client_variant: Corvenlea (US)
+  finish: final
+  mess: []
+  planted:
+  - q4_G1_results
+  related:
+  - id: P37
+    rel: results_for
+  tier: orchestrator
+  target_length: 4 sheets
+  summary: 'Results workbook OT-20-S0178: hERG and CYP data for 40 compounds with benchmark sheet.'
+  pilot: false
+- id: P39
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-20-S0178/Signed_Reports
+  filename: OT-20-S0178_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2020
+  era: legacy
+  template: G-L
+  created: '2020-10-19T09:10:15'
+  modified: '2020-10-20T12:29:06'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0012
+  client_id: CL001
+  client_variant: Corvenlea (US)
+  finish: final
+  mess: []
+  planted:
+  - q4_G1_report
+  related:
+  - id: P38
+    rel: related
+  tier: orchestrator
+  target_length: 12-18 pages
+  summary: Final report OT-20-S0178 for Corvenlea (US), summarising the benchmark table.
+  pilot: false
+- id: P40
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-23-S0046/Raw_Observations
+  filename: OT-23-S0046_SafetyPharm_RESULTS_032323.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2023
+  era: legacy
+  template: G-L
+  created: '2023-03-08T11:05:33'
+  modified: '2023-03-23T13:26:21'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0013
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q4_G2_results
+  related: []
+  tier: orchestrator
+  target_length: 4 sheets
+  summary: 'Results workbook OT-23-S0046: hERG and CYP data for 44 compounds with benchmark sheet.'
+  pilot: false
+- id: P41
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-23-S0046/Signed_Reports
+  filename: OT-23-S0046_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2023
+  era: legacy
+  template: G-L
+  created: '2023-03-21T13:15:39'
+  modified: '2023-03-23T08:17:32'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0013
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted:
+  - q4_G2_report
+  related:
+  - id: P40
+    rel: related
+  tier: orchestrator
+  target_length: 12-18 pages
+  summary: Final report OT-23-S0046 for Avernelwick Pharmaceuticals Ltd, summarising the benchmark table.
+  pilot: false
+- id: G-001
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-20-S0178/Client_Readouts
+  filename: OT-20-S0178_SafetyPharm_client.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2020
+  era: legacy
+  template: G-L
+  created: '2020-10-20T10:23:00'
+  modified: '2020-10-20T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0012
+  client_id: CL001
+  client_variant: Corvenlea (US)
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P39
+    rel: report_for
+  tier: sol
+  target_length: 10 slides
+  summary: Client readout for OT-20-S0178, Corvenlea (US), covering hERG (IKr) safety pharmacology and CYP safety interaction
+    panel control validity and the low-liability progression branch of the 40-compound non-GLP cohort.
+  pilot: false
+- id: G-002
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-23-S0046/Client_Readouts
+  filename: OT-23-S0046_SafetyPharm_client_v3_FINAL_final.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2023
+  era: legacy
+  template: G-L
+  created: '2023-03-23T10:23:00'
+  modified: '2023-03-23T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0013
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess:
+  - version_suffix
+  planted: []
+  related:
+  - id: P41
+    rel: report_for
+  tier: sol
+  target_length: 10 slides
+  summary: Client readout for OT-23-S0046, Avernelwick Pharmaceuticals Ltd, contrasting the favourable hERG (IKr) safety pharmacology
+    profile with the CYP-sensitive subseries in the CYP safety interaction panel of the 44-compound non-GLP cohort.
+  pilot: false
+- id: G-003
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-15-S0064/Client_Readouts
+  filename: ST03_MN_readout_071415.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2015
+  era: legacy
+  template: G-L
+  created: '2015-07-14T10:23:00'
+  modified: '2015-07-14T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0119
+  client_id: CL004
+  client_variant: Selverant Therapeutics Inc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 10 slides
+  summary: OT-15-S0064 readout for Selverant Therapeutics Inc links Mammalian-cell micronucleus assessment findings to HepG2
+    viability screen exposure and recommends a lower-exposure repeat.
+  pilot: false
+- id: G-004
+  unit: G
+  root: heldback
+  path: OsterquillData/Marketing/Capabilities/2025
+  filename: Osterquill_Safety_Portfolio_051925.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: legacy
+  template: G-L
+  created: '2025-05-19T10:23:00'
+  modified: '2025-05-19T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 slides
+  summary: Osterquill capability deck separates exploratory rat range finding and non-GLP in vitro screening from regulated
+    GLP investigations, with control validity, animal welfare oversight and QA gates.
+  pilot: false
+- id: G-005
+  unit: G
+  root: heldback
+  path: OsterquillData/Quality/Training/2022
+  filename: Animal_Cards_QA_Gate_061422.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2022
+  era: legacy
+  template: G-L
+  created: '2022-06-14T10:23:00'
+  modified: '2022-06-14T15:41:00'
+  author: NS27
+  last_saved_by: NS27
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: Archive training explains individual-animal card identifiers, dose-lot traceability, welfare observation escalation
+    and independent QA review before releasing signed reports.
+  pilot: false
+- id: G-006
+  unit: G
+  root: heldback
+  path: OsterquillData/Marketing/Working_Copies/2024
+  filename: Copy of Plate_Acceptance_092424 (2).pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2024
+  era: legacy
+  template: G-L
+  created: '2024-09-24T10:23:00'
+  modified: '2024-09-24T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - copy_of
+  - duplicate_across_firms
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 8 slides
+  summary: Internal working copy of a Brindlewythe assay-control training deck retains its plate acceptance wording in the
+    body while using the Osterquill legacy cover, with handwritten-style comments mapping it to local control validity; this
+    is not a client deliverable.
+  pilot: false
+- id: G-007
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-08-S0114/Raw_Observations
+  filename: AP02_Genotox_RAW_111708.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2008
+  era: legacy
+  template: G-L
+  created: '2008-10-15T10:23:00'
+  modified: '2008-11-17T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects:
+  - PRJ0117
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: OT-08-S0114 observation sheets for Avernelwick Pharmaceuticals Ltd record HepG2 viability screen, Bacterial mutation
+    assay with and without S9 and Mammalian-cell micronucleus assessment for 24 articles, including controls and discordant
+    bacterial and mammalian signals.
+  pilot: false
+- id: G-008
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-10-S0019/Raw_Observations/Animal_Room
+  filename: NM31_DRF_041210_OBSERVATIONS.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2010
+  era: legacy
+  template: G-L
+  created: '2010-02-11T10:23:00'
+  modified: '2010-04-12T15:41:00'
+  author: NS25
+  last_saved_by: NS25
+  projects:
+  - PRJ0118
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess:
+  - mixed_units
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 5 sheets
+  summary: OT-10-S0019 Rat DRF and recovery observation sheets for Nimbravelle Medicines Inc retain individual-animal identifiers,
+    mg/kg/day dose lots, welfare observations and recovery findings supporting longer-study dose selection.
+  pilot: false
+- id: G-009
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-16-S0176/Raw_Observations
+  filename: TP04_Genotox_RESULTS_121916.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2016
+  era: legacy
+  template: G-L
+  created: '2016-11-14T10:23:00'
+  modified: '2016-12-19T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects:
+  - PRJ0120
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: OT-16-S0176 results for Tervemere Pharma AG tabulate the 18-article HepG2 viability screen, Bacterial mutation
+    assay with and without S9 and Mammalian-cell micronucleus assessment, with a mammalian-cell flag despite clear bacterial
+    findings.
+  pilot: false
+- id: G-010
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-19-S0100/Raw_Observations
+  filename: VP10_Genotox_RESULTS_081919.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: G-L
+  created: '2019-07-08T10:23:00'
+  modified: '2019-08-19T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects:
+  - PRJ0123
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: OT-19-S0100 results for Valquessia Pharmaceuticals SpA consolidate control validity and the consistent reactive-side-chain
+    concern across HepG2 viability screen, Bacterial mutation assay with and without S9 and Mammalian-cell micronucleus assessment.
+  pilot: false
+- id: G-011
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-26-S0192/Raw_Observations/Interim
+  filename: VM14_MN_092426_INTERIM.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: legacy
+  template: G-L
+  created: '2026-09-02T10:23:00'
+  modified: '2026-10-06T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects:
+  - PRJ0125
+  client_id: CL015
+  client_variant: Vesselquarn Medical Research Trust
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Interim OT-26-S0192 observation sheets for Vesselquarn Medical Research Trust contain HepG2 viability screen exposures
+    and partial Mammalian-cell micronucleus assessment scoring, with precipitation exclusions and repeat conditions still
+    pending.
+  pilot: false
+- id: G-012
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-26-S0177/Raw_Observations/Interim
+  filename: BP16_Genotox_091826_INTERIM.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: legacy
+  template: G-L
+  created: '2026-08-17T10:23:00'
+  modified: '2026-10-07T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects:
+  - PRJ0126
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: interim
+  mess:
+  - half_filled
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Interim OT-26-S0177 results for Belquorin Pharma show the completed Bacterial mutation assay with and without S9
+    phase and HepG2 viability screen exclusions, while Mammalian-cell micronucleus assessment repeat scoring remains blank.
+  pilot: false
+- id: G-013
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-25-S0229/Protocol/Amendments
+  filename: VP28_Protocol_Hold_102725.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2025
+  era: legacy
+  template: G-L
+  created: '2025-10-06T10:23:00'
+  modified: '2025-10-27T15:41:00'
+  author: BG138
+  last_saved_by: BG138
+  projects:
+  - PRJ0130
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: draft
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 2 sheets
+  summary: OT-25-S0229 amendment tracker for Valquessia Pharmaceuticals SpA records the pre-dosing formulation hold, unapproved
+    upper-dose cells and outstanding Exploratory rat range finding protocol changes, with no animal dosing results.
+  pilot: false
+- id: G-014
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-08-S0114/Proposals/Signed_Copies
+  filename: OT-08-S0114_QUOTE_signed_100108.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 2008
+  era: legacy
+  template: G-L
+  created: '2008-10-01T10:23:00'
+  modified: '2008-10-01T15:41:00'
+  author: NS28
+  last_saved_by: NS28
+  projects:
+  - PRJ0117
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: G-007
+    rel: proposal_for
+  tier: sol
+  target_length: 10 pages
+  summary: Scanned signed OT-08-S0114 quotation to Avernelwick Pharmaceuticals Ltd specifies the 24-article HepG2 viability
+    screen, Bacterial mutation assay with and without S9 and Mammalian-cell micronucleus assessment battery at USD 32,300,
+    with fax-header noise and a client acceptance signature.
+  pilot: false
+- id: G-015
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-10-S0019/Protocol/Signed_Pages
+  filename: OT-10-S0019_PROTOCOL_A_signed.pdf
+  format: pdf
+  doc_type: word_sow
+  pdf_kind: scan
+  year: 2010
+  era: legacy
+  template: G-L
+  created: '2010-02-10T10:23:00'
+  modified: '2010-02-10T15:41:00'
+  author: NS25
+  last_saved_by: NS25
+  projects:
+  - PRJ0118
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Scanned signed OT-10-S0019 protocol pages for Nimbravelle Medicines Inc specify Rat DRF and recovery dosing, individual-animal
+    welfare checks, humane stopping criteria and handwritten QA annotations before the exploratory seven-day phase.
+  pilot: false
+- id: G-016
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-15-S0064/Signed_Reports
+  filename: OT-15-S0064_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2015
+  era: legacy
+  template: G-L
+  created: '2015-07-14T10:23:00'
+  modified: '2015-07-14T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0119
+  client_id: CL004
+  client_variant: Selverant Therapeutics Inc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 24 pages
+  summary: 'Final OT-15-S0064 investigation report for Selverant Therapeutics Inc: HepG2 viability screen and Mammalian-cell
+    micronucleus assessment results attribute the micronucleus signal to cytotoxic exposure and recommend a lower-exposure
+    repeat, with control validity stated and conclusions confined to the exploratory package.'
+  pilot: false
+- id: G-017
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-16-S0176/Signed_Reports
+  filename: OT-16-S0176_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2016
+  era: legacy
+  template: G-L
+  created: '2016-12-19T10:23:00'
+  modified: '2016-12-19T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0120
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 28 pages
+  summary: 'Final OT-16-S0176 investigation report for Tervemere Pharma AG: HepG2 viability screen, Bacterial mutation assay
+    with and without S9 and Mammalian-cell micronucleus assessment distinguish clear bacterial findings from the mammalian-cell
+    flag that prompted analogue replacement, with control validity stated and conclusions confined to the exploratory package.'
+  pilot: false
+- id: G-018
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-17-S0011/Signed_Reports
+  filename: OT-17-S0011_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2017
+  era: legacy
+  template: G-L
+  created: '2017-05-22T10:23:00'
+  modified: '2017-05-22T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0121
+  client_id: CL027
+  client_variant: Lomervessa Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 62 pages
+  summary: 'Final OT-17-S0011 investigation report for Lomervessa Pharma: Exploratory rat range finding records individual-animal
+    welfare observations and the tolerability limit underlying the recommended reduction in the subsequent upper dose, with
+    control validity stated and conclusions confined to the exploratory package.'
+  pilot: false
+- id: G-019
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-18-S0075/Signed_Reports
+  filename: OT-18-S0075_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2018
+  era: legacy
+  template: G-L
+  created: '2018-07-16T10:23:00'
+  modified: '2018-07-16T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0122
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 26 pages
+  summary: 'Final OT-18-S0075 investigation report for Nimbravelle Medicines Inc: HepG2 viability screen and Mammalian-cell
+    micronucleus assessment separate subseries by exposure tolerance and document retention of less cytotoxic analogues, with
+    control validity stated and conclusions confined to the exploratory package.'
+  pilot: false
+- id: G-020
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-19-S0100/Signed_Reports
+  filename: OT-19-S0100_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2019
+  era: legacy
+  template: G-L
+  created: '2019-08-19T10:23:00'
+  modified: '2019-08-19T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0123
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 32 pages
+  summary: 'Final OT-19-S0100 investigation report for Valquessia Pharmaceuticals SpA: HepG2 viability screen, Bacterial mutation
+    assay with and without S9 and Mammalian-cell micronucleus assessment support dropping the reactive side-chain branch,
+    with control validity stated and conclusions confined to the exploratory package.'
+  pilot: false
+- id: G-021
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-20-S0198/Signed_Reports
+  filename: OT-20-S0198_RPT_A_signed.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2021
+  era: legacy
+  template: G-L
+  created: '2021-02-02T10:23:00'
+  modified: '2021-02-02T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0124
+  client_id: CL046
+  client_variant: Emlucera Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 74 pages
+  summary: 'Final OT-20-S0198 investigation report for Emlucera Therapeutics: Rat DRF and recovery documents vehicle-related
+    observations in the initial cohort and the reformulated repeat that established a usable dose range, retaining animal
+    identifiers and welfare observations, with control validity stated and conclusions confined to the exploratory package.'
+  pilot: false
+- id: G-022
+  unit: G
+  root: heldback
+  path: OsterquillData/Proposals/2024/SA2
+  filename: OT-24-S0136_QUOTE_061224.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: native
+  year: 2024
+  era: legacy
+  template: G-L
+  created: '2024-06-12T10:23:00'
+  modified: '2024-06-12T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0127
+  client_id: CL060
+  client_variant: Sarnelvessa Agrochem
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 pages
+  summary: OT-24-S0136 quote for Sarnelvessa Agrochem budgets Exploratory rat range finding at USD 207,000 and states the
+    proposed animal-welfare and QA gates; the request was withdrawn for a different-species strategy and no investigation
+    started.
+  pilot: false
+- id: G-023
+  unit: G
+  root: heldback
+  path: OsterquillData/Marketing/Capabilities/2025/PDF
+  filename: Osterquill_Safety_Portfolio_051925_export.pdf
+  format: pdf
+  doc_type: deck_capability
+  pdf_kind: export
+  year: 2025
+  era: legacy
+  template: G-L
+  created: '2025-05-20T10:23:00'
+  modified: '2025-05-20T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: G-004
+    rel: export_of
+  tier: script
+  target_length: 14 pages
+  summary: PDF export of the Osterquill safety portfolio capability deck preserves its distinction between exploratory packages
+    and regulated GLP investigations, local legacy branding and QA-gate scope.
+  pilot: false
+- id: G-024
+  unit: G
+  root: heldback
+  path: OsterquillData/Studies/OT-23-S0046/Proposals
+  filename: OT-23-S0046_PROPOSAL_022123.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2023
+  era: legacy
+  template: G-L
+  created: '2023-02-21T10:23:00'
+  modified: '2023-02-21T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0013
+  client_id: CL003
+  client_variant: Avernelwick Pharmaceuticals Ltd
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P41
+    rel: proposal_for
+  tier: sol
+  target_length: 11 pages
+  summary: OT-23-S0046 proposal to Avernelwick Pharmaceuticals Ltd prices hERG (IKr) safety pharmacology and CYP safety interaction
+    panel screening of 44 reserve analogues at USD 25,000 with a 15-day turnaround and explicit non-GLP scope.
+  pilot: false
+- id: G-025
+  unit: G
+  root: heldback
+  path: OsterquillData/Proposals/2025/CVL
+  filename: OT-25-S0245_QUOTE_101625.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: legacy
+  template: G-L
+  created: '2025-10-16T10:23:00'
+  modified: '2025-10-16T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects:
+  - PRJ0128
+  client_id: CL001
+  client_variant: Corvenlea (US)
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 10 pages
+  summary: OT-25-S0245 quote to Corvenlea (US) proposes HepG2 viability screen and Mammalian-cell micronucleus assessment
+    for 18 backup-branch analogues at USD 41,800, with shipment unconfirmed and no investigation initiated.
+  pilot: false
+- id: G-026
+  unit: G
+  root: heldback
+  path: OsterquillData/Quality/SOPs/Controlled
+  filename: OQ_QA_014_Animal_Card_Control_Rev03.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2024
+  era: legacy
+  template: G-L
+  created: '2024-02-06T10:23:00'
+  modified: '2024-02-06T15:41:00'
+  author: NS27
+  last_saved_by: NS27
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 13 pages
+  summary: Controlled local SOP defines individual-animal card correction, dose-lot reconciliation, welfare escalation, control
+    validity review and independent QA archive release, distinguishing GLP records from exploratory investigations.
+  pilot: false
+- id: G-027
+  unit: G
+  root: heldback
+  path: OsterquillData/Marketing/Service_Catalogue/2026
+  filename: Osterquill_Service_Catalogue_100226.pdf
+  format: pdf
+  doc_type: service_catalogue
+  pdf_kind: native
+  year: 2026
+  era: legacy
+  template: G-L
+  created: '2026-10-02T10:23:00'
+  modified: '2026-10-02T15:41:00'
+  author: ST10
+  last_saved_by: ST10
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 16 pages
+  summary: Osterquill legacy service catalogue lists HepG2 viability screen, Bacterial mutation assay with and without S9,
+    Mammalian-cell micronucleus assessment, hERG (IKr) safety pharmacology, CYP safety interaction panel and Rat DRF and recovery,
+    distinguishing non-GLP screens from regulated GLP scope while onboarding remains pending.
+  pilot: false
+- id: G-028
+  unit: G
+  root: heldback
+  path: OsterquillData/Users/kmorita/Scratch
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2022
+  era: legacy
+  template: G-L
+  created: '2022-08-09T10:23:00'
+  modified: '2022-08-09T15:41:00'
+  author: NS26
+  last_saved_by: NS26
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: abandoned
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 2 slides
+  summary: Near-empty local scratch deck contains a title slide and an unused control-validity heading with no scientific
+    results.
+  pilot: false
+- id: G-029
+  unit: G
+  root: heldback
+  path: OsterquillData/Templates/Working/Scratch
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2025
+  era: legacy
+  template: G-L
+  created: '2025-04-22T10:23:00'
+  modified: '2025-04-22T15:41:00'
+  author: NS27
+  last_saved_by: NS27
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - empty_sections
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 sheet
+  summary: Unused local observation-sheet shell contains only animal-card and dose-lot column headings with no identifiers
+    or observations entered.
+  pilot: false
