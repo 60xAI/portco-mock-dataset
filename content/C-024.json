@@ -1,0 +1,50 @@
+{"family": "workbook",
+ "summary": "Handover notes from Matteo Rinalvesi's DMPK working folder, May 2019. Lists the accession and project prefixes in use, the people to ask for each area and where the signed DMPK memos are filed. Superseded by the shared handover list; the copy was left on the old laptop.",
+ "properties": {"title": "Accession handover v3"},
+ "sheets": [
+  {"name": "Handover", "rows": [
+    ["Merrivoss Bioanalysis Inc"],
+    [{"v": "DMPK handover, working notes", "bold": true}],
+    ["Author", "Matteo Rinalvesi"],
+    ["Date", "05/20/2019"],
+    ["Status", "Working copy, superseded"],
+    [],
+    ["Owner", "Area", "Notes"],
+    ["Megan Larkin", "Study direction", "Client-facing. Check with her before results go out."],
+    ["Helen Marchwood", "Matrix acceptance (QC)", "Signs matrix acceptance on the bioanalysis worksheets"],
+    ["Javier Quintana", "LC-MS/MS method", "Method changes go through him. He holds the instrument logs."],
+    ["Carole Mills", "Rodent PK runs", "Exposure tables and lot checks. Back-up is Faustino Salmerón."],
+    ["Amol Dey", "Study director cover", "Covers when Megan Larkin is away"],
+    [],
+    ["Reviewer list not updated since March. Check before using it for anything current."]
+   ],
+   "col_widths": {"A": 18, "B": 26, "C": 60},
+   "merged": ["A1:C1"],
+   "comments": [{"cell": "A13", "text": "Old reviewer list. Do not use for the Q2 studies.", "author": "Megan Larkin"}]},
+  {"name": "Accession prefixes", "rows": [
+    [{"v": "Accession and project prefixes", "bold": true}],
+    ["Prefix", "Meaning", "Still in use?"],
+    ["M19/BIO/", "LIMS accession series, 2019 receipts", "Yes, until year-end"],
+    ["M18/BIO/", "LIMS accession series, 2018 receipts", "Archive only"],
+    ["MV-2019-", "Project number, Madison local series", "Yes"],
+    ["MV-2018-", "Project number, Madison local series", "Archive only"],
+    ["SC-", "Scratch sample tracking, not for client files", "No"],
+    [],
+    ["Accession and project numbers stay as they are when the group naming starts."]
+   ],
+   "col_widths": {"A": 14, "B": 46, "C": 24},
+   "freeze": "A3",
+   "comments": [{"cell": "C6", "text": "Check whether the SC- prefix is still on the older paper log", "author": "Megan Larkin"}]},
+  {"name": "Memo locations", "rows": [
+    [{"v": "Where the signed DMPK memos are filed", "bold": true}],
+    ["Memo type", "Folder on the shared drive", "Notes"],
+    ["DMPK memo, signed", "Client_Work/<project>/Memos", "Scan of the signed copy kept with the PDF"],
+    ["DMPK memo, draft", "Archive/Users/Working/Memos", "Drafts only. Do not cite."],
+    ["Matrix acceptance record", "Client_Work/<project>/QC", "Stored with the assay worksheet"],
+    ["Paper records before 2006", "Filing room, shelf 3", "Incomplete. See the archive note."],
+    [],
+    ["Several links in the 2017 memos point at folders that have since moved."]
+   ],
+   "col_widths": {"A": 26, "B": 34, "C": 44},
+   "freeze": "A3"}
+ ]}
