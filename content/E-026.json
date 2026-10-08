@@ -1,0 +1,531 @@
+{
+  "family": "document",
+  "summary": "Final approved report WA/2013/269 for Kalmorveth Pharma, covering Assay and related-substances validation for KM-12. The specificity challenge resolved the co-eluting degradant and Kalmorveth Pharma accepted the method for release testing. Numerical evidence, sample traceability and interpretation limits are retained.",
+  "properties": {
+    "title": "WA/2013/269 Approved Report"
+  },
+  "header": "Westravelle Analytical Ltd | WA/2013/269",
+  "footer": "Westravelle Analytical Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Kalmorveth KM-12 related-substances HPLC validation",
+    "subtitle": "Final report — QA approved",
+    "lines": [
+      "Westravelle Analytical Ltd",
+      "Report no. E-R-2014-026-01",
+      "Project: WA/2013/269 | LIMS: WST-13-008363",
+      "Client: Kalmorveth Pharma",
+      "Report date: 19 Mar 2014",
+      "Scientific lead: Dr A. Penrose"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Approved summary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "WA/2013/269 reports Assay and related-substances validation for Kalmorveth Pharma: KM-12. Work began on 27 Jan 2014; the completed evidence set was closed on 17 Mar 2014. The specificity challenge resolved the co-eluting degradant and Kalmorveth Pharma accepted the method for release testing."
+        },
+        {
+          "p": "Dr A. Penrose authorises this final report on 19 Mar 2014. The key table retains the approved endpoint labels and units. Conclusions apply to the material, method and conditions tested. This issue supersedes working interpretations for the completed protocol; it does not authorise an altered product configuration or analytical procedure."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0087:method_val",
+            "max_rows": 45,
+            "caption": "Table 1. Approved validation results and acceptance criteria"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "2 Protocol identity and responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Project WA/2013/269, accession WST-13-008363, is the reference for receipt, preparation, acquisition and reporting. The client name in this approved issue is Kalmorveth Pharma. Product identity remains KM-12; an informal label does not replace the accession. The protocol addresses Assay and related-substances validation."
+        },
+        {
+          "p": "Alice Penrose holds scientific responsibility. Leon Wu maintains sample and storage linkage. Saira Mahmood checks the procedure and system suitability assessment. At the release gate, the final endpoint must trace to both the material selected for analysis and the eligible sequence that generated it."
+        },
+        {
+          "table": {
+            "columns": [
+              "Responsibility",
+              "Person",
+              "Release evidence"
+            ],
+            "rows": [
+              [
+                "Scientific conclusion",
+                "Dr A. Penrose",
+                "Approved report"
+              ],
+              [
+                "Sample traceability",
+                "Dr L. Wu",
+                "Batch card and handling trail"
+              ],
+              [
+                "Analytical review",
+                "Saira Mahmood",
+                "Method and sequence sheets"
+              ]
+            ],
+            "caption": "Responsibilities at final release"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "3 Objective and decision boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The initial separation allowed a degradant to interfere with the related-substances assessment. The specificity challenge addressed the separation before the procedure was considered for release testing. The final procedure resolved the co-eluting degradant. Acceptance is based on the qualified separation, rather than the apparent cleanliness of an unstressed sample."
+        },
+        {
+          "p": "The acceptance question is settled against the agreed endpoint definitions. Meeting an analytical criterion is not automatically a general product-quality statement. Material identity, exposure history and procedure remain part of the decision. No clinical interpretation or commercial forecast is included. The report gives the evidence and its boundary so that the client can retain both when using the conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "4 Chronology and release gates",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Work started on 27 Jan 2014. The interim evidence point was 20 Feb 2014; work concluded on 17 Mar 2014. Final reporting occurred on 19 Mar 2014. These dates describe the protocol chronology and do not replace actual acquisition times on individual sequence sheets."
+        },
+        {
+          "p": "Interim interpretation was limited to the available evidence. Final release incorporated the completed evidence set and review of sample linkage and suitability. Earlier extracts preserve chronology but do not supersede this issue. A copied sequence date should remain its original date; resetting it to the report approval date would lose the relationship between preparation, acquisition and interpretation."
+        }
+      ]
+    },
+    {
+      "heading": "5 Receipt and accession control",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Material was accepted using the client product designation and the assigned accession. Supplied labels, container description and intended analytical use were linked on the batch card. A local aliquot identifier remained subordinate to that accession. Identity was taken from the client documentation; an independent structural identity investigation was outside the protocol."
+        },
+        {
+          "p": "The file distinguishes material as received from preparations made for injection. A prepared solution is not a new stability lot. Labels were checked before opening material and again at preparation. This prevents an apparently eligible chromatogram from being reported under the wrong product description. The accession is retained on the preparation trail as well as the report."
+        }
+      ]
+    },
+    {
+      "heading": "6 Batch card and sample genealogy",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The batch card links receipt, handling and preparation. Original product designations were retained when material was split. Each sequence sheet identifies the preparation, its source and its intended analytical purpose. Repeated injection remains linked to the existing preparation; a fresh preparation has its own entry."
+        },
+        {
+          "p": "Review followed the chain from receipt to reported endpoint, then traced the endpoint back to its source. A short chromatogram label alone cannot establish this chain. The report carries the project and accession so that an extracted page can be returned to the right file. Product identity is retained throughout the chain, including at the final calculation step."
+        }
+      ]
+    },
+    {
+      "heading": "7 Storage and handling before analysis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Material remained under its assigned handling conditions until removal or preparation. Removed material was distinguished from retained reserve. Time outside controlled storage and the preparation sequence belong to the sample history; they are not discarded because the eventual analytical result is satisfactory."
+        },
+        {
+          "p": "Containers were checked for label legibility, closure integrity and sufficient material. A compromised container would require a deviation note and impact decision before inclusion. Handling observations remain with the batch card, allowing later review to distinguish a change in the product from an event introduced during sampling. The report does not reconstruct an unrecorded temperature history."
+        }
+      ]
+    },
+    {
+      "heading": "8 References and reagent preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Reference preparations establish the response used for calculation. Preparation entries retain the reference designation, applicable potency correction and dilution trail. Reference potency was not inferred from the observed peak area. Blank, reference and sample preparations were identified separately so that their distinct purposes remained visible."
+        },
+        {
+          "p": "Reagent and mobile-phase labels were checked against the sequence sheet. A replacement preparation was linked to its actual point of use rather than silently inheriting its predecessor identity. The controlled preparation file retains the laboratory detail needed to repeat the accepted procedure. This report uses generic solvent and reagent descriptions without assigning unsupported reference-material results."
+        }
+      ]
+    },
+    {
+      "heading": "9 Sequence construction",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Sequences distinguish blank response, reference response, sample response and subsequent checks of system suitability. Suitability was assessed before release and considered across the sequence. A suitable opening check alone cannot justify data acquired after a later failure. Injection order was retained as acquired so that the check-to-sample relationship could be reviewed."
+        },
+        {
+          "p": "The sequence sheet links acquisition files, preparation entries and calculations. Re-injection retains its reason; an unexplained repeat cannot be selected solely because its value looks preferable. If a sequence is replaced, the earlier acquisition remains with its disposition. The reported table contains released evidence, without treating an ineligible sequence as a second acceptable measurement."
+        }
+      ]
+    },
+    {
+      "heading": "10 System suitability and data eligibility",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "System suitability addresses separation, repeat response and the ability to measure the required endpoints. Acceptance uses the criteria attached to the controlled method. Samples become eligible for reporting when their applicable checks support interpretation. Suitability assesses the measurement sequence and is not an alternative product specification."
+        },
+        {
+          "p": "Saira Mahmood checked the suitability decision for the reference and sample data used in the calculations. Chromatographic appearance was considered with the numerical checks, particularly where a shoulder or neighbouring peak could affect integration. The report-level evidence retains the parameter and criterion together; it does not infer a new numerical suitability result from a general approval statement."
+        }
+      ]
+    },
+    {
+      "heading": "11 Calculation and reporting conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Assay is reported as percent label claim and related substances as area percent under the qualified conventions. Relative retention assists peak tracking but does not establish chemical identity alone. The original reporting precision and any censoring symbol are preserved. A value below a reporting boundary is not replaced by zero."
+        },
+        {
+          "p": "Calculations retain dilution, reference correction and source response in the analytical file. Review used this trail before releasing the report table. Units are carried in the headings rather than inferred from neighbouring endpoints. Water, where supplied, uses percent w/w and is not subtracted from assay to create an unqualified corrected value. These distinctions remain part of any transferred evidence."
+        }
+      ]
+    },
+    {
+      "heading": "12 Chromatogram and integration review",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Complete traces were reviewed before numerical transcription. Boundaries were applied consistently between reference, challenged or aged material and routine sample preparations. The blank was considered in the same retention region as each reported impurity. An intervention retained the source trace and the reason for the adjusted boundary."
+        },
+        {
+          "p": "An unexpected peak was not removed merely because it was absent from the reference. Its treatment followed the method reporting conventions. A principal-peak shoulder required a separation and integration assessment instead of an automatic increase in principal-component area. The report assigns no chemical structure from retention alone and does not invent a mechanism for a changing secondary peak."
+        }
+      ]
+    },
+    {
+      "heading": "13 Specificity challenge",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The initial separation allowed a degradant to interfere with the related-substances assessment. The specificity challenge addressed the separation before the procedure was considered for release testing. The final procedure resolved the co-eluting degradant. Acceptance is based on the qualified separation, rather than the apparent cleanliness of an unstressed sample."
+        },
+        {
+          "p": "Saira Mahmood compared challenged preparations with reference and sample chromatograms using the final integration conventions. Reverting to earlier separation settings would reopen the interference question and is outside the method accepted by Kalmorveth Pharma."
+        }
+      ]
+    },
+    {
+      "heading": "14 HPLC method qualification — approved evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Assay and related-substances validation forms part of WA/2013/269. The table preserves each parameter, result and criterion together. Saira Mahmood reviewed that comparison before scientific release. The numerical summary is read with preparation and acquisition entries; a criterion cannot be detached from the parameter to which it applies."
+        },
+        {
+          "p": "Validation concerns the tested matrix and controlled procedure. It does not establish suitability for an altered extraction or separation. Any receiving laboratory retains the accepted preparation and reporting conventions or assesses its proposed change. The report does not add an uncommissioned validation parameter or create a new acceptance value."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0087:method_val",
+            "max_rows": 45,
+            "caption": "Table 2. Assay and related-substances validation summary"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "15 Specificity preparations",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Specificity used blank, reference, test and challenged preparations to distinguish the intended response from matrix or degradation interference. Peak location alone was not treated as proof. Separation was assessed in the regions required for assay and related-substances reporting."
+        },
+        {
+          "p": "The final controlled procedure is the basis of acceptance. For KM-12, resolution of the co-eluting degradant is the decisive challenge. For OB11, the assessment concerns the drug-substance matrix and release use. A suitable unstressed trace cannot substitute for the challenge preparations, and an earlier separation setting is not made acceptable by the final method conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "16 Linearity and working range",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Linearity uses the validation result and acceptance criterion in the approved summary. Preparation levels challenge the intended range, with each level linked to its dilution trail. The reviewer distinguishes the prepared concentration design from the subsequently measured response."
+        },
+        {
+          "p": "The correlation statistic is considered with intended use and response pattern. It does not establish quantitation outside the challenged range. Assay and impurity reporting conventions remain separate parts of the procedure. A principal-component range does not silently establish trace impurity performance. This narrative adds no numerical slope, intercept or untested concentration response."
+        }
+      ]
+    },
+    {
+      "heading": "17 Accuracy and recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Recovery preparations challenge preparation and measurement together. The validation table supplies the released accuracy result. Material added, preparation level and response calculation are retained as a chain so that an apparently satisfactory value can be traced to the actual preparation."
+        },
+        {
+          "p": "The tested matrix bounds the recovery conclusion. Recovery in this preparation does not establish extraction from a different product presentation. Criterion and result remain coupled in the approved summary. No receiving-laboratory recovery value is inferred from transfer of the procedure. Reference correction and dilution remain explicit in the calculation trail rather than absorbed into an unexplained report number."
+        }
+      ]
+    },
+    {
+      "heading": "18 Repeatability",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Repeatability evaluates independently prepared material under the controlled procedure. Preparation identity is retained separately from repeated injections. Repeated injection challenges measurement of an existing preparation; independent preparation additionally challenges handling and dilution. These two sources of variation cannot be exchanged without changing the evidence."
+        },
+        {
+          "p": "The accepted precision result is supplied in the validation summary. It is not recreated by rounding individual responses in this report. Original preparation calculations and source signals were retained for review. A favourable repeat is not a reason to remove an earlier acquisition without disposition. The reporting criterion remains the one associated with the validated parameter."
+        }
+      ]
+    },
+    {
+      "heading": "19 Intermediate precision",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Intermediate precision considers performance beyond a single preparation sequence within the qualified procedure. The numerical summary retains the comparison with the applicable criterion. Planned precision work is distinguished from a repeat undertaken to replace an ineligible sequence."
+        },
+        {
+          "p": "The conclusion does not guarantee identical performance in every laboratory or on all equipment. It supports the controlled procedure in the validation context. A receiving laboratory still establishes suitability for its own sequence. An equipment change affecting separation needs consideration before routine release; the approved report contains no numerical equivalence result for an untested receiving instrument."
+        }
+      ]
+    },
+    {
+      "heading": "20 Low-level impurity measurement",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Low-level related-substances performance considers blank response, signal discrimination and reporting conventions. A peak absent at the reporting boundary is not described as chemically absent. The accepted validation evidence is supplied in the summary rather than restated as invented detection and quantitation values."
+        },
+        {
+          "p": "Censored values remain censored in a specification or transfer package. If a specification requires reporting below the validated region, the current conclusion cannot be extended by adding displayed decimal places. The method and endpoint basis remain attached to the low-level result, and an isolated area response is not converted into a concentration without the qualified convention."
+        }
+      ]
+    },
+    {
+      "heading": "21 Robustness and controlled settings",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Deliberate method changes were considered as a robustness question. Review addressed separation features required for release use, including critical peak regions. The final settings remain in the controlled procedure. The approved validation table supplies the released robustness evidence."
+        },
+        {
+          "p": "Robustness does not make all settings interchangeable. A change outside the assessed region may alter selectivity or recovery. Resolution of an interfering degradant is part of accepted performance and must be preserved on transfer. The report does not authorise substitution of an earlier development procedure merely because both procedures give a principal-component peak."
+        }
+      ]
+    },
+    {
+      "heading": "22 Prepared-solution handling",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Preparation time, holding conditions and intended use were retained on the sequence sheet. Reference and test preparations were considered separately because their purposes and matrices differ. A replacement preparation was linked to its use rather than treated as a continuation of the preceding solution."
+        },
+        {
+          "p": "No new numerical holding interval is assigned here. Routine use follows the controlled procedure and its qualified limits. Holding beyond those limits needs an impact decision before reporting. Visually unchanged material does not establish quantitative response stability, and a later injection is not automatically eligible because an earlier injection from the same vial was accepted."
+        }
+      ]
+    },
+    {
+      "heading": "23 Carry-over and blank interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Blank injections were distinguished from suitability references and samples. Review examined the blank in the retention regions needed for principal-component and impurity reporting. This prevents a preceding injection from creating a false product observation. Sequence order remains relevant to the assessment."
+        },
+        {
+          "p": "A blank response is not automatically deleted from a sample trace or subtracted without justification. Its interpretation follows the controlled procedure. Original and replacement sequences retain their disposition so that the reviewer can follow the released result. This report introduces no new numerical carry-over value and makes no assumption that every secondary peak is product related."
+        }
+      ]
+    },
+    {
+      "heading": "24 Method transfer boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The final method comprises sample preparation, separation, suitability and reporting conventions together. Removing any one of these from the transfer package would leave the receiving laboratory with an incomplete procedure. The validation supports the intended release use on the tested matrix."
+        },
+        {
+          "p": "Routine manufactured material still requires its own identity and eligible sequence. This protocol does not release a production campaign or create a stability claim. Changes of matrix, impurity pattern or manufacturing route may require targeted assessment. The accepted specificity challenge and numerical validation summary form the historical basis for that decision, without inventing receiving-laboratory results."
+        }
+      ]
+    },
+    {
+      "heading": "25 Deviations and disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "Final release contains no unresolved deviation changing the stated conclusion. This report does not introduce an extra assay value to stand for a correction or repeat. A deviation note belongs with its source acquisition or preparation and the associated impact decision. Ineligible evidence is not made acceptable by losing its history in a copied table."
+        },
+        {
+          "p": "Method development is distinguished from a failure of the final controlled procedure. A selectivity change belongs in the method history; an event affecting an accepted sequence requires its own impact assessment. The final conclusion uses released evidence within the completed scope."
+        }
+      ]
+    },
+    {
+      "heading": "26 Scientific conclusion and client disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The specificity challenge resolved the co-eluting degradant and Kalmorveth Pharma accepted the method for release testing."
+        },
+        {
+          "p": "Saira Mahmood compared challenged preparations with reference and sample chromatograms using the final integration conventions. Reverting to earlier separation settings would reopen the interference question and is outside the method accepted by Kalmorveth Pharma."
+        },
+        {
+          "p": "Alice Penrose considers the evidence sufficient for the stated decision at completion on 17 Mar 2014. No observation beyond the tested interval or outside the method scope is asserted. Future material and future sequences require their own identity and suitability checks. The protocol outcome is retained with the underlying evidence under WST-13-008363."
+        }
+      ]
+    },
+    {
+      "heading": "27 Archive index and approval basis",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        },
+        {
+          "p": "The report is filed under WA/2013/269 and WST-13-008363. The associated result file is KM12_SPECIFICITY_RESULTS_Rev02.xls, supplying the sequence and endpoint trail behind this report."
+        },
+        {
+          "p": "The approval package retains receipt entries, preparation trails, source chromatograms, calculations and suitability decisions. Leon Wu checked sample linkage; Saira Mahmood checked analytical evidence; Alice Penrose approved the conclusion. An extracted table should carry project, product, units, condition where applicable and approved issue status. The retained copy bears the original issue date."
+        },
+        {
+          "table": {
+            "columns": [
+              "Component",
+              "Purpose",
+              "Link"
+            ],
+            "rows": [
+              [
+                "Batch card",
+                "Identity and handling",
+                "Accession and product"
+              ],
+              [
+                "Sequence sheets",
+                "Acquisition and suitability",
+                "Preparation and injection order"
+              ],
+              [
+                "Calculations",
+                "Result derivation",
+                "Response and dilution trail"
+              ],
+              [
+                "Report",
+                "Decision and limits",
+                "Project and issue date"
+              ]
+            ],
+            "caption": "Approved archive navigation"
+          }
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Leon Wu",
+      "role": "Stability Coordinator — sample traceability",
+      "date": "19 Mar 2014",
+      "signed": true
+    },
+    {
+      "name": "Saira Mahmood",
+      "role": "QC Method Validation Lead — analytical review",
+      "date": "19 Mar 2014",
+      "signed": true
+    },
+    {
+      "name": "Andrea Tucker",
+      "role": "Quality Assurance Manager",
+      "date": "19 Mar 2014",
+      "signed": true
+    },
+    {
+      "name": "Alice Penrose",
+      "role": "Head of Analytical Services — approval",
+      "date": "19 Mar 2014",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [],
+  "comments": []
+}
