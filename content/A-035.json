@@ -1,0 +1,323 @@
+{
+  "family": "document",
+  "summary": "Final chemistry report for Rennelwick Institute Drug Discovery Unit. Client-supplied X-ray co-crystal structures guided a less hindered substituent and material delivery for binding studies; the supplied export has no compound-level result table.",
+  "properties": {
+    "title": "VD-18-131 | Route scout and delivery | Revision A"
+  },
+  "header": "Vellacombe Discovery Ltd",
+  "footer": "Vellacombe Discovery Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "VD-18-131 | Route scout and delivery | Revision A",
+    "subtitle": "Final issue",
+    "lines": [
+      "Date: 29 Jan 2019",
+      "Prepared by: Ruth Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Programme conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rennelwick Institute Drug Discovery Unit commissioned Route scout and delivery under {{PRJ0015:project_id}}, accession {{PRJ0015:lims_id}}. Client-supplied X-ray co-crystal structures guided selection of a less hindered substituent. Material was delivered for binding studies."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence",
+              "Disposition"
+            ],
+            "rows": [
+              [
+                "Co-crystal structures",
+                "Provided by the client; crystallography performed by its collaborators"
+              ],
+              [
+                "Chemistry direction",
+                "Less hindered substituent"
+              ],
+              [
+                "Isolated material",
+                "Delivered for binding studies"
+              ],
+              [
+                "Proposed structures",
+                "Design options, not delivered identities"
+              ]
+            ],
+            "caption": "Table 1. Final programme disposition"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Mandate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quotation was dated 28 Sep 2018; preparation started on 05 Nov 2018. The programme closed on 28 Jan 2019 and this final issue is dated 29 Jan 2019."
+        },
+        {
+          "p": "The objective was to provide material that could test the structural hypothesis. A favourable fit in a structural model justified synthesis; it was not a binding measurement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ruth Calderwood directed the analogue choice and route gates. Hassan Darwish led synthetic work and Clara Fenwick held analytical-release responsibility."
+        },
+        {
+          "p": "The client retained the structural biology and binding interpretation. Chemical identity, availability of material and receptor behaviour are separate conclusions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Evidence boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The supplied programme export contains no compound-level result table. Individual yields, purity values, masses and identity spectra cannot be reproduced from that source."
+        },
+        {
+          "p": "The completed chemistry outcome is reported qualitatively. Original compound cards and delivery-lot documentation remain the sources for numerical particulars; no analytical value is reconstructed from a design drawing."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Structural hypothesis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client-supplied X-ray co-crystal structures indicated that substituent crowding could be reduced. The chemistry direction was therefore a less hindered substituent."
+        },
+        {
+          "p": "This is a local design hypothesis. It does not establish that every other modification will preserve the pose or that the chosen material will improve binding."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Analogue definition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A proposed structure records what the team intends to make. A delivered identity requires isolated material linked to a compound card."
+        },
+        {
+          "p": "The distinction prevents an uncompleted preparation attempt from entering the binding-study inventory. Keep design drawings separate from the list of physically available material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Route risk",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The route gate concerns isolation of the intended analogue rather than disappearance of starting material. Related intermediates and side-products can make reaction conversion misleading."
+        },
+        {
+          "p": "Hassan Darwish’s synthetic interpretation must therefore join the isolation history to the analytical assignment before a preparation is described as deliverable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Route scout",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The route scout documents the chemistry decision supporting the January readout. It is not evidence that recovery will be unchanged on another preparation scale."
+        },
+        {
+          "p": "For follow-up material, retain the intended structure and compare the isolated product with its earlier compound card. A changed route should receive its own isolation and identity assessment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Isolated-yield basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "An isolated yield belongs to a defined preparation and material form. Recovery from a delivery vial cannot reconstruct that yield without the original starting-material basis."
+        },
+        {
+          "p": "No isolated-yield values are supplied in this archive export. The narrative delivery outcome is retained without inserting an assumed yield."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Identity handover",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The compound-card identity must connect the label, the proposed target structure and the analytical assignment of the material actually isolated."
+        },
+        {
+          "p": "Clara Fenwick’s analytical-release responsibility supports chemical identity. It does not establish receptor binding or validate the client’s structural interpretation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Purity context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Chromatographic purity is expressed as area percent with its method context. It is not a gravimetric composition and should not be converted directly into an assay concentration."
+        },
+        {
+          "p": "The receiving chemist should use the original compound card for purity and isolated-form particulars. Those particulars are not present in the numerical export supplied for this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Delivery-lot reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme outcome records delivery of material for binding studies. The delivery-lot label and compound card are the links between preparation and use."
+        },
+        {
+          "p": "Andrew May’s sample-management function supports dispatch reconciliation. The client should reconcile received labels with the accompanying handover before preparing binding-study solutions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Binding-study use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The delivered material allows the client to test whether reducing substituent crowding retains useful receptor binding. This report supplies the chemistry conclusion, not the biological answer."
+        },
+        {
+          "p": "Binding results should be linked to the actual compound-card identity and isolated form used. Comparisons against earlier material need the same traceability."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Readout link",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "RI13_route_readout_24Jan19.pptx is the related chemistry readout, archived with a 28 Jan 2019 file date. It describes the same programme and client-supplied structural guidance."
+        },
+        {
+          "p": "The date in that filename is retained as an archive identifier. This report uses 28 Jan 2019 as the programme completion date and 29 Jan 2019 as its issue date."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Inventory limitation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The supplied export records {{PRJ0015:n_compounds}} in the compound-count field while its outcome records delivered material. That field is not treated as the physical delivery inventory."
+        },
+        {
+          "p": "The original handover is required to reconcile individual material labels. Neither an absent result table nor an administrative count supports inventing a compound list."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Next analogue",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The next preparation should be chosen after the client reviews binding results and the X-ray co-crystal hypothesis. Further reduction in steric demand remains a proposal until that evidence is available."
+        },
+        {
+          "p": "Ruth Calderwood should define the comparison before changing several substituents together. Otherwise an unsuccessful binding result would be difficult to assign to the original crowding hypothesis."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The recorded turnaround is {{PRJ0015:turnaround_days}} calendar days and the programme price is {{PRJ0015:price}}. These administrative values do not substitute for compound-level evidence."
+        },
+        {
+          "p": "The commissioned chemistry work is complete. Additional synthesis or binding work requires a new decision rather than being implied by this final report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Final statement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A less hindered substituent was selected using client-supplied X-ray co-crystal structures, and material was delivered to Rennelwick Institute Drug Discovery Unit for binding studies. Crystallography was performed by the client’s collaborators."
+        },
+        {
+          "p": "Isolated material is distinguished from proposed structures throughout this issue. Quantitative identity and recovery particulars remain with the original compound cards."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Ruth Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "29 Jan 2019",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "comments": [],
+  "tracked_changes": [],
+  "orientation": "portrait"
+}
