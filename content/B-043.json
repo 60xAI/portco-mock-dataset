@@ -1,0 +1,183 @@
+{
+  "family": "scan",
+  "summary": "Five-page signed quotation return for BW01_0059, Quorenthel Pharma GmbH. The legacy paper copy carries faint signature ink and a received stamp, with scope and price still legible.",
+  "document": {
+    "family": "document",
+    "summary": "Signed quotation for the QP07 primary potency and selectivity package. It defines material readiness, plate acceptance, deliverables and the accepted commercial terms before testing.",
+    "properties": {
+      "title": "BW01_0059 signed quotation"
+    },
+    "header": "BW01_0059 | Quotation",
+    "footer": "Brindlewythe Biosciences Ltd | Confidential",
+    "title_block": {
+      "title": "QP07 metabolic kinase — quotation acceptance",
+      "subtitle": "Signed return copy",
+      "lines": [
+        "Brindlewythe Biosciences Ltd",
+        "Quorenthel Pharma GmbH",
+        "Quotation: {{PRJ0032:project_id}}",
+        "Date: 14/03/2001"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Accepted scope and price",
+        "blocks": [
+          {
+            "p": "Brindlewythe Biosciences Ltd offers the Primary potency assay and Selectivity sweep for the Quorenthel aminopyrazine screening set QP07. The accepted package is intended to rank biochemical potency and describe a selectivity fingerprint. It does not establish cellular efficacy or a binding mechanism."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Agreed scope"
+              ],
+              "rows": [
+                [
+                  "Study",
+                  "{{PRJ0032:project_id}}"
+                ],
+                [
+                  "Client",
+                  "Quorenthel Pharma GmbH"
+                ],
+                [
+                  "Screening set",
+                  "{{PRJ0032:n_compounds}} QP07 compounds"
+                ],
+                [
+                  "Primary assay",
+                  "Metabolic-signal kinase concentration response"
+                ],
+                [
+                  "Follow-up",
+                  "Selectivity sweep on agreed representatives"
+                ],
+                [
+                  "Price",
+                  "{{PRJ0032:price}}"
+                ],
+                [
+                  "Turnaround from assay-ready start",
+                  "{{PRJ0032:turnaround_days}} days"
+                ]
+              ],
+              "caption": "Signed quotation schedule"
+            }
+          },
+          {
+            "p": "This signed copy confirms the offered work and its acceptance terms. Results are not included: the quotation predates laboratory testing. Compound ranking will be released only after plate acceptance. Prepared by Dr B. Rowcroft, Screening Operations Director, 14/03/2001."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Material and shipment requirements",
+        "blocks": [
+          {
+            "p": "Quorenthel will supply labelled QP07 stocks with an identifier list, nominal concentration, solvent, usable volume and storage conditions. The package assumes a reconciled test lot suitable for a concentration response and the follow-up sweep. Client-supplied identity and stock concentration are used as declared; independent structure confirmation is not part of the offer."
+          },
+          {
+            "p": "At receipt, containers and list will be reconciled before laboratory use. A damaged container, unclear identifier or insufficient stock is held for clarification. The accession reference {{PRJ0032:lims_id}} links the sample cards and run sheets. A replacement preparation will carry its own receipt note so that it is not confused with the original stock."
+          },
+          {
+            "list": [
+              "Seal containers and package against leakage.",
+              "State any precipitation or thawing restrictions.",
+              "Provide safety and transport information.",
+              "Agree changes to the screening set before dispatch."
+            ]
+          },
+          {
+            "p": "The working clock begins when written acceptance and assay-ready material are available. A courier delivery alone does not release a test lot with unresolved identity or concentration. Remaining material will be retained for an agreed return or disposal instruction."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Primary potency assay and acceptance",
+        "blocks": [
+          {
+            "p": "The Primary potency assay uses recombinant metabolic-signal kinase with ATP at the working Km. Compounds are tested as a 10-point, threefold dilution from 10 µM, in duplicate. Vehicle and staurosporine reference wells accompany each plate. The run sheet records enzyme preparation, ATP conditions, stock dilution and incubation timing."
+          },
+          {
+            "p": "Plate acceptance is assessed from control separation, the reference concentration response and replicate performance before compound fitting. A plate that fails the agreed method range will be rejected and repeated. Martin Ellerscombe will coordinate the assay record; Ines Alvarado will check the acceptance disposition."
+          },
+          {
+            "p": "Accepted curves will be fitted by a four-parameter logistic model and reported as IC50 in nM with a slope and any relevant qualifier. A partial curve is not forced into a precise finite IC50. An unusual curve shape or optical interference is flagged for discussion rather than described as a new inhibitory mechanism."
+          },
+          {
+            "list": [
+              "Preserve rejected run sheets with the repeat reason.",
+              "Exclude non-evaluable points only with a recorded reason.",
+              "Keep biochemical ranking separate from cellular claims."
+            ]
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Selectivity sweep and deliverables",
+        "blocks": [
+          {
+            "p": "The Selectivity sweep will examine six agreed representatives against a 16-kinase off-target panel at 1 µM. The representatives are chosen with Quorenthel after the primary rank is available. Selection is a screen gate; it is not permission to change the quoted compound count or add unrelated assays."
+          },
+          {
+            "p": "Every panel readout requires its own control acceptance. Percent inhibition is relative to the matched vehicle response at the stated concentration. A flag above 50% identifies a possible concentration-response follow-up; it is not an off-target IC50. No unquoted off-target concentration response is included."
+          },
+          {
+            "p": "The package delivers a signed report, the primary compound table and the selectivity matrix. The report begins with control disposition and the principal results table before discussing ranking. Anika Veldershain can support study reporting; Bethany Rowcroft is the point of contact for scope and client decisions."
+          },
+          {
+            "p": "The report will describe the compactness of a fingerprint without claiming a binding mode. Raw records, sample cards and amended reports remain connected to the accession reference. Queries about mapping or transcription are resolved against those records. Additional experiments require a separate instruction."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Commercial terms and signed acceptance",
+        "blocks": [
+          {
+            "p": "The agreed package price is {{PRJ0032:price}}. Routine preparation, reference controls, ordinary technical repeats, reduction and the stated report are included. Additional compounds, new test lots and extra concentration responses require written scope and price agreement. Applicable taxes and transport are addressed in purchase documentation."
+          },
+          {
+            "p": "The planning basis is {{PRJ0032:turnaround_days}} days from the assay-ready start. Working dates will be confirmed after receipt reconciliation. A material limitation or unresolved technical exception will be communicated promptly; it will not be concealed to preserve a provisional release date."
+          },
+          {
+            "p": "Compound identities and data are confidential to Quorenthel Pharma GmbH. Remaining material is returned or disposed of only under the agreed instruction. Cancellation after commencement is reconciled against work completed and committed; no new charge is introduced without the corresponding commercial agreement."
+          },
+          {
+            "p": "Accepted for Quorenthel Pharma GmbH: the Primary potency assay and Selectivity sweep described in this quotation, at the stated GBP package price. Client approval is recorded on the returned signature copy. The signature ink is faint; the acceptance statement and quotation reference remain legible."
+          },
+          {
+            "p": "For Brindlewythe Biosciences Ltd: Dr B. Rowcroft. Signed 14/03/2001. Return copy received and filed with the quotation. This acceptance authorises the scope; it does not certify an experimental result."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Bethany Rowcroft",
+        "role": "Screening Operations Director — signed for Brindlewythe Biosciences Ltd",
+        "date": "14/03/2001",
+        "signed": true
+      }
+    ]
+  },
+  "scan": {
+    "skew_deg": 0.55,
+    "noise": 0.18,
+    "blur": 0.45,
+    "stamp": "RECEIVED 14 MAR 2001",
+    "handwriting": "Accepted copy — file with BW01_0059. B. Rowcroft",
+    "pages": null
+  }
+}
