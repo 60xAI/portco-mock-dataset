@@ -1,0 +1,245 @@
+{
+  "family": "document",
+  "summary": "Final quotation for Valquessia Pharmaceuticals SpA covering VP-C amide-coupling scale-up feasibility. Separate coupling and isolation gates precede any manufacturing-route commitment; no laboratory results are asserted in the quotation.",
+  "properties": {
+    "title": "VP-C amide-coupling scale-up feasibility: quotation"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "VP-C amide-coupling scale-up feasibility: quotation",
+    "subtitle": "Route scout and delivery | Valquessia Pharmaceuticals SpA",
+    "lines": [
+      "Programme {{PRJ0026:project_id}}",
+      "Reference {{PRJ0026:lims_id}}",
+      "Date: 22 Apr 2026",
+      "Prepared by Dr R. Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Feasibility decision and offer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Valquessia Pharmaceuticals SpA is offered an amide-coupling feasibility programme under {{PRJ0026:project_id}} at {{PRJ0026:price}}. The question is whether VP-C can be prepared and isolated by a route that merits further scale-up development. A satisfactory coupling in solution is only the first gate; reproducible isolation must be examined before a manufacturing route is selected."
+        },
+        {
+          "table": {
+            "columns": [
+              "Offer item",
+              "Defined position"
+            ],
+            "rows": [
+              [
+                "Price",
+                "{{PRJ0026:price}}"
+              ],
+              [
+                "Chemical task",
+                "VP-C amide coupling and isolation feasibility"
+              ],
+              [
+                "Coupling gate",
+                "Select conditions supported by analytical evidence"
+              ],
+              [
+                "Isolation gate",
+                "Assess recovery, purity and practical handling"
+              ],
+              [
+                "Manufacturing commitment",
+                "Requires a subsequent route decision"
+              ]
+            ],
+            "caption": "Table 1. Scope at quotation"
+          }
+        },
+        {
+          "p": "The programme is Route scout and delivery work, led by Ruth Calderwood. Hassan Darwish will direct the experimental comparison; Clara Fenwick will assess the analytical evidence attached to isolated material. No compound library is included."
+        },
+        {
+          "p": "This final quotation records the proposed work as at 22 Apr 2026. It contains no completed coupling-screen results and makes no claim that a solvent system or manufacturing route has already been selected."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Inputs and experimental basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Before commencement, Valquessia Pharmaceuticals SpA should provide the defined VP-C structure, intended material form and available information on coupling partners. The route scout will separate confirmed information from assumptions about stability, solubility and impurity behaviour. Unspecified stereochemistry cannot be corrected by a clean chromatogram."
+        },
+        {
+          "p": "The comparison will examine coupling activation, order of addition, solvent and work-up as linked choices. Conditions that appear favourable in a dilute analytical sample will be checked against the actual reaction mixture. Sampling must allow reaction progress to be distinguished from degradation during quench or analysis."
+        },
+        {
+          "list": [
+            "Confirm identity and suitability of the coupling partners.",
+            "Agree analytical methods distinguishing product from related impurities.",
+            "Define the material form required for the isolation comparison.",
+            "Record handling and stability observations alongside reaction progress."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "The target is a practicable preparation of the intended amide, not the highest apparent conversion from a single sample. Any missing input that affects the experiment will be raised before committing the relevant work. The route scout will retain its assumptions so later decisions can be traced to the information available."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Coupling gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The coupling screen will compare candidate conditions on a small scale before selecting a preferred system for isolation trials. Reaction progress, residual coupling partners and product-related impurities will be considered together. The screen will not rank conditions by a product peak without checking the fate of the remaining material."
+        },
+        {
+          "p": "Hassan Darwish will prepare a chemistry note showing which variables altered the impurity profile and which observations were reproducible. Particular attention will be given to activation-related impurities, incomplete reaction and any sign that the product is unstable under reaction or work-up conditions."
+        },
+        {
+          "table": {
+            "columns": [
+              "Gate question",
+              "Decision evidence"
+            ],
+            "rows": [
+              [
+                "Is the intended amide formed?",
+                "Identity evidence and reaction profile"
+              ],
+              [
+                "Can the reaction be controlled?",
+                "Repeat preparation and sampling observations"
+              ],
+              [
+                "Is the impurity burden manageable?",
+                "Profiles before and after work-up"
+              ],
+              [
+                "Is isolation worth pursuing?",
+                "Material available and plausible separation path"
+              ]
+            ],
+            "caption": "Table 2. Coupling gate"
+          }
+        },
+        {
+          "p": "Ruth Calderwood will review the evidence with Valquessia Pharmaceuticals SpA. Passing this gate authorises the planned isolation comparison within the programme; it does not qualify the route for manufacture. If no condition is suitable, the review will recommend a defined next experiment or closure of the current route scout."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Isolation gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Isolation trials will follow the preferred coupling system and test whether product can be recovered in a manageable form. The comparison will examine solvent exchange, phase behaviour and product losses as well as the final chromatogram. A clean analytical sample obtained by an impractical separation is insufficient for a scale-up recommendation."
+        },
+        {
+          "p": "The chemistry note will describe handling during concentration, filtration or other selected isolation operations. Observed oiling, slow separation or inconsistent material form will be retained as route risks. The analysis will relate the isolated material to the reaction profile so removal of an impurity can be distinguished from loss of product."
+        },
+        {
+          "list": [
+            "Assess isolation without relying solely on preparative chromatography.",
+            "Compare mother-liquor and isolated-material profiles where appropriate.",
+            "Record physical form and stability through the handling sequence.",
+            "Repeat the preferred isolation before recommending route selection."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Clara Fenwick will assess identity and HPLC purity in area percent for the isolated samples. Ruth Calderwood will judge whether the separation supports further development. A condition can pass the coupling gate and still fail isolation; that distinction will remain explicit in the final recommendation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Deliverables and route-selection boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The deliverable is a feasibility account linking the coupling comparison to isolation evidence. It will include route-scout references, method descriptions, compound cards for material obtained and the reasons for selecting or rejecting the preferred preparation. Results will be reported as measured when the work has been performed."
+        },
+        {
+          "table": {
+            "columns": [
+              "Deliverable",
+              "Decision it supports"
+            ],
+            "rows": [
+              [
+                "Coupling chemistry note",
+                "Whether the preferred activation system is justified"
+              ],
+              [
+                "Isolation account",
+                "Whether product recovery is practicable"
+              ],
+              [
+                "Analytical package",
+                "Whether isolated material has the intended identity and purity"
+              ],
+              [
+                "Route recommendation",
+                "Whether further scale-up development should be scoped"
+              ]
+            ],
+            "caption": "Table 3. Feasibility handover"
+          }
+        },
+        {
+          "p": "The report will identify further work needed before manufacturing commitment. Process safety assessment, manufacturing qualification, validated release methods and routine supply are not supplied by this feasibility quotation. Nor will a small-scale preparation be described as proof of operation at manufacturing scale."
+        },
+        {
+          "p": "Where the evidence supports only a conditional recommendation, the condition will be named. If isolation remains unresolved, the route will remain under development even if the coupling itself is satisfactory. Proposed material and isolated material will be described separately throughout the handover."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Commencement and commercial terms",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed start is 18 May 2026, subject to authorisation and receipt of the agreed inputs. An interim discussion is planned for 08 Jul 2026 to review coupling evidence and the isolation work to follow. A completion date and fixed turnaround are not committed in this quotation; they depend on the route gates."
+        },
+        {
+          "p": "The price is {{PRJ0026:price}} for the feasibility scope described here. It covers the coupling comparison, planned isolation trials and the supporting analytical account. A request for routine supply or manufacturing development will require a new scope and agreement before that work begins."
+        },
+        {
+          "p": "Please confirm acceptance with reference to {{PRJ0026:project_id}} and provide the structural and material information needed to commence. Ruth Calderwood will be the scientific contact for scope decisions. Changes in target, material form or intended scale-up objective will be assessed for their effect on the agreed work."
+        },
+        {
+          "p": "At each gate, Valquessia Pharmaceuticals SpA will receive the chemical basis of the recommendation. The programme should advance only as far as the evidence permits. The final decision is whether the route is ready for further development, requires a focused remedy or should be set aside; this offer makes no manufacturing commitment."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr R. Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "22 Apr 2026",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
