@@ -1,30 +1,170 @@
-{"family": "document",
- "summary": "Training completion record for the recipe card revisions issued in July 2025. It lists staff sign-offs, the mg/mL and weight-percent unit conventions, and the checklist that accompanies each pilot lot handoff.",
- "properties": {"title": "Recipe card training record"},
- "header": "Durnesswick Laboratories Inc, a Tarnovell company",
- "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
- "watermark": null,
- "title_block": {"title": "Recipe Card Training Record: Revisions, Units and Pilot Lot Handoff", "subtitle": "Training completion record, signed", "lines": ["Report no. F-R-2025-0288-A", "Date: 08/07/2025"]},
- "sections": [
-  {"heading": "1 Purpose", "level": 1, "blocks": [
-   {"p": "This record shows that the staff named in section 3 completed training on the recipe card revision set issued in July 2025. It also records the training on unit conventions and on the pilot lot handoff checklist, which the scale team now uses at every scale gate."},
-   {"p": "Training was given in the formulation room over three sessions. Each trainee read the revised cards against the bench sheets they had used, and the assessor discussed any card where the bench practice had drifted from the written process."}]},
-  {"heading": "2 Training content", "level": 1, "blocks": [
-   {"p": "2.1 Revision control", "style": "bold"},
-   {"list": ["A new recipe card revision needs reviewer sign-off before it is issued to the bench.", "The superseded card is moved to the archive, not deleted, and the bench sheets that cite it keep their reference.", "A card revision that changes a dose or loading assumption is also raised with the formulation development lead."], "ordered": false},
-   {"p": "2.2 Units", "style": "bold"},
-   {"p": "Concentrations are written in mg/mL. Loadings are written in weight percent, with the basis stated. Particle sizes are written in µm with the measurement method. Every value carries its unit beside it. A bare number on a card or a sheet is returned to the author, however small the change."},
-   {"p": "Trainees were asked to convert a blend described in weight percent into its mg/mL concentration and back. Two of the cards in the set had been written with the loading in one unit and the concentration in the other, and these were corrected at the session.", "style": "note"},
-   {"p": "2.3 Pilot lot handoff", "style": "bold"},
-   {"p": "The handoff checklist lists the items that must travel with a pilot lot. Each item has a named owner, and an item is not closed until the owner has initialed it on the handoff sheet."},
-   {"list": ["Recipe card number, revision letter and issue date.", "Concentrations in mg/mL for each stock and the final formulation.", "Loading in weight percent for each component, with the basis stated.", "Dose assumption, its basis and its source.", "Particle size in µm, the method used and the date measured.", "Storage location of the retained material, as recorded by Sample Management.", "Each open manufacturability risk, its owner and the date it must close."], "ordered": false}]},
-  {"heading": "3 Attendance and sign-off", "level": 1, "blocks": [
-   {"p": "Each trainee's completion is recorded below. The assessor for each module signed the trainee's line on the day."},
-   {"table": {"columns": ["Name", "Role", "Modules completed", "Date"], "rows": [["Min-jun Kim", "Formulation Scientist", "Revision control, units", "08/06/2025"], ["Owen Leach", "Formulation Scientist", "Revision control, units", "08/06/2025"], ["Dimitra Salemidou", "Formulation Scientist", "Units, pilot lot handoff", "08/07/2025"], ["Daniel Walker", "Formulation Scientist", "All modules", "08/07/2025"], ["Julie Talbot", "Senior Formulation Scientist", "Pilot lot handoff (assessor)", "08/07/2025"]], "caption": "Table 1 Training completion"}},
-   {"p": "Miguel Serrano and Piergiuseppe Abbagnale are not on the list. Both completed the revision control module in June 2025 under the earlier card set, and the July revisions were discussed with them at the formulation meeting."}]},
-  {"heading": "4 Assessment", "level": 1, "blocks": [
-   {"p": "Each trainee answered the short written check on the revised cards. Every trainee passed the revision control and units modules on the first attempt. Two trainees needed a second attempt at the handoff checklist, and the assessor went through the handoff sheet with them before the second attempt. Both passed."},
-   {"p": "The assessor's view is that the training achieved its purpose. The main remaining risk is in the handoff, where the owner for an open manufacturability risk is sometimes left blank. The checklist now requires a name before the sheet is accepted."}]},
-  {"heading": "5 Records and retention", "level": 1, "blocks": [
-   {"p": "This record is filed with the Quality training files. Signed copies are held by the CMC group. Training records for staff who later leave the group stay in the archive with the staff directory entry for that person, and their personal working folders are retained as archive material."}]}],
- "signature_block": [{"name": "Lena Patel", "role": "CMC Technical Transfer Manager (trainer)", "date": "2025-08-07", "signed": true}, {"name": "Julia Carver", "role": "Formulation Development Lead (approver)", "date": "2025-08-07", "signed": true}]}
+{
+  "family": "document",
+  "summary": "Training completion record for local recipe-card revisions, unit conventions and pilot-lot handoff documentation. Staff and module coverage are listed below; individual sign-offs remain in the local training records.",
+  "properties": {
+    "title": "Recipe card training record"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Recipe Card Training Record: Revisions, Units and Pilot Lot Handoff",
+    "subtitle": "Training completion record, signed",
+    "lines": [
+      "Training completion record",
+      "Date: 08/07/2025"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This record covers local staff training on recipe-card revisions, unit conventions and pilot-lot handoff documentation. Module coverage is listed in section 3; individual attendance and sign-off entries are retained with the training files."
+        },
+        {
+          "p": "Training uses the recipe cards and associated bench sheets so revision identity, preparation basis and handoff requirements can be read together."
+        }
+      ]
+    },
+    {
+      "heading": "2 Training content",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "2.1 Revision control",
+          "style": "bold"
+        },
+        {
+          "list": [
+            "A new recipe card revision needs reviewer sign-off before it is issued to the bench.",
+            "The superseded card is moved to the archive, not deleted, and the bench sheets that cite it keep their reference.",
+            "A card revision that changes a dose or loading assumption is also raised with the formulation development lead."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "2.2 Units",
+          "style": "bold"
+        },
+        {
+          "p": "Concentrations are written in mg/mL. Loadings are written in weight percent, with the basis stated. Particle sizes are written in µm with the measurement method. Every value carries its unit beside it. A bare number on a card or a sheet is returned to the author, however small the change."
+        },
+        {
+          "p": "Conversion between weight percent and mg/mL requires the stated mass and volume basis, including density where relevant. These units are not interchangeable; the unit label alone is insufficient for conversion.",
+          "style": "note"
+        },
+        {
+          "p": "2.3 Pilot lot handoff",
+          "style": "bold"
+        },
+        {
+          "p": "The handoff checklist lists the items that must travel with a pilot lot. Each item has a named owner, and an item is not closed until the owner has initialed it on the handoff sheet."
+        },
+        {
+          "list": [
+            "Recipe card number, revision letter and issue date.",
+            "Concentrations in mg/mL for each stock and the final formulation.",
+            "Loading in weight percent for each component, with the basis stated.",
+            "Dose assumption, its basis and its source.",
+            "Particle size in µm, the method used and the date measured.",
+            "Storage location of the retained material, as recorded by Sample Management.",
+            "Each open manufacturability risk, its owner and the date it must close."
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "heading": "3 Attendance and sign-off",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The table lists module coverage for local staff. Signed source training entries record individual completion dates and assessor sign-offs."
+        },
+        {
+          "table": {
+            "columns": [
+              "Name",
+              "Role",
+              "Module coverage",
+              "Sign-off record"
+            ],
+            "rows": [
+              [
+                "Min-jun Kim",
+                "Formulation Scientist",
+                "Revision control, units",
+                "Local signed training entry"
+              ],
+              [
+                "Owen Leach",
+                "Formulation Scientist",
+                "Revision control, units",
+                "Local signed training entry"
+              ],
+              [
+                "Dimitra Salemidou",
+                "Formulation Scientist",
+                "Units, pilot lot handoff",
+                "Local signed training entry"
+              ],
+              [
+                "Daniel Walker",
+                "Formulation Scientist",
+                "All modules",
+                "Local signed training entry"
+              ],
+              [
+                "Julie Talbot",
+                "Senior Formulation Scientist",
+                "Pilot lot handoff (assessor)",
+                "Local signed training entry"
+              ]
+            ],
+            "caption": "Table 1 Training completion"
+          }
+        },
+        {
+          "p": "This table records the listed module coverage only. Completion of one module does not imply completion of the others; additional coverage must be traced to individual training entries."
+        }
+      ]
+    },
+    {
+      "heading": "4 Assessment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Completion sign-offs are retained with individual training entries. This summary does not assign examination scores, first-attempt passes or repeat attempts."
+        },
+        {
+          "p": "At handoff, each open manufacturability risk needs a named owner and disposition before the scale gate. Training completion does not replace that review."
+        }
+      ]
+    },
+    {
+      "heading": "5 Records and retention",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This record is filed with the Quality training files. Signed copies are held by the CMC group. Training records for staff who later leave the group stay in the archive with the staff directory entry for that person, and their personal working folders are retained as archive material."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Lena Patel",
+      "role": "CMC Technical Transfer Manager (trainer)",
+      "date": "2025-08-07",
+      "signed": true
+    },
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead (approver)",
+      "date": "2025-08-07",
+      "signed": true
+    }
+  ]
+}
