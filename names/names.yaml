@@ -1,0 +1,879 @@
+group:
+  name: Tarnovell Bioscience Group
+  short_name: Tarnovell
+  legal_name: Tarnovell Bioscience Group Ltd
+  screening_id: S001
+firms:
+- letter: A
+  service_focus: Medicinal chemistry
+  legacy_name: Vellacombe Discovery Ltd
+  short_name: Vellacombe
+  naming_basis: founder surname
+  location:
+    city: Nottingham
+    country: UK
+  screening_id: S105
+- letter: B
+  service_focus: In vitro biology and screening
+  legacy_name: Brindlewythe Biosciences Ltd
+  short_name: Brindlewythe
+  naming_basis: invented place-style name
+  location:
+    city: Cambridge
+    country: UK
+  screening_id: S003
+- letter: C
+  service_focus: DMPK and bioanalysis
+  legacy_name: Merrivoss Bioanalysis Inc
+  short_name: Merrivoss
+  naming_basis: invented word
+  location:
+    city: Madison
+    country: US
+  screening_id: S004
+- letter: D
+  service_focus: Bioinformatics and computational chemistry
+  legacy_name: Quenverell Computational Ltd
+  short_name: Quenverell
+  naming_basis: invented word
+  location:
+    city: Edinburgh
+    country: UK
+  screening_id: S005
+- letter: E
+  service_focus: Analytical chemistry and stability testing
+  legacy_name: Westravelle Analytical Ltd
+  short_name: Westravelle
+  naming_basis: invented place-style name
+  location:
+    city: York
+    country: UK
+  screening_id: S006
+- letter: F
+  service_focus: Formulation and early CMC
+  legacy_name: Durnesswick Laboratories Inc
+  short_name: Durnesswick
+  naming_basis: invented place-style name
+  location:
+    city: Durham
+    country: US
+  screening_id: S007
+- letter: G
+  service_focus: Toxicology (in vitro and in vivo, GLP)
+  legacy_name: Osterquill Toxicology Inc
+  short_name: Osterquill
+  naming_basis: invented word
+  location:
+    city: Portland
+    country: US
+  screening_id: S008
+clients:
+- id: CL001
+  canonical_name: Corvenlea Pharma
+  variants:
+  - Corvenlea Ltd
+  - Corvenlea Pharmaceuticals plc
+  - Corvenlea (US)
+  role: q3_target
+  segment: mid_pharma
+  location:
+    city: London
+    country: UK
+  screening_id: S009
+- id: CL002
+  canonical_name: Corvenlith Therapeutics
+  variants: []
+  role: q3_lookalike
+  segment: biotech
+  location:
+    city: Boston
+    country: US
+  screening_id: S010
+- id: CL003
+  canonical_name: Avernelwick Pharmaceuticals Ltd
+  variants:
+  - Avernelwick Pharma
+  role: key
+  segment: mid_pharma
+  location:
+    city: Oxford
+    country: UK
+  screening_id: S011
+- id: CL004
+  canonical_name: Selverant Therapeutics Inc
+  variants:
+  - Selverant
+  role: key
+  segment: biotech
+  location:
+    city: San Diego
+    country: US
+  screening_id: S012
+- id: CL005
+  canonical_name: Tervemere Pharma AG
+  variants: []
+  role: key
+  segment: mid_pharma
+  location:
+    city: Basel
+    country: Switzerland
+  screening_id: S013
+- id: CL006
+  canonical_name: Elvarmere Biosciences AB
+  variants: []
+  role: key
+  segment: biotech
+  location:
+    city: Uppsala
+    country: Sweden
+  screening_id: S014
+- id: CL007
+  canonical_name: Drelvessa Therapeutics SAS
+  variants: []
+  role: key
+  segment: biotech
+  location:
+    city: Lyon
+    country: France
+  screening_id: S015
+- id: CL008
+  canonical_name: Quorenthel Pharma GmbH
+  variants: []
+  role: key
+  segment: mid_pharma
+  location:
+    city: Munich
+    country: Germany
+  screening_id: S016
+- id: CL009
+  canonical_name: Nimbravelle Medicines Inc
+  variants: []
+  role: key
+  segment: virtual_biotech
+  location:
+    city: Seattle
+    country: US
+  screening_id: S017
+- id: CL010
+  canonical_name: Feldorune Therapeutics BV
+  variants: []
+  role: key
+  segment: biotech
+  location:
+    city: Leiden
+    country: Netherlands
+  screening_id: S018
+- id: CL011
+  canonical_name: Valquessia Pharmaceuticals SpA
+  variants: []
+  role: key
+  segment: mid_pharma
+  location:
+    city: Milan
+    country: Italy
+  screening_id: S034
+- id: CL012
+  canonical_name: Orvessant Biosciences Pty Ltd
+  variants: []
+  role: key
+  segment: biotech
+  location:
+    city: Melbourne
+    country: Australia
+  screening_id: S020
+- id: CL013
+  canonical_name: Kelbravik Therapeutics ApS
+  variants: []
+  role: key
+  segment: virtual_biotech
+  location:
+    city: Copenhagen
+    country: Denmark
+  screening_id: S021
+- id: CL014
+  canonical_name: Rennelwick Institute Drug Discovery Unit
+  variants: []
+  role: key
+  segment: academic
+  location:
+    city: Bristol
+    country: UK
+  screening_id: S022
+- id: CL015
+  canonical_name: Vesselquarn Medical Research Trust
+  variants: []
+  role: key
+  segment: academic
+  location:
+    city: Dublin
+    country: Ireland
+  screening_id: S035
+- id: CL016
+  canonical_name: Aldrevessa Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Toronto
+    country: Canada
+  screening_id: S036
+- id: CL017
+  canonical_name: Belquorin Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Brussels
+    country: Belgium
+  screening_id: S037
+- id: CL018
+  canonical_name: Cadrunelle Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Paris
+    country: France
+  screening_id: S038
+- id: CL019
+  canonical_name: Doventhar Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Boston
+    country: US
+  screening_id: S091
+- id: CL020
+  canonical_name: Esmervane Pharmaceuticals
+  variants: []
+  role: background
+  segment: generics
+  location:
+    city: Mumbai
+    country: India
+  screening_id: S040
+- id: CL021
+  canonical_name: Farnovessa Medicines
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Cambridge
+    country: UK
+  screening_id: S041
+- id: CL022
+  canonical_name: Grespalune Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Berlin
+    country: Germany
+  screening_id: S092
+- id: CL023
+  canonical_name: Havorlenn Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Oslo
+    country: Norway
+  screening_id: S043
+- id: CL024
+  canonical_name: Istravune Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Barcelona
+    country: Spain
+  screening_id: S044
+- id: CL025
+  canonical_name: Jelmorath Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Austin
+    country: US
+  screening_id: S045
+- id: CL026
+  canonical_name: Kestravelle Animal Health
+  variants: []
+  role: background
+  segment: animal_health
+  location:
+    city: Utrecht
+    country: Netherlands
+  screening_id: S046
+- id: CL027
+  canonical_name: Lomervessa Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Lisbon
+    country: Portugal
+  screening_id: S047
+- id: CL028
+  canonical_name: Marnelquith Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Cork
+    country: Ireland
+  screening_id: S048
+- id: CL029
+  canonical_name: Nelmudara Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Helsinki
+    country: Finland
+  screening_id: S093
+- id: CL030
+  canonical_name: Odraverne Pharmaceuticals
+  variants: []
+  role: background
+  segment: generics
+  location:
+    city: Ahmedabad
+    country: India
+  screening_id: S050
+- id: CL031
+  canonical_name: Pelmucent Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: San Francisco
+    country: US
+  screening_id: S094
+- id: CL032
+  canonical_name: Quessavorn Pharma
+  variants: []
+  role: background
+  segment: big_pharma
+  location:
+    city: Zurich
+    country: Switzerland
+  screening_id: S052
+- id: CL033
+  canonical_name: Raveldessa Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Montreal
+    country: Canada
+  screening_id: S053
+- id: CL034
+  canonical_name: Sedravik Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Stockholm
+    country: Sweden
+  screening_id: S095
+- id: CL035
+  canonical_name: Tovesslen Pharmaceuticals
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Warsaw
+    country: Poland
+  screening_id: S055
+- id: CL036
+  canonical_name: Ulvornessa Medicines
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Sydney
+    country: Australia
+  screening_id: S056
+- id: CL037
+  canonical_name: Vardelquith Agrochem
+  variants: []
+  role: background
+  segment: agrochem
+  location:
+    city: Ghent
+    country: Belgium
+  screening_id: S057
+- id: CL038
+  canonical_name: Welmorath Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Manchester
+    country: UK
+  screening_id: S058
+- id: CL039
+  canonical_name: Xelvessune Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Seoul
+    country: South Korea
+  screening_id: S059
+- id: CL040
+  canonical_name: Yarvesselle Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Tokyo
+    country: Japan
+  screening_id: S060
+- id: CL041
+  canonical_name: Zelmorven Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Singapore
+    country: Singapore
+  screening_id: S061
+- id: CL042
+  canonical_name: Ardelvune Pharmaceuticals
+  variants: []
+  role: background
+  segment: generics
+  location:
+    city: Hyderabad
+    country: India
+  screening_id: S062
+- id: CL043
+  canonical_name: Bravossent Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Denver
+    country: US
+  screening_id: S096
+- id: CL044
+  canonical_name: Celmorath Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Prague
+    country: Czechia
+  screening_id: S064
+- id: CL045
+  canonical_name: Darmeciel Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Vienna
+    country: Austria
+  screening_id: S097
+- id: CL046
+  canonical_name: Emlucera Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Auckland
+    country: New Zealand
+  screening_id: S098
+- id: CL047
+  canonical_name: Felmorvane Pharma
+  variants: []
+  role: background
+  segment: big_pharma
+  location:
+    city: Frankfurt
+    country: Germany
+  screening_id: S067
+- id: CL048
+  canonical_name: Garnelquith Medicines
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Cambridge
+    country: US
+  screening_id: S068
+- id: CL049
+  canonical_name: Helvessora Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Tel Aviv
+    country: Israel
+  screening_id: S069
+- id: CL050
+  canonical_name: Ilcavreth Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Bologna
+    country: Italy
+  screening_id: S099
+- id: CL051
+  canonical_name: Jorvessara Pharmaceuticals
+  variants: []
+  role: background
+  segment: generics
+  location:
+    city: Johannesburg
+    country: South Africa
+  screening_id: S071
+- id: CL052
+  canonical_name: Kalmorveth Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Mexico City
+    country: Mexico
+  screening_id: S072
+- id: CL053
+  canonical_name: Lervessune Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Sao Paulo
+    country: Brazil
+  screening_id: S073
+- id: CL054
+  canonical_name: Meldravora Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Copenhagen
+    country: Denmark
+  screening_id: S074
+- id: CL055
+  canonical_name: Norrustel Animal Health
+  variants: []
+  role: background
+  segment: animal_health
+  location:
+    city: Wellington
+    country: New Zealand
+  screening_id: S100
+- id: CL056
+  canonical_name: Osselmorath Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Los Angeles
+    country: US
+  screening_id: S076
+- id: CL057
+  canonical_name: Parvessune Pharmaceuticals
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Taipei
+    country: Taiwan
+  screening_id: S077
+- id: CL058
+  canonical_name: Qeldravora Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Shanghai
+    country: China
+  screening_id: S078
+- id: CL059
+  canonical_name: Rimucavel Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Lausanne
+    country: Switzerland
+  screening_id: S101
+- id: CL060
+  canonical_name: Sarnelvessa Agrochem
+  variants: []
+  role: background
+  segment: agrochem
+  location:
+    city: Reims
+    country: France
+  screening_id: S080
+- id: CL061
+  canonical_name: Telquorath Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Budapest
+    country: Hungary
+  screening_id: S081
+- id: CL062
+  canonical_name: Urdelvessa Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: Edinburgh
+    country: UK
+  screening_id: S082
+- id: CL063
+  canonical_name: Vornelquith Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Bergen
+    country: Norway
+  screening_id: S083
+- id: CL064
+  canonical_name: Wexanthel Medicines
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Brisbane
+    country: Australia
+  screening_id: S102
+- id: CL065
+  canonical_name: Xarnelvune Pharmaceuticals
+  variants: []
+  role: background
+  segment: generics
+  location:
+    city: Bangkok
+    country: Thailand
+  screening_id: S085
+- id: CL066
+  canonical_name: Yondravik Therapeutics
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Vancouver
+    country: Canada
+  screening_id: S103
+- id: CL067
+  canonical_name: Zostremal Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Santiago
+    country: Chile
+  screening_id: S104
+- id: CL068
+  canonical_name: Auvrelquith Biosciences
+  variants: []
+  role: background
+  segment: biotech
+  location:
+    city: Reykjavik
+    country: Iceland
+  screening_id: S088
+- id: CL069
+  canonical_name: Bevrasselle Therapeutics
+  variants: []
+  role: background
+  segment: virtual_biotech
+  location:
+    city: San Diego
+    country: US
+  screening_id: S089
+- id: CL070
+  canonical_name: Culdrevane Pharma
+  variants: []
+  role: background
+  segment: mid_pharma
+  location:
+    city: Ljubljana
+    country: Slovenia
+  screening_id: S090
+staff:
+- id: ST01
+  full_name: Martin Ellerscombe
+  title: Dr
+  variants:
+  - Dr M. Ellerscombe
+  - Martin Ellerscombe
+  - mellerscombe
+  role_hint: leaver_old_laptop
+  nationality: British
+  screening_id: S024
+- id: ST02
+  full_name: Anika Veldershain
+  title: Dr
+  variants:
+  - Dr A. Veldershain
+  - Anika Veldershain
+  - aveldershain
+  role_hint: q2_lead_B_early
+  nationality: German
+  screening_id: S025
+- id: ST03
+  full_name: Leila Benmezroun
+  title: Dr
+  variants:
+  - Dr L. Benmezroun
+  - Leila Benmezroun
+  - lbenmezroun
+  role_hint: q2_lead_B_recent
+  nationality: French-Algerian
+  screening_id: S026
+- id: ST04
+  full_name: Matteo Rinalvesi
+  title: Dr
+  variants:
+  - Dr M. Rinalvesi
+  - Matteo Rinalvesi
+  - mrinalvesi
+  role_hint: q2_lead_C_early
+  nationality: Italian
+  screening_id: S027
+- id: ST05
+  full_name: Priya Nandekuri
+  title: Dr
+  variants:
+  - Dr P. Nandekuri
+  - Priya Nandekuri
+  - pnandekuri
+  role_hint: q2_lead_C_recent
+  nationality: Indian
+  screening_id: S028
+- id: ST06
+  full_name: Tomasz Zawiernicki
+  title: Dr
+  variants:
+  - Dr T. Zawiernicki
+  - Tomasz Zawiernicki
+  - tzawiernicki
+  role_hint: bioinf_lead_D
+  nationality: Polish
+  screening_id: S029
+- id: ST07
+  full_name: Eleanor Vellacombe
+  title: Dr
+  variants:
+  - Dr E. Vellacombe
+  - Eleanor Vellacombe
+  - evellacombe
+  role_hint: founder_A
+  nationality: British
+  screening_id: S030
+- id: ST08
+  full_name: Daniel Grellacott
+  title: null
+  variants:
+  - Mr D. Grellacott
+  - Daniel Grellacott
+  - dgrellacott
+  role_hint: group_ceo
+  nationality: American
+  screening_id: S106
+- id: ST09
+  full_name: Sofia Lindervik
+  title: null
+  variants:
+  - Ms S. Lindervik
+  - Sofia Lindervik
+  - slindervik
+  role_hint: integration_director
+  nationality: Swedish
+  screening_id: S032
+- id: ST10
+  full_name: Naomi Takamori
+  title: Dr
+  variants:
+  - Dr N. Takamori
+  - Naomi Takamori
+  - ntakamori
+  role_hint: tox_lead_G
+  nationality: Japanese-American
+  screening_id: S033
+rejected:
+- name: Vellacombe & Renswick Discovery Ltd
+  kind: firm
+  reason: 'Dropped conservatively: one surname occurs in a pharma programming context and in banking; avoid an ambiguous
+    distinctive word.'
+- name: Valtrenne Pharmaceuticals SpA
+  kind: client
+  reason: Distinctive word appears in an investment company name; healthcare investment scope could not be ruled
+    out, so dropped conservatively.
+- name: Vesseldorn Medical Research Trust
+  kind: client
+  reason: Distinctive word appears in an investment company name in a historical company notice; sector unclear,
+    so dropped conservatively.
+- name: Daniel Renswick
+  kind: staff
+  reason: 'Dropped conservatively: a pharma programming source names Renswick D; an identity overlap with the proposed
+    initial form could not be ruled out.'
+- name: Dovessira Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Grelquessa Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Nelvessara Biosciences
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Pelmorune Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Seldravune Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Brelquessa Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Darnovelle Biosciences
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Eldravessa Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Ildravune Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Norravessa Animal Health
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Rilmorveth Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Wessavora Medicines
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Yelmorveth Therapeutics
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- name: Zorvessara Pharma
+  kind: client
+  reason: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.

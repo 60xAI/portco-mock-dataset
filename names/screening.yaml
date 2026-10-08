@@ -1,0 +1,1525 @@
+- id: S001
+  name: Tarnovell Bioscience Group
+  kind: group
+  depth: full
+  checks:
+  - source: Company registries (web-index search)
+    query: '"Tarnovell" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Tarnovell" pharma biotech company'
+    result: Unrelated Swedish prose fragments containing a similar text sequence; no company, product or life-sciences
+      match. https://runeberg.org/ordochbild/1931/0435.html
+  - source: General web search
+    query: '"Tarnovell"'
+    result: Unrelated Swedish prose fragments containing a similar text sequence; no company, product or life-sciences
+      match. https://runeberg.org/ordochbild/1931/0435.html
+  - source: General web search
+    query: '"Tarnovell" pharma biotech CRO laboratory healthcare'
+    result: Unrelated Swedish prose fragments containing a similar text sequence; no company, product or life-sciences
+      match. https://runeberg.org/ordochbild/1931/0435.html
+  - source: Company registries (web-index search)
+    query: '"Tarnovell" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Tarnovell Bioscience Group"'
+    result: no match
+  - source: Trademark registers (web-index search)
+    query: '"Tarnovell" site:uspto.gov OR site:trademarks.ipo.gov.uk OR site:ipo.gov.uk'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S002
+  name: Vellacombe & Renswick Discovery Ltd
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Vellacombe Renswick"'
+    result: no match
+  - source: General web search
+    query: '"Vellacombe Renswick" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Vellacombe Renswick" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com
+      OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Vellacombe"'
+    result: Vellacombe appears in fictional library-name lists, accounting examples and fiction; no life-sciences
+      business match. https://www.randomgeneratorhq.com/library-name-generator/
+  - source: General web search
+    query: '"Renswick" pharma biotech CRO laboratory healthcare'
+    result: Renswick D appears in a pharma programming conference source; surname also occurs in legal cases, music
+      and banking. https://iasct.net/public/conspic2023/assets/finalbrochure.pdf
+  - source: General web search
+    query: '"Vellacombe & Renswick Discovery Ltd"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Vellacombe & Renswick Discovery Ltd"'
+    result: no match
+  verdict: rejected
+  notes: 'Dropped conservatively: one surname occurs in a pharma programming context and in banking; avoid an ambiguous
+    distinctive word.'
+- id: S003
+  name: Brindlewythe Biosciences Ltd
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Brindlewythe"'
+    result: no match
+  - source: General web search
+    query: '"Brindlewythe" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Brindlewythe" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR
+      site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Brindlewythe Biosciences Ltd"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S004
+  name: Merrivoss Bioanalysis Inc
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Merrivoss"'
+    result: no match
+  - source: General web search
+    query: '"Merrivoss" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Merrivoss" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Merrivoss Bioanalysis Inc"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S005
+  name: Quenverell Computational Ltd
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Quenverell"'
+    result: no match
+  - source: General web search
+    query: '"Quenverell" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Quenverell" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Quenverell Computational Ltd"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Quenverell Computational Ltd"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S006
+  name: Westravelle Analytical Ltd
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Westravelle"'
+    result: no match
+  - source: General web search
+    query: '"Westravelle" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Westravelle" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR
+      site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Westravelle Analytical Ltd"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S007
+  name: Durnesswick Laboratories Inc
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Durnesswick"'
+    result: no match
+  - source: General web search
+    query: '"Durnesswick" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Durnesswick" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR
+      site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Durnesswick Laboratories Inc"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S008
+  name: Osterquill Toxicology Inc
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Osterquill"'
+    result: no match
+  - source: General web search
+    query: '"Osterquill" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Osterquill" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Osterquill Toxicology Inc"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S009
+  name: Corvenlea Pharma
+  kind: client_key
+  depth: full
+  checks:
+  - source: Company registries (web-index search)
+    query: '"Corvenlea" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Corvenlea" pharma biotech company'
+    result: no match
+  - source: General web search
+    query: '"Corvenlea"'
+    result: no match
+  - source: General web search
+    query: '"Corvenlea" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Corvenlea" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Corvenlea Pharma"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Corvenlea Pharma"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S010
+  name: Corvenlith Therapeutics
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Corvenlith"'
+    result: no match
+  - source: General web search
+    query: '"Corvenlith" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Corvenlith" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Corvenlith Therapeutics"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Corvenlith Therapeutics"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S011
+  name: Avernelwick Pharmaceuticals Ltd
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Avernelwick"'
+    result: no match
+  - source: General web search
+    query: '"Avernelwick" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Avernelwick" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR
+      site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Avernelwick Pharmaceuticals Ltd"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S012
+  name: Selverant Therapeutics Inc
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Selverant"'
+    result: A surname in school-board minutes and an unrelated literary text; no life-sciences business match. https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/1521/CPS/3545791/CBOE_August_28__2023_Regular_Meeting_MINUTES_.pdf
+  - source: General web search
+    query: '"Selverant" pharma biotech CRO laboratory healthcare'
+    result: A surname in school-board minutes and an unrelated literary text; no life-sciences business match. https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/1521/CPS/3545791/CBOE_August_28__2023_Regular_Meeting_MINUTES_.pdf
+  - source: Company registries (web-index search)
+    query: '"Selverant" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Selverant Therapeutics Inc"'
+    result: no match
+  verdict: clear_noncompeting_use
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S013
+  name: Tervemere Pharma AG
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Tervemere"'
+    result: no match
+  - source: General web search
+    query: '"Tervemere" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Tervemere" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Tervemere Pharma AG"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Tervemere Pharma AG"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S014
+  name: Elvarmere Biosciences AB
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Elvarmere"'
+    result: Danish ordinary-word uses for electric heaters, including pool and patio equipment; no life-sciences
+      match. https://www.welldana.dk/pool/opvarmning/elvarmere.html
+  - source: General web search
+    query: '"Elvarmere" pharma biotech CRO laboratory healthcare'
+    result: Danish ordinary-word uses for electric heaters, including pool and patio equipment; no life-sciences
+      match. https://www.welldana.dk/pool/opvarmning/elvarmere.html
+  - source: Company registries (web-index search)
+    query: '"Elvarmere" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Elvarmere Biosciences AB"'
+    result: no match
+  verdict: clear_noncompeting_use
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S015
+  name: Drelvessa Therapeutics SAS
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Drelvessa"'
+    result: no match
+  - source: General web search
+    query: '"Drelvessa" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Drelvessa" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Drelvessa Therapeutics SAS"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S016
+  name: Quorenthel Pharma GmbH
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Quorenthel"'
+    result: no match
+  - source: General web search
+    query: '"Quorenthel" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Quorenthel" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Quorenthel Pharma GmbH"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S017
+  name: Nimbravelle Medicines Inc
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Nimbravelle"'
+    result: no match
+  - source: General web search
+    query: '"Nimbravelle" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Nimbravelle" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR
+      site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Nimbravelle Medicines Inc"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Nimbravelle Medicines Inc"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S018
+  name: Feldorune Therapeutics BV
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Feldorune"'
+    result: no match
+  - source: General web search
+    query: '"Feldorune" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Feldorune" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Feldorune Therapeutics BV"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S019
+  name: Valtrenne Pharmaceuticals SpA
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Valtrenne"'
+    result: Valtrenne Capital appears in employment-directory results; business sector not established. https://www.linkedin.com/pub/dir/%2B/Merto/ph-0-Philippines
+  - source: General web search
+    query: '"Valtrenne" pharma biotech CRO laboratory healthcare'
+    result: Valtrenne Capital appears in employment-directory results; business sector not established. https://www.linkedin.com/pub/dir/%2B/Merto/ph-0-Philippines
+  - source: Company registries (web-index search)
+    query: '"Valtrenne" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Valtrenne Pharmaceuticals SpA"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Valtrenne Pharmaceuticals SpA"'
+    result: no match
+  verdict: rejected
+  notes: Distinctive word appears in an investment company name; healthcare investment scope could not be ruled
+    out, so dropped conservatively.
+- id: S020
+  name: Orvessant Biosciences Pty Ltd
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Orvessant"'
+    result: no match
+  - source: General web search
+    query: '"Orvessant" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Orvessant" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Orvessant Biosciences Pty Ltd"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Orvessant Biosciences Pty Ltd"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S021
+  name: Kelbravik Therapeutics ApS
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Kelbravik"'
+    result: no match
+  - source: General web search
+    query: '"Kelbravik" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Kelbravik" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Kelbravik Therapeutics ApS"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S022
+  name: Rennelwick Institute Drug Discovery Unit
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Rennelwick"'
+    result: no match
+  - source: General web search
+    query: '"Rennelwick" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Rennelwick" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Rennelwick Institute Drug Discovery Unit"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Rennelwick Institute Drug Discovery Unit"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S023
+  name: Vesseldorn Medical Research Trust
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Vesseldorn"'
+    result: Vesseldorn Investments Limited appears in a historical company dissolution notice; investment sector
+      not established. https://library.victoria.ac.nz/databases/nzgazettearchive/pubs/gazettes/1993/1993%20ISSUE%20039.pdf
+  - source: General web search
+    query: '"Vesseldorn" pharma biotech CRO laboratory healthcare'
+    result: Vesseldorn Investments Limited appears in a historical company dissolution notice; investment sector
+      not established. https://library.victoria.ac.nz/databases/nzgazettearchive/pubs/gazettes/1993/1993%20ISSUE%20039.pdf
+  - source: Company registries (web-index search)
+    query: '"Vesseldorn" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Vesseldorn Medical Research Trust"'
+    result: no match
+  verdict: rejected
+  notes: Distinctive word appears in an investment company name in a historical company notice; sector unclear,
+    so dropped conservatively.
+- id: S024
+  name: Martin Ellerscombe
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Martin Ellerscombe"'
+    result: no match
+  - source: General web search
+    query: '"Martin Ellerscombe" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Martin Ellerscombe" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S025
+  name: Anika Veldershain
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Anika Veldershain"'
+    result: no match
+  - source: General web search
+    query: '"Anika Veldershain" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Anika Veldershain" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S026
+  name: Leila Benmezroun
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Leila Benmezroun"'
+    result: no match
+  - source: General web search
+    query: '"Leila Benmezroun" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Leila Benmezroun" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S027
+  name: Matteo Rinalvesi
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Matteo Rinalvesi"'
+    result: no match
+  - source: General web search
+    query: '"Matteo Rinalvesi" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Matteo Rinalvesi" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S028
+  name: Priya Nandekuri
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Priya Nandekuri"'
+    result: no match
+  - source: General web search
+    query: '"Priya Nandekuri" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Priya Nandekuri" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S029
+  name: Tomasz Zawiernicki
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Tomasz Zawiernicki"'
+    result: no match
+  - source: General web search
+    query: '"Tomasz Zawiernicki" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Tomasz Zawiernicki" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S030
+  name: Eleanor Vellacombe
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Eleanor Vellacombe"'
+    result: no match
+  - source: General web search
+    query: '"Eleanor Vellacombe" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Eleanor Vellacombe" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S031
+  name: Daniel Renswick
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Daniel Renswick"'
+    result: Broad results contain separate first-name/surname occurrences in archives, sport, music and directories;
+      no exact full-name pharma person established.
+  - source: General web search
+    query: '"Daniel Renswick" pharma biotech CRO laboratory healthcare'
+    result: Broad results contain separate first-name/surname occurrences in archives, sport, music and directories;
+      no exact full-name pharma person established.
+  - source: LinkedIn (web-index search)
+    query: '"Daniel Renswick" site:linkedin.com'
+    result: Broad results contain separate first-name/surname occurrences in archives, sport, music and directories;
+      no exact full-name pharma person established.
+  verdict: rejected
+  notes: 'Dropped conservatively: a pharma programming source names Renswick D; an identity overlap with the proposed
+    initial form could not be ruled out.'
+- id: S032
+  name: Sofia Lindervik
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Sofia Lindervik"'
+    result: Results contain separate Sofia and Lindervik occurrences in a charity magazine and residential directories;
+      no exact full-name professional match established.
+  - source: General web search
+    query: '"Sofia Lindervik" pharma biotech CRO laboratory healthcare'
+    result: Results contain separate Sofia and Lindervik occurrences in a charity magazine and residential directories;
+      no exact full-name professional match established.
+  - source: LinkedIn (web-index search)
+    query: '"Sofia Lindervik" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S033
+  name: Naomi Takamori
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Naomi Takamori"'
+    result: Exact-name people-directory and historical obituary uses, plus badminton names and unrelated separate
+      author names; no exact full-name pharma/biotech/CRO professional identified.
+  - source: General web search
+    query: '"Naomi Takamori" pharma biotech CRO laboratory healthcare'
+    result: Exact-name people-directory and historical obituary uses, plus badminton names and unrelated separate
+      author names; no exact full-name pharma/biotech/CRO professional identified.
+  - source: LinkedIn (web-index search)
+    query: '"Naomi Takamori" site:linkedin.com'
+    result: Exact-name people-directory and historical obituary uses, plus badminton names and unrelated separate
+      author names; no exact full-name pharma/biotech/CRO professional identified.
+  verdict: clear_noncompeting_use
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
+- id: S034
+  name: Valquessia Pharmaceuticals SpA
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Valquessia"'
+    result: Personal given-name uses in teacher recruitment and childhood-education material; no life-sciences business
+      match.
+  - source: General web search
+    query: '"Valquessia" pharma biotech CRO laboratory healthcare'
+    result: Personal given-name uses in teacher recruitment and childhood-education material; no life-sciences business
+      match.
+  - source: Company registries (web-index search)
+    query: '"Valquessia" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Valquessia Pharmaceuticals SpA"'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Valquessia Pharmaceuticals SpA"'
+    result: no match
+  verdict: clear_noncompeting_use
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S035
+  name: Vesselquarn Medical Research Trust
+  kind: client_key
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Vesselquarn"'
+    result: no match
+  - source: General web search
+    query: '"Vesselquarn" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: Company registries (web-index search)
+    query: '"Vesselquarn" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR
+      site:sec.gov'
+    result: no match
+  - source: General web search
+    query: '"Vesselquarn Medical Research Trust"'
+    result: no match
+  verdict: clear
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S036
+  name: Aldrevessa Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Aldrevessa Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S037
+  name: Belquorin Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Belquorin Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S038
+  name: Cadrunelle Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Cadrunelle Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S039
+  name: Dovessira Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Dovessira Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S040
+  name: Esmervane Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Esmervane Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S041
+  name: Farnovessa Medicines
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Farnovessa Medicines" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S042
+  name: Grelquessa Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Grelquessa Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S043
+  name: Havorlenn Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Havorlenn Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S044
+  name: Istravune Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Istravune Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S045
+  name: Jelmorath Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Jelmorath Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S046
+  name: Kestravelle Animal Health
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Kestravelle Animal Health" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S047
+  name: Lomervessa Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Lomervessa Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S048
+  name: Marnelquith Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Marnelquith Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S049
+  name: Nelvessara Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Nelvessara Biosciences" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S050
+  name: Odraverne Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Odraverne Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S051
+  name: Pelmorune Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Pelmorune Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S052
+  name: Quessavorn Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Quessavorn Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S053
+  name: Raveldessa Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Raveldessa Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S054
+  name: Seldravune Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Seldravune Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S055
+  name: Tovesslen Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Tovesslen Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S056
+  name: Ulvornessa Medicines
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Ulvornessa Medicines" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Ulvornessa Medicines" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S057
+  name: Vardelquith Agrochem
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Vardelquith Agrochem" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S058
+  name: Welmorath Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Welmorath Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S059
+  name: Xelvessune Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Xelvessune Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S060
+  name: Yarvesselle Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Yarvesselle Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S061
+  name: Zelmorven Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Zelmorven Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S062
+  name: Ardelvune Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Ardelvune Pharmaceuticals" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Ardelvune Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S063
+  name: Brelquessa Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Brelquessa Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S064
+  name: Celmorath Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Celmorath Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S065
+  name: Darnovelle Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Darnovelle Biosciences" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Darnovelle Biosciences" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S066
+  name: Eldravessa Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Eldravessa Therapeutics" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Eldravessa Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S067
+  name: Felmorvane Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Felmorvane Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S068
+  name: Garnelquith Medicines
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Garnelquith Medicines" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Garnelquith Medicines" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S069
+  name: Helvessora Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Helvessora Biosciences" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Helvessora Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S070
+  name: Ildravune Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Ildravune Therapeutics" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Ildravune Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S071
+  name: Jorvessara Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Jorvessara Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S072
+  name: Kalmorveth Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Kalmorveth Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S073
+  name: Lervessune Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Lervessune Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S074
+  name: Meldravora Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Meldravora Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S075
+  name: Norravessa Animal Health
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Norravessa Animal Health" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Norravessa Animal Health" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S076
+  name: Osselmorath Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Osselmorath Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S077
+  name: Parvessune Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Parvessune Pharmaceuticals" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Parvessune Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S078
+  name: Qeldravora Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Qeldravora Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S079
+  name: Rilmorveth Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Rilmorveth Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S080
+  name: Sarnelvessa Agrochem
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Sarnelvessa Agrochem" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S081
+  name: Telquorath Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Telquorath Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S082
+  name: Urdelvessa Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Urdelvessa Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S083
+  name: Vornelquith Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Vornelquith Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S084
+  name: Wessavora Medicines
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Wessavora Medicines" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Wessavora Medicines" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S085
+  name: Xarnelvune Pharmaceuticals
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Xarnelvune Pharmaceuticals" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Xarnelvune Pharmaceuticals" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S086
+  name: Yelmorveth Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Yelmorveth Therapeutics" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Yelmorveth Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S087
+  name: Zorvessara Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Zorvessara Pharma" pharma therapeutics'
+    result: 'source unavailable: HTTP 429 Too Many Requests (rate limit exceeded); subsequently retried'
+  - source: General web search
+    query: '"Zorvessara Pharma" pharma therapeutics'
+    result: no match
+  verdict: rejected
+  notes: Dropped for excessive similarity to other generated client names; no real life-sciences hit in the exact-name
+    search.
+- id: S088
+  name: Auvrelquith Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Auvrelquith Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S089
+  name: Bevrasselle Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Bevrasselle Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S090
+  name: Culdrevane Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Culdrevane Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S091
+  name: Doventhar Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Doventhar Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S092
+  name: Grespalune Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Grespalune Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S093
+  name: Nelmudara Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Nelmudara Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S094
+  name: Pelmucent Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Pelmucent Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S095
+  name: Sedravik Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Sedravik Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S096
+  name: Bravossent Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Bravossent Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S097
+  name: Darmeciel Biosciences
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Darmeciel Biosciences" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S098
+  name: Emlucera Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Emlucera Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S099
+  name: Ilcavreth Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Ilcavreth Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S100
+  name: Norrustel Animal Health
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Norrustel Animal Health" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S101
+  name: Rimucavel Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Rimucavel Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S102
+  name: Wexanthel Medicines
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Wexanthel Medicines" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S103
+  name: Yondravik Therapeutics
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Yondravik Therapeutics" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S104
+  name: Zostremal Pharma
+  kind: client_background
+  depth: exact
+  checks:
+  - source: General web search
+    query: '"Zostremal Pharma" pharma therapeutics'
+    result: no match
+  verdict: clear
+  notes: Exact-name web screening only; no distinctive-word or registry search.
+- id: S105
+  name: Vellacombe Discovery Ltd
+  kind: firm
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Vellacombe Discovery Ltd"'
+    result: no match
+  - source: General web search
+    query: '"Vellacombe" pharma biotech CRO laboratory healthcare'
+    result: Vellacombe occurs in fictional library-name lists, fictional accounting examples and fiction; no life-sciences
+      business match. https://www.randomgeneratorhq.com/library-name-generator/
+  - source: Company registries (web-index search)
+    query: '"Vellacombe" site:find-and-update.company-information.service.gov.uk OR site:opencorporates.com OR site:sec.gov'
+    result: no match
+  verdict: clear_noncompeting_use
+  notes: Full-depth web screening of exact name, distinctive word and company-registry indexes; index searches are
+    not direct exhaustive registry clearance.
+- id: S106
+  name: Daniel Grellacott
+  kind: staff
+  depth: full
+  checks:
+  - source: General web search
+    query: '"Daniel Grellacott"'
+    result: no match
+  - source: General web search
+    query: '"Daniel Grellacott" pharma biotech CRO laboratory healthcare'
+    result: no match
+  - source: LinkedIn (web-index search)
+    query: '"Daniel Grellacott" site:linkedin.com'
+    result: no match
+  verdict: clear
+  notes: Full-name general, industry-context and LinkedIn web-index screening; results do not establish an exact
+    full-name life-sciences professional.
