@@ -9,7 +9,7 @@
     ["Updated", "06/01/2022", null, "Owner", "Eric Langford"],
     [],
     [{"v": "Service line", "bold": true}, {"v": "Unit", "bold": true}, {"v": "Rate (USD)", "bold": true}, {"v": "Basis", "bold": true}],
-    ["Vehicle ladder, work package", "per work package", "TBC", "Two-week screen, bench sheet per vehicle"],
+    ["Vehicle ladder", "per vehicle ladder", 9850, "Two-week screen, bench sheet per vehicle. No volume discount"],
     ["Excipient compatibility screen", "per formulation set", "TBC", "Bench sheet per excipient pair, screen suitability checked on day 1"],
     ["Pilot lot support", "per pilot lot", "TBC", "Scoped separately, depends on scale gate"],
     ["Stability pull (add-on)", "per time point", "TBC", "Only if the client has a LIMS accession"],
@@ -19,7 +19,7 @@
    "col_widths": {"A": 34, "B": 22, "C": 14, "D": 52},
    "merged": ["A1:D1", "A2:D2", "A10:D10"],
    "comments": [
-    {"cell": "C6", "text": "Still need the 2021 card figure. Didn't get it from the old folder, will ask Dimitra", "author": "Eric Langford"},
+    {"cell": "C6", "text": "Still need the 2021 card figure for the excipient line. Didn't get it from the old folder, will ask Dimitra", "author": "Eric Langford"},
     {"cell": "A10", "text": "Old note, keep until the split is done", "author": "Eric Langford"}
    ],
    "freeze": "A6"},
@@ -43,7 +43,7 @@
     [{"v": "Working notes, Eric, 2022", "bold": true}],
     [],
     ["06/01/2022", "Moved the pilot-lot line out of the main rate table. Scale gate language is still in the old memo, so check before quoting."],
-    ["05/18/2022", "Julia and Miguel agreed the ladder should be quoted per work package, not per vehicle."],
+    ["05/18/2022", "Julia and Miguel agreed the ladder should be quoted per vehicle ladder, with the bench sheet per vehicle."],
     ["04/29/2022", "Min-jun raised the bench sheet template. It uses the old screen suitability wording. Fix before the next client pack."],
     [],
     ["TODO", "Ask Dean whether the 2021 compatibility rate covered the hold conditions or just the screen."]
