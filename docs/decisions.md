@@ -26,3 +26,4 @@ One line per decision taken during the build where the spec was silent or ambigu
 - Stage 7 tail: leftover singletons are batched by firm where possible, otherwise as mixed-firm batches of the same tier (dev1369-content-mixed-NN).
 - Stability results stop at completion, else at the last (interim) report date for open, held or cancelled studies.
 - Stage 8: the first two 1-in-5 Haiku samples came back 16/20 'fix', so instead of sampling, Sol reviews and fixes every Haiku-medium file in one pass (briefs/stage8-review-fix.md). Junk files are not reviewed.
+- Golden locators: answer_page_number = pages carrying the most distinct planted facts (facts on most pages, e.g. headers, ignored; cover page if every fact is a header); answer_section = nearest unstructured Title; unstructured_page_number keeps every mention. docx/doc have no page numbers in unstructured, so they get answer_section only.

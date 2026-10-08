@@ -14,6 +14,12 @@
           "format": "pptx",
           "fact": "Quenverell capability deck (2025, group template). Slide 3 'Bioinformatics for drug discovery' is the canonical one-slide explanation used in pitches.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            3
+          ],
+          "answer_section": [
+            "Bioinformatics for drug discovery"
+          ],
           "slide": 3,
           "unstructured_page_number": [
             3
@@ -26,6 +32,12 @@
           "format": "pdf",
           "fact": "PDF export of the 2025 capability deck, sent to clients.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            3
+          ],
+          "answer_section": [
+            "Bioinformatics for drug discovery"
+          ],
           "page": 3,
           "unstructured_page_number": [
             3
@@ -38,6 +50,12 @@
           "format": "pptx",
           "fact": "Quenverell capability deck from 2018 in the legacy template, with a 'Bioinformatics in drug discovery' slide.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            4
+          ],
+          "answer_section": [
+            "Bioinformatics in drug discovery"
+          ],
           "unstructured_page_number": [
             4
           ],
@@ -49,6 +67,12 @@
           "format": "pptx",
           "fact": "Group cross-sell deck: reuses the D bioinformatics slide and uses Corvenlea Pharma (A/C/E history under three names; never bought D or F) as the worked example.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            7
+          ],
+          "answer_section": [
+            "Corvenlea across the group"
+          ],
           "unstructured_page_number": [
             4,
             7
@@ -63,6 +87,14 @@
           "format": "ppt",
           "fact": "2012 capability deck in the original legacy template; its bioinformatics slide predates current methods (microarrays, homology models).",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            3
+          ],
+          "answer_section": [
+            "Bioinformatics services for drug discovery",
+            "Bioinformatics in drug discovery"
+          ],
           "unstructured_page_number": [
             1,
             3
@@ -75,6 +107,12 @@
           "format": "pptx",
           "fact": "Copy of the 2025 capability deck saved by a colleague; slide 3 title has a typo ('Bioinfromatics') and an edited bullet.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            3
+          ],
+          "answer_section": [
+            "Bioinfromatics for drug discovery"
+          ],
           "unstructured_page_number": [
             3
           ],
@@ -86,6 +124,12 @@
           "format": "pptx",
           "fact": "Medicinal chemistry pitch with one generic 'integrated discovery' slide that mentions bioinformatics in passing.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            7
+          ],
+          "answer_section": [
+            "Bioinformatics and computational chemistry: Quenverell"
+          ],
           "unstructured_page_number": [
             7
           ],
@@ -97,6 +141,14 @@
           "format": "pptx",
           "fact": "Earlier v2 draft of the 2025 capability deck with reviewer notes and an unfinished bioinformatics slide.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            3
+          ],
+          "answer_section": [
+            "Bioinformatics and computational chemistry for drug discovery",
+            "Bioinformatics for drug discovery - DRAFT"
+          ],
           "unstructured_page_number": [
             1,
             3
@@ -109,6 +161,17 @@
           "format": "pptx",
           "fact": "Internal training deck introducing bioinformatics tools to chemists; not a client-facing slide.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "answer_section": [
+            "Bioinformatics for chemists",
+            "Agenda",
+            "Part 1"
+          ],
           "unstructured_page_number": [
             1,
             3,
@@ -132,6 +195,11 @@
           "format": "doc",
           "fact": "Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "Proposal and Quotation",
+            "1 Introduction",
+            "2 Scope of work"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0001",
@@ -152,6 +220,15 @@
           "format": "xlsx",
           "fact": "Results workbook for BW11_0275: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "BW11_0275_hERG-CYP_RUN04",
+            "AP02 hinge-binder triage: hERG and five-CYP panel, 40 analogues",
+            "Study summary"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -181,6 +258,15 @@
           "format": "pdf",
           "fact": "Final report BW11_0275: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client: Avernelwick Pharmaceuticals Ltd",
+            "Report date: 27 September 2011",
+            "Assays"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -209,6 +295,11 @@
           "format": "docx",
           "fact": "Proposal BW21_0453 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 42 kinase-series compounds; price and turnaround stated.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "1 Introduction",
+            "2 Scope of work",
+            "6 Price"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0002",
@@ -229,6 +320,15 @@
           "format": "xlsx",
           "fact": "Results workbook for BW21_0453: hERG IC50 and 5-isoform CYP inhibition for 42 compounds, with a benchmark summary sheet.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "BW21_0453_hERG-CYP_RUN04",
+            "AP02 second-generation safety panel with CYP3A4 concentration response",
+            "Study summary"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -260,6 +360,15 @@
           "format": "pdf",
           "fact": "Final report BW21_0453: hERG and CYP results for 42 kinase-series compounds, with the benchmark summary table on an early page.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client: Avernelwick Pharmaceuticals Ltd",
+            "Report date: 25 November 2021",
+            "Assays"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -288,6 +397,11 @@
           "format": "docx",
           "fact": "Proposal MV-2015-266 to Selverant: hERG + CYP panel on 38 kinase-series compounds; price and turnaround stated.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "Proposal and Quotation",
+            "1 Introduction",
+            "2 Scope of work"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0003",
@@ -308,6 +422,15 @@
           "format": "xlsx",
           "fact": "Results workbook for MV-2015-266: hERG IC50 and 5-isoform CYP inhibition for 38 compounds, with a benchmark summary sheet.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "ST03 growth-signal program: rapid hERG/DDI screen of 38 compounds",
+            "Study summary",
+            "IKr inhibition: tail-current IC50 per cell, 6-point, top 30 µM"
+          ],
           "unstructured_page_number": [
             1,
             2
@@ -335,6 +458,15 @@
           "format": "pdf",
           "fact": "Final report MV-2015-266: hERG and CYP results for 38 kinase-series compounds, with the benchmark summary table on an early page.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client: Selverant",
+            "Report date: December 28, 2015",
+            "Metric Project Client Compounds tested Series / chemotype Assays"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -363,6 +495,11 @@
           "format": "docx",
           "fact": "Proposal MV-2024-358 to Tervemere Pharma AG: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "Proposal and Quotation",
+            "1 Introduction",
+            "2 Scope of work"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0004",
@@ -383,6 +520,14 @@
           "format": "xlsx",
           "fact": "Results workbook for MV-2024-358: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Study summary",
+            "IKr inhibition: tail-current IC50 per cell, 6-point, top 30 µM"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -412,6 +557,15 @@
           "format": "pdf",
           "fact": "Final report MV-2024-358: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client: Tervemere Pharma AG",
+            "Report date: December 19, 2024",
+            "Assays"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -443,7 +597,19 @@
           "format": "xlsx",
           "fact": "Results workbook BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.",
           "depends_on_firm_G": false,
-          "unstructured_page_number": [],
+          "answer_page_number": [
+            1
+          ],
+          "answer_section": [
+            "ST03 ion-channel counterscreen, third chemistry shipment",
+            "Study summary"
+          ],
+          "unstructured_page_number": [
+            1
+          ],
+          "sheet": [
+            "Summary"
+          ],
           "why": "q2_distractor_herg_only"
         },
         {
@@ -452,6 +618,14 @@
           "format": "pdf",
           "fact": "Report BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1
+          ],
+          "answer_section": [
+            "Client: Selverant Therapeutics Inc",
+            "Report date: 14 June 2017",
+            "Table 1 Study summary"
+          ],
           "unstructured_page_number": [
             1
           ],
@@ -463,7 +637,18 @@
           "format": "xlsx",
           "fact": "Results workbook MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.",
           "depends_on_firm_G": false,
-          "unstructured_page_number": [],
+          "answer_page_number": [
+            1
+          ],
+          "answer_section": [
+            "Study summary"
+          ],
+          "unstructured_page_number": [
+            1
+          ],
+          "sheet": [
+            "Summary"
+          ],
           "why": "q2_distractor_cyp_other_chemotype"
         },
         {
@@ -472,6 +657,14 @@
           "format": "pdf",
           "fact": "Report MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1
+          ],
+          "answer_section": [
+            "Client: Orvessant Biosciences Pty Ltd",
+            "Report date: August 10, 2022",
+            "Metric Project Client Compounds tested Series / chemotype"
+          ],
           "unstructured_page_number": [
             1
           ],
@@ -483,6 +676,9 @@
           "format": "docx",
           "fact": "Proposal MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "6 Price"
+          ],
           "unstructured_page_number": [],
           "why": "q2_distractor_right_client_wrong_assay"
         },
@@ -492,6 +688,14 @@
           "format": "pdf",
           "fact": "Report MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1
+          ],
+          "answer_section": [
+            "Client: Avernelwick Pharma",
+            "Report date: April 16, 2018",
+            "Turnaround (calendar days) Price"
+          ],
           "unstructured_page_number": [
             1
           ],
@@ -527,6 +731,11 @@
           "format": "doc",
           "fact": "report client for Corvenlea Pharma (VD-05-064): CVL azaheterocycle route scout and first analogue delivery.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "CVL azaheterocycle programme: route scout and first analogue delivery",
+            "1 Summary",
+            "2 Route scout"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0008",
@@ -547,6 +756,9 @@
           "format": "pdf",
           "fact": "report study for Corvenlea Ltd (MV-2016-053): CVL oral discovery package: microsomes, hepatocytes and plasma binding.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -573,6 +785,10 @@
           "format": "docx",
           "fact": "word proposal for Corvenlea Pharmaceuticals plc (WA/2020/313): CVL tablet lot 3: twelve-month ICH stability with assay validation. Names the client as 'Corvenlea Pharmaceuticals plc (formerly Corvenlea Ltd)'.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "PROPOSAL: ICH STABILITY STUDY AND METHOD QUALIFICATION",
+            "1. PURPOSE"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0010",
@@ -593,6 +809,13 @@
           "format": "xlsx",
           "fact": "Integration workbook mapping legacy client names to group accounts; links Corvenlea Pharma's A/C/E names, flags Corvenlith Therapeutics as a different company.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client identity bridge: legacy CRM names to group accounts"
+          ],
           "unstructured_page_number": [
             1,
             2
@@ -608,6 +831,9 @@
           "format": "xlsx",
           "fact": "Client x service-line matrix for top accounts showing which legacy firms each client has bought from; half-finished.",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1
+          ],
           "unstructured_page_number": [
             1
           ],
@@ -623,6 +849,11 @@
           "format": "docx",
           "fact": "Proposal to Corvenlith Therapeutics (QV.23.100), a different company from Corvenlea Pharma.",
           "depends_on_firm_G": false,
+          "answer_section": [
+            "Immune-cell RNA-seq reanalysis and target ranking",
+            "1 The biological question",
+            "6 Notes"
+          ],
           "unstructured_page_number": [],
           "why": "similar client name"
         }
@@ -664,6 +895,11 @@
           "format": "docx",
           "fact": "Proposal OT-20-S0178 to Corvenlea (US): in vitro safety pharmacology (hERG + CYP) on 40 kinase compounds.",
           "depends_on_firm_G": true,
+          "answer_section": [
+            "1 Introduction",
+            "2 Scope of work",
+            "6 Price"
+          ],
           "unstructured_page_number": [],
           "project": {
             "id": "PRJ0012",
@@ -684,6 +920,15 @@
           "format": "xlsx",
           "fact": "Results workbook OT-20-S0178: hERG and CYP data for 40 compounds with benchmark sheet.",
           "depends_on_firm_G": true,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "OT-20-S0178_SafetyPharm_RESULTS_102020",
+            "CVL kinase series: cardiac ion-channel and CYP interaction triage",
+            "Study summary"
+          ],
           "unstructured_page_number": [
             1,
             2
@@ -711,6 +956,15 @@
           "format": "pdf",
           "fact": "Final report OT-20-S0178 for Corvenlea (US), summarising the benchmark table.",
           "depends_on_firm_G": true,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client: Corvenlea (US)",
+            "Report date: October 20, 2020",
+            "Metric Project Client Compounds tested Series / chemotype Assays"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -739,6 +993,15 @@
           "format": "xlsx",
           "fact": "Results workbook OT-23-S0046: hERG and CYP data for 44 compounds with benchmark sheet.",
           "depends_on_firm_G": true,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "OT-23-S0046_SafetyPharm_RESULTS_032323",
+            "Study summary",
+            "hERG (IKr) safety pharmacology: tail-current IC50 per cell, 6-point, top 30 µM"
+          ],
           "unstructured_page_number": [
             1,
             2
@@ -766,6 +1029,15 @@
           "format": "pdf",
           "fact": "Final report OT-23-S0046 for Avernelwick Pharmaceuticals Ltd, summarising the benchmark table.",
           "depends_on_firm_G": true,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Client: Avernelwick Pharmaceuticals Ltd",
+            "Report date: March 23, 2023",
+            "Assays"
+          ],
           "unstructured_page_number": [
             1,
             2,
@@ -807,6 +1079,15 @@
           "format": "pdf",
           "fact": "Structure-based design report QV.25.086: docking into published-style X-ray structures. ",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2
+          ],
+          "answer_section": [
+            "Quenverell Computational Ltd, a Tarnovell company",
+            "2 Data provenance ",
+            "chemists"
+          ],
           "unstructured_page_number": [
             1,
             2
@@ -818,6 +1099,17 @@
           "format": "pptx",
           "fact": "Readout VD-18-131: chemistry guided by X-ray co-crystal structures from a collaborator. ",
           "depends_on_firm_G": false,
+          "answer_page_number": [
+            1,
+            2,
+            3,
+            9
+          ],
+          "answer_section": [
+            "Rennelwick receptor programme: co-crystal-guided analogues",
+            "Programme started 05/11/2018 with the Rennelwick Institute Drug Discovery Unit",
+            "What the co-crystal structures showed"
+          ],
           "unstructured_page_number": [
             1,
             2,

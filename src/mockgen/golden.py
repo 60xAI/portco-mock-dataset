@@ -45,9 +45,56 @@ def locate(elements, needles: list[str]):
     return sorted(pages), sorted(names)
 
 
+def mentioned_any(hits) -> bool:
+    return any(pg for _, pg, _ in hits)
+
+
+def locate_facts(elements, fact_needles: list[list[str]]):
+    """Tighter locator: score pages by how many distinct facts they carry, ignoring facts that appear on most
+    pages (headers, footers). Returns (answer pages, answer sections, all pages mentioned)."""
+    all_pages = {getattr(el.metadata, "page_number", None) for el in elements} - {None}
+    heading, hits = None, []
+    for el in elements:
+        if type(el).__name__ == "Title":
+            heading = str(el).strip()[:120]
+        t = norm(str(el))
+        for i, ns in enumerate(fact_needles):
+            if any(n and norm(n) in t for n in ns):
+                hits.append((i, getattr(el.metadata, "page_number", None), heading))
+    per_fact = defaultdict(set)
+    for i, pg, _ in hits:
+        if pg:
+            per_fact[i].add(pg)
+    broad = {i for i, pgs in per_fact.items() if len(all_pages) >= 4 and len(pgs) > len(all_pages) / 2}
+    score = defaultdict(set)
+    sec_score = defaultdict(set)
+    for i, pg, h in hits:
+        if i in broad:
+            continue
+        if pg:
+            score[pg].add(i)
+        if h:
+            sec_score[h].add(i)
+    if not score and mentioned_any(hits):
+        # every fact sits in headers/footers: the cover page is the answer
+        first = min(pg for _, pg, _ in hits if pg)
+        score[first] = {-1}
+    best = max((len(v) for v in score.values()), default=0)
+    answer = sorted(pg for pg, v in score.items() if len(v) == best) if best else []
+    sbest = max((len(v) for v in sec_score.values()), default=0)
+    sections = [h for h, v in sec_score.items() if len(v) == sbest][:3] if sbest else []
+    mentioned = sorted({pg for _, pg, _ in hits if pg})
+    return answer, sections, mentioned
+
+
 def needles_for(item, w):
-    out = []
+    return [n for g in fact_groups(item, w) for n in g]
+
+
+def fact_groups(item, w):
+    groups = []
     for f in item.get("facts", []):
+        out = []
         if "text" in f:
             out.append(resolve_text(f["text"]))
         if "any_of" in f:
@@ -60,7 +107,9 @@ def needles_for(item, w):
         if f.get("kind") == "price":
             p = w.projects[f["project"]]
             out.append(f"{p.price.amount:,.0f}")
-    return out
+        if out:
+            groups.append(out)
+    return groups
 
 
 def build_golden() -> str:
@@ -89,6 +138,18 @@ def build_golden() -> str:
                     src = next((x for x in Mf.load_planted() if x["entry"]["id"] == e.related[0].id), None) if e.related else None
                     needles = needles_for(src, w) if src else needles
                 pages, names = locate(els, needles)
+                groups = fact_groups(src if e.pdf_kind == "export" and src else item, w) if e.pdf_kind == "export" else fact_groups(item, w)
+                answer, sections, mentioned = locate_facts(els, groups)
+                pids = [g["project"]] if g.get("project") else list(e.projects)
+                if not answer and not sections and pids:
+                    ids = [x for pid in pids for x in (w.projects[pid].firm_project_id, w.projects[pid].lims_id)]
+                    answer, sections, mentioned = locate_facts(els, [ids])
+                    if not pages:
+                        pages, names = locate(els, ids)
+                if answer:
+                    rec["answer_page_number"] = answer
+                if sections:
+                    rec["answer_section"] = sections
                 if "slide" in g and e.format in ("pptx", "ppt"):
                     rec["slide"] = g["slide"]
                     rec["unstructured_page_number"] = pages
