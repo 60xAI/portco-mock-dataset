@@ -1,0 +1,224 @@
+{
+  "family": "document",
+  "summary": "Final AU-10 feasibility report for Auvrelquith Biosciences. It records the preferred salt’s ready dissolution and moisture sensitivity, presents the Vehicle ladder and recommends protective-packaging follow-up.",
+  "properties": {
+    "title": "AU-10 salt forms: early formulation feasibility"
+  },
+  "header": "Durnesswick Laboratories Inc",
+  "footer": "Durnesswick Laboratories Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "AU-10 salt forms: early formulation feasibility",
+    "subtitle": "Final work-package report | R1",
+    "lines": [
+      "Project {{PRJ0111:project_id}}",
+      "Accession {{PRJ0111:lims_id}}",
+      "Client: Auvrelquith Biosciences",
+      "Date: 11/18/2019",
+      "Prepared by: Julia Carver"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and development choice",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The preferred AU-10 salt dissolved readily but remained moisture-sensitive. Auvrelquith Biosciences requested protective-packaging work before treating the salt as a development choice with controlled storage and handling. Dissolution advantage and moisture liability must be carried forward together."
+        },
+        {
+          "p": "The Vehicle ladder is reproduced below as the liquid-handling evidence. It does not identify salt forms by counterion and is not a numerical salt-to-salt dissolution comparison. The salt preference is reported qualitatively; no unsupported dissolution rate or moisture-uptake value is assigned."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0111:form_screen",
+            "caption": "Table 1. AU-10 Vehicle ladder: liquid-screen context for salt feasibility."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Work-package objective",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The objective was early formulation feasibility across the supplied AU-10 salt forms. A useful salt had to permit preparation while remaining manageable during weighing, holding and transfer. A form that dissolves readily may still impose unacceptable handling demands if exposed to moisture."
+        },
+        {
+          "p": "This work package supports a development direction rather than a final salt specification. Protective packaging is the next question because the observed moisture sensitivity could undermine reproducibility before the material reaches the formulation vessel."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Execution and responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quotation was dated 09/05/2019. Work began on 10/04/2019, interim findings were discussed on 10/28/2019 and the report was completed on 11/18/2019. Julia Carver led the assessment, with Miguel Serrano responsible for the formulation set and Lena Patel addressing transfer implications."
+        },
+        {
+          "p": "Material and preparation records are associated with {{PRJ0111:project_id}} / {{PRJ0111:lims_id}}. Salt identity should remain traceable from receipt through preparation. The preferred salt is the preparation identified in those records, not a substitute chosen solely because it shares a general dissolution description."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Comparison approach",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Vehicle ladder used nominal 10 mg/mL loading and considered equilibrium solubility, initial appearance and standing behavior. The salt-form feasibility decision also considered dissolution handling and the moisture sensitivity of the preferred material."
+        },
+        {
+          "p": "Equilibrium solubility is not dissolution rate. A suspension can disperse readily yet retain undissolved solids. The comparison therefore avoids using a liquid-screen concentration as a direct measure of how quickly an individual salt form dissolves."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Liquid-screen observations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "PEG400/water gave a readily redispersible preparation and the highest equilibrium-solubility entry in this formulation set. The cyclodextrin preparation was also redispersible. Citrate buffer produced a fine suspension that settled but could be redispersed."
+        },
+        {
+          "p": "Methylcellulose showed caking, while the oil-containing and NMP-containing entries showed crystal growth. These observations constrain liquid handling; none establishes dry-salt moisture control. The preferred salt’s dissolution behavior must not obscure the limitations of its eventual vehicle."
+        },
+        {
+          "chart": {
+            "kind": "bar",
+            "ref": "PRJ0111:form_screen",
+            "column": 1,
+            "title": "AU-10 equilibrium-solubility comparison in the Vehicle ladder",
+            "y_label": "Equilibrium solubility (mg/mL)"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Salt-form interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The preferred salt dissolved readily, supporting its selection for continued formulation development. That qualitative observation concerns preparation practicality. It does not establish a numerical advantage at every pH or in every excipient system."
+        },
+        {
+          "p": "The report does not assign a counterion name absent from the preparation identifiers. Use the accession and recipe-card links when requesting follow-up material. Preserving actual material identity is more useful than adding a descriptive salt label that could be mistaken for a specification."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Moisture sensitivity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Moisture sensitivity remained a limitation of the preferred salt. The dissolution benefit therefore came with a handling tradeoff: exposure during storage or weighing may alter the material presented to the formulation operation."
+        },
+        {
+          "p": "The current outcome is sufficient to justify protective-packaging work, but it does not quantify allowable exposure or establish a moisture acceptance limit. Do not convert the observation into an unsupported expiry period or a claimed tolerance to open handling."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Interim handling precautions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Keep material identity and container history linked when opening, weighing or transferring the preferred salt. Record visible changes and unexpected handling behavior with the preparation so later differences can be investigated in context."
+        },
+        {
+          "p": "Minimize unnecessary open handling while the packaging question is unresolved. A working precaution is not a qualified process limit. If a preparation departs from the expected behavior, hold it for development assessment rather than compensating with extra mixing without a record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Protective-packaging follow-up",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Auvrelquith Biosciences requested protective-packaging work. The next formulation set should compare defined protective configurations using the intended material and a handling sequence representative of dispensing and preparation."
+        },
+        {
+          "p": "Compare unopened holding with material subjected to planned opening and transfer. The package must support use as well as storage. A favorable sealed-container observation cannot alone justify repeated access or an uncontrolled weighing environment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Manufacturing and dose implications",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The preferred salt’s ready dissolution may simplify preparation and reduce dependence on aggressive vehicle composition. Moisture sensitivity can offset that benefit through added handling controls, container demands or variability in material delivered to the vessel."
+        },
+        {
+          "p": "Assess those tradeoffs before locking a formulation route. A liquid vehicle that is easy to prepare is not sufficient if upstream material handling is unreliable. Dose concentration and preparation volume should be revisited only with traceable material and recipe identity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Development limits and scale gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This early screen does not establish chemical stability, a commercial salt specification or a packaging shelf life. The Vehicle ladder’s physical observations remain restricted to its stated preparation conditions."
+        },
+        {
+          "p": "The next scale gate is reproducible handling of the preferred salt with a protective package appropriate to its use. Lena Patel’s transfer requirements should include container history and the dispensing sequence, while Miguel Serrano’s preparation identifiers remain linked to formulation observations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Conclusion and retained records",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The preferred AU-10 salt offers practical dissolution behavior but remains moisture-sensitive. Proceed with the protective-packaging work requested by Auvrelquith Biosciences before extending the selection into a locked storage or manufacturing route."
+        },
+        {
+          "p": "Retain the Vehicle ladder, salt-form preparation records and recipe cards under {{PRJ0111:lims_id}}. Future packaging findings should supplement this report without rewriting the early feasibility conclusion as a claim of established moisture stability."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "11/18/2019",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
