@@ -167,6 +167,11 @@ def content_checks(entry, fam, raw, w) -> list[str]:
     for r in _table_refs(raw, []):
         if not get_table(r):
             errs.append(f"unknown table_ref {r}")
+    # writer commentary about the generation inputs must not leak into the document
+    body = all_text({k: v for k, v in raw.items() if k != "summary"})
+    m = re.search(r"supplied (data|dataset|counts|values|numbers|tables?)\b|the pack (gives|lists|says|states|provides|shows|has)\b|not (given|provided|contained) in the (pack|data)\b|\bmockgen\b|\bworld (data|file)\b", body, re.I)
+    if m:
+        errs.append(f"text talks about the generation inputs ('{m.group(0)}'); write as the firm would, and report data gaps in your reply instead")
     # blocklist
     bl = Blocklist.load()
     hits = bl.scan_text(txt)

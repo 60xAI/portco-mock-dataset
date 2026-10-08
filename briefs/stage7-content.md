@@ -18,6 +18,7 @@ Repo: `/Users/kertlaansalu/projects/portco-mock-dataset`. Run every command from
 - **Names come from the pack only.** Use only the people, clients and firms the pack lists, with the client name the pack tells you to use. No real companies, CROs, vendors, instrument makers or people. Generic reference compounds and reagents are fine.
 - **Stay in the era.** Use the firm's date format, units, terminology and brand line for that date. Before 2020 the group brand "Tarnovell" did not exist. Nobody appears before they joined, and no client name appears before it was in use.
 - **Never mention cryo-EM.**
+- **Never write about the pack or the data you were given** ("the supplied data", "the pack gives", "counts tie"). The document is written by the firm's staff. If the pack looks inconsistent, write around it and report it in your reply.
 - Write like the firm. Each firm has its own voice in the pack. Vary sentence structure and avoid boilerplate. Real documents are specific: sample counts, run dates, who checked what, what was decided.
 - Readouts and capability decks use charts (`chart` with `ref`) and molecule grids (`image` `molecule_grid`) where the pack has data. Reports put the key table early.
 - Output files must be plain JSON (no comments, no trailing commas, `true`/`false`/`null`).
