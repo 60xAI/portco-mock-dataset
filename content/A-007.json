@@ -1,0 +1,195 @@
+{
+  "family": "deck",
+  "summary": "Interim draft v3 for the Valquessia VP-C amide-coupling programme. The coupling screen is complete, but solvent-dependent isolation trials and route selection remain open; reviewer notes identify the gaps needed for the next route gate.",
+  "properties": {
+    "title": "VP-C isolation: INTERIM — DRAFT v3",
+    "subject": "PRJ0026 | Route scout and delivery",
+    "keywords": "medicinal chemistry; route gate; isolated material"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "VP-C isolation: INTERIM — DRAFT v3",
+      "subtitle": "Valquessia Pharmaceuticals SpA | VD-26-068 | 08 Jul 2026\nDr R. Calderwood | Route selection pending",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interim decision: do not select the route yet",
+      "bullets": [
+        "The amide-coupling screen is complete.",
+        "Isolation trials continue on the preferred solvent system.",
+        "The preferred coupling conditions are a starting point for isolation work, not a selected scale-up route.",
+        "Final route conclusion: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Status at the interim route gate",
+      "table": {
+        "columns": [
+          "Workstream",
+          "Status",
+          "Outstanding basis"
+        ],
+        "rows": [
+          [
+            "Coupling screen",
+            "Complete",
+            "Use completed screen to guide isolation"
+          ],
+          [
+            "Preferred solvent system",
+            "Under isolation trial",
+            "Recovery and repeatability [TBC]"
+          ],
+          [
+            "Route selection",
+            "Open",
+            "Isolation trial outcome [TBC]"
+          ],
+          [
+            "Programme completion",
+            "Not set",
+            "Final route gate pending"
+          ]
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Compare coupling and isolation separately",
+      "bullets": [
+        "Completed coupling screens address bond formation.",
+        "The preferred solvent system is carried into the next isolation trial.",
+        "No numerical screen results are reproduced in this interim deck."
+      ],
+      "bullets_right": [
+        "Isolation must address recovered material.",
+        "A favourable reaction mixture does not establish a reproducible solid isolation.",
+        "The comparison remains incomplete until work-up and isolation are reconciled."
+      ],
+      "notes": "Reviewer comment — Hassan Darwish, 08 Jul 2026: keep the solvent preference provisional. Do not label this route selected before the isolation trial is closed.",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Working hypothesis for isolation",
+      "bullets": [
+        "Retain the preferred solvent system while testing the isolation sequence.",
+        "Watch whether changes in solvent composition alter recovery or handling.",
+        "Record addition order, temperature and hold conditions in the route scout.",
+        "Separate observations on isolated material from assumptions about dissolved product."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Isolation comparison — open entries",
+      "table": {
+        "columns": [
+          "Question",
+          "Current position",
+          "Entry for next version"
+        ],
+        "rows": [
+          [
+            "Preferred solvent isolation",
+            "Trials continuing",
+            "Isolated-material assessment [TBC]"
+          ],
+          [
+            "Repeat preparation",
+            "Route gate still open",
+            "Repeatability statement [TBC]"
+          ],
+          [
+            "Mother-liquor accounting",
+            "Needed for interpretation",
+            "Material accounting [TBC]"
+          ],
+          [
+            "Final route choice",
+            "Not authorised by current evidence",
+            "Route recommendation [TBC]"
+          ]
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Material status: no final delivery claim",
+      "bullets": [
+        "The programme remains in progress under {{PRJ0026:lims_id}}.",
+        "Completed screen work is distinct from released client material.",
+        "Any proposed scale-up structure remains a proposal until isolated and assessed.",
+        "Final delivery-lot definition: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analytical questions before the route gate",
+      "bullets": [
+        "Link each isolation trial to the corresponding reaction preparation.",
+        "Distinguish reaction-mixture observations from isolated-material purity.",
+        "Retain the compound-card trail for any material carried forward.",
+        "Analytical comparison for the selected isolation: [TBC]."
+      ],
+      "notes": "Reviewer comment — Clara Fenwick, 08 Jul 2026: the next version needs the isolated-material assessment alongside the coupling-screen interpretation.",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Next work and ownership",
+      "bullets": [
+        "Hassan Darwish: continue solvent-dependent isolation route scouts.",
+        "Clara Fenwick: align isolated material with release context.",
+        "Ruth Calderwood: assess route selection after isolation evidence is available."
+      ],
+      "bullets_right": [
+        "Valquessia Pharmaceuticals SpA: confirm scale-up priorities at the next discussion.",
+        "Next route-gate date: [TBC].",
+        "Keep this deck marked interim until the isolation comparison closes."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "v3 change note",
+      "bullets": [
+        "This version makes the isolation dependency explicit in the route recommendation.",
+        "The coupling screen is described as complete.",
+        "The route-choice field remains open.",
+        "Final conclusion slide requires replacement after the isolation trials."
+      ],
+      "notes": "Reviewer comment — Ruth Calderwood, 08 Jul 2026: retain the open route-choice field in v3. The next discussion must distinguish the preferred solvent from a demonstrated scale-up route.",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision criteria for the next route gate",
+      "bullets": [
+        "Review recovered material together with the completed coupling screen.",
+        "Require a defensible isolation sequence for the chosen solvent system.",
+        "Resolve the compound-card and analytical links before recommending scale-up.",
+        "Route-selection rationale and supporting isolation entries: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "INTERIM close: final conclusions pending",
+      "bullets": [
+        "Continue isolation work on the preferred solvent system.",
+        "Do not represent the screen preference as a final route choice.",
+        "Return with isolated-material evidence and the completed comparison.",
+        "Final route recommendation: [TBC]."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
