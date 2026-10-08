@@ -1,0 +1,41 @@
+{"family": "workbook",
+ "summary": "Draft local price list for the 2026 screening services: hERG channel screen, 5-isoform CYP panel and Selectivity sweep, with GBP volume bands. Prices are still [TBC] pending finance sign-off, and the repeat-charge cells are open. Not for issue.",
+ "properties": {"title": "Screening prices 2026 (local draft v3)"},
+ "sheets": [
+  {"name": "Price list",
+   "rows": [
+    [{"v": "Screening price list 2026 (local, DRAFT v3)", "bold": true}],
+    ["DRAFT: not for issue. Prices pending finance sign-off."],
+    [],
+    ["Service", "Assay (house name)", "Unit", "List price (GBP)", "Notes"],
+    ["In vitro screen", "hERG channel screen", "per compound", "[TBC]", "hERG automated patch clamp, E-4031 control on each run"],
+    ["In vitro screen", "5-isoform CYP panel", "per compound", "[TBC]", "% inhibition at 10 µM, five isoforms"],
+    ["In vitro screen", "Selectivity sweep", "per compound", "[TBC]", "Off-target kinase panel at 1 µM"],
+    ["", "", "", "", ""],
+    ["", "", "", "", ""]
+   ],
+   "col_widths": {"A": 18, "B": 24, "C": 16, "D": 18, "E": 48},
+   "merged": ["A1:E1"],
+   "comments": [{"cell": "D5", "text": "Need the sign-off figure from finance before this goes to anyone outside the group.", "author": "Bethany Rowcroft"}]},
+  {"name": "Volume bands",
+   "rows": [
+    [{"v": "Volume bands", "bold": true}],
+    ["Band", "Compounds per order", "Discount", "Notes"],
+    ["Standard", "1 to 10", "[TBC]", ""],
+    ["Series", "11 to 30", "[TBC]", "Repeat charge applies"],
+    ["Programme", "31 and above", "", ""],
+    [],
+    ["Repeat charge not yet agreed. See Open questions."]
+   ],
+   "col_widths": {"A": 16, "B": 22, "C": 14, "D": 40}},
+  {"name": "Open questions",
+   "rows": [
+    [{"v": "Open questions", "bold": true}],
+    ["#", "Question", "Owner", "Status"],
+    ["1", "Repeat charge for re-run compounds", "Leila Benmezroun", "Open"],
+    ["2", "Turnaround wording for the hERG channel screen", "", "Open"],
+    ["3", "", "", ""]
+   ],
+   "col_widths": {"A": 6, "B": 48, "C": 20, "D": 12},
+   "comments": [{"cell": "B5", "text": "Ask Nina Jones whether the Selectivity sweep price includes the 1 µM read.", "author": "Ines Alvarado"}]}
+ ]}
