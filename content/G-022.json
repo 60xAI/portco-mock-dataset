@@ -1,0 +1,271 @@
+{
+  "family": "document",
+  "summary": "Final rat range-finding quotation for Sarnelvessa Agrochem. Species confirmation, welfare readiness and documentary QA gates precede authorization; no start is allocated.",
+  "properties": {
+    "title": "SA-2 Exploratory rat range finding"
+  },
+  "header": "Osterquill Toxicology Inc | {{PRJ0127:project_id}}",
+  "footer": "Osterquill Toxicology Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "SA-2 Exploratory rat range finding",
+    "subtitle": "Final quotation | conditional protocol and budget",
+    "lines": [
+      "Investigation: {{PRJ0127:project_id}}",
+      "Client: {{PRJ0127:client_variant}}",
+      "LIMS allocation: {{PRJ0127:lims_id}}",
+      "Date: 06/12/2024"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Quotation summary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Osterquill Toxicology Inc submits this final quotation to Sarnelvessa Agrochem for SA-2 Exploratory rat range finding. The proposed investigation will guide dose selection and subsequent development planning. It is not a definitive regulatory toxicity investigation and does not establish that the rat is the appropriate development species."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Proposed basis"
+            ],
+            "rows": [
+              [
+                "Investigation",
+                "{{PRJ0127:project_id}}"
+              ],
+              [
+                "Budget",
+                "{{PRJ0127:price}}"
+              ],
+              [
+                "Scope",
+                "Exploratory rat range finding"
+              ],
+              [
+                "Authorization",
+                "Client approval and species confirmation required"
+              ],
+              [
+                "Start date",
+                "Not allocated"
+              ]
+            ],
+            "caption": "SA-2 quotation basis"
+          }
+        },
+        {
+          "p": "Naomi Takamori is responsible for scientific approval. This document is complete for client consideration but is not an instruction to procure animals or begin an investigation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Development question and species gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The objective is to identify a practicable dose range and observations governing a later repeat-dose design. Sarnelvessa Agrochem must confirm that the rat answers its current development question. Species selection requires a scientific rationale and the client’s regulatory advice."
+        },
+        {
+          "p": "The first QA gate is species confirmation, before laboratory booking. If the adviser recommends another species, the rat proposal will be withdrawn from scheduling. A different model requires its own husbandry assessment, endpoint plan and commercial scope; changing a species label is insufficient."
+        },
+        {
+          "p": "No animals are assigned and no dosing is authorized. The LIMS allocation is an administrative reference. Naomi Takamori requires written species and purpose confirmation before accepting a request to proceed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Responsibilities and approval route",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Naomi Takamori will approve the design and designate the responsible investigation director before protocol release. Lucia Moretti will check the approval trail and archive plan. Kenji Morita will contribute to review of hazard information affecting laboratory handling."
+        },
+        {
+          "p": "Sarnelvessa Agrochem will supply the development question, characterization, available tolerability evidence and species rationale. Kathryn Holmes may coordinate scheduling once the scientific gate passes. Scheduling correspondence alone is not protocol authorization."
+        },
+        {
+          "p": "The director, animal care personnel and veterinary oversight must agree an urgent welfare escalation route. A welfare decision must not wait for client availability or commercial approval. Scientific discussion follows the immediate care response."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Material and formulation prerequisites",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client will provide a labelled dose lot, identity and composition information, stability guidance, storage instructions and handling assessment. Receipt discrepancies require a hold. No formulation will be released from material whose identity is unresolved."
+        },
+        {
+          "p": "Formulation concentration, homogeneity and period of use must be justified for the chosen vehicle and route before animal exposure. Dose calculations will retain body weight, concentration and administered volume so that each administration is reconstructable."
+        },
+        {
+          "p": "This quotation assumes no pre-established formulation suitability. If feasibility work identifies an unsuitable vehicle or unresolved stability, Naomi Takamori will propose a separate development step or study amendment before booking the animal phase."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Proposed range-finding design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A vehicle control and ascending dose groups are proposed, with both sexes considered in the final design. Allocation, route, treatment duration and recovery provision will be fixed after existing evidence is reviewed. Unsupported dose levels are not prescribed in this quotation."
+        },
+        {
+          "p": "Doses will be expressed in mg/kg/day. Escalation requires evidence from preceding observations and explicit release by the responsible director. An upper dose needs scientific justification; it is not a target to reach irrespective of animal condition."
+        },
+        {
+          "p": "Animal use will be justified against the exploratory question and individual interpretation. Reduction and refinement form part of protocol approval. Reserve room capacity does not authorize additional animals."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Husbandry and welfare preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Before dosing, animal room staff will confirm acclimation, health suitability, housing, and access to feed and water. Individual-animal identifiers will be reconciled with allocation. Baseline observations must distinguish pre-existing concerns from treatment-emergent findings."
+        },
+        {
+          "p": "Environmental and husbandry conditions will be documented on observation sheets. A condition compromising welfare or interpretation must be escalated before exposure. The animal phase remains paused if suitable monitoring or veterinary cover is unavailable."
+        },
+        {
+          "p": "Eesha Sarma may support observations once staffing is confirmed. Personnel must be trained for the procedure and know the urgent contact route. Quotation issuance does not authorize live-animal work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Clinical observations and animal cards",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The protocol will specify pre-dose, post-dose and routine observations. Activity, posture, respiration, gait, appearance, feeding and signs of distress will use agreed descriptive terms. Each animal card will retain actual observation time and observer identity."
+        },
+        {
+          "p": "Body weight and food consumption will retain the individual-animal or clearly identified cage basis. Group summaries cannot conceal individual concerns. Missed observations will remain documented as missed rather than reconstructed from a group impression."
+        },
+        {
+          "p": "An unexpected sign requires immediate welfare assessment and contemporaneous documentation of action. The director will assess its scientific significance afterward. The care response and any subsequent study amendment must both remain traceable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Humane stopping and recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Stopping criteria will address severe or persistent distress, compromised mobility, inability to reach feed or water, marked deterioration and other veterinary concerns. Animals may be removed from dosing or humanely euthanized under approved care procedures. Welfare takes precedence over a scheduled endpoint."
+        },
+        {
+          "p": "Escalation stops when emerging findings make further exposure unjustified. The director and veterinary oversight will consider monitoring, supportive care, cessation or termination. Completing a group is not grounds to override an individual assessment."
+        },
+        {
+          "p": "Recovery duration and endpoints must be approved before allocation. Recovery is not a reason to retain an animal in distress. Reporting will distinguish reversal after cessation from an incomplete observation period."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Terminal procedures and interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Terminal examinations and sample retention will answer the range-finding question. Nathan Wade may coordinate pathology planning once the approved scope is available. Routine gross observations will be distinguished from separately commissioned histopathology or analysis."
+        },
+        {
+          "p": "Individual-animal findings will accompany group summaries. Interpretation will consider vehicle effects, formulation suitability and timing. An exploratory tolerability range is conditional on the procedures performed and cannot establish safety in another species or over a longer exposure."
+        },
+        {
+          "p": "New endpoints or specialized follow-up require a study amendment. Retained samples are not authorization for unrelated analyses. The report must identify any planned endpoint that could not be obtained."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Control validity and documentary QA",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Control validity includes suitable baselines, justified vehicle, traceable administration and environmental documentation. Vehicle controls support dose-group interpretation but do not replace individual animal-card review."
+        },
+        {
+          "p": "Lucia Moretti and Naomi Takamori will define QA gates for protocol authorization, material release, dosing readiness, deviation review and report-to-source reconciliation. Each gate identifies the releasing authority and unresolved conditions."
+        },
+        {
+          "p": "The quoted exploratory package does not promise a GLP compliance statement. A client requirement for GLP must be agreed explicitly before protocol release, with appropriate arrangements and scope."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Budget and deliverables",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed budget is {{PRJ0127:price}} for the rat scope agreed at protocol authorization, welfare monitoring, source documentation and the exploratory report. Design assumptions must be settled before the budget becomes a work instruction."
+        },
+        {
+          "p": "Deliverables include the authorized protocol, approved study amendments, report of performed conditions and individual-animal findings, and an archive index. Other-species work, a definitive longer investigation or specialized analyses require a separate scope."
+        },
+        {
+          "p": "No turnaround is committed because species selection and start authorization remain open. Procurement and room availability will be assessed after those gates. This document contains no laboratory results or claim of administration."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Acceptance conditions and scheduling hold",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Sarnelvessa Agrochem should return written acceptance with confirmation of species strategy, material availability and required compliance status. Naomi Takamori will determine whether a rat protocol can be prepared. Price acceptance alone cannot release the animal phase."
+        },
+        {
+          "p": "If species strategy changes, the client should advise Osterquill before scheduling. This rat quotation remains closed to initiation until the species gate is resolved. No start, interim or completion dates are allocated."
+        },
+        {
+          "p": "Issued 06/12/2024 for client consideration. Authorization to begin: not granted. Client acceptance: not recorded on this copy. Final quotation status denotes a complete commercial document, not an approved or completed investigation."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Naomi Takamori",
+      "role": "Head of Toxicology",
+      "date": "06/12/2024",
+      "signed": true
+    }
+  ]
+}
