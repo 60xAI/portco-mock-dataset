@@ -1,0 +1,127 @@
+{
+  "family": "deck",
+  "summary": "Internal training by Lucia Moretti on individual-animal identifiers, dose-lot traceability and welfare escalation. It defines correction practice, independent QA review and the archive handover required before signed-report release.",
+  "properties": {
+    "title": "Animal cards and QA gate training",
+    "subject": "Animal cards and QA gate training",
+    "keywords": "Osterquill; control validity; safety"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Animal cards: traceability through the QA gate",
+      "subtitle": "Osterquill Toxicology Inc | Internal training | 06/14/2022\nLucia Moretti, GLP Quality Assurance and Archive Lead",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "An animal card must identify one animal throughout",
+      "bullets": [
+        "Carry the investigation identifier and individual-animal identifier on every observation sheet.",
+        "Link cage or group changes to the same animal; never substitute group identity for individual identity.",
+        "Reconcile identifiers at allocation, dosing, sampling and pathology handover.",
+        "An unexplained mismatch blocks reconciliation and must be escalated."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Minimum contemporaneous entry",
+      "bullets": [
+        "Enter observation date and time, observer identity and the individual-animal identifier.",
+        "Describe what was seen before adding interpretation.",
+        "Record the action taken and the subsequent condition when welfare intervention occurs.",
+        "Use MM/DD/YYYY dates consistently; retain the original entry when correcting an error."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Dose-lot traceability",
+      "bullets": [
+        "Link each administration to the prepared dose lot and its preparation observation sheet.",
+        "Retain intended dose in mg/kg/day, formulation concentration, administered volume and the body weight used.",
+        "Document missed, partial or uncertain administrations individually.",
+        "A dose-lot label alone cannot explain which animal received it or when."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Welfare escalation must be immediate",
+      "bullets": [
+        "Contact the responsible Study Director and designated welfare personnel when an intervention criterion is met or an unexpected concern arises.",
+        "Record the observed signs, notification time, advice received and intervention.",
+        "Continue the agreed follow-up observations and link them to the original entry.",
+        "Do not postpone welfare action while waiting for an administrative QA gate."
+      ],
+      "notes": "A scheduled review does not replace real-time welfare oversight. Where the responsible person is unavailable, use the approved escalation route.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Training exercise: incomplete administration entry",
+      "table": {
+        "columns": [
+          "Entry problem",
+          "Required response"
+        ],
+        "rows": [
+          [
+            "Animal identified only by cage",
+            "Reconcile the individual identifier against allocation and source observations."
+          ],
+          [
+            "Dose lot omitted",
+            "Trace the preparation and administration source; preserve the omission and dated correction."
+          ],
+          [
+            "Clinical sign entered without action",
+            "Establish whether notification or intervention occurred; record the evidence and escalate uncertainty."
+          ],
+          [
+            "Time reconstructed from memory",
+            "Identify the entry as retrospective and state the basis; do not present it as contemporaneous."
+          ]
+        ]
+      },
+      "notes": "Discuss these hypothetical omissions with Rachel Okafor. They are training examples, not findings from an actual investigation.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Corrections and study amendments",
+      "bullets": [
+        "Keep the original entry legible; add the correction, date, author and reason.",
+        "Do not backdate an observation or replace an uncertain fact with an assumed value.",
+        "A planned change to conduct requires a controlled study amendment; an accidental departure requires a documented explanation.",
+        "Link the impact assessment to affected animals, dose lots and endpoints."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Independent QA gate before signed-report release",
+      "bullets": [
+        "Reconcile animal identifiers and dose-lot links from source observations to report tables.",
+        "Check that welfare notifications, departures and corrective actions remain visible.",
+        "Confirm control-validity evidence and the stated GLP scope; keep exploratory work separately identified.",
+        "The Study Director resolves scientific findings; Lucia Moretti documents independent QA review and outstanding issues.",
+        "Unresolved traceability issues must be addressed before release authorization."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Archive handover and daily practice",
+      "bullets": [
+        "Transfer signed reports with source indexes, animal cards, observation sheets, study amendments and QA evidence.",
+        "Preserve version and approval history so the released report can be reconstructed.",
+        "Keep access and retrieval links controlled; do not replace originals with a convenient summary.",
+        "Before leaving an entry: can another reader identify the animal, dose lot, observation and action?",
+        "Escalate a missing link while the people and source evidence are available."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    }
+  ]
+}
