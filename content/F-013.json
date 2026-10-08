@@ -1,0 +1,69 @@
+{"family": "workbook",
+ "summary": "Paused interim Vehicle ladder workbook for the Wexanthel WX-19 paediatric suspension (DL_2025_0130). The vehicle screen and the physical stability observations are recorded. The optimisation columns that depend on the flavour panel are left blank, and the work is on hold until Wexanthel decides on the flavour panel.",
+ "properties": {"title": "DL_2025_0130 WX-19 vehicle optimisation (paused, interim)"},
+ "sheets": [
+  {"name": "Summary", "tab_color": "#1F4E79", "col_widths": {"A": 24, "B": 52},
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc, a Tarnovell company: interim bench sheets, WX-19 vehicle optimisation", "bold": true}],
+    [{"v": "INTERIM. Work on hold. Optimisation columns not started.", "bold": true}],
+    [],
+    ["Project", "{{PRJ0116:project_id}}"],
+    ["LIMS reference", "{{PRJ0116:lims_id}}"],
+    ["Title", "Wexanthel WX-19 paediatric suspension: vehicle optimisation"],
+    ["Client", "{{PRJ0116:client_variant}}"],
+    ["Lead", "Dr J. Carver"],
+    ["Team", "Dr M. Serrano, L. Patel"],
+    ["Quote", "12/01/2025"],
+    ["Start", "01/19/2026"],
+    ["Interim review", "02/09/2026"],
+    ["Completion", "Not yet set"],
+    ["Work package value", "{{PRJ0116:price}}"],
+    [],
+    ["Status", "On hold"],
+    ["Current position", "Wexanthel paused optimisation until it decides on the flavour panel. The physical stability samples remain under observation."],
+    ["Sheets", "Vehicle screen, Physical stability (partly filled), Optimisation (not started), Notes"]
+   ],
+   "merged": ["A1:B1", "A2:B2"]},
+  {"name": "Vehicle screen", "tab_color": "#1F4E79", "col_widths": {"A": 36, "B": 22, "C": 30, "D": 34},
+   "rows": [
+    [{"v": "Vehicle screen, target loading 10 mg/mL (interim)", "bold": true}],
+    ["Solubility in mg/mL at equilibrium. Three vehicles read; the paediatric vehicle shortlist depends on the flavour panel."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0116:form_screen", "at": "A4", "header": true}],
+   "merged": ["A1:D1"],
+   "freeze": "A5",
+   "chart": {"kind": "bar", "ref": "PRJ0116:form_screen", "column": 1, "title": "Equilibrium solubility (mg/mL)"},
+   "chart_at": "F4"},
+  {"name": "Physical stability", "tab_color": "#C55A11", "col_widths": {"A": 30, "B": 14, "C": 34, "D": 34},
+   "rows": [
+    [{"v": "Physical stability, 10 mg/mL suspensions, observation log", "bold": true}],
+    ["Vehicle", "Read date", "Observation", "Checked by"],
+    ["0.5% methylcellulose", "02/09/2026", "Settles, redispersible on shaking", "M. Serrano"],
+    ["0.5% HPMC / 0.1% Tween 80", "02/09/2026", "Caking at the bottom of the vial", "M. Serrano"],
+    ["20% HP-β-CD in water", "02/09/2026", "Caking, hard to redisperse", "M. Serrano"],
+    ["0.5% methylcellulose", "", "", ""],
+    ["0.5% HPMC / 0.1% Tween 80", "", "", ""],
+    ["20% HP-β-CD in water", "", "", ""],
+    [],
+    ["Next read", "Due after the hold is lifted. Dates not set."]
+   ],
+   "merged": ["A1:D1"]},
+  {"name": "Optimisation", "tab_color": "#7F7F7F", "col_widths": {"A": 30, "B": 26, "C": 30, "D": 30},
+   "rows": [
+    [{"v": "Optimisation columns, flavour-dependent (not started)", "bold": true}],
+    ["Flavour option", "Sweetener level", "Vehicle compatibility", "Taste panel result"],
+    ["Option A", "", "", ""],
+    ["Option B", "", "", ""],
+    ["Option C", "", "", ""],
+    [],
+    ["Columns stay blank until Wexanthel confirms the panel. Do not fill from the earlier vehicle screen."]
+   ]},
+  {"name": "Notes", "tab_color": "#7F7F7F", "col_widths": {"A": 16, "B": 92},
+   "rows": [
+    ["Date", "Development note"],
+    ["02/09/2026", "Interim read. The methylcellulose vehicle settles but redisperses. The two HP-β-CD and HPMC/Tween vehicles cake at 24 h and are not suitable for a paediatric suspension without changes."],
+    ["02/09/2026", "Optimisation paused at Wexanthel's request until the flavour panel decision. No further work is booked on this work package."],
+    ["02/09/2026", "Samples retained under observation. Next read to be booked when the hold is lifted."]
+   ]}
+ ]}
