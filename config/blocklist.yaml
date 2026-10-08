@@ -1,0 +1,191 @@
+# Proper names that must never appear in generated content (exact + fuzzy).
+# Known collisions with the original DEV-1369 names:
+known_collisions:
+  - Halden
+  - Northgate
+  - NGP
+  - Jim Thompson
+  - James Thompson
+# Major real CROs / CDMOs / service providers
+cros:
+  - Charles River
+  - Labcorp
+  - Covance
+  - IQVIA
+  - Quintiles
+  - ICON
+  - PPD
+  - Parexel
+  - Syneos
+  - Medpace
+  - WuXi
+  - WuXi AppTec
+  - Pharmaron
+  - Evotec
+  - Eurofins
+  - Cyprotex
+  - Sygnature
+  - Concept Life Sciences
+  - Domainex
+  - Selcia
+  - Aptuit
+  - Inotiv
+  - Envigo
+  - Frontage
+  - BioDuro
+  - Sai Life Sciences
+  - Syngene
+  - Jubilant
+  - Curia
+  - Albany Molecular
+  - AMRI
+  - Catalent
+  - Lonza
+  - Recipharm
+  - Quotient Sciences
+  - Almac
+  - Intertek
+  - SGS
+  - Pace Analytical
+  - Oncodesign
+  - Crown Bioscience
+  - Champions Oncology
+  - Reaction Biology
+  - Eurofins Discovery
+  - DiscoverX
+  - Metrion
+  - Sophion
+  - Nanion
+  - Schrödinger
+  - Schrodinger
+  - Exscientia
+  - Recursion
+  - Certara
+  - Simulations Plus
+  - Optibrium
+  - Cresset
+  - BioAscent
+  - Charnwood Molecular
+  - Peak Proteins
+  - Vertex Pharmaceuticals
+  - Sygnature Discovery
+  - Viva Biotech
+  - Shanghai ChemPartner
+  - ChemPartner
+  - Enamine
+  - ChemDiv
+  - Asinex
+  - Hit2Lead
+  - BioReliance
+  - Gentronix
+  - Huntingdon Life Sciences
+  - Harlan
+  - Inveresk
+  - Pharmidex
+  - XenoGesis
+  - Admescope
+  - Cypex
+  - Corning Gentest
+  - BioIVT
+  - Xenotech
+  - Thermo Fisher
+  - Patheon
+  - Merck Millipore
+  - MilliporeSigma
+  - Sigma-Aldrich
+# Major real pharma / biotech
+pharma:
+  - Pfizer
+  - Novartis
+  - Roche
+  - Genentech
+  - Merck
+  - MSD
+  - GSK
+  - GlaxoSmithKline
+  - AstraZeneca
+  - Sanofi
+  - Johnson & Johnson
+  - Janssen
+  - AbbVie
+  - Abbott
+  - Bristol Myers Squibb
+  - Bristol-Myers Squibb
+  - BMS
+  - Eli Lilly
+  - Lilly
+  - Amgen
+  - Gilead
+  - Biogen
+  - Bayer
+  - Boehringer Ingelheim
+  - Takeda
+  - Astellas
+  - Daiichi Sankyo
+  - Eisai
+  - Otsuka
+  - Chugai
+  - Novo Nordisk
+  - Lundbeck
+  - UCB
+  - Ipsen
+  - Servier
+  - Teva
+  - Viatris
+  - Mylan
+  - Sandoz
+  - Regeneron
+  - Vertex
+  - Moderna
+  - BioNTech
+  - CSL
+  - Grifols
+  - Almirall
+  - Menarini
+  - Chiesi
+  - Zambon
+  - Esteve
+  - Ferring
+  - Galderma
+  - Leo Pharma
+  - Orion
+  - Hikma
+  - Indivior
+  - Shire
+  - Allergan
+  - Celgene
+  - Alexion
+  - Incyte
+  - Seagen
+  - Alnylam
+  - BeiGene
+  - Hengrui
+  - Sun Pharma
+  - Cipla
+  - Dr. Reddy's
+  - Lupin
+  - Glenmark
+  - Wockhardt
+  - Wyeth
+  - Schering
+  - Organon
+  - Merck KGaA
+  - Grünenthal
+  - Grunenthal
+  - Idorsia
+  - Actelion
+  - Galapagos
+  - argenx
+  - Genmab
+  - Bavarian Nordic
+  - Vernalis
+  - Astex
+  - Heptares
+  - Sosei
+  - Mundipharma
+  - Napp
+  - Ono Pharmaceutical
+  - Kyowa Kirin
+  - Sumitomo
+  - Shionogi
+  - Mitsubishi Tanabe

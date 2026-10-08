@@ -1,0 +1,43 @@
+# Model routing for T3 Code delegate_task. `mockgen next` reads this file and
+# prints the target for each batch, so briefs never hard-code models.
+targets:
+  sol:
+    providerInstanceId: codex
+    model: gpt-6.1-sol
+    options: {reasoningEffort: medium}
+  haiku_medium:
+    providerInstanceId: claudeAgent
+    model: claude-haiku-5-5
+    options: {effort: medium}
+  haiku_low:
+    providerInstanceId: claudeAgent
+    model: claude-haiku-5-5
+    options: {effort: low}
+  orchestrator:
+    note: written by the orchestrating T3 thread (Claude Opus 5.5) itself; no delegation
+
+# task -> target
+routing:
+  names_screening: sol
+  world_core: sol
+  manifest_firm: sol
+  science_content: sol        # reports, readouts, proposals with prices, SOPs, capability decks
+  admin_content: haiku_medium # admin/HR/finance docs, tracker notes, older copies of Sol-written files
+  junk_content: haiku_low     # junk files, filenames, document properties
+  planted_content: orchestrator
+  pilot_content: orchestrator
+  critique: sol               # all planted-answer files + 1 in 5 Haiku files; content only
+
+# manifest writer_tier -> target used by `mockgen next --tier`
+tiers:
+  sol: sol
+  haiku: haiku_medium
+  haiku_low: haiku_low
+  orchestrator: orchestrator
+
+delegation_rules:
+  runtimeMode: full-access
+  mode: async
+  max_concurrent: 20
+  batch_size: [5, 8]
+  client_request_id_pattern: "dev1369-content-{firm}-{nn}"

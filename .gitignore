@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+state/*.lock
+state/claims.db*
+.DS_Store
+data/public/
