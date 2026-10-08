@@ -1,0 +1,196 @@
+{
+  "family": "deck",
+  "summary": "Final RC-3 RNA-seq readout for Rimucavel Therapeutics. Correction removed a handling-associated cluster and retained a reproducible tumour-subtype signature, with independent follow-up recommended and model uncertainty retained.",
+  "properties": {
+    "title": "QV.11.073 RC-3 batch-aware expression readout",
+    "subject": "RNA-seq differential expression; final model gate",
+    "keywords": "RC-3; handling; subtype; reproducibility"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "RC-3 tumour RNA-seq: batch-aware expression atlas",
+      "subtitle": "{{PRJ0074:project_id}} | Rimucavel Therapeutics | 03 Apr 2012\nDr T. Zawiernicki | Quenverell Computational Ltd",
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Biological question and conclusion",
+      "bullets": [
+        "Does RC-3 expression separate tumour subtypes after accounting for handling?",
+        "Correction removed a handling-associated cluster.",
+        "A reproducible tumour-subtype signature remains suitable for follow-up.",
+        "Expression association does not establish a causal tumour mechanism."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interpretation at the model gate",
+      "bullets": [
+        "Handling-associated separation: set aside as a biological subtype claim.",
+        "Tumour-subtype signature: retain for independent follow-up.",
+        "Model uncertainty: keep the design limitations with the recommendation."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Engagement provenance",
+      "bullets": [
+        "Rimucavel Therapeutics supplied the RC-3 tumour RNA-seq data drop and sample annotations.",
+        "Engagement {{PRJ0074:project_id}}; accession {{PRJ0074:lims_id}}.",
+        "Analysis opened 25 Jan 2012; interim interpretation dated 28 Feb 2012.",
+        "Final readout: 03 Apr 2012."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Inputs and annotation boundaries",
+      "bullets": [
+        "Link expression evidence to handling and tumour-subtype annotations through sample identifiers.",
+        "Keep supplied labels distinct from labels inferred by the model.",
+        "Use the same accepted inputs when comparing adjusted and unadjusted interpretations."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Data acceptance",
+      "bullets": [
+        "Reconcile expression identifiers with the annotation table.",
+        "Inspect read assignment, library composition and expression distributions before contrasts.",
+        "Retain exclusions and reasons in the analysis notebook.",
+        "Correction cannot compensate for unacceptable input data."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analysis responsibilities",
+      "bullets": [
+        "Dr E. Ostlund: expression analysis and model comparisons.",
+        "Nadia Rahmani: input provenance and annotation reconciliation.",
+        "Dr T. Zawiernicki: biological interpretation and final recommendation."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducible analysis route",
+      "bullets": [
+        "Supplied data drop → identifier reconciliation → data acceptance.",
+        "Unadjusted expression model → handling-aware model → subtype assessment.",
+        "Retain input mapping, contrast definitions and analysis settings together."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Unadjusted expression structure",
+      "bullets": [
+        "The original expression structure included a handling-associated cluster.",
+        "Inspect handling annotations alongside subtype labels before interpreting separation.",
+        "A distinct cluster alone is insufficient evidence for a tumour subtype."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Handling-aware model",
+      "bullets": [
+        "Represent documented handling differences explicitly.",
+        "Estimate subtype contrasts conditional on handling terms.",
+        "Preserve contrast definitions between model specifications.",
+        "Describe limitations where handling and subtype overlap."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Effect of correction",
+      "bullets": [
+        "Correction removed the handling-associated cluster.",
+        "This does not establish absence of all technical variation.",
+        "The handling-aware interpretation supersedes the original biological reading of that cluster.",
+        "Retain the unadjusted analysis as provenance."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Subtype signal after adjustment",
+      "bullets": [
+        "A reproducible tumour-subtype signature remains.",
+        "Carry the signature forward as an expression association.",
+        "The originating cell population cannot be inferred from this outcome alone."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Differential-expression reporting",
+      "bullets": [
+        "Use log2 fold change with adjusted probabilities in numerical outputs.",
+        "Keep effect direction, annotation version and contrast definition together.",
+        "No numerical expression table is supplied with this qualitative readout."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Sensitivity questions",
+      "bullets": [
+        "Does interpretation depend on the handling specification?",
+        "Can correlated handling and subtype terms be separated by the supplied design?",
+        "Do influential profiles change the biological reading?",
+        "Retain the sensitivity assessment with the analysis notebook."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Remaining model uncertainty",
+      "bullets": [
+        "Residual handling effects may remain.",
+        "Tissue composition can contribute to subtype-associated expression.",
+        "Reproducibility within the engagement does not establish prospective prediction."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Independent follow-up",
+      "bullets": [
+        "Use independent tumour material with separately established subtype labels.",
+        "Balance handling across subtype where feasible.",
+        "Freeze the candidate signature before evaluating the next data drop.",
+        "Review discordant profiles against provenance before changing labels."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducibility handover",
+      "bullets": [
+        "Retain accepted input identifiers under {{PRJ0074:lims_id}}.",
+        "Keep model definitions, exclusions and annotation mapping with the analysis notebook.",
+        "Preserve both unadjusted and handling-aware interpretations with dates.",
+        "Nadia Rahmani is the provenance contact."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final recommendation",
+      "bullets": [
+        "Close {{PRJ0074:project_id}} using the handling-aware interpretation.",
+        "Do not progress the handling-associated cluster as a biological subtype.",
+        "Take the reproducible tumour-subtype signature into independent follow-up.",
+        "Dr T. Zawiernicki | 03 Apr 2012"
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    }
+  ]
+}
