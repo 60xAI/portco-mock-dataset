@@ -1,0 +1,13 @@
+{"family": "workbook",
+ "summary": "Near-empty sample-intake scratch workbook. It has three column headings and one blank formatted row left over from a layout trial that was not carried on.",
+ "properties": {"title": "Sample intake layout"},
+ "sheets": [
+  {"name": "Intake", "rows": [
+    [{"v": "Durnesswick Laboratories Inc, a Tarnovell company", "bold": true}],
+    [],
+    [{"v": "Sample ID", "bold": true}, {"v": "Received", "bold": true}, {"v": "Container", "bold": true}],
+    [{"v": "", "fill": "#FFF2CC"}, {"v": "", "fill": "#FFF2CC"}, {"v": "", "fill": "#FFF2CC"}]
+   ],
+   "col_widths": {"A": 20, "B": 16, "C": 20},
+   "freeze": "A4"}
+ ]}
