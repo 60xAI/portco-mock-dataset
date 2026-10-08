@@ -1,0 +1,346 @@
+{
+  "family": "document",
+  "summary": "Draft recovery-investigation SOP for Caco-2 flux and efflux ratio. It separates mass-balance triggers, matrix acceptance escalation and repeat documentation; trigger limits and approval remain unresolved.",
+  "properties": {
+    "title": "Recovery investigation for Caco-2 flux and efflux ratio"
+  },
+  "header": "Merrivoss Bioanalysis Inc, a Tarnovell company | Recovery SOP v04 | DRAFT — not effective",
+  "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "Recovery investigation for Caco-2 flux and efflux ratio",
+    "subtitle": "Recovery SOP v04 | DRAFT — not effective",
+    "lines": [
+      "Merrivoss Bioanalysis Inc, a Tarnovell company",
+      "Date: 03/09/2026",
+      "Prepared by: Helen Marchwood, Bioanalytical Quality Manager",
+      "Revision: v04",
+      "Effective date: [TBC]",
+      "Replaces: earlier recovery working procedure only after approval"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose, status and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This draft defines how to investigate inadequate recovery during Caco-2 flux and efflux ratio work. The first assessment is analytical and matrix-specific; no transport conclusion is released until recovery concerns have been dispositioned. The procedure covers donor, receiver and supporting recovery samples in both transport directions."
+        },
+        {
+          "p": "DRAFT — not effective. The mass-balance trigger limits and approval section remain open. Existing approved study instructions continue to govern live work until this revision is authorized. Helen Marchwood has circulated v04 for scientific comment on 03/09/2026."
+        },
+        {
+          "p": "The procedure does not assume that low recovery establishes active efflux. Adsorption, precipitation, cell association, analytical suppression and sample handling must be considered before biological interpretation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Responsibilities and escalation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The assay scientist identifies the affected insert, direction, test article and time point in the assay worksheet. Daisuke Sato advises on monolayer handling and transport conditions. Javier Quintana reviews parent response, calibration and matrix effects. Helen Marchwood determines matrix acceptance disposition with the study director."
+        },
+        {
+          "p": "The study director owns the effect on the client conclusion and decides whether an exposure gate remains open. Priya Nandekuri reviews changes to the scientific scope. Escalation is required when the concern cannot be isolated to a documented analytical cause."
+        },
+        {
+          "table": {
+            "columns": [
+              "Role",
+              "Required action"
+            ],
+            "rows": [
+              [
+                "Assay scientist",
+                "Flag affected samples and preserve original calculations"
+              ],
+              [
+                "Mass-Spectrometry Manager",
+                "Assess analytical limits and response"
+              ],
+              [
+                "Bioanalytical Quality Manager",
+                "Document matrix acceptance disposition"
+              ],
+              [
+                "Study director",
+                "Authorize repeat scope and report qualification"
+              ]
+            ],
+            "caption": "Draft responsibility map"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Recovery calculation and sample map",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Calculate recovered parent mass using measured concentration and the represented volume for each compartment. Retain donor and receiver terms separately. Correct for sampling replacement only when the recorded protocol requires it, using the actual sampled and replacement volumes. The nominal starting mass is not interchangeable with a measured zero-time mass."
+        },
+        {
+          "p": "Mass balance (%) = 100 × accounted parent mass / starting parent mass. The denominator convention must be stated in the assay worksheet. Cell-associated material may be included only when a qualified extraction is part of the study design; an unmeasured cellular fraction must not be assigned an assumed value."
+        },
+        {
+          "p": "The worksheet must identify matrix, direction, incubation duration, insert identity and dilution. Mixing concentrations without accounting for volume creates a misleading recovery estimate. A receiver value below the quantitation limit is not a measured zero."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Investigation triggers — limits unresolved",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Flag a mass-balance result outside [TBC] to [TBC]%. The proposed lower recovery trigger is XX%; the upper trigger remains [TBC] pending assessment of dilution and sampling corrections. These placeholders must not be used as effective acceptance limits."
+        },
+        {
+          "p": "Open an investigation when directional recovery differs materially, apparent permeability depends on a low receiver response, visible precipitation occurs, or the denominator cannot be traced. An efflux ratio alone does not determine whether recovery is adequate."
+        },
+        {
+          "p": "The analyst may release an efflux ratio after recovery review."
+        },
+        {
+          "table": {
+            "columns": [
+              "Trigger",
+              "Immediate disposition",
+              "Limit status"
+            ],
+            "rows": [
+              [
+                "Low or high mass balance",
+                "Hold affected interpretation",
+                "[TBC]"
+              ],
+              [
+                "Directional imbalance",
+                "Check compartment measurements and volumes",
+                "Scientific review required"
+              ],
+              [
+                "Visible precipitation",
+                "Record appearance; assess solubility limitation",
+                "Qualitative trigger"
+              ],
+              [
+                "Untraceable starting mass",
+                "Resolve denominator before calculation",
+                "Mandatory traceability check"
+              ]
+            ],
+            "caption": "Proposed triggers; approval pending"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Initial triage and matrix acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Preserve the original extraction and calculation records before starting a repeat. Check unit conversions, compartment labels, actual volumes and dilution factors first. Then examine blank matrix, calibration, internal-standard response and potential carryover. Record the evidence used to exclude or retain each explanation."
+        },
+        {
+          "p": "If matrix acceptance is not established, pause transport interpretation and refer the run to Javier Quintana and Helen Marchwood. Do not describe a low-recovery signal as biological loss while the analytical range or matrix response remains uncertain."
+        },
+        {
+          "p": "Receiver and donor matrices can produce different analytical behavior. Investigate them separately; acceptable donor measurement does not establish acceptable receiver measurement. Broaden the investigation only where evidence shows the concern extends beyond an individual sample."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Biological and physical causes",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "After analytical suitability is assessed, consider noncellular adsorption, precipitation and parent instability. Use matched controls appropriate to the suspected cause. A no-cell incubation can inform surface or solution loss but cannot reproduce cell-associated retention. A cellular extraction requires a qualified recovery assessment of its own."
+        },
+        {
+          "p": "Review monolayer integrity and any disruption associated with the affected insert. An integrity concern changes interpretation of flux, even where parent mass is accounted for. Compare the two transport directions without assuming that an asymmetry proves transporter activity."
+        },
+        {
+          "p": "The repeat design will include a noncellular recovery control. A minimum control set is [TBC]; Daisuke Sato and Priya Nandekuri are to resolve when additional cellular extraction is justified before this SOP is approved."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Repeat authorization and documentation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The repeat request records the suspected cause, the affected scope, the question to be answered and the disposition criteria. Distinguish re-injection, re-extraction and a new transport experiment. They test different parts of the process and cannot be documented simply as rerun."
+        },
+        {
+          "p": "Retain the initial result with the reason it was superseded. Do not replace it in the assay worksheet without a visible link to the repeat. Where the repeat answers only an analytical question, the original transport conditions and biological limitations remain relevant."
+        },
+        {
+          "p": "Repeat results replace the initial values in the client table."
+        },
+        {
+          "table": {
+            "columns": [
+              "Required field",
+              "Entry instruction"
+            ],
+            "rows": [
+              [
+                "Affected scope",
+                "Test article, insert, direction, time point and matrix"
+              ],
+              [
+                "Suspected cause",
+                "Evidence and unresolved alternative"
+              ],
+              [
+                "Repeat type",
+                "Re-injection, re-extraction or new experiment"
+              ],
+              [
+                "Authorization",
+                "Study director and matrix acceptance owner"
+              ],
+              [
+                "Final disposition",
+                "Reportable result, qualification and retained original link"
+              ]
+            ],
+            "caption": "Repeat record requirements"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Reporting and investigation closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The report states the matrix acceptance decision before the flux and efflux ratio conclusion. Record whether recovery supports interpretation, limits precision or prevents a directional comparison. A numerically calculable ratio is not necessarily a reportable biological result."
+        },
+        {
+          "p": "Closure requires a cause assessment, evidence reviewed, repeat disposition and impact on the exposure gate. If the cause remains unresolved, retain that uncertainty in the conclusion. Avoid an unqualified transport claim based on a receiver signal near the quantitation limit."
+        },
+        {
+          "p": "Proposed closure wording: Recovery was assessed in the recorded donor and receiver matrices; the interpretation is subject to the documented recovery limitation. The exact qualification depends on the investigation and must not be copied as a generic acceptance statement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Approval, training and open items",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Approval is unresolved. Helen Marchwood has not authorized an effective date. The mass-balance limits, denominator convention for standard templates and mandatory control set must be completed before signature. Training assignment and controlled-copy distribution remain [TBC]."
+        },
+        {
+          "p": "Open question for Priya Nandekuri: should the same recovery window govern both directions when their donor and receiver matrices differ? Open question for Javier Quintana: what minimum analytical evidence permits a below-range receiver sample to support a qualified flux statement?"
+        },
+        {
+          "p": "Approval signatures: [TBC]. Effective date: [TBC]. Implementation note: remove the DRAFT watermark only after approval and issue the controlled revision; preserve this working version in the recovery SOP archive."
+        },
+        {
+          "table": {
+            "columns": [
+              "Open item",
+              "Owner",
+              "Disposition"
+            ],
+            "rows": [
+              [
+                "Mass-balance limits",
+                "Helen Marchwood",
+                "[TBC]"
+              ],
+              [
+                "Biological control set",
+                "Daisuke Sato / Priya Nandekuri",
+                "[TBC]"
+              ],
+              [
+                "Below-range reporting convention",
+                "Javier Quintana",
+                "[TBC]"
+              ],
+              [
+                "Approval and training",
+                "Helen Marchwood",
+                "Not authorized"
+              ]
+            ],
+            "caption": "v04 approval checklist"
+          }
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Helen Marchwood",
+      "role": "Prepared draft; approval pending",
+      "date": "03/09/2026",
+      "signed": false
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [
+    {
+      "find": "The analyst may release an efflux ratio after recovery review.",
+      "insert": "Release requires documented matrix acceptance and study-director disposition of the recovery investigation.",
+      "delete": true,
+      "author": "Megan Larkin",
+      "date": "2026-03-09"
+    },
+    {
+      "find": "The repeat design will include a noncellular recovery control.",
+      "insert": " Include separate donor and receiver matrix checks where analytical response differs.",
+      "delete": false,
+      "author": "Javier Quintana",
+      "date": "2026-03-09"
+    },
+    {
+      "find": "Repeat results replace the initial values in the client table.",
+      "insert": "A selected repeat may be used in the client table only with traceable disposition of the initial values.",
+      "delete": true,
+      "author": "Priya Nandekuri",
+      "date": "2026-03-09"
+    }
+  ],
+  "comments": [
+    {
+      "anchor": "The proposed lower recovery trigger is XX%",
+      "text": "Keep unresolved until the directional matrix review is complete. Do not adopt a numerical limit from an individual investigation.",
+      "author": "Megan Larkin"
+    },
+    {
+      "anchor": "Approval is unresolved.",
+      "text": "Scientific review is still open; leave the effective date blank.",
+      "author": "Helen Marchwood"
+    }
+  ]
+}
