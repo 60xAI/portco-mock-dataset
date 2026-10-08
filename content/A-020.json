@@ -1,0 +1,48 @@
+{
+ "family": "workbook",
+ "summary": "Interim tracker for the Rimucavel RC-17 backup route, paused on 11 Jun 2025. It inventories the isolated intermediates held in controlled storage and leaves the backup-route milestones blank until the programme restarts. Entries stay partial because the route campaign is on hold.",
+ "properties": {
+  "title": "VD-25-066 RC-17 storage tracker (paused)"
+ },
+ "sheets": [
+  {
+   "name": "Storage inventory",
+   "start": "A1",
+   "rows": [
+    [{"v": "VD-25-066 RC-17 backup route: storage inventory", "bold": true}],
+    [{"v": "Vellacombe Discovery Ltd, a Tarnovell company", "bold": true}],
+    [],
+    ["Client", "{{PRJ0031:client_variant}}", null, "Programme", "{{PRJ0031:project_id}}"],
+    ["Status", "Paused. Client funding round delayed.", null, "LIMS", "{{PRJ0031:lims_id}}"],
+    [],
+    ["Material", "Form", "Storage location", "Container", "Quantity (g)", "Last checked", "Notes"],
+    ["Protected amine intermediate", "Solid", "Controlled storage, cabinet 2", "Amber glass, screw cap", "[TBC]", "11 Jun 2025", "Hygroscopic; keep desiccated"],
+    ["Coupled ester intermediate", "Oil", "Controlled storage, cabinet 2", "Amber glass", "", "11 Jun 2025", ""],
+    ["Chloro-pyrimidine intermediate", "Solid", "Controlled storage, cabinet 3", "Glass vial", "", "", "Check seal before reuse"],
+    ["Impurity reference, route B", "Solution in DMSO", "Freezer", "Screw-cap vial", "", "", "[TBC] concentration"],
+    [],
+    ["", "", "", "", "", "", ""]
+   ],
+   "col_widths": {"A": 30, "B": 16, "C": 30, "D": 24, "E": 14, "F": 14, "G": 36},
+   "merged": ["A1:G1", "A2:G2"],
+   "comments": [{"cell": "G8", "text": "Desiccant needs changing before anyone opens this vial again.", "author": "Hassan Darwish"}],
+   "tab_color": "#1F4E79"
+  },
+  {
+   "name": "Backup route",
+   "start": "A1",
+   "rows": [
+    ["Milestone", "Step", "Owner", "Target", "Status"],
+    ["Route B confirmed on paper", "Literature and conditions check", "Dr H. Darwish", "", "On hold"],
+    ["Protected amine re-characterised", "1H NMR and HPLC", "Dr H. Darwish", "", "On hold"],
+    ["Impurity standards prepared", "Route B impurity set", "Clara Fenwick", "", "On hold"],
+    ["Route gate: backup route selected", "Decision with client", "Dr R. Calderwood", "", "Not passed"],
+    [],
+    ["", "", "", "", ""]
+   ],
+   "freeze": "A2",
+   "col_widths": {"A": 36, "B": 34, "C": 20, "D": 14, "E": 14},
+   "comments": [{"cell": "D2", "text": "Targets to be agreed once Rimucavel confirm the funding date.", "author": "Ruth Calderwood"}]
+  }
+ ]
+}
