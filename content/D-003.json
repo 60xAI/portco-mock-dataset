@@ -1,0 +1,200 @@
+{
+  "family": "deck",
+  "summary": "Final neuronal RNA-seq NGS reanalysis readout for Doventhar Therapeutics. Junction-level analysis resolved the apparent gene-expression conflict and supported a focused validation experiment; the deck preserves annotation provenance and the limits of computational inference.",
+  "properties": {
+    "title": "QV.15.065 neuronal splice-junction reanalysis v2",
+    "subject": "NGS reanalysis and focused validation design",
+    "keywords": "neuronal; RNA-seq; junction; validation"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Neuronal RNA-seq: splice-junction reanalysis",
+      "subtitle": "{{PRJ0076:project_id}} | Doventhar Therapeutics | 23 Dec 2015\nDr T. Zawiernicki | Quenverell Computational Ltd",
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Question and model-gate outcome",
+      "bullets": [
+        "Can junction-level evidence explain the apparent gene-expression conflict?",
+        "NGS reanalysis resolved the apparent conflict at junction level.",
+        "The result supports a focused validation experiment.",
+        "The computational interpretation is not experimental validation."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Engagement chronology",
+      "bullets": [
+        "Start: 05 Oct 2015; interim discussion: 13 Nov 2015.",
+        "Final reanalysis readout: 23 Dec 2015.",
+        "Data provenance accession: {{PRJ0076:lims_id}}."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Source evidence",
+      "bullets": [
+        "Doventhar Therapeutics supplied neuronal RNA-seq for reanalysis.",
+        "Retain read-level inputs and sample annotations together.",
+        "Link derived junction evidence back to the original sample identifiers."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "The apparent conflict",
+      "bullets": [
+        "Gene-level summaries did not provide a coherent biological interpretation.",
+        "A gene-level total aggregates reads from different transcript configurations.",
+        "Investigate the junction evidence before treating the discrepancy as a contradictory biological response."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Data acceptance",
+      "bullets": [
+        "Check sample mapping and read-level input integrity.",
+        "Review alignment ambiguity and junction-supporting reads.",
+        "Keep failed acceptance checks distinct from absence of biological evidence."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Annotation reconciliation",
+      "bullets": [
+        "Keep reference sequence and transcript annotation versions explicit.",
+        "Map junction coordinates consistently before comparing samples.",
+        "Do not silently combine counts generated from different annotation definitions."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Junction-level analysis route",
+      "bullets": [
+        "Recover splice-spanning evidence from the accepted RNA-seq input.",
+        "Associate junctions with compatible transcript configurations.",
+        "Compare the relevant junction patterns with the gene-level interpretation."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What a junction measures",
+      "bullets": [
+        "A splice-spanning read supports a connection between exonic regions.",
+        "Support for a connection does not by itself establish a complete transcript.",
+        "Read depth and mapping ambiguity affect confidence in interpretation."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Comparison with gene-level totals",
+      "bullets": [
+        "Preserve gene-level summaries as a contextual measure.",
+        "Ask whether the aggregated expression total masks distinct transcript usage.",
+        "Do not equate changed junction representation with changed total expression."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Resolved interpretation",
+      "bullets": [
+        "Junction-level analysis resolved the apparent gene-expression conflict.",
+        "The interpretation should therefore refer to the informative junctions.",
+        "Avoid carrying the original conflict forward as evidence for opposing mechanisms."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Evidence boundaries",
+      "bullets": [
+        "No numerical junction table is supplied in this readout.",
+        "No specific transcript identifier is assigned here without the source annotation.",
+        "The qualitative outcome supports experimental focus, rather than a quantitative effect claim."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Model uncertainty",
+      "bullets": [
+        "Ambiguously aligned reads can support more than one explanation.",
+        "Transcript annotation incompleteness limits reconstruction.",
+        "Neuronal sample composition can influence aggregate expression."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Focused validation question",
+      "bullets": [
+        "Does an independent measurement support the junction interpretation?",
+        "Select an assay that distinguishes the informative splice connection from shared transcript sequence.",
+        "Retain a gene-level measurement as context rather than the sole endpoint."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Proposed validation design",
+      "bullets": [
+        "Use junction-spanning primers where the sequence permits.",
+        "Include a shared-region assay and appropriate negative controls.",
+        "Assess specificity before interpreting biological samples.",
+        "Use matched material where available and preserve sample provenance."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision criteria for follow-up",
+      "bullets": [
+        "Concordant junction evidence supports the reanalysis interpretation.",
+        "Discordance requires review of assay specificity, mapping and sample identity.",
+        "Do not resolve discordance by changing transcript labels after seeing the result."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducibility responsibilities",
+      "bullets": [
+        "Dr E. Ostlund: junction-level interpretation.",
+        "Nadia Rahmani: input mapping and annotation provenance.",
+        "Dr T. Zawiernicki: final model-gate recommendation."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analysis notebook handover",
+      "bullets": [
+        "Retain input identifiers, alignment settings and annotation versions under {{PRJ0076:lims_id}}.",
+        "Preserve junction definitions and their connection to gene summaries.",
+        "Keep the interim conflict and final resolution dated and traceable."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final recommendation",
+      "bullets": [
+        "Close {{PRJ0076:project_id}} with the junction-level interpretation.",
+        "Proceed to a focused validation experiment.",
+        "Report computational resolution separately from experimental confirmation.",
+        "Dr T. Zawiernicki | 23 Dec 2015"
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    }
+  ]
+}
