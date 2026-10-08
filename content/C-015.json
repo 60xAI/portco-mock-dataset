@@ -1,70 +1,225 @@
-{"family": "workbook",
- "summary": "Assay worksheet for MV-2008-013, the KT12 permeability, solubility and plasma-binding decision set for Kelbravik Therapeutics ApS: 32 cyclopropyl carboxamide analogues run in Caco-2, plasma protein binding and kinetic solubility. The permeability and solubility results separate the series into a branch limited by efflux and a branch limited by solubility, which Kelbravik took forward for a focused formulation assessment.",
- "properties": {"title": "MV-2008-013 assay worksheet (KT12 decision set)"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-    [{"v": "Merrivoss Bioanalysis Inc: assay worksheet", "bold": true}],
-    ["Project", "{{PRJ0056:project_id}}", null, "LIMS", "{{PRJ0056:lims_id}}"],
-    ["Client", "{{PRJ0056:client_variant}}"],
-    ["Study", "KT12 permeability, solubility and plasma-binding decision set"],
-    ["Series", "SER12, cyclopropyl carboxamide (KT12 prefix)"],
-    ["Compounds", "{{PRJ0056:n_compounds}}"],
-    ["Quote", "01/10/2008"],
-    ["Start", "02/18/2008"],
-    ["Interim", "03/05/2008"],
-    ["Completion", "03/21/2008"],
-    [],
-    ["Assay", "Protocol", "Sheet"],
-    ["Plasma protein binding", "fu,p by equilibrium dialysis, human plasma, RED 4 h at 37 °C", "Plasma binding"],
-    ["Caco-2 permeability", "Bidirectional flux at 10 µM, pH 7.4", "Caco-2"],
-    ["Kinetic solubility", "DMSO dilution into PBS pH 7.4, read in µM", "Solubility and benchmark"],
-    [],
-    ["Reviewed by", "Megan Larkin", null, "Checked", "Helen Marchwood, 03/21/2008"]
-   ],
-   "col_widths": {"A": 26, "B": 60, "C": 22, "D": 12, "E": 26},
-   "merged": ["A1:E1"]
+{
+  "family": "workbook",
+  "summary": "Assay worksheet for {{PRJ0056:project_id}}, the KT12 permeability, solubility and plasma-binding decision set for Kelbravik Therapeutics ApS: {{PRJ0056:n_compounds}} cyclopropyl carboxamide analogues. Human plasma binding, bidirectional Caco-2 flux and kinetic solubility are reported separately. Kelbravik separated a permeability-limited branch from a solubility-limited branch and commissioned a focused formulation assessment.",
+  "properties": {
+    "title": "MV-2008-013 assay worksheet (KT12 decision set)"
   },
-  {"name": "Caco-2",
-   "rows": [
-    [{"v": "Caco-2 bidirectional permeability (house name: Caco-2 flux and efflux ratio)", "bold": true}],
-    ["10 µM dosing, pH 7.4 both sides, two hours at 37 °C. Efflux ratio is Papp B-A over Papp A-B. Values above 2 are treated as efflux-limited in the decision set."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0056:caco2", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 22, "C": 22, "D": 14, "E": 14},
-   "number_formats": {"B5:B36": "0.0", "C5:C36": "0", "D5:D36": "0.0"},
-   "chart": {"kind": "bar", "ref": "PRJ0056:caco2", "column": 3, "title": "Efflux ratio", "y_label": "B-A / A-B"},
-   "chart_at": "G4",
-   "comments": [{"cell": "D4", "text": "Efflux ratio recalculated from the flux values in the table; no rounding applied before the ratio.", "author": "Javier Quintana"}]
-  },
-  {"name": "Plasma binding",
-   "rows": [
-    [{"v": "Plasma protein binding, human (house name: fu,p by equilibrium dialysis)", "bold": true}],
-    ["RED device, 4 h at 37 °C, 1:1 plasma to buffer. Recovery reported on both chambers; recovery below 80% flagged in the notes column of the run sheet."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0056:ppb", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 14, "C": 16, "D": 16},
-   "number_formats": {"B5:B36": "0.0", "C5:C36": "0.00", "D5:D36": "0"},
-   "tab_color": "#7F7F7F"
-  },
-  {"name": "Solubility and benchmark",
-   "rows": [
-    [{"v": "Kinetic solubility, PBS pH 7.4 (house name: DMSO-dilution solubility)", "bold": true}],
-    ["Top concentration 200 µM from a 10 mM DMSO stock; final DMSO 2%. Results reported as the highest concentration below precipitation by nephelometry. Values shown as '>200' were not precipitated at the top concentration."],
-    []
-   ],
-   "data_refs": [
-    {"table_ref": "PRJ0056:solubility", "at": "A4"},
-    {"table_ref": "PRJ0056:benchmark", "at": "D4"}
-   ],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 18, "C": 4, "D": 22, "E": 22},
-   "number_formats": {"B5:B36": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0056:solubility", "column": 1, "title": "Kinetic solubility (µM)", "y_label": "µM"},
-   "chart_at": "G4"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc: assay worksheet",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "{{PRJ0056:project_id}}",
+          null,
+          "LIMS",
+          "{{PRJ0056:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0056:client_variant}}"
+        ],
+        [
+          "Study",
+          "KT12 permeability, solubility and plasma-binding decision set"
+        ],
+        [
+          "Series",
+          "SER12, cyclopropyl carboxamide (KT12 prefix)"
+        ],
+        [
+          "Compounds",
+          "{{PRJ0056:n_compounds}}"
+        ],
+        [
+          "Quote",
+          "01/10/2008"
+        ],
+        [
+          "Start",
+          "02/18/2008"
+        ],
+        [
+          "Interim",
+          "03/05/2008"
+        ],
+        [
+          "Completion",
+          "03/21/2008"
+        ],
+        [],
+        [
+          "Assay",
+          "Protocol",
+          "Sheet"
+        ],
+        [
+          "Plasma protein binding",
+          "fu,p by equilibrium dialysis, human plasma, RED 4 h at 37 °C",
+          "Plasma binding"
+        ],
+        [
+          "Caco-2 permeability",
+          "Bidirectional flux at 10 µM, pH 7.4",
+          "Caco-2"
+        ],
+        [
+          "Kinetic solubility",
+          "DMSO dilution into PBS pH 7.4, read in µM",
+          "Solubility and benchmark"
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Megan Larkin",
+          null,
+          "Checked",
+          "Helen Marchwood, 03/21/2008"
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 60,
+        "C": 22,
+        "D": 12,
+        "E": 26
+      },
+      "merged": [
+        "A1:E1"
+      ]
+    },
+    {
+      "name": "Caco-2",
+      "rows": [
+        [
+          {
+            "v": "Caco-2 bidirectional permeability (house name: Caco-2 flux and efflux ratio)",
+            "bold": true
+          }
+        ],
+        [
+          "10 µM dosing, pH 7.4. Efflux ratio is Papp B-A over Papp A-B. Interpret elevated ratios alongside absorptive flux and recovery; the ratio alone does not establish an efflux-limited absorption mechanism."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0056:caco2",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 22,
+        "C": 22,
+        "D": 14,
+        "E": 14
+      },
+      "number_formats": {
+        "B5:B36": "0.0",
+        "C5:C36": "0",
+        "D5:D36": "0.0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0056:caco2",
+        "column": 3,
+        "title": "Efflux ratio",
+        "y_label": "B-A / A-B"
+      },
+      "chart_at": "G4",
+      "comments": [
+        {
+          "cell": "D4",
+          "text": "Read the reported efflux ratio alongside both directional flux values and recovery; consult the analyte card for calculation details.",
+          "author": "Javier Quintana"
+        }
+      ]
+    },
+    {
+      "name": "Plasma binding",
+      "rows": [
+        [
+          {
+            "v": "Plasma protein binding, human (house name: fu,p by equilibrium dialysis)",
+            "bold": true
+          }
+        ],
+        [
+          "Human plasma, equilibrium dialysis, 4 h at 37 °C. Recovery is reported with binding and unbound fraction; consult the analyte card for matrix acceptance and any recovery qualification."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0056:ppb",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 16,
+        "D": 16
+      },
+      "number_formats": {
+        "B5:B36": "0.0",
+        "C5:C36": "0.00",
+        "D5:D36": "0"
+      },
+      "tab_color": "#7F7F7F"
+    },
+    {
+      "name": "Solubility and benchmark",
+      "rows": [
+        [
+          {
+            "v": "Kinetic solubility, PBS pH 7.4 (house name: DMSO-dilution solubility)",
+            "bold": true
+          }
+        ],
+        [
+          "Top concentration 200 µM from a 10 mM DMSO stock; final DMSO 2%. Results reported as the highest concentration below precipitation by nephelometry. Values shown as '>200' were not precipitated at the top concentration."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0056:solubility",
+          "at": "A4"
+        },
+        {
+          "table_ref": "PRJ0056:benchmark",
+          "at": "D4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 18,
+        "C": 4,
+        "D": 22,
+        "E": 22
+      },
+      "number_formats": {
+        "B5:B36": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0056:solubility",
+        "column": 1,
+        "title": "Kinetic solubility (µM)",
+        "y_label": "µM"
+      },
+      "chart_at": "G4"
+    }
+  ]
+}
