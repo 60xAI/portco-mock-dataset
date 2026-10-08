@@ -320,8 +320,10 @@ def _stability(ctx: Ctx):
     tps = [0, 1, 3, 6, 9, 12, 18, 24]
     started = ctx.p.dates.start
     if started:
-        months_avail = max(0, ((ctx.p.dates.completion or started.__class__(2026, 10, 8)) - started).days // 30)
-        tps = [t for t in tps if t <= max(1, months_avail)] or [0]
+        # results stop at completion, or at the last report (interim) for open, held or cancelled studies
+        end = ctx.p.dates.completion or ctx.p.dates.interim or started.__class__(2026, 10, 8)
+        months_avail = max(0, (end - started).days // 30)
+        tps = [t for t in tps if t <= months_avail] or [0]
     conds = [("25 °C/60% RH", 0.04), ("30 °C/65% RH", 0.07), ("40 °C/75% RH", 0.25)]
     rows = []
     a0 = r.uniform(99.2, 100.6)
