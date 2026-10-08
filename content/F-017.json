@@ -1,0 +1,284 @@
+{
+  "family": "document",
+  "summary": "Final NM08 suspension report for Nimbravelle Medicines Inc. It records irreversible aggregation in the initial vehicle and the selection of a replacement wetting-agent combination, with preparation and transfer limits.",
+  "properties": {
+    "title": "NM08 suspension: Vehicle ladder and wetting-agent selection"
+  },
+  "header": "Durnesswick Laboratories Inc",
+  "footer": "Durnesswick Laboratories Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "NM08 suspension: Vehicle ladder and wetting-agent selection",
+    "subtitle": "Final work-package report | R1",
+    "lines": [
+      "Project {{PRJ0106:project_id}}",
+      "Accession {{PRJ0106:lims_id}}",
+      "Client: Nimbravelle Medicines Inc",
+      "Date: 04/26/2018",
+      "Prepared by: Julia Carver"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and selection",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The initial NM08 suspension vehicle caused irreversible aggregation. Nimbravelle Medicines Inc selected a replacement wetting-agent combination after the compatibility work package. The selection addresses the practical failure of the initial preparation, rather than claiming that every suspended formulation is acceptable."
+        },
+        {
+          "p": "The Vehicle ladder below separates initial appearance from standing behavior. In particular, easy redispersion at first handling is not enough to establish acceptable storage or dose withdrawal. The selected replacement is identified by its recipe card; the table is not a substitute for that composition."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0106:form_screen",
+            "caption": "Table 1. Initial Vehicle ladder for NM08 compatibility work."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Objective and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The objective was a suspension vehicle that wets and disperses NM08 without producing irreversible aggregation. This is a preparation and handling question for the supplied material, not a biological assessment of the kinase formulation set."
+        },
+        {
+          "p": "The work compared liquid vehicles and wetting behavior before selecting a replacement combination. Chemical stability, long-term storage and exposure performance remain outside the physical compatibility conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Work-package history",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quotation was dated 01/10/2018. Work began on 02/08/2018, with interim discussion on 03/19/2018 and completion on 04/26/2018. Julia Carver directed the formulation decision, Miguel Serrano maintained the comparisons and Lena Patel addressed transfer of the selected preparation."
+        },
+        {
+          "p": "Preparations are linked to {{PRJ0106:project_id}} / {{PRJ0106:lims_id}}. The bench sheets distinguish the initial vehicle from replacement preparations so the aggregation outcome is not confused with a later, selected recipe."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Material and loading",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Vehicle ladder used nominal 10 mg/mL loading. Concentration is expressed in mg/mL; that nominal amount does not mean the active was fully dissolved. Suspension behavior must be judged from the prepared material rather than its calculated loading."
+        },
+        {
+          "p": "Maintain source-material identity during comparison. Wetting and aggregation can depend on the solid presented to the vehicle. A material change should be documented before the replacement recipe is assumed to provide the same handling outcome."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Preparation sequence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Prepare the vehicle before active addition, then introduce the active in a controlled manner that permits wetting rather than forming dry clumps. Record mixing sequence and visible material retained on the vessel surface with the bench sheet."
+        },
+        {
+          "p": "The selected replacement wetting-agent combination should be reproduced from its recipe card. Combining apparently favorable table entries is not equivalent to reproducing that preparation and could alter the physical behavior on standing."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Screen suitability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The assessment distinguishes poor initial wetting, settling, caking and growth of crystals. These descriptions have different practical consequences. Settling that reverses with normal handling can remain workable, while a cohesive aggregate may prevent representative dose withdrawal."
+        },
+        {
+          "p": "Vehicle blank appearance should be considered before assigning cloudiness to NM08. A clear liquid observation is also insufficient if delayed precipitation occurs. Suitability depends on retaining an interpretable material state through the preparation and withdrawal sequence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Initial vehicle failure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The initial vehicle caused irreversible aggregation. This was the decisive handling failure: ordinary redistribution could not return the preparation to a usable dispersed state. The work therefore moved toward a replacement wetting-agent combination."
+        },
+        {
+          "p": "The failed preparation should remain identifiable in the bench sheets. It is not appropriate to pool its observations with successful replacement preparations or to recast irreversible aggregation as ordinary sedimentation for the purpose of a summary."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Vehicle ladder findings",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Methylcellulose and the cyclodextrin preparation were redispersible in the initial screen. HPMC with Tween 80 was initially easily redispersed but later showed caking. That contrast demonstrates why the first appearance check could not settle the choice."
+        },
+        {
+          "p": "PEG400/water, the oil-containing vehicle and citrate buffer showed crystal growth. The Labrasol/PEG400 entry was clear initially but later precipitated. The NMP-containing preparation settled and was redispersible. These are comparator observations rather than proof of the selected replacement recipe."
+        },
+        {
+          "chart": {
+            "kind": "bar",
+            "ref": "PRJ0106:form_screen",
+            "column": 1,
+            "title": "NM08 initial equilibrium-solubility comparison",
+            "y_label": "Equilibrium solubility (mg/mL)"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Wetting-agent comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The compatibility question was whether a wetting-agent combination could prevent the initial aggregation failure while retaining practical suspension handling. More apparent solubility alone would not resolve that requirement."
+        },
+        {
+          "p": "Wetting must be assessed together with redistribution after standing. A combination that assists initial dispersion but promotes a cohesive deposit later is not a satisfactory replacement merely because preparation was easy. The selected combination follows the full handling comparison."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Replacement decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Nimbravelle Medicines Inc selected a wetting-agent combination after the initial vehicle failure. The recipe card supplies its identity and composition. This report does not infer that composition from the generic Vehicle ladder or rename a table row as the selected recipe."
+        },
+        {
+          "p": "The selection is a practical development outcome. It supports using the replacement under the assessed preparation conditions, while leaving long-term stability and formal withdrawal uniformity to subsequent work where required."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Mixing and redispersion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Transfer instructions should describe the selected preparation sequence and the intended redistribution operation before withdrawal. Visible deposits that persist after the specified handling are a reason to hold the preparation and record the observation."
+        },
+        {
+          "p": "Extra force or prolonged mixing used to rescue a failed preparation should not be treated as routine compliance with the recipe. Such handling can mask a compatibility problem and make the suspension delivered for dosing differ from the development preparation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Dose-withdrawal considerations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A suspension must remain representative during withdrawal. Settling can create a concentration gradient even when the material can eventually be redispersed. Handling immediately before withdrawal therefore belongs in the recipe-card instructions."
+        },
+        {
+          "p": "The physical screen does not supply a quantitative withdrawal-uniformity result. If the intended use requires demonstrated uniformity, assess it using the selected combination and actual withdrawal sequence rather than extrapolating from a redispersion description."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Loading and manufacturability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Increasing loading can increase the burden on wetting and mixing and may change the balance between free-flowing sediment and cohesive aggregation. A dose-volume change should be assessed as a formulation change where it alters loading."
+        },
+        {
+          "p": "For a larger pilot lot, preserve composition first and document changes in mixing arrangement. Larger preparation scale can alter the way solids enter the liquid and the time available for wetting; reproducing proportions alone may not reproduce handling."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Transfer requirements",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Lena Patel’s transfer package should retain the selected recipe, the initial-failure description and the inspection points before withdrawal. Miguel Serrano’s bench sheets provide the formulation-set comparisons supporting that handoff."
+        },
+        {
+          "p": "Make the failure criterion explicit: a persistent aggregate is not acceptable routine settling. If the receiving team observes the initial failure behavior, it should hold the preparation rather than substitute another comparator vehicle without development input."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Limitations and next scale gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This compatibility work package does not establish chemical stability, microbial control or a storage shelf life. It also does not prove that a replacement wetting agent will accommodate every later material supply or loading."
+        },
+        {
+          "p": "The next scale gate is reproduction of the selected combination with the intended preparation and withdrawal arrangement. Assess any extension in holding or scale separately so a satisfactory exploratory screen is not mistaken for a locked process."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Conclusion and records",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Irreversible aggregation in the initial vehicle justified replacing it. Nimbravelle Medicines Inc selected a wetting-agent combination after comparison of practical preparation and standing behavior. The selected recipe should carry forward with explicit redispersion and hold instructions."
+        },
+        {
+          "p": "Retain this final report with the recipe cards and bench sheets under {{PRJ0106:lims_id}}. Keep the failed initial preparation, generic Vehicle ladder and selected replacement distinguishable in later development summaries."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "04/26/2018",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
