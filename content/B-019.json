@@ -1,0 +1,267 @@
+{
+  "family": "document",
+  "summary": "{{PRJ0041:herg.n_tested}} CB17 compounds were assessed by hERG automated patch clamp. The median geometric-mean IC50 was {{PRJ0041:herg.median_ic50_uM}} µM. The table preserves cell endpoints and finite-cell counts. Cadrunelle found the cardiac signal followed the aromatic cap and chose a less lipophilic replacement screening set.",
+  "properties": {
+    "title": "BW22_0141 final study report, revision B",
+    "subject": "CB17 aromatic-cap variants: hERG concentration-response curves"
+  },
+  "header": "Brindlewythe Biosciences Ltd, a Tarnovell company | BW22_0141 | Final report",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "CB17 aromatic-cap variants: hERG concentration-response curves",
+    "subtitle": "Final study report | Revision B",
+    "lines": [
+      "Brindlewythe Biosciences Ltd, a Tarnovell company",
+      "Study BW22_0141",
+      "Accession {{PRJ0041:lims_id}}",
+      "Client: Cadrunelle Biosciences",
+      "Date: 12 May 2022",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and plate acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "{{PRJ0041:herg.n_tested}} CB17 compounds were assessed by hERG automated patch clamp. The median geometric-mean IC50 was {{PRJ0041:herg.median_ic50_uM}} µM. The table preserves cell endpoints and finite-cell counts."
+        },
+        {
+          "p": "E-4031 supported acceptance of the hERG channel screen, with reference IC50 {{PRJ0041:herg.control_e4031_nM}} nM. The released screening set contained {{PRJ0041:herg.n_flagged}} flagged compounds and {{PRJ0041:herg.n_censored}} censored compound results."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0041:benchmark",
+            "caption": "Table 1. Study benchmark"
+          }
+        },
+        {
+          "p": "Control acceptance precedes interpretation. The benchmark summarises the study; the complete compound tables below are the basis of selection. Screening decisions are recorded separately from the endpoints."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Principal results",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "table_ref": "PRJ0041:herg",
+            "caption": "Table 2. Complete hERG automated patch clamp results"
+          }
+        },
+        {
+          "p": "{{PRJ0041:herg.n_lt_1uM}} compounds had geometric-mean IC50 below 1 µM; {{PRJ0041:herg.n_1_10uM}} were in the 1–10 µM band and {{PRJ0041:herg.n_ge_10uM}} were at or above 10 µM. These bands describe channel inhibition, not clinical risk categories."
+        },
+        {
+          "p": "Compound identifiers follow the sample cards. Units are part of the headings. Compare like endpoints under the stated conditions. A position in a table is not an estimate of clinical performance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Study remit and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cadrunelle Biosciences commissioned hERG automated patch clamp to support a chemistry screen gate for this screening set. The remit was not a complete disposition or safety assessment."
+        },
+        {
+          "p": "Study work began on 26 Apr 2022. The interim checkpoint was 04 May 2022. This final revision closes the study on 12 May 2022. Dr B. Rowcroft is responsible for scientific release; Ines Alvarado checked plate acceptance and table transfer."
+        },
+        {
+          "p": "The completed study covers {{PRJ0041:n_compounds}} compounds under accession {{PRJ0041:lims_id}}. The accession links submitted material, sample cards and run sheets. No later screening set is included."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Test-lot handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The CB17 identifier accompanied each cell response and combined compound endpoint. Sample cards link cap variants to submitted test lots. Electrophysiology run sheets retain concentration application and cell inclusion details."
+        },
+        {
+          "p": "Sample-card identifiers carried through preparation, assay allocation and result collation. Working solutions were prepared for the scheduled assay with matched vehicle. Results refer to the submitted test lot, rather than a claim that a later resynthesis will behave identically."
+        },
+        {
+          "p": "Preparation details, positions and handling observations remain in the run sheets. Qualifications stay with the endpoint; they are not removed to simplify a ranking."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Assay procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cells expressing hERG were assessed with a repeated voltage protocol to elicit tail current. Baseline stability, seal quality and vehicle response were assessed before inclusion of a cell response in analysis."
+        },
+        {
+          "p": "Compounds were applied in concentration response up to {{PRJ0041:herg.top_conc_uM}} µM. Current inhibition was assessed against the pre-compound baseline with the corresponding vehicle assessment. E-4031 was the reference blocker."
+        },
+        {
+          "p": "Cell responses were fitted to obtain IC50. Finite cell estimates were combined as a geometric mean. The result table retains the number of usable cells and finite estimates. An empty cell field is not a zero IC50 or a zero inhibition result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Control assessment and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "E-4031 supported acceptance of the hERG channel screen, with reference IC50 {{PRJ0041:herg.control_e4031_nM}} nM. The released screening set contained {{PRJ0041:herg.n_flagged}} flagged compounds and {{PRJ0041:herg.n_censored}} censored compound results."
+        },
+        {
+          "p": "Ravi Deshmukh checked the electrophysiology assessment. Reference E-4031 potency is in nM while test-compound IC50 values are in µM. The unit distinction remains explicit. Cell inclusion and baseline assessments are retained in the run sheets."
+        },
+        {
+          "p": "Ines Alvarado checked that control assessment preceded the screening interpretation. Dr B. Rowcroft authorised release. Acceptance supports use within the stated assay; it does not eliminate compound-specific questions that need follow-up."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Data reduction",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Compound IC50 is the geometric mean of finite cell estimates, not an arithmetic average of current inhibition. Percent inhibition at 10 µM is a separate observation. Blank fields and the finite-cell count preserve the evidence behind each combined endpoint."
+        },
+        {
+          "p": "Reported precision and units are retained. Rounding must not manufacture distinctions between near neighbours. The screening decision should use complete rows with qualifications visible."
+        },
+        {
+          "p": "Summary endpoints and individual observations have different purposes. The benchmark does not replace the detailed table. No additional fitted values or composite scores have been inferred for presentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Screening-set interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cadrunelle associated the channel signal with the aromatic cap in its chemistry assessment. This supports changing the screening set but leaves the causal basis unresolved. The association does not establish that lipophilicity alone caused inhibition."
+        },
+        {
+          "p": "The median describes the centre of the endpoint distribution and does not replace a compound result. The cap-linked interpretation is the client’s assessment; no unreported physicochemical values or correlation coefficient is assigned."
+        },
+        {
+          "p": "A chemistry association can identify the next experiment without establishing the molecular cause of the assay response. This report makes no target-mechanism claim from screening data alone."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cadrunelle found the cardiac signal followed the aromatic cap and chose a less lipophilic replacement screening set."
+        },
+        {
+          "p": "Test the less lipophilic replacement screening set by the hERG channel screen before treating the chemistry change as successful. Compare matched compounds with conditions and test-lot identity visible. No improved replacement endpoint is claimed here."
+        },
+        {
+          "p": "The screen gate records the client’s use of the data. A proposed follow-up is not a completed result. No endpoint from that later work is incorporated into this signed report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Study limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "hERG inhibition is a channel endpoint. A clinical cardiac margin requires exposure information and further assessment; IC50 alone does not predict an arrhythmia event."
+        },
+        {
+          "p": "Cell variability remains visible. Geometric means summarise finite estimates and do not imply identical cell support for every compound."
+        },
+        {
+          "p": "Untested replacements must not inherit the CB17 endpoints. A proposed chemistry change is not a completed channel result."
+        },
+        {
+          "p": "These endpoints apply to the submitted screening set and test lots. No extrapolation is made to an untested analogue, formulation or biological system. Later measurements should retain identifiers and conditions for comparison."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "hERG automated patch clamp is complete for BW22_0141. Control assessment supports release of the detailed tables for the specified client decision."
+        },
+        {
+          "p": "Cadrunelle found the cardiac signal followed the aromatic cap and chose a less lipophilic replacement screening set."
+        },
+        {
+          "p": "The results support the stated next step. They do not alone resolve exposure, efficacy or nomination suitability. Any later integrated assessment must identify its additional supporting studies."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Record index and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The retained study record comprises sample cards linked to {{PRJ0041:lims_id}}, preparation and assay run sheets, control assessment, result tables and this final report. The interim checkpoint forms part of the chronology and does not replace the completed dataset."
+        },
+        {
+          "p": "Revision B is the final report issued to Cadrunelle Biosciences on 12 May 2022. Read principal results with the methods and limitations. Preserve study identity, units and qualifications when using tables for the screen gate."
+        },
+        {
+          "p": "Scientific release: Dr B. Rowcroft, Screening Operations Director. Plate acceptance and report-table transfer: Ines Alvarado, Assay Quality Coordinator. Signatures apply to this completed study and its bounded interpretation."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr B. Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "12 May 2022",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — plate acceptance and table transfer",
+      "date": "12 May 2022",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "comments": [],
+  "tracked_changes": []
+}
