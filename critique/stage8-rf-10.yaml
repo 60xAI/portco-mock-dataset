@@ -1,0 +1,96 @@
+- file_id: A-003
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Reporting and isolation slides called an isolated mass in mg a yield, and attributed g entries to an unsuitable balance."
+      change_made: "Distinguished isolated mass from percentage yield and retained handwritten g as an ordinary bench-unit convention."
+- file_id: A-011
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Intake instructions used mg for fill volume and prescribed generic storage without sample-specific temperature requirements."
+      change_made: "Separated mass and volume and required the sample's specified temperature and storage instructions."
+    - severity: minor
+      area: realism
+      problem: "The copied and superseded training provenance was barely visible, and handover annotations were missing."
+      change_made: "Made Brindlewythe provenance, superseded personal-copy status and Vellacombe handover notes explicit while retaining the obsolete contact box."
+- file_id: A-018
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Invented coupling entries, isolation trial IDs, scales and analytical observations had no supporting result records; the allegedly complete screen included an incomplete reaction."
+      change_made: "Replaced invented entries with references to the completed coupling matrix and ongoing isolation records; retained blanks, comments and the open route gate."
+    - severity: fix
+      area: science
+      problem: "Isolation sheet labelled a mass in mg as isolated yield."
+      change_made: "Changed the field to isolated mass (mg)."
+- file_id: A-019
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Invented attempt IDs, chemical forms, scales and LCMS protodeboronation observations exceeded the recorded unstable-boronate outcome."
+      change_made: "Referenced route scout records qualitatively and left the protected alternative and client decisions unresolved."
+    - severity: fix
+      area: consistency
+      problem: "Summary treated the scout start date as pending although the programme started on 20 Jul 2026."
+      change_made: "Recorded the existing start and made only further-work timing and scope pending."
+- file_id: A-020
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Inventory invented named intermediates, an impurity-reference solution, cabinets, containers and material properties."
+      change_made: "Kept the confirmed isolated intermediates in controlled storage and referred identity, quantity and storage details to compound cards and storage records."
+    - severity: minor
+      area: consistency
+      problem: "Summary presented the file date as the date the pause began."
+      change_made: "Used an as-at date for the paused status."
+- file_id: A-021
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Discount prose included exactly 30 compounds in a band that applies only above 30; historical notes invented numerical exceptions and specific approvals."
+      change_made: "Corrected the strict band boundary and replaced unsupported exception details with qualitative references to historical approval records."
+    - severity: minor
+      area: consistency
+      problem: "Optional isolation was simultaneously per impurity and per programme despite no established list price."
+      change_made: "Made the unpriced scope dependent on programme review."
+- file_id: A-028
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The general work-up note invented assay-stock, dose-plate and solubility measurements plus confirmed work-up observations."
+      change_made: "Removed the measurements, presented work-ups as candidate protocols and referred observations and quantities to bench records; retained mixed mg/g conventions and unfinished recommendations."
+    - severity: fix
+      area: consistency
+      problem: "Tracked changes dated 20 and 21 Jun postdated the final save on 19 Jun 2019."
+      change_made: "Dated the retained reviewer changes 19 Jun 2019."
+    - severity: fix
+      area: science
+      problem: "Solvent recovery appeared to depend only on availability of a bump trap."
+      change_made: "Required confirmation of the approved recovery procedure and equipment."
+- file_id: A-039
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Audit invented a third delivery-label finding, detailed transcription mechanisms and an unsupported report identifier."
+      change_made: "Retained the two corrected transcription findings and qualitative closure evidence, referring detailed correction history to audit and release records; removed the invented identifier."
+    - severity: fix
+      area: consistency
+      problem: "Ruth's signed approval was dated 12 Mar, after the file's 11 Mar 2025 final save."
+      change_made: "Aligned the signature date with the final record date."
