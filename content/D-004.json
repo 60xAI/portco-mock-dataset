@@ -1,0 +1,222 @@
+{
+  "family": "deck",
+  "summary": "Final v3 FINAL_final readout for Corvenlith Therapeutics. Donor-balanced analysis reduced the apparent inflammatory signature and redirected target prioritisation towards the reproducible receptor pathway; the revision retains the earlier interpretation as qualified context.",
+  "properties": {
+    "title": "QV.23.100 pathway readout v3 FINAL_final",
+    "subject": "Donor adjustment and Omics target prioritisation",
+    "keywords": "donor; immune-cell; receptor pathway; FINAL_final"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Immune-cell RNA-seq: donor adjustment and target ranking",
+      "subtitle": "{{PRJ0011:project_id}} | Corvenlith Therapeutics | 18 Dec 2023\nv3 FINAL_final | Dr T. Zawiernicki\nQuenverell Computational Ltd, a Tarnovell company",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Biological question and decision",
+      "bullets": [
+        "Which pathway remains reproducible after donor adjustment?",
+        "Donor-balanced analysis reduced the apparent inflammatory signature.",
+        "Prioritise the reproducible receptor pathway for follow-up.",
+        "This is Omics target prioritisation, not proof of receptor causality."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Engagement provenance",
+      "bullets": [
+        "Immune-cell RNA-seq supplied for {{PRJ0011:project_id}}.",
+        "Accession {{PRJ0011:lims_id}} anchors input provenance.",
+        "Proposal dated 12 Sep 2023; analysis started 30 Oct 2023.",
+        "Interim readout 23 Nov 2023; final model gate 18 Dec 2023."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Revision note: v3 FINAL_final",
+      "bullets": [
+        "This revision puts donor-adjusted pathway prioritisation before the inflammatory interpretation.",
+        "The inflammatory signature is retained as a qualified observation, not the progression recommendation.",
+        "The receptor-pathway recommendation is the final conclusion of this saved readout."
+      ],
+      "notes": "Revision note, Dr T. Zawiernicki, 18 Dec 2023: retain the earlier inflammatory discussion as context; the donor-adjusted receptor-pathway recommendation governs the final model gate.",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Data acceptance",
+      "bullets": [
+        "Reconcile donor labels, sample identifiers and expression inputs.",
+        "Check library-level distributions before fitting biological contrasts.",
+        "Preserve missing metadata and exclusions in the analysis notebook."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Donor structure matters",
+      "bullets": [
+        "Donor-associated expression can resemble a treatment or disease-associated signature.",
+        "Repeated material from a donor is not independent biological replication.",
+        "Keep donor identity attached to expression inputs through modelling."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Unadjusted interpretation",
+      "bullets": [
+        "The initial interpretation emphasised an apparent inflammatory signature.",
+        "Without donor adjustment, donor composition can influence pathway ordering.",
+        "Retain this view as the comparator, rather than the final target ranking."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Adjusted analysis question",
+      "bullets": [
+        "Estimate the biological contrast while accounting for donor structure.",
+        "Keep the accepted input set and contrast definition explicit.",
+        "Do not confound a changed model specification with newly generated experimental evidence."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Donor-balanced comparison",
+      "bullets": [
+        "Use donor-balanced evidence to reassess the pathway interpretation.",
+        "Compare adjusted and unadjusted direction of effect.",
+        "Flag conclusions whose support depends on donor representation."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What changed",
+      "bullets": [
+        "The apparent inflammatory signature weakened after donor-balanced analysis.",
+        "The change reduces its priority as a general biological explanation.",
+        "Weakening does not demonstrate absence of inflammatory biology."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What remains reproducible",
+      "bullets": [
+        "The receptor pathway remains the reproducible priority.",
+        "Carry the pathway into a focused biological follow-up.",
+        "No specific receptor identifier is assigned without the source target card."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Pathway comparison at the gate",
+      "bullets": [
+        "Inflammatory interpretation: retain with donor-dependence caveat.",
+        "Receptor pathway: progress on the reproducible adjusted interpretation.",
+        "Other candidate explanations: do not imply a rank unsupported by the supplied outcome."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reporting conventions",
+      "bullets": [
+        "Report expression contrasts as log2 fold change with adjusted probabilities.",
+        "Keep pathway definitions and annotation versions alongside contrasts.",
+        "This readout contains the qualitative decision; numerical pathway tables are not supplied."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Target-card requirements",
+      "bullets": [
+        "Link the receptor-pathway target card to the adjusted contrast.",
+        "Record biological rationale separately from statistical association.",
+        "Carry donor sensitivity and assay feasibility into the follow-up decision."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Alternative explanations",
+      "bullets": [
+        "Cell composition may contribute to pathway-level expression.",
+        "Correlated donor and biological terms limit attribution.",
+        "A reproducible pathway signal need not identify the direct intervention point."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Follow-up question",
+      "bullets": [
+        "Does a targeted experiment support receptor-pathway involvement?",
+        "Define the perturbation and functional readout before observing the outcome.",
+        "Use donor-aware sampling in the follow-up design."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Follow-up design boundaries",
+      "bullets": [
+        "Balance donor contribution across experimental conditions.",
+        "Include controls that distinguish functional response from viability loss.",
+        "Retain expression evidence as context for the functional readout."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Model uncertainty to retain",
+      "bullets": [
+        "Residual donor effects may remain.",
+        "Pathway membership is annotation dependent.",
+        "Association does not establish therapeutic benefit or direction of intervention."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducibility responsibilities",
+      "bullets": [
+        "Dr E. Ostlund: donor-aware model interpretation.",
+        "Nadia Rahmani: annotation and donor-to-sample mapping.",
+        "Dr T. Zawiernicki: target-prioritisation recommendation."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Archive handover",
+      "bullets": [
+        "Keep input mapping and model definitions under {{PRJ0011:lims_id}}.",
+        "Retain the 23 Nov interim interpretation with the final revision.",
+        "Connect this readout to the proposal for {{PRJ0011:project_id}}.",
+        "Preserve the revision suffix so the saved decision remains identifiable."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final model-gate recommendation",
+      "bullets": [
+        "Redirect Corvenlith Therapeutics towards the reproducible receptor pathway.",
+        "Qualify the inflammatory signature by its reduction after donor adjustment.",
+        "Advance focused functional follow-up with donor-aware design.",
+        "Dr T. Zawiernicki | 18 Dec 2023"
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
