@@ -1,0 +1,382 @@
+{
+  "family": "document",
+  "summary": "Final study report for Quorenthel Pharma GmbH. QP07 Absorption Triage results are presented with matrix definitions, analytical limits, acceptance qualifications and the client decision.",
+  "properties": {
+    "title": "MV-2018-336 QP07 Absorption Triage final report"
+  },
+  "header": "Merrivoss Bioanalysis Inc | MV-2018-336 | Final R1",
+  "footer": "Merrivoss Bioanalysis Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "QP07 Absorption Triage",
+    "subtitle": "Final study report R1",
+    "lines": [
+      "Study {{PRJ0060:project_id}}",
+      "Accession {{PRJ0060:lims_id}}",
+      "Prepared for Quorenthel Pharma GmbH",
+      "Dr M. Larkin, DMPK Study Director",
+      "02/28/2019"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Study identification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This report closes the QP07 aminopyrazine absorption-triage study for Quorenthel Pharma GmbH. The test article set comprised {{PRJ0060:n_compounds}} compounds. Work opened on 01/28/2019, the interim communication was issued on 02/12/2019, and final interpretation is dated 02/28/2019."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0060:benchmark",
+            "caption": "Table 1. Study scope and accession"
+          }
+        },
+        {
+          "p": "MV-2018-336 remains the controlling project identifier from project opening. It is retained despite the 2019 experimental and report dates."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Transport result table",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Caco-2 flux and efflux ratio was assessed at 10 µM and pH 7.4. The table keeps directional permeability, efflux ratio and recovery together."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0060:caco2",
+            "caption": "Table 2. QP07 bidirectional transport"
+          }
+        },
+        {
+          "p": "Apparent permeability is expressed in 10^-6 cm/s. The dimensionless ratio describes directional asymmetry and must not be read as a percentage or a clinical absorption estimate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Availability result table",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "DMSO-dilution solubility in PBS at pH 7.4 supplies the dissolved-availability context for interpreting forward transport. Results are expressed in µM."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0060:solubility",
+            "caption": "Table 3. QP07 kinetic solubility"
+          }
+        },
+        {
+          "p": "A greater-than result is censored at the tested limit. The table does not establish an equilibrium solid-form solubility or a dosing-vehicle performance result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Human binding result table",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "fu,p by equilibrium dialysis used human plasma for 4 h at 37 °C. Bound percentage, unbound percentage and recovery are retained together."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0060:ppb",
+            "caption": "Table 4. Human plasma binding"
+          }
+        },
+        {
+          "p": "Binding is a separate exposure determinant. It does not explain Caco-2 directionality. Unbound percentages require conversion when used in calculations that call for fractional fu,p."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Question addressed",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client needed to decide whether improving dissolved availability was the appropriate next step for the QP07 branch. Pairing solubility with bidirectional transport separates that question from a general proposal to increase lipophilicity."
+        },
+        {
+          "p": "High efflux in the otherwise soluble branch led Quorenthel to redesign the exposed amine rather than increase lipophilicity. The decision is recorded as the study outcome. No result for the redesigned chemistry is included here."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Accession and identity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The controlling accession is {{PRJ0060:lims_id}}. Complete QP07 identifiers connect the tables to the accession-lot mapping in the companion assay worksheet. Similar chemistry descriptions are not sufficient identity links."
+        },
+        {
+          "p": "Later material should retain a clear predecessor link while receiving its own accession record. A redesigned amine must not inherit the measured transport result of the original test article."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Matrices and species",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "System",
+              "Matrix basis",
+              "Species context"
+            ],
+            "rows": [
+              [
+                "Caco-2 flux and efflux ratio",
+                "Monolayer transport compartments",
+                "Human-derived cell model"
+              ],
+              [
+                "DMSO-dilution solubility",
+                "PBS pH 7.4",
+                "Species-independent buffer"
+              ],
+              [
+                "fu,p by equilibrium dialysis",
+                "Plasma and buffer",
+                "Human plasma"
+              ]
+            ],
+            "caption": "Table 5. Matrix definitions"
+          }
+        },
+        {
+          "p": "The transport model is not an in vivo human study. No rat binding, animal permeability or systemic clearance result is supplied. Buffer solubility has no biological species assignment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Bidirectional procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Both transport directions were evaluated under the stated nominal concentration and pH. Directional values are retained because a large ratio can reflect weak forward transport as well as increased reverse transport."
+        },
+        {
+          "p": "The record contains no transporter-rescue or expression measurement. Directionality supports an efflux concern within this model, but it does not identify the export mechanism."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Kinetic solubility procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "DMSO dilution challenges compound availability in aqueous buffer. Precipitation and transient supersaturation may affect the dissolved material during the assessment. The house term is retained to make this operational basis clear."
+        },
+        {
+          "p": "An otherwise soluble branch can still have a cellular transport constraint. Increased lipophilicity would introduce a different property change without, by itself, resolving the observed directionality."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Dialysis procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The human plasma experiment compares the plasma-associated and buffer compartments. Recovery provides a material-balance context for interpreting nonspecific loss and the unbound estimate."
+        },
+        {
+          "p": "No free plasma concentration is calculated because there is no corresponding in vivo concentration record. The unbound percentage must not be used as a fraction without conversion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Parent-analyte measurement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Javier Quintana is the mass-spectrometry lead. Analyte cards and the assay worksheet connect parent identity with the relevant matrix measurement. The final report presents derived tables rather than individual analytical traces."
+        },
+        {
+          "p": "Matrix-dependent response is distinct from biological transport. A low receiving-compartment signal cannot, by itself, distinguish restricted flux from an analytical limitation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Numerical quantitation limits and calibration ranges are not supplied in the final record. No such values are added here. In particular, a small forward flux does not imply unlimited sensitivity in the receiving compartment."
+        },
+        {
+          "p": "Censored solubility entries remain limits. Ratios involving small directional values must be read with the permeability and recovery columns, without adding precision beyond that reported."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Matrix acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helen Marchwood is responsible for bioanalytical quality. The companion worksheet records matrix acceptance checks. Recovery remains visible in the released binding and transport tables."
+        },
+        {
+          "p": "No sample-specific rejection, numerical acceptance threshold or repeat-run history is supplied. None is inferred. The final narrative should not be mistaken for a reconstruction of all underlying analytical decisions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Transport and availability integration",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The central comparison asks whether directional transport remains a concern where dissolved availability is otherwise adequate. That situation presents a different next step from a branch limited by low aqueous availability."
+        },
+        {
+          "p": "The recorded outcome assigns the exposed-amine redesign to the efflux concern. Compound-level numeric evidence remains in the original tables; branch membership labels absent from the supplied record are not invented."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Role of human plasma binding",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Binding describes distribution between plasma and the unbound compartment. It can shape later interpretation of total exposure, but cannot remove directional transport asymmetry in a different assay matrix."
+        },
+        {
+          "p": "The binding table should travel with transport and solubility findings into the DMPK memo. The chemistry decision should remain linked to the recorded efflux trigger rather than be recast as a plasma-binding optimization."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Chemistry handoff",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Quorenthel selected redesign of the exposed amine. The next set should retain its predecessor links, complete compound identities and distinct accession-lot records."
+        },
+        {
+          "p": "The follow-up question is whether the redesign changes directional transport while preserving dissolved availability. This report supplies the comparison basis; it supplies neither a redesigned-compound result nor a potency consequence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Exposure-gate boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Caco-2 directionality cannot determine absolute oral availability. Solubility in PBS cannot specify a successful dosing vehicle. Human plasma binding supplies context but does not measure systemic clearance."
+        },
+        {
+          "p": "The decision is a focused response to an in vitro pattern. It must not be described as proof of improved absorption before the redesigned material has its own measurement record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Final conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "High efflux in the otherwise soluble branch led Quorenthel to redesign the exposed amine rather than increase lipophilicity. Megan Larkin records this as the final outcome for Quorenthel Pharma GmbH under {{PRJ0060:project_id}}."
+        },
+        {
+          "p": "The matrix definitions, limit handling and acceptance qualifications remain part of that interpretation. The tables support the chemistry handoff but do not establish a later exposure improvement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Report control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The companion record is MV-2018-336_AssayWorksheet_022819_v03.xlsx dated 02/28/2019. This final R1 report replaces the interim interpretation for closeout. The project year must not be silently changed to match the report date."
+        },
+        {
+          "list": [
+            "Preserve complete QP07 identifiers across tables.",
+            "Retain both transport directions and recovery.",
+            "Keep solubility limit symbols.",
+            "Preserve the percentage basis of unbound results.",
+            "Do not transfer the result to an untested redesign."
+          ]
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director",
+      "date": "02/28/2019",
+      "signed": true
+    },
+    {
+      "name": "Javier Quintana",
+      "role": "Mass-Spectrometry Manager",
+      "date": "02/28/2019",
+      "signed": true
+    },
+    {
+      "name": "Helen Marchwood",
+      "role": "Bioanalytical Quality Manager",
+      "date": "02/28/2019",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
