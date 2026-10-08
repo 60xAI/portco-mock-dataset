@@ -1,0 +1,53 @@
+{
+ "family": "workbook",
+ "summary": "Consolidated results for investigation OT-19-S0100, the VP10 aminoquinoline genotoxicity package for Valquessia Pharmaceuticals SpA. Control validity holds for the HepG2 viability screen, the bacterial mutation assay with and without S9 and the mammalian-cell micronucleus assessment. The bacterial assay is negative, but the mammalian scoring points to the same reactive side-chain concern across several articles. Valquessia have dropped that branch of the series.",
+ "properties": {"title": "OT-19-S0100 VP10 genotoxicity results"},
+ "sheets": [
+  {"name": "Summary", "rows": [
+    [{"v": "OT-19-S0100 VP10 genotoxicity package: consolidated results", "bold": true}],
+    ["Investigation", "{{PRJ0123:project_id}}"],
+    ["LIMS reference", "{{PRJ0123:lims_id}}"],
+    ["Client", "{{PRJ0123:client_variant}}"],
+    ["Test article cohort", "Aminoquinoline series 10 (VP10), target mitotic kinase"],
+    ["Test articles", {"ref": "PRJ0123:n_compounds"}],
+    ["Bacterial mutation result", "{{PRJ0123:ames.outcome}}"],
+    ["Lead", "Naomi Takamori, Head of Toxicology", null, "Prepared by Kenji Morita"],
+    [],
+    ["Benchmark summary"]
+   ],
+   "data_refs": [{"table_ref": "PRJ0123:benchmark", "at": "A11", "header": true}],
+   "merged": ["A1:D1"],
+   "col_widths": {"A": 26, "B": 22, "C": 24, "D": 28},
+   "comments": [{"cell": "B7", "text": "Consistent across the mammalian readouts, so the side-chain concern goes into the summary to Valquessia as written.", "author": "Lucia Moretti"}]
+  },
+  {"name": "Cytotox", "rows": [
+    ["HepG2 viability screen (ATP content), 24 h and 48 h exposure. Investigation OT-19-S0100."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0123:cytotox", "at": "A3", "header": true}],
+   "freeze": "A4",
+   "col_widths": {"A": 16, "B": 18, "C": 18},
+   "number_formats": {"B4:C43": "0"},
+   "chart": {"kind": "bar", "ref": "PRJ0123:cytotox", "column": 1, "title": "24 h IC50 (µM)"},
+   "chart_at": "E3"
+  },
+  {"name": "Ames", "rows": [
+    ["Bacterial mutation assay with and without S9. Mean revertants per plate, n=3. Fold is against the vehicle control on the same strain."],
+    ["Control validity met for every strain. Bacterial result is negative, as stated on the summary."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0123:ames", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 10, "B": 12, "C": 16, "D": 10, "E": 8, "F": 16},
+   "number_formats": {"F5:F75": "0.00"}
+  },
+  {"name": "Micronucleus", "rows": [
+    ["Mammalian-cell micronucleus assessment (TK6). Treatment 3 h with and without S9, recovery to 24 h. Percent micronucleated cells, RPD against vehicle."],
+    ["Side-chain concern: the signal repeats across the reactive analogues, not the parent series."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0123:micronucleus", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 14, "B": 16, "C": 14, "D": 12},
+   "comments": [{"cell": "A2", "text": "Dropping the branch is Valquessia's decision. Our part is to state the concern plainly.", "author": "Naomi Takamori"}]
+  }
+ ]
+}
