@@ -1,83 +1,211 @@
 {
- "family": "workbook",
- "summary": "Interim route scout workbook for the Valquessia VP-C amide coupling programme, dated 08 Jul 2026. The coupling screen conditions are logged and the isolation trials on the preferred solvent system are in progress. No final route has been selected, and the result cells still to be confirmed are left open.",
- "properties": {
-  "title": "VD-26-068 interim route scout: VP-C amide coupling"
- },
- "sheets": [
-  {
-   "name": "Summary",
-   "start": "A1",
-   "rows": [
-    [{"v": "VD-26-068 interim route scout: VP-C amide coupling", "bold": true}],
-    [{"v": "Vellacombe Discovery Ltd, a Tarnovell company", "bold": true}],
-    [],
-    ["Client", "{{PRJ0026:client_variant}}"],
-    ["Programme", "{{PRJ0026:project_id}}"],
-    ["LIMS", "{{PRJ0026:lims_id}}"],
-    ["Status", "Interim, 08 Jul 2026. Final route not yet selected."],
-    ["Price", "{{PRJ0026:price}}"],
-    ["Lead", "Dr R. Calderwood"],
-    [],
-    ["Summary", "The coupling screen is logged in full on the next sheet. The isolation trials on the preferred solvent system are running, and the route will be chosen once their isolated material has been characterised. Entries marked [TBC] are not yet confirmed."],
-    ["Route gate", "Open. Route not selected."]
-   ],
-   "col_widths": {"A": 16, "B": 70},
-   "merged": ["A1:D1", "A2:D2"],
-   "comments": [{"cell": "B7", "text": "Keep 'Not selected' until the trial solvent is locked. Wording changes after that.", "author": "Clara Fenwick"}],
-   "tab_color": "#1F4E79"
+  "family": "workbook",
+  "summary": "Interim route scout workbook for the Valquessia VP-C amide coupling programme, dated 08 Jul 2026. The coupling screen is complete and isolation trials on the preferred solvent system continue. Detailed conditions and observations remain in the route scout records; no final route has been selected.",
+  "properties": {
+    "title": "VD-26-068 interim route scout: VP-C amide coupling"
   },
-  {
-   "name": "Coupling screen",
-   "start": "A1",
-   "rows": [
-    ["Entry", "Acid partner", "Amine partner", "Coupling reagent", "Base", "Solvent", "Temp (°C)", "Time (h)", "Conversion (HPLC area %)", "Comment"],
-    [1, "VP-C acid", "Model amine", "HATU", "DIPEA", "DMF", 20, 4, "[TBC]", "Clean by HPLC"],
-    [2, "VP-C acid", "Model amine", "EDC / HOBt", "NMM", "DMF", 20, 16, "", "Slow; starting acid remains"],
-    [3, "VP-C acid", "Model amine", "T3P", "Pyridine", "EtOAc", 20, 6, "[TBC]", ""],
-    [4, "VP-C acid", "Model amine", "T3P", "Pyridine", "EtOAc", 40, 6, "", "Epimerisation suspected; repeat at lower temperature"],
-    [5, "VP-C acid chloride", "Model amine", "Oxalyl chloride, then amine", "Et3N", "DCM", 0, 2, "", ""],
-    [6, "VP-C acid", "Model amine", "DIC / Oxyma", "None", "MeCN", 20, 12, "[TBC]", "Solid precipitated during reaction"],
-    [7, "VP-C acid", "Model amine", "HATU", "DIPEA", "MeCN", 20, 4, "", ""],
-    [8, "VP-C acid", "Model amine", "EDC / HOBt", "NMM", "MeCN", 40, 16, "", "Not run to completion"]
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 8, "B": 20, "C": 18, "D": 26, "E": 10, "F": 10, "G": 11, "H": 10, "I": 24, "J": 44},
-   "number_formats": {"G2:G9": "0", "H2:H9": "0"},
-   "comments": [
-    {"cell": "J5", "text": "Repeat entry 4 with the T3P conditions at lower temperature before we drop this reagent.", "author": "Ruth Calderwood"},
-    {"cell": "I3", "text": "Conversions to go in once the HPLC runs are reviewed.", "author": "Hassan Darwish"}
-   ]
-  },
-  {
-   "name": "Isolation trials",
-   "start": "A1",
-   "rows": [
-    ["Trial", "Solvent system", "Antisolvent", "Scale (mg)", "Isolated yield (mg)", "Purity (area %)", "Status"],
-    ["IT-1", "EtOAc / heptane", "Heptane", 50, "", "", "Running"],
-    ["IT-2", "EtOAc / heptane", "Heptane", 100, "", "", "Queued"],
-    ["IT-3", "MeCN", "Water", 50, "", "", "Not started"],
-    [],
-    ["", "", "", "", "", "", ""]
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 10, "B": 20, "C": 14, "D": 12, "E": 20, "F": 16, "G": 14},
-   "number_formats": {"D2:D10": "0", "E2:E10": "0.0", "F2:F10": "0.0"},
-   "comments": [{"cell": "E2", "text": "Yield to be entered after drying overnight. Mass balance from the mother liquors goes in the note.", "author": "Clara Fenwick"}]
-  },
-  {
-   "name": "Open actions",
-   "start": "A1",
-   "rows": [
-    ["Action", "Owner", "Due", "Status"],
-    ["Complete isolation trials on the preferred solvent system", "Hassan Darwish", "[TBC]", "Open"],
-    ["Repeat coupling entry 4 at lower temperature", "Hassan Darwish", "[TBC]", "Open"],
-    ["Confirm route before any scale-up quotation", "Ruth Calderwood", "", "Not started"],
-    ["Send interim summary to client", "Clara Fenwick", "", "Not started"],
-    []
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 56, "B": 20, "C": 12, "D": 14}
-  }
- ]
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "VD-26-068 interim route scout: VP-C amide coupling",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "Vellacombe Discovery Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Client",
+          "{{PRJ0026:client_variant}}"
+        ],
+        [
+          "Programme",
+          "{{PRJ0026:project_id}}"
+        ],
+        [
+          "LIMS",
+          "{{PRJ0026:lims_id}}"
+        ],
+        [
+          "Status",
+          "Interim, 08 Jul 2026. Final route not yet selected."
+        ],
+        [
+          "Price",
+          "{{PRJ0026:price}}"
+        ],
+        [
+          "Lead",
+          "Dr R. Calderwood"
+        ],
+        [],
+        [
+          "Summary",
+          "The coupling screen is complete. Consult the route scout records for the completed matrix and observations. Isolation trials continue on the preferred solvent system; final route selection remains open."
+        ],
+        [
+          "Route gate",
+          "Open. Route not selected."
+        ]
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 70
+      },
+      "merged": [
+        "A1:D1",
+        "A2:D2"
+      ],
+      "comments": [
+        {
+          "cell": "B7",
+          "text": "Keep 'Not selected' until the trial solvent is locked. Wording changes after that.",
+          "author": "Clara Fenwick"
+        }
+      ],
+      "tab_color": "#1F4E79"
+    },
+    {
+      "name": "Coupling screen",
+      "start": "A1",
+      "rows": [
+        [
+          "Record",
+          "Status",
+          "Conditions",
+          "Observations",
+          "Next step"
+        ],
+        [
+          "Coupling screen",
+          "Complete",
+          "See completed route scout matrix",
+          "See route scout records",
+          "Assess with isolation trials"
+        ],
+        [],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 25,
+        "B": 18,
+        "C": 40,
+        "D": 40,
+        "E": 35
+      },
+      "comments": [
+        {
+          "cell": "C2",
+          "text": "Use the completed matrix in the route scout records; do not reconstruct individual conditions here.",
+          "author": "Hassan Darwish"
+        }
+      ]
+    },
+    {
+      "name": "Isolation trials",
+      "start": "A1",
+      "rows": [
+        [
+          "Trial record",
+          "Solvent system",
+          "Scale (mg)",
+          "Isolated mass (mg)",
+          "Purity (area %)",
+          "Status"
+        ],
+        [
+          "See isolation trial records",
+          "Preferred solvent system",
+          "",
+          "",
+          "",
+          "Continuing"
+        ],
+        [],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 32,
+        "B": 28,
+        "C": 15,
+        "D": 22,
+        "E": 18,
+        "F": 18
+      },
+      "comments": [
+        {
+          "cell": "D2",
+          "text": "Transfer isolated mass and purity only after the trial record has been checked.",
+          "author": "Clara Fenwick"
+        }
+      ]
+    },
+    {
+      "name": "Open actions",
+      "start": "A1",
+      "rows": [
+        [
+          "Action",
+          "Owner",
+          "Due",
+          "Status"
+        ],
+        [
+          "Complete isolation trials on the preferred solvent system",
+          "Hassan Darwish",
+          "[TBC]",
+          "Open"
+        ],
+        [
+          "Review completed coupling screen alongside isolation trial records",
+          "Hassan Darwish",
+          "[TBC]",
+          "Open"
+        ],
+        [
+          "Confirm route before any scale-up quotation",
+          "Ruth Calderwood",
+          "",
+          "Not started"
+        ],
+        [
+          "Send interim summary to client",
+          "Clara Fenwick",
+          "",
+          "Not started"
+        ],
+        []
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 56,
+        "B": 20,
+        "C": 12,
+        "D": 14
+      }
+    }
+  ]
 }
