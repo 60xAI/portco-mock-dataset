@@ -1,64 +1,226 @@
-{"family": "workbook",
- "summary": "Run sheets for BW20_0137 (Rennelwick Institute Drug Discovery Unit, RI13 phenoxyethyl amide series 13): human and rat liver microsomal clearance and human plasma protein binding for all 18 compounds, with the recovery check on the dialysis plate. Accepted 22 May 2020 under the group brand.",
- "properties": {"title": "BW20_0137 run sheets"},
- "sheets": [
-  {"name": "Summary", "start": "A1",
-   "rows": [
-    [{"v": "Brindlewythe Biosciences Ltd, a Tarnovell company", "bold": true}],
-    [{"v": "BW20_0137 run sheets: RI13 HLM stability and free fraction", "bold": true}],
-    ["Project", {"ref": "PRJ0039:project_id"}, "LIMS", {"ref": "PRJ0039:lims_id"}],
-    ["Client", "{{PRJ0039:client_variant}}"],
-    ["Series", "SER13, phenoxyethyl amide, RI13 prefix"],
-    ["Compounds", {"ref": "PRJ0039:n_compounds"}, "Assays", "Liver microsomal stability; plasma protein binding (RED)"],
-    [],
-    ["Stage", "Date", "Sheet", "Checked by"],
-    ["Microsome run", "29/04/2020", "Human and rat CLint, t½", "I. Alvarado"],
-    ["RED run, first", "29/04/2020", "Recovery below target on the first plate", "I. Alvarado"],
-    ["RED run, repeat", "15/05/2020", "Revised labware, recovery checked", "I. Alvarado"],
-    [],
-    ["Reviewed by", "Dr R. Deshmukh", null, "22/05/2020"],
-    ["Outcome", "Rennelwick prioritised the less bound amides for permeability work after the initial stability ranking proved consistent."]
-   ],
-   "col_widths": {"A": 26, "B": 22, "C": 36, "D": 22},
-   "merged": ["A1:D1", "A2:D2"],
-   "comments": [{"cell": "B6", "text": "Client name as it stood on the 2020 quote. Rennelwick has not been renamed on this project.", "author": "Ines Alvarado"}]},
-  {"name": "Plate acceptance", "start": "A1",
-   "rows": [
-    ["Assay", "Run", "Control", "Reference", "Recovery check", "Accepted", "Note"],
-    ["Microsomes", "MS-01", "Verapamil", "Within range", "n/a", "Yes", "Human and rat in parallel"],
-    ["Microsomes", "MS-02", "Verapamil", "Within range", "n/a", "Yes", "Repeat of three compounds with flat t½"],
-    ["RED", "RED-01", "Propranolol", "Within range", "Below target", "No", "Recovery low on both sides of the dialysis cell"],
-    ["RED", "RED-02", "Propranolol", "Within range", "Within target", "Yes", "Labware changed to the low-binding plate"],
-    [],
-    ["Acceptance follows the study plan. RED-01 is kept on the file and excluded from the reported values; the repeat run replaces it in full.", null, null, null, null, null, null],
-    [],
-    [{"v": "Plate acceptance: microsome runs accepted; RED-02 accepted as the reportable plate.", "bold": true}]
-   ],
-   "col_widths": {"A": 14, "B": 12, "C": 16, "D": 16, "E": 18, "F": 12, "G": 40},
-   "merged": ["A7:G7"],
-   "freeze": "A2",
-   "comments": [{"cell": "G4", "text": "Recovery on RED-01 was the reason for the repeat. The first read is kept so the rerun is traceable.", "author": "Ravi Deshmukh"}]},
-  {"name": "Microsomal CLint", "start": "A1",
-   "rows": [
-    [{"v": "Liver microsomal stability, 0.5 mg/mL protein, 1 µM", "bold": true}],
-    ["Human and rat CLint in µL/min/mg. Half-lives over 60 minutes are reported as greater than 60."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0039:mic_stab", "at": "A4", "header": true}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 22, "C": 16, "D": 22, "E": 16},
-   "number_formats": {"B5:E25": "0.0"},
-   "chart": {"kind": "bar", "ref": "PRJ0039:mic_stab", "column": 1, "title": "Human CLint (µL/min/mg)", "y_label": "CLint"},
-   "chart_at": "H4",
-   "tab_color": "#1F4E79"},
-  {"name": "Human PPB", "start": "A1",
-   "rows": [
-    [{"v": "Human plasma protein binding, RED, 4 h, 37 °C", "bold": true}],
-    ["Reportable plate RED-02 only. Unbound fraction is 100 minus % bound. Recovery is shown beside each record and was not corrected."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0039:ppb", "at": "A4", "header": true}],
-   "comments": [{"cell": "C4", "text": "Recovery column is the check that the repeat worked. Anything under 80 would have been a rerun.", "author": "Ines Alvarado"}],
-   "freeze": "A5",
-   "tab_color": "#1F4E79"}
- ]}
+{
+  "family": "workbook",
+  "summary": "Run sheets for {{PRJ0039:project_id}} ({{PRJ0039:client_variant}}): HLM/RLM stability and RED PPB for {{PRJ0039:n_compounds}} compounds. Rennelwick prioritised the less bound amides for permeability work after the stability ranking proved consistent.",
+  "properties": {
+    "title": "BW20_0137 run sheets"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Brindlewythe Biosciences Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "BW20_0137 run sheets: RI13 HLM stability and free fraction",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          {
+            "ref": "PRJ0039:project_id"
+          },
+          "LIMS",
+          {
+            "ref": "PRJ0039:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0039:client_variant}}"
+        ],
+        [
+          "Series",
+          "SER13, phenoxyethyl amide, RI13 prefix"
+        ],
+        [
+          "Compounds",
+          {
+            "ref": "PRJ0039:n_compounds"
+          },
+          "Assays",
+          "HLM/RLM stability; RED PPB"
+        ],
+        [],
+        [
+          "Study stage",
+          "Date",
+          "Record"
+        ],
+        [
+          "Interim",
+          "29/04/2020",
+          "Study interim"
+        ],
+        [
+          "Completion",
+          "22/05/2020",
+          "Final result tables"
+        ],
+        [],
+        [
+          "Lead",
+          "Dr B. Rowcroft"
+        ],
+        [
+          "Outcome",
+          "Rennelwick prioritised the less bound amides for permeability work after the initial stability ranking proved consistent."
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 36,
+        "D": 22
+      },
+      "merged": [
+        "A1:D1",
+        "A2:D2"
+      ],
+      "comments": [
+        {
+          "cell": "B6",
+          "text": "Test-lot and sample handling details remain on the original sample cards.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Plate acceptance",
+      "start": "A1",
+      "rows": [
+        [
+          "Assay / record",
+          "Control / status",
+          "Source record"
+        ],
+        [
+          "HLM/RLM stability",
+          "Verapamil and diltiazem within historical range",
+          "Original microsomal run sheets"
+        ],
+        [
+          "RED PPB",
+          "Warfarin binding control",
+          "Original dialysis run sheets"
+        ],
+        [
+          "Sample cards",
+          "{{PRJ0039:lims_id}}",
+          "Test-lot and handling records"
+        ],
+        [],
+        [
+          "Binding recovery",
+          "Recovery is reported alongside each binding result.",
+          "Original dialysis recovery records"
+        ],
+        [],
+        [
+          "Plate acceptance",
+          "Consult the original run sheets for plate-level checks.",
+          "Result tables do not specify plate allocation."
+        ]
+      ],
+      "col_widths": {
+        "A": 14,
+        "B": 12,
+        "C": 16,
+        "D": 16,
+        "E": 18,
+        "F": 12,
+        "G": 40
+      },
+      "merged": [],
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "C3",
+          "text": "Use the original recovery record for the dialysis run; no repeat history is assigned here.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Microsomal CLint",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Liver microsomal stability, 0.5 mg/mL protein, 1 µM",
+            "bold": true
+          }
+        ],
+        [
+          "Human and rat CLint in µL/min/mg. Half-lives over 60 minutes are reported as greater than 60."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0039:mic_stab",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 22,
+        "C": 16,
+        "D": 22,
+        "E": 16
+      },
+      "number_formats": {
+        "B5:E25": "0.0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0039:mic_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/mg)",
+        "y_label": "CLint"
+      },
+      "chart_at": "H4",
+      "tab_color": "#1F4E79"
+    },
+    {
+      "name": "Human PPB",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Human plasma protein binding, RED, 4 h, 37 °C",
+            "bold": true
+          }
+        ],
+        [
+          "Bound and unbound percentages are reported at different precision; use the recorded unbound value rather than subtracting the rounded bound percentage. Recovery is shown for each compound."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0039:ppb",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "comments": [
+        {
+          "cell": "C4",
+          "text": "Consult the original dialysis run sheets for recovery acceptance and any sample-specific qualification.",
+          "author": "Ines Alvarado"
+        }
+      ],
+      "freeze": "A5",
+      "tab_color": "#1F4E79"
+    }
+  ]
+}
