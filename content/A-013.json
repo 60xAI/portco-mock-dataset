@@ -1,0 +1,58 @@
+{"family": "workbook",
+ "summary": "Route scout workbook for VD-98-076, the DT06 aminopyridine campaign for Drelvessa Therapeutics SAS. It compares the convergent route with side-chain installation moved earlier against the first route, records intermediate recoveries and final release purity, and lists the 32 analogues delivered for the matched-pair biology study.",
+ "properties": {"title": "VD-98-076 DT06 route scout and delivery workbook"},
+ "sheets": [
+  {"name": "Summary",
+   "rows": [
+    [{"v": "VD-98-076 DT06 aminopyridine campaign", "bold": true}],
+    ["Project", "{{PRJ0017:project_id}}"],
+    ["LIMS", "{{PRJ0017:lims_id}}"],
+    ["Client", "{{PRJ0017:client_variant}}"],
+    ["Series", "DT06 aminopyridine, analogue set 06"],
+    ["Compounds delivered", {"ref": "PRJ0017:n_compounds"}],
+    ["Price", "{{PRJ0017:price}}"],
+    ["Turnaround (days)", {"ref": "PRJ0017:turnaround_days"}],
+    [],
+    ["Decision", "Side-chain installation moves ahead of the ring coupling. Recovery of the coupled intermediate improved and gave enough material for the matched-pair study."],
+    ["Still open", "Two members with the morpholine side chain need a second purification. Mainly a volume problem, not a purity one."],
+    [],
+    ["Compiled by", "Clara Fenwick", null, "13/04/1999"],
+    ["Reviewed by", "Dr R. Calderwood", null, "13/04/1999"]
+   ],
+   "col_widths": {"A": 22, "B": 70},
+   "merged": ["A1:D1"]},
+  {"name": "Route scout",
+   "rows": [
+    [{"v": "Route scout: convergent aminopyridine routes", "bold": true}],
+    [],
+    [{"v": "Route", "bold": true}, {"v": "Key step", "bold": true}, {"v": "Scale (mmol)", "bold": true}, {"v": "Comment", "bold": true}],
+    ["Route 1", "Ring coupling first, side chain installed last", "1.0", "Original route. Final coupling needed the amine in excess and gave poor recovery on the larger runs."],
+    ["Route 2", "Side chain installed on the pyridine before ring coupling", "1.0", "Recovery of the coupled intermediate higher on every run. Cleaner crude for the release HPLC."],
+    ["Route 2a", "As route 2, with the acetamide added as the last step", "0.5", "Tried on the first analogue set only. Not carried forward because of a regioselectivity problem."],
+    [],
+    ["Intermediates", "Recoveries recorded per run in the lab notebook, not repeated here. Route 2 is the only one used for the delivery lots."]
+   ],
+   "col_widths": {"A": 12, "B": 56, "C": 16, "D": 72},
+   "freeze": "A4"},
+  {"name": "Release checks",
+   "rows": [
+    [{"v": "Release checks on delivery lots", "bold": true}],
+    ["Identity by 1H NMR and LCMS. Purity by HPLC, UV area % at 254 nm, against the release specification in the study plan."],
+    ["Lots released by", "Clara Fenwick"],
+    ["Lots held for re-purification", "Two, see the Summary sheet"],
+    [],
+    ["Note", "Area % from the HPLC trace is the number reported to Drelvessa. Mass balance is not claimed."]
+   ],
+   "col_widths": {"A": 28, "B": 70}},
+  {"name": "Delivery lots",
+   "rows": [
+    [{"v": "Analogues delivered to Drelvessa Therapeutics SAS for the matched-pair biology study", "bold": true}],
+    ["Yield is isolated. Purity is HPLC area % at 254 nm. Amounts are delivered mg per compound."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0017:synthesis", "at": "A4", "header": true}],
+   "col_widths": {"A": 14, "B": 60, "C": 9, "D": 11, "E": 22, "F": 14},
+   "number_formats": {"C5:C40": "0.0", "D5:D40": "0", "E5:E40": "0.0", "F5:F40": "0"},
+   "freeze": "A5",
+   "comments": [{"cell": "A4", "text": "Check the DT06-02310 amount against the packing list before sending.", "author": "Clara Fenwick"}],
+   "tab_color": "#1F4E79"}
+ ]}
