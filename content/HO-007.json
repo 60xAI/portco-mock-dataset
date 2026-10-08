@@ -1,52 +1,275 @@
-{"family": "workbook",
- "summary": "September snapshot of the SharePoint migration for the six integrated firms and the Osterquill completion. Each local share is listed with its archive root, retention decision and owner, and leaver folders are marked as open until ownership is checked. Items still open are shown as open.",
- "properties": {"title": "SharePoint migration tracker - September 2026"},
- "sheets": [
-  {"name": "Summary", "rows": [
-     [{"v": "SharePoint migration tracker - September 2026", "bold": true}],
-     ["Snapshot date", "25/09/2026"],
-     ["Owner", "Sofia Lindervik, Integration Director"],
-     ["Scope", "Local shares for firms A-F preserved as archive roots; firm G (Osterquill) listed for pre-completion planning only"],
-     ["Procedure", "Archive Migration Ownership Procedure v2 (June 2025)"],
-     [],
-     ["Note", "A task is closed only when the sign-off named on the Share sheet is recorded. Nothing is closed because a copy has completed."]
-   ],
-   "col_widths": {"A": 38, "B": 60},
-   "merged": ["A1:B1"]},
-  {"name": "Share", "start": "A1", "rows": [
-     ["Firm", "Share root", "Archive root", "Retention decision", "Owner confirmed", "Leaver folders", "Status", "Notes"],
-     ["A", "VM-Ledger", "/Archive/A/Ledger", "Retain originals", "Yes", "Checked", "Closed", "Original notebooks scanned and linked"],
-     ["A", "Chem-Shared", "/Archive/A/Chem", "Retain originals", "Yes", "Open", "Open", "Two leaver folders with no active owner"],
-     ["B", "Screening-Data", "/Archive/B/Screen", "Retain originals", "Yes", "Checked", "Closed", "Plate-reader exports kept in original format"],
-     ["B", "Assay-Protocols", "/Archive/B/Protocols", "Retain originals", "No", "Open", "Open", "Owner to be confirmed by the biology lead"],
-     ["C", "Bioanalysis-Raw", "/Archive/C/Raw", "Retain originals", "Yes", "Checked", "Closed", "Raw acquisition files retained with audit trail"],
-     ["C", "Report-Drafts", "/Archive/C/Drafts", "Review before move", "No", "Open", "Open", "Draft reports mixed with superseded versions"],
-     ["D", "Compute-Projects", "/Archive/D/Projects", "Retain originals", "Yes", "Not applicable", "Open", "Permissions review pending"],
-     ["E", "Stability-Chambers", "/Archive/E/Stability", "Retain originals", "Yes", "Open", "Open", "Chamber logs being matched to studies"],
-     ["F", "Formulation-Share", "/Archive/F/Formulation", "Retain originals", "Yes", "Checked", "Open", "Migration nearly complete; permission sweep outstanding"],
-     ["G", "Osterquill-Legacy", "Not migrated", "Held apart", "Not applicable", "Not applicable", "Planning", "Access and QA mapping before any move; completion 1 October 2026"]
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 8, "B": 22, "C": 24, "D": 20, "E": 16, "F": 16, "G": 12, "H": 52},
-   "comments": [{"cell": "F3", "text": "Ownership for Chem-Shared is being traced through the leaver list from HR. Do not move the folders until this is closed.", "author": "Sofia Lindervik"}]},
-  {"name": "Open items", "start": "A1", "rows": [
-     ["#", "Item", "Owner", "Due", "Blocking", "Status"],
-     [1, "Confirm owner of Assay-Protocols (B)", "Biology lead, B", "17/10/2026", "Move of B protocols", "Open"],
-     [2, "Trace owners of two leaver folders in Chem-Shared (A)", "Sofia Lindervik with Praneel Pal", "24/10/2026", "Move of A chemistry share", "Open"],
-     [3, "Review draft reports in Report-Drafts (C) against superseded versions", "C QA lead", "31/10/2026", "Retention decision for C drafts", "Open"],
-     [4, "Permission sweep on Formulation-Share (F)", "F IT lead", "10/10/2026", "F sign-off", "Open"],
-     [5, "Match stability chamber logs to studies (E)", "E study manager", "31/10/2026", "E retention sign-off", "Open"],
-     [6, "Osterquill access and QA mapping plan", "Yasmin Farhat", "Before 1 October 2026 completion", "G onboarding", "Planning"]
-   ],
-   "freeze": "A2",
-   "col_widths": {"A": 5, "B": 56, "C": 32, "D": 26, "E": 28, "F": 12}},
-  {"name": "Log", "start": "A1", "rows": [
-     ["Date", "Change", "By"],
-     ["09/02/2026", "Tracker created from the approved migration procedure; firms A-F listed", "Sofia Lindervik"],
-     ["03/04/2026", "Share inventories for A and B added; owners requested for leaver folders", "Sofia Lindervik"],
-     ["18/06/2026", "Retention decisions recorded for A-C; original scientific records retained", "Sofia Lindervik"],
-     ["21/07/2026", "Exception for C draft reports raised with Group Quality", "Sofia Lindervik"],
-     ["25/09/2026", "September snapshot; open items moved to the Open items sheet", "Sofia Lindervik"]
-   ],
-   "col_widths": {"A": 14, "B": 80, "C": 18}}
- ]}
+{
+  "family": "workbook",
+  "summary": "September snapshot of SharePoint migration planning for the six integrated firms, with Osterquill pre-completion planning listed separately. Local shares are to be preserved as distinct archive roots; retention, permissions and leaver-folder ownership checks govern acceptance. Open checks remain open; Osterquill has not joined at the snapshot date.",
+  "properties": {
+    "title": "SharePoint migration tracker - September 2026"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Tarnovell Bioscience Group | SharePoint migration tracker - September 2026",
+            "bold": true
+          }
+        ],
+        [
+          "Snapshot date",
+          "25/09/2026"
+        ],
+        [
+          "Owner",
+          "Sofia Lindervik, Integration Director"
+        ],
+        [
+          "Scope",
+          "Local shares for firms A-F preserved as archive roots; firm G (Osterquill) listed for pre-completion planning only"
+        ],
+        [
+          "Procedure",
+          "Archive Migration Ownership Procedure v2 (June 2025)"
+        ],
+        [],
+        [
+          "Note",
+          "Close a migration task only when inventory, permission mapping, ownership checks and any exception sign-off are recorded under Procedure v2. A completed copy is insufficient."
+        ]
+      ],
+      "col_widths": {
+        "A": 38,
+        "B": 60
+      },
+      "merged": [
+        "A1:B1"
+      ]
+    },
+    {
+      "name": "Share",
+      "start": "A1",
+      "rows": [
+        [
+          "Firm",
+          "Share scope",
+          "Archive-root plan",
+          "Retention decision",
+          "Ownership check",
+          "Leaver folders",
+          "Status",
+          "Notes"
+        ],
+        [
+          "A",
+          "Historical chemistry records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "A",
+          "Chemistry shared records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "B",
+          "Screening records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "B",
+          "Assay protocols; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "C",
+          "Bioanalysis raw records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "C",
+          "Draft and superseded reports; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Review before move",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "D",
+          "Computational project records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "E",
+          "Stability records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "F",
+          "Formulation records; inventory reference pending",
+          "Preserve separate local archive root; mapping pending",
+          "Retain originals",
+          "Confirmation required",
+          "Ownership check required",
+          "Open",
+          "Acceptance evidence pending: inventory, permissions and ownership; preserve original scientific records"
+        ],
+        [
+          "G",
+          "Osterquill local archive (planning only)",
+          "No migration before completion",
+          "Hold apart after completion pending access and QA mapping",
+          "Pending post-completion review",
+          "Pending post-completion review",
+          "Planning",
+          "Planned completion 1 October 2026; not yet a group firm at this snapshot"
+        ]
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 8,
+        "B": 22,
+        "C": 24,
+        "D": 20,
+        "E": 16,
+        "F": 16,
+        "G": 12,
+        "H": 52
+      }
+    },
+    {
+      "name": "Open items",
+      "start": "A1",
+      "rows": [
+        [
+          "#",
+          "Item",
+          "Owner",
+          "Due",
+          "Blocking",
+          "Status"
+        ],
+        [
+          1,
+          "Confirm ownership of B assay protocol records",
+          "Biology lead, B",
+          "To be agreed",
+          "Move of B protocol records",
+          "Open"
+        ],
+        [
+          2,
+          "Confirm ownership of A chemistry leaver folders",
+          "Sofia Lindervik with Praneel Pal",
+          "To be agreed",
+          "Move of A chemistry records",
+          "Open"
+        ],
+        [
+          3,
+          "Review C draft reports against superseded versions",
+          "C QA lead",
+          "To be agreed",
+          "Retention decision for C drafts",
+          "Open"
+        ],
+        [
+          4,
+          "Complete F permission mapping and acceptance checks",
+          "F IT lead",
+          "To be agreed",
+          "F sign-off",
+          "Open"
+        ],
+        [
+          5,
+          "Confirm E stability record retention and ownership",
+          "E study manager",
+          "To be agreed",
+          "E retention sign-off",
+          "Open"
+        ],
+        [
+          6,
+          "Confirm D computational share permissions",
+          "D site leadership",
+          "To be agreed",
+          "D migration acceptance",
+          "Open"
+        ],
+        [
+          7,
+          "Osterquill access and QA mapping plan",
+          "Yasmin Farhat",
+          "Before 1 October 2026 completion",
+          "G onboarding",
+          "Planning"
+        ]
+      ],
+      "freeze": "A2",
+      "col_widths": {
+        "A": 5,
+        "B": 56,
+        "C": 32,
+        "D": 26,
+        "E": 28,
+        "F": 12
+      }
+    },
+    {
+      "name": "Log",
+      "start": "A1",
+      "rows": [
+        [
+          "Date",
+          "Change",
+          "By"
+        ],
+        [
+          "25/09/2026",
+          "September snapshot: A-F acceptance checks remain open; Osterquill listed for pre-completion planning only",
+          "Sofia Lindervik"
+        ]
+      ],
+      "col_widths": {
+        "A": 14,
+        "B": 80,
+        "C": 18
+      }
+    }
+  ]
+}
