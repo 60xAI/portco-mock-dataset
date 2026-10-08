@@ -1,1 +1,147 @@
-{"family":"deck","summary":"Group brand launch briefing from Daniel Grellacott to firm leadership. Explains the common Tarnovell identity and group template, confirms that local scientific leadership and filing practices stay with each firm, and sets out how legacy client records will be handled. Dated February 2020.","properties":{"title":"Tarnovell Bioscience Group: group brand launch","subject":"Group brand launch briefing","keywords":"Tarnovell, brand, launch, 2020, group template"},"slides":[{"layout":"title","title":"Tarnovell Bioscience Group","subtitle":"Group brand launch: briefing for firm leadership\nDaniel Grellacott, Group Chief Executive\nFebruary 2020","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Why we are launching a common identity","bullets":["The group has grown by acquisition since 1996 and each firm still carries the name it was bought under","Clients often meet two or three of our firms without knowing they belong to one group","The 2019 investment gives us a shared commercial plan, and it needs one face in the market","This briefing sets out what the launch changes, what it leaves alone and what we need from you before the rollout"],"notes":"Keep this section short. Most of the room will already have heard the investment story from Eleanor.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"two_content","title":"What changes and what does not","bullets":["Common group master template for proposals, reports and presentations from 1 March 2020","Shared Tarnovell wordmark and footer line on all external material","One group website entry point for enquiries, routed to the right firm","Group-level commercial reporting on a common calendar"],"bullets_right":["Local scientific leadership stays with each firm's site head","Local accession and study numbering schemes are unchanged","Filing practices and document control stay as they are today","Existing firm names remain on contracts, invoices and regulatory correspondence"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"table","title":"The five firms joining the common identity in 2020","table":{"columns":["Firm","Location","Joined the group","Scientific focus"],"rows":[["Vellacombe Discovery Ltd","Nottingham, UK","April 1996","Medicinal chemistry"],["Brindlewythe Biosciences Ltd","Cambridge, UK","July 2001","In vitro biology and screening"],["Merrivoss Bioanalysis Inc","Madison, US","March 2008","DMPK and bioanalysis"],["Quenverell Computational Ltd","Edinburgh, UK","October 2014","Bioinformatics and computational chemistry"],["Westravelle Analytical Ltd","York, UK","June 2019","Analytical chemistry and stability testing"]]},"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Local science stays local","bullets":["Each firm keeps its own scientific leadership, study design and client relationships","The group does not set local protocols, assay methods or reporting formats","Where a firm's scientists want to share method work across sites, the group will fund the time but not impose the approach","Site heads remain accountable for the quality of their own scientific output"],"notes":"Yasmin will follow up on quality system questions separately.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Legacy client records","bullets":["Records created before 1 March 2020 are not being restyled to the new template","Old proposals, reports and certificates keep their original brand and layout","Client contact details will be checked for changes of name only, not rewritten","Any document that is reissued after launch uses the new template, with the original reference retained"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Rollout timetable","bullets":["February 2020: master template and brand guide issued to all five firms","Early March 2020: new template switched on for proposals and client-facing reports","March to April 2020: website entry point and enquiry routing tested with each firm","Spring 2020: firm-level brand reviews, with any exceptions agreed in writing with the group"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"What we need from firm leadership","bullets":["Nominate one person per firm to own the template and brand guide locally","Send any existing client-facing templates that carry a firm-specific layout by 28 February 2020","Tell us about any client contracts that name a firm in a way the launch could affect","Keep client communications on the current wording until the launch date is confirmed"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Questions and contacts","bullets":["Brand and template questions: Group Chief Executive's office at head office, Nottingham","Commercial reporting and calendar: Andrea Beckett, Group Finance Director","Quality system and document control: Yasmin Farhat, Group Quality Director","Please send questions by 14 February so we can answer them in the March update"],"footer":"Tarnovell Bioscience Group | Confidential"}]}
+{
+  "family": "deck",
+  "summary": "Group brand launch briefing from Daniel Grellacott to firm leadership. Explains the common Tarnovell identity and group template, confirms that local scientific leadership and filing practices stay with each firm, and sets out how legacy client records will be handled. Dated February 2020.",
+  "properties": {
+    "title": "Tarnovell Bioscience Group: group brand launch",
+    "subject": "Group brand launch briefing",
+    "keywords": "Tarnovell, brand, launch, 2020, group template"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Tarnovell Bioscience Group",
+      "subtitle": "Group brand launch: briefing for firm leadership\nDaniel Grellacott, Group Chief Executive\nFebruary 2020",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Why we are launching a common identity",
+      "bullets": [
+        "The group has grown by acquisition since 1996 and each firm still carries the name it was bought under",
+        "Clients often meet two or three of our firms without knowing they belong to one group",
+        "The 2019 investment gives us a shared commercial plan, and it needs one face in the market",
+        "This briefing sets out what the launch changes, what it leaves alone and what we need from you before the rollout"
+      ],
+      "notes": "Keep this section short. Most of the room will already have heard the investment story from Eleanor.",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "What changes and what does not",
+      "bullets": [
+        "Common group master template for proposals, reports and presentations under the 2020 launch",
+        "Shared Tarnovell wordmark and footer line on all external material",
+        "One group website entry point for enquiries, routed to the right firm",
+        "Group-level commercial reporting on a common calendar"
+      ],
+      "bullets_right": [
+        "Local scientific leadership stays with each firm's site head",
+        "Local accession and study numbering schemes are unchanged",
+        "Filing practices and document control stay as they are today",
+        "Existing firm names remain on contracts, invoices and regulatory correspondence"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "The five firms joining the common identity in 2020",
+      "table": {
+        "columns": [
+          "Firm",
+          "Location",
+          "Joined the group",
+          "Scientific focus"
+        ],
+        "rows": [
+          [
+            "Vellacombe Discovery Ltd",
+            "Nottingham, UK",
+            "April 1996",
+            "Medicinal chemistry"
+          ],
+          [
+            "Brindlewythe Biosciences Ltd",
+            "Cambridge, UK",
+            "July 2001",
+            "In vitro biology and screening"
+          ],
+          [
+            "Merrivoss Bioanalysis Inc",
+            "Madison, US",
+            "March 2008",
+            "DMPK and bioanalysis"
+          ],
+          [
+            "Quenverell Computational Ltd",
+            "Edinburgh, UK",
+            "October 2014",
+            "Bioinformatics and computational chemistry"
+          ],
+          [
+            "Westravelle Analytical Ltd",
+            "York, UK",
+            "June 2019",
+            "Analytical chemistry and stability testing"
+          ]
+        ]
+      },
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Local science stays local",
+      "bullets": [
+        "Each firm keeps its own scientific leadership, study design and client relationships",
+        "Local scientific protocols and assay methods remain with each firm; presentation follows the common group master",
+        "Where a firm's scientists want to share method work across sites, the group will fund the time but not impose the approach",
+        "Site heads remain accountable for the quality of their own scientific output"
+      ],
+      "notes": "Yasmin will follow up on quality system questions separately.",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Legacy client records",
+      "bullets": [
+        "Records created before the 2020 group-template launch are not being restyled to the new template",
+        "Old proposals, reports and certificates keep their original brand and layout",
+        "Client contact details will be checked for changes of name only, not rewritten",
+        "Any document that is reissued after launch uses the new template, with the original reference retained"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Rollout timetable",
+      "bullets": [
+        "February 2020: master template and brand guide issued to all five firms",
+        "February 2020: confirm local adoption of the group master introduced with the 2020 identity",
+        "March to April 2020: website entry point and enquiry routing tested with each firm",
+        "Spring 2020: firm-level brand reviews, with any exceptions agreed in writing with the group"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What we need from firm leadership",
+      "bullets": [
+        "Nominate one person per firm to own the template and brand guide locally",
+        "Send any existing client-facing templates that carry a firm-specific layout by 28 February 2020",
+        "Tell us about any client contracts that name a firm in a way the launch could affect",
+        "Use the Tarnovell identity for new group-era communications; raise local template exceptions with head office"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Questions and contacts",
+      "bullets": [
+        "Brand and template questions: Group Chief Executive's office at head office, Nottingham",
+        "Commercial reporting and calendar: Andrea Beckett, Group Finance Director",
+        "Quality system and document control: Yasmin Farhat, Group Quality Director",
+        "Please send questions by 14 February so we can answer them in the March update"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    }
+  ]
+}
