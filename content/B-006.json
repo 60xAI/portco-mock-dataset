@@ -1,0 +1,117 @@
+{
+  "family": "deck",
+  "summary": "Final primary potency and selectivity readout for the TP04 revised hinge core. Off-target activity was reduced and Tervemere retained polar substituents for the next design cycle.",
+  "properties": {
+    "title": "TP04 scaffold substitution: selectivity reassessment",
+    "subject": "{{PRJ0040:project_id}} final readout",
+    "keywords": "Brindlewythe; plate acceptance; PRJ0040"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "TP04 scaffold substitution: selectivity reassessment",
+      "subtitle": "{{PRJ0040:project_id}} | {{PRJ0040:client_variant}}\n19 Aug 2021 | Dr B. Rowcroft\nBrindlewythe Biosciences Ltd, a Tarnovell company",
+      "notes": "Final client readout. Study accession {{PRJ0040:lims_id}}.",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Plate acceptance and release record",
+      "bullets": [
+        "Primary potency screening set {{PRJ0040:n_compounds}} compounds; accession {{PRJ0040:lims_id}}.",
+        "Study 05 Jul–19 Aug 2021; interim review 27 Jul 2021.",
+        "Ines Alvarado checked plate controls and panel-to-sample-card mapping.",
+        "Bethany Rowcroft accepted the fit and panel review before the final chemistry discussion."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What the assays establish",
+      "bullets": [
+        "Primary potency assay: inflammatory-signal kinase response, IC50 in nM.",
+        "Selectivity sweep: inhibition at 1 µM for the representatives shown in the listing.",
+        "Check Hill slope alongside potency; compare panel profiles at the stated concentration.",
+        "Lower panel signal supports screening selectivity, not a cellular mechanism or exposure margin."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Primary potency extract with fit slopes",
+      "table": {
+        "table_ref": "PRJ0040:kinase_primary",
+        "columns": [
+          0,
+          1,
+          2
+        ],
+        "max_rows": 12
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "TP04 primary potency profile",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0040:kinase_primary",
+        "column": 1,
+        "title": "Primary IC50 (nM)",
+        "y_label": "Primary IC50 (nM)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Selectivity sweep across TP04 representatives",
+      "table": {
+        "table_ref": "PRJ0040:kinase_panel",
+        "columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Revised hinge core: TP04 representatives",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0040",
+        "n": 6
+      },
+      "notes": "Representative structures identify the screening set; this grid is not a potency ranking.",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Integrated ranking after scaffold substitution",
+      "bullets": [
+        "Best primary IC50 {{PRJ0040:kinase.best_ic50_nM}} nM.",
+        "The revised hinge core reduced off-target activity in the programme reassessment.",
+        "Retain polar substituents for the next design cycle, using potency and the full panel profile together.",
+        "Do not infer that every analogue shares the profile of a panel representative."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Tervemere design-cycle handover",
+      "bullets": [
+        "Tervemere retained polar substituents and the revised hinge core.",
+        "Carry compound identifiers and qualified fit slopes into the next test-lot request.",
+        "Repeat primary potency on new material; expand concentration-response profiling where a panel signal affects selection.",
+        "Bethany Rowcroft to close the reassessment screen gate and pass combined listings into the biology memo."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
