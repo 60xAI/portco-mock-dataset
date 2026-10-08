@@ -1,0 +1,127 @@
+{
+  "family": "deck",
+  "summary": "PV-30 capsules: stability review for Parvessune Pharmaceuticals. An impurity reference resolved a late-eluting peak. Parvessune retained the capsule formulation for transfer. Conclusions remain within the tested protocol and are linked to approved sequence sheets.",
+  "properties": {
+    "title": "PV-30 capsules: stability review",
+    "subject": "Parvessune Pharmaceuticals | {{PRJ0094:project_id}} | QA-approved client readout",
+    "keywords": "Westravelle; PV-30 capsules; system suitability; stability pulls"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "1. PV-30 capsules: stability review",
+      "subtitle": "Parvessune Pharmaceuticals | {{PRJ0094:project_id}} | 03 Oct 2022",
+      "bullets": [
+        "Westravelle Analytical Ltd, a Tarnovell company",
+        "QA-approved client readout | Dr A. Penrose",
+        "ICH chamber programme and Assay and related-substances validation"
+      ],
+      "notes": "Final readout. Protocol opened 30 Sep 2021; approved results completed 30 Sep 2022. LIMS accession {{PRJ0094:lims_id}}. An impurity reference resolved a late-eluting peak. Parvessune retained the capsule formulation for transfer.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "2. Approved numerical evidence",
+      "table": {
+        "table_ref": "PRJ0094:stability",
+        "max_rows": 18,
+        "columns": [
+          0,
+          1,
+          2,
+          5,
+          7
+        ]
+      },
+      "notes": "Source: E-007 / PV30_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx, approved 30 Sep 2022. Assay is percent label claim; total impurities are area percent. Condition and pull interval remain part of each result identity. Individual impurities and water results are retained in the full sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "3. Protocol identity and sample custody",
+      "bullets": [
+        "Client: Parvessune Pharmaceuticals",
+        "Protocol: {{PRJ0094:project_id}} | LIMS: {{PRJ0094:lims_id}}",
+        "Opened 30 Sep 2021; completed 30 Sep 2022",
+        "Dr L. Wu: stability lot and sample-custody reconciliation."
+      ],
+      "bullets_right": [
+        "Storage condition and pull interval are carried with the stability lot on the batch card.",
+        "Sequence sheets retain the pack or presentation identity; results must not be pooled across storage conditions.",
+        "Tested interval: through {{PRJ0094:stability.last_timepoint_months}} months."
+      ],
+      "notes": "The accession links receipt, batch card, preparation and analytical sequence. This readout does not introduce new lot codes or replace approved sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "4. HPLC method qualification",
+      "table": {
+        "table_ref": "PRJ0094:method_val",
+        "max_rows": 8
+      },
+      "notes": "Saira Mahmood, QC Method Validation Lead: qualification review. Read each result against its stated acceptance criterion. Assay and related-substances validation supports the reported sample preparation and separation; extensions require a separately agreed protocol.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "chart",
+      "title": "5. Impurity trend by storage interval",
+      "chart": {
+        "kind": "stability",
+        "ref": "PRJ0094:stability",
+        "column": 5,
+        "title": "Total impurities (area %)"
+      },
+      "notes": "An impurity reference resolved a late-eluting peak. The plot is a view of the approved stability table; the table supplies condition, interval and compliance status. Do not extrapolate beyond {{PRJ0094:stability.last_timepoint_months}} months.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "6. System suitability and deviation disposition",
+      "bullets": [
+        "Saira Mahmood: analytical method and system suitability review.",
+        "Dr L. Wu: reconciliation of preparation, storage and sequence identity.",
+        "Dr A. Penrose: approved interpretation and client release."
+      ],
+      "bullets_right": [
+        "Approved sequence sheets are the authority for suitability acceptance and any repeat sequence.",
+        "Deviation notes remain linked to the affected batch card; this deck does not replace their disposition.",
+        "No additional chamber excursion, reinjection or acceptance limit is inferred from the trend plot."
+      ],
+      "notes": "Readout source: PV30_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx. Distinguish an observed formulation or packaging effect from an analytical deviation. An impurity reference resolved a late-eluting peak.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "7. Interpretation for transfer",
+      "bullets": [
+        "An impurity reference resolved a late-eluting peak.",
+        "Parvessune retained the capsule formulation for transfer.",
+        "Transfer the capsule formulation with the impurity reference and peak-assignment instructions.",
+        "Conclusion applies to tested storage conditions and the reported {{PRJ0094:stability.last_timepoint_months}}-month interval."
+      ],
+      "notes": "The impurity reference settled the late-eluting peak interpretation. Retention alone is not a general identity claim for unrelated peaks.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "8. Release gate and client decision",
+      "bullets": [
+        "Parvessune retained the capsule formulation for transfer.",
+        "Release basis: PV30_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx; approved 30 Sep 2022.",
+        "Transfer the capsule formulation with the impurity reference and peak-assignment instructions.",
+        "Archive the approved readout with the sequence sheets, batch cards and linked deviation notes."
+      ],
+      "notes": "Dr A. Penrose | Head of Analytical Services | 03 Oct 2022. Final client readout for Parvessune Pharmaceuticals. Later shelf-life conclusions require additional approved pulls.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    }
+  ]
+}
