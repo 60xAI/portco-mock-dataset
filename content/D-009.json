@@ -1,54 +1,209 @@
-{"family": "workbook",
- "summary": "QV.23.100 analysis notebook for Corvenlith Therapeutics. It sets out the donor-balanced design for the immune-cell RNA-seq, the differential expression contrasts with log2 fold change and adjusted probability thresholds, and the donor-balanced receptor-pathway ranking that moved target prioritisation away from the apparent inflammatory signature. The v3 readout carries the interpretation; the earlier contrasts are kept here as qualified context.",
- "properties": {"title": "Donor-adjusted target ranking: analysis notebook", "subject": "RNA-seq differential expression, QV.23.100", "keywords": "RNA-seq; donor adjustment; pathway ranking; Corvenlith"},
- "sheets": [
-  {"name": "Cover",
-   "rows": [
-    [{"v": "Quenverell Computational Ltd, a Tarnovell company", "bold": true}],
-    [{"v": "Corvenlith immune-cell RNA-seq: donor adjustment and target ranking", "bold": true}],
-    [],
-    ["Project", "{{PRJ0011:project_id}}"],
-    ["LIMS", "{{PRJ0011:lims_id}}"],
-    ["Client", "{{PRJ0011:client_variant}}"],
-    ["Price", "{{PRJ0011:price}}"],
-    ["Turnaround (days)", {"ref": "PRJ0011:turnaround_days"}],
-    [],
-    ["Author", "Dr E. Ostlund"],
-    ["Checked by", "Nadia Rahmani"],
-    ["Data acceptance", "Accepted 18/12/2023"],
-    [],
-    ["Notebook status", "Final. Read with the Corvenlith readout v3 FINAL_final (D-004). The unadjusted contrasts are retained as qualified context only."]
-   ],
-   "col_widths": {"A": 24, "B": 70}, "merged": ["A1:B1", "A2:B2", "A14:B14"]},
-  {"name": "Design",
-   "rows": [
-    ["Item", "Setting", "Note"],
-    ["Cell population", "Immune cells, bulk RNA-seq, one library per donor per condition", "Donor is the unit of replication"],
-    ["Donor balance", "Each condition represented by the same donors; donors with a missing condition excluded from the paired model", "Balance check run before any contrast was fitted"],
-    ["Donor covariate", "Donor entered as a random term; sex and collection batch as fixed covariates", "Batch confirmed against the sample sheet"],
-    ["Normalisation", "Library-size normalised counts, filtered to genes expressed in at least a quarter of samples per group", "Filter threshold set before fitting"],
-    ["Significance", "Adjusted probability threshold 0.05 across all contrasts", "Thresholds fixed in the analysis plan"],
-    ["Effect size", "Log2 fold change reported with the adjusted probability for every contrast", "Fold changes on the log2 scale only"]
-   ],
-   "col_widths": {"A": 20, "B": 72, "C": 44}, "merged": ["A1:C1"], "freeze": "A2",
-   "comments": [{"cell": "B3", "text": "Confirm the donor exclusions against the sample sheet before the figure goes in the readout", "author": "Nadia Rahmani"}]},
-  {"name": "Contrasts",
-   "rows": [
-    ["Contrast", "Comparison", "Log2 fold change", "Adjusted probability", "Status"],
-    ["Unadjusted, all donors", "Stimulated versus resting", "First pass, before adjustment", "Before donor adjustment", "Superseded: retained as context"],
-    ["Donor-adjusted", "Stimulated versus resting, donor as random term", "Reported in readout v3", "Adjusted, threshold 0.05", "Final"],
-    ["Receptor pathway", "Pathway-level contrast, donor-adjusted", "Reported in readout v3", "Adjusted, threshold 0.05", "Final"],
-    ["Inflammatory signature", "Signature score, unadjusted and adjusted", "Smaller after adjustment", "Reduced after adjustment", "Final: smaller than first pass"]
-   ],
-   "col_widths": {"A": 24, "B": 40, "C": 22, "D": 26, "E": 32}, "freeze": "A2",
-   "comments": [{"cell": "E2", "text": "Keep the first-pass row so the change from the adjustment can be traced", "author": "Dr E. Ostlund"}]},
-  {"name": "Pathway ranking",
-   "rows": [
-    ["Rank order", "Pathway", "Basis", "Decision"],
-    ["First", "Receptor pathway", "Holds across donors after adjustment", "Prioritised for target work"],
-    ["Second", "Inflammatory signature", "Driven by a subset of donors before adjustment", "Deprioritised as the lead signal"],
-    ["Third", "Other pathways", "Inconsistent across donors", "Not progressed"]
-   ],
-   "col_widths": {"A": 14, "B": 28, "C": 46, "D": 36}, "freeze": "A2",
-   "comments": [{"cell": "A1", "text": "Ranking is donor-balanced; the earlier order is in the first-pass sheet", "author": "Nadia Rahmani"}]}
- ]}
+{
+  "family": "workbook",
+  "summary": "QV.23.100 is a qualitative design and decision summary for Corvenlith Therapeutics, not a numerical differential-expression export. Donor balancing reduced the apparent inflammatory signature and redirected work towards the reproducible receptor pathway. Exact contrasts, pathway identifiers and statistical methods remain in the engagement analysis records; no fold changes, adjusted probabilities or numerical ranking are reconstructed here.",
+  "properties": {
+    "title": "Donor-adjusted targets: qualitative decision summary",
+    "subject": "RNA-seq differential expression, QV.23.100",
+    "keywords": "RNA-seq; donor adjustment; pathway ranking; Corvenlith"
+  },
+  "sheets": [
+    {
+      "name": "Cover",
+      "rows": [
+        [
+          {
+            "v": "Quenverell Computational Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "Corvenlith immune-cell RNA-seq: donor adjustment and target ranking",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          "{{PRJ0011:project_id}}"
+        ],
+        [
+          "LIMS",
+          "{{PRJ0011:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0011:client_variant}}"
+        ],
+        [
+          "Price",
+          "{{PRJ0011:price}}"
+        ],
+        [
+          "Turnaround (days)",
+          {
+            "ref": "PRJ0011:turnaround_days"
+          }
+        ],
+        [],
+        [
+          "Author",
+          "Dr E. Ostlund"
+        ],
+        [
+          "Checked by",
+          "Nadia Rahmani"
+        ],
+        [
+          "Data acceptance",
+          "Accepted 18/12/2023"
+        ],
+        [],
+        [
+          "Notebook status",
+          "Final qualitative summary. Interpretation source: QuenverellData/engagements/qv.23.100/readouts/corvenlith-pathway-readout_v3_FINAL_final.pptx (D-004). Not a numerical contrast or ranking export."
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 70
+      },
+      "merged": [
+        "A1:B1",
+        "A2:B2",
+        "A14:B14"
+      ]
+    },
+    {
+      "name": "Design",
+      "rows": [
+        [
+          "Item",
+          "Source / requirement",
+          "Scope"
+        ],
+        [
+          "Biological question",
+          "Immune-cell RNA-seq; donor-balanced target prioritisation",
+          "Donor is the biological replication unit."
+        ],
+        [
+          "Donor balance assumption",
+          "Sample manifest under QDATA2023-0617",
+          "Paired analysis assumes matched donors across conditions. Missing-condition/exclusion handling must be read from manifest and analysis specification; not asserted here."
+        ],
+        [
+          "Model and fitting",
+          "Engagement analysis specification and executed analysis output under QDATA2023-0617",
+          "Condition coefficient, formula, donor structure and mixed-model fitting method are not transcribed. Do not infer a random term or fitted covariates from this summary."
+        ],
+        [
+          "Normalisation / filtering",
+          "Same analysis specification and executed preprocessing record",
+          "Normalisation algorithm and filtering parameters not reproduced."
+        ],
+        [
+          "Multiplicity",
+          "Specification and contrast-output metadata",
+          "Correction method and tested family of genes/contrasts must be identified there; no universal 0.05 acceptance claim."
+        ],
+        [
+          "Reproducibility limit",
+          "Exact specification/output filenames and versions are not identified in this summary",
+          "Retrieve the engagement analysis record before reproducing or citing a numerical result."
+        ]
+      ],
+      "col_widths": {
+        "A": 20,
+        "B": 72,
+        "C": 44
+      },
+      "merged": [
+        "A1:C1"
+      ],
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "B3",
+          "text": "Confirm the donor exclusions against the sample sheet before the figure goes in the readout",
+          "author": "Nadia Rahmani"
+        }
+      ]
+    },
+    {
+      "name": "Contrasts",
+      "rows": [
+        [
+          "Comparison context",
+          "Qualitative interpretation",
+          "Source",
+          "Numerical scope"
+        ],
+        [
+          "Before donor balancing",
+          "Apparent inflammatory signature",
+          "D-004: corvenlith-pathway-readout_v3_FINAL_final.pptx, engagement readouts directory",
+          "Earlier interpretation retained as context; no numerical contrast reproduced."
+        ],
+        [
+          "After donor balancing",
+          "Apparent inflammatory signature reduced",
+          "Same D-004 readout; analysis records under QDATA2023-0617",
+          "Exact condition coefficients, log2 fold changes and adjusted probabilities not transcribed."
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 40,
+        "C": 22,
+        "D": 26,
+        "E": 32
+      },
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "E2",
+          "text": "Qualitative context only; obtain identified contrast output before citing effect sizes or probabilities.",
+          "author": "Dr E. Ostlund"
+        }
+      ]
+    },
+    {
+      "name": "Pathway ranking",
+      "rows": [
+        [
+          "Decision theme",
+          "Recorded direction",
+          "Source",
+          "Identifier / ranking scope"
+        ],
+        [
+          "Reproducible receptor pathway",
+          "Prioritised for target work after donor balancing",
+          "D-004: corvenlith-pathway-readout_v3_FINAL_final.pptx",
+          "Pathway database identifier and exact ranking output not recorded here; not a numbered target ranking."
+        ],
+        [
+          "Apparent inflammatory signature",
+          "Reduced after donor balancing",
+          "Same D-004 readout",
+          "Signature definition and numerical evidence remain in engagement analysis records under QDATA2023-0617."
+        ]
+      ],
+      "col_widths": {
+        "A": 14,
+        "B": 28,
+        "C": 46,
+        "D": 36
+      },
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "A1",
+          "text": "Decision summary only. Identify the pathway accession and analysis-output version before treating this as a reproducible ranking.",
+          "author": "Nadia Rahmani"
+        }
+      ]
+    }
+  ]
+}
