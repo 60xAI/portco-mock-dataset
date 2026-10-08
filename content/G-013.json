@@ -1,39 +1,164 @@
-{"family": "workbook",
- "summary": "DRAFT amendment tracker for OT-25-S0229, the Valquessia VP-28 rat range-finding study. It records the pre-dosing formulation hold, the open dose-level cells awaiting confirmation and the protocol changes still outstanding. No animals have been dosed, so the tracker holds no study results.",
- "properties": {"title": "VP28 protocol hold tracker (DRAFT)"},
- "sheets": [
-  {"name": "Amendments", "start": "A1", "freeze": "A4", "tab_color": "#7F7F7F",
-   "col_widths": {"A": 8, "B": 34, "C": 22, "D": 16, "E": 14, "F": 30},
-   "rows": [
-    [{"v": "DRAFT: OT-25-S0229 protocol amendment tracker", "bold": true}],
-    ["Study", "OT-25-S0229", null, "Status", "On hold"],
-    ["LIMS", "OQ/2025/003671", null, "Client", "{{PRJ0130:client_variant}}"],
-    ["No.", "Amendment", "Raised by", "Date raised", "Status", "Open question"],
-    [1, "Pre-dosing formulation hold: new vehicle to be qualified before dosing starts", "Kathryn Holmes", "10/06/2025", "Open", "Qualification report date"],
-    [2, "Upper dose level in the range-finding design", "Lucia Moretti", "10/06/2025", "Draft", "Sponsor confirmation of the top dose"],
-    [3, "Dosing schedule for the recovery arm", "Naomi Takamori", null, "Not started", null],
-    [4, "Clinical observation scoring sheet", null, null, null, null],
-    [5, "Necropsy and pathology sampling list", "Nathan Wade", null, null, null],
-    [],
-    ["Draft. Sections 3 to 5 of the protocol remain under review."]
-   ],
-   "merged": ["A11:F11"],
-   "comments": [
-    {"cell": "E6", "text": "Upper dose cell is still open. Nothing goes to Valquessia until Naomi has seen the revised rationale.", "author": "Lucia Moretti"},
-    {"cell": "B9", "text": "Dosing schedule for the recovery arm not drafted. Rachel to take it on once the vehicle is signed off.", "author": "Kathryn Holmes"}
-   ]},
-  {"name": "Dose levels", "start": "A1", "tab_color": "#7F7F7F",
-   "col_widths": {"A": 26, "B": 22, "C": 40},
-   "rows": [
-    ["Group", "Dose (mg/kg/day)", "Notes"],
-    ["Control", "Vehicle", "Unchanged from the draft protocol"],
-    ["Low", null, "To be set from the range-finding design"],
-    ["Mid", null, null],
-    ["High", null, "Upper level pending sponsor confirmation"],
-    [],
-    ["Animal numbers and sex split: to be confirmed at the study start meeting."]
-   ],
-   "comments": [
-    {"cell": "B4", "text": "Leave blank until the amendment is approved. I'd rather see gaps than a number nobody has agreed.", "author": "Naomi Takamori"}
-   ]}
- ]}
+{
+  "family": "workbook",
+  "summary": "DRAFT amendment tracker for OT-25-S0229, the Valquessia VP-28 rat range-finding study. It records the pre-dosing formulation hold, the open dose-level cells awaiting confirmation and the protocol changes still outstanding. No animals have been dosed, so the tracker holds no study results.",
+  "properties": {
+    "title": "VP28 protocol hold tracker (DRAFT)"
+  },
+  "sheets": [
+    {
+      "name": "Amendments",
+      "start": "A1",
+      "freeze": "A4",
+      "tab_color": "#7F7F7F",
+      "col_widths": {
+        "A": 8,
+        "B": 34,
+        "C": 22,
+        "D": 16,
+        "E": 14,
+        "F": 30
+      },
+      "rows": [
+        [
+          {
+            "v": "DRAFT: OT-25-S0229 protocol amendment tracker",
+            "bold": true
+          }
+        ],
+        [
+          "Study",
+          "OT-25-S0229",
+          null,
+          "Status",
+          "On hold"
+        ],
+        [
+          "LIMS",
+          "OQ/2025/003671",
+          null,
+          "Client",
+          "{{PRJ0130:client_variant}}"
+        ],
+        [
+          "No.",
+          "Amendment",
+          "Raised by",
+          "Date raised",
+          "Status",
+          "Open question"
+        ],
+        [
+          1,
+          "Pre-dosing formulation hold: new formulation to be qualified before dosing starts",
+          "Kathryn Holmes",
+          "10/06/2025",
+          "Open",
+          "Qualification report date"
+        ],
+        [
+          2,
+          "Upper dose level in the range-finding design",
+          "Lucia Moretti",
+          "10/06/2025",
+          "Draft",
+          "Sponsor confirmation of the top dose"
+        ],
+        [
+          3,
+          "Dosing schedule for the recovery arm",
+          "Naomi Takamori",
+          null,
+          "Not started",
+          null
+        ],
+        [
+          4,
+          "Clinical observation scoring sheet",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          5,
+          "Necropsy and pathology sampling list",
+          "Nathan Wade",
+          null,
+          null,
+          null
+        ],
+        [],
+        [
+          "Draft. Sections 3 to 5 of the protocol remain under review."
+        ]
+      ],
+      "merged": [
+        "A11:F11"
+      ],
+      "comments": [
+        {
+          "cell": "E6",
+          "text": "Upper dose cell is still open. Nothing goes to Valquessia until Naomi has seen the revised rationale.",
+          "author": "Lucia Moretti"
+        },
+        {
+          "cell": "B7",
+          "text": "Dosing schedule for the recovery arm not drafted. Rachel to take it on once the vehicle is signed off.",
+          "author": "Kathryn Holmes"
+        }
+      ]
+    },
+    {
+      "name": "Dose levels",
+      "start": "A1",
+      "tab_color": "#7F7F7F",
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 40
+      },
+      "rows": [
+        [
+          "Group",
+          "Dose (mg/kg/day)",
+          "Notes"
+        ],
+        [
+          "Control",
+          "Vehicle",
+          "Control vehicle to be aligned with the qualified formulation; amendment approval pending"
+        ],
+        [
+          "Low",
+          null,
+          "To be set from the range-finding design"
+        ],
+        [
+          "Mid",
+          null,
+          null
+        ],
+        [
+          "High",
+          null,
+          "Upper level pending sponsor confirmation"
+        ],
+        [],
+        [
+          "Animal numbers and sex split: to be confirmed at the study start meeting."
+        ],
+        [],
+        [
+          "Pre-dosing hold: no animal dosing results or tolerated-dose conclusion recorded."
+        ]
+      ],
+      "comments": [
+        {
+          "cell": "B4",
+          "text": "Leave blank until the amendment is approved. I'd rather see gaps than a number nobody has agreed.",
+          "author": "Naomi Takamori"
+        }
+      ]
+    }
+  ]
+}
