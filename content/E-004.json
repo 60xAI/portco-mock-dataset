@@ -1,81 +1,246 @@
-{"family": "workbook",
- "summary": "Approved sequence sheets for WX-4 tablets (WA/2015/137) for Wexanthel Medicines: eighteen-month stability pulls, method qualification results, solution preparation and the sequence sheet record. The qualified method detected a packaging-dependent impurity trend, and Wexanthel adopted the higher-barrier blister. Assay stayed within limits at every pull.",
- "properties": {"title": "WX4 pulls, suitability and solutions Rev03"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-     [{"v": "Westravelle Analytical Ltd", "bold": true}],
-     [{"v": "Wexanthel WX-4 tablets: eighteen-month stability and method qualification", "bold": true}],
-     [],
-     ["Project", {"ref": "PRJ0088:project_id"}],
-     ["LIMS reference", {"ref": "PRJ0088:lims_id"}],
-     ["Client", "{{PRJ0088:client_variant}}"],
-     ["Protocol lead", "Dr A. Penrose"],
-     ["Prepared by", "Dr L. Wu"],
-     ["Start / completion", "22 Jul 2015", "23 Jan 2017"],
-     ["Turnaround", "{{PRJ0088:turnaround_days}} days"],
-     [],
-     ["1. Scope"],
-     ["Eighteen-month ICH stability of WX-4 tablets in the two packs under test, with the HPLC assay and related-substances method qualified before the first pull. Interim review completed 22 Apr 2016."],
-     [],
-     ["2. Result"],
-     ["Assay at time zero was {{PRJ0088:stability.t0_assay}} % label claim. The qualified method detected an impurity trend that depended on the pack. Wexanthel adopted the higher-barrier blister for WX-4 tablets. Conclusions are limited to the tested interval."],
-     [],
-     ["3. Sheets"],
-     ["Pulls", "Stability results and total impurities chart"],
-     ["Method", "Method validation summary"],
-     ["Solutions", "Solution preparation and units as written in the batch card"],
-     ["Deviations", "Deviation notes"]
-   ],
-   "col_widths": {"A": 24, "B": 30, "C": 22, "D": 14},
-   "merged": ["A1:D1"]
+{
+  "family": "workbook",
+  "summary": "Approved sequence sheets for WX-4 tablets (WA/2015/137) for Wexanthel Medicines: eighteen-month stability pulls, method qualification results, solution preparation and the sequence sheet record. The qualified method detected a packaging-dependent impurity trend, and Wexanthel adopted the higher-barrier blister. Assay stayed within limits at every pull.",
+  "properties": {
+    "title": "WX4 pulls, suitability and solutions Rev03"
   },
-  {"name": "Pulls",
-   "rows": [
-     [{"v": "Stability pulls: WX-4 tablets", "bold": true}],
-     ["Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pack A is the standard blister; pack B is the higher-barrier blister."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0088:stability", "at": "A4"}],
-   "col_widths": {"A": 18, "B": 16, "C": 14, "D": 18, "E": 18, "F": 20, "G": 16, "H": 14},
-   "number_formats": {"C5:C22": "0.0", "F5:F22": "0.00"},
-   "freeze": "A5",
-   "chart": {"kind": "bar", "ref": "PRJ0088:stability", "column": 5, "title": "Total impurities (% area)"},
-   "chart_at": "J4"
-  },
-  {"name": "Method",
-   "rows": [
-     [{"v": "Method validation summary: assay and related substances", "bold": true}],
-     ["Qualified against the HPLC method qualification protocol. Acceptance criteria as written in the protocol."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0088:method_val", "at": "A4"}],
-   "col_widths": {"A": 26, "B": 14, "C": 16}
-  },
-  {"name": "Solutions",
-   "rows": [
-     [{"v": "Solution preparation and units", "bold": true}],
-     ["Units are recorded as written on the batch card. Concentrations are for the working solutions used in the sequences."],
-     [],
-     ["Solution", "Nominal concentration", "Units as written", "Storage"],
-     ["Standard stock", "1.0 mg/mL in diluent", "mg/mL", "Refrigerated, 7 days"],
-     ["Working standard", "0.10 mg/ml", "mg/ml", "Prepared fresh each day"],
-     ["Impurity spike, Imp A", "5 µM", "µM", "Refrigerated, protected from light"],
-     ["Impurity spike, Imp B", "50 nM", "nM", "Refrigerated, protected from light"],
-     ["Sample solution", "0.5 mg/mL", "mg/mL", "Prepared on the day of analysis"],
-     ["Low-level check", "200 ng/ml", "ng/ml", "Prepared fresh each day"]
-   ],
-   "col_widths": {"A": 24, "B": 26, "C": 18, "D": 34}
-  },
-  {"name": "Deviations",
-   "rows": [
-     [{"v": "Deviation notes", "bold": true}],
-     ["Ref", "Raised", "Summary", "Status"],
-     ["DN-01", "14 Apr 2016", "Eighteen-month pack B pull logged against the wrong chamber position. Position corrected in LIMS and the sample confirmed by the chamber log.", "Closed 18 Apr 2016"],
-     ["DN-02", "19 Dec 2016", "Impurity spike solution prepared at 5 µM instead of the 5 nM written on the sequence sheet. Spike remade and the affected run repeated.", "Closed 21 Dec 2016"]
-   ],
-   "col_widths": {"A": 10, "B": 14, "C": 70, "D": 22},
-   "comments": [{"cell": "C5", "text": "Units on the sequence sheet to be aligned with the batch card at the next revision.", "author": "Alice Penrose"}],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Westravelle Analytical Ltd",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "Wexanthel WX-4 tablets: eighteen-month stability and method qualification",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0088:project_id"
+          }
+        ],
+        [
+          "LIMS reference",
+          {
+            "ref": "PRJ0088:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0088:client_variant}}"
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ],
+        [
+          "Prepared by",
+          "Dr L. Wu"
+        ],
+        [
+          "Start / completion",
+          "22 Jul 2015",
+          "23 Jan 2017"
+        ],
+        [
+          "Turnaround",
+          "{{PRJ0088:turnaround_days}} days"
+        ],
+        [],
+        [
+          "1. Scope"
+        ],
+        [
+          "Eighteen-month ICH stability of WX-4 tablets with assay and related-substances qualification. Interim review completed 22 Apr 2016."
+        ],
+        [],
+        [
+          "2. Result"
+        ],
+        [
+          "Assay at time zero was {{PRJ0088:stability.t0_assay}} % label claim. The qualified method detected an impurity trend that depended on the pack. Wexanthel adopted the higher-barrier blister for WX-4 tablets. Conclusions are limited to the tested interval."
+        ],
+        [],
+        [
+          "3. Sheets"
+        ],
+        [
+          "Pulls",
+          "Stability results and total impurities chart"
+        ],
+        [
+          "Method",
+          "Method validation summary"
+        ],
+        [
+          "Solutions",
+          "Solution preparation and units as written in the batch card"
+        ],
+        [
+          "Deviations",
+          "Deviation notes"
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 30,
+        "C": 22,
+        "D": 14
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Pulls",
+      "rows": [
+        [
+          {
+            "v": "Stability pulls: WX-4 tablets",
+            "bold": true
+          }
+        ],
+        [
+          "Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. The table is organised by storage condition, not by packaging presentation; packaging identities and comparison records remain on the batch card. Time zero is one initial analysis shared by all storage conditions; repeated initial rows do not represent separate pulls."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0088:stability",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 16,
+        "C": 14,
+        "D": 18,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 14
+      },
+      "number_formats": {
+        "C5:C22": "0.0",
+        "F5:F22": "0.00"
+      },
+      "freeze": "A5",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0088:stability",
+        "column": 5,
+        "title": "Total impurities (% area)"
+      },
+      "chart_at": "J4"
+    },
+    {
+      "name": "Method",
+      "rows": [
+        [
+          {
+            "v": "Method validation summary: assay and related substances",
+            "bold": true
+          }
+        ],
+        [
+          "Qualified against the HPLC method qualification protocol. Acceptance criteria as written in the protocol."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0088:method_val",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 14,
+        "C": 16
+      }
+    },
+    {
+      "name": "Solutions",
+      "rows": [
+        [
+          {
+            "v": "Solution preparation and units",
+            "bold": true
+          }
+        ],
+        [
+          "Item",
+          "Record"
+        ],
+        [
+          "Preparation details",
+          "Refer to the batch card for standard, sample and impurity-reference preparations."
+        ],
+        [
+          "Concentration notation",
+          "Stock entries use mg/mL; working-solution entries use mg/ml. Refer to the preparation record for concentrations."
+        ],
+        [
+          "Storage and use periods",
+          "Refer to the preparation record; this summary does not assign solution expiry."
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 26,
+        "C": 18,
+        "D": 34
+      }
+    },
+    {
+      "name": "Deviations",
+      "rows": [
+        [
+          {
+            "v": "Deviation notes and reporting interval",
+            "bold": true
+          }
+        ],
+        [
+          "Item",
+          "Record"
+        ],
+        [
+          "Deviation / repeat history",
+          "Refer to the batch card and approved sequence sheets."
+        ],
+        [
+          "Reporting interval",
+          "Long-term and intermediate pulls extend to the final reported timepoint; accelerated pulls stop at six months."
+        ],
+        [
+          "Packaging decision",
+          "Wexanthel adopted the higher-barrier blister following the packaging-dependent impurity trend. The condition table does not quantify that comparison."
+        ]
+      ],
+      "col_widths": {
+        "A": 10,
+        "B": 14,
+        "C": 70,
+        "D": 22
+      },
+      "comments": [
+        {
+          "cell": "B3",
+          "text": "Retain source deviation references with the sequence sheets.",
+          "author": "Alice Penrose"
+        }
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
