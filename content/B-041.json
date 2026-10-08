@@ -1,0 +1,351 @@
+{
+  "family": "document",
+  "summary": "Final quotation for HLM/RLM stability and RED PPB on the BP16 screening set. The offer describes paired assay methods, recovery checks, the GBP package price and acceptance conditions while shipment and client approval remain outstanding.",
+  "properties": {
+    "title": "BW25_0273 quotation rev A"
+  },
+  "header": "BW25_0273 | Quotation rev A",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "BP16 binding and clearance — discovery package quotation",
+    "subtitle": "Quotation rev A",
+    "lines": [
+      "Brindlewythe Biosciences Ltd, a Tarnovell company",
+      "Client: Belquorin Pharma",
+      "Study: {{PRJ0051:project_id}}",
+      "Accession reference: {{PRJ0051:lims_id}}",
+      "Prepared by Dr B. Rowcroft, Screening Operations Director",
+      "Date: 09 Jun 2025"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Discovery package offered",
+      "blocks": [
+        {
+          "p": "Belquorin Pharma is considering a binding and clearance package for the BP16 oxazole carboxamide screening set. This quotation covers HLM/RLM stability and RED PPB on {{PRJ0051:n_compounds}} compounds. The offer is complete, but no client acceptance, shipment commitment or laboratory start is recorded here."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Package basis"
+            ],
+            "rows": [
+              [
+                "Study",
+                "{{PRJ0051:project_id}}"
+              ],
+              [
+                "Accession reference",
+                "{{PRJ0051:lims_id}}"
+              ],
+              [
+                "Compounds",
+                "{{PRJ0051:n_compounds}}"
+              ],
+              [
+                "Stability",
+                "Human and rat liver microsomes"
+              ],
+              [
+                "Binding",
+                "RED PPB in human and rat plasma"
+              ],
+              [
+                "Price",
+                "{{PRJ0051:price}}"
+              ]
+            ],
+            "caption": "Quotation summary"
+          }
+        },
+        {
+          "p": "The purpose is to support the next BP16 compound selection with accepted turnover and binding measurements. Control acceptance and mass-balance checks precede interpretation. This package does not estimate a clinical dose or substitute a low-recovery binding result for a valid unbound fraction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Questions answered by the package",
+      "blocks": [
+        {
+          "p": "HLM/RLM stability will measure parent depletion under the specified cofactor-supported conditions. RED PPB will estimate the fraction unbound at the stated concentration and equilibration conditions. Comparing those endpoints can guide a follow-up discussion, but the report will keep the measurements distinct rather than turning them into an unsupported in vivo clearance prediction."
+        },
+        {
+          "p": "The protease target and efficacy of BP16 compounds are outside this work. The laboratory will not select a compound solely from binding or microsomal rank. Belquorin should combine accepted results with its own potency, exposure and chemistry information."
+        },
+        {
+          "list": [
+            "Parent depletion is an assay observation under the stated matrix conditions.",
+            "Binding is conditional on adequate recovery and equilibration.",
+            "Human and rat results are reported separately.",
+            "Metabolite identification, hepatocyte turnover and permeability are excluded."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Shipment readiness",
+      "blocks": [
+        {
+          "p": "Belquorin should settle the intended screening set before dispatch. The price assumes a single reconciled test lot with sufficient material for both assays and routine technical repeats. A preliminary list can support planning, but it will not be used as a final plate map until the physical stocks and identifiers agree."
+        },
+        {
+          "p": "Henning Flantz will record receipt against {{PRJ0051:lims_id}} and reconcile BP16 identifiers, nominal concentrations, solvent and available volume. The client supplies stock identity and concentration. Independent structure confirmation and quantitative stock assay are not included."
+        },
+        {
+          "p": "Where the programme team changes the shipment, the replacement list must distinguish compounds removed from compounds renamed or resupplied. No assay scheduling commitment will be inferred from this quotation while the list remains unsettled. Bethany Rowcroft will confirm which material is ready before laboratory preparation begins."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Handling and material assumptions",
+      "blocks": [
+        {
+          "p": "Stocks should be supplied in sealed, individually labelled containers with storage conditions and safety information. The working assumption is DMSO stock suitable for dilution into both microsomal incubation and plasma. Any aqueous stock, unusual solvent or known precipitation behaviour must be discussed before shipment because it may change the preparation method."
+        },
+        {
+          "p": "Belquorin will arrange transport appropriate to the compound stability information. Brindlewythe records container damage, leakage and shortages at receipt and holds affected items for clarification. Samples are not placed into an assay merely because the courier has delivered them."
+        },
+        {
+          "list": [
+            "Declare salt form and parent identifier.",
+            "Provide concentration and usable volume on the shipment list.",
+            "Record restrictions on thawing and mixing.",
+            "Retain sufficient stock for a repeat if a binding recovery check fails.",
+            "Agree residual-material return or disposal in writing."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 HLM/RLM stability design",
+      "blocks": [
+        {
+          "p": "The proposed stability method tests compound at 1 µM in pooled human and rat liver microsomes at 0.5 mg/mL protein. Incubations are conducted at 37 °C with NADPH. Samples are removed at 0, 5, 15, 30 and 45 minutes and quenched for LC-MS/MS measurement of parent compound. Incubations are prepared in duplicate."
+        },
+        {
+          "p": "A matched no-NADPH series distinguishes cofactor-dependent loss from loss caused by instability, adsorption or other processes. Matrix blanks and reference compounds support the analytical and incubation checks. The run sheet records the actual stock dilution, final solvent and timing, including any departure from the proposed schedule."
+        },
+        {
+          "p": "Only points within the analytical range will enter the parent-depletion fit. A flat profile is qualified relative to the observation window; it is not reported as an infinite measured half-life. A rapidly disappearing parent may require an earlier-time experiment outside routine repeat work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Stability plate acceptance",
+      "blocks": [
+        {
+          "p": "The stability run requires an accepted reference turnover profile, quantifiable initial parent response and adequate analytical consistency. The laboratory method range will be entered on the run sheet before BP16 profiles are ranked. The no-NADPH observations are assessed alongside the active incubation rather than ignored after fitting."
+        },
+        {
+          "p": "Ines Alvarado will check that timing, sample identity and analytical range support the reported decline. A poor initial signal or a non-monotonic profile triggers investigation of preparation and measurement before a half-life is released. Repeating a technical failure does not erase the first run; its rejection reason remains in the study record."
+        },
+        {
+          "list": [
+            "Report human and rat acceptance independently.",
+            "Do not combine profiles from different preparation histories.",
+            "Qualify fits limited by the time window.",
+            "Discuss persistent compound-specific interference with Belquorin before further work."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 RED PPB design",
+      "blocks": [
+        {
+          "p": "The proposed RED PPB experiment tests compound at 1 µM in human and rat plasma against buffered receiver solution, in duplicate, at 37 °C. The initial equilibration period is 4 hours with controlled mixing. Plasma and receiver aliquots are matrix-matched for LC-MS/MS measurement. The run sheet will record the actual incubation conditions and matrix source."
+        },
+        {
+          "p": "The ratio of receiver to plasma concentration supports the unbound-fraction calculation only when the dialysis system and recovery checks are acceptable. A reference binding compound and non-specific binding checks will accompany the test lot. The proposed method uses fresh working dilutions and minimises unnecessary transfers."
+        },
+        {
+          "p": "Human and rat plasma results will remain separate. No result in this package is labelled tissue binding. If the working concentration is unsuitable for the supplied stock or the compound cannot equilibrate reliably, a modified concentration or incubation will be agreed before an additional experiment is undertaken."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Recovery and equilibration checks",
+      "blocks": [
+        {
+          "p": "Recovery is calculated from the material measured in both dialysis compartments relative to the material introduced. Low recovery can arise from adsorption, precipitation, instability or an analytical limitation. It does not by itself establish strong plasma protein binding. A result with inadequate mass balance will be qualified or withheld."
+        },
+        {
+          "p": "The laboratory will examine the blank, reference behaviour, compartment measurements and transfer record before attributing a failure to a BP16 compound. Routine repeat work may resolve a preparation problem. Additional equilibration studies, stock quantitation or altered device conditions require a scope discussion if they exceed ordinary technical resolution."
+        },
+        {
+          "list": [
+            "Plate acceptance comes before binding classification.",
+            "Receiver response below the analytical range is shown with a limit.",
+            "A qualified limit is not replaced by a precise percentage.",
+            "Pending recovery investigations remain visible in interim communications."
+          ]
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Data reduction and units",
+      "blocks": [
+        {
+          "p": "Stability will be expressed as parent remaining over time, fitted half-life in minutes and an in vitro clearance measure where the accepted fit and method permit. The report will state the scaling basis for any clearance calculation. No extrapolated human systemic clearance is included."
+        },
+        {
+          "p": "RED PPB will be expressed as fraction unbound or percent bound with the convention identified in the table heading. Recovery and relevant qualifiers accompany the binding endpoint. A low unbound fraction without acceptable recovery will not be ranked alongside valid measurements as though both were equally informative."
+        },
+        {
+          "p": "Compound identifiers will follow the receipt list. Analytical limits, excluded points and any failed preparation will be recorded in the notes. The final table will keep HLM, RLM, human plasma and rat plasma columns distinct so that matrix differences can be assessed without mixing units or species."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Deliverables",
+      "blocks": [
+        {
+          "p": "The package includes a signed study report and a compound-level results table. The report will give the methods, control disposition, primary tables, exceptions and a concise discussion of what the accepted observations support. Parent-depletion profiles and binding recovery information will be retained with the run sheets."
+        },
+        {
+          "p": "The discussion will identify follow-up questions such as cofactor-independent loss or an uncertain low unbound fraction. It will not state that BP16 exposure is acceptable without an exposure study. Belquorin may provide programme context for a scientific call, but external data will be identified as client-supplied information."
+        },
+        {
+          "p": "Administrative corrections will be resolved against the accession record. A changed interpretation or new experiment will be distinguished from transcription correction. If Belquorin does not accept the offer or send material, no study report or measured endpoint will be issued under this reference."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Scheduling and screen gates",
+      "blocks": [
+        {
+          "p": "No fixed turnaround is offered. The shipment remains a client decision, and dates will be agreed only after written acceptance and reconciliation of the final BP16 list. John Mckinney can coordinate purchase and shipping details; scientific scope is owned by Bethany Rowcroft."
+        },
+        {
+          "p": "The proposed screen gates are receipt release, accepted stability runs, accepted dialysis measurements, exception disposition and signed report release. Completion of one assay does not automatically release the package if the other assay contains an unresolved result relevant to selection."
+        },
+        {
+          "p": "Belquorin will be informed promptly if replacement material or an additional experiment is needed. An interim communication may identify completed components but will clearly distinguish an accepted endpoint from a pending check. An unanswered quotation is not treated as permission to reserve paid experimental work or begin preparation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Price and excluded work",
+      "blocks": [
+        {
+          "p": "The fixed-scope package price is {{PRJ0051:price}} for {{PRJ0051:n_compounds}} BP16 compounds. Included work is routine stock dilution, assay controls, duplicate incubations, ordinary technical repeats, reduction and reporting for HLM/RLM stability and RED PPB. No separate line price has been agreed for an individual matrix."
+        },
+        {
+          "p": "Additional compounds, multiple independent test lots, substantial bioanalytical development, metabolite identification and extended equilibration studies are excluded. Any added work requires a written amendment describing its scientific scope and price. Taxes and transport arrangements will be addressed in purchase documentation."
+        },
+        {
+          "p": "If an accepted study is later cancelled, completed and committed work will be reconciled before billing. That reconciliation will not describe unperformed experiments as completed. The quoted amount is an offer; this document makes no claim that Belquorin has spent it or accepted it."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Confidential material and records",
+      "blocks": [
+        {
+          "p": "BP16 identities, structures and programme context are confidential. The laboratory will use them only for the agreed experiments, reporting and associated quality checks. Results will be supplied to Belquorin Pharma and will not appear in a public capability example without permission."
+        },
+        {
+          "p": "Sample cards, stock preparation histories, accepted and rejected run sheets and report amendments will remain linked to the accession reference. A replacement stock will carry a distinct preparation record even when its parent identifier is unchanged. This preserves the basis for comparing a repeat with the first observation."
+        },
+        {
+          "p": "Residual material will be returned or disposed of under the agreed written instruction. Record custody terms will be confirmed with acceptance. A data query will be traced to the original measurements before any replacement report is issued. An invoice agreement does not resolve a scientific recovery problem."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Client acceptance",
+      "blocks": [
+        {
+          "p": "Belquorin Pharma may accept by returning written approval of {{PRJ0051:project_id}} rev A, its purchase instruction, the final BP16 shipment list and its nominated scientific contact. Once these are available, Brindlewythe will confirm receipt requirements and working dates. Client signature and shipment details are supplied with the acceptance, not presumed in the issued offer."
+        },
+        {
+          "table": {
+            "columns": [
+              "Acceptance item",
+              "Required instruction"
+            ],
+            "rows": [
+              [
+                "Package",
+                "HLM/RLM stability and RED PPB"
+              ],
+              [
+                "Compound count",
+                "{{PRJ0051:n_compounds}}"
+              ],
+              [
+                "Price",
+                "{{PRJ0051:price}}"
+              ],
+              [
+                "Authority",
+                "Written client approval and purchase instruction"
+              ],
+              [
+                "Material",
+                "Final reconciled BP16 stock list"
+              ],
+              [
+                "Dates",
+                "To be agreed after receipt readiness"
+              ]
+            ],
+            "caption": "Acceptance schedule"
+          }
+        },
+        {
+          "p": "This final quotation remains available for a programme decision. It contains no experimental results and no representation of client approval. Scope questions should be settled with Bethany Rowcroft before material is dispatched."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — quotation issued",
+      "date": "09/06/2025"
+    }
+  ]
+}
