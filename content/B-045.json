@@ -1,0 +1,22 @@
+{"family": "scan",
+ "summary": "Signed plate-reader qualification certificate from October 2008, with the control response checks, the qualification status and a next review date. Scanned copy with a received stamp and a handwritten note from the signer.",
+ "document": {"family": "document", "summary": "Plate reader qualification certificate",
+   "properties": {"title": "Plate reader qualification certificate"},
+   "header": "Brindlewythe Biosciences Ltd | Quality", "footer": "Brindlewythe Biosciences Ltd | Confidential",
+   "title_block": {"title": "Plate Reader Qualification Certificate", "subtitle": "Routine qualification", "lines": ["Certificate ref: PR-08-031", "Date: 16 Oct 2008"]},
+   "sections": [
+    {"heading": "1 Scope", "blocks": [{"p": "This certificate records the routine qualification of the plate reader used for the primary potency and kinetic solubility work. It covers the optical checks and the control response checks made on the qualification day."}]},
+    {"heading": "2 Control response checks", "blocks": [
+      {"p": "Both control plates were read in the standard layout. The positive and negative control responses were compared against the acceptance record for the instrument."},
+      {"table": {"columns": ["Check", "Result", "Comment"], "rows": [["Positive control response", "Within window", "Read on both plates"], ["Negative control response", "Within window", "Low signal, no edge effect"], ["Filter and optics check", "Pass", "Reference plate read"], ["Plate-to-plate repeatability", "Within window", "Duplicate plates agreed"]], "caption": "Table 1 Control response checks"}}
+    ]},
+    {"heading": "3 Qualification status", "blocks": [
+      {"p": "The plate reader is qualified for use on the primary potency and solubility assays from the date of this certificate. Plates read before qualification on the previous check are covered by the earlier certificate."},
+      {"list": ["Qualified for primary potency plates", "Qualified for kinetic solubility plates", {"text": "Not qualified for the medium-throughput layout until the next check", "level": 1}], "ordered": false}
+    ]},
+    {"heading": "4 Next review", "blocks": [
+      {"p": "The next routine qualification is due at the start of the new year. Any repair or lamp change before then requires a new qualification before plates are read."}
+    ]}
+   ],
+   "signature_block": [{"name": "Ines Alvarado", "role": "Assay Quality Coordinator", "date": "16 Oct 2008", "signed": true}]},
+ "scan": {"skew_deg": 0.6, "noise": 0.25, "blur": 0.5, "stamp": "RECEIVED 17 OCT 2008", "handwriting": "Recheck Jan 09 - IA", "pages": null}}
