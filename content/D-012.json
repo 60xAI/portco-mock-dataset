@@ -1,51 +1,221 @@
-{"family": "workbook",
- "summary": "DRAFT QV.25.103 ranked list for Drelvessa Therapeutics SAS (DT-8 ligand-series expansion). The ranking is incomplete and procurement is on hold while Drelvessa resolves a scaffold ownership question, so no purchase quantities are approved. Scores and quantities remain [TBC] until the hold is lifted.",
- "properties": {"title": "DT-8 ranked hit list (DRAFT)", "subject": "Ligand series expansion, procurement hold", "keywords": "draft; procurement; DT-8; Drelvessa"},
- "sheets": [
-  {"name": "Cover",
-   "rows": [
-    [{"v": "DRAFT: NOT FOR ISSUE", "bold": true, "fill": "#FFFF00"}],
-    [{"v": "Quenverell Computational Ltd, a Tarnovell company", "bold": true}],
-    [{"v": "DT-8 ligand-series expansion: ranked hit list (draft)", "bold": true}],
-    [],
-    ["Project", "{{PRJ0085:project_id}}"],
-    ["LIMS", "{{PRJ0085:lims_id}}"],
-    ["Client", "{{PRJ0085:client_variant}}"],
-    ["Price", "{{PRJ0085:price}}"],
-    ["Turnaround (days)", "[TBC]"],
-    [],
-    ["Author", "Dr E. Ostlund"],
-    ["Checked by", ""],
-    ["Draft date", "29/09/2025"],
-    ["Engagement status", "On hold"],
-    [],
-    ["Notebook status", "Draft. Ranking incomplete; open questions listed on the Procurement sheet."]
-   ],
-   "col_widths": {"A": 24, "B": 70}, "merged": ["A1:B1", "A2:B2", "A3:B3"]},
-  {"name": "Ranked list",
-   "rows": [
-    ["Rank", "Ligand", "Best score (kcal/mol)", "Second protonation set", "Scaffold", "Status"],
-    [1, "Ligand A", "[TBC]", "[TBC]", "Series 1", "Ranked, pending scaffold check"],
-    [2, "Ligand B", "[TBC]", "", "Series 1", "Ranked, pending scaffold check"],
-    [3, "Ligand C", "[TBC]", "", "Series 2", "Under review"],
-    [4, "Ligand D", "", "", "", ""],
-    ["", "", "", "", "", ""],
-    ["", "", "", "", "", ""],
-    ["", "", "", "", "", ""]
-   ],
-   "col_widths": {"A": 8, "B": 14, "C": 22, "D": 24, "E": 14, "F": 32}, "freeze": "A2",
-   "comments": [{"cell": "E4", "text": "Series 2 scaffold ownership not settled. Do not order until Drelvessa confirms.", "author": "Nadia Rahmani"}]},
-  {"name": "Procurement",
-   "rows": [
-    ["Item", "Record"],
-    ["Procurement status", "Halted by Drelvessa pending scaffold ownership review"],
-    ["Open question", "Which Drelvessa team owns the Series 2 scaffold, and whether it can be sourced for DT-8"],
-    ["Approved ligands", "None"],
-    ["Quantity per ligand", "[TBC] mg, not approved"],
-    ["Budget check", "Against the quote, to be confirmed after hold lifts"],
-    ["Approved by", ""],
-    ["Next step", "Re-rank once the scaffold question is answered; the Ranked list sheet is not final"]
-   ],
-   "col_widths": {"A": 22, "B": 80}, "freeze": "A2",
-   "comments": [{"cell": "B3", "text": "Client contact for the scaffold question not yet named in the file", "author": "Dr E. Ostlund"}]}
- ]}
+{
+  "family": "workbook",
+  "summary": "DRAFT QV.25.103 ranked list for Drelvessa Therapeutics SAS (DT-8 ligand-series expansion). The ranking is incomplete and procurement is on hold while Drelvessa resolves a scaffold ownership question, so no purchase quantities are approved. Scores and quantities remain [TBC] until the hold is lifted.",
+  "properties": {
+    "title": "DT-8 ranked hit list (DRAFT)",
+    "subject": "Ligand series expansion, procurement hold",
+    "keywords": "draft; procurement; DT-8; Drelvessa"
+  },
+  "sheets": [
+    {
+      "name": "Cover",
+      "rows": [
+        [
+          {
+            "v": "DRAFT: NOT FOR ISSUE",
+            "bold": true,
+            "fill": "#FFFF00"
+          }
+        ],
+        [
+          {
+            "v": "Quenverell Computational Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "DT-8 ligand-series expansion: ranked hit list (draft)",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          "{{PRJ0085:project_id}}"
+        ],
+        [
+          "LIMS",
+          "{{PRJ0085:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0085:client_variant}}"
+        ],
+        [
+          "Price",
+          "{{PRJ0085:price}}"
+        ],
+        [
+          "Turnaround (days)",
+          "[TBC]"
+        ],
+        [],
+        [
+          "Author",
+          "Dr E. Ostlund"
+        ],
+        [
+          "Checked by",
+          ""
+        ],
+        [
+          "Draft date",
+          "29/09/2025"
+        ],
+        [
+          "Engagement status",
+          "On hold"
+        ],
+        [],
+        [
+          "Notebook status",
+          "Draft. Ranking incomplete; open questions listed on the Procurement sheet."
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 70
+      },
+      "merged": [
+        "A1:B1",
+        "A2:B2",
+        "A3:B3"
+      ]
+    },
+    {
+      "name": "Ranked list",
+      "rows": [
+        [
+          "Rank",
+          "Ligand source record",
+          "Best score (kcal/mol)",
+          "Preparation record",
+          "Scaffold review",
+          "Status"
+        ],
+        [
+          "",
+          "Engagement ranked hit list",
+          "[TBC]",
+          "[TBC]",
+          "[TBC]",
+          "Draft; procurement on hold"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "col_widths": {
+        "A": 8,
+        "B": 14,
+        "C": 22,
+        "D": 24,
+        "E": 14,
+        "F": 32
+      },
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "E2",
+          "text": "Scaffold ownership remains unresolved. Consult client chemistry correspondence; do not order.",
+          "author": "Nadia Rahmani"
+        }
+      ]
+    },
+    {
+      "name": "Procurement",
+      "rows": [
+        [
+          "Item",
+          "Record"
+        ],
+        [
+          "Procurement status",
+          "Halted by Drelvessa pending scaffold ownership review"
+        ],
+        [
+          "Open question",
+          "Scaffold ownership question remains with the Drelvessa chemistry team; resolution [TBC]."
+        ],
+        [
+          "Approved ligands",
+          "None"
+        ],
+        [
+          "Quantity per ligand",
+          "[TBC] mg, not approved"
+        ],
+        [
+          "Budget check",
+          "Against the quote, to be confirmed after hold lifts"
+        ],
+        [
+          "Approved by",
+          ""
+        ],
+        [
+          "Next step",
+          "Await the client ownership decision before completing procurement review; retain the draft ranking in the engagement records."
+        ]
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 80
+      },
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "B3",
+          "text": "Client contact for the scaffold question not yet named in the file",
+          "author": "Dr E. Ostlund"
+        }
+      ]
+    }
+  ]
+}
