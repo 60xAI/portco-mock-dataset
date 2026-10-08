@@ -1,0 +1,227 @@
+{
+  "family": "deck",
+  "summary": "Current screening capabilities, revision C, issued by Dr L. Benmezroun on 09 Apr 2025. Assay scope, plate acceptance and sample requirements cover potency, selectivity, channel, CYP and binding work. Screening decisions are reported separately from mechanistic conclusions.",
+  "properties": {
+    "title": "Brindlewythe screening capabilities revC",
+    "subject": "Brindlewythe screening capabilities revC",
+    "keywords": "Brindlewythe; screening; plate acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Screening capabilities",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "subtitle": "Revision C | 09 Apr 2025 | Dr L. Benmezroun, Study Director\nBrindlewythe Biosciences Ltd, a Tarnovell company"
+    },
+    {
+      "layout": "title_content",
+      "title": "Build the screening set around the decision",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Primary potency assay: rank activity under defined conditions.",
+        "Selectivity sweep: compare off-target inhibition at a stated concentration.",
+        "hERG automated patch clamp and 5-isoform CYP panel: identify liabilities for follow-up.",
+        "RED PPB: measure binding with recovery checks.",
+        "Agree the screen gate, sample requirements and reporting limits before study start."
+      ]
+    },
+    {
+      "layout": "two_content",
+      "title": "Plate acceptance comes first",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Define control ranges and repeat rules in the study plan.",
+        "Inspect reference response, vehicle baseline and assay signal before releasing results.",
+        "Record exclusions and repeat reasons on the run sheet."
+      ],
+      "bullets_right": [
+        "Ines Alvarado coordinates acceptance records.",
+        "Separate assay failure from a compound-specific limitation.",
+        "Retain qualified results with their notes."
+      ],
+      "notes": "Acceptance limits are assay- and study-specific; this deck does not replace the approved run sheet."
+    },
+    {
+      "layout": "two_content",
+      "title": "Primary potency assay",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Concentration response in nM or µM with assay conditions stated.",
+        "Agree ATP conditions, concentration spacing, replication and reference compound.",
+        "Inspect curve shape and assay window before ranking."
+      ],
+      "bullets_right": [
+        "Require compound identity, test-lot reference and stock concentration.",
+        "Confirm solvent compatibility and solubility across the requested range.",
+        "Report incomplete responses as bounded or qualified results."
+      ],
+      "notes": "Biochemical potency does not establish cellular activity or mechanism."
+    },
+    {
+      "layout": "two_content",
+      "title": "Selectivity sweep",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Agree the off-target kinase list and screening concentration.",
+        "Report inhibition in percent at that concentration; preserve the full fingerprint.",
+        "Use follow-up concentration responses for selected findings."
+      ],
+      "bullets_right": [
+        "Provide compatible stock sufficient for the panel and controls.",
+        "Retain identity across potency and sweep run sheets.",
+        "Choose representatives for the chemistry question, not only potency."
+      ]
+    },
+    {
+      "layout": "two_content",
+      "title": "hERG automated patch clamp",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Ravi Deshmukh leads electrophysiology interpretation.",
+        "Assess vehicle response, cell stability and E-4031 response before release.",
+        "Report cell-level responses, summary IC50 and tested concentration limit."
+      ],
+      "bullets_right": [
+        "Confirm stock concentration, solvent and requested top concentration.",
+        "Discuss solubility constraints before test-lot dispatch.",
+        "Keep cell-count, unstable-response and censored-result notes attached."
+      ],
+      "notes": "The channel result needs exposure context. A censored IC50 is a bound."
+    },
+    {
+      "layout": "two_content",
+      "title": "5-isoform CYP panel",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Screen inhibition under defined substrate and incubation conditions.",
+        "Interpret reference-inhibitor response before ranking.",
+        "Use 3A4 concentration response for a selected follow-up question."
+      ],
+      "bullets_right": [
+        "Provide identity, stock concentration and solvent composition.",
+        "Confirm material against the agreed range and repeat allowance.",
+        "Do not turn a single screening point into an IC50."
+      ]
+    },
+    {
+      "layout": "two_content",
+      "title": "RED PPB",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Equilibrium dialysis with matrix and incubation conditions stated.",
+        "Check recovery before interpreting bound and unbound fractions.",
+        "Investigate low recovery before compound ranking."
+      ],
+      "bullets_right": [
+        "Agree species, matrix, test concentration and stock compatibility.",
+        "Discuss adsorption and solubility concerns before starting.",
+        "Keep recovery with the binding result in every handover."
+      ],
+      "notes": "A repeat uses a documented change and retains the original run record."
+    },
+    {
+      "layout": "table",
+      "title": "Sample requirements: agree before shipment",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "table": {
+        "columns": [
+          "Requirement",
+          "Sample-card information"
+        ],
+        "rows": [
+          [
+            "Identity",
+            "Compound identifier and test-lot reference matching dispatch list"
+          ],
+          [
+            "Material",
+            "Available amount or volume and physical form"
+          ],
+          [
+            "Stock",
+            "Concentration, solvent and preparation information"
+          ],
+          [
+            "Handling",
+            "Storage, stability and known solubility constraints"
+          ],
+          [
+            "Scope",
+            "Assays, concentration range and repeat allowance"
+          ],
+          [
+            "Traceability",
+            "Contact for discrepancies and sample reconciliation"
+          ]
+        ]
+      },
+      "notes": "Henning Flantz coordinates reconciliation. Material requirements are calculated for the agreed study, not a universal submission amount."
+    },
+    {
+      "layout": "image",
+      "title": "From sample receipt to screen gate",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Scope and sample card agreed > Receipt reconciled",
+          "Receipt reconciled > Assay run and controls",
+          "Assay run and controls > Plate acceptance",
+          "Plate acceptance > Qualified results and ranking",
+          "Qualified results and ranking > Client screen gate"
+        ]
+      },
+      "notes": "A failed acceptance step returns to the run sheet and repeat decision before ranking. John Mckinney coordinates handover."
+    },
+    {
+      "layout": "table",
+      "title": "What the client receives",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "table": {
+        "columns": [
+          "Readout element",
+          "Decision value"
+        ],
+        "rows": [
+          [
+            "Conditions and plate acceptance",
+            "Identifies interpretable comparisons"
+          ],
+          [
+            "Compound tables",
+            "Preserves identifiers, units and qualifications"
+          ],
+          [
+            "Charts where study data support them",
+            "Makes screening-set trends visible"
+          ],
+          [
+            "Chemistry context where available",
+            "Connects representatives to the screening question"
+          ],
+          [
+            "Biology memo",
+            "Separates screen gate from mechanistic claims"
+          ],
+          [
+            "Follow-up recommendation",
+            "States the question that remains open"
+          ]
+        ]
+      },
+      "notes": "Client-specific results and molecule grids are not included in this general capability issue."
+    },
+    {
+      "layout": "title_content",
+      "title": "Start with the next screening decision",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Send the screen gate and sample-card list to Leila Benmezroun, Study Director.",
+        "Bethany Rowcroft agrees scope and operational priorities.",
+        "Ravi Deshmukh handles hERG design; Ines Alvarado coordinates plate acceptance.",
+        "Henning Flantz resolves sample requirements; John Mckinney coordinates delivery.",
+        "Confirm conditions, acceptance criteria, qualifications and handover format before dispatch."
+      ]
+    }
+  ]
+}
