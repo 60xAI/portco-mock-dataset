@@ -1,0 +1,202 @@
+{
+  "family": "deck",
+  "summary": "Interim v2 VB-9 Docking and hit clustering readout for Vornelquith Biosciences. The docking queue is complete, but cluster representatives remain under client review and the purchasing shortlist is not frozen; reviewer notes and pending decisions are retained.",
+  "properties": {
+    "title": "QV.26.077 VB-9 cluster review interim v2",
+    "subject": "Completed docking queue; client representative review pending",
+    "keywords": "VB-9; cluster; interim; procurement pending"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "VB-9 virtual library: interim cluster review",
+      "subtitle": "INTERIM v2 | {{PRJ0081:project_id}} | Vornelquith Biosciences\n03 Sep 2026 | Dr E. Ostlund\nQuenverell Computational Ltd, a Tarnovell company",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interim model gate",
+      "bullets": [
+        "Which cluster representatives should enter the purchasing shortlist?",
+        "The docking queue is complete.",
+        "Vornelquith Biosciences is reviewing cluster representatives.",
+        "Procurement is not frozen; final conclusions remain pending."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Engagement provenance",
+      "bullets": [
+        "Engagement opened 27 Jul 2026.",
+        "Interim readout dated 03 Sep 2026.",
+        "Data provenance accession: {{PRJ0081:lims_id}}.",
+        "Completion date: [TBC]."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "table",
+      "title": "Interim status and open decisions",
+      "table": {
+        "columns": [
+          "Item",
+          "Status at 03 Sep 2026",
+          "Required decision"
+        ],
+        "rows": [
+          [
+            "Docking queue",
+            "Complete",
+            "Carry computational provenance forward"
+          ],
+          [
+            "Cluster representatives",
+            "Client review in progress",
+            "Retain / replace / defer [TBC]"
+          ],
+          [
+            "Purchasing shortlist",
+            "Not frozen",
+            "Client approval [TBC]"
+          ],
+          [
+            "Final readout",
+            "Pending",
+            "Completion date [TBC]"
+          ]
+        ]
+      },
+      "notes": "Reviewer comment — Dr T. Zawiernicki, 03 Sep 2026: keep queue completion separate from engagement completion. The final gate follows the client representative review.",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Input identity and data acceptance",
+      "bullets": [
+        "Keep parent identifiers linked to preparation variants.",
+        "Retain excluded inputs and acceptance reasons in the analysis notebook.",
+        "Use the same identity mapping when the client marks representatives for procurement."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Docking queue completion",
+      "bullets": [
+        "The computational queue is complete at this interim gate.",
+        "Queue completion establishes processing status, not biological activity.",
+        "Do not infer procurement approval from completion of docking."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Docking interpretation",
+      "bullets": [
+        "Use score ordering together with pose plausibility.",
+        "Report docking scores in kcal/mol when presenting numerical outputs.",
+        "No numerical docking table accompanies this interim readout.",
+        "Preparation-sensitive candidates require their caveats at client review."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Why cluster the hits",
+      "bullets": [
+        "Expose closely related candidates before choosing representatives.",
+        "Avoid redundant purchases where representatives address the same chemical question.",
+        "Chemical similarity does not establish a common activity mechanism."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Representative selection rationale",
+      "bullets": [
+        "Consider pose plausibility, preparation sensitivity and coverage of distinct chemical ideas.",
+        "Keep the rationale attached to the parent identifier.",
+        "Representative identities approved for the frozen shortlist: [TBC]."
+      ],
+      "notes": "Reviewer comment — Nadia Rahmani, 03 Sep 2026: preserve the parent-to-cluster mapping when replacements arrive; do not overwrite the interim representative rationale.",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Client review in progress",
+      "bullets": [
+        "Vornelquith Biosciences is reviewing the cluster representatives.",
+        "Capture retain, replace or defer decisions against the same parent mapping.",
+        "Client review completion: [TBC].",
+        "No ordering instruction is implied by this interim deck."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Procurement dependencies",
+      "bullets": [
+        "Confirm availability and the identity of the material before freezing selection.",
+        "Resolve replacement requests without losing the cluster rationale.",
+        "Purchasing shortlist approval: [TBC]."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Unresolved questions",
+      "bullets": [
+        "Which cluster representatives does the client want to retain?",
+        "Are any proposed representatives unavailable or unsuitable for procurement?",
+        "Will substitutions change the coverage of chemical ideas?",
+        "Client responses: [TBC]."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Model uncertainty",
+      "bullets": [
+        "Docking approximates interactions and depends on preparation assumptions.",
+        "A cluster representative is a practical experimental choice, not a validated hit.",
+        "Activity, selectivity and other experimental properties remain unestablished."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducibility handover",
+      "bullets": [
+        "Dr E. Ostlund: docking and cluster interpretation.",
+        "Nadia Rahmani: parent mapping and review-version provenance.",
+        "Dr T. Zawiernicki: final model gate after client review.",
+        "Retain the decision history under {{PRJ0081:lims_id}}."
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Route to the final gate",
+      "bullets": [
+        "Receive the client review and resolve substitutions.",
+        "Update representative rationale and check procurement identity.",
+        "Freeze the purchasing shortlist only after approval.",
+        "Final readout date: [TBC]."
+      ],
+      "notes": "Reviewer comment — Dr E. Ostlund, 03 Sep 2026: fill the approval and final-readout dates only after the client review is returned. Leave [TBC] in this interim version.",
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interim conclusion",
+      "bullets": [
+        "Docking queue complete; cluster representatives remain under client review.",
+        "Keep {{PRJ0081:project_id}} open.",
+        "Purchasing shortlist and final conclusions remain pending.",
+        "Dr E. Ostlund | 03 Sep 2026 | INTERIM v2"
+      ],
+      "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential | Interim"
+    }
+  ]
+}
