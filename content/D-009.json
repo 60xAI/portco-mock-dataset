@@ -1,0 +1,54 @@
+{"family": "workbook",
+ "summary": "QV.23.100 analysis notebook for Corvenlith Therapeutics. It sets out the donor-balanced design for the immune-cell RNA-seq, the differential expression contrasts with log2 fold change and adjusted probability thresholds, and the donor-balanced receptor-pathway ranking that moved target prioritisation away from the apparent inflammatory signature. The v3 readout carries the interpretation; the earlier contrasts are kept here as qualified context.",
+ "properties": {"title": "Donor-adjusted target ranking: analysis notebook", "subject": "RNA-seq differential expression, QV.23.100", "keywords": "RNA-seq; donor adjustment; pathway ranking; Corvenlith"},
+ "sheets": [
+  {"name": "Cover",
+   "rows": [
+    [{"v": "Quenverell Computational Ltd, a Tarnovell company", "bold": true}],
+    [{"v": "Corvenlith immune-cell RNA-seq: donor adjustment and target ranking", "bold": true}],
+    [],
+    ["Project", "{{PRJ0011:project_id}}"],
+    ["LIMS", "{{PRJ0011:lims_id}}"],
+    ["Client", "{{PRJ0011:client_variant}}"],
+    ["Price", "{{PRJ0011:price}}"],
+    ["Turnaround (days)", {"ref": "PRJ0011:turnaround_days"}],
+    [],
+    ["Author", "Dr E. Ostlund"],
+    ["Checked by", "Nadia Rahmani"],
+    ["Data acceptance", "Accepted 18/12/2023"],
+    [],
+    ["Notebook status", "Final. Read with the Corvenlith readout v3 FINAL_final (D-004). The unadjusted contrasts are retained as qualified context only."]
+   ],
+   "col_widths": {"A": 24, "B": 70}, "merged": ["A1:B1", "A2:B2", "A14:B14"]},
+  {"name": "Design",
+   "rows": [
+    ["Item", "Setting", "Note"],
+    ["Cell population", "Immune cells, bulk RNA-seq, one library per donor per condition", "Donor is the unit of replication"],
+    ["Donor balance", "Each condition represented by the same donors; donors with a missing condition excluded from the paired model", "Balance check run before any contrast was fitted"],
+    ["Donor covariate", "Donor entered as a random term; sex and collection batch as fixed covariates", "Batch confirmed against the sample sheet"],
+    ["Normalisation", "Library-size normalised counts, filtered to genes expressed in at least a quarter of samples per group", "Filter threshold set before fitting"],
+    ["Significance", "Adjusted probability threshold 0.05 across all contrasts", "Thresholds fixed in the analysis plan"],
+    ["Effect size", "Log2 fold change reported with the adjusted probability for every contrast", "Fold changes on the log2 scale only"]
+   ],
+   "col_widths": {"A": 20, "B": 72, "C": 44}, "merged": ["A1:C1"], "freeze": "A2",
+   "comments": [{"cell": "B3", "text": "Confirm the donor exclusions against the sample sheet before the figure goes in the readout", "author": "Nadia Rahmani"}]},
+  {"name": "Contrasts",
+   "rows": [
+    ["Contrast", "Comparison", "Log2 fold change", "Adjusted probability", "Status"],
+    ["Unadjusted, all donors", "Stimulated versus resting", "First pass, before adjustment", "Before donor adjustment", "Superseded: retained as context"],
+    ["Donor-adjusted", "Stimulated versus resting, donor as random term", "Reported in readout v3", "Adjusted, threshold 0.05", "Final"],
+    ["Receptor pathway", "Pathway-level contrast, donor-adjusted", "Reported in readout v3", "Adjusted, threshold 0.05", "Final"],
+    ["Inflammatory signature", "Signature score, unadjusted and adjusted", "Smaller after adjustment", "Reduced after adjustment", "Final: smaller than first pass"]
+   ],
+   "col_widths": {"A": 24, "B": 40, "C": 22, "D": 26, "E": 32}, "freeze": "A2",
+   "comments": [{"cell": "E2", "text": "Keep the first-pass row so the change from the adjustment can be traced", "author": "Dr E. Ostlund"}]},
+  {"name": "Pathway ranking",
+   "rows": [
+    ["Rank order", "Pathway", "Basis", "Decision"],
+    ["First", "Receptor pathway", "Holds across donors after adjustment", "Prioritised for target work"],
+    ["Second", "Inflammatory signature", "Driven by a subset of donors before adjustment", "Deprioritised as the lead signal"],
+    ["Third", "Other pathways", "Inconsistent across donors", "Not progressed"]
+   ],
+   "col_widths": {"A": 14, "B": 28, "C": 46, "D": 36}, "freeze": "A2",
+   "comments": [{"cell": "A1", "text": "Ranking is donor-balanced; the earlier order is in the first-pass sheet", "author": "Nadia Rahmani"}]}
+ ]}
