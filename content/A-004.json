@@ -1,0 +1,149 @@
+{
+  "family": "deck",
+  "summary": "Final route-meeting readout for Valquessia Pharmaceuticals SpA. The aminoquinoline side-chain programme supports the salt-forming candidate for scale-up because final isolation proved reproducible, while the delivery data remain compound-specific.",
+  "properties": {
+    "title": "VP10: side-chain choice and isolation",
+    "subject": "PRJ0019 | Route scout and delivery",
+    "keywords": "medicinal chemistry; route gate; isolated material"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "VP10: side-chain choice and isolation",
+      "subtitle": "Valquessia Pharmaceuticals SpA | VD-16-033 | 30 Aug 2016\nDr R. Calderwood | Route meeting",
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision: progress the salt-forming side chain",
+      "bullets": [
+        "{{PRJ0019:n_compounds}} aminoquinoline analogues comprise the delivered set.",
+        "Valquessia selected the salt-forming side chain for scale-up.",
+        "Reproducible final isolation was the deciding chemistry observation.",
+        "Selection is a route decision, not a claim of improved mitotic-kinase activity."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Programme and delivery basis",
+      "table": {
+        "table_ref": "PRJ0019:benchmark"
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Delivered analogue set: isolation and release",
+      "table": {
+        "table_ref": "PRJ0019:synthesis",
+        "max_rows": 12,
+        "columns": [
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Side-chain variation on the aminoquinoline core",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0019",
+        "n": 6
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Side-chain comparison: useful material versus a good reaction",
+      "bullets": [
+        "A solubilising side chain is useful only if the product can be recovered consistently.",
+        "Reaction completion alone does not settle isolation feasibility.",
+        "The delivered set defines the structures actually available."
+      ],
+      "bullets_right": [
+        "The salt-forming candidate gave a reproducible final isolation.",
+        "That observation supports a practical scale-up starting point.",
+        "Other side chains remain comparators; their structures are not scale-up commitments."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Isolated yield by delivered compound",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0019:synthesis",
+        "column": 3,
+        "title": "Isolated yield (%)"
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Purity context for the delivered set",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0019:synthesis",
+        "column": 4,
+        "title": "HPLC purity (UV area %, 254 nm)"
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Why reproducibility changes the route gate",
+      "bullets": [
+        "A repeatable isolation reduces dependence on a difficult final clean-up.",
+        "Carry the selected side-chain identity through the compound card and salt preparation.",
+        "Keep isolation behaviour separate from assumptions about solution properties.",
+        "A larger preparation must still demonstrate that the small-scale isolation transfers."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Scale-up route scout",
+      "bullets": [
+        "Hassan Darwish to retain the selected sequence as the starting procedure.",
+        "Track solvent charge, addition order and isolation hold in the route scout.",
+        "Retain the final mother liquor until material accounting is closed."
+      ],
+      "bullets_right": [
+        "Clara Fenwick to link release material to the compound card.",
+        "Compare the new preparation against the delivered reference.",
+        "Ruth Calderwood to assess the route gate after isolation, not merely after conversion."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Material allocation for follow-on work",
+      "table": {
+        "table_ref": "PRJ0019:synthesis",
+        "max_rows": 18,
+        "columns": [
+          0,
+          5
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Meeting close: selection agreed",
+      "bullets": [
+        "Valquessia Pharmaceuticals SpA has selected the salt-forming side chain.",
+        "Prepare the scale-up route scout around reproducible isolation.",
+        "Keep alternative side chains available as chemistry comparators.",
+        "Confirm the requested scale and delivery allocation before the next preparation."
+      ],
+      "notes": "Programme began 11 Apr 2016; final readout 30 Aug 2016. This deck closes the analogue-preparation programme, not the future scale-up work.",
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    }
+  ]
+}
