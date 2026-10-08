@@ -157,7 +157,12 @@ def build_pack(file_id: str) -> str:
             if nd["tables"]:
                 A(f"Tables (embed with `{{\"table_ref\": \"{pj}:<key>\"}}` in a slide/section, or `data_refs` in a sheet; they render the full data):")
                 for k, t in nd["tables"].items():
-                    A(f"- `{pj}:{k}`: {t['title']}; {len(t['rows'])} rows; columns {t['columns']}; first row {t['rows'][0] if t['rows'] else '-'}")
+                    if 0 < len(t['rows']) <= 12:
+                        A(f"- `{pj}:{k}`: {t['title']}; {len(t['rows'])} rows (all shown, so you can describe trends; still embed via table_ref); columns {t['columns']}")
+                        for row in t['rows']:
+                            A(f"    {row}")
+                    else:
+                        A(f"- `{pj}:{k}`: {t['title']}; {len(t['rows'])} rows (table_ref renders all of them); columns {t['columns']}; first row {t['rows'][0] if t['rows'] else '-'}")
             else:
                 A("No result tables (no lab results for this status).")
         A("")
