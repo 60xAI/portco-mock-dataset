@@ -1,0 +1,44 @@
+- file_id: E-021
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Late or missed pulls were deferred to the next status note without a deviation assessment."
+      change_made: "Required prompt deviation documentation and assessment of the effect on interpretation."
+    - severity: minor
+      area: science
+      problem: "The worked accelerated example omitted its storage condition and implied only an end-of-study release gate."
+      change_made: "Made it an illustrative protocol with temperature and humidity settings, per-pull assessment and conclusions limited to the tested interval."
+- file_id: E-023
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Plate acceptance, including signal and Z-prime checks, was required before reading the plate."
+      change_made: "Separated pre-acquisition layout checks from post-acquisition acceptance and the reporting decision."
+    - severity: fix
+      area: consistency
+      problem: "The copied Brindlewythe context and retained screening-control diagrams were absent; wording instead implied a local analytical screening group."
+      change_made: "Named the source firm, added a local cover note and control/workflow diagrams, and clarified the reference-copy status."
+    - severity: fix
+      area: consistency
+      problem: "Repeat limits, escalation counts and named colleagues' agreement were asserted without supporting records."
+      change_made: "Removed unsupported counts and approval claims; deferred repeat and sign-off decisions to approved procedures."
+- file_id: E-024
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Invented chamber identifiers, occupancy, project counts, vacancy dates, rejected quotes and rate-card lead-time rules had no supporting records."
+      change_made: "Replaced unsupported operational claims with qualitative source-record checks for occupancy, reservations, pull windows and quote dependencies."
+    - severity: fix
+      area: science
+      problem: "The deck treated scheduled pulls as freeing chamber capacity without accounting for remaining stored samples."
+      change_made: "Required retention and disposal records to establish available space; separated storage and analytical capacity."
+    - severity: fix
+      area: consistency
+      problem: "The final file called itself a working draft and did not clearly identify the 2017 review as forward planning from November 2016."
+      change_made: "Restored a final Rev02 review for 2017 planning, retained informal personal-copy notes and consolidated to six slides."
