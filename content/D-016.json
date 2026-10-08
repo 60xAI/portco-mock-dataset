@@ -1,0 +1,300 @@
+{
+  "family": "document",
+  "summary": "Final NGS reanalysis report for Doventhar Therapeutics. Junction evidence resolved the apparent gene-expression conflict and supports targeted validation, with annotation provenance and reproduction instructions retained.",
+  "properties": {
+    "title": "Neuronal RNA-seq: splice-junction reanalysis"
+  },
+  "header": "Quenverell Computational Ltd",
+  "footer": "Quenverell Computational Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Neuronal RNA-seq: splice-junction reanalysis",
+    "subtitle": "Final client report",
+    "lines": [
+      "Report: {{PRJ0076:project_id}} | revision 2",
+      "Accession: {{PRJ0076:lims_id}}",
+      "Client: {{PRJ0076:client_variant}}",
+      "Date: 24 Dec 2015",
+      "Prepared by Dr T. Zawiernicki, Head of Bioinformatics"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Neuronal expression question",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Doventhar Therapeutics asked why the gene-level expression interpretation conflicted with neuronal RNA-seq evidence. The question is whether the disagreement reflects the level of summarisation rather than an irreconcilable biological observation. Junction-level NGS reanalysis offers a focused route to validation."
+        },
+        {
+          "p": "The junction analysis resolved the apparent gene-expression conflict and supported a focused validation experiment. This is an interpretation of the submitted sequence data. It does not establish the abundance or function of a complete transcript."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence or requirement",
+              "Interpretation",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Gene summary",
+                "Does not express the local junction distinction",
+                "Retain as context"
+              ],
+              [
+                "Junction evidence",
+                "Resolved the apparent conflict",
+                "Define targeted validation"
+              ],
+              [
+                "Full transcript and function",
+                "Not established",
+                "Keep outside this conclusion"
+              ]
+            ],
+            "caption": "Table 1. Decision and scope summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Scope and analytical chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "NGS reanalysis under {{PRJ0076:project_id}} began on 05 Oct 2015, with an interim discussion on 13 Nov 2015 and completion on 23 Dec 2015. This report dated 24 Dec 2015 accompanies doventhar-junction-reanalysis-v2.pptx and is linked to {{PRJ0076:lims_id}}."
+        },
+        {
+          "p": "The scope is reanalysis of neuronal RNA-seq with attention to splice junctions and annotation provenance. New sequencing and experimental validation are outside the engagement. The final report adds a junction-aware explanation while preserving the original gene-level question."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Source inventory",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The accession joins sequence representation, sample labels and the biological comparison. Derived alignment and summary outputs remain distinct from supplied inputs. A convenient filename cannot establish that sequence material belongs to a particular sample or condition."
+        },
+        {
+          "p": "Nadia Rahmani maintained the curation route. The notebook separates source identifiers from display labels and identifies the annotation dependency. Alias changes must not create apparent replication or remove a difficult sample. Biological descriptions remain attributed to Doventhar Therapeutics."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Gene and junction definitions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A gene summary aggregates information across a locus; a junction measurement concerns a particular connection between sequence segments. Those levels need not move together. A local splice pattern can change without an equivalent change in the aggregate gene representation."
+        },
+        {
+          "p": "The reanalysis retains gene context while examining junctions directly. Coordinates, strand and annotation identity travel with the junction definition. A gene name alone cannot specify an event, and a junction label cannot justify a complete transcript assignment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Annotation provenance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Annotation is an analytical dependency rather than an interchangeable display aid. Changed exon boundaries or transcript definitions can alter which junctions support an interpretation. The final comparison preserves the annotation route so that disagreements with earlier summaries can be examined fairly."
+        },
+        {
+          "p": "Emil Ostlund reviewed event-to-gene interpretation. Reannotation and alignment changes must remain distinguishable rather than being described jointly as a biological correction. Each altered dependency should identify whether counting or interpretation changed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Alignment context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Junction support is assessed in its alignment context. Split alignment, strand compatibility and local sequence ambiguity affect interpretation. Evidence for a boundary under the alignment assumptions is not evidence for every exon of an inferred transcript."
+        },
+        {
+          "p": "Source alignment remains linked to the event definition. Ambiguous or multi-mapping support needs explicit treatment rather than invisible aggregation into a gene total. Sequence evidence is considered before biological naming, so that the preferred explanation does not determine acceptance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Data acceptance for events",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Data acceptance asks whether the submitted representation can answer the junction question. Identity, annotation compatibility and local information precede contrast interpretation. A low-information event remains distinct from an event that supports an interpretable comparison."
+        },
+        {
+          "p": "Filtering follows analytical suitability rather than expected direction. Excluded junctions may remain in the contextual inventory with reasons. Lack of usable evidence should not become a claim that a splice event is absent."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Representation and contrast",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Gene totals and junction summaries are separate analytical objects. Normalisation and the comparison are documented for the representation to which they apply. Log2 fold change and adjusted probabilities describe that comparison but do not remove uncertainty in event identity or provenance."
+        },
+        {
+          "p": "Reference direction is consistent across notebook, exports and readout. Reversing the reference condition changes the sign without resolving a biological conflict. Junction evidence is read with neighbouring alternatives and gene context rather than interpreted mechanistically from an isolated significance label."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Resolution of the conflict",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The gene and junction accounts summarised different aspects of the same material. The junction analysis supplied the local distinction needed to resolve the apparent conflict. The earlier gene account remains relevant context rather than a source to discard."
+        },
+        {
+          "p": "The resolution supports a focused experiment without claiming uniform change across the whole gene. It also does not establish full transcript composition. Validation should interrogate the junction distinction that explains the discrepancy, not simply repeat the original aggregate measurement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Competing explanations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Annotation differences, ambiguous alignments and changes in transcript mixture can produce different local and aggregate accounts. The report separates those analytical and biological possibilities. Resolving a computational discrepancy can leave several mechanisms compatible with the observation."
+        },
+        {
+          "p": "An independent assay should distinguish the junction interpretation from a simple change in gene abundance. Its design needs the same event coordinates and strand conventions. A gene-only assay could reproduce the original ambiguity while appearing to confirm the computational work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Sensitivity and uncertainty",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Sensitivity work asks whether annotation handling, event inclusion or influential sample information changes the local interpretation. Alter one dependency at a time while preserving the biological question. Simultaneous changes obscure why an explanation moves."
+        },
+        {
+          "p": "This narrative does not supply a numerical event table. It preserves the resolved conflict and targeted-validation rationale without assigning a transcript fraction or predictive performance. Event-definition uncertainty travels with the conclusion rather than being confined to an endnote."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Focused validation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Use an independent junction-directed measurement referenced to the reanalysis coordinates, with a gene-level contextual measurement. Fix sample identity and the biological contrast before results are inspected. The experiment must distinguish local splice evidence from total expression."
+        },
+        {
+          "p": "Controls should address detection specificity and neighbouring alternatives. The design must allow disagreement with the computational account. A discrepant finding should return to provenance and annotation before being labelled a biological failure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Final handover",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The engagement completed on 23 Dec 2015 with a junction-level explanation resolving the apparent expression conflict. Tomasz Zawiernicki recommends targeted validation. The readout and report share the reanalysis revision and remain associated with {{PRJ0076:lims_id}}."
+        },
+        {
+          "p": "New sequencing, functional testing and complete transcript reconstruction are not claimed. A later validation result is a new evidence layer, linked to the target card by event definition and sample provenance. It develops the interpretation without rewriting the original conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "heading": "Appendix A. Dependency inventory",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reproduction needs accepted sequence representation, sample description, reference context, annotation and the junction-definition route. These precede gene and junction summaries. The inventory identifies derived objects and their source links rather than treating exported tables as inputs."
+        },
+        {
+          "p": "Nadia Rahmani is the curation contact; Emil Ostlund is the contact for local event representation. Restoring presentation tables alone is insufficient. Accession {{PRJ0076:lims_id}} connects the inventory, analysis notebook and final deliverables."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B. Reanalysis sequence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Restore the sample join and annotation dependencies. Recreate or restore the documented alignment representation, extract junction evidence with strand and coordinate conventions intact, and apply acceptance and filtering before the contrast. Generate gene context separately."
+        },
+        {
+          "p": "Preserve direction when exporting log2 fold changes and adjusted probabilities. Rebuild the event-to-gene mapping and compare interpretation with Table 1. Do not infer missing coordinates from a gene name or from the expected resolution."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix C. Discrepancy handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "If a rerun changes interpretation, examine sample join, annotation, strand conventions, alignment handling and filtering before modifying the biological account. A revised annotation is a new dependency even when familiar gene names remain."
+        },
+        {
+          "p": "Reuse in validation preserves event provenance. This report supports a specific follow-up question rather than a general statement about neuronal splicing. The final conclusion is complete for the engagement and bounded by the submitted material and documented reanalysis route."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Tomasz Zawiernicki",
+      "role": "Head of Bioinformatics",
+      "date": "24 Dec 2015",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
