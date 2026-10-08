@@ -1,0 +1,240 @@
+{
+  "family": "document",
+  "summary": "Final report for Drelvessa Therapeutics SAS documenting the protonation-state review that changed the DT-6 ranking. Reproducible preparation and docking settings accompany the consensus-ranked procurement decision.",
+  "properties": {
+    "title": "DT-6 Virtual library triage: consensus docking report"
+  },
+  "header": "Quenverell Computational Ltd",
+  "footer": "Quenverell Computational Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "DT-6 Virtual library triage: consensus docking report",
+    "subtitle": "Final client report",
+    "lines": [
+      "Report: {{PRJ0075:project_id}} | revision 3",
+      "Accession: {{PRJ0075:lims_id}}",
+      "Client: {{PRJ0075:client_variant}}",
+      "Date: 07 Nov 2013",
+      "Prepared by Dr T. Zawiernicki, Head of Bioinformatics"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 DT-6 question and decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Drelvessa Therapeutics SAS required a defensible procurement ranking from the DT-6 virtual library. The question was whether the candidate order survived plausible choices of protonation state. A high-scoring prepared representation need not be the most credible representation of a compound in the intended assay context."
+        },
+        {
+          "p": "Protonation-state review changed the hit ranking and Drelvessa Therapeutics SAS ordered the consensus-ranked compounds. The decision supports experimental testing. Docking alone does not establish affinity, activity or selectivity."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence or requirement",
+              "Interpretation",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Initial order",
+                "Sensitive to state preparation",
+                "Superseded for procurement"
+              ],
+              [
+                "Consensus order",
+                "Includes protonation-state review",
+                "Basis of the compound order"
+              ],
+              [
+                "Activity",
+                "Not demonstrated computationally",
+                "Confirm experimentally"
+              ]
+            ],
+            "caption": "Table 1. Decision and scope summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Scope and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Virtual library triage and Docking and hit clustering were performed under {{PRJ0075:project_id}}, accession {{PRJ0075:lims_id}}. Work began on 30 Sep 2013, with an interim readout on 18 Oct 2013 and completion on 06 Nov 2013. This report dated 07 Nov 2013 accompanies dt6-docking-hitlist-v3.pptx."
+        },
+        {
+          "p": "The final ranking supersedes the initial preparation-dependent order. An earlier export is not the final procurement reference. This engagement supplies preparation provenance, a ranking route and interpretation limits; synthesis, compound supply and an experimental binding campaign were outside its scope."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Library identity and provenance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client library is preserved before preparation. Original compound identifiers are the procurement keys; preparation identifiers distinguish states and conformers. A prepared state must remain traceable to its parent rather than becoming a new purchasable identity. Nadia Rahmani maintained this mapping in the analysis notebook."
+        },
+        {
+          "p": "Salt handling, formal charge, stereochemical specification and aromatic representation are explicit preparation choices. Unspecified stereochemistry is not turned into a confident assignment. Library membership and availability remain client-supplied facts and should be reconfirmed when an order is placed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Protonation-state review",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ionisable groups were considered as alternative states where charge could change pocket contacts or desolvation. The review distinguishes chemical plausibility from an attractive score. A favourable result obtained only from an implausible charge assignment is not sufficient grounds to promote its parent compound."
+        },
+        {
+          "p": "The state review materially changed the ranking and is part of the final selection rationale. Original and reviewed preparation routes should remain distinguishable in the notebook. Consensus ranking does not remove protonation uncertainty; it makes that uncertainty part of the decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Conformer preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Conformer preparation preserves stereochemical labels and the parent-state mapping. Geometry relaxation precedes docking so that an unnecessarily strained starting representation is not treated as a pocket preference. Duplicate conformers within a state must not give that parent extra votes in the ranking."
+        },
+        {
+          "p": "Conformer diversity and protonation diversity address different uncertainties. A favourable pose does not settle the charge-state question, and a reviewed charge state does not prove that a conformation is adopted on binding. Both preparation decisions remain attached to the candidate set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Docking settings",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Comparisons use a fixed target representation and search definition within each ranking context. The notebook records receptor preparation, search region, sampling controls and scoring route together. Changing the receptor or region during a comparison creates a new context and requires a separate interpretation."
+        },
+        {
+          "p": "Scores are computational outputs in kcal/mol, not measured binding free energies. They should not be converted into potency estimates. Repeatability concerns the consistency of the interaction pattern as well as the search result. Pose exports retain preparation identifiers rather than only a display name."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Consensus ranking",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The parent-level ranking considers reviewed-state evidence, pose plausibility and consistency. Alternative states are not independent compounds, and the most favourable state score alone does not define the procurement order. The final compound order follows the reviewed consensus export used for the client decision."
+        },
+        {
+          "p": "Differences between score order and consensus order are explained through preparation and interaction interpretation. An unstable order should remain visible rather than be hidden by numerical precision. Exploratory lists have diagnostic value but do not define the final selected candidate set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Hit clustering",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Hit clustering helps identify distinct chemical starting points. Similarity does not prove a shared binding mode; a common pose does not establish equivalent experimental behaviour. Cluster membership therefore travels with state review and parent-identity provenance."
+        },
+        {
+          "p": "The procurement decision uses the consensus ranking to choose experimentally informative candidates. This narrative does not supply a compound count or numerical score gap. Later chemical-coverage discussions should use the actual ordered list and distinguish unavailable material from analytical exclusions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Interpretation limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Docking simplifies solvation, conformational change and assay conditions. The protonation-state review revealed an important preparation sensitivity. The final order is more suitable for the procurement question, but remains a hypothesis-generating output rather than a demonstrated activity ranking."
+        },
+        {
+          "p": "Fiona Macrae is the computational chemistry contact for state and pose interpretation. Tomasz Zawiernicki is responsible for the report. Experimental findings may disagree with the order and still be useful. No mechanism or selectivity claim follows from this computational engagement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Handover and next model gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Drelvessa Therapeutics SAS ordered the consensus-ranked compounds. Preserve parent identifiers, state annotations and the final ranking revision beside purchasing information. Changes driven by availability must not silently change the scientific definition of the candidate set."
+        },
+        {
+          "p": "The next model gate is experimental: confirm material identity, test in the intended assay and return positive and negative findings with identifiers intact. A later modelling update should examine which preparation assumptions were informative without replacing the original prediction retrospectively."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "heading": "Appendix A. Preparation dependencies",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reproduction begins with the library snapshot linked to {{PRJ0075:lims_id}}. Restore the parent mapping before normalisation, then reproduce state enumeration, stereochemical handling and conformer preparation. Preserve excluded representations with reasons so that intentional exclusions are not confused with missing inputs."
+        },
+        {
+          "p": "The notebook must identify receptor preparation, search definition and scoring route for each comparison. Keep the reviewed-state export linked to dt6-docking-hitlist-v3.pptx. A purchase file alone cannot reproduce the modelling because procurement is downstream of the analytical export."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B. Rerun and discrepancies",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rerun preparation and docking from the source snapshot rather than from selected poses. Reconstruct parent-level consensus with state-level evidence beneath it. Compare interaction patterns and promotion or demotion reasons before comparing score precision."
+        },
+        {
+          "p": "If the order changes, examine identity, charge assignment, stereochemistry and target preparation first. Record a changed dependency as a new analytical context. The final conclusion remains that protonation review changed the ranking and the client ordered the consensus-ranked compounds, with experimental confirmation required."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Tomasz Zawiernicki",
+      "role": "Head of Bioinformatics",
+      "date": "07 Nov 2013",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
