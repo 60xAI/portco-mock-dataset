@@ -1,14 +1,188 @@
-{"family": "deck",
- "summary": "Working copy of the stability cross-sell overview, rebadged for Durnesswick. It explains the formulation-to-stability handoff and states that chamber stability work is placed with a group partner rather than performed in Durham. Speaker notes carry reviewer comments on the handoff wording.",
- "properties": {"title": "Stability cross-sell overview (working copy)", "subject": "Cross-sell overview", "keywords": "formulation; stability; handoff; cross-sell"},
- "slides": [
-  {"layout": "title", "title": "Stability cross-sell: formulation to stability handoff", "subtitle": "Durnesswick Laboratories Inc, a Tarnovell company | Working copy 03/12/2025", "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"},
-  {"layout": "title_content", "title": "Why clients ask about this", "bullets": ["Most early formulations go on to stability work within a year of the first pilot lot", {"text": "Clients want one point of contact from the formulation set through to the stability data", "level": 1}, "The handoff is where timelines usually slip", {"text": "Excipient choice made at screen stage constrains what can be tested later", "level": 1}], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential", "notes": "LP: I've kept the handoff wording general. Please don't add turnaround figures to this version until Commercial signs them off."},
-  {"layout": "title_content", "title": "What Durnesswick runs in-house", "bullets": ["Vehicle ladder for early solubility and vehicle screening", "Excipient compatibility screen before a formulation set is locked", "Pre-formulation work on the active to set the loading range", "Pilot lot manufacture and the scale gate report"], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"},
-  {"layout": "two_content", "title": "Handoff: what we own and what we pass on", "bullets": ["Owned by Durnesswick", {"text": "Formulation set selection and loading", "level": 1}, {"text": "Bench sheet records for every screen", "level": 1}, {"text": "Scale gate decision", "level": 1}], "bullets_right": ["Passed to the stability partner", {"text": "Packaged pilot lots at the agreed fill", "level": 1}, {"text": "Stability protocol and pull schedule", "level": 1}, {"text": "Release gate for the stability start", "level": 1}], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"},
-  {"layout": "image", "title": "Handoff path", "image": {"kind": "timeline", "boxes": ["Vehicle ladder > Excipient screen", "Formulation set locked > Pilot lot", "Scale gate > Stability protocol", "Stability start > Pull schedule"]}, "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential", "notes": "Julia's wording for the scale gate is clearer than mine. Use hers in the client version. LP"},
-  {"layout": "title_content", "title": "Where the stability work sits", "bullets": ["Chamber stability is run by Westravelle Analytical Ltd, a Tarnovell company, under the group framework", {"text": "Durnesswick does not hold chambers and does not report stability results", "level": 1}, "Pull schedules are agreed at the scale gate and confirmed in the stability protocol", "Client quotes show the two services as separate line items"], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential", "notes": "Check this slide against the current group framework before it goes to any client. The 2024 wording may have changed."},
-  {"layout": "table", "title": "Handoff checklist", "table": {"columns": ["Item", "Owner", "Status at scale gate"], "rows": [["Formulation set locked", "Formulation Development", "Required"], ["Excipient compatibility confirmed", "Formulation Development", "Required"], ["Pilot lot packaged to the agreed fill", "CMC Technical Transfer", "Required"], ["Stability protocol issued", "Stability partner", "Before stability start"], ["Client identity checked for cross-sell", "Commercial", "Before any shared deck"]]}, "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"},
-  {"layout": "title_content", "title": "Open points before this goes to clients", "bullets": ["Confirm which formulation sets are locked on current programmes", "Client identity bridge to be completed before sharing with any cross-sell account", "Pricing stays with Commercial and is not in this deck"], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"},
-  {"layout": "title_content", "title": "Contacts", "bullets": ["Julia Carver, Formulation Development Lead", "Lena Patel, CMC Technical Transfer Manager", "Miguel Serrano, Senior Formulation Scientist"], "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"}
- ]}
+{
+  "family": "deck",
+  "summary": "Superseded Durnesswick working copy of Westravelle Analytical’s stability-services overview. Westravelle chamber-programme terminology and a service table remain beside formulation-handoff annotations. Chamber testing is placed with Westravelle rather than performed in Durham.",
+  "properties": {
+    "title": "Stability cross-sell overview (working copy)",
+    "subject": "Cross-sell overview",
+    "keywords": "formulation; stability; handoff; cross-sell"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Stability cross-sell: formulation to stability handoff",
+      "subtitle": "Durnesswick Laboratories Inc, a Tarnovell company | Copy of Westravelle stability-services overview | Working copy 03/12/2025",
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Why clients ask about this",
+      "bullets": [
+        "Stability planning follows the intended formulation, pack and storage conditions",
+        {
+          "text": "Clients need an agreed handoff from formulation development to the stability protocol",
+          "level": 1
+        },
+        "Confirm responsibilities and sample readiness before agreeing the pull schedule",
+        {
+          "text": "Exploratory excipient screens do not establish a locked manufacturing process",
+          "level": 1
+        }
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+      "notes": "LP: I've kept the handoff wording general. Please don't add turnaround figures to this version until Commercial signs them off."
+    },
+    {
+      "layout": "table",
+      "title": "Westravelle: ICH chamber programme",
+      "table": {
+        "columns": [
+          "Service / sequence sheet",
+          "Scope",
+          "Responsible site"
+        ],
+        "rows": [
+          [
+            "ICH chamber programme",
+            "Storage conditions and pull schedule defined in the stability protocol",
+            "Westravelle Analytical, York"
+          ],
+          [
+            "Stability pulls",
+            "Assay (% label claim), related substances (% area) and water where specified",
+            "Westravelle Analytical, York"
+          ],
+          [
+            "HPLC method qualification",
+            "Assay and related-substances validation before routine reporting",
+            "Westravelle Analytical, York"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Handoff: what we own and what we pass on",
+      "bullets": [
+        "Owned by Durnesswick",
+        {
+          "text": "Formulation set selection and loading",
+          "level": 1
+        },
+        {
+          "text": "Bench sheet records for every screen",
+          "level": 1
+        },
+        {
+          "text": "Scale gate decision",
+          "level": 1
+        }
+      ],
+      "bullets_right": [
+        "Passed to the stability partner",
+        {
+          "text": "Packaged pilot lots at the agreed fill",
+          "level": 1
+        },
+        {
+          "text": "Stability protocol and pull schedule",
+          "level": 1
+        },
+        {
+          "text": "Release gate for the stability start",
+          "level": 1
+        }
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Handoff path",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Vehicle ladder > Excipient screen",
+          "Formulation set locked > Pilot lot",
+          "Scale gate > Stability protocol",
+          "Stability start > Pull schedule"
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+      "notes": "LP: Westravelle sequence sheets and system-suitability terminology retained from the source overview. Julia: distinguish our exploratory vehicle ladder and excipient compatibility screen from the formulation set locked at the scale gate."
+    },
+    {
+      "layout": "title_content",
+      "title": "Where the stability work sits",
+      "bullets": [
+        "Chamber stability is run by Westravelle Analytical Ltd, a Tarnovell company, under the group framework",
+        {
+          "text": "Durnesswick does not hold chambers and does not report stability results",
+          "level": 1
+        },
+        "Pull schedules are agreed at the scale gate and confirmed in the stability protocol",
+        "Client quotes show the two services as separate line items"
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+      "notes": "Check this slide against the current group framework before it goes to any client. The 2024 wording may have changed."
+    },
+    {
+      "layout": "table",
+      "title": "Handoff checklist",
+      "table": {
+        "columns": [
+          "Item",
+          "Owner",
+          "Status at scale gate"
+        ],
+        "rows": [
+          [
+            "Formulation set locked",
+            "Formulation Development",
+            "Required"
+          ],
+          [
+            "Excipient compatibility confirmed",
+            "Formulation Development",
+            "Required"
+          ],
+          [
+            "Pilot lot packaged to the agreed fill",
+            "CMC Technical Transfer",
+            "Required"
+          ],
+          [
+            "Stability protocol issued",
+            "Stability partner",
+            "Before stability start"
+          ],
+          [
+            "Client identity checked for cross-sell",
+            "Commercial",
+            "Before any shared deck"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Open points before this goes to clients",
+      "bullets": [
+        "Confirm which formulation sets are locked on current programmes",
+        "Client identity bridge to be completed before sharing with any cross-sell account",
+        "Pricing stays with Commercial and is not in this deck"
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Contacts",
+      "bullets": [
+        "Julia Carver, Formulation Development Lead",
+        "Lena Patel, CMC Technical Transfer Manager",
+        "Miguel Serrano, Senior Formulation Scientist"
+      ],
+      "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
