@@ -1,78 +1,262 @@
-{"family": "workbook",
- "summary": "Sequence sheets for AT-22 coated tablet stability and assay validation under WA/2024/211 for Aldrevessa Therapeutics: ICH chamber pulls to twelve months on coated and uncoated comparator tablets, with the HPLC method qualified for both. The uncoated comparator showed a humidity-driven increase in impurities; Aldrevessa selected the coated tablet for development.",
- "properties": {"title": "AT22 pulls and suitability results, Rev03"},
- "sheets": [
-  {"name": "Summary", "start": "A1",
-   "rows": [
-    [{"v": "WA/2024/211 AT22 pulls and suitability results", "bold": true}],
-    ["Project", {"ref": "PRJ0097:project_id"}],
-    ["LIMS", {"ref": "PRJ0097:lims_id"}],
-    ["Client", "{{PRJ0097:client_variant}}"],
-    ["Lead", "Alice Penrose"],
-    ["Sequence owner", "Leon Wu"],
-    ["Method validation", "Saira Mahmood"],
-    [],
-    ["Milestone", "Date"],
-    ["Quote accepted", "01/07/2024"],
-    ["Start", "22/07/2024"],
-    ["Interim review (6 months)", "20/01/2025"],
-    ["Completion (12 months)", "22/07/2025"],
-    [],
-    ["Stability result", "Value"],
-    ["Initial assay (% label claim)", {"ref": "PRJ0097:stability.t0_assay"}],
-    ["Last timepoint (months)", {"ref": "PRJ0097:stability.last_timepoint_months"}],
-    ["Overall outcome", "Coated tablet complies at all conditions; uncoated comparator out of trend at 30 °C/75% RH"],
-    [],
-    ["Reviewed by", "Alice Penrose", null, "Checked 22/07/2025"]
-   ],
-   "col_widths": {"A": 30, "B": 48},
-   "merged": ["A1:D1"]
+{
+  "family": "workbook",
+  "summary": "Sequence sheets for AT-22 coated tablet stability and assay validation under WA/2024/211 for Aldrevessa Therapeutics: ICH chamber results to the last reported pull and assay and related-substances qualification. The uncoated comparator showed a humidity-driven increase in impurities; Aldrevessa selected the coated tablet for development.",
+  "properties": {
+    "title": "AT22 pulls and suitability results, Rev03"
   },
-  {"name": "Stability", "start": "A1",
-   "rows": [
-    [{"v": "ICH chamber programme: coated tablet pulls", "bold": true}],
-    ["Assay as % label claim, impurities as % area. Water by Karl Fischer, % w/w. Result per protocol acceptance criteria. Packs stored in the closed configuration."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0097:stability", "at": "A4", "max_rows": null, "columns": null, "header": true}],
-   "merged": ["A1:H1"],
-   "col_widths": {"A": 18, "B": 18, "C": 14, "D": 18, "E": 18, "F": 20, "G": 18, "H": 14},
-   "freeze": "A5",
-   "number_formats": {"C5:C30": "0.0", "F5:G30": "0.00"}
-  },
-  {"name": "Method validation", "start": "A1",
-   "rows": [
-    [{"v": "Assay and related-substances validation: summary", "bold": true}],
-    ["HPLC method development and validation run under the qualification protocol. Acceptance limits as stated in the validation plan."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0097:method_val", "at": "A4", "max_rows": null, "columns": null, "header": true}],
-   "merged": ["A1:C1"],
-   "col_widths": {"A": 28, "B": 16, "C": 18},
-   "freeze": "A5"
-  },
-  {"name": "Comparator", "start": "A1",
-   "rows": [
-    [{"v": "Coated and uncoated tablets: formulation comparison", "bold": true}],
-    ["Both presentations held in parallel at the same chambers and pull points. Comparison is qualitative; see the stability sheet for values."],
-    [],
-    ["Attribute", "Coated tablet", "Uncoated comparator", "Comment"],
-    ["Water uptake at 30 °C/75% RH", "Low, stable across pulls", "Increasing across pulls", "Humidity-driven"],
-    ["Impurity growth", "Within limits at all pulls", "Out of trend from the 6-month pull", "Reported to Aldrevessa at interim review"],
-    ["Appearance", "No change", "Surface softening noted at high humidity", "Recorded on each pull"],
-    ["Decision", "Coated tablet selected for development", "Not progressed", "Decision recorded by Aldrevessa on 22/07/2025"]
-   ],
-   "col_widths": {"A": 30, "B": 30, "C": 34, "D": 36},
-   "merged": ["A1:D1"]
-  },
-  {"name": "Sign-off", "start": "A1",
-   "rows": [
-    ["Deviation and sign-off record", "", "", ""],
-    ["Item", "Owner", "Status", "Date"],
-    ["Chamber humidity excursion at 30 °C/75% RH, memo filed, samples retained", "Denis Miller", "Closed", "03/10/2024"],
-    ["Coated tablet recommended for development", "Alice Penrose", "Approved", "22/07/2025"],
-    ["Interim review of 6-month pulls", "Leon Wu", "Complete", "20/01/2025"],
-    ["Final results and this workbook", "Leon Wu", "Issued Rev03", "22/07/2025"]
-   ],
-   "col_widths": {"A": 62, "B": 18, "C": 16, "D": 14},
-   "merged": ["A1:D1"]
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          "Westravelle Analytical Ltd, a Tarnovell company"
+        ],
+        [
+          {
+            "v": "WA/2024/211 AT22 pulls and suitability results",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          {
+            "ref": "PRJ0097:project_id"
+          }
+        ],
+        [
+          "LIMS",
+          {
+            "ref": "PRJ0097:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0097:client_variant}}"
+        ],
+        [
+          "Lead",
+          "Alice Penrose"
+        ],
+        [
+          "Sequence owner",
+          "Leon Wu"
+        ],
+        [
+          "Method validation",
+          "Saira Mahmood"
+        ],
+        [],
+        [
+          "Milestone",
+          "Date"
+        ],
+        [
+          "Quote",
+          "01/07/2024"
+        ],
+        [
+          "Start",
+          "22/07/2024"
+        ],
+        [
+          "Interim review (6 months)",
+          "20/01/2025"
+        ],
+        [
+          "Completion (12 months)",
+          "22/07/2025"
+        ],
+        [],
+        [
+          "Stability result",
+          "Value"
+        ],
+        [
+          "Initial assay (% label claim)",
+          {
+            "ref": "PRJ0097:stability.t0_assay"
+          }
+        ],
+        [
+          "Last timepoint (months)",
+          {
+            "ref": "PRJ0097:stability.last_timepoint_months"
+          }
+        ],
+        [
+          "Overall outcome",
+          "All tabulated results comply. Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven impurity increase."
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Alice Penrose",
+          null,
+          "Checked 22/07/2025"
+        ]
+      ],
+      "col_widths": {
+        "A": 30,
+        "B": 48
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Stability",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "ICH chamber programme: stability results",
+            "bold": true
+          }
+        ],
+        [
+          "Assay as % label claim, impurities as % area. Water by Karl Fischer, % w/w. Result per protocol acceptance criteria. Pack identities and comparator records remain on the batch card. Long-term and intermediate results extend to twelve months; accelerated results stop at six months. Time zero is one initial analysis shared by all storage conditions; repeated initial rows do not represent separate pulls."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0097:stability",
+          "at": "A4",
+          "max_rows": null,
+          "columns": null,
+          "header": true
+        }
+      ],
+      "merged": [
+        "A1:H1"
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 18,
+        "C": 14,
+        "D": 18,
+        "E": 18,
+        "F": 20,
+        "G": 18,
+        "H": 14
+      },
+      "freeze": "A5",
+      "number_formats": {
+        "C5:C30": "0.0",
+        "F5:G30": "0.00"
+      }
+    },
+    {
+      "name": "Method validation",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Assay and related-substances validation: summary",
+            "bold": true
+          }
+        ],
+        [
+          "HPLC method development and validation run under the qualification protocol. Acceptance limits as stated in the validation plan."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0097:method_val",
+          "at": "A4",
+          "max_rows": null,
+          "columns": null,
+          "header": true
+        }
+      ],
+      "merged": [
+        "A1:C1"
+      ],
+      "col_widths": {
+        "A": 28,
+        "B": 16,
+        "C": 18
+      },
+      "freeze": "A5"
+    },
+    {
+      "name": "Comparator",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Formulation comparison and disposition",
+            "bold": true
+          }
+        ],
+        [
+          "Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven impurity increase."
+        ],
+        [],
+        [
+          "Record",
+          "Scope"
+        ],
+        [
+          "Stability table",
+          "Results are grouped by storage condition; they do not provide separate coated and uncoated datasets."
+        ],
+        [
+          "Comparator evidence",
+          "Refer to the formulation comparison records for presentation-specific results."
+        ],
+        [
+          "Interpretation",
+          "No comparator OOT designation, appearance change or monotonic water-uptake trend is inferred from the condition table."
+        ]
+      ],
+      "col_widths": {
+        "A": 30,
+        "B": 30,
+        "C": 34,
+        "D": 36
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "Sign-off",
+      "start": "A1",
+      "rows": [
+        [
+          "Project disposition and review record"
+        ],
+        [
+          "Item",
+          "Record"
+        ],
+        [
+          "Formulation decision",
+          "Coated tablet selected by Aldrevessa."
+        ],
+        [
+          "Interim review",
+          "20/01/2025"
+        ],
+        [
+          "Completion",
+          "22/07/2025"
+        ],
+        [
+          "Chamber deviations",
+          "Refer to the chamber log and batch card; no excursion is asserted in this summary."
+        ]
+      ],
+      "col_widths": {
+        "A": 62,
+        "B": 18,
+        "C": 16,
+        "D": 14
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    }
+  ]
+}
