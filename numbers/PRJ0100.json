@@ -61,17 +61,86 @@
     [
      "30 °C/65% RH",
      0,
-     "100.1",
-     "0.06",
+     "99.9",
+     "0.04",
      "<0.05",
-     "0.24",
-     "2.3",
+     "0.16",
+     "1.3",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     1,
+     "100.1",
+     "0.07",
+     "0.06",
+     "0.19",
+     "1.0",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     3,
+     "99.3",
+     "0.12",
+     "0.07",
+     "0.31",
+     "1.9",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     6,
+     "99.6",
+     "0.14",
+     "0.09",
+     "0.30",
+     "1.6",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     0,
+     "99.9",
+     "0.04",
+     "<0.05",
+     "0.16",
+     "1.3",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     1,
+     "100.1",
+     "0.11",
+     "0.07",
+     "0.32",
+     "1.6",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     3,
+     "98.7",
+     "0.22",
+     "0.12",
+     "0.47",
+     "1.2",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     6,
+     "98.3",
+     "0.36",
+     "0.21",
+     "0.69",
+     "1.9",
      "Complies"
     ]
    ],
    "notes": [
-    "Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%",
-    "INTERIM: 5 of 5 results reported; remaining in progress"
+    "Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%"
    ]
   },
   "method_val": {
@@ -96,20 +165,10 @@
      "Accuracy 80% (% recovery)",
      "100.1",
      "98.0-102.0"
-    ],
-    [
-     "Accuracy 100% (% recovery)",
-     "100.0",
-     "98.0-102.0"
-    ],
-    [
-     "Accuracy 120% (% recovery)",
-     "100.4",
-     "98.0-102.0"
     ]
    ],
    "notes": [
-    "INTERIM: 5 of 5 results reported; remaining in progress"
+    "INTERIM: 3 of 3 results reported; remaining in progress"
    ]
   }
  },

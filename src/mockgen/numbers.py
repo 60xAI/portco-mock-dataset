@@ -330,10 +330,13 @@ def _stability(ctx: Ctx):
             tot = ia + ib + r.uniform(0.05, 0.15)
             ok = a >= 95 and ia <= 0.5 and ib <= 0.3 and tot <= 2.0
             rows.append([cond, t, f"{a:.1f}", f"{ia:.2f}", "<0.05" if ib < 0.05 else f"{ib:.2f}", f"{tot:.2f}", f"{r.uniform(0.8, 2.5):.1f}", "Complies" if ok else "Does not comply"])
+    # one initial (t=0) analysis serves every storage condition
+    t0 = next(row for row in rows if row[1] == 0)
+    rows = [row if row[1] != 0 else [row[0]] + t0[1:] for row in rows]
     ctx.tables["stability"] = {"title": "Stability results (assay % label claim; impurities % area)",
                                "columns": ["Condition", "Timepoint (months)", "Assay (% LC)", "Imp A RRT 0.86 (%)", "Imp B RRT 1.12 (%)", "Total impurities (%)", "Water KF (% w/w)", "Result"],
                                "rows": rows, "notes": ["Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%"]}
-    ctx.values["stability.t0_assay"] = f"{a0:.1f}"
+    ctx.values["stability.t0_assay"] = t0[2]
     ctx.values["stability.last_timepoint_months"] = str(max(tps))
 
 
@@ -464,6 +467,8 @@ def generate() -> str:
                 # partial results: keep first ~40-70% of rows
                 r = rng_for(pid, "partial")
                 for k, t in ctx.tables.items():
+                    if k == "stability":
+                        continue  # stability is already cut at the months elapsed
                     keep = max(1, int(len(t["rows"]) * r.uniform(0.4, 0.7)))
                     t["rows"] = t["rows"][:keep]
                     t["notes"].append(f"INTERIM: {keep} of {len(cmpds) or keep} results reported; remaining in progress" if p.status == "in_progress" else "Work stopped; partial data only")

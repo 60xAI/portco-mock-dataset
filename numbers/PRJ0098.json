@@ -61,22 +61,91 @@
     [
      "30 °C/65% RH",
      0,
-     "99.7",
+     "99.9",
      "0.06",
      "<0.05",
-     "0.16",
-     "2.5",
+     "0.20",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     1,
+     "99.4",
+     "0.07",
+     "<0.05",
+     "0.21",
+     "1.0",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     3,
+     "99.5",
+     "0.10",
+     "0.07",
+     "0.26",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     6,
+     "99.4",
+     "0.13",
+     "0.07",
+     "0.30",
+     "2.4",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     0,
+     "99.9",
+     "0.06",
+     "<0.05",
+     "0.20",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     1,
+     "99.5",
+     "0.11",
+     "0.06",
+     "0.28",
+     "1.0",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     3,
+     "98.8",
+     "0.19",
+     "0.11",
+     "0.39",
+     "1.1",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     6,
+     "98.4",
+     "0.36",
+     "0.21",
+     "0.68",
+     "0.9",
      "Complies"
     ]
    ],
    "notes": [
-    "Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%",
-    "INTERIM: 5 of 5 results reported; remaining in progress"
+    "Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%"
    ]
   }
  },
  "values": {
-  "stability.t0_assay": "99.7",
+  "stability.t0_assay": "99.9",
   "stability.last_timepoint_months": "6",
   "price": "GBP 58,000",
   "n_compounds": "0",
