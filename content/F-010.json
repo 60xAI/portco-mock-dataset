@@ -1,0 +1,58 @@
+{"family": "workbook",
+ "summary": "Bench sheets for the Nimbravelle NM-12 precipitation-on-dilution follow-up (DL_2020_0050). The vehicle ladder compares eight vehicles at 10 mg/mL, the dilution sheet records the precipitation seen when the cosolvent-rich vehicle was diluted, and the handling notes explain why Nimbravelle took the dispersed dosing approach.",
+ "properties": {"title": "DL_2020_0050 NM-12 dilution check bench sheets"},
+ "sheets": [
+  {"name": "Summary", "tab_color": "#1F4E79", "col_widths": {"A": 24, "B": 48},
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc: bench sheets, NM-12 dilution check", "bold": true}],
+    [],
+    ["Project", "{{PRJ0112:project_id}}"],
+    ["LIMS reference", "{{PRJ0112:lims_id}}"],
+    ["Title", "Nimbravelle NM-12 oral vehicle: precipitation-on-dilution follow-up"],
+    ["Client", "{{PRJ0112:client_variant}}"],
+    ["Lead", "Dr J. Carver"],
+    ["Team", "Dr M. Serrano, L. Patel"],
+    ["Quote", "06/15/2020"],
+    ["Start", "07/06/2020"],
+    ["Interim review", "08/17/2020"],
+    ["Completion", "09/28/2020"],
+    ["Work package value", "{{PRJ0112:price}}"],
+    [],
+    ["Outcome", "The cosolvent-rich vehicle failed the dilution challenge. Nimbravelle selected a dispersed dosing approach."],
+    ["Sheets", "Vehicle screen, Dilution check, Handling notes"]
+   ],
+   "merged": ["A1:B1"]},
+  {"name": "Vehicle screen", "tab_color": "#1F4E79", "col_widths": {"A": 36, "B": 22, "C": 36, "D": 36},
+   "rows": [
+    [{"v": "Vehicle screen, target loading 10 mg/mL", "bold": true}],
+    ["Solubility in mg/mL at equilibrium. Stability read at 24 h after loading at 10 mg/mL."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0112:form_screen", "at": "A4", "header": true}],
+   "merged": ["A1:D1"],
+   "freeze": "A5",
+   "chart": {"kind": "bar", "ref": "PRJ0112:form_screen", "column": 1, "title": "Equilibrium solubility (mg/mL)"},
+   "chart_at": "F4"},
+  {"name": "Dilution check", "tab_color": "#C55A11", "col_widths": {"A": 34, "B": 22, "C": 22, "D": 40},
+   "rows": [
+    [{"v": "Dilution challenge, cosolvent-rich vehicle and dispersed alternative", "bold": true}],
+    ["Each vehicle loaded at dosing strength, then diluted into simulated gastric medium at the ratios below. Read by eye and by light microscopy at 0.5 h, 2 h and 24 h."],
+    [],
+    ["Vehicle", "Dilution ratio", "Precipitate seen", "Comment"],
+    ["PEG400/water 30:70 (cosolvent-rich)", "1:10", "Yes, within 0.5 h", "Fails. Drug falls out as needles"],
+    ["PEG400/water 30:70 (cosolvent-rich)", "1:50", "Yes, within 0.5 h", "Fails at the higher ratio too"],
+    ["0.5% HPMC / 0.1% Tween 80 (dispersed)", "1:10", "No", "Redispersed cleanly after gentle inversion"],
+    ["0.5% HPMC / 0.1% Tween 80 (dispersed)", "1:50", "No", "Clean at 24 h"],
+    ["pH 4 citrate buffer", "1:10", "Trace at 24 h", "Acceptable but not chosen"],
+    [],
+    ["Screen suitability", "Reference standard run before each dilution series. Passed."]
+   ],
+   "merged": ["A1:D1"]},
+  {"name": "Handling notes", "tab_color": "#7F7F7F", "col_widths": {"A": 16, "B": 92},
+   "rows": [
+    ["Date", "Development note"],
+    ["08/17/2020", "Interim: the cosolvent-rich vehicle has high equilibrium solubility, but it does not survive dilution. Dispersed options are the way forward for the dosing solution."],
+    ["08/24/2020", "Pharmacy handling check with the client's clinical supplies team. Dispersed vehicle needs a shake step before each dose. Written into the dosing instructions."],
+    ["09/28/2020", "Final. Client selected the dispersed approach. Tradeoff accepted: a shake step on every dose in exchange for no precipitation on dilution."]
+   ]}
+ ]}
