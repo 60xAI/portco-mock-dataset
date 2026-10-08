@@ -1,0 +1,120 @@
+{
+  "family": "deck",
+  "summary": "CU-19 column equivalence: method transfer review for Culdrevane Pharma. The alternate column reproduced the required separation. Culdrevane gained a qualified backup for routine release. Conclusions remain within the tested protocol and are linked to approved sequence sheets.",
+  "properties": {
+    "title": "CU-19 column equivalence: method transfer review",
+    "subject": "Culdrevane Pharma | {{PRJ0096:project_id}} | QA-approved client readout",
+    "keywords": "Westravelle; CU-19 column equivalence; system suitability; HPLC method qualification"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "1. CU-19 column equivalence: method transfer review",
+      "subtitle": "Culdrevane Pharma | {{PRJ0096:project_id}} | 15 Jul 2023",
+      "bullets": [
+        "Westravelle Analytical Ltd, a Tarnovell company",
+        "QA-approved client readout | Dr A. Penrose",
+        "Assay and related-substances validation"
+      ],
+      "notes": "Final readout. Protocol opened 18 May 2023; approved results completed 12 Jul 2023. LIMS accession {{PRJ0096:lims_id}}. The alternate column reproduced the required separation. Culdrevane gained a qualified backup for routine release.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "2. Approved numerical evidence",
+      "table": {
+        "table_ref": "PRJ0096:method_val",
+        "max_rows": 8
+      },
+      "notes": "Source: E-009 / CU19_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx, approved 12 Jul 2023. Results and acceptance criteria are presented together. Qualification is confined to this protocol and does not establish equivalence for every possible column or method condition.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "3. Protocol identity and sample custody",
+      "bullets": [
+        "Client: Culdrevane Pharma",
+        "Protocol: {{PRJ0096:project_id}} | LIMS: {{PRJ0096:lims_id}}",
+        "Opened 18 May 2023; completed 12 Jul 2023",
+        "Dr L. Wu: stability lot and sample-custody reconciliation."
+      ],
+      "bullets_right": [
+        "Keep primary and alternate column identities on the sequence sheet.",
+        "Sample preparation and storage history remain linked to the submitted stability lot through the batch card.",
+        "This is a column-equivalence protocol; no ICH chamber interval is assigned."
+      ],
+      "notes": "The accession links receipt, batch card, preparation and analytical sequence. This readout does not introduce new lot codes or replace approved sequence sheets.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "table",
+      "title": "4. HPLC method qualification",
+      "table": {
+        "table_ref": "PRJ0096:method_val",
+        "max_rows": 8
+      },
+      "notes": "Saira Mahmood, QC Method Validation Lead: qualification review. Read each result against its stated acceptance criterion. Assay and related-substances validation supports the reported sample preparation and separation; extensions require a separately agreed protocol.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "chart",
+      "title": "5. Qualification results in context",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0096:method_val",
+        "column": 1,
+        "title": "Method validation results"
+      },
+      "notes": "The alternate column reproduced the required separation. Parameters have different units and acceptance conventions. Use the qualification table for criterion-by-criterion decisions; bar heights are not a combined performance score.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "two_content",
+      "title": "6. System suitability and deviation disposition",
+      "bullets": [
+        "Saira Mahmood: analytical method and system suitability review.",
+        "Dr L. Wu: reconciliation of preparation, storage and sequence identity.",
+        "Dr A. Penrose: approved interpretation and client release."
+      ],
+      "bullets_right": [
+        "Approved sequence sheets are the authority for suitability acceptance and any repeat sequence.",
+        "Deviation notes remain linked to the affected batch card; this deck does not replace their disposition.",
+        "No additional chamber excursion, reinjection or acceptance limit is inferred from the trend plot."
+      ],
+      "notes": "Readout source: CU19_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx. Distinguish an observed formulation or packaging effect from an analytical deviation. The alternate column reproduced the required separation.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "7. Interpretation for transfer",
+      "bullets": [
+        "The alternate column reproduced the required separation.",
+        "Culdrevane gained a qualified backup for routine release.",
+        "List the alternate column as a qualified backup within the transferred method; apply the existing system suitability release gate.",
+        "Qualification applies to the alternate column under the tested method conditions."
+      ],
+      "notes": "The backup is qualified for the required separation. A different column chemistry or a changed analytical method remains outside this conclusion.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    },
+    {
+      "layout": "title_content",
+      "title": "8. Release gate and client decision",
+      "bullets": [
+        "Culdrevane gained a qualified backup for routine release.",
+        "Release basis: CU19_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx; approved 12 Jul 2023.",
+        "List the alternate column as a qualified backup within the transferred method; apply the existing system suitability release gate.",
+        "Archive the approved readout with the sequence sheets, batch cards and linked deviation notes."
+      ],
+      "notes": "Dr A. Penrose | Head of Analytical Services | 15 Jul 2023. Final client readout for Culdrevane Pharma. Routine release still requires system suitability acceptance for the actual sequence.",
+      "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+      "hidden": false
+    }
+  ]
+}
