@@ -1,0 +1,7 @@
+{"family": "deck",
+ "summary": "Single-slide deck left over from an internal stability pull review on 9 February 2023. The meeting was called off part way through, and only the title slide and one empty chart placeholder were saved.",
+ "properties": {"title": "Stability pull review", "subject": "Internal meeting", "keywords": "stability; pull review"},
+ "slides": [
+  {"layout": "title", "title": "Stability pull review", "subtitle": "Internal, Westravelle Analytical Ltd, 9 Feb 2023", "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential", "notes": "Pulls due this month to be confirmed against the chamber log before we go through the batch set."},
+  {"layout": "chart", "title": "Pulls scheduled for February", "chart": {"kind": "bar", "title": "Pulls scheduled for February", "labels": [], "series": []}, "footer": "Draft, not for circulation"}
+ ]}

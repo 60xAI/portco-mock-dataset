@@ -1,0 +1,8 @@
+{"family": "workbook",
+ "summary": "Scratch workbook from February 2025 with a single column of sample IDs under a header and two empty sheet tabs left in place. No measurements or formulas were entered.",
+ "properties": {"title": "Book1"},
+ "sheets": [
+  {"name": "Sheet1", "rows": [[{"v": "Sample ID", "bold": true}], ["WST-25-000118"], ["WST-25-000119"], ["WST-25-000121"]], "col_widths": {"A": 18}, "freeze": "A2"},
+  {"name": "Sheet2", "rows": []},
+  {"name": "Sheet3", "rows": []}
+ ]}
