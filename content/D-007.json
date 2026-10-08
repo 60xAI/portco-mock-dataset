@@ -1,0 +1,166 @@
+{
+ "family": "deck",
+ "summary": "Partnership discussion deck (June 2020) setting out how a computational candidate set moves from virtual library triage and docking into a DMPK exposure partner's workflow, with the data hand-off points and the reproducibility steps each side owns. Keeps the old footer and contact table from the source deck, flagged in the notes.",
+ "properties": {
+  "title": "Computational to exposure hand-off workflow",
+  "subject": "Partnership discussion",
+  "keywords": "hand-off; docking; candidate set; DMPK; reproducibility"
+ },
+ "slides": [
+  {
+   "layout": "title",
+   "title": "Computational to exposure hand-off",
+   "subtitle": "Partnership discussion | Quenverell Computational Ltd, a Tarnovell company | 17/06/2020",
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+   "notes": "Working draft for the Quenverell call. The structure is from our old DMPK handoff deck, so the footer and contact slide still need replacing before anything goes to the client."
+  },
+  {
+   "layout": "title_content",
+   "title": "Purpose of this discussion",
+   "bullets": [
+    "Agree where a candidate set leaves computational work and enters exposure testing",
+    "Agree which data travels with each hand-off, and in what format",
+    "Agree who owns the analysis steps that make a result reproducible"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+   "notes": "Keep this to the hand-off. Modelling choices are a separate conversation."
+  },
+  {
+   "layout": "title_content",
+   "title": "The biological question comes first",
+   "bullets": [
+    "Each engagement starts from the target question and the decision it has to support",
+    "The candidate set is defined by that question, not by what the library happens to contain",
+    {"text": "Selection criteria written down before any scoring is run", "level": 1},
+    "Data provenance recorded for every input: source library, version and date"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "section",
+   "title": "Stage 1: triage and docking",
+   "subtitle": "Virtual library triage, docking and hit clustering",
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "two_content",
+   "title": "Triage and docking",
+   "bullets": [
+    "Virtual library triage removes compounds failing the agreed property filters",
+    "Docking scores reported in kcal/mol against a fixed receptor model"
+   ],
+   "bullets_right": [
+    "Hit clustering groups the remaining compounds by scaffold",
+    "Cluster representatives chosen by the medicinal chemistry team, not by score alone"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Model uncertainty",
+   "bullets": [
+    "Docking poses are hypotheses about binding, not measurements",
+    "Score ranking is reliable only within a cluster built on the same receptor model",
+    "Where two receptor models disagree on a pose, both are carried forward and flagged"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+   "notes": "Tomasz wants this wording on the first slide that shows scores."
+  },
+  {
+   "layout": "section",
+   "title": "Stage 2: the hand-off",
+   "subtitle": "What leaves Edinburgh and what the partner receives",
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "table",
+   "title": "Hand-off package",
+   "table": {
+    "columns": ["Item", "Format", "Owner", "Check before sending"],
+    "rows": [
+     ["Candidate set list", "Spreadsheet with structure identifiers", "Scientific partnerships", "Identifiers match the cluster output"],
+     ["Analysis notebook", "Versioned notebook, exported to PDF", "Computational chemistry", "Notebook runs end to end from a clean environment"],
+     ["Docking outputs", "Pose files and score tables", "Computational chemistry", "Receptor model version stated"],
+     ["Provenance note", "One page technical note", "Data curation", "Source versions and dates filled in"],
+     ["Assay requests", "Engagement sheet", "Scientific partnerships", "Client sign-off on the selected set"]
+    ],
+    "caption": "Table 1 Items in each hand-off package"
+   },
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Reproducibility steps",
+   "bullets": [
+    "Analysis notebook pinned to the software versions used for the scoring run",
+    "Random seeds recorded where a docking or clustering step uses them",
+    "Any manual edit to the candidate set logged with a reason and a name"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+   "notes": "Nadia's checklist is the one to use. Keep the list short so people actually fill it in."
+  },
+  {
+   "layout": "section",
+   "title": "Stage 3: exposure testing",
+   "subtitle": "Partner side of the hand-off",
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "What the partner needs back",
+   "bullets": [
+    "Measured exposure and clearance for the compounds that were tested, with units stated",
+    "Notes on any compound that could not be tested, and why",
+    "Data returned in the same identifiers as the candidate set list"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Feeding results back into the model",
+   "bullets": [
+    "Results are added as a new data drop, not overwritten into the old one",
+    "Model gate reviewed before any re-scoring is run",
+    {"text": "Changes to the scoring weights recorded in the notebook history", "level": 1}
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Open questions for the call",
+   "bullets": [
+    "Which receptor model the client wants used as the reference",
+    "Format the partner can take the candidate set in",
+    "How often data drops should happen during an engagement",
+    "[TBC] who signs off the provenance note on the partner side"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  },
+  {
+   "layout": "table",
+   "title": "Contacts (from the source deck)",
+   "table": {
+    "columns": ["Role", "Site"],
+    "rows": [
+     ["DMPK Study Director", "Madison"],
+     ["DMPK Lead", "Madison"],
+     ["Bioanalytical Quality Manager", "Madison"],
+     ["Mass-Spectrometry Manager", "Madison"]
+    ],
+    "caption": "Contacts as listed in the source deck"
+   },
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "This slide and its footer come from the source deck and are out of date. Replace with Quenverell contacts before this goes anywhere."
+  },
+  {
+   "layout": "title_content",
+   "title": "Next steps",
+   "bullets": [
+    "Agree the hand-off package contents on the call",
+    "Share the provenance note template with the partner",
+    "Revise this deck once the open questions are answered"
+   ],
+   "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential"
+  }
+ ]
+}
