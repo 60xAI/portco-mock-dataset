@@ -1,0 +1,251 @@
+{
+  "family": "scan",
+  "summary": "Signed quotation for the AP02 exploratory in vitro battery. Faxed client acceptance covers the cohort, fee, conditional schedule and separate assay reporting.",
+  "document": {
+    "family": "document",
+    "summary": "Signed quotation for the AP02 exploratory in vitro battery. Faxed client acceptance covers the cohort, fee, conditional schedule and separate assay reporting.",
+    "properties": {
+      "title": "AP02 discovery genotoxicity battery"
+    },
+    "header": "Osterquill Toxicology Inc | {{PRJ0117:project_id}}",
+    "footer": "Osterquill Toxicology Inc | Confidential",
+    "watermark": null,
+    "title_block": {
+      "title": "AP02 discovery genotoxicity battery",
+      "subtitle": "Signed quotation | OT-08-S0114",
+      "lines": [
+        "Investigation: {{PRJ0117:project_id}}",
+        "Client: {{PRJ0117:client_variant}}",
+        "LIMS allocation: {{PRJ0117:lims_id}}",
+        "Date: 10/01/2008"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Quotation and acceptance basis",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Osterquill Toxicology Inc offers Avernelwick Pharmaceuticals Ltd an exploratory in vitro investigation of the AP02 aminopyrimidine regioisomer test article cohort. This signed copy confirms the scope quoted on 09/29/2008: HepG2 viability screen, Bacterial mutation assay with and without S9, and Mammalian-cell micronucleus assessment. The package informs discovery decisions and does not provide a regulatory safety conclusion."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Agreed basis"
+              ],
+              "rows": [
+                [
+                  "Cohort",
+                  "{{PRJ0117:n_compounds}} AP02 articles"
+                ],
+                [
+                  "Fee",
+                  "{{PRJ0117:price}}"
+                ],
+                [
+                  "Turnaround",
+                  "{{PRJ0117:turnaround_days}} calendar days"
+                ],
+                [
+                  "Planned start",
+                  "10/15/2008"
+                ],
+                [
+                  "Planned completion",
+                  "11/17/2008"
+                ]
+              ],
+              "caption": "Accepted quotation schedule"
+            }
+          },
+          {
+            "p": "Samuel Hartwell is the commercial contact. Rachel Okafor directs the investigation, Kenji Morita oversees genetic toxicology and Lucia Moretti checks the documentary QA gates. Acceptance does not waive the receipt and formulation checks."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Purpose and scope boundaries",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The client requires bacterial and mammalian signals to be reported separately. Each assay will retain its own observation sheets, control validity statement and interpretation. The final discussion may compare the systems, but it must not obscure a signal in one system by averaging it with another."
+          },
+          {
+            "p": "This quotation excludes in vivo work, synthesis, mechanism testing and a regulatory submission dossier. No live animals will be used. Metabolic activation material is a laboratory reagent and does not authorize additional animal procedures."
+          },
+          {
+            "p": "The report will describe the conditions actually tested. An absence of signal under those conditions cannot establish absence of risk at a different exposure. Focused follow-up, if indicated, requires a new scope or an agreed study amendment."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Receipt and article accountability",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Avernelwick Pharmaceuticals Ltd will supply uniquely labelled containers, the article inventory, available identity and purity information, storage instructions and handling precautions. Rachel Okafor will reconcile the inventory with the requested cohort before laboratory release. Article identity and dose lot identity must remain distinguishable."
+          },
+          {
+            "p": "Container condition and discrepancies will be entered on the receipt observation sheet. A mismatched label remains on hold; an analyst may not infer identity from container position. Aliquots and working solutions will retain the originating article label and investigation identifier."
+          },
+          {
+            "p": "Preparation and material use will be documented so that each exposure can be reconstructed. Unused material will remain under agreed storage conditions pending client instructions. Return or disposal arrangements will be confirmed through Samuel Hartwell."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 HepG2 viability screen",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The HepG2 viability screen will measure cellular ATP content after 24 h and 48 h exposure. Concentration selection will account for solubility and solvent tolerance. Vehicle wells and a reference treatment will accompany each run so that article effects can be separated from plate or reagent failure."
+          },
+          {
+            "p": "The observation sheet will retain preparation details, exposure times, plate layout and raw signals. Concentration-response estimates will be reported in µM where supported by the curve. An estimate outside the tested range will remain qualified rather than presented as an exact potency."
+          },
+          {
+            "p": "Precipitation, signal interference or failed controls will be referred to Rachel Okafor before release. Repeating an invalid laboratory run is distinct from extending the client’s requested concentration range; the latter requires written scope agreement."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Bacterial mutation assay with and without S9",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Kenji Morita will supervise the bacterial arm with and without metabolic activation. The planned strains are TA98, TA100, TA1535, TA1537 and WP2 uvrA. Concentration selection will consider solubility and bacterial toxicity, with replicate plates for each accepted condition."
+          },
+          {
+            "p": "Concurrent vehicle and appropriate positive controls will accompany the activation conditions. Colony counts, background lawn observations, precipitation and preparation details will remain in the source observation sheets. Control validity requires interpretable vehicle counts and the expected positive response."
+          },
+          {
+            "p": "An invalid arm will not be called negative. The interpretation will distinguish a reproducible increase from isolated variation and identify limiting toxicity. The signed quotation commits to assay-specific reporting, not to a predetermined result."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "6 Mammalian-cell micronucleus assessment",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "TK6 cells will be assessed after short exposure with and without S9 and extended exposure without S9. Planned schedules are 3 h +S9, 3 h -S9 and 24 h -S9, with recovery according to the scoring procedure. Concentrations will permit interpretation alongside relative population doubling."
+          },
+          {
+            "p": "Kenji Morita will maintain treatment identity through preparation, culture handling and scoring. Vehicle and positive control cultures will accompany each relevant schedule. Excessive cytotoxicity, precipitation or control defects must be recorded before interpretation."
+          },
+          {
+            "p": "Micronucleus observations and proliferation evidence will be reported together. The bacterial and mammalian conclusions will remain separate if their direction differs. Such a difference would support discussion of focused follow-up, without enlarging this authorization retrospectively."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "7 Control validity and QA gates",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Before exposure, Rachel Okafor will confirm article reconciliation, approved treatment conditions and suitable controls. Before report release, each assay lead will check the source observation sheets, control validity and the link between calculations and observations."
+          },
+          {
+            "p": "Lucia Moretti will check that the report identifies exploratory status and makes procedural departures visible. Documentary QA and a controlled archive do not convert this package into a GLP investigation. No GLP compliance statement is promised."
+          },
+          {
+            "p": "A failed control remains unresolved until repeated or explicitly reported as a limitation. The client will be notified where a hold affects completion. Failed runs may not be silently omitted, and a different article may not be substituted without agreement."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "8 Schedule and communications",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The planned start is 10/15/2008, subject to usable material and receipt-gate completion. Rachel Okafor will provide an interim status on 10/31/2008. Target completion is 11/17/2008, representing the quoted {{PRJ0117:turnaround_days}} calendar-day interval."
+          },
+          {
+            "p": "The interim communication will identify work completed, outstanding control checks and material constraints. It is a status communication rather than a signed final conclusion. Samuel Hartwell will handle commercial queries, with scientific questions referred to Rachel Okafor or Kenji Morita."
+          },
+          {
+            "p": "A delay due to shipment, insufficient quantity or unresolved identity will lead to a documented revised schedule. Exposure periods and control validity checks will not be shortened to compensate for a delayed start."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "9 Fee, deliverables and changes",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The accepted package fee is {{PRJ0117:price}} for the stated cohort and battery. It includes routine preparation, the described assay arms, control validity review and a final report with assay-specific tables. New client questions are outside this price."
+          },
+          {
+            "p": "The report will identify articles tested, concentrations, exposure conditions, control performance and interpretation limits. Supporting observation sheets will be retained in the investigation archive. A combined discovery discussion will not replace separate bacterial and mammalian conclusions."
+          },
+          {
+            "p": "Changes to the cohort, added exposure schedules or follow-up testing require a written study amendment and commercial agreement before execution. Invoicing will refer to this investigation identifier. An unsigned verbal request does not authorize additional work."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "10 Signed client acceptance",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Avernelwick Pharmaceuticals Ltd accepts the scope, fee and conditional schedule in this quotation. Acceptance authorizes the described exploratory in vitro battery only. Receipt of the signed copy does not waive article receipt checks or the obligation to document deviations."
+          },
+          {
+            "p": "Client acceptance signature: signed for Avernelwick Pharmaceuticals Ltd; signature retained in the faxed original. Acceptance date: 10/01/2008. Samuel Hartwell has retained the transmitted copy with the proposal papers. Rachel Okafor will use this accepted scope to open the laboratory instructions."
+          },
+          {
+            "p": "FAX RECEIVED 10/01/2008 15:41 | OT-08-S0114 | ACCEPTANCE COPY | faint transmission band at upper edge",
+            "style": "small"
+          },
+          {
+            "p": "Assay results are not part of these acceptance pages. They will be issued after laboratory execution and the report QA gate."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Samuel Hartwell",
+        "role": "Toxicology Client Services Lead",
+        "date": "10/01/2008",
+        "signed": true
+      }
+    ]
+  },
+  "scan": {
+    "skew_deg": 0.6,
+    "noise": 0.25,
+    "blur": 0.35,
+    "stamp": "RECEIVED 10/01/2008",
+    "handwriting": "Accepted for Avernelwick Pharmaceuticals Ltd — signature on original",
+    "pages": null
+  }
+}
