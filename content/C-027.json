@@ -1,0 +1,425 @@
+{
+  "family": "document",
+  "summary": "Final Rat exposure with tandem-MS bioanalysis report for Aldrevessa Therapeutics. The report separates IV disposition from oral delivery, states the supplied parameter-table coverage and analytical limits, and records the dosing-vehicle follow-up decision.",
+  "properties": {
+    "title": "MV-2015-240 AT15 Oral/IV PK final report"
+  },
+  "header": "Merrivoss Bioanalysis Inc | MV-2015-240 | Final R1",
+  "footer": "Merrivoss Bioanalysis Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "AT15 GPCR Lead: Rat Oral/IV PK",
+    "subtitle": "Final report R1 — Rat exposure with tandem-MS bioanalysis",
+    "lines": [
+      "Study {{PRJ0057:project_id}}",
+      "Accession {{PRJ0057:lims_id}}",
+      "Prepared for Aldrevessa Therapeutics",
+      "Dr M. Larkin, DMPK Study Director",
+      "12/21/2015"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Study identification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This final report concerns the AT15 sulfonyl piperazine test article set for Aldrevessa Therapeutics. The project record lists {{PRJ0057:n_compounds}} compounds. Rat exposure with tandem-MS bioanalysis was conducted under {{PRJ0057:project_id}}, accession {{PRJ0057:lims_id}}."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0057:benchmark",
+            "caption": "Table 1. Project scope and identifiers"
+          }
+        },
+        {
+          "p": "The study opened on 11/16/2015. Interim interpretation was dated 12/03/2015 and completion is dated 12/21/2015. The report separates systemic disposition from oral delivery before stating the vehicle decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Released Oral/IV PK table",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The supplied parameter table covers the named AT15 entries below. The dosing conditions are 1 mg/kg IV and 5 mg/kg PO, n=3. Clearance, steady-state volume, half-life and bioavailability are retained together rather than interpreted as unrelated endpoints."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0057:rodent_pk",
+            "caption": "Table 2. Rat Oral/IV PK parameters"
+          }
+        },
+        {
+          "p": "Clearance is expressed in mL/min/kg, Vss in L/kg, half-life in h and F in %. The table does not provide concentration-time samples or AUC values in ng·h/mL."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Scope of the quantitative release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The project scope is {{PRJ0057:n_compounds}} compounds, while the supplied PK parameter table contains only the displayed entries. This report does not expand that table by assigning values to additional AT15 identifiers. The companion assay worksheet is the associated accession and matrix record."
+        },
+        {
+          "p": "The final study outcome is stated at the project level. Quantitative comparisons in this report are confined to the released table. A reader requiring a complete per-compound parameter release should consult the controlling study records rather than extrapolate the displayed values across the set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Purpose at the exposure gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The study asked whether limited oral exposure could be attributed simply to unfavorable systemic disposition. The IV route supplies disposition context, while the oral route adds the processes that occur before compound reaches the circulation."
+        },
+        {
+          "p": "The route comparison supports a focused next step. It cannot by itself distinguish dissolution, intestinal absorption and presystemic extraction, and it does not demonstrate that a new vehicle will correct the limitation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Test article and accession linkage",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Complete AT15 identifiers in the parameter table connect the results to accession {{PRJ0057:lims_id}}. Accession-lot mapping is maintained in MV-2015-240_AssayWorksheet_122115_v03.xlsx. The submitted parent identity is the analyte designation used for this report."
+        },
+        {
+          "p": "A later vehicle assessment must retain the material-lot link. Similar scaffold descriptions cannot substitute for a compound identifier, and a resynthesized lot should not silently inherit the identity record of the original material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Species and sample matrix",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The biological species is rat. Parent-compound exposure is assessed in the plasma bioanalytical context of Oral/IV PK. The reported systemic parameters are specific to this species and the stated dosing conditions."
+        },
+        {
+          "p": "No human concentration, human clearance or cross-species scaling result is supplied. The report does not convert rat systemic clearance to microsomal or hepatocyte CLint, whose normalization bases are different."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Route and dose design",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Route",
+              "Dose setting",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "IV",
+                "1 mg/kg",
+                "Systemic disposition reference"
+              ],
+              [
+                "PO",
+                "5 mg/kg",
+                "Oral delivery and exposure context"
+              ]
+            ],
+            "caption": "Table 3. Route comparison design"
+          }
+        },
+        {
+          "p": "The dose settings are protocol conditions rather than measured exposure values. Route comparison requires dose normalization; the different nominal doses must not be ignored when reading the bioavailability column."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Sampling record boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The supplied result record includes derived PK parameters but does not enumerate actual collection times, individual animal concentration records or missed samples. No sampling event is invented in this report."
+        },
+        {
+          "p": "A concentration-time reconstruction would require the source bioanalytical record. Parameter-level conclusions can be retained without fabricating a time-course plot or asserting that an unreported sample was within the analytical range."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Tandem-MS bioanalysis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Javier Quintana is the mass-spectrometry lead for the parent-analyte measurements. Analyte cards and the assay worksheet retain analytical identity, matrix-specific acquisition and integration records."
+        },
+        {
+          "p": "The report presents derived Oral/IV PK parameters. It is not a chromatogram appendix or a numerical calibration release. Parent-analyte response must remain distinguishable from any unreported metabolite or matrix-associated signal."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Analytical response limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Numerical quantitation limits and calibration ranges are not supplied with the parameter table. They are not added here. A low late-time signal must not be interpreted as proof that all parent compound has disappeared."
+        },
+        {
+          "p": "The absence of sample-level concentration data also prevents an independent assessment of which time points supported the terminal slope. The reported half-life is retained as released, without reconstructing an unreported fit interval."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Matrix acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helen Marchwood is responsible for bioanalytical quality. Matrix acceptance checks are held in the companion assay worksheet. Their purpose is to keep plasma analytical performance distinct from the biological route comparison."
+        },
+        {
+          "p": "A satisfactory systemic parameter does not release an unrelated analytical sample. Matrix-specific sample interpretation belongs with the accession and analyte records, not with an assumption that an attractive clearance value proves analytical acceptability."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Acceptance exceptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "No named sample-level exception, exclusion list or repeat-analysis history is supplied in the final parameter record. This report therefore asserts none. It also does not claim that every individual plasma sample met an unstated numerical criterion."
+        },
+        {
+          "p": "The quantitative coverage limit in Section 3 and the analytical-limit qualification in Section 10 remain visible in the final interpretation. They define what this release can support without implying a new experimental failure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Systemic clearance interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The project outcome characterizes systemic clearance as acceptable. The IV context is important because it evaluates disposition after direct delivery to the circulation and avoids interpreting low oral delivery as a clearance measurement by itself."
+        },
+        {
+          "p": "Acceptable systemic clearance is a study-specific judgment. No universal pass threshold is introduced. The compound-level values remain in Table 2 and should retain their mL/min/kg unit in any later DMPK memo."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Distribution and half-life context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Steady-state volume and half-life provide disposition context alongside clearance. A longer half-life cannot be assigned to improved absorption, because distribution and elimination both influence the systemic time course."
+        },
+        {
+          "p": "No tissue concentration measurement is provided. Vss is a derived systemic parameter rather than direct proof of concentration at the pharmacological target. The report does not infer tissue efficacy or central distribution from that column."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Oral bioavailability interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The F column expresses oral availability relative to the IV reference under the stated dose conditions. It is not an absolute oral plasma concentration. The study-level conclusion of limited oral exposure remains separate from the individual parameter entries."
+        },
+        {
+          "p": "A favorable F entry should not be used to erase the project-level concern or extended to unreported members of the set. Conversely, the study outcome should not be rewritten to imply that every displayed compound has the same limitation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Exposure metric boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Exposure would ordinarily be expressed in ng·h/mL for an AUC release. No AUC values or concentration-time table are supplied here, so this report does not assert a peak concentration, peak time or absolute exposure integral."
+        },
+        {
+          "p": "The route assessment is based on the released PK parameters and the recorded project outcome. Adding a synthetic time course would give an apparent level of evidence that the final supplied record does not contain."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Route comparison assumptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reading oral availability against IV disposition assumes that the route records refer to the same parent analyte and that dose normalization is retained. Those assumptions are necessary to interpret the reported F values."
+        },
+        {
+          "p": "The supplied record does not establish dose proportionality. The different IV and oral dose settings are therefore described as study conditions, without extending the comparison to untested doses."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Vehicle question",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa to revisit the dosing vehicle. This distinction makes vehicle performance a reasonable next question rather than assuming that systemic elimination explains the oral limitation."
+        },
+        {
+          "p": "The study does not identify a vehicle composition or quantify dissolved drug in the administered formulation. The next assessment must supply that evidence. Reconsidering the vehicle is a follow-up decision, not a reported formulation rescue."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Alternative explanations retained",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Low oral exposure can involve availability in the formulation, absorption and presystemic loss. The route comparison does not isolate these contributions. The vehicle decision should therefore be read as a focused investigation of one actionable contributor."
+        },
+        {
+          "p": "No transporter result, intestinal metabolism result or formulation dissolution result is included. These absent mechanisms are not assigned from the oral PK table. The report maintains the uncertainty while preserving the client decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "20 Handoff to the next assessment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A vehicle follow-up should link each tested formulation to its AT15 material and accession lot. The original route conditions should remain visible when the later result is compared with this study."
+        },
+        {
+          "p": "The follow-up record should distinguish changes in administered preparation from changes in plasma measurement. This report does not specify a new formulation or claim a successful next exposure gate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "21 Use in the DMPK memo",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The DMPK memo should retain Table 2 together with its route, dose, species and unit definitions. The study-level outcome must accompany the parameter table so the rationale for the vehicle assessment is clear."
+        },
+        {
+          "p": "The quantitative coverage qualification should also remain attached. The project scope and the size of the supplied parameter table are different statements and must not be collapsed into an unsupported claim of a complete numeric release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "22 Final conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa to revisit the dosing vehicle. Megan Larkin records this as the final outcome for Aldrevessa Therapeutics under {{PRJ0057:project_id}}."
+        },
+        {
+          "p": "The conclusion is limited to rat Oral/IV PK and the supplied parameter release. It is not a human exposure prediction or evidence that the proposed vehicle reassessment has already improved oral delivery."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "23 Report control and retained assumptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This R1 final report is dated 12/21/2015. The companion MV-2015-240_AssayWorksheet_122115_v03.xlsx holds accession-lot mapping and matrix acceptance. This final interpretation supersedes the 12/03/2015 interim communication for closeout."
+        },
+        {
+          "list": [
+            "Preserve parent identity and material-lot links.",
+            "Retain rat species and route-specific dosing conditions.",
+            "Do not substitute CLint units for systemic clearance units.",
+            "Do not infer AUC or concentration-time values from the parameter table.",
+            "Keep the quantitative coverage qualification with any report extract."
+          ]
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director",
+      "date": "12/21/2015",
+      "signed": true
+    },
+    {
+      "name": "Javier Quintana",
+      "role": "Mass-Spectrometry Manager",
+      "date": "12/21/2015",
+      "signed": true
+    },
+    {
+      "name": "Helen Marchwood",
+      "role": "Bioanalytical Quality Manager",
+      "date": "12/21/2015",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
