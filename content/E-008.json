@@ -1,0 +1,67 @@
+{"family": "workbook",
+ "summary": "Sequence sheets for XA-5 oral suspension in-use stability under WA/2022/226 for Xarnelvune Pharmaceuticals: ICH chamber pulls to eighteen months on the reconstituted and unopened product. Assay and related substances remain within specification; the resuspension check after storage supported the dosing instructions, and Xarnelvune added a shake-before-use line to the label.",
+ "properties": {"title": "XA5 pulls and suitability results, Rev03"},
+ "sheets": [
+  {"name": "Summary", "start": "A1",
+   "rows": [
+    [{"v": "WA/2022/226 XA5 pulls and suitability results", "bold": true}],
+    ["Project", {"ref": "PRJ0095:project_id"}],
+    ["LIMS", {"ref": "PRJ0095:lims_id"}],
+    ["Client", "{{PRJ0095:client_variant}}"],
+    ["Lead", "Alice Penrose"],
+    ["Sequence owner", "Leon Wu"],
+    ["Sample receipt and storage", "Denis Miller"],
+    [],
+    ["Milestone", "Date"],
+    ["Protocol start", "08/08/2022"],
+    ["Interim review (9 months)", "09/05/2023"],
+    ["Completion (18 months)", "08/02/2024"],
+    [],
+    ["Stability result", "Value"],
+    ["Initial assay (% label claim)", {"ref": "PRJ0095:stability.t0_assay"}],
+    ["Last timepoint (months)", {"ref": "PRJ0095:stability.last_timepoint_months"}],
+    ["Overall outcome", "Complies at all conditions and timepoints; shake-before-use instruction added after resuspension check"],
+    [],
+    ["Reviewed by", "Alice Penrose", null, "Checked 08/02/2024"]
+   ],
+   "col_widths": {"A": 30, "B": 44},
+   "merged": ["A1:D1"]
+  },
+  {"name": "Stability", "start": "A1",
+   "rows": [
+    [{"v": "ICH chamber programme: pulls and results", "bold": true}],
+    ["Assay as % label claim, impurities as % area. Water by Karl Fischer, % w/w. Bottles were stored upright and shaken before each withdrawal, as per the protocol."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0095:stability", "at": "A4", "max_rows": null, "columns": null, "header": true}],
+   "merged": ["A1:H1"],
+   "col_widths": {"A": 18, "B": 18, "C": 14, "D": 18, "E": 18, "F": 20, "G": 18, "H": 14},
+   "freeze": "A5",
+   "number_formats": {"C5:C30": "0.0", "F5:G30": "0.00"}
+  },
+  {"name": "Resuspension check", "start": "A1",
+   "rows": [
+    [{"v": "Resuspension after storage: dosing instruction basis", "bold": true}],
+    ["Bottles held at the labelled storage condition were left unshaken for the stated interval, then resuspended by hand before sampling. Observations recorded per bottle."],
+    [],
+    ["Check", "Result", "Comment"],
+    ["Time to visible sediment", "Sediment within the protocol window", "Settled, no caking"],
+    ["Resuspension by inversion", "Uniform after the labelled number of inversions", "Shake-before-use wording supported"],
+    ["Dose content after resuspension", "Within the assay limits", "Samples taken from top, middle and bottom of the bottle"],
+    ["Conclusion", "Shake-before-use instruction added to the label", "Requested by Xarnelvune on 14/03/2024"]
+   ],
+   "col_widths": {"A": 30, "B": 40, "C": 40},
+   "merged": ["A1:C1"]
+  },
+  {"name": "Sign-off", "start": "A1",
+   "rows": [
+    ["Deviation and sign-off record", "", "", ""],
+    ["Item", "Owner", "Status", "Date"],
+    ["Sample storage excursion on one bottle during transfer, memo filed, no effect on results", "Denis Miller", "Closed", "21/11/2022"],
+    ["Resuspension assessment reviewed", "Alice Penrose", "Approved", "08/02/2024"],
+    ["Interim review of 9-month pulls", "Leon Wu", "Complete", "09/05/2023"],
+    ["Final results and this workbook", "Leon Wu", "Issued Rev03", "08/02/2024"]
+   ],
+   "col_widths": {"A": 60, "B": 18, "C": 16, "D": 14},
+   "merged": ["A1:D1"]
+  }
+ ]}
