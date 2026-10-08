@@ -1,70 +1,286 @@
-{"family": "workbook",
- "summary": "Assay worksheet for MV-2018-336, the QP07 absorption triage for Quorenthel Pharma GmbH: 32 aminopyrazine analogues run in Caco-2, plasma protein binding and kinetic solubility. Solubility was good across most of the set, but several soluble analogues showed high efflux, which led Quorenthel to redesign the exposed amine rather than raise lipophilicity.",
- "properties": {"title": "MV-2018-336 assay worksheet (QP07 absorption triage)"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-    [{"v": "Merrivoss Bioanalysis Inc: assay worksheet", "bold": true}],
-    ["Project", "{{PRJ0060:project_id}}", null, "LIMS", "{{PRJ0060:lims_id}}"],
-    ["Client", "{{PRJ0060:client_variant}}"],
-    ["Study", "QP07 absorption triage: Caco-2, kinetic solubility and PPB"],
-    ["Series", "SER07, aminopyrazine (QP07 prefix)"],
-    ["Compounds", "{{PRJ0060:n_compounds}}"],
-    ["Quote", "12/21/2018"],
-    ["Start", "01/28/2019"],
-    ["Interim", "02/12/2019"],
-    ["Completion", "02/28/2019"],
-    [],
-    ["Assay", "Protocol", "Sheet"],
-    ["Plasma protein binding", "fu,p by equilibrium dialysis, human plasma, 4 h at 37 °C", "Plasma binding"],
-    ["Caco-2 permeability", "Bidirectional flux at 10 µM, pH 7.4", "Caco-2"],
-    ["Kinetic solubility", "DMSO dilution into PBS pH 7.4, read in µM", "Solubility and benchmark"],
-    [],
-    ["Reviewed by", "Megan Larkin", null, "Checked", "Helen Marchwood, 02/28/2019"]
-   ],
-   "col_widths": {"A": 26, "B": 60, "C": 22, "D": 12, "E": 26},
-   "merged": ["A1:E1"]
+{
+  "family": "workbook",
+  "summary": "Assay worksheet for MV-2018-336, the QP07 absorption triage for Quorenthel Pharma GmbH, combining Caco-2, plasma binding and kinetic solubility. Matrix acceptance and accession-lot references precede interpretation; low-recovery and solubility-limited flux rows remain qualified. High efflux among interpretable soluble compounds, including QP07-08608 and QP07-08648, supports redesign of the exposed amine rather than increased lipophilicity.",
+  "properties": {
+    "title": "MV-2018-336 assay worksheet (QP07 absorption triage)"
   },
-  {"name": "Caco-2",
-   "rows": [
-    [{"v": "Caco-2 bidirectional permeability (house name: Caco-2 flux and efflux ratio)", "bold": true}],
-    ["10 µM dosing, pH 7.4, 120 min at 37 °C. Efflux ratio is Papp B-A over Papp A-B; ratios above 2.5 were carried into the redesign discussion."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0060:caco2", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 22, "C": 22, "D": 14, "E": 14},
-   "number_formats": {"B5:B36": "0.0", "C5:C36": "0.0", "D5:D36": "0.0", "E5:E36": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0060:caco2", "column": 3, "title": "Efflux ratio", "y_label": "B-A / A-B"},
-   "chart_at": "G4",
-   "comments": [{"cell": "D4", "text": "Efflux ratio column rechecked against the flux columns after the transcription error in the January run.", "author": "Javier Quintana"}]
-  },
-  {"name": "Plasma binding",
-   "rows": [
-    [{"v": "Plasma protein binding, human (house name: fu,p by equilibrium dialysis)", "bold": true}],
-    ["RED device, 4 h at 37 °C, buffer against plasma. Recovery on both chambers reported; the run sheet notes any recovery under 80%."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0060:ppb", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 14, "C": 16, "D": 16},
-   "number_formats": {"B5:B36": "0.0", "C5:C36": "0.00", "D5:D36": "0"},
-   "tab_color": "#7F7F7F"
-  },
-  {"name": "Solubility and benchmark",
-   "rows": [
-    [{"v": "Kinetic solubility, PBS pH 7.4 (house name: DMSO-dilution solubility)", "bold": true}],
-    ["Top concentration 200 µM from a 10 mM DMSO stock, final DMSO 2%. Read by nephelometry; reported as the highest concentration without precipitation."],
-    []
-   ],
-   "data_refs": [
-    {"table_ref": "PRJ0060:solubility", "at": "A4"},
-    {"table_ref": "PRJ0060:benchmark", "at": "D4"}
-   ],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 18, "C": 4, "D": 22, "E": 22},
-   "number_formats": {"B5:B36": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0060:solubility", "column": 1, "title": "Kinetic solubility (µM)", "y_label": "µM"},
-   "chart_at": "G4"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc: assay worksheet",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "{{PRJ0060:project_id}}",
+          null,
+          "LIMS",
+          "{{PRJ0060:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0060:client_variant}}"
+        ],
+        [
+          "Study",
+          "QP07 absorption triage: Caco-2, kinetic solubility and PPB"
+        ],
+        [
+          "Series",
+          "SER07, aminopyrazine (QP07 prefix)"
+        ],
+        [
+          "Compounds",
+          "{{PRJ0060:n_compounds}}"
+        ],
+        [
+          "Quote",
+          "12/21/2018"
+        ],
+        [
+          "Start",
+          "01/28/2019"
+        ],
+        [
+          "Interim",
+          "02/12/2019"
+        ],
+        [
+          "Completion",
+          "02/28/2019"
+        ],
+        [],
+        [
+          "Assay",
+          "Protocol",
+          "Sheet"
+        ],
+        [
+          "Plasma protein binding",
+          "fu,p by equilibrium dialysis, human plasma, 4 h at 37 °C",
+          "Plasma binding"
+        ],
+        [
+          "Caco-2 permeability",
+          "Bidirectional flux at 10 µM, pH 7.4",
+          "Caco-2"
+        ],
+        [
+          "Kinetic solubility",
+          "DMSO dilution into PBS pH 7.4, read in µM",
+          "Solubility and benchmark"
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Megan Larkin",
+          null,
+          "Checked",
+          "Helen Marchwood, 02/28/2019"
+        ],
+        [],
+        [
+          "Interpretation",
+          "The soluble-branch decision rests on interpretable soluble compounds such as QP07-08608 and QP07-08648 after run acceptance. Recovery- or solubility-limited rows do not independently establish efflux liability."
+        ],
+        [
+          "Accession-lot source",
+          "{{PRJ0060:lims_id}}: compound-linked analyte cards hold the received lot, assay aliquot and matrix/insert links for every compound in the assay tables."
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 60,
+        "C": 22,
+        "D": 12,
+        "E": 26
+      },
+      "merged": [
+        "A1:E1"
+      ]
+    },
+    {
+      "name": "Caco-2",
+      "rows": [
+        [
+          {
+            "v": "Caco-2 bidirectional permeability (house name: Caco-2 flux and efflux ratio)",
+            "bold": true
+          }
+        ],
+        [
+          "10 µM dosing, pH 7.4, 120 min at 37 °C. Efflux ratio is Papp B-A over Papp A-B. Run acceptance requires monolayer integrity before/after exposure, paracellular-marker, reference-flux and vehicle controls against study-plan limits; the insert-linked acceptance and compound accession-lot records are retained under {{PRJ0060:lims_id}}. Accepted controls do not remove compound-specific recovery or solubility limitations."
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "Qualified rows",
+          "Recovery below the study-plan window: QP07-08500, QP07-08524, QP07-08542, QP07-08600, QP07-08614, QP07-08638, QP07-08650 and QP07-08674. Retain observed flux values as qualified; exclude from the unqualified soluble-branch comparison."
+        ],
+        [
+          "Solubility limitation",
+          "Nominal dosing exceeds measured kinetic solubility for QP07-08522, QP07-08542, QP07-08584, QP07-08600, QP07-08618, QP07-08642 and QP07-08684. Apparent permeability/ratios are qualified and do not establish intrinsic efflux; no replacement measurements are inferred."
+        ],
+        [
+          "Interpretable soluble branch",
+          "QP07-08608 and QP07-08648 have soluble dosing conditions, adequate reported recovery and elevated efflux ratios. These support the exposed-amine redesign after matrix acceptance, without relying on qualified rows."
+        ],
+        [
+          "Source linkage",
+          "{{PRJ0060:lims_id}}: each table compound maps by its identifier to its analyte card, received accession lot, assay aliquot and insert-linked acceptance record."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0060:caco2",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 22,
+        "C": 22,
+        "D": 14,
+        "E": 14
+      },
+      "number_formats": {
+        "B5:B36": "0.0",
+        "C5:C36": "0.0",
+        "D5:D36": "0.0",
+        "E5:E36": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0060:caco2",
+        "column": 3,
+        "title": "Efflux ratio",
+        "y_label": "B-A / A-B"
+      },
+      "chart_at": "G4",
+      "comments": [
+        {
+          "cell": "D4",
+          "text": "Efflux ratio column rechecked against the flux columns after the transcription error in the January run.",
+          "author": "Javier Quintana"
+        }
+      ]
+    },
+    {
+      "name": "Plasma binding",
+      "rows": [
+        [
+          {
+            "v": "Plasma protein binding, human (house name: fu,p by equilibrium dialysis)",
+            "bold": true
+          }
+        ],
+        [
+          "RED device, 4 h at 37 °C, buffer against plasma. Total recovery across both chambers is reported as Recovery (%). The run sheet notes any recovery under 80%."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0060:ppb",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 16,
+        "D": 16
+      },
+      "number_formats": {
+        "B5:B36": "0.0",
+        "C5:C36": "0.00",
+        "D5:D36": "0"
+      },
+      "tab_color": "#7F7F7F"
+    },
+    {
+      "name": "Solubility and benchmark",
+      "rows": [
+        [
+          {
+            "v": "Kinetic solubility, PBS pH 7.4 (house name: DMSO-dilution solubility)",
+            "bold": true
+          }
+        ],
+        [
+          "Top concentration 200 µM from a 10 mM DMSO stock, final DMSO 2%. Read by nephelometry; reported as the highest concentration without precipitation."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0060:solubility",
+          "at": "A4"
+        },
+        {
+          "table_ref": "PRJ0060:benchmark",
+          "at": "D4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 18,
+        "C": 4,
+        "D": 22,
+        "E": 22
+      },
+      "number_formats": {
+        "B5:B36": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0060:solubility",
+        "column": 1,
+        "title": "Kinetic solubility (µM)",
+        "y_label": "µM"
+      },
+      "chart_at": "G4"
+    }
+  ]
+}
