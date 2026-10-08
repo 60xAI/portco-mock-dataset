@@ -1,0 +1,175 @@
+{
+  "family": "deck",
+  "summary": "Final Vehicle ladder readout for Auvrelquith Biosciences. The initial screen exposed the limits of clarity at preparation; buffer adjustment then prevented precipitation on dilution and supported selection of a solution for exposure work.",
+  "properties": {
+    "title": "AU-08: solution choice for exposure work",
+    "subject": "{{PRJ0105:project_id}} | {{PRJ0105:lims_id}} | Auvrelquith Biosciences | Julia Carver | 06/06/2016",
+    "keywords": "Vehicle ladder; Excipient compatibility screen; early CMC"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "AU-08: solution choice for exposure work",
+      "subtitle": "{{PRJ0105:project_id}} | {{PRJ0105:lims_id}} | Auvrelquith Biosciences | Julia Carver | 06/06/2016 | Durnesswick Laboratories Inc",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision at close",
+      "bullets": [
+        "Auvrelquith Biosciences selected the buffer-adjusted solution for exposure work.",
+        "The initial ladder did not establish a stable aqueous solution at target loading.",
+        "Selection depends on dilution behavior, not simply on concentrate appearance."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Initial Vehicle ladder: loading and physical behavior",
+      "table": {
+        "table_ref": "PRJ0105:form_screen",
+        "max_rows": 8
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Equilibrium capacity is only part of the choice",
+      "chart": {
+        "kind": "hbar",
+        "ref": "PRJ0105:form_screen",
+        "column": 1,
+        "title": "Equilibrium solubility (mg/mL)"
+      },
+      "notes": "Target loading 10 mg/mL. This chart does not measure dilution behavior or particle-size distribution.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Work package sequence",
+      "bullets": [
+        "Started 04/19/2016; interim discussion 05/13/2016; completed 06/06/2016.",
+        "Miguel Serrano developed the formulation set under Julia Carver’s development lead.",
+        "Lena Patel supported the exposure-work handoff."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Screen design and suitability",
+      "bullets": [
+        "Target loading: 10 mg/mL; compare preparation appearance with the standing condition.",
+        "Keep composition, preparation order and identity on the bench sheet.",
+        "Equilibrium solubility does not establish a dosing hold time."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "What the starting formulation set tells us",
+      "bullets": [
+        "Polymer vehicles remained suspensions.",
+        "Cyclodextrin improved capacity relative to the citrate-buffer starting point without giving a clear preparation."
+      ],
+      "bullets_right": [
+        "The surfactant/cosolvent mixture appeared clear initially.",
+        "Precipitate on standing removed clarity as a sufficient selection rule."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Dilution is the relevant stress",
+      "bullets": [
+        "A concentrate can look acceptable before its solvent environment changes.",
+        "Dilution changes excipient support and the dissolved/solid balance.",
+        "AU-08 follow-up therefore focused on buffer condition as well as concentrate preparation."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Buffer adjustment: interpretation",
+      "bullets": [
+        "The project follow-up found that buffer adjustment prevented precipitation on dilution.",
+        "This is distinct from the starting pH 4 citrate-buffer row.",
+        "Do not substitute that starting recipe for the selected exposure recipe."
+      ],
+      "notes": "Adjusted-buffer composition and quantitative dilution measurements are not supplied. Keep the starting screen separate from the successful follow-up.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Recipe-card comparison for handoff",
+      "table": {
+        "columns": [
+          "Preparation",
+          "Evidence",
+          "Use"
+        ],
+        "rows": [
+          [
+            "Initial citrate-buffer preparation",
+            "Fine suspension in starting ladder",
+            "Comparator"
+          ],
+          [
+            "Initially clear surfactant/cosolvent preparation",
+            "Precipitate on standing",
+            "Do not select on initial clarity"
+          ],
+          [
+            "Buffer-adjusted solution",
+            "Precipitation prevented on dilution in project follow-up",
+            "Selected for exposure work"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reading the dilution appearance comparison",
+      "bullets": [
+        "Compare concentrate, diluted preparation and held preparation under consistent viewing conditions.",
+        "Keep recipe identity beside each observation.",
+        "The outcome here is qualitative; a photograph panel is not reproduced."
+      ],
+      "notes": "The archive description refers to dilution photographs, but no image assets are supplied. Do not replace missing photographs with simulated evidence.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Exposure use and process lock",
+      "bullets": [
+        "Use the buffer-adjusted recipe for planned exposure work.",
+        "Tie dose concentration in mg/mL to the intended dosing volume."
+      ],
+      "bullets_right": [
+        "A commercial process lock is not established.",
+        "A changed material lot, loading or dilution medium requires a compatibility check."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Transfer instructions",
+      "bullets": [
+        "Lena Patel: carry buffer identity, adjustment order and dilution medium into the recipe card.",
+        "Miguel Serrano: retain starting-ladder observations with the bench sheets.",
+        "Julia Carver: distinguish follow-up success from the original screen in the handoff."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Closeout and next scale gate",
+      "bullets": [
+        "{{PRJ0105:project_id}} is complete; the solution approach has been selected.",
+        "Agree hold interval, container and mixing sequence before larger preparation.",
+        "Scope reproducibility and material demand before extending beyond exposure work."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    }
+  ]
+}
