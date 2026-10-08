@@ -1,0 +1,722 @@
+files:
+- id: P04
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Commercial/Cross_Sell/2026
+  filename: One_Tarnovell_Services_Cross_Sell_2026-06.pptx
+  format: pptx
+  doc_type: deck_pitch
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-05-12T12:52:17'
+  modified: '2026-06-02T14:43:36'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: CL001
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q1_correct_alt_ho
+  - q3_bridge_deck
+  related:
+  - id: P01
+    rel: related
+  tier: orchestrator
+  target_length: 12 slides
+  summary: 'Group cross-sell deck: reuses the D bioinformatics slide and uses Corvenlea Pharma (A/C/E history under three
+    names; never bought D or F) as the worked example.'
+  pilot: false
+- id: P28
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/People/Directory/2026
+  filename: Staff_Directory_Export_2026-09.csv
+  format: csv
+  doc_type: staff_directory
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-09-01T10:10:53'
+  modified: '2026-09-14T16:42:21'
+  author: BG157
+  last_saved_by: BG157
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q2_staff_directory
+  related: []
+  tier: script
+  target_length: ~170 rows
+  summary: Group staff directory export (A-F + head office) with start and leave dates.
+  pilot: false
+- id: P29
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/LIMS/Exports/2026
+  filename: Group_LIMS_Export_2026-08-20.csv
+  format: csv
+  doc_type: lims_export
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-08-20T16:29:33'
+  modified: '2026-08-20T17:06:33'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q2_lims_export
+  related: []
+  tier: script
+  target_length: ~115 rows
+  summary: Consolidated LIMS export (A-F) with LIMS IDs, legacy refs, clients as recorded, assays, dates and status.
+  pilot: false
+- id: P30
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Commercial/CRM/Exports/2026
+  filename: Legacy_CRM_Accounts_Export_2026-07-07.csv
+  format: csv
+  doc_type: client_list
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-07-07T16:07:50'
+  modified: '2026-07-07T16:44:50'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q3_crm_export
+  related: []
+  tier: script
+  target_length: ~110 rows
+  summary: CRM account export from all legacy systems; variant names appear as separate accounts.
+  pilot: false
+- id: P34
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/Client_Identity/2026
+  filename: Client_Identity_Bridge_v3_2026-08.xlsx
+  format: xlsx
+  doc_type: wb_other
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-03-09T13:05:50'
+  modified: '2026-08-25T08:21:27'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: CL001
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q3_bridge_alias_workbook
+  related: []
+  tier: orchestrator
+  target_length: 3 sheets
+  summary: Integration workbook mapping legacy client names to group accounts; links Corvenlea Pharma's A/C/E names, flags
+    Corvenlith Therapeutics as a different company.
+  pilot: false
+- id: P35
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Commercial/Cross_Sell/2026
+  filename: Cross_Sell_White_Space_Matrix_DRAFT_v2.xlsx
+  format: xlsx
+  doc_type: wb_other
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-06-15T13:13:54'
+  modified: '2026-09-02T08:16:31'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: CL001
+  client_variant: null
+  finish: draft
+  mess:
+  - half_filled
+  planted:
+  - q3_whitespace_matrix
+  related: []
+  tier: orchestrator
+  target_length: 2 sheets
+  summary: Client x service-line matrix for top accounts showing which legacy firms each client has bought from; half-finished.
+  pilot: false
+- id: HO-001
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Brand/Launch/2020
+  filename: Tarnovell_Group_Brand_Launch_2020-02.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2020
+  era: group
+  template: HO-G2020
+  created: '2020-01-20T10:24:00'
+  modified: '2020-02-03T15:37:00'
+  author: ST08
+  last_saved_by: ST08
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 10 slides
+  summary: Group brand launch briefing explaining the common Tarnovell identity, local scientific leadership and preservation
+    of legacy client records.
+  pilot: false
+- id: HO-002
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Governance/Board/2024/Q2
+  filename: Integration_Board_Update_v3_FINAL_final.pptx
+  format: pptx
+  doc_type: board_pack
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: HO-G2020
+  created: '2024-06-03T10:24:00'
+  modified: '2024-06-19T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - version_suffix
+  planted: []
+  related:
+  - id: HO-011
+    rel: related
+  tier: haiku
+  target_length: 14 slides
+  summary: June 2024 board extract for One Group, Many Practices covering workstream owners, the Durnesswick integration and
+    unresolved price and archive migration decisions.
+  pilot: false
+- id: HO-003
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/People/Organisation/2025
+  filename: Group_Organisation_Chart_2025-11.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: HO-G2020
+  created: '2025-11-03T10:24:00'
+  modified: '2025-11-12T15:37:00'
+  author: NS30
+  last_saved_by: NS30
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 6 slides
+  summary: November 2025 organisation chart showing group leadership, A-F site reporting lines and the distinction between
+    shared administration and retained scientific operations.
+  pilot: false
+- id: HO-004
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/Programme/2026
+  filename: One_Group_Many_Practices_Steering_2026-09.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-09-07T10:24:00'
+  modified: '2026-09-21T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-006
+    rel: related
+  - id: HO-007
+    rel: related
+  - id: HO-013
+    rel: related
+  tier: haiku
+  target_length: 11 slides
+  summary: September 2026 steering briefing records completed A-F HR consolidation, partial price mapping, F brand migration
+    and the planned held-apart Osterquill onboarding.
+  pilot: false
+- id: HO-005
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Commercial/Training/2025
+  filename: Copy of Quenverell_Service_Overview (2).pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: HO-G2020
+  created: '2025-03-04T10:24:00'
+  modified: '2025-03-11T15:37:00'
+  author: BG157
+  last_saved_by: BG157
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - copy_of
+  - duplicate_across_firms
+  planted: []
+  related:
+  - id: P01
+    rel: related
+  tier: sol
+  target_length: 9 slides
+  summary: Internal commercial training copy of a Quenverell service overview covering Virtual library triage, Docking and
+    hit clustering and RNA-seq differential expression, retaining local wording and old contact footers.
+  pilot: false
+- id: HO-006
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/Pricing/2024
+  filename: Price_Harmonisation_Working_v4.xlsx
+  format: xlsx
+  doc_type: wb_pricelist
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: HO-G2020
+  created: '2024-07-08T10:24:00'
+  modified: '2026-09-18T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: interim
+  mess:
+  - half_filled
+  - mixed_units
+  - comments
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Half-finished price harmonisation workbook maps A-C local service names, currencies and historical discounts while
+    D-F comparisons and normalisation assumptions remain blank.
+  pilot: false
+- id: HO-007
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/SharePoint/2026
+  filename: SharePoint_Migration_Tracker_2026-09.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-02-09T10:24:00'
+  modified: '2026-09-25T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-014
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: September migration tracker snapshot lists A-F share roots, archive retention decisions, ownership checks for leaver
+    folders and open migration tasks without marking unresolved items complete.
+  pilot: false
+- id: HO-008
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Finance/Integration/2025
+  filename: Integration_Benefits_Baseline_2025-12.xlsx
+  format: xlsx
+  doc_type: wb_other
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: HO-G2020
+  created: '2025-10-06T10:24:00'
+  modified: '2025-12-12T15:37:00'
+  author: NS29
+  last_saved_by: NS29
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Finance baseline separates realised A-F administrative savings from unapproved commercial opportunities and records
+    currency, period and calculation assumptions for each site.
+  pilot: false
+- id: HO-009
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Brand/Migration/2026
+  filename: Brand_Migration_Status_2026-09.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-01-12T10:24:00'
+  modified: '2026-09-28T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-015
+    rel: related
+  tier: haiku
+  target_length: 2 sheets
+  summary: Brand migration snapshot lists A-E common-master adoption, the remaining F materials and G legacy status, with
+    dated owners and links to the approved brand rules.
+  pilot: false
+- id: HO-010
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Governance/Board/2021/Q4
+  filename: Board_Extract_Local_Operations_2021-12.pdf
+  format: pdf
+  doc_type: board_pack
+  pdf_kind: native
+  year: 2021
+  era: group
+  template: HO-G2020
+  created: '2021-12-06T10:24:00'
+  modified: '2021-12-15T15:37:00'
+  author: ST07
+  last_saved_by: ST07
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 7 pages
+  summary: December 2021 board extract summarises the post-brand-launch operating model and reserved decisions while preserving
+    local scientific sign-off and legacy project identifiers.
+  pilot: false
+- id: HO-011
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Governance/Board/2024/Q2
+  filename: Integration_Board_Update_v3_FINAL_final.pdf
+  format: pdf
+  doc_type: board_pack
+  pdf_kind: export
+  year: 2024
+  era: group
+  template: HO-G2020
+  created: '2024-06-20T10:24:00'
+  modified: '2024-06-20T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-002
+    rel: export_of
+  tier: script
+  target_length: 14 pages
+  summary: PDF export of the June 2024 integration board deck with the same workstream owners, risks and Durnesswick integration
+    decisions.
+  pilot: false
+- id: HO-012
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/Programme/2024
+  filename: One_Group_Many_Practices_Charter_v1.docx
+  format: docx
+  doc_type: integration_doc
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: HO-G2020
+  created: '2024-04-08T10:24:00'
+  modified: '2024-04-22T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-002
+    rel: related
+  tier: haiku
+  target_length: 8 pages
+  summary: Approved integration programme charter defines A-F workstream ownership, escalation gates and retained local scientific
+    accountability under Sofia Lindervik.
+  pilot: false
+- id: HO-013
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/LIMS/2026
+  filename: LIMS_Consolidation_Plan_DRAFT_v3.docx
+  format: docx
+  doc_type: integration_doc
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-05-11T10:24:00'
+  modified: '2026-09-22T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: draft
+  mess:
+  - tracked_changes
+  - comments
+  - tbc_placeholders
+  - draft_mark
+  planted: []
+  related:
+  - id: P29
+    rel: related
+  tier: haiku
+  target_length: 9 pages
+  summary: Draft LIMS consolidation plan records the agreed common export dictionary and preserved local accession numbers,
+    with unresolved cutover dates and G mapping left as TBC.
+  pilot: false
+- id: HO-014
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/SharePoint/2025
+  filename: Archive_Migration_Ownership_Procedure_v2.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: HO-G2020
+  created: '2025-05-12T10:24:00'
+  modified: '2025-06-16T15:37:00'
+  author: NS31
+  last_saved_by: NS31
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-007
+    rel: related
+  tier: sol
+  target_length: 6 pages
+  summary: Approved archive migration procedure specifies share inventory, permissions and leaver-folder ownership checks,
+    retention of original scientific records and exception sign-off.
+  pilot: false
+- id: HO-015
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Brand/Guidelines/2020
+  filename: Tarnovell_Brand_Guidelines_v1.docx
+  format: docx
+  doc_type: integration_doc
+  pdf_kind: null
+  year: 2020
+  era: group
+  template: HO-G2020
+  created: '2020-01-13T10:24:00'
+  modified: '2020-02-03T15:37:00'
+  author: ST08
+  last_saved_by: ST08
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: HO-001
+    rel: related
+  tier: haiku
+  target_length: 10 pages
+  summary: Group brand guidelines specify the common palette, Arial typography, confidentiality footer and subsidiary brand
+    lines while requiring historical documents to retain their original appearance.
+  pilot: false
+- id: HO-016
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/People/Integration/2025
+  filename: HR_Payroll_Consolidation_Closeout_2025-12.pdf
+  format: pdf
+  doc_type: integration_doc
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: HO-G2020
+  created: '2025-12-01T10:24:00'
+  modified: '2025-12-18T15:37:00'
+  author: NS30
+  last_saved_by: NS30
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P28
+    rel: related
+  tier: haiku
+  target_length: 5 pages
+  summary: A-F HR and payroll closeout memo records reconciled employee directories, payroll ownership and sign-off boundaries
+    without including G in the completed scope.
+  pilot: false
+- id: HO-017
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/Osterquill/2026
+  filename: Osterquill_Onboarding_Access_Decision_2026-10-05.pdf
+  format: pdf
+  doc_type: integration_doc
+  pdf_kind: native
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-10-02T10:24:00'
+  modified: '2026-10-05T15:37:00'
+  author: NS31
+  last_saved_by: NS31
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 pages
+  summary: Post-close Osterquill decision memo records the 1 October acquisition, held-apart archive, unstarted payroll onboarding
+    and required access and QA mapping before integration.
+  pilot: false
+- id: HO-018
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Integration/Programme/Working
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: HO-G2020
+  created: '2024-05-07T10:24:00'
+  modified: '2024-05-07T15:37:00'
+  author: ST09
+  last_saved_by: ST09
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  - empty_sections
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 2 slides
+  summary: Near-empty programme working deck contains an untitled title slide and a blank agenda placeholder.
+  pilot: false
+- id: HO-019
+  unit: HO
+  root: archive
+  path: Tarnovell_Group/Finance/Working/2026
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: HO-G2020
+  created: '2026-02-16T10:24:00'
+  modified: '2026-02-16T15:37:00'
+  author: NS29
+  last_saved_by: NS29
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 sheet
+  summary: Unsaved-looking finance scratch workbook contains a single unlabeled subtotal and otherwise empty cells.
+  pilot: false
