@@ -1,0 +1,206 @@
+{
+  "family": "scan",
+  "summary": "Scanned accepted quotation for Kalmorveth Pharma covering KM-12 Assay and related-substances validation. The commercial schedule states the fee and conditional delivery interval and assigns responsibility for impurity standards. Gareth Bramwell retained this signed personal copy with a brief filing note.",
+  "document": {
+    "family": "document",
+    "summary": "Scanned accepted quotation for Kalmorveth Pharma covering KM-12 Assay and related-substances validation. The commercial schedule states the fee and conditional delivery interval and assigns responsibility for impurity standards. Gareth Bramwell retained this signed personal copy with a brief filing note.",
+    "properties": {
+      "title": "KM-12: Assay and related-substances validation"
+    },
+    "header": "Westravelle Analytical Ltd",
+    "footer": "Westravelle Analytical Ltd | Confidential",
+    "watermark": null,
+    "title_block": {
+      "title": "KM-12: Assay and related-substances validation",
+      "subtitle": "Accepted quotation — {{PRJ0087:project_id}}",
+      "lines": [
+        "Client: Kalmorveth Pharma",
+        "Date: 20/12/2013",
+        "Prepared by: Gareth Bramwell"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Accepted scope and schedule",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Westravelle Analytical Ltd offers HPLC method qualification for the KM-12 assay and related-substances procedure supplied by Kalmorveth Pharma. The accepted scope comprises protocol preparation, laboratory execution, technical assessment and issue of the final validation report. This quotation is the commercial authority; the signed protocol will control the experimental sequence and acceptance criteria."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Basis / disposition"
+              ],
+              "rows": [
+                [
+                  "Project",
+                  "{{PRJ0087:project_id}}"
+                ],
+                [
+                  "Fee",
+                  "{{PRJ0087:price}}"
+                ],
+                [
+                  "Delivery interval",
+                  "{{PRJ0087:turnaround_days}} days, conditional on complete inputs and the agreed start"
+                ],
+                [
+                  "Proposed start",
+                  "27/01/2014"
+                ],
+                [
+                  "Interim communication",
+                  "20/02/2014"
+                ],
+                [
+                  "Planned completion",
+                  "17/03/2014"
+                ]
+              ],
+              "caption": "Schedule: 1 Accepted scope and schedule"
+            }
+          },
+          {
+            "p": "The assay will be reported as percent label claim and related substances as area percent, with response-factor treatment specified in the protocol. This quotation contains no validation results. Separation of the suspected co-eluting degradant remains a specificity question to be tested, rather than an assured outcome of accepting the fee."
+          },
+          {
+            "p": "Dr A. Penrose is responsible for the technical scope. Saira Mahmood will prepare the protocol and sequence sheets and assess system suitability. Gareth Bramwell is the contact for purchase-order reconciliation and agreed amendments. The laboratory reference is {{PRJ0087:lims_id}}; the client project reference must remain on shipment and commercial correspondence."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Materials and impurity-standard responsibilities",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Kalmorveth Pharma shall supply representative KM-12 material, placebo, the current method and specification, and the impurity standards needed to challenge specificity. Each container must identify the stability lot and reconcile to a shipment list and batch card. Storage instructions, handling restrictions and available quantity must accompany the consignment."
+          },
+          {
+            "p": "The assay reference material requires identity, assigned potency or purity, correction basis and expiry information. Each impurity standard requires its identity, certificate, storage conditions and any limitation after dissolution. The client shall identify the material associated with the suspected co-eluting degradant and supply available response-factor information. A labelled container without supporting information is not sufficient to establish suitability."
+          },
+          {
+            "p": "Westravelle will reconcile receipt against the shipment list and document container condition. Dr Leon Wu will resolve unclear storage instructions before material is allocated. Receipt does not constitute technical acceptance. Missing certificates, inconsistent labels or insufficient material will be referred to Kalmorveth Pharma and the affected work held."
+          },
+          {
+            "p": "Preparation or procurement of unavailable impurity standards is excluded. Any additional work requires a separate written scope and commercial agreement. Reserve material will remain identifiable so that an investigation does not silently consume material intended for a later experiment."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Protocol and laboratory controls",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The protocol will define specificity, assay range and linearity, accuracy, repeatability, intermediate precision and the quantitation limit for related substances. Preparation instructions, injection order, calculation conventions and system suitability requirements will be explicit in the sequence sheets. Acceptance criteria will be agreed before execution."
+          },
+          {
+            "p": "Specificity will compare reference material, placebo, unspiked samples and impurity-spiked preparations. Where degradation is required, the conditions will generate an interpretable separation challenge. Excessive degradation will not be treated as representative product behaviour. The suspected co-elution will be addressed explicitly; a visually satisfactory main peak does not establish that the degradant is separated."
+          },
+          {
+            "p": "Accuracy preparations will bracket nominal assay concentration. Repeatability will use independent sample preparations; intermediate precision will examine an agreed change in execution conditions. Purity corrections, integration rules and treatment of response factors will be traceable through the calculation record."
+          },
+          {
+            "p": "Each sequence must meet system suitability before its sample results support validation. Failed suitability, preparation errors and departures from the signed protocol will be captured in a deviation note. Original injections and reasons for repeat work will remain visible. Dr A. Penrose will agree any method change with Kalmorveth Pharma before it alters the validation basis."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Deliverables and release gates",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The first release gate is protocol approval and acceptance of the required standards. The next is technical review of the specificity challenge before the remaining validation work is closed. The final report will identify the method version, materials, accepted sequences, calculations, acceptance criteria and deviations. Its conclusion will stay within the concentration interval and preparations examined."
+          },
+          {
+            "p": "The planned start is 27/01/2014, with interim communication on 20/02/2014 and planned completion on 17/03/2014. The quoted interval is {{PRJ0087:turnaround_days}} days. Complete client inputs, timely protocol approval and suitable material are prerequisites. A delay in any prerequisite will be notified with its effect on the laboratory schedule."
+          },
+          {
+            "p": "The interim communication will identify completed work, outstanding specificity questions and decisions needed from Kalmorveth Pharma. It is not a release-testing certificate. The final report will follow technical review and closure or explicit qualification of material deviations."
+          },
+          {
+            "p": "Routine commercial release testing, a continuing ICH chamber programme and validation following an unagreed formulation change are excluded. Client materials and data remain confidential. Analytical records will be retained under the controlled archive procedure; residual-material return or disposal instructions must be agreed and entered on the batch card."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Signed commercial terms",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The total fee for the defined scope is {{PRJ0087:price}}. Invoice allocation against protocol approval and final report issue will be agreed with the purchase order before execution. Payment is due within 30 days of invoice. Applicable tax will be shown separately."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Basis / disposition"
+              ],
+              "rows": [
+                [
+                  "Kalmorveth Pharma acceptance",
+                  "Signature present on paper original; 20/12/2013"
+                ],
+                [
+                  "Scope and fee",
+                  "Accepted as quoted"
+                ],
+                [
+                  "Purchase order",
+                  "Required before laboratory start"
+                ],
+                [
+                  "Westravelle contact",
+                  "Gareth Bramwell"
+                ]
+              ],
+              "caption": "Schedule: 5 Signed commercial terms"
+            }
+          },
+          {
+            "p": "Changes to materials, validation parameters or reporting requirements require written agreement. Westravelle will identify any additional cost and revised completion date before carrying out the change. Authorised work already performed remains chargeable if the client subsequently suspends or withdraws the protocol."
+          },
+          {
+            "p": "The paper original carries Kalmorveth Pharma’s acceptance signature dated 20/12/2013. The client signatory’s printed name is not legible in this personal scan and has not been transcribed. Acceptance confirms the quoted scope and terms; it does not remove the requirement for an approved protocol or technically suitable standards."
+          },
+          {
+            "p": "Gareth Bramwell countersigned for Westravelle Analytical Ltd on 20/12/2013. Purchase order to follow before laboratory start. Please quote {{PRJ0087:project_id}} on the order and correspondence. This personal filing copy does not replace the controlled signed original; handwritten filing notes do not amend the agreement."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Gareth Bramwell",
+        "role": "Analytical Contracts Manager",
+        "date": "2013-12-20",
+        "signed": true
+      }
+    ],
+    "appendices": [],
+    "comments": [],
+    "tracked_changes": [],
+    "orientation": "portrait"
+  },
+  "scan": {
+    "skew_deg": 0.5,
+    "noise": 0.14,
+    "blur": 0.3,
+    "stamp": "RECEIVED 20 DEC 2013",
+    "handwriting": "garethb — accepted copy; chase PO before start",
+    "pages": null
+  }
+}
