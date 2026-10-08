@@ -1,0 +1,138 @@
+- file_id: A-013
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: Completed delivery was contradicted by two invented held lots and an unresolved packing-list check.
+    change_made: Removed the held-lot and pending-check claims; retained completed delivery and source-card references.
+  - severity: fix
+    area: science
+    problem: Route variants, universal recovery improvement and regioselectivity outcomes were asserted without
+      supporting records.
+    change_made: Kept the documented earlier side-chain installation outcome; referred intermediate detail to original
+      route records.
+- file_id: A-015
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: Final delivery was described as having open assignments, unchecked structures and an older delivery
+      list.
+    change_made: Retained the informal working-copy texture and reviewer comments as filing reminders without contradicting
+      completed positional assignment delivery.
+  - severity: fix
+    area: science
+    problem: Specific reaction selectivities, a repeat for a named compound and a substituent-size potency relationship
+      were unsupported.
+    change_made: Replaced them with compound-card references and the documented purpose of distinguishing divergent
+      potency trends.
+- file_id: A-016
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: The 2020 summary lacked the required subsidiary group brand line.
+    change_made: Added Vellacombe Discovery Ltd, a Tarnovell company to the summary sheet.
+  - severity: fix
+    area: science
+    problem: Seed dependencies, scale-up observations and comparative purity outcomes were invented.
+    change_made: Kept the documented crystallisation replacement; directed detailed recovery and conditions to route
+      records.
+  - severity: fix
+    area: consistency
+    problem: A pending client QC sign-off contradicted the final delivered status.
+    change_made: Removed the pending-sign-off comment.
+- file_id: E-039
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: The certificate invented a relocation, protocol and deviation IDs, logger fault, repeat run and later
+      receipt date.
+    change_made: Removed unsupported events and identifiers; used chamber-file references and a signing-date stamp
+      while preserving the handwritten correction.
+  - severity: fix
+    area: science
+    problem: Unsubstantiated set-point qualification and no-excursion rules conflicted with a claimed door-opening
+      excursion.
+    change_made: Scoped acceptance to the signed mapping protocol and supporting logger records; removed invented
+      measurements and run outcomes.
+- file_id: E-044
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: science
+    problem: A three-row qualification summary was described as completed assay and related-substances validation.
+    change_made: Limited acceptance to the listed linearity, range and accuracy checks; left full validation and
+      transfer pending with TBC text.
+  - severity: fix
+    area: consistency
+    problem: Future month samples were described as already placed, and exclusion of the current lot from future
+      pulls was asserted despite unresolved instructions.
+    change_made: Kept time-zero reporting and retained chamber samples only; left pull schedule and further testing
+      subject to client instructions.
+  - severity: fix
+    area: voice
+    problem: The group-era title block lacked the subsidiary brand line.
+    change_made: Added Westravelle Analytical Ltd, a Tarnovell company to the title block.
+- file_id: HO-008
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: A lease whose notice ended in 2026 was counted as realised in 2025; approval alone was treated as delivery.
+    change_made: Required evidenced cost reduction net of integration costs and kept opportunities outside realised
+      benefits until delivered.
+  - severity: fix
+    area: consistency
+    problem: Specific cost reductions and contract dates were unsupported; baseline date conflicted with the reporting
+      cut-off.
+    change_made: Referred A-F realised amounts to supporting finance schedules, removed invented events, and separated
+      issue date from cut-off.
+  - severity: fix
+    area: voice
+    problem: The workbook summary lacked the group brand line.
+    change_made: Added Tarnovell Bioscience Group and consolidated basis notes into the requested three-sheet structure.
+- file_id: HO-009
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: The September snapshot did not explicitly distinguish Osterquill from acquired group firms.
+    change_made: Marked G pre-completion and stated the scheduled 1 October 2026 completion; made archive mapping
+      a subsequent onboarding condition.
+  - severity: fix
+    area: consistency
+    problem: Complete material adoption conflicted with open material updates, and deck/signature counts were unsupported.
+    change_made: Separated common-master adoption from remaining updates and removed unsupported counts.
+  - severity: fix
+    area: realism
+    problem: The summary claimed linked brand rules but the sheet gave only a title and implied an unspecified update.
+    change_made: Added the HO-015 archive reference and directed current brand lines to the controlled approved
+      master.
+- file_id: HO-012
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: July review was said to follow an August brand sign-off, and fortnightly edits bypassed version control
+      for the approved charter.
+    change_made: Made July review precede the provisional August target and kept status updates in the tracker;
+      charter changes require a controlled version.
+  - severity: fix
+    area: consistency
+    problem: A steering-group override weakened the stated retention of local scientific accountability.
+    change_made: Kept local sign-off and quality systems with each firm and required affected-firm consultation
+      on cross-firm trade-offs.
+  - severity: fix
+    area: voice
+    problem: The cover lacked the group brand line.
+    change_made: Added Tarnovell Bioscience Group to the title block.
