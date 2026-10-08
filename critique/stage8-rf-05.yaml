@@ -1,0 +1,80 @@
+- file_id: D-008
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Unsupported receptor-model provenance and reference-pose validation; best-of-two scores were presented as consensus ranking without support."
+      change_made: "Replaced unsupported protocol and validation claims with engagement source-record references; retained the documented protonation-driven ranking change and procurement outcome."
+    - severity: minor
+      area: realism
+      problem: "Merged protocol header cells would obscure column labels."
+      change_made: "Removed the header merge."
+- file_id: D-010
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Invented water-retention rules, dual docking runs, hinge-side backup design and three-place ranking were unsupported."
+      change_made: "Replaced invented findings with qualitative references to the pocket-water assessment and ranked design record; retained the documented solvent-facing opportunity."
+    - severity: minor
+      area: realism
+      problem: "Merged pocket-water header cells would obscure column labels."
+      change_made: "Removed the header merge."
+- file_id: D-011
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Metadata was described as unreceived although modelling continues after receipt of revised metadata; fitted covariates conflicted with a comment forbidding fitting."
+      change_made: "Recorded revised metadata as received with reconciliation still open; left final model review incomplete."
+    - severity: fix
+      area: science
+      problem: "Library acceptance findings, specific fitted terms and donor random effects were invented without supporting analysis records."
+      change_made: "Replaced unsupported findings and model terms with source-record references, blank review rows and three reviewer comments."
+- file_id: D-012
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Ligands A-D, their ranks and Series 1/2 scaffold assignments were invented; the ownership dispute was narrowed to a particular scaffold without support."
+      change_made: "Removed invented identities and ranks, referenced the engagement hit list, and retained blank cells, DRAFT marks, quantity placeholders and the ownership-related procurement hold."
+- file_id: HO-015
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: voice
+      problem: "March implementation date and subsidiary brand lines conflicted with the January group identity and approved firm-specific lines."
+      change_made: "Set the identity start to 1 January 2020, corrected A-E subsidiary lines and added the group cover line."
+    - severity: fix
+      area: consistency
+      problem: "Legacy restyling exception contradicted preservation of historical appearance; February cutoff did not follow firm-specific transitions."
+      change_made: "Required preservation of archived originals and used the relevant firm's identity start as the boundary."
+- file_id: HO-016
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Invented leave discrepancies and contractor records contradicted the blanket reconciliation claim; a six-year retention policy was unsupported."
+      change_made: "Removed invented personnel discrepancies and retention duration; retained completed A-F consolidation and the documented leaver-ownership checks."
+    - severity: minor
+      area: voice
+      problem: "Group brand line was absent from the cover."
+      change_made: "Added Tarnovell Bioscience Group to the title block; kept the pending acquisition outside completed scope."
+- file_id: HO-017
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Mapping was marked in progress despite unstarted onboarding; specific completion dates, consultations and a three-month staff assurance were unsupported."
+      change_made: "Recorded mapping as a prerequisite, removed unsupported dates and assurances, and preserved the post-close archive hold and unstarted payroll onboarding."
+    - severity: fix
+      area: realism
+      problem: "Specific personnel-folder contents, tenant arrangements and first-in-group GLP capability were asserted without evidence."
+      change_made: "Expressed access, record-integrity and data-classification requirements without inventing findings; added the group cover line."
