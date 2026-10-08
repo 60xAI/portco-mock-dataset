@@ -32,7 +32,7 @@
         "Protocol: 1 mg/kg IV and 5 mg/kg PO; n=3",
         "Use dose-normalized route exposure for bioavailability; IV clearance describes systemic disposition"
       ],
-      "notes": "Route comparison assumes comparable assay performance and sufficiently linear disposition over the dose range. The supplied data are derived parameters, not concentration-time profiles.",
+      "notes": "Route comparison assumes comparable assay performance and sufficiently linear disposition over the dose range. Individual concentration-time profiles are held in the bioanalytical data package; this deck shows derived parameters only.",
       "footer": "Merrivoss Bioanalysis Inc | Confidential"
     },
     {
