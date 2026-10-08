@@ -1,0 +1,245 @@
+{
+  "family": "document",
+  "summary": "Final revision A proposal to Corvenlea Pharma for CVL azaheterocycle preparation. It tests a revised heteroaryl coupling sequence and defines purity and identity checks before the biology delivery lot.",
+  "properties": {
+    "title": "CVL azaheterocycle route scout and first analogue delivery — revision A"
+  },
+  "header": "Vellacombe Discovery Ltd",
+  "footer": "Vellacombe Discovery Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "CVL azaheterocycle route scout and first analogue delivery — revision A",
+    "subtitle": "Route scout and delivery | Corvenlea Pharma",
+    "lines": [
+      "Programme {{PRJ0008:project_id}}",
+      "Reference {{PRJ0008:lims_id}}",
+      "Date: 08 Jul 2005",
+      "Prepared by Owen Merriman"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Programme offer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Corvenlea Pharma requires a first CVL azaheterocycle delivery lot suitable for the next biology work. Vellacombe proposes preparation of {{PRJ0008:n_compounds}} analogues for {{PRJ0008:price}}, beginning with a route scout to determine whether the heteroaryl coupling can be placed earlier in the sequence."
+        },
+        {
+          "table": {
+            "columns": [
+              "Commercial item",
+              "Basis of offer"
+            ],
+            "rows": [
+              [
+                "Programme",
+                "{{PRJ0008:project_id}}"
+              ],
+              [
+                "Analogue set",
+                "{{PRJ0008:n_compounds}} targets"
+              ],
+              [
+                "Quoted price",
+                "{{PRJ0008:price}}"
+              ],
+              [
+                "Planned interval",
+                "{{PRJ0008:turnaround_days}} calendar days"
+              ],
+              [
+                "Reference",
+                "{{PRJ0008:lims_id}}"
+              ]
+            ],
+            "caption": "Table 1. Revision A quotation"
+          }
+        },
+        {
+          "p": "The aminopyrimidine core is intended to address a kinase hinge site. That design hypothesis does not establish activity. The immediate chemical question is whether a revised coupling order can avoid a difficult late-stage purification without introducing an impurity that follows the analogue set into the final delivery lot."
+        },
+        {
+          "p": "This revision A defines the route-risk review and the analytical checks preceding release. It is a proposal for work, not a delivery certificate. Ruth Calderwood is the chemistry lead; Owen Merriman is responsible for the quotation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Route-risk review",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Hassan Darwish will compare the intended heteroaryl coupling order with an earlier-coupling alternative on representative substrates. The comparison must include work-up and isolation, rather than selection by crude conversion alone. Material will be carried forward far enough to determine whether a promising intermediate creates a harder purification later."
+        },
+        {
+          "p": "The working hypothesis is that isolating a better-defined intermediate before late elaboration will reduce dependence on final preparative chromatography. This remains to be established. The route scout will document unsuccessful conditions as well as useful preparations, with enough detail to prevent the same dead end being repeated."
+        },
+        {
+          "list": [
+            "Inspect chemoselectivity at the aminopyrimidine core.",
+            "Identify persistent starting material and coupling-related impurities.",
+            "Compare isolation behaviour after the alternative coupling orders.",
+            "Check suitability of the isolated intermediate for the next transformation."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "A route that gives the proposed connectivity but cannot supply clean isolated material will not pass the gate. Ruth Calderwood will review the chemical evidence with Corvenlea Pharma before the preparation sequence is extended across the full target list."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Analogue preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Following the route decision, Vellacombe will prepare the agreed {{PRJ0008:n_compounds}} targets using the selected common intermediate where appropriate. The CVL identifiers and intended structures must be agreed before preparation begins. The first members will test the breadth of the route, rather than merely repeat the easiest substitution."
+        },
+        {
+          "p": "Differences in substrate behaviour will be entered on the compound cards. A change of protecting group or isolation method may be needed for an individual target; that does not permit a change of target structure without Corvenlea Pharma approval. A proposed replacement will be described as such until it is accepted."
+        },
+        {
+          "table": {
+            "columns": [
+              "Preparation decision",
+              "Evidence to retain"
+            ],
+            "rows": [
+              [
+                "Route selected",
+                "Route scout and gate decision"
+              ],
+              [
+                "Intermediate carried forward",
+                "Identity, isolated yield and impurity observations"
+              ],
+              [
+                "Individual target prepared",
+                "CVL identifier and experimental reference"
+              ],
+              [
+                "Target held",
+                "Reason, remaining work and proposed disposition"
+              ]
+            ],
+            "caption": "Table 2. Preparation controls"
+          }
+        },
+        {
+          "p": "The next analogue should test the weakest part of the chosen route. If the coupling works only for a narrow subset, the review will distinguish that limitation from a general failure and propose a focused remedy before resources are committed to repeated unsuccessful preparations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Purity and identity checks",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Clara Fenwick will define the release assessment from the agreed material requirements. LCMS will support molecular identity, while HPLC UV area percent and NMR will be considered together when judging the isolated sample. A correct ion alone cannot establish that the intended analogue is the principal component."
+        },
+        {
+          "p": "Compound cards will give isolated yield, recovered amount in mg, analytical method references and any unresolved feature. Chromatographic area percent will be labelled with the method used; it will not be treated as an absolute assay of the weighed sample. Any difference between the proposed structure and the analytical evidence must be resolved or explicitly held."
+        },
+        {
+          "list": [
+            "Check the analytical trace against material being dispatched.",
+            "Retain isolation and analytical references on the compound card.",
+            "Identify persistent impurities rather than describing only minor peaks.",
+            "Keep material awaiting confirmation outside the released delivery lot."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Purity requirements will be agreed before laboratory commencement. This quotation does not promise a particular isolated yield for an untested transformation. The release decision is based on the evidence for each isolated member, rather than the nominal completion of the analogue list."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Handover to biology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The chemistry handover will include released samples, the delivery inventory and compound cards. The inventory will make clear which targets were obtained and which remain unresolved. Corvenlea Pharma can then select material for biology without treating an unprepared structure as an available sample."
+        },
+        {
+          "p": "The route account will compare the adopted coupling order with the original route concern. It will state where purification was required and whether the common intermediate supported the intended range of substitutions. Changes in route will be explained in chemical terms, with the associated experimental references."
+        },
+        {
+          "table": {
+            "columns": [
+              "Handover item",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Delivery inventory",
+                "Match labels to released CVL identifiers"
+              ],
+              [
+                "Compound cards",
+                "Connect material, isolation and analytical evidence"
+              ],
+              [
+                "Route chemistry note",
+                "Explain the selected coupling sequence and limitations"
+              ],
+              [
+                "Held-target list",
+                "Separate outstanding chemistry from released material"
+              ]
+            ],
+            "caption": "Table 3. Handover package"
+          }
+        },
+        {
+          "p": "Ruth Calderwood will lead the closing chemistry discussion. The next preparation recommendation will depend on route performance and the biological information returned by Corvenlea Pharma. Vellacombe will not infer potency or selectivity from successful synthesis."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Timing and commercial scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed start is 22 Jul 2005. The route and progress discussion is planned for 14 Sep 2005; the final preparation handover is planned for 07 Nov 2005. The programme interval is {{PRJ0008:turnaround_days}} calendar days. Availability of the agreed structures and starting materials is a commencement dependency."
+        },
+        {
+          "p": "The offered price is {{PRJ0008:price}} for the route scout, preparation of the agreed analogue set and the analytical release package. The price does not extend to biological testing, an enlarged target list or manufacture. A route failure requiring a substantially different scaffold entry will be brought back for a separate scope decision."
+        },
+        {
+          "p": "Please confirm the target list, material form and release requirements with acceptance of {{PRJ0008:project_id}}. Owen Merriman will acknowledge the commercial basis; Ruth Calderwood will confirm that the chemical requirements are sufficiently defined for commencement."
+        },
+        {
+          "p": "Changes will be documented before implementation, with the affected targets and the programme consequence stated explicitly. The planned dates are contingent on passing the route gate. The obligation at delivery is to describe the isolated material accurately, including any agreed exceptions, and to provide the supporting chemistry account."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Owen Merriman",
+      "role": "Chemistry Business Development Lead",
+      "date": "08 Jul 2005",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
