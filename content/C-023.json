@@ -1,0 +1,56 @@
+{"family": "workbook",
+ "summary": "Interim assay worksheet for the FM20 absorption-support panel on the Farnovessa imidazolidinone set. Plasma protein binding and kinetic solubility results are in. Caco-2 recovery checks remain open for the poorly soluble branch, so the efflux calls are interim until those close.",
+ "properties": {"title": "MV-2026-292 assay worksheet (interim)"},
+ "sheets": [
+  {"name": "Summary", "rows": [
+    [{"v": "MV-2026-292 assay worksheet, interim", "bold": true}],
+    ["Project", "MV-2026-292"],
+    ["LIMS reference", "M26/BIO/06732"],
+    ["Client", "Farnovessa Medicines"],
+    ["Series", "SER20 (FM20 imidazolidinone)"],
+    ["Compounds tested", "{{PRJ0068:n_compounds}}"],
+    ["Assays", "fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility"],
+    [],
+    ["Status", "Interim. Dialysis and solubility results available; Caco-2 recovery checks open."],
+    ["Prepared by", "Javier Quintana", null, "09/28/2026"],
+    ["Reviewed by", null],
+    [],
+    [{"v": "Open recovery checks", "bold": true}],
+    ["Compound", "Check", "Owner", "Status"],
+    ["FM20-02006", "Caco-2 recovery, low-solubility branch", "Carole Mills", "Open"],
+    ["FM20-02030", "Caco-2 recovery, low-solubility branch", null, "Open"],
+    ["FM20-02054", null, "Carole Mills", null]
+   ],
+   "col_widths": {"A": 22, "B": 56, "C": 16, "D": 12},
+   "merged": ["A1:D1"]},
+  {"name": "Plasma binding", "rows": [
+    [{"v": "Plasma protein binding, equilibrium dialysis", "bold": true}],
+    ["Human plasma, RED device, 4 h, 37 °C. Rows with low recovery are not used for the unbound fraction until checked."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0068:ppb", "at": "A4"}],
+   "col_widths": {"A": 16, "B": 12, "C": 14, "D": 12},
+   "freeze": "A5",
+   "comments": [{"cell": "A2", "text": "Recovery column to be checked on the low-recovery rows before the unbound fraction is quoted", "author": "Carole Mills"}],
+   "chart": {"kind": "bar", "ref": "PRJ0068:ppb", "column": 1, "title": "% bound (human plasma)"},
+   "chart_at": "G4"},
+  {"name": "Caco-2", "rows": [
+    [{"v": "Caco-2 bidirectional permeability", "bold": true}],
+    ["10 µM, pH 7.4. Efflux ratio is Papp B-A over Papp A-B. Interim for the poorly soluble branch."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0068:caco2", "at": "A4"}],
+   "col_widths": {"A": 16, "B": 18, "C": 18, "D": 14, "E": 12},
+   "freeze": "A5",
+   "chart": {"kind": "bar", "ref": "PRJ0068:caco2", "column": 3, "title": "Efflux ratio"},
+   "chart_at": "G4"},
+  {"name": "Solubility", "rows": [
+    [{"v": "Kinetic solubility, PBS pH 7.4", "bold": true}],
+    ["Values marked > or < are at the assay limits."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0068:solubility", "at": "A4"}],
+   "col_widths": {"A": 16, "B": 18},
+   "freeze": "A5",
+   "comments": [{"cell": "A2", "text": "Check the <1 µM result against the QC standard before it goes into the summary", "author": "Helen Marchwood"}]}
+ ]}
