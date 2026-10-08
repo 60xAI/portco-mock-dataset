@@ -1,0 +1,335 @@
+{
+  "family": "document",
+  "summary": "Approved version 2 procedure for migrating local shared-drive archives into the group SharePoint repository. It requires share inventory, permission mapping and leaver-folder ownership checks, preservation of original scientific records and recorded exception sign-off before acceptance.",
+  "properties": {
+    "title": "Archive Migration Ownership Procedure v2"
+  },
+  "header": "Tarnovell Bioscience Group | Archive migration",
+  "footer": "Tarnovell Bioscience Group | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Archive Migration Ownership Procedure",
+    "subtitle": "Tarnovell Bioscience Group | Approved procedure | Version 2",
+    "lines": [
+      "One Group, Many Practices",
+      "Prepared: 12 May 2025",
+      "Approved and effective: 16 June 2025",
+      "Owner: Yasmin Farhat, Group Quality Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose, scope and controlled status",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This procedure governs migration of local shared-drive archives into the group SharePoint repository under One Group, Many Practices. It establishes the evidence required before a share is copied, access is granted or an archive is accepted. Local scientific operations and their original records remain under the responsible firm’s quality arrangements; migration does not replace those arrangements."
+        },
+        {
+          "p": "Apply this procedure to archives held by Vellacombe Discovery Ltd, Brindlewythe Biosciences Ltd, Merrivoss Bioanalysis Inc, Quenverell Computational Ltd, Westravelle Analytical Ltd and Durnesswick Laboratories Inc. Include project folders, departmental records and personal or leaver folders within those roots. A folder’s name or location is not sufficient evidence of ownership, retention status or permission to disclose its contents."
+        },
+        {
+          "table": {
+            "columns": [
+              "Control",
+              "Requirement"
+            ],
+            "rows": [
+              [
+                "Status",
+                "Approved; version 2. Effective 16 June 2025."
+              ],
+              [
+                "Procedure owner",
+                "Yasmin Farhat, Group Quality Director"
+              ],
+              [
+                "Programme coordination",
+                "Sofia Lindervik, Integration Director"
+              ],
+              [
+                "Archive acceptance",
+                "Accountable local owner; Group Quality signs applicable exceptions."
+              ],
+              [
+                "Version 2 change",
+                "Ownership evidence and exception closure required before acceptance."
+              ]
+            ],
+            "caption": "Table 1. Procedure control"
+          }
+        },
+        {
+          "p": "The archive is a preserved record. Keep local accession numbers, original filenames and the context linking worksheets, raw output, correspondence and reports. Historical branding, currencies and discounts form part of the original record and must not be updated during migration. Use the common group template for new migration records only."
+        },
+        {
+          "p": "Acceptance requires a reconciled inventory, checked permissions, recorded ownership and closed release-blocking exceptions, or an explicitly signed deferral with effective containment. A successful copy is an intermediate activity. It does not establish completeness or appropriate access."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Responsibilities and inventory",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Integration Director coordinates migration sequencing and maintains the tracker. Each firm assigns a local archive owner authorised to explain the source record and approve its destination. Technical staff perform and document the copy; they do not decide scientific retention or inherit ownership of a leaver’s material merely by administering the share."
+        },
+        {
+          "p": "Group Quality resolves scientific preservation questions and signs exceptions affecting completeness or traceability. People Operations and the relevant Group HR Business Partner support employment and leaver checks. Confirmation of employment status does not authorise access to scientific or client material."
+        },
+        {
+          "list": [
+            "Identify the source share and archive root. Record the firm, original path, proposed destination, inventory date and preparer.",
+            "List included and excluded folders, the reasons for exclusion, retention decisions and accountable owners. Preserve the source-to-destination mapping.",
+            "Capture access groups, inherited permissions, restricted folders, links to other shares and inaccessible items.",
+            "Mark personal and leaver folders for ownership review. An unresolved owner remains open; do not substitute the integration team by default."
+          ],
+          "ordered": false
+        },
+        {
+          "table": {
+            "columns": [
+              "Field",
+              "Evidence"
+            ],
+            "rows": [
+              [
+                "Source and destination",
+                "Original share path, archive root and destination path"
+              ],
+              [
+                "Ownership and retention",
+                "Accountable owner, retention decision and local approval reference"
+              ],
+              [
+                "Access",
+                "Source groups, restricted areas and proposed destination groups"
+              ],
+              [
+                "Open items",
+                "Missing access, linked content, ownership or preservation questions"
+              ],
+              [
+                "Acceptance",
+                "Reconciliation reference and dated owner approval"
+              ]
+            ],
+            "caption": "Table 2. Minimum inventory record"
+          }
+        },
+        {
+          "p": "Prepare the inventory against the actual source share. Record empty folders where they carry filing context and distinguish them from unavailable content. For a link, record the target and its status; do not treat the link as a copy of the target record. Unfamiliar formats must not be silently omitted."
+        },
+        {
+          "p": "The local owner checks the inventory before the migration window is agreed. A scope change requires an updated inventory and renewed approval of affected entries. Retain the earlier approved inventory so the reason for the change can be followed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Permissions and leaver-folder ownership",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Define destination permissions before content becomes visible to users. Preserve the intended restriction of the source while replacing obsolete accounts or local groups through an approved mapping. Do not widen access to overcome a failed copy or an unresolved group mapping."
+        },
+        {
+          "p": "The local owner confirms the roles requiring access. Technical staff record the source structure, proposed destination groups and differences in inheritance. After owner approval, check that an authorised user can reach the intended material and a user outside the group cannot. Retain the outcome without reproducing confidential contents."
+        },
+        {
+          "list": [
+            "Check the root and folders with explicit access settings, including inheritance breaks and direct user grants.",
+            "Resolve obsolete membership with the accountable owner. A similarly named group does not establish equivalent membership or purpose.",
+            "Limit temporary technical access to migration work and record its removal before acceptance.",
+            "Keep unresolved permission entries open. Preserve affected material in the controlled source or an approved restricted holding area."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "For each leaver folder, establish the former holder’s role and the business purpose of the material. People Operations or the relevant Group HR Business Partner confirms employment context. The local owner identifies the scientific or departmental successor responsible for the business record. Record the successor’s acceptance and the basis of assignment; merely forwarding access to a manager is insufficient."
+        },
+        {
+          "p": "Separate employment or personal material from scientific and commercial records through the appropriate access boundary. Do not circulate personal material broadly to decide ownership. For mixed folders, arrange a controlled assessment with People Operations and the local owner, retaining decisions and location references in the tracker."
+        },
+        {
+          "p": "Where no successor is established, ownership remains open. Record the proposed custodian, the limits of custody and the outstanding decision in an exception. Group Quality may approve controlled preservation, but custody does not imply permission for routine use, disposal or wider access. Keep unresolved ownership visible until the decision is complete."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Preservation and controlled migration",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Agree a source snapshot and the treatment of changes during the migration window. For a live share, identify how later changes will be captured and reconciled. If a reliable snapshot cannot be established, stop the affected migration until the capture method is resolved."
+        },
+        {
+          "p": "Copy original scientific records in native form with the context needed to interpret them. Preserve folder relationships, accession identifiers and associations between source output and approved reports. Preserve original timestamps where possible; where transfer changes them, retain the source inventory and record the transformation. The upload date is not the date of scientific activity."
+        },
+        {
+          "list": [
+            "Retain native files and original scans. Readable exports may be added but must not replace originals.",
+            "Do not recalculate workbooks, refresh external links or save legacy files in a new format during copying. Record dependencies on the originating environment.",
+            "Preserve retained draft and superseded material with its original status and filing context.",
+            "Keep legacy identities and branding intact. Do not rewrite historical client references or local commercial terms.",
+            "Do not consolidate apparently duplicate folders solely because filenames match. Refer proposed consolidation to the local owner and Group Quality."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Record copy method, snapshot reference, destination, operator and date. Capture failures and retries against inventory entries. Reconcile the destination to the approved inventory using copy evidence and an appropriate integrity comparison. Explain each difference; a successful job message does not close an inaccessible or missing item."
+        },
+        {
+          "p": "The local owner checks a selection covering the record types present, restricted folders, linked material and legacy formats. Establish that filing relationships remain intelligible and content can be used without altering originals. Record opened paths and outcomes. An unreadable format is a preservation issue to resolve, not an instruction to discard the file."
+        },
+        {
+          "p": "Keep the source under its existing controls until acceptance and any separate retention decision are complete. This procedure does not authorise source deletion. If an approved change makes the source read-only, communicate where new work must be filed and record how remaining changes were captured."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Exceptions and acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Open an exception when a required check cannot be completed or migration would change completeness, meaning or access. Identify affected inventory entries, the observed problem, consequences, containment and the resolution owner. Reference source locations instead of copying confidential material into the narrative."
+        },
+        {
+          "table": {
+            "columns": [
+              "Condition",
+              "Required disposition"
+            ],
+            "rows": [
+              [
+                "Unresolved leaver ownership",
+                "Keep ownership open; document custody and obtain the ownership decision."
+              ],
+              [
+                "Missing or unreadable record",
+                "Preserve the source and agree recovery or access arrangements with Group Quality."
+              ],
+              [
+                "Permission mismatch",
+                "Restrict the destination and resolve the mapping before user access."
+              ],
+              [
+                "Reconciliation difference",
+                "Explain the difference and retain recovery or approved deferral evidence."
+              ],
+              [
+                "Unavailable dependency",
+                "Record its location and limitation; do not describe the archive as fully usable."
+              ]
+            ],
+            "caption": "Table 3. Exception handling"
+          }
+        },
+        {
+          "p": "The local owner proposes resolution and confirms its effect on the business record. Group Quality signs exceptions affecting scientific preservation, traceability or acceptance evidence. People Operations or the relevant Group HR Business Partner endorses employment-material treatment where applicable. The Integration Director records the programme consequence and updates the tracker after the decision."
+        },
+        {
+          "p": "A signed deferral states what remains open, the containment restriction, the responsible owner and the next review date. It may permit acceptance of unaffected entries only where completeness and access are demonstrably independent. It cannot convert an unresolved leaver folder into a completed ownership check or permit wider access to restricted material."
+        },
+        {
+          "list": [
+            "Reconcile approved inventory and destination paths to copy evidence.",
+            "Confirm permission checks and removal of temporary access.",
+            "Confirm accountable ownership or explicitly documented controlled custody.",
+            "Confirm preservation of originals and locations of dependent material.",
+            "Record local owner acceptance and applicable Group Quality sign-off. Update only entries covered by approval."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Distinguish accepted migration, restricted holding and open work. A programme deadline does not override these checks. If a defect emerges after release, contain access or use as appropriate, reopen the tracker entry and retain corrective action with the original acceptance record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Records, handover and approval",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Retain the inventory, permission mapping, snapshot reference, copy and reconciliation evidence, ownership decisions, exceptions and acceptance record as the migration evidence set. Reference them from the tracker. Restrict evidence according to its contents; permission and employment decisions may require their own access boundary."
+        },
+        {
+          "p": "Handover identifies the root, accountable local owner, technical support route and limitations on interpretation or use. Tell users where preserved originals are held, how restricted access is requested and where new working records belong. An accepted archive must not become an uncontrolled working share."
+        },
+        {
+          "table": {
+            "columns": [
+              "Handover item",
+              "Required content"
+            ],
+            "rows": [
+              [
+                "Archive identity",
+                "Firm, source, destination and inventory reference"
+              ],
+              [
+                "Preservation",
+                "Native-record location, dependencies and restrictions"
+              ],
+              [
+                "Ownership",
+                "Local owner and separate leaver-folder decisions"
+              ],
+              [
+                "Access release",
+                "Approved groups, check evidence and temporary-access removal"
+              ],
+              [
+                "Outstanding work",
+                "Exception, containment, resolution owner and review date"
+              ],
+              [
+                "Acceptance",
+                "Local owner approval and applicable Group Quality sign-off"
+              ]
+            ],
+            "caption": "Table 4. Handover record"
+          }
+        },
+        {
+          "p": "Maintain the tracker as the current decision record with evidence of earlier decisions available. Do not erase an open item when a partial copy is made. Close it only when the required check is complete and its evidence reference is recorded. Identify entries added or removed by scope changes and preserve the reason."
+        },
+        {
+          "p": "Sofia Lindervik coordinates implementation with local owners. Yasmin Farhat controls revision and interpretation of scientific preservation requirements. Departures require the exception route before affected release; informal agreement during a migration window is not recorded approval."
+        },
+        {
+          "p": "Version 2 replaces the preceding procedure for migration activities accepted from 16 June 2025. Apply the ownership and exception requirements to work in progress before acceptance. Previously accepted archives are not recopied solely because the procedure changes; newly identified gaps are assessed against the affected archive."
+        },
+        {
+          "p": "The approval below authorises use of this procedure. Each archive still requires its own acceptance evidence and local owner decision."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Yasmin Farhat",
+      "role": "Group Quality Director",
+      "date": "2025-06-16",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
