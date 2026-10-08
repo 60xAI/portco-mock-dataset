@@ -172,8 +172,8 @@ files:
     rel: report_for
   tier: sol
   target_length: 10 slides
-  summary: Client readout for OT-20-S0178, Corvenlea (US), covering hERG (IKr) safety pharmacology and CYP safety interaction
-    panel control validity and the low-liability progression branch of the 40-compound non-GLP cohort.
+  summary: Client readout for OT-20-S0178, Corvenlea (US), covering hERG (IKr) safety pharmacology and CYP safety interaction panel control validity
+    and the low-liability progression branch of the 40-compound non-GLP cohort.
   pilot: false
 - id: G-002
   unit: G
@@ -203,8 +203,8 @@ files:
     rel: report_for
   tier: sol
   target_length: 10 slides
-  summary: Client readout for OT-23-S0046, Avernelwick Pharmaceuticals Ltd, contrasting the favourable hERG (IKr) safety pharmacology
-    profile with the CYP-sensitive subseries in the CYP safety interaction panel of the 44-compound non-GLP cohort.
+  summary: Client readout for OT-23-S0046, Avernelwick Pharmaceuticals Ltd, contrasting the favourable hERG (IKr) safety pharmacology profile
+    with the CYP-sensitive subseries in the CYP safety interaction panel of the 44-compound non-GLP cohort.
   pilot: false
 - id: G-003
   unit: G
@@ -231,8 +231,8 @@ files:
   related: []
   tier: sol
   target_length: 10 slides
-  summary: OT-15-S0064 readout for Selverant Therapeutics Inc links Mammalian-cell micronucleus assessment findings to HepG2
-    viability screen exposure and recommends a lower-exposure repeat.
+  summary: OT-15-S0064 readout for Selverant Therapeutics Inc links Mammalian-cell micronucleus assessment findings to HepG2 viability screen
+    exposure and recommends a lower-exposure repeat.
   pilot: false
 - id: G-004
   unit: G
@@ -258,8 +258,8 @@ files:
   related: []
   tier: sol
   target_length: 14 slides
-  summary: Osterquill capability deck separates exploratory rat range finding and non-GLP in vitro screening from regulated
-    GLP investigations, with control validity, animal welfare oversight and QA gates.
+  summary: Osterquill capability deck separates exploratory rat range finding and non-GLP in vitro screening from regulated GLP investigations,
+    with control validity, animal welfare oversight and QA gates.
   pilot: false
 - id: G-005
   unit: G
@@ -285,8 +285,8 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Archive training explains individual-animal card identifiers, dose-lot traceability, welfare observation escalation
-    and independent QA review before releasing signed reports.
+  summary: Archive training explains individual-animal card identifiers, dose-lot traceability, welfare observation escalation and independent
+    QA review before releasing signed reports.
   pilot: false
 - id: G-006
   unit: G
@@ -315,9 +315,8 @@ files:
   related: []
   tier: haiku
   target_length: 8 slides
-  summary: Internal working copy of a Brindlewythe assay-control training deck retains its plate acceptance wording in the
-    body while using the Osterquill legacy cover, with handwritten-style comments mapping it to local control validity; this
-    is not a client deliverable.
+  summary: Internal working copy of a Brindlewythe assay-control training deck retains its plate acceptance wording in the body while using the
+    Osterquill legacy cover, with handwritten-style comments mapping it to local control validity; this is not a client deliverable.
   pilot: false
 - id: G-007
   unit: G
@@ -344,9 +343,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: OT-08-S0114 observation sheets for Avernelwick Pharmaceuticals Ltd record HepG2 viability screen, Bacterial mutation
-    assay with and without S9 and Mammalian-cell micronucleus assessment for 24 articles, including controls and discordant
-    bacterial and mammalian signals.
+  summary: OT-08-S0114 observation sheets for Avernelwick Pharmaceuticals Ltd record HepG2 viability screen, Bacterial mutation assay with and
+    without S9 and Mammalian-cell micronucleus assessment for 24 articles, including controls and discordant bacterial and mammalian signals.
   pilot: false
 - id: G-008
   unit: G
@@ -374,8 +372,8 @@ files:
   related: []
   tier: haiku
   target_length: 5 sheets
-  summary: OT-10-S0019 Rat DRF and recovery observation sheets for Nimbravelle Medicines Inc retain individual-animal identifiers,
-    mg/kg/day dose lots, welfare observations and recovery findings supporting longer-study dose selection.
+  summary: OT-10-S0019 Rat DRF and recovery observation sheets for Nimbravelle Medicines Inc retain individual-animal identifiers, mg/kg/day dose
+    lots, welfare observations and recovery findings supporting longer-study dose selection.
   pilot: false
 - id: G-009
   unit: G
@@ -402,9 +400,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: OT-16-S0176 results for Tervemere Pharma AG tabulate the 18-article HepG2 viability screen, Bacterial mutation
-    assay with and without S9 and Mammalian-cell micronucleus assessment, with a mammalian-cell flag despite clear bacterial
-    findings.
+  summary: OT-16-S0176 results for Tervemere Pharma AG tabulate the 18-article HepG2 viability screen, Bacterial mutation assay with and without
+    S9 and Mammalian-cell micronucleus assessment, with a mammalian-cell flag despite clear bacterial findings.
   pilot: false
 - id: G-010
   unit: G
@@ -431,8 +428,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: OT-19-S0100 results for Valquessia Pharmaceuticals SpA consolidate control validity and the consistent reactive-side-chain
-    concern across HepG2 viability screen, Bacterial mutation assay with and without S9 and Mammalian-cell micronucleus assessment.
+  summary: OT-19-S0100 results for Valquessia Pharmaceuticals SpA consolidate control validity and the consistent reactive-side-chain concern
+    across HepG2 viability screen, Bacterial mutation assay with and without S9 and Mammalian-cell micronucleus assessment.
   pilot: false
 - id: G-011
   unit: G
@@ -461,9 +458,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: Interim OT-26-S0192 observation sheets for Vesselquarn Medical Research Trust contain HepG2 viability screen exposures
-    and partial Mammalian-cell micronucleus assessment scoring, with precipitation exclusions and repeat conditions still
-    pending.
+  summary: Interim OT-26-S0192 observation sheets for Vesselquarn Medical Research Trust contain HepG2 viability screen exposures and partial
+    Mammalian-cell micronucleus assessment scoring, with precipitation exclusions and repeat conditions still pending.
   pilot: false
 - id: G-012
   unit: G
@@ -492,8 +488,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Interim OT-26-S0177 results for Belquorin Pharma show the completed Bacterial mutation assay with and without S9
-    phase and HepG2 viability screen exclusions, while Mammalian-cell micronucleus assessment repeat scoring remains blank.
+  summary: Interim OT-26-S0177 results for Belquorin Pharma show the completed Bacterial mutation assay with and without S9 phase and HepG2 viability
+    screen exclusions, while Mammalian-cell micronucleus assessment repeat scoring remains blank.
   pilot: false
 - id: G-013
   unit: G
@@ -522,8 +518,8 @@ files:
   related: []
   tier: haiku
   target_length: 2 sheets
-  summary: OT-25-S0229 amendment tracker for Valquessia Pharmaceuticals SpA records the pre-dosing formulation hold, unapproved
-    upper-dose cells and outstanding Exploratory rat range finding protocol changes, with no animal dosing results.
+  summary: OT-25-S0229 amendment tracker for Valquessia Pharmaceuticals SpA records the pre-dosing formulation hold, unapproved upper-dose cells
+    and outstanding Exploratory rat range finding protocol changes, with no animal dosing results.
   pilot: false
 - id: G-014
   unit: G
@@ -552,9 +548,9 @@ files:
     rel: proposal_for
   tier: sol
   target_length: 10 pages
-  summary: Scanned signed OT-08-S0114 quotation to Avernelwick Pharmaceuticals Ltd specifies the 24-article HepG2 viability
-    screen, Bacterial mutation assay with and without S9 and Mammalian-cell micronucleus assessment battery at USD 32,300,
-    with fax-header noise and a client acceptance signature.
+  summary: Scanned signed OT-08-S0114 quotation to Avernelwick Pharmaceuticals Ltd specifies the 24-article HepG2 viability screen, Bacterial
+    mutation assay with and without S9 and Mammalian-cell micronucleus assessment battery at USD 32,300, with fax-header noise and a client acceptance
+    signature.
   pilot: false
 - id: G-015
   unit: G
@@ -581,8 +577,8 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Scanned signed OT-10-S0019 protocol pages for Nimbravelle Medicines Inc specify Rat DRF and recovery dosing, individual-animal
-    welfare checks, humane stopping criteria and handwritten QA annotations before the exploratory seven-day phase.
+  summary: Scanned signed OT-10-S0019 protocol pages for Nimbravelle Medicines Inc specify Rat DRF and recovery dosing, individual-animal welfare
+    checks, humane stopping criteria and handwritten QA annotations before the exploratory seven-day phase.
   pilot: false
 - id: G-016
   unit: G
@@ -609,9 +605,9 @@ files:
   related: []
   tier: sol
   target_length: 24 pages
-  summary: 'Final OT-15-S0064 investigation report for Selverant Therapeutics Inc: HepG2 viability screen and Mammalian-cell
-    micronucleus assessment results attribute the micronucleus signal to cytotoxic exposure and recommend a lower-exposure
-    repeat, with control validity stated and conclusions confined to the exploratory package.'
+  summary: 'Final OT-15-S0064 investigation report for Selverant Therapeutics Inc: HepG2 viability screen and Mammalian-cell micronucleus assessment
+    results attribute the micronucleus signal to cytotoxic exposure and recommend a lower-exposure repeat, with control validity stated and conclusions
+    confined to the exploratory package.'
   pilot: false
 - id: G-017
   unit: G
@@ -638,9 +634,9 @@ files:
   related: []
   tier: sol
   target_length: 28 pages
-  summary: 'Final OT-16-S0176 investigation report for Tervemere Pharma AG: HepG2 viability screen, Bacterial mutation assay
-    with and without S9 and Mammalian-cell micronucleus assessment distinguish clear bacterial findings from the mammalian-cell
-    flag that prompted analogue replacement, with control validity stated and conclusions confined to the exploratory package.'
+  summary: 'Final OT-16-S0176 investigation report for Tervemere Pharma AG: HepG2 viability screen, Bacterial mutation assay with and without
+    S9 and Mammalian-cell micronucleus assessment distinguish clear bacterial findings from the mammalian-cell flag that prompted analogue replacement,
+    with control validity stated and conclusions confined to the exploratory package.'
   pilot: false
 - id: G-018
   unit: G
@@ -667,9 +663,9 @@ files:
   related: []
   tier: sol
   target_length: 62 pages
-  summary: 'Final OT-17-S0011 investigation report for Lomervessa Pharma: Exploratory rat range finding records individual-animal
-    welfare observations and the tolerability limit underlying the recommended reduction in the subsequent upper dose, with
-    control validity stated and conclusions confined to the exploratory package.'
+  summary: 'Final OT-17-S0011 investigation report for Lomervessa Pharma: Exploratory rat range finding records individual-animal welfare observations
+    and the tolerability limit underlying the recommended reduction in the subsequent upper dose, with control validity stated and conclusions
+    confined to the exploratory package.'
   pilot: false
 - id: G-019
   unit: G
@@ -696,9 +692,9 @@ files:
   related: []
   tier: sol
   target_length: 26 pages
-  summary: 'Final OT-18-S0075 investigation report for Nimbravelle Medicines Inc: HepG2 viability screen and Mammalian-cell
-    micronucleus assessment separate subseries by exposure tolerance and document retention of less cytotoxic analogues, with
-    control validity stated and conclusions confined to the exploratory package.'
+  summary: 'Final OT-18-S0075 investigation report for Nimbravelle Medicines Inc: HepG2 viability screen and Mammalian-cell micronucleus assessment
+    separate subseries by exposure tolerance and document retention of less cytotoxic analogues, with control validity stated and conclusions
+    confined to the exploratory package.'
   pilot: false
 - id: G-020
   unit: G
@@ -725,9 +721,9 @@ files:
   related: []
   tier: sol
   target_length: 32 pages
-  summary: 'Final OT-19-S0100 investigation report for Valquessia Pharmaceuticals SpA: HepG2 viability screen, Bacterial mutation
-    assay with and without S9 and Mammalian-cell micronucleus assessment support dropping the reactive side-chain branch,
-    with control validity stated and conclusions confined to the exploratory package.'
+  summary: 'Final OT-19-S0100 investigation report for Valquessia Pharmaceuticals SpA: HepG2 viability screen, Bacterial mutation assay with and
+    without S9 and Mammalian-cell micronucleus assessment support dropping the reactive side-chain branch, with control validity stated and conclusions
+    confined to the exploratory package.'
   pilot: false
 - id: G-021
   unit: G
@@ -754,9 +750,9 @@ files:
   related: []
   tier: sol
   target_length: 74 pages
-  summary: 'Final OT-20-S0198 investigation report for Emlucera Therapeutics: Rat DRF and recovery documents vehicle-related
-    observations in the initial cohort and the reformulated repeat that established a usable dose range, retaining animal
-    identifiers and welfare observations, with control validity stated and conclusions confined to the exploratory package.'
+  summary: 'Final OT-20-S0198 investigation report for Emlucera Therapeutics: Rat DRF and recovery documents vehicle-related observations in the
+    initial cohort and the reformulated repeat that established a usable dose range, retaining animal identifiers and welfare observations, with
+    control validity stated and conclusions confined to the exploratory package.'
   pilot: false
 - id: G-022
   unit: G
@@ -783,9 +779,8 @@ files:
   related: []
   tier: sol
   target_length: 12 pages
-  summary: OT-24-S0136 quote for Sarnelvessa Agrochem budgets Exploratory rat range finding at USD 207,000 and states the
-    proposed animal-welfare and QA gates; the request was withdrawn for a different-species strategy and no investigation
-    started.
+  summary: OT-24-S0136 quote for Sarnelvessa Agrochem budgets Exploratory rat range finding at USD 207,000 and states the proposed animal-welfare
+    and QA gates; the request was withdrawn for a different-species strategy and no investigation started.
   pilot: false
 - id: G-023
   unit: G
@@ -813,8 +808,8 @@ files:
     rel: export_of
   tier: script
   target_length: 14 pages
-  summary: PDF export of the Osterquill safety portfolio capability deck preserves its distinction between exploratory packages
-    and regulated GLP investigations, local legacy branding and QA-gate scope.
+  summary: PDF export of the Osterquill safety portfolio capability deck preserves its distinction between exploratory packages and regulated
+    GLP investigations, local legacy branding and QA-gate scope.
   pilot: false
 - id: G-024
   unit: G
@@ -843,8 +838,8 @@ files:
     rel: proposal_for
   tier: sol
   target_length: 11 pages
-  summary: OT-23-S0046 proposal to Avernelwick Pharmaceuticals Ltd prices hERG (IKr) safety pharmacology and CYP safety interaction
-    panel screening of 44 reserve analogues at USD 25,000 with a 15-day turnaround and explicit non-GLP scope.
+  summary: OT-23-S0046 proposal to Avernelwick Pharmaceuticals Ltd prices hERG (IKr) safety pharmacology and CYP safety interaction panel screening
+    of 44 reserve analogues at USD 25,000 with a 15-day turnaround and explicit non-GLP scope.
   pilot: false
 - id: G-025
   unit: G
@@ -871,8 +866,8 @@ files:
   related: []
   tier: sol
   target_length: 10 pages
-  summary: OT-25-S0245 quote to Corvenlea (US) proposes HepG2 viability screen and Mammalian-cell micronucleus assessment
-    for 18 backup-branch analogues at USD 41,800, with shipment unconfirmed and no investigation initiated.
+  summary: OT-25-S0245 quote to Corvenlea (US) proposes HepG2 viability screen and Mammalian-cell micronucleus assessment for 18 backup-branch
+    analogues at USD 41,800, with shipment unconfirmed and no investigation initiated.
   pilot: false
 - id: G-026
   unit: G
@@ -896,11 +891,11 @@ files:
   mess: []
   planted: []
   related: []
-  tier: sol
+  tier: orchestrator
   target_length: 13 pages
-  summary: Controlled local SOP defines individual-animal card correction, dose-lot reconciliation, welfare escalation, control
-    validity review and independent QA archive release, distinguishing GLP records from exploratory investigations.
-  pilot: false
+  summary: Controlled local SOP defines individual-animal card correction, dose-lot reconciliation, welfare escalation, control validity review
+    and independent QA archive release, distinguishing GLP records from exploratory investigations.
+  pilot: true
 - id: G-027
   unit: G
   root: heldback
@@ -925,9 +920,9 @@ files:
   related: []
   tier: sol
   target_length: 16 pages
-  summary: Osterquill legacy service catalogue lists HepG2 viability screen, Bacterial mutation assay with and without S9,
-    Mammalian-cell micronucleus assessment, hERG (IKr) safety pharmacology, CYP safety interaction panel and Rat DRF and recovery,
-    distinguishing non-GLP screens from regulated GLP scope while onboarding remains pending.
+  summary: Osterquill legacy service catalogue lists HepG2 viability screen, Bacterial mutation assay with and without S9, Mammalian-cell micronucleus
+    assessment, hERG (IKr) safety pharmacology, CYP safety interaction panel and Rat DRF and recovery, distinguishing non-GLP screens from regulated
+    GLP scope while onboarding remains pending.
   pilot: false
 - id: G-028
   unit: G
@@ -955,8 +950,7 @@ files:
   related: []
   tier: haiku_low
   target_length: 2 slides
-  summary: Near-empty local scratch deck contains a title slide and an unused control-validity heading with no scientific
-    results.
+  summary: Near-empty local scratch deck contains a title slide and an unused control-validity heading with no scientific results.
   pilot: false
 - id: G-029
   unit: G
@@ -985,6 +979,5 @@ files:
   related: []
   tier: haiku_low
   target_length: 1 sheet
-  summary: Unused local observation-sheet shell contains only animal-card and dose-lot column headings with no identifiers
-    or observations entered.
+  summary: Unused local observation-sheet shell contains only animal-card and dose-lot column headings with no identifiers or observations entered.
   pilot: false

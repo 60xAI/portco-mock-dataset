@@ -15,3 +15,4 @@ One line per decision taken during the build where the spec was silent or ambigu
 - 2026-10-08 · The q4 4th variant ("Corvenlea (US)") is rejected by `submit` anywhere outside firm G; the q3 client is rejected in D and F files.
 - 2026-10-08 · Deck page/slide numbering for the golden set comes from `unstructured` partitioning; PDFs use strategy "fast".
 - 2026-10-08 · Filesystem birth time can't be set on macOS without Xcode tools; only mtime/atime are set to the file's modified date. Document properties carry created/modified/author/last-saved-by/company.
+- 2026-10-08 · Pilot pack (10 files, orchestrator-written): C-007 readout pptx + C-036 its PDF export, A-001 1997 .ppt, B-034 leaver .xls, C-037 2006 .doc, E-037 scan, E-046 service catalogue PDF, HO-006 price harmonisation xlsx, G-026 SOP docx, F-019 client report PDF. CSV format is covered by the three planted script CSVs.

@@ -27,8 +27,8 @@ files:
     rel: related
   tier: orchestrator
   target_length: 12 slides
-  summary: 'Group cross-sell deck: reuses the D bioinformatics slide and uses Corvenlea Pharma (A/C/E history under three
-    names; never bought D or F) as the worked example.'
+  summary: 'Group cross-sell deck: reuses the D bioinformatics slide and uses Corvenlea Pharma (A/C/E history under three names; never bought
+    D or F) as the worked example.'
   pilot: false
 - id: P28
   unit: HO
@@ -136,8 +136,8 @@ files:
   related: []
   tier: orchestrator
   target_length: 3 sheets
-  summary: Integration workbook mapping legacy client names to group accounts; links Corvenlea Pharma's A/C/E names, flags
-    Corvenlith Therapeutics as a different company.
+  summary: Integration workbook mapping legacy client names to group accounts; links Corvenlea Pharma's A/C/E names, flags Corvenlith Therapeutics
+    as a different company.
   pilot: false
 - id: P35
   unit: HO
@@ -191,8 +191,8 @@ files:
   related: []
   tier: haiku
   target_length: 10 slides
-  summary: Group brand launch briefing explaining the common Tarnovell identity, local scientific leadership and preservation
-    of legacy client records.
+  summary: Group brand launch briefing explaining the common Tarnovell identity, local scientific leadership and preservation of legacy client
+    records.
   pilot: false
 - id: HO-002
   unit: HO
@@ -221,8 +221,8 @@ files:
     rel: related
   tier: haiku
   target_length: 14 slides
-  summary: June 2024 board extract for One Group, Many Practices covering workstream owners, the Durnesswick integration and
-    unresolved price and archive migration decisions.
+  summary: June 2024 board extract for One Group, Many Practices covering workstream owners, the Durnesswick integration and unresolved price
+    and archive migration decisions.
   pilot: false
 - id: HO-003
   unit: HO
@@ -248,8 +248,8 @@ files:
   related: []
   tier: haiku
   target_length: 6 slides
-  summary: November 2025 organisation chart showing group leadership, A-F site reporting lines and the distinction between
-    shared administration and retained scientific operations.
+  summary: November 2025 organisation chart showing group leadership, A-F site reporting lines and the distinction between shared administration
+    and retained scientific operations.
   pilot: false
 - id: HO-004
   unit: HO
@@ -281,8 +281,8 @@ files:
     rel: related
   tier: haiku
   target_length: 11 slides
-  summary: September 2026 steering briefing records completed A-F HR consolidation, partial price mapping, F brand migration
-    and the planned held-apart Osterquill onboarding.
+  summary: September 2026 steering briefing records completed A-F HR consolidation, partial price mapping, F brand migration and the planned held-apart
+    Osterquill onboarding.
   pilot: false
 - id: HO-005
   unit: HO
@@ -312,8 +312,8 @@ files:
     rel: related
   tier: sol
   target_length: 9 slides
-  summary: Internal commercial training copy of a Quenverell service overview covering Virtual library triage, Docking and
-    hit clustering and RNA-seq differential expression, retaining local wording and old contact footers.
+  summary: Internal commercial training copy of a Quenverell service overview covering Virtual library triage, Docking and hit clustering and
+    RNA-seq differential expression, retaining local wording and old contact footers.
   pilot: false
 - id: HO-006
   unit: HO
@@ -341,11 +341,11 @@ files:
   - tbc_placeholders
   planted: []
   related: []
-  tier: haiku
+  tier: orchestrator
   target_length: 3 sheets
-  summary: Half-finished price harmonisation workbook maps A-C local service names, currencies and historical discounts while
-    D-F comparisons and normalisation assumptions remain blank.
-  pilot: false
+  summary: Half-finished price harmonisation workbook maps A-C local service names, currencies and historical discounts while D-F comparisons
+    and normalisation assumptions remain blank.
+  pilot: true
 - id: HO-007
   unit: HO
   root: archive
@@ -372,8 +372,8 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: September migration tracker snapshot lists A-F share roots, archive retention decisions, ownership checks for leaver
-    folders and open migration tasks without marking unresolved items complete.
+  summary: September migration tracker snapshot lists A-F share roots, archive retention decisions, ownership checks for leaver folders and open
+    migration tasks without marking unresolved items complete.
   pilot: false
 - id: HO-008
   unit: HO
@@ -399,8 +399,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: Finance baseline separates realised A-F administrative savings from unapproved commercial opportunities and records
-    currency, period and calculation assumptions for each site.
+  summary: Finance baseline separates realised A-F administrative savings from unapproved commercial opportunities and records currency, period
+    and calculation assumptions for each site.
   pilot: false
 - id: HO-009
   unit: HO
@@ -428,8 +428,8 @@ files:
     rel: related
   tier: haiku
   target_length: 2 sheets
-  summary: Brand migration snapshot lists A-E common-master adoption, the remaining F materials and G legacy status, with
-    dated owners and links to the approved brand rules.
+  summary: Brand migration snapshot lists A-E common-master adoption, the remaining F materials and G legacy status, with dated owners and links
+    to the approved brand rules.
   pilot: false
 - id: HO-010
   unit: HO
@@ -455,8 +455,8 @@ files:
   related: []
   tier: haiku
   target_length: 7 pages
-  summary: December 2021 board extract summarises the post-brand-launch operating model and reserved decisions while preserving
-    local scientific sign-off and legacy project identifiers.
+  summary: December 2021 board extract summarises the post-brand-launch operating model and reserved decisions while preserving local scientific
+    sign-off and legacy project identifiers.
   pilot: false
 - id: HO-011
   unit: HO
@@ -484,8 +484,7 @@ files:
     rel: export_of
   tier: script
   target_length: 14 pages
-  summary: PDF export of the June 2024 integration board deck with the same workstream owners, risks and Durnesswick integration
-    decisions.
+  summary: PDF export of the June 2024 integration board deck with the same workstream owners, risks and Durnesswick integration decisions.
   pilot: false
 - id: HO-012
   unit: HO
@@ -513,8 +512,8 @@ files:
     rel: related
   tier: haiku
   target_length: 8 pages
-  summary: Approved integration programme charter defines A-F workstream ownership, escalation gates and retained local scientific
-    accountability under Sofia Lindervik.
+  summary: Approved integration programme charter defines A-F workstream ownership, escalation gates and retained local scientific accountability
+    under Sofia Lindervik.
   pilot: false
 - id: HO-013
   unit: HO
@@ -546,8 +545,8 @@ files:
     rel: related
   tier: haiku
   target_length: 9 pages
-  summary: Draft LIMS consolidation plan records the agreed common export dictionary and preserved local accession numbers,
-    with unresolved cutover dates and G mapping left as TBC.
+  summary: Draft LIMS consolidation plan records the agreed common export dictionary and preserved local accession numbers, with unresolved cutover
+    dates and G mapping left as TBC.
   pilot: false
 - id: HO-014
   unit: HO
@@ -575,8 +574,8 @@ files:
     rel: related
   tier: sol
   target_length: 6 pages
-  summary: Approved archive migration procedure specifies share inventory, permissions and leaver-folder ownership checks,
-    retention of original scientific records and exception sign-off.
+  summary: Approved archive migration procedure specifies share inventory, permissions and leaver-folder ownership checks, retention of original
+    scientific records and exception sign-off.
   pilot: false
 - id: HO-015
   unit: HO
@@ -604,8 +603,8 @@ files:
     rel: related
   tier: haiku
   target_length: 10 pages
-  summary: Group brand guidelines specify the common palette, Arial typography, confidentiality footer and subsidiary brand
-    lines while requiring historical documents to retain their original appearance.
+  summary: Group brand guidelines specify the common palette, Arial typography, confidentiality footer and subsidiary brand lines while requiring
+    historical documents to retain their original appearance.
   pilot: false
 - id: HO-016
   unit: HO
@@ -633,8 +632,8 @@ files:
     rel: related
   tier: haiku
   target_length: 5 pages
-  summary: A-F HR and payroll closeout memo records reconciled employee directories, payroll ownership and sign-off boundaries
-    without including G in the completed scope.
+  summary: A-F HR and payroll closeout memo records reconciled employee directories, payroll ownership and sign-off boundaries without including
+    G in the completed scope.
   pilot: false
 - id: HO-017
   unit: HO
@@ -660,8 +659,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 pages
-  summary: Post-close Osterquill decision memo records the 1 October acquisition, held-apart archive, unstarted payroll onboarding
-    and required access and QA mapping before integration.
+  summary: Post-close Osterquill decision memo records the 1 October acquisition, held-apart archive, unstarted payroll onboarding and required
+    access and QA mapping before integration.
   pilot: false
 - id: HO-018
   unit: HO

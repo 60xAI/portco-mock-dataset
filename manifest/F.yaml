@@ -21,8 +21,8 @@ files:
   related: []
   tier: sol
   target_length: 14 slides
-  summary: DL_2016_0027 readout for Auvrelquith Biosciences compares Vehicle ladder recipes and dilution photographs,
-    explaining why buffer adjustment prevented precipitation and supported the exposure vehicle choice.
+  summary: DL_2016_0027 readout for Auvrelquith Biosciences compares Vehicle ladder recipes and dilution photographs, explaining why buffer adjustment
+    prevented precipitation and supported the exposure vehicle choice.
   pilot: false
   client_id: CL068
   client_variant: Auvrelquith Biosciences
@@ -48,8 +48,8 @@ files:
   related: []
   tier: sol
   target_length: 16 slides
-  summary: DL_2020_0050 readout for Nimbravelle Medicines Inc summarises Vehicle ladder dilution failures in the
-    cosolvent-rich vehicle and the handling tradeoffs of the selected dispersed dosing approach.
+  summary: DL_2020_0050 readout for Nimbravelle Medicines Inc summarises Vehicle ladder dilution failures in the cosolvent-rich vehicle and the
+    handling tradeoffs of the selected dispersed dosing approach.
   pilot: false
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
@@ -76,8 +76,8 @@ files:
   related: []
   tier: sol
   target_length: 13 slides
-  summary: DL_2018_0034 readout for Wexanthel Medicines compares particle-size distributions and redispersion observations,
-    retaining the coarser lot because the micronised lot formed a compact cake.
+  summary: DL_2018_0034 readout for Wexanthel Medicines compares particle-size distributions and redispersion observations, retaining the coarser
+    lot because the micronised lot formed a compact cake.
   pilot: false
   client_id: CL064
   client_variant: Wexanthel Medicines
@@ -103,9 +103,8 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: Eric Langford’s retained training deck explains how to translate Vehicle ladder and Excipient compatibility
-    screen work packages into priced development scopes, with practical examples of exploratory versus locked-process
-    claims.
+  summary: Eric Langford’s retained training deck explains how to translate Vehicle ladder and Excipient compatibility screen work packages into
+    priced development scopes, with practical examples of exploratory versus locked-process claims.
   pilot: false
 - id: F-005
   unit: F
@@ -128,8 +127,8 @@ files:
   related: []
   tier: sol
   target_length: 18 slides
-  summary: Durnesswick transition-brand capability deck presents Vehicle ladder and Excipient compatibility screen
-    services, sample requirements, dose-loading tradeoffs and pilot-lot handoff boundaries.
+  summary: Durnesswick transition-brand capability deck presents Vehicle ladder and Excipient compatibility screen services, sample requirements,
+    dose-loading tradeoffs and pilot-lot handoff boundaries.
   pilot: false
 - id: F-006
   unit: F
@@ -155,9 +154,8 @@ files:
   related: []
   tier: haiku
   target_length: 9 slides
-  summary: Working copy of Westravelle Analytical’s stability-services overview retains its chamber-programme tables
-    and local terminology beside Durnesswick annotations on formulation-to-stability handoffs, without claiming
-    those services are performed locally.
+  summary: Working copy of Westravelle Analytical’s stability-services overview retains its chamber-programme tables and local terminology beside
+    Durnesswick annotations on formulation-to-stability handoffs, without claiming those services are performed locally.
   pilot: false
 - id: F-007
   unit: F
@@ -181,8 +179,8 @@ files:
   related: []
   tier: sol
   target_length: 20 slides
-  summary: Current Durnesswick capability deck explains Vehicle ladder and Excipient compatibility screen workflows,
-    screening concentration in mg/mL, manufacturability limits and handoff criteria for exploratory early CMC.
+  summary: Current Durnesswick capability deck explains Vehicle ladder and Excipient compatibility screen workflows, screening concentration in
+    mg/mL, manufacturability limits and handoff criteria for exploratory early CMC.
   pilot: false
 - id: F-008
   unit: F
@@ -208,8 +206,8 @@ files:
     rel: results_for
   tier: haiku
   target_length: 3 sheets
-  summary: DL_2016_0027 bench sheets for Auvrelquith Biosciences record Vehicle ladder pH, excipient levels, dilution
-    clarity and the buffer-adjusted recipe selected for exposure work.
+  summary: DL_2016_0027 bench sheets for Auvrelquith Biosciences record Vehicle ladder pH, excipient levels, dilution clarity and the buffer-adjusted
+    recipe selected for exposure work.
   pilot: false
   client_id: CL068
   client_variant: Auvrelquith Biosciences
@@ -235,8 +233,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: DL_2017_0070 bench sheets for Jorvessara Pharmaceuticals compare polymer loading in weight percent, stress-screen
-    recrystallisation and the blend selected for a larger drying run.
+  summary: DL_2017_0070 bench sheets for Jorvessara Pharmaceuticals compare polymer loading in weight percent, stress-screen recrystallisation
+    and the blend selected for a larger drying run.
   pilot: false
   client_id: CL051
   client_variant: Jorvessara Pharmaceuticals
@@ -264,8 +262,8 @@ files:
     rel: results_for
   tier: haiku
   target_length: 3 sheets
-  summary: DL_2020_0050 bench sheets for Nimbravelle Medicines Inc show Vehicle ladder concentration, dilution ratio
-    and precipitation observations supporting a dispersed dosing approach.
+  summary: DL_2020_0050 bench sheets for Nimbravelle Medicines Inc show Vehicle ladder concentration, dilution ratio and precipitation observations
+    supporting a dispersed dosing approach.
   pilot: false
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
@@ -293,8 +291,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: DL_2026_0085 interim Excipient compatibility screen for Esmervane Pharmaceuticals records the lactose-blend
-    colour change, alternative filler observations and blank cells for stress analyses still pending.
+  summary: DL_2026_0085 interim Excipient compatibility screen for Esmervane Pharmaceuticals records the lactose-blend colour change, alternative
+    filler observations and blank cells for stress analyses still pending.
   pilot: false
   client_id: CL020
   client_variant: Esmervane Pharmaceuticals
@@ -322,8 +320,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: DL_2026_0093 interim Vehicle ladder for Odraverne Pharmaceuticals records the completed solubility screen
-    and dilution-stability repeats still required at the proposed administration temperature.
+  summary: DL_2026_0093 interim Vehicle ladder for Odraverne Pharmaceuticals records the completed solubility screen and dilution-stability repeats
+    still required at the proposed administration temperature.
   pilot: false
   client_id: CL030
   client_variant: Odraverne Pharmaceuticals
@@ -350,8 +348,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: DL_2025_0130 paused Vehicle ladder workbook for Wexanthel Medicines records physical-stability observations
-    and leaves flavour-panel-dependent optimisation columns unfilled.
+  summary: DL_2025_0130 paused Vehicle ladder workbook for Wexanthel Medicines records physical-stability observations and leaves flavour-panel-dependent
+    optimisation columns unfilled.
   pilot: false
   client_id: CL064
   client_variant: Wexanthel Medicines
@@ -377,8 +375,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: Eric Langford’s historical USD price workbook lists Vehicle ladder and Excipient compatibility screen
-    scope bands, minimum sample quantities and discount assumptions superseded after acquisition.
+  summary: Eric Langford’s historical USD price workbook lists Vehicle ladder and Excipient compatibility screen scope bands, minimum sample quantities
+    and discount assumptions superseded after acquisition.
   pilot: false
 - id: F-015
   unit: F
@@ -401,8 +399,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: Local USD rate workbook separates Vehicle ladder and Excipient compatibility screen work packages, optional
-    pilot-lot handoff support and approval thresholds for discounts.
+  summary: Local USD rate workbook separates Vehicle ladder and Excipient compatibility screen work packages, optional pilot-lot handoff support
+    and approval thresholds for discounts.
   pilot: false
 - id: F-016
   unit: F
@@ -428,8 +426,8 @@ files:
     rel: proposal_for
   tier: sol
   target_length: 14 pages
-  summary: DL_2016_0027 final client report for Auvrelquith Biosciences documents Vehicle ladder preparation, buffer-adjustment
-    evidence and dilution limits for the selected oral exposure solution.
+  summary: DL_2016_0027 final client report for Auvrelquith Biosciences documents Vehicle ladder preparation, buffer-adjustment evidence and dilution
+    limits for the selected oral exposure solution.
   pilot: false
   client_id: CL068
   client_variant: Auvrelquith Biosciences
@@ -456,8 +454,8 @@ files:
   related: []
   tier: sol
   target_length: 16 pages
-  summary: DL_2018_0010 final report for Nimbravelle Medicines Inc records the Vehicle ladder wetting-agent comparison
-    and irreversible aggregation in the initial suspension vehicle, supporting the selected replacement combination.
+  summary: DL_2018_0010 final report for Nimbravelle Medicines Inc records the Vehicle ladder wetting-agent comparison and irreversible aggregation
+    in the initial suspension vehicle, supporting the selected replacement combination.
   pilot: false
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
@@ -486,8 +484,8 @@ files:
     rel: results_for
   tier: sol
   target_length: 18 pages
-  summary: DL_2017_0070 report for Jorvessara Pharmaceuticals documents polymer-blend stress-screen observations,
-    resistance to recrystallisation and limitations before the larger drying run.
+  summary: DL_2017_0070 report for Jorvessara Pharmaceuticals documents polymer-blend stress-screen observations, resistance to recrystallisation
+    and limitations before the larger drying run.
   pilot: false
   client_id: CL051
   client_variant: Jorvessara Pharmaceuticals
@@ -514,11 +512,11 @@ files:
   related:
   - id: F-027
     rel: proposal_for
-  tier: sol
+  tier: orchestrator
   target_length: 15 pages
-  summary: DL_2020_0050 final report for Nimbravelle Medicines Inc summarises Vehicle ladder dilution precipitation,
-    the rejected cosolvent-rich vehicle and practical administration instructions for dispersed dosing.
-  pilot: false
+  summary: DL_2020_0050 final report for Nimbravelle Medicines Inc summarises Vehicle ladder dilution precipitation, the rejected cosolvent-rich
+    vehicle and practical administration instructions for dispersed dosing.
+  pilot: true
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
   pdf_kind: native
@@ -544,8 +542,8 @@ files:
   related: []
   tier: sol
   target_length: 12 pages
-  summary: DL_2019_0071 report for Auvrelquith Biosciences compares Vehicle ladder dissolution across salt forms,
-    flags moisture sensitivity of the preferred salt and recommends protective-packaging follow-up.
+  summary: DL_2019_0071 report for Auvrelquith Biosciences compares Vehicle ladder dissolution across salt forms, flags moisture sensitivity of
+    the preferred salt and recommends protective-packaging follow-up.
   pilot: false
   client_id: CL068
   client_variant: Auvrelquith Biosciences
@@ -574,8 +572,8 @@ files:
   related: []
   tier: sol
   target_length: 9 pages
-  summary: DL_2025_0130 abandoned client-report draft for Wexanthel Medicines summarises preliminary Vehicle ladder
-    physical stability and stops before vehicle selection because the flavour-panel decision is pending.
+  summary: DL_2025_0130 abandoned client-report draft for Wexanthel Medicines summarises preliminary Vehicle ladder physical stability and stops
+    before vehicle selection because the flavour-panel decision is pending.
   pilot: false
   client_id: CL064
   client_variant: Wexanthel Medicines
@@ -601,8 +599,8 @@ files:
   related: []
   tier: haiku
   target_length: 5 pages
-  summary: Controlled administrative review records completion of balance checks, dilution-record traceability and
-    recipe-card reconciliation for local Vehicle ladder and Excipient compatibility screen bench work.
+  summary: Controlled administrative review records completion of balance checks, dilution-record traceability and recipe-card reconciliation
+    for local Vehicle ladder and Excipient compatibility screen bench work.
   pilot: false
   pdf_kind: native
 - id: F-023
@@ -626,8 +624,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 pages
-  summary: Training completion record lists local staff sign-offs for recipe-card revisions, mg/mL and weight-percent
-    conventions and pilot-lot handoff documentation.
+  summary: Training completion record lists local staff sign-offs for recipe-card revisions, mg/mL and weight-percent conventions and pilot-lot
+    handoff documentation.
   pilot: false
   pdf_kind: native
 - id: F-024
@@ -654,8 +652,8 @@ files:
     rel: copy_of
   tier: sol
   target_length: 5 pages
-  summary: Scanned signed DL_2016_0027 quote for Auvrelquith Biosciences preserves a handwritten sample-delivery
-    annotation, the USD 31,000 Vehicle ladder scope and the planned 48-day execution period.
+  summary: Scanned signed DL_2016_0027 quote for Auvrelquith Biosciences preserves a handwritten sample-delivery annotation, the USD 31,000 Vehicle
+    ladder scope and the planned 48-day execution period.
   pilot: false
   client_id: CL068
   client_variant: Auvrelquith Biosciences
@@ -683,8 +681,8 @@ files:
     rel: export_of
   tier: script
   target_length: 20 pages
-  summary: PDF export of the current Durnesswick formulation capability deck preserves its Vehicle ladder and Excipient
-    compatibility screen tables and early-CMC handoff limits.
+  summary: PDF export of the current Durnesswick formulation capability deck preserves its Vehicle ladder and Excipient compatibility screen tables
+    and early-CMC handoff limits.
   pilot: false
   pdf_kind: export
 - id: F-026
@@ -710,8 +708,8 @@ files:
   related: []
   tier: sol
   target_length: 5 pages
-  summary: DL_2016_0027 proposal for Auvrelquith Biosciences quotes USD 31,000 for the Vehicle ladder pH and excipient
-    screen, defines dilution checks and gives the planned 48-day execution period.
+  summary: DL_2016_0027 proposal for Auvrelquith Biosciences quotes USD 31,000 for the Vehicle ladder pH and excipient screen, defines dilution
+    checks and gives the planned 48-day execution period.
   pilot: false
   client_id: CL068
   client_variant: Auvrelquith Biosciences
@@ -737,8 +735,8 @@ files:
   related: []
   tier: sol
   target_length: 6 pages
-  summary: DL_2020_0050 proposal for Nimbravelle Medicines Inc quotes USD 34,200 for Vehicle ladder precipitation-on-dilution
-    follow-up, with sample requirements and an 84-day execution plan.
+  summary: DL_2020_0050 proposal for Nimbravelle Medicines Inc quotes USD 34,200 for Vehicle ladder precipitation-on-dilution follow-up, with
+    sample requirements and an 84-day execution plan.
   pilot: false
   client_id: CL009
   client_variant: Nimbravelle Medicines Inc
@@ -764,8 +762,8 @@ files:
   related: []
   tier: sol
   target_length: 6 pages
-  summary: DL_2024_0134 unaccepted proposal for Jorvessara Pharmaceuticals quotes USD 44,100 for dispersion feasibility
-    and a scale-up estimate, with a purchasing note that the manufacturing partner won the work.
+  summary: DL_2024_0134 unaccepted proposal for Jorvessara Pharmaceuticals quotes USD 44,100 for dispersion feasibility and a scale-up estimate,
+    with a purchasing note that the manufacturing partner won the work.
   pilot: false
   client_id: CL051
   client_variant: Jorvessara Pharmaceuticals
@@ -790,8 +788,8 @@ files:
   related: []
   tier: sol
   target_length: 8 pages
-  summary: Controlled Vehicle ladder SOP defines preparation order, mg/mL reporting, dilution-temperature records
-    and screen suitability checks while separating exploratory observations from locked-process specifications.
+  summary: Controlled Vehicle ladder SOP defines preparation order, mg/mL reporting, dilution-temperature records and screen suitability checks
+    while separating exploratory observations from locked-process specifications.
   pilot: false
 - id: F-030
   unit: F
@@ -814,8 +812,8 @@ files:
   related: []
   tier: haiku
   target_length: 5 pages
-  summary: Approved development note defines pilot-lot handoff fields for recipe cards, dose and loading assumptions,
-    particle sizes in µm and unresolved manufacturability risks before the scale gate.
+  summary: Approved development note defines pilot-lot handoff fields for recipe cards, dose and loading assumptions, particle sizes in µm and
+    unresolved manufacturability risks before the scale gate.
   pilot: false
 - id: F-031
   unit: F
@@ -838,9 +836,8 @@ files:
   related: []
   tier: sol
   target_length: 12 pages
-  summary: Durnesswick service catalogue describes Vehicle ladder and Excipient compatibility screen inputs, formulation-set
-    deliverables, dose-loading tradeoffs and early-CMC pilot-lot handoff options with clearly bounded exploratory
-    claims.
+  summary: Durnesswick service catalogue describes Vehicle ladder and Excipient compatibility screen inputs, formulation-set deliverables, dose-loading
+    tradeoffs and early-CMC pilot-lot handoff options with clearly bounded exploratory claims.
   pilot: false
   pdf_kind: native
 - id: F-032
@@ -867,8 +864,7 @@ files:
   related: []
   tier: haiku_low
   target_length: 2 slides
-  summary: Near-empty group-master scratch deck contains a title placeholder and one pasted recipe-card heading
-    with no scientific conclusions.
+  summary: Near-empty group-master scratch deck contains a title placeholder and one pasted recipe-card heading with no scientific conclusions.
   pilot: false
 - id: F-033
   unit: F
@@ -893,6 +889,6 @@ files:
   related: []
   tier: haiku_low
   target_length: 1 sheet
-  summary: Near-empty sample-intake scratch workbook contains three column headings and one blank formatted row
-    left after an abandoned layout experiment.
+  summary: Near-empty sample-intake scratch workbook contains three column headings and one blank formatted row left after an abandoned layout
+    experiment.
   pilot: false

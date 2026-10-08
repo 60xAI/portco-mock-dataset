@@ -55,8 +55,7 @@ files:
     rel: results_for
   tier: orchestrator
   target_length: 4-5 sheets
-  summary: 'Results workbook for MV-2015-266: hERG IC50 and 5-isoform CYP inhibition for 38 compounds, with a benchmark summary
-    sheet.'
+  summary: 'Results workbook for MV-2015-266: hERG IC50 and 5-isoform CYP inhibition for 38 compounds, with a benchmark summary sheet.'
   pilot: false
 - id: P18
   unit: C
@@ -88,8 +87,7 @@ files:
     rel: related
   tier: orchestrator
   target_length: 10-16 pages
-  summary: 'Final report MV-2015-266: hERG and CYP results for 38 kinase-series compounds, with the benchmark summary table
-    on an early page.'
+  summary: 'Final report MV-2015-266: hERG and CYP results for 38 kinase-series compounds, with the benchmark summary table on an early page.'
   pilot: false
 - id: P19
   unit: C
@@ -117,8 +115,7 @@ files:
   related: []
   tier: orchestrator
   target_length: 5-7 pages
-  summary: 'Proposal MV-2024-358 to Tervemere Pharma AG: hERG + CYP panel on 40 kinase-series compounds; price and turnaround
-    stated.'
+  summary: 'Proposal MV-2024-358 to Tervemere Pharma AG: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.'
   pilot: false
 - id: P20
   unit: C
@@ -148,8 +145,7 @@ files:
     rel: results_for
   tier: orchestrator
   target_length: 4-5 sheets
-  summary: 'Results workbook for MV-2024-358: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary
-    sheet.'
+  summary: 'Results workbook for MV-2024-358: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.'
   pilot: false
 - id: P21
   unit: C
@@ -181,8 +177,7 @@ files:
     rel: related
   tier: orchestrator
   target_length: 10-16 pages
-  summary: 'Final report MV-2024-358: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table
-    on an early page.'
+  summary: 'Final report MV-2024-358: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.'
   pilot: false
 - id: P24
   unit: C
@@ -349,9 +344,8 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2006-090 readout for Nimbravelle Medicines Inc presents Microsomal CLint, Hepatocyte depletion CLint, matrix
-    acceptance and analytical limits before the conclusion: Nimbravelle advanced the analogues whose slower hepatocyte turnover
-    agreed with their microsomal ranking.'
+  summary: 'MV-2006-090 readout for Nimbravelle Medicines Inc presents Microsomal CLint, Hepatocyte depletion CLint, matrix acceptance and analytical
+    limits before the conclusion: Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed with their microsomal ranking.'
   pilot: false
 - id: C-002
   unit: C
@@ -378,9 +372,9 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2015-240 readout for Aldrevessa Therapeutics presents Rat exposure with tandem-MS bioanalysis, matrix acceptance
-    and analytical limits before the conclusion: Oral exposure was limited despite acceptable systemic clearance, prompting
-    Aldrevessa to revisit the dosing vehicle.'
+  summary: 'MV-2015-240 readout for Aldrevessa Therapeutics presents Rat exposure with tandem-MS bioanalysis, matrix acceptance and analytical
+    limits before the conclusion: Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa to revisit the dosing
+    vehicle.'
   pilot: false
 - id: C-003
   unit: C
@@ -407,9 +401,9 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2016-095 readout for Tervemere Pharma AG presents Five-isoform DDI screen, CYP3A4 inhibition curves, matrix
-    acceptance and analytical limits before the conclusion: Tervemere retained the low-interaction branch after the concentration-response
-    work confirmed the screen''s rank order.'
+  summary: 'MV-2016-095 readout for Tervemere Pharma AG presents Five-isoform DDI screen, CYP3A4 inhibition curves, matrix acceptance and analytical
+    limits before the conclusion: Tervemere retained the low-interaction branch after the concentration-response work confirmed the screen''s
+    rank order.'
   pilot: false
 - id: C-004
   unit: C
@@ -436,9 +430,9 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2018-336 readout for Quorenthel Pharma GmbH presents fu,p by equilibrium dialysis, Caco-2 flux and efflux ratio,
-    DMSO-dilution solubility, matrix acceptance and analytical limits before the conclusion: High efflux in the otherwise
-    soluble branch led Quorenthel to redesign the exposed amine rather than increase lipophilicity.'
+  summary: 'MV-2018-336 readout for Quorenthel Pharma GmbH presents fu,p by equilibrium dialysis, Caco-2 flux and efflux ratio, DMSO-dilution
+    solubility, matrix acceptance and analytical limits before the conclusion: High efflux in the otherwise soluble branch led Quorenthel to redesign
+    the exposed amine rather than increase lipophilicity.'
   pilot: false
 - id: C-005
   unit: C
@@ -465,9 +459,9 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2020-088 readout for Orvessant Biosciences Pty Ltd presents Five-isoform DDI screen, CYP3A4 inhibition curves,
-    matrix acceptance and analytical limits before the conclusion: The CYP3A4 follow-up confirmed the liability in the lipophilic
-    cap variants and Orvessant switched to the alternate cap.'
+  summary: 'MV-2020-088 readout for Orvessant Biosciences Pty Ltd presents Five-isoform DDI screen, CYP3A4 inhibition curves, matrix acceptance
+    and analytical limits before the conclusion: The CYP3A4 follow-up confirmed the liability in the lipophilic cap variants and Orvessant switched
+    to the alternate cap.'
   pilot: false
 - id: C-006
   unit: C
@@ -494,9 +488,8 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2021-284 readout for Kelbravik Therapeutics ApS presents Microsomal CLint, Hepatocyte depletion CLint, matrix
-    acceptance and analytical limits before the conclusion: Hepatocyte turnover revealed a clearance route missing from the
-    microsomal screen, changing Kelbravik''s shortlist.'
+  summary: 'MV-2021-284 readout for Kelbravik Therapeutics ApS presents Microsomal CLint, Hepatocyte depletion CLint, matrix acceptance and analytical
+    limits before the conclusion: Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik''s shortlist.'
   pilot: false
 - id: C-007
   unit: C
@@ -521,12 +514,11 @@ files:
   mess: []
   planted: []
   related: []
-  tier: sol
+  tier: orchestrator
   target_length: 12 slides
-  summary: 'MV-2023-288 readout for Nimbravelle Medicines Inc presents Rat exposure with tandem-MS bioanalysis, matrix acceptance
-    and analytical limits before the conclusion: Comparable exposure across the two lots allowed Nimbravelle to retain the
-    original efficacy interpretation.'
-  pilot: false
+  summary: 'MV-2023-288 readout for Nimbravelle Medicines Inc presents Rat exposure with tandem-MS bioanalysis, matrix acceptance and analytical
+    limits before the conclusion: Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation.'
+  pilot: true
 - id: C-008
   unit: C
   root: archive
@@ -554,9 +546,9 @@ files:
     rel: related
   tier: sol
   target_length: 12 slides
-  summary: 'MV-2024-358 readout for Tervemere Pharma AG presents IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition
-    curves, matrix acceptance and analytical limits before the conclusion: The revised series showed improved ion-channel
-    behaviour while residual CYP inhibition narrowed the set taken into exposure studies.'
+  summary: 'MV-2024-358 readout for Tervemere Pharma AG presents IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves, matrix acceptance
+    and analytical limits before the conclusion: The revised series showed improved ion-channel behaviour while residual CYP inhibition narrowed
+    the set taken into exposure studies.'
   pilot: false
 - id: C-009
   unit: C
@@ -586,8 +578,8 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: MV-2026-278 interim readout for Belquorin Pharma presents Five-isoform DDI screen and CYP3A4 inhibition curves
-    with one vial identity unresolved and no final progression recommendation.
+  summary: MV-2026-278 interim readout for Belquorin Pharma presents Five-isoform DDI screen and CYP3A4 inhibition curves with one vial identity
+    unresolved and no final progression recommendation.
   pilot: false
 - id: C-010
   unit: C
@@ -613,8 +605,8 @@ files:
   related: []
   tier: sol
   target_length: 16 slides
-  summary: Merrivoss capability deck explains Microsomal CLint, Hepatocyte depletion CLint, fu,p by equilibrium dialysis and
-    Rat exposure with tandem-MS bioanalysis, with matrix acceptance and lower-limit assumptions before exposure gates.
+  summary: Merrivoss capability deck explains Microsomal CLint, Hepatocyte depletion CLint, fu,p by equilibrium dialysis and Rat exposure with
+    tandem-MS bioanalysis, with matrix acceptance and lower-limit assumptions before exposure gates.
   pilot: false
 - id: C-011
   unit: C
@@ -642,8 +634,8 @@ files:
   related: []
   tier: sol
   target_length: 10 slides
-  summary: Copy of firm B's 2021 matrix acceptance training deck retains the original panel workflow diagram while Merrivoss
-    annotations distinguish accession lots and tandem-MS batch acceptance.
+  summary: Copy of firm B's 2021 matrix acceptance training deck retains the original panel workflow diagram while Merrivoss annotations distinguish
+    accession lots and tandem-MS batch acceptance.
   pilot: false
 - id: C-012
   unit: C
@@ -672,8 +664,8 @@ files:
   related: []
   tier: haiku
   target_length: 11 slides
-  summary: Matteo Rinalvesi's superseded internal deck compares Microsomal CLint and Hepatocyte depletion CLint normalization,
-    with handwritten-style speaker notes about species assumptions.
+  summary: Matteo Rinalvesi's superseded internal deck compares Microsomal CLint and Hepatocyte depletion CLint normalization, with handwritten-style
+    speaker notes about species assumptions.
   pilot: false
 - id: C-013
   unit: C
@@ -702,8 +694,8 @@ files:
   related: []
   tier: haiku
   target_length: 13 slides
-  summary: Matteo Rinalvesi's older capability copy introduces fu,p by equilibrium dialysis and Oral/IV PK with retained local
-    branding and comments requesting updated matrix acceptance footnotes.
+  summary: Matteo Rinalvesi's older capability copy introduces fu,p by equilibrium dialysis and Oral/IV PK with retained local branding and comments
+    requesting updated matrix acceptance footnotes.
   pilot: false
 - id: C-014
   unit: C
@@ -733,9 +725,8 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2006-090 assay worksheet for Nimbravelle Medicines Inc contains accession-lot mapping, Microsomal CLint, Hepatocyte
-    depletion CLint, matrix acceptance checks and Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed
-    with their microsomal ranking.
+  summary: MV-2006-090 assay worksheet for Nimbravelle Medicines Inc contains accession-lot mapping, Microsomal CLint, Hepatocyte depletion CLint,
+    matrix acceptance checks and Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed with their microsomal ranking.
   pilot: false
 - id: C-015
   unit: C
@@ -762,9 +753,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2008-013 assay worksheet for Kelbravik Therapeutics ApS contains accession-lot mapping, fu,p by equilibrium
-    dialysis, Caco-2 flux and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and Kelbravik separated a permeability-limited
-    branch from a solubility-limited branch and commissioned a focused formulation assessment.
+  summary: MV-2008-013 assay worksheet for Kelbravik Therapeutics ApS contains accession-lot mapping, fu,p by equilibrium dialysis, Caco-2 flux
+    and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and Kelbravik separated a permeability-limited branch from a solubility-limited
+    branch and commissioned a focused formulation assessment.
   pilot: false
 - id: C-016
   unit: C
@@ -793,9 +784,8 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2015-240 assay worksheet for Aldrevessa Therapeutics contains accession-lot mapping, Rat exposure with tandem-MS
-    bioanalysis, matrix acceptance checks and Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa
-    to revisit the dosing vehicle.
+  summary: MV-2015-240 assay worksheet for Aldrevessa Therapeutics contains accession-lot mapping, Rat exposure with tandem-MS bioanalysis, matrix
+    acceptance checks and Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa to revisit the dosing vehicle.
   pilot: false
 - id: C-017
   unit: C
@@ -824,9 +814,9 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2016-095 assay worksheet for Tervemere Pharma AG contains accession-lot mapping, Five-isoform DDI screen, CYP3A4
-    inhibition curves, matrix acceptance checks and Tervemere retained the low-interaction branch after the concentration-response
-    work confirmed the screen's rank order.
+  summary: MV-2016-095 assay worksheet for Tervemere Pharma AG contains accession-lot mapping, Five-isoform DDI screen, CYP3A4 inhibition curves,
+    matrix acceptance checks and Tervemere retained the low-interaction branch after the concentration-response work confirmed the screen's rank
+    order.
   pilot: false
 - id: C-018
   unit: C
@@ -855,9 +845,9 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2018-336 assay worksheet for Quorenthel Pharma GmbH contains accession-lot mapping, fu,p by equilibrium dialysis,
-    Caco-2 flux and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and High efflux in the otherwise soluble
-    branch led Quorenthel to redesign the exposed amine rather than increase lipophilicity.
+  summary: MV-2018-336 assay worksheet for Quorenthel Pharma GmbH contains accession-lot mapping, fu,p by equilibrium dialysis, Caco-2 flux and
+    efflux ratio, DMSO-dilution solubility, matrix acceptance checks and High efflux in the otherwise soluble branch led Quorenthel to redesign
+    the exposed amine rather than increase lipophilicity.
   pilot: false
 - id: C-019
   unit: C
@@ -886,9 +876,9 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2020-088 assay worksheet for Orvessant Biosciences Pty Ltd contains accession-lot mapping, Five-isoform DDI
-    screen, CYP3A4 inhibition curves, matrix acceptance checks and The CYP3A4 follow-up confirmed the liability in the lipophilic
-    cap variants and Orvessant switched to the alternate cap.
+  summary: MV-2020-088 assay worksheet for Orvessant Biosciences Pty Ltd contains accession-lot mapping, Five-isoform DDI screen, CYP3A4 inhibition
+    curves, matrix acceptance checks and The CYP3A4 follow-up confirmed the liability in the lipophilic cap variants and Orvessant switched to
+    the alternate cap.
   pilot: false
 - id: C-020
   unit: C
@@ -917,9 +907,8 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2021-284 assay worksheet for Kelbravik Therapeutics ApS contains accession-lot mapping, Microsomal CLint, Hepatocyte
-    depletion CLint, matrix acceptance checks and Hepatocyte turnover revealed a clearance route missing from the microsomal
-    screen, changing Kelbravik's shortlist.
+  summary: MV-2021-284 assay worksheet for Kelbravik Therapeutics ApS contains accession-lot mapping, Microsomal CLint, Hepatocyte depletion CLint,
+    matrix acceptance checks and Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist.
   pilot: false
 - id: C-021
   unit: C
@@ -948,9 +937,8 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2023-288 assay worksheet for Nimbravelle Medicines Inc contains accession-lot mapping, Rat exposure with tandem-MS
-    bioanalysis, matrix acceptance checks and Comparable exposure across the two lots allowed Nimbravelle to retain the original
-    efficacy interpretation.
+  summary: MV-2023-288 assay worksheet for Nimbravelle Medicines Inc contains accession-lot mapping, Rat exposure with tandem-MS bioanalysis,
+    matrix acceptance checks and Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation.
   pilot: false
 - id: C-022
   unit: C
@@ -981,8 +969,8 @@ files:
     rel: related
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2026-278 assay worksheet for Belquorin Pharma contains accession-lot mapping, Five-isoform DDI screen, CYP3A4
-    inhibition curves, matrix acceptance checks and open identity or recovery checks without final conclusions
+  summary: MV-2026-278 assay worksheet for Belquorin Pharma contains accession-lot mapping, Five-isoform DDI screen, CYP3A4 inhibition curves,
+    matrix acceptance checks and open identity or recovery checks without final conclusions
   pilot: false
 - id: C-023
   unit: C
@@ -1011,9 +999,8 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: MV-2026-292 assay worksheet for Farnovessa Medicines contains accession-lot mapping, fu,p by equilibrium dialysis,
-    Caco-2 flux and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and open identity or recovery checks
-    without final conclusions
+  summary: MV-2026-292 assay worksheet for Farnovessa Medicines contains accession-lot mapping, fu,p by equilibrium dialysis, Caco-2 flux and
+    efflux ratio, DMSO-dilution solubility, matrix acceptance checks and open identity or recovery checks without final conclusions
   pilot: false
 - id: C-024
   unit: C
@@ -1042,8 +1029,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: Matteo Rinalvesi's handover workbook records local accession-prefix meanings, matrix acceptance owners and archived
-    DMPK memo locations, with obsolete reviewer comments preserved.
+  summary: Matteo Rinalvesi's handover workbook records local accession-prefix meanings, matrix acceptance owners and archived DMPK memo locations,
+    with obsolete reviewer comments preserved.
   pilot: false
 - id: C-025
   unit: C
@@ -1072,9 +1059,9 @@ files:
     rel: related
   tier: sol
   target_length: 20 pages
-  summary: 'Final study report MV-2006-090 for Nimbravelle Medicines Inc documents Microsomal CLint, Hepatocyte depletion
-    CLint, sample matrices, species, analytical limits and acceptance exceptions before stating: Nimbravelle advanced the
-    analogues whose slower hepatocyte turnover agreed with their microsomal ranking.'
+  summary: 'Final study report MV-2006-090 for Nimbravelle Medicines Inc documents Microsomal CLint, Hepatocyte depletion CLint, sample matrices,
+    species, analytical limits and acceptance exceptions before stating: Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed
+    with their microsomal ranking.'
   pilot: false
 - id: C-026
   unit: C
@@ -1103,10 +1090,9 @@ files:
     rel: related
   tier: sol
   target_length: 20 pages
-  summary: 'Final study report MV-2008-013 for Kelbravik Therapeutics ApS documents fu,p by equilibrium dialysis, Caco-2 flux
-    and efflux ratio, DMSO-dilution solubility, sample matrices, species, analytical limits and acceptance exceptions before
-    stating: Kelbravik separated a permeability-limited branch from a solubility-limited branch and commissioned a focused
-    formulation assessment.'
+  summary: 'Final study report MV-2008-013 for Kelbravik Therapeutics ApS documents fu,p by equilibrium dialysis, Caco-2 flux and efflux ratio,
+    DMSO-dilution solubility, sample matrices, species, analytical limits and acceptance exceptions before stating: Kelbravik separated a permeability-limited
+    branch from a solubility-limited branch and commissioned a focused formulation assessment.'
   pilot: false
 - id: C-027
   unit: C
@@ -1135,9 +1121,9 @@ files:
     rel: related
   tier: sol
   target_length: 24 pages
-  summary: 'Final study report MV-2015-240 for Aldrevessa Therapeutics documents Rat exposure with tandem-MS bioanalysis,
-    sample matrices, species, analytical limits and acceptance exceptions before stating: Oral exposure was limited despite
-    acceptable systemic clearance, prompting Aldrevessa to revisit the dosing vehicle.'
+  summary: 'Final study report MV-2015-240 for Aldrevessa Therapeutics documents Rat exposure with tandem-MS bioanalysis, sample matrices, species,
+    analytical limits and acceptance exceptions before stating: Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa
+    to revisit the dosing vehicle.'
   pilot: false
 - id: C-028
   unit: C
@@ -1166,9 +1152,9 @@ files:
     rel: related
   tier: sol
   target_length: 20 pages
-  summary: 'Final study report MV-2016-095 for Tervemere Pharma AG documents Five-isoform DDI screen, CYP3A4 inhibition curves,
-    sample matrices, species, analytical limits and acceptance exceptions before stating: Tervemere retained the low-interaction
-    branch after the concentration-response work confirmed the screen''s rank order.'
+  summary: 'Final study report MV-2016-095 for Tervemere Pharma AG documents Five-isoform DDI screen, CYP3A4 inhibition curves, sample matrices,
+    species, analytical limits and acceptance exceptions before stating: Tervemere retained the low-interaction branch after the concentration-response
+    work confirmed the screen''s rank order.'
   pilot: false
 - id: C-029
   unit: C
@@ -1197,10 +1183,9 @@ files:
     rel: related
   tier: sol
   target_length: 20 pages
-  summary: 'Final study report MV-2018-336 for Quorenthel Pharma GmbH documents fu,p by equilibrium dialysis, Caco-2 flux
-    and efflux ratio, DMSO-dilution solubility, sample matrices, species, analytical limits and acceptance exceptions before
-    stating: High efflux in the otherwise soluble branch led Quorenthel to redesign the exposed amine rather than increase
-    lipophilicity.'
+  summary: 'Final study report MV-2018-336 for Quorenthel Pharma GmbH documents fu,p by equilibrium dialysis, Caco-2 flux and efflux ratio, DMSO-dilution
+    solubility, sample matrices, species, analytical limits and acceptance exceptions before stating: High efflux in the otherwise soluble branch
+    led Quorenthel to redesign the exposed amine rather than increase lipophilicity.'
   pilot: false
 - id: C-030
   unit: C
@@ -1229,9 +1214,9 @@ files:
     rel: related
   tier: sol
   target_length: 20 pages
-  summary: 'Final study report MV-2020-088 for Orvessant Biosciences Pty Ltd documents Five-isoform DDI screen, CYP3A4 inhibition
-    curves, sample matrices, species, analytical limits and acceptance exceptions before stating: The CYP3A4 follow-up confirmed
-    the liability in the lipophilic cap variants and Orvessant switched to the alternate cap.'
+  summary: 'Final study report MV-2020-088 for Orvessant Biosciences Pty Ltd documents Five-isoform DDI screen, CYP3A4 inhibition curves, sample
+    matrices, species, analytical limits and acceptance exceptions before stating: The CYP3A4 follow-up confirmed the liability in the lipophilic
+    cap variants and Orvessant switched to the alternate cap.'
   pilot: false
 - id: C-031
   unit: C
@@ -1260,9 +1245,9 @@ files:
     rel: related
   tier: sol
   target_length: 20 pages
-  summary: 'Final study report MV-2021-284 for Kelbravik Therapeutics ApS documents Microsomal CLint, Hepatocyte depletion
-    CLint, sample matrices, species, analytical limits and acceptance exceptions before stating: Hepatocyte turnover revealed
-    a clearance route missing from the microsomal screen, changing Kelbravik''s shortlist.'
+  summary: 'Final study report MV-2021-284 for Kelbravik Therapeutics ApS documents Microsomal CLint, Hepatocyte depletion CLint, sample matrices,
+    species, analytical limits and acceptance exceptions before stating: Hepatocyte turnover revealed a clearance route missing from the microsomal
+    screen, changing Kelbravik''s shortlist.'
   pilot: false
 - id: C-032
   unit: C
@@ -1291,9 +1276,9 @@ files:
     rel: related
   tier: sol
   target_length: 24 pages
-  summary: 'Final study report MV-2023-288 for Nimbravelle Medicines Inc documents Rat exposure with tandem-MS bioanalysis,
-    sample matrices, species, analytical limits and acceptance exceptions before stating: Comparable exposure across the two
-    lots allowed Nimbravelle to retain the original efficacy interpretation.'
+  summary: 'Final study report MV-2023-288 for Nimbravelle Medicines Inc documents Rat exposure with tandem-MS bioanalysis, sample matrices, species,
+    analytical limits and acceptance exceptions before stating: Comparable exposure across the two lots allowed Nimbravelle to retain the original
+    efficacy interpretation.'
   pilot: false
 - id: C-033
   unit: C
@@ -1320,8 +1305,8 @@ files:
   related: []
   tier: sol
   target_length: 6 pages
-  summary: Scanned signed quote MV-2008-013 for Kelbravik Therapeutics ApS specifies Caco-2 flux and efflux ratio, DMSO-dilution
-    solubility and fu,p by equilibrium dialysis, with a fax header and initialled sample-shipping terms.
+  summary: Scanned signed quote MV-2008-013 for Kelbravik Therapeutics ApS specifies Caco-2 flux and efflux ratio, DMSO-dilution solubility and
+    fu,p by equilibrium dialysis, with a fax header and initialled sample-shipping terms.
   pilot: false
 - id: C-034
   unit: C
@@ -1347,8 +1332,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 pages
-  summary: Scanned QA matrix acceptance sign-off records tandem-MS calibration checks, signed batch-review responsibilities
-    and a handwritten correction to a control-lot reference.
+  summary: Scanned QA matrix acceptance sign-off records tandem-MS calibration checks, signed batch-review responsibilities and a handwritten
+    correction to a control-lot reference.
   pilot: false
 - id: C-035
   unit: C
@@ -1376,8 +1361,8 @@ files:
     rel: export_of
   tier: script
   target_length: 16 pages
-  summary: PDF export of the 2025 Merrivoss capability deck preserves the matrix acceptance and analytical-limit footnotes
-    for Microsomal CLint and Rat exposure with tandem-MS bioanalysis.
+  summary: PDF export of the 2025 Merrivoss capability deck preserves the matrix acceptance and analytical-limit footnotes for Microsomal CLint
+    and Rat exposure with tandem-MS bioanalysis.
   pilot: false
 - id: C-036
   unit: C
@@ -1406,9 +1391,9 @@ files:
     rel: export_of
   tier: script
   target_length: 12 pages
-  summary: PDF export of the MV-2023-288 Nimbravelle Medicines Inc readout presents dosing-lot exposure bridging with matrix
-    acceptance and comparable exposure conclusions.
-  pilot: false
+  summary: PDF export of the MV-2023-288 Nimbravelle Medicines Inc readout presents dosing-lot exposure bridging with matrix acceptance and comparable
+    exposure conclusions.
+  pilot: true
 - id: C-037
   unit: C
   root: archive
@@ -1434,11 +1419,11 @@ files:
   related:
   - id: C-001
     rel: proposal_for
-  tier: sol
+  tier: orchestrator
   target_length: 7 pages
-  summary: Quote MV-2006-090 to Nimbravelle Medicines Inc sets out paired Microsomal CLint and Hepatocyte depletion CLint
-    measurements on 24 compounds, the registered USD price, matrix assumptions and planned delivery window.
-  pilot: false
+  summary: Quote MV-2006-090 to Nimbravelle Medicines Inc sets out paired Microsomal CLint and Hepatocyte depletion CLint measurements on 24 compounds,
+    the registered USD price, matrix assumptions and planned delivery window.
+  pilot: true
 - id: C-038
   unit: C
   root: archive
@@ -1464,8 +1449,8 @@ files:
   related: []
   tier: sol
   target_length: 6 pages
-  summary: Unaccepted quote MV-2025-272 to Selverant offers Five-isoform DDI screen and CYP3A4 inhibition curves for 18 compounds
-    at the registered USD price; the client chose its existing partner and no study began.
+  summary: Unaccepted quote MV-2025-272 to Selverant offers Five-isoform DDI screen and CYP3A4 inhibition curves for 18 compounds at the registered
+    USD price; the client chose its existing partner and no study began.
   pilot: false
 - id: C-039
   unit: C
@@ -1494,8 +1479,8 @@ files:
   related: []
   tier: sol
   target_length: 9 pages
-  summary: Draft recovery-investigation SOP specifies Caco-2 flux and efflux ratio mass-balance triggers, matrix acceptance
-    escalation and repeat documentation, with tracked changes and an unresolved approval section.
+  summary: Draft recovery-investigation SOP specifies Caco-2 flux and efflux ratio mass-balance triggers, matrix acceptance escalation and repeat
+    documentation, with tracked changes and an unresolved approval section.
   pilot: false
 - id: C-040
   unit: C
@@ -1521,9 +1506,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Merrivoss service catalogue describes Microsomal CLint, Hepatocyte depletion CLint, fu,p by equilibrium dialysis,
-    Caco-2 flux and efflux ratio, DMSO-dilution solubility, IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves
-    and Rat exposure with tandem-MS bioanalysis with input and matrix requirements.
+  summary: Merrivoss service catalogue describes Microsomal CLint, Hepatocyte depletion CLint, fu,p by equilibrium dialysis, Caco-2 flux and efflux
+    ratio, DMSO-dilution solubility, IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves and Rat exposure with tandem-MS bioanalysis
+    with input and matrix requirements.
   pilot: false
 - id: C-041
   unit: C

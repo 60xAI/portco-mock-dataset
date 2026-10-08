@@ -25,8 +25,7 @@ files:
   related: []
   tier: orchestrator
   target_length: 5-7 pages
-  summary: 'Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 40 kinase-series compounds; price and turnaround
-    stated.'
+  summary: 'Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.'
   pilot: false
 - id: P11
   unit: B
@@ -88,8 +87,7 @@ files:
     rel: related
   tier: orchestrator
   target_length: 10-16 pages
-  summary: 'Final report BW11_0275: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early
-    page.'
+  summary: 'Final report BW11_0275: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.'
   pilot: false
 - id: P13
   unit: B
@@ -117,8 +115,7 @@ files:
   related: []
   tier: orchestrator
   target_length: 5-7 pages
-  summary: 'Proposal BW21_0453 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 42 kinase-series compounds; price and turnaround
-    stated.'
+  summary: 'Proposal BW21_0453 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 42 kinase-series compounds; price and turnaround stated.'
   pilot: false
 - id: P14
   unit: B
@@ -180,8 +177,7 @@ files:
     rel: related
   tier: orchestrator
   target_length: 10-16 pages
-  summary: 'Final report BW21_0453: hERG and CYP results for 42 kinase-series compounds, with the benchmark summary table on an early
-    page.'
+  summary: 'Final report BW21_0453: hERG and CYP results for 42 kinase-series compounds, with the benchmark summary table on an early page.'
   pilot: false
 - id: P22
   unit: B
@@ -264,9 +260,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW11_0275, Avernelwick Pharmaceuticals
-    Ltd, covering hERG automated patch clamp, 5-isoform CYP panel on 40 compounds; The paired screen identified an ion-channel liability
-    in the lipophilic branch, and Avernelwick advanced the more polar analogues.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW11_0275, Avernelwick Pharmaceuticals Ltd, covering
+    hERG automated patch clamp, 5-isoform CYP panel on 40 compounds; The paired screen identified an ion-channel liability in the lipophilic branch,
+    and Avernelwick advanced the more polar analogues.
   pilot: false
 - id: B-002
   unit: B
@@ -293,9 +289,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW21_0453, Avernelwick Pharmaceuticals
-    Ltd, covering hERG automated patch clamp, 5-isoform CYP panel, 3A4 concentration response on 42 compounds; The follow-up retained
-    the hERG margin but exposed a CYP interaction in the basic side-chain subset, prompting a chemistry redesign.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW21_0453, Avernelwick Pharmaceuticals Ltd, covering
+    hERG automated patch clamp, 5-isoform CYP panel, 3A4 concentration response on 42 compounds; The follow-up retained the hERG margin but exposed
+    a CYP interaction in the basic side-chain subset, prompting a chemistry redesign.
   pilot: false
 - id: B-003
   unit: B
@@ -322,9 +318,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW01_0059, Quorenthel Pharma GmbH, covering
-    Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen, and
-    Quorenthel progressed the compact heteroaryl subset.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW01_0059, Quorenthel Pharma GmbH, covering Primary
+    potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen, and Quorenthel progressed
+    the compact heteroaryl subset.
   pilot: false
 - id: B-004
   unit: B
@@ -351,9 +347,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW03_0098, Belquorin Pharma, covering
-    hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested less basic
-    replacements rather than further testing of that branch.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW03_0098, Belquorin Pharma, covering hERG automated
+    patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested less basic replacements rather than
+    further testing of that branch.
   pilot: false
 - id: B-005
   unit: B
@@ -380,9 +376,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW20_0137, Rennelwick Institute Drug
-    Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability
-    work after the initial stability ranking proved consistent.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW20_0137, Rennelwick Institute Drug Discovery
+    Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability work after the initial
+    stability ranking proved consistent.
   pilot: false
 - id: B-006
   unit: B
@@ -409,9 +405,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW21_0240, Tervemere Pharma AG, covering
-    Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere retained
-    the polar substituents for the next design cycle.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW21_0240, Tervemere Pharma AG, covering Primary
+    potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere retained the polar substituents
+    for the next design cycle.
   pilot: false
 - id: B-007
   unit: B
@@ -438,9 +434,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW24_0253, Avernelwick Pharmaceuticals
-    Ltd, covering HLM/RLM stability, RED PPB on 18 compounds; Low dialysis recovery confounded the first binding run; the repeat with
-    revised labware gave an interpretable free-fraction ranking.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW24_0253, Avernelwick Pharmaceuticals Ltd, covering
+    HLM/RLM stability, RED PPB on 18 compounds; Low dialysis recovery confounded the first binding run; the repeat with revised labware gave an
+    interpretable free-fraction ranking.
   pilot: false
 - id: B-008
   unit: B
@@ -467,9 +463,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0600, Avernelwick Pharmaceuticals
-    Ltd, covering Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower
-    off-target fingerprint for its next medicinal chemistry round.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0600, Avernelwick Pharmaceuticals Ltd, covering
+    Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower off-target fingerprint for
+    its next medicinal chemistry round.
   pilot: false
 - id: B-009
   unit: B
@@ -496,9 +492,9 @@ files:
   related: []
   tier: sol
   target_length: 9 slides
-  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0231, Tervemere Pharma AG, covering
-    hERG automated patch clamp on 32 compounds; The soluble-tail design reduced the channel signal and Tervemere resumed exposure testing
-    of the retained branch.
+  summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0231, Tervemere Pharma AG, covering hERG
+    automated patch clamp on 32 compounds; The soluble-tail design reduced the channel signal and Tervemere resumed exposure testing of the retained
+    branch.
   pilot: false
 - id: B-010
   unit: B
@@ -525,9 +521,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW01_0059, Quorenthel
-    Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity
-    counterscreen, and Quorenthel progressed the compact heteroaryl subset.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW01_0059, Quorenthel Pharma GmbH,
+    covering Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen, and
+    Quorenthel progressed the compact heteroaryl subset.
   pilot: false
 - id: B-011
   unit: B
@@ -554,9 +550,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW03_0098, Belquorin
-    Pharma, covering hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin
-    requested less basic replacements rather than further testing of that branch.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW03_0098, Belquorin Pharma, covering
+    hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested less basic replacements
+    rather than further testing of that branch.
   pilot: false
 - id: B-012
   unit: B
@@ -583,9 +579,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW15_0277, Cadrunelle
-    Biosciences, covering 5-isoform CYP panel on 40 compounds; A selective CYP interaction in the thiophene-rich branch led Cadrunelle
-    to favour the oxygen-containing replacements.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW15_0277, Cadrunelle Biosciences,
+    covering 5-isoform CYP panel on 40 compounds; A selective CYP interaction in the thiophene-rich branch led Cadrunelle to favour the oxygen-containing
+    replacements.
   pilot: false
 - id: B-013
   unit: B
@@ -612,9 +608,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW16_0168, Elvarmere
-    Biosciences AB, covering HLM/RLM stability, RED PPB on 18 compounds; Elvarmere found that high binding did not explain the rapid
-    turnover and commissioned metabolite identification on the retained lead.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW16_0168, Elvarmere Biosciences
+    AB, covering HLM/RLM stability, RED PPB on 18 compounds; Elvarmere found that high binding did not explain the rapid turnover and commissioned
+    metabolite identification on the retained lead.
   pilot: false
 - id: B-014
   unit: B
@@ -641,9 +637,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW17_0415, Quorenthel
-    Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds; The hinge modification improved selectivity at the
-    cost of some primary potency, giving Quorenthel a clearer optimisation direction.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW17_0415, Quorenthel Pharma GmbH,
+    covering Primary potency assay, Selectivity sweep on 24 compounds; The hinge modification improved selectivity at the cost of some primary
+    potency, giving Quorenthel a clearer optimisation direction.
   pilot: false
 - id: B-015
   unit: B
@@ -670,9 +666,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW18_0225, Feldorune
-    Therapeutics BV, covering hERG automated patch clamp on 32 compounds; Feldorune dropped the most strongly basic side chain after
-    reproducible hERG inhibition in the confirmatory run.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW18_0225, Feldorune Therapeutics
+    BV, covering hERG automated patch clamp on 32 compounds; Feldorune dropped the most strongly basic side chain after reproducible hERG inhibition
+    in the confirmatory run.
   pilot: false
 - id: B-016
   unit: B
@@ -699,9 +695,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW19_0436, Orvessant
-    Biosciences Pty Ltd, covering 5-isoform CYP panel on 40 compounds; The ether-linked backup set reduced the CYP liability enough
-    for Orvessant to commission an exposure comparison.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW19_0436, Orvessant Biosciences
+    Pty Ltd, covering 5-isoform CYP panel on 40 compounds; The ether-linked backup set reduced the CYP liability enough for Orvessant to commission
+    an exposure comparison.
   pilot: false
 - id: B-017
   unit: B
@@ -728,9 +724,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW20_0137, Rennelwick
-    Institute Drug Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides
-    for permeability work after the initial stability ranking proved consistent.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW20_0137, Rennelwick Institute
+    Drug Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability work
+    after the initial stability ranking proved consistent.
   pilot: false
 - id: B-018
   unit: B
@@ -757,9 +753,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW21_0240, Tervemere
-    Pharma AG, covering Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity
-    and Tervemere retained the polar substituents for the next design cycle.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW21_0240, Tervemere Pharma AG,
+    covering Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere retained
+    the polar substituents for the next design cycle.
   pilot: false
 - id: B-019
   unit: B
@@ -786,9 +782,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW22_0141, Cadrunelle
-    Biosciences, covering hERG automated patch clamp on 32 compounds; Cadrunelle found the cardiac signal followed the aromatic cap
-    and chose a less lipophilic replacement series.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW22_0141, Cadrunelle Biosciences,
+    covering hERG automated patch clamp on 32 compounds; Cadrunelle found the cardiac signal followed the aromatic cap and chose a less lipophilic
+    replacement series.
   pilot: false
 - id: B-020
   unit: B
@@ -815,9 +811,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW23_0061, Farnovessa
-    Medicines, covering 5-isoform CYP panel on 40 compounds; Farnovessa requested time-dependent inhibition follow-up on the urea-containing
-    subset before nomination.
+  summary: Signed study report with control acceptance, methods, results tables and bounded interpretation for BW23_0061, Farnovessa Medicines,
+    covering 5-isoform CYP panel on 40 compounds; Farnovessa requested time-dependent inhibition follow-up on the urea-containing subset before
+    nomination.
   pilot: false
 - id: B-021
   unit: B
@@ -844,9 +840,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW01_0059, Quorenthel Pharma
-    GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen,
-    and Quorenthel progressed the compact heteroaryl subset.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW01_0059, Quorenthel Pharma GmbH, covering
+    Primary potency assay, Selectivity sweep on 24 compounds; The primary potency ranking survived the selectivity counterscreen, and Quorenthel
+    progressed the compact heteroaryl subset.
   pilot: false
 - id: B-022
   unit: B
@@ -873,9 +869,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW03_0098, Belquorin Pharma,
-    covering hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested
-    less basic replacements rather than further testing of that branch.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW03_0098, Belquorin Pharma, covering
+    hERG automated patch clamp on 32 compounds; The lipophilic cap carried an ion-channel liability, and Belquorin requested less basic replacements
+    rather than further testing of that branch.
   pilot: false
 - id: B-023
   unit: B
@@ -902,9 +898,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW20_0137, Rennelwick Institute
-    Drug Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability
-    work after the initial stability ranking proved consistent.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW20_0137, Rennelwick Institute Drug
+    Discovery Unit, covering HLM/RLM stability, RED PPB on 18 compounds; Rennelwick prioritised the less bound amides for permeability work after
+    the initial stability ranking proved consistent.
   pilot: false
 - id: B-024
   unit: B
@@ -931,9 +927,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW21_0240, Tervemere Pharma
-    AG, covering Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere
-    retained the polar substituents for the next design cycle.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW21_0240, Tervemere Pharma AG, covering
+    Primary potency assay, Selectivity sweep on 24 compounds; The revised hinge core reduced off-target activity and Tervemere retained the polar
+    substituents for the next design cycle.
   pilot: false
 - id: B-025
   unit: B
@@ -961,8 +957,8 @@ files:
   tier: haiku
   target_length: 4 sheets
   summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW24_0253, Avernelwick Pharmaceuticals
-    Ltd, covering HLM/RLM stability, RED PPB on 18 compounds; Low dialysis recovery confounded the first binding run; the repeat with
-    revised labware gave an interpretable free-fraction ranking.
+    Ltd, covering HLM/RLM stability, RED PPB on 18 compounds; Low dialysis recovery confounded the first binding run; the repeat with revised
+    labware gave an interpretable free-fraction ranking.
   pilot: false
 - id: B-026
   unit: B
@@ -990,8 +986,8 @@ files:
   tier: haiku
   target_length: 4 sheets
   summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW25_0600, Avernelwick Pharmaceuticals
-    Ltd, covering Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower
-    off-target fingerprint for its next medicinal chemistry round.
+    Ltd, covering Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower off-target
+    fingerprint for its next medicinal chemistry round.
   pilot: false
 - id: B-027
   unit: B
@@ -1018,9 +1014,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW25_0231, Tervemere Pharma
-    AG, covering hERG automated patch clamp on 32 compounds; The soluble-tail design reduced the channel signal and Tervemere resumed
-    exposure testing of the retained branch.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW25_0231, Tervemere Pharma AG, covering
+    hERG automated patch clamp on 32 compounds; The soluble-tail design reduced the channel signal and Tervemere resumed exposure testing of the
+    retained branch.
   pilot: false
 - id: B-028
   unit: B
@@ -1049,9 +1045,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW26_0401, Elvarmere Biosciences
-    AB, covering 5-isoform CYP panel on 40 compounds; The plate runs are complete and the repeat of a poorly recovered sample remains
-    open before the signed report can be released.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW26_0401, Elvarmere Biosciences AB,
+    covering 5-isoform CYP panel on 40 compounds; The plate runs are complete and the repeat of a poorly recovered sample remains open before
+    the signed report can be released.
   pilot: false
 - id: B-029
   unit: B
@@ -1080,9 +1076,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW26_0368, Quorenthel Pharma
-    GmbH, covering HLM/RLM stability, RED PPB on 18 compounds; Binding recovery has been reconciled, with the final stability repeat
-    queued after a delayed reference-control shipment.
+  summary: Run sheets with sample cards, controls, replicate measurements and accepted summary tables for BW26_0368, Quorenthel Pharma GmbH, covering
+    HLM/RLM stability, RED PPB on 18 compounds; Binding recovery has been reconciled, with the final stability repeat queued after a delayed reference-control
+    shipment.
   pilot: false
 - id: B-030
   unit: B
@@ -1111,9 +1107,9 @@ files:
   related: []
   tier: haiku
   target_length: 4 sheets
-  summary: Screen gate tracker with shipment receipt, plate allocation and unresolved repeat actions for BW25_0486, Farnovessa Medicines,
-    covering hERG automated patch clamp on 32 compounds; Farnovessa paused the screen while its nomination committee reviews a new efficacy
-    concern unrelated to the assay.
+  summary: Screen gate tracker with shipment receipt, plate allocation and unresolved repeat actions for BW25_0486, Farnovessa Medicines, covering
+    hERG automated patch clamp on 32 compounds; Farnovessa paused the screen while its nomination committee reviews a new efficacy concern unrelated
+    to the assay.
   pilot: false
 - id: B-031
   unit: B
@@ -1141,8 +1137,8 @@ files:
   related: []
   tier: haiku
   target_length: 9 slides
-  summary: Superseded Ellerscombe training slides on primary potency plate acceptance, control drift and rerun decisions, with handwritten
-    speaker-note reminders.
+  summary: Superseded Ellerscombe training slides on primary potency plate acceptance, control drift and rerun decisions, with handwritten speaker-note
+    reminders.
   pilot: false
 - id: B-032
   unit: B
@@ -1170,8 +1166,8 @@ files:
   related: []
   tier: haiku
   target_length: 9 slides
-  summary: Ellerscombe working copy of the Brindlewythe screening workflow deck, retaining obsolete sample-card routing and a duplicated
-    screen-gate diagram.
+  summary: Ellerscombe working copy of the Brindlewythe screening workflow deck, retaining obsolete sample-card routing and a duplicated screen-gate
+    diagram.
   pilot: false
 - id: B-033
   unit: B
@@ -1203,8 +1199,8 @@ files:
     rel: related
   tier: haiku
   target_length: 9 slides
-  summary: Ellerscombe annotated older readout of BW18_0225 for Feldorune Therapeutics BV, with hERG channel screen acceptance and the
-    strongly basic side-chain liability.
+  summary: Ellerscombe annotated older readout of BW18_0225 for Feldorune Therapeutics BV, with hERG channel screen acceptance and the strongly
+    basic side-chain liability.
   pilot: false
 - id: B-034
   unit: B
@@ -1230,11 +1226,11 @@ files:
   - mixed_units
   planted: []
   related: []
-  tier: haiku
+  tier: orchestrator
   target_length: 3 sheets
-  summary: Ellerscombe personal plate-capacity workbook with primary potency assay run slots, reference-control reservations and mixed
-    nM and µM planning annotations.
-  pilot: false
+  summary: Ellerscombe personal plate-capacity workbook with primary potency assay run slots, reference-control reservations and mixed nM and
+    µM planning annotations.
+  pilot: true
 - id: B-035
   unit: B
   root: archive
@@ -1291,8 +1287,8 @@ files:
   related: []
   tier: haiku
   target_length: 8 slides
-  summary: Brindlewythe training copy of the shared sample-receipt and chain-of-custody deck originally prepared at Merrivoss Bioanalysis
-    Inc, retaining the source firm footer on two slides and adding local sample-card routing.
+  summary: Brindlewythe training copy of the shared sample-receipt and chain-of-custody deck originally prepared at Merrivoss Bioanalysis Inc,
+    retaining the source firm footer on two slides and adding local sample-card routing.
   pilot: false
 - id: B-037
   unit: B
@@ -1318,8 +1314,8 @@ files:
   related: []
   tier: sol
   target_length: 12 slides
-  summary: Current Brindlewythe capability deck presenting Primary potency assay, Selectivity sweep, hERG automated patch clamp, 5-isoform
-    CYP panel and RED PPB with plate acceptance criteria and sample requirements.
+  summary: Current Brindlewythe capability deck presenting Primary potency assay, Selectivity sweep, hERG automated patch clamp, 5-isoform CYP
+    panel and RED PPB with plate acceptance criteria and sample requirements.
   pilot: false
 - id: B-038
   unit: B
@@ -1347,8 +1343,8 @@ files:
   related: []
   tier: haiku
   target_length: 3 sheets
-  summary: Draft local price list for hERG channel screen, 5-isoform CYP panel and Selectivity sweep with GBP volume bands, unresolved
-    repeat-charge cells and reviewer comments.
+  summary: Draft local price list for hERG channel screen, 5-isoform CYP panel and Selectivity sweep with GBP volume bands, unresolved repeat-charge
+    cells and reviewer comments.
   pilot: false
 - id: B-039
   unit: B
@@ -1375,9 +1371,9 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: Quotation with scope, GBP price, shipment assumptions and acceptance terms for BW26_0401, Elvarmere Biosciences AB, covering
-    5-isoform CYP panel on 40 compounds; The plate runs are complete and the repeat of a poorly recovered sample remains open before
-    the signed report can be released.
+  summary: Quotation with scope, GBP price, shipment assumptions and acceptance terms for BW26_0401, Elvarmere Biosciences AB, covering 5-isoform
+    CYP panel on 40 compounds; The plate runs are complete and the repeat of a poorly recovered sample remains open before the signed report can
+    be released.
   pilot: false
 - id: B-040
   unit: B
@@ -1404,8 +1400,8 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: 'Quotation for BW24_0330, Rennelwick Institute Drug Discovery Unit: 5-isoform CYP panel on 40 compounds at GBP 11700; Rennelwick
-    moved the screening work to its newly commissioned internal laboratory before accepting the quotation.'
+  summary: 'Quotation for BW24_0330, Rennelwick Institute Drug Discovery Unit: 5-isoform CYP panel on 40 compounds at GBP 11700; Rennelwick moved
+    the screening work to its newly commissioned internal laboratory before accepting the quotation.'
   pilot: false
 - id: B-041
   unit: B
@@ -1432,8 +1428,8 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: 'Quotation for BW25_0273, Belquorin Pharma: HLM/RLM stability, RED PPB on 18 compounds at GBP 17500; Belquorin has left the
-    quotation unanswered while its programme team settles the next compound shipment.'
+  summary: 'Quotation for BW25_0273, Belquorin Pharma: HLM/RLM stability, RED PPB on 18 compounds at GBP 17500; Belquorin has left the quotation
+    unanswered while its programme team settles the next compound shipment.'
   pilot: false
 - id: B-042
   unit: B
@@ -1462,8 +1458,8 @@ files:
   related: []
   tier: sol
   target_length: 14 pages
-  summary: 'Unaccepted working quotation for BW24_0097, Avernelwick Pharmaceuticals Ltd: 5-isoform CYP panel on 40 compounds at GBP
-    14300, annotated as withdrawn before any screening plates were run.'
+  summary: 'Unaccepted working quotation for BW24_0097, Avernelwick Pharmaceuticals Ltd: 5-isoform CYP panel on 40 compounds at GBP 14300, annotated
+    as withdrawn before any screening plates were run.'
   pilot: false
 - id: B-043
   unit: B
@@ -1490,8 +1486,8 @@ files:
   related: []
   tier: sol
   target_length: 5 pages
-  summary: Scanned signed quotation for BW01_0059, Quorenthel Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds
-    at GBP 10700, with faint signature ink and a received stamp.
+  summary: Scanned signed quotation for BW01_0059, Quorenthel Pharma GmbH, covering Primary potency assay, Selectivity sweep on 24 compounds at
+    GBP 10700, with faint signature ink and a received stamp.
   pilot: false
 - id: B-044
   unit: B
@@ -1518,8 +1514,8 @@ files:
   related: []
   tier: sol
   target_length: 5 pages
-  summary: Scanned signed quotation for BW03_0098, Belquorin Pharma, covering hERG automated patch clamp on 32 compounds at GBP 8500,
-    with faint signature ink and a received stamp.
+  summary: Scanned signed quotation for BW03_0098, Belquorin Pharma, covering hERG automated patch clamp on 32 compounds at GBP 8500, with faint
+    signature ink and a received stamp.
   pilot: false
 - id: B-045
   unit: B
@@ -1575,8 +1571,8 @@ files:
     rel: export_of
   tier: script
   target_length: 9 pages
-  summary: PDF export of the BW25_0600 client readout for Avernelwick Pharmaceuticals Ltd, preserving the accepted Primary potency assay
-    and Selectivity sweep ranking slides.
+  summary: PDF export of the BW25_0600 client readout for Avernelwick Pharmaceuticals Ltd, preserving the accepted Primary potency assay and Selectivity
+    sweep ranking slides.
   pilot: false
 - id: B-047
   unit: B
@@ -1604,8 +1600,7 @@ files:
     rel: export_of
   tier: script
   target_length: 12 pages
-  summary: PDF export of the current Brindlewythe screening capability deck, preserving its sample requirements and plate acceptance
-    slides.
+  summary: PDF export of the current Brindlewythe screening capability deck, preserving its sample requirements and plate acceptance slides.
   pilot: false
 - id: B-048
   unit: B
@@ -1631,9 +1626,8 @@ files:
   related: []
   tier: sol
   target_length: 18 pages
-  summary: Brindlewythe service catalogue defining Primary potency assay, Selectivity sweep, hERG automated patch clamp, 5-isoform CYP
-    panel, 3A4 concentration response, HLM/RLM stability and RED PPB, including acceptance controls, sample requirements and interpretation
-    limits.
+  summary: Brindlewythe service catalogue defining Primary potency assay, Selectivity sweep, hERG automated patch clamp, 5-isoform CYP panel,
+    3A4 concentration response, HLM/RLM stability and RED PPB, including acceptance controls, sample requirements and interpretation limits.
   pilot: false
 - id: B-049
   unit: B
@@ -1717,6 +1711,6 @@ files:
   related: []
   tier: haiku_low
   target_length: 1 page
-  summary: Near-empty native PDF sample-card placeholder saved as Scan_0043, with a blank reverse page and only a faint Brindlewythe
-    received stamp.
+  summary: Near-empty native PDF sample-card placeholder saved as Scan_0043, with a blank reverse page and only a faint Brindlewythe received
+    stamp.
   pilot: false
