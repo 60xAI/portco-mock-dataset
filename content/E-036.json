@@ -1,0 +1,397 @@
+{
+  "family": "document",
+  "summary": "Abandoned closeout draft for the Esmervane Pharmaceuticals EP-7 capsule ICH chamber programme. Records the initial pull and cancellation instruction; later pulls were not performed and no final stability or shelf-life conclusion was issued.",
+  "properties": {
+    "title": "WA/2024/314 EP-7 closeout"
+  },
+  "header": "Westravelle Analytical Ltd, a Tarnovell company",
+  "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "WA/2024/314 EP-7 closeout",
+    "subtitle": "DRAFT | Unreleased | Work stopped",
+    "lines": [
+      "Client: Esmervane Pharmaceuticals",
+      "LIMS: {{PRJ0104:lims_id}}",
+      "Prepared by: Dr A. Penrose",
+      "Draft date: 03 Dec 2024"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Status and initial analytical observation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Esmervane Pharmaceuticals terminated the EP-7 formulation following a clinical strategy change and authorised closure of the remaining Stability pulls. This draft records the initial observation and the boundary of work performed under {{PRJ0104:project_id}}. It has not passed the report release gate and is not a final stability report."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0104:stability",
+            "max_rows": 1,
+            "caption": "Table 1 Initial pull only; assay as percent label claim and impurities as area percent"
+          }
+        },
+        {
+          "p": "The initial assay was {{PRJ0104:stability.t0_assay}} percent label claim. The observation applies to the initial pull only. It does not establish change with time, comparability between conditions or a shelf-life interval."
+        },
+        {
+          "p": "Cancellation is a programme decision and shall not be recorded as analytical compliance at unperformed timepoints."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Protocol identity and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Entry"
+            ],
+            "rows": [
+              [
+                "Protocol",
+                "{{PRJ0104:project_id}}"
+              ],
+              [
+                "Accession",
+                "{{PRJ0104:lims_id}}"
+              ],
+              [
+                "Client",
+                "Esmervane Pharmaceuticals"
+              ],
+              [
+                "Material",
+                "EP-7 capsules"
+              ],
+              [
+                "Programme",
+                "ICH chamber programme"
+              ],
+              [
+                "Protocol lead",
+                "Alice Penrose"
+              ],
+              [
+                "Stability coordination",
+                "Leon Wu"
+              ],
+              [
+                "Method oversight",
+                "Saira Mahmood"
+              ],
+              [
+                "Start",
+                "29 Oct 2024"
+              ],
+              [
+                "Interim checkpoint",
+                "19 Nov 2024"
+              ],
+              [
+                "Final completion",
+                "Not issued; protocol cancelled"
+              ]
+            ],
+            "caption": "Table 2 Protocol identity"
+          }
+        },
+        {
+          "p": "Start and interim dates identify the administrative chronology. They do not by themselves demonstrate a storage interval or a completed pull. Executed observations must remain linked to the batch card, chamber entry and sequence sheet."
+        },
+        {
+          "p": "This draft was opened on 03 Dec 2024 to preserve the cancellation boundary. The final report number and approval date have not been allocated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Material custody and initial pull",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "EP-7 capsules were assigned to {{PRJ0104:lims_id}} for the ICH chamber programme. The accession identifies the material trail; it does not replace stability lot identity, container identity or placement location on the batch card."
+        },
+        {
+          "p": "The initial observation is the only numerical pull represented here. Receipt, preparation and allocation references remain to be collated before a controlled archival closeout can be signed."
+        },
+        {
+          "table": {
+            "columns": [
+              "Custody element",
+              "Closeout entry"
+            ],
+            "rows": [
+              [
+                "Stability lot",
+                "[TBC: signed batch-card identity]"
+              ],
+              [
+                "Container allocation",
+                "[TBC: allocation reference]"
+              ],
+              [
+                "Chamber placement",
+                "[TBC: placement inventory]"
+              ],
+              [
+                "Initial retrieval / preparation",
+                "[TBC: signed entry]"
+              ],
+              [
+                "Remaining material",
+                "Disposition not reconciled in this draft"
+              ]
+            ],
+            "caption": "Table 3 Custody references"
+          }
+        },
+        {
+          "p": "The cancellation instruction does not mark containers as destroyed or returned. Physical disposition requires its own authority and signed custody entry."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Analytical documentation and release boundary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assay and related-substances observations belong to the applicable sequence sheet and raw-data trail. Saira Mahmood is the technical closeout contact. Preserve the method version used at execution rather than substituting a later template revision."
+        },
+        {
+          "table": {
+            "columns": [
+              "Element",
+              "Draft status"
+            ],
+            "rows": [
+              [
+                "Method / revision",
+                "[TBC: executed method]"
+              ],
+              [
+                "Sequence sheet",
+                "[TBC: initial sequence]"
+              ],
+              [
+                "System suitability",
+                "[TBC: acceptance review]"
+              ],
+              [
+                "Raw-data location",
+                "[TBC: controlled reference]"
+              ],
+              [
+                "Independent check",
+                "Signature not incorporated"
+              ],
+              [
+                "Report release gate",
+                "Not completed"
+              ]
+            ],
+            "caption": "Table 4 Evidence index"
+          }
+        },
+        {
+          "p": "The initial entry does not certify that calculations, system suitability and traceability have been checked for report issue. No trend fit, degradation rate or projection is calculated from this initial observation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Cancellation instruction",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Esmervane Pharmaceuticals authorised closure of remaining pulls after terminating the formulation for a clinical strategy change. This stops the scheduled analytical programme. It neither changes the initial observation nor creates a final stability conclusion."
+        },
+        {
+          "p": "Leon Wu is to retain the schedule with cancellation visible. Outstanding retrieval entries must be distinguished from completed pulls; cancelled entries must not receive passing results."
+        },
+        {
+          "table": {
+            "columns": [
+              "Instruction element",
+              "Entry"
+            ],
+            "rows": [
+              [
+                "Reason",
+                "Formulation terminated after clinical strategy change"
+              ],
+              [
+                "Remaining pulls",
+                "Closure authorised by Esmervane Pharmaceuticals"
+              ],
+              [
+                "Correspondence",
+                "[TBC: cancellation instruction]"
+              ],
+              [
+                "Instruction date / recipient",
+                "[TBC: correspondence entry]"
+              ],
+              [
+                "Disposal authority",
+                "Not established in this draft"
+              ],
+              [
+                "Scientific conclusion",
+                "No final stability or shelf-life conclusion"
+              ]
+            ],
+            "caption": "Table 5 Cancellation boundary"
+          }
+        },
+        {
+          "p": "Outstanding: attach the instruction and reconcile its scope against chamber inventory. Material-disposition questions remain open."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Unperformed timepoints and schedule closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Scheduled pulls after the initial observation remain unperformed in this closeout. Identify them as cancelled following the client instruction, rather than missing measurements suitable for interpolation."
+        },
+        {
+          "table": {
+            "columns": [
+              "Component",
+              "Execution status",
+              "Closeout action"
+            ],
+            "rows": [
+              [
+                "Initial pull",
+                "Initial observation retained",
+                "Link signed evidence"
+              ],
+              [
+                "Subsequent planned pulls",
+                "Not performed following cancellation",
+                "Annotate schedule with instruction"
+              ],
+              [
+                "Final assessment",
+                "Not performed",
+                "No final trend or shelf-life assessment"
+              ],
+              [
+                "Remaining inventory",
+                "Open",
+                "Collate container-level disposition"
+              ]
+            ],
+            "caption": "Table 6 Programme closure"
+          }
+        },
+        {
+          "p": "Do not populate later timepoints from planning entries or carry the initial assay forward. The initial interval and condition remain the limits of the analytical statement."
+        },
+        {
+          "p": "Restarting testing would require a new written scope, confirmation of custody and assessment of intervening storage. It is not authorised by this draft."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Open closeout actions",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Action",
+              "Responsible function",
+              "Evidence required"
+            ],
+            "rows": [
+              [
+                "Collate client instruction",
+                "Head of Analytical Services",
+                "Correspondence and scope"
+              ],
+              [
+                "Reconcile containers",
+                "Stability Coordinator",
+                "Signed batch card and inventory"
+              ],
+              [
+                "Index initial analytical evidence",
+                "QC Method Validation Lead",
+                "Method, sequence and raw-data links"
+              ],
+              [
+                "Assess open departures",
+                "QA Officer",
+                "Deviation-note disposition"
+              ],
+              [
+                "Determine archive release",
+                "Head of Analytical Services and QA",
+                "Approved closeout boundary"
+              ]
+            ],
+            "caption": "Table 7 Unfinished actions"
+          }
+        },
+        {
+          "p": "This register records unfinished work and does not certify completion. No recipient copy has been authorised. Retain this file in the unreleased location until evidence and disposition are settled."
+        },
+        {
+          "p": "QA review entry: [TBC]"
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Final stability conclusion",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "heading": "9 Approval and issue",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "heading": "10 Retained-material disposition",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "heading": "11 Working closeout note",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "03 Dec 2024 — Alice Penrose: initial result retained; cancellation scope to be attached. No final stability or shelf-life statement. TODO: Leon to reconcile the remaining chamber entries and"
+        }
+      ]
+    }
+  ],
+  "signature_block": [],
+  "orientation": "portrait"
+}
