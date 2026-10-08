@@ -1,67 +1,209 @@
-{"family": "workbook",
- "summary": "Approved sequence sheets for IS-3 tablets (WA/2018/082) for Istravune Biosciences: twenty-four-month ICH stability pulls, method validation summary and the shelf-life review. The long-term trend supported Istravune's proposed shelf life, and the method remained suitable through the final pull. Project and LIMS numbers remain local.",
- "properties": {"title": "IS3 pulls and suitability results Rev03"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-     [{"v": "Westravelle Analytical Ltd, a Tarnovell company", "bold": true}],
-     [{"v": "Istravune IS-3 tablets: twenty-four-month ICH programme", "bold": true}],
-     [],
-     ["Project", {"ref": "PRJ0091:project_id"}],
-     ["LIMS reference", {"ref": "PRJ0091:lims_id"}],
-     ["Client", "{{PRJ0091:client_variant}}"],
-     ["Protocol lead", "Dr A. Penrose"],
-     ["Prepared by", "Dr L. Wu"],
-     ["Start / completion", "30 Apr 2018", "30 Apr 2020"],
-     [],
-     ["1. Scope"],
-     ["Twenty-four-month ICH stability of IS-3 tablets, with the HPLC assay and related-substances method qualified before the first pull. Pulls to 24 months; interim review completed 30 Apr 2019."],
-     [],
-     ["2. Result"],
-     ["Assay at time zero was {{PRJ0091:stability.t0_assay}} % label claim. The long-term trend supports the proposed shelf life. The method remained suitable through the final pull. Conclusions are limited to the tested interval."],
-     [],
-     ["3. Sheets"],
-     ["Pulls", "Stability results and assay chart"],
-     ["Method", "Method validation summary"],
-     ["Review", "Shelf-life review and sign-off"]
-   ],
-   "col_widths": {"A": 24, "B": 30, "C": 22},
-   "merged": ["A1:C1"]
+{
+  "family": "workbook",
+  "summary": "Approved sequence sheets for IS-3 tablets (WA/2018/082) for Istravune Biosciences: twenty-four-month ICH stability pulls, method validation summary and the shelf-life review. The long-term trend supported Istravune's proposed shelf life, and the method remained suitable through the final pull. Project and LIMS numbers remain local.",
+  "properties": {
+    "title": "IS3 pulls and suitability results Rev03"
   },
-  {"name": "Pulls",
-   "rows": [
-     [{"v": "Stability pulls: IS-3 tablets", "bold": true}],
-     ["Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pulls from the ICH chamber programme as recorded on the batch card."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0091:stability", "at": "A4"}],
-   "col_widths": {"A": 18, "B": 16, "C": 14, "D": 18, "E": 18, "F": 20, "G": 16, "H": 14},
-   "number_formats": {"C5:C24": "0.0", "F5:F24": "0.00"},
-   "freeze": "A5",
-   "chart": {"kind": "bar", "ref": "PRJ0091:stability", "column": 2, "title": "Assay (% LC) by pull"},
-   "chart_at": "J4"
-  },
-  {"name": "Method",
-   "rows": [
-     [{"v": "Method validation summary: assay and related substances", "bold": true}],
-     ["Validated before the first stability pull under the assay and related-substances validation protocol. Acceptance criteria as written in the protocol."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0091:method_val", "at": "A4"}],
-   "col_widths": {"A": 26, "B": 14, "C": 16}
-  },
-  {"name": "Review",
-   "rows": [
-     [{"v": "Shelf-life review", "bold": true}],
-     ["Long-term data at 25 °C/60% RH support the proposed shelf life to the final pull. Accelerated data follow the same trend and do not change the conclusion."],
-     ["The final pull was assayed against the same system suitability criteria as the first pull. The method was not changed over the programme."],
-     [],
-     ["Step", "By", "Date"],
-     ["Data review", "Dr L. Wu", "30 Apr 2020"],
-     ["Method review", "S. Mahmood", "30 Apr 2020"],
-     ["Approval", "Dr A. Penrose", "30 Apr 2020"]
-   ],
-   "col_widths": {"A": 22, "B": 90, "C": 16},
-   "comments": [{"cell": "A6", "text": "Istravune QA to be sent the signed copy with the shelf-life justification.", "author": "Alice Penrose"}]
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Westravelle Analytical Ltd, a Tarnovell company",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "Istravune IS-3 tablets: twenty-four-month ICH programme",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0091:project_id"
+          }
+        ],
+        [
+          "LIMS reference",
+          {
+            "ref": "PRJ0091:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0091:client_variant}}"
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ],
+        [
+          "Prepared by",
+          "Dr L. Wu"
+        ],
+        [
+          "Start / completion",
+          "30 Apr 2018",
+          "30 Apr 2020"
+        ],
+        [],
+        [
+          "1. Scope"
+        ],
+        [
+          "Twenty-four-month ICH stability of IS-3 tablets, with assay and related-substances qualification. Pulls to 24 months; interim review completed 30 Apr 2019."
+        ],
+        [],
+        [
+          "2. Result"
+        ],
+        [
+          "Assay at time zero was {{PRJ0091:stability.t0_assay}} % label claim. The long-term trend supports the proposed shelf life. The method remained suitable through the final pull. Conclusions are limited to the tested interval."
+        ],
+        [],
+        [
+          "3. Sheets"
+        ],
+        [
+          "Pulls",
+          "Stability results and assay chart"
+        ],
+        [
+          "Method",
+          "Method validation summary"
+        ],
+        [
+          "Review",
+          "Shelf-life review and sign-off"
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 30,
+        "C": 22
+      },
+      "merged": [
+        "A1:C1"
+      ]
+    },
+    {
+      "name": "Pulls",
+      "rows": [
+        [
+          {
+            "v": "Stability pulls: IS-3 tablets",
+            "bold": true
+          }
+        ],
+        [
+          "Assay as % label claim (HPLC). Impurities as % area. Water by Karl Fischer. Pulls from the ICH chamber programme as recorded on the batch card. Time zero is one initial analysis shared by all storage conditions; repeated initial rows do not represent separate pulls."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0091:stability",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 18,
+        "B": 16,
+        "C": 14,
+        "D": 18,
+        "E": 18,
+        "F": 20,
+        "G": 16,
+        "H": 14
+      },
+      "number_formats": {
+        "C5:C24": "0.0",
+        "F5:F24": "0.00"
+      },
+      "freeze": "A5",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0091:stability",
+        "column": 2,
+        "title": "Assay (% LC) by pull"
+      },
+      "chart_at": "J4"
+    },
+    {
+      "name": "Method",
+      "rows": [
+        [
+          {
+            "v": "Method validation summary: assay and related substances",
+            "bold": true
+          }
+        ],
+        [
+          "Assay and related-substances validation parameters and their acceptance criteria are summarised below."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0091:method_val",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 14,
+        "C": 16
+      }
+    },
+    {
+      "name": "Review",
+      "rows": [
+        [
+          {
+            "v": "Shelf-life review",
+            "bold": true
+          }
+        ],
+        [
+          "Long-term data at 25 °C/60% RH support the proposed shelf life within the tested interval. Intermediate data also extend to the final reported timepoint; accelerated results stop at six months and show greater impurity growth. All reported pulls comply."
+        ],
+        [
+          "The method validation parameters meet their stated acceptance criteria. The project review concluded that the method remained suitable through the final pull; sequence-specific checks remain in the approved sequence sheets."
+        ],
+        [],
+        [
+          "Review responsibility",
+          "Person"
+        ],
+        [
+          "Stability review",
+          "Dr L. Wu"
+        ],
+        [
+          "Method review",
+          "S. Mahmood"
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ]
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 90,
+        "C": 16
+      },
+      "comments": [
+        {
+          "cell": "A6",
+          "text": "Send the signed report with the shelf-life justification.",
+          "author": "Alice Penrose"
+        }
+      ]
+    }
+  ]
+}
