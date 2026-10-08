@@ -1,0 +1,145 @@
+{
+  "family": "deck",
+  "summary": "Final TP04 cardiac and CYP readout for Tervemere Pharma AG. Improved ion-channel behaviour supports continued consideration, while residual CYP inhibition narrows the test article set taken into exposure studies.",
+  "properties": {
+    "title": "TP04: cardiac and CYP follow-up",
+    "subject": "Final TP04 cardiac and CYP readout for Tervemere Pharma AG. Improved ion-channel behaviour supports continued consideration, while residual CYP inhibition narrows the test article set taken into exposure studies.",
+    "keywords": "Merrivoss; DMPK; matrix acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "TP04: cardiac and CYP follow-up",
+      "subtitle": "MV-2024-358 | Tervemere Pharma AG\n12/19/2024 | Priya Nandekuri | Final R1\nMerrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Assay context before the exposure gate",
+      "bullets": [
+        "{{PRJ0004:n_compounds}} aminopyrazolopyrimidine articles; accession {{PRJ0004:lims_id}}.",
+        "IKr inhibition: cellular electrophysiology.",
+        "Five-isoform DDI screen: human liver microsomes at 10 µM.",
+        "CYP3A4 inhibition curves: midazolam 1′-hydroxylation."
+      ],
+      "notes": "This is an in vitro study. No rat exposure results are reported; the exposure gate is a subsequent decision.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance and reference response",
+      "bullets": [
+        "E-4031 reference: {{PRJ0004:herg.control_e4031_nM}} nM.",
+        "CYP3A4 reference: {{PRJ0004:cyp.control_CYP3A4_uM}} µM; historical comparator {{PRJ0004:cyp.hist_CYP3A4_uM}} µM.",
+        "IKr flagged articles: {{PRJ0004:herg.n_flagged}}.",
+        "Helen Marchwood owns bioanalytical quality; Javier Quintana owns the mass-spectrometry workstream."
+      ],
+      "notes": "Historical values are comparators, not newly defined acceptance limits. Individual observations retain their matrix acceptance context.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "IKr inhibition | geometric mean IC50 (µM)",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0004:herg",
+        "column": 4,
+        "title": "IKr inhibition | geometric mean IC50 (µM)"
+      },
+      "notes": "Top concentration {{PRJ0004:herg.top_conc_uM}} µM. Censored values retain their bounds in the table; a plotted boundary is not a fitted IC50.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "IKr result distribution",
+      "bullets": [
+        "Below 1 µM: {{PRJ0004:herg.n_lt_1uM}}.",
+        "From 1 to 10 µM: {{PRJ0004:herg.n_1_10uM}}; at least 10 µM: {{PRJ0004:herg.n_ge_10uM}}.",
+        "Median IC50: {{PRJ0004:herg.median_ic50_uM}} µM; censored observations: {{PRJ0004:herg.n_censored}}.",
+        "The revised test article set showed improved ion-channel behaviour."
+      ],
+      "notes": "These bins describe the current set. They do not establish a safety margin without unbound exposure estimates.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "TP04 | representative aminopyrazolopyrimidines",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0004",
+        "n": 6
+      },
+      "notes": "Representative structures; display order is not a progression ranking.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Five-isoform DDI screen | CYP3A4 inhibition (%)",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0004:cyp_inhib",
+        "column": 5,
+        "title": "Five-isoform DDI screen | CYP3A4 inhibition (%)"
+      },
+      "notes": "Human liver microsomes at 10 µM. A single concentration does not define an IC50. Review the complete isoform panel before selection.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Residual CYP inhibition remains the constraint",
+      "bullets": [
+        "Any isoform above 50% inhibition: {{PRJ0004:cyp.n_any_gt50}} articles.",
+        "Above 50%: CYP1A2 {{PRJ0004:cyp.n_gt50_CYP1A2}}; CYP2C9 {{PRJ0004:cyp.n_gt50_CYP2C9}}; CYP2C19 {{PRJ0004:cyp.n_gt50_CYP2C19}}.",
+        "CYP2D6 {{PRJ0004:cyp.n_gt50_CYP2D6}}; CYP3A4 {{PRJ0004:cyp.n_gt50_CYP3A4}}.",
+        "CYP3A4 is the most frequently flagged isoform."
+      ],
+      "notes": "Isoform counts overlap; do not sum them to obtain an article count. This screen is not a clinical interaction prediction.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "CYP3A4 inhibition curves | IC50 (µM)",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0004:cyp_ic50",
+        "column": 1,
+        "title": "CYP3A4 inhibition curves | IC50 (µM)"
+      },
+      "notes": "Midazolam 1′-hydroxylation. Compare curve estimates with screen observations. Greater-than values remain bounds.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "CYP3A4 curve results | discussion excerpt",
+      "table": {
+        "table_ref": "PRJ0004:cyp_ic50",
+        "max_rows": 12
+      },
+      "notes": "{{PRJ0004:cyp3a4_ic50.n_tested}} tested; {{PRJ0004:cyp3a4_ic50.n_lt_1uM}} below 1 µM and {{PRJ0004:cyp3a4_ic50.n_lt_10uM}} below 10 µM. Complete tables: MV-2024-358_Report_121724_R1.pdf.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exposure gate: narrow the set",
+      "bullets": [
+        "Improved ion-channel behaviour supports continued consideration of the revised chemistry.",
+        "Residual CYP inhibition narrows the test article set taken into exposure studies.",
+        "Select using the combined IKr and isoform profile, retaining limits and assay context.",
+        "Tie any progression list to identifiers in the final report."
+      ],
+      "notes": "No clinical safety or interaction clearance is inferred. No unsupported count of advancing articles is assigned.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final handoff | 12/19/2024",
+      "bullets": [
+        "Priya Nandekuri: carry the combined cardiac and CYP assessment into the exposure gate.",
+        "Javier Quintana and Helen Marchwood: retain analytical and matrix acceptance traceability.",
+        "Final record: MV-2024-358; {{PRJ0004:lims_id}}.",
+        "Use the final report for full compound tables and methods."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
