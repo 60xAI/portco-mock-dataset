@@ -1,0 +1,603 @@
+{
+  "family": "document",
+  "summary": "Final approved analytical report for WA/2024/211, Aldrevessa Therapeutics: AT-22 tablets. Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven impurity increase. Numerical results, batch traceability, system suitability and interpretation limits are retained together.",
+  "properties": {
+    "title": "WA/2024/211 QA-approved report"
+  },
+  "header": "Westravelle Analytical Ltd, a Tarnovell company | WA/2024/211",
+  "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "AT-22 tablets: approved analytical report",
+    "subtitle": "ICH chamber programme and Assay and related-substances validation",
+    "lines": [
+      "Report no. E-R-2025-211-01",
+      "Project: WA/2024/211 | LIMS: WST-24-006564",
+      "Client: Aldrevessa Therapeutics",
+      "Protocol interval: 22 Jul 2024 to 22 Jul 2025",
+      "Report date: 24 Jul 2025",
+      "Author: Dr A. Penrose | Head of Analytical Services",
+      "Status: Final, QA-approved"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and principal evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Aldrevessa selected the coated tablet after the uncoated comparator showed a humidity-driven impurity increase."
+        },
+        {
+          "p": "The following tables preserve the approved numerical data, units, result qualifiers and acceptance entries. They are read with batch-card identity, preparation and system suitability information. The scientific interpretation and client action are developed in the numbered sections."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0097:stability",
+            "caption": "Table 1. Approved stability results; units and qualifiers retained."
+          }
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0097:method_val",
+            "caption": "Table 2. Assay and related-substances validation."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Report authority",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This approved report is addressed to Aldrevessa Therapeutics. Alice Penrose is responsible for scientific interpretation and release. Leon Wu maintains the sample and storage links; Saira Mahmood maintains the analytical method and system suitability links. The accession WST-24-006564 connects analytical preparations to batch cards, without replacing the client stability lot identity."
+        },
+        {
+          "p": "The signed report is the reporting copy. Sequence sheets, storage logs and original chromatographic files remain supporting material. An extract must retain the condition, timepoint, units and result qualifiers. Client decisions are distinguished from analytical findings in the conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Protocol objective",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The work concerns AT-22 tablets supplied for Aldrevessa Therapeutics, under WA/2024/211. Testing opened on 22 Jul 2024, the interim review was dated 20 Jan 2025, and analytical completion was recorded on 22 Jul 2025. The objective was to establish the analytical basis for the stated client decision."
+        },
+        {
+          "p": "Source material, exposure and preparation route belong to the result. A difference between analytical preparations is not automatically a difference between formulations. Investigative observations are discussed separately from accepted tabulated results. No extrapolated result is inserted into the reporting table."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Source-material traceability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The source chain begins with receipt and client stability lot description, continues through the batch card and withdrawal, and ends with the sequence sheet and approved result. Each preparation is linked to its source container. WST-24-006564 is the accession anchor for this chain."
+        },
+        {
+          "p": "The report does not create alternative stability lot numbers as free-text aliases. The source identifier remains on the batch card. A storage-condition label alone is insufficient evidence of sample identity. Source identity was reconciled before analytical trends were considered."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Receipt and custody",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Product description, container state and accompanying instructions were entered against WST-24-006564. The custody trail distinguishes material reserved for the protocol from material removed for analysis. Handling after withdrawal is recorded because bench exposure can affect interpretation of a humidity comparison."
+        },
+        {
+          "p": "Retained material remains identifiable to its source container. A preparation remainder is not returned to that container. An investigative retained sample requires its exposure history to be established before comparison with scheduled material. The report assigns no unrecorded exposure history to a result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Batch-set allocation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The batch set was managed so that source material, analytical preparations and reference preparations remained distinct. Client stability lot identities are carried on the batch cards. The sequence identifies the preparation used for each injection and its applicable exposure or challenge condition."
+        },
+        {
+          "p": "A fresh preparation examines extraction or handling, whereas reinjection examines an existing solution. These operations answer different questions and are not pooled merely because they share an accession. Subsamples from a container are not counted as independently manufactured stability lots."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Analytical responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Alice Penrose reviewed interpretation against the protocol objective. Leon Wu reconciled storage and withdrawal information. Saira Mahmood checked analytical sequences and system suitability disposition. Mark Campbell reviewed report-to-source links for the approved copy."
+        },
+        {
+          "p": "Approval does not replace contemporaneous analyst entries. Corrections remain attributable on their sequence sheets and original analytical files remain available. Scientific review asks whether the evidence supports the conclusion; quality review establishes faithful reporting and traceability without creating missing numerical evidence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Presentation comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Coated AT-22 tablets and an uncoated comparator were considered within the project batch set. Coating state belonged to the source-material description, not a newly assigned analytical lot. Source-container links remained on batch cards."
+        },
+        {
+          "p": "The selection concerned the tested tablet presentation. Coating, packaging and exposure should remain distinguishable. Not every preparation difference can be presumed to arise from coating alone."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Pull chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme began on 22 Jul 2024, with interim review on 20 Jan 2025 and completion on 22 Jul 2025. Leon Wu maintained the chamber withdrawal trail. The table preserves scheduled observations."
+        },
+        {
+          "p": "The selection follows completed protocol evidence. An interim observation is not described as a final decision. No later shelf-life or manufacturing conclusion is introduced."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Tablet extraction",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Coated and uncoated material was identified before preparation. Extraction entries allow handling differences to be separated from storage response. Coating state remained linked to each source preparation."
+        },
+        {
+          "p": "Suitable chromatography does not replace sample-identity controls. The batch-card reconciliation is essential even for an accepted sequence. Qualification alone cannot resolve incorrectly labelled source material."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Assay preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Test solutions were prepared from identified source material using the protocol extraction and dilution route. Weighing, transfer, dissolution and dilution entries remain on the sequence sheet. Preparations were protected from avoidable evaporation and contamination while awaiting injection."
+        },
+        {
+          "p": "Assay is expressed as percent label claim. The reference basis and dilution factors belong to the calculation. The report does not silently convert assay into a dry-weight result or correct it for water. Reported values are those in the approved numerical table."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Related-substances measurement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Related substances are reported as area percent under the applicable chromatographic method. Integration settings, peak assignment and approved qualifiers accompany the analytical sequence. Retention position assists comparison but is not, by itself, proof of chemical identity."
+        },
+        {
+          "p": "An investigative reprocessing remains linked to its reason and does not overwrite original integration history. A less-than entry is not replaced by zero. Individual impurities and total impurities are read in their stated units rather than treated as an assay deficit."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Reference-material control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reference preparations are identified separately from test preparations. Their batch cards retain the material basis applicable to the calculation. Preparation and use are linked to the analytical sequence, so a visible reference peak is not alone evidence of a valid calibration."
+        },
+        {
+          "p": "A reference used for peak assignment has a different role from one used for assay calibration. An investigative addition to a sample is not automatically its quantitative result. Reference-only, sample-only and combined preparations are interpreted according to the question being investigated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Sequence design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The sequence sheet separates blanks, reference, system suitability and test preparations. Injection order is retained so a sample can be related to its surrounding controls. Sequence completion does not itself establish analytical acceptance."
+        },
+        {
+          "p": "Blanks support assessment of interference and carry-over; bracketing reference preparations support response review. An unexpected signal is assessed against preparation history and injection position. A repeat sequence retains its own identity and link to the original. Rejected measurements are not averaged into accepted results."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 System suitability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "System suitability is a release gate for an analytical sequence. Method-defined checks are applied before sample calculations are accepted. Reference response and the separation relevant to impurity reporting are reviewed for the actual analytical question."
+        },
+        {
+          "p": "Detailed acceptance entries remain on the sequence sheets. This report does not invent numerical suitability values absent from the consolidated source. A sequence requiring investigation retains its initial disposition. Assay suitability cannot be presumed to establish suitability for a more demanding impurity assignment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Calculations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assay retains the percent label claim basis and related substances retain the area percent basis. Water, where tabulated, has its own mass basis. These quantities cannot be added or subtracted as interchangeable measurements. Rounding follows the controlled source table."
+        },
+        {
+          "p": "Missing measurements are not zero results and row status is not a numerical value. Comparisons require matched conditions and source links. The tables are reproduced from controlled project data, preserving qualifiers without manually introducing extra precision or derived result values."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Validation evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The validation table retains each parameter, result and acceptance entry. Assay and impurity calculations remain separate, on percent label claim and area percent bases respectively."
+        },
+        {
+          "p": "Qualification covers the tested AT-22 extraction and chromatographic scope. An altered coating, changed solvent or revised formulation is not described as already validated."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Humidity impurity question",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The uncoated comparator showed a humidity-driven impurity increase. The client considered this response in selecting the coated tablet. The question was an impurity response, not an assay fall used as a substitute for impurity evidence."
+        },
+        {
+          "p": "No chemical identity is invented beyond supplied analytical labels. No numerical coated-versus-uncoated contrast is manufactured from consolidated headings lacking coating state; those links remain in source sequence sheets."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Consolidated-table scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The stability table preserves condition, timepoint, assay, impurities, water and status. Rows are not relabelled as coated or uncoated where the supplied table has no presentation field."
+        },
+        {
+          "p": "The decision is reported from the project outcome and underlying comparator records. Preserving the numerical table prevents attribution of a particular row to a coating state without the batch-card link."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "20 Tablet selection",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Aldrevessa Therapeutics selected the coated tablet after the uncoated comparator showed a humidity-driven impurity increase. This is a client selection supported by the completed findings."
+        },
+        {
+          "p": "Changed coating composition or application is not automatically equivalent to the tested presentation. Source stability lot and process details remain relevant to later bridging work."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "21 Analytical boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Validation supports interpretation of measured assay and impurities. The comparator finding supports the presentation selection. Neither establishes behaviour outside the tested interval or for an unspecified future pack."
+        },
+        {
+          "p": "The conclusion is not a universal claim that coating prevents every moisture effect. It is the observed comparator response and resulting client decision, retained with method and identity controls."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "22 Selection release gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Handover should identify the coated presentation and retain the reason for setting aside the uncoated comparator. Batch cards and sequence sheets remain linked under WST-24-006564."
+        },
+        {
+          "p": "Further work should explicitly retain coating state in sample maps. This table is not recast into an unsupported presentation-specific dataset. A new comparison requires labelled source material and accepted results."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "23 Data handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Original chromatographic files, preparation entries and sequence sheets remain associated with WST-24-006564. The archive retains injection order, processing history and the relationship between a preparation and its reported result. A revised integration is distinguishable from the original."
+        },
+        {
+          "p": "Report assembly uses the approved project tables rather than a later working export. Investigative records are retained even when no reported result changes, because they explain the accepted interpretation. Additional analysis is treated as additional work rather than an undocumented alteration to this final report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "24 Interim and final review",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The interim review on 20 Jan 2025 was considered against the evidence then available. The final interpretation incorporates work completed by 22 Jul 2025. An observation, an investigated explanation and a client decision remain distinguishable."
+        },
+        {
+          "p": "Completion closes the reporting interval under WA/2024/211. It does not extend exposure or create a shelf-life claim. A receiving laboratory needs the preparation basis and suitability requirements from the controlled method rather than having to infer executable instructions from this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "25 Deviation-note disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Deviation notes distinguish a departure from the protocol from a product response during planned testing. An unfavourable result is not itself a procedural deviation. An acceptable result likewise does not cancel a documented handling departure."
+        },
+        {
+          "p": "Investigative measurements remain linked to the question prompting them. This report does not manufacture a chamber excursion, deviation number or repeat-test result absent from the source material. The disposition remains with the relevant sequence sheet and batch card; scientific consequences are discussed below."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "26 Comparison limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Source identity, preparation and exposure control the meaning of comparisons. Dissimilar conditions can inform interpretation but cannot be treated as replicate measurements. A condition-dependent response may support a handling instruction without establishing its chemical mechanism."
+        },
+        {
+          "p": "This report addresses AT-22 tablets within the completed interval. It does not certify a new supplier, changed manufacturing process, altered pack or untested environment. The recorded client action should retain the reason for the change in subsequent product documentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "27 Implementation controls",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Handover should preserve the approved method, reference basis, sample-preparation instructions and system suitability requirements. The receiving analyst must be able to link a result to its stability lot and exposure. A report table is insufficient as a stand-alone executable method."
+        },
+        {
+          "p": "A handling instruction must be reproducible and a sensitive method-preparation step must be explicit. Future changes should be assessed against the reason for the original decision, rather than accepted merely because the product name is unchanged. An altered configuration is not described as already tested."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "28 Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Aldrevessa Therapeutics selected coated AT-22 tablets after the uncoated comparator showed a humidity-driven impurity increase. Stability is reported through {{PRJ0097:stability.last_timepoint_months}} months with Assay and related-substances validation."
+        },
+        {
+          "p": "The conclusion concerns tested presentations and traceable records. It does not create a shelf-life extension or assign every consolidated row to a coating state."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "29 Archive index",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The reporting pair comprises this final report and AT22_PULLS_AND_SUITABILITY_RESULTS_Rev03.xlsx. Analytical completion was 22 Jul 2025; source records remain under WA/2024/211, accession WST-24-006564. Batch cards, exposure records and sequence sheets remain the authoritative detailed links."
+        },
+        {
+          "p": "The original project-year identifier is retained even where completion occurred in a later year. Branding follows the report date. A later commercial identity is not applied retrospectively to the reporting copy."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "30 Batch-card retrieval",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Retrieve the batch card using WST-24-006564, then confirm client stability lot and container before retrieving the sequence. Searching only by product name can return material from another exposure or preparation."
+        },
+        {
+          "p": "A result query should preserve the reported condition, timepoint and sequence identity. That trail distinguishes a material question from a processing question. This appendix is a retrieval guide, not a replacement batch card."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "31 Sequence-sheet retrieval",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The sequence sheet retains preparation entries, injection order, references and system suitability disposition. Retrieve the accepted original before comparing a reported value with an investigative reinjection."
+        },
+        {
+          "p": "Where reprocessing was used, retain original and revised processing links and the reason. A later working export cannot alone determine which preparation supplied the approved result. Qualifiers remain in any query response."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "32 Result-query routing",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Specify the report identifier, accession and affected row. Establish whether the concern is identity, exposure, preparation, integration, calculation or interpretation. Different questions require different records."
+        },
+        {
+          "p": "Alice Penrose handles interpretation, Leon Wu storage and material links, and Saira Mahmood method and sequence links. A response should preserve original units and limitations. A query does not authorize overwriting an approved result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "33 Controlled vocabulary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Protocol denotes the agreed programme; batch set the material grouping; sequence sheet the preparation and injection record; system suitability the analytical acceptance gate. Stability lot is source identity, not every new preparation."
+        },
+        {
+          "p": "A deviation note retains the issue and disposition. A release gate is an evidence-based decision point. Consistent vocabulary prevents storage, analytical acceptance and client action from being conflated in subsequent extracts."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "34 Units and qualifiers",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assay is percent label claim and related substances area percent. Chamber temperature, where applicable, uses °C. Water KF retains the table’s percent w/w basis. Headings belong to the result."
+        },
+        {
+          "p": "A qualified low-level entry is not an exact zero. Status remains with the row. No derived value from rounded data, retrospective water correction or new acceptance limit is introduced in this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "35 Handover record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The handover retains the approved protocol, method, numerical tables and client action under WA/2024/211. It should also retain preparation and reference instructions needed to interpret the findings."
+        },
+        {
+          "p": "Transfer of a report is not proof of receiving-site performance. Additional work needs its own source links, objective and acceptance disposition. The conclusion here stays within the completed interval."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "36 Reporting-copy closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This final copy closes the interval stated in the title block. It retains the principal evidence, analytical basis and client action. Supporting records remain associated with WA/2024/211 and WST-24-006564."
+        },
+        {
+          "p": "A future amendment identifies the affected reporting element and source basis. Revised instructions or selections are not silently inserted into this dated report. The signed conclusion remains limited to material and work completed here."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Alice Penrose",
+      "role": "Head of Analytical Services — scientific approval",
+      "date": "24 Jul 2025",
+      "signed": true
+    },
+    {
+      "name": "Leon Wu",
+      "role": "Stability Coordinator — material traceability",
+      "date": "24 Jul 2025",
+      "signed": true
+    },
+    {
+      "name": "Saira Mahmood",
+      "role": "QC Method Validation Lead — analytical review",
+      "date": "24 Jul 2025",
+      "signed": true
+    },
+    {
+      "name": "Mark Campbell",
+      "role": "QA Officer — reporting-copy approval",
+      "date": "24 Jul 2025",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [],
+  "comments": []
+}
