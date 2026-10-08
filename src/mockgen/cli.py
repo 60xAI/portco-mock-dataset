@@ -105,6 +105,40 @@ def cmd_golden(a):
     return 0
 
 
+def cmd_commit(a):
+    """Commit (and push) accepted files for the given ids under a repo-wide lock; safe with parallel agents."""
+    import subprocess
+    from filelock import FileLock
+    from . import manifest as Mf
+    from .paths import ROOT, STATE, CONTENT
+    from .render import out_path
+    es = Mf.entries_by_id()
+    paths = []
+    for i in a.file_ids:
+        e = es.get(i)
+        if not e:
+            print(f"unknown id {i}"); continue
+        for p in (CONTENT / f"{i}.json", out_path(e)):
+            if p.exists():
+                paths.append(str(p.relative_to(ROOT)))
+        for x in es.values():
+            if x.pdf_kind == "export" and any(r.id == i for r in x.related) and out_path(x).exists():
+                paths.append(str(out_path(x).relative_to(ROOT)))
+    if not paths:
+        print("nothing to commit"); return 1
+    with FileLock(str(STATE / "git.lock"), timeout=600):
+        subprocess.run(["git", "add", "--"] + paths, cwd=ROOT, check=True)
+        r = subprocess.run(["git", "commit", "-m", a.message or f"Content: {' '.join(a.file_ids)}", "--"] + paths, cwd=ROOT, capture_output=True, text=True)
+        print(r.stdout.strip().splitlines()[0] if r.stdout.strip() else r.stderr.strip()[:300])
+        if not a.no_push:
+            r = subprocess.run(["git", "push", "-q"], cwd=ROOT, capture_output=True, text=True)
+            if r.returncode:
+                subprocess.run(["git", "pull", "--rebase", "--autostash", "-q"], cwd=ROOT)
+                r = subprocess.run(["git", "push", "-q"], cwd=ROOT, capture_output=True, text=True)
+            print("pushed" if r.returncode == 0 else f"push failed: {r.stderr.strip()[:200]}")
+    return 0
+
+
 def cmd_export(a):
     from .archive import export
     print(export())
@@ -145,6 +179,8 @@ def main(argv=None):
     s = sub.add_parser("validate"); s.add_argument("--all", action="store_true", required=True); s.set_defaults(fn=cmd_validate)
     s = sub.add_parser("golden"); s.set_defaults(fn=cmd_golden)
     s = sub.add_parser("export"); s.set_defaults(fn=cmd_export)
+    s = sub.add_parser("commit"); s.add_argument("file_ids", nargs="+"); s.add_argument("-m", "--message"); s.add_argument("--no-push", action="store_true")
+    s.set_defaults(fn=cmd_commit)
 
     a = p.parse_args(argv)
     sys.exit(a.fn(a) or 0)
