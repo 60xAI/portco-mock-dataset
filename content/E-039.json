@@ -1,0 +1,135 @@
+{
+ "family": "scan",
+ "summary": "Signed chamber 04 temperature and humidity mapping certificate from September 2018, recording logger positions, acceptance checks against the mapping protocol and a hand-corrected probe serial number.",
+ "document": {
+  "family": "document",
+  "summary": "Signed chamber mapping certificate, ICH chamber programme, chamber 04",
+  "properties": {
+   "title": "CHAMBER_04_MAPPING_CERT_SIGNED"
+  },
+  "header": "Westravelle Analytical Ltd | Mapping certificate | Chamber 04",
+  "footer": "Westravelle Analytical Ltd | Confidential",
+  "title_block": {
+   "title": "Chamber 04 Temperature and Humidity Mapping Certificate",
+   "subtitle": "ICH chamber programme, post-installation mapping",
+   "lines": [
+    "Certificate no. E-M-2018-004",
+    "Date: 14/09/2018",
+    "Mapping protocol: MP-CH04-01, revision 2"
+   ]
+  },
+  "sections": [
+   {
+    "heading": "1 Purpose",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "This certificate records the temperature and relative humidity mapping of chamber 04 in the ICH chamber programme after the unit was moved to the Westfield Road laboratory and recommissioned. It confirms that the chamber holds its set points across the working volume before any stability pull is placed in it."
+     }
+    ]
+   },
+   {
+    "heading": "2 Chamber and set points",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "Chamber 04 was mapped at the 25 °C/60% RH and 40 °C/75% RH set points. The 30 °C/65% RH set point was not mapped for this certificate because it is not used for stability pulls until the next scheduled review."
+     },
+     {
+      "p": "Temperature and relative humidity were recorded with calibrated data loggers placed at the logger positions defined in the mapping protocol, covering the upper, middle and lower shelves at the front, centre and rear of the chamber, plus one logger at the door seal."
+     }
+    ]
+   },
+   {
+    "heading": "3 Acceptance criteria",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "Per protocol MP-CH04-01, the mapping passes when every logger stays within the set point tolerance for the full stabilised period, with no single reading outside the tolerance band after the first hour of the run. Spread between loggers is reported against the protocol limit and is not a separate pass criterion."
+     },
+     {
+      "list": [
+       "Temperature within the set point tolerance at all logger positions",
+       "Relative humidity within the set point tolerance at all logger positions",
+       "Door-seal logger reviewed against the centre logger for excursions on opening"
+      ],
+      "ordered": false
+     }
+    ]
+   },
+   {
+    "heading": "4 Results",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "All loggers met the acceptance criteria at both set points. The door-seal logger showed a short rise in humidity during the simulated door-opening step, recovering within the protocol recovery time. This is recorded as an observation and does not affect the pass result."
+     },
+     {
+      "p": "The mapping run was repeated once at 40 °C/75% RH after the first run was voided for a logger connection fault. The voided run is kept in the chamber file with the reason written against it."
+     }
+    ]
+   },
+   {
+    "heading": "5 Deviations",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "One deviation was raised against the logger record (see deviation note DN-2018-031). The serial number of the humidity probe at the rear upper position was entered incorrectly on the logger record sheet and corrected by hand on the original sheet, initialled and dated. The corrected serial number has been checked against the calibration certificate on file."
+     }
+    ]
+   },
+   {
+    "heading": "6 Conclusion",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "Chamber 04 is accepted for stability pulls at 25 °C/60% RH and 40 °C/75% RH from the date of this certificate. Re-mapping is due after any change to the refrigeration or humidification system, or after 12 months, whichever is sooner.",
+      "style": "bold"
+     }
+    ]
+   }
+  ],
+  "signature_block": [
+   {
+    "name": "Andrea Tucker",
+    "role": "Quality Assurance Manager",
+    "date": "14/09/2018",
+    "signed": true
+   },
+   {
+    "name": "Alice Penrose",
+    "role": "Head of Analytical Services",
+    "date": "14/09/2018",
+    "signed": true
+   }
+  ],
+  "appendices": [
+   {
+    "heading": "Appendix A Logger calibration reference",
+    "level": 1,
+    "blocks": [
+     {
+      "p": "Calibration certificates for the loggers used in this mapping are filed in the instrument folder for chamber 04. Certificate numbers are recorded on the logger record sheet.",
+      "style": "small"
+     }
+    ]
+   }
+  ],
+  "comments": [
+   {
+    "anchor": "The voided run is kept in the chamber file with the reason written against it.",
+    "text": "Check the chamber file reference before the certificate is issued.",
+    "author": "Alice Penrose"
+   }
+  ],
+  "orientation": "portrait"
+ },
+ "scan": {
+  "skew_deg": 0.6,
+  "noise": 0.25,
+  "blur": 0.5,
+  "stamp": "RECEIVED 17 SEP 2018",
+  "handwriting": "Serial corrected - AT 14/9",
+  "pages": null
+ }
+}
