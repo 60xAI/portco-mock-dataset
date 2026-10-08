@@ -1,0 +1,151 @@
+{
+  "family": "document",
+  "summary": "Abandoned WX-19 client-report draft for Wexanthel Medicines. It retains preliminary Vehicle ladder observations and empty selection sections because optimisation paused pending the flavour-panel decision.",
+  "properties": {
+    "title": "WX-19 paediatric suspension: preliminary development note — DRAFT"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "WX-19 paediatric suspension: preliminary development note — DRAFT",
+    "subtitle": "Abandoned development-note draft",
+    "lines": [
+      "Project {{PRJ0116:project_id}}",
+      "Accession {{PRJ0116:lims_id}}",
+      "Client: Wexanthel Medicines",
+      "Date: 02/13/2026",
+      "Prepared by: Julia Carver"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Draft status and work-package hold",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Wexanthel Medicines paused optimisation pending its flavour-panel decision. This development-note draft stops before vehicle selection. Physical stability samples remain under observation; the work package is on hold and has no completion date."
+        },
+        {
+          "p": "Julia Carver retained the preliminary physical-screen summary for {{PRJ0116:project_id}} / {{PRJ0116:lims_id}}. The note is incomplete and has not been approved for client issue. The observations below must not be represented as a final formulation recommendation."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0116:form_screen",
+            "caption": "Table 1. Preliminary Vehicle ladder; no vehicle selected."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Intended formulation question",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "WX-19 requires a paediatric suspension vehicle with practical preparation and redistribution. The formulation decision also depends on the flavour-panel outcome, which is pending. Physical handling alone cannot resolve that choice."
+        },
+        {
+          "p": "The current formulation set is exploratory. Neither the available appearance entries nor a favorable solubility ranking should be used to nominate a dosing recipe before the paused decision is revisited. TODO: integrate the flavour-panel decision when supplied."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Preliminary preparation context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Work began on 01/19/2026 and interim findings were discussed on 02/09/2026. Miguel Serrano’s preliminary Vehicle ladder uses nominal 10 mg/mL loading. Its entries describe equilibrium solubility, appearance and standing behavior, not a finished suspension specification."
+        },
+        {
+          "p": "The recipe-card and bench-sheet links remain under {{PRJ0116:lims_id}}. Lena Patel’s transfer instructions have not been completed because there is no selected vehicle to transfer. [TBC: preparation sequence for the eventual candidate.]"
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Available physical observations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The methylcellulose entry settled but remained redispersible. The HPMC/Tween 80 and cyclodextrin entries showed caking. All available entries were described as fine suspensions at initial loading."
+        },
+        {
+          "p": "These observations make redistribution a live development question. Caking cannot be dismissed because the preparation initially looked satisfactory. The table is a preliminary snapshot; ongoing observation of the retained samples has not been incorporated into a final trend assessment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Dose and flavour interface",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A change in flavour system may also change wetting or physical handling. The present note therefore keeps the physical screen separate from the pending formulation decision. The client’s pause prevents completion of the combined assessment."
+        },
+        {
+          "p": "Do not assume that a redispersible vehicle is acceptable for paediatric use from this screen alone. Excipient acceptability, flavour response and the intended dose presentation remain part of the decision to be supplied by Wexanthel Medicines. TODO: reconcile the eventual flavour choice with the physical formulation set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Retained samples and open work",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Physical stability samples remain under observation while optimisation is paused. Continue preserving formulation identity and observation history so later changes can be compared with this preliminary snapshot. This draft contains no completed extended-stability conclusion."
+        },
+        {
+          "p": "Open items: update the observation summary; determine whether the flavour decision changes the formulation set; agree the candidate recipe before preparing transfer instructions. No revised completion period has been entered."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Flavour-panel decision",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Vehicle selection and transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Conclusions — unfinished",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "[TBC: client flavour-panel decision.]"
+        },
+        {
+          "p": "TODO Julia: carry the new decision into the vehicle comparison before recommending a recipe. Need Miguel’s continued sample observations and Lena’s preparation handoff. Stop here pending client response."
+        }
+      ]
+    }
+  ],
+  "signature_block": [],
+  "orientation": "portrait"
+}
