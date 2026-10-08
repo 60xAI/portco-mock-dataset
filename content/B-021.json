@@ -1,60 +1,218 @@
-{"family": "workbook",
- "summary": "Run sheets for BW01_0059 (Quorenthel Pharma GmbH, QP07 aminopyrazine series 07): plate acceptance, primary kinase IC50 for all 24 compounds and the 16-kinase selectivity sweep at 1 µM on six of them. Accepted 18 May 2001 after the interim read on 27 April.",
- "properties": {"title": "BW01_0059 run sheets"},
- "sheets": [
-  {"name": "Summary", "start": "A1",
-   "rows": [
-    [{"v": "BW01_0059 run sheets: QP07 metabolic kinase potency and selectivity", "bold": true}],
-    ["Project", {"ref": "PRJ0032:project_id"}, "LIMS", {"ref": "PRJ0032:lims_id"}],
-    ["Client", "{{PRJ0032:client_variant}}"],
-    ["Series", "SER07, aminopyrazine, QP07 prefix"],
-    ["Compounds", {"ref": "PRJ0032:n_compounds"}, "Assays", "Primary potency assay; Selectivity sweep"],
-    [],
-    ["Run", "Date", "Sheet", "Checked by"],
-    ["Primary potency, read 1", "27/04/2001", "Plate acceptance and IC50 fit", "I. Alvarado"],
-    ["Selectivity sweep, final", "18/05/2001", "1 µM single-point panel", "I. Alvarado"],
-    [],
-    ["Reviewed by", "Dr R. Deshmukh", null, "18/05/2001"],
-    ["Outcome", "The primary potency ranking survived the selectivity counterscreen, and Quorenthel progressed the compact heteroaryl subset."]
-   ],
-   "col_widths": {"A": 26, "B": 22, "C": 30, "D": 22},
-   "merged": ["A1:D1"],
-   "comments": [{"cell": "B5", "text": "Series count matches the quote. Panel was run on six compounds only, not the full set.", "author": "Ines Alvarado"}]},
-  {"name": "Plate acceptance", "start": "A1",
-   "rows": [
-    ["Plate", "Read", "Compound block", "Top conc", "Staurosporine ref", "DMSO control", "Accepted", "Note"],
-    ["PA-01", "Interim", "QP07-08501 to 08512", "10 µM", "Within range", "Within range", "Yes", ""],
-    ["PA-02", "Interim", "QP07-08513 to 08524", "10 µM", "Within range", "Within range", "Yes", "Edge wells excluded, as per study plan"],
-    ["PA-03", "Final", "Full set re-read", "10 µM", "Within range", "Within range", "Yes", "Repeat read of PA-02 block"],
-    [],
-    ["Acceptance criteria as per study plan. Plates were not accepted on a single control alone; both the reference and the vehicle well had to be in range.", null, null, null, null, null, null, null],
-    [],
-    [{"v": "Plate acceptance: all three plates accepted for the final fit.", "bold": true}]
-   ],
-   "col_widths": {"A": 12, "B": 12, "C": 24, "D": 12, "E": 20, "F": 18, "G": 12, "H": 36},
-   "merged": ["A6:H6"],
-   "freeze": "A2",
-   "comments": [{"cell": "H3", "text": "Edge exclusion is the standard for this format, not a deviation. Recorded so the next reader does not query it.", "author": "Martin Ellerscombe"}]},
-  {"name": "Primary IC50", "start": "A1",
-   "rows": [
-    [{"v": "Primary potency assay: 10-point concentration response, ATP at Km", "bold": true}],
-    ["Replicate fits are on the run sheet. Hill slopes outside 0.7 to 1.5 were re-fitted with the top fixed at 100% before the value was accepted."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0032:kinase_primary", "at": "A4", "header": true}],
-   "freeze": "A5",
-   "col_widths": {"A": 18, "B": 14, "C": 12},
-   "number_formats": {"B5:B40": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0032:kinase_primary", "column": 1, "title": "Metabolic-signal kinase IC50 (nM)", "y_label": "IC50 (nM)"},
-   "chart_at": "F4",
-   "tab_color": "#1F4E79"},
-  {"name": "Selectivity", "start": "A1",
-   "rows": [
-    [{"v": "Selectivity sweep: % inhibition at 1 µM, six representative compounds", "bold": true}],
-    ["Selected for the sweep on the basis of primary potency and the compact heteroaryl subset. Readings above 50% flagged for follow-up."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0032:kinase_panel", "at": "A4", "header": true}],
-   "comments": [{"cell": "A4", "text": "Single-point only. Any kinase above 50% needs a concentration response before we say anything about it.", "author": "Ravi Deshmukh"}],
-   "tab_color": "#1F4E79"}
- ]}
+{
+  "family": "workbook",
+  "summary": "Run sheets for BW01_0059 (Quorenthel Pharma GmbH, QP07 aminopyrazine series 07): primary potency results for {{PRJ0032:n_compounds}} compounds and the selectivity sweep on the compounds named in the panel. Completed 18 May 2001; control and replicate records remain with the original run sheets.",
+  "properties": {
+    "title": "BW01_0059 run sheets"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Brindlewythe Biosciences Ltd\nBW01_0059 run sheets: QP07 metabolic kinase potency and selectivity",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          {
+            "ref": "PRJ0032:project_id"
+          },
+          "LIMS",
+          {
+            "ref": "PRJ0032:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0032:client_variant}}"
+        ],
+        [
+          "Series",
+          "SER07, aminopyrazine, QP07 prefix"
+        ],
+        [
+          "Compounds",
+          {
+            "ref": "PRJ0032:n_compounds"
+          },
+          "Assays",
+          "Primary potency assay; Selectivity sweep"
+        ],
+        [],
+        [
+          "Study stage",
+          "Date",
+          "Record"
+        ],
+        [
+          "Interim",
+          "27/04/2001",
+          "Primary potency and selectivity study"
+        ],
+        [
+          "Completion",
+          "18/05/2001",
+          "Final result tables"
+        ],
+        [],
+        [
+          "Lead",
+          "Dr B. Rowcroft"
+        ],
+        [
+          "Outcome",
+          "The primary potency ranking survived the selectivity counterscreen, and Quorenthel progressed the compact heteroaryl subset."
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 30,
+        "D": 22
+      },
+      "merged": [
+        "A1:D1"
+      ],
+      "comments": [
+        {
+          "cell": "B5",
+          "text": "The primary potency table covers the screening set; the selectivity table names the compounds assessed in the sweep.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Plate acceptance",
+      "start": "A1",
+      "rows": [
+        [
+          "Record",
+          "Location / reference",
+          "Note"
+        ],
+        [
+          "Sample cards",
+          "{{PRJ0032:lims_id}}",
+          "Use the compound identities in the result tables; refer to original sample cards for test-lot details."
+        ],
+        [
+          "Primary assay control",
+          "Original primary potency run sheets",
+          "Staurosporine control; plate-level acceptance records retained with the run."
+        ],
+        [
+          "Vehicle and replicate records",
+          "Original primary potency run sheets",
+          "Consult the original records for well allocation and replicate fits."
+        ],
+        [],
+        [
+          "Plate acceptance",
+          "Original run sheets",
+          "Review control acceptance before interpreting the primary potency or selectivity results."
+        ],
+        [],
+        [
+          {
+            "v": "Final result tables; source run sheets retain the plate-level audit trail.",
+            "bold": true
+          }
+        ]
+      ],
+      "col_widths": {
+        "A": 12,
+        "B": 12,
+        "C": 24,
+        "D": 12,
+        "E": 20,
+        "F": 18,
+        "G": 12,
+        "H": 36
+      },
+      "merged": [],
+      "freeze": "A2",
+      "comments": [
+        {
+          "cell": "B4",
+          "text": "Do not infer plate allocation or repeat history from the summary result tables.",
+          "author": "Ines Alvarado"
+        }
+      ]
+    },
+    {
+      "name": "Primary IC50",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Primary potency assay: 10-point concentration response, ATP at Km",
+            "bold": true
+          }
+        ],
+        [
+          "ATP at Km; 10-point, 3-fold concentration response. The table reports IC50 and Hill slope; replicate fits are retained with the original run sheets."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0032:kinase_primary",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 18,
+        "B": 14,
+        "C": 12
+      },
+      "number_formats": {
+        "B5:B40": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0032:kinase_primary",
+        "column": 1,
+        "title": "Metabolic-signal kinase IC50 (nM)",
+        "y_label": "IC50 (nM)"
+      },
+      "chart_at": "F4",
+      "tab_color": "#1F4E79"
+    },
+    {
+      "name": "Selectivity",
+      "start": "A1",
+      "rows": [
+        [
+          {
+            "v": "Selectivity sweep: % inhibition at 1 µM for the compounds named in the table",
+            "bold": true
+          }
+        ],
+        [
+          "Single-point inhibition supports screening follow-up; it does not establish off-target potency or mechanism."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0032:kinase_panel",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "comments": [
+        {
+          "cell": "A4",
+          "text": "Review concentration responses before assigning off-target potency to a single-point signal.",
+          "author": "Ravi Deshmukh"
+        }
+      ],
+      "tab_color": "#1F4E79"
+    }
+  ]
+}
