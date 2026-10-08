@@ -1,0 +1,84 @@
+{"family": "document",
+ "summary": "Group brand guidelines issued in January 2020 with the Tarnovell launch. They set the common palette, Arial typography, the group brand line and the confidentiality footer, and they fix the subsidiary brand lines for the five firms then in the group. Legacy client and study documents are explicitly not to be restyled.",
+ "properties": {"title": "Tarnovell brand guidelines v1"},
+ "header": "Tarnovell brand guidelines v1",
+ "footer": "Tarnovell Bioscience Group | Confidential",
+ "watermark": null,
+ "title_block": {"title": "Tarnovell Brand Guidelines", "subtitle": "Version 1 for group use", "lines": ["Report no. TG-HO-BRD-2020-001", "Date: 3 February 2020"]},
+ "sections": [
+  {"heading": "1 Purpose", "level": 1, "blocks": [
+    {"p": "The group now trades under one name. These guidelines explain how the Tarnovell Bioscience Group identity is applied to group material, how the subsidiary firms present themselves within it, and what happens to documents that were created before the launch."},
+    {"p": "They apply from 1 March 2020. Group templates have been updated to match and the old group letterhead should no longer be used.", "style": "note"}
+  ]},
+  {"heading": "2 Name and brand line", "level": 1, "blocks": [
+    {"p": "The group name is written as Tarnovell Bioscience Group in full on first use in any document. The short form Tarnovell is acceptable thereafter. The brand line is Tarnovell Bioscience Group and is not translated, abbreviated or combined with a firm name on the same line."},
+    {"p": "We do not use the word 'Ltd' or 'Inc' in the group brand line. Legal entity names stay in the footer of contracts and invoices, as they are today."}
+  ]},
+  {"heading": "3 Logo and clear space", "level": 1, "blocks": [
+    {"p": "The master logo is the wordmark with the thin rule beneath it. It must keep clear space equal to the height of the capital T on all sides. Do not place it on the palette's mid-blue or on any photograph without a solid panel behind it."},
+    {"list": [
+      "Use the full-colour master on white or the light grey background.",
+      "Use the reversed version on the dark navy panel only.",
+      {"text": "Do not stretch, outline or add shadow to the wordmark.", "level": 1}
+    ], "ordered": false}
+  ]},
+  {"heading": "4 Colour palette", "level": 1, "blocks": [
+    {"p": "The palette has five colours. Charts and tables use the mid-blue and grey tints; the navy is reserved for titles, headers and the logo panel."},
+    {"table": {"columns": ["Colour", "Hex", "Use"], "rows": [
+      ["Tarnovell navy", "#1B2A41", "Titles, headers, logo panel"],
+      ["Tarnovell blue", "#2F6690", "Primary accent, chart series 1"],
+      ["Tarnovell teal", "#3A9D8F", "Chart series 2, positive highlights"],
+      ["Warm grey", "#8C8C8C", "Secondary text, chart series 3"],
+      ["Light grey", "#EEF1F4", "Table banding and page panels"]
+    ], "caption": "Table 1 Group palette"}},
+    {"p": "Do not introduce colours from the legacy firm palettes into group material. Firms may keep their own palettes on their own internal documents until those templates are retired.", "style": "small"}
+  ]},
+  {"heading": "5 Typography", "level": 1, "blocks": [
+    {"p": "Arial is the group typeface for all documents, presentations and spreadsheets. Headings are Arial Bold, body text is Arial Regular at 10 point for documents and 11 point for letters."},
+    {"p": "Scientific notation, units and compound codes are set in the same font. Subscripts and superscripts use the font's own glyphs, not a substitute face."}
+  ]},
+  {"heading": "6 Documents and templates", "level": 1, "blocks": [
+    {"p": "Every group document uses the HO template for the current year. The template carries the confidentiality footer, the page number and the document reference in the header. Nothing else should be added to the footer by the author."},
+    {"list": [
+      "Reports: title block, report number, date, and a version line.",
+      "Letters: group letterhead with the registered office address.",
+      {"text": "Slides: navy title bar, Arial, no more than two accent colours per slide.", "level": 1},
+      "Spreadsheets: the group header row and the confidentiality line at the top."
+    ], "ordered": false}
+  ]},
+  {"heading": "7 Subsidiary brand lines", "level": 1, "blocks": [
+    {"p": "Each subsidiary may use its own name in its own material, with the group brand line placed beneath it. The approved combinations are listed below. No other combinations are approved for use in 2020."},
+    {"table": {"columns": ["Firm", "Name on material", "Brand line beneath"], "rows": [
+      ["A", "Vellacombe Discovery Ltd", "Tarnovell Bioscience Group"],
+      ["B", "Brindlewythe Biosciences Ltd", "Tarnovell Bioscience Group"],
+      ["C", "Merrivoss Bioanalysis Inc", "Tarnovell Bioscience Group"],
+      ["D", "Quenverell Computational Ltd", "Tarnovell Bioscience Group"],
+      ["E", "Westravelle Analytical Ltd", "Tarnovell Bioscience Group"]
+    ], "caption": "Table 2 Approved subsidiary lines"}},
+    {"p": "Scientific leadership stays with each firm. The subsidiary name on a study report is the name of the performing laboratory, and the study director named on the report is the person who signs it.", "style": "note"}
+  ]},
+  {"heading": "8 Legacy records", "level": 1, "blocks": [
+    {"p": "Records created before the launch keep their original appearance. They are not restyled, re-headed or re-footed when they are copied, moved or re-issued, unless the owning firm asks for a reissue in the group template with a note that the content is unchanged."},
+    {"p": "Client-facing reports issued before February 2020 keep the logo, colours and footer of the firm that issued them. Do not alter the document to bring it into line with these guidelines.", "style": "bold"},
+    {"p": "Archive folders are not renamed. Old firm names remain in file paths and document properties."}
+  ]},
+  {"heading": "9 Approval and contacts", "level": 1, "blocks": [
+    {"p": "Questions about the guidelines go to the Integration PMO. Requests for exceptions need the approval of the Group Chief Executive and are logged with the reason and the document reference."},
+    {"p": "These guidelines will be reviewed after the first full year of use, or earlier if the group acquires a firm that brings a brand of its own."}
+  ]}
+ ],
+ "signature_block": [
+  {"name": "Daniel Grellacott", "role": "Group Chief Executive", "date": "3 February 2020", "signed": true}
+ ],
+ "appendices": [
+  {"heading": "Appendix A Template checklist", "level": 1, "blocks": [
+    {"list": [
+      "Group name and brand line on the cover or first page.",
+      "Confidentiality footer on every page.",
+      "Arial throughout; no legacy firm fonts.",
+      "Palette limited to the five group colours.",
+      "Legacy records left unchanged."
+    ], "ordered": true}
+  ]}
+ ],
+ "orientation": "portrait"}
