@@ -1,86 +1,140 @@
 {
- "family": "document",
- "summary": "Internal analytical-release audit of March 2025, signed by Clara Fenwick. It checks compound-card traceability against the delivery records, records two transcription findings that were corrected before release, and gives the closure evidence for the purity reconciliation of the delivery lots.",
- "properties": {
-  "title": "Internal analytical release audit, March 2025"
- },
- "header": "Vellacombe Discovery Ltd, a Tarnovell company",
- "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
- "watermark": null,
- "title_block": {
-  "title": "Internal analytical release audit",
-  "subtitle": "Compound-card traceability and delivery-lot purity reconciliation",
-  "lines": [
-   "Report no. A-R-2025-011-A",
-   "Date: 11 Mar 2025",
-   "Prepared by Clara Fenwick, Analytical Release Lead"
-  ]
- },
- "sections": [
-  {
-   "heading": "1 Purpose and scope",
-   "level": 1,
-   "blocks": [
-    {"p": "This audit checks the analytical release records for the most recent delivery lots. It covers compound-card traceability, the transcription of purity results onto the compound cards, and the reconciliation of purity between the release records and the delivery paperwork."},
-    {"p": "The audit was run as an internal check. It does not replace the client's own acceptance testing."}
-   ]
+  "family": "document",
+  "summary": "Internal analytical-release audit of March 2025, signed by Clara Fenwick. It checks compound-card traceability against the delivery records, records two transcription findings that were corrected before release, and gives the closure evidence for the purity reconciliation of the delivery lots.",
+  "properties": {
+    "title": "Internal analytical release audit, March 2025"
   },
-  {
-   "heading": "2 Method",
-   "level": 1,
-   "blocks": [
-    {"list": [
-      "Every compound card in the release set was traced back to its delivery lot and isolated-material record",
-      "Purity values on each card were compared with the release HPLC report by area percent at the stated wavelength",
-      "The delivery paperwork was compared with the lot list held by the sample desk",
-      {"text": "Cards with no release report on file were held back and not counted as passed", "level": 1}
-     ],
-     "ordered": true},
-    {"p": "The audit team did not change any analytical data. Corrections were made to the compound cards only, and each correction is listed in section 3."}
-   ]
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Internal analytical release audit",
+    "subtitle": "Compound-card traceability and delivery-lot purity reconciliation",
+    "lines": [
+      "Internal audit — final record",
+      "Date: 11 Mar 2025",
+      "Prepared by Clara Fenwick, Analytical Release Lead"
+    ]
   },
-  {
-   "heading": "3 Findings",
-   "level": 1,
-   "blocks": [
-    {"table": {
-      "columns": ["Finding", "Area", "Description", "Correction", "Status"],
-      "rows": [
-       ["1", "Compound card transcription", "Purity value on one card did not match the release HPLC report. The value had been copied from the draft, not the final report.", "Value replaced from the final release report; card re-issued", "Closed"],
-       ["2", "Compound card transcription", "Wavelength on one card was recorded as the default, not the wavelength used for the release run.", "Wavelength corrected on the card; release report unchanged", "Closed"],
-       ["3", "Delivery paperwork", "Lot list and delivery note disagreed on the lot label for one delivery.", "Lot list was right; delivery note corrected", "Closed"]
-      ],
-      "caption": "Table 1 Audit findings and corrections"
-    }},
-    {"p": "Findings 1 and 2 were both transcription errors on the compound cards. Neither changed a release decision, because the release reports had already been checked before the cards were written.", "style": "note"}
-   ]
-  },
-  {
-   "heading": "4 Purity reconciliation",
-   "level": 1,
-   "blocks": [
-    {"p": "The purity reconciliation was closed for every delivery lot in the release set. Each lot's purity on the compound cards now matches the release HPLC report, and the delivery paperwork carries the same lot label as the lot list."},
-    {"list": [
-      "Compound cards re-checked against the release reports after the corrections",
-      "Delivery notes re-checked against the lot list",
-      "Release reports filed with the delivery lot records"
-     ],
-     "ordered": false},
-    {"p": "No delivery lot was released on the basis of an unchecked purity value."}
-   ]
-  },
-  {
-   "heading": "5 Conclusion",
-   "level": 1,
-   "blocks": [
-    {"p": "The release records for the audited delivery lots are traceable. The three findings have been closed with the corrections listed above, and no release decision has been changed."},
-    {"p": "The audit will be repeated at the next quarter's release review. Compound-card transcription is to be checked against the final release report, not the draft.", "style": "small"}
-   ]
-  }
- ],
- "signature_block": [
-  {"name": "Clara Fenwick", "role": "Analytical Release Lead", "date": "11 Mar 2025", "signed": true},
-  {"name": "Ruth Calderwood", "role": "Head of Medicinal Chemistry", "date": "12 Mar 2025", "signed": true}
- ],
- "orientation": "portrait"
+  "sections": [
+    {
+      "heading": "1 Purpose and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This audit checks the analytical release records for the most recent delivery lots. It covers compound-card traceability, the transcription of purity results onto the compound cards, and the reconciliation of purity between the release records and the delivery paperwork."
+        },
+        {
+          "p": "The audit was run as an internal check. It does not replace the client's own acceptance testing."
+        }
+      ]
+    },
+    {
+      "heading": "2 Method",
+      "level": 1,
+      "blocks": [
+        {
+          "list": [
+            "Every compound card in the release set was traced back to its delivery lot and isolated-material record",
+            "Purity values on each card were compared with the release HPLC report by area percent at the stated wavelength",
+            "The delivery paperwork was compared with the lot list held by the sample desk",
+            {
+              "text": "Cards with no release report on file were held back and not counted as passed",
+              "level": 1
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "p": "The analytical source records were retained. The two corrected transcription findings and their closure evidence are summarised below; the detailed correction history remains with the audit records."
+        }
+      ]
+    },
+    {
+      "heading": "3 Findings",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Finding",
+              "Area",
+              "Description",
+              "Correction",
+              "Status"
+            ],
+            "rows": [
+              [
+                "1",
+                "Compound-card transcription",
+                "Transcription finding recorded in the audit records.",
+                "Correction retained with the compound card; source analytical record retained.",
+                "Closed"
+              ],
+              [
+                "2",
+                "Compound-card transcription",
+                "Second transcription finding recorded in the audit records.",
+                "Correction retained with the compound card; reconciliation documented in the release records.",
+                "Closed"
+              ]
+            ],
+            "caption": "Table 1 Audit findings and corrections"
+          }
+        },
+        {
+          "p": "Both transcription findings have been corrected. Refer to the audit correction records for the affected entries and checks; no new analytical result is created by this note.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "4 Purity reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Closure evidence for delivery-lot purity reconciliation is retained with the release records. The corrected compound cards are reconciled to their analytical source records and linked to the delivery-lot documentation."
+        },
+        {
+          "list": [
+            "Compound cards re-checked against the release reports after the corrections",
+            "Delivery notes re-checked against the lot list",
+            "Release reports filed with the delivery lot records"
+          ],
+          "ordered": false
+        },
+        {
+          "p": "The correction history and reconciliation checks form the closure evidence for this audit."
+        }
+      ]
+    },
+    {
+      "heading": "5 Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Compound-card traceability and delivery-lot purity reconciliation are documented in the audit records. The two transcription findings are corrected and closed with the evidence summarised above."
+        },
+        {
+          "p": "The audit will be repeated at the next quarter's release review. Compound-card transcription is to be checked against the final release report, not the draft.",
+          "style": "small"
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Clara Fenwick",
+      "role": "Analytical Release Lead",
+      "date": "11 Mar 2025",
+      "signed": true
+    },
+    {
+      "name": "Ruth Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "11 Mar 2025",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
 }
