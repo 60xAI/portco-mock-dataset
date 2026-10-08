@@ -1,1 +1,169 @@
-{"family":"deck","summary":"Steering briefing for the One Group, Many Practices programme, September 2026. Records completed HR consolidation for firms A to F, partial price harmonisation, firm F's brand migration, open SharePoint and LIMS items, and the plan to hold Osterquill apart until its archive and quality mapping are complete. Written by the Integration Director for the steering group.","properties":{"title":"One Group, Many Practices: steering briefing, September 2026","subject":"Integration programme steering update","keywords":"One Group Many Practices, steering, integration, September 2026, Tarnovell"},"slides":[{"layout":"title","title":"One Group, Many Practices","subtitle":"Steering briefing, September 2026\nSofia Lindervik, Integration Director","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Purpose of this session","bullets":["Confirm where each workstream stands at the end of the third quarter","Agree the position on price harmonisation before the next group commercial review","Confirm how the Osterquill archive will be held apart until access and QA mapping are complete","Record the decisions needed from steering members before the Osterquill completion date"],"notes":"Status is taken from the workstream owners' September returns. Items marked open have not been closed, even where progress has been made.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"table","title":"Workstream status at September 2026","table":{"columns":["Workstream","Status","Position"],"rows":[["Price harmonisation","In progress","Three of six integrated firms mapped; historical local currencies and discounts retained"],["Brand migration","In progress","A to E on the common master; F completing; G legacy"],["LIMS consolidation","In progress","Common export dictionary agreed; local accession numbers retained; cutover dates open"],["Cross-sell","In progress","Client identity bridge in progress; subsidiary and lookalike checks required"],["HR and payroll","Complete for A to F","Directory consolidated; G payroll onboarding not started"],["IT and SharePoint migration","In progress","Local shares preserved as archive roots; leaver folder ownership checks open"],["G onboarding","Not started","Completes 1 October 2026; archive held apart pending access and QA mapping"]]},"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Price harmonisation","bullets":["Local service names, list prices and currencies are mapped for Vellacombe, Brindlewythe and Merrivoss","Quenverell, Westravelle and Durnesswick comparisons are not yet complete and remain marked [TBC] in the working file","Historical discounts are being kept as recorded for each firm rather than netted off to a group rate","The normalisation assumptions still need sign-off from group finance before any proposed group service codes are used in quotes"],"notes":"The working workbook (v4) is the reference. Do not quote from the group codes until the normalisation assumptions are signed off.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Brand migration","bullets":["Firms A to E are on the common master template and brand guide","Firm F, Durnesswick, is completing its migration; the remaining items are mostly legacy report headers and two signature blocks","Firm G, Osterquill, remains on its own legacy brand until it joins the group, and nothing is to be restyled before the archive has been reviewed","Client-facing documents already issued keep their original branding, as agreed at the 2020 launch"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"HR and payroll","bullets":["The directory is consolidated for firms A to F and reporting lines in the HR system match the current organisation chart","Payroll for firms A to F runs on the group calendar","Firm G payroll onboarding has not started and will need its own plan once the completion date is confirmed","Judith Wilson and Nils Bergstrom will confirm the list of G employees who will transfer, with their start dates, before onboarding begins"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"IT and SharePoint migration","bullets":["Each firm's local share is kept as an archive root, with no content merged into the group estate","Leaver folders have been identified for each firm but ownership has not been confirmed for all of them","Items in the September tracker are open unless the tracker says otherwise; none of the unresolved items should be reported as complete","IT will not move a leaver folder until a named owner has checked its contents"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"LIMS consolidation","bullets":["The common export dictionary is agreed and the fields in it are fixed for the first release","Local accession numbers are kept for every firm, so there is no renumbering of existing samples","Reviewer comments on the export fields are still open and will be closed before the plan is finalised","Cutover dates for firms A to F and the mapping for firm G are still to be set"],"notes":"The draft plan is v3. Version 4 should not be circulated until the reviewer comments are closed.","footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Osterquill: held apart until completion","bullets":["Osterquill Toxicology completes its acquisition on 1 October 2026","Its archive stays outside the integrated repository until access rights and QA mapping are agreed","No Osterquill files are to be moved, renamed or restyled during the hold","Scientific and quality leadership at Osterquill will stay in place through the first phase, with a joint review of its records after completion"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Decisions for steering members","bullets":["Agree that the price harmonisation working file stays at v4 until group finance signs off the normalisation assumptions","Confirm that firm G onboarding waits for the QA mapping and access review before any data is moved","Ask Yasmin Farhat to set the quality review dates for Osterquill records","Ask Andrea Beckett to confirm the group finance dates for the first post-completion reporting cycle"],"footer":"Tarnovell Bioscience Group | Confidential"},{"layout":"title_content","title":"Actions and next steps","bullets":["Owners to update their workstream returns by the end of September","Price workbook owners to close the open [TBC] items for Quenverell, Westravelle and Durnesswick","SharePoint leaver folder owners to confirm ownership before the next tracker snapshot","LIMS team to close reviewer comments and circulate the v4 plan for comment","Next steering session in October, after the Osterquill completion date"],"footer":"Tarnovell Bioscience Group | Confidential"}]}
+{
+  "family": "deck",
+  "summary": "Steering briefing for the One Group, Many Practices programme, September 2026. Records completed HR consolidation for firms A to F, partial price harmonisation, firm F's brand migration, open SharePoint and LIMS items, and the plan to hold Osterquill apart until its archive and quality mapping are complete. Written by the Integration Director for the steering group.",
+  "properties": {
+    "title": "One Group, Many Practices: steering briefing, September 2026",
+    "subject": "Integration programme steering update",
+    "keywords": "One Group Many Practices, steering, integration, September 2026, Tarnovell"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "One Group, Many Practices",
+      "subtitle": "Steering briefing, September 2026\nSofia Lindervik, Integration Director",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Purpose of this session",
+      "bullets": [
+        "Confirm where each workstream stands at the end of the third quarter",
+        "Agree the position on price harmonisation before the next group commercial review",
+        "Confirm how the Osterquill archive will be held apart until access and QA mapping are complete",
+        "Record the decisions needed from steering members before the Osterquill completion date"
+      ],
+      "notes": "Status is taken from the workstream owners' September returns. Items marked open have not been closed, even where progress has been made.",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Workstream status at September 2026",
+      "table": {
+        "columns": [
+          "Workstream",
+          "Status",
+          "Position"
+        ],
+        "rows": [
+          [
+            "Price harmonisation",
+            "In progress",
+            "Three of six integrated firms mapped; historical local currencies and discounts retained"
+          ],
+          [
+            "Brand migration",
+            "In progress",
+            "A to E on the common master; F completing; G legacy"
+          ],
+          [
+            "LIMS consolidation",
+            "In progress",
+            "Common export dictionary agreed; local accession numbers retained; cutover dates open"
+          ],
+          [
+            "Cross-sell",
+            "In progress",
+            "Client identity bridge in progress; subsidiary and lookalike checks required"
+          ],
+          [
+            "HR and payroll",
+            "Complete for A to F",
+            "Directory consolidated; G payroll onboarding not started"
+          ],
+          [
+            "IT and SharePoint migration",
+            "In progress",
+            "Local shares preserved as archive roots; leaver folder ownership checks open"
+          ],
+          [
+            "G onboarding",
+            "Not started",
+            "Planned completion 1 October 2026; archive to remain held apart afterwards pending access and QA mapping"
+          ]
+        ]
+      },
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Price harmonisation",
+      "bullets": [
+        "Local service names, list prices and currencies are mapped for Vellacombe, Brindlewythe and Merrivoss",
+        "Quenverell, Westravelle and Durnesswick comparisons are not yet complete and remain marked [TBC] in the working file",
+        "Historical discounts are being kept as recorded for each firm rather than netted off to a group rate",
+        "The normalisation assumptions still need sign-off from group finance before any proposed group service codes are used in quotes"
+      ],
+      "notes": "The working workbook (v4) is the reference. Do not quote from the group codes until the normalisation assumptions are signed off.",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Brand migration",
+      "bullets": [
+        "Firms A to E are on the common master template and brand guide",
+        "Firm F, Durnesswick, is completing migration of current templates; legacy issued records retain their original appearance",
+        "Osterquill remains independent ahead of planned 1 October 2026 completion; its legacy master will remain in use after completion pending onboarding",
+        "Client-facing documents already issued keep their original branding, as agreed at the 2020 launch"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "HR and payroll",
+      "bullets": [
+        "The directory is consolidated for firms A to F and reporting lines in the HR system match the current organisation chart",
+        "Payroll for firms A to F runs on the group calendar",
+        "Firm G payroll onboarding has not started and will need its own plan once the completion date is confirmed",
+        "Judith Wilson and Nils Bergstrom will confirm the list of G employees who will transfer, with their start dates, before onboarding begins"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "IT and SharePoint migration",
+      "bullets": [
+        "Each firm's local share is kept as an archive root, with no content merged into the group estate",
+        "Leaver folders have been identified for each firm but ownership has not been confirmed for all of them",
+        "Items in the September tracker are open unless the tracker says otherwise; none of the unresolved items should be reported as complete",
+        "IT will not move a leaver folder until a named owner has checked its contents"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "LIMS consolidation",
+      "bullets": [
+        "The common export dictionary is agreed as the mapping baseline; open reviewer comments must be resolved before release",
+        "Local accession numbers are kept for every firm, so there is no renumbering of existing samples",
+        "Reviewer comments on the export fields are still open and will be closed before the plan is finalised",
+        "Cutover dates for firms A to F and the mapping for firm G are still to be set"
+      ],
+      "notes": "The draft plan is v3. Version 4 should not be circulated until the reviewer comments are closed.",
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Osterquill: planned completion and archive hold",
+      "bullets": [
+        "Osterquill Toxicology is scheduled to join the group on 1 October 2026; completion has not occurred at this briefing date",
+        "Its archive stays outside the integrated repository until access rights and QA mapping are agreed",
+        "No Osterquill files are to be moved, renamed or restyled during the hold",
+        "Scientific and quality leadership at Osterquill will stay in place through the first phase, with a joint review of its records after completion"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decisions for steering members",
+      "bullets": [
+        "Agree that the price harmonisation working file stays at v4 until group finance signs off the normalisation assumptions",
+        "Confirm that firm G onboarding waits for the QA mapping and access review before any data is moved",
+        "Ask Yasmin Farhat to set the quality review dates for Osterquill records",
+        "Ask Andrea Beckett to confirm the group finance dates for the first post-completion reporting cycle"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Actions and next steps",
+      "bullets": [
+        "Owners to update their workstream returns by the end of September",
+        "Price workbook owners to close the open [TBC] items for Quenverell, Westravelle and Durnesswick",
+        "SharePoint leaver folder owners to confirm ownership before the next tracker snapshot",
+        "LIMS team to close reviewer comments and circulate the v4 plan for comment",
+        "Next steering session in October, after the Osterquill completion date"
+      ],
+      "footer": "Tarnovell Bioscience Group | Confidential"
+    }
+  ]
+}
