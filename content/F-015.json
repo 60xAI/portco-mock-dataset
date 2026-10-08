@@ -9,12 +9,12 @@
     ["Issued", "04/15/2025", null, "Prepared by", "Lena Patel"],
     [],
     [{"v": "Service line", "bold": true}, {"v": "Unit", "bold": true}, {"v": "Rate (USD)", "bold": true}, {"v": "Basis", "bold": true}],
-    ["Vehicle ladder work package", "per work package", "Quoted at scoping", "Two-week screen with bench sheet per vehicle"],
+    ["Vehicle ladder", "per vehicle ladder", 10900, "Two-week screen with bench sheet per vehicle. No volume discount"],
     ["Excipient compatibility screen", "per formulation set", "Quoted at scoping", "Pairwise mixes, screen suitability checked before the first read"],
     ["Pilot lot handoff support", "per pilot lot", "Quoted at scale gate", "Optional. Covers the record card and transfer to the pilot lot team"],
     ["Stability time point (add-on)", "per time point", "Quoted at scoping", "Only where the client holds a LIMS accession"],
     [],
-    ["Rates are set at scoping against the work package. This card does not commit a price for a formulation set that has not been scoped."]
+    ["The Vehicle ladder rate is the 2025 list price. Other lines are quoted at scoping against the work package, and this card does not commit a price for a formulation set that has not been scoped."]
    ],
    "col_widths": {"A": 34, "B": 22, "C": 22, "D": 56},
    "merged": ["A1:D1", "A2:D2", "A10:D10"],
