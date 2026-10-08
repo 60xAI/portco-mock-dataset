@@ -1,0 +1,1024 @@
+files:
+- id: P01
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/capabilities/2025
+  filename: quenverell-capabilities-bioinformatics-2025.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-03-11T14:35:13'
+  modified: '2025-03-27T08:56:10'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q1_correct_best
+  related: []
+  tier: orchestrator
+  target_length: 14 slides
+  summary: Quenverell capability deck (2025, group template). Slide 3 'Bioinformatics for drug discovery' is the canonical
+    one-slide explanation used in pitches.
+  pilot: false
+- id: P02
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/capabilities/2025
+  filename: quenverell-capabilities-bioinformatics-2025.pdf
+  format: pdf
+  doc_type: deck_capability
+  pdf_kind: export
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-03-27T17:15:39'
+  modified: '2025-03-27T17:52:39'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q1_correct_best_pdf
+  related:
+  - id: P01
+    rel: export_of
+  tier: script
+  target_length: 14 pages
+  summary: PDF export of the 2025 capability deck, sent to clients.
+  pilot: false
+- id: P03
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/capabilities/2018
+  filename: quenverell-bioinformatics-capabilities-v3-2018.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2018
+  era: legacy
+  template: D-L
+  created: '2018-05-14T08:54:54'
+  modified: '2018-06-04T12:04:06'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q1_correct_alt_older
+  related: []
+  tier: orchestrator
+  target_length: 18 slides
+  summary: Quenverell capability deck from 2018 in the legacy template, with a 'Bioinformatics in drug discovery' slide.
+  pilot: false
+- id: P05
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/capabilities/2012
+  filename: quenverell-bioinformatics-2012.ppt
+  format: ppt
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2012
+  era: legacy
+  template: D-L
+  created: '2012-09-18T12:28:02'
+  modified: '2012-10-02T10:52:28'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess: []
+  planted:
+  - q1_distractor_outdated
+  related: []
+  tier: orchestrator
+  target_length: 16 slides
+  summary: 2012 capability deck in the original legacy template; its bioinformatics slide predates current methods (microarrays,
+    homology models).
+  pilot: false
+- id: P06
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/capabilities/2025
+  filename: Copy of quenverell-capabilities-bioinformatics-2025.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-04-22T17:19:35'
+  modified: '2025-04-23T16:39:19'
+  author: NS14
+  last_saved_by: NS14
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - copy_of
+  - typo
+  planted:
+  - q1_distractor_typo_copy
+  related:
+  - id: P01
+    rel: copy_of
+  tier: orchestrator
+  target_length: 14 slides
+  summary: Copy of the 2025 capability deck saved by a colleague; slide 3 title has a typo ('Bioinfromatics') and an edited
+    bullet.
+  pilot: false
+- id: P08
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/capabilities/2025
+  filename: quenverell-capabilities-bioinformatics-2025_v2_DRAFT.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-02-17T10:51:12'
+  modified: '2025-02-28T16:03:40'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - version_suffix
+  - draft_mark
+  - comments
+  planted:
+  - q1_distractor_v2_draft
+  related:
+  - id: P01
+    rel: version_of
+  tier: orchestrator
+  target_length: 15 slides
+  summary: Earlier v2 draft of the 2025 capability deck with reviewer notes and an unfinished bioinformatics slide.
+  pilot: false
+- id: P09
+  unit: D
+  root: archive
+  path: QuenverellData/training/bioinformatics/2021
+  filename: bioinformatics-for-chemists-training-v1.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: D-G
+  created: '2021-06-08T08:07:45'
+  modified: '2021-06-15T15:59:08'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q1_distractor_training
+  related: []
+  tier: orchestrator
+  target_length: 20 slides
+  summary: Internal training deck introducing bioinformatics tools to chemists; not a client-facing slide.
+  pilot: false
+- id: P36
+  unit: D
+  root: archive
+  path: QuenverellData/proposals/2023/corvenlith
+  filename: corvenlith-qv.23.100-omics-proposal-v1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: D-G
+  created: '2023-09-11T17:05:09'
+  modified: '2023-09-12T16:57:33'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0011
+  client_id: CL002
+  client_variant: Corvenlith Therapeutics
+  finish: final
+  mess: []
+  planted:
+  - q3_lookalike
+  related: []
+  tier: orchestrator
+  target_length: 5 pages
+  summary: Proposal to Corvenlith Therapeutics (QV.23.100), a different company from Corvenlea Pharma.
+  pilot: false
+- id: P42
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.25.086/deliverables
+  filename: drelvessa-qv.25.086-docking-report-v1.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-11-10T16:34:24'
+  modified: '2025-11-13T13:25:42'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0014
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted:
+  - q5_structbio_D
+  related: []
+  tier: orchestrator
+  target_length: 10-14 pages
+  summary: 'Structure-based design report QV.25.086: docking into published-style X-ray structures. '
+  pilot: false
+- id: D-001
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.11.073/readouts
+  filename: rc3-rnaseq-batch-model-v4.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2012
+  era: legacy
+  template: D-L
+  created: '2012-04-03T10:23:00'
+  modified: '2012-04-03T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0074
+  client_id: CL059
+  client_variant: Rimucavel Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 slides
+  summary: QV.11.073 readout for Rimucavel Therapeutics presents RNA-seq differential expression, the removed handling-associated
+    cluster and the reproducible tumour-subtype signature with model uncertainty.
+  pilot: false
+- id: D-002
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/dt-6/readouts
+  filename: dt6-docking-hitlist-v3.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2013
+  era: legacy
+  template: D-L
+  created: '2013-11-06T10:23:00'
+  modified: '2013-11-06T16:41:00'
+  author: NS14
+  last_saved_by: NS14
+  projects:
+  - PRJ0075
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 16 slides
+  summary: QV.13.055 readout for Drelvessa Therapeutics SAS shows Virtual library triage, protonation-state sensitivity and
+    the consensus-ranked procurement shortlist.
+  pilot: false
+- id: D-003
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.15.065/readouts
+  filename: doventhar-junction-reanalysis-v2.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2015
+  era: legacy
+  template: D-L
+  created: '2015-12-23T10:23:00'
+  modified: '2015-12-23T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0076
+  client_id: CL019
+  client_variant: Doventhar Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 19 slides
+  summary: QV.15.065 readout for Doventhar Therapeutics explains NGS reanalysis at splice junctions, the resolved expression
+    conflict and the focused validation experiment.
+  pilot: false
+- id: D-004
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.23.100/readouts
+  filename: corvenlith-pathway-readout_v3_FINAL_final.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: D-G
+  created: '2023-12-18T10:23:00'
+  modified: '2023-12-18T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0011
+  client_id: CL002
+  client_variant: Corvenlith Therapeutics
+  finish: final
+  mess:
+  - version_suffix
+  planted: []
+  related:
+  - id: P36
+    rel: proposal_for
+  tier: sol
+  target_length: 21 slides
+  summary: QV.23.100 final readout for Corvenlith Therapeutics presents Omics target prioritisation after donor adjustment,
+    weakening the inflammatory signature and prioritising the reproducible receptor pathway.
+  pilot: false
+- id: D-005
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.25.086/readouts
+  filename: dt8-pocket-water-design-readout-v1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-11-13T10:23:00'
+  modified: '2025-11-13T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0014
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P42
+    rel: report_for
+  tier: sol
+  target_length: 18 slides
+  summary: QV.25.086 readout for Drelvessa Therapeutics SAS shows Docking and hit clustering against X-ray coordinates, pocket-water
+    uncertainty and the solvent-facing substitution opportunity.
+  pilot: false
+- id: D-006
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.26.077/readouts
+  filename: vb9-cluster-review-interim-v2.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: D-G
+  created: '2026-09-03T10:23:00'
+  modified: '2026-09-03T16:41:00'
+  author: NS14
+  last_saved_by: NS14
+  projects:
+  - PRJ0081
+  client_id: CL063
+  client_variant: Vornelquith Biosciences
+  finish: interim
+  mess:
+  - comments
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: sol
+  target_length: 16 slides
+  summary: QV.26.077 interim readout for Vornelquith Biosciences shows the completed Docking and hit clustering queue and
+    cluster representatives awaiting client review before procurement is frozen.
+  pilot: false
+- id: D-007
+  unit: D
+  root: archive
+  path: Archive/Users/cstrachan_old_laptop/partnerships/2020
+  filename: Copy of dmpk-handoff-workflow-v2.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: D-T
+  created: '2020-06-17T10:23:00'
+  modified: '2020-06-17T16:41:00'
+  author: NS16
+  last_saved_by: NS16
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - copy_of
+  - duplicate_across_firms
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 14 slides
+  summary: Callum Strachan copied firm C’s internal DMPK computational-to-exposure handoff deck into his partnership
+    folder, retaining the source footer and old contact table for discussion with Quenverell.
+  pilot: false
+- id: D-008
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/dt-6/docking/tautomers
+  filename: dt6-docking-hitlist-2013-11-06.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2013
+  era: legacy
+  template: D-L
+  created: '2013-11-06T10:23:00'
+  modified: '2013-11-06T16:41:00'
+  author: NS15
+  last_saved_by: NS15
+  projects:
+  - PRJ0075
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-002
+    rel: results_for
+  tier: haiku
+  target_length: 3 sheets
+  summary: QV.13.055 analysis notebook for Drelvessa Therapeutics SAS contains Virtual library triage scores in kcal/mol,
+    protonation-state rank shifts and the consensus procurement list.
+  pilot: false
+- id: D-009
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.23.100/rnaseq/processed
+  filename: corvenlith-donor-adjusted-targets-v4.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: D-G
+  created: '2023-12-18T10:23:00'
+  modified: '2023-12-18T16:41:00'
+  author: NS14
+  last_saved_by: NS14
+  projects:
+  - PRJ0011
+  client_id: CL002
+  client_variant: Corvenlith Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-004
+    rel: results_for
+  tier: haiku
+  target_length: 4 sheets
+  summary: QV.23.100 analysis notebook for Corvenlith Therapeutics contains RNA-seq differential expression contrasts, log2
+    fold changes, adjusted probabilities and the donor-balanced receptor-pathway ranking.
+  pilot: false
+- id: D-010
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.25.086/docking/processed
+  filename: dt8-pocket-water-hit-ranks-v2.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-11-13T10:23:00'
+  modified: '2025-11-13T16:41:00'
+  author: NS15
+  last_saved_by: NS15
+  projects:
+  - PRJ0014
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P42
+    rel: results_for
+  tier: haiku
+  target_length: 3 sheets
+  summary: QV.25.086 analysis notebook for Drelvessa Therapeutics SAS records Docking and hit clustering scores, pocket-water
+    assumptions and the ranked solvent-facing substitution designs.
+  pilot: false
+- id: D-011
+  unit: D
+  root: archive
+  path: QuenverellData/data/vp-b/rnaseq/processed
+  filename: vp-b-covariate-model-interim-v2.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: D-G
+  created: '2026-09-23T10:23:00'
+  modified: '2026-09-23T16:41:00'
+  author: BG081
+  last_saved_by: BG081
+  projects:
+  - PRJ0082
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: QV.26.091 interim analysis notebook for Valquessia Pharmaceuticals SpA contains accepted RNA-seq counts, provisional
+    clinical covariate contrasts and blank model-review rows pending revised sample metadata.
+  pilot: false
+- id: D-012
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.25.103/docking/procurement
+  filename: dt8-ranked-hitlist-DRAFT-v2.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-09-29T10:23:00'
+  modified: '2025-09-29T16:41:00'
+  author: NS14
+  last_saved_by: NS14
+  projects:
+  - PRJ0085
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: draft
+  mess:
+  - draft_mark
+  - half_filled
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: QV.25.103 draft Virtual library triage list for Drelvessa Therapeutics SAS records ranked ligands and unapproved
+    purchase quantities after the scaffold ownership question halted procurement.
+  pilot: false
+- id: D-013
+  unit: D
+  root: archive
+  path: Archive/Users/cstrachan_old_laptop/commercial/2022
+  filename: compchem-scope-rates-v3 (2).xlsx
+  format: xlsx
+  doc_type: wb_pricelist
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: D-G
+  created: '2022-05-19T10:23:00'
+  modified: '2022-05-19T16:41:00'
+  author: NS16
+  last_saved_by: NS16
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - version_suffix
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Callum Strachan’s superseded scope-rate workbook lists Quenverell RNA-seq differential expression and Virtual library
+    triage effort bands in GBP with negotiated-discount comments.
+  pilot: false
+- id: D-014
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.11.073/deliverables
+  filename: rc3-rnaseq-batch-model-v4.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2012
+  era: legacy
+  template: D-L
+  created: '2012-04-04T10:23:00'
+  modified: '2012-04-04T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0074
+  client_id: CL059
+  client_variant: Rimucavel Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-001
+    rel: report_for
+  tier: sol
+  target_length: 14 pages
+  summary: QV.11.073 report for Rimucavel Therapeutics documents RNA-seq differential expression, batch correction, the reproducible
+    tumour-subtype signature and a data-provenance appendix.
+  pilot: false
+- id: D-015
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/dt-6/deliverables
+  filename: dt6-consensus-docking-report-v3.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2013
+  era: legacy
+  template: D-L
+  created: '2013-11-07T10:23:00'
+  modified: '2013-11-07T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0075
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-002
+    rel: report_for
+  tier: sol
+  target_length: 12 pages
+  summary: QV.13.055 report for Drelvessa Therapeutics SAS documents Virtual library triage, protonation-state uncertainty,
+    consensus-ranked compounds and reproducible docking settings.
+  pilot: false
+- id: D-016
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.15.065/deliverables
+  filename: doventhar-junction-reanalysis-report-v2.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2015
+  era: legacy
+  template: D-L
+  created: '2015-12-24T10:23:00'
+  modified: '2015-12-24T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0076
+  client_id: CL019
+  client_variant: Doventhar Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-003
+    rel: report_for
+  tier: sol
+  target_length: 16 pages
+  summary: QV.15.065 report for Doventhar Therapeutics documents NGS reanalysis of splice junctions, the resolved gene-expression
+    conflict and a reproducibility appendix supporting targeted validation.
+  pilot: false
+- id: D-017
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.23.100/deliverables
+  filename: corvenlith-donor-adjustment-report-v1.pdf
+  format: pdf
+  doc_type: report_client
+  pdf_kind: native
+  year: 2023
+  era: group
+  template: D-G
+  created: '2023-12-19T10:23:00'
+  modified: '2023-12-19T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0011
+  client_id: CL002
+  client_variant: Corvenlith Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P36
+    rel: proposal_for
+  tier: sol
+  target_length: 18 pages
+  summary: QV.23.100 report for Corvenlith Therapeutics describes RNA-seq differential expression after donor adjustment,
+    the reduced inflammatory signal and the reproducible receptor pathway with analysis provenance.
+  pilot: false
+- id: D-018
+  unit: D
+  root: archive
+  path: Archive/Users/cstrachan_old_laptop/scans/2018
+  filename: vm-a-qv.18.027-signed-scope-scan.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 2018
+  era: legacy
+  template: D-L
+  created: '2018-03-06T10:23:00'
+  modified: '2018-03-06T16:41:00'
+  author: NS16
+  last_saved_by: NS16
+  projects:
+  - PRJ0079
+  client_id: CL015
+  client_variant: Vesselquarn Medical Research Trust
+  finish: final
+  mess:
+  - leaver_folder
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: QV.18.027 signed scope scan retained by Callum Strachan quotes Vesselquarn Medical Research Trust GBP 48,100 for
+    Virtual library triage and diversity selection, with a handwritten delivery contact beside the signature.
+  pilot: false
+- id: D-019
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.23.100/deliverables
+  filename: corvenlith-pathway-readout_v3_FINAL_final.pdf
+  format: pdf
+  doc_type: deck_readout
+  pdf_kind: export
+  year: 2023
+  era: group
+  template: D-G
+  created: '2023-12-19T10:23:00'
+  modified: '2023-12-19T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0011
+  client_id: CL002
+  client_variant: Corvenlith Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-004
+    rel: export_of
+  tier: script
+  target_length: 21 pages
+  summary: Client PDF export of the QV.23.100 final Corvenlith Therapeutics donor-adjusted pathway readout, preserving the
+    completed slides and receptor-pathway conclusion.
+  pilot: false
+- id: D-020
+  unit: D
+  root: archive
+  path: QuenverellData/engagements/qv.25.086/deliverables
+  filename: dt8-pocket-water-design-readout-v1.pdf
+  format: pdf
+  doc_type: deck_readout
+  pdf_kind: export
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-11-14T10:23:00'
+  modified: '2025-11-14T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0014
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: D-005
+    rel: export_of
+  tier: script
+  target_length: 18 pages
+  summary: Client PDF export of the QV.25.086 Drelvessa Therapeutics SAS pocket-water design readout, preserving X-ray docking
+    assumptions and the solvent-facing substitution recommendation.
+  pilot: false
+- id: D-021
+  unit: D
+  root: archive
+  path: QuenverellData/proposals/2025/drelvessa
+  filename: dt8-qv.25.086-docking-proposal-v1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-07-24T10:23:00'
+  modified: '2025-07-24T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0014
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P42
+    rel: proposal_for
+  tier: sol
+  target_length: 7 pages
+  summary: QV.25.086 proposal to Drelvessa Therapeutics SAS quotes GBP 60,400 and 66 days for Docking and hit clustering,
+    co-crystal coordinate review and pocket-water assessment with a reproducible ranked design list.
+  pilot: false
+- id: D-022
+  unit: D
+  root: archive
+  path: QuenverellData/proposals/2025/jelmorath
+  filename: jt8-qv.25.108-virtual-screen-quote-v1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: D-G
+  created: '2025-09-09T10:23:00'
+  modified: '2025-09-09T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects:
+  - PRJ0083
+  client_id: CL025
+  client_variant: Jelmorath Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: QV.25.108 quote to Jelmorath Therapeutics offers GBP 69,900 Virtual library triage with library-access assumptions,
+    preserved as the only deliverable after the client selected an internal modelling team.
+  pilot: false
+- id: D-023
+  unit: D
+  root: archive
+  path: QuenverellData/qa/sops/data-acceptance
+  filename: rnaseq-data-acceptance-sop-v3.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: D-T
+  created: '2020-04-16T10:23:00'
+  modified: '2020-04-16T16:41:00'
+  author: NS15
+  last_saved_by: NS15
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 pages
+  summary: Controlled RNA-seq differential expression SOP defines metadata reconciliation, data acceptance, batch-effect review
+    and reproducible contrast reporting in log2 fold change and adjusted probabilities.
+  pilot: false
+- id: D-024
+  unit: D
+  root: archive
+  path: QuenverellData/marketing/services/2024
+  filename: quenverell-services-catalogue-2024.pdf
+  format: pdf
+  doc_type: service_catalogue
+  pdf_kind: native
+  year: 2024
+  era: group
+  template: D-G
+  created: '2024-06-12T10:23:00'
+  modified: '2024-06-12T16:41:00'
+  author: ST06
+  last_saved_by: ST06
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 pages
+  summary: Quenverell service catalogue distinguishes RNA-seq differential expression, Omics target prioritisation, NGS reanalysis,
+    Virtual library triage and Docking and hit clustering with required inputs, deliverables and uncertainty limits.
+  pilot: false
+- id: D-025
+  unit: D
+  root: archive
+  path: QuenverellData/personal/nrahmani/scratch
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: D-G
+  created: '2024-02-15T10:23:00'
+  modified: '2024-02-15T16:41:00'
+  author: NS15
+  last_saved_by: NS15
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 2 slides
+  summary: Nadia Rahmani’s near-empty scratch deck contains a title placeholder and one empty data-provenance slide.
+  pilot: false
+- id: D-026
+  unit: D
+  root: archive
+  path: QuenverellData/templates/analysis/scratch
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: D-G
+  created: '2026-05-11T10:23:00'
+  modified: '2026-05-11T16:41:00'
+  author: NS14
+  last_saved_by: NS14
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 sheet
+  summary: Emil Ostlund’s near-empty scratch workbook contains one untitled sheet and a lone data-drop date with no analysis
+    results.
+  pilot: false
