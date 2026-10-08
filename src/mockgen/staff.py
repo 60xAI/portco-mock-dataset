@@ -41,7 +41,7 @@ def username(style: str, first: str, last: str) -> str:
     def clean(s):
         return "".join(ch for ch in s.lower() if ch.isalpha())
     import unicodedata
-    fold = lambda s: "".join(c for c in unicodedata.normalize("NFKD", s.replace("ł", "l").replace("ø", "o").replace("ß", "ss")) if not unicodedata.combining(c)) if False else "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
+    fold = lambda s: "".join(c for c in unicodedata.normalize("NFKD", s.replace("ł", "l").replace("ø", "o").replace("ß", "ss")) if not unicodedata.combining(c))
     f, l = clean(fold(first)), clean(fold(last))
     return (style.replace("{first}", f).replace("{last}", l).replace("{f}", f[:1]).replace("{l}", l[:1]))
 
