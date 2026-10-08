@@ -1,0 +1,136 @@
+{
+  "family": "deck",
+  "summary": "Final paired human and rat liver-system readout for {{PRJ0055:project_id}}. Matrix acceptance and depletion limits precede the comparison. Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed with their microsomal ranking.",
+  "properties": {
+    "title": "NM08 paired liver systems: clearance readout",
+    "subject": "Nimbravelle Medicines Inc final DMPK readout, 07/18/2006",
+    "keywords": "PRJ0055; matrix acceptance; analytical limits; final"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "NM08 paired liver systems: clearance readout",
+      "subtitle": "Nimbravelle Medicines Inc | {{PRJ0055:project_id}} | Final readout, 07/18/2006\nDr M. Larkin | Merrivoss Bioanalysis Inc",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Study boundary and accession",
+      "bullets": [
+        "{{PRJ0055:n_compounds}} test articles under {{PRJ0055:lims_id}}",
+        "Study 06/05/2006–07/18/2006; interim 06/26/2006",
+        "Aminotriazine immune-signalling kinase analogues"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrices and incubation conditions",
+      "bullets": [
+        "Microsomal CLint: human and rat liver microsomes, 0.5 mg/mL protein, 1 µM",
+        "Hepatocyte depletion CLint: human and rat cryopreserved cells, 0.5 × 10^6 cells/mL, 1 µM",
+        "Keep species and normalization separate throughout the assay worksheet"
+      ],
+      "notes": "Protein-normalized and cell-normalized clearances cannot be compared as interchangeable units. No scaled hepatic clearance calculation is included.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance before ranking",
+      "bullets": [
+        "Helen Marchwood: review matrix acceptance against the assay worksheet",
+        "Javier Quintana: review parent-analyte response, blank matrix and carryover",
+        "Inspect nonmetabolic loss and the evaluable depletion interval before assigning a biological difference"
+      ],
+      "notes": "Acceptance belongs to the incubation and analytical sequence. A favorable clearance estimate is not itself evidence that the matrix was acceptable.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analytical limits and fit assumptions",
+      "bullets": [
+        "Fit the log-linear parent depletion interval; do not extend a slope through terminal signal below quantitation",
+        "A half-life beyond the incubation window is a bound, not a precise turnover estimate",
+        "Parent disappearance alone does not identify an enzyme or metabolite"
+      ],
+      "notes": "No compound-specific quantitation limits are supplied here. Consult the analyte card before using a marginal slope for selection.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Microsomal CLint: human and rat",
+      "table": {
+        "table_ref": "PRJ0055:mic_stab",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Human microsomes: initial ranking",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0055:mic_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/mg)"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Hepatocyte depletion CLint: paired species",
+      "table": {
+        "table_ref": "PRJ0055:hep_stab",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Human hepatocytes: turnover comparison",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0055:hep_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/10^6 cells)"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "NM08 test article structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0055",
+        "n": 6
+      },
+      "notes": "Representative structures aid identity matching; they do not designate nominated leads.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exposure gate: paired-system interpretation",
+      "bullets": [
+        "Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed with their microsomal ranking.",
+        "Use concordance to support selection of the slower-turnover branch",
+        "These incubations do not establish oral exposure"
+      ],
+      "notes": "The decision is the recorded project outcome. No individual shortlist or new progression threshold is supplied. Cross-system disagreement does not identify its mechanism.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final handoff and next use",
+      "bullets": [
+        "Megan Larkin: retain the paired-system assumptions in the DMPK memo",
+        "Nimbravelle Medicines Inc: use the recorded selection direction for the next exposure assessment",
+        "Keep both matrix tables with selected analyte cards under {{PRJ0055:lims_id}}"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    }
+  ]
+}
