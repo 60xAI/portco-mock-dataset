@@ -1,0 +1,201 @@
+{
+  "family": "deck",
+  "summary": "Final dosing readout for Nimbravelle Medicines Inc. The cosolvent-rich vehicle failed the dilution challenge despite acceptable undiluted behavior; the selected dispersed approach requires explicit redispersion and withdrawal controls.",
+  "properties": {
+    "title": "NM-12: dispersed dosing after dilution failure",
+    "subject": "{{PRJ0112:project_id}} | {{PRJ0112:lims_id}} | Nimbravelle Medicines Inc | Lena Patel | 09/28/2020",
+    "keywords": "Vehicle ladder; Excipient compatibility screen; early CMC"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "NM-12: dispersed dosing after dilution failure",
+      "subtitle": "{{PRJ0112:project_id}} | {{PRJ0112:lims_id}} | Nimbravelle Medicines Inc | Lena Patel | 09/28/2020 | Durnesswick Laboratories Inc",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Dosing decision",
+      "bullets": [
+        "Nimbravelle Medicines Inc selected a dispersed dosing approach.",
+        "The cosolvent-rich vehicle failed the dilution challenge.",
+        "Handling controls now matter as much as preparation appearance."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Starting Vehicle ladder: complete screen",
+      "table": {
+        "table_ref": "PRJ0112:form_screen",
+        "max_rows": 8
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Equilibrium capacity is only part of the choice",
+      "chart": {
+        "kind": "hbar",
+        "ref": "PRJ0112:form_screen",
+        "column": 1,
+        "title": "Equilibrium solubility (mg/mL)"
+      },
+      "notes": "Target loading 10 mg/mL. This chart does not measure dilution behavior or particle-size distribution.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "From screen to handoff",
+      "bullets": [
+        "Opened 07/06/2020; interim review 08/17/2020; final handoff 09/28/2020.",
+        "Julia Carver led formulation development; Miguel Serrano supported the formulation set.",
+        "Lena Patel prepared the transfer interpretation."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Why the clear route was attractive",
+      "bullets": [
+        "PEG400/water gave a clear solution at screen loading.",
+        "The undiluted preparation was stable in the standing observation."
+      ],
+      "bullets_right": [
+        "Those observations apply to the screen condition.",
+        "The dilution challenge failed, so the undiluted row cannot establish dosing suitability."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Dilution failure: operational consequence",
+      "bullets": [
+        "Dilution removes the solvent environment supporting the preparation.",
+        "Precipitation makes a solution-based withdrawal instruction unreliable.",
+        "Increasing cosolvent without a new dilution assessment would repeat the selection error."
+      ],
+      "notes": "Formulation interpretation, not a measured precipitation-rate model; no numerical dilution dataset is supplied.",
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Dispersed options: recovery versus caking",
+      "table": {
+        "table_ref": "PRJ0112:form_screen",
+        "max_rows": 8,
+        "columns": [
+          0,
+          2,
+          3
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Shortlist logic",
+      "bullets": [
+        "Methylcellulose showed a fine suspension that redispersed on shaking.",
+        "The surfactant/PEG mixture also redispersed, with a different excipient burden."
+      ],
+      "bullets_right": [
+        "The aqueous surfactant mixture and citrate buffer showed caking.",
+        "A redispersible screen row is a starting point; the outcome does not identify a locked dispersed recipe."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What changes at the dosing bench",
+      "bullets": [
+        "Mix before withdrawal; do not sample only the clear upper layer.",
+        "Keep mixing instructions beside the dose calculation.",
+        "Check that settled material returns to a uniform dispersion before continuing."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Recipe card must answer dosing questions",
+      "table": {
+        "columns": [
+          "Question",
+          "Required instruction"
+        ],
+        "rows": [
+          [
+            "Preparation",
+            "Addition order, wetting and mixing"
+          ],
+          [
+            "Uniformity during use",
+            "Resuspension and withdrawal sequence"
+          ],
+          [
+            "Stop condition",
+            "Persistent cake or failure to redisperse"
+          ],
+          [
+            "Traceability",
+            "Recipe identity and preparation exceptions"
+          ]
+        ]
+      },
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Concentration and loading language",
+      "bullets": [
+        "Use mg/mL for dose concentration and specify total suspended material.",
+        "Use weight percent for excipient loading where appropriate.",
+        "Do not label a dispersion a solution because it looks uniform after mixing."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Transfer responsibilities",
+      "bullets": [
+        "Miguel Serrano: attach observations and preparation sequence.",
+        "Julia Carver: approve the dilution-failure interpretation."
+      ],
+      "bullets_right": [
+        "Lena Patel: make redispersion and withdrawal steps usable.",
+        "Nimbravelle Medicines Inc: align the approach with the exposure dosing plan."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Screen suitability at use",
+      "bullets": [
+        "Inspect after standing and again after resuspension.",
+        "Document cake remaining attached to the container.",
+        "Escalate a changed material lot or dose concentration before treating the recipe as equivalent."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Limits of this final readout",
+      "bullets": [
+        "The ladder reports equilibrium capacity and short-term physical behavior.",
+        "Quantitative dilution curves and dose-uniformity measurements are not supplied.",
+        "Process validation and shelf-life need separate work packages."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Closeout: accept the handling tradeoff",
+      "bullets": [
+        "A clear concentrate did not survive dilution.",
+        "The dispersed route accepts mixing and withdrawal discipline for a workable dosing approach.",
+        "Next scale gate: reproducibility at the intended preparation volume."
+      ],
+      "footer": "Durnesswick Laboratories Inc | Confidential"
+    }
+  ]
+}
