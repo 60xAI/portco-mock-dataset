@@ -1,0 +1,19 @@
+{"family": "document",
+ "summary": "Unused meeting-note template for internal office meetings, with title block, attendance table and action headings left blank. Saved in the templates folder and never issued.",
+ "properties": {"title": "Meeting note template"},
+ "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+ "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+ "watermark": null,
+ "title_block": {"title": "Meeting note", "subtitle": "Office meeting", "lines": ["Date: DD/MM/YYYY", "Chair: [name]", "Location: [room]"]},
+ "sections": [
+  {"heading": "1 Attendance", "level": 1, "blocks": [{"table": {"columns": ["Name", "Role", "Present (Y/N)"], "rows": [["[name]", "[role]", "[Y/N]"], ["", "", ""], ["", "", ""]], "caption": "Attendance"}}]},
+  {"heading": "2 Items discussed", "level": 1, "blocks": [{"p": "[Item and summary]", "style": "small"}]},
+  {"heading": "3 Decisions", "level": 1, "blocks": []},
+  {"heading": "4 Actions", "level": 1, "blocks": [{"table": {"columns": ["Action", "Owner", "Due (DD/MM/YYYY)"], "rows": [["", "", ""]], "caption": "Actions"}}]},
+  {"heading": "5 Next meeting", "level": 1, "blocks": [{"p": "[date, room]", "style": "note"}]}
+ ],
+ "signature_block": [],
+ "appendices": [],
+ "tracked_changes": [],
+ "comments": [],
+ "orientation": "portrait"}
