@@ -1,0 +1,139 @@
+{
+  "family": "deck",
+  "summary": "Christiane Antoine’s final personal working copy of the Farnovessa Medicines analogue-delivery readout. It records the imidazolidinone set, the desired alkylation-site preference and the impurity reference accepted with the delivery.",
+  "properties": {
+    "title": "FM20: analogue delivery and alkylation site",
+    "subject": "PRJ0023 | Route scout and delivery",
+    "keywords": "medicinal chemistry; route gate; isolated material"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "FM20: analogue delivery and alkylation site",
+      "subtitle": "Farnovessa Medicines | VD-20-028 | 10 Aug 2020\nC. Antoine | Personal working copy",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Delivery accepted",
+      "bullets": [
+        "{{PRJ0023:n_compounds}} imidazolidinones delivered.",
+        "The alkylation route favoured the desired substitution site.",
+        "Farnovessa Medicines accepted the analogue set with an impurity reference.",
+        "This copy keeps my handover notes alongside the client readout."
+      ],
+      "notes": "C. Antoine: keep this with the FM20 compound cards; it is the version used for the delivery discussion.",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Programme and delivery basis",
+      "table": {
+        "table_ref": "PRJ0023:benchmark"
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Delivered material and release context",
+      "table": {
+        "table_ref": "PRJ0023:synthesis",
+        "max_rows": 12,
+        "columns": [
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Isolated members of the FM20 set",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0023",
+        "n": 6
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Alkylation-site question",
+      "bullets": [
+        "The route question was where the alkyl group would be installed.",
+        "Desired substitution was favoured in the selected sequence.",
+        "Keep site assignment separate from the appearance of a clean chromatogram."
+      ],
+      "bullets_right": [
+        "The delivered structures are isolated compounds.",
+        "The impurity reference supports recognition of the competing material.",
+        "No site-selectivity ratio is quoted in this readout.",
+        "Do not turn the route observation into a protease-inhibition claim."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Recovery through late-stage diversification",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0023:synthesis",
+        "column": 3,
+        "title": "Isolated yield (%)"
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Released material: UV purity",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0023:synthesis",
+        "column": 4,
+        "title": "HPLC purity (UV area %, 254 nm)"
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Impurity reference travels with the set",
+      "bullets": [
+        "Retain the reference identity with the delivery paperwork.",
+        "Use the reference when comparing subsequent alkylation preparations.",
+        "The reference is supporting material, not a desired analogue.",
+        "Acceptance of the set does not remove the need to recognise the competing product."
+      ],
+      "notes": "My reminder: do not leave the impurity reference behind when splitting the analogue set for dispatch. Check the compound-card link first. — C. Antoine",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Handover before archiving",
+      "bullets": [
+        "Christiane Antoine: working route notes and analogue context.",
+        "Hassan Darwish: follow-on synthetic route questions.",
+        "Clara Fenwick: released material and reference linkage."
+      ],
+      "bullets_right": [
+        "Ruth Calderwood: next analogue priorities.",
+        "Preserve the distinction between desired-site product and impurity reference.",
+        "Use mg from the delivery register for allocation; do not assume equal stock."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Next analogue: retain the successful site preference",
+      "bullets": [
+        "Use the accepted alkylation sequence as the initial route scout.",
+        "Check site assignment again when the substituent changes.",
+        "Keep the impurity reference available for comparison.",
+        "Close VD-20-028 with the accepted delivery; future structures remain proposals."
+      ],
+      "notes": "C. Antoine: final delivery copy, 10 Aug 2020. Leave the chemistry notes with this file so the route can be picked up without reconstructing the laptop folders.",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
