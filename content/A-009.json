@@ -1,0 +1,158 @@
+{
+  "family": "deck",
+  "summary": "Vellacombe describes how Route scout and delivery converts a chemical hypothesis into a route-gate decision and an agreed delivery lot. Impurity isolation and Analogue preparation are presented with explicit limits on proposed structures, isolated material and analytical assignment.",
+  "properties": {
+    "title": "Route scout and delivery",
+    "subject": "Vellacombe chemistry capabilities",
+    "keywords": "route scout; delivery; impurity isolation; analogue preparation"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Route scout and delivery",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "subtitle": "Vellacombe Discovery Ltd, a Tarnovell company\nDr R. Calderwood | 12 Mar 2024\nRoute-risk decisions, impurity isolation and Analogue preparation"
+    },
+    {
+      "layout": "title_content",
+      "title": "Begin with the chemistry question",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "State the desired structure and the decision the material will support.",
+        "Separate a plausible disconnection from a route demonstrated on isolated material.",
+        "Agree the route gate before committing to a wider analogue set."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Route scout and delivery",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Compare competing disconnections and access to the key intermediate.",
+        "Identify the transformation most likely to prevent delivery.",
+        "Carry a demonstrated route into an agreed delivery lot."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Define the request",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Confirm connectivity, stereochemistry and the required delivery form.",
+        "Review starting material access and handling constraints.",
+        "Discuss prior attempts and unresolved assignments.",
+        "Agree the evidence needed to continue, redirect or stop."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Test the weakest assumption",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Use diagnostic experiments to distinguish substrate failure from condition failure.",
+        "Examine selectivity and downstream compatibility.",
+        "Record unsuccessful transformations when they change the route choice.",
+        "Keep proposed intermediates separate from isolated compounds."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Make the route gate explicit",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Uncertain bond formation: establish the desired product before continuing.",
+        "Difficult isolation: change work-up or reconsider the route.",
+        "Unstable intermediate: assess handling before committing to delivery.",
+        "Stereochemical ambiguity: resolve the requirement before wider preparation."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "From reaction to delivery",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "An analytical signal is a lead for isolation.",
+        "Check that work-up and purification remain practical as material demand changes.",
+        "Record isolated yield against the compound card and experiment.",
+        "Resolve identity and purity before release."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Impurity isolation",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Start from the observed impurity and the question it raises.",
+        "Choose enrichment or separation conditions that preserve the species of interest.",
+        "Distinguish the original impurity from a product formed during handling.",
+        "Retain evidence of the source material in the chemistry note."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Assignment has limits",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Use available characterisation to support connectivity and stereochemistry.",
+        "State ambiguity where the evidence does not distinguish alternatives.",
+        "A proposed impurity structure remains proposed until supported.",
+        "Do not equate enrichment with isolation or isolation with complete assignment."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Analogue preparation",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Define the structural change that tests the chemical hypothesis.",
+        "Use shared intermediates where the chemistry supports them.",
+        "Feed observed reactivity back into selection of the next analogue.",
+        "Keep unsuccessful preparations visible in the chemistry note."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Compound cards preserve the evidence",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Distinguish proposed targets from assigned isolated material.",
+        "Link attempted conditions and demonstrated preparations to the relevant experiment.",
+        "Report mass in mg, amount in mmol where applicable and purity in area percent.",
+        "State what the evidence supports and what remains unresolved."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Release is a chemistry decision",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Clara Fenwick, Analytical Release Lead, coordinates the analytical release review.",
+        "Identity, purity and delivery form must match the agreed request.",
+        "Raise unresolved impurities or assignments before material is released.",
+        "The chemistry note records the release decision and agreed limitations."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "A handover for the next experiment",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Link the delivery lot to its compound card and characterisation.",
+        "Describe the critical transformations and practical handling constraints.",
+        "Carry forward impurity and stability observations relevant to use.",
+        "Recommend the next analogue or route gate."
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Next discussion: structure, risk, route gate",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Bring the target structure, prior chemistry and intended use.",
+        "Agree whether the initial question needs Route scout and delivery, impurity isolation or Analogue preparation.",
+        "Confirm delivery requirements with Dr R. Calderwood.",
+        "Leave with an explicit hypothesis and the evidence required to act on it."
+      ]
+    }
+  ]
+}
