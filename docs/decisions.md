@@ -23,3 +23,4 @@ One line per decision taken during the build where the spec was silent or ambigu
 - hERG table title says manual patch clamp when the project title does (PRJ0033, 2003); interim notes count planned rows, not compounds (fixes '35 of 32').
 - List prices: src/mockgen/prices.py gives deterministic list prices per firm/service/year (2024 anchors from HO-006, +3.5%/yr, USD for US firms); packs for price lists, catalogues and capability decks show them.
 - List prices: src/mockgen/prices.py gives deterministic list prices per firm/service/year (2024 anchors from HO-006, +3.5%/yr, USD for US firms); packs for price lists, catalogues and capability decks show them.
+- Stage 7 tail: leftover singletons are batched by firm where possible, otherwise as mixed-firm batches of the same tier (dev1369-content-mixed-NN).
