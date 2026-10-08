@@ -1,0 +1,6 @@
+{"family": "workbook",
+ "summary": "Single-sheet scratch workbook for the first-floor meeting room capacity, started while checking seating for the Q4 chemistry review. Only the heading and one note are filled in.",
+ "properties": {"title": "Room capacity"},
+ "sheets": [
+  {"name": "Room capacity", "rows": [[{"v": "First-floor meeting room: seating", "bold": true}], ["Room", "Standard layout"], ["Capacity to check against", "Seated, boardroom style"], [], ["Note", "Confirm with Ruth whether the projector is still wired to the far wall"]], "col_widths": {"A": 28, "B": 34}, "merged": ["A1:B1"]}
+ ]}
