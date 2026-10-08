@@ -1,87 +1,159 @@
 {
- "family": "document",
- "summary": "Christiane Antoine's unfinished chemistry note (draft, 19 Jun 2019) comparing three small-scale work-ups used on the coupling trials, with the assay stock and working concentrations, the solvent recovery question and open questions. Units are mixed in places, and a reviewer has marked up two sentences.",
- "properties": {
-  "title": "Small-scale coupling work-ups: chemistry note (draft)"
- },
- "header": "Vellacombe Discovery Ltd",
- "footer": "Vellacombe Discovery Ltd | Confidential",
- "watermark": "DRAFT",
- "title_block": {
-  "title": "Small-scale coupling work-ups",
-  "subtitle": "Chemistry note, draft",
-  "lines": [
-   "Draft 3",
-   "Date: 19 Jun 2019",
-   "Author: C. Antoine"
-  ]
- },
- "sections": [
-  {
-   "heading": "1 Purpose",
-   "level": 1,
-   "blocks": [
-    {"p": "This note compares the small-scale work-ups we have used for the coupling trials over the spring. It is a working draft and several sections are incomplete."},
-    {"p": "The aim is to choose one work-up for the scale-up before the next analogue set is started. Nothing here is a final recommendation.", "style": "note"}
-   ]
+  "family": "document",
+  "summary": "Christiane Antoine's unfinished general chemistry note (draft, 19 Jun 2019) compares candidate small-scale coupling work-ups. It retains mixed mg and handwritten g conventions, open solvent-recovery questions and reviewer changes. Observations and quantities are to be checked against the bench records before recommendations are completed.",
+  "properties": {
+    "title": "Small-scale coupling work-ups: chemistry note (draft)"
   },
-  {
-   "heading": "2 Work-ups compared",
-   "level": 1,
-   "blocks": [
-    {"p": "The quench and extraction steps differ between the three work-ups. Work-up A uses saturated sodium bicarbonate and ethyl acetate; work-up B uses water and dichloromethane; work-up C is a direct evaporation with a silica plug."},
-    {"table": {
-      "columns": ["Work-up", "Quench", "Extraction", "Drying", "Comment"],
-      "rows": [
-       ["A", "Sat. NaHCO3", "EtOAc", "Na2SO4", "Emulsion on larger scale"],
-       ["B", "Water", "DCM", "MgSO4", "Clean phase split; DCM recovery needed"],
-       ["C", "None", "Evaporation", "n/a", "Silica plug removes most baseline material"]
-      ],
-      "caption": "Table 1 Work-up protocols (draft)"
-    }},
-    {"p": "Work-up B gives the cleanest phase split. It also uses the most solvent, and the DCM goes to the halogenated waste stream unless it is recovered."},
-    {"list": [
-      "Yield and purity to be added once the trial HPLC runs are back",
-      {"text": "Work-up C not yet run at the larger scale", "level": 1}
-     ],
-     "ordered": false}
-   ]
+  "header": "Vellacombe Discovery Ltd",
+  "footer": "Vellacombe Discovery Ltd | Confidential",
+  "watermark": "DRAFT",
+  "title_block": {
+    "title": "Small-scale coupling work-ups",
+    "subtitle": "Chemistry note, draft",
+    "lines": [
+      "Draft 3",
+      "Date: 19 Jun 2019",
+      "Author: C. Antoine"
+    ]
   },
-  {
-   "heading": "3 Concentrations",
-   "level": 1,
-   "blocks": [
-    {"p": "Stock solutions were made at 10 mM in DMSO. Working solutions for the assay were 50 µM in buffer, with a top concentration of 10 µM in the dose plate."},
-    {"p": "In the bench sheet the working solution is written as 50 nM in one place, while the protocol says 50 µM. Check the sheet before the next run.", "style": "small"},
-    {"p": "Solubility of the crude products was checked at 5 mg/mL and 5 mg/ml in two different batches of DMSO and recorded without comparison."}
-   ]
-  },
-  {
-   "heading": "4 Solvent recovery",
-   "level": 1,
-   "blocks": [
-    {"p": "Solvent recovery from the ethyl acetate washes is still undecided. The rotary evaporator in the back room is booked for the mixed-solvent fractions, so the washes may need to go to the waste stream."},
-    {"p": "Ask facilities whether the bump trap is fitted on the second unit. Until that is answered, do not plan recovery runs for the larger scale.", "style": "note"}
-   ]
-  },
-  {
-   "heading": "5 Open questions",
-   "level": 1,
-   "blocks": [
-    {"p": "Which work-up goes forward for the scale-up? This is still open."},
-    {"list": [
-      "Whether work-up C is acceptable for the purity target",
-      "Who sets the recovery plan for the chlorinated solvent",
-      "When the next analogue set starts"
-     ],
-     "ordered": true}
-   ]
-  }
- ],
- "tracked_changes": [
-  {"find": "work-up C is a direct evaporation with a silica plug", "insert": "work-up C is a direct evaporation onto a silica plug", "author": "Ruth Calderwood", "date": "2019-06-20"},
-  {"find": "so the washes may need to go to the waste stream", "insert": ", unless the bump trap is fitted first", "author": "Ruth Calderwood", "date": "2019-06-20"},
-  {"find": "This is still open.", "insert": "", "delete": true, "author": "Clara Fenwick", "date": "2019-06-21"}
- ],
- "orientation": "portrait"
+  "sections": [
+    {
+      "heading": "1 Purpose",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This note compares candidate small-scale work-ups for coupling trials. It is a working draft and several sections are incomplete; trial observations remain in the bench records."
+        },
+        {
+          "p": "The aim is to choose one work-up for the scale-up before the next analogue set is started. Nothing here is a final recommendation.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "2 Work-ups compared",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "For comparison, work-up A uses saturated sodium bicarbonate and ethyl acetate; work-up B uses water and dichloromethane; work-up C is a direct evaporation with a silica plug. These are candidate protocols, not a record of confirmed outcomes."
+        },
+        {
+          "table": {
+            "columns": [
+              "Work-up",
+              "Quench",
+              "Extraction",
+              "Drying",
+              "Comment"
+            ],
+            "rows": [
+              [
+                "A",
+                "Sat. NaHCO3",
+                "EtOAc",
+                "Na2SO4",
+                "Check emulsion risk at larger scale"
+              ],
+              [
+                "B",
+                "Water",
+                "DCM",
+                "MgSO4",
+                "Phase split and solvent recovery to be assessed"
+              ],
+              [
+                "C",
+                "None",
+                "Evaporation",
+                "n/a",
+                "Removal of impurities to be assessed"
+              ]
+            ],
+            "caption": "Table 1 Work-up protocols (draft)"
+          }
+        },
+        {
+          "p": "Phase separation and solvent demand must be compared using the bench records before a work-up is preferred. Chlorinated solvent requires the appropriate waste stream unless an approved recovery procedure is used."
+        },
+        {
+          "list": [
+            "Yield and purity to be checked against the trial records",
+            {
+              "text": "Larger-scale suitability of work-up C remains open",
+              "level": 1
+            }
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "heading": "3 Quantities and units",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Transfer reagent charges and isolated masses from the bench sheet with their original units. The typed sheet uses mg; handwritten entries may use g. Keep both visible until the conversion is checked."
+        },
+        {
+          "p": "Do not treat isolated mass as percentage yield. Calculation requires the limiting reagent and the assigned product structure. Entries awaiting reconciliation remain [TBC].",
+          "style": "small"
+        },
+        {
+          "p": "Solvent volumes and recovery quantities are to be taken from the work-up records. No recovery recommendation is agreed here."
+        }
+      ]
+    },
+    {
+      "heading": "4 Solvent recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Solvent recovery from the ethyl acetate washes is still undecided. Confirm the equipment and waste-stream arrangements before deciding whether recovery is practical, so the washes may need to go to the waste stream."
+        },
+        {
+          "p": "Ask facilities to confirm the recovery setup and approved procedure. A bump trap alone does not establish that a mixed solvent can be safely recovered for reuse.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "5 Open questions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Which work-up goes forward for the scale-up? This is still open."
+        },
+        {
+          "list": [
+            "Whether work-up C is acceptable for the purity target",
+            "Who sets the recovery plan for the chlorinated solvent",
+            "When the next analogue set starts"
+          ],
+          "ordered": true
+        }
+      ]
+    }
+  ],
+  "tracked_changes": [
+    {
+      "find": "work-up C is a direct evaporation with a silica plug",
+      "insert": "work-up C is a direct evaporation onto a silica plug",
+      "author": "Ruth Calderwood",
+      "date": "2019-06-19"
+    },
+    {
+      "find": "so the washes may need to go to the waste stream",
+      "insert": "; recovery requires an approved procedure first",
+      "author": "Ruth Calderwood",
+      "date": "2019-06-19"
+    },
+    {
+      "find": "This is still open.",
+      "insert": "",
+      "delete": true,
+      "author": "Clara Fenwick",
+      "date": "2019-06-19"
+    }
+  ],
+  "orientation": "portrait"
 }
