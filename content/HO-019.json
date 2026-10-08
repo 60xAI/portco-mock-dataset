@@ -1,0 +1,6 @@
+{"family": "workbook",
+ "summary": "Scratch finance workbook kept in the 2026 working folder. One sheet with a single unlabelled subtotal and otherwise empty cells, left unsaved-looking after a short session.",
+ "properties": {"title": "Book1"},
+ "sheets": [
+  {"name": "Sheet1", "rows": [[null, null, null], [null, null, null], [null, null, null], [null, "=SUM(B2:B3)", null]], "col_widths": {"A": 12, "B": 14}}
+ ]}
