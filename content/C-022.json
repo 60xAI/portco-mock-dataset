@@ -1,55 +1,225 @@
-{"family": "workbook",
- "summary": "Interim assay worksheet for the BP16 CYP interaction confirmation on the Belquorin oxazole carboxamide set. The five-isoform inhibition screen is complete and the CYP3A4 concentration-response curves are partly in. Results on two rows are held until the identity of a relabelled vial is confirmed, so no progression call is made yet.",
- "properties": {"title": "MV-2026-278 assay worksheet (interim)"},
- "sheets": [
-  {"name": "Summary", "rows": [
-    [{"v": "MV-2026-278 assay worksheet, interim", "bold": true}],
-    ["Project", "MV-2026-278"],
-    ["LIMS reference", "M26/BIO/06402"],
-    ["Client", "Belquorin Pharma"],
-    ["Series", "SER16 (BP16 oxazole carboxamide)"],
-    ["Compounds tested", "{{PRJ0066:n_compounds}}"],
-    ["Assays", "CYP inhibition panel at 10 µM (1A2, 2C9, 2C19, 2D6, 3A4); CYP3A4 IC50 (midazolam 1'-hydroxylation)"],
-    [],
-    ["Status", "Interim. Partial results; final conclusions pending. No progression recommendation yet."],
-    ["Prepared by", "Javier Quintana", null, "09/24/2026"],
-    ["Reviewed by", "Helen Marchwood"],
-    ["Client sign-off", null]
-   ],
-   "col_widths": {"A": 22, "B": 70, "C": 4, "D": 16},
-   "merged": ["A1:D1"]},
-  {"name": "CYP panel", "rows": [
-    [{"v": "CYP inhibition, % inhibition at 10 µM", "bold": true}],
-    ["Human liver microsomes, probe substrates. Negative values are assay noise around zero."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0066:cyp_inhib", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 14, "C": 14, "D": 14, "E": 14, "F": 14},
-   "freeze": "A5",
-   "comments": [{"cell": "A2", "text": "Control values for each isoform still need comparing with the historical range before release", "author": "Helen Marchwood"}],
-   "chart": {"kind": "bar", "ref": "PRJ0066:cyp_inhib", "column": 5, "title": "CYP3A4 % inhibition at 10 µM"},
-   "chart_at": "H4"},
-  {"name": "CYP3A4 IC50", "rows": [
-    [{"v": "CYP3A4 IC50, midazolam 1'-hydroxylation", "bold": true}],
-    ["Values above 50 µM are reported as >50. Compounds below 1 µM: {{PRJ0066:cyp3a4_ic50.n_lt_1uM}}; below 10 µM: {{PRJ0066:cyp3a4_ic50.n_lt_10uM}}."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0066:cyp_ic50", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 14, "C": 18},
-   "freeze": "A5",
-   "comments": [{"cell": "A2", "text": "Hold the two most potent rows until the relabelled vial is confirmed. Do not quote them in the interim readout.", "author": "Javier Quintana"}]},
-  {"name": "Identity checks", "rows": [
-    [{"v": "Vial identity checks", "bold": true}],
-    ["Vial", "Compound", "Received", "Identity check", "Checked by", "Date"],
-    ["V-0412", "BP16-05482", "09/10/2026", "Confirmed", "Javier Quintana", "09/22/2026"],
-    ["V-0413", "BP16-05472", "09/10/2026", "Confirmed", "Javier Quintana", "09/22/2026"],
-    ["V-0419 (relabelled)", "To be confirmed", "09/14/2026", "Pending", null, null],
-    ["V-0420", "BP16-05400", "09/10/2026", null, null, null],
-    ["V-0421", "BP16-05422", null, null, null, null],
-    [null, null, null, null, null, null],
-    [null, null, null, null, null, null]
-   ],
-   "col_widths": {"A": 22, "B": 18, "C": 14, "D": 18, "E": 20, "F": 14},
-   "freeze": "A3",
-   "comments": [{"cell": "D4", "text": "Pending until the relabelled vial is matched against the sample log", "author": "Helen Marchwood"}]}
- ]}
+{
+  "family": "workbook",
+  "summary": "Interim assay worksheet for the BP16 CYP interaction confirmation on the Belquorin oxazole carboxamide set. Screening runs are complete; the tables show the currently recorded subset of results. Final concentration-response interpretation awaits client identity confirmation for a relabelled vial, so no progression call is made.",
+  "properties": {
+    "title": "MV-2026-278 assay worksheet (interim)"
+  },
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc, a Tarnovell company | MV-2026-278 assay worksheet, interim",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "MV-2026-278"
+        ],
+        [
+          "LIMS reference",
+          "M26/BIO/06402"
+        ],
+        [
+          "Client",
+          "Belquorin Pharma"
+        ],
+        [
+          "Series",
+          "SER16 (BP16 oxazole carboxamide)"
+        ],
+        [
+          "Study test article count",
+          "{{PRJ0066:n_compounds}}"
+        ],
+        [
+          "Assays",
+          "CYP inhibition panel at 10 µM (1A2, 2C9, 2C19, 2D6, 3A4); CYP3A4 IC50 (midazolam 1'-hydroxylation)"
+        ],
+        [],
+        [
+          "Status",
+          "Interim. Partial results; final conclusions pending. No progression recommendation yet."
+        ],
+        [
+          "Prepared by",
+          "Javier Quintana",
+          null,
+          "09/24/2026"
+        ],
+        [
+          "Reviewed by",
+          "Helen Marchwood"
+        ],
+        [
+          "Client sign-off",
+          null
+        ]
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 70,
+        "C": 4,
+        "D": 16
+      },
+      "merged": [
+        "A1:D1"
+      ]
+    },
+    {
+      "name": "CYP panel",
+      "rows": [
+        [
+          {
+            "v": "CYP inhibition, % inhibition at 10 µM",
+            "bold": true
+          }
+        ],
+        [
+          "Human liver microsomes, probe substrates. Negative values are assay noise around zero."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0066:cyp_inhib",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 14,
+        "D": 14,
+        "E": 14,
+        "F": 14
+      },
+      "freeze": "A5",
+      "comments": [
+        {
+          "cell": "A2",
+          "text": "Document the control comparison with historical records before final release.",
+          "author": "Helen Marchwood"
+        }
+      ],
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0066:cyp_inhib",
+        "column": 5,
+        "title": "CYP3A4 % inhibition at 10 µM"
+      },
+      "chart_at": "H4"
+    },
+    {
+      "name": "CYP3A4 IC50",
+      "rows": [
+        [
+          {
+            "v": "CYP3A4 IC50, midazolam 1'-hydroxylation",
+            "bold": true
+          }
+        ],
+        [
+          "Human liver microsomes, midazolam 1'-hydroxylation. Values above 50 µM are reported as >50. This is a partial result table; whole-set potency counts and final interpretation remain pending identity confirmation."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0066:cyp_ic50",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 18
+      },
+      "freeze": "A5",
+      "comments": [
+        {
+          "cell": "A2",
+          "text": "Keep final interpretation pending until the client confirms the relabelled vial against the accession record; do not assign the identity hold to particular result rows without that record.",
+          "author": "Javier Quintana"
+        }
+      ]
+    },
+    {
+      "name": "Identity checks",
+      "rows": [
+        [
+          {
+            "v": "Vial identity checks",
+            "bold": true
+          }
+        ],
+        [
+          "Source record",
+          "Check",
+          "Status",
+          "Client confirmation",
+          "Checked by",
+          "Date"
+        ],
+        [
+          "Study accession {{PRJ0066:lims_id}}",
+          "Relabelled vial identity",
+          "Pending",
+          null,
+          null,
+          null
+        ],
+        [
+          "Accession receipt record",
+          "Match vial label to client identity confirmation",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 18,
+        "C": 14,
+        "D": 18,
+        "E": 20,
+        "F": 14
+      },
+      "freeze": "A3",
+      "comments": [
+        {
+          "cell": "C3",
+          "text": "Leave identity sign-off blank until the client confirmation is matched to the accession record.",
+          "author": "Helen Marchwood"
+        }
+      ]
+    }
+  ]
+}
