@@ -1,0 +1,330 @@
+{
+  "family": "document",
+  "summary": "Final report for Corvenlith Therapeutics on donor-balanced RNA-seq differential expression. The reduced inflammatory signal redirected prioritisation towards the reproducible receptor pathway, with model limits and analytical provenance retained.",
+  "properties": {
+    "title": "Immune-cell RNA-seq: donor adjustment and receptor-pathway prioritisation"
+  },
+  "header": "Quenverell Computational Ltd, a Tarnovell company",
+  "footer": "Quenverell Computational Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Immune-cell RNA-seq: donor adjustment and receptor-pathway prioritisation",
+    "subtitle": "Final client report",
+    "lines": [
+      "Report: {{PRJ0011:project_id}} | revision 1",
+      "Accession: {{PRJ0011:lims_id}}",
+      "Client: {{PRJ0011:client_variant}}",
+      "Date: 19 Dec 2023",
+      "Prepared by Dr T. Zawiernicki, Head of Bioinformatics"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Biological question and final decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Corvenlith Therapeutics asked which immune-cell expression signals were sufficiently reproducible to guide target prioritisation. The central concern was donor composition: an apparent inflammatory pattern might reflect the distribution of donors rather than a consistent response within donors. The engagement treats donor identity as part of the biological comparison rather than as an optional correction applied after ranking."
+        },
+        {
+          "p": "Donor-balanced analysis reduced the apparent inflammatory signature and redirected Corvenlith Therapeutics towards the reproducible receptor pathway. This prioritises a follow-up question; it does not establish receptor causality or therapeutic efficacy. The final decision is summarised below before the model details."
+        },
+        {
+          "table": {
+            "columns": [
+              "Evidence or requirement",
+              "Interpretation",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Inflammatory pattern",
+                "Reduced after donor adjustment",
+                "Do not retain the unadjusted emphasis as the target rationale"
+              ],
+              [
+                "Receptor pathway",
+                "Reproducible in the donor-balanced analysis",
+                "Prioritise focused biological follow-up"
+              ],
+              [
+                "Therapeutic mechanism",
+                "Not demonstrated",
+                "Retain as a hypothesis"
+              ]
+            ],
+            "caption": "Table 1. Decision and scope summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Engagement scope and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The engagement {{PRJ0011:project_id}} began on 30 Oct 2023, with an interim readout on 23 Nov 2023 and completion on 18 Dec 2023. This report is dated 19 Dec 2023. Accession {{PRJ0011:lims_id}} links the immune-cell RNA-seq inputs, model definitions and target-prioritisation output."
+        },
+        {
+          "p": "The scope follows the September proposal: RNA-seq differential expression with donor adjustment and Omics target prioritisation. P36 is the related proposal, not a substitute for final analytical provenance. New sequencing, receptor perturbation and therapeutic testing are outside the engagement. The final account distinguishes accepted inputs from exploratory outputs."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Provenance of immune-cell data",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Expression inputs, donor descriptors and condition labels are separate source objects. Their joins are established from supplied identifiers, not reconstructed from expression similarity. Donor aliases are retained alongside their source labels so that an apparent duplicate or unmatched entry remains visible."
+        },
+        {
+          "p": "Nadia Rahmani maintained the curation route. Biological descriptions remain attributed to Corvenlith Therapeutics, while normalisation, contrast definition and prioritisation decisions belong to the Quenverell analysis notebook. An export stripped of donor provenance would not support the interpretation delivered here."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Donor and sample identity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The analytical unit is defined before modelling. Multiple observations from a donor do not become independent donor evidence merely because they occupy separate expression columns. Sample identity and donor identity therefore remain separate fields throughout acceptance and interpretation."
+        },
+        {
+          "p": "The donor-to-condition structure determines which biological comparison can be estimated. Missing or ambiguous donor information is not filled in from a cluster plot. The report does not state a donor or sample count because the narrative is qualitative; those quantities must come from the accepted source inventory."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Data acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Acceptance checks sample identifiers, donor joins, condition labels, feature definitions and the distinction between technical and biological observations. A comparison should not proceed as though all labels are complete when donor history is uncertain. Ambiguities belong in the notebook before any target ranking is examined."
+        },
+        {
+          "p": "The accepted data drop is frozen for the final route. Feature filtering follows analytical suitability rather than expected inflammatory direction. Exploratory copies retain their source links, and excluded features remain distinguishable from missing features. Acceptance establishes an analysable representation, not biological truth."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Expression representation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Counts and transformed exploratory expression have different roles. The inferential representation supports the defined contrast, while transformed views help examine relationships and influential observations. A projection does not itself supply a log2 fold change or an adjusted probability."
+        },
+        {
+          "p": "A common feature mapping and normalisation route support comparison across donors. Differences caused by annotation or filtering are not attributed to donor adjustment. Biological naming follows the frozen identifier mapping; unresolved mappings remain unresolved rather than receiving a convenient pathway label."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Unadjusted inflammatory pattern",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The unadjusted inflammatory pattern is retained as context for the original prioritisation question. Its prominence before adjustment explains why donor composition needed attention. It should not be erased from the archive merely because the final emphasis changed."
+        },
+        {
+          "p": "The unadjusted view cannot distinguish a consistent biological response from differences in donor representation on its own. The report therefore carries that view alongside the adjusted interpretation. It does not imply that inflammation is absent; it states that the apparent signature was reduced after donor balancing."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Donor-balanced design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The design separates the biological comparison from donor-associated variation where the submitted material permits this. Donor balance concerns the representation of biological evidence, not simply equalising the appearance of an expression display. A pooled sample-level contrast can otherwise overstate evidence from heavily represented donors."
+        },
+        {
+          "p": "Emil Ostlund reviewed the model route with Tomasz Zawiernicki. The contrast definition and donor terms are recorded together, with reference direction preserved. The analysis notebook identifies how donor information enters the design so that a future analyst can reproduce the question rather than merely reproduce a figure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Estimability and confounding",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The model gate examines whether donor and condition can be distinguished. Where a condition is represented only through particular donors, adjustment cannot manufacture an independent comparison. A calculable coefficient is not sufficient evidence that the intended biological effect has been identified."
+        },
+        {
+          "p": "Redundant terms and unavailable comparisons should be flagged before significance is interpreted. The report preserves uncertainty where donor history and condition overlap. This is why the final result is framed as target prioritisation in the submitted material rather than a general population claim."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Differential-expression interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "RNA-seq differential expression is interpreted as log2 fold change with adjusted probabilities for the specified contrast. The reference direction remains consistent between notebook, export and narrative. Sign reversal caused by a changed reference level is an analytical convention, not a changed biological observation."
+        },
+        {
+          "p": "Multiplicity adjustment concerns the set of comparisons made. It does not settle annotation uncertainty or remove donor confounding. Features are interpreted through effect direction, context and reproducibility rather than a significance label alone. A rank should retain the model definition from which it arose."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Effect of donor adjustment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The donor-balanced analysis reduced the apparent inflammatory signature. The revised interpretation follows the comparison that accounts for donor structure rather than the more striking unadjusted picture. Reduced emphasis is not a claim that every inflammatory feature is irrelevant."
+        },
+        {
+          "p": "The report supplies no numerical reduction estimate. It preserves the qualitative change in interpretation and its source: donor adjustment. A later analyst should compare like feature definitions and like contrasts before deciding whether another data drop confirms or contradicts this outcome."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Reproducible receptor pathway",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The receptor pathway remained reproducible in the donor-balanced analysis and became the focus of Corvenlith Therapeutics target prioritisation. The evidence concerns coordinated expression in this engagement. It does not identify receptor activation state, establish functional dependence or prove a drug mechanism."
+        },
+        {
+          "p": "Pathway interpretation stays linked to the feature-to-pathway mapping used here. A pathway label can hide different contributing features across analyses, so the underlying mapping matters as much as the label. Follow-up should interrogate the biological relationship suggested by the expression pattern."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Prioritisation rationale",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Omics target prioritisation balances reproducibility, biological context and uncertainty. The receptor pathway is promoted because it survives the donor-balanced interpretation, not because the original inflammatory narrative must be replaced with a new certainty. The target card should carry both the preferred hypothesis and the alternative account."
+        },
+        {
+          "p": "Expression can nominate a tractable question without proving which component is causal. Corvenlith Therapeutics should retain the evidence chain from donor provenance to contrast to pathway interpretation when selecting validation experiments. A target name alone would lose the basis of this decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Sensitivity and limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Sensitivity work asks whether donor representation, influential observations or model specification changes the receptor interpretation. It should preserve the biological contrast while examining analytical dependencies separately. Selecting whichever route gives the most compelling pathway picture would defeat that purpose."
+        },
+        {
+          "p": "Agreement across reanalyses of the same material does not substitute for independent biological evidence. Generalisation beyond the submitted immune-cell context remains untested. The final conclusion is sufficiently stable to guide follow-up but bounded by provenance, model assumptions and the available biological comparison."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Follow-up model gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Define receptor-pathway validation before inspecting new expression data. Use independent biological material and preserve donor provenance. A functional experiment should distinguish pathway association from dependence, while an expression experiment should test whether the coordinated pattern persists under the intended comparison."
+        },
+        {
+          "p": "The next model gate should consider coherence, donor sensitivity and the biological relevance of disagreement. A negative or discordant outcome is informative if provenance is intact. This report recommends a focused question rather than a predetermined positive result, and does not claim efficacy or patient stratification."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "heading": "Appendix A. Source and dependency inventory",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reproduction begins with accepted inputs under {{PRJ0011:lims_id}}. Keep expression data, donor descriptions, sample labels, condition definitions and feature mapping as distinct dependencies. Derived objects identify their source route and model specification. A presentation table without these joins cannot reproduce donor balance."
+        },
+        {
+          "p": "Nadia Rahmani is the curation contact. The September proposal defines commercial scope; this final report defines the resulting interpretation. The archive should retain that distinction so the proposal is not cited as evidence that the receptor pathway was already known before analysis."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B. Reproduction sequence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Restore the accepted sample and donor joins, then apply the frozen feature handling and normalisation route. Rebuild the donor-balanced design and check estimability before the contrast. Export log2 fold changes and adjusted probabilities with reference direction preserved. Generate unadjusted views separately as context."
+        },
+        {
+          "p": "Reconstruct the pathway interpretation from its underlying feature mapping. Compare the qualitative decision with Table 1 without treating the expected outcome as an acceptance condition. A discrepancy should lead first to dependency comparison, not to tuning until the original pathway emphasis reappears."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix C. Final handover and reuse",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Tomasz Zawiernicki issues this final report after completion on 18 Dec 2023. The conclusion is that donor-balanced analysis reduced the apparent inflammatory signature and redirected Corvenlith Therapeutics towards the reproducible receptor pathway. The target-prioritisation rationale remains linked to the analytical provenance."
+        },
+        {
+          "p": "Reuse in a later target card or experiment should distinguish expression association from functional validation. A new donor collection or annotation dependency creates a new context. Preserve the original report and add subsequent evidence rather than rewriting the historical interpretation to match a later result."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Tomasz Zawiernicki",
+      "role": "Head of Bioinformatics",
+      "date": "19 Dec 2023",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
