@@ -1,0 +1,386 @@
+{
+  "family": "document",
+  "summary": "Final study report for Kelbravik Therapeutics ApS. KT12 Permeability, Solubility and Plasma Binding results are presented with matrix definitions, analytical limits, acceptance qualifications and the client decision.",
+  "properties": {
+    "title": "MV-2008-013 KT12 Permeability, Solubility and Plasma Binding final report"
+  },
+  "header": "Merrivoss Bioanalysis Inc | MV-2008-013 | Final R1",
+  "footer": "Merrivoss Bioanalysis Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "KT12 Permeability, Solubility and Plasma Binding",
+    "subtitle": "Final study report R1",
+    "lines": [
+      "Study {{PRJ0056:project_id}}",
+      "Accession {{PRJ0056:lims_id}}",
+      "Prepared for Kelbravik Therapeutics ApS",
+      "Dr M. Larkin, DMPK Study Director",
+      "03/21/2008"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Scope and study disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The KT12 test article set comprised {{PRJ0056:n_compounds}} compounds. Work opened on 02/18/2008 and the interim communication was issued on 03/05/2008. This report closes the study on 03/21/2008 for Kelbravik Therapeutics ApS."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0056:benchmark",
+            "caption": "Table 1. Study scope and controlling identifiers"
+          }
+        },
+        {
+          "p": "Binding, transport and solubility describe separate exposure constraints. The matrices and analytical limits are stated before the branch decision. No oral exposure measurement is supplied by this decision set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 fu,p by equilibrium dialysis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Human plasma was assessed by equilibrium dialysis for 4 h at 37 °C. Bound percentage, unbound percentage and recovery are retained together. The unbound column must be converted to a fraction before use in a calculation that requires fractional fu,p."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0056:ppb",
+            "caption": "Table 2. Human plasma binding and recovery"
+          }
+        },
+        {
+          "p": "Recovery is a material-balance context, not an exposure result. A small unbound fraction must be interpreted with the analytical record rather than taken as evidence of absent free compound."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Caco-2 flux and efflux ratio",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Bidirectional permeability was assessed at 10 µM and pH 7.4. Apparent permeability is expressed in 10^-6 cm/s, while efflux ratio is dimensionless. Both directions and recovery are retained in the table."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0056:caco2",
+            "caption": "Table 3. Bidirectional Caco-2 permeability"
+          }
+        },
+        {
+          "p": "A ratio alone cannot distinguish weak forward entry from increased reverse transport. The complete directional record is needed before assigning a permeability-limited branch."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 DMSO-dilution solubility",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Kinetic solubility was assessed in PBS at pH 7.4 and is expressed in µM. Upper-limit entries remain limit statements rather than exact concentrations."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0056:solubility",
+            "caption": "Table 4. Kinetic solubility in PBS"
+          }
+        },
+        {
+          "p": "Dilution into buffer is an availability challenge. The result is not equilibrium solubility of a selected solid form, a vehicle-performance result or an intestinal dissolution measurement."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Purpose at the exposure gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Kelbravik needed to distinguish limited dissolved availability from limitation at a cellular barrier. The cyclopropyl carboxamide set was therefore evaluated across transport and solubility, with plasma binding retained as a separate exposure context."
+        },
+        {
+          "p": "A formulation assessment addresses a different question from a permeability follow-up. Keeping the branches distinct prevents every weak forward-flux result from being assigned the same remedy. A binding advantage cannot remove either constraint by itself."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Accession-lot identity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The controlling accession is {{PRJ0056:lims_id}}. The companion assay worksheet contains the accession-lot mapping. Complete KT12 compound identifiers join the tables; row position and shortened suffixes are not identity links."
+        },
+        {
+          "p": "The report assumes consistent submitted identity across the systems. It does not replace material identity or purity characterization. Later formulation work should retain the accession link while identifying any new material lot separately."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Matrix and species definitions",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "columns": [
+              "Assessment",
+              "Matrix",
+              "Biological basis",
+              "Unit"
+            ],
+            "rows": [
+              [
+                "fu,p by equilibrium dialysis",
+                "Plasma and buffer",
+                "Human plasma",
+                "Bound and unbound %"
+              ],
+              [
+                "Caco-2 flux and efflux ratio",
+                "Cell monolayer compartments",
+                "Human-derived model",
+                "10^-6 cm/s; ratio"
+              ],
+              [
+                "DMSO-dilution solubility",
+                "PBS pH 7.4",
+                "No species matrix",
+                "µM"
+              ]
+            ],
+            "caption": "Table 5. Matrix boundaries"
+          }
+        },
+        {
+          "p": "The cell model is not a measured human absorption study. No rat binding result is supplied. Solubility in buffer has no species assignment. These distinctions apply to any later extract of the tables."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Dialysis interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The plasma and buffer compartments provide an operational estimate of unbound fraction under the assay conditions. Nonspecific loss or incomplete equilibration can distort that estimate, which is why recovery remains alongside binding."
+        },
+        {
+          "p": "Highly bound material is not automatically unsuitable for progression. Its relevance depends on the eventual exposure and concentration context. Neither is measured by the dialysis experiment, and no free plasma concentration is calculated here."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Directional transport interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Low forward permeability and directional asymmetry present different follow-up questions from uniformly weak transport. The reported efflux ratio describes this cell system; it does not identify a specific transporter."
+        },
+        {
+          "p": "No inhibitor-rescue or transporter-isolation result is supplied. The permeability-limited branch designation therefore remains an operational triage conclusion. It should not be expanded into a mechanistic assertion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Kinetic availability interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "DMSO dilution can produce transient supersaturation or precipitation. The kinetic result tests availability after dilution and should not be treated as a thermodynamic constant."
+        },
+        {
+          "p": "Low transport deserves particular caution when dissolved availability is also limited. Conversely, adequate kinetic solubility does not guarantee entry through a monolayer. Reading the tables together supports separation of those constraints."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Bioanalytical responsibility",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Javier Quintana is the mass-spectrometry lead. The analyte card and assay worksheet retain parent assignment and matrix-specific analytical details. This report releases derived property tables rather than reproducing individual acquisition traces."
+        },
+        {
+          "p": "Plasma, buffer and transport compartments can differ in analytical response. Sharing a compound identifier does not make their measurements interchangeable. Matrix-specific interpretation is part of the basis for assessing recovery."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Numerical quantitation limits, calibration ranges and individual sample concentrations are not present in the supplied final record. They are not inferred here. A small unbound percentage does not establish unlimited sensitivity in the buffer measurement."
+        },
+        {
+          "p": "The same limit applies to low receiving-compartment signal and censored solubility values. Replacing a limit with an exact result would change the evidence at the exposure gate. The reported precision is retained without additional digits."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Matrix acceptance and exceptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helen Marchwood is responsible for bioanalytical quality. The companion assay worksheet records matrix acceptance checks. Recovery columns remain visible in the released binding and transport tables."
+        },
+        {
+          "p": "No named sample-level acceptance exception, numerical recovery threshold or repeat-run history is supplied in the final tables. None is reconstructed in this report. This qualification does not imply an unreported failure; it defines the scope of the released narrative."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Integrated branch assessment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Interpretation begins with dissolved availability, then considers directional transport, and retains human plasma binding as a distinct constraint. This order avoids using favorable binding to mask poor availability or weak flux."
+        },
+        {
+          "p": "Kelbravik separated a permeability-limited branch from a solubility-limited branch and commissioned a focused formulation assessment. That separation is the central outcome. It does not establish that the same intervention will benefit both branches."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Formulation assessment remit",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The commissioned work should address availability in the solubility-limited branch. It should distinguish a change in dissolved material from a change in analytical recovery and preserve the compound and accession-lot links."
+        },
+        {
+          "p": "This report does not specify a vehicle composition or report a formulation improvement. The later assessment needs its own record. Its interpretation should address the constraint identified here rather than an assumed gain in every exposure determinant."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Permeability follow-up remit",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The permeability-limited branch presents a cellular transport question. Follow-up should retain both directions and recovery, so that changes in availability are not mistaken for changes in barrier transport."
+        },
+        {
+          "p": "The present work does not establish transporter identity or clinical absorption. Its contribution is to separate plausible constraints within the submitted set, allowing subsequent work to address the appropriate branch."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Binding context for later exposure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Human fu,p should accompany the other property tables into the DMPK memo. It will be relevant when later total plasma exposure is interpreted, but no exposure measurement is included here."
+        },
+        {
+          "p": "Binding does not convert nominal assay concentration into a measured in vivo free concentration. Preserve the percentage basis and recovery record whenever the values are transcribed for a later calculation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Final client decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Kelbravik separated a permeability-limited branch from a solubility-limited branch and commissioned a focused formulation assessment. Megan Larkin records this as the final outcome of {{PRJ0056:project_id}} for Kelbravik Therapeutics ApS."
+        },
+        {
+          "p": "The conclusion is an in vitro triage decision. No oral bioavailability, dose proportionality or circulating exposure result is asserted. The matrix and analytical-limit qualifications remain part of the decision basis."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Record control and assumptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The companion record is MV-2008-013_AssayWorksheet_032108_v03.xls. This final R1 interpretation supersedes the 03/05/2008 interim communication for closeout. The original project and accession identifiers remain the links to the underlying assay record."
+        },
+        {
+          "list": [
+            "Join systems by complete compound identifier.",
+            "Preserve solubility limit symbols.",
+            "Keep recovery beside binding and directional transport.",
+            "Do not assign a biological species to buffer solubility.",
+            "Do not infer an in vivo exposure result from the property set."
+          ]
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director",
+      "date": "03/21/2008",
+      "signed": true
+    },
+    {
+      "name": "Javier Quintana",
+      "role": "Mass-Spectrometry Manager",
+      "date": "03/21/2008",
+      "signed": true
+    },
+    {
+      "name": "Helen Marchwood",
+      "role": "Bioanalytical Quality Manager",
+      "date": "03/21/2008",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
