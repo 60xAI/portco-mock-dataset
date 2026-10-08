@@ -1,54 +1,163 @@
 {
- "family": "workbook",
- "summary": "Results for investigation OT-16-S0176, the TP04 pre-nomination in vitro safety battery for Tervemere Pharma AG. The 18 articles were run through the HepG2 viability screen, the bacterial mutation assay with and without S9 and the mammalian-cell micronucleus assessment. The bacterial assay is clear. The mammalian-cell signal on one analogue is flagged on the micronucleus sheet, and Tervemere replaced that analogue before nomination.",
- "properties": {"title": "OT-16-S0176 TP04 genotoxicity results"},
- "sheets": [
-  {"name": "Summary", "rows": [
-    [{"v": "OT-16-S0176 TP04 pre-nomination safety battery: results", "bold": true}],
-    ["Investigation", "{{PRJ0120:project_id}}"],
-    ["LIMS reference", "{{PRJ0120:lims_id}}"],
-    ["Client", "{{PRJ0120:client_variant}}"],
-    ["Test article cohort", "Aminopyrazolopyrimidine series 04 (TP04), target inflammatory-signal kinase"],
-    ["Test articles", {"ref": "PRJ0120:n_compounds"}],
-    ["Bacterial mutation result", "{{PRJ0120:ames.outcome}}"],
-    ["Study director", "Naomi Takamori", null, "Investigation lead, Head of Toxicology"],
-    ["Reviewed", "Lucia Moretti, QA, 12/22/2016"],
-    [],
-    ["Benchmark summary"]
-   ],
-   "data_refs": [{"table_ref": "PRJ0120:benchmark", "at": "A12", "header": true}],
-   "merged": ["A1:D1"],
-   "col_widths": {"A": 26, "B": 22, "C": 24, "D": 30},
-   "comments": [{"cell": "B7", "text": "Bacterial result stands. The flag is on the mammalian side only, see the micronucleus sheet.", "author": "Lucia Moretti"}]
+  "family": "workbook",
+  "summary": "Results for investigation {{PRJ0120:project_id}}, the TP04 pre-nomination in vitro safety battery for {{PRJ0120:client_variant}}, covering a cohort of {{PRJ0120:n_compounds}} articles. The bacterial outcome is {{PRJ0120:ames.outcome}}. Tervemere replaced an analogue following the investigation-level mammalian concern; the displayed micronucleus table does not identify that analogue or show a consistent concentration-related increase. These results do not independently establish the flag or a GLP conclusion.",
+  "properties": {
+    "title": "OT-16-S0176 TP04 genotoxicity results"
   },
-  {"name": "HepG2 viability", "rows": [
-    ["HepG2 viability screen (ATP content), 24 h and 48 h exposure. Investigation OT-16-S0176."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0120:cytotox", "at": "A3", "header": true}],
-   "freeze": "A4",
-   "col_widths": {"A": 16, "B": 18, "C": 18},
-   "number_formats": {"B4:C21": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0120:cytotox", "column": 1, "title": "24 h IC50 (µM)"},
-   "chart_at": "E3"
-  },
-  {"name": "Ames", "rows": [
-    ["Bacterial mutation assay with and without S9. Mean revertants per plate, n=3. Fold is against the vehicle control on the same strain."],
-    ["Control validity met for every strain on the day of scoring."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0120:ames", "at": "A4", "header": true}],
-   "freeze": "A5",
-   "col_widths": {"A": 10, "B": 12, "C": 16, "D": 10, "E": 8, "F": 16},
-   "number_formats": {"F5:F75": "0.00"}
-  },
-  {"name": "Micronucleus", "rows": [
-    ["Mammalian-cell micronucleus assessment (TK6). Treatment 3 h with and without S9, recovery to 24 h. Percent micronucleated cells, RPD against vehicle."],
-    ["Analogue flagged on the mammalian signal. Tervemere have replaced it in the nomination set; the flagged data stay in the archive."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0120:micronucleus", "at": "A4", "header": true}],
-   "freeze": "A5",
-   "col_widths": {"A": 14, "B": 16, "C": 14, "D": 12},
-   "comments": [{"cell": "A2", "text": "Second reader concurs with the flag. Do not release this sheet to the client without the QA note attached.", "author": "Naomi Takamori"}]
-  }
- ]
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Osterquill Toxicology Inc | OT-16-S0176 TP04 pre-nomination safety battery: results",
+            "bold": true
+          }
+        ],
+        [
+          "Investigation",
+          "{{PRJ0120:project_id}}"
+        ],
+        [
+          "LIMS reference",
+          "{{PRJ0120:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0120:client_variant}}"
+        ],
+        [
+          "Test article cohort",
+          "Aminopyrazolopyrimidine series 04 (TP04), target inflammatory-signal kinase"
+        ],
+        [
+          "Test articles",
+          {
+            "ref": "PRJ0120:n_compounds"
+          }
+        ],
+        [
+          "Bacterial mutation result",
+          "{{PRJ0120:ames.outcome}}"
+        ],
+        [
+          "Study director",
+          "Naomi Takamori",
+          null,
+          "Investigation lead, Head of Toxicology"
+        ],
+        [
+          "QA review",
+          "Consult the separate QA review record; no approval date recorded on this sheet"
+        ],
+        [],
+        [
+          "Benchmark summary"
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0120:benchmark",
+          "at": "A12",
+          "header": true
+        }
+      ],
+      "merged": [
+        "A1:D1"
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 22,
+        "C": 24,
+        "D": 30
+      }
+    },
+    {
+      "name": "HepG2 viability",
+      "rows": [
+        [
+          "HepG2 viability screen (ATP content), 24 h and 48 h exposure. Investigation OT-16-S0176."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0120:cytotox",
+          "at": "A3",
+          "header": true
+        }
+      ],
+      "freeze": "A4",
+      "col_widths": {
+        "A": 16,
+        "B": 18,
+        "C": 18
+      },
+      "number_formats": {
+        "B4:C21": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0120:cytotox",
+        "column": 1,
+        "title": "24 h IC50 (µM)"
+      },
+      "chart_at": "E3"
+    },
+    {
+      "name": "Ames",
+      "rows": [
+        [
+          "Bacterial mutation assay with and without S9. Mean revertants per plate, n=3. Fold is against the vehicle control on the same strain."
+        ],
+        [
+          "Control validity: positive-control responses and acceptance decisions are not tabulated here; consult the original investigation records before interpreting the outcome."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0120:ames",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 10,
+        "B": 12,
+        "C": 16,
+        "D": 10,
+        "E": 8,
+        "F": 16
+      },
+      "number_formats": {
+        "F5:F75": "0.00"
+      }
+    },
+    {
+      "name": "Micronucleus",
+      "rows": [
+        [
+          "Mammalian-cell micronucleus assessment (TK6). Treatments: 3 h with S9, 3 h without S9 and 24 h without S9. Percent micronucleated cells; relative population doubling (RPD) against matched vehicle."
+        ],
+        [
+          "The investigation-level mammalian concern led to analogue replacement. This table does not identify the flagged analogue or show a consistent concentration-related increase; retain the article-specific interpretation with the investigation record."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0120:micronucleus",
+          "at": "A4",
+          "header": true
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 14,
+        "B": 16,
+        "C": 14,
+        "D": 12
+      }
+    }
+  ]
 }
