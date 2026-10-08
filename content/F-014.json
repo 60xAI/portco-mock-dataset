@@ -1,0 +1,53 @@
+{"family": "workbook",
+ "summary": "Eric's working copy of the early CMC rate sheet for Vehicle ladder and Excipient compatibility screen work packages. It is the version before the 2022 review with Julia and still carries the pilot-lot and bench-sheet assumptions we used with the first clients. Do not send this copy out; use the approved sheet once Julia signs it off.",
+ "properties": {"title": "Early CMC rates USD working copy"},
+ "sheets": [
+  {"name": "Rates", "start": "A1",
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc", "bold": true}],
+    ["Early CMC rates, USD (working copy, not for client issue)"],
+    ["Updated", "06/01/2022", null, "Owner", "Eric Langford"],
+    [],
+    [{"v": "Service line", "bold": true}, {"v": "Unit", "bold": true}, {"v": "Rate (USD)", "bold": true}, {"v": "Basis", "bold": true}],
+    ["Vehicle ladder, work package", "per work package", "TBC", "Two-week screen, bench sheet per vehicle"],
+    ["Excipient compatibility screen", "per formulation set", "TBC", "Bench sheet per excipient pair, screen suitability checked on day 1"],
+    ["Pilot lot support", "per pilot lot", "TBC", "Scoped separately, depends on scale gate"],
+    ["Stability pull (add-on)", "per time point", "TBC", "Only if the client has a LIMS accession"],
+    [],
+    ["Note: rates above are pulled from the 2021 card. Julia wants the Vehicle ladder line split by dose range before this goes anywhere."]
+   ],
+   "col_widths": {"A": 34, "B": 22, "C": 14, "D": 52},
+   "merged": ["A1:D1", "A2:D2", "A10:D10"],
+   "comments": [
+    {"cell": "C6", "text": "Still need the 2021 card figure. Didn't get it from the old folder, will ask Dimitra", "author": "Eric Langford"},
+    {"cell": "A10", "text": "Old note, keep until the split is done", "author": "Eric Langford"}
+   ],
+   "freeze": "A6"},
+  {"name": "Screen scope", "start": "A1",
+   "rows": [
+    [{"v": "Screen scope by work package", "bold": true}],
+    [],
+    ["Screen", "Scope", "Bench sheets", "Notes"],
+    ["Vehicle ladder", "Solubility and viscosity across a graded vehicle set at fixed dose", 2, "Dose in mg/mL, loading in weight percent. Julie checked the ladder spacing in March"],
+    ["Excipient compatibility screen", "Pairwise excipient and API mixes under accelerated hold", 3, "Particle sizes reported in µm where the bench sheet has them. Exploratory only, not a locked process"],
+    [],
+    ["Open point: the screen count on the compatibility line changed in 2021 and the old Excel still shows 4. Use 3 until Julia confirms."]
+   ],
+   "col_widths": {"A": 30, "B": 60, "C": 14, "D": 60},
+   "merged": ["A1:D1", "A7:D7"],
+   "number_formats": {"C4:C5": "0"},
+   "comments": [{"cell": "C5", "text": "Ask Julia whether the third bench sheet is still in the scope", "author": "Eric Langford"}],
+   "freeze": "A4"},
+  {"name": "Notes", "start": "A1",
+   "rows": [
+    [{"v": "Working notes, Eric, 2022", "bold": true}],
+    [],
+    ["06/01/2022", "Moved the pilot-lot line out of the main rate table. Scale gate language is still in the old memo, so check before quoting."],
+    ["05/18/2022", "Julia and Miguel agreed the ladder should be quoted per work package, not per vehicle."],
+    ["04/29/2022", "Min-jun raised the bench sheet template. It uses the old screen suitability wording. Fix before the next client pack."],
+    [],
+    ["TODO", "Ask Dean whether the 2021 compatibility rate covered the hold conditions or just the screen."]
+   ],
+   "col_widths": {"A": 16, "B": 90},
+   "tab_color": "#7F7F7F"}
+ ]}
