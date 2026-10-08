@@ -1,0 +1,50 @@
+{"family": "workbook",
+ "summary": "Local USD rate workbook for the Durham formulation and early CMC group, revision B. It sets out the Vehicle ladder and Excipient compatibility screen work packages, optional pilot-lot handoff support, and the approval path for discounts. Rates are scoped per work package; discounts beyond the standard band go to the CMC Lead for sign-off.",
+ "properties": {"title": "Early CMC rate workbook rev B"},
+ "sheets": [
+  {"name": "Rate card", "start": "A1",
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc, a Tarnovell company", "bold": true}],
+    ["Early CMC rate card, USD, revision B"],
+    ["Issued", "04/15/2025", null, "Prepared by", "Lena Patel"],
+    [],
+    [{"v": "Service line", "bold": true}, {"v": "Unit", "bold": true}, {"v": "Rate (USD)", "bold": true}, {"v": "Basis", "bold": true}],
+    ["Vehicle ladder work package", "per work package", "Quoted at scoping", "Two-week screen with bench sheet per vehicle"],
+    ["Excipient compatibility screen", "per formulation set", "Quoted at scoping", "Pairwise mixes, screen suitability checked before the first read"],
+    ["Pilot lot handoff support", "per pilot lot", "Quoted at scale gate", "Optional. Covers the record card and transfer to the pilot lot team"],
+    ["Stability time point (add-on)", "per time point", "Quoted at scoping", "Only where the client holds a LIMS accession"],
+    [],
+    ["Rates are set at scoping against the work package. This card does not commit a price for a formulation set that has not been scoped."]
+   ],
+   "col_widths": {"A": 34, "B": 22, "C": 22, "D": 56},
+   "merged": ["A1:D1", "A2:D2", "A10:D10"],
+   "freeze": "A6"},
+  {"name": "Scope and handoff", "start": "A1",
+   "rows": [
+    [{"v": "Scope by work package", "bold": true}],
+    [],
+    ["Work package", "Scope", "Bench sheets", "Handoff"],
+    ["Vehicle ladder", "Solubility and viscosity across a graded vehicle set at a fixed dose", 2, "Pilot lot support optional. Bench sheets go to the client with the development note"],
+    ["Excipient compatibility screen", "Pairwise excipient and API mixes under accelerated hold", 3, "Exploratory screen. Not a locked process, so no scale gate is implied"],
+    [],
+    ["Concentrations are reported in mg/mL, loading in weight percent and particle sizes in µm, as on the bench sheet."]
+   ],
+   "col_widths": {"A": 30, "B": 60, "C": 14, "D": 60},
+   "merged": ["A1:D1", "A7:D7"],
+   "number_formats": {"C4:C5": "0"},
+   "freeze": "A4"},
+  {"name": "Approvals", "start": "A1",
+   "rows": [
+    [{"v": "Discount approval path", "bold": true}],
+    [],
+    ["Discount band", "Approver", "Notes"],
+    ["Within standard band", "Formulation Development Lead", "Recorded on the scoping sheet with the work package number"],
+    ["Above standard band", "CMC Lead", "Needs a written reason from the account owner before the quote goes out"],
+    ["Pilot lot support waived", "CMC Lead", "Only for a repeat client on the same formulation set"],
+    [],
+    ["Owner of this card: CMC Technical Transfer. Review each quarter, and at each change to the scale gate definition."]
+   ],
+   "col_widths": {"A": 26, "B": 30, "C": 66},
+   "merged": ["A1:C1", "A8:C8"],
+   "tab_color": "#1F4E79"}
+ ]}
