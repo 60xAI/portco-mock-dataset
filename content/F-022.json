@@ -1,31 +1,131 @@
-{"family": "document",
- "summary": "Controlled administrative review of bench screen suitability for the Vehicle ladder and Excipient compatibility screen work. Balance checks, dilution record traceability and recipe card reconciliation are confirmed complete. Three actions are closed and one is carried into the next bench cycle.",
- "properties": {"title": "Bench screen suitability administrative review"},
- "header": "Durnesswick Laboratories Inc, a Tarnovell company",
- "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
- "watermark": null,
- "title_block": {"title": "Bench Screen Suitability: Administrative Review", "subtitle": "Vehicle ladder and Excipient compatibility screen", "lines": ["Report no. F-R-2024-0117-A", "Date: 11/06/2024"]},
- "sections": [
-  {"heading": "1 Purpose and scope", "level": 1, "blocks": [
-   {"p": "This review confirms that the screen suitability records for the Vehicle ladder and Excipient compatibility screen work packages are complete, traceable and consistent with the recipe cards in use. It covers bench sheets issued from 09/23/2024 to 10/25/2024. It is an administrative check of the records and does not re-assess the formulation conclusions drawn from the screens."},
-   {"p": "Screen suitability is recorded on each bench sheet before a formulation set is compounded. A sheet that fails a check stays open until the failure is explained on the sheet itself, not in a separate email."},
-   {"p": "The review was carried out under the transition rules. The local master still applies for this year, and project and accession numbers are cited as they were issued.", "style": "small"}]},
-  {"heading": "2 Balance checks", "level": 1, "blocks": [
-   {"p": "Balance checks were reviewed for every bench sheet in scope. Each check is recorded with the date, the operator's initials, the reference mass used and the result against the tolerance printed on the sheet. Reference masses trace to the calibration log kept by Sample Management."},
-   {"list": ["Every bench sheet carries a balance check entry for the day of weighing.", "Two entries were made on a neighboring balance while the usual instrument was out of service. The sheets name the balance used, so the record is complete.", "No check was recorded as passed without a value. Where a value was missing the weighing was repeated and the sheet annotated."], "ordered": false},
-   {"p": "Ashley King confirmed that the balance identifiers on the sheets match the calibration log. No discrepancy was found."}]},
-  {"heading": "3 Dilution record traceability", "level": 1, "blocks": [
-   {"p": "Vehicle ladder dilutions were made from stock solutions expressed in mg/mL. Each dilution step is recorded as its own line on the bench sheet, with the parent stock, the volume transferred and the resulting concentration. A reviewer should be able to rebuild any ladder step from the sheet alone, and this review checked that they can."},
-   {"p": "Three steps referred to the parent stock by a shorthand label rather than the stock ID. Miguel Serrano added the full stock IDs on 11/05/2024 and initialed the change. The original entries are still legible.", "style": "note"},
-   {"p": "Excipient compatibility screen dilutions follow the same layout. Concentrations are given in mg/mL throughout. Weight percent appears only where a blend is described as a loading, and no mixed-unit entries were found within the screen itself."}]},
-  {"heading": "4 Recipe card reconciliation", "level": 1, "blocks": [
-   {"p": "Each recipe card used for the screens was compared with the bench sheets that cite it. The table records the outcome for each card."},
-   {"table": {"columns": ["Recipe card", "Work package", "Outcome"], "rows": [["RC-24-031", "Vehicle ladder", "Reconciled"], ["RC-24-032", "Vehicle ladder", "Reconciled"], ["RC-24-038", "Excipient compatibility screen", "Reconciled, one note"], ["RC-24-039", "Excipient compatibility screen", "Reconciled"]], "caption": "Table 1 Recipe card reconciliation"}},
-   {"p": "RC-24-038 carries a note. The card states the blend loading in weight percent, while two bench sheets record the same blend against its mg/mL concentration. The values agree after conversion and the card was not changed, but it now states both units so the next reader does not need to convert."},
-   {"p": "No bench sheet cites a superseded revision of any card."}]},
-  {"heading": "5 Findings and actions", "level": 1, "blocks": [
-   {"table": {"columns": ["Item", "Action", "Owner", "Status"], "rows": [["Shorthand stock labels on dilution sheets", "Full stock IDs added and initialed", "Miguel Serrano", "Closed"], ["Blank balance check values", "Weighings repeated and sheets annotated", "Min-jun Kim", "Closed"], ["Single-unit statement on RC-24-038", "Card revised to state mg/mL and weight percent", "Julie Talbot", "Closed"], ["Use of neighboring balance not in calibration log", "Entry to be added to the calibration log", "Ashley King", "Open, next bench cycle"]], "caption": "Table 2 Findings and actions"}},
-   {"p": "The open action does not affect the screens already closed. It is carried into the next bench cycle so the log is complete before the next screen starts."}]},
-  {"heading": "6 Conclusion", "level": 1, "blocks": [
-   {"p": "The screen suitability records for the Vehicle ladder and Excipient compatibility screen work are complete and traceable, and the recipe cards reconcile with the bench sheets. The review finds no reason to hold the screens. The formulation set can move to its development note on the same basis."}]}],
- "signature_block": [{"name": "Lena Patel", "role": "CMC Technical Transfer Manager", "date": "2024-11-06", "signed": true}, {"name": "Julia Carver", "role": "Formulation Development Lead", "date": "2024-11-06", "signed": true}]}
+{
+  "family": "document",
+  "summary": "Controlled administrative review of screen suitability records for Vehicle ladder and Excipient compatibility screen bench work. Balance checks, dilution-record traceability and recipe-card reconciliation are complete. Detailed entries and reviewer initials remain in the local source records.",
+  "properties": {
+    "title": "Bench screen suitability administrative review"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Bench Screen Suitability: Administrative Review",
+    "subtitle": "Vehicle ladder and Excipient compatibility screen",
+    "lines": [
+      "Revision A",
+      "Date: 11/06/2024"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This review records completion of balance checks, dilution-record traceability and recipe-card reconciliation for local Vehicle ladder and Excipient compatibility screen bench work. It is an administrative review and does not reassess formulation conclusions. The reviewed bench sheets and recipe cards remain the source records."
+        },
+        {
+          "p": "A failed screen suitability check must be resolved and documented before affected work is treated as suitable. An explanation alone does not turn a failed check into a pass."
+        },
+        {
+          "p": "The review was carried out under the transition rules. The local master still applies for this year, and project and accession numbers are cited as they were issued.",
+          "style": "small"
+        }
+      ]
+    },
+    {
+      "heading": "2 Balance checks",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Balance-check review is complete. Source records retain instrument identity, check date, reference mass, observed value, applicable tolerance and operator initials. Bench-sheet references link weighing work to those entries."
+        },
+        {
+          "p": "An absent value or unresolved calibration reference cannot support suitability. Any correction retains the original entry and reason for change."
+        }
+      ]
+    },
+    {
+      "heading": "3 Dilution record traceability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dilution-record traceability review is complete. Local bench records retain parent-stock identity, transfer quantities, dilution basis and final concentration so the preparation can be reconstructed."
+        },
+        {
+          "p": "Mass concentration in mg/mL and loading in weight percent describe different quantities. Where both are used, record the mass or volume basis and any conversion assumptions explicitly."
+        }
+      ]
+    },
+    {
+      "heading": "4 Recipe card reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Recipe-card reconciliation is complete for the reviewed work. Card identities, revisions and reviewer sign-offs remain in the source reconciliation records."
+        },
+        {
+          "table": {
+            "columns": [
+              "Review area",
+              "Completion record",
+              "Source detail"
+            ],
+            "rows": [
+              [
+                "Balance checks",
+                "Complete",
+                "Balance records and linked bench sheets"
+              ],
+              [
+                "Dilution traceability",
+                "Complete",
+                "Stock and dilution entries"
+              ],
+              [
+                "Recipe-card reconciliation",
+                "Complete",
+                "Recipe cards and reconciliation sign-offs"
+              ]
+            ],
+            "caption": "Administrative review completion"
+          }
+        },
+        {
+          "p": "A change to units or preparation instructions is controlled as a card revision. The original bench record remains traceable to the revision used at the time."
+        }
+      ]
+    },
+    {
+      "heading": "5 Findings and actions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Review completion is recorded here; correction histories, where applicable, remain with the affected source records. This note does not create a separate list of cards or outstanding calibration actions."
+        }
+      ]
+    },
+    {
+      "heading": "6 Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The administrative review is complete for balance checks, dilution traceability and recipe-card reconciliation. This conclusion concerns record completion; it does not validate a formulation, authorise dosing or establish a locked scale process."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Lena Patel",
+      "role": "CMC Technical Transfer Manager",
+      "date": "2024-11-06",
+      "signed": true
+    },
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "2024-11-06",
+      "signed": true
+    }
+  ]
+}
