@@ -1,0 +1,143 @@
+{
+  "family": "deck",
+  "summary": "Interim BP16 readout for Belquorin Pharma dated 09/24/2026. Screening runs are complete, but final concentration-response interpretation and progression recommendations await confirmation of a relabelled vial.",
+  "properties": {
+    "title": "BP16: interim CYP interaction readout",
+    "subject": "Interim BP16 readout for Belquorin Pharma dated 09/24/2026. Screening runs are complete, but final concentration-response interpretation and progression recommendations await confirmation of a relabelled vial.",
+    "keywords": "Merrivoss; DMPK; matrix acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "BP16: interim CYP interaction readout",
+      "subtitle": "MV-2026-278 | Belquorin Pharma\n09/24/2026 | Megan Larkin\nv3 / FINAL_final working copy — INTERIM\nMerrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interim scope and matrix",
+      "bullets": [
+        "Oxazole carboxamide test article set; accession {{PRJ0066:lims_id}}.",
+        "Five-isoform DDI screen: human liver microsomes, 10 µM.",
+        "CYP3A4 inhibition curves: midazolam 1′-hydroxylation.",
+        "Screening runs are complete; final interpretation is held for vial identity confirmation."
+      ],
+      "notes": "Reviewer comment — Helen Marchwood: retain INTERIM on the circulated copy despite the filename suffix.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance context",
+      "bullets": [
+        "CYP3A4 reference: {{PRJ0066:cyp.control_CYP3A4_uM}} µM; historical comparator {{PRJ0066:cyp.hist_CYP3A4_uM}} µM.",
+        "CYP2C9 reference: {{PRJ0066:cyp.control_CYP2C9_uM}} µM; historical comparator {{PRJ0066:cyp.hist_CYP2C9_uM}} µM.",
+        "Analytical suitability and article identity are separate questions.",
+        "Final named-article release disposition: [TBC]."
+      ],
+      "notes": "Historical comparators are not acceptance tolerances. Reference response alone does not establish final release.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Five-isoform DDI screen | interim named entries",
+      "table": {
+        "table_ref": "PRJ0066:cyp_inhib",
+        "max_rows": 11
+      },
+      "notes": "Interim entries only. Retain signed negative normalized observations; do not relabel them as stimulation.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "CYP3A4 screen | inhibition at 10 µM (%)",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0066:cyp_inhib",
+        "column": 5,
+        "title": "CYP3A4 screen | inhibition at 10 µM (%)"
+      },
+      "notes": "Provisional current labels. The relabelled vial has not been assigned to a displayed row in this readout.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Screen observations for discussion",
+      "bullets": [
+        "BP16-05472 and BP16-05482 show broad inhibition involving CYP2C9, CYP2C19 and CYP3A4.",
+        "BP16-05442 shows a different pattern, with CYP2D6 more prominent than CYP3A4.",
+        "BP16-05478 and BP16-05512 show little inhibition across the displayed panel.",
+        "These observations support discussion, not a final progression recommendation."
+      ],
+      "notes": "No named article is assumed to be the unresolved vial. Identity mapping: [TBC].",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "BP16 | representative oxazole carboxamides",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0066",
+        "n": 6
+      },
+      "notes": "Representative structures; display order is not a progression ranking.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "CYP3A4 inhibition curves | provisional entries",
+      "table": {
+        "table_ref": "PRJ0066:cyp_ic50",
+        "max_rows": 10
+      },
+      "notes": "Final interpretation awaits client identity confirmation. A greater-than value is a bound, not an exact potency.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "CYP3A4 curve estimates | IC50 (µM)",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0066:cyp_ic50",
+        "column": 1,
+        "title": "CYP3A4 curve estimates | IC50 (µM)"
+      },
+      "notes": "Midazolam probe. Consult the table for bounds. This summary plot does not present full concentration-response traces.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Coverage reconciliation before release",
+      "bullets": [
+        "Planned test article set: {{PRJ0066:n_compounds}}.",
+        "Interim named-entry tables and study-level tallies require reconciliation before final release.",
+        "Complete article mapping: [TBC]; relabelled vial identity: [TBC].",
+        "Keep screening observations separate from the final concentration-response decision."
+      ],
+      "notes": "Reviewer comment — Javier Quintana: reconcile the named-entry exports with study-level tallies before replacing this slide with a final summary.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Open actions | 09/24/2026",
+      "bullets": [
+        "Belquorin Pharma: confirm the relabelled vial against the original dispatch information.",
+        "Javier Quintana: link confirmation to the analyte card and concentration-response analysis.",
+        "Helen Marchwood: review the corrected identity trail and matrix acceptance release.",
+        "Megan Larkin: update the DMPK memo; final issue date [TBC]."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interim disposition: exposure gate remains open",
+      "bullets": [
+        "Screening runs are complete.",
+        "Concentration-response analysis awaits Belquorin Pharma identity confirmation for a relabelled vial.",
+        "No final progression recommendation is issued.",
+        "Replace this working copy after identity and coverage questions are closed."
+      ],
+      "notes": "Reviewer comment — Helen Marchwood: the FINAL_final suffix is not evidence of approval. Final conclusions pending.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
