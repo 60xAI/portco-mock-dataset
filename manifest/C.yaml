@@ -1,0 +1,1611 @@
+files:
+- id: P16
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/ST03/MV-2015-266
+  filename: MV-2015-266_Quote_110515_R1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2015
+  era: legacy
+  template: C-L
+  created: '2015-11-05T10:31:35'
+  modified: '2015-11-06T17:47:14'
+  author: ST04
+  last_saved_by: ST04
+  projects:
+  - PRJ0003
+  client_id: CL004
+  client_variant: Selverant
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_C1_proposal
+  related: []
+  tier: orchestrator
+  target_length: 5-7 pages
+  summary: 'Proposal MV-2015-266 to Selverant: hERG + CYP panel on 38 kinase-series compounds; price and turnaround stated.'
+  pilot: false
+- id: P17
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/ST03/MV-2015-266
+  filename: MV-2015-266_AssayWorksheet_120815_R1.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2015
+  era: legacy
+  template: C-L
+  created: '2015-12-08T09:27:26'
+  modified: '2015-12-28T12:45:08'
+  author: ST04
+  last_saved_by: ST04
+  projects:
+  - PRJ0003
+  client_id: CL004
+  client_variant: Selverant
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_C1_results
+  related:
+  - id: P16
+    rel: results_for
+  tier: orchestrator
+  target_length: 4-5 sheets
+  summary: 'Results workbook for MV-2015-266: hERG IC50 and 5-isoform CYP inhibition for 38 compounds, with a benchmark summary
+    sheet.'
+  pilot: false
+- id: P18
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/ST03/MV-2015-266
+  filename: MV-2015-266_Report_122815_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2015
+  era: legacy
+  template: C-L
+  created: '2015-12-28T10:17:20'
+  modified: '2015-12-28T10:54:20'
+  author: ST04
+  last_saved_by: ST04
+  projects:
+  - PRJ0003
+  client_id: CL004
+  client_variant: Selverant
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_C1_report
+  related:
+  - id: P16
+    rel: report_for
+  - id: P17
+    rel: related
+  tier: orchestrator
+  target_length: 10-16 pages
+  summary: 'Final report MV-2015-266: hERG and CYP results for 38 kinase-series compounds, with the benchmark summary table
+    on an early page.'
+  pilot: false
+- id: P19
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2024-358
+  filename: MV-2024-358_Quote_111124_R1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: C-G
+  created: '2024-11-11T16:46:20'
+  modified: '2024-11-12T12:01:27'
+  author: ST05
+  last_saved_by: ST05
+  projects:
+  - PRJ0004
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_C2_proposal
+  related: []
+  tier: orchestrator
+  target_length: 5-7 pages
+  summary: 'Proposal MV-2024-358 to Tervemere Pharma AG: hERG + CYP panel on 40 kinase-series compounds; price and turnaround
+    stated.'
+  pilot: false
+- id: P20
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2024-358
+  filename: MV-2024-358_AssayWorksheet_120524_R1.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: C-G
+  created: '2024-12-05T13:33:52'
+  modified: '2024-12-19T12:28:28'
+  author: ST05
+  last_saved_by: ST05
+  projects:
+  - PRJ0004
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_C2_results
+  related:
+  - id: P19
+    rel: results_for
+  tier: orchestrator
+  target_length: 4-5 sheets
+  summary: 'Results workbook for MV-2024-358: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary
+    sheet.'
+  pilot: false
+- id: P21
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2024-358
+  filename: MV-2024-358_Report_121724_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2024
+  era: group
+  template: C-G
+  created: '2024-12-17T10:14:56'
+  modified: '2024-12-19T17:03:10'
+  author: ST05
+  last_saved_by: ST05
+  projects:
+  - PRJ0004
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted:
+  - q2_correct_C2_report
+  related:
+  - id: P19
+    rel: report_for
+  - id: P20
+    rel: related
+  tier: orchestrator
+  target_length: 10-16 pages
+  summary: 'Final report MV-2024-358: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table
+    on an early page.'
+  pilot: false
+- id: P24
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/OB11/MV-2022-176
+  filename: MV-2022-176_AssayWorksheet_072522_R1.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: C-G
+  created: '2022-07-25T09:43:49'
+  modified: '2022-08-10T12:38:48'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0006
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_distractor_cyp_other_chemotype
+  related: []
+  tier: orchestrator
+  target_length: 3 sheets
+  summary: 'Results workbook MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.'
+  pilot: false
+- id: P25
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/OB11/MV-2022-176
+  filename: MV-2022-176_Report_080822_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2022
+  era: group
+  template: C-G
+  created: '2022-08-08T14:48:02'
+  modified: '2022-08-10T10:37:31'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0006
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted:
+  - q2_distractor_cyp_other_chemotype
+  related: []
+  tier: orchestrator
+  target_length: 8-12 pages
+  summary: 'Report MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.'
+  pilot: false
+- id: P26
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/AP02/MV-2018-052
+  filename: MV-2018-052_Quote_022018_R1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2018
+  era: legacy
+  template: C-L
+  created: '2018-02-20T14:50:05'
+  modified: '2018-02-22T15:12:42'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0007
+  client_id: CL003
+  client_variant: Avernelwick Pharma
+  finish: final
+  mess: []
+  planted:
+  - q2_distractor_right_client_wrong_assay
+  related: []
+  tier: orchestrator
+  target_length: 4-6 pages
+  summary: 'Proposal MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.'
+  pilot: false
+- id: P27
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/AP02/MV-2018-052
+  filename: MV-2018-052_Report_041618_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2018
+  era: legacy
+  template: C-L
+  created: '2018-04-16T17:25:17'
+  modified: '2018-04-16T18:02:17'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0007
+  client_id: CL003
+  client_variant: Avernelwick Pharma
+  finish: final
+  mess: []
+  planted:
+  - q2_distractor_right_client_wrong_assay
+  related: []
+  tier: orchestrator
+  target_length: 8-12 pages
+  summary: 'Report MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.'
+  pilot: false
+- id: P32
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/CVL/MV-2016-053
+  filename: MV-2016-053_Report_050916_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2016
+  era: legacy
+  template: C-L
+  created: '2016-05-09T11:51:08'
+  modified: '2016-05-10T11:43:55'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0009
+  client_id: CL001
+  client_variant: Corvenlea Ltd
+  finish: final
+  mess: []
+  planted:
+  - q3_target_C
+  related: []
+  tier: orchestrator
+  target_length: 6-12 pages
+  summary: 'report study for Corvenlea Ltd (MV-2016-053): CVL oral discovery package: microsomes, hepatocytes and plasma binding.'
+  pilot: false
+- id: C-001
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/NM08/MV-2006-090
+  filename: MV-2006-090_Readout_071806_R1.ppt
+  format: ppt
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2006
+  era: legacy
+  template: C-L
+  created: '2006-07-18T10:23:00'
+  modified: '2006-07-18T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0055
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2006-090 readout for Nimbravelle Medicines Inc presents Microsomal CLint, Hepatocyte depletion CLint, matrix
+    acceptance and analytical limits before the conclusion: Nimbravelle advanced the analogues whose slower hepatocyte turnover
+    agreed with their microsomal ranking.'
+  pilot: false
+- id: C-002
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/AT15/MV-2015-240
+  filename: MV-2015-240_Readout_122115_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2015
+  era: legacy
+  template: C-L
+  created: '2015-12-21T10:23:00'
+  modified: '2015-12-21T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0057
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2015-240 readout for Aldrevessa Therapeutics presents Rat exposure with tandem-MS bioanalysis, matrix acceptance
+    and analytical limits before the conclusion: Oral exposure was limited despite acceptable systemic clearance, prompting
+    Aldrevessa to revisit the dosing vehicle.'
+  pilot: false
+- id: C-003
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2016-095
+  filename: MV-2016-095_Readout_061616_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2016
+  era: legacy
+  template: C-L
+  created: '2016-06-16T10:23:00'
+  modified: '2016-06-16T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0058
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2016-095 readout for Tervemere Pharma AG presents Five-isoform DDI screen, CYP3A4 inhibition curves, matrix
+    acceptance and analytical limits before the conclusion: Tervemere retained the low-interaction branch after the concentration-response
+    work confirmed the screen''s rank order.'
+  pilot: false
+- id: C-004
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/QP07/MV-2018-336
+  filename: MV-2018-336_Readout_022819_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: C-L
+  created: '2019-02-28T10:23:00'
+  modified: '2019-02-28T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0060
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2018-336 readout for Quorenthel Pharma GmbH presents fu,p by equilibrium dialysis, Caco-2 flux and efflux ratio,
+    DMSO-dilution solubility, matrix acceptance and analytical limits before the conclusion: High efflux in the otherwise
+    soluble branch led Quorenthel to redesign the exposed amine rather than increase lipophilicity.'
+  pilot: false
+- id: C-005
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/OB11/MV-2020-088
+  filename: MV-2020-088_Readout_042920_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: C-T
+  created: '2020-04-29T10:23:00'
+  modified: '2020-04-29T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0062
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2020-088 readout for Orvessant Biosciences Pty Ltd presents Five-isoform DDI screen, CYP3A4 inhibition curves,
+    matrix acceptance and analytical limits before the conclusion: The CYP3A4 follow-up confirmed the liability in the lipophilic
+    cap variants and Orvessant switched to the alternate cap.'
+  pilot: false
+- id: C-006
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/KT12/MV-2021-284
+  filename: MV-2021-284_Readout_122021_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: C-G
+  created: '2021-12-20T10:23:00'
+  modified: '2021-12-20T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0063
+  client_id: CL013
+  client_variant: Kelbravik Therapeutics ApS
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2021-284 readout for Kelbravik Therapeutics ApS presents Microsomal CLint, Hepatocyte depletion CLint, matrix
+    acceptance and analytical limits before the conclusion: Hepatocyte turnover revealed a clearance route missing from the
+    microsomal screen, changing Kelbravik''s shortlist.'
+  pilot: false
+- id: C-007
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/MV-2023-288/MV-2023-288
+  filename: MV-2023-288_Readout_112723_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: C-G
+  created: '2023-11-27T10:23:00'
+  modified: '2023-11-27T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0065
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2023-288 readout for Nimbravelle Medicines Inc presents Rat exposure with tandem-MS bioanalysis, matrix acceptance
+    and analytical limits before the conclusion: Comparable exposure across the two lots allowed Nimbravelle to retain the
+    original efficacy interpretation.'
+  pilot: false
+- id: C-008
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2024-358
+  filename: MV-2024-358_Readout_121924_R1.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: C-G
+  created: '2024-12-19T10:23:00'
+  modified: '2024-12-19T15:42:00'
+  author: ST05
+  last_saved_by: ST05
+  projects:
+  - PRJ0004
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P21
+    rel: related
+  tier: sol
+  target_length: 12 slides
+  summary: 'MV-2024-358 readout for Tervemere Pharma AG presents IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition
+    curves, matrix acceptance and analytical limits before the conclusion: The revised series showed improved ion-channel
+    behaviour while residual CYP inhibition narrowed the set taken into exposure studies.'
+  pilot: false
+- id: C-009
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/BP16/MV-2026-278
+  filename: MV-2026-278_DDI_092426_v3_FINAL_final.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: C-G
+  created: '2026-09-24T10:23:00'
+  modified: '2026-09-24T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0066
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: interim
+  mess:
+  - version_suffix
+  - comments
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: MV-2026-278 interim readout for Belquorin Pharma presents Five-isoform DDI screen and CYP3A4 inhibition curves
+    with one vial identity unresolved and no final progression recommendation.
+  pilot: false
+- id: C-010
+  unit: C
+  root: archive
+  path: MerrivossData/Marketing/Capabilities/2025
+  filename: Merrivoss_DMPK_Capabilities_021825_R2.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: C-G
+  created: '2025-02-18T10:23:00'
+  modified: '2025-02-18T15:42:00'
+  author: ST05
+  last_saved_by: ST05
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 16 slides
+  summary: Merrivoss capability deck explains Microsomal CLint, Hepatocyte depletion CLint, fu,p by equilibrium dialysis and
+    Rat exposure with tandem-MS bioanalysis, with matrix acceptance and lower-limit assumptions before exposure gates.
+  pilot: false
+- id: C-011
+  unit: C
+  root: archive
+  path: MerrivossData/QA/Training/Matrix_Acceptance
+  filename: Copy of Matrix_Acceptance_051221.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: C-G
+  created: '2021-05-12T10:23:00'
+  modified: '2021-05-12T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - duplicate_across_firms
+  - copy_of
+  planted: []
+  related: []
+  tier: sol
+  target_length: 10 slides
+  summary: Copy of firm B's 2021 matrix acceptance training deck retains the original panel workflow diagram while Merrivoss
+    annotations distinguish accession lots and tandem-MS batch acceptance.
+  pilot: false
+- id: C-012
+  unit: C
+  root: archive
+  path: Archive/Users/mrinalvesi_old_laptop/DMPK/Working
+  filename: DMPK_Clearance_031714_v2.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2014
+  era: legacy
+  template: C-L
+  created: '2014-03-17T10:23:00'
+  modified: '2014-03-17T15:42:00'
+  author: ST04
+  last_saved_by: ST04
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - version_suffix
+  - mixed_units
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 11 slides
+  summary: Matteo Rinalvesi's superseded internal deck compares Microsomal CLint and Hepatocyte depletion CLint normalization,
+    with handwritten-style speaker notes about species assumptions.
+  pilot: false
+- id: C-013
+  unit: C
+  root: archive
+  path: Archive/Users/mrinalvesi_old_laptop/DMPK/Working
+  filename: Copy of DMPK_Capabilities_081417.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2017
+  era: legacy
+  template: C-L
+  created: '2017-08-14T10:23:00'
+  modified: '2017-08-14T15:42:00'
+  author: ST04
+  last_saved_by: ST04
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - copy_of
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 13 slides
+  summary: Matteo Rinalvesi's older capability copy introduces fu,p by equilibrium dialysis and Oral/IV PK with retained local
+    branding and comments requesting updated matrix acceptance footnotes.
+  pilot: false
+- id: C-014
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/NM08/MV-2006-090
+  filename: MV-2006-090_AssayWorksheet_071806_v03.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2006
+  era: legacy
+  template: C-L
+  created: '2006-07-18T10:23:00'
+  modified: '2006-07-18T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0055
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess:
+  - mixed_units
+  planted: []
+  related:
+  - id: C-001
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2006-090 assay worksheet for Nimbravelle Medicines Inc contains accession-lot mapping, Microsomal CLint, Hepatocyte
+    depletion CLint, matrix acceptance checks and Nimbravelle advanced the analogues whose slower hepatocyte turnover agreed
+    with their microsomal ranking.
+  pilot: false
+- id: C-015
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/KT12/MV-2008-013
+  filename: MV-2008-013_AssayWorksheet_032108_v03.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2008
+  era: legacy
+  template: C-L
+  created: '2008-03-21T10:23:00'
+  modified: '2008-03-21T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0056
+  client_id: CL013
+  client_variant: Kelbravik Therapeutics ApS
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2008-013 assay worksheet for Kelbravik Therapeutics ApS contains accession-lot mapping, fu,p by equilibrium
+    dialysis, Caco-2 flux and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and Kelbravik separated a permeability-limited
+    branch from a solubility-limited branch and commissioned a focused formulation assessment.
+  pilot: false
+- id: C-016
+  unit: C
+  root: archive
+  path: MerrivossData/Bioanalysis/AT15/MV-2015-240
+  filename: MV-2015-240_AssayWorksheet_122115_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2015
+  era: legacy
+  template: C-L
+  created: '2015-12-21T10:23:00'
+  modified: '2015-12-21T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0057
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-002
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2015-240 assay worksheet for Aldrevessa Therapeutics contains accession-lot mapping, Rat exposure with tandem-MS
+    bioanalysis, matrix acceptance checks and Oral exposure was limited despite acceptable systemic clearance, prompting Aldrevessa
+    to revisit the dosing vehicle.
+  pilot: false
+- id: C-017
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2016-095
+  filename: MV-2016-095_AssayWorksheet_061616_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2016
+  era: legacy
+  template: C-L
+  created: '2016-06-16T10:23:00'
+  modified: '2016-06-16T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0058
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-003
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2016-095 assay worksheet for Tervemere Pharma AG contains accession-lot mapping, Five-isoform DDI screen, CYP3A4
+    inhibition curves, matrix acceptance checks and Tervemere retained the low-interaction branch after the concentration-response
+    work confirmed the screen's rank order.
+  pilot: false
+- id: C-018
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/QP07/MV-2018-336
+  filename: MV-2018-336_AssayWorksheet_022819_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: C-L
+  created: '2019-02-28T10:23:00'
+  modified: '2019-02-28T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0060
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-004
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2018-336 assay worksheet for Quorenthel Pharma GmbH contains accession-lot mapping, fu,p by equilibrium dialysis,
+    Caco-2 flux and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and High efflux in the otherwise soluble
+    branch led Quorenthel to redesign the exposed amine rather than increase lipophilicity.
+  pilot: false
+- id: C-019
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/OB11/MV-2020-088
+  filename: MV-2020-088_AssayWorksheet_042920_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: C-T
+  created: '2020-04-29T10:23:00'
+  modified: '2020-04-29T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0062
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-005
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2020-088 assay worksheet for Orvessant Biosciences Pty Ltd contains accession-lot mapping, Five-isoform DDI
+    screen, CYP3A4 inhibition curves, matrix acceptance checks and The CYP3A4 follow-up confirmed the liability in the lipophilic
+    cap variants and Orvessant switched to the alternate cap.
+  pilot: false
+- id: C-020
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/KT12/MV-2021-284
+  filename: MV-2021-284_AssayWorksheet_122021_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: C-G
+  created: '2021-12-20T10:23:00'
+  modified: '2021-12-20T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0063
+  client_id: CL013
+  client_variant: Kelbravik Therapeutics ApS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-006
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2021-284 assay worksheet for Kelbravik Therapeutics ApS contains accession-lot mapping, Microsomal CLint, Hepatocyte
+    depletion CLint, matrix acceptance checks and Hepatocyte turnover revealed a clearance route missing from the microsomal
+    screen, changing Kelbravik's shortlist.
+  pilot: false
+- id: C-021
+  unit: C
+  root: archive
+  path: MerrivossData/Bioanalysis/MV-2023-288/MV-2023-288
+  filename: MV-2023-288_AssayWorksheet_112723_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: C-G
+  created: '2023-11-27T10:23:00'
+  modified: '2023-11-27T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0065
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-007
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2023-288 assay worksheet for Nimbravelle Medicines Inc contains accession-lot mapping, Rat exposure with tandem-MS
+    bioanalysis, matrix acceptance checks and Comparable exposure across the two lots allowed Nimbravelle to retain the original
+    efficacy interpretation.
+  pilot: false
+- id: C-022
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/BP16/MV-2026-278
+  filename: MV-2026-278_AssayWorksheet_092426_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: C-G
+  created: '2026-09-24T10:23:00'
+  modified: '2026-09-24T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0066
+  client_id: CL017
+  client_variant: Belquorin Pharma
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related:
+  - id: C-009
+    rel: related
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2026-278 assay worksheet for Belquorin Pharma contains accession-lot mapping, Five-isoform DDI screen, CYP3A4
+    inhibition curves, matrix acceptance checks and open identity or recovery checks without final conclusions
+  pilot: false
+- id: C-023
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/FM20/MV-2026-292
+  filename: MV-2026-292_AssayWorksheet_092826_v03.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: C-G
+  created: '2026-09-28T10:23:00'
+  modified: '2026-09-28T15:42:00'
+  author: NS10
+  last_saved_by: NS10
+  projects:
+  - PRJ0068
+  client_id: CL021
+  client_variant: Farnovessa Medicines
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: MV-2026-292 assay worksheet for Farnovessa Medicines contains accession-lot mapping, fu,p by equilibrium dialysis,
+    Caco-2 flux and efflux ratio, DMSO-dilution solubility, matrix acceptance checks and open identity or recovery checks
+    without final conclusions
+  pilot: false
+- id: C-024
+  unit: C
+  root: archive
+  path: Archive/Users/mrinalvesi_old_laptop/DMPK/Working
+  filename: Accession_Handover_052019_v3.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: C-L
+  created: '2019-05-20T10:23:00'
+  modified: '2019-05-20T15:42:00'
+  author: ST04
+  last_saved_by: ST04
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - comments
+  - version_suffix
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Matteo Rinalvesi's handover workbook records local accession-prefix meanings, matrix acceptance owners and archived
+    DMPK memo locations, with obsolete reviewer comments preserved.
+  pilot: false
+- id: C-025
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/NM08/MV-2006-090
+  filename: MV-2006-090_Report_071806_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2006
+  era: legacy
+  template: C-L
+  created: '2006-07-18T10:23:00'
+  modified: '2006-07-18T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0055
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-014
+    rel: related
+  tier: sol
+  target_length: 20 pages
+  summary: 'Final study report MV-2006-090 for Nimbravelle Medicines Inc documents Microsomal CLint, Hepatocyte depletion
+    CLint, sample matrices, species, analytical limits and acceptance exceptions before stating: Nimbravelle advanced the
+    analogues whose slower hepatocyte turnover agreed with their microsomal ranking.'
+  pilot: false
+- id: C-026
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/KT12/MV-2008-013
+  filename: MV-2008-013_Report_032108_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2008
+  era: legacy
+  template: C-L
+  created: '2008-03-21T10:23:00'
+  modified: '2008-03-21T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0056
+  client_id: CL013
+  client_variant: Kelbravik Therapeutics ApS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-015
+    rel: related
+  tier: sol
+  target_length: 20 pages
+  summary: 'Final study report MV-2008-013 for Kelbravik Therapeutics ApS documents fu,p by equilibrium dialysis, Caco-2 flux
+    and efflux ratio, DMSO-dilution solubility, sample matrices, species, analytical limits and acceptance exceptions before
+    stating: Kelbravik separated a permeability-limited branch from a solubility-limited branch and commissioned a focused
+    formulation assessment.'
+  pilot: false
+- id: C-027
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/AT15/MV-2015-240
+  filename: MV-2015-240_Report_122115_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2015
+  era: legacy
+  template: C-L
+  created: '2015-12-21T10:23:00'
+  modified: '2015-12-21T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0057
+  client_id: CL016
+  client_variant: Aldrevessa Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-016
+    rel: related
+  tier: sol
+  target_length: 24 pages
+  summary: 'Final study report MV-2015-240 for Aldrevessa Therapeutics documents Rat exposure with tandem-MS bioanalysis,
+    sample matrices, species, analytical limits and acceptance exceptions before stating: Oral exposure was limited despite
+    acceptable systemic clearance, prompting Aldrevessa to revisit the dosing vehicle.'
+  pilot: false
+- id: C-028
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/TP04/MV-2016-095
+  filename: MV-2016-095_Report_061616_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2016
+  era: legacy
+  template: C-L
+  created: '2016-06-16T10:23:00'
+  modified: '2016-06-16T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0058
+  client_id: CL005
+  client_variant: Tervemere Pharma AG
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-017
+    rel: related
+  tier: sol
+  target_length: 20 pages
+  summary: 'Final study report MV-2016-095 for Tervemere Pharma AG documents Five-isoform DDI screen, CYP3A4 inhibition curves,
+    sample matrices, species, analytical limits and acceptance exceptions before stating: Tervemere retained the low-interaction
+    branch after the concentration-response work confirmed the screen''s rank order.'
+  pilot: false
+- id: C-029
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/QP07/MV-2018-336
+  filename: MV-2018-336_Report_022819_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2019
+  era: legacy
+  template: C-L
+  created: '2019-02-28T10:23:00'
+  modified: '2019-02-28T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0060
+  client_id: CL008
+  client_variant: Quorenthel Pharma GmbH
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-018
+    rel: related
+  tier: sol
+  target_length: 20 pages
+  summary: 'Final study report MV-2018-336 for Quorenthel Pharma GmbH documents fu,p by equilibrium dialysis, Caco-2 flux
+    and efflux ratio, DMSO-dilution solubility, sample matrices, species, analytical limits and acceptance exceptions before
+    stating: High efflux in the otherwise soluble branch led Quorenthel to redesign the exposed amine rather than increase
+    lipophilicity.'
+  pilot: false
+- id: C-030
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/OB11/MV-2020-088
+  filename: MV-2020-088_Report_042920_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2020
+  era: transition
+  template: C-T
+  created: '2020-04-29T10:23:00'
+  modified: '2020-04-29T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0062
+  client_id: CL012
+  client_variant: Orvessant Biosciences Pty Ltd
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-019
+    rel: related
+  tier: sol
+  target_length: 20 pages
+  summary: 'Final study report MV-2020-088 for Orvessant Biosciences Pty Ltd documents Five-isoform DDI screen, CYP3A4 inhibition
+    curves, sample matrices, species, analytical limits and acceptance exceptions before stating: The CYP3A4 follow-up confirmed
+    the liability in the lipophilic cap variants and Orvessant switched to the alternate cap.'
+  pilot: false
+- id: C-031
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/KT12/MV-2021-284
+  filename: MV-2021-284_Report_122021_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2021
+  era: group
+  template: C-G
+  created: '2021-12-20T10:23:00'
+  modified: '2021-12-20T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0063
+  client_id: CL013
+  client_variant: Kelbravik Therapeutics ApS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-020
+    rel: related
+  tier: sol
+  target_length: 20 pages
+  summary: 'Final study report MV-2021-284 for Kelbravik Therapeutics ApS documents Microsomal CLint, Hepatocyte depletion
+    CLint, sample matrices, species, analytical limits and acceptance exceptions before stating: Hepatocyte turnover revealed
+    a clearance route missing from the microsomal screen, changing Kelbravik''s shortlist.'
+  pilot: false
+- id: C-032
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/MV-2023-288/MV-2023-288
+  filename: MV-2023-288_Report_112723_R1.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2023
+  era: group
+  template: C-G
+  created: '2023-11-27T10:23:00'
+  modified: '2023-11-27T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0065
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-021
+    rel: related
+  tier: sol
+  target_length: 24 pages
+  summary: 'Final study report MV-2023-288 for Nimbravelle Medicines Inc documents Rat exposure with tandem-MS bioanalysis,
+    sample matrices, species, analytical limits and acceptance exceptions before stating: Comparable exposure across the two
+    lots allowed Nimbravelle to retain the original efficacy interpretation.'
+  pilot: false
+- id: C-033
+  unit: C
+  root: archive
+  path: MerrivossData/Scans/Signed_Quotes/2008
+  filename: MV-2008-013_SignedQuote_011108.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 2008
+  era: legacy
+  template: C-L
+  created: '2008-01-11T10:23:00'
+  modified: '2008-01-11T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects:
+  - PRJ0056
+  client_id: CL013
+  client_variant: Kelbravik Therapeutics ApS
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: Scanned signed quote MV-2008-013 for Kelbravik Therapeutics ApS specifies Caco-2 flux and efflux ratio, DMSO-dilution
+    solubility and fu,p by equilibrium dialysis, with a fax header and initialled sample-shipping terms.
+  pilot: false
+- id: C-034
+  unit: C
+  root: archive
+  path: MerrivossData/Scans/QA/2011
+  filename: Matrix_Acceptance_Signoff_091311.pdf
+  format: pdf
+  doc_type: word_memo
+  pdf_kind: scan
+  year: 2011
+  era: legacy
+  template: C-L
+  created: '2011-09-13T10:23:00'
+  modified: '2011-09-13T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 pages
+  summary: Scanned QA matrix acceptance sign-off records tandem-MS calibration checks, signed batch-review responsibilities
+    and a handwritten correction to a control-lot reference.
+  pilot: false
+- id: C-035
+  unit: C
+  root: archive
+  path: MerrivossData/Marketing/Capabilities/2025
+  filename: Merrivoss_DMPK_Capabilities_021825_R2.pdf
+  format: pdf
+  doc_type: deck_capability
+  pdf_kind: export
+  year: 2025
+  era: group
+  template: C-G
+  created: '2025-02-19T10:23:00'
+  modified: '2025-02-19T15:42:00'
+  author: ST05
+  last_saved_by: ST05
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-010
+    rel: export_of
+  tier: script
+  target_length: 16 pages
+  summary: PDF export of the 2025 Merrivoss capability deck preserves the matrix acceptance and analytical-limit footnotes
+    for Microsomal CLint and Rat exposure with tandem-MS bioanalysis.
+  pilot: false
+- id: C-036
+  unit: C
+  root: archive
+  path: MerrivossData/Client_Work/MV-2023-288/MV-2023-288
+  filename: MV-2023-288_Readout_112723_R1.pdf
+  format: pdf
+  doc_type: deck_readout
+  pdf_kind: export
+  year: 2023
+  era: group
+  template: C-G
+  created: '2023-11-28T10:23:00'
+  modified: '2023-11-28T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0065
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-007
+    rel: export_of
+  tier: script
+  target_length: 12 pages
+  summary: PDF export of the MV-2023-288 Nimbravelle Medicines Inc readout presents dosing-lot exposure bridging with matrix
+    acceptance and comparable exposure conclusions.
+  pilot: false
+- id: C-037
+  unit: C
+  root: archive
+  path: MerrivossData/Proposals/2006/NM08
+  filename: MV-2006-090_Quote_052206_R1.doc
+  format: doc
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2006
+  era: legacy
+  template: C-L
+  created: '2006-05-22T10:23:00'
+  modified: '2006-05-22T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0055
+  client_id: CL009
+  client_variant: Nimbravelle Medicines Inc
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: C-001
+    rel: proposal_for
+  tier: sol
+  target_length: 7 pages
+  summary: Quote MV-2006-090 to Nimbravelle Medicines Inc sets out paired Microsomal CLint and Hepatocyte depletion CLint
+    measurements on 24 compounds, the registered USD price, matrix assumptions and planned delivery window.
+  pilot: false
+- id: C-038
+  unit: C
+  root: archive
+  path: MerrivossData/Proposals/2025/ST03
+  filename: MV-2025-272_Quote_081825_R1.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: C-G
+  created: '2025-08-18T10:23:00'
+  modified: '2025-08-18T15:42:00'
+  author: NS09
+  last_saved_by: NS09
+  projects:
+  - PRJ0070
+  client_id: CL004
+  client_variant: Selverant
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: Unaccepted quote MV-2025-272 to Selverant offers Five-isoform DDI screen and CYP3A4 inhibition curves for 18 compounds
+    at the registered USD price; the client chose its existing partner and no study began.
+  pilot: false
+- id: C-039
+  unit: C
+  root: archive
+  path: MerrivossData/QA/SOPs/Recovery
+  filename: MV_SOP_Recovery_030926_v04_DRAFT.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: C-G
+  created: '2026-03-09T10:23:00'
+  modified: '2026-03-09T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: draft
+  mess:
+  - tracked_changes
+  - tbc_placeholders
+  - draft_mark
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 pages
+  summary: Draft recovery-investigation SOP specifies Caco-2 flux and efflux ratio mass-balance triggers, matrix acceptance
+    escalation and repeat documentation, with tracked changes and an unresolved approval section.
+  pilot: false
+- id: C-040
+  unit: C
+  root: archive
+  path: MerrivossData/Marketing/Service_Catalogue/2024
+  filename: Merrivoss_Service_Catalogue_021224_R1.pdf
+  format: pdf
+  doc_type: service_catalogue
+  pdf_kind: native
+  year: 2024
+  era: group
+  template: C-G
+  created: '2024-02-12T10:23:00'
+  modified: '2024-02-12T15:42:00'
+  author: ST05
+  last_saved_by: ST05
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 pages
+  summary: Merrivoss service catalogue describes Microsomal CLint, Hepatocyte depletion CLint, fu,p by equilibrium dialysis,
+    Caco-2 flux and efflux ratio, DMSO-dilution solubility, IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves
+    and Rat exposure with tandem-MS bioanalysis with input and matrix requirements.
+  pilot: false
+- id: C-041
+  unit: C
+  root: archive
+  path: MerrivossData/Templates/Working/2026
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: C-G
+  created: '2026-04-07T10:23:00'
+  modified: '2026-04-07T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 slide
+  summary: Near-empty presentation contains the Merrivoss group title master and one blank matrix acceptance slide.
+  pilot: false
+- id: C-042
+  unit: C
+  root: archive
+  path: MerrivossData/Admin/Working/2025
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: C-G
+  created: '2025-07-08T10:23:00'
+  modified: '2025-07-08T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 3 sheets
+  summary: Near-empty workbook has a lone accession-lot heading and two unpopulated worksheets.
+  pilot: false
+- id: C-043
+  unit: C
+  root: archive
+  path: MerrivossData/Scans/Unsorted/2018
+  filename: Scan_0043.pdf
+  format: pdf
+  doc_type: junk
+  pdf_kind: native
+  year: 2018
+  era: legacy
+  template: C-L
+  created: '2018-10-09T10:23:00'
+  modified: '2018-10-09T15:42:00'
+  author: NS11
+  last_saved_by: NS11
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 page
+  summary: Near-empty saved PDF contains a mostly blank scanner cover sheet with an illegible routing mark.
+  pilot: false
