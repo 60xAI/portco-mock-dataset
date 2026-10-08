@@ -1,0 +1,137 @@
+{
+ "family": "document",
+ "summary": "Final report MV-2018-052 for Avernelwick Pharma: Microsomal CLint, fu,p by equilibrium dialysis on 40 compounds (Aminopyrimidine regioisomer). Study summary (benchmark) table on page 1; full compound tables, methods and control results follow.",
+ "properties": {
+  "title": "MV-2018-052 Final Report"
+ },
+ "header": "MV-2018-052 Final Report",
+ "footer": null,
+ "title_block": {
+  "title": "AP02 clearance and free-fraction assessment, recovery-controlled dialysis",
+  "subtitle": "Final Report",
+  "lines": [
+   "Study MV-2018-052 (LIMS M18/BIO/01223)",
+   "Client: Avernelwick Pharma",
+   "Study Director: Dr M. Larkin",
+   "Report date: April 16, 2018"
+  ]
+ },
+ "sections": [
+  {
+   "heading": "1 Summary",
+   "blocks": [
+    {
+     "p": "40 compounds from the Avernelwick aminopyrimidine regioisomer series 02 were tested for Avernelwick Pharma in the Microsomal CLint, fu,p by equilibrium dialysis. Testing started on March 12, 2018 and results were reported on April 16, 2018. All runs met matrix acceptance criteria. "
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0007:benchmark",
+      "caption": "Table 1 Study summary"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "2 Objective",
+   "blocks": [
+    {
+     "p": "To rank the test article set for Microsomal CLint, fu,p by equilibrium dialysis liability so that Avernelwick Pharma could choose analogues for progression."
+    }
+   ]
+  },
+  {
+   "heading": "3 Test items",
+   "blocks": [
+    {
+     "p": "40 compounds were received as 10 mM DMSO solutions in one accession lot on March 12, 2018 and logged against M18/BIO/01223. Identity and concentration were taken as supplied by the client."
+    }
+   ]
+  },
+  {
+   "heading": "4 Methods",
+   "blocks": []
+  },
+  {
+   "heading": "Microsomal CLint",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Test articles (1 µM) were incubated with pooled human and rat liver microsomes (0.5 mg/mL protein) and NADPH at 37 °C. Samples at 0, 5, 15, 30 and 45 minutes were quenched in acetonitrile with internal standard and analysed by LC-MS/MS. Intrinsic clearance was calculated from the first-order depletion rate; half-lives above 60 minutes are reported as >60."
+    },
+    {
+     "p": "Matrix acceptance: verapamil (high clearance) and diltiazem (moderate clearance) within historical range in each run.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "heading": "fu,p by equilibrium dialysis",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Binding to human plasma was measured by rapid equilibrium dialysis (5 µM test article, 4 h at 37 °C, PBS pH 7.4). Plasma and buffer compartments were matrix-matched before LC-MS/MS. Fraction unbound (fu) is reported with mass-balance recovery; recoveries below 70% are footnoted."
+    },
+    {
+     "p": "Warfarin was included as the binding control in every plate.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "heading": "5 Results",
+   "blocks": []
+  },
+  {
+   "heading": "Microsomal stability",
+   "level": 2,
+   "blocks": [
+    {
+     "table": {
+      "table_ref": "PRJ0007:mic_stab",
+      "caption": "Table 2 Microsomal intrinsic clearance and half-life"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Plasma protein binding",
+   "level": 2,
+   "blocks": [
+    {
+     "table": {
+      "table_ref": "PRJ0007:ppb",
+      "caption": "Table 3 Human plasma protein binding"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "6 Discussion",
+   "blocks": [
+    {
+     "p": " Inhibition values are in vitro, at a fixed concentration, and do not by themselves predict clinical interaction risk; free exposure estimates are needed for that assessment."
+    }
+   ]
+  },
+  {
+   "heading": "7 Conclusion",
+   "blocks": [
+    {
+     "p": "The data support ranking within the set. Recommended next step: carry the compounds without CYP flags into exposure studies and run CYP3A4 IC50s for flagged analogues before in vivo work."
+    }
+   ]
+  }
+ ],
+ "signature_block": [
+  {
+   "name": "Megan Larkin",
+   "role": "Study Director",
+   "date": "April 16, 2018"
+  },
+  {
+   "name": "Helen Marchwood",
+   "role": "Bioanalytical Quality Manager",
+   "date": "April 15, 2018"
+  }
+ ]
+}

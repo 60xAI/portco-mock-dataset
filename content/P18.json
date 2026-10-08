@@ -1,0 +1,196 @@
+{
+ "family": "document",
+ "summary": "Final report MV-2015-266 for Selverant: IKr inhibition, Five-isoform DDI screen on 38 compounds (Aminoquinazoline). Study summary (benchmark) table on page 1; full compound tables, methods and control results follow.",
+ "properties": {
+  "title": "MV-2015-266 Final Report"
+ },
+ "header": "MV-2015-266 Final Report",
+ "footer": null,
+ "title_block": {
+  "title": "ST03 growth-signal programme: rapid hERG/DDI screen of 38 compounds",
+  "subtitle": "Final Report",
+  "lines": [
+   "Study MV-2015-266 (LIMS M15/BIO/06146)",
+   "Client: Selverant",
+   "Study Director: Dr M. Rinalvesi",
+   "Report date: December 28, 2015"
+  ]
+ },
+ "sections": [
+  {
+   "heading": "1 Summary",
+   "blocks": [
+    {
+     "p": "38 compounds from the Selverant aminoquinazoline series 03 were tested for Selverant in the IKr inhibition, Five-isoform DDI screen. Testing started on December 8, 2015 and results were reported on December 28, 2015. All runs met matrix acceptance criteria. 1 of 38 compounds had an IC50 below 1 µM and should be treated as a clear liability. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. Inhibition above 50% at 10 µM was most frequent for CYP2C19."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0003:benchmark",
+      "caption": "Table 1 Study summary"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "2 Objective",
+   "blocks": [
+    {
+     "p": "To rank the test article set for IKr inhibition, Five-isoform DDI screen liability so that Selverant could choose analogues for progression."
+    }
+   ]
+  },
+  {
+   "heading": "3 Test items",
+   "blocks": [
+    {
+     "p": "38 compounds were received as 10 mM DMSO solutions in one accession lot on December 8, 2015 and logged against M15/BIO/06146. Identity and concentration were taken as supplied by the client."
+    }
+   ]
+  },
+  {
+   "heading": "4 Methods",
+   "blocks": []
+  },
+  {
+   "heading": "IKr inhibition",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "CHO cells stably expressing hERG (KCNH2) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells were held at -80 mV, depolarised to +40 mV for 2 s and repolarised to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final), with 3-5 minutes per concentration."
+    },
+    {
+     "list": [
+      "Matrix acceptance: seal resistance ≥500 MΩ before break-in and ≥200 MΩ throughout",
+      "Tail current amplitude ≥200 pA at baseline; run-down ≤10% over the vehicle period",
+      "Positive control E-4031 on every run; IC50 must fall within 5-50 nM",
+      "IC50 from a four-parameter logistic fit of mean tail-current inhibition; n≥2 cells per compound"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Five-isoform DDI screen",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Pooled human liver microsomes (0.1 mg/mL protein) were incubated with each compound at 10 µM and an isoform-selective probe substrate at approximately Km, in duplicate, for 10 minutes at 37 °C after NADPH addition. Metabolite formation was measured by LC-MS/MS against vehicle (0.1% DMSO) incubations."
+    },
+    {
+     "table": {
+      "columns": [
+       "Isoform",
+       "Probe substrate",
+       "Metabolite",
+       "Positive control"
+      ],
+      "rows": [
+       [
+        "CYP1A2",
+        "Phenacetin",
+        "Acetaminophen",
+        "Furafylline"
+       ],
+       [
+        "CYP2C9",
+        "Diclofenac",
+        "4'-Hydroxydiclofenac",
+        "Sulfaphenazole"
+       ],
+       [
+        "CYP2C19",
+        "S-Mephenytoin",
+        "4'-Hydroxymephenytoin",
+        "Ticlopidine"
+       ],
+       [
+        "CYP2D6",
+        "Dextromethorphan",
+        "Dextrorphan",
+        "Quinidine"
+       ],
+       [
+        "CYP3A4",
+        "Midazolam",
+        "1'-Hydroxymidazolam",
+        "Ketoconazole"
+       ]
+      ],
+      "caption": "Probe substrates and controls"
+     }
+    },
+    {
+     "p": "Results are reported as mean percent inhibition relative to vehicle. Values above 50% at 10 µM are flagged for follow-up; small negative values indicate no inhibition."
+    }
+   ]
+  },
+  {
+   "heading": "5 Results",
+   "blocks": []
+  },
+  {
+   "heading": "hERG results",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "All {{PRJ0003:herg.n_tested}} compounds were tested. 1 of 38 compounds had an IC50 below 1 µM and should be treated as a clear liability. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. The median IC50 was {{PRJ0003:herg.median_ic50_uM}} µM ({{PRJ0003:herg.n_lt_1uM}} below 1 µM, {{PRJ0003:herg.n_1_10uM}} between 1 and 10 µM, {{PRJ0003:herg.n_ge_10uM}} at or above 10 µM). E-4031 gave an IC50 of {{PRJ0003:herg.control_e4031_nM}} nM, within the acceptance range."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0003:herg",
+      "caption": "Table 2 hERG IC50 by compound (µM)"
+     }
+    },
+    {
+     "chart": {
+      "kind": "dose_response",
+      "ref": "PRJ0003:herg",
+      "title": "Representative concentration-response curves"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "CYP inhibition results",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Inhibition above 50% at 10 µM was most frequent for CYP2C19. In total {{PRJ0003:cyp.n_any_gt50}} compounds inhibited at least one isoform by more than 50% at 10 µM (CYP3A4: {{PRJ0003:cyp.n_gt50_CYP3A4}}; CYP2D6: {{PRJ0003:cyp.n_gt50_CYP2D6}}; CYP2C19: {{PRJ0003:cyp.n_gt50_CYP2C19}}; CYP2C9: {{PRJ0003:cyp.n_gt50_CYP2C9}}; CYP1A2: {{PRJ0003:cyp.n_gt50_CYP1A2}}). Ketoconazole inhibited CYP3A4 with an IC50 of {{PRJ0003:cyp.control_CYP3A4_uM}} µM."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0003:cyp_inhib",
+      "caption": "Table 3 Percent inhibition at 10 µM"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "6 Discussion",
+   "blocks": [
+    {
+     "p": "1 of 38 compounds had an IC50 below 1 µM and should be treated as a clear liability. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. Inhibition above 50% at 10 µM was most frequent for CYP2C19. Inhibition values are in vitro, at a fixed concentration, and do not by themselves predict clinical interaction risk; free exposure estimates are needed for that assessment."
+    }
+   ]
+  },
+  {
+   "heading": "7 Conclusion",
+   "blocks": [
+    {
+     "p": "The data support ranking within the set. Recommended next step: carry the compounds without CYP flags into exposure studies and run CYP3A4 IC50s for flagged analogues before in vivo work."
+    }
+   ]
+  }
+ ],
+ "signature_block": [
+  {
+   "name": "Matteo Rinalvesi",
+   "role": "Study Director",
+   "date": "December 28, 2015"
+  },
+  {
+   "name": "Helen Marchwood",
+   "role": "Bioanalytical Quality Manager",
+   "date": "December 27, 2015"
+  }
+ ]
+}

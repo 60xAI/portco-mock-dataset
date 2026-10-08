@@ -1,0 +1,231 @@
+{
+ "family": "workbook",
+ "summary": "Results workbook for OT-20-S0178 (Corvenlea (US)): hERG (IKr) safety pharmacology, CYP safety interaction panel data for 40 compounds, control results and a study summary (benchmark) sheet.",
+ "properties": {
+  "title": "OT-20-S0178 results"
+ },
+ "sheets": [
+  {
+   "name": "Study Summary",
+   "rows": [
+    [
+     {
+      "v": "OT-20-S0178_SafetyPharm_RESULTS_102020",
+      "bold": true
+     }
+    ],
+    [
+     "CVL kinase series: cardiac ion-channel and CYP interaction triage"
+    ],
+    [],
+    [
+     "Project",
+     {
+      "ref": "PRJ0012:project_id"
+     }
+    ],
+    [
+     "LIMS",
+     {
+      "ref": "PRJ0012:lims_id"
+     }
+    ],
+    [
+     "Client",
+     {
+      "ref": "PRJ0012:client_variant"
+     }
+    ],
+    [
+     "Study Director",
+     "Dr N. Takamori"
+    ],
+    [
+     "Received",
+     "October 6, 2020"
+    ],
+    [
+     "Reported",
+     "October 20, 2020"
+    ],
+    [
+     "Compounds",
+     {
+      "ref": "PRJ0012:n_compounds"
+     }
+    ],
+    [
+     "hERG median IC50 (µM)",
+     {
+      "ref": "PRJ0012:herg.median_ic50_uM"
+     }
+    ],
+    [
+     "E-4031 IC50 (nM)",
+     {
+      "ref": "PRJ0012:herg.control_e4031_nM"
+     }
+    ],
+    [
+     "Compounds with any CYP >50%",
+     {
+      "ref": "PRJ0012:cyp.n_any_gt50"
+     }
+    ],
+    [
+     "Ketoconazole IC50 (µM)",
+     {
+      "ref": "PRJ0012:cyp.control_CYP3A4_uM"
+     }
+    ],
+    [],
+    [
+     {
+      "v": "Study summary (benchmark)",
+      "bold": true
+     }
+    ]
+   ],
+   "col_widths": {
+    "A": 30,
+    "B": 34
+   },
+   "merged": [
+    "A1:D1",
+    "A2:D2"
+   ],
+   "data_refs": [
+    {
+     "table_ref": "PRJ0012:benchmark",
+     "at": "A17"
+    }
+   ]
+  },
+  {
+   "name": "hERG (IKr)",
+   "rows": [
+    [
+     "hERG (IKr) safety pharmacology: tail-current IC50, 6-point, top 30 µM"
+    ]
+   ],
+   "data_refs": [
+    {
+     "table_ref": "PRJ0012:herg",
+     "at": "A3"
+    }
+   ],
+   "freeze": "B4",
+   "chart": {
+    "kind": "dose_response",
+    "ref": "PRJ0012:herg",
+    "title": "Example curves"
+   },
+   "chart_at": "K3",
+   "comments": [
+    {
+     "cell": "E3",
+     "text": "Geometric mean of accepted cells; censored replicates excluded",
+     "author": "Naomi Takamori"
+    }
+   ]
+  },
+  {
+   "name": "CYP panel",
+   "rows": [
+    [
+     "CYP safety interaction panel: % inhibition at 10 µM (mean of duplicates)"
+    ]
+   ],
+   "data_refs": [
+    {
+     "table_ref": "PRJ0012:cyp_inhib",
+     "at": "A3"
+    }
+   ],
+   "freeze": "B4",
+   "chart": {
+    "kind": "bar",
+    "ref": "PRJ0012:cyp_inhib",
+    "column": 5,
+    "title": "CYP3A4 % inhibition at 10 µM"
+   },
+   "chart_at": "H3"
+  },
+  {
+   "name": "Control Validity",
+   "rows": [
+    [
+     "Control",
+     "Assay",
+     "Result",
+     "Acceptance",
+     "Pass"
+    ],
+    [
+     "E-4031",
+     "hERG (IKr) safety pharmacology",
+     {
+      "ref": "PRJ0012:herg.control_e4031_nM"
+     },
+     "5-50 nM",
+     "Yes"
+    ],
+    [
+     "Furafylline",
+     "CYP1A2",
+     {
+      "ref": "PRJ0012:cyp.control_CYP1A2_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Sulfaphenazole",
+     "CYP2C9",
+     {
+      "ref": "PRJ0012:cyp.control_CYP2C9_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Ticlopidine",
+     "CYP2C19",
+     {
+      "ref": "PRJ0012:cyp.control_CYP2C19_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Quinidine",
+     "CYP2D6",
+     {
+      "ref": "PRJ0012:cyp.control_CYP2D6_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Ketoconazole",
+     "CYP3A4",
+     {
+      "ref": "PRJ0012:cyp.control_CYP3A4_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [],
+    [
+     "All runs met control validity criteria. Checked by Lucia Moretti."
+    ]
+   ],
+   "col_widths": {
+    "A": 16,
+    "B": 28,
+    "C": 12,
+    "D": 30
+   }
+  }
+ ]
+}

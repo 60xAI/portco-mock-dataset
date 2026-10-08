@@ -1,0 +1,205 @@
+{
+ "family": "document",
+ "summary": "Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd (23 August 2011): hERG automated patch clamp, 5-isoform CYP panel on 40 compounds from a aminopyrimidine regioisomer series. Fixed price £11,800; results within 15 working days of receipt of test lots.",
+ "properties": {
+  "title": "Proposal BW11_0275",
+  "subject": "AP02 hinge-binder triage: hERG and five-CYP panel, 40 analogues"
+ },
+ "header": "BW11_0275 | Proposal",
+ "footer": null,
+ "title_block": {
+  "title": "Proposal and Quotation",
+  "subtitle": "AP02 hinge-binder triage: hERG and five-CYP panel, 40 analogues",
+  "lines": [
+   "Proposal reference: BW11_0275",
+   "Prepared for: Avernelwick Pharmaceuticals Ltd",
+   "Date: 23 August 2011"
+  ]
+ },
+ "sections": [
+  {
+   "heading": "1 Introduction",
+   "blocks": [
+    {
+     "p": "Brindlewythe Biosciences is pleased to quote for the following screening work. This document responds to the request from Avernelwick Pharmaceuticals Ltd for work on 40 compounds from the Avernelwick aminopyrimidine regioisomer screening set."
+    },
+    {
+     "p": "Reference: BW11_0275. Prepared by Dr A. Veldershain, Study Director."
+    }
+   ]
+  },
+  {
+   "heading": "2 Scope of work",
+   "blocks": [
+    {
+     "p": "40 compounds, supplied by Avernelwick Pharmaceuticals Ltd as 10 mM DMSO solutions (minimum 40 µL each) in a single test lot."
+    },
+    {
+     "list": [
+      "hERG automated patch clamp: 6-point concentration response (top 30 µM), n≥2 cells per compound, E-4031 control",
+      "5-isoform CYP panel: CYP1A2, 2C9, 2C19, 2D6 and 3A4 at 10 µM in duplicate, probe substrates by LC-MS/MS"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3 Study design",
+   "blocks": [
+    {
+     "p": "Methods follow our standard procedures, summarised below. Any deviation is agreed with the client before testing."
+    }
+   ]
+  },
+  {
+   "heading": "hERG automated patch clamp",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "HEK293 cells stably expressing hERG (Kv11.1) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells were held at -80 mV, depolarised to +40 mV for 2 s and repolarised to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final), with 3-5 minutes per concentration."
+    },
+    {
+     "list": [
+      "Plate acceptance: seal resistance ≥500 MΩ before break-in and ≥200 MΩ throughout",
+      "Tail current amplitude ≥200 pA at baseline; run-down ≤10% over the vehicle period",
+      "Positive control E-4031 on every run; IC50 must fall within 5-50 nM",
+      "IC50 from a four-parameter logistic fit of mean tail-current inhibition; n≥2 cells per compound"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5-isoform CYP panel",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Pooled human liver microsomes (0.1 mg/mL protein) were incubated with each compound at 10 µM and an isoform-selective probe substrate at approximately Km, in duplicate, for 10 minutes at 37 °C after NADPH addition. Metabolite formation was measured by LC-MS/MS against vehicle (0.1% DMSO) incubations."
+    },
+    {
+     "table": {
+      "columns": [
+       "Isoform",
+       "Probe substrate",
+       "Metabolite",
+       "Positive control"
+      ],
+      "rows": [
+       [
+        "CYP1A2",
+        "Phenacetin",
+        "Acetaminophen",
+        "Furafylline"
+       ],
+       [
+        "CYP2C9",
+        "Diclofenac",
+        "4'-Hydroxydiclofenac",
+        "Sulfaphenazole"
+       ],
+       [
+        "CYP2C19",
+        "S-Mephenytoin",
+        "4'-Hydroxymephenytoin",
+        "Ticlopidine"
+       ],
+       [
+        "CYP2D6",
+        "Dextromethorphan",
+        "Dextrorphan",
+        "Quinidine"
+       ],
+       [
+        "CYP3A4",
+        "Midazolam",
+        "1'-Hydroxymidazolam",
+        "Ketoconazole"
+       ]
+      ],
+      "caption": "Probe substrates and controls"
+     }
+    },
+    {
+     "p": "Results are reported as mean percent inhibition relative to vehicle. Values above 50% at 10 µM are flagged for follow-up; small negative values indicate no inhibition."
+    }
+   ]
+  },
+  {
+   "heading": "4 Deliverables",
+   "blocks": [
+    {
+     "list": [
+      "Results workbook (run sheets with compound-level data and a study summary sheet)",
+      "Final report (PDF) with methods, control results and interpretation",
+      "Raw traces and instrument files on request"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5 Timeline",
+   "blocks": [
+    {
+     "p": "Results within 15 working days of receipt of test lots. Work starts once compounds and a purchase order are received; we will confirm the start date on receipt."
+    }
+   ]
+  },
+  {
+   "heading": "6 Price",
+   "blocks": [
+    {
+     "table": {
+      "columns": [
+       "Item",
+       "Compounds",
+       "Unit price",
+       "Amount"
+      ],
+      "rows": [
+       [
+        "hERG automated patch clamp",
+        "40",
+        "£190",
+        "£7,600"
+       ],
+       [
+        "5-isoform CYP panel",
+        "40",
+        "£105",
+        "£4,200"
+       ],
+       [
+        "Total (excluding VAT)",
+        "",
+        "",
+        "£11,800"
+       ]
+      ],
+      "caption": "Fixed price, GBP"
+     }
+    },
+    {
+     "p": "Total price: £11,800 for 40 compounds. Prices exclude VAT."
+    }
+   ]
+  },
+  {
+   "heading": "7 Terms",
+   "blocks": [
+    {
+     "list": [
+      "Quotation valid for 90 days from the date above",
+      "Invoiced in full on issue of the final report; payment within 30 days",
+      "Unused compound returned or destroyed at the client's instruction",
+      "Data and samples retained for 5 years"
+     ]
+    }
+   ]
+  }
+ ],
+ "signature_block": [
+  {
+   "name": "Anika Veldershain",
+   "role": "Study Director",
+   "date": "23 August 2011"
+  }
+ ]
+}

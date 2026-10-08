@@ -1,0 +1,19 @@
+{
+ "family": "deck",
+ "summary": "Vellacombe's October 2023 medicinal chemistry pitch in the group template. Mostly route scouting, analogue delivery and compound cards; slide 7 'Integrated discovery with the Tarnovell group' is a generic overview that mentions bioinformatics only in passing.",
+ "properties": {"title": "Vellacombe Discovery: medicinal chemistry for integrated discovery", "subject": "Pitch deck"},
+ "slides": [
+  {"layout": "title", "title": "Medicinal chemistry for your next analogue set", "subtitle": "Vellacombe Discovery Ltd, a Tarnovell company | October 2023"},
+  {"layout": "title_content", "title": "Vellacombe in brief", "bullets": ["Medicinal chemistry in Nottingham since 1994", "Route scouts, analogue preparation and delivery lots", "Compound cards with identity and area-percent purity for every delivery", "The founding laboratory of the Tarnovell group"]},
+  {"layout": "title_content", "title": "What we deliver", "bullets": ["Analogue sets designed with your project chemists", "Route gates agreed before scale-up", "Isolated yield and purity reported per delivery lot", "Weekly chemistry notes"]},
+  {"layout": "title_content", "title": "Route scouts", "bullets": ["Two or three routes tested at small scale", "Route risk stated up front", "Recommendation with expected isolated yield range"]},
+  {"layout": "title_content", "title": "Analogue preparation", "bullets": ["Typical sets of 12-40 compounds", "Delivery in lots, 10-50 mg each", "Purity release by LCMS area percent"]},
+  {"layout": "title_content", "title": "Quality and records", "bullets": ["Compound card for every structure", "Analytical release reviewed by our release lead", "Records retained for the life of the programme"]},
+  {"layout": "title_content", "title": "Integrated discovery with the Tarnovell group",
+   "bullets": ["One partner from design to candidate", {"text": "Chemistry: Vellacombe", "level": 1}, {"text": "Biology and screening: Brindlewythe", "level": 1}, {"text": "DMPK: Merrivoss", "level": 1}, {"text": "Bioinformatics and computational chemistry: Quenverell", "level": 1}, {"text": "Analytical and stability: Westravelle", "level": 1}, "Shared project management and data hand-offs"],
+   "notes": "Generic group slide from the commercial team. If the client wants detail on the computational side, bring in Quenverell."},
+  {"layout": "title_content", "title": "How a programme runs", "bullets": ["Kick-off and design meeting", "Route gate", "Delivery lots every two to three weeks", "Review and next analogue set"]},
+  {"layout": "title_content", "title": "Why Vellacombe", "bullets": ["Thirty years of route experience", "Chemists who talk to biologists", "Honest route risk, early"]},
+  {"layout": "title_content", "title": "Next steps", "bullets": ["Share your target structures under CDA", "We return a route-scout proposal within a week", "Contact: Ruth Calderwood, Head of Medicinal Chemistry"]}
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "family": "deck",
+ "summary": "Quenverell's 2012 capability deck in the original legacy template, now superseded. Its 'Bioinformatics in drug discovery' slide reflects 2012 practice (microarray expression profiling, homology models, in-house annotation databases) and describes services the company no longer offers in that form.",
+ "properties": {"title": "Quenverell Computational - Bioinformatics services", "subject": "Capabilities 2012"},
+ "slides": [
+  {"layout": "title", "title": "Bioinformatics services for drug discovery", "subtitle": "Quenverell Computational Ltd, Edinburgh | September 2012"},
+  {"layout": "title_content", "title": "Quenverell Computational", "bullets": ["Spin-out team founded in 2009", "Six computational biologists and two chemists", "Expression analysis, sequence analysis and modelling", "Flexible day-rate or fixed-price work"]},
+  {"layout": "title_content", "title": "Bioinformatics in drug discovery",
+   "bullets": ["Microarray expression profiling to find disease-associated genes",
+     {"text": "Two-colour and single-channel array normalisation", "level": 1},
+     {"text": "Fold-change lists and clustering", "level": 1},
+     "Sequence analysis and orthologue mapping for target selection",
+     "Homology models where no structure is available",
+     "In-house annotation database updated quarterly"],
+   "notes": "Superseded - arrays replaced by RNA-seq from 2014. Do not reuse this slide."},
+  {"layout": "title_content", "title": "Expression profiling", "bullets": ["Array data QC and normalisation", "Differential expression and clustering", "Gene lists annotated with pathways", "Report and spreadsheets"]},
+  {"layout": "title_content", "title": "Next-generation sequencing (pilot service)", "bullets": ["Early RNA-seq analysis offered on a pilot basis", "Read QC and alignment", "Counts and simple differential expression", "Pricing on request"]},
+  {"layout": "title_content", "title": "Target selection support", "bullets": ["Literature and database mining", "Orthologue and paralogue checks", "Tissue expression from public atlases", "Short written target dossiers"]},
+  {"layout": "title_content", "title": "Molecular modelling", "bullets": ["Homology models from related sequences", "Docking of client compound sets", "Pharmacophore searches"]},
+  {"layout": "title_content", "title": "Data management", "bullets": ["Secure FTP transfer", "Project data held for five years", "Analyses documented in project files"]},
+  {"layout": "table", "title": "How we charge", "table": {"columns": ["Option", "Best for"], "rows": [["Day rate", "Open-ended analysis"], ["Fixed price", "Defined datasets"], ["Retainer", "Ongoing support"]]}},
+  {"layout": "title_content", "title": "Why Quenverell", "bullets": ["Scientists who understand drug discovery", "Fast turnaround on array studies", "Clear reports, not just data"]},
+  {"layout": "title_content", "title": "Contact us", "bullets": ["Dr T. Zawiernicki", "Quenverell Computational Ltd, Edinburgh"]}
+ ]
+}

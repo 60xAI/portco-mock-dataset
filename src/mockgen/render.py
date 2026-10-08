@@ -485,7 +485,12 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
             run.font.color.rgb = color
 
     def bullets_into(tf, items, base=20):
+        from pptx.enum.text import MSO_AUTO_SIZE
         tf.clear()
+        tf.word_wrap = True
+        tf.auto_size = MSO_AUTO_SIZE.NONE
+        n = len(items)
+        base = base if n <= 6 else (base - 2 if n <= 9 else base - 4)
         first = True
         for b in items:
             text = b if isinstance(b, str) else b.text
@@ -495,7 +500,7 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
             para.level = min(lvl, 4)
             r = para.add_run()
             r.text = resolve_text(text, errors)
-            font(r, size=max(11, base - 3 * lvl - (2 if len(items) > 7 else 0)))
+            font(r, size=max(12, base - 3 * lvl))
 
     for idx, sd in enumerate(content.slides, 1):
         layout = prs.slide_layouts[L[sd.layout]]

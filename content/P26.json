@@ -1,0 +1,159 @@
+{
+ "family": "document",
+ "summary": "Proposal MV-2018-052 to Avernelwick Pharma (February 20, 2018): Microsomal CLint, fu,p by equilibrium dialysis on 40 compounds from a aminopyrimidine regioisomer series. Fixed price $23,500; draft results within 5 weeks of receipt of test articles.",
+ "properties": {
+  "title": "Proposal MV-2018-052",
+  "subject": "AP02 clearance and free-fraction assessment, recovery-controlled dialysis"
+ },
+ "header": "MV-2018-052 | Proposal",
+ "footer": null,
+ "title_block": {
+  "title": "Proposal and Quotation",
+  "subtitle": "AP02 clearance and free-fraction assessment, recovery-controlled dialysis",
+  "lines": [
+   "Proposal reference: MV-2018-052",
+   "Prepared for: Avernelwick Pharma",
+   "Date: February 20, 2018"
+  ]
+ },
+ "sections": [
+  {
+   "heading": "1 Introduction",
+   "blocks": [
+    {
+     "p": "Merrivoss Bioanalysis is pleased to provide this proposal. Matrix, species and analytical limits are stated for each assay before any interpretation. This document responds to the request from Avernelwick Pharma for work on 40 compounds from the Avernelwick aminopyrimidine regioisomer test article set."
+    },
+    {
+     "p": "Reference: MV-2018-052. Prepared by Dr M. Larkin, DMPK Study Director."
+    }
+   ]
+  },
+  {
+   "heading": "2 Scope of work",
+   "blocks": [
+    {
+     "p": "40 compounds, supplied by Avernelwick Pharma as 10 mM DMSO solutions (minimum 40 µL each) in a single accession lot."
+    },
+    {
+     "list": [
+      "Microsomal CLint: human and rat liver microsomes, 1 µM, five time points",
+      "fu,p by equilibrium dialysis: human plasma, rapid equilibrium dialysis with recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "3 Study design",
+   "blocks": [
+    {
+     "p": "Methods follow our standard procedures, summarised below. Any deviation is agreed with the client before testing."
+    }
+   ]
+  },
+  {
+   "heading": "Microsomal CLint",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Test articles (1 µM) were incubated with pooled human and rat liver microsomes (0.5 mg/mL protein) and NADPH at 37 °C. Samples at 0, 5, 15, 30 and 45 minutes were quenched in acetonitrile with internal standard and analysed by LC-MS/MS. Intrinsic clearance was calculated from the first-order depletion rate; half-lives above 60 minutes are reported as >60."
+    },
+    {
+     "p": "Matrix acceptance: verapamil (high clearance) and diltiazem (moderate clearance) within historical range in each run.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "heading": "fu,p by equilibrium dialysis",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Binding to human plasma was measured by rapid equilibrium dialysis (5 µM test article, 4 h at 37 °C, PBS pH 7.4). Plasma and buffer compartments were matrix-matched before LC-MS/MS. Fraction unbound (fu) is reported with mass-balance recovery; recoveries below 70% are footnoted."
+    },
+    {
+     "p": "Warfarin was included as the binding control in every plate.",
+     "style": "note"
+    }
+   ]
+  },
+  {
+   "heading": "4 Deliverables",
+   "blocks": [
+    {
+     "list": [
+      "Results workbook (assay worksheets with compound-level data and a study summary sheet)",
+      "Final report (PDF) with methods, control results and interpretation",
+      "Raw traces and instrument files on request"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "5 Timeline",
+   "blocks": [
+    {
+     "p": "Draft results within 5 weeks of receipt of test articles. Work starts once compounds and a purchase order are received; we will confirm the start date on receipt."
+    }
+   ]
+  },
+  {
+   "heading": "6 Price",
+   "blocks": [
+    {
+     "table": {
+      "columns": [
+       "Item",
+       "Compounds",
+       "Unit price",
+       "Amount"
+      ],
+      "rows": [
+       [
+        "Microsomal CLint",
+        "40",
+        "$325",
+        "$13,000"
+       ],
+       [
+        "fu,p by equilibrium dialysis",
+        "40",
+        "$262.50",
+        "$10,500"
+       ],
+       [
+        "Total",
+        "",
+        "",
+        "$23,500"
+       ]
+      ],
+      "caption": "Fixed price, USD"
+     }
+    },
+    {
+     "p": "Total price: $23,500 for 40 compounds."
+    }
+   ]
+  },
+  {
+   "heading": "7 Terms",
+   "blocks": [
+    {
+     "list": [
+      "Quotation valid for 90 days from the date above",
+      "Invoiced in full on issue of the final report; payment within 30 days",
+      "Unused compound returned or destroyed at the client's instruction",
+      "Data and samples retained for 5 years"
+     ]
+    }
+   ]
+  }
+ ],
+ "signature_block": [
+  {
+   "name": "Megan Larkin",
+   "role": "DMPK Study Director",
+   "date": "February 20, 2018"
+  }
+ ]
+}

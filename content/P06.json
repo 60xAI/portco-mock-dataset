@@ -1,0 +1,211 @@
+{
+ "family": "deck",
+ "summary": "Emil Ostlund's April 2025 copy of the Quenverell capability deck, saved for a single pitch. Slide 3 title is mistyped as 'Bioinfromatics for drug discovery' and one bullet was edited for an oncology audience; the case study slide was replaced with a placeholder.",
+ "properties": {
+  "title": "Copy of Quenverell capabilities 2025",
+  "subject": "Capability deck",
+  "keywords": "bioinformatics; drug discovery; target identification; biomarkers; omics; computational chemistry",
+  "category": "Marketing"
+ },
+ "slides": [
+  {
+   "layout": "title",
+   "title": "Bioinformatics and computational chemistry for drug discovery",
+   "subtitle": "Capabilities 2025 | Quenverell Computational Ltd, a Tarnovell company"
+  },
+  {
+   "layout": "title_content",
+   "title": "Who we are",
+   "bullets": [
+    "Computational biology and chemistry group based in Edinburgh, founded 2009",
+    "Part of Tarnovell Bioscience Group since 2014, alongside in vitro biology, DMPK, chemistry, analytical and formulation laboratories",
+    "Bioinformaticians, computational chemists and data scientists working from a shared, version-controlled analysis platform",
+    {
+     "text": "Every engagement starts from the biological question and ends with a decision the project team can act on",
+     "level": 1
+    },
+    "Clients: biotechs without in-house informatics, mid-size pharma teams needing extra capacity, and academic drug discovery units"
+   ],
+   "notes": "Keep this short. The point is that we are scientists first and that the lab firms in the group can test what we predict."
+  },
+  {
+   "layout": "title_content",
+   "title": "Bioinfromatics for drug discovery",
+   "bullets": [
+    "Turns large biological datasets into decisions at each stage of a programme",
+    {
+     "text": "Target identification: rank disease-linked genes from transcriptomics, genetics and literature-curated pathways",
+     "level": 1
+    },
+    {
+     "text": "Target validation: test whether the target is expressed in the right tissue, cell type and patient subgroup",
+     "level": 1
+    },
+    {
+     "text": "Mechanism of action: read out pathway responses to compound treatment from RNA-seq and proteomics",
+     "level": 1
+    },
+    {
+     "text": "Biomarkers and stratification: find the patients most likley to respond, e.g. by tumour subtype",
+     "level": 1
+    },
+    {
+     "text": "Safety signals: flag off-target and tissue-expression liabilities before chemistry is committed",
+     "level": 1
+    },
+    "Every analysis is reproducible: data provenance, versioned pipelines and an acceptance check before results are released",
+    "Outcome: fewer, better-evidenced targets and earlier no-go decisions, so lab budget goes on the compounds that matter"
+   ],
+   "notes": "Adapted for the oncology pitch on 24/04. Check with Tomasz before sending."
+  },
+  {
+   "layout": "section",
+   "title": "Target discovery and validation",
+   "subtitle": "From disease biology to a ranked target list"
+  },
+  {
+   "layout": "two_content",
+   "title": "Omics target prioritisation",
+   "bullets": [
+    "Bulk and single-cell RNA-seq differential expression",
+    "Integration with genetic association evidence",
+    "Pathway and network enrichment against curated knowledge bases",
+    "Cross-species expression checks for model selection"
+   ],
+   "bullets_right": [
+    "Ranked target list with an evidence score per gene",
+    "Tissue and cell-type expression maps",
+    "Known liabilities and paralog risks",
+    "Analysis notebook and data acceptance record"
+   ],
+   "notes": "Left: inputs and methods. Right: what the client receives."
+  },
+  {
+   "layout": "title_content",
+   "title": "Biomarkers and patient stratification",
+   "bullets": [
+    "Responder signatures from baseline expression and mutation status",
+    "Pharmacodynamic markers for early studies",
+    "Assay-ready marker panels with expected effect sizes",
+    {
+     "text": "Uncertainty stated plainly: we report what the data cannot support",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Computational chemistry",
+   "subtitle": "Prioritising what gets made and tested"
+  },
+  {
+   "layout": "title_content",
+   "title": "Ligand- and structure-based design support",
+   "bullets": [
+    "Virtual screening of client and commercial-scale libraries",
+    "Docking and pose review for hit triage",
+    "Physicochemical and ADMET property models to filter candidate sets",
+    "Analogue prioritisation fed straight to Vellacombe chemists for synthesis"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Data acceptance and reproducibility",
+   "bullets": [
+    "Metadata reconciled against sample manifests before any analysis",
+    "Batch-effect review and documented exclusions",
+    "Pipelines under version control; every figure traceable to code and input",
+    "Independent review before release; deviations recorded in the analysis notebook"
+   ],
+   "notes": "Clients in regulated settings care about this slide more than the science."
+  },
+  {
+   "layout": "table",
+   "title": "Typical engagements",
+   "table": {
+    "columns": [
+     "Engagement",
+     "Typical scope",
+     "Deliverable"
+    ],
+    "rows": [
+     [
+      "Target prioritisation",
+      "One indication, public plus client omics data",
+      "Ranked targets, evidence summary, readout"
+     ],
+     [
+      "Biomarker discovery",
+      "Baseline and on-treatment samples",
+      "Candidate panel, stratification rule"
+     ],
+     [
+      "Mechanism of action",
+      "Compound-treated RNA-seq",
+      "Pathway response report"
+     ],
+     [
+      "Virtual screening",
+      "Library triage for one target",
+      "Prioritised purchase or synthesis list"
+     ],
+     [
+      "Data platform support",
+      "Ongoing, monthly",
+      "Curated datasets and pipeline maintenance"
+     ]
+    ]
+   }
+  },
+  {
+   "layout": "title_content",
+   "title": "Case study",
+   "bullets": [
+    "[TBC - pick an oncology example]",
+    "Ask Fiona for the anonymised version"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Working with the Tarnovell group",
+   "bullets": [
+    "Predictions tested quickly in group laboratories",
+    {
+     "text": "Brindlewythe Biosciences: target and safety assays",
+     "level": 1
+    },
+    {
+     "text": "Merrivoss Bioanalysis: DMPK and exposure",
+     "level": 1
+    },
+    {
+     "text": "Vellacombe Discovery: synthesis of prioritised analogues",
+     "level": 1
+    },
+    "One project lead, one contract, shared data standards"
+   ]
+  },
+  {
+   "layout": "image",
+   "title": "How an engagement runs",
+   "image": {
+    "kind": "timeline",
+    "boxes": [
+     "Scoping call",
+     "Data acceptance",
+     "Analysis",
+     "Interim readout",
+     "Final readout and handover"
+    ]
+   }
+  },
+  {
+   "layout": "title_content",
+   "title": "Contact",
+   "bullets": [
+    "Dr E. Ostlund, Senior Computational Biologist",
+    "Quenverell Computational Ltd, a Tarnovell company, Edinburgh"
+   ]
+  }
+ ]
+}

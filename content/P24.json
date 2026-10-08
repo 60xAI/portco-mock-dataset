@@ -1,0 +1,182 @@
+{
+ "family": "workbook",
+ "summary": "Results workbook for MV-2022-176 (Orvessant Biosciences Pty Ltd): Five-isoform DDI screen data for 40 compounds, control results and a study summary (benchmark) sheet.",
+ "properties": {
+  "title": "MV-2022-176 results"
+ },
+ "sheets": [
+  {
+   "name": "Summary",
+   "rows": [
+    [
+     {
+      "v": "MV-2022-176_AssayWorksheet_072522_R1",
+      "bold": true
+     }
+    ],
+    [
+     "OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration"
+    ],
+    [],
+    [
+     "Project",
+     {
+      "ref": "PRJ0006:project_id"
+     }
+    ],
+    [
+     "LIMS",
+     {
+      "ref": "PRJ0006:lims_id"
+     }
+    ],
+    [
+     "Client",
+     {
+      "ref": "PRJ0006:client_variant"
+     }
+    ],
+    [
+     "Study Director",
+     "Dr M. Larkin"
+    ],
+    [
+     "Received",
+     "July 25, 2022"
+    ],
+    [
+     "Reported",
+     "August 10, 2022"
+    ],
+    [
+     "Compounds",
+     {
+      "ref": "PRJ0006:n_compounds"
+     }
+    ],
+    [
+     "Compounds with any CYP >50%",
+     {
+      "ref": "PRJ0006:cyp.n_any_gt50"
+     }
+    ],
+    [
+     "Ketoconazole IC50 (µM)",
+     {
+      "ref": "PRJ0006:cyp.control_CYP3A4_uM"
+     }
+    ],
+    [],
+    [
+     {
+      "v": "Study summary (benchmark)",
+      "bold": true
+     }
+    ]
+   ],
+   "col_widths": {
+    "A": 30,
+    "B": 34
+   },
+   "merged": [
+    "A1:D1",
+    "A2:D2"
+   ],
+   "data_refs": [
+    {
+     "table_ref": "PRJ0006:benchmark",
+     "at": "A15"
+    }
+   ]
+  },
+  {
+   "name": "DDI screen",
+   "rows": [
+    [
+     "Five-isoform DDI screen: % inhibition at 10 µM (mean of duplicates)"
+    ]
+   ],
+   "data_refs": [
+    {
+     "table_ref": "PRJ0006:cyp_inhib",
+     "at": "A3"
+    }
+   ],
+   "freeze": "B4",
+   "chart": {
+    "kind": "bar",
+    "ref": "PRJ0006:cyp_inhib",
+    "column": 5,
+    "title": "CYP3A4 % inhibition at 10 µM"
+   },
+   "chart_at": "H3"
+  },
+  {
+   "name": "Matrix acceptance",
+   "rows": [
+    [
+     "Control",
+     "Assay",
+     "Result",
+     "Acceptance",
+     "Pass"
+    ],
+    [
+     "Furafylline",
+     "CYP1A2",
+     {
+      "ref": "PRJ0006:cyp.control_CYP1A2_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Sulfaphenazole",
+     "CYP2C9",
+     {
+      "ref": "PRJ0006:cyp.control_CYP2C9_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Ticlopidine",
+     "CYP2C19",
+     {
+      "ref": "PRJ0006:cyp.control_CYP2C19_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Quinidine",
+     "CYP2D6",
+     {
+      "ref": "PRJ0006:cyp.control_CYP2D6_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [
+     "Ketoconazole",
+     "CYP3A4",
+     {
+      "ref": "PRJ0006:cyp.control_CYP3A4_uM"
+     },
+     "within 3-fold of historical mean",
+     "Yes"
+    ],
+    [],
+    [
+     "All runs met matrix acceptance criteria. Checked by Helen Marchwood."
+    ]
+   ],
+   "col_widths": {
+    "A": 16,
+    "B": 28,
+    "C": 12,
+    "D": 30
+   }
+  }
+ ]
+}

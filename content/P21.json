@@ -1,0 +1,217 @@
+{
+ "family": "document",
+ "summary": "Final report MV-2024-358 for Tervemere Pharma AG: IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves on 40 compounds (Aminopyrazolopyrimidine). Study summary (benchmark) table on page 1; full compound tables, methods and control results follow.",
+ "properties": {
+  "title": "MV-2024-358 Final Report"
+ },
+ "header": "MV-2024-358 Final Report",
+ "footer": null,
+ "title_block": {
+  "title": "TP04 inflammatory kinase follow-up: 40-compound cardiac and CYP screen",
+  "subtitle": "Final Report",
+  "lines": [
+   "Study MV-2024-358 (LIMS M24/BIO/08257)",
+   "Client: Tervemere Pharma AG",
+   "Study Director: Dr P. Nandekuri",
+   "Report date: December 19, 2024"
+  ]
+ },
+ "sections": [
+  {
+   "heading": "1 Summary",
+   "blocks": [
+    {
+     "p": "40 compounds from the Tervemere aminopyrazolopyrimidine series 04 were tested for Tervemere Pharma AG in the IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves. Testing started on December 5, 2024 and results were reported on December 19, 2024. All runs met matrix acceptance criteria. No compound inhibited hERG with an IC50 below 1 µM. Most compounds were weak or inactive (IC50 at or above 10 µM, or above the top concentration). Inhibition above 50% at 10 µM was most frequent for CYP3A4."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0004:benchmark",
+      "caption": "Table 1 Study summary"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "2 Objective",
+   "blocks": [
+    {
+     "p": "To rank the test article set for IKr inhibition, Five-isoform DDI screen, CYP3A4 inhibition curves liability so that Tervemere Pharma AG could choose analogues for progression."
+    }
+   ]
+  },
+  {
+   "heading": "3 Test items",
+   "blocks": [
+    {
+     "p": "40 compounds were received as 10 mM DMSO solutions in one accession lot on December 5, 2024 and logged against M24/BIO/08257. Identity and concentration were taken as supplied by the client."
+    }
+   ]
+  },
+  {
+   "heading": "4 Methods",
+   "blocks": []
+  },
+  {
+   "heading": "IKr inhibition",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "CHO cells stably expressing hERG (KCNH2) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells were held at -80 mV, depolarised to +40 mV for 2 s and repolarised to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final), with 3-5 minutes per concentration."
+    },
+    {
+     "list": [
+      "Matrix acceptance: seal resistance ≥500 MΩ before break-in and ≥200 MΩ throughout",
+      "Tail current amplitude ≥200 pA at baseline; run-down ≤10% over the vehicle period",
+      "Positive control E-4031 on every run; IC50 must fall within 5-50 nM",
+      "IC50 from a four-parameter logistic fit of mean tail-current inhibition; n≥2 cells per compound"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Five-isoform DDI screen",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Pooled human liver microsomes (0.1 mg/mL protein) were incubated with each compound at 10 µM and an isoform-selective probe substrate at approximately Km, in duplicate, for 10 minutes at 37 °C after NADPH addition. Metabolite formation was measured by LC-MS/MS against vehicle (0.1% DMSO) incubations."
+    },
+    {
+     "table": {
+      "columns": [
+       "Isoform",
+       "Probe substrate",
+       "Metabolite",
+       "Positive control"
+      ],
+      "rows": [
+       [
+        "CYP1A2",
+        "Phenacetin",
+        "Acetaminophen",
+        "Furafylline"
+       ],
+       [
+        "CYP2C9",
+        "Diclofenac",
+        "4'-Hydroxydiclofenac",
+        "Sulfaphenazole"
+       ],
+       [
+        "CYP2C19",
+        "S-Mephenytoin",
+        "4'-Hydroxymephenytoin",
+        "Ticlopidine"
+       ],
+       [
+        "CYP2D6",
+        "Dextromethorphan",
+        "Dextrorphan",
+        "Quinidine"
+       ],
+       [
+        "CYP3A4",
+        "Midazolam",
+        "1'-Hydroxymidazolam",
+        "Ketoconazole"
+       ]
+      ],
+      "caption": "Probe substrates and controls"
+     }
+    },
+    {
+     "p": "Results are reported as mean percent inhibition relative to vehicle. Values above 50% at 10 µM are flagged for follow-up; small negative values indicate no inhibition."
+    }
+   ]
+  },
+  {
+   "heading": "CYP3A4 inhibition curves",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Compounds were run in a 7-point concentration response (top concentration 50 µM, 3-fold dilutions) against CYP3A4 with midazolam or testosterone as probe; ketoconazole was the positive control."
+    }
+   ]
+  },
+  {
+   "heading": "5 Results",
+   "blocks": []
+  },
+  {
+   "heading": "hERG results",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "All {{PRJ0004:herg.n_tested}} compounds were tested. No compound inhibited hERG with an IC50 below 1 µM. Most compounds were weak or inactive (IC50 at or above 10 µM, or above the top concentration). The median IC50 was {{PRJ0004:herg.median_ic50_uM}} µM ({{PRJ0004:herg.n_lt_1uM}} below 1 µM, {{PRJ0004:herg.n_1_10uM}} between 1 and 10 µM, {{PRJ0004:herg.n_ge_10uM}} at or above 10 µM). E-4031 gave an IC50 of {{PRJ0004:herg.control_e4031_nM}} nM, within the acceptance range."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0004:herg",
+      "caption": "Table 2 hERG IC50 by compound (µM)"
+     }
+    },
+    {
+     "chart": {
+      "kind": "dose_response",
+      "ref": "PRJ0004:herg",
+      "title": "Representative concentration-response curves"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "CYP inhibition results",
+   "level": 2,
+   "blocks": [
+    {
+     "p": "Inhibition above 50% at 10 µM was most frequent for CYP3A4. In total {{PRJ0004:cyp.n_any_gt50}} compounds inhibited at least one isoform by more than 50% at 10 µM (CYP3A4: {{PRJ0004:cyp.n_gt50_CYP3A4}}; CYP2D6: {{PRJ0004:cyp.n_gt50_CYP2D6}}; CYP2C19: {{PRJ0004:cyp.n_gt50_CYP2C19}}; CYP2C9: {{PRJ0004:cyp.n_gt50_CYP2C9}}; CYP1A2: {{PRJ0004:cyp.n_gt50_CYP1A2}}). Ketoconazole inhibited CYP3A4 with an IC50 of {{PRJ0004:cyp.control_CYP3A4_uM}} µM."
+    },
+    {
+     "table": {
+      "table_ref": "PRJ0004:cyp_inhib",
+      "caption": "Table 3 Percent inhibition at 10 µM"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "CYP3A4 concentration response",
+   "level": 2,
+   "blocks": [
+    {
+     "table": {
+      "table_ref": "PRJ0004:cyp_ic50",
+      "caption": "Table 4 CYP3A4 IC50 (µM)"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "6 Discussion",
+   "blocks": [
+    {
+     "p": "No compound inhibited hERG with an IC50 below 1 µM. Most compounds were weak or inactive (IC50 at or above 10 µM, or above the top concentration). Inhibition above 50% at 10 µM was most frequent for CYP3A4. Inhibition values are in vitro, at a fixed concentration, and do not by themselves predict clinical interaction risk; free exposure estimates are needed for that assessment."
+    }
+   ]
+  },
+  {
+   "heading": "7 Conclusion",
+   "blocks": [
+    {
+     "p": "The data support ranking within the set. Recommended next step: carry the compounds without CYP flags into exposure studies and run CYP3A4 IC50s for flagged analogues before in vivo work."
+    }
+   ]
+  }
+ ],
+ "signature_block": [
+  {
+   "name": "Priya Nandekuri",
+   "role": "Study Director",
+   "date": "December 19, 2024"
+  },
+  {
+   "name": "Helen Marchwood",
+   "role": "Bioanalytical Quality Manager",
+   "date": "December 18, 2024"
+  }
+ ]
+}

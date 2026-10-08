@@ -101,6 +101,8 @@ def build_pack(file_id: str) -> str:
           f"{'founding firm of the group' if f.role == 'founder' else ('acquired by ' + w.group.name + ' on ' + str(f.joined_group)) if f.role == 'acquired' else 'acquired ' + str(f.joined_group) + ' (archive not yet integrated)'}.")
         A(f"Template in force: `{t.id}` ({t.kind}): brand line '{t.brand_line}', footer '{t.footer_text}', fonts {t.font_heading}/{t.font_body}. "
           f"{'Legacy era: the group does not exist in this firm’s documents yet unless already acquired; use the legacy brand only.' if t.kind == 'legacy' else 'Post-acquisition: show the brand line with the group name.'}")
+        if e.modified.date() < w.group.template.from_:
+            A(f"Group naming: the '{w.group.short_name}' brand did not exist until {w.group.template.from_}. Before that, refer to the group (if at all) as 'the Vellacombe group'.")
         A(f"Voice: {f.voice}")
         A(f"Terminology (house term for generic term): {json.dumps(f.terminology, ensure_ascii=False)}")
         A(f"Dates: {f.date_convention} convention, formats {f.date_formats}. Units: {f.units_notes}")

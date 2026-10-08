@@ -116,7 +116,7 @@ def build() -> str:
         length="14 slides", summary="Copy of the 2025 capability deck saved by a colleague; slide 3 title has a typo ('Bioinfromatics') and an edited bullet.",
         hint="'Copy of <best deck filename>'", facts=[{"where": {"slide": 3}, "text": "Bioinfromatics for drug discovery"}],
         golden={"query": 1, "role": "distractor", "why": "near-duplicate with typo"})
-    a_bd = employed_pick(w, "A", date(2023, 10, 3), prefer=())
+    a_bd = employed_pick(w, "A", date(2023, 10, 3), prefer=("NS01",))
     add("q1 distractor: generic slide in an unrelated firm A deck", "A", "pptx", "deck_pitch", date(2023, 10, 3), date(2023, 10, 9), a_bd, a_bd,
         ["q1_distractor_generic_A"], length="10 slides",
         summary="Medicinal chemistry pitch with one generic 'integrated discovery' slide that mentions bioinformatics in passing.",

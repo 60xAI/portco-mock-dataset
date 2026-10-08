@@ -225,6 +225,10 @@ def content_checks(entry, fam, raw, w) -> list[str]:
             if re.search(r"\b" + re.escape(v.name) + r"(?![\w])", txt):
                 errs.append(f"{q3.canonical_name} has never been a client of firm {entry.unit}; don't mention it here")
                 break
+    # group brand did not exist before the group template launched
+    gstart = w.group.template.from_
+    if mod < gstart and re.search(re.escape(w.group.short_name), txt):
+        errs.append(f"mentions '{w.group.short_name}', but the group brand only launched on {gstart}; before that the group was informally 'the Vellacombe group'")
     # dates
     us = entry.unit in w.firms and w.firms[entry.unit].date_convention == "US"
     lo = w.group.formed if entry.unit == "HO" else w.firms[entry.unit].founded
