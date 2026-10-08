@@ -1,0 +1,332 @@
+{
+  "family": "document",
+  "summary": "{{PRJ0038:n_compounds}} compounds were tested at 10 µM against CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4 using human liver microsomes and probe substrates. Orvessant commissioned an exposure comparison after the ether-linked backup set reduced the CYP liability enough for its screen gate.",
+  "properties": {
+    "title": "BW19_0436 final study report, revision B",
+    "subject": "OB11 antagonist backup set: five-CYP panel"
+  },
+  "header": "Brindlewythe Biosciences Ltd | BW19_0436 | Final report",
+  "footer": "Brindlewythe Biosciences Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "OB11 antagonist backup set: five-CYP panel",
+    "subtitle": "Final study report | Revision B",
+    "lines": [
+      "Brindlewythe Biosciences Ltd",
+      "Study BW19_0436",
+      "Accession {{PRJ0038:lims_id}}",
+      "Client: Orvessant Biosciences Pty Ltd",
+      "Date: 29 Nov 2019",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and plate acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "{{PRJ0038:n_compounds}} compounds were tested at 10 µM against CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4 using human liver microsomes and probe substrates."
+        },
+        {
+          "p": "Reference inhibitor responses supported plate acceptance for all probe systems. Measured control IC50 values are shown with historical comparators. Historical values are reference points, not a requirement for numerical identity."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0038:benchmark",
+            "caption": "Table 1. Study benchmark"
+          }
+        },
+        {
+          "p": "Control acceptance precedes interpretation. The benchmark summarises the study; the complete compound tables below are the basis of selection. Screening decisions are recorded separately from the endpoints."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Principal results",
+      "level": 1,
+      "blocks": [
+        {
+          "table": {
+            "table_ref": "PRJ0038:cyp_inhib",
+            "caption": "Table 2. Complete screening set: percent inhibition at 10 µM"
+          }
+        },
+        {
+          "p": "{{PRJ0038:cyp.n_any_gt50}} compounds exceeded 50% inhibition for at least one isoform. {{PRJ0038:cyp.most_flagged}} had the largest number of flags. Isoform counts overlap and must not be added to obtain a compound count."
+        },
+        {
+          "p": "Compound identifiers follow the sample cards. Units are part of the headings. Compare like endpoints under the stated conditions. A position in a table is not an estimate of clinical performance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Study remit and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Orvessant Biosciences Pty Ltd commissioned 5-isoform CYP panel to support a chemistry screen gate for this screening set. The remit was not a complete disposition or safety assessment."
+        },
+        {
+          "p": "Study work began on 12 Nov 2019. The interim checkpoint was 20 Nov 2019. This final revision closes the study on 29 Nov 2019. Dr B. Rowcroft is responsible for scientific release; Ines Alvarado checked plate acceptance and table transfer."
+        },
+        {
+          "p": "The completed study covers {{PRJ0038:n_compounds}} compounds under accession {{PRJ0038:lims_id}}. The accession links submitted material, sample cards and run sheets. No later screening set is included."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Test-lot handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The sample-card identifier links each test lot across all probe systems. A shared identifier permits comparison of the panel pattern without implying that different probe reactions are interchangeable. Handling observations remain with the run sheet."
+        },
+        {
+          "p": "Sample-card identifiers carried through preparation, assay allocation and result collation. Working solutions were prepared for the scheduled assay with matched vehicle. Results refer to the submitted test lot, rather than a claim that a later resynthesis will behave identically."
+        },
+        {
+          "p": "Preparation details, positions and handling observations remain in the run sheets. Qualifications stay with the endpoint; they are not removed to simplify a ranking."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Assay procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Human liver microsomes were incubated with an isoform-specific probe substrate and test compound at 10 µM. Vehicle wells supplied the uninhibited response. Reference inhibitors were run in concentration response for the corresponding probe systems. Vehicle content was matched across test and control wells."
+        },
+        {
+          "p": "Reactions were initiated with the cofactor system and terminated for measurement of probe product. Incubation conditions were held constant within each isoform assay. Percent inhibition was calculated relative to the matched vehicle response after background correction."
+        },
+        {
+          "p": "The panel used the same nominal test concentration throughout. It provides a screening interaction map, rather than a test-compound IC50 determination. No preincubation comparison designed to assess time-dependent inhibition was included."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Control assessment and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Reference inhibitor responses supported plate acceptance for all probe systems. Measured control IC50 values are shown with historical comparators. Historical values are reference points, not a requirement for numerical identity."
+        },
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Reference IC50 (µM)",
+              "Historical comparator (µM)"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "{{PRJ0038:cyp.control_CYP1A2_uM}}",
+                "{{PRJ0038:cyp.hist_CYP1A2_uM}}"
+              ],
+              [
+                "CYP2C9",
+                "{{PRJ0038:cyp.control_CYP2C9_uM}}",
+                "{{PRJ0038:cyp.hist_CYP2C9_uM}}"
+              ],
+              [
+                "CYP2C19",
+                "{{PRJ0038:cyp.control_CYP2C19_uM}}",
+                "{{PRJ0038:cyp.hist_CYP2C19_uM}}"
+              ],
+              [
+                "CYP2D6",
+                "{{PRJ0038:cyp.control_CYP2D6_uM}}",
+                "{{PRJ0038:cyp.hist_CYP2D6_uM}}"
+              ],
+              [
+                "CYP3A4",
+                "{{PRJ0038:cyp.control_CYP3A4_uM}}",
+                "{{PRJ0038:cyp.hist_CYP3A4_uM}}"
+              ]
+            ],
+            "caption": "Table 3. Reference inhibitor responses"
+          }
+        },
+        {
+          "table": {
+            "columns": [
+              "Isoform",
+              "Compounds above 50% at 10 µM"
+            ],
+            "rows": [
+              [
+                "CYP1A2",
+                "{{PRJ0038:cyp.n_gt50_CYP1A2}}"
+              ],
+              [
+                "CYP2C9",
+                "{{PRJ0038:cyp.n_gt50_CYP2C9}}"
+              ],
+              [
+                "CYP2C19",
+                "{{PRJ0038:cyp.n_gt50_CYP2C19}}"
+              ],
+              [
+                "CYP2D6",
+                "{{PRJ0038:cyp.n_gt50_CYP2D6}}"
+              ],
+              [
+                "CYP3A4",
+                "{{PRJ0038:cyp.n_gt50_CYP3A4}}"
+              ]
+            ],
+            "caption": "Table 4. Screen flags by isoform"
+          }
+        },
+        {
+          "p": "Control potency is expressed in µM. Compound results are percent inhibition at a stated concentration. These endpoints are not interchangeable; a reference concentration response does not supply an IC50 for a test compound."
+        },
+        {
+          "p": "Ines Alvarado checked that control assessment preceded the screening interpretation. Dr B. Rowcroft authorised release. Acceptance supports use within the stated assay; it does not eliminate compound-specific questions that need follow-up."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Data reduction",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Percent inhibition is calculated from probe product relative to vehicle. Flags use strictly above 50% at 10 µM. Negative reported inhibition is retained as variation around the vehicle response; it is not evidence of enzyme activation. A result below the threshold does not establish absence of inhibition at another concentration."
+        },
+        {
+          "p": "Reported precision and units are retained. Rounding must not manufacture distinctions between near neighbours. The screening decision should use complete rows with qualifications visible."
+        },
+        {
+          "p": "Summary endpoints and individual observations have different purposes. The benchmark does not replace the detailed table. No additional fitted values or composite scores have been inferred for presentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Screening-set interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The ether-linked backup set offered reduced CYP liability in the client’s chemistry assessment. This supported exposure comparison, but did not establish an exposure margin or an inhibition mechanism."
+        },
+        {
+          "p": "A broad interaction pattern and an isolated isoform response raise different follow-up questions. The number of flags is a screening aid, not a quantitative ranking of clinical interaction risk. Read the full compound row before assigning a follow-up."
+        },
+        {
+          "p": "A chemistry association can identify the next experiment without establishing the molecular cause of the assay response. This report makes no target-mechanism claim from screening data alone."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Orvessant commissioned an exposure comparison after the ether-linked backup set reduced the CYP liability enough for its screen gate."
+        },
+        {
+          "p": "Carry the interaction map into the exposure comparison. Preserve sample-card identity for the selected backups and assess exposure alongside the relevant isoform responses. No exposure result is incorporated into this report."
+        },
+        {
+          "p": "The screen gate records the client’s use of the data. A proposed follow-up is not a completed result. No endpoint from that later work is incorporated into this signed report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Study limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A single concentration cannot distinguish steep from shallow concentration responses. Nominal incubation concentration is not a measured free concentration. Binding, solubility and probe substrate choice may affect the apparent response."
+        },
+        {
+          "p": "The panel does not distinguish reversible, irreversible or time-dependent inhibition. It provides neither induction measurements nor metabolite identification. Clinical interaction margins require additional evidence."
+        },
+        {
+          "p": "These endpoints apply to the submitted screening set and test lots. No extrapolation is made to an untested analogue, formulation or biological system. Later measurements should retain identifiers and conditions for comparison."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "5-isoform CYP panel is complete for BW19_0436. Control assessment supports release of the detailed tables for the specified client decision."
+        },
+        {
+          "p": "Orvessant commissioned an exposure comparison after the ether-linked backup set reduced the CYP liability enough for its screen gate."
+        },
+        {
+          "p": "The results support the stated next step. They do not alone resolve exposure, efficacy or nomination suitability. Any later integrated assessment must identify its additional supporting studies."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Record index and authorisation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The retained study record comprises sample cards linked to {{PRJ0038:lims_id}}, preparation and assay run sheets, control assessment, result tables and this final report. The interim checkpoint forms part of the chronology and does not replace the completed dataset."
+        },
+        {
+          "p": "Revision B is the final report issued to Orvessant Biosciences Pty Ltd on 29 Nov 2019. Read principal results with the methods and limitations. Preserve study identity, units and qualifications when using tables for the screen gate."
+        },
+        {
+          "p": "Scientific release: Dr B. Rowcroft, Screening Operations Director. Plate acceptance and report-table transfer: Ines Alvarado, Assay Quality Coordinator. Signatures apply to this completed study and its bounded interpretation."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr B. Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "29 Nov 2019",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — plate acceptance and table transfer",
+      "date": "29 Nov 2019",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "comments": [],
+  "tracked_changes": []
+}
