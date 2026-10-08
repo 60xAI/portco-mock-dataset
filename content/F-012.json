@@ -1,0 +1,61 @@
+{"family": "workbook",
+ "summary": "Interim vehicle ladder for the Odraverne OD-23 prototype (DL_2026_0093). The initial solubility ladder covers four vehicles and is complete. The dilution-stability repeats at the client's proposed administration temperature are still to run, so the sheet is partly filled and the conclusions are not final.",
+ "properties": {"title": "DL_2026_0093 OD-23 prototype vehicle ladder (interim)"},
+ "sheets": [
+  {"name": "Summary", "tab_color": "#1F4E79", "col_widths": {"A": 24, "B": 52},
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc, a Tarnovell company: interim bench sheets, OD-23 vehicle ladder", "bold": true}],
+    [{"v": "INTERIM. Partial results only. Conclusions pending dilution repeats.", "bold": true}],
+    [],
+    ["Project", "{{PRJ0114:project_id}}"],
+    ["LIMS reference", "{{PRJ0114:lims_id}}"],
+    ["Title", "Odraverne OD-23 solubilisation: prototype vehicle ladder"],
+    ["Client", "{{PRJ0114:client_variant}}"],
+    ["Lead", "Dr J. Carver"],
+    ["Team", "Dr M. Serrano, L. Patel"],
+    ["Quote", "08/04/2026"],
+    ["Start", "09/01/2026"],
+    ["Interim review", "09/22/2026"],
+    ["Completion", "To be confirmed"],
+    ["Work package value", "{{PRJ0114:price}}"],
+    [],
+    ["Status", "In progress"],
+    ["Current position", "The initial solubility ladder is complete. Dilution stability is being repeated at the client's proposed administration temperature."],
+    ["Sheets", "Vehicle ladder, Dilution repeats (partly filled), Notes"]
+   ],
+   "merged": ["A1:B1", "A2:B2"]},
+  {"name": "Vehicle ladder", "tab_color": "#1F4E79", "col_widths": {"A": 36, "B": 26, "C": 36, "D": 36},
+   "rows": [
+    [{"v": "Vehicle ladder, target loading 10 mg/mL (interim)", "bold": true}],
+    ["Equilibrium solubility in mg/mL. Some sheets carry mg/ml from the earlier template; values are the same unit."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0114:form_screen", "at": "A4", "header": true}],
+   "merged": ["A1:D1"],
+   "freeze": "A5",
+   "chart": {"kind": "bar", "ref": "PRJ0114:form_screen", "column": 1, "title": "Equilibrium solubility (mg/mL)"},
+   "chart_at": "F4"},
+  {"name": "Dilution repeats", "tab_color": "#C55A11", "col_widths": {"A": 30, "B": 22, "C": 22, "D": 24, "E": 30},
+   "rows": [
+    [{"v": "Dilution stability repeats, proposed administration temperature", "bold": true}],
+    ["Vehicle", "Temperature (°C)", "Dilution ratio", "Read at 24 h", "Comment"],
+    ["0.5% methylcellulose", "", "1:10", "Settles, redispersible", "Repeat pending"],
+    ["0.5% HPMC / 0.1% Tween 80", "", "1:10", "", "Repeat pending"],
+    ["20% HP-β-CD in water", "", "", "", ""],
+    ["PEG400/water 30:70", "", "", "", ""],
+    [],
+    ["Stock for the repeat", "Drug stock in mg/ml", "Target in µM", "Equivalent in nM", "Check"],
+    ["Stock 1", "10", "", "", "Unit check open"],
+    ["Stock 2", "", "", "", ""],
+    [],
+    ["Temperature set by the client; value to be confirmed before the repeat is run."]
+   ],
+   "merged": ["A1:E1"]},
+  {"name": "Notes", "tab_color": "#7F7F7F", "col_widths": {"A": 16, "B": 92},
+   "rows": [
+    ["Date", "Development note"],
+    ["09/22/2026", "Interim. The solubility ladder is complete for four vehicles. The 20% HP-β-CD and PEG400 rows still need dilution repeats."],
+    ["09/22/2026", "Units are mixed across the working sheets (mg/mL and mg/ml; µM and nM in the repeat stock table). Standardise to mg/mL and nM before the final sheet is issued."],
+    ["09/22/2026", "Final conclusions and the vehicle recommendation wait for the repeats. Interim values are not for release to the client."]
+   ]}
+ ]}
