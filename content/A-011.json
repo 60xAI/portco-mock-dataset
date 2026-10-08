@@ -1,0 +1,100 @@
+{
+ "family": "deck",
+ "summary": "Owen Merriman's local copy of a sample-intake training deck (9 June 2022), reworded for Vellacombe's sample desk. It walks through receipt, logging and storage of incoming samples, with handover annotations and a contact box that still needs updating.",
+ "properties": {
+  "title": "Sample intake training",
+  "subject": "Sample intake",
+  "keywords": "sample intake; LIMS; training; storage"
+ },
+ "slides": [
+  {
+   "layout": "title",
+   "title": "Sample intake: training for new starters",
+   "subtitle": "Vellacombe Discovery Ltd, a Tarnovell company | 09 Jun 2022"
+  },
+  {
+   "layout": "title_content",
+   "title": "Why intake matters",
+   "bullets": [
+    "Every sample we receive is logged before anyone weighs it",
+    "A sample without a LIMS accession cannot be tracked into a delivery lot",
+    "Most intake queries come from samples that arrived with incomplete paperwork"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Receiving a delivery",
+   "bullets": [
+    "Check the courier note against the sample manifest before signing",
+    "Note any broken or leaking containers on the receipt sheet, with a photo",
+    {"text": "Cold-chain items go straight to the controlled storage room", "level": 1},
+    "Ring the partner's contact if the manifest and the containers disagree"
+   ]
+  },
+  {
+   "layout": "two_content",
+   "title": "Logging in",
+   "bullets": [
+    "Accession number issued on receipt, not before",
+    "Client reference copied exactly as written on the manifest",
+    "Container type and fill volume recorded in mg or mL"
+   ],
+   "bullets_right": [
+    "Storage location entered in LIMS before the sample leaves the desk",
+    "Handwritten masses are transcribed twice and initialled",
+    "Anything unclear goes to Andrew May the same day"
+   ]
+  },
+  {
+   "layout": "table",
+   "title": "Storage conditions",
+   "table": {
+    "columns": ["Sample type", "Storage", "Check"],
+    "rows": [
+     ["Intermediates, solids", "Ambient, desiccated cabinet", "Label legible on receipt"],
+     ["Solutions in DMSO", "Freezer, screw-cap vials", "Seal checked at logging"],
+     ["Light-sensitive material", "Amber vials, dark cabinet", "Wrapped before storage"],
+     ["Cold-chain items", "Controlled storage room", "Temperature log initialled"]
+    ]
+   }
+  },
+  {
+   "layout": "title_content",
+   "title": "Chain of custody",
+   "bullets": [
+    "Every move between the bench and storage is recorded in LIMS",
+    "The person who moves a sample initials the move",
+    "Samples leaving the building go out with a signed transfer note"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "When something goes wrong",
+   "bullets": [
+    "Damaged or unlabelled sample: quarantine it and tell the team lead",
+    "Missing sample: search the storage log before raising it",
+    "Never relabel a sample from memory"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Contacts",
+   "bullets": [
+    "Sample desk: Andrew May, Sample Management Coordinator",
+    "Analytical release questions: Clara Fenwick"
+   ],
+   "footer": "Sample desk contact box - still shows the sender's old phone list. Update before issue."
+  },
+  {
+   "layout": "title_content",
+   "title": "Quick check before you sign",
+   "bullets": [
+    "Manifest matches the courier note",
+    "Every container has a label and a client reference",
+    "Storage location logged",
+    "Samples you could not place are flagged, not stored"
+   ],
+   "notes": "Adapted from the Brindlewythe 2021 intake pack. Remove any leftover wording from that pack before this goes to new starters."
+  }
+ ]
+}
