@@ -1,66 +1,220 @@
-{"family": "workbook",
- "summary": "Approved sequence sheets for the KM-12 related-substances HPLC validation (WA/2013/269) for Kalmorveth Pharma: parameter results against protocol acceptance, the specificity and forced-degradation challenge, and deviation notes. The co-eluting base degradant was resolved by a gradient change and the method passed specificity. Kalmorveth accepted the method for release testing.",
- "properties": {"title": "KM12 specificity and validation results Rev02"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-     [{"v": "Westravelle Analytical Ltd", "bold": true}],
-     [{"v": "Kalmorveth KM-12 related-substances HPLC validation", "bold": true}],
-     [],
-     ["Project", {"ref": "PRJ0087:project_id"}],
-     ["LIMS reference", {"ref": "PRJ0087:lims_id"}],
-     ["Client", "{{PRJ0087:client_variant}}"],
-     ["Protocol lead", "Dr A. Penrose"],
-     ["Prepared by", "S. Mahmood"],
-     ["Start / completion", "27 Jan 2014", "17 Mar 2014"],
-     [],
-     ["1. Scope"],
-     ["Validation of the related-substances HPLC method for KM-12 drug substance release testing: linearity, accuracy, precision, specificity, range and detection limits. Sequence sheets for the approved run set, Rev02."],
-     [],
-     ["2. Result"],
-     ["All validation parameters met the acceptance criteria in the protocol. The specificity challenge resolved the co-eluting degradant, and Kalmorveth accepted the method for release testing."],
-     [],
-     ["3. Sheets"],
-     ["Validation", "Method validation summary and acceptance criteria"],
-     ["Specificity", "Forced-degradation conditions and observations"],
-     ["Deviations", "Deviation notes"]
-   ],
-   "col_widths": {"A": 24, "B": 30, "C": 22},
-   "merged": ["A1:C1"]
+{
+  "family": "workbook",
+  "summary": "Approved sequence sheets for the KM-12 related-substances HPLC validation (WA/2013/269) for Kalmorveth Pharma: parameter results against protocol acceptance, the specificity and forced-degradation challenge, and deviation notes. The co-eluting base degradant was resolved by a gradient change and the method passed specificity. Kalmorveth accepted the method for release testing.",
+  "properties": {
+    "title": "KM12 specificity and validation results Rev02"
   },
-  {"name": "Validation",
-   "rows": [
-     [{"v": "Method validation summary: KM-12 related substances", "bold": true}],
-     ["Acceptance criteria as written in the validation protocol. Results reported to the precision stated in the protocol."],
-     []
-   ],
-   "data_refs": [{"table_ref": "PRJ0087:method_val", "at": "A4"}],
-   "col_widths": {"A": 26, "B": 14, "C": 18},
-   "comments": [{"cell": "B5", "text": "Linearity re-plotted after the first run; the second fit is the one reported.", "author": "Saira Mahmood"}]
-  },
-  {"name": "Specificity",
-   "rows": [
-     [{"v": "Specificity and forced degradation", "bold": true}],
-     ["Sample", "Stress condition", "Observation"],
-     ["KM-12 drug substance", "Acid, 0.1 M hydrochloric acid, 60 °C", "Main peak resolved from the acid degradants."],
-     ["KM-12 drug substance", "Base, 0.1 M sodium hydroxide, room temperature", "Degradant at the front of the main peak co-eluted in the first run."],
-     ["KM-12 drug substance", "Peroxide, 3% hydrogen peroxide", "No new peaks above the reporting threshold."],
-     ["KM-12 drug substance", "Heat, 80 °C dry", "Minor degradant resolved from the main peak."],
-     ["KM-12 drug substance", "Light, ICH Q1B exposure", "Peak purity passed for the main peak."],
-     [],
-     ["The base degradant was resolved on 20 Feb 2014 by a shallower gradient slope. The rerun passed peak purity, and the method was then run on the full validation set."]
-   ],
-   "col_widths": {"A": 22, "B": 44, "C": 50}
-  },
-  {"name": "Deviations",
-   "rows": [
-     [{"v": "Deviation notes", "bold": true}],
-     ["Ref", "Raised", "Summary", "Status"],
-     ["DN-01", "10 Feb 2014", "Base degradant co-eluted with the main peak in the first specificity run. Gradient adjusted and the run repeated; see the Specificity sheet.", "Closed 20 Feb 2014"],
-     ["DN-02", "12 Mar 2014", "Sequence sheet for the validation run saved under the wrong template version. Corrected and re-signed by the author the same day. No data affected.", "Closed 12 Mar 2014"]
-   ],
-   "col_widths": {"A": 10, "B": 14, "C": 70, "D": 22},
-   "comments": [{"cell": "D3", "text": "Reviewed and agreed. The gradient change is to be written into the method SOP.", "author": "Alice Penrose"}],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Westravelle Analytical Ltd",
+            "bold": true
+          }
+        ],
+        [
+          {
+            "v": "Kalmorveth KM-12 related-substances HPLC validation",
+            "bold": true
+          }
+        ],
+        [],
+        [
+          "Project",
+          {
+            "ref": "PRJ0087:project_id"
+          }
+        ],
+        [
+          "LIMS reference",
+          {
+            "ref": "PRJ0087:lims_id"
+          }
+        ],
+        [
+          "Client",
+          "{{PRJ0087:client_variant}}"
+        ],
+        [
+          "Protocol lead",
+          "Dr A. Penrose"
+        ],
+        [
+          "Prepared by",
+          "S. Mahmood"
+        ],
+        [
+          "Start / completion",
+          "27 Jan 2014",
+          "17 Mar 2014"
+        ],
+        [],
+        [
+          "1. Scope"
+        ],
+        [
+          "Validation of the related-substances HPLC method for KM-12 drug substance release testing: linearity, accuracy, precision, specificity, range and detection limits. Sequence sheets for the approved run set, Rev02."
+        ],
+        [],
+        [
+          "2. Result"
+        ],
+        [
+          "All validation parameters met the acceptance criteria in the protocol. The specificity challenge resolved the co-eluting degradant, and Kalmorveth accepted the method for release testing."
+        ],
+        [],
+        [
+          "3. Sheets"
+        ],
+        [
+          "Validation",
+          "Method validation summary and acceptance criteria"
+        ],
+        [
+          "Specificity",
+          "Forced-degradation conditions and observations"
+        ],
+        [
+          "Deviations",
+          "Deviation notes"
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 30,
+        "C": 22
+      },
+      "merged": [
+        "A1:C1"
+      ]
+    },
+    {
+      "name": "Validation",
+      "rows": [
+        [
+          {
+            "v": "Method validation summary: KM-12 related substances",
+            "bold": true
+          }
+        ],
+        [
+          "Acceptance criteria as written in the validation protocol. Results reported to the precision stated in the protocol."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0087:method_val",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 14,
+        "C": 18
+      },
+      "comments": [
+        {
+          "cell": "B5",
+          "text": "Linearity re-plotted after the first run; the second fit is the one reported.",
+          "author": "Saira Mahmood"
+        }
+      ]
+    },
+    {
+      "name": "Specificity",
+      "rows": [
+        [
+          {
+            "v": "Specificity and forced degradation",
+            "bold": true
+          }
+        ],
+        [
+          "Sample",
+          "Stress condition",
+          "Observation"
+        ],
+        [
+          "KM-12 drug substance",
+          "Acid, 0.1 M hydrochloric acid, 60 °C; duration and sample reference per approved stress protocol/sample-preparation record under {{PRJ0087:lims_id}}",
+          "Main peak resolved from the acid degradants."
+        ],
+        [
+          "KM-12 drug substance",
+          "Base, 0.1 M sodium hydroxide, room temperature; duration and sample reference per approved stress protocol/sample-preparation record under {{PRJ0087:lims_id}}",
+          "Degradant at the front of the main peak co-eluted in the first run."
+        ],
+        [
+          "KM-12 drug substance",
+          "Peroxide, 3% hydrogen peroxide; duration and sample reference per approved stress protocol/sample-preparation record under {{PRJ0087:lims_id}}",
+          "No new peaks above the reporting threshold."
+        ],
+        [
+          "KM-12 drug substance",
+          "Heat, 80 °C dry; duration and sample reference per approved stress protocol/sample-preparation record under {{PRJ0087:lims_id}}",
+          "Minor degradant resolved from the main peak."
+        ],
+        [
+          "KM-12 drug substance",
+          "Light, ICH Q1B exposure; duration and sample reference per approved stress protocol/sample-preparation record under {{PRJ0087:lims_id}}",
+          "Peak purity passed for the main peak."
+        ],
+        [],
+        [
+          "The base degradant was resolved on 20 Feb 2014 by a shallower gradient slope. Source: approved KM-12 forced-degradation protocol and DN-01 specificity rerun sequence dated 20 Feb 2014, retained under {{PRJ0087:lims_id}}. Stress exposure durations, stressed-sample identities and injection positions are recorded in that protocol and its sample-preparation/sequence sheets; they are not transcribed here. Blank checks, main-peak/degradant resolution and peak-purity evidence are in approved rerun chromatograms and the reviewed sequence acceptance record. The method then proceeded to the full validation set."
+        ]
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 44,
+        "C": 50
+      }
+    },
+    {
+      "name": "Deviations",
+      "rows": [
+        [
+          {
+            "v": "Deviation notes",
+            "bold": true
+          }
+        ],
+        [
+          "Ref",
+          "Raised",
+          "Summary",
+          "Status"
+        ],
+        [
+          "DN-01",
+          "10 Feb 2014",
+          "Base degradant co-eluted with the main peak in the first specificity run. Gradient adjusted and the run repeated; see the Specificity sheet.",
+          "Closed 20 Feb 2014"
+        ],
+        [
+          "DN-02",
+          "12 Mar 2014",
+          "Sequence sheet for the validation run saved under the wrong template version. Corrected and re-signed by the author the same day. No data affected.",
+          "Closed 12 Mar 2014"
+        ]
+      ],
+      "col_widths": {
+        "A": 10,
+        "B": 14,
+        "C": 70,
+        "D": 22
+      },
+      "comments": [
+        {
+          "cell": "D3",
+          "text": "Reviewed and agreed. The gradient change is to be written into the method SOP.",
+          "author": "Alice Penrose"
+        }
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
