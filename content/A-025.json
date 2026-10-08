@@ -1,0 +1,200 @@
+{
+  "family": "document",
+  "summary": "Final ZT-6 quotation to Zelmorven Therapeutics for analogue synthesis and analytical release. The offer was declined in favour of a lower-priced supplier, and no work was authorised or initiated.",
+  "properties": {
+    "title": "ZT-6 analogue synthesis and analytical release — quotation revision A"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "ZT-6 analogue synthesis and analytical release — quotation revision A",
+    "subtitle": "Route scout and delivery | Zelmorven Therapeutics",
+    "lines": [
+      "Programme {{PRJ0029:project_id}}",
+      "Reference {{PRJ0029:lims_id}}",
+      "Date: 15 Aug 2025",
+      "Prepared by Dr R. Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Quotation and disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Vellacombe offers analogue synthesis and analytical release for the ZT-6 programme at {{PRJ0029:price}} under {{PRJ0029:project_id}}. The offer combines preparation with evidence of identity and purity for the material supplied. A structure list alone is insufficient to define a released delivery lot."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Quotation position"
+            ],
+            "rows": [
+              [
+                "Client",
+                "Zelmorven Therapeutics"
+              ],
+              [
+                "Reference",
+                "{{PRJ0029:lims_id}}"
+              ],
+              [
+                "Price",
+                "{{PRJ0029:price}}"
+              ],
+              [
+                "Offered service",
+                "Analogue preparation with analytical release"
+              ],
+              [
+                "Commencement",
+                "Requires written authorisation"
+              ]
+            ],
+            "caption": "Table 1. Commercial basis"
+          }
+        },
+        {
+          "p": "The quotation is final as an offer. It is not a synthesis report and contains no measured results. The intended structures, quantities and material requirements would have to be agreed before commencement; no target count or delivery interval is committed here."
+        },
+        {
+          "p": "Disposition: the quotation was declined. Zelmorven Therapeutics chose a lower-priced chemistry supplier after declining the proposed analytical release package. No work was authorised and no synthesis was initiated under this offer. The issue date above identifies the quotation; this disposition does not assign a separate date to the client decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Proposed chemistry scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The first step, had the offer been accepted, would have been to agree the ZT-6 target structures and examine the route assumptions. Hassan Darwish would prepare a route scout identifying common intermediates, transformations requiring investigation and likely isolation risks. An attractive drawing is not evidence that the intended material can be obtained."
+        },
+        {
+          "p": "The chemistry hypothesis would be tested on representative targets before extending preparation across the agreed analogue set. Targets with distinct substitution or protecting-group requirements would be considered separately. Changes in a structure or material form would require agreement with Zelmorven Therapeutics before preparation."
+        },
+        {
+          "list": [
+            "Agree identifiers and structural definitions for the requested targets.",
+            "Identify the least secure transformation in the proposed sequence.",
+            "Demonstrate useful isolated material before extending a common route.",
+            "Keep unsuccessful preparations and unresolved targets visible in the chemistry note."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "The next analogue would be selected to test route breadth, with biological priorities supplied by Zelmorven Therapeutics. This offer would cover chemistry execution and interpretation of preparation results. It would not provide biological testing or a claim that any proposed analogue was active."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Analytical release package offered",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Clara Fenwick would review the isolated material against the agreed release requirements. Compound cards would link each sample to its preparation and analytical evidence. Identity, chromatographic purity and physical form would be recorded distinctly, so that a molecular-ion assignment was not treated as sufficient release evidence."
+        },
+        {
+          "table": {
+            "columns": [
+              "Offered release item",
+              "Intended use"
+            ],
+            "rows": [
+              [
+                "Identity assessment",
+                "Support the intended structure of the isolated material"
+              ],
+              [
+                "HPLC purity",
+                "Report chromatographic area percent with method reference"
+              ],
+              [
+                "Compound card",
+                "Connect identity, isolated yield and amount in mg"
+              ],
+              [
+                "Release disposition",
+                "Separate released samples from material on hold"
+              ]
+            ],
+            "caption": "Table 2. Proposed analytical package"
+          }
+        },
+        {
+          "p": "The package would include an account of unexplained features rather than a simple pass label. Material lacking adequate identity evidence would remain on hold. Purity measured as chromatographic area percent would not be represented as an absolute assay of the weighed material."
+        },
+        {
+          "p": "This analytical package formed part of the offered price and was declined by the client. There are no analytical traces, isolated yields or released compound cards from this programme. The table describes the service offered, not evidence generated after an instruction to proceed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Delivery and programme controls",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "For an authorised programme, the delivery inventory would identify released material and any agreed omissions. Each sample would carry an agreed identifier matching its compound card. A proposed target that had not been prepared would remain on the outstanding list rather than being counted as supplied material."
+        },
+        {
+          "p": "Ruth Calderwood would lead route decisions and agree scientific scope changes with Zelmorven Therapeutics. Hassan Darwish would provide the preparation account; Clara Fenwick would control the analytical release assessment. Those responsibilities are the proposed allocation of work and do not imply laboratory activity took place."
+        },
+        {
+          "list": [
+            "Resolve target definitions and material requirements before agreeing a schedule.",
+            "Document any requested substitution before implementing it.",
+            "Describe held samples separately from released material.",
+            "Provide the chemistry rationale for the next analogue at handover."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "No start, interim or completion date was agreed for this quotation. No delivery lot was assembled. A later enquiry would require the target list and analytical requirements to be reconsidered before a new programme could be authorised. The unused offer is retained as the commercial record of the proposed scope."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Price, exclusions and closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The offered programme price was {{PRJ0029:price}}. It included the proposed analogue preparation and analytical release package described here. Biological testing, routine manufacture and extension of the target list were not included. Undefined target requirements would have required agreement before a delivery commitment could be made."
+        },
+        {
+          "p": "Acceptance would have required written instruction referring to {{PRJ0029:project_id}}, together with agreed structures and release requirements. This instruction was not received. The quotation has been declined and is closed without laboratory commencement."
+        },
+        {
+          "p": "The recorded reason is the selection of a lower-priced chemistry supplier after Zelmorven Therapeutics declined the analytical release package. The supplier is not identified here. The record does not claim any comparison of that supplier’s delivered quality, nor does it contain analytical evidence from work performed elsewhere."
+        },
+        {
+          "p": "Retain this revision A as the final offered scope. There is no outstanding Vellacombe chemistry handover for ZT-6 under this quotation. Any renewed request should be treated as a new scope discussion rather than as permission to start the declined programme."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr R. Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "15 Aug 2025",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
