@@ -1,0 +1,76 @@
+- file_id: G-007
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Micronucleus narrative implies a discordant mammalian signal, while displayed frequencies show no consistent increase; treatment description omits 24 h exposure. Reader and control claims lack supporting records."
+      change_made: "Separated the investigation-level follow-up from table interpretation, listed all treatment schedules and referred control acceptance to original records."
+    - severity: fix
+      area: consistency
+      problem: "Final workbook contains unresolved release comments and an unsupported QA check date; cohort count is typed by hand."
+      change_made: "Removed unresolved comments and unsupported sign-off, used the cohort placeholder and added legacy firm identification."
+- file_id: G-009
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Claims an analogue is flagged on a table without article identifiers or a consistent concentration-related increase; declares controls valid without control acceptance evidence and omits 24 h treatment."
+      change_made: "Retained the recorded investigation outcome while limiting table interpretation, corrected treatment schedules and referred control acceptance to original records."
+    - severity: fix
+      area: consistency
+      problem: "QA review is dated after the last save; unresolved release comments conflict with final status."
+      change_made: "Removed unsupported review date and release comments, used the cohort placeholder and added legacy firm identification."
+- file_id: G-011
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Says pending conditions are blank below but has no condition tracker; planned cohort is labelled as completed test articles."
+      change_made: "Added a half-filled pending-condition tracker beside the source table and labelled the cohort as planned."
+    - severity: fix
+      area: science
+      problem: "Blanket high-concentration exclusion and invented second-reader status are not mapped to the displayed conditions."
+      change_made: "Required reconciliation with exposure records and retained interim control/repeat comments without asserting an unsupported reader status; added legacy firm identification."
+- file_id: HO-001
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Introduces an unsupported March template-launch boundary and says reporting formats remain local despite the common master."
+      change_made: "Aligned wording with the 2020 identity and master launch, treated February as adoption follow-up and distinguished scientific methods from common presentation."
+- file_id: HO-002
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "A-E are described as awaiting brand migration in 2024 although their common master launched in 2020; Durnesswick is said to join under a programme its acquisition prompted."
+      change_made: "Recorded A-E as using the master, kept Durnesswick adoption in progress and corrected programme chronology; removed unsupported exception notes."
+- file_id: HO-003
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Implies a completed common SharePoint estate and invents September role confirmations and directory-triggered reporting changes."
+      change_made: "Kept archive migration in progress and replaced invented change history with directory and ownership controls. Removed retrospective firm-G reference from the 2025 summary."
+- file_id: HO-004
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Invents remaining signature-block counts, suggests legacy headers should migrate and fixes dictionary fields despite open reviewer comments. Archive-hold heading implies the hold ends at completion."
+      change_made: "Removed unsupported counts, preserved legacy issued records, made dictionary release conditional on comment resolution and explicitly retained the post-completion archive hold. Osterquill completion remains planned as of September."
+- file_id: HO-007
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Invents share names, root paths, closed acceptance states, folder counts, due dates and historical migration evidence absent from the context. A D permissions blocker lacks an open task. Summary ambiguously describes Osterquill completion."
+      change_made: "Used qualitative inventory scopes with pending mapping, left acceptance checks open, removed unsupported history and deadlines, added the D permission task and made Osterquill pre-completion planning explicit. Added group identification to the summary sheet."
