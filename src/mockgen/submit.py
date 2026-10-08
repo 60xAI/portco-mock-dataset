@@ -172,7 +172,7 @@ def content_checks(entry, fam, raw, w) -> list[str]:
     hits = bl.scan_text(txt)
     if hits:
         errs.append(f"blocklisted real names: {', '.join(hits)}")
-    if re.search(r"cryo", txt, re.I):
+    if re.search(r"cryo[\s-]*(em\b|electron|microscop|-?tomograph)", txt, re.I):
         errs.append("mentions cryo-EM/cryo-: the archive must contain no cryo-EM content")
     # unregistered organisations
     orgs, org_tokens, surnames, fulls, firsts = registry(w)

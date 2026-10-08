@@ -1,0 +1,29 @@
+{
+ "family": "document",
+ "summary": "Vellacombe delivery report (November 2005) to Corvenlea Pharma for programme VD-05-064: route scout for the CVL azaheterocycle series and delivery of 32 analogues. A revised heteroaryl coupling sequence replaced a difficult late-stage purification; compound cards with yields and LCMS purity are tabulated.",
+ "properties": {"title": "VD-05-064 delivery report - Corvenlea Pharma", "subject": "Route scout and analogue delivery"},
+ "header": "VD-05-064 | Corvenlea Pharma | Delivery report rev A",
+ "title_block": {"title": "CVL azaheterocycle programme: route scout and first analogue delivery", "subtitle": "Chemistry report to Corvenlea Pharma",
+   "lines": ["Programme: VD-05-064", "Report ref: A-R-2005-064-A", "Date: 07/11/2005", "Prepared by: Dr R. Calderwood, Head of Medicinal Chemistry"]},
+ "sections": [
+  {"heading": "1 Summary", "blocks": [
+    {"p": "Corvenlea Pharma asked Vellacombe to establish a reliable route to the CVL aminopyrimidine amide analogue set and to deliver {{PRJ0008:n_compounds}} analogues for their kinase biology. The original route stalled at a late-stage heteroaryl coupling whose crude product needed two chromatographic purifications."},
+    {"p": "We moved the heteroaryl coupling earlier in the sequence and introduced the amide last. The revised route removed the problematic purification, and all {{PRJ0008:n_compounds}} analogues were delivered in three delivery lots between September and November 2005."}]},
+  {"heading": "2 Route scout", "blocks": [
+    {"p": "Hypothesis: the aminopyrimidine nitrogen was coordinating the catalyst in the late coupling, giving incomplete conversion and a close-running by-product."},
+    {"list": ["Route A (original): amide formation, then heteroaryl coupling. Conversion stalled at 60-70%; by-product co-eluted.",
+              "Route B: heteroaryl coupling on the protected aminochloropyrimidine, then deprotection and amide formation. Clean conversion; simple crystallisation of the intermediate.",
+              "Route C: one-pot coupling and amidation. Abandoned after two runs; impurity profile worse than Route A."]},
+    {"p": "Route gate (02/09/2005): Route B selected with Corvenlea Pharma's agreement. Route risk: the deprotection must be run cold to avoid amide cleavage."}]},
+  {"heading": "3 Analogue delivery", "blocks": [
+    {"p": "Analogues were prepared in parallel from the common intermediate. Each compound card records isolated yield, identity (1H NMR and LCMS) and area-percent purity at 254 nm. Isolated yields are from the final step."},
+    {"table": {"table_ref": "PRJ0008:synthesis", "caption": "Table 1 Compounds delivered (compound cards)"}},
+    {"image": {"kind": "molecule_grid", "ref": "PRJ0008", "n": 8}}]},
+  {"heading": "4 Delivery lots", "blocks": [
+    {"list": ["Lot 1, 14/09/2005: first twelve analogues (interim chemistry note issued)", "Lot 2, 12/10/2005: ten analogues", "Lot 3, 07/11/2005: final ten analogues and this report"]},
+    {"p": "Solid samples were shipped at ambient temperature with compound cards. Retained samples (5 mg each) are held at Vellacombe for twelve months."}]},
+  {"heading": "5 Conclusions and next analogue", "blocks": [
+    {"p": "Route B is robust at 50-100 mg scale and suits further analogue work. All delivered material met the agreed purity threshold. Proposed next set: vary the amide aryl ring while holding the best heteroaryl groups from this delivery, once Corvenlea Pharma's biology data are available."}]}
+ ],
+ "signature_block": [{"name": "Ruth Calderwood", "role": "Head of Medicinal Chemistry", "date": "07/11/2005"}, {"name": "Clara Fenwick", "role": "Analytical Release Lead", "date": "07/11/2005"}]
+}

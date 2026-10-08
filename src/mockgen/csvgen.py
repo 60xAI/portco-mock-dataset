@@ -46,6 +46,8 @@ def staff_directory(w) -> tuple[list[str], list[list]]:
     for u, rs in by_unit.items():
         actives = [r for r in rs if r[12] == "Active"]
         for r in rs:
+            if r[12] == "Left":
+                continue
             if actives and rnd.random() < 0.85:
                 m = rnd.choice(actives)
                 if m is not r:

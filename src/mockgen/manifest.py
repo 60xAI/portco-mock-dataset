@@ -307,7 +307,7 @@ def validate_manifest(unit: Optional[str] = None) -> tuple[list[str], list[str]]
                     at = w.client_variants_for(e.client_id, e.unit, e.created.date())
                     if at and e.client_variant not in at:
                         errors.append(f"{ctx}: client_variant '{e.client_variant}' not used by firm {e.unit} on {e.created.date()} (used: {at})")
-        if "cryo" in (e.summary + e.filename + e.path).lower():
+        if re.search(r"cryo[\s-]*(em\b|electron|microscop)", (e.summary + e.filename + e.path), re.I):
             errors.append(f"{ctx}: no cryo-EM content anywhere")
 
     # quotas (warnings unless grossly off)

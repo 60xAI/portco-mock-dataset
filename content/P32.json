@@ -1,0 +1,31 @@
+{
+ "family": "document",
+ "summary": "Merrivoss final report MV-2016-053 (May 2016) for Corvenlea Ltd: microsomal stability (human and rat), hepatocyte stability and human plasma protein binding for 40 compounds from the CVL aminopyrimidine series. Rat clearance generally exceeded human, which led Corvenlea to commission rodent exposure work before the next analogue set.",
+ "properties": {"title": "MV-2016-053 Final Report", "subject": "CVL oral discovery DMPK package"},
+ "header": "MV-2016-053 Final Report | Corvenlea Ltd",
+ "title_block": {"title": "CVL oral discovery package: microsomes, hepatocytes and plasma binding", "subtitle": "Final Report",
+   "lines": ["Study MV-2016-053 (LIMS M16/BIO/01247)", "Sponsor: Corvenlea Ltd", "Study Director: Dr M. Larkin", "Report date: May 9, 2016"]},
+ "sections": [
+  {"heading": "1 Summary", "blocks": [
+    {"p": "Forty compounds from the Corvenlea aminopyrimidine series were profiled for Corvenlea Ltd in Microsomal CLint (human and rat liver microsomes), Hepatocyte depletion CLint and fu,p by equilibrium dialysis. Matrix acceptance criteria were met in every run. Rat microsomal clearance was higher than human for most of the set, so rodent exposure is likely to under-represent human exposure for this chemotype."},
+    {"table": {"table_ref": "PRJ0009:benchmark", "caption": "Table 1 Study summary"}}]},
+  {"heading": "2 Test articles and matrices", "blocks": [
+    {"p": "Test articles were received on April 14, 2016 as 10 mM DMSO solutions in one accession lot. Matrices: pooled human and Sprague-Dawley rat liver microsomes (0.5 mg/mL protein); cryopreserved human and rat hepatocytes (0.5×10^6 viable cells/mL, viability ≥80% at thaw); pooled human plasma (K2EDTA)."},
+    {"p": "Analytical limits: LC-MS/MS with compound-specific transitions; lower limit of quantitation 1 nM in incubation matrix. Depletion below 20% over the incubation is reported as a lower bound.", "style": "note"}]},
+  {"heading": "3 Methods", "blocks": [
+    {"list": ["Microsomal CLint: 1 µM, NADPH, 0-45 min, five time points; CLint from the first-order depletion slope",
+              "Hepatocyte depletion CLint: 1 µM, 0-120 min, six time points; scaled per 10^6 cells",
+              "fu,p by equilibrium dialysis: 5 µM, 4 h at 37 °C; mass balance recovery reported"]},
+    {"p": "Controls: verapamil and diltiazem (microsomes), 7-ethoxycoumarin (hepatocytes), warfarin (plasma binding). All within historical ranges."}]},
+  {"heading": "4 Results", "blocks": [
+    {"p": "Microsomal results are given in Table 2. Hepatocyte clearance (Table 3) ranked compounds in broadly the same order as microsomes, with the most lipophilic analogues cleared fastest in both systems. Plasma binding was moderate to high across the set (Table 4)."},
+    {"table": {"table_ref": "PRJ0009:mic_stab", "caption": "Table 2 Microsomal intrinsic clearance and half-life"}},
+    {"table": {"table_ref": "PRJ0009:hep_stab", "caption": "Table 3 Hepatocyte intrinsic clearance"}},
+    {"table": {"table_ref": "PRJ0009:ppb", "caption": "Table 4 Human plasma protein binding"}},
+    {"chart": {"kind": "bar", "ref": "PRJ0009:mic_stab", "column": 1, "title": "Human microsomal CLint (µL/min/mg)", "y_label": "CLint"}}]},
+  {"heading": "5 Discussion", "blocks": [
+    {"p": "Exposure predictions should not be drawn from rat data alone for this series. Because rat clearance exceeds human for most compounds, a short rodent PK study on two or three representative analogues is recommended to calibrate in vitro-in vivo scaling before the next analogue set is chosen."},
+    {"p": "Free fraction data are reported for human plasma only; rat plasma binding was outside the agreed scope.", "style": "note"}]}
+ ],
+ "signature_block": [{"name": "Megan Larkin", "role": "DMPK Study Director", "date": "May 9, 2016"}, {"name": "Helen Marchwood", "role": "Bioanalytical Quality Manager", "date": "May 9, 2016"}]
+}

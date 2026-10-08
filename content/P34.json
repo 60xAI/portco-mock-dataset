@@ -1,0 +1,445 @@
+{
+ "family": "workbook",
+ "summary": "Head-office client identity bridge (v3, August 2026) mapping legacy CRM names to group accounts. Links Corvenlea Pharma (Vellacombe), Corvenlea Ltd (Merrivoss) and Corvenlea Pharmaceuticals plc (Westravelle) as one client; records Corvenlith Therapeutics as a different company; Osterquill accounts pending.",
+ "properties": {
+  "title": "Client identity bridge v3",
+  "subject": "Integration - client identity"
+ },
+ "sheets": [
+  {
+   "name": "Bridge",
+   "rows": [
+    [
+     {
+      "v": "Client identity bridge: legacy CRM names to group accounts",
+      "bold": true
+     }
+    ],
+    [
+     "Source: A-F CRM exports and group LIMS export. Owner: Integration (S. Lindervik)."
+    ],
+    [],
+    [
+     "Group account",
+     "Group account name",
+     "Legacy firm",
+     "Name in legacy CRM",
+     "First activity",
+     "Last activity",
+     "Link status",
+     "Evidence",
+     "Checked by"
+    ],
+    [
+     "TG-1007",
+     "Corvenlea Pharma",
+     "A Vellacombe",
+     "Corvenlea Pharma",
+     2005,
+     2005,
+     "Linked",
+     "Signed scope 2005 on Corvenlea Pharma letterhead; same registered office as later entities",
+     "S. Lindervik"
+    ],
+    [
+     "TG-1007",
+     "Corvenlea Pharma",
+     "C Merrivoss",
+     "Corvenlea Ltd",
+     2016,
+     2016,
+     "Linked",
+     "Contract names Corvenlea Ltd; invoices to same finance contact as Corvenlea Pharma",
+     "S. Lindervik"
+    ],
+    [
+     "TG-1007",
+     "Corvenlea Pharma",
+     "E Westravelle",
+     "Corvenlea Pharmaceuticals plc",
+     2020,
+     2020,
+     "Linked",
+     "Proposal states 'Corvenlea Pharmaceuticals plc (formerly Corvenlea Ltd)'; 2019 listing notice",
+     "S. Lindervik"
+    ],
+    [
+     "TG-1014",
+     "Corvenlith Therapeutics",
+     "D Quenverell",
+     "Corvenlith Therapeutics",
+     2017,
+     2023,
+     "Separate account",
+     "Different registered company (US biotech, Boston). Similar name only. DO NOT MERGE with Corvenlea.",
+     "S. Lindervik"
+    ],
+    [
+     "TG-1021",
+     "Avernelwick Pharmaceuticals Ltd",
+     "B Brindlewythe",
+     "Avernelwick Pharmaceuticals Ltd",
+     2011,
+     2025,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1021",
+     "Avernelwick Pharmaceuticals Ltd",
+     "C Merrivoss",
+     "Avernelwick Pharma",
+     2018,
+     2018,
+     "Linked",
+     "Short trading name; same billing address",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1028",
+     "Selverant Therapeutics Inc",
+     "C Merrivoss",
+     "Selverant",
+     2015,
+     2025,
+     "Linked",
+     "Short trading name; same billing address",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1028",
+     "Selverant Therapeutics Inc",
+     "B Brindlewythe",
+     "Selverant Therapeutics Inc",
+     2017,
+     2017,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1035",
+     "Tervemere Pharma AG",
+     "C Merrivoss",
+     "Tervemere Pharma AG",
+     2016,
+     2024,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1035",
+     "Tervemere Pharma AG",
+     "B Brindlewythe",
+     "Tervemere Pharma AG",
+     2021,
+     2025,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1042",
+     "Elvarmere Biosciences AB",
+     "A Vellacombe",
+     "Elvarmere Biosciences AB",
+     1996,
+     2022,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1042",
+     "Elvarmere Biosciences AB",
+     "B Brindlewythe",
+     "Elvarmere Biosciences AB",
+     2016,
+     2026,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1042",
+     "Elvarmere Biosciences AB",
+     "C Merrivoss",
+     "Elvarmere Biosciences AB",
+     2017,
+     2025,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1049",
+     "Drelvessa Therapeutics SAS",
+     "A Vellacombe",
+     "Drelvessa Therapeutics SAS",
+     1998,
+     1998,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1049",
+     "Drelvessa Therapeutics SAS",
+     "D Quenverell",
+     "Drelvessa Therapeutics SAS",
+     2013,
+     2025,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1056",
+     "Quorenthel Pharma GmbH",
+     "B Brindlewythe",
+     "Quorenthel Pharma GmbH",
+     2001,
+     2026,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1056",
+     "Quorenthel Pharma GmbH",
+     "C Merrivoss",
+     "Quorenthel Pharma GmbH",
+     2019,
+     2019,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1056",
+     "Quorenthel Pharma GmbH",
+     "E Westravelle",
+     "Quorenthel Pharma GmbH",
+     2026,
+     2026,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1063",
+     "Nimbravelle Medicines Inc",
+     "C Merrivoss",
+     "Nimbravelle Medicines Inc",
+     2006,
+     2023,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1063",
+     "Nimbravelle Medicines Inc",
+     "F Durnesswick",
+     "Nimbravelle Medicines Inc",
+     2018,
+     2020,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1070",
+     "Feldorune Therapeutics BV",
+     "A Vellacombe",
+     "Feldorune Therapeutics BV",
+     2015,
+     2015,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1070",
+     "Feldorune Therapeutics BV",
+     "B Brindlewythe",
+     "Feldorune Therapeutics BV",
+     2018,
+     2018,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1077",
+     "Valquessia Pharmaceuticals SpA",
+     "A Vellacombe",
+     "Valquessia Pharmaceuticals SpA",
+     2016,
+     2026,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1077",
+     "Valquessia Pharmaceuticals SpA",
+     "D Quenverell",
+     "Valquessia Pharmaceuticals SpA",
+     2026,
+     2026,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1084",
+     "Orvessant Biosciences Pty Ltd",
+     "E Westravelle",
+     "Orvessant Biosciences Pty Ltd",
+     2017,
+     2017,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1084",
+     "Orvessant Biosciences Pty Ltd",
+     "B Brindlewythe",
+     "Orvessant Biosciences Pty Ltd",
+     2019,
+     2026,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-1084",
+     "Orvessant Biosciences Pty Ltd",
+     "C Merrivoss",
+     "Orvessant Biosciences Pty Ltd",
+     2020,
+     2022,
+     "Linked",
+     "Exact name match",
+     "N. Bergstrom"
+    ],
+    [
+     "TG-pending",
+     "Osterquill accounts",
+     "G Osterquill",
+     "(not yet mapped)",
+     null,
+     null,
+     "Pending",
+     "Osterquill archive held apart until access and QA mapping are agreed (acquisition closed 01/10/2026)",
+     ""
+    ]
+   ],
+   "col_widths": {
+    "A": 12,
+    "B": 32,
+    "C": 18,
+    "D": 32,
+    "E": 10,
+    "F": 10,
+    "G": 16,
+    "H": 70,
+    "I": 14
+   },
+   "freeze": "A5",
+   "comments": [
+    {
+     "cell": "H5",
+     "text": "Company number checked on the 2019 listing documents.",
+     "author": "Sofia Lindervik"
+    }
+   ]
+  },
+  {
+   "name": "Lookalikes",
+   "rows": [
+    [
+     "Name A",
+     "Name B",
+     "Decision",
+     "Reason",
+     "Date"
+    ],
+    [
+     "Corvenlea Pharmaceuticals plc",
+     "Corvenlith Therapeutics",
+     "Different companies",
+     "Different registered entities, countries and directors; similar spelling only",
+     "14/04/2026"
+    ],
+    [
+     "Corvenlea Ltd",
+     "Corvenlea Pharmaceuticals plc",
+     "Same company",
+     "Renamed on 2019 listing; same company number",
+     "14/04/2026"
+    ],
+    [
+     "Avernelwick Pharma",
+     "Avernelwick Pharmaceuticals Ltd",
+     "Same company",
+     "Trading name used by Merrivoss; same billing address",
+     "21/04/2026"
+    ],
+    [
+     "Selverant",
+     "Selverant Therapeutics Inc",
+     "Same company",
+     "Short name in Merrivoss CRM",
+     "21/04/2026"
+    ]
+   ],
+   "col_widths": {
+    "A": 30,
+    "B": 30,
+    "C": 18,
+    "D": 60,
+    "E": 12
+   }
+  },
+  {
+   "name": "Change log",
+   "rows": [
+    [
+     "Date",
+     "Change",
+     "By"
+    ],
+    [
+     "09/03/2026",
+     "v1 created from A-F CRM exports",
+     "Sofia Lindervik"
+    ],
+    [
+     "14/04/2026",
+     "Corvenlea names linked across Vellacombe, Merrivoss and Westravelle; Corvenlith confirmed separate",
+     "Sofia Lindervik"
+    ],
+    [
+     "21/04/2026",
+     "Avernelwick and Selverant trading names linked",
+     "Nils Bergstrom"
+    ],
+    [
+     "25/08/2026",
+     "v3: refreshed first/last activity from LIMS export; Osterquill row added as pending",
+     "Sofia Lindervik"
+    ]
+   ],
+   "col_widths": {
+    "A": 12,
+    "B": 90,
+    "C": 18
+   }
+  }
+ ]
+}

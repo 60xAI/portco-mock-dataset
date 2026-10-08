@@ -1,0 +1,20 @@
+{
+ "family": "document",
+ "summary": "Quenverell proposal QV.23.100 (September 2023) to Corvenlith Therapeutics, a Boston biotech: reanalysis of immune-cell RNA-seq with donor adjustment and omics target prioritisation. Fixed price £54,400; interim readout after the data acceptance step.",
+ "properties": {"title": "QV.23.100 proposal - Corvenlith Therapeutics", "subject": "RNA-seq reanalysis and target ranking"},
+ "header": "QV.23.100 | Proposal v1",
+ "title_block": {"title": "Immune-cell RNA-seq reanalysis and target ranking", "subtitle": "Proposal for Corvenlith Therapeutics",
+   "lines": ["Engagement: QV.23.100", "Date: 11/09/2023", "Prepared by: Dr T. Zawiernicki, Head of Bioinformatics"]},
+ "sections": [
+  {"heading": "1 The biological question", "blocks": [{"p": "Corvenlith Therapeutics has RNA-seq from stimulated immune cells from healthy and patient donors and a candidate list of inflammatory targets. The question is which candidates remain differentially expressed once donor-to-donor variation is accounted for."}]},
+  {"heading": "2 Data and provenance", "blocks": [{"list": ["Client-supplied FASTQ files and sample manifest", "Donor, batch and stimulation metadata reconciled against the manifest before any analysis", "Public reference expression data for tissue context"]}]},
+  {"heading": "3 Approach", "blocks": [
+    {"list": ["Data acceptance: read QC, sample identity checks, outlier review", "RNA-seq differential expression with donor as a blocking factor", "Sensitivity analysis: results with and without the two flagged donors", "Omics target prioritisation: evidence score per candidate combining expression, pathway context and tissue specificity"]},
+    {"p": "Model uncertainty will be reported plainly; candidates whose ranking depends on a single donor will be flagged rather than dropped."}]},
+  {"heading": "4 Deliverables and timing", "blocks": [{"list": ["Data acceptance note and interim readout (about 3 weeks after data receipt)", "Final readout deck and ranked target cards", "Analysis notebook and versioned pipeline record"]}]},
+  {"heading": "5 Price", "blocks": [{"table": {"columns": ["Work package", "Price (GBP)"], "rows": [["Data acceptance and QC", "£8,200"], ["Differential expression and sensitivity analysis", "£24,600"], ["Target prioritisation and target cards", "£16,800"], ["Readouts", "£4,800"], ["Total", "£54,400"]]}},
+                                     {"p": "Fixed price, excluding VAT. Additional datasets quoted separately."}]},
+  {"heading": "6 Notes", "blocks": [{"p": "Corvenlith Therapeutics is a new client for Quenverell. Please note the client name when raising the purchase order: our accounts team has previously confused it with an unrelated group account of similar spelling.", "style": "note"}]}
+ ],
+ "signature_block": [{"name": "Tomasz Zawiernicki", "role": "Head of Bioinformatics", "date": "11/09/2023"}]
+}

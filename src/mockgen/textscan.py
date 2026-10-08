@@ -32,7 +32,7 @@ def norm(s: str) -> str:
 
 COMPANY_SUFFIX = (r"Pharma|Pharmaceuticals|Therapeutics|Biosciences|Bioscience|Biotech|Biologics|Medicines|Discovery|Laboratories|Labs|"
                   r"Analytical|Computational|Toxicology|Bioanalysis|Sciences|Ltd|Limited|plc|Inc|GmbH|AG|SAS|BV|AB|ApS|SpA|LLC|Corp|Corporation|Holdings")
-COMPANY_RE = re.compile(r"\b([A-Z][A-Za-z'\-]+)(?:\s+(?:[A-Z][A-Za-z'\-]+|&))*\s+(?:" + COMPANY_SUFFIX + r")\b")
+COMPANY_RE = re.compile(r"\b([A-Z][A-Za-z'\-]+)(?:[ \t]+(?:[A-Z][A-Za-z'\-]+|&))*[ \t]+(?:" + COMPANY_SUFFIX + r")\b")
 COMMON = set("""the a an our your their its this that these those drug early late lead hit integrated contract medicinal computational analytical
 structural chemical discovery clinical preclinical partner client clients global group in vitro vivo safety small molecule kinase new legacy former
 combined shared central regional north south east west european american uk us british research development dmpk chemistry biology biologics
@@ -45,7 +45,7 @@ cns cardiovascular metabolic infectious rare disease diseases inflammation fibro
 existing prospective potential named listed unnamed undisclosed confidential""".split())
 
 DR_RE = re.compile(r"\b(?:Dr|Prof|Professor)\.?\s+(?:[A-Z]\.\s*){0,2}([A-Z][a-z]+(?:[-'][A-Z][a-z]+)?)\b")
-FULLNAME_RE = re.compile(r"\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?)\s+([A-Z][a-z]+(?:[-'][A-Z][a-z]+)?)\b")
+FULLNAME_RE = re.compile(r"\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?)[ \t]+([A-Z][a-z]+(?:[-'][A-Z][a-z]+)?)\b")
 
 
 @lru_cache(maxsize=1)

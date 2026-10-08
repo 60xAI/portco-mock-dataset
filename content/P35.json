@@ -1,0 +1,254 @@
+{
+ "family": "workbook",
+ "summary": "Draft cross-sell white-space matrix (v2, Sept 2026) for 14 top accounts: which legacy firms each client has bought from, by service line. First eight rows filled (Corvenlea: chemistry at Vellacombe, DMPK at Merrivoss, stability at Westravelle; never biology, bioinformatics or formulation); remaining rows blank.",
+ "properties": {
+  "title": "Cross-sell white space matrix DRAFT v2"
+ },
+ "sheets": [
+  {
+   "name": "Matrix",
+   "rows": [
+    [
+     {
+      "v": "Cross-sell white space: top accounts (DRAFT)",
+      "bold": true
+     }
+    ],
+    [
+     "'-' = never bought from this firm. Rows 9-14 still to be completed from the LIMS export."
+    ],
+    [],
+    [
+     "Client (group account)",
+     "Names on file",
+     "A Chemistry",
+     "B In vitro biology",
+     "C DMPK",
+     "D Bioinformatics",
+     "E Analytical/stability",
+     "F Formulation",
+     "Firms bought from",
+     "Next introduction",
+     "Owner"
+    ],
+    [
+     "Corvenlea Pharma",
+     "Corvenlea Ltd; Corvenlea Pharma; Corvenlea Pharmaceuticals plc",
+     "Bought 2005",
+     "-",
+     "Bought 2016",
+     "-",
+     "Bought 2020",
+     "-",
+     3,
+     "Durnesswick formulation after tablet stability work; Quenverell biomarker work",
+     "Lawrence Hutchinson"
+    ],
+    [
+     "Avernelwick Pharmaceuticals Ltd",
+     "Avernelwick Pharma; Avernelwick Pharmaceuticals Ltd",
+     "-",
+     "Bought 2011-2025",
+     "Bought 2018",
+     "-",
+     "-",
+     "-",
+     2,
+     "Westravelle stability for lead",
+     "Ruggero Tonisto"
+    ],
+    [
+     "Selverant Therapeutics Inc",
+     "Selverant; Selverant Therapeutics Inc",
+     "-",
+     "Bought 2017",
+     "Bought 2015-2025",
+     "-",
+     "-",
+     "-",
+     2,
+     "[TBC]",
+     "Lawrence Hutchinson"
+    ],
+    [
+     "Tervemere Pharma AG",
+     "Tervemere Pharma AG",
+     "-",
+     "Bought 2021-2025",
+     "Bought 2016-2024",
+     "-",
+     "-",
+     "-",
+     2,
+     "[TBC]",
+     "Ruggero Tonisto"
+    ],
+    [
+     "Elvarmere Biosciences AB",
+     "Elvarmere Biosciences AB",
+     "Bought 1996-2022",
+     "Bought 2016-2026",
+     "Bought 2017-2025",
+     "-",
+     "-",
+     "-",
+     3,
+     "[TBC]",
+     "Lawrence Hutchinson"
+    ],
+    [
+     "Drelvessa Therapeutics SAS",
+     "Drelvessa Therapeutics SAS",
+     "Bought 1998",
+     "-",
+     "-",
+     "Bought 2013-2025",
+     "-",
+     "-",
+     2,
+     "[TBC]",
+     "Ruggero Tonisto"
+    ],
+    [
+     "Quorenthel Pharma GmbH",
+     "Quorenthel Pharma GmbH",
+     "-",
+     "Bought 2001-2026",
+     "Bought 2019",
+     "-",
+     "Bought 2026",
+     "-",
+     3,
+     "[TBC]",
+     "Lawrence Hutchinson"
+    ],
+    [
+     "Nimbravelle Medicines Inc",
+     "Nimbravelle Medicines Inc",
+     "-",
+     "-",
+     "Bought 2006-2023",
+     "-",
+     "-",
+     "Bought 2018-2020",
+     2,
+     "[TBC]",
+     "Ruggero Tonisto"
+    ],
+    [
+     "Feldorune Therapeutics BV",
+     "Feldorune Therapeutics BV",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "Valquessia Pharmaceuticals SpA",
+     "Valquessia Pharmaceuticals SpA",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "Orvessant Biosciences Pty Ltd",
+     "Orvessant Biosciences Pty Ltd",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "Kelbravik Therapeutics ApS",
+     "Kelbravik Therapeutics ApS",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "Rennelwick Institute Drug Discovery Unit",
+     "Rennelwick Institute Drug Discovery Unit",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "Vesselquarn Medical Research Trust",
+     "Vesselquarn Medical Research Trust",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   ],
+   "col_widths": {
+    "A": 32,
+    "B": 52,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 14,
+    "G": 14,
+    "H": 14,
+    "I": 10,
+    "J": 50,
+    "K": 18
+   },
+   "freeze": "C5",
+   "comments": [
+    {
+     "cell": "A5",
+     "text": "Use the identity bridge, not one CRM, for names on file.",
+     "author": "Sofia Lindervik"
+    }
+   ]
+  },
+  {
+   "name": "Notes",
+   "rows": [
+    [
+     "Draft for the commercial workstream steering group, 02/09/2026"
+    ],
+    [
+     "Service lines follow the group catalogue; Osterquill excluded until onboarding."
+    ],
+    [
+     "[TBC] owners for rows 9-14"
+    ]
+   ]
+  }
+ ]
+}

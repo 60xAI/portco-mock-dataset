@@ -1,0 +1,25 @@
+{
+ "family": "document",
+ "summary": "Quenverell client report QV.25.086 (November 2025) for Drelvessa Therapeutics SAS: crystallography-based docking of the client's stress-kinase ligands into in-house X-ray crystal structures supplied by the client, with an assessment of conserved pocket waters. Identified a solvent-facing substitution vector that Drelvessa took into its next chemistry cycle.",
+ "properties": {"title": "QV.25.086 Crystallography-based docking report", "subject": "Structure-based design"},
+ "header": "QV.25.086 | Drelvessa Therapeutics SAS | Final report v1",
+ "title_block": {"title": "Stress-kinase ligands: crystallography-based docking and pocket-water assessment", "subtitle": "Final client report",
+   "lines": ["Engagement: QV.25.086", "Client: Drelvessa Therapeutics SAS", "Date: 13/11/2025", "Author: Dr T. Zawiernicki, Head of Bioinformatics"]},
+ "sections": [
+  {"heading": "1 Question", "blocks": [{"p": "Drelvessa's chemists asked where their stress-kinase series could be extended without losing the hinge interaction, and whether conserved water molecules in the ATP pocket should be displaced or kept."}]},
+  {"heading": "2 Data provenance", "blocks": [
+    {"list": ["Three client-supplied X-ray crystal structures of the kinase domain with bound ligands (resolution between 1.8 and 2.3 Å)", "Electron density maps reviewed for ligand and water placement before use", "Client compound set of current analogues and proposed designs (SMILES), checked for tautomer and protonation states"]},
+    {"p": "Data acceptance: one structure was excluded from scoring because the ligand density did not support the deposited pose; it was used only for visual comparison.", "style": "note"}]},
+  {"heading": "3 Methods", "blocks": [
+    {"list": ["Protein preparation from the crystal structures with conserved waters retained or removed in separate runs", "Docking with hinge hydrogen-bond constraints; pose clustering and visual review with the client's chemists", "Pocket-water assessment: waters seen in all three structures treated as conserved; their displacement scored separately", "Ranking by consensus across the two retained crystal structures"]},
+    {"p": "Docking scores rank poses within this pocket only; they are not binding affinities and are not compared across chemotypes."}]},
+  {"heading": "4 Findings", "blocks": [
+    {"list": ["The hinge-binding pose of the series is reproduced in both retained crystal structures.",
+              "Two conserved waters bridge the ligand to the back pocket; designs that displace them lost the consensus pose and are not recommended.",
+              "A solvent-facing vector from the 5-position is open in both structures and tolerates polar substituents.",
+              "Designs extending towards the glycine-rich loop were ranked inconsistently between structures and are flagged as uncertain."]}]},
+  {"heading": "5 Recommendation", "blocks": [{"p": "Prioritise analogues using the solvent-facing 5-position vector with small polar groups, keep the conserved waters, and confirm binding in the client's biochemical assay before any further structure-based work. If more confidence on the glycine-rich loop is needed, a new co-crystal structure with a representative analogue would resolve it."}]},
+  {"heading": "6 Limitations", "blocks": [{"p": "Conclusions rest on two accepted crystal structures of one conformational state. Induced-fit effects and protein flexibility were not modelled beyond side-chain refinement."}]}
+ ],
+ "signature_block": [{"name": "Tomasz Zawiernicki", "role": "Head of Bioinformatics", "date": "13/11/2025"}, {"name": "Nadia Rahmani", "role": "Data Curation and Reproducibility Lead", "date": "12/11/2025"}]
+}

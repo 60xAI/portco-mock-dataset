@@ -1086,8 +1086,8 @@ people:
   variants:
   - J. Köster
   - Jessika Köster
-  - jköster
-  username: jköster
+  - jkoster
+  username: jkoster
   home_firm: A
   service_line: medchem
   roles:
@@ -1875,15 +1875,15 @@ people:
   key: false
   nationality: American
 - id: BG042
-  canonical_name: Αρετή Ραδιοπούλου
-  first_name: Αρετή
-  last_name: Ραδιοπούλου
+  canonical_name: Eleni Karavasili
+  first_name: Eleni
+  last_name: Karavasili
   title: Dr
   variants:
-  - Dr Α. Ραδιοπούλου
-  - Αρετή Ραδιοπούλου
-  - αραδιοπούλου
-  username: αραδιοπούλου
+  - Dr E. Karavasili
+  - Eleni Karavasili
+  - ekaravasili
+  username: ekaravasili
   home_firm: B
   service_line: invitro
   roles:
@@ -1980,15 +1980,15 @@ people:
   key: false
   nationality: Italian
 - id: BG047
-  canonical_name: Ιγνατία Πιπερίγκος
-  first_name: Ιγνατία
-  last_name: Πιπερίγκος
+  canonical_name: Nikos Piperakis
+  first_name: Nikos
+  last_name: Piperakis
   title: null
   variants:
-  - Ι. Πιπερίγκος
-  - Ιγνατία Πιπερίγκος
-  - ιπιπερίγκος
-  username: ιπιπερίγκος
+  - N. Piperakis
+  - Nikos Piperakis
+  - npiperakis
+  username: npiperakis
   home_firm: B
   service_line: invitro
   roles:
@@ -2322,8 +2322,8 @@ people:
   variants:
   - Dr F. Salmerón
   - Faustino Salmerón
-  - fsalmerón
-  username: fsalmerón
+  - fsalmeron
+  username: fsalmeron
   home_firm: C
   service_line: invitro
   roles:
@@ -2569,8 +2569,8 @@ people:
   variants:
   - B. Uziębło
   - Blanka Uziębło
-  - buziębło
-  username: buziębło
+  - buzieblo
+  username: buzieblo
   home_firm: C
   service_line: invitro
   roles:
@@ -2661,8 +2661,8 @@ people:
   variants:
   - G. Badía
   - Gema Badía
-  - gbadía
-  username: gbadía
+  - gbadia
+  username: gbadia
   home_firm: C
   service_line: invitro
   roles:
@@ -3335,8 +3335,8 @@ people:
   variants:
   - Dr T. Evrard
   - Théophile Evrard
-  - théophilee
-  username: théophilee
+  - theophilee
+  username: theophilee
   home_firm: E
   service_line: analytical
   roles:
@@ -3377,8 +3377,8 @@ people:
   variants:
   - Dr F. Boulay
   - François Boulay
-  - françoisb
-  username: françoisb
+  - francoisb
+  username: francoisb
   home_firm: E
   service_line: analytical
   roles:
@@ -3856,15 +3856,15 @@ people:
   key: false
   nationality: British
 - id: BG131
-  canonical_name: Νικηφόρος Σαλέμη
-  first_name: Νικηφόρος
-  last_name: Σαλέμη
+  canonical_name: Dimitra Salemidou
+  first_name: Dimitra
+  last_name: Salemidou
   title: Dr
   variants:
-  - Dr Ν. Σαλέμη
-  - Νικηφόρος Σαλέμη
-  - σαλέμην
-  username: σαλέμην
+  - Dr D. Salemidou
+  - Dimitra Salemidou
+  - dsalemidou
+  username: dsalemidou
   home_firm: F
   service_line: formulation
   roles:

@@ -1,0 +1,18 @@
+{
+ "family": "deck",
+ "summary": "Vellacombe readout (January 2019) for programme VD-18-131 with the Rennelwick Institute Drug Discovery Unit: chemistry guided by X-ray co-crystal structures solved by the Institute's structural biology collaborators. A less hindered substituent was chosen from the co-crystal structures and material was delivered for binding studies. Structural biology work was done by the collaborator.",
+ "properties": {"title": "VD-18-131 route readout", "subject": "Co-crystal-guided analogue synthesis"},
+ "slides": [
+  {"layout": "title", "title": "Rennelwick receptor programme: co-crystal-guided analogues", "subtitle": "VD-18-131 readout | Vellacombe Discovery Ltd | 24 January 2019"},
+  {"layout": "title_content", "title": "Where we are", "bullets": ["Programme started 05/11/2018 with the Rennelwick Institute Drug Discovery Unit", "Institute's structural biology collaborators supplied two X-ray co-crystal structures in December", "Chemistry plan revised against the structures", "Delivery lot for binding studies completed this week"]},
+  {"layout": "title_content", "title": "What the co-crystal structures showed", "bullets": ["Ligand sits deeper in the pocket than the docking model assumed", "The bulky ortho substituent clashes with a backbone carbonyl", {"text": "Explains the flat SAR seen in the first analogue set", "level": 1}, "Room for a smaller group pointing to solvent"], "notes": "Structures belong to the Institute; images not reproduced here. Ask Rennelwick before showing externally."},
+  {"layout": "title_content", "title": "Hypothesis", "bullets": ["Replace the ortho substituent with a less hindered group", "Keep the hinge-facing amide unchanged", "Use the solvent vector for solubility"]},
+  {"layout": "two_content", "title": "Route", "bullets": ["Common intermediate from route scout 1", "Two-step coupling then amide formation", "Route risk: regioisomer in step 1"], "bullets_right": ["Isolated material by crystallisation", "Purity release by LCMS area percent", "Compound cards with every lot"]},
+  {"layout": "title_content", "title": "Route gate (17/12/2018)", "bullets": ["Regioisomer controlled below 2% by lower temperature", "Gate passed; analogue preparation started"]},
+  {"layout": "title_content", "title": "Delivered", "bullets": ["Delivery lot 1 for binding studies", "Identity confirmed by 1H NMR and LCMS", "All lots above the agreed purity threshold"]},
+  {"layout": "title_content", "title": "Proposed versus isolated", "bullets": ["All proposed analogues of the first design round isolated", "Two solvent-vector analogues proposed but not yet made", "Isolated material only is reported as delivered"]},
+  {"layout": "title_content", "title": "Open questions for Rennelwick", "bullets": ["Binding data on lot 1 before the next design round", "A third co-crystal structure with the smaller substituent would confirm the pose", "Solubility of the solvent-vector analogues"]},
+  {"layout": "title_content", "title": "Next analogue", "bullets": ["Pending binding data: extend the solvent vector with polar groups", "Hold the hinge amide", "Next readout planned for March"]},
+  {"layout": "title_content", "title": "Team", "bullets": ["Dr R. Calderwood (programme lead)", "Dr H. Darwish (synthesis)", "C. Fenwick (analytical release)"]}
+ ]
+}

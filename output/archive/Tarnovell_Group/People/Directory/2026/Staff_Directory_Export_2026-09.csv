@@ -1,0 +1,175 @@
+﻿Employee ID,Full name,Display name,Username,Email,Job title,Legacy company,Business unit,Service line,Office,Start date,Leave date,Status,Line manager
+E01001,Ruth Calderwood,Dr R. Calderwood,rcalderwood,rcalderwood@tarnovell-group.co.uk,Head of Medicinal Chemistry,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,14/03/1994,,Active,Elizabeth Brown
+E01002,Hassan Darwish,Dr H. Darwish,hdarwish,hdarwish@tarnovell-group.co.uk,Senior Synthetic Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,14/03/1994,,Active,Andrew May
+E01003,Clara Fenwick,C. Fenwick,cfenwick,cfenwick@tarnovell-group.co.uk,Analytical Release Lead,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,14/03/1994,,Active,Aarush Vala
+E01004,Owen Merriman,O. Merriman,omerriman,omerriman@tarnovell-group.co.uk,Chemistry Business Development Lead,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,14/03/1994,31/12/2022,Left,
+E01005,Eleanor Vellacombe,Dr E. Vellacombe,evellacombe,evellacombe@tarnovell-group.co.uk,Group Chair,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,14/03/1994,,Active,Lawrence Hutchinson
+E01006,Andrea Beckett,A. Beckett,abeckett,abeckett@tarnovell-group.co.uk,Group Finance Director,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,01/04/1996,,Active,Yasmin Farhat
+E01007,Nils Bergstrom,N. Bergstrom,nbergstrom,nbergstrom@tarnovell-group.co.uk,People Operations Manager,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,01/04/1996,,Active,Lawrence Hutchinson
+E01008,Yasmin Farhat,Y. Farhat,yfarhat,yfarhat@tarnovell-group.co.uk,Group Quality Director,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,01/04/1996,,Active,Daniel Grellacott
+E01009,Oliver Pritchard,O. Pritchard,opritchard,opritchard@tarnovell-group.co.uk,Commercial Development Manager,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,01/04/1996,31/12/2022,Left,
+E01010,Ruggero Tonisto,R. Tonisto,ruggero.tonisto,ruggero.tonisto@tarnovell-group.co.uk,Group Commercial Director,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,08/07/1996,,Active,Daniel Grellacott
+E01011,Patrick Jones,Dr P. Jones,pjones,pjones@vellacombe.co.uk,Synthetic Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,24/01/1997,29/09/2017,Left,
+E01012,Andrew May,A. May,amay,amay@tarnovell-group.co.uk,Sample Management Coordinator,Vellacombe Discovery Ltd,Vellacombe,Support functions,Nottingham,15/03/1997,,Active,Elizabeth Brown
+E01013,Praneel Pal,P. Pal,praneel.pal,praneel.pal@tarnovell-group.co.uk,Group HR Business Partner,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,14/07/1997,,Active,Andrea Beckett
+E01014,Bethany Rowcroft,Dr B. Rowcroft,browcroft,browcroft@tarnovell-group.co.uk,Screening Operations Director,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,01/06/1998,,Active,Tony Byrne
+E01015,Ravi Deshmukh,Dr R. Deshmukh,rdeshmukh,rdeshmukh@tarnovell-group.co.uk,Electrophysiology Team Lead,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,01/06/1998,,Active,Alejandro Riley
+E01016,Ines Alvarado,I. Alvarado,ialvarado,ialvarado@tarnovell-group.co.uk,Assay Quality Coordinator,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,01/06/1998,,Active,Bethany Rowcroft
+E01017,Peter Wainford,P. Wainford,pwainford,pwainford@tarnovell-group.co.uk,Head of Biology Business Development,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,01/06/1998,31/12/2022,Left,
+E01018,Lawrence Hutchinson,L. Hutchinson,lawrence.hutchinson,lawrence.hutchinson@tarnovell-group.co.uk,Group Commercial Director,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,24/11/1998,,Active,Ruggero Tonisto
+E01019,Martin Ellerscombe,Dr M. Ellerscombe,mellerscombe,mellerscombe@brindlewythe.co.uk,Senior In Vitro Biologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,04/01/1999,31/07/2019,Left,
+E01020,Jose Cole,J. Cole,jcole,jcole@tarnovell-group.co.uk,"Team Leader, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,29/04/1999,,Active,Andrew May
+E01021,Jessika Köster,J. Köster,jkoster,jkoster@vellacombe.co.uk,Synthetic Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,20/07/1999,10/08/2013,Left,
+E01022,Christiane Antoine,C. Antoine,cantoine,cantoine@tarnovell-group.co.uk,Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,05/07/2000,21/06/2021,Left,
+E01023,Anika Veldershain,Dr A. Veldershain,aveldershain,aveldershain@brindlewythe.co.uk,Study Director,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,08/01/2001,31/12/2018,Left,
+E01024,Patrick Mallick,Dr P. Mallick,pmallick,pmallick@tarnovell-group.co.uk,Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,28/07/2001,07/10/2024,Left,
+E01025,Carol Frost,Dr C. Frost,cfrost,cfrost@vellacombe.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,21/09/2001,24/02/2005,Left,
+E01026,Anna Leon,A. Leon,aleon,aleon@tarnovell-group.co.uk,Senior Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,19/10/2001,,Active,Gina Shanley
+E01027,Louis Iqbal,Dr L. Iqbal,liqbal,liqbal@tarnovell-group.co.uk,Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,07/04/2002,13/04/2021,Left,
+E01028,Bernard Dixon,B. Dixon,bdixon,bdixon@tarnovell-group.co.uk,Bioanalyst,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,30/05/2002,,Active,Bethany Rowcroft
+E01029,Daniel Ben,Dr D. Ben,dben,dben@brindlewythe.co.uk,Mass Spectrometry Specialist,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,22/11/2002,04/11/2017,Left,
+E01030,Witold Wita,Dr W. Wita,wwita,wwita@tarnovell-group.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,05/02/2003,,Active,Kai Briere
+E01031,Megan Larkin,Dr M. Larkin,mlarkin,mlarkin@tarnovell-group.co.uk,DMPK Study Director,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,10/02/2003,,Active,Tatjana Werner
+E01032,Javier Quintana,Dr J. Quintana,jquintana,jquintana@tarnovell-group.co.uk,Mass-Spectrometry Manager,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,10/02/2003,,Active,Carole Mills
+E01033,Helen Marchwood,H. Marchwood,hmarchwood,hmarchwood@tarnovell-group.co.uk,Bioanalytical Quality Manager,Merrivoss Bioanalysis Inc,Merrivoss,Support functions,Madison,10/02/2003,,Active,Faustino Salmerón
+E01034,Adeel Farooqi,A. Farooqi,afarooqi,afarooqi@tarnovell-group.co.uk,Head of BD North America,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,10/02/2003,31/12/2022,Left,
+E01035,Arjun Hayer,A. Hayer,arjun.hayer,arjun.hayer@tarnovell-group.co.uk,Group Financial Controller,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,17/02/2004,07/05/2019,Left,
+E01036,Joanne Price,J. Price,jprice,jprice@vellacombe.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,22/12/2004,09/08/2010,Left,
+E01037,Annette Andrews,Dr A. Andrews,aandrews,aandrews@tarnovell-group.co.uk,Principal Scientist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,05/02/2006,,Active,Nathan Wheeler
+E01038,Jason Scanlon,J. Scanlon,jscanlon,jscanlon@tarnovell-group.co.uk,Electrophysiologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,20/03/2006,,Active,
+E01039,Paolo Iannelli,Dr P. Iannelli,piannelli,piannelli@tarnovell-group.co.uk,Electrophysiologist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,29/05/2006,,Active,Kalpit Balay
+E01040,Alejandro Riley,Dr A. Riley,ariley,ariley@tarnovell-group.co.uk,Assay Biologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,07/08/2006,,Active,Bianca Bonaventura
+E01041,Jeremy Ford,J. Ford,jford,jford@brindlewythe.co.uk,DMPK Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,22/02/2007,03/02/2009,Left,
+E01042,Françoise Schneider,F. Schneider,fschneider,fschneider@tarnovell-group.co.uk,Finance Manager,Vellacombe Discovery Ltd,Vellacombe,Support functions,Nottingham,13/04/2007,,Active,Andrew May
+E01047,Anna Lund,Dr A. Lund,alund,alund@tarnovell-group.co.uk,Senior Scientist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,23/05/2007,,Active,John Bell
+E01049,Alice Penrose,Dr A. Penrose,alicep,alicep@tarnovell-group.co.uk,Head of Analytical Services,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,01/09/2008,,Active,
+E01050,Leon Wu,Dr L. Wu,leonw,leonw@tarnovell-group.co.uk,Stability Coordinator,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,01/09/2008,,Active,Amanda Bailey
+E01051,Saira Mahmood,S. Mahmood,sairam,sairam@tarnovell-group.co.uk,QC Method Validation Lead,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,01/09/2008,,Active,Carla Smith
+E01052,Gareth Bramwell,G. Bramwell,garethb,garethb@tarnovell-group.co.uk,Analytical Contracts Manager,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,01/09/2008,31/12/2022,Left,
+E01054,Joan Holland,Dr J. Holland,jholland,jholland@tarnovell-group.co.uk,Senior DMPK Scientist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,07/12/2008,,Active,
+E01055,Mohammad Mills,Dr M. Mills,mmills,mmills@tarnovell-group.co.uk,"Team Leader, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,19/03/2009,,Active,Clara Fenwick
+E01056,Elizabeth Brown,E. Brown,ebrown,ebrown@tarnovell-group.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,26/03/2009,,Active,Ewelina Stryjek
+E01057,Fiona Macrae,Dr F. Macrae,fmacrae,fmacrae@tarnovell-group.co.uk,Computational Chemistry Lead,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,06/04/2009,,Active,Audrey Briand
+E01058,Emil Ostlund,Dr E. Ostlund,eostlund,eostlund@tarnovell-group.co.uk,Senior Computational Biologist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,06/04/2009,,Active,Nadia Rahmani
+E01059,Nadia Rahmani,N. Rahmani,nrahmani,nrahmani@tarnovell-group.co.uk,Data Curation and Reproducibility Lead,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,06/04/2009,,Active,Conor O'Herlihy
+E01060,Callum Strachan,C. Strachan,cstrachan,cstrachan@tarnovell-group.co.uk,Scientific Partnerships Manager,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,06/04/2009,31/12/2022,Left,
+E01062,Lisandro Acedo,L. Acedo,lacedo,lacedo@vellacombe.co.uk,Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,28/04/2009,12/12/2016,Left,
+E01064,Gema Badía,G. Badía,gbadia,gbadia@merrivoss.com,Assay Biologist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,13/11/2009,10/06/2019,Left,
+E01066,Matteo Rinalvesi,Dr M. Rinalvesi,mrinalvesi,mrinalvesi@merrivoss.com,DMPK Lead,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,01/02/2010,28/06/2019,Left,
+E01067,Stéphane Guillaume,Dr S. Guillaume,sguillaume,sguillaume@tarnovell-group.co.uk,Laboratory Technician,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,27/02/2010,,Active,Alejandro Riley
+E01068,Kalpit Balay,K. Balay,kbalay,kbalay@tarnovell-group.co.uk,Quality Assurance Manager,Merrivoss Bioanalysis Inc,Merrivoss,Support functions,Madison,12/07/2010,,Active,Javier Quintana
+E01070,Judith Wilson,J. Wilson,judith.wilson,judith.wilson@tarnovell-group.co.uk,Group HR Business Partner,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,01/11/2010,,Active,Yasmin Farhat
+E01071,Tomasz Zawiernicki,Dr T. Zawiernicki,tzawiernicki,tzawiernicki@tarnovell-group.co.uk,Head of Bioinformatics,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,10/01/2011,,Active,Audrey Briand
+E01072,Leon Newman,Dr L. Newman,lnewman,lnewman@tarnovell-group.co.uk,Study Director,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,26/02/2011,,Active,Kalpit Balay
+E01073,Amol Dey,A. Dey,adey,adey@tarnovell-group.co.uk,Laboratory Technician,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,10/03/2011,,Active,Anna Lund
+E01074,Roger Davidson,R. Davidson,rdavidson,rdavidson@brindlewythe.co.uk,DMPK Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,23/03/2011,24/03/2018,Left,
+E01075,Samantha Scott,S. Scott,sscott,sscott@quenverell.co.uk,Computational Chemist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,07/04/2011,23/11/2018,Left,
+E01077,Gina Shanley,G. Shanley,gshanley,gshanley@tarnovell-group.co.uk,Laboratory Technician,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,17/06/2011,,Active,Jack Rees
+E01078,Richard Wilson,Dr R. Wilson,richardw,richardw@tarnovell-group.co.uk,QA Officer,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,07/08/2011,,Active,Carla Smith
+E01079,Tatjana Werner,T. Werner,twerner,twerner@tarnovell-group.co.uk,Sample Management Coordinator,Merrivoss Bioanalysis Inc,Merrivoss,Support functions,Madison,24/08/2011,,Active,Joan Holland
+E01080,Conor O'Herlihy,Dr C. O'Herlihy,coherlihy,coherlihy@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,29/08/2011,,Active,Tina Powell
+E01081,Wayne Moore,Dr W. Moore,wmoore,wmoore@merrivoss.com,"Study Director, DMPK",Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,05/09/2011,27/05/2016,Left,
+E01083,Carole Mills,Dr C. Mills,cmills,cmills@tarnovell-group.co.uk,DMPK Scientist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,20/12/2011,,Active,Megan Larkin
+E01084,Kornel Konat,K. Konat,kkonat,kkonat@merrivoss.com,DMPK Scientist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,12/02/2012,23/07/2014,Left,
+E01086,Kristen Petersen,K. Petersen,kristenp,kristenp@tarnovell-group.co.uk,Senior Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,16/04/2012,,Active,Lena Ackermann
+E01088,Eugene Maughan,E. Maughan,emaughan,emaughan@tarnovell-group.co.uk,Office Manager,Vellacombe Discovery Ltd,Vellacombe,Support functions,Nottingham,23/05/2012,,Active,Nathan Wheeler
+E01089,Evita Solana,Dr E. Solana,esolana,esolana@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,29/05/2012,,Active,Martyn Chamberlain
+E01090,Andrea Tucker,A. Tucker,andreat,andreat@tarnovell-group.co.uk,Quality Assurance Manager,Westravelle Analytical Ltd,Westravelle,Support functions,York,21/11/2012,01/01/2020,Left,
+E01091,Vamakshi Pingle,V. Pingle,vpingle,vpingle@merrivoss.com,Electrophysiologist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,23/12/2012,16/04/2016,Left,
+E01092,Agnolo Argento,A. Argento,aargento,aargento@tarnovell-group.co.uk,DMPK Scientist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,07/07/2013,16/07/2025,Left,
+E01093,Tommy Petty,T. Petty,tpetty,tpetty@tarnovell-group.co.uk,"Study Director, DMPK",Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,22/11/2013,,Active,Benjamin Ahuja
+E01094,Tony Byrne,Dr T. Byrne,tbyrne,tbyrne@tarnovell-group.co.uk,Research Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,10/04/2014,,Active,
+E01095,Gianna Aulenti,G. Aulenti,gaulenti,gaulenti@tarnovell-group.co.uk,Senior Bioinformatician,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,17/04/2014,,Active,Tomasz Zawiernicki
+E01096,Diane Martinez,D. Martinez,dmartinez,dmartinez@tarnovell-group.co.uk,Project Manager,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,18/06/2014,28/05/2023,Left,
+E01097,Théophile Evrard,Dr T. Evrard,theophilee,theophilee@tarnovell-group.co.uk,Analytical Chemist,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,20/06/2014,,Active,François Boulay
+E01098,Kai Briere,K. Briere,kbriere,kbriere@tarnovell-group.co.uk,"Team Leader, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,02/09/2014,,Active,Eugene Maughan
+E01099,Joseph Begum,J. Begum,jbegum,jbegum@tarnovell-group.co.uk,Study Director,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,26/09/2014,,Active,
+E01100,Julia Carver,Dr J. Carver,carverj,carverj@tarnovell-group.co.uk,Formulation Development Lead,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,12/01/2015,,Active,
+E01101,Miguel Serrano,Dr M. Serrano,serranom,serranom@tarnovell-group.co.uk,Senior Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,12/01/2015,,Active,Maurice Holmes
+E01102,Lena Patel,L. Patel,patell,patell@tarnovell-group.co.uk,CMC Technical Transfer Manager,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,12/01/2015,,Active,Maurice Holmes
+E01103,Eric Langford,E. Langford,langforde,langforde@tarnovell-group.co.uk,Early Development Accounts Lead,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,12/01/2015,31/12/2022,Left,
+E01104,Elliott Hopkins,E. Hopkins,ehopkins,ehopkins@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,17/01/2015,,Active,Emil Ostlund
+E01105,Martyn Chamberlain,Dr M. Chamberlain,mchamberlain,mchamberlain@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,21/04/2015,,Active,
+E01106,Lindsey Vaughan,L. Vaughan,lvaughan,lvaughan@tarnovell-group.co.uk,"Study Director, DMPK",Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,22/05/2015,21/03/2020,Left,
+E01107,Nikos Piperakis,N. Piperakis,npiperakis,npiperakis@tarnovell-group.co.uk,Electrophysiologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,23/06/2015,,Active,Leila Benmezroun
+E01108,Carla Smith,Dr C. Smith,carlas,carlas@tarnovell-group.co.uk,QA Officer,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,20/08/2015,,Active,Elaine Ali
+E01109,Linda Burke,L. Burke,lburke,lburke@tarnovell-group.co.uk,Research Scientist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,27/08/2015,20/08/2023,Left,
+E01110,Morena Campise,M. Campise,mcampise,mcampise@tarnovell-group.co.uk,Laboratory Technician,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,31/08/2015,,Active,Leila Benmezroun
+E01111,Mark Campbell,M. Campbell,markc,markc@tarnovell-group.co.uk,QC Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,16/11/2015,,Active,Lena Ackermann
+E01112,Nathan Wheeler,Dr N. Wheeler,nwheeler,nwheeler@tarnovell-group.co.uk,Synthetic Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,21/12/2015,,Active,Françoise Schneider
+E01113,Annabel Eijkelboom,A. Eijkelboom,eijkelbooma,eijkelbooma@tarnovell-group.co.uk,Business Development Manager,Durnesswick Laboratories Inc,Durnesswick,Support functions,Durham,10/04/2016,07/03/2023,Left,
+E01114,Donna Bell,D. Bell,belld,belld@tarnovell-group.co.uk,CMC Lead,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,27/05/2016,,Active,Julia Carver
+E01115,Aadhya Mittal,A. Mittal,amittal,amittal@tarnovell-group.co.uk,Office Manager,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,14/06/2016,,Active,
+E01117,Ewelina Stryjek,E. Stryjek,estryjek,estryjek@tarnovell-group.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,28/08/2016,,Active,Elizabeth Brown
+E01118,Amanda Bailey,A. Bailey,amandab,amandab@tarnovell-group.co.uk,Senior Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,04/09/2016,,Active,Richard Wilson
+E01119,Corey Davidson,C. Davidson,cdavidson,cdavidson@tarnovell-group.co.uk,Office Manager,Merrivoss Bioanalysis Inc,Merrivoss,Support functions,Madison,08/09/2016,,Active,
+E01121,Nicholas Hennebry,N. Hennebry,nicholash,nicholash@tarnovell-group.co.uk,Finance Manager,Westravelle Analytical Ltd,Westravelle,Support functions,York,27/12/2016,05/02/2026,Left,
+E01123,Oscar Thaman,O. Thaman,othaman,othaman@tarnovell-group.co.uk,Mass Spectrometry Specialist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,20/01/2017,,Active,Carole Mills
+E01124,François Boulay,Dr F. Boulay,francoisb,francoisb@tarnovell-group.co.uk,QC Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,03/02/2017,,Active,Erik Liljegren
+E01125,Julie Lindsey,J. Lindsey,jlindsey,jlindsey@tarnovell-group.co.uk,Project Manager,Quenverell Computational Ltd,Quenverell,Support functions,Edinburgh,09/03/2017,,Active,Gianna Aulenti
+E01126,Faustino Salmerón,Dr F. Salmerón,fsalmeron,fsalmeron@tarnovell-group.co.uk,Research Scientist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,12/04/2017,,Active,Paolo Iannelli
+E01127,Erik Liljegren,E. Liljegren,erikl,erikl@tarnovell-group.co.uk,Analytical Chemist,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,26/04/2017,,Active,Leon Wu
+E01128,Joerg Ruppersberger,J. Ruppersberger,jruppersberger,jruppersberger@tarnovell-group.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,02/08/2017,08/07/2024,Left,
+E01129,Gauri Batta,G. Batta,battag,battag@tarnovell-group.co.uk,Senior Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,07/08/2017,05/02/2023,Left,
+E01130,Arunima Andra,A. Andra,arunimaa,arunimaa@tarnovell-group.co.uk,Quality Assurance Manager,Westravelle Analytical Ltd,Westravelle,Support functions,York,06/09/2017,,Active,Elaine Ali
+E01131,Benjamin Ahuja,Dr B. Ahuja,bahuja,bahuja@tarnovell-group.co.uk,DMPK Scientist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,01/10/2017,,Active,Faustino Salmerón
+E01132,John Bell,J. Bell,jbell,jbell@tarnovell-group.co.uk,Mass Spectrometry Specialist,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,21/12/2017,,Active,
+E01133,Armando Verdi,Dr A. Verdi,averdi,averdi@tarnovell-group.co.uk,Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,17/02/2018,07/04/2026,Left,
+E01134,Leila Benmezroun,Dr L. Benmezroun,lbenmezroun,lbenmezroun@tarnovell-group.co.uk,Study Director,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,05/03/2018,,Active,
+E01135,Eleni Karavasili,Dr E. Karavasili,ekaravasili,ekaravasili@tarnovell-group.co.uk,Study Director,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,06/07/2018,20/01/2021,Left,
+E01136,Gerda Gude,G. Gude,ggude,ggude@tarnovell-group.co.uk,Electrophysiologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,18/07/2018,20/08/2021,Left,
+E01138,Priya Nandekuri,Dr P. Nandekuri,pnandekuri,pnandekuri@tarnovell-group.co.uk,DMPK Lead,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,07/01/2019,,Active,Faustino Salmerón
+E01141,Tina Powell,T. Powell,tpowell,tpowell@tarnovell-group.co.uk,Finance Manager,Quenverell Computational Ltd,Quenverell,Support functions,Edinburgh,08/05/2019,,Active,
+E01143,Paride Eco,Dr P. Eco,paridee,paridee@tarnovell-group.co.uk,Stability Coordinator,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,17/07/2019,,Active,Carla Smith
+E01144,John Morris,Dr J. Morris,jmorris,jmorris@tarnovell-group.co.uk,Senior Scientist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,31/08/2019,15/06/2026,Left,
+E01145,Karen Moreno,Dr K. Moreno,kmoreno,kmoreno@tarnovell-group.co.uk,Synthetic Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,04/11/2019,17/05/2022,Left,
+E01146,Dimitra Salemidou,Dr D. Salemidou,dsalemidou,dsalemidou@tarnovell-group.co.uk,CMC Lead,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,27/11/2019,,Active,Lena Patel
+E01147,Daniel Grellacott,D. Grellacott,dgrellacott,dgrellacott@tarnovell-group.co.uk,Group Chief Executive,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,06/01/2020,,Active,Praneel Pal
+E01148,Daniel Walker,D. Walker,walkerd,walkerd@tarnovell-group.co.uk,Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,16/01/2020,,Active,Kristen Fields
+E01149,Blanka Uziębło,B. Uziębło,buzieblo,buzieblo@tarnovell-group.co.uk,Laboratory Technician,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,03/02/2020,,Active,Priya Nandekuri
+E01150,Min-jun Kim,Dr M. Kim,kimm,kimm@tarnovell-group.co.uk,Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,05/03/2020,,Active,Dimitra Salemidou
+E01151,Patricia Howell,Dr P. Howell,phowell,phowell@tarnovell-group.co.uk,"Associate Director, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,09/03/2020,19/07/2023,Left,
+E01152,Damien Grant,D. Grant,damieng,damieng@tarnovell-group.co.uk,QC Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,26/03/2020,,Active,Connor Cunningham
+E01153,Julie Talbot,J. Talbot,talbotj,talbotj@tarnovell-group.co.uk,Senior Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,28/05/2020,,Active,Owen Leach
+E01154,Daisuke Sato,Dr D. Sato,dsato,dsato@tarnovell-group.co.uk,Assay Biologist,Merrivoss Bioanalysis Inc,Merrivoss,In vitro biology and screening,Madison,04/10/2020,,Active,Joan Holland
+E01155,Tom Jones,Dr T. Jones,tjones,tjones@tarnovell-group.co.uk,Assay Biologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,24/10/2020,20/02/2026,Left,
+E01156,Ahmad Olsson,Dr A. Olsson,olssona,olssona@tarnovell-group.co.uk,CMC Lead,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,10/12/2020,27/03/2022,Left,
+E01157,Jack Rees,Dr J. Rees,jrees,jrees@tarnovell-group.co.uk,Assay Biologist,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,02/01/2021,,Active,Tony Byrne
+E01158,Elaine Ali,E. Ali,elainea,elainea@tarnovell-group.co.uk,Analytical Chemist,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,07/02/2021,,Active,Saira Mahmood
+E01159,Ji-ho Jung,Dr J. Jung,jjung,jjung@tarnovell-group.co.uk,Computational Chemist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,04/03/2021,06/09/2026,Left,
+E01160,Audrey Briand,Dr A. Briand,abriand,abriand@tarnovell-group.co.uk,Senior Bioinformatician,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,15/03/2021,,Active,Nadia Rahmani
+E01162,Lukas Huberts,L. Huberts,lhuberts,lhuberts@tarnovell-group.co.uk,Bioinformatician,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,06/05/2021,07/05/2026,Left,
+E01163,Henning Flantz,H. Flantz,hflantz,hflantz@tarnovell-group.co.uk,Sample Management Coordinator,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,11/06/2021,,Active,Leila Benmezroun
+E01165,Seo-yeon Choi,S. Choi,schoi,schoi@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,28/06/2021,,Active,Conor O'Herlihy
+E01166,Piergiuseppe Abbagnale,Dr P. Abbagnale,abbagnalep,abbagnalep@tarnovell-group.co.uk,Pre-formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,26/07/2021,,Active,Min-jun Kim
+E01167,John Mckinney,J. Mckinney,jmckinney,jmckinney@tarnovell-group.co.uk,Project Manager,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,10/09/2021,24/06/2026,Left,
+E01168,Valerie Turner,Dr V. Turner,valeriet,valeriet@tarnovell-group.co.uk,QA Officer,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,14/09/2021,,Active,Mark Campbell
+E01169,Dean French,D. French,frenchd,frenchd@tarnovell-group.co.uk,Senior Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,17/09/2021,13/11/2022,Left,
+E01172,Berenice Bongiorno,B. Bongiorno,bbongiorno,bbongiorno@tarnovell-group.co.uk,Quality Assurance Manager,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,18/11/2021,10/05/2026,Left,
+E01173,Lena Ackermann,Dr L. Ackermann,lenaa,lenaa@tarnovell-group.co.uk,Stability Coordinator,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,30/06/2022,,Active,Carla Smith
+E01174,Ivan Moreira,I. Moreira,ivanm,ivanm@tarnovell-group.co.uk,Stability Coordinator,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,07/08/2022,13/04/2024,Left,
+E01175,Vinaya Kamdar,V. Kamdar,vkamdar,vkamdar@tarnovell-group.co.uk,"Team Leader, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,24/08/2022,16/07/2026,Left,
+E01176,Gaurav Kibe,G. Kibe,gauravk,gauravk@tarnovell-group.co.uk,QA Officer,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,29/08/2022,16/02/2024,Left,
+E01177,Nikita Cowley,N. Cowley,nikita.cowley,nikita.cowley@tarnovell-group.co.uk,Executive Assistant,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,11/09/2022,08/12/2023,Left,
+E01178,Owen Leach,O. Leach,leacho,leacho@tarnovell-group.co.uk,Formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,10/10/2022,,Active,Miguel Serrano
+E01179,Denis Miller,D. Miller,denism,denism@tarnovell-group.co.uk,Sample Management Coordinator,Westravelle Analytical Ltd,Westravelle,Support functions,York,07/11/2022,,Active,
+E01180,Aarush Vala,A. Vala,avala,avala@tarnovell-group.co.uk,Principal Scientist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,07/12/2022,,Active,
+E01181,Nina Jones,Dr N. Jones,njones,njones@tarnovell-group.co.uk,Study Director,Brindlewythe Biosciences Ltd,Brindlewythe,In vitro biology and screening,Cambridge,28/12/2022,,Active,Bethany Rowcroft
+E01182,Ashley King,A. King,kinga,kinga@tarnovell-group.co.uk,Sample Management Coordinator,Durnesswick Laboratories Inc,Durnesswick,Support functions,Durham,19/05/2023,,Active,Piergiuseppe Abbagnale
+E01183,Luisina Carbonell,L. Carbonell,lcarbonell,lcarbonell@tarnovell-group.co.uk,HR Advisor,Quenverell Computational Ltd,Quenverell,Support functions,Edinburgh,25/08/2023,03/05/2025,Left,
+E01184,Zara Glasses,Dr Z. Glasses,zglasses,zglasses@tarnovell-group.co.uk,Senior DMPK Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,30/08/2023,24/02/2026,Left,
+E01185,Bianca Bonaventura,B. Bonaventura,bbonaventura,bbonaventura@tarnovell-group.co.uk,DMPK Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,11/01/2024,,Active,Anna Leon
+E01186,Sofia Lindervik,S. Lindervik,slindervik,slindervik@tarnovell-group.co.uk,Integration Director,Tarnovell Bioscience Group,Tarnovell Bioscience Group,Support functions,Nottingham,08/04/2024,,Active,
+E01187,Nilima Savant,N. Savant,nsavant,nsavant@tarnovell-group.co.uk,Bioanalyst,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,14/04/2024,26/09/2025,Left,
+E01188,Adriana Gregorio,A. Gregorio,agregorio,agregorio@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,20/05/2024,15/07/2026,Left,
+E01189,Kristen Fields,K. Fields,fieldsk,fieldsk@tarnovell-group.co.uk,CMC Lead,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,30/09/2024,,Active,Maurice Holmes
+E01190,Margot Bruneau,M. Bruneau,mbruneau,mbruneau@tarnovell-group.co.uk,IT Support Analyst,Brindlewythe Biosciences Ltd,Brindlewythe,Support functions,Cambridge,04/12/2024,28/05/2026,Left,
+E01191,Jing Zhao,Dr J. Zhao,jingz,jingz@tarnovell-group.co.uk,QA Officer,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,07/03/2025,27/03/2026,Left,
+E01192,Leigh Turner,L. Turner,lturner,lturner@tarnovell-group.co.uk,Data Scientist,Quenverell Computational Ltd,Quenverell,Bioinformatics and computational chemistry,Edinburgh,19/03/2025,,Active,Julie Lindsey
+E01193,Afonso Pinho,A. Pinho,apinho,apinho@tarnovell-group.co.uk,Senior DMPK Scientist,Brindlewythe Biosciences Ltd,Brindlewythe,DMPK and bioanalysis,Cambridge,04/06/2025,,Active,Anna Leon
+E01194,Owen Evans,O. Evans,oevans,oevans@tarnovell-group.co.uk,Synthetic Chemist,Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,08/06/2025,18/07/2026,Left,
+E01195,Anna Grant,A. Grant,agrant,agrant@tarnovell-group.co.uk,Bioanalyst,Merrivoss Bioanalysis Inc,Merrivoss,DMPK and bioanalysis,Madison,24/08/2025,22/09/2026,Left,
+E01196,Amelia Austin,A. Austin,ameliaa,ameliaa@tarnovell-group.co.uk,QC Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,31/08/2025,20/09/2026,Left,
+E01197,Connor Cunningham,C. Cunningham,connorc,connorc@tarnovell-group.co.uk,QC Analyst,Westravelle Analytical Ltd,Westravelle,Analytical chemistry and stability testing,York,20/09/2025,,Active,
+E01198,Maurice Holmes,M. Holmes,holmesm,holmesm@tarnovell-group.co.uk,Pre-formulation Scientist,Durnesswick Laboratories Inc,Durnesswick,Formulation and early CMC,Durham,18/10/2025,,Active,
+E01199,Ljubica Rogner,L. Rogner,lrogner,lrogner@tarnovell-group.co.uk,"Team Leader, Chemistry",Vellacombe Discovery Ltd,Vellacombe,Medicinal chemistry,Nottingham,17/02/2026,,Active,Françoise Schneider

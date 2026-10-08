@@ -13,7 +13,7 @@ from .names import Blocklist
 from .world import load_world
 
 LOCALES = [("en_GB", 30), ("en_US", 18), ("en_IE", 4), ("de_DE", 5), ("fr_FR", 5), ("it_IT", 5), ("es_ES", 4),
-           ("pl_PL", 4), ("nl_NL", 3), ("pt_PT", 2), ("sv_SE", 2), ("en_IN", 8), ("east_asian", 6), ("el_GR", 2)]
+           ("pl_PL", 4), ("nl_NL", 3), ("pt_PT", 2), ("sv_SE", 2), ("en_IN", 8), ("east_asian", 6), ("it_IT", 2)]
 NATIONALITY = {"en_GB": "British", "en_US": "American", "en_IE": "Irish", "de_DE": "German", "fr_FR": "French",
                "it_IT": "Italian", "es_ES": "Spanish", "pl_PL": "Polish", "nl_NL": "Dutch", "pt_PT": "Portuguese",
                "sv_SE": "Swedish", "en_IN": "Indian", "el_GR": "Greek", "east_asian": ""}
@@ -40,7 +40,9 @@ TARGET = {"A": 30, "B": 34, "C": 30, "D": 20, "E": 25, "F": 18, "G": 25, "HO": 1
 def username(style: str, first: str, last: str) -> str:
     def clean(s):
         return "".join(ch for ch in s.lower() if ch.isalpha())
-    f, l = clean(first), clean(last)
+    import unicodedata
+    fold = lambda s: "".join(c for c in unicodedata.normalize("NFKD", s.replace("ł", "l").replace("ø", "o").replace("ß", "ss")) if not unicodedata.combining(c)) if False else "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
+    f, l = clean(fold(first)), clean(fold(last))
     return (style.replace("{first}", f).replace("{last}", l).replace("{f}", f[:1]).replace("{l}", l[:1]))
 
 
