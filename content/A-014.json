@@ -1,0 +1,52 @@
+{"family": "workbook",
+ "summary": "Results book for VD-05-064, the CVL azaheterocycle route scout and first analogue delivery for Corvenlea Pharma. It lists the 32 analogues, records the revised heteroaryl coupling sequence that removed the late-stage purification, and sets out the release checks on the delivery batch.",
+ "properties": {"title": "VD-05-064 CVL delivery results"},
+ "sheets": [
+  {"name": "Summary",
+   "rows": [
+    [{"v": "VD-05-064 CVL azaheterocycle delivery", "bold": true}],
+    ["Project", "{{PRJ0008:project_id}}"],
+    ["LIMS", "{{PRJ0008:lims_id}}"],
+    ["Client", "{{PRJ0008:client_variant}}"],
+    ["Series", "CVL aminopyrimidine, analogue set 01"],
+    ["Compounds delivered", {"ref": "PRJ0008:n_compounds"}],
+    ["Price", "{{PRJ0008:price}}"],
+    [],
+    ["What changed", "The heteroaryl coupling now runs before the amide, so the late-stage column is gone. The sequence is in the route sheet."],
+    ["Batch status", "Delivery batch released. Corvenlea has the cards and the next biology batch is queued."],
+    [],
+    ["Compiled by", "Clara Fenwick", null, "07/11/2005"],
+    ["Reviewed by", "Dr R. Calderwood", null, "07/11/2005"],
+    [],
+    ["Project benchmark"]
+   ],
+   "data_refs": [{"table_ref": "PRJ0008:benchmark", "at": "A15", "header": true}],
+   "col_widths": {"A": 24, "B": 66},
+   "merged": ["A1:D1"]},
+  {"name": "Route",
+   "rows": [
+    [{"v": "Route: CVL aminopyrimidine core, revised sequence", "bold": true}],
+    [],
+    [{"v": "Step", "bold": true}, {"v": "Transformation", "bold": true}, {"v": "Scale (mmol)", "bold": true}, {"v": "Comment", "bold": true}],
+    ["1", "Pyrimidine core build from the amidine and enaminone", "5.0", "Unchanged from the first route."],
+    ["2", "Heteroaryl coupling, Pd catalyst, K3PO4, dioxane/water, 90 C", "1.0 per analogue", "Moved forward. Coupling is clean on the model pyridine so the crude goes straight into step 3."],
+    ["3", "Amide formation with the acid chloride, DIPEA, DCM", "0.5 per analogue", "Previously the last step with a difficult column. Now the crude is clean enough to wash and crystallise."],
+    ["4", "Salt formation, HCl in ether", "0.2 per analogue", "Applied to the basic members only. Free bases for the rest."],
+    [],
+    ["Route gate", "Passed on the revised sequence. Route risk is now the supply of the boronic acids for the three most hindered analogues."]
+   ],
+   "col_widths": {"A": 8, "B": 60, "C": 18, "D": 66},
+   "freeze": "A4"},
+  {"name": "Delivery batch",
+   "rows": [
+    [{"v": "Compounds delivered to Corvenlea Pharma for the first biology batch", "bold": true}],
+    ["Yield is isolated. Purity is LCMS and HPLC area % at 254 nm. Amounts are delivered mg per compound."],
+    ["Release checks: identity by LCMS and 1H NMR, purity against the study plan, residual solvent by GC on the first five members only."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0008:synthesis", "at": "A5", "header": true}],
+   "col_widths": {"A": 14, "B": 60, "C": 9, "D": 11, "E": 22, "F": 14},
+   "number_formats": {"C6:C40": "0.0", "D6:D40": "0", "E6:E40": "0.0", "F6:F40": "0"},
+   "freeze": "A6",
+   "comments": [{"cell": "A5", "text": "Residual solvent results for the first five not yet in the LIMS record.", "author": "Clara Fenwick"}],
+   "tab_color": "#1F4E79"}
+ ]}
