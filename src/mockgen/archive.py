@@ -76,12 +76,14 @@ def validate_all() -> tuple[list[str], list[str]]:
 
 
 def export() -> str:
-    from .render import out_path
+    from .render import out_path, set_mtime
     es = Mf.load_entries([])
     lines = ["root\tpath\tformat\tdoc_type\tunit\tbytes\tmodified"]
     for e in sorted(es, key=lambda e: (e.root, Mf.full_path(e))):
         p = out_path(e)
         sz = p.stat().st_size if p.exists() else -1
+        if p.exists():
+            set_mtime(p, e)  # git checkouts lose mtimes; restore the archive's dates
         lines.append(f"{e.root}\t{Mf.full_path(e)}\t{e.format}\t{e.doc_type}\t{e.unit}\t{sz}\t{e.modified.isoformat()}")
     (OUTPUT / "MANIFEST.tsv").write_text("\n".join(lines) + "\n")
     missing = sum(1 for e in es if not out_path(e).exists())
