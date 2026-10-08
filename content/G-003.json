@@ -1,0 +1,113 @@
+{
+  "family": "deck",
+  "summary": "Final readout for Selverant Therapeutics Inc integrating HepG2 viability context and the Mammalian-cell micronucleus assessment. It records the lower-exposure repeat request and distinguishes the investigation narrative from trends supported by the supplied aggregate table.",
+  "properties": {
+    "title": "OT-15-S0064 ST03 micronucleus readout",
+    "subject": "OT-15-S0064 ST03 micronucleus readout",
+    "keywords": "Osterquill; control validity; safety"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "ST03: viability and micronucleus follow-up",
+      "subtitle": "OT-15-S0064 | Selverant Therapeutics Inc | 07/14/2015\nDr N. Takamori | Osterquill Toxicology Inc",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Repeat at lower exposure before attribution",
+      "bullets": [
+        "{{PRJ0119:n_compounds}} test articles in the HepG2 viability screen.",
+        "Selverant Therapeutics Inc requested a lower-exposure repeat before attributing the micronucleus signal to genotoxicity.",
+        "The supplied aggregate table does not demonstrate a consistent concentration-related micronucleus increase."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Investigation summary",
+      "table": {
+        "table_ref": "PRJ0119:benchmark",
+        "max_rows": 7
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exposure context and control-validity limits",
+      "bullets": [
+        "Started 06/04/2015; interim discussion 06/24/2015; completed 07/14/2015.",
+        "HepG2 ATP-content endpoints at 24 h and 48 h provide viability context, not TK6 exposure measurements.",
+        "TK6 exposures: 3 h with and without S9; 24 h without S9.",
+        "Positive-control values and formal acceptance determinations are absent from this summary; consult original observation sheets before regulatory use.",
+        "No live-animal procedures are described in this package."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "HepG2 viability screen: 48 h IC50 (µM)",
+      "chart": {
+        "kind": "bar",
+        "title": "HepG2 viability screen: 48 h IC50 (µM)",
+        "ref": "PRJ0119:cytotox",
+        "column": 2
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Representative test article structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0119",
+        "n": 6
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Mammalian-cell micronucleus assessment: exposure and RPD",
+      "table": {
+        "table_ref": "PRJ0119:micronucleus",
+        "max_rows": 12
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Micronucleus frequencies by treatment row",
+      "chart": {
+        "kind": "bar",
+        "title": "Micronucleus frequencies by treatment row",
+        "ref": "PRJ0119:micronucleus",
+        "column": 2
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Interpretation at the client discussion",
+      "bullets": [
+        "RPD declines at the highest concentration in the S9-activated short exposure, qualifying the exposure interpretation.",
+        "Micronucleus frequencies vary around corresponding vehicles without a consistent dose-related increase.",
+        "The investigation narrative associates the concern with cytotoxic exposure; these aggregate rows alone do not establish that association.",
+        "Do not infer a definitive genotoxicity conclusion from this subset."
+      ],
+      "notes": "Kenji Morita should reconcile individual scoring and control-validity observations before the repeat is interpreted. HepG2 and TK6 responses are not interchangeable.",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Lower-exposure repeat: decision and deliverables",
+      "bullets": [
+        "Retain matched vehicle and positive controls under each exposure schedule.",
+        "Use closer concentration spacing below the cytotoxic region; report proliferation alongside micronucleus scoring.",
+        "Link test article identity, S9 status, exposure and scoring observations under {{PRJ0119:lims_id}}.",
+        "Dr N. Takamori will interpret the repeat with Kenji Morita; Lucia Moretti will review traceability and compliance scope.",
+        "The repeat is the next decision point, not an established resolution of the concern."
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    }
+  ]
+}
