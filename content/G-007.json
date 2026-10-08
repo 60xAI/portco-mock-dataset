@@ -1,0 +1,53 @@
+{
+ "family": "workbook",
+ "summary": "Observation sheets for investigation OT-08-S0114, the AP02 discovery genotoxicity battery for Avernelwick Pharmaceuticals Ltd. The HepG2 viability screen, the bacterial mutation assay with and without S9 and the mammalian-cell micronucleus assessment were run across the 24 test articles in the series. Bacterial results were negative throughout; the mammalian scoring is kept on its own sheet, as Avernelwick asked for the two signals to be reported separately.",
+ "properties": {"title": "OT-08-S0114 AP02 genotoxicity raw observations"},
+ "sheets": [
+  {"name": "Summary", "rows": [
+    [{"v": "OT-08-S0114 observation sheets: AP02 genotoxicity battery", "bold": true}],
+    ["Investigation", "{{PRJ0117:project_id}}"],
+    ["LIMS reference", "{{PRJ0117:lims_id}}"],
+    ["Client", "{{PRJ0117:client_variant}}"],
+    ["Test article cohort", "Aminopyrimidine regioisomer series 02 (AP02), target kinase hinge site"],
+    ["Test articles", {"ref": "PRJ0117:n_compounds"}],
+    ["Bacterial mutation result", "{{PRJ0117:ames.outcome}}"],
+    ["Study director", "Rachel Okafor", null, "Checked by Lucia Moretti 11/03/2008"],
+    [],
+    ["Benchmark summary"]
+   ],
+   "data_refs": [{"table_ref": "PRJ0117:benchmark", "at": "A11", "header": true}],
+   "merged": ["A1:D1"],
+   "col_widths": {"A": 26, "B": 22, "C": 18, "D": 30},
+   "comments": [{"cell": "B7", "text": "Outcome text not yet agreed with Avernelwick. Hold the summary until the mammalian sheet is signed off.", "author": "Kenji Morita"}]
+  },
+  {"name": "HepG2 viability", "rows": [
+    ["HepG2 viability screen (ATP content), 24 h and 48 h exposure. Investigation OT-08-S0114."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0117:cytotox", "at": "A3", "header": true}],
+   "freeze": "A4",
+   "col_widths": {"A": 16, "B": 18, "C": 18},
+   "number_formats": {"B4:C27": "0"},
+   "chart": {"kind": "bar", "ref": "PRJ0117:cytotox", "column": 1, "title": "24 h IC50 (µM)"},
+   "chart_at": "E3"
+  },
+  {"name": "Ames", "rows": [
+    ["Bacterial mutation assay with and without S9. Mean revertants per plate, n=3. Fold is against the vehicle control on the same strain."],
+    ["Control validity: each strain's positive control is recorded on the bench sheet, not repeated here."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0117:ames", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 10, "B": 12, "C": 16, "D": 10, "E": 8, "F": 16},
+   "number_formats": {"F5:F75": "0.00"}
+  },
+  {"name": "Micronucleus", "rows": [
+    ["Mammalian-cell micronucleus assessment (TK6). Treatment 3 h with and without S9, recovery to 24 h. Percent micronucleated cells, RPD against vehicle."],
+    ["Scoring on each culture by two readers, blind to treatment. Discordant reads are re-scored by the study director."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0117:micronucleus", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 14, "B": 16, "C": 14, "D": 12},
+   "comments": [{"cell": "A4", "text": "Mammalian signal does not line up with the Ames plates. Discuss at the next QA gate before Avernelwick sees the sheet.", "author": "Lucia Moretti"}]
+  }
+ ]
+}
