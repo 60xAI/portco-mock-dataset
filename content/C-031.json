@@ -1,0 +1,379 @@
+{
+  "family": "document",
+  "summary": "Final report for Kelbravik Therapeutics ApS covering human and rat Microsomal CLint and Hepatocyte depletion CLint. Matrix acceptance and analytical limitations precede the interpretation that hepatocyte turnover changed the shortlist.",
+  "properties": {
+    "title": "KT12 protease analogues: hepatocyte versus microsome stability"
+  },
+  "header": "Merrivoss Bioanalysis Inc, a Tarnovell company | MV-2021-284 | Final report R1",
+  "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "KT12 protease analogues: hepatocyte versus microsome stability",
+    "subtitle": "MV-2021-284 | Final report R1",
+    "lines": [
+      "Merrivoss Bioanalysis Inc, a Tarnovell company",
+      "Date: 12/20/2021",
+      "Prepared by: Megan Larkin, DMPK Study Director",
+      "Study: {{PRJ0063:project_id}}",
+      "Accession: {{PRJ0063:lims_id}}",
+      "Client: Kelbravik Therapeutics ApS"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Study synopsis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Human and rat liver microsomes and cryopreserved hepatocytes were used to examine {{PRJ0063:n_compounds}} compounds from the Kelbravik cyclopropyl carboxamide series 12. Microsomal incubations used 0.5 mg/mL protein at 1 µM; hepatocyte incubations used 0.5×10^6 cells/mL at 1 µM. Parent depletion was interpreted within each matrix before comparison across assays."
+        },
+        {
+          "p": "Testing began on 11/16/2021. An interim communication was issued on 12/03/2021 and this report closes the study on 12/20/2021. Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist. This conclusion does not identify the enzyme or quantify in vivo clearance."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0063:benchmark",
+            "caption": "Table 1. Study scope"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Purpose and decision context",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Kelbravik Therapeutics ApS required an assessment of whether the microsomal screen was sufficient for selection of protease analogues. The exposure gate was framed as a comparison of complementary depletion systems rather than a pass/fail decision against a universal clearance threshold."
+        },
+        {
+          "p": "A compound that appears stable in microsomes is not described as metabolically stable without reference to the hepatocyte result. A hepatocyte depletion estimate does not by itself establish poor exposure after oral administration. The shortlist change reflects the additional liability considered alongside the client's other selection information."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test article identification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The KT12 test article set is recorded under {{PRJ0063:lims_id}}. Compound identifiers in the tables are the identifiers used for comparison; row position must not be used as an alternative identifier. The assay worksheet dated 12/20/2021 is the supporting calculation record."
+        },
+        {
+          "p": "Identity, stock concentration and chemical purity are outside the analytical claim of this depletion study. A subsequent change in salt form, stock preparation or dosing material requires an explicit bridge before these results are applied to that material. An in vitro stock and a later dosing accession lot are not assumed interchangeable."
+        },
+        {
+          "image": {
+            "kind": "molecule_grid",
+            "ref": "PRJ0063",
+            "n": 8
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Matrix and species map",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Microsomal CLint is expressed in µL/min/mg. Hepatocyte depletion CLint is expressed in µL/min/10^6 cells. These denominators describe different biological systems and must remain attached to every transferred value. Human and rat columns are separate biological comparisons, not technical replicates."
+        },
+        {
+          "p": "Microsomes emphasize activity retained in a subcellular preparation under the incubation conditions. Intact hepatocytes add cellular context and access to intracellular pathways. A difference between systems can motivate follow-up but cannot discriminate metabolism, uptake, binding and nonspecific loss without additional experiments."
+        },
+        {
+          "table": {
+            "columns": [
+              "System",
+              "Species",
+              "Normalization"
+            ],
+            "rows": [
+              [
+                "Liver microsomes",
+                "Human and rat",
+                "Protein mass"
+              ],
+              [
+                "Cryopreserved hepatocytes",
+                "Human and rat",
+                "Cell number"
+              ]
+            ],
+            "caption": "Table 2. Matrix map"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Microsomal incubation procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Liver microsomes were incubated at 0.5 mg/mL protein with test article at 1 µM. A time-course depletion design uses a zero-time reference and matched termination conditions. Cofactor-supported depletion must be distinguished from background loss in the assay worksheet."
+        },
+        {
+          "p": "Parent response is related to the initial incubation response before fitting logarithmic depletion. The sampling interval must support a slope while preserving quantifiable parent. A censored half-life is retained as censored; it is not replaced by the final sampling time. The incubation concentration is a protocol setting, not evidence of linear metabolism at higher concentrations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Hepatocyte incubation procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cryopreserved hepatocytes were incubated at 0.5×10^6 cells/mL with test article at 1 µM. Human and rat incubations were considered separately. Suspension handling, equilibration and timed termination are documented in the assay worksheet."
+        },
+        {
+          "p": "The calculation uses the time course rather than terminal response alone. Decreasing parent response requires consideration of cell integrity, matrix response and noncellular loss before interpretation as turnover. Cell-number normalization does not correct for compound-specific uptake or intracellular binding; a cellular depletion result is not a measurement of hepatic extraction in the intact animal."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Tandem-MS measurement and analytical limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Parent measurement followed incubation termination. Javier Quintana was responsible for analytical interpretation. Blank matrix response, internal-standard behavior and response consistency are considered before release of a depletion fit."
+        },
+        {
+          "p": "Analytical limits are analyte- and matrix-specific. A response below the qualified quantitation range cannot be assigned an exact concentration merely to extend the fit. Such points require exclusion or censoring according to the assay worksheet. No common numerical lower limit is asserted for the complete test article set. Calibration and instrument files remain supporting analytical records."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Matrix acceptance and exceptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helen Marchwood reviewed matrix acceptance before depletion values were released. Analytical suitability precedes the exposure conclusion. The final tables must be read with the acceptance record in the assay worksheet."
+        },
+        {
+          "p": "An exception may affect a time point, an analyte or an entire incubation. A rejected measurement does not become acceptable because it agrees with the expected chemistry trend. This report does not assign a count of rejected runs or assert that no exceptions occurred. The worksheet controls exception traceability and the interpretation is limited to released estimates."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Calculation conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "For first-order depletion, the slope of log parent fraction remaining gives a disappearance rate constant. Half-life follows from that constant. Microsomal intrinsic clearance uses incubation volume and protein mass; hepatocyte intrinsic clearance uses incubation volume and cell number."
+        },
+        {
+          "p": "A log-linear region must represent a meaningful depletion process. Curvature, abrupt initial loss and a flat response near the quantitation limit may violate that assumption. A fitted slope alone is insufficient evidence of physiological interpretability."
+        },
+        {
+          "p": "Footnote: apparent in vitro intrinsic clearance is reported without a correction for incubation binding, hepatic scaling, blood-to-plasma partitioning or plasma protein binding."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Microsomal CLint results",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The full human and rat microsomal results follow. Clearance and half-life are paired descriptors of the same depletion experiment rather than independent demonstrations of stability. Greater-than signs denote censored half-lives and must be retained in transfers."
+        },
+        {
+          "p": "The microsomal screen provided the initial stability view. Its value is comparison under consistent assay conditions; its limitation is the range of clearance processes represented by the preparation."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0063:mic_stab",
+            "max_rows": 45,
+            "caption": "Table 3. Microsomal CLint and half-life"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Hepatocyte depletion CLint results",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Human and rat hepatocyte depletion results retain cell-number normalization. Read each species column independently and compare each compound with its own microsomal record. Do not divide cell-normalized and protein-normalized values to generate an assay ratio."
+        },
+        {
+          "p": "The added cellular system revealed turnover relevant to selection that the microsomal screen did not capture. The complementary observation, rather than a change of units, led to reconsideration of the shortlist."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0063:hep_stab",
+            "max_rows": 45,
+            "caption": "Table 4. Hepatocyte depletion CLint"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Human matrix comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The human comparison places identical KT12 identities in different metabolic contexts. A reassuring microsomal profile cannot establish parent persistence in intact human hepatocytes. The cellular result adds information absent from the initial screen."
+        },
+        {
+          "p": "The additional route remains mechanistically unresolved. This study does not separate conjugation, other nonmicrosomal metabolism, transporter effects and irreversible sequestration. Preserve estimates and assay names in decision records; a single stability label would obscure the observation that changed selection."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Rat matrix comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rat data provide a species-specific companion to the human assessment. Their relevance to a later rat exposure study depends on dosing material and experimental context. Rat in vitro clearance is not assumed to predict human clearance simply because the direction of a liability agrees."
+        },
+        {
+          "p": "Species differences are retained rather than averaged away. Agreement supports a cross-system observation but does not identify a biological route. No scaling model is supplied here. An in vitro rank must remain distinct from a projected plasma concentration-time profile."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Interpretation of the additional route",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist. The phrase describes the operational finding that the intact-cell system identifies parent loss beyond the initial microsomal assessment. It does not name a metabolite or assign an enzyme."
+        },
+        {
+          "p": "Compounds considered reassuring on the microsomal screen alone require a broader clearance assessment. The report does not prescribe a potency ranking: potency was not measured. The shortlist is a client decision incorporating other attributes, and no compound-specific progression list is substituted for that selection record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Sensitivity and caveats",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The depletion comparison is sensitive to initial response, fitted interval and treatment of low terminal signals. An apparently long half-life may represent limited measurable turnover within the observation window. A steep decline may include early nonspecific loss unless supporting controls discriminate it."
+        },
+        {
+          "p": "Interpretation is strongest when a coherent time course and matrix acceptance support measurement. Censoring and a narrow measurable interval weaken precision. These limitations must accompany results transferred into selection spreadsheets. Intrinsic-clearance units do not represent clearance from plasma; exposure in ng·h/mL was not measured."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Follow-up recommendations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Where selection depends on the matrix discrepancy, confirm parent depletion in the relevant cellular system before assigning a mechanism. Choose experiments that distinguish plausible routes rather than repeating the microsomal screen to answer a cellular question."
+        },
+        {
+          "p": "A later exposure study should use traceable dosing material and analyte-specific measurement. Species, route and formulation should suit the intended decision. Binding corrections must remain separate from measured depletion. Megan Larkin recommends retaining both assay results in the selection record so the liability remains visible against future chemistry."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Supporting assay worksheet",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "MV-2021-284_AssayWorksheet_122021_v03.xlsx, dated 12/20/2021, covers the KT12 set in human and rat microsomes and cryopreserved hepatocytes at 1 µM. Matrix acceptance was recorded before the depletion values were released."
+        },
+        {
+          "p": "The worksheet supports calculations and exception traceability. This report provides released tabulation and interpretation. A correction must identify the worksheet entry and corresponding report table so a calculation amendment cannot leave an inconsistent conclusion. The 12/03/2021 interim communication is superseded for new study interpretation by R1."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Release responsibilities and records",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Megan Larkin owns the DMPK interpretation; Javier Quintana owns the analytical assessment; Helen Marchwood owns matrix acceptance review. Analytical acceptability and biological interpretability are distinct release considerations."
+        },
+        {
+          "p": "Records remain under {{PRJ0063:lims_id}} and {{PRJ0063:project_id}}. The assay worksheet and analytical files support the released estimates. Extracts must identify R1 and preserve units, species, matrix and censoring notation. Later amendments require a traceable revision rather than silent replacement of a transferred value."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Final conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Microsomal CLint and Hepatocyte depletion CLint provide complementary views of the KT12 test article set in human and rat. The study is complete and results retain their original normalization. No in vivo exposure or enzyme-specific mechanism is claimed."
+        },
+        {
+          "p": "Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist. Future comparisons should preserve the cellular liability alongside the initial microsomal profile rather than reducing this study to one stability descriptor."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director",
+      "date": "12/20/2021",
+      "signed": true
+    },
+    {
+      "name": "Javier Quintana",
+      "role": "Mass-Spectrometry Manager",
+      "date": "12/20/2021",
+      "signed": true
+    },
+    {
+      "name": "Helen Marchwood",
+      "role": "Bioanalytical Quality Manager",
+      "date": "12/20/2021",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
