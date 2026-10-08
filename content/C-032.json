@@ -1,0 +1,445 @@
+{
+  "family": "document",
+  "summary": "Final qualitative study report for Nimbravelle Medicines Inc on rat exposure with tandem-MS bioanalysis between two NM-84 dosing lots. The report defines the matrix, analytical boundaries and basis for retaining the original efficacy interpretation; numerical profiles remain in the study readout.",
+  "properties": {
+    "title": "NM-84 exposure bridge between dosing lots"
+  },
+  "header": "Merrivoss Bioanalysis Inc, a Tarnovell company | MV-2023-288 | Final report R1",
+  "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "NM-84 exposure bridge between dosing lots",
+    "subtitle": "MV-2023-288 | Final report R1",
+    "lines": [
+      "Merrivoss Bioanalysis Inc, a Tarnovell company",
+      "Date: 11/27/2023",
+      "Prepared by: Megan Larkin, DMPK Study Director",
+      "Study: {{PRJ0065:project_id}}",
+      "Accession: {{PRJ0065:lims_id}}",
+      "Client: Nimbravelle Medicines Inc"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Study synopsis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rat plasma was the exposure matrix for the NM-84 bridge between the two dosing lots. Parent measurement used Rat exposure with tandem-MS bioanalysis. Matrix acceptance is recorded per analytical run in the assay worksheet before comparison of the lot profiles."
+        },
+        {
+          "p": "The study began on 10/16/2023, reached interim communication on 11/06/2023 and completed on 11/27/2023. Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation. This is a qualitative bridging conclusion, not a numerical bioequivalence determination."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Study record"
+            ],
+            "rows": [
+              [
+                "Project",
+                "{{PRJ0065:project_id}}"
+              ],
+              [
+                "Client",
+                "Nimbravelle Medicines Inc"
+              ],
+              [
+                "Accession",
+                "{{PRJ0065:lims_id}}"
+              ],
+              [
+                "Matrix / species",
+                "Plasma / rat"
+              ],
+              [
+                "Assessment",
+                "Parent exposure bridge between dosing lots"
+              ],
+              [
+                "Completion",
+                "11/27/2023"
+              ]
+            ],
+            "caption": "Table 1. Study summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Study identification and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "{{PRJ0065:project_id}} is an exposure bridge for NM-84, not a screening set of newly synthesized analogues. The accession identifier {{PRJ0065:lims_id}} connects the analytical records, assay worksheet and readout. Dosing lots remain distinct throughout sample interpretation."
+        },
+        {
+          "p": "The study addresses whether a material change disrupts the exposure basis of the existing efficacy interpretation. It does not repeat the efficacy study or establish a new pharmacodynamic relationship. Its scope is parent exposure in rat under the recorded dosing and sampling conditions."
+        },
+        {
+          "table": {
+            "columns": [
+              "Record",
+              "Function"
+            ],
+            "rows": [
+              [
+                "Assay worksheet",
+                "Dosing and sampling protocol; matrix acceptance"
+              ],
+              [
+                "Readout",
+                "Lot comparison"
+              ],
+              [
+                "Final report R1",
+                "Interpretive closure"
+              ]
+            ],
+            "caption": "Table 2. Record map"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Scientific objective",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The question was whether exposure associated with the comparison dosing lot was sufficiently consistent with the original lot to preserve the existing interpretation. A material comparison needs the same analyte definition, matrix and sampling context before differences in exposure can be attributed to the lot."
+        },
+        {
+          "p": "The bridge does not establish interchangeability under every formulation, route or dose. Its decision context is the original efficacy interpretation. Any later change in those conditions requires its own assessment rather than automatic extension of this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Dosing-lot traceability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The two NM-84 dosing lots are distinguished by their original material records. Lot identity is carried from dosing preparation into the sampling record and the analytical sequence. Neither a sample position nor a run order is an acceptable substitute for lot identity."
+        },
+        {
+          "p": "This report uses original lot and comparison lot as descriptive labels, without assigning new material codes. The supporting dosing record controls the material designation. A relabeling for client presentation must retain a reversible mapping to that record."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Species and sample matrix",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rat plasma is considered independently of dose formulation and analytical extract. The matrix is the biological specimen in which parent was measured; the formulation is the material administered. Mixing these terms can obscure whether an observation arises before dosing or during measurement."
+        },
+        {
+          "p": "The conclusion concerns rat exposure. It does not establish human exposure or a species conversion. Serum, whole blood and tissue measurements cannot be substituted for plasma without a separate analytical and biological justification."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Dosing protocol record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The dosing and sampling protocol is set out in MV-2023-288_AssayWorksheet_112723_v03.xlsx. The record should be used when assessing route, dose preparation and sampling alignment. The bridge interpretation is conditional on that experimental context."
+        },
+        {
+          "p": "A nominal dose alone is insufficient to explain exposure. Preparation, administration and sample timing all matter. The report does not invent dose values or routes to fill out the bridge narrative, and it does not claim an Oral/IV PK comparison where the dosing record must establish the design."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Sampling design and timing",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Sample time is referenced to administration for the relevant animal and dosing lot. Planned and actual collection times serve different purposes: planned time describes the design, while actual time supports interpretation of the measured profile."
+        },
+        {
+          "p": "An apparent lot difference near an early peak may reflect timing mismatch. Terminal points require particular care because the observation window influences the apparent persistence of parent. The readout carries the profile comparison; this narrative does not reconstruct a time course from isolated statements."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Sample receipt and accession",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Samples are linked to {{PRJ0065:lims_id}} through the accession record. Receipt information preserves matrix, biological identity, dosing lot and collection-time designation. Analytical processing must retain those links even when sequence order changes."
+        },
+        {
+          "p": "Any uncertainty in sample identity is a traceability issue before it is an exposure issue. A plausible concentration cannot resolve a labeling discrepancy. Corrections require a documented link to the original collection record and must be visible in the supporting study file."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Sample handling boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Plasma handling is assessed against the conditions qualified for the NM-84 analytical procedure. Storage, processing and repeat extraction can influence parent recovery independently of systemic exposure. Handling information therefore belongs alongside matrix acceptance."
+        },
+        {
+          "p": "This report does not assert a numerical storage duration or stability window. The analytical record controls those bounds. A sample outside its qualified handling conditions cannot be described as representative merely because it resembles the other lot profile."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Parent analyte definition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The bridge concerns NM-84 parent measured by tandem-MS bioanalysis. Metabolite signals, total drug-related material and pharmacological activity are separate quantities. A parent-exposure bridge cannot establish that metabolite exposure was also comparable."
+        },
+        {
+          "p": "Javier Quintana is responsible for analytical interpretation. Selectivity is evaluated in the relevant plasma matrix, with attention to interference and internal-standard behavior. A signal attributed to parent requires analytical support rather than reliance on expected sampling order."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Calibration and analytical range",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Calibration defines the range within which a sample concentration is reportable. Matrix acceptance supports use of that range for the analytical run. A response outside the qualified interval is not given an exact concentration by unconstrained extrapolation."
+        },
+        {
+          "p": "The numerical calibration limits belong to the analyte-specific record. This final narrative does not state a common lower or upper limit without that record. Dilution, re-extraction and censoring decisions must be traceable to the individual sample and run."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Matrix acceptance review",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helen Marchwood is responsible for the matrix acceptance review. The assay worksheet records acceptance per run, so the lot comparison is evaluated after analytical suitability rather than used as a reason to overlook a run concern."
+        },
+        {
+          "p": "Acceptance of a run and disposition of a sample are distinct. A run may support most samples while a particular sample remains limited. Conversely, remeasurement of one sample cannot rescue a complete run that fails the established criteria. No unsupported all-runs-pass assertion is made here."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Acceptance exceptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "An exception is documented with its scope, disposition and effect on the lot comparison. The supporting record distinguishes problems with matrix response from uncertainty in sample identity or timing. These causes should not be collapsed into a generic repeat label."
+        },
+        {
+          "p": "Rejected and superseded measurements remain traceable. Only the selected reportable result contributes to the readout. This report does not assign a count of exceptions or repeats; the run-level worksheet is the controlling record for those details."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Repeat measurement conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A repeat should answer a documented analytical question. The reason is recorded before the replacement result is interpreted, with linkage to the original extraction or measurement. Selection of a favorable concentration solely to improve lot agreement is not an acceptable bridge procedure."
+        },
+        {
+          "p": "Where both measurements are analytically reportable, the disposition follows the established study convention and remains explicit. The final narrative conclusion must not conceal sensitivity to a repeat, a dilution or a low-response sample."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Exposure calculation boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The readout contains the lot comparison. Exposure quantities such as area under the plasma concentration-time curve are expressed in ng·h/mL, with the observation interval attached. Peak concentration, exposure and terminal persistence describe different aspects of a profile."
+        },
+        {
+          "p": "No numerical AUC, peak concentration or half-life is reproduced in this report. The qualitative bridge conclusion should not be converted into a numerical lot ratio. Calculations must preserve actual sample timing and treatment of below-range observations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Below-range and missing observations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A below-range response is censored analytical information rather than a measured zero. A missing sample is absence of an observation rather than evidence of no exposure. Each has a different implication for the comparison and for any derived exposure quantity."
+        },
+        {
+          "p": "The treatment of these observations belongs in the readout and supporting calculation record. An assumption used for integration must be stated, particularly at the start or end of a profile. This report does not imply that all planned observations were available and quantifiable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Basis of the lot comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The decision rests on comparable exposure across the two dosing lots in the study context. The comparison must be interpreted with matrix acceptance, sample timing and analytical limits already considered. Similarity of isolated concentrations alone would be a weaker basis than the exposure assessment carried in the readout."
+        },
+        {
+          "p": "No numerical equivalence margin or statistical confidence interval is asserted here. The outcome supports retention of the original efficacy interpretation within the assessed context, not a formal determination of equivalence for every future use."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Efficacy interpretation retained",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation. The bridge removes the need to reinterpret that efficacy observation solely on the basis of the dosing-lot change addressed in this study."
+        },
+        {
+          "p": "It does not prove identical biological response from the lots, nor does it establish efficacy in a new model. The retained interpretation still depends on the original study design and biological evidence. Parent exposure is one part of that chain, not a replacement for it."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "19 Limits of transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The bridge conclusion is specific to rat, the measured parent and the recorded dosing context. A different species, formulation, dose schedule or analyte definition changes the comparison. Such changes should be assessed before this conclusion is reused."
+        },
+        {
+          "p": "The report does not establish impurity equivalence, long-term material stability or manufacturing consistency. Those questions require the appropriate material records and studies. Exposure comparability is retained as the precise scientific claim."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "20 Readout and assay worksheet relationship",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "MV-2023-288_AssayWorksheet_112723_v03.xlsx, dated 11/27/2023, documents the dosing and sampling protocol and matrix acceptance per run. The lot comparison itself is in the readout. These records have complementary purposes and should remain linked."
+        },
+        {
+          "p": "A transferred summary should cite the project identifier and the record from which it was drawn. The assay worksheet alone is not a substitute for the lot comparison. This report is the interpretive closure and should not be used to reconstruct unreported numerical profiles."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "21 Study chronology and communication",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The project was quoted on 09/14/2023, began on 10/16/2023 and reached its interim communication on 11/06/2023. Completion is recorded on 11/27/2023. The final report supersedes interim statements for new use of the bridge conclusion."
+        },
+        {
+          "p": "The study turnaround is {{PRJ0065:turnaround_days}} calendar days. Administrative timing is distinct from analytical run timing and sample collection timing. Completion of a report does not establish an additional biological observation beyond the assessed study."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "22 Release and archival responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Megan Larkin releases the DMPK interpretation. Javier Quintana is responsible for the tandem-MS analytical assessment, and Helen Marchwood for matrix acceptance review. A subsequent amendment should identify whether it changes an analytical disposition or the scientific interpretation."
+        },
+        {
+          "p": "The archive is indexed by {{PRJ0065:project_id}} and {{PRJ0065:lims_id}}. Original measurement, repeat disposition, assay worksheet and readout links remain part of the study record. A corrected summary must not silently replace the historical comparison."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "23 Final conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Rat exposure with tandem-MS bioanalysis supported the NM-84 dosing-lot bridge for Nimbravelle Medicines Inc. Matrix acceptance is recorded per run; the exposure comparison remains in the readout with its numerical and sampling context."
+        },
+        {
+          "p": "Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation. This report closes the study without extending that conclusion to human exposure, metabolites or unassessed dosing conditions."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Megan Larkin",
+      "role": "DMPK Study Director",
+      "date": "11/27/2023",
+      "signed": true
+    },
+    {
+      "name": "Javier Quintana",
+      "role": "Mass-Spectrometry Manager",
+      "date": "11/27/2023",
+      "signed": true
+    },
+    {
+      "name": "Helen Marchwood",
+      "role": "Bioanalytical Quality Manager",
+      "date": "11/27/2023",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
