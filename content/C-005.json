@@ -1,0 +1,170 @@
+{
+  "family": "deck",
+  "summary": "Final {{PRJ0062:project_id}} human microsomal DDI screen and CYP3A4 confirmation readout. Matrix controls and analytical limitations precede the decision. The CYP3A4 follow-up confirmed liability in the lipophilic cap variants; Orvessant switched to the alternate cap.",
+  "properties": {
+    "title": "OB11 DDI assessment: screen and CYP3A4 confirmation",
+    "subject": "Orvessant Biosciences Pty Ltd final DMPK readout, 04/29/2020",
+    "keywords": "PRJ0062; matrix acceptance; analytical limits; final"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "OB11 DDI assessment: screen and CYP3A4 confirmation",
+      "subtitle": "Orvessant Biosciences Pty Ltd | {{PRJ0062:project_id}} | Final readout, 04/29/2020\nDr M. Larkin | Merrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Test article set and study sequence",
+      "bullets": [
+        "{{PRJ0062:n_compounds}} test articles under {{PRJ0062:lims_id}}",
+        "Piperidyl benzamide GPCR antagonists; study 04/10/2020–04/29/2020, interim 04/20/2020",
+        "Five-isoform DDI screen at 10 µM followed by CYP3A4 inhibition curves"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Human microsomal matrix and readout",
+      "bullets": [
+        "Human liver microsomes with isoform-selective probe substrates",
+        "Screen: mean inhibition relative to vehicle at 10 µM",
+        "Confirmation: midazolam 1′-hydroxylation concentration response; IC50 in µM"
+      ],
+      "notes": "Results describe the tested probe and incubation conditions. This is not a clinical interaction prediction or a complete time-dependent inhibition assessment.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Matrix acceptance: reference inhibitor results",
+      "table": {
+        "columns": [
+          "Isoform",
+          "Reference inhibitor",
+          "IC50 (µM)",
+          "Historical mean (µM)"
+        ],
+        "rows": [
+          [
+            "CYP1A2",
+            "Furafylline",
+            "{{PRJ0062:cyp.control_CYP1A2_uM}}",
+            "{{PRJ0062:cyp.hist_CYP1A2_uM}}"
+          ],
+          [
+            "CYP2C9",
+            "Sulfaphenazole",
+            "{{PRJ0062:cyp.control_CYP2C9_uM}}",
+            "{{PRJ0062:cyp.hist_CYP2C9_uM}}"
+          ],
+          [
+            "CYP2C19",
+            "Ticlopidine",
+            "{{PRJ0062:cyp.control_CYP2C19_uM}}",
+            "{{PRJ0062:cyp.hist_CYP2C19_uM}}"
+          ],
+          [
+            "CYP2D6",
+            "Quinidine",
+            "{{PRJ0062:cyp.control_CYP2D6_uM}}",
+            "{{PRJ0062:cyp.hist_CYP2D6_uM}}"
+          ],
+          [
+            "CYP3A4",
+            "Ketoconazole",
+            "{{PRJ0062:cyp.control_CYP3A4_uM}}",
+            "{{PRJ0062:cyp.hist_CYP3A4_uM}}"
+          ]
+        ]
+      },
+      "notes": "Helen Marchwood reviews control response against the laboratory acceptance window. Javier Quintana reviews the metabolite analytical sequence. Each supplied control value is shown with its historical comparator.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reporting limits before ranking",
+      "bullets": [
+        "Single-point inhibition flags a follow-up question; it is not an IC50",
+        "Negative inhibition denotes response above the vehicle comparator, not enzyme activation",
+        "An IC50 above the top concentration remains a bound; do not assign a finite value"
+      ],
+      "notes": "Compound-specific analytical quantitation limits are not supplied. Consult the assay worksheet for marginal responses.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Five-isoform DDI screen: compound results",
+      "table": {
+        "table_ref": "PRJ0062:cyp_inhib",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "CYP3A4 single-point inhibition",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0062:cyp_inhib",
+        "column": 5,
+        "title": "CYP3A4 inhibition (%) at 10 µM"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Screen flags across the panel",
+      "bullets": [
+        "{{PRJ0062:cyp.n_any_gt50}} test articles exceeded 50% in at least one isoform",
+        "CYP3A4: {{PRJ0062:cyp.n_gt50_CYP3A4}} above 50%; CYP2C19: {{PRJ0062:cyp.n_gt50_CYP2C19}}; CYP2C9: {{PRJ0062:cyp.n_gt50_CYP2C9}}",
+        "CYP1A2: {{PRJ0062:cyp.n_gt50_CYP1A2}}; CYP2D6: {{PRJ0062:cyp.n_gt50_CYP2D6}}"
+      ],
+      "notes": "Isoform counts overlap; do not sum them to obtain affected test articles.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "CYP3A4 inhibition curves: fitted endpoints",
+      "table": {
+        "table_ref": "PRJ0062:cyp_ic50",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "OB11: representative test article structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0062",
+        "n": 6
+      },
+      "notes": "Representative structures aid identity matching; they do not designate nominated leads.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Confirmation and chemistry decision",
+      "bullets": [
+        "{{PRJ0062:cyp3a4_ic50.n_tested}} test articles evaluated in CYP3A4 concentration response",
+        "{{PRJ0062:cyp3a4_ic50.n_lt_10uM}} below 10 µM; {{PRJ0062:cyp3a4_ic50.n_lt_1uM}} below 1 µM",
+        "The CYP3A4 follow-up confirmed liability in the lipophilic cap variants; Orvessant switched to the alternate cap."
+      ],
+      "notes": "The below-1 µM count is included in the below-10 µM count. No additional compound shortlist is supplied.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final DMPK memo and handoff",
+      "bullets": [
+        "Use the alternate cap as the chemistry direction; retain the lipophilic-cap branch as comparator",
+        "Megan Larkin: state the probe-specific interpretation and exposure assumptions",
+        "Keep controls, single-point results and fitted endpoints together under {{PRJ0062:lims_id}}"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
