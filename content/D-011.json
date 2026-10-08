@@ -1,0 +1,59 @@
+{"family": "workbook",
+ "summary": "QV.26.091 interim analysis notebook for Valquessia Pharmaceuticals SpA. The count matrix is accepted and the RNA-seq contrasts are fitted, but the clinical covariate contrasts are provisional and the model-review table is open until revised sample metadata arrives. Conclusions are pending; nothing here is for decision.",
+ "properties": {"title": "VP-B covariate model: interim notebook", "subject": "Bulk RNA-seq covariate model, interim", "keywords": "RNA-seq; covariate model; interim; Valquessia"},
+ "sheets": [
+  {"name": "Cover",
+   "rows": [
+    [{"v": "Quenverell Computational Ltd, a Tarnovell company", "bold": true}],
+    [{"v": "VP-B bulk RNA-seq: clinical covariate model (INTERIM)", "bold": true}],
+    [],
+    ["Project", "{{PRJ0082:project_id}}"],
+    ["LIMS", "{{PRJ0082:lims_id}}"],
+    ["Client", "{{PRJ0082:client_variant}}"],
+    ["Price", "{{PRJ0082:price}}"],
+    [],
+    ["Author", "Dr A. Briand"],
+    ["Checked by", ""],
+    ["Interim date", "23/09/2026"],
+    ["Engagement status", "In progress"],
+    [],
+    ["Notebook status", "Interim. Partial results only; final conclusions pending revised sample metadata from the client."]
+   ],
+   "col_widths": {"A": 24, "B": 70}, "merged": ["A1:B1", "A2:B2"]},
+  {"name": "Sample QC",
+   "rows": [
+    ["Step", "Status", "Note"],
+    ["Count matrix", "Accepted", "Accepted for downstream use on 23/09/2026"],
+    ["Library size", "Accepted", "All libraries within the acceptance band in the analysis plan"],
+    ["Sample sheet", "Open", "Clinical fields incomplete for part of the cohort; revised sheet requested from the client"],
+    ["Batch column", "Open", "Batch labels not yet matched to the sequencing run log"],
+    ["Donor pairing", "", ""],
+    ["", "", ""]
+   ],
+   "col_widths": {"A": 22, "B": 16, "C": 70}, "freeze": "A2",
+   "comments": [{"cell": "C4", "text": "Do not fit the covariate terms until the batch column is matched to the run log", "author": "Dr E. Ostlund"}]},
+  {"name": "Covariate model",
+   "rows": [
+    ["Term", "Role", "Status", "Note"],
+    ["Condition", "Primary contrast", "Fitted", "Provisional until sample metadata is revised"],
+    ["Sex", "Covariate", "Fitted", "Provisional"],
+    ["Age band", "Covariate", "Fitted", "Band boundaries as in the study plan"],
+    ["Clinical response group", "Covariate", "Provisional", "Depends on revised sample sheet"],
+    ["Collection batch", "Covariate", "Not fitted", "Waiting for batch labels"],
+    ["Donor", "Random term", "Not fitted", "Waiting for donor pairing"]
+   ],
+   "col_widths": {"A": 26, "B": 20, "C": 14, "D": 56}, "merged": ["A1:D1"], "freeze": "A2",
+   "comments": [{"cell": "D3", "text": "Keep the sex term in until the metadata review; the decision on removing it has not been made", "author": "Nadia Rahmani"}]},
+  {"name": "Model review",
+   "rows": [
+    ["Contrast", "Reviewer", "Review date", "Log2 fold change", "Adjusted probability", "Comment"],
+    ["Condition, primary", "Dr A. Briand", "23/09/2026", "Provisional", "Provisional", "Interim only"],
+    ["Condition, adjusted for sex and age", "", "", "", "", ""],
+    ["Clinical response group", "", "", "", "", "Blocked on revised sample sheet"],
+    ["Condition, batch-adjusted", "", "", "", "", ""],
+    ["", "", "", "", "", ""],
+    ["", "", "", "", "", ""]
+   ],
+   "col_widths": {"A": 34, "B": 16, "C": 14, "D": 18, "E": 20, "F": 40}, "freeze": "A2",
+   "comments": [{"cell": "A3", "text": "Rows left blank until the model is refitted on the revised metadata", "author": "Dr E. Ostlund"}, {"cell": "F2", "text": "Mark provisional where the batch column is not matched", "author": "Nadia Rahmani"}]}
+ ]}
