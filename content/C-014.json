@@ -1,0 +1,77 @@
+{"family": "workbook",
+ "summary": "Assay worksheet for MV-2006-090, the NM08 paired liver systems study for Nimbravelle Medicines Inc: 24 aminotriazine analogues run in microsomal and cryopreserved hepatocyte CLint, with the accession-lot mapping and matrix acceptance checks. Microsomal and hepatocyte rankings agree for most of the set; the analogues Nimbravelle advanced are the ones with slower hepatocyte turnover that also rank well in microsomes.",
+ "properties": {"title": "MV-2006-090 assay worksheet (NM08 liver systems)"},
+ "sheets": [
+  {"name": "Summary",
+   "rows": [
+    [{"v": "Merrivoss Bioanalysis Inc: assay worksheet", "bold": true}],
+    ["Project", {"ref": "PRJ0055:project_id"}, null, "LIMS", {"ref": "PRJ0055:lims_id"}],
+    ["Client", "{{PRJ0055:client_variant}}"],
+    ["Study", "NM08 paired liver systems: HLM and hepatocyte clearance"],
+    ["Series", "SER08, aminotriazine (NM08 prefix)"],
+    ["Compounds", {"ref": "PRJ0055:n_compounds"}, "analogues, all run in both systems"],
+    ["Quote / start / completion", "05/22/2006", "06/05/2006", "07/18/2006"],
+    [],
+    ["Assay", "System", "Sheet"],
+    ["Microsomal CLint", "Liver microsomes, 0.5 mg/mL protein, 1 µM substrate", "Microsomal CLint"],
+    ["Hepatocyte CLint", "Cryopreserved hepatocytes, 0.5×10^6 cells/ml, 1 µM", "Hepatocyte CLint"],
+    ["Matrix acceptance", "Blanks and controls for both systems", "QC and benchmark"],
+    [],
+    ["Reviewed by", "Megan Larkin", null, "Checked", "Helen Marchwood, 07/18/2006"]
+   ],
+   "col_widths": {"A": 26, "B": 46, "C": 16, "D": 16, "E": 30},
+   "merged": ["A1:E1"],
+   "comments": [{"cell": "B4", "text": "Client name as on the purchase order. Study title carried over from the quote.", "author": "Javier Quintana"}]
+  },
+  {"name": "Microsomal CLint",
+   "rows": [
+    [{"v": "Liver microsomal stability (house name: Microsomal CLint)", "bold": true}],
+    ["0.5 mg/mL protein, 1 µM test article, NADPH regenerating system. Clearance in µL/min/mg; half-life from the log-linear slope. Species: human and rat."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0055:mic_stab", "at": "A4"}],
+   "freeze": "A5",
+   "col_widths": {"A": 24, "B": 22, "C": 22, "D": 20, "E": 16},
+   "number_formats": {"C5:C28": "0", "E5:E28": "0"},
+   "chart": {"kind": "bar", "ref": "PRJ0055:mic_stab", "column": 1, "title": "Human CLint (µL/min/mg)", "y_label": "µL/min/mg"},
+   "chart_at": "G4",
+   "comments": [{"cell": "C4", "text": "Human column in µL/min/mg, rat in µL/min/mg as well; rat points with poor log-linear fit re-run in the second batch.", "author": "Javier Quintana"}]
+  },
+  {"name": "Hepatocyte CLint",
+   "rows": [
+    [{"v": "Cryopreserved hepatocyte stability (house name: Hepatocyte depletion CLint)", "bold": true}],
+    ["1 µM test article, 0.5 x 10^6 cells/ml, 37 °C, sampling to 120 min. Units µL/min/10^6 cells. Two lots of hepatocytes used; lot is noted in the accession-lot map."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0055:hep_stab", "at": "A4"}],
+   "freeze": "A5",
+   "col_widths": {"A": 24, "B": 30, "C": 30},
+   "number_formats": {"B5:C28": "0.0"},
+   "chart": {"kind": "scatter", "ref": "PRJ0055:hep_stab", "column": 1, "title": "Human hepatocyte CLint (µL/min/10^6 cells)"},
+   "chart_at": "F4",
+   "tab_color": "#7F7F7F"
+  },
+  {"name": "QC and benchmark",
+   "rows": [
+    [{"v": "Accession-lot mapping", "bold": true}],
+    ["Lot", "Systems", "Compounds", "Received", "Notes"],
+    ["M06/BIO/02077-A", "Microsomes (human, rat)", "NM08-08401 to NM08-08412", "06/07/2006", "Lot checked against vendor CoA; no deviations"],
+    ["M06/BIO/02077-B", "Microsomes (human, rat)", "NM08-08413 onward", "06/07/2006", "Mass-spec run carried over from lot A"],
+    ["M06/BIO/02077-C", "Hepatocytes", "All 24", "06/12/2006", "Viability at thaw checked before the run; acceptable"],
+    [],
+    [{"v": "Matrix acceptance", "bold": true}],
+    ["Check", "Result", "Acceptance", "Comment"],
+    ["Blank incubations", "No peak above LLOQ", "Required", "Accepted"],
+    ["Positive control (verapamil)", "Within 2-fold of historical", "Required", "Accepted; rat slope slightly low on the second run"],
+    ["Negative control (no NADPH)", "Stable over 60 min", "Required", "Accepted"],
+    ["Analytical limits", "Calibration 1 to 2000 nM, r² above 0.99", "Required", "Limit of quantitation applied as stated in the study plan"],
+    [],
+    [{"v": "Project benchmark summary", "bold": true}]
+   ],
+   "data_refs": [{"table_ref": "PRJ0055:benchmark", "at": "A15"}],
+   "col_widths": {"A": 30, "B": 38, "C": 26, "D": 16, "E": 44},
+   "merged": ["A1:E1", "A7:E7"],
+   "freeze": "A2",
+   "hidden": false
+  }
+ ]}
