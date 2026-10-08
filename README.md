@@ -2,7 +2,7 @@
 
 A fictional document archive for demoing AI Brain on a buy-and-build portfolio company (DEV-1369, DEV-1370). Everything in it is invented: the firms, people, clients, compounds, projects and results.
 
-- **Archive to ingest:** `output/archive/` (306 files). The held-back firm G is in `output/heldback_firm_G/` (34 files).
+- **Ready to ingest:** `tarnovell_archive.zip` (306 files) first, then `tarnovell_firm_G_heldback.zip` (34 files, firm G) for the acquisition step. Unzipped sources: `output/archive/` and `output/heldback_firm_G/`.
 - **Answer key:** `output/golden_set.json`. Don't ingest it.
 - **How it was made and how to regenerate it:** [`docs/datasheet.md`](docs/datasheet.md).
 
