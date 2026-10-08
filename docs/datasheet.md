@@ -36,7 +36,7 @@ Locators: `answer_page_number` gives the pages carrying the most planted facts (
 5. **Content** (`content/*.json`): 48 planted and pilot files were written by the orchestrator; 153 by GPT-6.1 Sol (medium effort); 104 by Claude Haiku 5.5 (medium); 20 junk files by Claude Haiku 5.5 (low); 15 exports, CSVs and script files by code. All runs used the builder's own subscriptions in T3 Code (no paid API spend).
 6. **Rendering** (`mockgen render`): python-pptx, openpyxl and python-docx for OOXML; headless LibreOffice for legacy .ppt/.xls/.doc and PDF; scans are rasterised, skewed, noised and stamped into image-only PDFs. Charts use matplotlib and molecule grids use RDKit. Rendering is deterministic and never calls a model.
 7. **Checks** (`mockgen submit`, `mockgen validate --all`): schema, blocklisted or unregistered names, numbers matching the world, planted facts present, dates inside employment windows, era rules (no group brand before 2020, no client name before it was in use, no firm G variant outside G), no cryo-EM, no writer commentary, the 350-file cap, and each file reopening (OCR for scans).
-8. **Review**: GPT-6.1 Sol critiqued every planted and pilot file. The first two samples of Haiku-written files needed fixes in 16 of 20 cases, so Sol then reviewed and fixed every Haiku-written background file (`critique/`). Junk files were not reviewed.
+8. **Review**: GPT-6.1 Sol critiqued every planted and pilot file, and the fixes were applied. The first two samples of Haiku-written files needed fixes in 16 of 20 cases, so Sol then reviewed and fixed every Haiku-written background file in one pass: 101 files reviewed, 97 with fix-level issues, all rewritten and re-accepted (`critique/stage8-*.yaml`). The three Haiku price lists were redone against the list-price table instead. Sol-written background files were not critiqued, and junk files were not reviewed.
 
 Decisions and deviations from the spec are logged in `docs/decisions.md`.
 
@@ -58,7 +58,7 @@ uv run mockgen golden
 uv run mockgen export
 ```
 
-Re-rendering from the committed `content/` reproduces the archive without any model calls. Writing new content uses `mockgen next` (which prints the model target for each batch), `mockgen pack <id>`, `mockgen submit <id> <json>` and `mockgen commit <id>`; the writer briefs are in `briefs/`.
+Re-rendering from the committed `content/` reproduces the archive without any model calls. Git does not keep file modification times, so run `uv run mockgen export` after cloning to restore each file's archive date (it also rewrites `output/MANIFEST.tsv`). Writing new content uses `mockgen next` (which prints the model target for each batch), `mockgen pack <id>`, `mockgen submit <id> <json>` and `mockgen commit <id>`; the writer briefs are in `briefs/`.
 
 ## Known limitations
 
