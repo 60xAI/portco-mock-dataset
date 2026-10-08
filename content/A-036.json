@@ -1,0 +1,279 @@
+{
+  "family": "document",
+  "summary": "Final report for Doventhar Therapeutics on {{PRJ0022:n_compounds}} benzofuran acetamides. Crystallisation replaced chromatography for the shared intermediate and supported the outsourced follow-up delivery lot; the complete synthesis table identifies isolated material.",
+  "properties": {
+    "title": "VD-19-120 | Route scout and delivery | Revision A"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "VD-19-120 | Route scout and delivery | Revision A",
+    "subtitle": "Doventhar Therapeutics | Final report",
+    "lines": [
+      "Date: 03 Mar 2020",
+      "Programme {{PRJ0022:project_id}} | Accession {{PRJ0022:lims_id}}",
+      "Prepared by: Ruth Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Final disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Doventhar Therapeutics received {{PRJ0022:n_compounds}} benzofuran acetamides through Analogue preparation. A crystallisation work-up replaced chromatography for the shared intermediate and supported the client’s outsourced follow-up delivery lot."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0022:synthesis",
+            "max_rows": 45,
+            "caption": "Table 1. Delivered compounds: isolated yield, UV area-percent purity and amount. The table includes the complete delivered set."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Programme basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The chemistry mandate was route transfer with preparation of the benzofuran acetamide analogue set. The shared intermediate was the practical leverage point: its isolation method affected how readily the route could be handed on."
+        },
+        {
+          "p": "The quotation was dated 02 Sep 2019 and preparation began on 28 Oct 2019. The interim point was 30 Dec 2019; completion was 02 Mar 2020. This report closes the chemistry work on 03 Mar 2020."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0022:benchmark",
+            "max_rows": 45,
+            "caption": "Table 2. Programme administrative summary; the source heading “Compounds tested” denotes the synthesis set here."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Hypothesis and route gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The working hypothesis was that a crystallisation work-up for the shared intermediate would make isolation less dependent on chromatographic separation. The programme outcome confirms that the replacement supported the follow-up delivery lot."
+        },
+        {
+          "p": "The route gate remains recovery of correctly assigned material. A crystalline solid by itself is not proof of the intended identity, and a convenient isolation does not establish biological activity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Analogue-set definition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The benzofuran acetamides form the DT18 analogue set. The structures and material amounts in Table 1 describe delivered compounds, rather than every drawing considered during route planning."
+        },
+        {
+          "p": "Use the compound identifier as the link among the structure, preparation and released material. A proposed modification without an isolated compound card must remain outside the delivery list."
+        },
+        {
+          "image": {
+            "kind": "molecule_grid",
+            "ref": "PRJ0022",
+            "n": 8
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ruth Calderwood directed the route-transfer decision and analogue priorities. Hassan Darwish led the synthetic route scout; Clara Fenwick held analytical-release responsibility."
+        },
+        {
+          "p": "The outsourced follow-up preparation is the client’s downstream use of the route. This final report documents the chemistry supplied by Vellacombe and the conditions for interpreting the delivered material, rather than certifying another team’s execution."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Shared-intermediate isolation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The material-handling change was at the shared intermediate: crystallisation work-up replaced chromatography. The substitution addresses an isolation operation, not a change in the intended benzofuran acetamide structure."
+        },
+        {
+          "p": "Transfer instructions must identify the material form and distinguish the isolated solid from the mother liquor. A receiving chemist should preserve the observation of whether solids form and how the material is recovered, rather than copying an endpoint label without its work-up context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Crystallisation risk",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Crystallisation can be sensitive to the composition and condition of the incoming solution. A successful work-up in this programme is a basis for transfer, not a promise of identical recovery under arbitrary scale or solvent changes."
+        },
+        {
+          "p": "For follow-up work, retain the connection between intermediate identity and isolation observations. If a changed work-up produces a different material appearance or analytical profile, hold the route gate until the discrepancy is understood."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Mother-liquor disposition",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The isolated intermediate and the material remaining in solution are different parts of the recovery account. Mother liquor should not be silently added back to an isolated mass merely to improve a yield figure."
+        },
+        {
+          "p": "Any further recovery requires its own identity and purity assessment. Mixing recoveries can change the material profile that the downstream coupling receives, defeating the purpose of a controlled shared-intermediate isolation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Late-stage preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The shared-intermediate route supported preparation of the delivered benzofuran acetamides. Individual compound cards preserve the distinction between a common route and the actual outcome for each final analogue."
+        },
+        {
+          "p": "A successful common intermediate does not remove the need to assess final-product isolation. Substituent changes can alter purification and recovery even when the same route logic is used."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Isolated-yield interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Table 1 contains the source isolated yields for the delivered compounds. They refer to chemistry recovery, not receptor or ion-channel response."
+        },
+        {
+          "p": "Do not rank the set for biological progression using isolated yield. A lower recovery may justify route work if the client values the structure; a higher recovery does not establish a better modulator."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Analytical release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The delivery table reports HPLC purity as UV area percent at 254 nm. Retain that description when transferring values to a compound card or a client handover."
+        },
+        {
+          "p": "Area-percent purity must not be represented as mass purity. The structure and molecular-weight fields support identity reconciliation, but do not replace the underlying analytical assignment checked at release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Delivery-lot accounting",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Amounts in Table 1 are the delivered material amounts in mg. They are not the crude reaction mass or a guarantee of the quantity available after the client performs sampling and handling."
+        },
+        {
+          "p": "Andrew May’s sample-management function supports reconciliation of vial labels against the delivered compound identifiers. A difference between a received label and its compound card should be resolved before the material is distributed for testing."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Route-transfer handover",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The route handover should make the crystallisation replacement explicit. Carry forward the shared-intermediate identity, work-up sequence and isolation observations so the receiving chemist knows which operation was changed."
+        },
+        {
+          "p": "The outsourced follow-up delivery lot was supported by this change. That outcome does not establish that all later preparations can dispense with analytical release or that chromatographic checks are unnecessary."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Limits and next analogue",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The delivered set is material for the client’s next programme decision. No biological potency, selectivity or exposure results are supplied in this chemistry report."
+        },
+        {
+          "p": "Choose the next analogue using the client’s testing results and a defined structural question. If new substituents alter the common intermediate’s behaviour, reopen the isolation route gate rather than assuming the same crystallisation will remain suitable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Closure and recommendation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The programme delivered {{PRJ0022:n_compounds}} benzofuran acetamides with a recorded turnaround of {{PRJ0022:turnaround_days}} calendar days and price of {{PRJ0022:price}}."
+        },
+        {
+          "p": "Retain crystallisation as the transferred shared-intermediate work-up, with identity and recovery checks attached to each preparation. Table 1 is the delivered-material inventory; proposed structures are excluded. Ruth Calderwood closes the Route scout and delivery on that basis."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Ruth Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "03 Mar 2020",
+      "signed": true
+    },
+    {
+      "name": "Clara Fenwick",
+      "role": "Analytical Release Lead",
+      "date": "03 Mar 2020",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
