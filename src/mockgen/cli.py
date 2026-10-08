@@ -64,6 +64,8 @@ def cmd_next(a):
 
 def cmd_pack(a):
     from .pack import build_pack
+    from .state import touch
+    touch(a.file_id)
     print(build_pack(a.file_id))
     return 0
 

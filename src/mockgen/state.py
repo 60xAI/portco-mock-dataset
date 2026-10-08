@@ -122,7 +122,21 @@ def mark(file_id: str, state: str, errors: list[str] | None = None, summary: str
         if state == "accepted":
             con.execute("update files set state='accepted', accepted_at=?, summary=?, last_errors=null, claimed_by=null where id=?", (time.time(), summary, file_id))
         else:
-            con.execute("update files set state=?, attempts=attempts+1, last_errors=? where id=?", (state, json.dumps(errors or []), file_id))
+            # a rejected file stays claimed by its batch so it isn't handed out again mid-retry
+            con.execute("update files set state=case when state='claimed' then 'claimed' else ? end, attempts=attempts+1, last_errors=? where id=?", (state, json.dumps(errors or []), file_id))
+            touch_batch(con, file_id)
+
+
+def touch_batch(con, file_id: str):
+    """Refresh the claim of every file in this file's batch while a child is working on it."""
+    r = con.execute("select batch from files where id=?", (file_id,)).fetchone()
+    if r and r["batch"]:
+        con.execute("update files set claimed_at=? where batch=? and state='claimed'", (time.time(), r["batch"]))
+
+
+def touch(file_id: str):
+    with db() as con:
+        touch_batch(con, file_id)
 
 
 def get(file_id: str):
