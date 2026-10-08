@@ -1,0 +1,19 @@
+{"family": "workbook",
+ "summary": "Unused local observation-sheet shell with animal-card and dose-lot column headings. Several template sections, including mortality and clinical signs, are left empty; no identifiers or observations have been entered.",
+ "properties": {"title": "Observation sheet template"},
+ "sheets": [
+  {"name": "Observation sheet", "rows": [
+    [{"v": "Osterquill Toxicology Inc", "bold": true}],
+    ["Observation sheet (template, not in use)"],
+    [],
+    [{"v": "Animal card ID", "bold": true}, {"v": "Dose lot", "bold": true}, {"v": "Dose (mg/kg/day)", "bold": true}, {"v": "Observation date", "bold": true}, {"v": "Body weight (g)", "bold": true}],
+    [],
+    ["Clinical signs"],
+    [],
+    ["Mortality / moribundity"],
+    [],
+    ["Necropsy notes"]
+   ],
+   "col_widths": {"A": 22, "B": 14, "C": 18, "D": 18, "E": 16},
+   "freeze": "A5"}
+ ]}
