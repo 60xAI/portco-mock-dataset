@@ -1,0 +1,445 @@
+{
+ "project_id": "PRJ0043",
+ "firm": "B",
+ "status": "completed",
+ "series": "SER02",
+ "compounds": [
+  {
+   "id": "AP02-01400",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "AP02-01412",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 397.4,
+   "clogp": 4.05,
+   "tpsa": 103.0
+  },
+  {
+   "id": "AP02-01422",
+   "smiles": "Nc1ncc(-c2cccnc2)c(NC(=O)c2cccc(N3CCC(N)CC3)c2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "AP02-01434",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3cccnc3)c2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "AP02-01436",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)nc1",
+   "mw": 404.5,
+   "clogp": 2.64,
+   "tpsa": 117.3
+  },
+  {
+   "id": "AP02-01448",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3cccnc3)c2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "AP02-01458",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3cc(F)cc(F)c3)c2)cc1",
+   "mw": 459.5,
+   "clogp": 4.88,
+   "tpsa": 110.0
+  },
+  {
+   "id": "AP02-01464",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)CC1",
+   "mw": 417.5,
+   "clogp": 2.7,
+   "tpsa": 113.4
+  },
+  {
+   "id": "AP02-01466",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(OC3CCN(C)CC3)c2)nc1",
+   "mw": 418.5,
+   "clogp": 3.15,
+   "tpsa": 106.3
+  },
+  {
+   "id": "AP02-01470",
+   "smiles": "N#Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 414.5,
+   "clogp": 2.81,
+   "tpsa": 128.2
+  },
+  {
+   "id": "AP02-01482",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3cc(F)cc(F)c3)c2)CC1",
+   "mw": 438.5,
+   "clogp": 3.4,
+   "tpsa": 87.4
+  },
+  {
+   "id": "AP02-01484",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)cc1",
+   "mw": 438.5,
+   "clogp": 4.19,
+   "tpsa": 136.0
+  },
+  {
+   "id": "AP02-01520",
+   "smiles": "Nc1ncc(-c2ccncc2)c(NC(=O)c2cccc(N3CCCC3)c2)n1",
+   "mw": 360.4,
+   "clogp": 2.97,
+   "tpsa": 97.0
+  },
+  {
+   "id": "AP02-01532",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(OC3CCN(C)CC3)c2)cc1",
+   "mw": 460.5,
+   "clogp": 3.41,
+   "tpsa": 122.5
+  },
+  {
+   "id": "AP02-01556",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccc(NC(C)=O)cc3)c2)cc1",
+   "mw": 453.5,
+   "clogp": 4.61,
+   "tpsa": 119.2
+  },
+  {
+   "id": "AP02-01560",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 446.5,
+   "clogp": 2.9,
+   "tpsa": 133.5
+  },
+  {
+   "id": "AP02-01574",
+   "smiles": "Nc1ncc(-c2cccnc2)c(NC(=O)c2cccc(-c3ccncc3)c2)n1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  },
+  {
+   "id": "AP02-01578",
+   "smiles": "Nc1ncc(-c2cccnc2)c(NC(=O)c2cccc(NC3CCCCC3)c2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  }
+ ],
+ "tables": {
+  "mic_stab": {
+   "title": "Liver microsomal stability (0.5 mg/mL protein, 1 µM)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/mg)",
+    "Human t½ (min)",
+    "Rat CLint (µL/min/mg)",
+    "Rat t½ (min)"
+   ],
+   "rows": [
+    [
+     "AP02-01400",
+     "27",
+     "52",
+     "39",
+     "35"
+    ],
+    [
+     "AP02-01412",
+     "16",
+     ">60",
+     "22",
+     ">60"
+    ],
+    [
+     "AP02-01422",
+     "15",
+     ">60",
+     "26",
+     "54"
+    ],
+    [
+     "AP02-01434",
+     "33",
+     "42",
+     "42",
+     "33"
+    ],
+    [
+     "AP02-01436",
+     "10",
+     ">60",
+     "12",
+     ">60"
+    ],
+    [
+     "AP02-01448",
+     "13",
+     ">60",
+     "27",
+     "52"
+    ],
+    [
+     "AP02-01458",
+     "55",
+     "25",
+     "95",
+     "15"
+    ],
+    [
+     "AP02-01464",
+     "28",
+     "50",
+     "58",
+     "24"
+    ],
+    [
+     "AP02-01466",
+     "4.5",
+     ">60",
+     "7.1",
+     ">60"
+    ],
+    [
+     "AP02-01470",
+     "9.2",
+     ">60",
+     "10",
+     ">60"
+    ],
+    [
+     "AP02-01482",
+     "34",
+     "41",
+     "70",
+     "20"
+    ],
+    [
+     "AP02-01484",
+     "19",
+     ">60",
+     "26",
+     "52"
+    ],
+    [
+     "AP02-01520",
+     "34",
+     "40",
+     "46",
+     "30"
+    ],
+    [
+     "AP02-01532",
+     "12",
+     ">60",
+     "20",
+     ">60"
+    ],
+    [
+     "AP02-01556",
+     "73",
+     "19",
+     "188",
+     "7.4"
+    ],
+    [
+     "AP02-01560",
+     "19",
+     ">60",
+     "33",
+     "43"
+    ],
+    [
+     "AP02-01574",
+     "9.5",
+     ">60",
+     "22",
+     ">60"
+    ],
+    [
+     "AP02-01578",
+     "28",
+     "49",
+     "30",
+     "47"
+    ]
+   ],
+   "notes": [
+    "Controls: verapamil (high), diltiazem (medium) within historical range"
+   ]
+  },
+  "ppb": {
+   "title": "Human plasma protein binding (RED, 4 h, 37 °C)",
+   "columns": [
+    "Compound",
+    "% bound",
+    "fu",
+    "Recovery (%)"
+   ],
+   "rows": [
+    [
+     "AP02-01400",
+     "98.8",
+     "1.23",
+     "105"
+    ],
+    [
+     "AP02-01412",
+     "99.9",
+     "0.10",
+     "89"
+    ],
+    [
+     "AP02-01422",
+     "80.2",
+     "19.84",
+     "92"
+    ],
+    [
+     "AP02-01434",
+     "98.4",
+     "1.64",
+     "93"
+    ],
+    [
+     "AP02-01436",
+     "89.9",
+     "10.10",
+     "86"
+    ],
+    [
+     "AP02-01448",
+     "86.0",
+     "13.99",
+     "84"
+    ],
+    [
+     "AP02-01458",
+     "99.9",
+     "0.10",
+     "94"
+    ],
+    [
+     "AP02-01464",
+     "89.4",
+     "10.63",
+     "86"
+    ],
+    [
+     "AP02-01466",
+     "92.6",
+     "7.38",
+     "89"
+    ],
+    [
+     "AP02-01470",
+     "87.7",
+     "12.31",
+     "86"
+    ],
+    [
+     "AP02-01482",
+     "93.4",
+     "6.63",
+     "95"
+    ],
+    [
+     "AP02-01484",
+     "97.4",
+     "2.56",
+     "84"
+    ],
+    [
+     "AP02-01520",
+     "90.0",
+     "9.98",
+     "99"
+    ],
+    [
+     "AP02-01532",
+     "94.3",
+     "5.72",
+     "96"
+    ],
+    [
+     "AP02-01556",
+     "99.8",
+     "0.22",
+     "82"
+    ],
+    [
+     "AP02-01560",
+     "90.8",
+     "9.20",
+     "83"
+    ],
+    [
+     "AP02-01574",
+     "91.6",
+     "8.42",
+     "82"
+    ],
+    [
+     "AP02-01578",
+     "97.9",
+     "2.06",
+     "91"
+    ]
+   ],
+   "notes": [
+    "Warfarin control 98-99% bound"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW24_0253"
+    ],
+    [
+     "Client",
+     "Avernelwick Pharmaceuticals Ltd"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Avernelwick aminopyrimidine regioisomer series 02 (Aminopyrimidine regioisomer)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Plasma protein binding (equilibrium dialysis)"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "46"
+    ],
+    [
+     "Price",
+     "GBP 16,200"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 16,200",
+  "n_compounds": "18",
+  "turnaround_days": "46",
+  "client_variant": "Avernelwick Pharmaceuticals Ltd",
+  "project_id": "BW24_0253",
+  "lims_id": "B-ACC-2024-04310"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0080",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 52,100",
+  "n_compounds": "0",
+  "turnaround_days": "40",
+  "client_variant": "Pelmucent Therapeutics",
+  "project_id": "QV.19.050",
+  "lims_id": "QDATA2019-0323"
+ }
+}

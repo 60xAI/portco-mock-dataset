@@ -1,0 +1,126 @@
+{
+ "project_id": "PRJ0103",
+ "firm": "E",
+ "status": "on_hold",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "stability": {
+   "title": "Stability results (assay % label claim; impurities % area)",
+   "columns": [
+    "Condition",
+    "Timepoint (months)",
+    "Assay (% LC)",
+    "Imp A RRT 0.86 (%)",
+    "Imp B RRT 1.12 (%)",
+    "Total impurities (%)",
+    "Water KF (% w/w)",
+    "Result"
+   ],
+   "rows": [
+    [
+     "25 °C/60% RH",
+     0,
+     "99.2",
+     "0.06",
+     "<0.05",
+     "0.22",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     1,
+     "98.9",
+     "0.08",
+     "<0.05",
+     "0.22",
+     "2.3",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     3,
+     "98.7",
+     "0.07",
+     "0.06",
+     "0.19",
+     "2.0",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     6,
+     "99.1",
+     "0.11",
+     "0.06",
+     "0.32",
+     "1.2",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     0,
+     "99.9",
+     "0.08",
+     "<0.05",
+     "0.23",
+     "1.1",
+     "Complies"
+    ]
+   ],
+   "notes": [
+    "Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%",
+    "Work stopped; partial data only"
+   ]
+  },
+  "method_val": {
+   "title": "Method validation summary",
+   "columns": [
+    "Parameter",
+    "Result",
+    "Acceptance"
+   ],
+   "rows": [
+    [
+     "Linearity (r²)",
+     "0.9995",
+     "≥0.999"
+    ],
+    [
+     "Range (% nominal)",
+     "50-150",
+     "80-120 minimum"
+    ],
+    [
+     "Accuracy 80% (% recovery)",
+     "100.0",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 100% (% recovery)",
+     "99.3",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 120% (% recovery)",
+     "101.7",
+     "98.0-102.0"
+    ]
+   ],
+   "notes": [
+    "Work stopped; partial data only"
+   ]
+  }
+ },
+ "values": {
+  "stability.t0_assay": "99.2",
+  "stability.last_timepoint_months": "6",
+  "price": "GBP 73,300",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Quorenthel Pharma GmbH",
+  "project_id": "WA/2025/407",
+  "lims_id": "WST-25-012645"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0115",
+ "firm": "F",
+ "status": "lost",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "USD 44,100",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Jorvessara Pharmaceuticals",
+  "project_id": "DL_2024_0134",
+  "lims_id": "DF24-01617"
+ }
+}

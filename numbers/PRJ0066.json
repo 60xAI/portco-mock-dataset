@@ -1,0 +1,409 @@
+{
+ "project_id": "PRJ0066",
+ "firm": "C",
+ "status": "in_progress",
+ "series": "SER16",
+ "compounds": [
+  {
+   "id": "BP16-05400",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1nc(-c2cncnc2)co1",
+   "mw": 350.4,
+   "clogp": 1.93,
+   "tpsa": 97.0
+  },
+  {
+   "id": "BP16-05410",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2cncnc2)co1",
+   "mw": 370.5,
+   "clogp": 2.16,
+   "tpsa": 96.2
+  },
+  {
+   "id": "BP16-05422",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(OC4CCN(C)CC4)CC3)n2)cc1",
+   "mw": 441.5,
+   "clogp": 2.52,
+   "tpsa": 99.9
+  },
+  {
+   "id": "BP16-05442",
+   "smiles": "O=C(NC1CCN(N2CCC(O)CC2)CC1)c1nc(-c2ccncc2)co1",
+   "mw": 371.4,
+   "clogp": 1.3,
+   "tpsa": 94.7
+  },
+  {
+   "id": "BP16-05470",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCN(C)CC4)CC3)n2)cc1",
+   "mw": 426.5,
+   "clogp": 1.66,
+   "tpsa": 93.9
+  },
+  {
+   "id": "BP16-05472",
+   "smiles": "N#Cc1ccc(-c2coc(C(=O)NC3CCN(c4ccncc4)CC3)n2)cc1",
+   "mw": 373.4,
+   "clogp": 3.01,
+   "tpsa": 95.0
+  },
+  {
+   "id": "BP16-05478",
+   "smiles": "N#Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(O)CC4)CC3)n2)cc1",
+   "mw": 395.5,
+   "clogp": 1.78,
+   "tpsa": 105.6
+  },
+  {
+   "id": "BP16-05482",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4ccc(C)cn4)co3)CC2)cc1",
+   "mw": 419.5,
+   "clogp": 3.4,
+   "tpsa": 100.4
+  },
+  {
+   "id": "BP16-05500",
+   "smiles": "O=C(NC1CCN(N2CCOCC2)CC1)c1nc(-c2cc(F)cc(F)c2)co1",
+   "mw": 392.4,
+   "clogp": 2.06,
+   "tpsa": 70.8
+  },
+  {
+   "id": "BP16-05512",
+   "smiles": "CN1CCC(ON2CCC(NC(=O)c3nc(-c4cncnc4)co3)CC2)CC1",
+   "mw": 386.5,
+   "clogp": 1.35,
+   "tpsa": 96.6
+  },
+  {
+   "id": "BP16-05518",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(N)CC4)CC3)n2)cc1",
+   "mw": 426.5,
+   "clogp": 1.83,
+   "tpsa": 116.7
+  },
+  {
+   "id": "BP16-05520",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(c4ccc(NC(C)=O)cc4)CC3)n2)cc1",
+   "mw": 461.5,
+   "clogp": 3.66,
+   "tpsa": 116.6
+  },
+  {
+   "id": "BP16-05524",
+   "smiles": "O=C(NC1CCN(N2CCC(O)CC2)CC1)c1nc(-c2cc(F)cc(F)c2)co1",
+   "mw": 406.4,
+   "clogp": 2.19,
+   "tpsa": 81.8
+  },
+  {
+   "id": "BP16-05526",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4cncnc4)co3)CC2)CC1",
+   "mw": 371.4,
+   "clogp": 0.49,
+   "tpsa": 90.6
+  },
+  {
+   "id": "BP16-05530",
+   "smiles": "O=C(NC1CCN(N2CCC(O)CC2)CC1)c1nc(-c2ccc(F)cc2)co1",
+   "mw": 388.4,
+   "clogp": 2.05,
+   "tpsa": 81.8
+  },
+  {
+   "id": "BP16-05548",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(O)CC4)CC3)n2)cc1",
+   "mw": 427.5,
+   "clogp": 1.87,
+   "tpsa": 110.9
+  },
+  {
+   "id": "BP16-05574",
+   "smiles": "NC1CCN(N2CCC(NC(=O)c3nc(-c4ccncc4)co3)CC2)CC1",
+   "mw": 370.5,
+   "clogp": 1.27,
+   "tpsa": 100.5
+  },
+  {
+   "id": "BP16-05586",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4ccc(C#N)cc4)co3)CC2)cc1",
+   "mw": 429.5,
+   "clogp": 3.57,
+   "tpsa": 111.3
+  }
+ ],
+ "tables": {
+  "cyp_inhib": {
+   "title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
+   "columns": [
+    "Compound",
+    "CYP1A2 (%)",
+    "CYP2C9 (%)",
+    "CYP2C19 (%)",
+    "CYP2D6 (%)",
+    "CYP3A4 (%)"
+   ],
+   "rows": [
+    [
+     "BP16-05400",
+     "51",
+     "29",
+     "35",
+     "9",
+     "82"
+    ],
+    [
+     "BP16-05410",
+     "43",
+     "9",
+     "30",
+     "2",
+     "13"
+    ],
+    [
+     "BP16-05422",
+     "-3",
+     "22",
+     "47",
+     "42",
+     "53"
+    ],
+    [
+     "BP16-05442",
+     "10",
+     "7",
+     "0",
+     "59",
+     "11"
+    ],
+    [
+     "BP16-05470",
+     "3",
+     "-5",
+     "10",
+     "4",
+     "16"
+    ],
+    [
+     "BP16-05472",
+     "91",
+     "100",
+     "100",
+     "25",
+     "99"
+    ],
+    [
+     "BP16-05478",
+     "6",
+     "-8",
+     "-0",
+     "6",
+     "5"
+    ],
+    [
+     "BP16-05482",
+     "2",
+     "94",
+     "100",
+     "5",
+     "100"
+    ],
+    [
+     "BP16-05500",
+     "17",
+     "1",
+     "23",
+     "19",
+     "-4"
+    ],
+    [
+     "BP16-05512",
+     "-1",
+     "2",
+     "6",
+     "-5",
+     "9"
+    ],
+    [
+     "BP16-05518",
+     "5",
+     "15",
+     "4",
+     "17",
+     "-3"
+    ]
+   ],
+   "notes": [
+    "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
+    "Controls (IC50, µM): furafylline (CYP1A2) 1.7; sulfaphenazole (CYP2C9) 0.41; ticlopidine (CYP2C19) 1.2; quinidine (CYP2D6) 0.049; ketoconazole (CYP3A4) 0.021",
+    "INTERIM: 11 of 18 results reported; remaining in progress"
+   ]
+  },
+  "cyp_ic50": {
+   "title": "CYP3A4 IC50 (µM)",
+   "columns": [
+    "Compound",
+    "IC50 (µM)",
+    "Probe substrate"
+   ],
+   "rows": [
+    [
+     "BP16-05400",
+     "1.3",
+     "midazolam"
+    ],
+    [
+     "BP16-05410",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "BP16-05422",
+     "6.3",
+     "midazolam"
+    ],
+    [
+     "BP16-05442",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "BP16-05470",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "BP16-05472",
+     "0.14",
+     "testosterone"
+    ],
+    [
+     "BP16-05478",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "BP16-05482",
+     "0.64",
+     "testosterone"
+    ],
+    [
+     "BP16-05500",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "BP16-05512",
+     "48",
+     "midazolam"
+    ]
+   ],
+   "notes": [
+    "7-point curve, top 50 µM; ketoconazole control",
+    "INTERIM: 10 of 18 results reported; remaining in progress"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2026-278"
+    ],
+    [
+     "Client",
+     "Belquorin Pharma"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Belquorin oxazole carboxamide series 16 (Oxazole carboxamide)"
+    ],
+    [
+     "Assays",
+     "CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM, CYP3A4 inhibition IC50"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "USD 27,300"
+    ],
+    [
+     "CYP1A2 >50% inhibition @10 µM",
+     "2"
+    ],
+    [
+     "CYP2C9 >50% inhibition @10 µM",
+     "4"
+    ],
+    [
+     "CYP2C19 >50% inhibition @10 µM",
+     "4"
+    ],
+    [
+     "CYP2D6 >50% inhibition @10 µM",
+     "4"
+    ],
+    [
+     "CYP3A4 >50% inhibition @10 µM",
+     "6"
+    ],
+    [
+     "Compounds with any CYP >50%",
+     "9"
+    ],
+    [
+     "Ketoconazole (3A4) IC50 (µM)",
+     "0.021"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "cyp.n_gt50_CYP1A2": "2",
+  "cyp.control_CYP1A2_uM": "1.7",
+  "cyp.n_gt50_CYP2C9": "4",
+  "cyp.control_CYP2C9_uM": "0.41",
+  "cyp.n_gt50_CYP2C19": "4",
+  "cyp.control_CYP2C19_uM": "1.2",
+  "cyp.n_gt50_CYP2D6": "4",
+  "cyp.control_CYP2D6_uM": "0.049",
+  "cyp.n_gt50_CYP3A4": "6",
+  "cyp.control_CYP3A4_uM": "0.021",
+  "cyp.n_any_gt50": "9",
+  "cyp.BP16-05400.CYP3A4_pct": "82",
+  "cyp.BP16-05410.CYP3A4_pct": "13",
+  "cyp.BP16-05422.CYP3A4_pct": "53",
+  "cyp.BP16-05442.CYP3A4_pct": "11",
+  "cyp.BP16-05470.CYP3A4_pct": "16",
+  "cyp.BP16-05472.CYP3A4_pct": "99",
+  "cyp.BP16-05478.CYP3A4_pct": "5",
+  "cyp.BP16-05482.CYP3A4_pct": "100",
+  "cyp.BP16-05500.CYP3A4_pct": "-4",
+  "cyp.BP16-05512.CYP3A4_pct": "9",
+  "cyp.BP16-05518.CYP3A4_pct": "-3",
+  "cyp.BP16-05520.CYP3A4_pct": "81",
+  "cyp.BP16-05524.CYP3A4_pct": "4",
+  "cyp.BP16-05526.CYP3A4_pct": "-4",
+  "cyp.BP16-05530.CYP3A4_pct": "2",
+  "cyp.BP16-05548.CYP3A4_pct": "-4",
+  "cyp.BP16-05574.CYP3A4_pct": "29",
+  "cyp.BP16-05586.CYP3A4_pct": "96",
+  "price": "USD 27,300",
+  "n_compounds": "18",
+  "turnaround_days": "",
+  "client_variant": "Belquorin Pharma",
+  "project_id": "MV-2026-278",
+  "lims_id": "M26/BIO/06402"
+ }
+}

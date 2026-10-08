@@ -1,0 +1,1237 @@
+{
+ "project_id": "PRJ0001",
+ "firm": "B",
+ "status": "completed",
+ "series": "SER02",
+ "compounds": [
+  {
+   "id": "AP02-01404",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C#N)cc3)c2)CC1",
+   "mw": 427.5,
+   "clogp": 2.99,
+   "tpsa": 111.2
+  },
+  {
+   "id": "AP02-01410",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(NC3CCCCC3)c2)cc1",
+   "mw": 417.5,
+   "clogp": 4.73,
+   "tpsa": 102.2
+  },
+  {
+   "id": "AP02-01412",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 397.4,
+   "clogp": 4.05,
+   "tpsa": 103.0
+  },
+  {
+   "id": "AP02-01418",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(OC)cc3)c2)CC1",
+   "mw": 432.5,
+   "clogp": 3.13,
+   "tpsa": 96.6
+  },
+  {
+   "id": "AP02-01424",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(N)CC3)c2)nc1",
+   "mw": 403.5,
+   "clogp": 2.61,
+   "tpsa": 123.0
+  },
+  {
+   "id": "AP02-01428",
+   "smiles": "Nc1ncc(-c2ccncc2)c(NC(=O)c2cccc(-c3ccncc3)c2)n1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  },
+  {
+   "id": "AP02-01430",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccncc3)c2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "AP02-01434",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3cccnc3)c2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "AP02-01436",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)nc1",
+   "mw": 404.5,
+   "clogp": 2.64,
+   "tpsa": 117.3
+  },
+  {
+   "id": "AP02-01442",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCCC3)c2)nc1",
+   "mw": 374.4,
+   "clogp": 3.28,
+   "tpsa": 97.0
+  },
+  {
+   "id": "AP02-01454",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C#N)cc3)c2)cc1",
+   "mw": 448.5,
+   "clogp": 4.48,
+   "tpsa": 133.8
+  },
+  {
+   "id": "AP02-01458",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3cc(F)cc(F)c3)c2)cc1",
+   "mw": 459.5,
+   "clogp": 4.88,
+   "tpsa": 110.0
+  },
+  {
+   "id": "AP02-01464",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)CC1",
+   "mw": 417.5,
+   "clogp": 2.7,
+   "tpsa": 113.4
+  },
+  {
+   "id": "AP02-01466",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(OC3CCN(C)CC3)c2)nc1",
+   "mw": 418.5,
+   "clogp": 3.15,
+   "tpsa": 106.3
+  },
+  {
+   "id": "AP02-01472",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3ccncc3)c2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "AP02-01482",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3cc(F)cc(F)c3)c2)CC1",
+   "mw": 438.5,
+   "clogp": 3.4,
+   "tpsa": 87.4
+  },
+  {
+   "id": "AP02-01484",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)cc1",
+   "mw": 438.5,
+   "clogp": 4.19,
+   "tpsa": 136.0
+  },
+  {
+   "id": "AP02-01490",
+   "smiles": "Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 404.5,
+   "clogp": 2.52,
+   "tpsa": 130.4
+  },
+  {
+   "id": "AP02-01494",
+   "smiles": "N#Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 392.4,
+   "clogp": 3.91,
+   "tpsa": 117.6
+  },
+  {
+   "id": "AP02-01496",
+   "smiles": "Nc1ncc(-c2cccnc2)c(NC(=O)c2cccc(N3CCC(O)CC3)c2)n1",
+   "mw": 390.4,
+   "clogp": 2.33,
+   "tpsa": 117.3
+  },
+  {
+   "id": "AP02-01500",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)CC1",
+   "mw": 418.5,
+   "clogp": 3.03,
+   "tpsa": 119.4
+  },
+  {
+   "id": "AP02-01502",
+   "smiles": "Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCCC3)c2)cc1",
+   "mw": 374.4,
+   "clogp": 3.16,
+   "tpsa": 110.2
+  },
+  {
+   "id": "AP02-01506",
+   "smiles": "Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(N)CC3)c2)cc1",
+   "mw": 403.5,
+   "clogp": 2.49,
+   "tpsa": 136.2
+  },
+  {
+   "id": "AP02-01508",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3cc(F)cc(F)c3)c2)CC1",
+   "mw": 439.5,
+   "clogp": 3.73,
+   "tpsa": 93.4
+  },
+  {
+   "id": "AP02-01514",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C)cn3)c2)CC1",
+   "mw": 417.5,
+   "clogp": 2.82,
+   "tpsa": 100.3
+  },
+  {
+   "id": "AP02-01520",
+   "smiles": "Nc1ncc(-c2ccncc2)c(NC(=O)c2cccc(N3CCCC3)c2)n1",
+   "mw": 360.4,
+   "clogp": 2.97,
+   "tpsa": 97.0
+  },
+  {
+   "id": "AP02-01524",
+   "smiles": "Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 382.4,
+   "clogp": 3.62,
+   "tpsa": 119.8
+  },
+  {
+   "id": "AP02-01532",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(OC3CCN(C)CC3)c2)cc1",
+   "mw": 460.5,
+   "clogp": 3.41,
+   "tpsa": 122.5
+  },
+  {
+   "id": "AP02-01536",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(NC3CCCCC3)c2)cc1",
+   "mw": 444.5,
+   "clogp": 4.68,
+   "tpsa": 122.0
+  },
+  {
+   "id": "AP02-01538",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)c(NC(=O)c2cccc(N3CCC(N)CC3)c2)n1",
+   "mw": 424.5,
+   "clogp": 3.18,
+   "tpsa": 110.2
+  },
+  {
+   "id": "AP02-01542",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(N)CC3)c2)cc1",
+   "mw": 418.5,
+   "clogp": 2.91,
+   "tpsa": 119.4
+  },
+  {
+   "id": "AP02-01544",
+   "smiles": "Nc1ncc(-c2ccncc2)c(NC(=O)c2cccc(NC3CCCCC3)c2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  },
+  {
+   "id": "AP02-01548",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C)cn3)c2)cc1",
+   "mw": 438.5,
+   "clogp": 4.31,
+   "tpsa": 122.9
+  },
+  {
+   "id": "AP02-01556",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccc(NC(C)=O)cc3)c2)cc1",
+   "mw": 453.5,
+   "clogp": 4.61,
+   "tpsa": 119.2
+  },
+  {
+   "id": "AP02-01560",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 446.5,
+   "clogp": 2.9,
+   "tpsa": 133.5
+  },
+  {
+   "id": "AP02-01568",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(OC3CCN(C)CC3)c2)cc1",
+   "mw": 433.5,
+   "clogp": 3.46,
+   "tpsa": 102.6
+  },
+  {
+   "id": "AP02-01572",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C#N)cc3)c2)CC1",
+   "mw": 428.5,
+   "clogp": 3.32,
+   "tpsa": 117.2
+  },
+  {
+   "id": "AP02-01574",
+   "smiles": "Nc1ncc(-c2cccnc2)c(NC(=O)c2cccc(-c3ccncc3)c2)n1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  },
+  {
+   "id": "AP02-01584",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3cccnc3)c2)CC1",
+   "mw": 403.5,
+   "clogp": 2.52,
+   "tpsa": 100.3
+  },
+  {
+   "id": "AP02-01590",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(NC(C)=O)cc3)c2)cc1",
+   "mw": 480.5,
+   "clogp": 4.56,
+   "tpsa": 139.1
+  }
+ ],
+ "tables": {
+  "herg": {
+   "title": "hERG IC50 (automated patch clamp)",
+   "columns": [
+    "Compound",
+    "IC50 rep 1 (µM)",
+    "IC50 rep 2 (µM)",
+    "IC50 rep 3 (µM)",
+    "IC50 mean (µM)",
+    "% inhibition @10 µM",
+    "n",
+    "QC note"
+   ],
+   "rows": [
+    [
+     "AP02-01404",
+     "14",
+     "13",
+     "12",
+     "13",
+     "51",
+     3,
+     ""
+    ],
+    [
+     "AP02-01410",
+     "4.9",
+     "5.3",
+     "3.0",
+     "4.3",
+     "68",
+     3,
+     ""
+    ],
+    [
+     "AP02-01412",
+     "1.7",
+     "1.2",
+     "",
+     "1.4",
+     "86",
+     2,
+     ""
+    ],
+    [
+     "AP02-01418",
+     "13",
+     "10",
+     "12",
+     "12",
+     "52",
+     3,
+     ""
+    ],
+    [
+     "AP02-01424",
+     "13",
+     "21",
+     "",
+     "17",
+     "37",
+     2,
+     ""
+    ],
+    [
+     "AP02-01428",
+     "21",
+     ">30",
+     "",
+     ">30",
+     "28",
+     2,
+     ""
+    ],
+    [
+     "AP02-01430",
+     "7.6",
+     "11",
+     "",
+     "9.2",
+     "61",
+     2,
+     ""
+    ],
+    [
+     "AP02-01434",
+     "16",
+     "23",
+     "",
+     "19",
+     "36",
+     2,
+     "Run 2 rejected (E-4031 outside range); repeated"
+    ],
+    [
+     "AP02-01436",
+     "16",
+     "11",
+     "",
+     "13",
+     "46",
+     2,
+     "Run 2 rejected (E-4031 outside range); repeated"
+    ],
+    [
+     "AP02-01442",
+     "13",
+     "14",
+     "",
+     "13",
+     "46",
+     2,
+     ""
+    ],
+    [
+     "AP02-01454",
+     "5.8",
+     "4.4",
+     "",
+     "5.0",
+     "69",
+     2,
+     ""
+    ],
+    [
+     "AP02-01458",
+     "4.0",
+     "4.9",
+     "",
+     "4.5",
+     "69",
+     2,
+     ""
+    ],
+    [
+     "AP02-01464",
+     "13",
+     "8.4",
+     "",
+     "11",
+     "49",
+     2,
+     ""
+    ],
+    [
+     "AP02-01466",
+     "6.4",
+     "6.4",
+     "8.1",
+     "6.9",
+     "54",
+     3,
+     ""
+    ],
+    [
+     "AP02-01472",
+     "22",
+     "24",
+     "",
+     "23",
+     "29",
+     2,
+     ""
+    ],
+    [
+     "AP02-01482",
+     "4.6",
+     "4.3",
+     "",
+     "4.5",
+     "66",
+     2,
+     ""
+    ],
+    [
+     "AP02-01484",
+     "10",
+     "17",
+     "13",
+     "13",
+     "39",
+     3,
+     ""
+    ],
+    [
+     "AP02-01490",
+     "16",
+     "27",
+     "",
+     "21",
+     "29",
+     2,
+     ""
+    ],
+    [
+     "AP02-01494",
+     "3.3",
+     "2.6",
+     "",
+     "2.9",
+     "80",
+     2,
+     ""
+    ],
+    [
+     "AP02-01496",
+     "16",
+     "24",
+     "",
+     "20",
+     "30",
+     2,
+     ""
+    ],
+    [
+     "AP02-01500",
+     "5.4",
+     "6.5",
+     "",
+     "5.9",
+     "68",
+     2,
+     ""
+    ],
+    [
+     "AP02-01502",
+     "6.0",
+     "7.3",
+     "",
+     "6.6",
+     "52",
+     2,
+     ""
+    ],
+    [
+     "AP02-01506",
+     "29",
+     ">30",
+     "",
+     ">30",
+     "21",
+     2,
+     ""
+    ],
+    [
+     "AP02-01508",
+     "8.0",
+     "11",
+     "",
+     "9.2",
+     "52",
+     2,
+     ""
+    ],
+    [
+     "AP02-01514",
+     "19",
+     "20",
+     "",
+     "19",
+     "30",
+     2,
+     ""
+    ],
+    [
+     "AP02-01520",
+     "25",
+     "23",
+     "",
+     "24",
+     "25",
+     2,
+     ""
+    ],
+    [
+     "AP02-01524",
+     "22",
+     ">30",
+     "",
+     ">30",
+     "24",
+     2,
+     ""
+    ],
+    [
+     "AP02-01532",
+     "3.7",
+     "6.1",
+     "",
+     "4.7",
+     "74",
+     2,
+     ""
+    ],
+    [
+     "AP02-01536",
+     "4.8",
+     "3.2",
+     "3.9",
+     "3.9",
+     "75",
+     3,
+     ""
+    ],
+    [
+     "AP02-01538",
+     "16",
+     "11",
+     "",
+     "14",
+     "46",
+     2,
+     ""
+    ],
+    [
+     "AP02-01542",
+     "8.1",
+     "10",
+     "",
+     "9.0",
+     "57",
+     2,
+     ""
+    ],
+    [
+     "AP02-01544",
+     "17",
+     "14",
+     "",
+     "15",
+     "43",
+     2,
+     ""
+    ],
+    [
+     "AP02-01548",
+     "2.5",
+     "2.5",
+     "2.7",
+     "2.6",
+     "78",
+     3,
+     ""
+    ],
+    [
+     "AP02-01556",
+     "6.1",
+     "6.4",
+     "",
+     "6.2",
+     "58",
+     2,
+     ""
+    ],
+    [
+     "AP02-01560",
+     "9.5",
+     "6.8",
+     "",
+     "8.0",
+     "58",
+     2,
+     ""
+    ],
+    [
+     "AP02-01568",
+     "10",
+     "7.5",
+     "",
+     "8.8",
+     "50",
+     2,
+     ""
+    ],
+    [
+     "AP02-01572",
+     "15",
+     "6.4",
+     "",
+     "9.6",
+     "49",
+     2,
+     "Run 2 rejected (E-4031 outside range); repeated"
+    ],
+    [
+     "AP02-01574",
+     "20",
+     "18",
+     "",
+     "19",
+     "31",
+     2,
+     ""
+    ],
+    [
+     "AP02-01584",
+     "8.2",
+     "11",
+     "",
+     "9.4",
+     "49",
+     2,
+     ""
+    ],
+    [
+     "AP02-01590",
+     "12",
+     "10",
+     "",
+     "11",
+     "47",
+     2,
+     ""
+    ]
+   ],
+   "notes": [
+    "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 16 nM (acceptance 5-50 nM)"
+   ]
+  },
+  "cyp_inhib": {
+   "title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
+   "columns": [
+    "Compound",
+    "CYP1A2 (%)",
+    "CYP2C9 (%)",
+    "CYP2C19 (%)",
+    "CYP2D6 (%)",
+    "CYP3A4 (%)"
+   ],
+   "rows": [
+    [
+     "AP02-01404",
+     "-2",
+     "4",
+     "2",
+     "-1",
+     "10"
+    ],
+    [
+     "AP02-01410",
+     "4",
+     "34",
+     "91",
+     "95",
+     "85"
+    ],
+    [
+     "AP02-01412",
+     "54",
+     "82",
+     "95",
+     "46",
+     "97"
+    ],
+    [
+     "AP02-01418",
+     "-1",
+     "5",
+     "13",
+     "7",
+     "13"
+    ],
+    [
+     "AP02-01424",
+     "3",
+     "10",
+     "7",
+     "1",
+     "-7"
+    ],
+    [
+     "AP02-01428",
+     "68",
+     "4",
+     "50",
+     "-0",
+     "36"
+    ],
+    [
+     "AP02-01430",
+     "11",
+     "-0",
+     "40",
+     "17",
+     "54"
+    ],
+    [
+     "AP02-01434",
+     "12",
+     "-1",
+     "11",
+     "17",
+     "85"
+    ],
+    [
+     "AP02-01436",
+     "4",
+     "4",
+     "3",
+     "10",
+     "2"
+    ],
+    [
+     "AP02-01442",
+     "-3",
+     "28",
+     "67",
+     "-9",
+     "33"
+    ],
+    [
+     "AP02-01454",
+     "10",
+     "13",
+     "39",
+     "13",
+     "25"
+    ],
+    [
+     "AP02-01458",
+     "20",
+     "48",
+     "69",
+     "53",
+     "22"
+    ],
+    [
+     "AP02-01464",
+     "1",
+     "8",
+     "-4",
+     "1",
+     "4"
+    ],
+    [
+     "AP02-01466",
+     "-5",
+     "9",
+     "16",
+     "41",
+     "15"
+    ],
+    [
+     "AP02-01472",
+     "-4",
+     "-5",
+     "7",
+     "17",
+     "45"
+    ],
+    [
+     "AP02-01482",
+     "-2",
+     "5",
+     "43",
+     "87",
+     "15"
+    ],
+    [
+     "AP02-01484",
+     "-1",
+     "9",
+     "15",
+     "4",
+     "8"
+    ],
+    [
+     "AP02-01490",
+     "9",
+     "3",
+     "-0",
+     "-4",
+     "-3"
+    ],
+    [
+     "AP02-01494",
+     "37",
+     "11",
+     "69",
+     "10",
+     "82"
+    ],
+    [
+     "AP02-01496",
+     "-6",
+     "1",
+     "9",
+     "6",
+     "4"
+    ],
+    [
+     "AP02-01500",
+     "7",
+     "1",
+     "5",
+     "19",
+     "-3"
+    ],
+    [
+     "AP02-01502",
+     "-10",
+     "-3",
+     "10",
+     "-3",
+     "6"
+    ],
+    [
+     "AP02-01506",
+     "4",
+     "3",
+     "-3",
+     "-9",
+     "-5"
+    ],
+    [
+     "AP02-01508",
+     "-1",
+     "40",
+     "5",
+     "99",
+     "61"
+    ],
+    [
+     "AP02-01514",
+     "5",
+     "3",
+     "32",
+     "6",
+     "6"
+    ],
+    [
+     "AP02-01520",
+     "-1",
+     "3",
+     "21",
+     "4",
+     "46"
+    ],
+    [
+     "AP02-01524",
+     "18",
+     "7",
+     "1",
+     "22",
+     "11"
+    ],
+    [
+     "AP02-01532",
+     "-2",
+     "8",
+     "9",
+     "71",
+     "27"
+    ],
+    [
+     "AP02-01536",
+     "12",
+     "3",
+     "71",
+     "71",
+     "70"
+    ],
+    [
+     "AP02-01538",
+     "1",
+     "-1",
+     "6",
+     "45",
+     "1"
+    ],
+    [
+     "AP02-01542",
+     "-1",
+     "2",
+     "1",
+     "3",
+     "4"
+    ],
+    [
+     "AP02-01544",
+     "33",
+     "3",
+     "63",
+     "53",
+     "60"
+    ],
+    [
+     "AP02-01548",
+     "1",
+     "46",
+     "40",
+     "7",
+     "66"
+    ],
+    [
+     "AP02-01556",
+     "17",
+     "70",
+     "92",
+     "48",
+     "73"
+    ],
+    [
+     "AP02-01560",
+     "8",
+     "4",
+     "7",
+     "4",
+     "-4"
+    ],
+    [
+     "AP02-01568",
+     "8",
+     "8",
+     "2",
+     "40",
+     "27"
+    ],
+    [
+     "AP02-01572",
+     "2",
+     "-4",
+     "7",
+     "29",
+     "20"
+    ],
+    [
+     "AP02-01574",
+     "39",
+     "3",
+     "41",
+     "-1",
+     "80"
+    ],
+    [
+     "AP02-01584",
+     "7",
+     "-3",
+     "-8",
+     "12",
+     "35"
+    ],
+    [
+     "AP02-01590",
+     "7",
+     "6",
+     "33",
+     "9",
+     "36"
+    ]
+   ],
+   "notes": [
+    "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
+    "Controls (IC50, µM): furafylline (CYP1A2) 2.3; sulfaphenazole (CYP2C9) 0.33; ticlopidine (CYP2C19) 1.0; quinidine (CYP2D6) 0.060; ketoconazole (CYP3A4) 0.029"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW11_0275"
+    ],
+    [
+     "Client",
+     "Avernelwick Pharmaceuticals Ltd"
+    ],
+    [
+     "Compounds tested",
+     "40"
+    ],
+    [
+     "Series / chemotype",
+     "Avernelwick aminopyrimidine regioisomer series 02 (Aminopyrimidine regioisomer)"
+    ],
+    [
+     "Assays",
+     "hERG patch clamp, CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "15"
+    ],
+    [
+     "Price",
+     "GBP 11,800"
+    ],
+    [
+     "hERG IC50 <1 µM",
+     "0"
+    ],
+    [
+     "hERG IC50 1-10 µM",
+     "20"
+    ],
+    [
+     "hERG IC50 ≥10 µM",
+     "20"
+    ],
+    [
+     "hERG median IC50 (µM)",
+     "10"
+    ],
+    [
+     "E-4031 control IC50 (nM)",
+     "16"
+    ],
+    [
+     "CYP1A2 >50% inhibition @10 µM",
+     "2"
+    ],
+    [
+     "CYP2C9 >50% inhibition @10 µM",
+     "2"
+    ],
+    [
+     "CYP2C19 >50% inhibition @10 µM",
+     "9"
+    ],
+    [
+     "CYP2D6 >50% inhibition @10 µM",
+     "7"
+    ],
+    [
+     "CYP3A4 >50% inhibition @10 µM",
+     "11"
+    ],
+    [
+     "Compounds with any CYP >50%",
+     "16"
+    ],
+    [
+     "Ketoconazole (3A4) IC50 (µM)",
+     "0.029"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "herg.n_tested": "40",
+  "herg.n_lt_1uM": "0",
+  "herg.n_1_10uM": "20",
+  "herg.n_ge_10uM": "20",
+  "herg.median_ic50_uM": "10",
+  "herg.control_e4031_nM": "16",
+  "herg.top_conc_uM": "30",
+  "herg.AP02-01404.ic50_uM": "13",
+  "herg.AP02-01410.ic50_uM": "4.3",
+  "herg.AP02-01412.ic50_uM": "1.4",
+  "herg.AP02-01418.ic50_uM": "12",
+  "herg.AP02-01424.ic50_uM": "17",
+  "herg.AP02-01428.ic50_uM": ">30",
+  "herg.AP02-01430.ic50_uM": "9.2",
+  "herg.AP02-01434.ic50_uM": "19",
+  "herg.AP02-01436.ic50_uM": "13",
+  "herg.AP02-01442.ic50_uM": "13",
+  "herg.AP02-01454.ic50_uM": "5.0",
+  "herg.AP02-01458.ic50_uM": "4.5",
+  "herg.AP02-01464.ic50_uM": "11",
+  "herg.AP02-01466.ic50_uM": "6.9",
+  "herg.AP02-01472.ic50_uM": "23",
+  "herg.AP02-01482.ic50_uM": "4.5",
+  "herg.AP02-01484.ic50_uM": "13",
+  "herg.AP02-01490.ic50_uM": "21",
+  "herg.AP02-01494.ic50_uM": "2.9",
+  "herg.AP02-01496.ic50_uM": "20",
+  "herg.AP02-01500.ic50_uM": "5.9",
+  "herg.AP02-01502.ic50_uM": "6.6",
+  "herg.AP02-01506.ic50_uM": ">30",
+  "herg.AP02-01508.ic50_uM": "9.2",
+  "herg.AP02-01514.ic50_uM": "19",
+  "herg.AP02-01520.ic50_uM": "24",
+  "herg.AP02-01524.ic50_uM": ">30",
+  "herg.AP02-01532.ic50_uM": "4.7",
+  "herg.AP02-01536.ic50_uM": "3.9",
+  "herg.AP02-01538.ic50_uM": "14",
+  "herg.AP02-01542.ic50_uM": "9.0",
+  "herg.AP02-01544.ic50_uM": "15",
+  "herg.AP02-01548.ic50_uM": "2.6",
+  "herg.AP02-01556.ic50_uM": "6.2",
+  "herg.AP02-01560.ic50_uM": "8.0",
+  "herg.AP02-01568.ic50_uM": "8.8",
+  "herg.AP02-01572.ic50_uM": "9.6",
+  "herg.AP02-01574.ic50_uM": "19",
+  "herg.AP02-01584.ic50_uM": "9.4",
+  "herg.AP02-01590.ic50_uM": "11",
+  "cyp.n_gt50_CYP1A2": "2",
+  "cyp.control_CYP1A2_uM": "2.3",
+  "cyp.n_gt50_CYP2C9": "2",
+  "cyp.control_CYP2C9_uM": "0.33",
+  "cyp.n_gt50_CYP2C19": "9",
+  "cyp.control_CYP2C19_uM": "1.0",
+  "cyp.n_gt50_CYP2D6": "7",
+  "cyp.control_CYP2D6_uM": "0.060",
+  "cyp.n_gt50_CYP3A4": "11",
+  "cyp.control_CYP3A4_uM": "0.029",
+  "cyp.n_any_gt50": "16",
+  "cyp.AP02-01404.CYP3A4_pct": "10",
+  "cyp.AP02-01410.CYP3A4_pct": "85",
+  "cyp.AP02-01412.CYP3A4_pct": "97",
+  "cyp.AP02-01418.CYP3A4_pct": "13",
+  "cyp.AP02-01424.CYP3A4_pct": "-7",
+  "cyp.AP02-01428.CYP3A4_pct": "36",
+  "cyp.AP02-01430.CYP3A4_pct": "54",
+  "cyp.AP02-01434.CYP3A4_pct": "85",
+  "cyp.AP02-01436.CYP3A4_pct": "2",
+  "cyp.AP02-01442.CYP3A4_pct": "33",
+  "cyp.AP02-01454.CYP3A4_pct": "25",
+  "cyp.AP02-01458.CYP3A4_pct": "22",
+  "cyp.AP02-01464.CYP3A4_pct": "4",
+  "cyp.AP02-01466.CYP3A4_pct": "15",
+  "cyp.AP02-01472.CYP3A4_pct": "45",
+  "cyp.AP02-01482.CYP3A4_pct": "15",
+  "cyp.AP02-01484.CYP3A4_pct": "8",
+  "cyp.AP02-01490.CYP3A4_pct": "-3",
+  "cyp.AP02-01494.CYP3A4_pct": "82",
+  "cyp.AP02-01496.CYP3A4_pct": "4",
+  "cyp.AP02-01500.CYP3A4_pct": "-3",
+  "cyp.AP02-01502.CYP3A4_pct": "6",
+  "cyp.AP02-01506.CYP3A4_pct": "-5",
+  "cyp.AP02-01508.CYP3A4_pct": "61",
+  "cyp.AP02-01514.CYP3A4_pct": "6",
+  "cyp.AP02-01520.CYP3A4_pct": "46",
+  "cyp.AP02-01524.CYP3A4_pct": "11",
+  "cyp.AP02-01532.CYP3A4_pct": "27",
+  "cyp.AP02-01536.CYP3A4_pct": "70",
+  "cyp.AP02-01538.CYP3A4_pct": "1",
+  "cyp.AP02-01542.CYP3A4_pct": "4",
+  "cyp.AP02-01544.CYP3A4_pct": "60",
+  "cyp.AP02-01548.CYP3A4_pct": "66",
+  "cyp.AP02-01556.CYP3A4_pct": "73",
+  "cyp.AP02-01560.CYP3A4_pct": "-4",
+  "cyp.AP02-01568.CYP3A4_pct": "27",
+  "cyp.AP02-01572.CYP3A4_pct": "20",
+  "cyp.AP02-01574.CYP3A4_pct": "80",
+  "cyp.AP02-01584.CYP3A4_pct": "35",
+  "cyp.AP02-01590.CYP3A4_pct": "36",
+  "price": "GBP 11,800",
+  "n_compounds": "40",
+  "turnaround_days": "15",
+  "client_variant": "Avernelwick Pharmaceuticals Ltd",
+  "project_id": "BW11_0275",
+  "lims_id": "B-ACC-2011-04692"
+ }
+}

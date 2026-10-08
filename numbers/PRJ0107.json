@@ -1,0 +1,77 @@
+{
+ "project_id": "PRJ0107",
+ "firm": "F",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "1.7",
+     "Clear solution",
+     "Not assessed"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "1.5",
+     "Precipitate at 24 h",
+     "Stable"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "0.22",
+     "Suspension, settles <1 h",
+     "Stable"
+    ],
+    [
+     "PEG400/water 30:70",
+     "0.54",
+     "Clear, slight yellow tint",
+     "Not assessed"
+    ],
+    [
+     "10% DMSO / 90% corn oil",
+     "0.91",
+     "Suspension, settles <1 h",
+     "Stable"
+    ],
+    [
+     "Labrasol/PEG400 1:1",
+     "2.4",
+     "Clear solution",
+     "Not assessed"
+    ],
+    [
+     "5% NMP / 15% Solutol HS15 / 80% water",
+     "0.93",
+     "Clear, slight yellow tint",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "pH 4 citrate buffer",
+     "4.0",
+     "Precipitate at 24 h",
+     "Not assessed"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 34,500",
+  "n_compounds": "0",
+  "turnaround_days": "82",
+  "client_variant": "Esmervane Pharmaceuticals",
+  "project_id": "DL_2016_0044",
+  "lims_id": "DF16-00532"
+ }
+}

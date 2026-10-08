@@ -1,0 +1,77 @@
+{
+ "project_id": "PRJ0105",
+ "firm": "F",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "0.52",
+     "Suspension, settles <1 h",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "0.74",
+     "Precipitate at 24 h",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "2.4",
+     "Clear, slight yellow tint",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "PEG400/water 30:70",
+     "1.3",
+     "Suspension, settles <1 h",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "10% DMSO / 90% corn oil",
+     "2.3",
+     "Precipitate at 24 h",
+     "Stable"
+    ],
+    [
+     "Labrasol/PEG400 1:1",
+     "15",
+     "Suspension, settles <1 h",
+     "Not assessed"
+    ],
+    [
+     "5% NMP / 15% Solutol HS15 / 80% water",
+     "2.0",
+     "Clear solution",
+     "Stable"
+    ],
+    [
+     "pH 4 citrate buffer",
+     "0.40",
+     "Fine suspension",
+     "Not assessed"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 31,000",
+  "n_compounds": "0",
+  "turnaround_days": "48",
+  "client_variant": "Auvrelquith Biosciences",
+  "project_id": "DL_2016_0027",
+  "lims_id": "DF16-00334"
+ }
+}

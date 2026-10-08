@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0065",
+ "firm": "C",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "USD 12,000",
+  "n_compounds": "0",
+  "turnaround_days": "42",
+  "client_variant": "Nimbravelle Medicines Inc",
+  "project_id": "MV-2023-288",
+  "lims_id": "M23/BIO/06630"
+ }
+}

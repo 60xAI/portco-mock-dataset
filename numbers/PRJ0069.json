@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0069",
+ "firm": "C",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "USD 15,700",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Lomervessa Pharma",
+  "project_id": "MV-2026-240",
+  "lims_id": "M26/BIO/05530"
+ }
+}

@@ -1,0 +1,340 @@
+{
+ "project_id": "PRJ0023",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER20",
+ "compounds": [
+  {
+   "id": "FM20-02000",
+   "smiles": "CN1C(=O)N(c2ccc(C#N)cc2)CC1c1ccc(N2CCOCC2)cc1",
+   "mw": 362.4,
+   "clogp": 3.01,
+   "tpsa": 59.8
+  },
+  {
+   "id": "FM20-02010",
+   "smiles": "CN1C(=O)N(c2ccc(C#N)cc2)CC1c1ccc(N2CCCC2)cc1",
+   "mw": 346.4,
+   "clogp": 3.77,
+   "tpsa": 50.6
+  },
+  {
+   "id": "FM20-02018",
+   "smiles": "CN1CCC(Oc2ccc(C3CN(c4cccnc4)C(=O)N3C)cc2)CC1",
+   "mw": 366.5,
+   "clogp": 3.17,
+   "tpsa": 48.9
+  },
+  {
+   "id": "FM20-02022",
+   "smiles": "CN1C(=O)N(c2cncnc2)CC1c1ccc(N2CCC(N)CC2)cc1",
+   "mw": 352.4,
+   "clogp": 2.02,
+   "tpsa": 78.6
+  },
+  {
+   "id": "FM20-02046",
+   "smiles": "CN1C(=O)N(c2ccc(F)cc2)CC1c1ccc(N2CCCC2)cc1",
+   "mw": 339.4,
+   "clogp": 4.04,
+   "tpsa": 26.8
+  },
+  {
+   "id": "FM20-02048",
+   "smiles": "CN1C(=O)N(c2cccnc2)CC1c1ccc(N2CCOCC2)cc1",
+   "mw": 338.4,
+   "clogp": 2.53,
+   "tpsa": 48.9
+  },
+  {
+   "id": "FM20-02052",
+   "smiles": "CN1CCC(Oc2ccc(C3CN(c4ccc(C#N)cc4)C(=O)N3C)cc2)CC1",
+   "mw": 390.5,
+   "clogp": 3.64,
+   "tpsa": 59.8
+  },
+  {
+   "id": "FM20-02096",
+   "smiles": "COc1ccc(N2CC(c3ccc(NC4CCCCC4)cc3)N(C)C2=O)cc1",
+   "mw": 379.5,
+   "clogp": 5.05,
+   "tpsa": 44.8
+  },
+  {
+   "id": "FM20-02106",
+   "smiles": "COc1ccc(N2CC(c3ccc(OC4CCN(C)CC4)cc3)N(C)C2=O)cc1",
+   "mw": 395.5,
+   "clogp": 3.78,
+   "tpsa": 45.3
+  },
+  {
+   "id": "FM20-02114",
+   "smiles": "CN1C(=O)N(c2cccnc2)CC1c1ccc(N2CCC(O)CC2)cc1",
+   "mw": 352.4,
+   "clogp": 2.66,
+   "tpsa": 59.9
+  },
+  {
+   "id": "FM20-02120",
+   "smiles": "CN1C(=O)N(c2ccc(C#N)cc2)CC1c1ccc(NC2CCCCC2)cc1",
+   "mw": 374.5,
+   "clogp": 4.92,
+   "tpsa": 59.4
+  },
+  {
+   "id": "FM20-02124",
+   "smiles": "CC(=O)Nc1ccc(N2CC(c3ccc(NC4CCCCC4)cc3)N(C)C2=O)cc1",
+   "mw": 406.5,
+   "clogp": 5.0,
+   "tpsa": 64.7
+  },
+  {
+   "id": "FM20-02126",
+   "smiles": "CN1C(=O)N(c2cc(F)cc(F)c2)CC1c1ccc(N2CCC(O)CC2)cc1",
+   "mw": 387.4,
+   "clogp": 3.54,
+   "tpsa": 47.0
+  },
+  {
+   "id": "FM20-02136",
+   "smiles": "CN1C(=O)N(c2cccnc2)CC1c1ccc(N2CCCC2)cc1",
+   "mw": 322.4,
+   "clogp": 3.29,
+   "tpsa": 39.7
+  },
+  {
+   "id": "FM20-02144",
+   "smiles": "CN1CCN(c2ccc(C3CN(c4ccc(F)cc4)C(=O)N3C)cc2)CC1",
+   "mw": 368.5,
+   "clogp": 3.19,
+   "tpsa": 30.0
+  },
+  {
+   "id": "FM20-02156",
+   "smiles": "CCN1CCN(c2ccc(C3CN(c4ccc(C#N)cc4)C(=O)N3C)cc2)CC1",
+   "mw": 389.5,
+   "clogp": 3.31,
+   "tpsa": 53.8
+  },
+  {
+   "id": "FM20-02162",
+   "smiles": "CCN1CCN(c2ccc(C3CN(c4cc(F)cc(F)c4)C(=O)N3C)cc2)CC1",
+   "mw": 400.5,
+   "clogp": 3.72,
+   "tpsa": 30.0
+  },
+  {
+   "id": "FM20-02172",
+   "smiles": "CN1CCN(c2ccc(C3CN(c4cccnc4)C(=O)N3C)cc2)CC1",
+   "mw": 351.5,
+   "clogp": 2.45,
+   "tpsa": 42.9
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "FM20-02000",
+     "CN1C(=O)N(c2ccc(C#N)cc2)CC1c1ccc(N2CCOCC2)cc1",
+     "362.4",
+     "4",
+     "98.7",
+     "18"
+    ],
+    [
+     "FM20-02010",
+     "CN1C(=O)N(c2ccc(C#N)cc2)CC1c1ccc(N2CCCC2)cc1",
+     "346.4",
+     "66",
+     "98.3",
+     "33"
+    ],
+    [
+     "FM20-02018",
+     "CN1CCC(Oc2ccc(C3CN(c4cccnc4)C(=O)N3C)cc2)CC1",
+     "366.5",
+     "22",
+     "95.9",
+     "18"
+    ],
+    [
+     "FM20-02022",
+     "CN1C(=O)N(c2cncnc2)CC1c1ccc(N2CCC(N)CC2)cc1",
+     "352.4",
+     "9",
+     "95.5",
+     "44"
+    ],
+    [
+     "FM20-02046",
+     "CN1C(=O)N(c2ccc(F)cc2)CC1c1ccc(N2CCCC2)cc1",
+     "339.4",
+     "32",
+     "94.2",
+     "37"
+    ],
+    [
+     "FM20-02048",
+     "CN1C(=O)N(c2cccnc2)CC1c1ccc(N2CCOCC2)cc1",
+     "338.4",
+     "4",
+     "98.1",
+     "20"
+    ],
+    [
+     "FM20-02052",
+     "CN1CCC(Oc2ccc(C3CN(c4ccc(C#N)cc4)C(=O)N3C)cc2)CC1",
+     "390.5",
+     "23",
+     "99.7",
+     "26"
+    ],
+    [
+     "FM20-02096",
+     "COc1ccc(N2CC(c3ccc(NC4CCCCC4)cc3)N(C)C2=O)cc1",
+     "379.5",
+     "46",
+     "95.0",
+     "8"
+    ],
+    [
+     "FM20-02106",
+     "COc1ccc(N2CC(c3ccc(OC4CCN(C)CC4)cc3)N(C)C2=O)cc1",
+     "395.5",
+     "30",
+     "92.8",
+     "25"
+    ],
+    [
+     "FM20-02114",
+     "CN1C(=O)N(c2cccnc2)CC1c1ccc(N2CCC(O)CC2)cc1",
+     "352.4",
+     "26",
+     "96.1",
+     "38"
+    ],
+    [
+     "FM20-02120",
+     "CN1C(=O)N(c2ccc(C#N)cc2)CC1c1ccc(NC2CCCCC2)cc1",
+     "374.5",
+     "37",
+     "97.3",
+     "35"
+    ],
+    [
+     "FM20-02124",
+     "CC(=O)Nc1ccc(N2CC(c3ccc(NC4CCCCC4)cc3)N(C)C2=O)cc1",
+     "406.5",
+     "55",
+     "95.5",
+     "23"
+    ],
+    [
+     "FM20-02126",
+     "CN1C(=O)N(c2cc(F)cc(F)c2)CC1c1ccc(N2CCC(O)CC2)cc1",
+     "387.4",
+     "25",
+     "98.3",
+     "39"
+    ],
+    [
+     "FM20-02136",
+     "CN1C(=O)N(c2cccnc2)CC1c1ccc(N2CCCC2)cc1",
+     "322.4",
+     "38",
+     "97.2",
+     "18"
+    ],
+    [
+     "FM20-02144",
+     "CN1CCN(c2ccc(C3CN(c4ccc(F)cc4)C(=O)N3C)cc2)CC1",
+     "368.5",
+     "33",
+     "96.3",
+     "25"
+    ],
+    [
+     "FM20-02156",
+     "CCN1CCN(c2ccc(C3CN(c4ccc(C#N)cc4)C(=O)N3C)cc2)CC1",
+     "389.5",
+     "17",
+     "97.7",
+     "31"
+    ],
+    [
+     "FM20-02162",
+     "CCN1CCN(c2ccc(C3CN(c4cc(F)cc(F)c4)C(=O)N3C)cc2)CC1",
+     "400.5",
+     "67",
+     "94.6",
+     "23"
+    ],
+    [
+     "FM20-02172",
+     "CN1CCN(c2ccc(C3CN(c4cccnc4)C(=O)N3C)cc2)CC1",
+     "351.5",
+     "37",
+     "96.5",
+     "34"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-20-028"
+    ],
+    [
+     "Client",
+     "Farnovessa Medicines"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Farnovessa imidazolidinone series 20 (Imidazolidinone)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "133"
+    ],
+    [
+     "Price",
+     "GBP 43,500"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 43,500",
+  "n_compounds": "18",
+  "turnaround_days": "133",
+  "client_variant": "Farnovessa Medicines",
+  "project_id": "VD-20-028",
+  "lims_id": "VA20200254"
+ }
+}

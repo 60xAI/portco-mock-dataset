@@ -1,0 +1,430 @@
+{
+ "project_id": "PRJ0020",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER13",
+ "compounds": [
+  {
+   "id": "RI13-02900",
+   "smiles": "O=C(NCOc1ccc(-c2ccncc2)cc1)c1ccnc(NC2CCCCC2)c1",
+   "mw": 402.5,
+   "clogp": 4.65,
+   "tpsa": 76.1
+  },
+  {
+   "id": "RI13-02910",
+   "smiles": "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(N2CCOCC2)c1",
+   "mw": 391.4,
+   "clogp": 2.14,
+   "tpsa": 89.5
+  },
+  {
+   "id": "RI13-02912",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4cncnc4)cc3)ccn2)CC1",
+   "mw": 404.5,
+   "clogp": 2.06,
+   "tpsa": 83.5
+  },
+  {
+   "id": "RI13-02918",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4cccnc4)cc3)ccn2)CC1",
+   "mw": 417.5,
+   "clogp": 3.05,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-02930",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(OC4CCN(C)CC4)c3)cc2)nc1",
+   "mw": 432.5,
+   "clogp": 3.69,
+   "tpsa": 76.6
+  },
+  {
+   "id": "RI13-02934",
+   "smiles": "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(-c2ccncc2)c1",
+   "mw": 383.4,
+   "clogp": 3.37,
+   "tpsa": 89.9
+  },
+  {
+   "id": "RI13-02936",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4cccnc4)cc3)ccn2)CC1",
+   "mw": 403.5,
+   "clogp": 2.66,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-02946",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccncc4)cc3)ccn2)CC1",
+   "mw": 403.5,
+   "clogp": 2.66,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-02988",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(C)cn4)cc3)ccn2)CC1",
+   "mw": 431.5,
+   "clogp": 3.36,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-02996",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)nc1",
+   "mw": 404.5,
+   "clogp": 3.05,
+   "tpsa": 76.6
+  },
+  {
+   "id": "RI13-03002",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(NC(C)=O)cc4)cc3)ccn2)CC1",
+   "mw": 473.6,
+   "clogp": 3.62,
+   "tpsa": 86.8
+  },
+  {
+   "id": "RI13-03006",
+   "smiles": "N#Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCCC4)c3)cc2)cc1",
+   "mw": 398.5,
+   "clogp": 3.99,
+   "tpsa": 78.2
+  },
+  {
+   "id": "RI13-03008",
+   "smiles": "N#Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)cc1",
+   "mw": 406.4,
+   "clogp": 4.45,
+   "tpsa": 87.9
+  },
+  {
+   "id": "RI13-03014",
+   "smiles": "O=C(NCOc1ccc(-c2cccnc2)cc1)c1ccnc(NC2CCCCC2)c1",
+   "mw": 402.5,
+   "clogp": 4.65,
+   "tpsa": 76.1
+  },
+  {
+   "id": "RI13-03018",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCCC4)c3)cc2)nc1",
+   "mw": 388.5,
+   "clogp": 3.82,
+   "tpsa": 67.3
+  },
+  {
+   "id": "RI13-03020",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(C(=O)NCOc3ccc(-c4ccc(C)cn4)cc3)ccn2)cc1",
+   "mw": 452.5,
+   "clogp": 4.84,
+   "tpsa": 93.2
+  },
+  {
+   "id": "RI13-03038",
+   "smiles": "Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)cc1",
+   "mw": 404.5,
+   "clogp": 2.93,
+   "tpsa": 89.7
+  },
+  {
+   "id": "RI13-03048",
+   "smiles": "O=C(NCOc1ccc(-c2ccncc2)cc1)c1ccnc(-c2ccncc2)c1",
+   "mw": 382.4,
+   "clogp": 3.97,
+   "tpsa": 77.0
+  },
+  {
+   "id": "RI13-03050",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(C(=O)NCOc3ccc(-c4ccncc4)cc3)ccn2)cc1",
+   "mw": 438.5,
+   "clogp": 4.54,
+   "tpsa": 93.2
+  },
+  {
+   "id": "RI13-03054",
+   "smiles": "COc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCN(C)CC4)c3)cc2)cc1",
+   "mw": 432.5,
+   "clogp": 3.28,
+   "tpsa": 66.9
+  },
+  {
+   "id": "RI13-03056",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)nc1",
+   "mw": 396.5,
+   "clogp": 4.28,
+   "tpsa": 77.0
+  },
+  {
+   "id": "RI13-03078",
+   "smiles": "O=C(NCOc1ccc(-c2cccnc2)cc1)c1ccnc(N2CCOCC2)c1",
+   "mw": 390.4,
+   "clogp": 2.75,
+   "tpsa": 76.6
+  },
+  {
+   "id": "RI13-03086",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)cc1",
+   "mw": 438.5,
+   "clogp": 4.54,
+   "tpsa": 93.2
+  },
+  {
+   "id": "RI13-03090",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccc(NC(C)=O)cc4)c3)cc2)cc1",
+   "mw": 494.6,
+   "clogp": 5.1,
+   "tpsa": 109.4
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "RI13-02900",
+     "O=C(NCOc1ccc(-c2ccncc2)cc1)c1ccnc(NC2CCCCC2)c1",
+     "402.5",
+     "7",
+     "95.7",
+     "38"
+    ],
+    [
+     "RI13-02910",
+     "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(N2CCOCC2)c1",
+     "391.4",
+     "4",
+     "96.2",
+     "29"
+    ],
+    [
+     "RI13-02912",
+     "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4cncnc4)cc3)ccn2)CC1",
+     "404.5",
+     "5",
+     "98.6",
+     "9"
+    ],
+    [
+     "RI13-02918",
+     "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4cccnc4)cc3)ccn2)CC1",
+     "417.5",
+     "31",
+     "99.4",
+     "33"
+    ],
+    [
+     "RI13-02930",
+     "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(OC4CCN(C)CC4)c3)cc2)nc1",
+     "432.5",
+     "21",
+     "97.2",
+     "19"
+    ],
+    [
+     "RI13-02934",
+     "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(-c2ccncc2)c1",
+     "383.4",
+     "37",
+     "97.3",
+     "41"
+    ],
+    [
+     "RI13-02936",
+     "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4cccnc4)cc3)ccn2)CC1",
+     "403.5",
+     "32",
+     "95.7",
+     "35"
+    ],
+    [
+     "RI13-02946",
+     "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccncc4)cc3)ccn2)CC1",
+     "403.5",
+     "41",
+     "97.0",
+     "9"
+    ],
+    [
+     "RI13-02988",
+     "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(C)cn4)cc3)ccn2)CC1",
+     "431.5",
+     "24",
+     "95.4",
+     "33"
+    ],
+    [
+     "RI13-02996",
+     "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)nc1",
+     "404.5",
+     "40",
+     "97.2",
+     "11"
+    ],
+    [
+     "RI13-03002",
+     "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(NC(C)=O)cc4)cc3)ccn2)CC1",
+     "473.6",
+     "40",
+     "95.4",
+     "19"
+    ],
+    [
+     "RI13-03006",
+     "N#Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCCC4)c3)cc2)cc1",
+     "398.5",
+     "19",
+     "96.6",
+     "32"
+    ],
+    [
+     "RI13-03008",
+     "N#Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)cc1",
+     "406.4",
+     "54",
+     "94.9",
+     "25"
+    ],
+    [
+     "RI13-03014",
+     "O=C(NCOc1ccc(-c2cccnc2)cc1)c1ccnc(NC2CCCCC2)c1",
+     "402.5",
+     "44",
+     "97.5",
+     "49"
+    ],
+    [
+     "RI13-03018",
+     "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCCC4)c3)cc2)nc1",
+     "388.5",
+     "23",
+     "95.3",
+     "27"
+    ],
+    [
+     "RI13-03020",
+     "CC(=O)Nc1ccc(-c2cc(C(=O)NCOc3ccc(-c4ccc(C)cn4)cc3)ccn2)cc1",
+     "452.5",
+     "53",
+     "93.2",
+     "40"
+    ],
+    [
+     "RI13-03038",
+     "Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)cc1",
+     "404.5",
+     "15",
+     "98.2",
+     "9"
+    ],
+    [
+     "RI13-03048",
+     "O=C(NCOc1ccc(-c2ccncc2)cc1)c1ccnc(-c2ccncc2)c1",
+     "382.4",
+     "46",
+     "95.2",
+     "16"
+    ],
+    [
+     "RI13-03050",
+     "CC(=O)Nc1ccc(-c2cc(C(=O)NCOc3ccc(-c4ccncc4)cc3)ccn2)cc1",
+     "438.5",
+     "84",
+     "95.9",
+     "31"
+    ],
+    [
+     "RI13-03054",
+     "COc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCN(C)CC4)c3)cc2)cc1",
+     "432.5",
+     "51",
+     "97.1",
+     "31"
+    ],
+    [
+     "RI13-03056",
+     "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)nc1",
+     "396.5",
+     "56",
+     "96.3",
+     "57"
+    ],
+    [
+     "RI13-03078",
+     "O=C(NCOc1ccc(-c2cccnc2)cc1)c1ccnc(N2CCOCC2)c1",
+     "390.4",
+     "22",
+     "96.6",
+     "26"
+    ],
+    [
+     "RI13-03086",
+     "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)cc1",
+     "438.5",
+     "42",
+     "99.2",
+     "29"
+    ],
+    [
+     "RI13-03090",
+     "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccc(NC(C)=O)cc4)c3)cc2)cc1",
+     "494.6",
+     "59",
+     "98.7",
+     "52"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-17-044"
+    ],
+    [
+     "Client",
+     "Rennelwick Institute Drug Discovery Unit"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Rennelwick phenoxyethyl amide series 13 (Phenoxyethyl amide)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "99"
+    ],
+    [
+     "Price",
+     "GBP 34,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 34,300",
+  "n_compounds": "24",
+  "turnaround_days": "99",
+  "client_variant": "Rennelwick Institute Drug Discovery Unit",
+  "project_id": "VD-17-044",
+  "lims_id": "VA20170410"
+ }
+}

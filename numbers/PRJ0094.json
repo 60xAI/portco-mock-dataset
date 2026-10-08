@@ -1,0 +1,248 @@
+{
+ "project_id": "PRJ0094",
+ "firm": "E",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "stability": {
+   "title": "Stability results (assay % label claim; impurities % area)",
+   "columns": [
+    "Condition",
+    "Timepoint (months)",
+    "Assay (% LC)",
+    "Imp A RRT 0.86 (%)",
+    "Imp B RRT 1.12 (%)",
+    "Total impurities (%)",
+    "Water KF (% w/w)",
+    "Result"
+   ],
+   "rows": [
+    [
+     "25 °C/60% RH",
+     0,
+     "100.2",
+     "0.05",
+     "<0.05",
+     "0.17",
+     "2.0",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     1,
+     "99.8",
+     "0.07",
+     "<0.05",
+     "0.23",
+     "1.2",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     3,
+     "100.1",
+     "0.08",
+     "<0.05",
+     "0.23",
+     "2.4",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     6,
+     "99.7",
+     "0.11",
+     "<0.05",
+     "0.25",
+     "1.9",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     9,
+     "100.6",
+     "0.13",
+     "0.06",
+     "0.27",
+     "2.3",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     12,
+     "100.0",
+     "0.14",
+     "0.09",
+     "0.28",
+     "2.5",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     0,
+     "100.2",
+     "0.06",
+     "<0.05",
+     "0.21",
+     "1.8",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     1,
+     "100.2",
+     "0.06",
+     "<0.05",
+     "0.15",
+     "2.0",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     3,
+     "100.1",
+     "0.10",
+     "0.05",
+     "0.23",
+     "1.6",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     6,
+     "99.7",
+     "0.13",
+     "0.08",
+     "0.32",
+     "2.3",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     9,
+     "99.4",
+     "0.18",
+     "0.10",
+     "0.38",
+     "0.9",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     12,
+     "99.2",
+     "0.20",
+     "0.11",
+     "0.46",
+     "2.0",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     0,
+     "99.8",
+     "0.05",
+     "<0.05",
+     "0.18",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     1,
+     "99.6",
+     "0.09",
+     "0.05",
+     "0.23",
+     "2.3",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     3,
+     "99.3",
+     "0.21",
+     "0.12",
+     "0.42",
+     "1.5",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     6,
+     "99.2",
+     "0.35",
+     "0.21",
+     "0.66",
+     "2.3",
+     "Complies"
+    ]
+   ],
+   "notes": [
+    "Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%"
+   ]
+  },
+  "method_val": {
+   "title": "Method validation summary",
+   "columns": [
+    "Parameter",
+    "Result",
+    "Acceptance"
+   ],
+   "rows": [
+    [
+     "Linearity (r²)",
+     "0.9993",
+     "≥0.999"
+    ],
+    [
+     "Range (% nominal)",
+     "50-150",
+     "80-120 minimum"
+    ],
+    [
+     "Accuracy 80% (% recovery)",
+     "99.2",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 100% (% recovery)",
+     "100.1",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 120% (% recovery)",
+     "100.6",
+     "98.0-102.0"
+    ],
+    [
+     "Repeatability (%RSD, n=6)",
+     "0.34",
+     "≤2.0"
+    ],
+    [
+     "Intermediate precision (%RSD)",
+     "1.22",
+     "≤2.0"
+    ],
+    [
+     "LOQ (% of nominal)",
+     "0.05",
+     "≤0.05"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "stability.t0_assay": "100.1",
+  "stability.last_timepoint_months": "12",
+  "price": "GBP 60,400",
+  "n_compounds": "0",
+  "turnaround_days": "365",
+  "client_variant": "Parvessune Pharmaceuticals",
+  "project_id": "WA/2021/270",
+  "lims_id": "WST-21-008374"
+ }
+}

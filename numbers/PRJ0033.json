@@ -1,0 +1,677 @@
+{
+ "project_id": "PRJ0033",
+ "firm": "B",
+ "status": "completed",
+ "series": "SER16",
+ "compounds": [
+  {
+   "id": "BP16-05400",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1nc(-c2cncnc2)co1",
+   "mw": 350.4,
+   "clogp": 1.93,
+   "tpsa": 97.0
+  },
+  {
+   "id": "BP16-05406",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4cc(F)cc(F)c4)co3)CC2)cc1",
+   "mw": 440.5,
+   "clogp": 3.98,
+   "tpsa": 87.5
+  },
+  {
+   "id": "BP16-05412",
+   "smiles": "CN1CCC(ON2CCC(NC(=O)c3nc(-c4ccc(N)cc4)co3)CC2)CC1",
+   "mw": 399.5,
+   "clogp": 2.14,
+   "tpsa": 96.9
+  },
+  {
+   "id": "BP16-05416",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(c4ccncc4)CC3)n2)nc1",
+   "mw": 363.4,
+   "clogp": 2.84,
+   "tpsa": 84.2
+  },
+  {
+   "id": "BP16-05422",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(OC4CCN(C)CC4)CC3)n2)cc1",
+   "mw": 441.5,
+   "clogp": 2.52,
+   "tpsa": 99.9
+  },
+  {
+   "id": "BP16-05424",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2ccc(F)cc2)co1",
+   "mw": 386.5,
+   "clogp": 3.51,
+   "tpsa": 70.4
+  },
+  {
+   "id": "BP16-05428",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4ccncc4)co3)CC2)cc1",
+   "mw": 405.5,
+   "clogp": 3.09,
+   "tpsa": 100.4
+  },
+  {
+   "id": "BP16-05430",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2cc(F)cc(F)c2)co1",
+   "mw": 404.5,
+   "clogp": 3.65,
+   "tpsa": 70.4
+  },
+  {
+   "id": "BP16-05434",
+   "smiles": "CN1CCC(ON2CCC(NC(=O)c3nc(-c4ccc(C#N)cc4)co3)CC2)CC1",
+   "mw": 409.5,
+   "clogp": 2.43,
+   "tpsa": 94.6
+  },
+  {
+   "id": "BP16-05440",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(OC4CCN(C)CC4)CC3)n2)nc1",
+   "mw": 399.5,
+   "clogp": 2.27,
+   "tpsa": 83.7
+  },
+  {
+   "id": "BP16-05442",
+   "smiles": "O=C(NC1CCN(N2CCC(O)CC2)CC1)c1nc(-c2ccncc2)co1",
+   "mw": 371.4,
+   "clogp": 1.3,
+   "tpsa": 94.7
+  },
+  {
+   "id": "BP16-05446",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4ccc(F)cc4)co3)CC2)CC1",
+   "mw": 387.5,
+   "clogp": 1.84,
+   "tpsa": 64.8
+  },
+  {
+   "id": "BP16-05448",
+   "smiles": "CN1CCC(ON2CCC(NC(=O)c3nc(-c4cc(F)cc(F)c4)co3)CC2)CC1",
+   "mw": 420.5,
+   "clogp": 2.84,
+   "tpsa": 70.8
+  },
+  {
+   "id": "BP16-05460",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4ccncc4)co3)CC2)CC1",
+   "mw": 370.5,
+   "clogp": 1.09,
+   "tpsa": 77.7
+  },
+  {
+   "id": "BP16-05478",
+   "smiles": "N#Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(O)CC4)CC3)n2)cc1",
+   "mw": 395.5,
+   "clogp": 1.78,
+   "tpsa": 105.6
+  },
+  {
+   "id": "BP16-05482",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4ccc(C)cn4)co3)CC2)cc1",
+   "mw": 419.5,
+   "clogp": 3.4,
+   "tpsa": 100.4
+  },
+  {
+   "id": "BP16-05484",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(N)CC4)CC3)n2)nc1",
+   "mw": 384.5,
+   "clogp": 1.58,
+   "tpsa": 100.5
+  },
+  {
+   "id": "BP16-05494",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCOCC4)CC3)n2)cc1",
+   "mw": 413.5,
+   "clogp": 1.74,
+   "tpsa": 99.9
+  },
+  {
+   "id": "BP16-05496",
+   "smiles": "NC1CCN(N2CCC(NC(=O)c3nc(-c4ccc(F)cc4)co3)CC2)CC1",
+   "mw": 387.5,
+   "clogp": 2.01,
+   "tpsa": 87.6
+  },
+  {
+   "id": "BP16-05502",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4ccc(C#N)cc4)co3)CC2)CC1",
+   "mw": 394.5,
+   "clogp": 1.57,
+   "tpsa": 88.6
+  },
+  {
+   "id": "BP16-05508",
+   "smiles": "N#Cc1ccc(-c2coc(C(=O)NC3CCN(NC4CCCCC4)CC3)n2)cc1",
+   "mw": 393.5,
+   "clogp": 3.24,
+   "tpsa": 94.2
+  },
+  {
+   "id": "BP16-05518",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(N)CC4)CC3)n2)cc1",
+   "mw": 426.5,
+   "clogp": 1.83,
+   "tpsa": 116.7
+  },
+  {
+   "id": "BP16-05520",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(c4ccc(NC(C)=O)cc4)CC3)n2)cc1",
+   "mw": 461.5,
+   "clogp": 3.66,
+   "tpsa": 116.6
+  },
+  {
+   "id": "BP16-05532",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4cc(F)cc(F)c4)co3)CC2)CC1",
+   "mw": 405.4,
+   "clogp": 1.98,
+   "tpsa": 64.8
+  },
+  {
+   "id": "BP16-05536",
+   "smiles": "Nc1ccc(-c2coc(C(=O)NC3CCN(c4ccncc4)CC3)n2)cc1",
+   "mw": 363.4,
+   "clogp": 2.72,
+   "tpsa": 97.3
+  },
+  {
+   "id": "BP16-05538",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4cncnc4)co3)CC2)cc1",
+   "mw": 406.4,
+   "clogp": 2.49,
+   "tpsa": 113.3
+  },
+  {
+   "id": "BP16-05542",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(NC4CCCCC4)CC3)n2)nc1",
+   "mw": 383.5,
+   "clogp": 3.08,
+   "tpsa": 83.3
+  },
+  {
+   "id": "BP16-05556",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1nc(-c2cc(F)cc(F)c2)co1",
+   "mw": 384.4,
+   "clogp": 3.41,
+   "tpsa": 71.3
+  },
+  {
+   "id": "BP16-05560",
+   "smiles": "O=C(NC1CCN(N2CCOCC2)CC1)c1nc(-c2ccc(F)cc2)co1",
+   "mw": 374.4,
+   "clogp": 1.92,
+   "tpsa": 70.8
+  },
+  {
+   "id": "BP16-05562",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1nc(-c2ccc(F)cc2)co1",
+   "mw": 366.4,
+   "clogp": 3.27,
+   "tpsa": 71.3
+  },
+  {
+   "id": "BP16-05584",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCOCC4)CC3)n2)nc1",
+   "mw": 371.4,
+   "clogp": 1.49,
+   "tpsa": 83.7
+  },
+  {
+   "id": "BP16-05590",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2ccncc2)co1",
+   "mw": 369.5,
+   "clogp": 2.77,
+   "tpsa": 83.3
+  }
+ ],
+ "tables": {
+  "herg": {
+   "title": "hERG IC50 (automated patch clamp)",
+   "columns": [
+    "Compound",
+    "IC50 rep 1 (µM)",
+    "IC50 rep 2 (µM)",
+    "IC50 rep 3 (µM)",
+    "IC50 mean (µM)",
+    "% inhibition @10 µM",
+    "n",
+    "QC note"
+   ],
+   "rows": [
+    [
+     "BP16-05400",
+     ">30",
+     ">30",
+     ">30",
+     ">30",
+     "21",
+     3,
+     ""
+    ],
+    [
+     "BP16-05406",
+     "1.4",
+     "3.0",
+     "",
+     "2.1",
+     "86",
+     2,
+     ""
+    ],
+    [
+     "BP16-05412",
+     "26",
+     "24",
+     ">30",
+     "25",
+     "27",
+     3,
+     ""
+    ],
+    [
+     "BP16-05416",
+     ">30",
+     "20",
+     "",
+     ">30",
+     "26",
+     2,
+     ""
+    ],
+    [
+     "BP16-05422",
+     "12",
+     "18",
+     "14",
+     "15",
+     "38",
+     3,
+     ""
+    ],
+    [
+     "BP16-05424",
+     "3.7",
+     "3.1",
+     "",
+     "3.4",
+     "76",
+     2,
+     ""
+    ],
+    [
+     "BP16-05428",
+     ">30",
+     ">30",
+     "",
+     ">30",
+     "25",
+     2,
+     "Run 2 rejected (E-4031 outside range); repeated"
+    ],
+    [
+     "BP16-05430",
+     "3.6",
+     "1.8",
+     "",
+     "2.6",
+     "79",
+     2,
+     ""
+    ],
+    [
+     "BP16-05434",
+     "6.1",
+     "13",
+     "",
+     "9.0",
+     "49",
+     2,
+     ""
+    ],
+    [
+     "BP16-05440",
+     "12",
+     "17",
+     "",
+     "14",
+     "39",
+     2,
+     ""
+    ],
+    [
+     "BP16-05442",
+     "5.1",
+     "5.6",
+     "6.8",
+     "5.8",
+     "61",
+     3,
+     ""
+    ],
+    [
+     "BP16-05446",
+     "9.4",
+     "6.6",
+     "4.6",
+     "6.6",
+     "66",
+     3,
+     ""
+    ],
+    [
+     "BP16-05448",
+     "11",
+     "5.6",
+     "",
+     "7.7",
+     "50",
+     2,
+     ""
+    ],
+    [
+     "BP16-05460",
+     "30",
+     ">30",
+     "",
+     ">30",
+     "32",
+     2,
+     ""
+    ],
+    [
+     "BP16-05478",
+     "15",
+     "19",
+     "9.6",
+     "14",
+     "39",
+     3,
+     ""
+    ],
+    [
+     "BP16-05482",
+     "13",
+     "21",
+     "14",
+     "16",
+     "40",
+     3,
+     "Run 2 rejected (E-4031 outside range); repeated"
+    ],
+    [
+     "BP16-05484",
+     "9.3",
+     "15",
+     "",
+     "12",
+     "42",
+     2,
+     ""
+    ],
+    [
+     "BP16-05494",
+     "18",
+     "23",
+     "",
+     "20",
+     "39",
+     2,
+     ""
+    ],
+    [
+     "BP16-05496",
+     "9.1",
+     "4.9",
+     "",
+     "6.7",
+     "60",
+     2,
+     ""
+    ],
+    [
+     "BP16-05502",
+     "7.7",
+     "6.8",
+     "",
+     "7.2",
+     "55",
+     2,
+     ""
+    ],
+    [
+     "BP16-05508",
+     "14",
+     "13",
+     "",
+     "14",
+     "40",
+     2,
+     ""
+    ],
+    [
+     "BP16-05518",
+     "12",
+     "16",
+     "",
+     "14",
+     "37",
+     2,
+     ""
+    ],
+    [
+     "BP16-05520",
+     "17",
+     "17",
+     "",
+     "17",
+     "42",
+     2,
+     ""
+    ],
+    [
+     "BP16-05532",
+     "20",
+     "11",
+     "",
+     "15",
+     "38",
+     2,
+     ""
+    ],
+    [
+     "BP16-05536",
+     "21",
+     "24",
+     "",
+     "23",
+     "27",
+     2,
+     ""
+    ],
+    [
+     "BP16-05538",
+     ">30",
+     ">30",
+     "",
+     ">30",
+     "29",
+     2,
+     ""
+    ],
+    [
+     "BP16-05542",
+     "7.3",
+     "4.8",
+     "",
+     "5.9",
+     "63",
+     2,
+     ""
+    ],
+    [
+     "BP16-05556",
+     "2.1",
+     "1.9",
+     "",
+     "2.0",
+     "84",
+     2,
+     ""
+    ],
+    [
+     "BP16-05560",
+     "5.1",
+     "5.6",
+     "",
+     "5.4",
+     "68",
+     2,
+     ""
+    ],
+    [
+     "BP16-05562",
+     "4.5",
+     "5.6",
+     "",
+     "5.0",
+     "71",
+     2,
+     ""
+    ],
+    [
+     "BP16-05584",
+     "18",
+     "17",
+     "",
+     "17",
+     "36",
+     2,
+     ""
+    ],
+    [
+     "BP16-05590",
+     "6.7",
+     "3.4",
+     "8.9",
+     "5.9",
+     "55",
+     3,
+     ""
+    ]
+   ],
+   "notes": [
+    "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 13 nM (acceptance 5-50 nM)"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW03_0098"
+    ],
+    [
+     "Client",
+     "Belquorin Pharma"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Belquorin oxazole carboxamide series 16 (Oxazole carboxamide)"
+    ],
+    [
+     "Assays",
+     "hERG patch clamp"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "16"
+    ],
+    [
+     "Price",
+     "GBP 8,500"
+    ],
+    [
+     "hERG IC50 <1 µM",
+     "0"
+    ],
+    [
+     "hERG IC50 1-10 µM",
+     "14"
+    ],
+    [
+     "hERG IC50 ≥10 µM",
+     "18"
+    ],
+    [
+     "hERG median IC50 (µM)",
+     "14"
+    ],
+    [
+     "E-4031 control IC50 (nM)",
+     "13"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "herg.n_tested": "32",
+  "herg.n_lt_1uM": "0",
+  "herg.n_1_10uM": "14",
+  "herg.n_ge_10uM": "18",
+  "herg.median_ic50_uM": "14",
+  "herg.control_e4031_nM": "13",
+  "herg.top_conc_uM": "30",
+  "herg.BP16-05400.ic50_uM": ">30",
+  "herg.BP16-05406.ic50_uM": "2.1",
+  "herg.BP16-05412.ic50_uM": "25",
+  "herg.BP16-05416.ic50_uM": ">30",
+  "herg.BP16-05422.ic50_uM": "15",
+  "herg.BP16-05424.ic50_uM": "3.4",
+  "herg.BP16-05428.ic50_uM": ">30",
+  "herg.BP16-05430.ic50_uM": "2.6",
+  "herg.BP16-05434.ic50_uM": "9.0",
+  "herg.BP16-05440.ic50_uM": "14",
+  "herg.BP16-05442.ic50_uM": "5.8",
+  "herg.BP16-05446.ic50_uM": "6.6",
+  "herg.BP16-05448.ic50_uM": "7.7",
+  "herg.BP16-05460.ic50_uM": ">30",
+  "herg.BP16-05478.ic50_uM": "14",
+  "herg.BP16-05482.ic50_uM": "16",
+  "herg.BP16-05484.ic50_uM": "12",
+  "herg.BP16-05494.ic50_uM": "20",
+  "herg.BP16-05496.ic50_uM": "6.7",
+  "herg.BP16-05502.ic50_uM": "7.2",
+  "herg.BP16-05508.ic50_uM": "14",
+  "herg.BP16-05518.ic50_uM": "14",
+  "herg.BP16-05520.ic50_uM": "17",
+  "herg.BP16-05532.ic50_uM": "15",
+  "herg.BP16-05536.ic50_uM": "23",
+  "herg.BP16-05538.ic50_uM": ">30",
+  "herg.BP16-05542.ic50_uM": "5.9",
+  "herg.BP16-05556.ic50_uM": "2.0",
+  "herg.BP16-05560.ic50_uM": "5.4",
+  "herg.BP16-05562.ic50_uM": "5.0",
+  "herg.BP16-05584.ic50_uM": "17",
+  "herg.BP16-05590.ic50_uM": "5.9",
+  "price": "GBP 8,500",
+  "n_compounds": "32",
+  "turnaround_days": "16",
+  "client_variant": "Belquorin Pharma",
+  "project_id": "BW03_0098",
+  "lims_id": "B-ACC-2003-01676"
+ }
+}

@@ -1,0 +1,558 @@
+{
+ "project_id": "PRJ0049",
+ "firm": "B",
+ "status": "in_progress",
+ "series": "SER11",
+ "compounds": [
+  {
+   "id": "OB11-08910",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)nc1",
+   "mw": 393.5,
+   "clogp": 2.72,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-08918",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(-c4ccc(NC(C)=O)cc4)c3)CC2)cc1",
+   "mw": 443.5,
+   "clogp": 4.72,
+   "tpsa": 70.7
+  },
+  {
+   "id": "OB11-08928",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCN(C)CC4)c3)CC2)nc1",
+   "mw": 393.5,
+   "clogp": 2.54,
+   "tpsa": 51.7
+  },
+  {
+   "id": "OB11-08934",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)cc1",
+   "mw": 422.5,
+   "clogp": 2.88,
+   "tpsa": 73.9
+  },
+  {
+   "id": "OB11-08942",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 396.5,
+   "clogp": 3.15,
+   "tpsa": 61.6
+  },
+  {
+   "id": "OB11-08954",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(NC4CCCCC4)c3)CC2)cc1",
+   "mw": 434.6,
+   "clogp": 4.79,
+   "tpsa": 73.5
+  },
+  {
+   "id": "OB11-08964",
+   "smiles": "O=C(NC1CCN(c2ccc(F)cc2)CC1)c1cccc(N2CCOCC2)c1",
+   "mw": 383.5,
+   "clogp": 3.06,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-08966",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4ccc(C#N)cc4)CC3)c2)CC1",
+   "mw": 403.5,
+   "clogp": 2.71,
+   "tpsa": 62.6
+  },
+  {
+   "id": "OB11-08972",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)cc1",
+   "mw": 382.5,
+   "clogp": 4.02,
+   "tpsa": 69.0
+  },
+  {
+   "id": "OB11-08976",
+   "smiles": "O=C(NC1CCN(c2cccnc2)CC1)c1cccc(N2CCOCC2)c1",
+   "mw": 366.5,
+   "clogp": 2.32,
+   "tpsa": 57.7
+  },
+  {
+   "id": "OB11-08978",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4cc(F)cc(F)c4)CC3)c2)CC1",
+   "mw": 414.5,
+   "clogp": 3.12,
+   "tpsa": 38.8
+  },
+  {
+   "id": "OB11-08982",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(O)CC4)c3)CC2)cc1",
+   "mw": 436.6,
+   "clogp": 3.0,
+   "tpsa": 84.9
+  },
+  {
+   "id": "OB11-08984",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)cc1",
+   "mw": 403.5,
+   "clogp": 2.88,
+   "tpsa": 85.4
+  },
+  {
+   "id": "OB11-08988",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)cc1",
+   "mw": 431.5,
+   "clogp": 4.85,
+   "tpsa": 61.4
+  },
+  {
+   "id": "OB11-08996",
+   "smiles": "O=C(NC1CCN(c2ccc(F)cc2)CC1)c1cccc(N2CCC(O)CC2)c1",
+   "mw": 397.5,
+   "clogp": 3.19,
+   "tpsa": 55.8
+  },
+  {
+   "id": "OB11-09000",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4ccncc4)CC3)c2)CC1",
+   "mw": 379.5,
+   "clogp": 2.23,
+   "tpsa": 51.7
+  },
+  {
+   "id": "OB11-09002",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)nc1",
+   "mw": 372.5,
+   "clogp": 3.85,
+   "tpsa": 58.1
+  },
+  {
+   "id": "OB11-09008",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)cc1",
+   "mw": 387.5,
+   "clogp": 4.16,
+   "tpsa": 54.5
+  },
+  {
+   "id": "OB11-09018",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(OC4CCN(C)CC4)c3)CC2)cc1",
+   "mw": 450.6,
+   "clogp": 3.52,
+   "tpsa": 73.9
+  },
+  {
+   "id": "OB11-09020",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1cccc(NC2CCCCC2)c1",
+   "mw": 378.5,
+   "clogp": 4.23,
+   "tpsa": 57.3
+  },
+  {
+   "id": "OB11-09030",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4ccncc4)CC3)c2)CC1",
+   "mw": 379.5,
+   "clogp": 2.41,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-09032",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4cccnc4)CC3)c2)cc1",
+   "mw": 414.5,
+   "clogp": 4.11,
+   "tpsa": 74.3
+  },
+  {
+   "id": "OB11-09036",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)nc1",
+   "mw": 380.5,
+   "clogp": 2.63,
+   "tpsa": 57.7
+  },
+  {
+   "id": "OB11-09042",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)cc1",
+   "mw": 435.6,
+   "clogp": 2.97,
+   "tpsa": 90.7
+  },
+  {
+   "id": "OB11-09060",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)NC3CCN(c4cc(F)cc(F)c4)CC3)c2)CC1",
+   "mw": 429.5,
+   "clogp": 3.84,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-09066",
+   "smiles": "O=C(NC1CCN(c2cc(F)cc(F)c2)CC1)c1cccc(-c2ccncc2)c1",
+   "mw": 393.4,
+   "clogp": 4.43,
+   "tpsa": 45.2
+  },
+  {
+   "id": "OB11-09068",
+   "smiles": "O=C(NC1CCN(c2cc(F)cc(F)c2)CC1)c1cccc(N2CCOCC2)c1",
+   "mw": 401.5,
+   "clogp": 3.2,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-09072",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4ccc(C#N)cc4)CC3)c2)cc1",
+   "mw": 438.5,
+   "clogp": 4.58,
+   "tpsa": 85.2
+  },
+  {
+   "id": "OB11-09074",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4cccnc4)CC3)c2)CC1",
+   "mw": 379.5,
+   "clogp": 2.41,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-09078",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCN(C)CC4)c3)CC2)cc1",
+   "mw": 435.6,
+   "clogp": 2.8,
+   "tpsa": 67.9
+  },
+  {
+   "id": "OB11-09086",
+   "smiles": "O=C(NC1CCN(c2cccnc2)CC1)c1cccc(-c2ccncc2)c1",
+   "mw": 358.4,
+   "clogp": 3.54,
+   "tpsa": 58.1
+  },
+  {
+   "id": "OB11-09090",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(OC4CCN(C)CC4)c3)CC2)cc1",
+   "mw": 423.6,
+   "clogp": 3.57,
+   "tpsa": 54.0
+  }
+ ],
+ "tables": {
+  "herg": {
+   "title": "hERG IC50 (automated patch clamp)",
+   "columns": [
+    "Compound",
+    "IC50 rep 1 (µM)",
+    "IC50 rep 2 (µM)",
+    "IC50 rep 3 (µM)",
+    "IC50 mean (µM)",
+    "% inhibition @10 µM",
+    "n",
+    "QC note"
+   ],
+   "rows": [
+    [
+     "OB11-08910",
+     "4.3",
+     "5.8",
+     "",
+     "5.0",
+     "59",
+     2,
+     ""
+    ],
+    [
+     "OB11-08918",
+     "0.87",
+     "0.71",
+     "",
+     "0.78",
+     "100",
+     2,
+     ""
+    ],
+    [
+     "OB11-08928",
+     "6.8",
+     "5.5",
+     "",
+     "6.1",
+     "62",
+     2,
+     ""
+    ],
+    [
+     "OB11-08934",
+     "19",
+     "13",
+     "12",
+     "14",
+     "42",
+     3,
+     ""
+    ],
+    [
+     "OB11-08942",
+     "11",
+     "8.4",
+     "",
+     "9.5",
+     "52",
+     2,
+     ""
+    ],
+    [
+     "OB11-08954",
+     "3.4",
+     "2.7",
+     "",
+     "3.0",
+     "75",
+     2,
+     ""
+    ],
+    [
+     "OB11-08964",
+     "7.5",
+     "5.5",
+     "",
+     "6.5",
+     "63",
+     2,
+     ""
+    ],
+    [
+     "OB11-08966",
+     "2.6",
+     "2.0",
+     "3.8",
+     "2.7",
+     "82",
+     3,
+     ""
+    ],
+    [
+     "OB11-08972",
+     "5.8",
+     "6.7",
+     "",
+     "6.2",
+     "61",
+     2,
+     ""
+    ],
+    [
+     "OB11-08976",
+     "25",
+     "20",
+     "",
+     "22",
+     "32",
+     2,
+     ""
+    ],
+    [
+     "OB11-08978",
+     "2.3",
+     "0.97",
+     "",
+     "1.5",
+     "89",
+     2,
+     ""
+    ],
+    [
+     "OB11-08982",
+     "8.3",
+     "9.9",
+     "12",
+     "10",
+     "49",
+     3,
+     ""
+    ],
+    [
+     "OB11-08984",
+     "14",
+     "12",
+     "12",
+     "13",
+     "44",
+     3,
+     ""
+    ],
+    [
+     "OB11-08988",
+     "2.5",
+     "3.1",
+     "",
+     "2.8",
+     "80",
+     2,
+     ""
+    ],
+    [
+     "OB11-08996",
+     "7.3",
+     "6.1",
+     "",
+     "6.7",
+     "61",
+     2,
+     ""
+    ],
+    [
+     "OB11-09000",
+     "4.7",
+     "3.3",
+     "",
+     "3.9",
+     "73",
+     2,
+     ""
+    ],
+    [
+     "OB11-09002",
+     "2.4",
+     "1.5",
+     "",
+     "1.9",
+     "93",
+     2,
+     ""
+    ],
+    [
+     "OB11-09008",
+     "4.0",
+     "3.9",
+     "",
+     "3.9",
+     "69",
+     2,
+     "Seal resistance <500 MΩ in 1 of 3 cells; n=2 reported"
+    ],
+    [
+     "OB11-09018",
+     "3.9",
+     "5.1",
+     "",
+     "4.5",
+     "65",
+     2,
+     ""
+    ],
+    [
+     "OB11-09020",
+     "2.1",
+     "2.4",
+     "2.0",
+     "2.2",
+     "87",
+     3,
+     ""
+    ]
+   ],
+   "notes": [
+    "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 15 nM (acceptance 5-50 nM)",
+    "INTERIM: 20 of 32 results reported; remaining in progress"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW26_0428"
+    ],
+    [
+     "Client",
+     "Orvessant Biosciences Pty Ltd"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Orvessant piperidyl benzamide series 11 (Piperidyl benzamide)"
+    ],
+    [
+     "Assays",
+     "hERG patch clamp"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "GBP 11,600"
+    ],
+    [
+     "hERG IC50 <1 µM",
+     "2"
+    ],
+    [
+     "hERG IC50 1-10 µM",
+     "22"
+    ],
+    [
+     "hERG IC50 ≥10 µM",
+     "8"
+    ],
+    [
+     "hERG median IC50 (µM)",
+     "5.5"
+    ],
+    [
+     "E-4031 control IC50 (nM)",
+     "15"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "herg.n_tested": "32",
+  "herg.n_lt_1uM": "2",
+  "herg.n_1_10uM": "22",
+  "herg.n_ge_10uM": "8",
+  "herg.median_ic50_uM": "5.5",
+  "herg.control_e4031_nM": "15",
+  "herg.top_conc_uM": "30",
+  "herg.OB11-08910.ic50_uM": "5.0",
+  "herg.OB11-08918.ic50_uM": "0.78",
+  "herg.OB11-08928.ic50_uM": "6.1",
+  "herg.OB11-08934.ic50_uM": "14",
+  "herg.OB11-08942.ic50_uM": "9.5",
+  "herg.OB11-08954.ic50_uM": "3.0",
+  "herg.OB11-08964.ic50_uM": "6.5",
+  "herg.OB11-08966.ic50_uM": "2.7",
+  "herg.OB11-08972.ic50_uM": "6.2",
+  "herg.OB11-08976.ic50_uM": "22",
+  "herg.OB11-08978.ic50_uM": "1.5",
+  "herg.OB11-08982.ic50_uM": "10",
+  "herg.OB11-08984.ic50_uM": "13",
+  "herg.OB11-08988.ic50_uM": "2.8",
+  "herg.OB11-08996.ic50_uM": "6.7",
+  "herg.OB11-09000.ic50_uM": "3.9",
+  "herg.OB11-09002.ic50_uM": "1.9",
+  "herg.OB11-09008.ic50_uM": "3.9",
+  "herg.OB11-09018.ic50_uM": "4.5",
+  "herg.OB11-09020.ic50_uM": "2.2",
+  "herg.OB11-09030.ic50_uM": "13",
+  "herg.OB11-09032.ic50_uM": "7.5",
+  "herg.OB11-09036.ic50_uM": ">30",
+  "herg.OB11-09042.ic50_uM": "1.8",
+  "herg.OB11-09060.ic50_uM": "0.80",
+  "herg.OB11-09066.ic50_uM": "4.0",
+  "herg.OB11-09068.ic50_uM": "5.2",
+  "herg.OB11-09072.ic50_uM": "12",
+  "herg.OB11-09074.ic50_uM": "23",
+  "herg.OB11-09078.ic50_uM": "6.2",
+  "herg.OB11-09086.ic50_uM": "5.8",
+  "herg.OB11-09090.ic50_uM": "1.5",
+  "price": "GBP 11,600",
+  "n_compounds": "32",
+  "turnaround_days": "",
+  "client_variant": "Orvessant Biosciences Pty Ltd",
+  "project_id": "BW26_0428",
+  "lims_id": "B-ACC-2026-07296"
+ }
+}

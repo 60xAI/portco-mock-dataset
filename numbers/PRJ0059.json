@@ -1,0 +1,538 @@
+{
+ "project_id": "PRJ0059",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER05",
+ "compounds": [
+  {
+   "id": "EB05-08124",
+   "smiles": "O=C(NCCN1CCC(O)CC1)c1c[nH]c2ncc(-c3cncnc3)cc12",
+   "mw": 366.4,
+   "clogp": 1.21,
+   "tpsa": 107.0
+  },
+  {
+   "id": "EB05-08128",
+   "smiles": "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4ccc(C#N)cc4)cc23)CC1",
+   "mw": 403.5,
+   "clogp": 2.94,
+   "tpsa": 94.0
+  },
+  {
+   "id": "EB05-08148",
+   "smiles": "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(O)CC4)c3c2)cc1",
+   "mw": 394.5,
+   "clogp": 2.43,
+   "tpsa": 90.5
+  },
+  {
+   "id": "EB05-08154",
+   "smiles": "NC1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cncnc4)cc23)CC1",
+   "mw": 365.4,
+   "clogp": 1.17,
+   "tpsa": 112.8
+  },
+  {
+   "id": "EB05-08158",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCN(C)CC4)c3c2)cc1",
+   "mw": 420.5,
+   "clogp": 2.17,
+   "tpsa": 93.4
+  },
+  {
+   "id": "EB05-08160",
+   "smiles": "O=C(NCCN1CCOCC1)c1c[nH]c2ncc(-c3cc(F)cc(F)c3)cc12",
+   "mw": 386.4,
+   "clogp": 2.57,
+   "tpsa": 70.2
+  },
+  {
+   "id": "EB05-08170",
+   "smiles": "O=C(NCCNC1CCCCC1)c1c[nH]c2ncc(-c3cc(F)cc(F)c3)cc12",
+   "mw": 398.5,
+   "clogp": 4.16,
+   "tpsa": 69.8
+  },
+  {
+   "id": "EB05-08172",
+   "smiles": "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCOC4CCN(C)CC4)c3c2)cc1",
+   "mw": 408.5,
+   "clogp": 3.08,
+   "tpsa": 79.5
+  },
+  {
+   "id": "EB05-08176",
+   "smiles": "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(N)CC4)c3c2)cc1",
+   "mw": 393.5,
+   "clogp": 2.39,
+   "tpsa": 96.3
+  },
+  {
+   "id": "EB05-08178",
+   "smiles": "NC1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+   "mw": 381.5,
+   "clogp": 2.52,
+   "tpsa": 87.0
+  },
+  {
+   "id": "EB05-08182",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)cc1",
+   "mw": 407.5,
+   "clogp": 2.25,
+   "tpsa": 99.3
+  },
+  {
+   "id": "EB05-08184",
+   "smiles": "N#Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(N)CC4)c3c2)cc1",
+   "mw": 388.5,
+   "clogp": 2.25,
+   "tpsa": 110.8
+  },
+  {
+   "id": "EB05-08196",
+   "smiles": "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)cc1",
+   "mw": 392.5,
+   "clogp": 3.89,
+   "tpsa": 79.0
+  },
+  {
+   "id": "EB05-08206",
+   "smiles": "CCN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(NC(C)=O)cc4)cc23)CC1",
+   "mw": 434.5,
+   "clogp": 2.56,
+   "tpsa": 93.4
+  },
+  {
+   "id": "EB05-08212",
+   "smiles": "O=C(NCCN1CCOCC1)c1c[nH]c2ncc(-c3cncnc3)cc12",
+   "mw": 352.4,
+   "clogp": 1.08,
+   "tpsa": 96.0
+  },
+  {
+   "id": "EB05-08220",
+   "smiles": "Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)cc1",
+   "mw": 377.5,
+   "clogp": 3.46,
+   "tpsa": 95.8
+  },
+  {
+   "id": "EB05-08230",
+   "smiles": "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)nc1",
+   "mw": 365.4,
+   "clogp": 2.0,
+   "tpsa": 83.1
+  },
+  {
+   "id": "EB05-08242",
+   "smiles": "O=C(NCCNC1CCCCC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+   "mw": 380.5,
+   "clogp": 4.02,
+   "tpsa": 69.8
+  },
+  {
+   "id": "EB05-08248",
+   "smiles": "N#Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)cc1",
+   "mw": 387.5,
+   "clogp": 3.75,
+   "tpsa": 93.6
+  },
+  {
+   "id": "EB05-08250",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)cc1",
+   "mw": 391.5,
+   "clogp": 3.01,
+   "tpsa": 90.1
+  },
+  {
+   "id": "EB05-08260",
+   "smiles": "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCOC4CCN(C)CC4)c3c2)nc1",
+   "mw": 393.5,
+   "clogp": 2.77,
+   "tpsa": 83.1
+  },
+  {
+   "id": "EB05-08278",
+   "smiles": "O=C(NCCN1CCC(O)CC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+   "mw": 382.4,
+   "clogp": 2.56,
+   "tpsa": 81.3
+  },
+  {
+   "id": "EB05-08280",
+   "smiles": "CN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cncnc4)cc23)CC1",
+   "mw": 365.4,
+   "clogp": 1.0,
+   "tpsa": 90.0
+  },
+  {
+   "id": "EB05-08284",
+   "smiles": "Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)cc1",
+   "mw": 365.4,
+   "clogp": 1.87,
+   "tpsa": 96.3
+  }
+ ],
+ "tables": {
+  "mic_stab": {
+   "title": "Liver microsomal stability (0.5 mg/mL protein, 1 µM)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/mg)",
+    "Human t½ (min)",
+    "Rat CLint (µL/min/mg)",
+    "Rat t½ (min)"
+   ],
+   "rows": [
+    [
+     "EB05-08124",
+     "3.5",
+     ">60",
+     "7.1",
+     ">60"
+    ],
+    [
+     "EB05-08128",
+     "10",
+     ">60",
+     "14",
+     ">60"
+    ],
+    [
+     "EB05-08148",
+     "43",
+     "32",
+     "68",
+     "20"
+    ],
+    [
+     "EB05-08154",
+     "<3",
+     ">60",
+     "3.4",
+     ">60"
+    ],
+    [
+     "EB05-08158",
+     "14",
+     ">60",
+     "29",
+     "48"
+    ],
+    [
+     "EB05-08160",
+     "16",
+     ">60",
+     "22",
+     ">60"
+    ],
+    [
+     "EB05-08170",
+     "39",
+     "36",
+     "54",
+     "26"
+    ],
+    [
+     "EB05-08172",
+     "14",
+     ">60",
+     "27",
+     "50"
+    ],
+    [
+     "EB05-08176",
+     "15",
+     ">60",
+     "24",
+     "57"
+    ],
+    [
+     "EB05-08178",
+     "20",
+     ">60",
+     "36",
+     "39"
+    ],
+    [
+     "EB05-08182",
+     "9.2",
+     ">60",
+     "21",
+     ">60"
+    ],
+    [
+     "EB05-08184",
+     "5.1",
+     ">60",
+     "8.6",
+     ">60"
+    ],
+    [
+     "EB05-08196",
+     "38",
+     "37",
+     "82",
+     "17"
+    ],
+    [
+     "EB05-08206",
+     "13",
+     ">60",
+     "29",
+     "48"
+    ],
+    [
+     "EB05-08212",
+     "5.2",
+     ">60",
+     "8.6",
+     ">60"
+    ],
+    [
+     "EB05-08220",
+     "8.4",
+     ">60",
+     "19",
+     ">60"
+    ],
+    [
+     "EB05-08230",
+     "8.1",
+     ">60",
+     "12",
+     ">60"
+    ],
+    [
+     "EB05-08242",
+     "40",
+     "35",
+     "61",
+     "23"
+    ],
+    [
+     "EB05-08248",
+     "22",
+     ">60",
+     "34",
+     "41"
+    ],
+    [
+     "EB05-08250",
+     "3.2",
+     ">60",
+     "4.6",
+     ">60"
+    ],
+    [
+     "EB05-08260",
+     "6.0",
+     ">60",
+     "8.6",
+     ">60"
+    ],
+    [
+     "EB05-08278",
+     "5.6",
+     ">60",
+     "15",
+     ">60"
+    ],
+    [
+     "EB05-08280",
+     "<3",
+     ">60",
+     "6.2",
+     ">60"
+    ],
+    [
+     "EB05-08284",
+     "7.0",
+     ">60",
+     "9.1",
+     ">60"
+    ]
+   ],
+   "notes": [
+    "Controls: verapamil (high), diltiazem (medium) within historical range"
+   ]
+  },
+  "hep_stab": {
+   "title": "Cryopreserved hepatocyte stability (1 µM, 0.5×10^6 cells/mL)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/10^6 cells)",
+    "Rat CLint (µL/min/10^6 cells)"
+   ],
+   "rows": [
+    [
+     "EB05-08124",
+     "12",
+     "21"
+    ],
+    [
+     "EB05-08128",
+     "8.8",
+     "14"
+    ],
+    [
+     "EB05-08148",
+     "13",
+     "23"
+    ],
+    [
+     "EB05-08154",
+     "5.2",
+     "6.2"
+    ],
+    [
+     "EB05-08158",
+     "9.5",
+     "17"
+    ],
+    [
+     "EB05-08160",
+     "18",
+     "38"
+    ],
+    [
+     "EB05-08170",
+     "9.4",
+     "21"
+    ],
+    [
+     "EB05-08172",
+     "15",
+     "32"
+    ],
+    [
+     "EB05-08176",
+     "16",
+     "29"
+    ],
+    [
+     "EB05-08178",
+     "6.3",
+     "19"
+    ],
+    [
+     "EB05-08182",
+     "14",
+     "19"
+    ],
+    [
+     "EB05-08184",
+     "10",
+     "21"
+    ],
+    [
+     "EB05-08196",
+     "29",
+     "52"
+    ],
+    [
+     "EB05-08206",
+     "10",
+     "17"
+    ],
+    [
+     "EB05-08212",
+     "8.7",
+     "18"
+    ],
+    [
+     "EB05-08220",
+     "18",
+     "26"
+    ],
+    [
+     "EB05-08230",
+     "12",
+     "17"
+    ],
+    [
+     "EB05-08242",
+     "18",
+     "29"
+    ],
+    [
+     "EB05-08248",
+     "41",
+     "53"
+    ],
+    [
+     "EB05-08250",
+     "27",
+     "64"
+    ],
+    [
+     "EB05-08260",
+     "15",
+     "40"
+    ],
+    [
+     "EB05-08278",
+     "7.5",
+     "21"
+    ],
+    [
+     "EB05-08280",
+     "23",
+     "29"
+    ],
+    [
+     "EB05-08284",
+     "5.7",
+     "7.8"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2017-098"
+    ],
+    [
+     "Client",
+     "Elvarmere Biosciences AB"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Elvarmere pyrrolopyridine series 05 (Pyrrolopyridine)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Hepatocyte stability"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "38"
+    ],
+    [
+     "Price",
+     "USD 21,900"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 21,900",
+  "n_compounds": "24",
+  "turnaround_days": "38",
+  "client_variant": "Elvarmere Biosciences AB",
+  "project_id": "MV-2017-098",
+  "lims_id": "M17/BIO/02257"
+ }
+}

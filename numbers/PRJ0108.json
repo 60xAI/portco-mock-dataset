@@ -1,0 +1,77 @@
+{
+ "project_id": "PRJ0108",
+ "firm": "F",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "0.27",
+     "Clear solution",
+     "Stable"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "13",
+     "Fine suspension",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "2.3",
+     "Clear solution",
+     "Stable"
+    ],
+    [
+     "PEG400/water 30:70",
+     "2.2",
+     "Clear solution",
+     "Stable"
+    ],
+    [
+     "10% DMSO / 90% corn oil",
+     "2.6",
+     "Precipitate at 24 h",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "Labrasol/PEG400 1:1",
+     "0.71",
+     "Precipitate at 24 h",
+     "Stable"
+    ],
+    [
+     "5% NMP / 15% Solutol HS15 / 80% water",
+     "1.7",
+     "Precipitate at 24 h",
+     "Stable"
+    ],
+    [
+     "pH 4 citrate buffer",
+     "1.1",
+     "Fine suspension",
+     "Stable"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 36,200",
+  "n_compounds": "0",
+  "turnaround_days": "51",
+  "client_variant": "Odraverne Pharmaceuticals",
+  "project_id": "DL_2016_0014",
+  "lims_id": "DF16-00173"
+ }
+}

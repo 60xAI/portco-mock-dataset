@@ -1,0 +1,1237 @@
+{
+ "project_id": "PRJ0012",
+ "firm": "G",
+ "status": "completed",
+ "series": "SER01",
+ "compounds": [
+  {
+   "id": "CVL-08810",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)nc(N)n2)nc1",
+   "mw": 418.5,
+   "clogp": 3.15,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08818",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C)cn4)nc(N)n3)cc2)cc1",
+   "mw": 438.5,
+   "clogp": 4.31,
+   "tpsa": 122.9
+  },
+  {
+   "id": "CVL-08824",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)cc1",
+   "mw": 445.5,
+   "clogp": 2.86,
+   "tpsa": 139.3
+  },
+  {
+   "id": "CVL-08828",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 418.5,
+   "clogp": 2.74,
+   "tpsa": 96.6
+  },
+  {
+   "id": "CVL-08834",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)CC1",
+   "mw": 439.5,
+   "clogp": 3.73,
+   "tpsa": 93.4
+  },
+  {
+   "id": "CVL-08836",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 444.5,
+   "clogp": 4.68,
+   "tpsa": 122.0
+  },
+  {
+   "id": "CVL-08840",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccncc4)nc(N)n3)cc2)CC1",
+   "mw": 389.5,
+   "clogp": 2.12,
+   "tpsa": 100.3
+  },
+  {
+   "id": "CVL-08846",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)cc1",
+   "mw": 459.5,
+   "clogp": 4.88,
+   "tpsa": 110.0
+  },
+  {
+   "id": "CVL-08848",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)cc1",
+   "mw": 413.5,
+   "clogp": 2.78,
+   "tpsa": 133.9
+  },
+  {
+   "id": "CVL-08854",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 376.4,
+   "clogp": 2.21,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08858",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(NC(C)=O)cc4)nc(N)n3)cc2)cc1",
+   "mw": 480.5,
+   "clogp": 4.56,
+   "tpsa": 139.1
+  },
+  {
+   "id": "CVL-08860",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)nc1",
+   "mw": 390.4,
+   "clogp": 2.52,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08866",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)nc(N)n3)cc2)cc1",
+   "mw": 441.5,
+   "clogp": 4.74,
+   "tpsa": 110.0
+  },
+  {
+   "id": "CVL-08870",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2cccnc2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08878",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2ccc(F)cc2)n1",
+   "mw": 406.5,
+   "clogp": 3.04,
+   "tpsa": 110.2
+  },
+  {
+   "id": "CVL-08882",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+   "mw": 405.5,
+   "clogp": 2.82,
+   "tpsa": 102.6
+  },
+  {
+   "id": "CVL-08884",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 445.5,
+   "clogp": 2.69,
+   "tpsa": 116.5
+  },
+  {
+   "id": "CVL-08888",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 460.5,
+   "clogp": 3.41,
+   "tpsa": 122.5
+  },
+  {
+   "id": "CVL-08890",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 412.5,
+   "clogp": 4.59,
+   "tpsa": 116.7
+  },
+  {
+   "id": "CVL-08894",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(-c4ccc(NC(C)=O)cc4)cc3)nc(N)n2)cc1",
+   "mw": 453.5,
+   "clogp": 4.61,
+   "tpsa": 119.2
+  },
+  {
+   "id": "CVL-08896",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08900",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+   "mw": 432.5,
+   "clogp": 2.77,
+   "tpsa": 122.5
+  },
+  {
+   "id": "CVL-08906",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "CVL-08912",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)CC1",
+   "mw": 424.5,
+   "clogp": 3.01,
+   "tpsa": 87.4
+  },
+  {
+   "id": "CVL-08920",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)nc1",
+   "mw": 403.5,
+   "clogp": 2.61,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08924",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)nc(N)n3)cc2)cc1",
+   "mw": 448.5,
+   "clogp": 4.48,
+   "tpsa": 133.8
+  },
+  {
+   "id": "CVL-08926",
+   "smiles": "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+   "mw": 403.4,
+   "clogp": 4.32,
+   "tpsa": 93.8
+  },
+  {
+   "id": "CVL-08932",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)cc1",
+   "mw": 414.5,
+   "clogp": 2.81,
+   "tpsa": 128.2
+  },
+  {
+   "id": "CVL-08936",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)nc(N)n3)cc2)CC1",
+   "mw": 413.5,
+   "clogp": 2.6,
+   "tpsa": 111.2
+  },
+  {
+   "id": "CVL-08938",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)nc1",
+   "mw": 404.5,
+   "clogp": 2.64,
+   "tpsa": 117.3
+  },
+  {
+   "id": "CVL-08944",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 417.5,
+   "clogp": 4.73,
+   "tpsa": 102.2
+  },
+  {
+   "id": "CVL-08948",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2cccnc2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  },
+  {
+   "id": "CVL-08954",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4cccnc4)nc(N)n3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08960",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)nc1",
+   "mw": 382.4,
+   "clogp": 3.74,
+   "tpsa": 106.7
+  },
+  {
+   "id": "CVL-08966",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+   "mw": 397.4,
+   "clogp": 4.05,
+   "tpsa": 103.0
+  },
+  {
+   "id": "CVL-08968",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)nc1",
+   "mw": 402.5,
+   "clogp": 4.43,
+   "tpsa": 105.8
+  },
+  {
+   "id": "CVL-08978",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2ccc(F)cc2)n1",
+   "mw": 405.5,
+   "clogp": 4.86,
+   "tpsa": 92.9
+  },
+  {
+   "id": "CVL-08980",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4cccnc4)nc(N)n3)cc2)CC1",
+   "mw": 389.5,
+   "clogp": 2.12,
+   "tpsa": 100.3
+  },
+  {
+   "id": "CVL-08984",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+   "mw": 392.4,
+   "clogp": 3.91,
+   "tpsa": 117.6
+  },
+  {
+   "id": "CVL-08986",
+   "smiles": "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)cc(-c2cccnc2)n1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  }
+ ],
+ "tables": {
+  "herg": {
+   "title": "hERG IC50 (automated patch clamp)",
+   "columns": [
+    "Compound",
+    "IC50 rep 1 (µM)",
+    "IC50 rep 2 (µM)",
+    "IC50 rep 3 (µM)",
+    "IC50 mean (µM)",
+    "% inhibition @10 µM",
+    "n",
+    "QC note"
+   ],
+   "rows": [
+    [
+     "CVL-08810",
+     ">30",
+     ">30",
+     "",
+     ">30",
+     "28",
+     2,
+     ""
+    ],
+    [
+     "CVL-08818",
+     "2.8",
+     "3.5",
+     "3.6",
+     "3.3",
+     "72",
+     3,
+     ""
+    ],
+    [
+     "CVL-08824",
+     "10",
+     "10",
+     "6.4",
+     "8.7",
+     "60",
+     3,
+     ""
+    ],
+    [
+     "CVL-08828",
+     "8.2",
+     "12",
+     "",
+     "9.9",
+     "51",
+     2,
+     ""
+    ],
+    [
+     "CVL-08834",
+     "1.5",
+     "2.0",
+     "",
+     "1.7",
+     "87",
+     2,
+     ""
+    ],
+    [
+     "CVL-08836",
+     "11",
+     "13",
+     "",
+     "12",
+     "49",
+     2,
+     ""
+    ],
+    [
+     "CVL-08840",
+     "19",
+     "11",
+     "11",
+     "13",
+     "43",
+     3,
+     ""
+    ],
+    [
+     "CVL-08846",
+     "4.1",
+     "3.1",
+     "",
+     "3.6",
+     "77",
+     2,
+     ""
+    ],
+    [
+     "CVL-08848",
+     "9.9",
+     "8.4",
+     "",
+     "9.1",
+     "55",
+     2,
+     ""
+    ],
+    [
+     "CVL-08854",
+     "27",
+     "19",
+     "",
+     "23",
+     "28",
+     2,
+     ""
+    ],
+    [
+     "CVL-08858",
+     "7.4",
+     "5.3",
+     "",
+     "6.3",
+     "69",
+     2,
+     ""
+    ],
+    [
+     "CVL-08860",
+     "25",
+     ">30",
+     "",
+     ">30",
+     "29",
+     2,
+     ""
+    ],
+    [
+     "CVL-08866",
+     "4.6",
+     "8.9",
+     "",
+     "6.4",
+     "64",
+     2,
+     ""
+    ],
+    [
+     "CVL-08870",
+     "27",
+     ">30",
+     "",
+     ">30",
+     "16",
+     2,
+     ""
+    ],
+    [
+     "CVL-08878",
+     "2.4",
+     "1.6",
+     "2.1",
+     "2.0",
+     "88",
+     3,
+     ""
+    ],
+    [
+     "CVL-08882",
+     ">30",
+     ">30",
+     "",
+     ">30",
+     "26",
+     2,
+     "Precipitation observed at top concentration"
+    ],
+    [
+     "CVL-08884",
+     "23",
+     "29",
+     "20",
+     "24",
+     "28",
+     3,
+     ""
+    ],
+    [
+     "CVL-08888",
+     "4.3",
+     "2.0",
+     "",
+     "3.0",
+     "78",
+     2,
+     ""
+    ],
+    [
+     "CVL-08890",
+     "5.0",
+     "6.9",
+     "",
+     "5.8",
+     "65",
+     2,
+     ""
+    ],
+    [
+     "CVL-08894",
+     "3.7",
+     "2.6",
+     "",
+     "3.1",
+     "69",
+     2,
+     ""
+    ],
+    [
+     "CVL-08896",
+     "9.3",
+     "18",
+     "",
+     "13",
+     "43",
+     2,
+     ""
+    ],
+    [
+     "CVL-08900",
+     "23",
+     ">30",
+     "26",
+     "24",
+     "22",
+     3,
+     ""
+    ],
+    [
+     "CVL-08906",
+     "7.3",
+     "4.6",
+     "12",
+     "7.3",
+     "54",
+     3,
+     ""
+    ],
+    [
+     "CVL-08912",
+     "3.4",
+     "1.9",
+     "",
+     "2.5",
+     "71",
+     2,
+     "Precipitation observed at top concentration"
+    ],
+    [
+     "CVL-08920",
+     "9.7",
+     "8.6",
+     "",
+     "9.1",
+     "46",
+     2,
+     ""
+    ],
+    [
+     "CVL-08924",
+     "4.6",
+     "2.9",
+     "",
+     "3.6",
+     "75",
+     2,
+     ""
+    ],
+    [
+     "CVL-08926",
+     "9.5",
+     "8.3",
+     "",
+     "8.9",
+     "56",
+     2,
+     ""
+    ],
+    [
+     "CVL-08932",
+     "9.3",
+     "21",
+     "",
+     "14",
+     "45",
+     2,
+     ""
+    ],
+    [
+     "CVL-08936",
+     "6.3",
+     "6.8",
+     "",
+     "6.5",
+     "59",
+     2,
+     ""
+    ],
+    [
+     "CVL-08938",
+     "15",
+     "17",
+     "12",
+     "15",
+     "37",
+     3,
+     ""
+    ],
+    [
+     "CVL-08944",
+     "1.9",
+     "1.9",
+     "",
+     "1.9",
+     "80",
+     2,
+     ""
+    ],
+    [
+     "CVL-08948",
+     "5.9",
+     "8.7",
+     "",
+     "7.1",
+     "64",
+     2,
+     ""
+    ],
+    [
+     "CVL-08954",
+     "13",
+     "13",
+     "",
+     "13",
+     "45",
+     2,
+     ""
+    ],
+    [
+     "CVL-08960",
+     "7.3",
+     "4.8",
+     "",
+     "5.9",
+     "58",
+     2,
+     ""
+    ],
+    [
+     "CVL-08966",
+     "10",
+     "10",
+     "",
+     "10",
+     "47",
+     2,
+     ""
+    ],
+    [
+     "CVL-08968",
+     "5.4",
+     "5.8",
+     "",
+     "5.6",
+     "63",
+     2,
+     ""
+    ],
+    [
+     "CVL-08978",
+     "1.4",
+     "2.1",
+     "",
+     "1.7",
+     "84",
+     2,
+     ""
+    ],
+    [
+     "CVL-08980",
+     "7.9",
+     "11",
+     "",
+     "9.3",
+     "58",
+     2,
+     ""
+    ],
+    [
+     "CVL-08984",
+     "4.9",
+     "6.5",
+     "",
+     "5.7",
+     "60",
+     2,
+     ""
+    ],
+    [
+     "CVL-08986",
+     "19",
+     "14",
+     "",
+     "16",
+     "36",
+     2,
+     ""
+    ]
+   ],
+   "notes": [
+    "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 13 nM (acceptance 5-50 nM)"
+   ]
+  },
+  "cyp_inhib": {
+   "title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
+   "columns": [
+    "Compound",
+    "CYP1A2 (%)",
+    "CYP2C9 (%)",
+    "CYP2C19 (%)",
+    "CYP2D6 (%)",
+    "CYP3A4 (%)"
+   ],
+   "rows": [
+    [
+     "CVL-08810",
+     "3",
+     "24",
+     "22",
+     "4",
+     "53"
+    ],
+    [
+     "CVL-08818",
+     "20",
+     "70",
+     "7",
+     "4",
+     "27"
+    ],
+    [
+     "CVL-08824",
+     "4",
+     "-2",
+     "0",
+     "8",
+     "-6"
+    ],
+    [
+     "CVL-08828",
+     "6",
+     "-6",
+     "27",
+     "-1",
+     "20"
+    ],
+    [
+     "CVL-08834",
+     "6",
+     "75",
+     "83",
+     "60",
+     "40"
+    ],
+    [
+     "CVL-08836",
+     "7",
+     "39",
+     "41",
+     "4",
+     "46"
+    ],
+    [
+     "CVL-08840",
+     "-11",
+     "0",
+     "-6",
+     "1",
+     "5"
+    ],
+    [
+     "CVL-08846",
+     "33",
+     "69",
+     "42",
+     "77",
+     "17"
+    ],
+    [
+     "CVL-08848",
+     "-2",
+     "-2",
+     "1",
+     "-6",
+     "6"
+    ],
+    [
+     "CVL-08854",
+     "-2",
+     "10",
+     "-0",
+     "-8",
+     "15"
+    ],
+    [
+     "CVL-08858",
+     "17",
+     "15",
+     "4",
+     "-4",
+     "-4"
+    ],
+    [
+     "CVL-08860",
+     "5",
+     "3",
+     "1",
+     "7",
+     "2"
+    ],
+    [
+     "CVL-08866",
+     "60",
+     "50",
+     "29",
+     "6",
+     "10"
+    ],
+    [
+     "CVL-08870",
+     "9",
+     "-7",
+     "5",
+     "-12",
+     "5"
+    ],
+    [
+     "CVL-08878",
+     "10",
+     "3",
+     "10",
+     "5",
+     "11"
+    ],
+    [
+     "CVL-08882",
+     "13",
+     "5",
+     "62",
+     "-8",
+     "28"
+    ],
+    [
+     "CVL-08884",
+     "0",
+     "5",
+     "-0",
+     "-1",
+     "12"
+    ],
+    [
+     "CVL-08888",
+     "5",
+     "52",
+     "19",
+     "-4",
+     "25"
+    ],
+    [
+     "CVL-08890",
+     "30",
+     "38",
+     "44",
+     "22",
+     "36"
+    ],
+    [
+     "CVL-08894",
+     "19",
+     "67",
+     "20",
+     "3",
+     "73"
+    ],
+    [
+     "CVL-08896",
+     "5",
+     "-1",
+     "1",
+     "-4",
+     "-4"
+    ],
+    [
+     "CVL-08900",
+     "8",
+     "-6",
+     "5",
+     "-4",
+     "2"
+    ],
+    [
+     "CVL-08906",
+     "40",
+     "11",
+     "7",
+     "13",
+     "45"
+    ],
+    [
+     "CVL-08912",
+     "7",
+     "7",
+     "44",
+     "0",
+     "7"
+    ],
+    [
+     "CVL-08920",
+     "-5",
+     "-6",
+     "-4",
+     "-4",
+     "0"
+    ],
+    [
+     "CVL-08924",
+     "7",
+     "27",
+     "15",
+     "-2",
+     "12"
+    ],
+    [
+     "CVL-08926",
+     "98",
+     "85",
+     "80",
+     "100",
+     "93"
+    ],
+    [
+     "CVL-08932",
+     "-3",
+     "-7",
+     "-10",
+     "4",
+     "-9"
+    ],
+    [
+     "CVL-08936",
+     "-1",
+     "6",
+     "2",
+     "-5",
+     "6"
+    ],
+    [
+     "CVL-08938",
+     "-0",
+     "3",
+     "6",
+     "6",
+     "2"
+    ],
+    [
+     "CVL-08944",
+     "23",
+     "77",
+     "78",
+     "10",
+     "91"
+    ],
+    [
+     "CVL-08948",
+     "52",
+     "50",
+     "68",
+     "28",
+     "91"
+    ],
+    [
+     "CVL-08954",
+     "11",
+     "11",
+     "26",
+     "0",
+     "68"
+    ],
+    [
+     "CVL-08960",
+     "45",
+     "62",
+     "51",
+     "18",
+     "100"
+    ],
+    [
+     "CVL-08966",
+     "87",
+     "77",
+     "96",
+     "27",
+     "90"
+    ],
+    [
+     "CVL-08968",
+     "14",
+     "81",
+     "64",
+     "9",
+     "26"
+    ],
+    [
+     "CVL-08978",
+     "56",
+     "58",
+     "62",
+     "26",
+     "68"
+    ],
+    [
+     "CVL-08980",
+     "-2",
+     "-1",
+     "2",
+     "3",
+     "-2"
+    ],
+    [
+     "CVL-08984",
+     "58",
+     "24",
+     "37",
+     "28",
+     "84"
+    ],
+    [
+     "CVL-08986",
+     "88",
+     "53",
+     "25",
+     "9",
+     "87"
+    ]
+   ],
+   "notes": [
+    "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
+    "Controls (IC50, µM): furafylline (CYP1A2) 1.9; sulfaphenazole (CYP2C9) 0.35; ticlopidine (CYP2C19) 1.1; quinidine (CYP2D6) 0.049; ketoconazole (CYP3A4) 0.030"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "OT-20-S0178"
+    ],
+    [
+     "Client",
+     "Corvenlea (US)"
+    ],
+    [
+     "Compounds tested",
+     "40"
+    ],
+    [
+     "Series / chemotype",
+     "Corvenlea aminopyrimidine series 01 (Aminopyrimidine)"
+    ],
+    [
+     "Assays",
+     "hERG patch clamp, CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "14"
+    ],
+    [
+     "Price",
+     "USD 22,000"
+    ],
+    [
+     "hERG IC50 <1 µM",
+     "0"
+    ],
+    [
+     "hERG IC50 1-10 µM",
+     "25"
+    ],
+    [
+     "hERG IC50 ≥10 µM",
+     "15"
+    ],
+    [
+     "hERG median IC50 (µM)",
+     "8.8"
+    ],
+    [
+     "E-4031 control IC50 (nM)",
+     "13"
+    ],
+    [
+     "CYP1A2 >50% inhibition @10 µM",
+     "7"
+    ],
+    [
+     "CYP2C9 >50% inhibition @10 µM",
+     "13"
+    ],
+    [
+     "CYP2C19 >50% inhibition @10 µM",
+     "9"
+    ],
+    [
+     "CYP2D6 >50% inhibition @10 µM",
+     "3"
+    ],
+    [
+     "CYP3A4 >50% inhibition @10 µM",
+     "11"
+    ],
+    [
+     "Compounds with any CYP >50%",
+     "18"
+    ],
+    [
+     "Ketoconazole (3A4) IC50 (µM)",
+     "0.030"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "herg.n_tested": "40",
+  "herg.n_lt_1uM": "0",
+  "herg.n_1_10uM": "25",
+  "herg.n_ge_10uM": "15",
+  "herg.median_ic50_uM": "8.8",
+  "herg.control_e4031_nM": "13",
+  "herg.top_conc_uM": "30",
+  "herg.CVL-08810.ic50_uM": ">30",
+  "herg.CVL-08818.ic50_uM": "3.3",
+  "herg.CVL-08824.ic50_uM": "8.7",
+  "herg.CVL-08828.ic50_uM": "9.9",
+  "herg.CVL-08834.ic50_uM": "1.7",
+  "herg.CVL-08836.ic50_uM": "12",
+  "herg.CVL-08840.ic50_uM": "13",
+  "herg.CVL-08846.ic50_uM": "3.6",
+  "herg.CVL-08848.ic50_uM": "9.1",
+  "herg.CVL-08854.ic50_uM": "23",
+  "herg.CVL-08858.ic50_uM": "6.3",
+  "herg.CVL-08860.ic50_uM": ">30",
+  "herg.CVL-08866.ic50_uM": "6.4",
+  "herg.CVL-08870.ic50_uM": ">30",
+  "herg.CVL-08878.ic50_uM": "2.0",
+  "herg.CVL-08882.ic50_uM": ">30",
+  "herg.CVL-08884.ic50_uM": "24",
+  "herg.CVL-08888.ic50_uM": "3.0",
+  "herg.CVL-08890.ic50_uM": "5.8",
+  "herg.CVL-08894.ic50_uM": "3.1",
+  "herg.CVL-08896.ic50_uM": "13",
+  "herg.CVL-08900.ic50_uM": "24",
+  "herg.CVL-08906.ic50_uM": "7.3",
+  "herg.CVL-08912.ic50_uM": "2.5",
+  "herg.CVL-08920.ic50_uM": "9.1",
+  "herg.CVL-08924.ic50_uM": "3.6",
+  "herg.CVL-08926.ic50_uM": "8.9",
+  "herg.CVL-08932.ic50_uM": "14",
+  "herg.CVL-08936.ic50_uM": "6.5",
+  "herg.CVL-08938.ic50_uM": "15",
+  "herg.CVL-08944.ic50_uM": "1.9",
+  "herg.CVL-08948.ic50_uM": "7.1",
+  "herg.CVL-08954.ic50_uM": "13",
+  "herg.CVL-08960.ic50_uM": "5.9",
+  "herg.CVL-08966.ic50_uM": "10",
+  "herg.CVL-08968.ic50_uM": "5.6",
+  "herg.CVL-08978.ic50_uM": "1.7",
+  "herg.CVL-08980.ic50_uM": "9.3",
+  "herg.CVL-08984.ic50_uM": "5.7",
+  "herg.CVL-08986.ic50_uM": "16",
+  "cyp.n_gt50_CYP1A2": "7",
+  "cyp.control_CYP1A2_uM": "1.9",
+  "cyp.n_gt50_CYP2C9": "13",
+  "cyp.control_CYP2C9_uM": "0.35",
+  "cyp.n_gt50_CYP2C19": "9",
+  "cyp.control_CYP2C19_uM": "1.1",
+  "cyp.n_gt50_CYP2D6": "3",
+  "cyp.control_CYP2D6_uM": "0.049",
+  "cyp.n_gt50_CYP3A4": "11",
+  "cyp.control_CYP3A4_uM": "0.030",
+  "cyp.n_any_gt50": "18",
+  "cyp.CVL-08810.CYP3A4_pct": "53",
+  "cyp.CVL-08818.CYP3A4_pct": "27",
+  "cyp.CVL-08824.CYP3A4_pct": "-6",
+  "cyp.CVL-08828.CYP3A4_pct": "20",
+  "cyp.CVL-08834.CYP3A4_pct": "40",
+  "cyp.CVL-08836.CYP3A4_pct": "46",
+  "cyp.CVL-08840.CYP3A4_pct": "5",
+  "cyp.CVL-08846.CYP3A4_pct": "17",
+  "cyp.CVL-08848.CYP3A4_pct": "6",
+  "cyp.CVL-08854.CYP3A4_pct": "15",
+  "cyp.CVL-08858.CYP3A4_pct": "-4",
+  "cyp.CVL-08860.CYP3A4_pct": "2",
+  "cyp.CVL-08866.CYP3A4_pct": "10",
+  "cyp.CVL-08870.CYP3A4_pct": "5",
+  "cyp.CVL-08878.CYP3A4_pct": "11",
+  "cyp.CVL-08882.CYP3A4_pct": "28",
+  "cyp.CVL-08884.CYP3A4_pct": "12",
+  "cyp.CVL-08888.CYP3A4_pct": "25",
+  "cyp.CVL-08890.CYP3A4_pct": "36",
+  "cyp.CVL-08894.CYP3A4_pct": "73",
+  "cyp.CVL-08896.CYP3A4_pct": "-4",
+  "cyp.CVL-08900.CYP3A4_pct": "2",
+  "cyp.CVL-08906.CYP3A4_pct": "45",
+  "cyp.CVL-08912.CYP3A4_pct": "7",
+  "cyp.CVL-08920.CYP3A4_pct": "0",
+  "cyp.CVL-08924.CYP3A4_pct": "12",
+  "cyp.CVL-08926.CYP3A4_pct": "93",
+  "cyp.CVL-08932.CYP3A4_pct": "-9",
+  "cyp.CVL-08936.CYP3A4_pct": "6",
+  "cyp.CVL-08938.CYP3A4_pct": "2",
+  "cyp.CVL-08944.CYP3A4_pct": "91",
+  "cyp.CVL-08948.CYP3A4_pct": "91",
+  "cyp.CVL-08954.CYP3A4_pct": "68",
+  "cyp.CVL-08960.CYP3A4_pct": "100",
+  "cyp.CVL-08966.CYP3A4_pct": "90",
+  "cyp.CVL-08968.CYP3A4_pct": "26",
+  "cyp.CVL-08978.CYP3A4_pct": "68",
+  "cyp.CVL-08980.CYP3A4_pct": "-2",
+  "cyp.CVL-08984.CYP3A4_pct": "84",
+  "cyp.CVL-08986.CYP3A4_pct": "87",
+  "price": "USD 22,000",
+  "n_compounds": "40",
+  "turnaround_days": "14",
+  "client_variant": "Corvenlea (US)",
+  "project_id": "OT-20-S0178",
+  "lims_id": "OQ/2020/002872"
+ }
+}

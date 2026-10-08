@@ -1,0 +1,55 @@
+{
+ "project_id": "PRJ0114",
+ "firm": "F",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "1.7",
+     "Clear, slight yellow tint",
+     "Stable"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "0.61",
+     "Clear, slight yellow tint",
+     "Stable"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "1.1",
+     "Fine suspension",
+     "Stable"
+    ],
+    [
+     "PEG400/water 30:70",
+     "0.35",
+     "Clear, slight yellow tint",
+     "Stable"
+    ]
+   ],
+   "notes": [
+    "INTERIM: 4 of 4 results reported; remaining in progress"
+   ]
+  }
+ },
+ "values": {
+  "price": "USD 44,100",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Odraverne Pharmaceuticals",
+  "project_id": "DL_2026_0093",
+  "lims_id": "DF26-01134"
+ }
+}

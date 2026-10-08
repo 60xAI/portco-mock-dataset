@@ -1,0 +1,364 @@
+{
+ "project_id": "PRJ0086",
+ "firm": "E",
+ "status": "completed",
+ "series": "SER19",
+ "compounds": [
+  {
+   "id": "EP19-03904",
+   "smiles": "Nc1ccc(-c2ccc(NC(=O)NC3CCN(N4CCC(O)CC4)CC3)cn2)cc1",
+   "mw": 410.5,
+   "clogp": 2.29,
+   "tpsa": 106.7
+  },
+  {
+   "id": "EP19-03906",
+   "smiles": "CN1CCN(N2CCC(NC(=O)Nc3ccc(-c4cccnc4)nc3)CC2)CC1",
+   "mw": 395.5,
+   "clogp": 1.89,
+   "tpsa": 76.6
+  },
+  {
+   "id": "EP19-03918",
+   "smiles": "N#Cc1ccc(-c2ccc(NC(=O)NC3CCN(N4CCC(N)CC4)CC3)cn2)cc1",
+   "mw": 419.5,
+   "clogp": 2.54,
+   "tpsa": 110.3
+  },
+  {
+   "id": "EP19-03924",
+   "smiles": "CCN1CCN(N2CCC(NC(=O)Nc3ccc(-c4ccncc4)nc3)CC2)CC1",
+   "mw": 409.5,
+   "clogp": 2.28,
+   "tpsa": 76.6
+  },
+  {
+   "id": "EP19-03928",
+   "smiles": "CN1CCN(N2CCC(NC(=O)Nc3ccc(-c4ccc(C#N)cc4)nc3)CC2)CC1",
+   "mw": 419.5,
+   "clogp": 2.37,
+   "tpsa": 87.5
+  },
+  {
+   "id": "EP19-03930",
+   "smiles": "CN1CCN(N2CCC(NC(=O)Nc3ccc(-c4cncnc4)nc3)CC2)CC1",
+   "mw": 396.5,
+   "clogp": 1.29,
+   "tpsa": 89.5
+  },
+  {
+   "id": "EP19-03934",
+   "smiles": "COc1ccc(-c2ccc(NC(=O)NC3CCN(N4CCCC4)CC3)cn2)cc1",
+   "mw": 395.5,
+   "clogp": 3.35,
+   "tpsa": 69.7
+  },
+  {
+   "id": "EP19-03936",
+   "smiles": "CCN1CCN(N2CCC(NC(=O)Nc3ccc(-c4ccc(F)cc4)nc3)CC2)CC1",
+   "mw": 426.5,
+   "clogp": 3.03,
+   "tpsa": 63.7
+  },
+  {
+   "id": "EP19-03946",
+   "smiles": "N#Cc1ccc(-c2ccc(NC(=O)NC3CCN(c4ccncc4)CC3)cn2)cc1",
+   "mw": 398.5,
+   "clogp": 3.81,
+   "tpsa": 93.9
+  },
+  {
+   "id": "EP19-03960",
+   "smiles": "COc1ccc(-c2ccc(NC(=O)NC3CCN(N4CCN(C)CC4)CC3)cn2)cc1",
+   "mw": 424.5,
+   "clogp": 2.51,
+   "tpsa": 73.0
+  },
+  {
+   "id": "EP19-03970",
+   "smiles": "CCN1CCN(N2CCC(NC(=O)Nc3ccc(-c4ccc(N)cc4)nc3)CC2)CC1",
+   "mw": 423.6,
+   "clogp": 2.47,
+   "tpsa": 89.8
+  },
+  {
+   "id": "EP19-03978",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)Nc3ccc(-c4cc(F)cc(F)c4)nc3)CC2)cc1",
+   "mw": 465.5,
+   "clogp": 4.78,
+   "tpsa": 86.4
+  },
+  {
+   "id": "EP19-03990",
+   "smiles": "O=C(Nc1ccc(-c2cncnc2)nc1)NC1CCN(N2CCOCC2)CC1",
+   "mw": 383.5,
+   "clogp": 1.37,
+   "tpsa": 95.5
+  },
+  {
+   "id": "EP19-04002",
+   "smiles": "CCN1CCN(N2CCC(NC(=O)Nc3ccc(-c4cncnc4)nc3)CC2)CC1",
+   "mw": 410.5,
+   "clogp": 1.68,
+   "tpsa": 89.5
+  },
+  {
+   "id": "EP19-04006",
+   "smiles": "COc1ccc(-c2ccc(NC(=O)NC3CCN(N4CCC(O)CC4)CC3)cn2)cc1",
+   "mw": 425.5,
+   "clogp": 2.71,
+   "tpsa": 90.0
+  },
+  {
+   "id": "EP19-04012",
+   "smiles": "COc1ccc(-c2ccc(NC(=O)NC3CCN(c4ccc(NC(C)=O)cc4)CC3)cn2)cc1",
+   "mw": 459.6,
+   "clogp": 4.51,
+   "tpsa": 95.6
+  },
+  {
+   "id": "EP19-04044",
+   "smiles": "CN1CCN(N2CCC(NC(=O)Nc3ccc(-c4ccc(N)cc4)nc3)CC2)CC1",
+   "mw": 409.5,
+   "clogp": 2.08,
+   "tpsa": 89.8
+  },
+  {
+   "id": "EP19-04050",
+   "smiles": "O=C(Nc1ccc(-c2cc(F)cc(F)c2)nc1)NC1CCN(N2CCOCC2)CC1",
+   "mw": 417.5,
+   "clogp": 2.86,
+   "tpsa": 69.7
+  },
+  {
+   "id": "EP19-04054",
+   "smiles": "O=C(Nc1ccc(-c2ccc(F)cc2)nc1)NC1CCN(N2CCOCC2)CC1",
+   "mw": 399.5,
+   "clogp": 2.72,
+   "tpsa": 69.7
+  },
+  {
+   "id": "EP19-04066",
+   "smiles": "NC1CCN(N2CCC(NC(=O)Nc3ccc(-c4cccnc4)nc3)CC2)CC1",
+   "mw": 395.5,
+   "clogp": 2.07,
+   "tpsa": 99.4
+  },
+  {
+   "id": "EP19-04068",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)Nc3ccc(-c4cncnc4)nc3)CC2)cc1",
+   "mw": 431.5,
+   "clogp": 3.29,
+   "tpsa": 112.1
+  },
+  {
+   "id": "EP19-04078",
+   "smiles": "Nc1ccc(-c2ccc(NC(=O)NC3CCN(N4CCCC4)CC3)cn2)cc1",
+   "mw": 380.5,
+   "clogp": 2.93,
+   "tpsa": 86.5
+  },
+  {
+   "id": "EP19-04086",
+   "smiles": "O=C(Nc1ccc(-c2ccc(F)cc2)nc1)NC1CCN(c2ccncc2)CC1",
+   "mw": 391.5,
+   "clogp": 4.07,
+   "tpsa": 70.2
+  },
+  {
+   "id": "EP19-04090",
+   "smiles": "O=C(Nc1ccc(-c2ccncc2)nc1)NC1CCN(N2CCCC2)CC1",
+   "mw": 366.5,
+   "clogp": 2.74,
+   "tpsa": 73.4
+  }
+ ],
+ "tables": {
+  "stability": {
+   "title": "Stability results (assay % label claim; impurities % area)",
+   "columns": [
+    "Condition",
+    "Timepoint (months)",
+    "Assay (% LC)",
+    "Imp A RRT 0.86 (%)",
+    "Imp B RRT 1.12 (%)",
+    "Total impurities (%)",
+    "Water KF (% w/w)",
+    "Result"
+   ],
+   "rows": [
+    [
+     "25 °C/60% RH",
+     0,
+     "99.5",
+     "0.04",
+     "<0.05",
+     "0.17",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     1,
+     "99.3",
+     "0.06",
+     "<0.05",
+     "0.22",
+     "1.9",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     3,
+     "99.3",
+     "0.08",
+     "<0.05",
+     "0.24",
+     "1.1",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     6,
+     "99.1",
+     "0.10",
+     "<0.05",
+     "0.26",
+     "1.4",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     0,
+     "99.4",
+     "0.05",
+     "<0.05",
+     "0.21",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     1,
+     "99.3",
+     "0.06",
+     "<0.05",
+     "0.15",
+     "1.0",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     3,
+     "99.0",
+     "0.10",
+     "0.07",
+     "0.31",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     6,
+     "99.2",
+     "0.14",
+     "0.09",
+     "0.30",
+     "1.2",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     0,
+     "99.2",
+     "0.05",
+     "<0.05",
+     "0.22",
+     "2.4",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     1,
+     "99.7",
+     "0.09",
+     "0.06",
+     "0.26",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     3,
+     "98.9",
+     "0.21",
+     "0.12",
+     "0.38",
+     "1.7",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     6,
+     "97.7",
+     "0.35",
+     "0.21",
+     "0.69",
+     "1.4",
+     "Complies"
+    ]
+   ],
+   "notes": [
+    "Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "WA/2011/192"
+    ],
+    [
+     "Client",
+     "Esmervane Pharmaceuticals"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Esmervane pyridyl urea series 19 (Pyridyl urea)"
+    ],
+    [
+     "Assays",
+     "ICH stability study"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "182"
+    ],
+    [
+     "Price",
+     "GBP 44,800"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "stability.t0_assay": "99.4",
+  "stability.last_timepoint_months": "6",
+  "price": "GBP 44,800",
+  "n_compounds": "24",
+  "turnaround_days": "182",
+  "client_variant": "Esmervane Pharmaceuticals",
+  "project_id": "WA/2011/192",
+  "lims_id": "WST-11-005959"
+ }
+}

@@ -1,0 +1,1758 @@
+planted:
+- label: 'q1 best: D capability deck, group template'
+  filename_hint: final client-facing capability deck, e.g. '<ShortName>_Capabilities_Bioinformatics_2025.pptx'
+  facts:
+  - where:
+      slide: 3
+    text: Bioinformatics for drug discovery
+  golden:
+    query: 1
+    role: correct
+    rank_hint: 1
+    slide: 3
+  entry:
+    id: P01
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_capability
+    pdf_kind: null
+    year: 2025
+    era: group
+    template: D-G
+    created: '2025-03-11T14:35:13'
+    modified: '2025-03-27T08:56:10'
+    author: ST06
+    last_saved_by: ST06
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q1_correct_best
+    related: []
+    tier: orchestrator
+    target_length: 14 slides
+    summary: Quenverell capability deck (2025, group template). Slide 3 'Bioinformatics for drug discovery' is the canonical one-slide explanation
+      used in pitches.
+    pilot: false
+- label: 'q1 best: PDF export of the best deck'
+  filename_hint: same stem as the deck, .pdf
+  facts: []
+  golden:
+    query: 1
+    role: correct
+    rank_hint: 1
+    page: 3
+  entry:
+    id: P02
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: deck_capability
+    pdf_kind: export
+    year: 2025
+    era: group
+    template: D-G
+    created: '2025-03-27T17:15:39'
+    modified: '2025-03-27T17:52:39'
+    author: ST06
+    last_saved_by: ST06
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q1_correct_best_pdf
+    related:
+    - id: P01
+      rel: export_of
+    tier: script
+    target_length: 14 pages
+    summary: PDF export of the 2025 capability deck, sent to clients.
+    pilot: false
+- label: 'q1 alternative: older D capability deck (legacy template)'
+  filename_hint: older capability deck name in D's legacy style
+  facts:
+  - where:
+      slide: any
+    text: Bioinformatics in drug discovery
+  golden:
+    query: 1
+    role: correct
+    rank_hint: 2
+  entry:
+    id: P03
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_capability
+    pdf_kind: null
+    year: 2018
+    era: legacy
+    template: D-L
+    created: '2018-05-14T08:54:54'
+    modified: '2018-06-04T12:04:06'
+    author: ST06
+    last_saved_by: ST06
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q1_correct_alt_older
+    related: []
+    tier: orchestrator
+    target_length: 18 slides
+    summary: Quenverell capability deck from 2018 in the legacy template, with a 'Bioinformatics in drug discovery' slide.
+    pilot: false
+- label: 'q1 alternative + q3 bridge: head-office cross-sell deck reusing the slide'
+  filename_hint: group cross-sell / 'one Tarnovell' services deck
+  facts:
+  - where:
+      slide: any
+    text: Bioinformatics for drug discovery
+  - where:
+      slide: any
+    text: Corvenlea Pharma
+  - where:
+      slide: any
+    text: Corvenlea Ltd
+  - where:
+      slide: any
+    text: Corvenlea Pharmaceuticals plc
+  golden:
+    query: 1
+    role: correct
+    rank_hint: 3
+  entry:
+    id: P04
+    unit: HO
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_pitch
+    pdf_kind: null
+    year: 2026
+    era: group
+    template: HO-G2020
+    created: '2026-05-12T12:52:17'
+    modified: '2026-06-02T14:43:36'
+    author: ST09
+    last_saved_by: ST09
+    projects: []
+    client_id: CL001
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q1_correct_alt_ho
+    - q3_bridge_deck
+    related:
+    - id: P01
+      rel: related
+    tier: orchestrator
+    target_length: 12 slides
+    summary: 'Group cross-sell deck: reuses the D bioinformatics slide and uses Corvenlea Pharma (A/C/E history under three names; never bought
+      D or F) as the worked example.'
+    pilot: false
+- label: 'q1 distractor: outdated D deck (.ppt)'
+  filename_hint: old .ppt in D's earliest naming style
+  facts:
+  - where:
+      slide: any
+    text: Bioinformatics
+  golden:
+    query: 1
+    role: distractor
+    why: outdated version
+  entry:
+    id: P05
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: ppt
+    doc_type: deck_capability
+    pdf_kind: null
+    year: 2012
+    era: legacy
+    template: D-L
+    created: '2012-09-18T12:28:02'
+    modified: '2012-10-02T10:52:28'
+    author: ST06
+    last_saved_by: ST06
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: superseded
+    mess: []
+    planted:
+    - q1_distractor_outdated
+    related: []
+    tier: orchestrator
+    target_length: 16 slides
+    summary: 2012 capability deck in the original legacy template; its bioinformatics slide predates current methods (microarrays, homology models).
+    pilot: false
+- label: 'q1 distractor: ''Copy of'' near-duplicate of the best deck with a typo'
+  filename_hint: '''Copy of <best deck filename>'''
+  facts:
+  - where:
+      slide: 3
+    text: Bioinfromatics for drug discovery
+  golden:
+    query: 1
+    role: distractor
+    why: near-duplicate with typo
+  entry:
+    id: P06
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_capability
+    pdf_kind: null
+    year: 2025
+    era: group
+    template: D-G
+    created: '2025-04-22T17:19:35'
+    modified: '2025-04-23T16:39:19'
+    author: NS14
+    last_saved_by: NS14
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: superseded
+    mess:
+    - copy_of
+    - typo
+    planted:
+    - q1_distractor_typo_copy
+    related:
+    - id: P01
+      rel: copy_of
+    tier: orchestrator
+    target_length: 14 slides
+    summary: Copy of the 2025 capability deck saved by a colleague; slide 3 title has a typo ('Bioinfromatics') and an edited bullet.
+    pilot: false
+- label: 'q1 distractor: generic slide in an unrelated firm A deck'
+  filename_hint: pitch deck in A's style
+  facts:
+  - where:
+      slide: any
+    text: bioinformatics
+  golden:
+    query: 1
+    role: distractor
+    why: generic mention in unrelated deck
+  entry:
+    id: P07
+    unit: A
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_pitch
+    pdf_kind: null
+    year: 2023
+    era: group
+    template: A-G
+    created: '2023-10-03T16:45:16'
+    modified: '2023-10-09T17:00:09'
+    author: BG017
+    last_saved_by: BG017
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q1_distractor_generic_A
+    related: []
+    tier: orchestrator
+    target_length: 10 slides
+    summary: Medicinal chemistry pitch with one generic 'integrated discovery' slide that mentions bioinformatics in passing.
+    pilot: false
+- label: 'q1 distractor: superseded v2 draft of the best deck'
+  filename_hint: same stem as the best deck with _v2 / DRAFT
+  facts:
+  - where:
+      slide: any
+    text: Bioinformatics
+  golden:
+    query: 1
+    role: distractor
+    why: older draft version
+  entry:
+    id: P08
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_capability
+    pdf_kind: null
+    year: 2025
+    era: group
+    template: D-G
+    created: '2025-02-17T10:51:12'
+    modified: '2025-02-28T16:03:40'
+    author: ST06
+    last_saved_by: ST06
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: superseded
+    mess:
+    - version_suffix
+    - draft_mark
+    - comments
+    planted:
+    - q1_distractor_v2_draft
+    related:
+    - id: P01
+      rel: version_of
+    tier: orchestrator
+    target_length: 15 slides
+    summary: Earlier v2 draft of the 2025 capability deck with reviewer notes and an unfinished bioinformatics slide.
+    pilot: false
+- label: 'q1 distractor: D training deck'
+  filename_hint: training deck name
+  facts:
+  - where:
+      slide: any
+    text: bioinformatics
+  golden:
+    query: 1
+    role: distractor
+    why: internal training material
+  entry:
+    id: P09
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_training
+    pdf_kind: null
+    year: 2021
+    era: group
+    template: D-G
+    created: '2021-06-08T08:07:45'
+    modified: '2021-06-15T15:59:08'
+    author: ST06
+    last_saved_by: ST06
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q1_distractor_training
+    related: []
+    tier: orchestrator
+    target_length: 20 slides
+    summary: Internal training deck introducing bioinformatics tools to chemists; not a client-facing slide.
+    pilot: false
+- label: 'q2_correct_B1: proposal with price and turnaround'
+  filename_hint: proposal/quote in the firm's naming style, includes the project id
+  facts:
+  - kind: price
+    project: PRJ0001
+  - text: '40'
+  - text: Avernelwick Pharmaceuticals Ltd
+  - any_of:
+    - 3 weeks
+    - three weeks
+    - 15 working days
+    - 21 days
+    - 3-week
+    - three-week
+    - 15 business days
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0001
+    carries: price, turnaround, scope
+  entry:
+    id: P10
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: doc
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2011
+    era: legacy
+    template: B-L
+    created: '2011-08-23T11:40:09'
+    modified: '2011-08-24T10:08:04'
+    author: ST02
+    last_saved_by: ST02
+    projects:
+    - PRJ0001
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_B1_proposal
+    related: []
+    tier: orchestrator
+    target_length: 5-7 pages
+    summary: 'Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.'
+    pilot: false
+- label: 'q2_correct_B1: results workbook with benchmark table'
+  filename_hint: results workbook name with project id
+  facts:
+  - where:
+      sheet: any
+    text: '{{PRJ0001:herg.median_ic50_uM}}'
+  - where:
+      sheet: any
+    table_ref: PRJ0001:benchmark
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0001
+    carries: benchmark table (sheet)
+  entry:
+    id: P11
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2011
+    era: legacy
+    template: B-L
+    created: '2011-09-12T09:54:08'
+    modified: '2011-09-27T10:59:09'
+    author: ST02
+    last_saved_by: ST02
+    projects:
+    - PRJ0001
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_B1_results
+    related:
+    - id: P10
+      rel: results_for
+    tier: orchestrator
+    target_length: 4-5 sheets
+    summary: 'Results workbook for BW11_0275: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.'
+    pilot: false
+- label: 'q2_correct_B1: study report PDF that summarises the benchmark table'
+  filename_hint: final report PDF name
+  facts:
+  - table_ref: PRJ0001:benchmark
+  - text: Avernelwick Pharmaceuticals Ltd
+  - text: '40'
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0001
+    carries: benchmark summary table (page)
+  entry:
+    id: P12
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2011
+    era: legacy
+    template: B-L
+    created: '2011-09-26T11:15:07'
+    modified: '2011-09-27T16:45:06'
+    author: ST02
+    last_saved_by: ST02
+    projects:
+    - PRJ0001
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_B1_report
+    related:
+    - id: P10
+      rel: report_for
+    - id: P11
+      rel: related
+    tier: orchestrator
+    target_length: 10-16 pages
+    summary: 'Final report BW11_0275: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.'
+    pilot: false
+- label: 'q2_correct_B2: proposal with price and turnaround'
+  filename_hint: proposal/quote in the firm's naming style, includes the project id
+  facts:
+  - kind: price
+    project: PRJ0002
+  - text: '42'
+  - text: Avernelwick Pharmaceuticals Ltd
+  - any_of:
+    - 3 weeks
+    - three weeks
+    - 15 working days
+    - 21 days
+    - 3-week
+    - three-week
+    - 15 business days
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0002
+    carries: price, turnaround, scope
+  entry:
+    id: P13
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2021
+    era: group
+    template: B-G
+    created: '2021-10-18T09:33:26'
+    modified: '2021-10-19T13:18:03'
+    author: ST03
+    last_saved_by: ST03
+    projects:
+    - PRJ0002
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_B2_proposal
+    related: []
+    tier: orchestrator
+    target_length: 5-7 pages
+    summary: 'Proposal BW21_0453 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 42 kinase-series compounds; price and turnaround stated.'
+    pilot: false
+- label: 'q2_correct_B2: results workbook with benchmark table'
+  filename_hint: results workbook name with project id
+  facts:
+  - where:
+      sheet: any
+    text: '{{PRJ0002:herg.median_ic50_uM}}'
+  - where:
+      sheet: any
+    table_ref: PRJ0002:benchmark
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0002
+    carries: benchmark table (sheet)
+  entry:
+    id: P14
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2021
+    era: group
+    template: B-G
+    created: '2021-11-08T12:34:50'
+    modified: '2021-11-25T17:48:57'
+    author: ST03
+    last_saved_by: ST03
+    projects:
+    - PRJ0002
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_B2_results
+    related:
+    - id: P13
+      rel: results_for
+    tier: orchestrator
+    target_length: 4-5 sheets
+    summary: 'Results workbook for BW21_0453: hERG IC50 and 5-isoform CYP inhibition for 42 compounds, with a benchmark summary sheet.'
+    pilot: false
+- label: 'q2_correct_B2: study report PDF that summarises the benchmark table'
+  filename_hint: final report PDF name
+  facts:
+  - table_ref: PRJ0002:benchmark
+  - text: Avernelwick Pharmaceuticals Ltd
+  - text: '42'
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0002
+    carries: benchmark summary table (page)
+  entry:
+    id: P15
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2021
+    era: group
+    template: B-G
+    created: '2021-11-23T09:29:54'
+    modified: '2021-11-25T12:46:06'
+    author: ST03
+    last_saved_by: ST03
+    projects:
+    - PRJ0002
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_B2_report
+    related:
+    - id: P13
+      rel: report_for
+    - id: P14
+      rel: related
+    tier: orchestrator
+    target_length: 10-16 pages
+    summary: 'Final report BW21_0453: hERG and CYP results for 42 kinase-series compounds, with the benchmark summary table on an early page.'
+    pilot: false
+- label: 'q2_correct_C1: proposal with price and turnaround'
+  filename_hint: proposal/quote in the firm's naming style, includes the project id
+  facts:
+  - kind: price
+    project: PRJ0003
+  - text: '38'
+  - text: Selverant
+  - any_of:
+    - 3 weeks
+    - three weeks
+    - 15 working days
+    - 21 days
+    - 3-week
+    - three-week
+    - 15 business days
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0003
+    carries: price, turnaround, scope
+  entry:
+    id: P16
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2015
+    era: legacy
+    template: C-L
+    created: '2015-11-05T10:31:35'
+    modified: '2015-11-06T17:47:14'
+    author: ST04
+    last_saved_by: ST04
+    projects:
+    - PRJ0003
+    client_id: CL004
+    client_variant: Selverant
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_C1_proposal
+    related: []
+    tier: orchestrator
+    target_length: 5-7 pages
+    summary: 'Proposal MV-2015-266 to Selverant: hERG + CYP panel on 38 kinase-series compounds; price and turnaround stated.'
+    pilot: false
+- label: 'q2_correct_C1: results workbook with benchmark table'
+  filename_hint: results workbook name with project id
+  facts:
+  - where:
+      sheet: any
+    text: '{{PRJ0003:herg.median_ic50_uM}}'
+  - where:
+      sheet: any
+    table_ref: PRJ0003:benchmark
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0003
+    carries: benchmark table (sheet)
+  entry:
+    id: P17
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2015
+    era: legacy
+    template: C-L
+    created: '2015-12-08T09:27:26'
+    modified: '2015-12-28T12:45:08'
+    author: ST04
+    last_saved_by: ST04
+    projects:
+    - PRJ0003
+    client_id: CL004
+    client_variant: Selverant
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_C1_results
+    related:
+    - id: P16
+      rel: results_for
+    tier: orchestrator
+    target_length: 4-5 sheets
+    summary: 'Results workbook for MV-2015-266: hERG IC50 and 5-isoform CYP inhibition for 38 compounds, with a benchmark summary sheet.'
+    pilot: false
+- label: 'q2_correct_C1: study report PDF that summarises the benchmark table'
+  filename_hint: final report PDF name
+  facts:
+  - table_ref: PRJ0003:benchmark
+  - text: Selverant
+  - text: '38'
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0003
+    carries: benchmark summary table (page)
+  entry:
+    id: P18
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2015
+    era: legacy
+    template: C-L
+    created: '2015-12-28T10:17:20'
+    modified: '2015-12-28T10:54:20'
+    author: ST04
+    last_saved_by: ST04
+    projects:
+    - PRJ0003
+    client_id: CL004
+    client_variant: Selverant
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_C1_report
+    related:
+    - id: P16
+      rel: report_for
+    - id: P17
+      rel: related
+    tier: orchestrator
+    target_length: 10-16 pages
+    summary: 'Final report MV-2015-266: hERG and CYP results for 38 kinase-series compounds, with the benchmark summary table on an early page.'
+    pilot: false
+- label: 'q2_correct_C2: proposal with price and turnaround'
+  filename_hint: proposal/quote in the firm's naming style, includes the project id
+  facts:
+  - kind: price
+    project: PRJ0004
+  - text: '40'
+  - text: Tervemere Pharma AG
+  - any_of:
+    - 3 weeks
+    - three weeks
+    - 15 working days
+    - 21 days
+    - 3-week
+    - three-week
+    - 15 business days
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0004
+    carries: price, turnaround, scope
+  entry:
+    id: P19
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2024
+    era: group
+    template: C-G
+    created: '2024-11-11T16:46:20'
+    modified: '2024-11-12T12:01:27'
+    author: ST05
+    last_saved_by: ST05
+    projects:
+    - PRJ0004
+    client_id: CL005
+    client_variant: Tervemere Pharma AG
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_C2_proposal
+    related: []
+    tier: orchestrator
+    target_length: 5-7 pages
+    summary: 'Proposal MV-2024-358 to Tervemere Pharma AG: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.'
+    pilot: false
+- label: 'q2_correct_C2: results workbook with benchmark table'
+  filename_hint: results workbook name with project id
+  facts:
+  - where:
+      sheet: any
+    text: '{{PRJ0004:herg.median_ic50_uM}}'
+  - where:
+      sheet: any
+    table_ref: PRJ0004:benchmark
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0004
+    carries: benchmark table (sheet)
+  entry:
+    id: P20
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2024
+    era: group
+    template: C-G
+    created: '2024-12-05T13:33:52'
+    modified: '2024-12-19T12:28:28'
+    author: ST05
+    last_saved_by: ST05
+    projects:
+    - PRJ0004
+    client_id: CL005
+    client_variant: Tervemere Pharma AG
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_C2_results
+    related:
+    - id: P19
+      rel: results_for
+    tier: orchestrator
+    target_length: 4-5 sheets
+    summary: 'Results workbook for MV-2024-358: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.'
+    pilot: false
+- label: 'q2_correct_C2: study report PDF that summarises the benchmark table'
+  filename_hint: final report PDF name
+  facts:
+  - table_ref: PRJ0004:benchmark
+  - text: Tervemere Pharma AG
+  - text: '40'
+  golden:
+    query: 2
+    role: correct
+    project: PRJ0004
+    carries: benchmark summary table (page)
+  entry:
+    id: P21
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2024
+    era: group
+    template: C-G
+    created: '2024-12-17T10:14:56'
+    modified: '2024-12-19T17:03:10'
+    author: ST05
+    last_saved_by: ST05
+    projects:
+    - PRJ0004
+    client_id: CL005
+    client_variant: Tervemere Pharma AG
+    finish: final
+    mess: []
+    planted:
+    - q2_correct_C2_report
+    related:
+    - id: P19
+      rel: report_for
+    - id: P20
+      rel: related
+    tier: orchestrator
+    target_length: 10-16 pages
+    summary: 'Final report MV-2024-358: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.'
+    pilot: false
+- label: 'q2_distractor_herg_only: results workbook'
+  filename_hint: results workbook name
+  facts: []
+  golden:
+    query: 2
+    role: distractor
+    why: q2_distractor_herg_only
+  entry:
+    id: P22
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2017
+    era: legacy
+    template: B-L
+    created: '2017-05-25T08:47:08'
+    modified: '2017-06-14T09:04:20'
+    author: NS05
+    last_saved_by: NS05
+    projects:
+    - PRJ0005
+    client_id: CL004
+    client_variant: Selverant Therapeutics Inc
+    finish: final
+    mess: []
+    planted:
+    - q2_distractor_herg_only
+    related: []
+    tier: orchestrator
+    target_length: 3 sheets
+    summary: 'Results workbook BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.'
+    pilot: false
+- label: 'q2_distractor_herg_only: report'
+  filename_hint: report PDF name
+  facts:
+  - text: Selverant Therapeutics Inc
+  golden:
+    query: 2
+    role: distractor
+    why: q2_distractor_herg_only
+  entry:
+    id: P23
+    unit: B
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2017
+    era: legacy
+    template: B-L
+    created: '2017-06-12T12:13:49'
+    modified: '2017-06-14T08:46:10'
+    author: NS05
+    last_saved_by: NS05
+    projects:
+    - PRJ0005
+    client_id: CL004
+    client_variant: Selverant Therapeutics Inc
+    finish: final
+    mess: []
+    planted:
+    - q2_distractor_herg_only
+    related: []
+    tier: orchestrator
+    target_length: 8-12 pages
+    summary: 'Report BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.'
+    pilot: false
+- label: 'q2_distractor_cyp_other_chemotype: results workbook'
+  filename_hint: results workbook name
+  facts: []
+  golden:
+    query: 2
+    role: distractor
+    why: q2_distractor_cyp_other_chemotype
+  entry:
+    id: P24
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2022
+    era: group
+    template: C-G
+    created: '2022-07-25T09:43:49'
+    modified: '2022-08-10T12:38:48'
+    author: NS09
+    last_saved_by: NS09
+    projects:
+    - PRJ0006
+    client_id: CL012
+    client_variant: Orvessant Biosciences Pty Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_distractor_cyp_other_chemotype
+    related: []
+    tier: orchestrator
+    target_length: 3 sheets
+    summary: 'Results workbook MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.'
+    pilot: false
+- label: 'q2_distractor_cyp_other_chemotype: report'
+  filename_hint: report PDF name
+  facts:
+  - text: Orvessant Biosciences Pty Ltd
+  golden:
+    query: 2
+    role: distractor
+    why: q2_distractor_cyp_other_chemotype
+  entry:
+    id: P25
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2022
+    era: group
+    template: C-G
+    created: '2022-08-08T14:48:02'
+    modified: '2022-08-10T10:37:31'
+    author: NS09
+    last_saved_by: NS09
+    projects:
+    - PRJ0006
+    client_id: CL012
+    client_variant: Orvessant Biosciences Pty Ltd
+    finish: final
+    mess: []
+    planted:
+    - q2_distractor_cyp_other_chemotype
+    related: []
+    tier: orchestrator
+    target_length: 8-12 pages
+    summary: 'Report MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.'
+    pilot: false
+- label: 'q2_distractor_right_client_wrong_assay: proposal'
+  filename_hint: proposal name
+  facts:
+  - kind: price
+    project: PRJ0007
+  golden:
+    query: 2
+    role: distractor
+    why: q2_distractor_right_client_wrong_assay
+  entry:
+    id: P26
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2018
+    era: legacy
+    template: C-L
+    created: '2018-02-20T14:50:05'
+    modified: '2018-02-22T15:12:42'
+    author: NS09
+    last_saved_by: NS09
+    projects:
+    - PRJ0007
+    client_id: CL003
+    client_variant: Avernelwick Pharma
+    finish: final
+    mess: []
+    planted:
+    - q2_distractor_right_client_wrong_assay
+    related: []
+    tier: orchestrator
+    target_length: 4-6 pages
+    summary: 'Proposal MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.'
+    pilot: false
+- label: 'q2_distractor_right_client_wrong_assay: report'
+  filename_hint: report PDF name
+  facts:
+  - text: Avernelwick Pharma
+  golden:
+    query: 2
+    role: distractor
+    why: q2_distractor_right_client_wrong_assay
+  entry:
+    id: P27
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2018
+    era: legacy
+    template: C-L
+    created: '2018-04-16T17:25:17'
+    modified: '2018-04-16T18:02:17'
+    author: NS09
+    last_saved_by: NS09
+    projects:
+    - PRJ0007
+    client_id: CL003
+    client_variant: Avernelwick Pharma
+    finish: final
+    mess: []
+    planted:
+    - q2_distractor_right_client_wrong_assay
+    related: []
+    tier: orchestrator
+    target_length: 8-12 pages
+    summary: 'Report MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.'
+    pilot: false
+- label: 'q2 who-to-ask: group staff directory (CSV)'
+  filename_hint: HR export e.g. 'Staff_Directory_Export_2026-09.csv'
+  facts: []
+  golden:
+    query: 2
+    role: supporting
+    carries: who ran each project, leave dates
+  entry:
+    id: P28
+    unit: HO
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: csv
+    doc_type: staff_directory
+    pdf_kind: null
+    year: 2026
+    era: group
+    template: HO-G2020
+    created: '2026-09-01T10:10:53'
+    modified: '2026-09-14T16:42:21'
+    author: BG157
+    last_saved_by: BG157
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q2_staff_directory
+    related: []
+    tier: script
+    target_length: ~170 rows
+    summary: Group staff directory export (A-F + head office) with start and leave dates.
+    pilot: false
+- label: 'q2/q3: group LIMS export (CSV)'
+  filename_hint: LIMS export name
+  facts: []
+  golden:
+    query: 2
+    role: supporting
+    carries: project ids in LIMS format
+  entry:
+    id: P29
+    unit: HO
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: csv
+    doc_type: lims_export
+    pdf_kind: null
+    year: 2026
+    era: group
+    template: HO-G2020
+    created: '2026-08-20T16:29:33'
+    modified: '2026-08-20T17:06:33'
+    author: ST09
+    last_saved_by: ST09
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q2_lims_export
+    related: []
+    tier: script
+    target_length: ~115 rows
+    summary: Consolidated LIMS export (A-F) with LIMS IDs, legacy refs, clients as recorded, assays, dates and status.
+    pilot: false
+- label: 'q3: CRM client list export (CSV, unmerged variants)'
+  filename_hint: CRM export name
+  facts: []
+  golden:
+    query: 3
+    role: supporting
+    carries: variants as separate accounts
+  entry:
+    id: P30
+    unit: HO
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: csv
+    doc_type: client_list
+    pdf_kind: null
+    year: 2026
+    era: group
+    template: HO-G2020
+    created: '2026-07-07T16:07:50'
+    modified: '2026-07-07T16:44:50'
+    author: ST09
+    last_saved_by: ST09
+    projects: []
+    client_id: null
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q3_crm_export
+    related: []
+    tier: script
+    target_length: ~110 rows
+    summary: CRM account export from all legacy systems; variant names appear as separate accounts.
+    pilot: false
+- label: 'q3_target_A: report_client'
+  filename_hint: name in the firm's style
+  facts:
+  - text: Corvenlea Pharma
+  golden:
+    query: 3
+    role: correct
+    project: PRJ0008
+    variant: Corvenlea Pharma
+  entry:
+    id: P31
+    unit: A
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: doc
+    doc_type: report_client
+    pdf_kind: null
+    year: 2005
+    era: legacy
+    template: A-L
+    created: '2005-11-07T15:35:58'
+    modified: '2005-11-08T09:01:26'
+    author: NS01
+    last_saved_by: NS01
+    projects:
+    - PRJ0008
+    client_id: CL001
+    client_variant: Corvenlea Pharma
+    finish: final
+    mess: []
+    planted:
+    - q3_target_A
+    related: []
+    tier: orchestrator
+    target_length: 6-12 pages
+    summary: 'report client for Corvenlea Pharma (VD-05-064): CVL azaheterocycle route scout and first analogue delivery.'
+    pilot: false
+- label: 'q3_target_C: report_study'
+  filename_hint: name in the firm's style
+  facts:
+  - text: Corvenlea Ltd
+  golden:
+    query: 3
+    role: correct
+    project: PRJ0009
+    variant: Corvenlea Ltd
+  entry:
+    id: P32
+    unit: C
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2016
+    era: legacy
+    template: C-L
+    created: '2016-05-09T11:51:08'
+    modified: '2016-05-10T11:43:55'
+    author: NS09
+    last_saved_by: NS09
+    projects:
+    - PRJ0009
+    client_id: CL001
+    client_variant: Corvenlea Ltd
+    finish: final
+    mess: []
+    planted:
+    - q3_target_C
+    related: []
+    tier: orchestrator
+    target_length: 6-12 pages
+    summary: 'report study for Corvenlea Ltd (MV-2016-053): CVL oral discovery package: microsomes, hepatocytes and plasma binding.'
+    pilot: false
+- label: 'q3_target_E: word_proposal'
+  filename_hint: name in the firm's style
+  facts:
+  - text: Corvenlea Pharmaceuticals plc
+  - text: Corvenlea Ltd
+  golden:
+    query: 3
+    role: correct
+    project: PRJ0010
+    variant: Corvenlea Pharmaceuticals plc
+  entry:
+    id: P33
+    unit: E
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2020
+    era: transition
+    template: E-T
+    created: '2020-11-05T10:20:40'
+    modified: '2020-11-06T17:54:57'
+    author: NS17
+    last_saved_by: NS17
+    projects:
+    - PRJ0010
+    client_id: CL001
+    client_variant: Corvenlea Pharmaceuticals plc
+    finish: final
+    mess: []
+    planted:
+    - q3_target_E
+    related: []
+    tier: orchestrator
+    target_length: 6-12 pages
+    summary: 'word proposal for Corvenlea Pharmaceuticals plc (WA/2020/313): CVL tablet lot 3: twelve-month ICH stability with assay validation.
+      Names the client as ''Corvenlea Pharmaceuticals plc (formerly Corvenlea Ltd)''.'
+    pilot: false
+- label: 'q3 bridge: group client identity bridge workbook'
+  filename_hint: client mapping / identity bridge workbook
+  facts:
+  - text: Corvenlea Pharma
+  - text: Corvenlea Ltd
+  - text: Corvenlea Pharmaceuticals plc
+  - text: Corvenlith Therapeutics
+  golden:
+    query: 3
+    role: correct
+    carries: variant bridge
+  entry:
+    id: P34
+    unit: HO
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_other
+    pdf_kind: null
+    year: 2026
+    era: group
+    template: HO-G2020
+    created: '2026-03-09T13:05:50'
+    modified: '2026-08-25T08:21:27'
+    author: ST09
+    last_saved_by: ST09
+    projects: []
+    client_id: CL001
+    client_variant: null
+    finish: final
+    mess: []
+    planted:
+    - q3_bridge_alias_workbook
+    related: []
+    tier: orchestrator
+    target_length: 3 sheets
+    summary: Integration workbook mapping legacy client names to group accounts; links Corvenlea Pharma's A/C/E names, flags Corvenlith Therapeutics
+      as a different company.
+    pilot: false
+- label: 'q3 bridge: cross-sell white-space matrix'
+  filename_hint: cross-sell matrix workbook
+  facts:
+  - text: Corvenlea Pharma
+  golden:
+    query: 3
+    role: correct
+    carries: white space
+  entry:
+    id: P35
+    unit: HO
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_other
+    pdf_kind: null
+    year: 2026
+    era: group
+    template: HO-G2020
+    created: '2026-06-15T13:13:54'
+    modified: '2026-09-02T08:16:31'
+    author: ST09
+    last_saved_by: ST09
+    projects: []
+    client_id: CL001
+    client_variant: null
+    finish: draft
+    mess:
+    - half_filled
+    planted:
+    - q3_whitespace_matrix
+    related: []
+    tier: orchestrator
+    target_length: 2 sheets
+    summary: Client x service-line matrix for top accounts showing which legacy firms each client has bought from; half-finished.
+    pilot: false
+- label: 'q3 distractor: lookalike client proposal'
+  filename_hint: proposal name
+  facts:
+  - text: Corvenlith Therapeutics
+  golden:
+    query: 3
+    role: distractor
+    why: similar client name
+  entry:
+    id: P36
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2023
+    era: group
+    template: D-G
+    created: '2023-09-11T17:05:09'
+    modified: '2023-09-12T16:57:33'
+    author: ST06
+    last_saved_by: ST06
+    projects:
+    - PRJ0011
+    client_id: CL002
+    client_variant: Corvenlith Therapeutics
+    finish: final
+    mess: []
+    planted:
+    - q3_lookalike
+    related: []
+    tier: orchestrator
+    target_length: 5 pages
+    summary: Proposal to Corvenlith Therapeutics (QV.23.100), a different company from Corvenlea Pharma.
+    pilot: false
+- label: 'q4_G1: proposal'
+  filename_hint: proposal name
+  facts:
+  - kind: price
+    project: PRJ0012
+  - text: Corvenlea (US)
+  - text: '40'
+  golden:
+    query: 4
+    role: correct
+    project: PRJ0012
+    depends_on_G: true
+  entry:
+    id: P37
+    unit: G
+    root: heldback
+    path: <fill>
+    filename: <fill>
+    format: docx
+    doc_type: word_proposal
+    pdf_kind: null
+    year: 2020
+    era: legacy
+    template: G-L
+    created: '2020-09-02T16:11:21'
+    modified: '2020-09-03T11:42:43'
+    author: ST10
+    last_saved_by: ST10
+    projects:
+    - PRJ0012
+    client_id: CL001
+    client_variant: Corvenlea (US)
+    finish: final
+    mess: []
+    planted:
+    - q4_G1_proposal
+    related: []
+    tier: orchestrator
+    target_length: 6 pages
+    summary: 'Proposal OT-20-S0178 to Corvenlea (US): in vitro safety pharmacology (hERG + CYP) on 40 kinase compounds.'
+    pilot: false
+- label: 'q4_G1: results workbook'
+  filename_hint: results workbook name
+  facts:
+  - where:
+      sheet: any
+    table_ref: PRJ0012:benchmark
+  golden:
+    query: 4
+    role: correct
+    project: PRJ0012
+    depends_on_G: true
+  entry:
+    id: P38
+    unit: G
+    root: heldback
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2020
+    era: legacy
+    template: G-L
+    created: '2020-10-06T14:04:16'
+    modified: '2020-10-20T15:44:08'
+    author: ST10
+    last_saved_by: ST10
+    projects:
+    - PRJ0012
+    client_id: CL001
+    client_variant: Corvenlea (US)
+    finish: final
+    mess: []
+    planted:
+    - q4_G1_results
+    related:
+    - id: P37
+      rel: results_for
+    tier: orchestrator
+    target_length: 4 sheets
+    summary: 'Results workbook OT-20-S0178: hERG and CYP data for 40 compounds with benchmark sheet.'
+    pilot: false
+- label: 'q4_G1: report'
+  filename_hint: report PDF name
+  facts:
+  - table_ref: PRJ0012:benchmark
+  - text: Corvenlea (US)
+  golden:
+    query: 4
+    role: correct
+    project: PRJ0012
+    depends_on_G: true
+  entry:
+    id: P39
+    unit: G
+    root: heldback
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2020
+    era: legacy
+    template: G-L
+    created: '2020-10-19T09:10:15'
+    modified: '2020-10-20T12:29:06'
+    author: ST10
+    last_saved_by: ST10
+    projects:
+    - PRJ0012
+    client_id: CL001
+    client_variant: Corvenlea (US)
+    finish: final
+    mess: []
+    planted:
+    - q4_G1_report
+    related:
+    - id: P38
+      rel: related
+    tier: orchestrator
+    target_length: 12-18 pages
+    summary: Final report OT-20-S0178 for Corvenlea (US), summarising the benchmark table.
+    pilot: false
+- label: 'q4_G2: results workbook'
+  filename_hint: results workbook name
+  facts:
+  - where:
+      sheet: any
+    table_ref: PRJ0013:benchmark
+  golden:
+    query: 4
+    role: correct
+    project: PRJ0013
+    depends_on_G: true
+  entry:
+    id: P40
+    unit: G
+    root: heldback
+    path: <fill>
+    filename: <fill>
+    format: xlsx
+    doc_type: wb_results
+    pdf_kind: null
+    year: 2023
+    era: legacy
+    template: G-L
+    created: '2023-03-08T11:05:33'
+    modified: '2023-03-23T13:26:21'
+    author: ST10
+    last_saved_by: ST10
+    projects:
+    - PRJ0013
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q4_G2_results
+    related: []
+    tier: orchestrator
+    target_length: 4 sheets
+    summary: 'Results workbook OT-23-S0046: hERG and CYP data for 44 compounds with benchmark sheet.'
+    pilot: false
+- label: 'q4_G2: report'
+  filename_hint: report PDF name
+  facts:
+  - table_ref: PRJ0013:benchmark
+  - text: Avernelwick Pharmaceuticals Ltd
+  golden:
+    query: 4
+    role: correct
+    project: PRJ0013
+    depends_on_G: true
+  entry:
+    id: P41
+    unit: G
+    root: heldback
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_study
+    pdf_kind: native
+    year: 2023
+    era: legacy
+    template: G-L
+    created: '2023-03-21T13:15:39'
+    modified: '2023-03-23T08:17:32'
+    author: ST10
+    last_saved_by: ST10
+    projects:
+    - PRJ0013
+    client_id: CL003
+    client_variant: Avernelwick Pharmaceuticals Ltd
+    finish: final
+    mess: []
+    planted:
+    - q4_G2_report
+    related:
+    - id: P40
+      rel: related
+    tier: orchestrator
+    target_length: 12-18 pages
+    summary: Final report OT-23-S0046 for Avernelwick Pharmaceuticals Ltd, summarising the benchmark table.
+    pilot: false
+- label: 'q5 closest work: D crystallography-based docking report'
+  filename_hint: report PDF name
+  facts:
+  - any_of:
+    - crystal structure
+    - crystallograph
+    - X-ray
+  golden:
+    query: 5
+    role: closest_related
+  entry:
+    id: P42
+    unit: D
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pdf
+    doc_type: report_client
+    pdf_kind: native
+    year: 2025
+    era: group
+    template: D-G
+    created: '2025-11-10T16:34:24'
+    modified: '2025-11-13T13:25:42'
+    author: ST06
+    last_saved_by: ST06
+    projects:
+    - PRJ0014
+    client_id: CL007
+    client_variant: Drelvessa Therapeutics SAS
+    finish: final
+    mess: []
+    planted:
+    - q5_structbio_D
+    related: []
+    tier: orchestrator
+    target_length: 10-14 pages
+    summary: 'Structure-based design report QV.25.086: docking into published-style X-ray structures. '
+    pilot: false
+- label: 'q5 closest work: A structural biology collaboration readout'
+  filename_hint: readout deck name
+  facts:
+  - any_of:
+    - co-crystal
+    - X-ray
+    - crystal structure
+  golden:
+    query: 5
+    role: closest_related
+  entry:
+    id: P43
+    unit: A
+    root: archive
+    path: <fill>
+    filename: <fill>
+    format: pptx
+    doc_type: deck_readout
+    pdf_kind: null
+    year: 2019
+    era: legacy
+    template: A-L
+    created: '2019-01-24T08:33:48'
+    modified: '2019-01-28T12:27:45'
+    author: NS01
+    last_saved_by: NS01
+    projects:
+    - PRJ0015
+    client_id: CL014
+    client_variant: Rennelwick Institute Drug Discovery Unit
+    finish: final
+    mess: []
+    planted:
+    - q5_structbio_A
+    related: []
+    tier: orchestrator
+    target_length: 12 slides
+    summary: 'Readout VD-18-131: chemistry guided by X-ray co-crystal structures from a collaborator. '
+    pilot: false

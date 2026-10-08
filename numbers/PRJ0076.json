@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0076",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 54,600",
+  "n_compounds": "0",
+  "turnaround_days": "79",
+  "client_variant": "Doventhar Therapeutics",
+  "project_id": "QV.15.065",
+  "lims_id": "QDATA2015-0400"
+ }
+}

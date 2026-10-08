@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0074",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 45,000",
+  "n_compounds": "0",
+  "turnaround_days": "69",
+  "client_variant": "Rimucavel Therapeutics",
+  "project_id": "QV.11.073",
+  "lims_id": "QDATA2011-0467"
+ }
+}

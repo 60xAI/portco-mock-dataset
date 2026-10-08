@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0011",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 54,400",
+  "n_compounds": "0",
+  "turnaround_days": "49",
+  "client_variant": "Corvenlith Therapeutics",
+  "project_id": "QV.23.100",
+  "lims_id": "QDATA2023-0617"
+ }
+}

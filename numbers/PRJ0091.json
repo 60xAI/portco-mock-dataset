@@ -1,0 +1,288 @@
+{
+ "project_id": "PRJ0091",
+ "firm": "E",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "stability": {
+   "title": "Stability results (assay % label claim; impurities % area)",
+   "columns": [
+    "Condition",
+    "Timepoint (months)",
+    "Assay (% LC)",
+    "Imp A RRT 0.86 (%)",
+    "Imp B RRT 1.12 (%)",
+    "Total impurities (%)",
+    "Water KF (% w/w)",
+    "Result"
+   ],
+   "rows": [
+    [
+     "25 °C/60% RH",
+     0,
+     "98.9",
+     "0.07",
+     "<0.05",
+     "0.21",
+     "0.8",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     1,
+     "99.0",
+     "0.06",
+     "<0.05",
+     "0.21",
+     "0.9",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     3,
+     "99.2",
+     "0.07",
+     "0.05",
+     "0.18",
+     "2.0",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     6,
+     "99.1",
+     "0.11",
+     "0.06",
+     "0.23",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     9,
+     "99.2",
+     "0.13",
+     "0.07",
+     "0.34",
+     "0.8",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     12,
+     "99.4",
+     "0.13",
+     "0.09",
+     "0.31",
+     "1.8",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     18,
+     "98.9",
+     "0.19",
+     "0.13",
+     "0.43",
+     "2.4",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     24,
+     "98.4",
+     "0.23",
+     "0.16",
+     "0.46",
+     "2.0",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     0,
+     "99.7",
+     "0.05",
+     "<0.05",
+     "0.18",
+     "1.7",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     1,
+     "99.9",
+     "0.05",
+     "<0.05",
+     "0.16",
+     "1.7",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     3,
+     "99.2",
+     "0.10",
+     "0.05",
+     "0.24",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     6,
+     "98.9",
+     "0.12",
+     "0.08",
+     "0.34",
+     "1.9",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     9,
+     "98.8",
+     "0.17",
+     "0.08",
+     "0.39",
+     "2.5",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     12,
+     "98.2",
+     "0.22",
+     "0.15",
+     "0.52",
+     "1.8",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     18,
+     "98.4",
+     "0.30",
+     "0.17",
+     "0.55",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     24,
+     "98.3",
+     "0.38",
+     "0.23",
+     "0.68",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     0,
+     "99.5",
+     "0.06",
+     "<0.05",
+     "0.21",
+     "1.9",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     1,
+     "99.5",
+     "0.10",
+     "<0.05",
+     "0.29",
+     "1.1",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     3,
+     "98.8",
+     "0.20",
+     "0.13",
+     "0.41",
+     "1.7",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     6,
+     "98.0",
+     "0.34",
+     "0.22",
+     "0.70",
+     "1.4",
+     "Complies"
+    ]
+   ],
+   "notes": [
+    "Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%"
+   ]
+  },
+  "method_val": {
+   "title": "Method validation summary",
+   "columns": [
+    "Parameter",
+    "Result",
+    "Acceptance"
+   ],
+   "rows": [
+    [
+     "Linearity (r²)",
+     "0.9997",
+     "≥0.999"
+    ],
+    [
+     "Range (% nominal)",
+     "50-150",
+     "80-120 minimum"
+    ],
+    [
+     "Accuracy 80% (% recovery)",
+     "99.3",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 100% (% recovery)",
+     "99.9",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 120% (% recovery)",
+     "99.9",
+     "98.0-102.0"
+    ],
+    [
+     "Repeatability (%RSD, n=6)",
+     "0.21",
+     "≤2.0"
+    ],
+    [
+     "Intermediate precision (%RSD)",
+     "1.15",
+     "≤2.0"
+    ],
+    [
+     "LOQ (% of nominal)",
+     "0.03",
+     "≤0.05"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "stability.t0_assay": "99.4",
+  "stability.last_timepoint_months": "24",
+  "price": "GBP 47,600",
+  "n_compounds": "0",
+  "turnaround_days": "731",
+  "client_variant": "Istravune Biosciences",
+  "project_id": "WA/2018/082",
+  "lims_id": "WST-18-002559"
+ }
+}

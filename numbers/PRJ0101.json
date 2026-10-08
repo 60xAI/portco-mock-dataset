@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0101",
+ "firm": "E",
+ "status": "lost",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 66,600",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Telquorath Pharma",
+  "project_id": "WA/2025/108",
+  "lims_id": "WST-25-003364"
+ }
+}

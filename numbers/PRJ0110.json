@@ -1,0 +1,77 @@
+{
+ "project_id": "PRJ0110",
+ "firm": "F",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "0.68",
+     "Suspension, settles <1 h",
+     "Stable"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "5.9",
+     "Fine suspension",
+     "Stable"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "0.33",
+     "Clear solution",
+     "Not assessed"
+    ],
+    [
+     "PEG400/water 30:70",
+     "0.54",
+     "Fine suspension",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "10% DMSO / 90% corn oil",
+     "21",
+     "Fine suspension",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "Labrasol/PEG400 1:1",
+     "0.68",
+     "Fine suspension",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "5% NMP / 15% Solutol HS15 / 80% water",
+     "11",
+     "Clear, slight yellow tint",
+     "Not assessed"
+    ],
+    [
+     "pH 4 citrate buffer",
+     "1.2",
+     "Fine suspension",
+     "Stable"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 41,600",
+  "n_compounds": "0",
+  "turnaround_days": "53",
+  "client_variant": "Wexanthel Medicines",
+  "project_id": "DL_2018_0034",
+  "lims_id": "DF18-00421"
+ }
+}

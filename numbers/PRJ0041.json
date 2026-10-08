@@ -1,0 +1,677 @@
+{
+ "project_id": "PRJ0041",
+ "firm": "B",
+ "status": "completed",
+ "series": "SER17",
+ "compounds": [
+  {
+   "id": "CB17-08400",
+   "smiles": "Cc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCC(N)CC3)C2)nc1",
+   "mw": 384.5,
+   "clogp": 3.19,
+   "tpsa": 71.2
+  },
+  {
+   "id": "CB17-08404",
+   "smiles": "O=C(NC1CCC(N2CCCC2)C1)c1sccc1-c1cc(F)cc(F)c1",
+   "mw": 376.5,
+   "clogp": 4.44,
+   "tpsa": 32.3
+  },
+  {
+   "id": "CB17-08406",
+   "smiles": "Nc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCC(N)CC3)C2)cc1",
+   "mw": 384.5,
+   "clogp": 3.07,
+   "tpsa": 84.4
+  },
+  {
+   "id": "CB17-08410",
+   "smiles": "O=C(NC1CCC(N2CCC(O)CC2)C1)c1sccc1-c1cncnc1",
+   "mw": 372.5,
+   "clogp": 2.31,
+   "tpsa": 78.4
+  },
+  {
+   "id": "CB17-08416",
+   "smiles": "Nc1ccc(-c2ccsc2C(=O)NC2CCC(NC3CCCCC3)C2)cc1",
+   "mw": 383.6,
+   "clogp": 4.57,
+   "tpsa": 67.2
+  },
+  {
+   "id": "CB17-08424",
+   "smiles": "O=C(NC1CCC(c2ccncc2)C1)c1sccc1-c1cc(F)cc(F)c1",
+   "mw": 384.5,
+   "clogp": 5.15,
+   "tpsa": 42.0
+  },
+  {
+   "id": "CB17-08428",
+   "smiles": "O=C(NC1CCC(N2CCCC2)C1)c1sccc1-c1cccnc1",
+   "mw": 341.5,
+   "clogp": 3.56,
+   "tpsa": 45.2
+  },
+  {
+   "id": "CB17-08440",
+   "smiles": "NC1CCN(C2CCC(NC(=O)c3sccc3-c3cccnc3)C2)CC1",
+   "mw": 370.5,
+   "clogp": 2.88,
+   "tpsa": 71.2
+  },
+  {
+   "id": "CB17-08442",
+   "smiles": "CC(=O)Nc1ccc(-c2ccsc2C(=O)NC2CCC(c3ccncc3)C2)cc1",
+   "mw": 405.5,
+   "clogp": 4.83,
+   "tpsa": 71.1
+  },
+  {
+   "id": "CB17-08454",
+   "smiles": "CC(=O)Nc1ccc(C2CCC(NC(=O)c3sccc3-c3ccncc3)C2)cc1",
+   "mw": 405.5,
+   "clogp": 4.83,
+   "tpsa": 71.1
+  },
+  {
+   "id": "CB17-08458",
+   "smiles": "CC(=O)Nc1ccc(C2CCC(NC(=O)c3sccc3-c3cc(F)cc(F)c3)C2)cc1",
+   "mw": 440.5,
+   "clogp": 5.72,
+   "tpsa": 58.2
+  },
+  {
+   "id": "CB17-08464",
+   "smiles": "NC1CCN(C2CCC(NC(=O)c3sccc3-c3ccc(F)cc3)C2)CC1",
+   "mw": 387.5,
+   "clogp": 3.63,
+   "tpsa": 58.4
+  },
+  {
+   "id": "CB17-08470",
+   "smiles": "O=C(NC1CCC(N2CCCC2)C1)c1sccc1-c1cncnc1",
+   "mw": 342.5,
+   "clogp": 2.95,
+   "tpsa": 58.1
+  },
+  {
+   "id": "CB17-08478",
+   "smiles": "CN1CCC(OC2CCC(NC(=O)c3sccc3-c3cc(F)cc(F)c3)C2)CC1",
+   "mw": 420.5,
+   "clogp": 4.46,
+   "tpsa": 41.6
+  },
+  {
+   "id": "CB17-08482",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3ccc(N)cc3)C2)CC1",
+   "mw": 398.6,
+   "clogp": 3.29,
+   "tpsa": 61.6
+  },
+  {
+   "id": "CB17-08484",
+   "smiles": "CC(=O)Nc1ccc(C2CCC(NC(=O)c3sccc3-c3ccc(C)cn3)C2)cc1",
+   "mw": 419.6,
+   "clogp": 5.14,
+   "tpsa": 71.1
+  },
+  {
+   "id": "CB17-08506",
+   "smiles": "CC(=O)Nc1ccc(C2CCC(NC(=O)c3sccc3-c3ccc(N)cc3)C2)cc1",
+   "mw": 419.6,
+   "clogp": 5.02,
+   "tpsa": 84.2
+  },
+  {
+   "id": "CB17-08508",
+   "smiles": "O=C(NC1CCC(N2CCC(O)CC2)C1)c1sccc1-c1cc(F)cc(F)c1",
+   "mw": 406.5,
+   "clogp": 3.8,
+   "tpsa": 52.6
+  },
+  {
+   "id": "CB17-08512",
+   "smiles": "CN1CCC(OC2CCC(NC(=O)c3sccc3-c3cccnc3)C2)CC1",
+   "mw": 385.5,
+   "clogp": 3.57,
+   "tpsa": 54.5
+  },
+  {
+   "id": "CB17-08518",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3ccc(NC(C)=O)cc3)C2)CC1",
+   "mw": 440.6,
+   "clogp": 3.66,
+   "tpsa": 64.7
+  },
+  {
+   "id": "CB17-08520",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3cc(F)cc(F)c3)C2)CC1",
+   "mw": 419.5,
+   "clogp": 3.98,
+   "tpsa": 35.6
+  },
+  {
+   "id": "CB17-08526",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3cccnc3)C2)CC1",
+   "mw": 384.5,
+   "clogp": 3.1,
+   "tpsa": 48.5
+  },
+  {
+   "id": "CB17-08530",
+   "smiles": "O=C(NC1CCC(N2CCC(O)CC2)C1)c1sccc1-c1ccc(F)cc1",
+   "mw": 388.5,
+   "clogp": 3.66,
+   "tpsa": 52.6
+  },
+  {
+   "id": "CB17-08532",
+   "smiles": "O=C(NC1CCC(c2ccncc2)C1)c1sccc1-c1ccc(F)cc1",
+   "mw": 366.5,
+   "clogp": 5.02,
+   "tpsa": 42.0
+  },
+  {
+   "id": "CB17-08536",
+   "smiles": "CC(=O)Nc1ccc(-c2ccsc2C(=O)NC2CCC(c3ccc(NC(C)=O)cc3)C2)cc1",
+   "mw": 461.6,
+   "clogp": 5.4,
+   "tpsa": 87.3
+  },
+  {
+   "id": "CB17-08542",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3ccc(F)cc3)C2)CC1",
+   "mw": 401.6,
+   "clogp": 3.84,
+   "tpsa": 35.6
+  },
+  {
+   "id": "CB17-08548",
+   "smiles": "O=C(NC1CCC(NC2CCCCC2)C1)c1sccc1-c1cccnc1",
+   "mw": 369.5,
+   "clogp": 4.38,
+   "tpsa": 54.0
+  },
+  {
+   "id": "CB17-08556",
+   "smiles": "Nc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCCC3)C2)cc1",
+   "mw": 355.5,
+   "clogp": 3.74,
+   "tpsa": 58.4
+  },
+  {
+   "id": "CB17-08566",
+   "smiles": "O=C(NC1CCC(N2CCC(O)CC2)C1)c1sccc1-c1cccnc1",
+   "mw": 371.5,
+   "clogp": 2.92,
+   "tpsa": 65.5
+  },
+  {
+   "id": "CB17-08572",
+   "smiles": "Cc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCCC3)C2)nc1",
+   "mw": 355.5,
+   "clogp": 3.87,
+   "tpsa": 45.2
+  },
+  {
+   "id": "CB17-08578",
+   "smiles": "CN1CCC(OC2CCC(NC(=O)c3sccc3-c3cncnc3)C2)CC1",
+   "mw": 386.5,
+   "clogp": 2.97,
+   "tpsa": 67.3
+  },
+  {
+   "id": "CB17-08590",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3cncnc3)C2)CC1",
+   "mw": 385.5,
+   "clogp": 2.49,
+   "tpsa": 61.4
+  }
+ ],
+ "tables": {
+  "herg": {
+   "title": "hERG IC50 (automated patch clamp)",
+   "columns": [
+    "Compound",
+    "IC50 rep 1 (µM)",
+    "IC50 rep 2 (µM)",
+    "IC50 rep 3 (µM)",
+    "IC50 mean (µM)",
+    "% inhibition @10 µM",
+    "n",
+    "QC note"
+   ],
+   "rows": [
+    [
+     "CB17-08400",
+     "13",
+     "17",
+     "",
+     "15",
+     "42",
+     2,
+     ""
+    ],
+    [
+     "CB17-08404",
+     "0.85",
+     "0.93",
+     "",
+     "0.89",
+     "93",
+     2,
+     ""
+    ],
+    [
+     "CB17-08406",
+     "3.2",
+     "4.6",
+     "",
+     "3.9",
+     "73",
+     2,
+     ""
+    ],
+    [
+     "CB17-08410",
+     "11",
+     "12",
+     "",
+     "11",
+     "44",
+     2,
+     ""
+    ],
+    [
+     "CB17-08416",
+     "6.5",
+     "4.8",
+     "",
+     "5.6",
+     "62",
+     2,
+     ""
+    ],
+    [
+     "CB17-08424",
+     "1.1",
+     "1.2",
+     "",
+     "1.2",
+     "86",
+     2,
+     ""
+    ],
+    [
+     "CB17-08428",
+     "2.9",
+     "2.1",
+     "",
+     "2.5",
+     "85",
+     2,
+     ""
+    ],
+    [
+     "CB17-08440",
+     "2.9",
+     "3.6",
+     "",
+     "3.2",
+     "75",
+     2,
+     ""
+    ],
+    [
+     "CB17-08442",
+     "0.89",
+     "0.81",
+     "",
+     "0.85",
+     "90",
+     2,
+     ""
+    ],
+    [
+     "CB17-08454",
+     "1.5",
+     "1.3",
+     "",
+     "1.4",
+     "91",
+     2,
+     ""
+    ],
+    [
+     "CB17-08458",
+     "2.7",
+     "2.5",
+     "",
+     "2.6",
+     "90",
+     2,
+     ""
+    ],
+    [
+     "CB17-08464",
+     "2.0",
+     "2.5",
+     "",
+     "2.3",
+     "76",
+     2,
+     ""
+    ],
+    [
+     "CB17-08470",
+     "4.8",
+     "6.6",
+     "",
+     "5.6",
+     "62",
+     2,
+     ""
+    ],
+    [
+     "CB17-08478",
+     "3.1",
+     "1.2",
+     "",
+     "1.9",
+     "82",
+     2,
+     ""
+    ],
+    [
+     "CB17-08482",
+     "1.5",
+     "1.3",
+     "1.0",
+     "1.2",
+     "86",
+     3,
+     ""
+    ],
+    [
+     "CB17-08484",
+     "1.5",
+     "1.9",
+     "",
+     "1.6",
+     "84",
+     2,
+     ""
+    ],
+    [
+     "CB17-08506",
+     "1.9",
+     "2.3",
+     "",
+     "2.1",
+     "81",
+     2,
+     ""
+    ],
+    [
+     "CB17-08508",
+     "1.3",
+     "1.4",
+     "",
+     "1.4",
+     "90",
+     2,
+     ""
+    ],
+    [
+     "CB17-08512",
+     "5.5",
+     "4.5",
+     "3.5",
+     "4.4",
+     "73",
+     3,
+     ""
+    ],
+    [
+     "CB17-08518",
+     "2.1",
+     "2.2",
+     "3.2",
+     "2.5",
+     "75",
+     3,
+     ""
+    ],
+    [
+     "CB17-08520",
+     "0.44",
+     "0.65",
+     "",
+     "0.53",
+     "97",
+     2,
+     ""
+    ],
+    [
+     "CB17-08526",
+     "4.9",
+     "3.4",
+     "",
+     "4.1",
+     "63",
+     2,
+     ""
+    ],
+    [
+     "CB17-08530",
+     "2.4",
+     "1.8",
+     "",
+     "2.1",
+     "79",
+     2,
+     ""
+    ],
+    [
+     "CB17-08532",
+     "3.2",
+     "2.7",
+     "",
+     "2.9",
+     "80",
+     2,
+     ""
+    ],
+    [
+     "CB17-08536",
+     "3.6",
+     "3.0",
+     "",
+     "3.3",
+     "75",
+     2,
+     ""
+    ],
+    [
+     "CB17-08542",
+     "1.1",
+     "1.0",
+     "",
+     "1.0",
+     "87",
+     2,
+     ""
+    ],
+    [
+     "CB17-08548",
+     "4.3",
+     "3.9",
+     "6.2",
+     "4.7",
+     "73",
+     3,
+     ""
+    ],
+    [
+     "CB17-08556",
+     "3.0",
+     "1.7",
+     "3.7",
+     "2.7",
+     "81",
+     3,
+     ""
+    ],
+    [
+     "CB17-08566",
+     "4.6",
+     "5.3",
+     "",
+     "4.9",
+     "68",
+     2,
+     ""
+    ],
+    [
+     "CB17-08572",
+     "7.7",
+     "3.5",
+     "4.3",
+     "4.9",
+     "72",
+     3,
+     ""
+    ],
+    [
+     "CB17-08578",
+     "8.1",
+     "9.4",
+     "",
+     "8.7",
+     "54",
+     2,
+     ""
+    ],
+    [
+     "CB17-08590",
+     "3.3",
+     "4.8",
+     "",
+     "4.0",
+     "77",
+     2,
+     ""
+    ]
+   ],
+   "notes": [
+    "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 17 nM (acceptance 5-50 nM)"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW22_0141"
+    ],
+    [
+     "Client",
+     "Cadrunelle Biosciences"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Cadrunelle thiophene amide series 17 (Thiophene amide)"
+    ],
+    [
+     "Assays",
+     "hERG patch clamp"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "16"
+    ],
+    [
+     "Price",
+     "GBP 14,200"
+    ],
+    [
+     "hERG IC50 <1 µM",
+     "3"
+    ],
+    [
+     "hERG IC50 1-10 µM",
+     "27"
+    ],
+    [
+     "hERG IC50 ≥10 µM",
+     "2"
+    ],
+    [
+     "hERG median IC50 (µM)",
+     "2.6"
+    ],
+    [
+     "E-4031 control IC50 (nM)",
+     "17"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "herg.n_tested": "32",
+  "herg.n_lt_1uM": "3",
+  "herg.n_1_10uM": "27",
+  "herg.n_ge_10uM": "2",
+  "herg.median_ic50_uM": "2.6",
+  "herg.control_e4031_nM": "17",
+  "herg.top_conc_uM": "30",
+  "herg.CB17-08400.ic50_uM": "15",
+  "herg.CB17-08404.ic50_uM": "0.89",
+  "herg.CB17-08406.ic50_uM": "3.9",
+  "herg.CB17-08410.ic50_uM": "11",
+  "herg.CB17-08416.ic50_uM": "5.6",
+  "herg.CB17-08424.ic50_uM": "1.2",
+  "herg.CB17-08428.ic50_uM": "2.5",
+  "herg.CB17-08440.ic50_uM": "3.2",
+  "herg.CB17-08442.ic50_uM": "0.85",
+  "herg.CB17-08454.ic50_uM": "1.4",
+  "herg.CB17-08458.ic50_uM": "2.6",
+  "herg.CB17-08464.ic50_uM": "2.3",
+  "herg.CB17-08470.ic50_uM": "5.6",
+  "herg.CB17-08478.ic50_uM": "1.9",
+  "herg.CB17-08482.ic50_uM": "1.2",
+  "herg.CB17-08484.ic50_uM": "1.6",
+  "herg.CB17-08506.ic50_uM": "2.1",
+  "herg.CB17-08508.ic50_uM": "1.4",
+  "herg.CB17-08512.ic50_uM": "4.4",
+  "herg.CB17-08518.ic50_uM": "2.5",
+  "herg.CB17-08520.ic50_uM": "0.53",
+  "herg.CB17-08526.ic50_uM": "4.1",
+  "herg.CB17-08530.ic50_uM": "2.1",
+  "herg.CB17-08532.ic50_uM": "2.9",
+  "herg.CB17-08536.ic50_uM": "3.3",
+  "herg.CB17-08542.ic50_uM": "1.0",
+  "herg.CB17-08548.ic50_uM": "4.7",
+  "herg.CB17-08556.ic50_uM": "2.7",
+  "herg.CB17-08566.ic50_uM": "4.9",
+  "herg.CB17-08572.ic50_uM": "4.9",
+  "herg.CB17-08578.ic50_uM": "8.7",
+  "herg.CB17-08590.ic50_uM": "4.0",
+  "price": "GBP 14,200",
+  "n_compounds": "32",
+  "turnaround_days": "16",
+  "client_variant": "Cadrunelle Biosciences",
+  "project_id": "BW22_0141",
+  "lims_id": "B-ACC-2022-02415"
+ }
+}

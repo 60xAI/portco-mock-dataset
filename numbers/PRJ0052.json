@@ -1,0 +1,224 @@
+{
+ "project_id": "PRJ0052",
+ "firm": "B",
+ "status": "lost",
+ "series": "SER04",
+ "compounds": [
+  {
+   "id": "TP04-02704",
+   "smiles": "COc1ccc(-c2nn(CCN3CCOCC3)c3ncnc(N)c23)cc1",
+   "mw": 354.4,
+   "clogp": 1.42,
+   "tpsa": 91.3
+  },
+  {
+   "id": "TP04-02710",
+   "smiles": "CN1CCN(CCn2nc(-c3ccc(F)cc3)c3c(N)ncnc32)CC1",
+   "mw": 355.4,
+   "clogp": 1.46,
+   "tpsa": 76.1
+  },
+  {
+   "id": "TP04-02716",
+   "smiles": "Cc1ccc(-c2nn(CCN3CCC(N)CC3)c3ncnc(N)c23)nc1",
+   "mw": 352.4,
+   "clogp": 1.2,
+   "tpsa": 111.8
+  },
+  {
+   "id": "TP04-02724",
+   "smiles": "Nc1ncnc2c1c(-c1cncnc1)nn2CCc1ccncc1",
+   "mw": 318.3,
+   "clogp": 1.5,
+   "tpsa": 108.3
+  },
+  {
+   "id": "TP04-02728",
+   "smiles": "CC(=O)Nc1ccc(CCn2nc(-c3ccc(F)cc3)c3c(N)ncnc32)cc1",
+   "mw": 390.4,
+   "clogp": 3.42,
+   "tpsa": 98.7
+  },
+  {
+   "id": "TP04-02734",
+   "smiles": "N#Cc1ccc(-c2nn(CCN3CCCC3)c3ncnc(N)c23)cc1",
+   "mw": 333.4,
+   "clogp": 2.04,
+   "tpsa": 96.6
+  },
+  {
+   "id": "TP04-02736",
+   "smiles": "Nc1ncnc2c1c(-c1ccc(F)cc1)nn2CCN1CCC(O)CC1",
+   "mw": 356.4,
+   "clogp": 1.67,
+   "tpsa": 93.1
+  },
+  {
+   "id": "TP04-02746",
+   "smiles": "N#Cc1ccc(-c2nn(CCc3ccncc3)c3ncnc(N)c23)cc1",
+   "mw": 341.4,
+   "clogp": 2.58,
+   "tpsa": 106.3
+  },
+  {
+   "id": "TP04-02748",
+   "smiles": "Cc1ccc(-c2nn(CCN3CCCC3)c3ncnc(N)c23)nc1",
+   "mw": 323.4,
+   "clogp": 1.87,
+   "tpsa": 85.8
+  },
+  {
+   "id": "TP04-02764",
+   "smiles": "Nc1ccc(-c2nn(CCc3ccncc3)c3ncnc(N)c23)cc1",
+   "mw": 331.4,
+   "clogp": 2.3,
+   "tpsa": 108.5
+  },
+  {
+   "id": "TP04-02770",
+   "smiles": "Nc1ncnc2c1c(-c1cccnc1)nn2CCN1CCC(O)CC1",
+   "mw": 339.4,
+   "clogp": 0.93,
+   "tpsa": 106.0
+  },
+  {
+   "id": "TP04-02772",
+   "smiles": "Nc1ncnc2c1c(-c1ccc(F)cc1)nn2CCN1CCCC1",
+   "mw": 326.4,
+   "clogp": 2.31,
+   "tpsa": 72.9
+  },
+  {
+   "id": "TP04-02790",
+   "smiles": "Nc1ncnc2c1c(-c1ccc(F)cc1)nn2CCc1ccncc1",
+   "mw": 334.4,
+   "clogp": 2.85,
+   "tpsa": 82.5
+  },
+  {
+   "id": "TP04-02796",
+   "smiles": "CCN1CCN(CCn2nc(-c3ccc(C#N)cc3)c3c(N)ncnc32)CC1",
+   "mw": 376.5,
+   "clogp": 1.58,
+   "tpsa": 99.9
+  },
+  {
+   "id": "TP04-02800",
+   "smiles": "COc1ccc(-c2nn(CCc3ccncc3)c3ncnc(N)c23)cc1",
+   "mw": 346.4,
+   "clogp": 2.72,
+   "tpsa": 91.7
+  },
+  {
+   "id": "TP04-02802",
+   "smiles": "CC(=O)Nc1ccc(CCn2nc(-c3ccc(C#N)cc3)c3c(N)ncnc32)cc1",
+   "mw": 397.4,
+   "clogp": 3.15,
+   "tpsa": 122.5
+  },
+  {
+   "id": "TP04-02814",
+   "smiles": "Nc1ncnc2c1c(-c1cncnc1)nn2CCN1CCCC1",
+   "mw": 310.4,
+   "clogp": 0.96,
+   "tpsa": 98.6
+  },
+  {
+   "id": "TP04-02820",
+   "smiles": "Nc1ncnc2c1c(-c1cccnc1)nn2CCN1CCC(N)CC1",
+   "mw": 338.4,
+   "clogp": 0.89,
+   "tpsa": 111.8
+  },
+  {
+   "id": "TP04-02826",
+   "smiles": "Nc1ccc(-c2nn(CCN3CCC(N)CC3)c3ncnc(N)c23)cc1",
+   "mw": 352.4,
+   "clogp": 1.08,
+   "tpsa": 124.9
+  },
+  {
+   "id": "TP04-02850",
+   "smiles": "COc1ccc(-c2nn(CCN3CCC(O)CC3)c3ncnc(N)c23)cc1",
+   "mw": 368.4,
+   "clogp": 1.54,
+   "tpsa": 102.3
+  },
+  {
+   "id": "TP04-02854",
+   "smiles": "Nc1ccc(-c2nn(CCN3CCCC3)c3ncnc(N)c23)cc1",
+   "mw": 323.4,
+   "clogp": 1.75,
+   "tpsa": 98.9
+  },
+  {
+   "id": "TP04-02860",
+   "smiles": "CC(=O)Nc1ccc(CCn2nc(-c3ccc(NC(C)=O)cc3)c3c(N)ncnc32)cc1",
+   "mw": 429.5,
+   "clogp": 3.24,
+   "tpsa": 127.8
+  },
+  {
+   "id": "TP04-02872",
+   "smiles": "CC(=O)Nc1ccc(-c2nn(CCN3CCN(C)CC3)c3ncnc(N)c23)cc1",
+   "mw": 394.5,
+   "clogp": 1.28,
+   "tpsa": 105.2
+  },
+  {
+   "id": "TP04-02890",
+   "smiles": "CN1CCN(CCn2nc(-c3ccc(C#N)cc3)c3c(N)ncnc32)CC1",
+   "mw": 362.4,
+   "clogp": 1.19,
+   "tpsa": 99.9
+  }
+ ],
+ "tables": {
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW24_0303"
+    ],
+    [
+     "Client",
+     "Tervemere Pharma AG"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Tervemere aminopyrazolopyrimidine series 04 (Aminopyrazolopyrimidine)"
+    ],
+    [
+     "Assays",
+     "Primary kinase IC50, Kinase selectivity panel"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "GBP 18,000"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 18,000",
+  "n_compounds": "24",
+  "turnaround_days": "",
+  "client_variant": "Tervemere Pharma AG",
+  "project_id": "BW24_0303",
+  "lims_id": "B-ACC-2024-05167"
+ }
+}

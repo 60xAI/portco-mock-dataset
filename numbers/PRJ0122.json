@@ -1,0 +1,539 @@
+{
+ "project_id": "PRJ0122",
+ "firm": "G",
+ "status": "completed",
+ "series": "SER08",
+ "compounds": [
+  {
+   "id": "NM08-08404",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(F)cc4)n3)cc2)CC1",
+   "mw": 421.5,
+   "clogp": 2.65,
+   "tpsa": 100.3
+  },
+  {
+   "id": "NM08-08412",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(N4CCCC4)cc3)n2)cc1",
+   "mw": 390.4,
+   "clogp": 2.98,
+   "tpsa": 106.3
+  },
+  {
+   "id": "NM08-08416",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)n2)cc1",
+   "mw": 419.5,
+   "clogp": 2.13,
+   "tpsa": 109.5
+  },
+  {
+   "id": "NM08-08418",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)nc(-c2cncnc2)n1",
+   "mw": 390.5,
+   "clogp": 2.91,
+   "tpsa": 131.6
+  },
+  {
+   "id": "NM08-08428",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)n2)cc1",
+   "mw": 434.5,
+   "clogp": 2.85,
+   "tpsa": 115.5
+  },
+  {
+   "id": "NM08-08430",
+   "smiles": "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)nc(-c2ccncc2)n1",
+   "mw": 369.4,
+   "clogp": 2.83,
+   "tpsa": 119.6
+  },
+  {
+   "id": "NM08-08442",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCCC3)cc2)nc(-c2cccnc2)n1",
+   "mw": 361.4,
+   "clogp": 2.37,
+   "tpsa": 109.9
+  },
+  {
+   "id": "NM08-08448",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(C)cn4)n3)cc2)CC1",
+   "mw": 418.5,
+   "clogp": 2.22,
+   "tpsa": 113.2
+  },
+  {
+   "id": "NM08-08452",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(N)cc4)n3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 1.71,
+   "tpsa": 126.3
+  },
+  {
+   "id": "NM08-08454",
+   "smiles": "Cc1ccc(-c2nc(N)nc(NC(=O)c3ccc(NC4CCCCC4)cc3)n2)nc1",
+   "mw": 403.5,
+   "clogp": 3.82,
+   "tpsa": 118.7
+  },
+  {
+   "id": "NM08-08458",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)nc(-c4ccncc4)n3)cc2)cc1",
+   "mw": 425.5,
+   "clogp": 3.39,
+   "tpsa": 135.8
+  },
+  {
+   "id": "NM08-08464",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)nc(-c2ccncc2)n1",
+   "mw": 389.5,
+   "clogp": 3.51,
+   "tpsa": 118.7
+  },
+  {
+   "id": "NM08-08470",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)nc(-c4cccnc4)n3)cc2)cc1",
+   "mw": 425.5,
+   "clogp": 3.39,
+   "tpsa": 135.8
+  },
+  {
+   "id": "NM08-08478",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)nc(-c4ccc(F)cc4)n3)cc2)CC1",
+   "mw": 422.5,
+   "clogp": 2.99,
+   "tpsa": 106.3
+  },
+  {
+   "id": "NM08-08482",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCCC3)cc2)nc(-c2cc(F)cc(F)c2)n1",
+   "mw": 396.4,
+   "clogp": 3.25,
+   "tpsa": 97.0
+  },
+  {
+   "id": "NM08-08488",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4cncnc4)n3)cc2)CC1",
+   "mw": 405.5,
+   "clogp": 1.3,
+   "tpsa": 126.0
+  },
+  {
+   "id": "NM08-08494",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)nc(-c4cncnc4)n3)cc2)CC1",
+   "mw": 406.5,
+   "clogp": 1.64,
+   "tpsa": 132.0
+  },
+  {
+   "id": "NM08-08506",
+   "smiles": "Cc1ccc(-c2nc(N)nc(NC(=O)c3ccc(N4CCOCC4)cc3)n2)nc1",
+   "mw": 391.4,
+   "clogp": 1.91,
+   "tpsa": 119.2
+  },
+  {
+   "id": "NM08-08520",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(NC4CCCCC4)cc3)n2)cc1",
+   "mw": 418.5,
+   "clogp": 4.13,
+   "tpsa": 115.0
+  },
+  {
+   "id": "NM08-08526",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(F)cc4)n3)cc2)cc1",
+   "mw": 442.5,
+   "clogp": 4.14,
+   "tpsa": 122.9
+  },
+  {
+   "id": "NM08-08550",
+   "smiles": "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)nc(-c2ccc(F)cc2)n1",
+   "mw": 386.4,
+   "clogp": 3.57,
+   "tpsa": 106.7
+  },
+  {
+   "id": "NM08-08554",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCCC3)cc2)nc(-c2ccc(F)cc2)n1",
+   "mw": 378.4,
+   "clogp": 3.11,
+   "tpsa": 97.0
+  },
+  {
+   "id": "NM08-08556",
+   "smiles": "Nc1ccc(-c2nc(N)nc(NC(=O)c3ccc(NC4CCCCC4)cc3)n2)cc1",
+   "mw": 403.5,
+   "clogp": 3.7,
+   "tpsa": 131.8
+  },
+  {
+   "id": "NM08-08560",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(N)cc4)n3)cc2)cc1",
+   "mw": 439.5,
+   "clogp": 3.58,
+   "tpsa": 148.9
+  },
+  {
+   "id": "NM08-08562",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)nc(-c4cc(F)cc(F)c4)n3)cc2)CC1",
+   "mw": 440.5,
+   "clogp": 3.12,
+   "tpsa": 106.3
+  },
+  {
+   "id": "NM08-08566",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCCC3)cc2)nc(-c2cncnc2)n1",
+   "mw": 362.4,
+   "clogp": 1.76,
+   "tpsa": 122.8
+  },
+  {
+   "id": "NM08-08568",
+   "smiles": "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)nc(-c2cncnc2)n1",
+   "mw": 370.4,
+   "clogp": 2.23,
+   "tpsa": 132.5
+  },
+  {
+   "id": "NM08-08572",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)nc(-c2ccc(F)cc2)n1",
+   "mw": 394.4,
+   "clogp": 2.35,
+   "tpsa": 106.3
+  },
+  {
+   "id": "NM08-08574",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)nc(-c2cccnc2)n1",
+   "mw": 389.5,
+   "clogp": 3.51,
+   "tpsa": 118.7
+  },
+  {
+   "id": "NM08-08578",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccncc4)n3)cc2)CC1",
+   "mw": 390.5,
+   "clogp": 1.52,
+   "tpsa": 113.2
+  },
+  {
+   "id": "NM08-08580",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(-c4ccc(NC(C)=O)cc4)cc3)n2)cc1",
+   "mw": 454.5,
+   "clogp": 4.01,
+   "tpsa": 132.1
+  },
+  {
+   "id": "NM08-08586",
+   "smiles": "Cc1ccc(-c2nc(N)nc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)n2)nc1",
+   "mw": 419.5,
+   "clogp": 2.55,
+   "tpsa": 119.2
+  }
+ ],
+ "tables": {
+  "cytotox": {
+   "title": "HepG2 cytotoxicity (ATP content), IC50 µM",
+   "columns": [
+    "Compound",
+    "24 h IC50 (µM)",
+    "48 h IC50 (µM)"
+   ],
+   "rows": [
+    [
+     "NM08-08404",
+     ">100",
+     "71"
+    ],
+    [
+     "NM08-08412",
+     "31",
+     "22"
+    ],
+    [
+     "NM08-08416",
+     "18",
+     "13"
+    ],
+    [
+     "NM08-08418",
+     "30",
+     "21"
+    ],
+    [
+     "NM08-08428",
+     "49",
+     "34"
+    ],
+    [
+     "NM08-08430",
+     "35",
+     "25"
+    ],
+    [
+     "NM08-08442",
+     "39",
+     "27"
+    ],
+    [
+     "NM08-08448",
+     "98",
+     "68"
+    ],
+    [
+     "NM08-08452",
+     "40",
+     "28"
+    ],
+    [
+     "NM08-08454",
+     "28",
+     "20"
+    ],
+    [
+     "NM08-08458",
+     "14",
+     "9.9"
+    ],
+    [
+     "NM08-08464",
+     "17",
+     "12"
+    ],
+    [
+     "NM08-08470",
+     "12",
+     "8.2"
+    ],
+    [
+     "NM08-08478",
+     ">100",
+     ">100"
+    ],
+    [
+     "NM08-08482",
+     "78",
+     "55"
+    ],
+    [
+     "NM08-08488",
+     "9.1",
+     "6.4"
+    ],
+    [
+     "NM08-08494",
+     "52",
+     "36"
+    ],
+    [
+     "NM08-08506",
+     "44",
+     "30"
+    ],
+    [
+     "NM08-08520",
+     "99",
+     "69"
+    ],
+    [
+     "NM08-08526",
+     "49",
+     "34"
+    ],
+    [
+     "NM08-08550",
+     "80",
+     "56"
+    ],
+    [
+     "NM08-08554",
+     "18",
+     "13"
+    ],
+    [
+     "NM08-08556",
+     "8.7",
+     "6.1"
+    ],
+    [
+     "NM08-08560",
+     "21",
+     "14"
+    ],
+    [
+     "NM08-08562",
+     "18",
+     "13"
+    ],
+    [
+     "NM08-08566",
+     "30",
+     "21"
+    ],
+    [
+     "NM08-08568",
+     "20",
+     "14"
+    ],
+    [
+     "NM08-08572",
+     "21",
+     "14"
+    ],
+    [
+     "NM08-08574",
+     "5.7",
+     "4.0"
+    ],
+    [
+     "NM08-08578",
+     "26",
+     "18"
+    ],
+    [
+     "NM08-08580",
+     "5.0",
+     "3.5"
+    ],
+    [
+     "NM08-08586",
+     "21",
+     "15"
+    ]
+   ],
+   "notes": [
+    "Chlorpromazine control"
+   ]
+  },
+  "micronucleus": {
+   "title": "In vitro micronucleus (TK6), % MN cells",
+   "columns": [
+    "Treatment",
+    "Conc (µg/mL)",
+    "% MN cells",
+    "RPD (%)"
+   ],
+   "rows": [
+    [
+     "3 h +S9",
+     "vehicle",
+     "1.23",
+     "100"
+    ],
+    [
+     "3 h +S9",
+     50,
+     "1.14",
+     "95"
+    ],
+    [
+     "3 h +S9",
+     100,
+     "0.57",
+     "81"
+    ],
+    [
+     "3 h +S9",
+     200,
+     "0.95",
+     "88"
+    ],
+    [
+     "3 h -S9",
+     "vehicle",
+     "1.22",
+     "100"
+    ],
+    [
+     "3 h -S9",
+     50,
+     "1.15",
+     "97"
+    ],
+    [
+     "3 h -S9",
+     100,
+     "0.89",
+     "88"
+    ],
+    [
+     "3 h -S9",
+     200,
+     "0.90",
+     "86"
+    ],
+    [
+     "24 h -S9",
+     "vehicle",
+     "0.84",
+     "100"
+    ],
+    [
+     "24 h -S9",
+     50,
+     "1.55",
+     "95"
+    ],
+    [
+     "24 h -S9",
+     100,
+     "1.01",
+     "82"
+    ],
+    [
+     "24 h -S9",
+     200,
+     "0.61",
+     "86"
+    ]
+   ],
+   "notes": [
+    "Outcome: negative"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "OT-18-S0075"
+    ],
+    [
+     "Client",
+     "Nimbravelle Medicines Inc"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Nimbravelle aminotriazine series 08 (Aminotriazine)"
+    ],
+    [
+     "Assays",
+     "In vitro cytotoxicity (HepG2), In vitro micronucleus"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "56"
+    ],
+    [
+     "Price",
+     "USD 37,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 37,300",
+  "n_compounds": "32",
+  "turnaround_days": "56",
+  "client_variant": "Nimbravelle Medicines Inc",
+  "project_id": "OT-18-S0075",
+  "lims_id": "OQ/2018/001213"
+ }
+}

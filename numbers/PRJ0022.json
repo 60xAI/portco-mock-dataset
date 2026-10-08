@@ -1,0 +1,670 @@
+{
+ "project_id": "PRJ0022",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER18",
+ "compounds": [
+  {
+   "id": "DT18-06904",
+   "smiles": "CCN1CCN(CCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)CC1",
+   "mw": 392.5,
+   "clogp": 2.79,
+   "tpsa": 61.6
+  },
+  {
+   "id": "DT18-06910",
+   "smiles": "Cc1ccc(-c2ccc3oc(CC(=O)NCCN4CCCC4)cc3c2)nc1",
+   "mw": 363.5,
+   "clogp": 3.56,
+   "tpsa": 58.4
+  },
+  {
+   "id": "DT18-06912",
+   "smiles": "Nc1ccc(-c2ccc3oc(CC(=O)NCCN4CCOCC4)cc3c2)cc1",
+   "mw": 379.5,
+   "clogp": 2.67,
+   "tpsa": 80.7
+  },
+  {
+   "id": "DT18-06916",
+   "smiles": "CCN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(C)cn4)ccc3o2)CC1",
+   "mw": 406.5,
+   "clogp": 3.1,
+   "tpsa": 61.6
+  },
+  {
+   "id": "DT18-06918",
+   "smiles": "Cc1ccc(-c2ccc3oc(CC(=O)NCCN4CCN(C)CC4)cc3c2)nc1",
+   "mw": 392.5,
+   "clogp": 2.71,
+   "tpsa": 61.6
+  },
+  {
+   "id": "DT18-06922",
+   "smiles": "CN1CCN(CCNC(=O)Cc2cc3cc(-c4cc(F)cc(F)c4)ccc3o2)CC1",
+   "mw": 413.5,
+   "clogp": 3.28,
+   "tpsa": 48.7
+  },
+  {
+   "id": "DT18-06924",
+   "smiles": "O=C(Cc1cc2cc(-c3cc(F)cc(F)c3)ccc2o1)NCCc1ccncc1",
+   "mw": 392.4,
+   "clogp": 4.67,
+   "tpsa": 55.1
+  },
+  {
+   "id": "DT18-06936",
+   "smiles": "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4cc(F)cc(F)c4)ccc3o2)cc1",
+   "mw": 448.5,
+   "clogp": 5.24,
+   "tpsa": 71.3
+  },
+  {
+   "id": "DT18-06940",
+   "smiles": "COc1ccc(-c2ccc3oc(CC(=O)NCCc4ccncc4)cc3c2)cc1",
+   "mw": 386.5,
+   "clogp": 4.4,
+   "tpsa": 64.4
+  },
+  {
+   "id": "DT18-06946",
+   "smiles": "COc1ccc(-c2ccc3oc(CC(=O)NCCOC4CCN(C)CC4)cc3c2)cc1",
+   "mw": 422.5,
+   "clogp": 3.88,
+   "tpsa": 63.9
+  },
+  {
+   "id": "DT18-06952",
+   "smiles": "O=C(Cc1cc2cc(-c3ccncc3)ccc2o1)NCCNC1CCCCC1",
+   "mw": 377.5,
+   "clogp": 4.08,
+   "tpsa": 67.2
+  },
+  {
+   "id": "DT18-06958",
+   "smiles": "O=C(Cc1cc2cc(-c3cncnc3)ccc2o1)NCCNC1CCCCC1",
+   "mw": 378.5,
+   "clogp": 3.47,
+   "tpsa": 80.0
+  },
+  {
+   "id": "DT18-06960",
+   "smiles": "O=C(Cc1cc2cc(-c3ccncc3)ccc2o1)NCCN1CCCC1",
+   "mw": 349.4,
+   "clogp": 3.25,
+   "tpsa": 58.4
+  },
+  {
+   "id": "DT18-06964",
+   "smiles": "CCN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(OC)cc4)ccc3o2)CC1",
+   "mw": 421.5,
+   "clogp": 3.4,
+   "tpsa": 58.0
+  },
+  {
+   "id": "DT18-06966",
+   "smiles": "O=C(Cc1cc2cc(-c3cccnc3)ccc2o1)NCCc1ccncc1",
+   "mw": 357.4,
+   "clogp": 3.79,
+   "tpsa": 68.0
+  },
+  {
+   "id": "DT18-06970",
+   "smiles": "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4ccc(C)cn4)ccc3o2)cc1",
+   "mw": 427.5,
+   "clogp": 4.66,
+   "tpsa": 84.2
+  },
+  {
+   "id": "DT18-06972",
+   "smiles": "CN1CCN(CCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)CC1",
+   "mw": 378.5,
+   "clogp": 2.4,
+   "tpsa": 61.6
+  },
+  {
+   "id": "DT18-06976",
+   "smiles": "O=C(Cc1cc2cc(-c3ccc(F)cc3)ccc2o1)NCCc1ccncc1",
+   "mw": 374.4,
+   "clogp": 4.54,
+   "tpsa": 55.1
+  },
+  {
+   "id": "DT18-06990",
+   "smiles": "COc1ccc(-c2ccc3oc(CC(=O)NCCN4CCOCC4)cc3c2)cc1",
+   "mw": 394.5,
+   "clogp": 3.1,
+   "tpsa": 63.9
+  },
+  {
+   "id": "DT18-06996",
+   "smiles": "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4cncnc4)ccc3o2)CC1",
+   "mw": 394.5,
+   "clogp": 2.66,
+   "tpsa": 80.5
+  },
+  {
+   "id": "DT18-07000",
+   "smiles": "O=C(Cc1cc2cc(-c3cc(F)cc(F)c3)ccc2o1)NCCN1CCOCC1",
+   "mw": 400.4,
+   "clogp": 3.37,
+   "tpsa": 54.7
+  },
+  {
+   "id": "DT18-07002",
+   "smiles": "O=C(Cc1cc2cc(-c3ccncc3)ccc2o1)NCCN1CCOCC1",
+   "mw": 365.4,
+   "clogp": 2.49,
+   "tpsa": 67.6
+  },
+  {
+   "id": "DT18-07006",
+   "smiles": "O=C(Cc1cc2cc(-c3ccc(F)cc3)ccc2o1)NCCN1CCCC1",
+   "mw": 366.4,
+   "clogp": 3.99,
+   "tpsa": 45.5
+  },
+  {
+   "id": "DT18-07012",
+   "smiles": "Nc1ccc(-c2ccc3oc(CC(=O)NCCN4CCCC4)cc3c2)cc1",
+   "mw": 363.5,
+   "clogp": 3.44,
+   "tpsa": 71.5
+  },
+  {
+   "id": "DT18-07018",
+   "smiles": "O=C(Cc1cc2cc(-c3cncnc3)ccc2o1)NCCN1CCCC1",
+   "mw": 350.4,
+   "clogp": 2.64,
+   "tpsa": 71.3
+  },
+  {
+   "id": "DT18-07024",
+   "smiles": "O=C(Cc1cc2cc(-c3cccnc3)ccc2o1)NCCN1CCOCC1",
+   "mw": 365.4,
+   "clogp": 2.49,
+   "tpsa": 67.6
+  },
+  {
+   "id": "DT18-07026",
+   "smiles": "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)cc1",
+   "mw": 413.5,
+   "clogp": 4.35,
+   "tpsa": 84.2
+  },
+  {
+   "id": "DT18-07030",
+   "smiles": "O=C(Cc1cc2cc(-c3ccc(F)cc3)ccc2o1)NCCNC1CCCCC1",
+   "mw": 394.5,
+   "clogp": 4.82,
+   "tpsa": 54.3
+  },
+  {
+   "id": "DT18-07032",
+   "smiles": "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4cccnc4)ccc3o2)cc1",
+   "mw": 413.5,
+   "clogp": 4.35,
+   "tpsa": 84.2
+  },
+  {
+   "id": "DT18-07036",
+   "smiles": "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4ccc(F)cc4)ccc3o2)cc1",
+   "mw": 430.5,
+   "clogp": 5.1,
+   "tpsa": 71.3
+  },
+  {
+   "id": "DT18-07038",
+   "smiles": "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4ccc(N)cc4)ccc3o2)CC1",
+   "mw": 407.5,
+   "clogp": 3.45,
+   "tpsa": 80.7
+  },
+  {
+   "id": "DT18-07042",
+   "smiles": "O=C(Cc1cc2cc(-c3cncnc3)ccc2o1)NCCc1ccncc1",
+   "mw": 358.4,
+   "clogp": 3.19,
+   "tpsa": 80.9
+  },
+  {
+   "id": "DT18-07044",
+   "smiles": "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4cccnc4)ccc3o2)CC1",
+   "mw": 393.5,
+   "clogp": 3.26,
+   "tpsa": 67.6
+  },
+  {
+   "id": "DT18-07050",
+   "smiles": "Cc1ccc(-c2ccc3oc(CC(=O)NCCOC4CCN(C)CC4)cc3c2)nc1",
+   "mw": 407.5,
+   "clogp": 3.57,
+   "tpsa": 67.6
+  },
+  {
+   "id": "DT18-07054",
+   "smiles": "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4cc(F)cc(F)c4)ccc3o2)CC1",
+   "mw": 428.5,
+   "clogp": 4.15,
+   "tpsa": 54.7
+  },
+  {
+   "id": "DT18-07056",
+   "smiles": "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)CC1",
+   "mw": 393.5,
+   "clogp": 3.26,
+   "tpsa": 67.6
+  },
+  {
+   "id": "DT18-07060",
+   "smiles": "Nc1ccc(-c2ccc3oc(CC(=O)NCCNC4CCCCC4)cc3c2)cc1",
+   "mw": 391.5,
+   "clogp": 4.26,
+   "tpsa": 80.3
+  },
+  {
+   "id": "DT18-07068",
+   "smiles": "CN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(F)cc4)ccc3o2)CC1",
+   "mw": 395.5,
+   "clogp": 3.15,
+   "tpsa": 48.7
+  },
+  {
+   "id": "DT18-07072",
+   "smiles": "CN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(N)cc4)ccc3o2)CC1",
+   "mw": 392.5,
+   "clogp": 2.59,
+   "tpsa": 74.7
+  },
+  {
+   "id": "DT18-07084",
+   "smiles": "Nc1ccc(-c2ccc3oc(CC(=O)NCCc4ccncc4)cc3c2)cc1",
+   "mw": 371.4,
+   "clogp": 3.98,
+   "tpsa": 81.1
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "DT18-06904",
+     "CCN1CCN(CCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)CC1",
+     "392.5",
+     "29",
+     "98.1",
+     "5"
+    ],
+    [
+     "DT18-06910",
+     "Cc1ccc(-c2ccc3oc(CC(=O)NCCN4CCCC4)cc3c2)nc1",
+     "363.5",
+     "44",
+     "94.8",
+     "31"
+    ],
+    [
+     "DT18-06912",
+     "Nc1ccc(-c2ccc3oc(CC(=O)NCCN4CCOCC4)cc3c2)cc1",
+     "379.5",
+     "51",
+     "98.3",
+     "20"
+    ],
+    [
+     "DT18-06916",
+     "CCN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(C)cn4)ccc3o2)CC1",
+     "406.5",
+     "37",
+     "95.3",
+     "13"
+    ],
+    [
+     "DT18-06918",
+     "Cc1ccc(-c2ccc3oc(CC(=O)NCCN4CCN(C)CC4)cc3c2)nc1",
+     "392.5",
+     "21",
+     "96.5",
+     "14"
+    ],
+    [
+     "DT18-06922",
+     "CN1CCN(CCNC(=O)Cc2cc3cc(-c4cc(F)cc(F)c4)ccc3o2)CC1",
+     "413.5",
+     "53",
+     "97.6",
+     "36"
+    ],
+    [
+     "DT18-06924",
+     "O=C(Cc1cc2cc(-c3cc(F)cc(F)c3)ccc2o1)NCCc1ccncc1",
+     "392.4",
+     "75",
+     "95.1",
+     "32"
+    ],
+    [
+     "DT18-06936",
+     "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4cc(F)cc(F)c4)ccc3o2)cc1",
+     "448.5",
+     "28",
+     "97.3",
+     "25"
+    ],
+    [
+     "DT18-06940",
+     "COc1ccc(-c2ccc3oc(CC(=O)NCCc4ccncc4)cc3c2)cc1",
+     "386.5",
+     "22",
+     "98.3",
+     "5"
+    ],
+    [
+     "DT18-06946",
+     "COc1ccc(-c2ccc3oc(CC(=O)NCCOC4CCN(C)CC4)cc3c2)cc1",
+     "422.5",
+     "4",
+     "96.4",
+     "11"
+    ],
+    [
+     "DT18-06952",
+     "O=C(Cc1cc2cc(-c3ccncc3)ccc2o1)NCCNC1CCCCC1",
+     "377.5",
+     "31",
+     "93.5",
+     "48"
+    ],
+    [
+     "DT18-06958",
+     "O=C(Cc1cc2cc(-c3cncnc3)ccc2o1)NCCNC1CCCCC1",
+     "378.5",
+     "55",
+     "98.1",
+     "17"
+    ],
+    [
+     "DT18-06960",
+     "O=C(Cc1cc2cc(-c3ccncc3)ccc2o1)NCCN1CCCC1",
+     "349.4",
+     "88",
+     "97.7",
+     "28"
+    ],
+    [
+     "DT18-06964",
+     "CCN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(OC)cc4)ccc3o2)CC1",
+     "421.5",
+     "17",
+     "94.7",
+     "23"
+    ],
+    [
+     "DT18-06966",
+     "O=C(Cc1cc2cc(-c3cccnc3)ccc2o1)NCCc1ccncc1",
+     "357.4",
+     "61",
+     "97.9",
+     "28"
+    ],
+    [
+     "DT18-06970",
+     "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4ccc(C)cn4)ccc3o2)cc1",
+     "427.5",
+     "30",
+     "90.8",
+     "18"
+    ],
+    [
+     "DT18-06972",
+     "CN1CCN(CCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)CC1",
+     "378.5",
+     "29",
+     "96.3",
+     "15"
+    ],
+    [
+     "DT18-06976",
+     "O=C(Cc1cc2cc(-c3ccc(F)cc3)ccc2o1)NCCc1ccncc1",
+     "374.4",
+     "78",
+     "95.5",
+     "27"
+    ],
+    [
+     "DT18-06990",
+     "COc1ccc(-c2ccc3oc(CC(=O)NCCN4CCOCC4)cc3c2)cc1",
+     "394.5",
+     "21",
+     "97.6",
+     "28"
+    ],
+    [
+     "DT18-06996",
+     "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4cncnc4)ccc3o2)CC1",
+     "394.5",
+     "67",
+     "95.2",
+     "28"
+    ],
+    [
+     "DT18-07000",
+     "O=C(Cc1cc2cc(-c3cc(F)cc(F)c3)ccc2o1)NCCN1CCOCC1",
+     "400.4",
+     "51",
+     "98.5",
+     "44"
+    ],
+    [
+     "DT18-07002",
+     "O=C(Cc1cc2cc(-c3ccncc3)ccc2o1)NCCN1CCOCC1",
+     "365.4",
+     "56",
+     "96.2",
+     "5"
+    ],
+    [
+     "DT18-07006",
+     "O=C(Cc1cc2cc(-c3ccc(F)cc3)ccc2o1)NCCN1CCCC1",
+     "366.4",
+     "59",
+     "94.4",
+     "18"
+    ],
+    [
+     "DT18-07012",
+     "Nc1ccc(-c2ccc3oc(CC(=O)NCCN4CCCC4)cc3c2)cc1",
+     "363.5",
+     "53",
+     "99.8",
+     "26"
+    ],
+    [
+     "DT18-07018",
+     "O=C(Cc1cc2cc(-c3cncnc3)ccc2o1)NCCN1CCCC1",
+     "350.4",
+     "27",
+     "96.6",
+     "23"
+    ],
+    [
+     "DT18-07024",
+     "O=C(Cc1cc2cc(-c3cccnc3)ccc2o1)NCCN1CCOCC1",
+     "365.4",
+     "43",
+     "96.8",
+     "16"
+    ],
+    [
+     "DT18-07026",
+     "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)cc1",
+     "413.5",
+     "58",
+     "94.7",
+     "36"
+    ],
+    [
+     "DT18-07030",
+     "O=C(Cc1cc2cc(-c3ccc(F)cc3)ccc2o1)NCCNC1CCCCC1",
+     "394.5",
+     "19",
+     "94.9",
+     "38"
+    ],
+    [
+     "DT18-07032",
+     "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4cccnc4)ccc3o2)cc1",
+     "413.5",
+     "47",
+     "97.0",
+     "29"
+    ],
+    [
+     "DT18-07036",
+     "CC(=O)Nc1ccc(CCNC(=O)Cc2cc3cc(-c4ccc(F)cc4)ccc3o2)cc1",
+     "430.5",
+     "53",
+     "96.1",
+     "34"
+    ],
+    [
+     "DT18-07038",
+     "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4ccc(N)cc4)ccc3o2)CC1",
+     "407.5",
+     "70",
+     "98.2",
+     "7"
+    ],
+    [
+     "DT18-07042",
+     "O=C(Cc1cc2cc(-c3cncnc3)ccc2o1)NCCc1ccncc1",
+     "358.4",
+     "39",
+     "96.0",
+     "31"
+    ],
+    [
+     "DT18-07044",
+     "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4cccnc4)ccc3o2)CC1",
+     "393.5",
+     "33",
+     "98.5",
+     "35"
+    ],
+    [
+     "DT18-07050",
+     "Cc1ccc(-c2ccc3oc(CC(=O)NCCOC4CCN(C)CC4)cc3c2)nc1",
+     "407.5",
+     "37",
+     "95.1",
+     "28"
+    ],
+    [
+     "DT18-07054",
+     "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4cc(F)cc(F)c4)ccc3o2)CC1",
+     "428.5",
+     "48",
+     "99.1",
+     "27"
+    ],
+    [
+     "DT18-07056",
+     "CN1CCC(OCCNC(=O)Cc2cc3cc(-c4ccncc4)ccc3o2)CC1",
+     "393.5",
+     "76",
+     "96.0",
+     "31"
+    ],
+    [
+     "DT18-07060",
+     "Nc1ccc(-c2ccc3oc(CC(=O)NCCNC4CCCCC4)cc3c2)cc1",
+     "391.5",
+     "76",
+     "98.6",
+     "14"
+    ],
+    [
+     "DT18-07068",
+     "CN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(F)cc4)ccc3o2)CC1",
+     "395.5",
+     "38",
+     "96.7",
+     "37"
+    ],
+    [
+     "DT18-07072",
+     "CN1CCN(CCNC(=O)Cc2cc3cc(-c4ccc(N)cc4)ccc3o2)CC1",
+     "392.5",
+     "52",
+     "98.2",
+     "15"
+    ],
+    [
+     "DT18-07084",
+     "Nc1ccc(-c2ccc3oc(CC(=O)NCCc4ccncc4)cc3c2)cc1",
+     "371.4",
+     "24",
+     "97.6",
+     "22"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-19-120"
+    ],
+    [
+     "Client",
+     "Doventhar Therapeutics"
+    ],
+    [
+     "Compounds tested",
+     "40"
+    ],
+    [
+     "Series / chemotype",
+     "Doventhar benzofuran acetamide series 18 (Benzofuran acetamide)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "126"
+    ],
+    [
+     "Price",
+     "GBP 40,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 40,300",
+  "n_compounds": "40",
+  "turnaround_days": "126",
+  "client_variant": "Doventhar Therapeutics",
+  "project_id": "VD-19-120",
+  "lims_id": "VA20191084"
+ }
+}

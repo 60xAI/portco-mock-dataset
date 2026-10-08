@@ -242,13 +242,13 @@ def build() -> str:
     p = by_tag(w, "q5_structbio_D")
     add("q5 closest work: D crystallography-based docking report", "D", "pdf", "report_client", p.dates.completion - timedelta(days=3), p.dates.completion,
         p.lead, p.lead, ["q5_structbio_D"], pdf_kind="native", projects=[p.id], client=p.client_id, variant=p.client_variant, length="10-14 pages",
-        summary=f"Structure-based design report {p.firm_project_id}: docking into published-style X-ray structures; no cryo-EM.",
+        summary=f"Structure-based design report {p.firm_project_id}: docking into published-style X-ray structures. ",
         hint="report PDF name", facts=[{"any_of": ["crystal structure", "crystallograph", "X-ray"]}],
         golden={"query": 5, "role": "closest_related"})
     p = by_tag(w, "q5_structbio_A")
     add("q5 closest work: A structural biology collaboration readout", "A", "pptx", "deck_readout", (p.dates.completion or p.dates.start) - timedelta(days=4),
         p.dates.completion or p.dates.start, p.lead, p.lead, ["q5_structbio_A"], projects=[p.id], client=p.client_id, variant=p.client_variant, length="12 slides",
-        summary=f"Readout {p.firm_project_id}: chemistry guided by X-ray co-crystal structures from a collaborator; no cryo-EM.",
+        summary=f"Readout {p.firm_project_id}: chemistry guided by X-ray co-crystal structures from a collaborator. ",
         hint="readout deck name", facts=[{"any_of": ["co-crystal", "X-ray", "crystal structure"]}],
         golden={"query": 5, "role": "closest_related"})
 

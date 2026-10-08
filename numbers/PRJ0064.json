@@ -1,0 +1,863 @@
+{
+ "project_id": "PRJ0064",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER13",
+ "compounds": [
+  {
+   "id": "RI13-02906",
+   "smiles": "CN1CCC(Oc2cc(C(=O)NCOc3ccc(-c4cncnc4)cc3)ccn2)CC1",
+   "mw": 419.5,
+   "clogp": 2.78,
+   "tpsa": 89.5
+  },
+  {
+   "id": "RI13-02910",
+   "smiles": "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(N2CCOCC2)c1",
+   "mw": 391.4,
+   "clogp": 2.14,
+   "tpsa": 89.5
+  },
+  {
+   "id": "RI13-02912",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4cncnc4)cc3)ccn2)CC1",
+   "mw": 404.5,
+   "clogp": 2.06,
+   "tpsa": 83.5
+  },
+  {
+   "id": "RI13-02924",
+   "smiles": "CN1CCC(Oc2cc(C(=O)NCOc3ccc(-c4ccc(C#N)cc4)cc3)ccn2)CC1",
+   "mw": 442.5,
+   "clogp": 3.86,
+   "tpsa": 87.5
+  },
+  {
+   "id": "RI13-02934",
+   "smiles": "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(-c2ccncc2)c1",
+   "mw": 383.4,
+   "clogp": 3.37,
+   "tpsa": 89.9
+  },
+  {
+   "id": "RI13-02936",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4cccnc4)cc3)ccn2)CC1",
+   "mw": 403.5,
+   "clogp": 2.66,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-02942",
+   "smiles": "Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(NC4CCCCC4)c3)cc2)cc1",
+   "mw": 416.5,
+   "clogp": 4.84,
+   "tpsa": 89.3
+  },
+  {
+   "id": "RI13-02948",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(N)cc4)cc3)ccn2)CC1",
+   "mw": 417.5,
+   "clogp": 2.85,
+   "tpsa": 83.7
+  },
+  {
+   "id": "RI13-02954",
+   "smiles": "COc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)cc1",
+   "mw": 419.5,
+   "clogp": 3.36,
+   "tpsa": 72.9
+  },
+  {
+   "id": "RI13-02966",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(NC4CCCCC4)c3)cc2)cc1",
+   "mw": 458.6,
+   "clogp": 5.22,
+   "tpsa": 92.4
+  },
+  {
+   "id": "RI13-02970",
+   "smiles": "O=C(NCOc1ccc(-c2cccnc2)cc1)c1ccnc(N2CCCC2)c1",
+   "mw": 374.4,
+   "clogp": 3.51,
+   "tpsa": 67.3
+  },
+  {
+   "id": "RI13-02978",
+   "smiles": "CN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(C#N)cc4)cc3)ccn2)CC1",
+   "mw": 427.5,
+   "clogp": 3.14,
+   "tpsa": 81.5
+  },
+  {
+   "id": "RI13-02982",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(OC4CCN(C)CC4)c3)cc2)cc1",
+   "mw": 474.6,
+   "clogp": 3.95,
+   "tpsa": 92.8
+  },
+  {
+   "id": "RI13-02984",
+   "smiles": "O=C(NCOc1ccc(-c2ccncc2)cc1)c1ccnc(N2CCCC2)c1",
+   "mw": 374.4,
+   "clogp": 3.51,
+   "tpsa": 67.3
+  },
+  {
+   "id": "RI13-02988",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(C)cn4)cc3)ccn2)CC1",
+   "mw": 431.5,
+   "clogp": 3.36,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-02990",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(N)cc4)cc3)ccn2)CC1",
+   "mw": 431.5,
+   "clogp": 3.24,
+   "tpsa": 83.7
+  },
+  {
+   "id": "RI13-02996",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)nc1",
+   "mw": 404.5,
+   "clogp": 3.05,
+   "tpsa": 76.6
+  },
+  {
+   "id": "RI13-03002",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(NC(C)=O)cc4)cc3)ccn2)CC1",
+   "mw": 473.6,
+   "clogp": 3.62,
+   "tpsa": 86.8
+  },
+  {
+   "id": "RI13-03012",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(NC4CCCCC4)c3)cc2)nc1",
+   "mw": 416.5,
+   "clogp": 4.96,
+   "tpsa": 76.1
+  },
+  {
+   "id": "RI13-03036",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(C(=O)NCOc3ccc(-c4ccc(N)cc4)cc3)ccn2)cc1",
+   "mw": 452.5,
+   "clogp": 4.72,
+   "tpsa": 106.3
+  },
+  {
+   "id": "RI13-03038",
+   "smiles": "Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCOCC4)c3)cc2)cc1",
+   "mw": 404.5,
+   "clogp": 2.93,
+   "tpsa": 89.7
+  },
+  {
+   "id": "RI13-03042",
+   "smiles": "O=C(NCOc1ccc(-c2cncnc2)cc1)c1ccnc(N2CCCC2)c1",
+   "mw": 375.4,
+   "clogp": 2.91,
+   "tpsa": 80.2
+  },
+  {
+   "id": "RI13-03044",
+   "smiles": "CCN1CCN(c2cc(C(=O)NCOc3ccc(-c4ccc(C#N)cc4)cc3)ccn2)CC1",
+   "mw": 441.5,
+   "clogp": 3.53,
+   "tpsa": 81.5
+  },
+  {
+   "id": "RI13-03048",
+   "smiles": "O=C(NCOc1ccc(-c2ccncc2)cc1)c1ccnc(-c2ccncc2)c1",
+   "mw": 382.4,
+   "clogp": 3.97,
+   "tpsa": 77.0
+  },
+  {
+   "id": "RI13-03054",
+   "smiles": "COc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCN(C)CC4)c3)cc2)cc1",
+   "mw": 432.5,
+   "clogp": 3.28,
+   "tpsa": 66.9
+  },
+  {
+   "id": "RI13-03056",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)nc1",
+   "mw": 396.5,
+   "clogp": 4.28,
+   "tpsa": 77.0
+  },
+  {
+   "id": "RI13-03060",
+   "smiles": "CN1CCC(Oc2cc(C(=O)NCOc3ccc(-c4ccc(N)cc4)cc3)ccn2)CC1",
+   "mw": 432.5,
+   "clogp": 3.57,
+   "tpsa": 89.7
+  },
+  {
+   "id": "RI13-03068",
+   "smiles": "COc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccc(NC(C)=O)cc4)c3)cc2)cc1",
+   "mw": 467.5,
+   "clogp": 5.15,
+   "tpsa": 89.6
+  },
+  {
+   "id": "RI13-03072",
+   "smiles": "Cc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCN(C)CC4)c3)cc2)nc1",
+   "mw": 417.5,
+   "clogp": 2.97,
+   "tpsa": 70.6
+  },
+  {
+   "id": "RI13-03084",
+   "smiles": "Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(N4CCCC4)c3)cc2)cc1",
+   "mw": 388.5,
+   "clogp": 3.7,
+   "tpsa": 80.5
+  },
+  {
+   "id": "RI13-03086",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccncc4)c3)cc2)cc1",
+   "mw": 438.5,
+   "clogp": 4.54,
+   "tpsa": 93.2
+  },
+  {
+   "id": "RI13-03090",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(OCNC(=O)c3ccnc(-c4ccc(NC(C)=O)cc4)c3)cc2)cc1",
+   "mw": 494.6,
+   "clogp": 5.1,
+   "tpsa": 109.4
+  }
+ ],
+ "tables": {
+  "ppb": {
+   "title": "Human plasma protein binding (RED, 4 h, 37 °C)",
+   "columns": [
+    "Compound",
+    "% bound",
+    "fu",
+    "Recovery (%)"
+   ],
+   "rows": [
+    [
+     "RI13-02906",
+     "89.2",
+     "10.81",
+     "84"
+    ],
+    [
+     "RI13-02910",
+     "81.6",
+     "18.41",
+     "84"
+    ],
+    [
+     "RI13-02912",
+     "81.5",
+     "18.53",
+     "81"
+    ],
+    [
+     "RI13-02924",
+     "98.0",
+     "2.01",
+     "81"
+    ],
+    [
+     "RI13-02934",
+     "90.2",
+     "9.78",
+     "94"
+    ],
+    [
+     "RI13-02936",
+     "90.8",
+     "9.22",
+     "91"
+    ],
+    [
+     "RI13-02942",
+     "99.9",
+     "0.10",
+     "80"
+    ],
+    [
+     "RI13-02948",
+     "93.8",
+     "6.20",
+     "97"
+    ],
+    [
+     "RI13-02954",
+     "96.9",
+     "3.15",
+     "92"
+    ],
+    [
+     "RI13-02966",
+     "99.9",
+     "0.10",
+     "93"
+    ],
+    [
+     "RI13-02970",
+     "97.0",
+     "3.01",
+     "96"
+    ],
+    [
+     "RI13-02978",
+     "93.4",
+     "6.60",
+     "92"
+    ],
+    [
+     "RI13-02982",
+     "96.4",
+     "3.61",
+     "86"
+    ],
+    [
+     "RI13-02984",
+     "97.3",
+     "2.66",
+     "98"
+    ],
+    [
+     "RI13-02988",
+     "95.5",
+     "4.52",
+     "91"
+    ],
+    [
+     "RI13-02990",
+     "97.5",
+     "2.48",
+     "97"
+    ],
+    [
+     "RI13-02996",
+     "98.1",
+     "1.88",
+     "82"
+    ],
+    [
+     "RI13-03002",
+     "98.0",
+     "2.05",
+     "104"
+    ],
+    [
+     "RI13-03012",
+     "99.6",
+     "0.44",
+     "86"
+    ],
+    [
+     "RI13-03036",
+     "99.9",
+     "0.10",
+     "102"
+    ],
+    [
+     "RI13-03038",
+     "96.6",
+     "3.41",
+     "91"
+    ],
+    [
+     "RI13-03042",
+     "91.0",
+     "8.97",
+     "102"
+    ],
+    [
+     "RI13-03044",
+     "97.2",
+     "2.77",
+     "99"
+    ],
+    [
+     "RI13-03048",
+     "99.9",
+     "0.10",
+     "91"
+    ],
+    [
+     "RI13-03054",
+     "97.3",
+     "2.75",
+     "104"
+    ],
+    [
+     "RI13-03056",
+     "99.9",
+     "0.10",
+     "92"
+    ],
+    [
+     "RI13-03060",
+     "94.1",
+     "5.86",
+     "81"
+    ],
+    [
+     "RI13-03068",
+     "99.9",
+     "0.10",
+     "97"
+    ],
+    [
+     "RI13-03072",
+     "93.9",
+     "6.11",
+     "93"
+    ],
+    [
+     "RI13-03084",
+     "96.4",
+     "3.58",
+     "81"
+    ],
+    [
+     "RI13-03086",
+     "99.9",
+     "0.10",
+     "99"
+    ],
+    [
+     "RI13-03090",
+     "99.9",
+     "0.10",
+     "92"
+    ]
+   ],
+   "notes": [
+    "Warfarin control 98-99% bound"
+   ]
+  },
+  "caco2": {
+   "title": "Caco-2 bidirectional permeability (10 µM, pH 7.4)",
+   "columns": [
+    "Compound",
+    "Papp A-B (10^-6 cm/s)",
+    "Papp B-A (10^-6 cm/s)",
+    "Efflux ratio",
+    "Recovery (%)"
+   ],
+   "rows": [
+    [
+     "RI13-02906",
+     "7.8",
+     "12",
+     "1.6",
+     "95"
+    ],
+    [
+     "RI13-02910",
+     "12",
+     "17",
+     "1.4",
+     "72"
+    ],
+    [
+     "RI13-02912",
+     "12",
+     "24",
+     "2.0",
+     "88"
+    ],
+    [
+     "RI13-02924",
+     "5.7",
+     "12",
+     "2.0",
+     "100"
+    ],
+    [
+     "RI13-02934",
+     "7.4",
+     "21",
+     "2.8",
+     "87"
+    ],
+    [
+     "RI13-02936",
+     "11",
+     "28",
+     "2.6",
+     "81"
+    ],
+    [
+     "RI13-02942",
+     "7.0",
+     "27",
+     "3.9",
+     "72"
+    ],
+    [
+     "RI13-02948",
+     "5.3",
+     "14",
+     "2.7",
+     "100"
+    ],
+    [
+     "RI13-02954",
+     "12",
+     "31",
+     "2.6",
+     "87"
+    ],
+    [
+     "RI13-02966",
+     "6.0",
+     "23",
+     "3.9",
+     "100"
+    ],
+    [
+     "RI13-02970",
+     "26",
+     "54",
+     "2.0",
+     "80"
+    ],
+    [
+     "RI13-02978",
+     "7.3",
+     "20",
+     "2.7",
+     "86"
+    ],
+    [
+     "RI13-02982",
+     "4.5",
+     "19",
+     "4.1",
+     "92"
+    ],
+    [
+     "RI13-02984",
+     "18",
+     "35",
+     "2.0",
+     "79"
+    ],
+    [
+     "RI13-02988",
+     "11",
+     "20",
+     "1.8",
+     "81"
+    ],
+    [
+     "RI13-02990",
+     "9.5",
+     "15",
+     "1.6",
+     "95"
+    ],
+    [
+     "RI13-02996",
+     "9.4",
+     "14",
+     "1.5",
+     "78"
+    ],
+    [
+     "RI13-03002",
+     "5.8",
+     "20",
+     "3.4",
+     "102"
+    ],
+    [
+     "RI13-03012",
+     "7.4",
+     "13",
+     "1.7",
+     "72"
+    ],
+    [
+     "RI13-03036",
+     "3.1",
+     "6.4",
+     "2.0",
+     "70"
+    ],
+    [
+     "RI13-03038",
+     "7.2",
+     "17",
+     "2.3",
+     "102"
+    ],
+    [
+     "RI13-03042",
+     "15",
+     "26",
+     "1.8",
+     "88"
+    ],
+    [
+     "RI13-03044",
+     "15",
+     "48",
+     "3.3",
+     "79"
+    ],
+    [
+     "RI13-03048",
+     "7.1",
+     "12",
+     "1.7",
+     "87"
+    ],
+    [
+     "RI13-03054",
+     "19",
+     "41",
+     "2.2",
+     "85"
+    ],
+    [
+     "RI13-03056",
+     "9.8",
+     "22",
+     "2.2",
+     "84"
+    ],
+    [
+     "RI13-03060",
+     "6.3",
+     "21",
+     "3.3",
+     "92"
+    ],
+    [
+     "RI13-03068",
+     "7.1",
+     "16",
+     "2.3",
+     "83"
+    ],
+    [
+     "RI13-03072",
+     "12",
+     "16",
+     "1.3",
+     "71"
+    ],
+    [
+     "RI13-03084",
+     "10",
+     "24",
+     "2.3",
+     "86"
+    ],
+    [
+     "RI13-03086",
+     "3.8",
+     "8.7",
+     "2.3",
+     "78"
+    ],
+    [
+     "RI13-03090",
+     "3.7",
+     "13",
+     "3.4",
+     "91"
+    ]
+   ],
+   "notes": []
+  },
+  "solubility": {
+   "title": "Kinetic solubility, PBS pH 7.4 (µM)",
+   "columns": [
+    "Compound",
+    "Solubility (µM)"
+   ],
+   "rows": [
+    [
+     "RI13-02906",
+     "198"
+    ],
+    [
+     "RI13-02910",
+     ">200"
+    ],
+    [
+     "RI13-02912",
+     ">200"
+    ],
+    [
+     "RI13-02924",
+     "26"
+    ],
+    [
+     "RI13-02934",
+     "51"
+    ],
+    [
+     "RI13-02936",
+     ">200"
+    ],
+    [
+     "RI13-02942",
+     "<1"
+    ],
+    [
+     "RI13-02948",
+     "96"
+    ],
+    [
+     "RI13-02954",
+     ">200"
+    ],
+    [
+     "RI13-02966",
+     "<1"
+    ],
+    [
+     "RI13-02970",
+     "181"
+    ],
+    [
+     "RI13-02978",
+     "45"
+    ],
+    [
+     "RI13-02982",
+     "3.1"
+    ],
+    [
+     "RI13-02984",
+     "72"
+    ],
+    [
+     "RI13-02988",
+     "64"
+    ],
+    [
+     "RI13-02990",
+     "28"
+    ],
+    [
+     "RI13-02996",
+     "63"
+    ],
+    [
+     "RI13-03002",
+     "28"
+    ],
+    [
+     "RI13-03012",
+     "1.1"
+    ],
+    [
+     "RI13-03036",
+     "<1"
+    ],
+    [
+     "RI13-03038",
+     "130"
+    ],
+    [
+     "RI13-03042",
+     "190"
+    ],
+    [
+     "RI13-03044",
+     "65"
+    ],
+    [
+     "RI13-03048",
+     "5.0"
+    ],
+    [
+     "RI13-03054",
+     "83"
+    ],
+    [
+     "RI13-03056",
+     "3.0"
+    ],
+    [
+     "RI13-03060",
+     "18"
+    ],
+    [
+     "RI13-03068",
+     "<1"
+    ],
+    [
+     "RI13-03072",
+     "155"
+    ],
+    [
+     "RI13-03084",
+     "60"
+    ],
+    [
+     "RI13-03086",
+     "<1"
+    ],
+    [
+     "RI13-03090",
+     "<1"
+    ]
+   ],
+   "notes": [
+    "From 10 mM DMSO stock, 2% DMSO final, nephelometry"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2022-111"
+    ],
+    [
+     "Client",
+     "Rennelwick Institute Drug Discovery Unit"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Rennelwick phenoxyethyl amide series 13 (Phenoxyethyl amide)"
+    ],
+    [
+     "Assays",
+     "Plasma protein binding (equilibrium dialysis), Caco-2 permeability, Kinetic solubility"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "56"
+    ],
+    [
+     "Price",
+     "USD 22,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 22,300",
+  "n_compounds": "32",
+  "turnaround_days": "56",
+  "client_variant": "Rennelwick Institute Drug Discovery Unit",
+  "project_id": "MV-2022-111",
+  "lims_id": "M22/BIO/02562"
+ }
+}

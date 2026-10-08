@@ -1,0 +1,430 @@
+{
+ "project_id": "PRJ0016",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER05",
+ "compounds": [
+  {
+   "id": "EB05-08106",
+   "smiles": "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCN(C)CC4)c3c2)cc1",
+   "mw": 393.5,
+   "clogp": 2.22,
+   "tpsa": 73.5
+  },
+  {
+   "id": "EB05-08110",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(O)CC4)c3c2)cc1",
+   "mw": 421.5,
+   "clogp": 2.37,
+   "tpsa": 110.3
+  },
+  {
+   "id": "EB05-08128",
+   "smiles": "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4ccc(C#N)cc4)cc23)CC1",
+   "mw": 403.5,
+   "clogp": 2.94,
+   "tpsa": 94.0
+  },
+  {
+   "id": "EB05-08140",
+   "smiles": "CN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cc(F)cc(F)c4)cc23)CC1",
+   "mw": 399.4,
+   "clogp": 2.49,
+   "tpsa": 64.3
+  },
+  {
+   "id": "EB05-08152",
+   "smiles": "O=C(NCCN1CCCC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+   "mw": 352.4,
+   "clogp": 3.19,
+   "tpsa": 61.0
+  },
+  {
+   "id": "EB05-08158",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCN(C)CC4)c3c2)cc1",
+   "mw": 420.5,
+   "clogp": 2.17,
+   "tpsa": 93.4
+  },
+  {
+   "id": "EB05-08172",
+   "smiles": "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCOC4CCN(C)CC4)c3c2)cc1",
+   "mw": 408.5,
+   "clogp": 3.08,
+   "tpsa": 79.5
+  },
+  {
+   "id": "EB05-08178",
+   "smiles": "NC1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+   "mw": 381.5,
+   "clogp": 2.52,
+   "tpsa": 87.0
+  },
+  {
+   "id": "EB05-08182",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)cc1",
+   "mw": 407.5,
+   "clogp": 2.25,
+   "tpsa": 99.3
+  },
+  {
+   "id": "EB05-08188",
+   "smiles": "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)nc1",
+   "mw": 377.5,
+   "clogp": 3.59,
+   "tpsa": 82.7
+  },
+  {
+   "id": "EB05-08190",
+   "smiles": "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4cc(F)cc(F)c4)cc23)CC1",
+   "mw": 414.5,
+   "clogp": 3.35,
+   "tpsa": 70.2
+  },
+  {
+   "id": "EB05-08194",
+   "smiles": "CN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+   "mw": 381.5,
+   "clogp": 2.35,
+   "tpsa": 64.3
+  },
+  {
+   "id": "EB05-08200",
+   "smiles": "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)nc1",
+   "mw": 349.4,
+   "clogp": 2.76,
+   "tpsa": 73.9
+  },
+  {
+   "id": "EB05-08206",
+   "smiles": "CCN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(NC(C)=O)cc4)cc23)CC1",
+   "mw": 434.5,
+   "clogp": 2.56,
+   "tpsa": 93.4
+  },
+  {
+   "id": "EB05-08208",
+   "smiles": "NC1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cc(F)cc(F)c4)cc23)CC1",
+   "mw": 399.4,
+   "clogp": 2.66,
+   "tpsa": 87.0
+  },
+  {
+   "id": "EB05-08218",
+   "smiles": "CCN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cncnc4)cc23)CC1",
+   "mw": 379.5,
+   "clogp": 1.39,
+   "tpsa": 90.0
+  },
+  {
+   "id": "EB05-08230",
+   "smiles": "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)nc1",
+   "mw": 365.4,
+   "clogp": 2.0,
+   "tpsa": 83.1
+  },
+  {
+   "id": "EB05-08236",
+   "smiles": "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+   "mw": 396.5,
+   "clogp": 3.21,
+   "tpsa": 70.2
+  },
+  {
+   "id": "EB05-08248",
+   "smiles": "N#Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)cc1",
+   "mw": 387.5,
+   "clogp": 3.75,
+   "tpsa": 93.6
+  },
+  {
+   "id": "EB05-08250",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)cc1",
+   "mw": 391.5,
+   "clogp": 3.01,
+   "tpsa": 90.1
+  },
+  {
+   "id": "EB05-08256",
+   "smiles": "Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)cc1",
+   "mw": 349.4,
+   "clogp": 2.64,
+   "tpsa": 87.0
+  },
+  {
+   "id": "EB05-08278",
+   "smiles": "O=C(NCCN1CCC(O)CC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+   "mw": 382.4,
+   "clogp": 2.56,
+   "tpsa": 81.3
+  },
+  {
+   "id": "EB05-08286",
+   "smiles": "O=C(NCCN1CCOCC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+   "mw": 368.4,
+   "clogp": 2.43,
+   "tpsa": 70.2
+  },
+  {
+   "id": "EB05-08290",
+   "smiles": "Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(O)CC4)c3c2)cc1",
+   "mw": 379.5,
+   "clogp": 2.0,
+   "tpsa": 107.3
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "EB05-08106",
+     "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCN(C)CC4)c3c2)cc1",
+     "393.5",
+     "67",
+     "96.7",
+     "22"
+    ],
+    [
+     "EB05-08110",
+     "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(O)CC4)c3c2)cc1",
+     "421.5",
+     "57",
+     "99.8",
+     "35"
+    ],
+    [
+     "EB05-08128",
+     "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4ccc(C#N)cc4)cc23)CC1",
+     "403.5",
+     "31",
+     "97.2",
+     "6"
+    ],
+    [
+     "EB05-08140",
+     "CN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cc(F)cc(F)c4)cc23)CC1",
+     "399.4",
+     "68",
+     "98.0",
+     "26"
+    ],
+    [
+     "EB05-08152",
+     "O=C(NCCN1CCCC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+     "352.4",
+     "19",
+     "94.8",
+     "17"
+    ],
+    [
+     "EB05-08158",
+     "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCN(C)CC4)c3c2)cc1",
+     "420.5",
+     "35",
+     "94.7",
+     "31"
+    ],
+    [
+     "EB05-08172",
+     "COc1ccc(-c2cnc3[nH]cc(C(=O)NCCOC4CCN(C)CC4)c3c2)cc1",
+     "408.5",
+     "46",
+     "97.8",
+     "18"
+    ],
+    [
+     "EB05-08178",
+     "NC1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+     "381.5",
+     "27",
+     "95.2",
+     "47"
+    ],
+    [
+     "EB05-08182",
+     "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)cc1",
+     "407.5",
+     "53",
+     "96.8",
+     "16"
+    ],
+    [
+     "EB05-08188",
+     "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)nc1",
+     "377.5",
+     "44",
+     "98.1",
+     "31"
+    ],
+    [
+     "EB05-08190",
+     "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4cc(F)cc(F)c4)cc23)CC1",
+     "414.5",
+     "56",
+     "96.3",
+     "28"
+    ],
+    [
+     "EB05-08194",
+     "CN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+     "381.5",
+     "28",
+     "95.6",
+     "42"
+    ],
+    [
+     "EB05-08200",
+     "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)nc1",
+     "349.4",
+     "33",
+     "95.7",
+     "5"
+    ],
+    [
+     "EB05-08206",
+     "CCN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4ccc(NC(C)=O)cc4)cc23)CC1",
+     "434.5",
+     "32",
+     "97.0",
+     "20"
+    ],
+    [
+     "EB05-08208",
+     "NC1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cc(F)cc(F)c4)cc23)CC1",
+     "399.4",
+     "31",
+     "94.6",
+     "34"
+    ],
+    [
+     "EB05-08218",
+     "CCN1CCN(CCNC(=O)c2c[nH]c3ncc(-c4cncnc4)cc23)CC1",
+     "379.5",
+     "48",
+     "96.7",
+     "27"
+    ],
+    [
+     "EB05-08230",
+     "Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCOCC4)c3c2)nc1",
+     "365.4",
+     "36",
+     "94.4",
+     "42"
+    ],
+    [
+     "EB05-08236",
+     "CN1CCC(OCCNC(=O)c2c[nH]c3ncc(-c4ccc(F)cc4)cc23)CC1",
+     "396.5",
+     "24",
+     "97.3",
+     "40"
+    ],
+    [
+     "EB05-08248",
+     "N#Cc1ccc(-c2cnc3[nH]cc(C(=O)NCCNC4CCCCC4)c3c2)cc1",
+     "387.5",
+     "34",
+     "97.9",
+     "26"
+    ],
+    [
+     "EB05-08250",
+     "CC(=O)Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)cc1",
+     "391.5",
+     "53",
+     "99.8",
+     "47"
+    ],
+    [
+     "EB05-08256",
+     "Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCCC4)c3c2)cc1",
+     "349.4",
+     "52",
+     "96.8",
+     "41"
+    ],
+    [
+     "EB05-08278",
+     "O=C(NCCN1CCC(O)CC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+     "382.4",
+     "28",
+     "97.4",
+     "42"
+    ],
+    [
+     "EB05-08286",
+     "O=C(NCCN1CCOCC1)c1c[nH]c2ncc(-c3ccc(F)cc3)cc12",
+     "368.4",
+     "4",
+     "97.4",
+     "18"
+    ],
+    [
+     "EB05-08290",
+     "Nc1ccc(-c2cnc3[nH]cc(C(=O)NCCN4CCC(O)CC4)c3c2)cc1",
+     "379.5",
+     "50",
+     "94.3",
+     "55"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-96-072"
+    ],
+    [
+     "Client",
+     "Elvarmere Biosciences AB"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Elvarmere pyrrolopyridine series 05 (Pyrrolopyridine)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "69"
+    ],
+    [
+     "Price",
+     "GBP 24,000"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 24,000",
+  "n_compounds": "24",
+  "turnaround_days": "69",
+  "client_variant": "Elvarmere Biosciences AB",
+  "project_id": "VD-96-072",
+  "lims_id": "VA19960654"
+ }
+}

@@ -1,0 +1,752 @@
+{
+ "project_id": "PRJ0006",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER11",
+ "compounds": [
+  {
+   "id": "OB11-08904",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)cc1",
+   "mw": 390.5,
+   "clogp": 2.79,
+   "tpsa": 68.6
+  },
+  {
+   "id": "OB11-08906",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(NC4CCCCC4)c3)CC2)cc1",
+   "mw": 402.5,
+   "clogp": 4.7,
+   "tpsa": 68.2
+  },
+  {
+   "id": "OB11-08910",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)nc1",
+   "mw": 393.5,
+   "clogp": 2.72,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-08916",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)NC3CCN(c4cccnc4)CC3)c2)CC1",
+   "mw": 394.5,
+   "clogp": 2.95,
+   "tpsa": 57.7
+  },
+  {
+   "id": "OB11-08918",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(-c4ccc(NC(C)=O)cc4)c3)CC2)cc1",
+   "mw": 443.5,
+   "clogp": 4.72,
+   "tpsa": 70.7
+  },
+  {
+   "id": "OB11-08922",
+   "smiles": "O=C(NC1CCN(c2cc(F)cc(F)c2)CC1)c1cccc(NC2CCCCC2)c1",
+   "mw": 413.5,
+   "clogp": 5.11,
+   "tpsa": 44.4
+  },
+  {
+   "id": "OB11-08928",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCN(C)CC4)c3)CC2)nc1",
+   "mw": 393.5,
+   "clogp": 2.54,
+   "tpsa": 51.7
+  },
+  {
+   "id": "OB11-08930",
+   "smiles": "O=C(NC1CCN(c2cccnc2)CC1)c1cccc(N2CCC(O)CC2)c1",
+   "mw": 380.5,
+   "clogp": 2.44,
+   "tpsa": 68.7
+  },
+  {
+   "id": "OB11-08934",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)cc1",
+   "mw": 422.5,
+   "clogp": 2.88,
+   "tpsa": 73.9
+  },
+  {
+   "id": "OB11-08936",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(NC4CCCCC4)c3)CC2)cc1",
+   "mw": 407.6,
+   "clogp": 4.84,
+   "tpsa": 53.6
+  },
+  {
+   "id": "OB11-08942",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 396.5,
+   "clogp": 3.15,
+   "tpsa": 61.6
+  },
+  {
+   "id": "OB11-08948",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4ccc(NC(C)=O)cc4)CC3)c2)cc1",
+   "mw": 470.6,
+   "clogp": 4.67,
+   "tpsa": 90.5
+  },
+  {
+   "id": "OB11-08952",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 396.5,
+   "clogp": 2.98,
+   "tpsa": 38.8
+  },
+  {
+   "id": "OB11-08964",
+   "smiles": "O=C(NC1CCN(c2ccc(F)cc2)CC1)c1cccc(N2CCOCC2)c1",
+   "mw": 383.5,
+   "clogp": 3.06,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-08970",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4ccc(C)cn4)CC3)c2)cc1",
+   "mw": 428.5,
+   "clogp": 4.41,
+   "tpsa": 74.3
+  },
+  {
+   "id": "OB11-08972",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)cc1",
+   "mw": 382.5,
+   "clogp": 4.02,
+   "tpsa": 69.0
+  },
+  {
+   "id": "OB11-08978",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4cc(F)cc(F)c4)CC3)c2)CC1",
+   "mw": 414.5,
+   "clogp": 3.12,
+   "tpsa": 38.8
+  },
+  {
+   "id": "OB11-08982",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(O)CC4)c3)CC2)cc1",
+   "mw": 436.6,
+   "clogp": 3.0,
+   "tpsa": 84.9
+  },
+  {
+   "id": "OB11-08984",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)cc1",
+   "mw": 403.5,
+   "clogp": 2.88,
+   "tpsa": 85.4
+  },
+  {
+   "id": "OB11-08990",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4cc(F)cc(F)c4)CC3)c2)cc1",
+   "mw": 449.5,
+   "clogp": 4.99,
+   "tpsa": 61.4
+  },
+  {
+   "id": "OB11-08994",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1cccc(N2CCOCC2)c1",
+   "mw": 366.5,
+   "clogp": 2.32,
+   "tpsa": 57.7
+  },
+  {
+   "id": "OB11-08996",
+   "smiles": "O=C(NC1CCN(c2ccc(F)cc2)CC1)c1cccc(N2CCC(O)CC2)c1",
+   "mw": 397.5,
+   "clogp": 3.19,
+   "tpsa": 55.8
+  },
+  {
+   "id": "OB11-09000",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4ccncc4)CC3)c2)CC1",
+   "mw": 379.5,
+   "clogp": 2.23,
+   "tpsa": 51.7
+  },
+  {
+   "id": "OB11-09008",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)cc1",
+   "mw": 387.5,
+   "clogp": 4.16,
+   "tpsa": 54.5
+  },
+  {
+   "id": "OB11-09012",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)cc1",
+   "mw": 408.5,
+   "clogp": 3.02,
+   "tpsa": 70.8
+  },
+  {
+   "id": "OB11-09026",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)cc1",
+   "mw": 395.5,
+   "clogp": 2.93,
+   "tpsa": 54.0
+  },
+  {
+   "id": "OB11-09030",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4ccncc4)CC3)c2)CC1",
+   "mw": 379.5,
+   "clogp": 2.41,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-09032",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)NC3CCN(c4cccnc4)CC3)c2)cc1",
+   "mw": 414.5,
+   "clogp": 4.11,
+   "tpsa": 74.3
+  },
+  {
+   "id": "OB11-09036",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)nc1",
+   "mw": 380.5,
+   "clogp": 2.63,
+   "tpsa": 57.7
+  },
+  {
+   "id": "OB11-09042",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)cc1",
+   "mw": 435.6,
+   "clogp": 2.97,
+   "tpsa": 90.7
+  },
+  {
+   "id": "OB11-09044",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1cccc(N2CCC(O)CC2)c1",
+   "mw": 380.5,
+   "clogp": 2.44,
+   "tpsa": 68.7
+  },
+  {
+   "id": "OB11-09048",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(N4CCN(C)CC4)c3)CC2)cc1",
+   "mw": 408.5,
+   "clogp": 2.85,
+   "tpsa": 48.1
+  },
+  {
+   "id": "OB11-09054",
+   "smiles": "O=C(NC1CCN(c2cccnc2)CC1)c1cccc(NC2CCCCC2)c1",
+   "mw": 378.5,
+   "clogp": 4.23,
+   "tpsa": 57.3
+  },
+  {
+   "id": "OB11-09060",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)NC3CCN(c4cc(F)cc(F)c4)CC3)c2)CC1",
+   "mw": 429.5,
+   "clogp": 3.84,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-09062",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 411.5,
+   "clogp": 3.7,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-09066",
+   "smiles": "O=C(NC1CCN(c2cc(F)cc(F)c2)CC1)c1cccc(-c2ccncc2)c1",
+   "mw": 393.4,
+   "clogp": 4.43,
+   "tpsa": 45.2
+  },
+  {
+   "id": "OB11-09074",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4cccnc4)CC3)c2)CC1",
+   "mw": 379.5,
+   "clogp": 2.41,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-09080",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)cc1",
+   "mw": 414.5,
+   "clogp": 4.11,
+   "tpsa": 74.3
+  },
+  {
+   "id": "OB11-09086",
+   "smiles": "O=C(NC1CCN(c2cccnc2)CC1)c1cccc(-c2ccncc2)c1",
+   "mw": 358.4,
+   "clogp": 3.54,
+   "tpsa": 58.1
+  },
+  {
+   "id": "OB11-09090",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(OC4CCN(C)CC4)c3)CC2)cc1",
+   "mw": 423.6,
+   "clogp": 3.57,
+   "tpsa": 54.0
+  }
+ ],
+ "tables": {
+  "cyp_inhib": {
+   "title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
+   "columns": [
+    "Compound",
+    "CYP1A2 (%)",
+    "CYP2C9 (%)",
+    "CYP2C19 (%)",
+    "CYP2D6 (%)",
+    "CYP3A4 (%)"
+   ],
+   "rows": [
+    [
+     "OB11-08904",
+     "12",
+     "12",
+     "-9",
+     "6",
+     "2"
+    ],
+    [
+     "OB11-08906",
+     "16",
+     "56",
+     "6",
+     "20",
+     "34"
+    ],
+    [
+     "OB11-08910",
+     "7",
+     "4",
+     "43",
+     "3",
+     "4"
+    ],
+    [
+     "OB11-08916",
+     "8",
+     "-8",
+     "11",
+     "59",
+     "37"
+    ],
+    [
+     "OB11-08918",
+     "65",
+     "93",
+     "93",
+     "7",
+     "95"
+    ],
+    [
+     "OB11-08922",
+     "20",
+     "54",
+     "41",
+     "96",
+     "34"
+    ],
+    [
+     "OB11-08928",
+     "3",
+     "8",
+     "19",
+     "10",
+     "2"
+    ],
+    [
+     "OB11-08930",
+     "4",
+     "11",
+     "1",
+     "10",
+     "-1"
+    ],
+    [
+     "OB11-08934",
+     "-4",
+     "8",
+     "5",
+     "5",
+     "-7"
+    ],
+    [
+     "OB11-08936",
+     "20",
+     "23",
+     "73",
+     "60",
+     "54"
+    ],
+    [
+     "OB11-08942",
+     "1",
+     "13",
+     "33",
+     "1",
+     "-4"
+    ],
+    [
+     "OB11-08948",
+     "1",
+     "77",
+     "70",
+     "3",
+     "56"
+    ],
+    [
+     "OB11-08952",
+     "9",
+     "2",
+     "12",
+     "23",
+     "-5"
+    ],
+    [
+     "OB11-08964",
+     "12",
+     "4",
+     "35",
+     "10",
+     "-3"
+    ],
+    [
+     "OB11-08970",
+     "88",
+     "91",
+     "100",
+     "5",
+     "44"
+    ],
+    [
+     "OB11-08972",
+     "87",
+     "79",
+     "67",
+     "21",
+     "76"
+    ],
+    [
+     "OB11-08978",
+     "-0",
+     "3",
+     "13",
+     "92",
+     "-3"
+    ],
+    [
+     "OB11-08982",
+     "-12",
+     "1",
+     "3",
+     "5",
+     "2"
+    ],
+    [
+     "OB11-08984",
+     "-1",
+     "5",
+     "2",
+     "1",
+     "-7"
+    ],
+    [
+     "OB11-08990",
+     "58",
+     "95",
+     "100",
+     "88",
+     "65"
+    ],
+    [
+     "OB11-08994",
+     "-4",
+     "4",
+     "1",
+     "13",
+     "-4"
+    ],
+    [
+     "OB11-08996",
+     "-5",
+     "20",
+     "7",
+     "18",
+     "-9"
+    ],
+    [
+     "OB11-09000",
+     "9",
+     "3",
+     "3",
+     "21",
+     "1"
+    ],
+    [
+     "OB11-09008",
+     "94",
+     "93",
+     "92",
+     "75",
+     "100"
+    ],
+    [
+     "OB11-09012",
+     "2",
+     "6",
+     "23",
+     "8",
+     "-1"
+    ],
+    [
+     "OB11-09026",
+     "9",
+     "2",
+     "27",
+     "0",
+     "14"
+    ],
+    [
+     "OB11-09030",
+     "6",
+     "3",
+     "9",
+     "1",
+     "9"
+    ],
+    [
+     "OB11-09032",
+     "96",
+     "89",
+     "94",
+     "33",
+     "97"
+    ],
+    [
+     "OB11-09036",
+     "7",
+     "10",
+     "38",
+     "-4",
+     "5"
+    ],
+    [
+     "OB11-09042",
+     "2",
+     "-0",
+     "1",
+     "4",
+     "-0"
+    ],
+    [
+     "OB11-09044",
+     "6",
+     "-1",
+     "-2",
+     "-12",
+     "-1"
+    ],
+    [
+     "OB11-09048",
+     "10",
+     "2",
+     "33",
+     "5",
+     "3"
+    ],
+    [
+     "OB11-09054",
+     "59",
+     "40",
+     "9",
+     "78",
+     "66"
+    ],
+    [
+     "OB11-09060",
+     "9",
+     "7",
+     "18",
+     "97",
+     "26"
+    ],
+    [
+     "OB11-09062",
+     "9",
+     "8",
+     "4",
+     "75",
+     "13"
+    ],
+    [
+     "OB11-09066",
+     "100",
+     "100",
+     "92",
+     "96",
+     "87"
+    ],
+    [
+     "OB11-09074",
+     "6",
+     "-3",
+     "6",
+     "6",
+     "9"
+    ],
+    [
+     "OB11-09080",
+     "83",
+     "96",
+     "89",
+     "45",
+     "85"
+    ],
+    [
+     "OB11-09086",
+     "100",
+     "88",
+     "67",
+     "72",
+     "80"
+    ],
+    [
+     "OB11-09090",
+     "6",
+     "-4",
+     "5",
+     "13",
+     "9"
+    ]
+   ],
+   "notes": [
+    "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
+    "Controls (IC50, µM): furafylline (CYP1A2) 1.9; sulfaphenazole (CYP2C9) 0.45; ticlopidine (CYP2C19) 1.2; quinidine (CYP2D6) 0.064; ketoconazole (CYP3A4) 0.031"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2022-176"
+    ],
+    [
+     "Client",
+     "Orvessant Biosciences Pty Ltd"
+    ],
+    [
+     "Compounds tested",
+     "40"
+    ],
+    [
+     "Series / chemotype",
+     "Orvessant piperidyl benzamide series 11 (Piperidyl benzamide)"
+    ],
+    [
+     "Assays",
+     "CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "16"
+    ],
+    [
+     "Price",
+     "USD 12,400"
+    ],
+    [
+     "CYP1A2 >50% inhibition @10 µM",
+     "10"
+    ],
+    [
+     "CYP2C9 >50% inhibition @10 µM",
+     "12"
+    ],
+    [
+     "CYP2C19 >50% inhibition @10 µM",
+     "11"
+    ],
+    [
+     "CYP2D6 >50% inhibition @10 µM",
+     "11"
+    ],
+    [
+     "CYP3A4 >50% inhibition @10 µM",
+     "11"
+    ],
+    [
+     "Compounds with any CYP >50%",
+     "18"
+    ],
+    [
+     "Ketoconazole (3A4) IC50 (µM)",
+     "0.031"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "cyp.n_gt50_CYP1A2": "10",
+  "cyp.control_CYP1A2_uM": "1.9",
+  "cyp.n_gt50_CYP2C9": "12",
+  "cyp.control_CYP2C9_uM": "0.45",
+  "cyp.n_gt50_CYP2C19": "11",
+  "cyp.control_CYP2C19_uM": "1.2",
+  "cyp.n_gt50_CYP2D6": "11",
+  "cyp.control_CYP2D6_uM": "0.064",
+  "cyp.n_gt50_CYP3A4": "11",
+  "cyp.control_CYP3A4_uM": "0.031",
+  "cyp.n_any_gt50": "18",
+  "cyp.OB11-08904.CYP3A4_pct": "2",
+  "cyp.OB11-08906.CYP3A4_pct": "34",
+  "cyp.OB11-08910.CYP3A4_pct": "4",
+  "cyp.OB11-08916.CYP3A4_pct": "37",
+  "cyp.OB11-08918.CYP3A4_pct": "95",
+  "cyp.OB11-08922.CYP3A4_pct": "34",
+  "cyp.OB11-08928.CYP3A4_pct": "2",
+  "cyp.OB11-08930.CYP3A4_pct": "-1",
+  "cyp.OB11-08934.CYP3A4_pct": "-7",
+  "cyp.OB11-08936.CYP3A4_pct": "54",
+  "cyp.OB11-08942.CYP3A4_pct": "-4",
+  "cyp.OB11-08948.CYP3A4_pct": "56",
+  "cyp.OB11-08952.CYP3A4_pct": "-5",
+  "cyp.OB11-08964.CYP3A4_pct": "-3",
+  "cyp.OB11-08970.CYP3A4_pct": "44",
+  "cyp.OB11-08972.CYP3A4_pct": "76",
+  "cyp.OB11-08978.CYP3A4_pct": "-3",
+  "cyp.OB11-08982.CYP3A4_pct": "2",
+  "cyp.OB11-08984.CYP3A4_pct": "-7",
+  "cyp.OB11-08990.CYP3A4_pct": "65",
+  "cyp.OB11-08994.CYP3A4_pct": "-4",
+  "cyp.OB11-08996.CYP3A4_pct": "-9",
+  "cyp.OB11-09000.CYP3A4_pct": "1",
+  "cyp.OB11-09008.CYP3A4_pct": "100",
+  "cyp.OB11-09012.CYP3A4_pct": "-1",
+  "cyp.OB11-09026.CYP3A4_pct": "14",
+  "cyp.OB11-09030.CYP3A4_pct": "9",
+  "cyp.OB11-09032.CYP3A4_pct": "97",
+  "cyp.OB11-09036.CYP3A4_pct": "5",
+  "cyp.OB11-09042.CYP3A4_pct": "-0",
+  "cyp.OB11-09044.CYP3A4_pct": "-1",
+  "cyp.OB11-09048.CYP3A4_pct": "3",
+  "cyp.OB11-09054.CYP3A4_pct": "66",
+  "cyp.OB11-09060.CYP3A4_pct": "26",
+  "cyp.OB11-09062.CYP3A4_pct": "13",
+  "cyp.OB11-09066.CYP3A4_pct": "87",
+  "cyp.OB11-09074.CYP3A4_pct": "9",
+  "cyp.OB11-09080.CYP3A4_pct": "85",
+  "cyp.OB11-09086.CYP3A4_pct": "80",
+  "cyp.OB11-09090.CYP3A4_pct": "9",
+  "price": "USD 12,400",
+  "n_compounds": "40",
+  "turnaround_days": "16",
+  "client_variant": "Orvessant Biosciences Pty Ltd",
+  "project_id": "MV-2022-176",
+  "lims_id": "M22/BIO/04063"
+ }
+}

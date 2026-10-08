@@ -1,0 +1,45 @@
+{
+ "project_id": "PRJ0130",
+ "firm": "G",
+ "status": "on_hold",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "drf": {
+   "title": "7-day rat dose-range finding",
+   "columns": [
+    "Dose (mg/kg/day)",
+    "Animals",
+    "Body weight change day 1-7 (%)",
+    "Clinical observations"
+   ],
+   "rows": [
+    [
+     0,
+     "3M/3F",
+     "+9.9",
+     "None"
+    ],
+    [
+     30,
+     "3M/3F",
+     "+10.9",
+     "None"
+    ]
+   ],
+   "notes": [
+    "MTD estimated at 100 mg/kg/day",
+    "Work stopped; partial data only"
+   ]
+  }
+ },
+ "values": {
+  "drf.mtd": "100 mg/kg/day",
+  "price": "USD 175,300",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Valquessia Pharmaceuticals SpA",
+  "project_id": "OT-25-S0229",
+  "lims_id": "OQ/2025/003671"
+ }
+}

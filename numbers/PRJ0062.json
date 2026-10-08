@@ -1,0 +1,503 @@
+{
+ "project_id": "PRJ0062",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER11",
+ "compounds": [
+  {
+   "id": "OB11-08910",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)nc1",
+   "mw": 393.5,
+   "clogp": 2.72,
+   "tpsa": 74.5
+  },
+  {
+   "id": "OB11-08918",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(-c4ccc(NC(C)=O)cc4)c3)CC2)cc1",
+   "mw": 443.5,
+   "clogp": 4.72,
+   "tpsa": 70.7
+  },
+  {
+   "id": "OB11-08922",
+   "smiles": "O=C(NC1CCN(c2cc(F)cc(F)c2)CC1)c1cccc(NC2CCCCC2)c1",
+   "mw": 413.5,
+   "clogp": 5.11,
+   "tpsa": 44.4
+  },
+  {
+   "id": "OB11-08924",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)NC3CCN(c4ccc(C#N)cc4)CC3)c2)CC1",
+   "mw": 418.5,
+   "clogp": 3.43,
+   "tpsa": 68.6
+  },
+  {
+   "id": "OB11-08928",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCN(C)CC4)c3)CC2)nc1",
+   "mw": 393.5,
+   "clogp": 2.54,
+   "tpsa": 51.7
+  },
+  {
+   "id": "OB11-08942",
+   "smiles": "NC1CCN(c2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 396.5,
+   "clogp": 3.15,
+   "tpsa": 61.6
+  },
+  {
+   "id": "OB11-08952",
+   "smiles": "CN1CCN(c2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 396.5,
+   "clogp": 2.98,
+   "tpsa": 38.8
+  },
+  {
+   "id": "OB11-08954",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(NC4CCCCC4)c3)CC2)cc1",
+   "mw": 434.6,
+   "clogp": 4.79,
+   "tpsa": 73.5
+  },
+  {
+   "id": "OB11-08960",
+   "smiles": "O=C(NC1CCN(c2ccc(F)cc2)CC1)c1cccc(-c2ccncc2)c1",
+   "mw": 375.4,
+   "clogp": 4.29,
+   "tpsa": 45.2
+  },
+  {
+   "id": "OB11-08972",
+   "smiles": "N#Cc1ccc(N2CCC(NC(=O)c3cccc(-c4ccncc4)c3)CC2)cc1",
+   "mw": 382.5,
+   "clogp": 4.02,
+   "tpsa": 69.0
+  },
+  {
+   "id": "OB11-08994",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1cccc(N2CCOCC2)c1",
+   "mw": 366.5,
+   "clogp": 2.32,
+   "tpsa": 57.7
+  },
+  {
+   "id": "OB11-09014",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(O)CC4)c3)CC2)nc1",
+   "mw": 394.5,
+   "clogp": 2.75,
+   "tpsa": 68.7
+  },
+  {
+   "id": "OB11-09024",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(O)CC4)c3)CC2)cc1",
+   "mw": 409.5,
+   "clogp": 3.06,
+   "tpsa": 65.0
+  },
+  {
+   "id": "OB11-09026",
+   "smiles": "COc1ccc(N2CCC(NC(=O)c3cccc(N4CCOCC4)c3)CC2)cc1",
+   "mw": 395.5,
+   "clogp": 2.93,
+   "tpsa": 54.0
+  },
+  {
+   "id": "OB11-09042",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCC(N)CC4)c3)CC2)cc1",
+   "mw": 435.6,
+   "clogp": 2.97,
+   "tpsa": 90.7
+  },
+  {
+   "id": "OB11-09056",
+   "smiles": "Cc1ccc(N2CCC(NC(=O)c3cccc(NC4CCCCC4)c3)CC2)nc1",
+   "mw": 392.5,
+   "clogp": 4.53,
+   "tpsa": 57.3
+  },
+  {
+   "id": "OB11-09062",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)NC3CCN(c4ccc(F)cc4)CC3)c2)CC1",
+   "mw": 411.5,
+   "clogp": 3.7,
+   "tpsa": 44.8
+  },
+  {
+   "id": "OB11-09078",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3cccc(N4CCN(C)CC4)c3)CC2)cc1",
+   "mw": 435.6,
+   "clogp": 2.8,
+   "tpsa": 67.9
+  }
+ ],
+ "tables": {
+  "cyp_inhib": {
+   "title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
+   "columns": [
+    "Compound",
+    "CYP1A2 (%)",
+    "CYP2C9 (%)",
+    "CYP2C19 (%)",
+    "CYP2D6 (%)",
+    "CYP3A4 (%)"
+   ],
+   "rows": [
+    [
+     "OB11-08910",
+     "10",
+     "5",
+     "47",
+     "4",
+     "6"
+    ],
+    [
+     "OB11-08918",
+     "62",
+     "97",
+     "100",
+     "6",
+     "84"
+    ],
+    [
+     "OB11-08922",
+     "39",
+     "67",
+     "35",
+     "95",
+     "53"
+    ],
+    [
+     "OB11-08924",
+     "1",
+     "18",
+     "0",
+     "27",
+     "28"
+    ],
+    [
+     "OB11-08928",
+     "5",
+     "-5",
+     "12",
+     "8",
+     "11"
+    ],
+    [
+     "OB11-08942",
+     "5",
+     "9",
+     "26",
+     "4",
+     "5"
+    ],
+    [
+     "OB11-08952",
+     "18",
+     "-1",
+     "9",
+     "29",
+     "-10"
+    ],
+    [
+     "OB11-08954",
+     "10",
+     "16",
+     "33",
+     "17",
+     "6"
+    ],
+    [
+     "OB11-08960",
+     "99",
+     "93",
+     "98",
+     "94",
+     "85"
+    ],
+    [
+     "OB11-08972",
+     "100",
+     "92",
+     "79",
+     "33",
+     "96"
+    ],
+    [
+     "OB11-08994",
+     "1",
+     "5",
+     "-7",
+     "18",
+     "5"
+    ],
+    [
+     "OB11-09014",
+     "-0",
+     "3",
+     "17",
+     "5",
+     "3"
+    ],
+    [
+     "OB11-09024",
+     "11",
+     "7",
+     "10",
+     "-2",
+     "8"
+    ],
+    [
+     "OB11-09026",
+     "24",
+     "8",
+     "18",
+     "1",
+     "8"
+    ],
+    [
+     "OB11-09042",
+     "5",
+     "9",
+     "2",
+     "7",
+     "3"
+    ],
+    [
+     "OB11-09056",
+     "66",
+     "69",
+     "89",
+     "49",
+     "59"
+    ],
+    [
+     "OB11-09062",
+     "18",
+     "9",
+     "3",
+     "82",
+     "23"
+    ],
+    [
+     "OB11-09078",
+     "-2",
+     "-0",
+     "4",
+     "5",
+     "6"
+    ]
+   ],
+   "notes": [
+    "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
+    "Controls (IC50, µM): furafylline (CYP1A2) 1.7; sulfaphenazole (CYP2C9) 0.29; ticlopidine (CYP2C19) 1.2; quinidine (CYP2D6) 0.061; ketoconazole (CYP3A4) 0.026"
+   ]
+  },
+  "cyp_ic50": {
+   "title": "CYP3A4 IC50 (µM)",
+   "columns": [
+    "Compound",
+    "IC50 (µM)",
+    "Probe substrate"
+   ],
+   "rows": [
+    [
+     "OB11-08910",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-08918",
+     "0.79",
+     "midazolam"
+    ],
+    [
+     "OB11-08922",
+     "9.9",
+     "midazolam"
+    ],
+    [
+     "OB11-08924",
+     "39",
+     "testosterone"
+    ],
+    [
+     "OB11-08928",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "OB11-08942",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-08952",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-08954",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-08960",
+     "1.6",
+     "testosterone"
+    ],
+    [
+     "OB11-08972",
+     "0.89",
+     "testosterone"
+    ],
+    [
+     "OB11-08994",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-09014",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "OB11-09024",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-09026",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "OB11-09042",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "OB11-09056",
+     "7.1",
+     "midazolam"
+    ],
+    [
+     "OB11-09062",
+     "50",
+     "midazolam"
+    ],
+    [
+     "OB11-09078",
+     ">50",
+     "testosterone"
+    ]
+   ],
+   "notes": [
+    "7-point curve, top 50 µM; ketoconazole control"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2020-088"
+    ],
+    [
+     "Client",
+     "Orvessant Biosciences Pty Ltd"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Orvessant piperidyl benzamide series 11 (Piperidyl benzamide)"
+    ],
+    [
+     "Assays",
+     "CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM, CYP3A4 inhibition IC50"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "19"
+    ],
+    [
+     "Price",
+     "USD 27,100"
+    ],
+    [
+     "CYP1A2 >50% inhibition @10 µM",
+     "4"
+    ],
+    [
+     "CYP2C9 >50% inhibition @10 µM",
+     "5"
+    ],
+    [
+     "CYP2C19 >50% inhibition @10 µM",
+     "4"
+    ],
+    [
+     "CYP2D6 >50% inhibition @10 µM",
+     "3"
+    ],
+    [
+     "CYP3A4 >50% inhibition @10 µM",
+     "5"
+    ],
+    [
+     "Compounds with any CYP >50%",
+     "6"
+    ],
+    [
+     "Ketoconazole (3A4) IC50 (µM)",
+     "0.026"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "cyp.n_gt50_CYP1A2": "4",
+  "cyp.control_CYP1A2_uM": "1.7",
+  "cyp.n_gt50_CYP2C9": "5",
+  "cyp.control_CYP2C9_uM": "0.29",
+  "cyp.n_gt50_CYP2C19": "4",
+  "cyp.control_CYP2C19_uM": "1.2",
+  "cyp.n_gt50_CYP2D6": "3",
+  "cyp.control_CYP2D6_uM": "0.061",
+  "cyp.n_gt50_CYP3A4": "5",
+  "cyp.control_CYP3A4_uM": "0.026",
+  "cyp.n_any_gt50": "6",
+  "cyp.OB11-08910.CYP3A4_pct": "6",
+  "cyp.OB11-08918.CYP3A4_pct": "84",
+  "cyp.OB11-08922.CYP3A4_pct": "53",
+  "cyp.OB11-08924.CYP3A4_pct": "28",
+  "cyp.OB11-08928.CYP3A4_pct": "11",
+  "cyp.OB11-08942.CYP3A4_pct": "5",
+  "cyp.OB11-08952.CYP3A4_pct": "-10",
+  "cyp.OB11-08954.CYP3A4_pct": "6",
+  "cyp.OB11-08960.CYP3A4_pct": "85",
+  "cyp.OB11-08972.CYP3A4_pct": "96",
+  "cyp.OB11-08994.CYP3A4_pct": "5",
+  "cyp.OB11-09014.CYP3A4_pct": "3",
+  "cyp.OB11-09024.CYP3A4_pct": "8",
+  "cyp.OB11-09026.CYP3A4_pct": "8",
+  "cyp.OB11-09042.CYP3A4_pct": "3",
+  "cyp.OB11-09056.CYP3A4_pct": "59",
+  "cyp.OB11-09062.CYP3A4_pct": "23",
+  "cyp.OB11-09078.CYP3A4_pct": "6",
+  "price": "USD 27,100",
+  "n_compounds": "18",
+  "turnaround_days": "19",
+  "client_variant": "Orvessant Biosciences Pty Ltd",
+  "project_id": "MV-2020-088",
+  "lims_id": "M20/BIO/02046"
+ }
+}

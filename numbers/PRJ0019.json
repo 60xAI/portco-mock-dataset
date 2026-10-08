@@ -1,0 +1,340 @@
+{
+ "project_id": "PRJ0019",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER10",
+ "compounds": [
+  {
+   "id": "VP10-03504",
+   "smiles": "Nc1ncc(-c2ccncc2)c2ccc(OCCNC3CCCCC3)cc12",
+   "mw": 362.5,
+   "clogp": 4.18,
+   "tpsa": 73.1
+  },
+  {
+   "id": "VP10-03536",
+   "smiles": "CCN1CCN(CCOc2ccc3c(-c4cccnc4)cnc(N)c3c2)CC1",
+   "mw": 377.5,
+   "clogp": 2.9,
+   "tpsa": 67.5
+  },
+  {
+   "id": "VP10-03546",
+   "smiles": "Nc1ncc(-c2cccnc2)c2ccc(OCCN3CCCC3)cc12",
+   "mw": 334.4,
+   "clogp": 3.35,
+   "tpsa": 64.3
+  },
+  {
+   "id": "VP10-03554",
+   "smiles": "CCN1CCN(CCOc2ccc3c(-c4ccc(C#N)cc4)cnc(N)c3c2)CC1",
+   "mw": 401.5,
+   "clogp": 3.37,
+   "tpsa": 78.4
+  },
+  {
+   "id": "VP10-03558",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)c2ccc(OCCN3CCCC3)cc12",
+   "mw": 369.4,
+   "clogp": 4.24,
+   "tpsa": 51.4
+  },
+  {
+   "id": "VP10-03560",
+   "smiles": "Nc1ncc(-c2cccnc2)c2ccc(OCCNC3CCCCC3)cc12",
+   "mw": 362.5,
+   "clogp": 4.18,
+   "tpsa": 73.1
+  },
+  {
+   "id": "VP10-03564",
+   "smiles": "Nc1ncc(-c2ccncc2)c2ccc(OCCN3CCOCC3)cc12",
+   "mw": 350.4,
+   "clogp": 2.59,
+   "tpsa": 73.5
+  },
+  {
+   "id": "VP10-03566",
+   "smiles": "COc1ccc(-c2cnc(N)c3cc(OCCN4CCCC4)ccc23)cc1",
+   "mw": 363.5,
+   "clogp": 3.97,
+   "tpsa": 60.6
+  },
+  {
+   "id": "VP10-03576",
+   "smiles": "Nc1ncc(-c2cccnc2)c2ccc(OCCN3CCC(O)CC3)cc12",
+   "mw": 364.4,
+   "clogp": 2.71,
+   "tpsa": 84.5
+  },
+  {
+   "id": "VP10-03578",
+   "smiles": "CCN1CCN(CCOc2ccc3c(-c4ccncc4)cnc(N)c3c2)CC1",
+   "mw": 377.5,
+   "clogp": 2.9,
+   "tpsa": 67.5
+  },
+  {
+   "id": "VP10-03582",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)c2ccc(OCCNC3CCCCC3)cc12",
+   "mw": 397.5,
+   "clogp": 5.06,
+   "tpsa": 60.2
+  },
+  {
+   "id": "VP10-03584",
+   "smiles": "COc1ccc(-c2cnc(N)c3cc(OCCN4CCN(C)CC4)ccc23)cc1",
+   "mw": 392.5,
+   "clogp": 3.12,
+   "tpsa": 63.9
+  },
+  {
+   "id": "VP10-03588",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)c3cc(OCCN4CCCC4)ccc23)cc1",
+   "mw": 390.5,
+   "clogp": 3.92,
+   "tpsa": 80.5
+  },
+  {
+   "id": "VP10-03602",
+   "smiles": "COc1ccc(-c2cnc(N)c3cc(OCCOC4CCN(C)CC4)ccc23)cc1",
+   "mw": 407.5,
+   "clogp": 3.98,
+   "tpsa": 69.8
+  },
+  {
+   "id": "VP10-03612",
+   "smiles": "N#Cc1ccc(-c2cnc(N)c3cc(OCCN4CCOCC4)ccc23)cc1",
+   "mw": 374.4,
+   "clogp": 3.07,
+   "tpsa": 84.4
+  },
+  {
+   "id": "VP10-03672",
+   "smiles": "CN1CCC(OCCOc2ccc3c(-c4ccc(F)cc4)cnc(N)c3c2)CC1",
+   "mw": 395.5,
+   "clogp": 4.11,
+   "tpsa": 60.6
+  },
+  {
+   "id": "VP10-03674",
+   "smiles": "CN1CCN(CCOc2ccc3c(-c4cncnc4)cnc(N)c3c2)CC1",
+   "mw": 364.5,
+   "clogp": 1.9,
+   "tpsa": 80.4
+  },
+  {
+   "id": "VP10-03684",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)c2ccc(OCCN3CCC(O)CC3)cc12",
+   "mw": 399.4,
+   "clogp": 3.6,
+   "tpsa": 71.6
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "VP10-03504",
+     "Nc1ncc(-c2ccncc2)c2ccc(OCCNC3CCCCC3)cc12",
+     "362.5",
+     "24",
+     "95.6",
+     "25"
+    ],
+    [
+     "VP10-03536",
+     "CCN1CCN(CCOc2ccc3c(-c4cccnc4)cnc(N)c3c2)CC1",
+     "377.5",
+     "45",
+     "96.6",
+     "23"
+    ],
+    [
+     "VP10-03546",
+     "Nc1ncc(-c2cccnc2)c2ccc(OCCN3CCCC3)cc12",
+     "334.4",
+     "28",
+     "96.0",
+     "28"
+    ],
+    [
+     "VP10-03554",
+     "CCN1CCN(CCOc2ccc3c(-c4ccc(C#N)cc4)cnc(N)c3c2)CC1",
+     "401.5",
+     "25",
+     "96.9",
+     "30"
+    ],
+    [
+     "VP10-03558",
+     "Nc1ncc(-c2cc(F)cc(F)c2)c2ccc(OCCN3CCCC3)cc12",
+     "369.4",
+     "27",
+     "98.0",
+     "55"
+    ],
+    [
+     "VP10-03560",
+     "Nc1ncc(-c2cccnc2)c2ccc(OCCNC3CCCCC3)cc12",
+     "362.5",
+     "15",
+     "97.6",
+     "15"
+    ],
+    [
+     "VP10-03564",
+     "Nc1ncc(-c2ccncc2)c2ccc(OCCN3CCOCC3)cc12",
+     "350.4",
+     "39",
+     "97.3",
+     "35"
+    ],
+    [
+     "VP10-03566",
+     "COc1ccc(-c2cnc(N)c3cc(OCCN4CCCC4)ccc23)cc1",
+     "363.5",
+     "48",
+     "92.9",
+     "27"
+    ],
+    [
+     "VP10-03576",
+     "Nc1ncc(-c2cccnc2)c2ccc(OCCN3CCC(O)CC3)cc12",
+     "364.4",
+     "15",
+     "96.5",
+     "12"
+    ],
+    [
+     "VP10-03578",
+     "CCN1CCN(CCOc2ccc3c(-c4ccncc4)cnc(N)c3c2)CC1",
+     "377.5",
+     "32",
+     "96.8",
+     "28"
+    ],
+    [
+     "VP10-03582",
+     "Nc1ncc(-c2cc(F)cc(F)c2)c2ccc(OCCNC3CCCCC3)cc12",
+     "397.5",
+     "58",
+     "95.0",
+     "21"
+    ],
+    [
+     "VP10-03584",
+     "COc1ccc(-c2cnc(N)c3cc(OCCN4CCN(C)CC4)ccc23)cc1",
+     "392.5",
+     "16",
+     "97.4",
+     "37"
+    ],
+    [
+     "VP10-03588",
+     "CC(=O)Nc1ccc(-c2cnc(N)c3cc(OCCN4CCCC4)ccc23)cc1",
+     "390.5",
+     "31",
+     "94.6",
+     "28"
+    ],
+    [
+     "VP10-03602",
+     "COc1ccc(-c2cnc(N)c3cc(OCCOC4CCN(C)CC4)ccc23)cc1",
+     "407.5",
+     "70",
+     "98.6",
+     "42"
+    ],
+    [
+     "VP10-03612",
+     "N#Cc1ccc(-c2cnc(N)c3cc(OCCN4CCOCC4)ccc23)cc1",
+     "374.4",
+     "37",
+     "92.7",
+     "18"
+    ],
+    [
+     "VP10-03672",
+     "CN1CCC(OCCOc2ccc3c(-c4ccc(F)cc4)cnc(N)c3c2)CC1",
+     "395.5",
+     "68",
+     "97.8",
+     "26"
+    ],
+    [
+     "VP10-03674",
+     "CN1CCN(CCOc2ccc3c(-c4cncnc4)cnc(N)c3c2)CC1",
+     "364.5",
+     "44",
+     "96.3",
+     "42"
+    ],
+    [
+     "VP10-03684",
+     "Nc1ncc(-c2cc(F)cc(F)c2)c2ccc(OCCN3CCC(O)CC3)cc12",
+     "399.4",
+     "48",
+     "97.6",
+     "19"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-16-033"
+    ],
+    [
+     "Client",
+     "Valquessia Pharmaceuticals SpA"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Valquessia aminoquinoline series 10 (Aminoquinoline)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "141"
+    ],
+    [
+     "Price",
+     "GBP 45,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 45,300",
+  "n_compounds": "18",
+  "turnaround_days": "141",
+  "client_variant": "Valquessia Pharmaceuticals SpA",
+  "project_id": "VD-16-033",
+  "lims_id": "VA20160323"
+ }
+}

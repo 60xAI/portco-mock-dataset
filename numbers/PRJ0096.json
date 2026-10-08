@@ -1,0 +1,68 @@
+{
+ "project_id": "PRJ0096",
+ "firm": "E",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "method_val": {
+   "title": "Method validation summary",
+   "columns": [
+    "Parameter",
+    "Result",
+    "Acceptance"
+   ],
+   "rows": [
+    [
+     "Linearity (r²)",
+     "0.9995",
+     "≥0.999"
+    ],
+    [
+     "Range (% nominal)",
+     "50-150",
+     "80-120 minimum"
+    ],
+    [
+     "Accuracy 80% (% recovery)",
+     "100.2",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 100% (% recovery)",
+     "100.2",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 120% (% recovery)",
+     "101.4",
+     "98.0-102.0"
+    ],
+    [
+     "Repeatability (%RSD, n=6)",
+     "0.28",
+     "≤2.0"
+    ],
+    [
+     "Intermediate precision (%RSD)",
+     "1.13",
+     "≤2.0"
+    ],
+    [
+     "LOQ (% of nominal)",
+     "0.03",
+     "≤0.05"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 69,800",
+  "n_compounds": "0",
+  "turnaround_days": "55",
+  "client_variant": "Culdrevane Pharma",
+  "project_id": "WA/2023/136",
+  "lims_id": "WST-23-004243"
+ }
+}

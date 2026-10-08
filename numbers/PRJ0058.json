@@ -1,0 +1,503 @@
+{
+ "project_id": "PRJ0058",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER04",
+ "compounds": [
+  {
+   "id": "TP04-02700",
+   "smiles": "Nc1ncnc2c1c(-c1cncnc1)nn2CCN1CCOCC1",
+   "mw": 326.4,
+   "clogp": 0.2,
+   "tpsa": 107.9
+  },
+  {
+   "id": "TP04-02722",
+   "smiles": "CC(=O)Nc1ccc(-c2nn(CCc3ccncc3)c3ncnc(N)c23)cc1",
+   "mw": 373.4,
+   "clogp": 2.67,
+   "tpsa": 111.6
+  },
+  {
+   "id": "TP04-02724",
+   "smiles": "Nc1ncnc2c1c(-c1cncnc1)nn2CCc1ccncc1",
+   "mw": 318.3,
+   "clogp": 1.5,
+   "tpsa": 108.3
+  },
+  {
+   "id": "TP04-02734",
+   "smiles": "N#Cc1ccc(-c2nn(CCN3CCCC3)c3ncnc(N)c23)cc1",
+   "mw": 333.4,
+   "clogp": 2.04,
+   "tpsa": 96.6
+  },
+  {
+   "id": "TP04-02736",
+   "smiles": "Nc1ncnc2c1c(-c1ccc(F)cc1)nn2CCN1CCC(O)CC1",
+   "mw": 356.4,
+   "clogp": 1.67,
+   "tpsa": 93.1
+  },
+  {
+   "id": "TP04-02742",
+   "smiles": "Nc1ncnc2c1c(-c1cccnc1)nn2CCN1CCCC1",
+   "mw": 309.4,
+   "clogp": 1.57,
+   "tpsa": 85.7
+  },
+  {
+   "id": "TP04-02746",
+   "smiles": "N#Cc1ccc(-c2nn(CCc3ccncc3)c3ncnc(N)c23)cc1",
+   "mw": 341.4,
+   "clogp": 2.58,
+   "tpsa": 106.3
+  },
+  {
+   "id": "TP04-02758",
+   "smiles": "Cc1ccc(-c2nn(CCc3ccncc3)c3ncnc(N)c23)nc1",
+   "mw": 331.4,
+   "clogp": 2.42,
+   "tpsa": 95.4
+  },
+  {
+   "id": "TP04-02784",
+   "smiles": "CC(=O)Nc1ccc(-c2nn(CCN3CCC(O)CC3)c3ncnc(N)c23)cc1",
+   "mw": 395.5,
+   "clogp": 1.49,
+   "tpsa": 122.2
+  },
+  {
+   "id": "TP04-02808",
+   "smiles": "CCN1CCN(CCn2nc(-c3ccc(N)cc3)c3c(N)ncnc32)CC1",
+   "mw": 366.5,
+   "clogp": 1.3,
+   "tpsa": 102.1
+  },
+  {
+   "id": "TP04-02818",
+   "smiles": "COc1ccc(-c2nn(CCN3CCC(N)CC3)c3ncnc(N)c23)cc1",
+   "mw": 367.5,
+   "clogp": 1.51,
+   "tpsa": 108.1
+  },
+  {
+   "id": "TP04-02820",
+   "smiles": "Nc1ncnc2c1c(-c1cccnc1)nn2CCN1CCC(N)CC1",
+   "mw": 338.4,
+   "clogp": 0.89,
+   "tpsa": 111.8
+  },
+  {
+   "id": "TP04-02824",
+   "smiles": "N#Cc1ccc(-c2nn(CCN3CCC(N)CC3)c3ncnc(N)c23)cc1",
+   "mw": 362.4,
+   "clogp": 1.37,
+   "tpsa": 122.7
+  },
+  {
+   "id": "TP04-02850",
+   "smiles": "COc1ccc(-c2nn(CCN3CCC(O)CC3)c3ncnc(N)c23)cc1",
+   "mw": 368.4,
+   "clogp": 1.54,
+   "tpsa": 102.3
+  },
+  {
+   "id": "TP04-02860",
+   "smiles": "CC(=O)Nc1ccc(CCn2nc(-c3ccc(NC(C)=O)cc3)c3c(N)ncnc32)cc1",
+   "mw": 429.5,
+   "clogp": 3.24,
+   "tpsa": 127.8
+  },
+  {
+   "id": "TP04-02872",
+   "smiles": "CC(=O)Nc1ccc(-c2nn(CCN3CCN(C)CC3)c3ncnc(N)c23)cc1",
+   "mw": 394.5,
+   "clogp": 1.28,
+   "tpsa": 105.2
+  },
+  {
+   "id": "TP04-02874",
+   "smiles": "N#Cc1ccc(-c2nn(CCN3CCC(O)CC3)c3ncnc(N)c23)cc1",
+   "mw": 363.4,
+   "clogp": 1.4,
+   "tpsa": 116.9
+  },
+  {
+   "id": "TP04-02880",
+   "smiles": "CC(=O)Nc1ccc(CCn2nc(-c3cccnc3)c3c(N)ncnc32)cc1",
+   "mw": 373.4,
+   "clogp": 2.67,
+   "tpsa": 111.6
+  }
+ ],
+ "tables": {
+  "cyp_inhib": {
+   "title": "CYP inhibition, % inhibition at 10 µM (human liver microsomes, probe substrates)",
+   "columns": [
+    "Compound",
+    "CYP1A2 (%)",
+    "CYP2C9 (%)",
+    "CYP2C19 (%)",
+    "CYP2D6 (%)",
+    "CYP3A4 (%)"
+   ],
+   "rows": [
+    [
+     "TP04-02700",
+     "-9",
+     "-4",
+     "5",
+     "-12",
+     "-2"
+    ],
+    [
+     "TP04-02722",
+     "24",
+     "90",
+     "69",
+     "38",
+     "90"
+    ],
+    [
+     "TP04-02724",
+     "45",
+     "12",
+     "8",
+     "31",
+     "39"
+    ],
+    [
+     "TP04-02734",
+     "45",
+     "7",
+     "8",
+     "3",
+     "4"
+    ],
+    [
+     "TP04-02736",
+     "1",
+     "10",
+     "3",
+     "8",
+     "3"
+    ],
+    [
+     "TP04-02742",
+     "25",
+     "8",
+     "2",
+     "8",
+     "45"
+    ],
+    [
+     "TP04-02746",
+     "83",
+     "49",
+     "87",
+     "78",
+     "71"
+    ],
+    [
+     "TP04-02758",
+     "34",
+     "60",
+     "80",
+     "76",
+     "71"
+    ],
+    [
+     "TP04-02784",
+     "7",
+     "7",
+     "-7",
+     "-2",
+     "-2"
+    ],
+    [
+     "TP04-02808",
+     "10",
+     "6",
+     "-4",
+     "-7",
+     "2"
+    ],
+    [
+     "TP04-02818",
+     "3",
+     "-2",
+     "10",
+     "-0",
+     "3"
+    ],
+    [
+     "TP04-02820",
+     "4",
+     "-2",
+     "-2",
+     "2",
+     "14"
+    ],
+    [
+     "TP04-02824",
+     "-0",
+     "8",
+     "-1",
+     "1",
+     "6"
+    ],
+    [
+     "TP04-02850",
+     "-6",
+     "8",
+     "7",
+     "1",
+     "0"
+    ],
+    [
+     "TP04-02860",
+     "8",
+     "100",
+     "61",
+     "19",
+     "57"
+    ],
+    [
+     "TP04-02872",
+     "0",
+     "3",
+     "-0",
+     "-5",
+     "-3"
+    ],
+    [
+     "TP04-02874",
+     "5",
+     "-2",
+     "-3",
+     "-2",
+     "10"
+    ],
+    [
+     "TP04-02880",
+     "61",
+     "79",
+     "87",
+     "34",
+     "84"
+    ]
+   ],
+   "notes": [
+    "Single concentration 10 µM, duplicate incubations, mean reported; negative values = no inhibition",
+    "Controls (IC50, µM): furafylline (CYP1A2) 2.1; sulfaphenazole (CYP2C9) 0.48; ticlopidine (CYP2C19) 1.1; quinidine (CYP2D6) 0.065; ketoconazole (CYP3A4) 0.035"
+   ]
+  },
+  "cyp_ic50": {
+   "title": "CYP3A4 IC50 (µM)",
+   "columns": [
+    "Compound",
+    "IC50 (µM)",
+    "Probe substrate"
+   ],
+   "rows": [
+    [
+     "TP04-02700",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02722",
+     "1.3",
+     "midazolam"
+    ],
+    [
+     "TP04-02724",
+     "19",
+     "testosterone"
+    ],
+    [
+     "TP04-02734",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02736",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02742",
+     "17",
+     "testosterone"
+    ],
+    [
+     "TP04-02746",
+     "4.0",
+     "midazolam"
+    ],
+    [
+     "TP04-02758",
+     "4.3",
+     "testosterone"
+    ],
+    [
+     "TP04-02784",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "TP04-02808",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02818",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02820",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02824",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "TP04-02850",
+     ">50",
+     "testosterone"
+    ],
+    [
+     "TP04-02860",
+     "3.9",
+     "midazolam"
+    ],
+    [
+     "TP04-02872",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "TP04-02874",
+     ">50",
+     "midazolam"
+    ],
+    [
+     "TP04-02880",
+     "0.97",
+     "testosterone"
+    ]
+   ],
+   "notes": [
+    "7-point curve, top 50 µM; ketoconazole control"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2016-095"
+    ],
+    [
+     "Client",
+     "Tervemere Pharma AG"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Tervemere aminopyrazolopyrimidine series 04 (Aminopyrazolopyrimidine)"
+    ],
+    [
+     "Assays",
+     "CYP inhibition panel (1A2/2C9/2C19/2D6/3A4) at 10 µM, CYP3A4 inhibition IC50"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "17"
+    ],
+    [
+     "Price",
+     "USD 20,300"
+    ],
+    [
+     "CYP1A2 >50% inhibition @10 µM",
+     "2"
+    ],
+    [
+     "CYP2C9 >50% inhibition @10 µM",
+     "4"
+    ],
+    [
+     "CYP2C19 >50% inhibition @10 µM",
+     "5"
+    ],
+    [
+     "CYP2D6 >50% inhibition @10 µM",
+     "2"
+    ],
+    [
+     "CYP3A4 >50% inhibition @10 µM",
+     "5"
+    ],
+    [
+     "Compounds with any CYP >50%",
+     "5"
+    ],
+    [
+     "Ketoconazole (3A4) IC50 (µM)",
+     "0.035"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "cyp.n_gt50_CYP1A2": "2",
+  "cyp.control_CYP1A2_uM": "2.1",
+  "cyp.n_gt50_CYP2C9": "4",
+  "cyp.control_CYP2C9_uM": "0.48",
+  "cyp.n_gt50_CYP2C19": "5",
+  "cyp.control_CYP2C19_uM": "1.1",
+  "cyp.n_gt50_CYP2D6": "2",
+  "cyp.control_CYP2D6_uM": "0.065",
+  "cyp.n_gt50_CYP3A4": "5",
+  "cyp.control_CYP3A4_uM": "0.035",
+  "cyp.n_any_gt50": "5",
+  "cyp.TP04-02700.CYP3A4_pct": "-2",
+  "cyp.TP04-02722.CYP3A4_pct": "90",
+  "cyp.TP04-02724.CYP3A4_pct": "39",
+  "cyp.TP04-02734.CYP3A4_pct": "4",
+  "cyp.TP04-02736.CYP3A4_pct": "3",
+  "cyp.TP04-02742.CYP3A4_pct": "45",
+  "cyp.TP04-02746.CYP3A4_pct": "71",
+  "cyp.TP04-02758.CYP3A4_pct": "71",
+  "cyp.TP04-02784.CYP3A4_pct": "-2",
+  "cyp.TP04-02808.CYP3A4_pct": "2",
+  "cyp.TP04-02818.CYP3A4_pct": "3",
+  "cyp.TP04-02820.CYP3A4_pct": "14",
+  "cyp.TP04-02824.CYP3A4_pct": "6",
+  "cyp.TP04-02850.CYP3A4_pct": "0",
+  "cyp.TP04-02860.CYP3A4_pct": "57",
+  "cyp.TP04-02872.CYP3A4_pct": "-3",
+  "cyp.TP04-02874.CYP3A4_pct": "10",
+  "cyp.TP04-02880.CYP3A4_pct": "84",
+  "price": "USD 20,300",
+  "n_compounds": "18",
+  "turnaround_days": "17",
+  "client_variant": "Tervemere Pharma AG",
+  "project_id": "MV-2016-095",
+  "lims_id": "M16/BIO/02193"
+ }
+}

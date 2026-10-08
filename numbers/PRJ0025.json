@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0025",
+ "firm": "A",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 50,300",
+  "n_compounds": "0",
+  "turnaround_days": "98",
+  "client_variant": "Elvarmere Biosciences AB",
+  "project_id": "VD-22-076",
+  "lims_id": "VA20220698"
+ }
+}

@@ -1,0 +1,550 @@
+{
+ "project_id": "PRJ0017",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER06",
+ "compounds": [
+  {
+   "id": "DT06-02310",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)cc1",
+   "mw": 431.5,
+   "clogp": 3.38,
+   "tpsa": 109.6
+  },
+  {
+   "id": "DT06-02316",
+   "smiles": "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(N2CCOCC2)cc1",
+   "mw": 376.4,
+   "clogp": 2.21,
+   "tpsa": 106.3
+  },
+  {
+   "id": "DT06-02318",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C)cn4)cnc3N)cc2)cc1",
+   "mw": 437.5,
+   "clogp": 4.91,
+   "tpsa": 110.0
+  },
+  {
+   "id": "DT06-02330",
+   "smiles": "N#Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)cc1",
+   "mw": 412.5,
+   "clogp": 3.38,
+   "tpsa": 121.1
+  },
+  {
+   "id": "DT06-02348",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4cncnc4)cnc3N)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "DT06-02354",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)cnc3N)cc2)CC1",
+   "mw": 412.5,
+   "clogp": 3.21,
+   "tpsa": 98.3
+  },
+  {
+   "id": "DT06-02358",
+   "smiles": "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(N2CCC(N)CC2)cc1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "DT06-02364",
+   "smiles": "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)nc1",
+   "mw": 402.5,
+   "clogp": 3.21,
+   "tpsa": 110.2
+  },
+  {
+   "id": "DT06-02370",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(N)cc4)cnc3N)cc2)cc1",
+   "mw": 437.5,
+   "clogp": 4.79,
+   "tpsa": 123.1
+  },
+  {
+   "id": "DT06-02372",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)cc1NC(=O)c1ccc(N2CCC(O)CC2)cc1",
+   "mw": 424.5,
+   "clogp": 3.82,
+   "tpsa": 91.5
+  },
+  {
+   "id": "DT06-02378",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccncc4)cnc3N)cc2)cc1",
+   "mw": 423.5,
+   "clogp": 4.6,
+   "tpsa": 110.0
+  },
+  {
+   "id": "DT06-02384",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)cc1NC(=O)c1ccc(N2CCOCC2)cc1",
+   "mw": 410.4,
+   "clogp": 3.7,
+   "tpsa": 80.5
+  },
+  {
+   "id": "DT06-02390",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)cnc3N)cc2)cc1",
+   "mw": 440.5,
+   "clogp": 5.35,
+   "tpsa": 97.1
+  },
+  {
+   "id": "DT06-02394",
+   "smiles": "Nc1ncc(-c2ccc(F)cc2)cc1NC(=O)c1ccc(N2CCOCC2)cc1",
+   "mw": 392.4,
+   "clogp": 3.56,
+   "tpsa": 80.5
+  },
+  {
+   "id": "DT06-02402",
+   "smiles": "Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)cc1",
+   "mw": 389.5,
+   "clogp": 3.0,
+   "tpsa": 106.5
+  },
+  {
+   "id": "DT06-02412",
+   "smiles": "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(-c2ccncc2)cc1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  },
+  {
+   "id": "DT06-02414",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)cnc3N)cc2)CC1",
+   "mw": 427.5,
+   "clogp": 3.93,
+   "tpsa": 104.3
+  },
+  {
+   "id": "DT06-02424",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)cc1",
+   "mw": 444.5,
+   "clogp": 3.47,
+   "tpsa": 126.4
+  },
+  {
+   "id": "DT06-02426",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(O)CC4)cc3)c2)cc1",
+   "mw": 445.5,
+   "clogp": 3.5,
+   "tpsa": 120.6
+  },
+  {
+   "id": "DT06-02432",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(NC4CCCCC4)cc3)c2)cc1",
+   "mw": 443.6,
+   "clogp": 5.29,
+   "tpsa": 109.1
+  },
+  {
+   "id": "DT06-02436",
+   "smiles": "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2)nc1",
+   "mw": 402.5,
+   "clogp": 3.04,
+   "tpsa": 87.4
+  },
+  {
+   "id": "DT06-02442",
+   "smiles": "Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)cc1",
+   "mw": 402.5,
+   "clogp": 3.09,
+   "tpsa": 123.3
+  },
+  {
+   "id": "DT06-02444",
+   "smiles": "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)c2)nc1",
+   "mw": 417.5,
+   "clogp": 3.76,
+   "tpsa": 93.4
+  },
+  {
+   "id": "DT06-02454",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2)cc1",
+   "mw": 444.5,
+   "clogp": 3.29,
+   "tpsa": 103.6
+  },
+  {
+   "id": "DT06-02456",
+   "smiles": "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(-c4ccncc4)cc3)c2)nc1",
+   "mw": 381.4,
+   "clogp": 4.35,
+   "tpsa": 93.8
+  },
+  {
+   "id": "DT06-02462",
+   "smiles": "Nc1ncc(-c2ccc(F)cc2)cc1NC(=O)c1ccc(NC2CCCCC2)cc1",
+   "mw": 404.5,
+   "clogp": 5.47,
+   "tpsa": 80.0
+  },
+  {
+   "id": "DT06-02466",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)cc1NC(=O)c1ccc(NC2CCCCC2)cc1",
+   "mw": 422.5,
+   "clogp": 5.61,
+   "tpsa": 80.0
+  },
+  {
+   "id": "DT06-02468",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)cnc3N)cc2)cc1",
+   "mw": 447.5,
+   "clogp": 5.08,
+   "tpsa": 120.9
+  },
+  {
+   "id": "DT06-02474",
+   "smiles": "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(N2CCC(O)CC2)cc1",
+   "mw": 390.4,
+   "clogp": 2.33,
+   "tpsa": 117.3
+  },
+  {
+   "id": "DT06-02478",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)cnc3N)cc2)CC1",
+   "mw": 423.5,
+   "clogp": 3.61,
+   "tpsa": 74.5
+  },
+  {
+   "id": "DT06-02484",
+   "smiles": "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)nc1",
+   "mw": 389.5,
+   "clogp": 3.12,
+   "tpsa": 93.4
+  },
+  {
+   "id": "DT06-02486",
+   "smiles": "N#Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)cc1",
+   "mw": 399.5,
+   "clogp": 3.29,
+   "tpsa": 104.3
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "DT06-02310",
+     "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)cc1",
+     "431.5",
+     "32",
+     "96.1",
+     "27"
+    ],
+    [
+     "DT06-02316",
+     "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(N2CCOCC2)cc1",
+     "376.4",
+     "58",
+     "95.9",
+     "36"
+    ],
+    [
+     "DT06-02318",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C)cn4)cnc3N)cc2)cc1",
+     "437.5",
+     "44",
+     "94.7",
+     "27"
+    ],
+    [
+     "DT06-02330",
+     "N#Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)cc1",
+     "412.5",
+     "60",
+     "93.2",
+     "44"
+    ],
+    [
+     "DT06-02348",
+     "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4cncnc4)cnc3N)cc2)CC1",
+     "404.5",
+     "69",
+     "97.8",
+     "14"
+    ],
+    [
+     "DT06-02354",
+     "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)cnc3N)cc2)CC1",
+     "412.5",
+     "63",
+     "97.5",
+     "34"
+    ],
+    [
+     "DT06-02358",
+     "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(N2CCC(N)CC2)cc1",
+     "389.5",
+     "35",
+     "94.7",
+     "25"
+    ],
+    [
+     "DT06-02364",
+     "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)nc1",
+     "402.5",
+     "45",
+     "97.5",
+     "21"
+    ],
+    [
+     "DT06-02370",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(N)cc4)cnc3N)cc2)cc1",
+     "437.5",
+     "59",
+     "94.8",
+     "22"
+    ],
+    [
+     "DT06-02372",
+     "Nc1ncc(-c2cc(F)cc(F)c2)cc1NC(=O)c1ccc(N2CCC(O)CC2)cc1",
+     "424.5",
+     "69",
+     "96.6",
+     "19"
+    ],
+    [
+     "DT06-02378",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccncc4)cnc3N)cc2)cc1",
+     "423.5",
+     "45",
+     "94.0",
+     "22"
+    ],
+    [
+     "DT06-02384",
+     "Nc1ncc(-c2cc(F)cc(F)c2)cc1NC(=O)c1ccc(N2CCOCC2)cc1",
+     "410.4",
+     "41",
+     "96.9",
+     "16"
+    ],
+    [
+     "DT06-02390",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)cnc3N)cc2)cc1",
+     "440.5",
+     "27",
+     "95.5",
+     "5"
+    ],
+    [
+     "DT06-02394",
+     "Nc1ncc(-c2ccc(F)cc2)cc1NC(=O)c1ccc(N2CCOCC2)cc1",
+     "392.4",
+     "67",
+     "97.4",
+     "7"
+    ],
+    [
+     "DT06-02402",
+     "Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)cc1",
+     "389.5",
+     "23",
+     "96.8",
+     "27"
+    ],
+    [
+     "DT06-02412",
+     "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(-c2ccncc2)cc1",
+     "368.4",
+     "51",
+     "96.8",
+     "21"
+    ],
+    [
+     "DT06-02414",
+     "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)cnc3N)cc2)CC1",
+     "427.5",
+     "73",
+     "97.2",
+     "35"
+    ],
+    [
+     "DT06-02424",
+     "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)cc1",
+     "444.5",
+     "25",
+     "98.0",
+     "26"
+    ],
+    [
+     "DT06-02426",
+     "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(O)CC4)cc3)c2)cc1",
+     "445.5",
+     "50",
+     "96.0",
+     "31"
+    ],
+    [
+     "DT06-02432",
+     "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(NC4CCCCC4)cc3)c2)cc1",
+     "443.6",
+     "50",
+     "95.6",
+     "37"
+    ],
+    [
+     "DT06-02436",
+     "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2)nc1",
+     "402.5",
+     "54",
+     "97.1",
+     "24"
+    ],
+    [
+     "DT06-02442",
+     "Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCC(N)CC4)cc3)c2)cc1",
+     "402.5",
+     "51",
+     "94.7",
+     "34"
+    ],
+    [
+     "DT06-02444",
+     "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)c2)nc1",
+     "417.5",
+     "33",
+     "96.6",
+     "53"
+    ],
+    [
+     "DT06-02454",
+     "CC(=O)Nc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2)cc1",
+     "444.5",
+     "56",
+     "97.0",
+     "39"
+    ],
+    [
+     "DT06-02456",
+     "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(-c4ccncc4)cc3)c2)nc1",
+     "381.4",
+     "43",
+     "96.1",
+     "23"
+    ],
+    [
+     "DT06-02462",
+     "Nc1ncc(-c2ccc(F)cc2)cc1NC(=O)c1ccc(NC2CCCCC2)cc1",
+     "404.5",
+     "67",
+     "95.8",
+     "12"
+    ],
+    [
+     "DT06-02466",
+     "Nc1ncc(-c2cc(F)cc(F)c2)cc1NC(=O)c1ccc(NC2CCCCC2)cc1",
+     "422.5",
+     "37",
+     "99.1",
+     "23"
+    ],
+    [
+     "DT06-02468",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)cnc3N)cc2)cc1",
+     "447.5",
+     "23",
+     "97.4",
+     "12"
+    ],
+    [
+     "DT06-02474",
+     "Nc1ncc(-c2cncnc2)cc1NC(=O)c1ccc(N2CCC(O)CC2)cc1",
+     "390.4",
+     "32",
+     "96.7",
+     "13"
+    ],
+    [
+     "DT06-02478",
+     "CN1CCN(c2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)cnc3N)cc2)CC1",
+     "423.5",
+     "18",
+     "97.3",
+     "34"
+    ],
+    [
+     "DT06-02484",
+     "Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)nc1",
+     "389.5",
+     "20",
+     "97.3",
+     "28"
+    ],
+    [
+     "DT06-02486",
+     "N#Cc1ccc(-c2cnc(N)c(NC(=O)c3ccc(N4CCOCC4)cc3)c2)cc1",
+     "399.5",
+     "27",
+     "96.0",
+     "14"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-98-076"
+    ],
+    [
+     "Client",
+     "Drelvessa Therapeutics SAS"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Drelvessa aminopyridine series 06 (Aminopyridine)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "125"
+    ],
+    [
+     "Price",
+     "GBP 26,500"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 26,500",
+  "n_compounds": "32",
+  "turnaround_days": "125",
+  "client_variant": "Drelvessa Therapeutics SAS",
+  "project_id": "VD-98-076",
+  "lims_id": "VA19980690"
+ }
+}

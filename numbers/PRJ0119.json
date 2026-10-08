@@ -1,0 +1,635 @@
+{
+ "project_id": "PRJ0119",
+ "firm": "G",
+ "status": "completed",
+ "series": "SER03",
+ "compounds": [
+  {
+   "id": "ST03-01204",
+   "smiles": "CN1CCC(OCCNc2ncnc3c(-c4ccc(N)cc4)cccc23)CC1",
+   "mw": 377.5,
+   "clogp": 3.4,
+   "tpsa": 76.3
+  },
+  {
+   "id": "ST03-01210",
+   "smiles": "CN1CCN(CCNc2ncnc3c(-c4ccc(N)cc4)cccc23)CC1",
+   "mw": 362.5,
+   "clogp": 2.54,
+   "tpsa": 70.3
+  },
+  {
+   "id": "ST03-01212",
+   "smiles": "CCN1CCN(CCNc2ncnc3c(-c4cncnc4)cccc23)CC1",
+   "mw": 363.5,
+   "clogp": 2.14,
+   "tpsa": 70.1
+  },
+  {
+   "id": "ST03-01218",
+   "smiles": "CCN1CCN(CCNc2ncnc3c(-c4ccc(OC)cc4)cccc23)CC1",
+   "mw": 391.5,
+   "clogp": 3.35,
+   "tpsa": 53.5
+  },
+  {
+   "id": "ST03-01222",
+   "smiles": "COc1ccc(-c2cccc3c(NCCOC4CCN(C)CC4)ncnc23)cc1",
+   "mw": 392.5,
+   "clogp": 3.83,
+   "tpsa": 59.5
+  },
+  {
+   "id": "ST03-01224",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc3c(NCCc4ccncc4)ncnc23)cc1",
+   "mw": 383.5,
+   "clogp": 4.3,
+   "tpsa": 79.8
+  },
+  {
+   "id": "ST03-01230",
+   "smiles": "c1cncc(-c2cccc3c(NCCc4ccncc4)ncnc23)c1",
+   "mw": 327.4,
+   "clogp": 3.74,
+   "tpsa": 63.6
+  },
+  {
+   "id": "ST03-01234",
+   "smiles": "N#Cc1ccc(-c2cccc3c(NCCNC4CCCCC4)ncnc23)cc1",
+   "mw": 371.5,
+   "clogp": 4.5,
+   "tpsa": 73.6
+  },
+  {
+   "id": "ST03-01246",
+   "smiles": "c1cc(-c2cncnc2)c2ncnc(NCCN3CCOCC3)c2c1",
+   "mw": 336.4,
+   "clogp": 1.83,
+   "tpsa": 76.1
+  },
+  {
+   "id": "ST03-01248",
+   "smiles": "Nc1ccc(-c2cccc3c(NCCc4ccncc4)ncnc23)cc1",
+   "mw": 341.4,
+   "clogp": 3.93,
+   "tpsa": 76.7
+  },
+  {
+   "id": "ST03-01252",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc3c(NCCOC4CCN(C)CC4)ncnc23)cc1",
+   "mw": 419.5,
+   "clogp": 3.78,
+   "tpsa": 79.4
+  },
+  {
+   "id": "ST03-01254",
+   "smiles": "CN1CCN(CCNc2ncnc3c(-c4ccc(C#N)cc4)cccc23)CC1",
+   "mw": 372.5,
+   "clogp": 2.83,
+   "tpsa": 68.1
+  },
+  {
+   "id": "ST03-01264",
+   "smiles": "CCN1CCN(CCNc2ncnc3c(-c4ccc(C#N)cc4)cccc23)CC1",
+   "mw": 386.5,
+   "clogp": 3.22,
+   "tpsa": 68.1
+  },
+  {
+   "id": "ST03-01272",
+   "smiles": "CN1CCN(CCNc2ncnc3c(-c4cncnc4)cccc23)CC1",
+   "mw": 349.4,
+   "clogp": 1.75,
+   "tpsa": 70.1
+  },
+  {
+   "id": "ST03-01278",
+   "smiles": "N#Cc1ccc(-c2cccc3c(NCCN4CCCC4)ncnc23)cc1",
+   "mw": 343.4,
+   "clogp": 3.68,
+   "tpsa": 64.8
+  },
+  {
+   "id": "ST03-01284",
+   "smiles": "CN1CCN(CCNc2ncnc3c(-c4ccncc4)cccc23)CC1",
+   "mw": 348.5,
+   "clogp": 2.35,
+   "tpsa": 57.2
+  },
+  {
+   "id": "ST03-01290",
+   "smiles": "CC(=O)Nc1ccc(CCNc2ncnc3c(-c4ccc(C#N)cc4)cccc23)cc1",
+   "mw": 407.5,
+   "clogp": 4.78,
+   "tpsa": 90.7
+  },
+  {
+   "id": "ST03-01294",
+   "smiles": "c1cc(-c2cncnc2)c2ncnc(NCCNC3CCCCC3)c2c1",
+   "mw": 348.5,
+   "clogp": 3.42,
+   "tpsa": 75.6
+  },
+  {
+   "id": "ST03-01296",
+   "smiles": "c1cc(-c2ccncc2)c2ncnc(NCCN3CCOCC3)c2c1",
+   "mw": 335.4,
+   "clogp": 2.44,
+   "tpsa": 63.2
+  },
+  {
+   "id": "ST03-01302",
+   "smiles": "CN1CCC(OCCNc2ncnc3c(-c4cccnc4)cccc23)CC1",
+   "mw": 363.5,
+   "clogp": 3.21,
+   "tpsa": 63.2
+  },
+  {
+   "id": "ST03-01306",
+   "smiles": "Cc1ccc(-c2cccc3c(NCCNC4CCCCC4)ncnc23)nc1",
+   "mw": 361.5,
+   "clogp": 4.33,
+   "tpsa": 62.7
+  },
+  {
+   "id": "ST03-01312",
+   "smiles": "CCN1CCN(CCNc2ncnc3c(-c4cccnc4)cccc23)CC1",
+   "mw": 362.5,
+   "clogp": 2.74,
+   "tpsa": 57.2
+  },
+  {
+   "id": "ST03-01314",
+   "smiles": "Cc1ccc(-c2cccc3c(NCCc4ccncc4)ncnc23)nc1",
+   "mw": 341.4,
+   "clogp": 4.05,
+   "tpsa": 63.6
+  },
+  {
+   "id": "ST03-01320",
+   "smiles": "Nc1ccc(-c2cccc3c(NCCNC4CCCCC4)ncnc23)cc1",
+   "mw": 361.5,
+   "clogp": 4.21,
+   "tpsa": 75.9
+  },
+  {
+   "id": "ST03-01324",
+   "smiles": "CCN1CCN(CCNc2ncnc3c(-c4ccc(N)cc4)cccc23)CC1",
+   "mw": 376.5,
+   "clogp": 2.93,
+   "tpsa": 70.3
+  },
+  {
+   "id": "ST03-01330",
+   "smiles": "CC(=O)Nc1ccc(CCNc2ncnc3c(-c4ccc(N)cc4)cccc23)cc1",
+   "mw": 397.5,
+   "clogp": 4.49,
+   "tpsa": 92.9
+  },
+  {
+   "id": "ST03-01332",
+   "smiles": "Cc1ccc(-c2cccc3c(NCCN4CCCC4)ncnc23)nc1",
+   "mw": 333.4,
+   "clogp": 3.51,
+   "tpsa": 53.9
+  },
+  {
+   "id": "ST03-01338",
+   "smiles": "CC(=O)Nc1ccc(CCNc2ncnc3c(-c4ccncc4)cccc23)cc1",
+   "mw": 383.5,
+   "clogp": 4.3,
+   "tpsa": 79.8
+  },
+  {
+   "id": "ST03-01344",
+   "smiles": "CN1CCC(OCCNc2ncnc3c(-c4cncnc4)cccc23)CC1",
+   "mw": 364.5,
+   "clogp": 2.61,
+   "tpsa": 76.1
+  },
+  {
+   "id": "ST03-01348",
+   "smiles": "c1cc(-c2ccncc2)c2ncnc(NCCN3CCCC3)c2c1",
+   "mw": 319.4,
+   "clogp": 3.2,
+   "tpsa": 53.9
+  },
+  {
+   "id": "ST03-01350",
+   "smiles": "c1cncc(-c2cccc3c(NCCNC4CCCCC4)ncnc23)c1",
+   "mw": 347.5,
+   "clogp": 4.03,
+   "tpsa": 62.7
+  },
+  {
+   "id": "ST03-01354",
+   "smiles": "CN1CCC(OCCNc2ncnc3c(-c4ccncc4)cccc23)CC1",
+   "mw": 363.5,
+   "clogp": 3.21,
+   "tpsa": 63.2
+  },
+  {
+   "id": "ST03-01356",
+   "smiles": "CCN1CCN(CCNc2ncnc3c(-c4ccc(C)cn4)cccc23)CC1",
+   "mw": 376.5,
+   "clogp": 3.05,
+   "tpsa": 57.2
+  },
+  {
+   "id": "ST03-01360",
+   "smiles": "CC(=O)Nc1ccc(CCNc2ncnc3c(-c4ccc(C)cn4)cccc23)cc1",
+   "mw": 397.5,
+   "clogp": 4.61,
+   "tpsa": 79.8
+  },
+  {
+   "id": "ST03-01362",
+   "smiles": "c1cc(-c2ccncc2)c2ncnc(NCCNC3CCCCC3)c2c1",
+   "mw": 347.5,
+   "clogp": 4.03,
+   "tpsa": 62.7
+  },
+  {
+   "id": "ST03-01366",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc3c(NCCN4CCN(C)CC4)ncnc23)cc1",
+   "mw": 404.5,
+   "clogp": 2.91,
+   "tpsa": 73.4
+  },
+  {
+   "id": "ST03-01378",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc3c(NCCN4CCCC4)ncnc23)cc1",
+   "mw": 375.5,
+   "clogp": 3.76,
+   "tpsa": 70.2
+  },
+  {
+   "id": "ST03-01380",
+   "smiles": "CC(=O)Nc1ccc(CCNc2ncnc3c(-c4ccc(NC(C)=O)cc4)cccc23)cc1",
+   "mw": 439.5,
+   "clogp": 4.87,
+   "tpsa": 96.0
+  },
+  {
+   "id": "ST03-01384",
+   "smiles": "c1cc(-c2ccncc2)c2ncnc(NCCc3ccncc3)c2c1",
+   "mw": 327.4,
+   "clogp": 3.74,
+   "tpsa": 63.6
+  },
+  {
+   "id": "ST03-01390",
+   "smiles": "CC(=O)Nc1ccc(CCNc2ncnc3c(-c4cncnc4)cccc23)cc1",
+   "mw": 384.4,
+   "clogp": 3.7,
+   "tpsa": 92.7
+  }
+ ],
+ "tables": {
+  "cytotox": {
+   "title": "HepG2 cytotoxicity (ATP content), IC50 µM",
+   "columns": [
+    "Compound",
+    "24 h IC50 (µM)",
+    "48 h IC50 (µM)"
+   ],
+   "rows": [
+    [
+     "ST03-01204",
+     "17",
+     "12"
+    ],
+    [
+     "ST03-01210",
+     "47",
+     "33"
+    ],
+    [
+     "ST03-01212",
+     "34",
+     "24"
+    ],
+    [
+     "ST03-01218",
+     "6.5",
+     "4.6"
+    ],
+    [
+     "ST03-01222",
+     "74",
+     "52"
+    ],
+    [
+     "ST03-01224",
+     "13",
+     "9.0"
+    ],
+    [
+     "ST03-01230",
+     "46",
+     "32"
+    ],
+    [
+     "ST03-01234",
+     "18",
+     "12"
+    ],
+    [
+     "ST03-01246",
+     "31",
+     "22"
+    ],
+    [
+     "ST03-01248",
+     ">100",
+     "87"
+    ],
+    [
+     "ST03-01252",
+     "46",
+     "32"
+    ],
+    [
+     "ST03-01254",
+     ">100",
+     "89"
+    ],
+    [
+     "ST03-01264",
+     "9.4",
+     "6.5"
+    ],
+    [
+     "ST03-01272",
+     "8.4",
+     "5.9"
+    ],
+    [
+     "ST03-01278",
+     "68",
+     "48"
+    ],
+    [
+     "ST03-01284",
+     "20",
+     "14"
+    ],
+    [
+     "ST03-01290",
+     "32",
+     "22"
+    ],
+    [
+     "ST03-01294",
+     "7.8",
+     "5.4"
+    ],
+    [
+     "ST03-01296",
+     "16",
+     "11"
+    ],
+    [
+     "ST03-01302",
+     "32",
+     "23"
+    ],
+    [
+     "ST03-01306",
+     "57",
+     "40"
+    ],
+    [
+     "ST03-01312",
+     "35",
+     "24"
+    ],
+    [
+     "ST03-01314",
+     "22",
+     "15"
+    ],
+    [
+     "ST03-01320",
+     "16",
+     "11"
+    ],
+    [
+     "ST03-01324",
+     "30",
+     "21"
+    ],
+    [
+     "ST03-01330",
+     "16",
+     "11"
+    ],
+    [
+     "ST03-01332",
+     "27",
+     "19"
+    ],
+    [
+     "ST03-01338",
+     "57",
+     "40"
+    ],
+    [
+     "ST03-01344",
+     ">100",
+     "87"
+    ],
+    [
+     "ST03-01348",
+     "38",
+     "27"
+    ],
+    [
+     "ST03-01350",
+     "3.7",
+     "2.6"
+    ],
+    [
+     "ST03-01354",
+     "11",
+     "7.5"
+    ],
+    [
+     "ST03-01356",
+     "53",
+     "37"
+    ],
+    [
+     "ST03-01360",
+     "35",
+     "24"
+    ],
+    [
+     "ST03-01362",
+     "27",
+     "19"
+    ],
+    [
+     "ST03-01366",
+     "10",
+     "7.1"
+    ],
+    [
+     "ST03-01378",
+     "5.6",
+     "3.9"
+    ],
+    [
+     "ST03-01380",
+     "26",
+     "18"
+    ],
+    [
+     "ST03-01384",
+     "49",
+     "34"
+    ],
+    [
+     "ST03-01390",
+     "100",
+     "70"
+    ]
+   ],
+   "notes": [
+    "Chlorpromazine control"
+   ]
+  },
+  "micronucleus": {
+   "title": "In vitro micronucleus (TK6), % MN cells",
+   "columns": [
+    "Treatment",
+    "Conc (µg/mL)",
+    "% MN cells",
+    "RPD (%)"
+   ],
+   "rows": [
+    [
+     "3 h +S9",
+     "vehicle",
+     "1.09",
+     "100"
+    ],
+    [
+     "3 h +S9",
+     50,
+     "1.13",
+     "95"
+    ],
+    [
+     "3 h +S9",
+     100,
+     "0.81",
+     "89"
+    ],
+    [
+     "3 h +S9",
+     200,
+     "0.61",
+     "67"
+    ],
+    [
+     "3 h -S9",
+     "vehicle",
+     "0.94",
+     "100"
+    ],
+    [
+     "3 h -S9",
+     50,
+     "0.85",
+     "92"
+    ],
+    [
+     "3 h -S9",
+     100,
+     "0.39",
+     "94"
+    ],
+    [
+     "3 h -S9",
+     200,
+     "0.70",
+     "88"
+    ],
+    [
+     "24 h -S9",
+     "vehicle",
+     "0.73",
+     "100"
+    ],
+    [
+     "24 h -S9",
+     50,
+     "1.27",
+     "90"
+    ],
+    [
+     "24 h -S9",
+     100,
+     "0.27",
+     "87"
+    ],
+    [
+     "24 h -S9",
+     200,
+     "0.44",
+     "81"
+    ]
+   ],
+   "notes": [
+    "Outcome: negative"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "OT-15-S0064"
+    ],
+    [
+     "Client",
+     "Selverant Therapeutics Inc"
+    ],
+    [
+     "Compounds tested",
+     "40"
+    ],
+    [
+     "Series / chemotype",
+     "Selverant aminoquinazoline series 03 (Aminoquinazoline)"
+    ],
+    [
+     "Assays",
+     "In vitro cytotoxicity (HepG2), In vitro micronucleus"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "40"
+    ],
+    [
+     "Price",
+     "USD 42,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 42,300",
+  "n_compounds": "40",
+  "turnaround_days": "40",
+  "client_variant": "Selverant Therapeutics Inc",
+  "project_id": "OT-15-S0064",
+  "lims_id": "OQ/2015/001043"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0061",
+ "firm": "C",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "USD 12,600",
+  "n_compounds": "0",
+  "turnaround_days": "44",
+  "client_variant": "Parvessune Pharmaceuticals",
+  "project_id": "MV-2019-081",
+  "lims_id": "M19/BIO/01882"
+ }
+}

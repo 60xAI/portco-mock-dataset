@@ -1,0 +1,538 @@
+{
+ "project_id": "PRJ0063",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER12",
+ "compounds": [
+  {
+   "id": "KT12-06304",
+   "smiles": "CC(=O)Nc1ccc(N2CC(C(=O)NC3CC3)CC2c2ccc(N)cc2)cc1",
+   "mw": 378.5,
+   "clogp": 3.07,
+   "tpsa": 87.5
+  },
+  {
+   "id": "KT12-06312",
+   "smiles": "COc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCC(N)CC2)cc1",
+   "mw": 358.5,
+   "clogp": 1.67,
+   "tpsa": 70.8
+  },
+  {
+   "id": "KT12-06322",
+   "smiles": "CC(=O)Nc1ccc(C2CC(C(=O)NC3CC3)CN2c2ccc(NC(C)=O)cc2)cc1",
+   "mw": 420.5,
+   "clogp": 3.45,
+   "tpsa": 90.5
+  },
+  {
+   "id": "KT12-06324",
+   "smiles": "O=C(NC1CC1)C1CC(c2cccnc2)N(c2ccncc2)C1",
+   "mw": 308.4,
+   "clogp": 2.32,
+   "tpsa": 58.1
+  },
+  {
+   "id": "KT12-06336",
+   "smiles": "COc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCCC2)cc1",
+   "mw": 329.4,
+   "clogp": 2.35,
+   "tpsa": 44.8
+  },
+  {
+   "id": "KT12-06346",
+   "smiles": "N#Cc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCCC2)cc1",
+   "mw": 324.4,
+   "clogp": 2.21,
+   "tpsa": 59.4
+  },
+  {
+   "id": "KT12-06352",
+   "smiles": "CN1CCC(ON2CC(C(=O)NC3CC3)CC2c2cccnc2)CC1",
+   "mw": 344.5,
+   "clogp": 1.75,
+   "tpsa": 57.7
+  },
+  {
+   "id": "KT12-06354",
+   "smiles": "O=C(NC1CC1)C1CC(c2ccncc2)N(N2CCC(O)CC2)C1",
+   "mw": 330.4,
+   "clogp": 1.09,
+   "tpsa": 68.7
+  },
+  {
+   "id": "KT12-06358",
+   "smiles": "CCN1CCN(N2CC(C(=O)NC3CC3)CC2c2ccc(N)cc2)CC1",
+   "mw": 357.5,
+   "clogp": 1.46,
+   "tpsa": 64.8
+  },
+  {
+   "id": "KT12-06376",
+   "smiles": "Nc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCC(N)CC2)cc1",
+   "mw": 343.5,
+   "clogp": 1.25,
+   "tpsa": 87.6
+  },
+  {
+   "id": "KT12-06388",
+   "smiles": "CCN1CCN(N2CC(C(=O)NC3CC3)CC2c2ccc(C#N)cc2)CC1",
+   "mw": 367.5,
+   "clogp": 1.75,
+   "tpsa": 62.6
+  },
+  {
+   "id": "KT12-06402",
+   "smiles": "Cc1ccc(C2CC(C(=O)NC3CC3)CN2c2ccncc2)nc1",
+   "mw": 322.4,
+   "clogp": 2.63,
+   "tpsa": 58.1
+  },
+  {
+   "id": "KT12-06412",
+   "smiles": "CC(=O)Nc1ccc(N2CC(C(=O)NC3CC3)CC2c2ccncc2)cc1",
+   "mw": 364.4,
+   "clogp": 2.89,
+   "tpsa": 74.3
+  },
+  {
+   "id": "KT12-06414",
+   "smiles": "Cc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCC(N)CC2)nc1",
+   "mw": 343.5,
+   "clogp": 1.37,
+   "tpsa": 74.5
+  },
+  {
+   "id": "KT12-06418",
+   "smiles": "Cc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCC(O)CC2)nc1",
+   "mw": 344.5,
+   "clogp": 1.4,
+   "tpsa": 68.7
+  },
+  {
+   "id": "KT12-06426",
+   "smiles": "COc1ccc(C2CC(C(=O)NC3CC3)CN2c2ccncc2)cc1",
+   "mw": 337.4,
+   "clogp": 2.94,
+   "tpsa": 54.5
+  },
+  {
+   "id": "KT12-06432",
+   "smiles": "CC(=O)Nc1ccc(N2CC(C(=O)NC3CC3)CC2c2cc(F)cc(F)c2)cc1",
+   "mw": 399.4,
+   "clogp": 3.77,
+   "tpsa": 61.4
+  },
+  {
+   "id": "KT12-06450",
+   "smiles": "CC(=O)Nc1ccc(C2CC(C(=O)NC3CC3)CN2OC2CCN(C)CC2)cc1",
+   "mw": 400.5,
+   "clogp": 2.31,
+   "tpsa": 73.9
+  },
+  {
+   "id": "KT12-06456",
+   "smiles": "Cc1ccc(C2CC(C(=O)NC3CC3)CN2NC2CCCCC2)nc1",
+   "mw": 342.5,
+   "clogp": 2.87,
+   "tpsa": 57.3
+  },
+  {
+   "id": "KT12-06460",
+   "smiles": "COc1ccc(C2CC(C(=O)NC3CC3)CN2NC2CCCCC2)cc1",
+   "mw": 357.5,
+   "clogp": 3.17,
+   "tpsa": 53.6
+  },
+  {
+   "id": "KT12-06474",
+   "smiles": "N#Cc1ccc(C2CC(C(=O)NC3CC3)CN2N2CCC(N)CC2)cc1",
+   "mw": 353.5,
+   "clogp": 1.54,
+   "tpsa": 85.4
+  },
+  {
+   "id": "KT12-06484",
+   "smiles": "O=C(NC1CC1)C1CC(c2cccnc2)N(NC2CCCCC2)C1",
+   "mw": 328.5,
+   "clogp": 2.56,
+   "tpsa": 57.3
+  },
+  {
+   "id": "KT12-06486",
+   "smiles": "CCN1CCN(N2CC(C(=O)NC3CC3)CC2c2cccnc2)CC1",
+   "mw": 343.5,
+   "clogp": 1.28,
+   "tpsa": 51.7
+  },
+  {
+   "id": "KT12-06490",
+   "smiles": "COc1ccc(C2CC(C(=O)NC3CC3)CN2OC2CCN(C)CC2)cc1",
+   "mw": 373.5,
+   "clogp": 2.36,
+   "tpsa": 54.0
+  }
+ ],
+ "tables": {
+  "mic_stab": {
+   "title": "Liver microsomal stability (0.5 mg/mL protein, 1 µM)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/mg)",
+    "Human t½ (min)",
+    "Rat CLint (µL/min/mg)",
+    "Rat t½ (min)"
+   ],
+   "rows": [
+    [
+     "KT12-06304",
+     "12",
+     ">60",
+     "24",
+     "58"
+    ],
+    [
+     "KT12-06312",
+     "4.2",
+     ">60",
+     "6.0",
+     ">60"
+    ],
+    [
+     "KT12-06322",
+     "11",
+     ">60",
+     "23",
+     ">60"
+    ],
+    [
+     "KT12-06324",
+     "31",
+     "45",
+     "61",
+     "23"
+    ],
+    [
+     "KT12-06336",
+     "10",
+     ">60",
+     "15",
+     ">60"
+    ],
+    [
+     "KT12-06346",
+     "9.1",
+     ">60",
+     "20",
+     ">60"
+    ],
+    [
+     "KT12-06352",
+     "5.5",
+     ">60",
+     "11",
+     ">60"
+    ],
+    [
+     "KT12-06354",
+     "6.1",
+     ">60",
+     "9.2",
+     ">60"
+    ],
+    [
+     "KT12-06358",
+     "<3",
+     ">60",
+     "5.5",
+     ">60"
+    ],
+    [
+     "KT12-06376",
+     "4.7",
+     ">60",
+     "8.1",
+     ">60"
+    ],
+    [
+     "KT12-06388",
+     "3.3",
+     ">60",
+     "3.2",
+     ">60"
+    ],
+    [
+     "KT12-06402",
+     "13",
+     ">60",
+     "26",
+     "53"
+    ],
+    [
+     "KT12-06412",
+     "24",
+     "58",
+     "34",
+     "40"
+    ],
+    [
+     "KT12-06414",
+     "<3",
+     ">60",
+     "4.4",
+     ">60"
+    ],
+    [
+     "KT12-06418",
+     "7.4",
+     ">60",
+     "9.2",
+     ">60"
+    ],
+    [
+     "KT12-06426",
+     "34",
+     "40",
+     "67",
+     "21"
+    ],
+    [
+     "KT12-06432",
+     "6.3",
+     ">60",
+     "19",
+     ">60"
+    ],
+    [
+     "KT12-06450",
+     "3.5",
+     ">60",
+     "4.3",
+     ">60"
+    ],
+    [
+     "KT12-06456",
+     "18",
+     ">60",
+     "29",
+     "47"
+    ],
+    [
+     "KT12-06460",
+     "41",
+     "34",
+     "40",
+     "35"
+    ],
+    [
+     "KT12-06474",
+     "3.2",
+     ">60",
+     "5.2",
+     ">60"
+    ],
+    [
+     "KT12-06484",
+     "9.8",
+     ">60",
+     "16",
+     ">60"
+    ],
+    [
+     "KT12-06486",
+     "3.7",
+     ">60",
+     "4.3",
+     ">60"
+    ],
+    [
+     "KT12-06490",
+     "4.5",
+     ">60",
+     "9.3",
+     ">60"
+    ]
+   ],
+   "notes": [
+    "Controls: verapamil (high), diltiazem (medium) within historical range"
+   ]
+  },
+  "hep_stab": {
+   "title": "Cryopreserved hepatocyte stability (1 µM, 0.5×10^6 cells/mL)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/10^6 cells)",
+    "Rat CLint (µL/min/10^6 cells)"
+   ],
+   "rows": [
+    [
+     "KT12-06304",
+     "13",
+     "30"
+    ],
+    [
+     "KT12-06312",
+     "31",
+     "51"
+    ],
+    [
+     "KT12-06322",
+     "18",
+     "46"
+    ],
+    [
+     "KT12-06324",
+     "19",
+     "35"
+    ],
+    [
+     "KT12-06336",
+     "22",
+     "47"
+    ],
+    [
+     "KT12-06346",
+     "19",
+     "41"
+    ],
+    [
+     "KT12-06352",
+     "17",
+     "36"
+    ],
+    [
+     "KT12-06354",
+     "15",
+     "38"
+    ],
+    [
+     "KT12-06358",
+     "12",
+     "26"
+    ],
+    [
+     "KT12-06376",
+     "14",
+     "25"
+    ],
+    [
+     "KT12-06388",
+     "4.2",
+     "7.5"
+    ],
+    [
+     "KT12-06402",
+     "26",
+     "43"
+    ],
+    [
+     "KT12-06412",
+     "12",
+     "22"
+    ],
+    [
+     "KT12-06414",
+     "8.4",
+     "14"
+    ],
+    [
+     "KT12-06418",
+     "12",
+     "20"
+    ],
+    [
+     "KT12-06426",
+     "43",
+     "106"
+    ],
+    [
+     "KT12-06432",
+     "28",
+     "55"
+    ],
+    [
+     "KT12-06450",
+     "15",
+     "22"
+    ],
+    [
+     "KT12-06456",
+     "19",
+     "25"
+    ],
+    [
+     "KT12-06460",
+     "34",
+     "46"
+    ],
+    [
+     "KT12-06474",
+     "16",
+     "28"
+    ],
+    [
+     "KT12-06484",
+     "22",
+     "30"
+    ],
+    [
+     "KT12-06486",
+     "29",
+     "39"
+    ],
+    [
+     "KT12-06490",
+     "15",
+     "27"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2021-284"
+    ],
+    [
+     "Client",
+     "Kelbravik Therapeutics ApS"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Kelbravik cyclopropyl carboxamide series 12 (Cyclopropyl carboxamide)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Hepatocyte stability"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "34"
+    ],
+    [
+     "Price",
+     "USD 20,500"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 20,500",
+  "n_compounds": "24",
+  "turnaround_days": "34",
+  "client_variant": "Kelbravik Therapeutics ApS",
+  "project_id": "MV-2021-284",
+  "lims_id": "M21/BIO/06539"
+ }
+}

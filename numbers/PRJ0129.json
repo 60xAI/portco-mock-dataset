@@ -1,0 +1,224 @@
+{
+ "project_id": "PRJ0129",
+ "firm": "G",
+ "status": "lost",
+ "series": "SER02",
+ "compounds": [
+  {
+   "id": "AP02-01400",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "AP02-01412",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(-c3ccncc3)c2)cc1",
+   "mw": 397.4,
+   "clogp": 4.05,
+   "tpsa": 103.0
+  },
+  {
+   "id": "AP02-01416",
+   "smiles": "Nc1ncc(-c2ccncc2)c(NC(=O)c2cccc(N3CCC(O)CC3)c2)n1",
+   "mw": 390.4,
+   "clogp": 2.33,
+   "tpsa": 117.3
+  },
+  {
+   "id": "AP02-01424",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(N)CC3)c2)nc1",
+   "mw": 403.5,
+   "clogp": 2.61,
+   "tpsa": 123.0
+  },
+  {
+   "id": "AP02-01452",
+   "smiles": "COc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCCC3)c2)cc1",
+   "mw": 389.5,
+   "clogp": 3.59,
+   "tpsa": 93.4
+  },
+  {
+   "id": "AP02-01454",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C#N)cc3)c2)cc1",
+   "mw": 448.5,
+   "clogp": 4.48,
+   "tpsa": 133.8
+  },
+  {
+   "id": "AP02-01464",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)CC1",
+   "mw": 417.5,
+   "clogp": 2.7,
+   "tpsa": 113.4
+  },
+  {
+   "id": "AP02-01470",
+   "smiles": "N#Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 414.5,
+   "clogp": 2.81,
+   "tpsa": 128.2
+  },
+  {
+   "id": "AP02-01472",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3ccncc3)c2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "AP02-01484",
+   "smiles": "CC(=O)Nc1ccc(-c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(N)cc3)c2)cc1",
+   "mw": 438.5,
+   "clogp": 4.19,
+   "tpsa": 136.0
+  },
+  {
+   "id": "AP02-01488",
+   "smiles": "N#Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCCC3)c2)cc1",
+   "mw": 384.4,
+   "clogp": 3.45,
+   "tpsa": 107.9
+  },
+  {
+   "id": "AP02-01490",
+   "smiles": "Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 404.5,
+   "clogp": 2.52,
+   "tpsa": 130.4
+  },
+  {
+   "id": "AP02-01508",
+   "smiles": "CN1CCC(Oc2cccc(C(=O)Nc3nc(N)ncc3-c3cc(F)cc(F)c3)c2)CC1",
+   "mw": 439.5,
+   "clogp": 3.73,
+   "tpsa": 93.4
+  },
+  {
+   "id": "AP02-01514",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccc(C)cn3)c2)CC1",
+   "mw": 417.5,
+   "clogp": 2.82,
+   "tpsa": 100.3
+  },
+  {
+   "id": "AP02-01520",
+   "smiles": "Nc1ncc(-c2ccncc2)c(NC(=O)c2cccc(N3CCCC3)c2)n1",
+   "mw": 360.4,
+   "clogp": 2.97,
+   "tpsa": 97.0
+  },
+  {
+   "id": "AP02-01526",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)c(NC(=O)c2cccc(N3CCC(O)CC3)c2)n1",
+   "mw": 425.4,
+   "clogp": 3.22,
+   "tpsa": 104.4
+  },
+  {
+   "id": "AP02-01530",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3ccncc3)c2)CC1",
+   "mw": 403.5,
+   "clogp": 2.52,
+   "tpsa": 100.3
+  },
+  {
+   "id": "AP02-01536",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(NC3CCCCC3)c2)cc1",
+   "mw": 444.5,
+   "clogp": 4.68,
+   "tpsa": 122.0
+  },
+  {
+   "id": "AP02-01554",
+   "smiles": "Nc1ncc(-c2cc(F)cc(F)c2)c(NC(=O)c2cccc(-c3ccncc3)c2)n1",
+   "mw": 403.4,
+   "clogp": 4.32,
+   "tpsa": 93.8
+  },
+  {
+   "id": "AP02-01560",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCC(O)CC3)c2)cc1",
+   "mw": 446.5,
+   "clogp": 2.9,
+   "tpsa": 133.5
+  },
+  {
+   "id": "AP02-01574",
+   "smiles": "Nc1ncc(-c2cccnc2)c(NC(=O)c2cccc(-c3ccncc3)c2)n1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  },
+  {
+   "id": "AP02-01580",
+   "smiles": "Cc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(NC3CCCCC3)c2)nc1",
+   "mw": 402.5,
+   "clogp": 4.43,
+   "tpsa": 105.8
+  },
+  {
+   "id": "AP02-01584",
+   "smiles": "CCN1CCN(c2cccc(C(=O)Nc3nc(N)ncc3-c3cccnc3)c2)CC1",
+   "mw": 403.5,
+   "clogp": 2.52,
+   "tpsa": 100.3
+  },
+  {
+   "id": "AP02-01586",
+   "smiles": "CC(=O)Nc1ccc(-c2cnc(N)nc2NC(=O)c2cccc(N3CCCC3)c2)cc1",
+   "mw": 416.5,
+   "clogp": 3.54,
+   "tpsa": 113.2
+  }
+ ],
+ "tables": {
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "OT-24-S0163"
+    ],
+    [
+     "Client",
+     "Avernelwick Pharmaceuticals Ltd"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Avernelwick aminopyrimidine regioisomer series 02 (Aminopyrimidine regioisomer)"
+    ],
+    [
+     "Assays",
+     "In vitro cytotoxicity (HepG2), Bacterial reverse mutation (Ames), In vitro micronucleus"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "USD 43,200"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 43,200",
+  "n_compounds": "24",
+  "turnaround_days": "",
+  "client_variant": "Avernelwick Pharmaceuticals Ltd",
+  "project_id": "OT-24-S0163",
+  "lims_id": "OQ/2024/002613"
+ }
+}

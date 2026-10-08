@@ -1,0 +1,550 @@
+{
+ "project_id": "PRJ0008",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER01",
+ "compounds": [
+  {
+   "id": "CVL-08810",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)nc(N)n2)nc1",
+   "mw": 418.5,
+   "clogp": 3.15,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08812",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)nc(N)n3)cc2)CC1",
+   "mw": 428.5,
+   "clogp": 3.32,
+   "tpsa": 117.2
+  },
+  {
+   "id": "CVL-08816",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2cccnc2)n1",
+   "mw": 390.4,
+   "clogp": 2.33,
+   "tpsa": 117.3
+  },
+  {
+   "id": "CVL-08824",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)cc1",
+   "mw": 445.5,
+   "clogp": 2.86,
+   "tpsa": 139.3
+  },
+  {
+   "id": "CVL-08828",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 418.5,
+   "clogp": 2.74,
+   "tpsa": 96.6
+  },
+  {
+   "id": "CVL-08834",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)CC1",
+   "mw": 439.5,
+   "clogp": 3.73,
+   "tpsa": 93.4
+  },
+  {
+   "id": "CVL-08846",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)cc1",
+   "mw": 459.5,
+   "clogp": 4.88,
+   "tpsa": 110.0
+  },
+  {
+   "id": "CVL-08848",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)cc1",
+   "mw": 413.5,
+   "clogp": 2.78,
+   "tpsa": 133.9
+  },
+  {
+   "id": "CVL-08852",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)cc(-c2ccc(F)cc2)n1",
+   "mw": 393.4,
+   "clogp": 2.95,
+   "tpsa": 93.4
+  },
+  {
+   "id": "CVL-08854",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 376.4,
+   "clogp": 2.21,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08866",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)nc(N)n3)cc2)cc1",
+   "mw": 441.5,
+   "clogp": 4.74,
+   "tpsa": 110.0
+  },
+  {
+   "id": "CVL-08876",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+   "mw": 425.4,
+   "clogp": 3.22,
+   "tpsa": 104.4
+  },
+  {
+   "id": "CVL-08882",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+   "mw": 405.5,
+   "clogp": 2.82,
+   "tpsa": 102.6
+  },
+  {
+   "id": "CVL-08884",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 445.5,
+   "clogp": 2.69,
+   "tpsa": 116.5
+  },
+  {
+   "id": "CVL-08890",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 412.5,
+   "clogp": 4.59,
+   "tpsa": 116.7
+  },
+  {
+   "id": "CVL-08896",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08900",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+   "mw": 432.5,
+   "clogp": 2.77,
+   "tpsa": 122.5
+  },
+  {
+   "id": "CVL-08906",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "CVL-08914",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4ccncc4)nc(N)n3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08918",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  },
+  {
+   "id": "CVL-08926",
+   "smiles": "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+   "mw": 403.4,
+   "clogp": 4.32,
+   "tpsa": 93.8
+  },
+  {
+   "id": "CVL-08936",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)nc(N)n3)cc2)CC1",
+   "mw": 413.5,
+   "clogp": 2.6,
+   "tpsa": 111.2
+  },
+  {
+   "id": "CVL-08938",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)nc1",
+   "mw": 404.5,
+   "clogp": 2.64,
+   "tpsa": 117.3
+  },
+  {
+   "id": "CVL-08942",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2ccc(F)cc2)n1",
+   "mw": 407.4,
+   "clogp": 3.08,
+   "tpsa": 104.4
+  },
+  {
+   "id": "CVL-08944",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 417.5,
+   "clogp": 4.73,
+   "tpsa": 102.2
+  },
+  {
+   "id": "CVL-08948",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2cccnc2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  },
+  {
+   "id": "CVL-08962",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+   "mw": 423.5,
+   "clogp": 5.0,
+   "tpsa": 92.9
+  },
+  {
+   "id": "CVL-08974",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)nc(N)n3)cc2)CC1",
+   "mw": 406.5,
+   "clogp": 2.87,
+   "tpsa": 87.4
+  },
+  {
+   "id": "CVL-08978",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2ccc(F)cc2)n1",
+   "mw": 405.5,
+   "clogp": 4.86,
+   "tpsa": 92.9
+  },
+  {
+   "id": "CVL-08980",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4cccnc4)nc(N)n3)cc2)CC1",
+   "mw": 389.5,
+   "clogp": 2.12,
+   "tpsa": 100.3
+  },
+  {
+   "id": "CVL-08984",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+   "mw": 392.4,
+   "clogp": 3.91,
+   "tpsa": 117.6
+  },
+  {
+   "id": "CVL-08990",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)cc1",
+   "mw": 419.5,
+   "clogp": 2.95,
+   "tpsa": 113.6
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "CVL-08810",
+     "Cc1ccc(-c2cc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)nc(N)n2)nc1",
+     "418.5",
+     "47",
+     "99.3",
+     "24"
+    ],
+    [
+     "CVL-08812",
+     "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)nc(N)n3)cc2)CC1",
+     "428.5",
+     "49",
+     "94.9",
+     "43"
+    ],
+    [
+     "CVL-08816",
+     "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2cccnc2)n1",
+     "390.4",
+     "42",
+     "98.9",
+     "54"
+    ],
+    [
+     "CVL-08824",
+     "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)cc1",
+     "445.5",
+     "34",
+     "99.0",
+     "31"
+    ],
+    [
+     "CVL-08828",
+     "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+     "418.5",
+     "44",
+     "97.7",
+     "37"
+    ],
+    [
+     "CVL-08834",
+     "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)CC1",
+     "439.5",
+     "70",
+     "98.6",
+     "30"
+    ],
+    [
+     "CVL-08846",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4cc(F)cc(F)c4)nc(N)n3)cc2)cc1",
+     "459.5",
+     "41",
+     "96.6",
+     "35"
+    ],
+    [
+     "CVL-08848",
+     "N#Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)cc1",
+     "413.5",
+     "40",
+     "97.6",
+     "49"
+    ],
+    [
+     "CVL-08852",
+     "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)cc(-c2ccc(F)cc2)n1",
+     "393.4",
+     "31",
+     "98.2",
+     "19"
+    ],
+    [
+     "CVL-08854",
+     "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)cc(-c2ccncc2)n1",
+     "376.4",
+     "30",
+     "99.3",
+     "5"
+    ],
+    [
+     "CVL-08866",
+     "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)nc(N)n3)cc2)cc1",
+     "441.5",
+     "4",
+     "96.6",
+     "12"
+    ],
+    [
+     "CVL-08876",
+     "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+     "425.4",
+     "36",
+     "96.2",
+     "21"
+    ],
+    [
+     "CVL-08882",
+     "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+     "405.5",
+     "57",
+     "96.8",
+     "48"
+    ],
+    [
+     "CVL-08884",
+     "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+     "445.5",
+     "26",
+     "97.0",
+     "18"
+    ],
+    [
+     "CVL-08890",
+     "N#Cc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+     "412.5",
+     "37",
+     "99.8",
+     "23"
+    ],
+    [
+     "CVL-08896",
+     "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2ccncc2)n1",
+     "389.5",
+     "51",
+     "97.6",
+     "12"
+    ],
+    [
+     "CVL-08900",
+     "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+     "432.5",
+     "66",
+     "96.7",
+     "37"
+    ],
+    [
+     "CVL-08906",
+     "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+     "424.5",
+     "40",
+     "96.6",
+     "19"
+    ],
+    [
+     "CVL-08914",
+     "CN1CCC(Oc2ccc(C(=O)Nc3cc(-c4ccncc4)nc(N)n3)cc2)CC1",
+     "404.5",
+     "71",
+     "98.3",
+     "27"
+    ],
+    [
+     "CVL-08918",
+     "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2ccncc2)n1",
+     "388.5",
+     "27",
+     "96.7",
+     "8"
+    ],
+    [
+     "CVL-08926",
+     "Nc1nc(NC(=O)c2ccc(-c3ccncc3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+     "403.4",
+     "37",
+     "98.0",
+     "50"
+    ],
+    [
+     "CVL-08936",
+     "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(C#N)cc4)nc(N)n3)cc2)CC1",
+     "413.5",
+     "50",
+     "96.6",
+     "45"
+    ],
+    [
+     "CVL-08938",
+     "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)nc1",
+     "404.5",
+     "42",
+     "98.6",
+     "18"
+    ],
+    [
+     "CVL-08942",
+     "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2ccc(F)cc2)n1",
+     "407.4",
+     "44",
+     "96.5",
+     "18"
+    ],
+    [
+     "CVL-08944",
+     "COc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+     "417.5",
+     "41",
+     "97.7",
+     "36"
+    ],
+    [
+     "CVL-08948",
+     "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2cccnc2)n1",
+     "388.5",
+     "22",
+     "96.0",
+     "39"
+    ],
+    [
+     "CVL-08962",
+     "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2cc(F)cc(F)c2)n1",
+     "423.5",
+     "37",
+     "97.6",
+     "39"
+    ],
+    [
+     "CVL-08974",
+     "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)nc(N)n3)cc2)CC1",
+     "406.5",
+     "41",
+     "99.8",
+     "28"
+    ],
+    [
+     "CVL-08978",
+     "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)cc(-c2ccc(F)cc2)n1",
+     "405.5",
+     "43",
+     "99.4",
+     "20"
+    ],
+    [
+     "CVL-08980",
+     "CN1CCN(c2ccc(C(=O)Nc3cc(-c4cccnc4)nc(N)n3)cc2)CC1",
+     "389.5",
+     "4",
+     "99.0",
+     "12"
+    ],
+    [
+     "CVL-08984",
+     "N#Cc1ccc(-c2cc(NC(=O)c3ccc(-c4ccncc4)cc3)nc(N)n2)cc1",
+     "392.4",
+     "10",
+     "97.5",
+     "30"
+    ],
+    [
+     "CVL-08990",
+     "COc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)cc1",
+     "419.5",
+     "5",
+     "98.7",
+     "37"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-05-064"
+    ],
+    [
+     "Client",
+     "Corvenlea Pharma"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Corvenlea aminopyrimidine series 01 (Aminopyrimidine)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "108"
+    ],
+    [
+     "Price",
+     "GBP 27,000"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 27,000",
+  "n_compounds": "32",
+  "turnaround_days": "108",
+  "client_variant": "Corvenlea Pharma",
+  "project_id": "VD-05-064",
+  "lims_id": "VA20050581"
+ }
+}

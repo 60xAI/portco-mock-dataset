@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0031",
+ "firm": "A",
+ "status": "on_hold",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 51,700",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Rimucavel Therapeutics",
+  "project_id": "VD-25-066",
+  "lims_id": "VA20250613"
+ }
+}

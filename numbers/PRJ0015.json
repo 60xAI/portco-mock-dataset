@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0015",
+ "firm": "A",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 39,300",
+  "n_compounds": "0",
+  "turnaround_days": "84",
+  "client_variant": "Rennelwick Institute Drug Discovery Unit",
+  "project_id": "VD-18-131",
+  "lims_id": "VA20181184"
+ }
+}

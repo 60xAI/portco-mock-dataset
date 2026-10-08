@@ -1,0 +1,182 @@
+{
+ "project_id": "PRJ0128",
+ "firm": "G",
+ "status": "unanswered",
+ "series": "SER01",
+ "compounds": [
+  {
+   "id": "CVL-08804",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 390.4,
+   "clogp": 2.33,
+   "tpsa": 117.3
+  },
+  {
+   "id": "CVL-08810",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)nc(N)n2)nc1",
+   "mw": 418.5,
+   "clogp": 3.15,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08816",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc(-c2cccnc2)n1",
+   "mw": 390.4,
+   "clogp": 2.33,
+   "tpsa": 117.3
+  },
+  {
+   "id": "CVL-08818",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(C)cn4)nc(N)n3)cc2)cc1",
+   "mw": 438.5,
+   "clogp": 4.31,
+   "tpsa": 122.9
+  },
+  {
+   "id": "CVL-08840",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3cc(-c4ccncc4)nc(N)n3)cc2)CC1",
+   "mw": 389.5,
+   "clogp": 2.12,
+   "tpsa": 100.3
+  },
+  {
+   "id": "CVL-08854",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 376.4,
+   "clogp": 2.21,
+   "tpsa": 106.3
+  },
+  {
+   "id": "CVL-08858",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(NC(C)=O)cc4)nc(N)n3)cc2)cc1",
+   "mw": 480.5,
+   "clogp": 4.56,
+   "tpsa": 139.1
+  },
+  {
+   "id": "CVL-08866",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccc(F)cc4)nc(N)n3)cc2)cc1",
+   "mw": 441.5,
+   "clogp": 4.74,
+   "tpsa": 110.0
+  },
+  {
+   "id": "CVL-08870",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2cccnc2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08884",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 445.5,
+   "clogp": 2.69,
+   "tpsa": 116.5
+  },
+  {
+   "id": "CVL-08888",
+   "smiles": "CC(=O)Nc1ccc(-c2cc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)nc(N)n2)cc1",
+   "mw": 460.5,
+   "clogp": 3.41,
+   "tpsa": 122.5
+  },
+  {
+   "id": "CVL-08890",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 412.5,
+   "clogp": 4.59,
+   "tpsa": 116.7
+  },
+  {
+   "id": "CVL-08896",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc(-c2ccncc2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08902",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3cc(-c4ccncc4)nc(N)n3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "CVL-08920",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(N)CC4)cc3)nc(N)n2)nc1",
+   "mw": 403.5,
+   "clogp": 2.61,
+   "tpsa": 123.0
+  },
+  {
+   "id": "CVL-08938",
+   "smiles": "Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCC(O)CC4)cc3)nc(N)n2)nc1",
+   "mw": 404.5,
+   "clogp": 2.64,
+   "tpsa": 117.3
+  },
+  {
+   "id": "CVL-08944",
+   "smiles": "COc1ccc(-c2cc(NC(=O)c3ccc(NC4CCCCC4)cc3)nc(N)n2)cc1",
+   "mw": 417.5,
+   "clogp": 4.73,
+   "tpsa": 102.2
+  },
+  {
+   "id": "CVL-08972",
+   "smiles": "N#Cc1ccc(-c2cc(NC(=O)c3ccc(N4CCOCC4)cc3)nc(N)n2)cc1",
+   "mw": 400.4,
+   "clogp": 2.69,
+   "tpsa": 117.2
+  }
+ ],
+ "tables": {
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "OT-25-S0245"
+    ],
+    [
+     "Client",
+     "Corvenlea (US)"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Corvenlea aminopyrimidine series 01 (Aminopyrimidine)"
+    ],
+    [
+     "Assays",
+     "In vitro cytotoxicity (HepG2), In vitro micronucleus"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "USD 41,800"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 41,800",
+  "n_compounds": "18",
+  "turnaround_days": "",
+  "client_variant": "Corvenlea (US)",
+  "project_id": "OT-25-S0245",
+  "lims_id": "OQ/2025/003927"
+ }
+}

@@ -1,0 +1,410 @@
+{
+ "project_id": "PRJ0067",
+ "firm": "C",
+ "status": "in_progress",
+ "series": "SER17",
+ "compounds": [
+  {
+   "id": "CB17-08400",
+   "smiles": "Cc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCC(N)CC3)C2)nc1",
+   "mw": 384.5,
+   "clogp": 3.19,
+   "tpsa": 71.2
+  },
+  {
+   "id": "CB17-08404",
+   "smiles": "O=C(NC1CCC(N2CCCC2)C1)c1sccc1-c1cc(F)cc(F)c1",
+   "mw": 376.5,
+   "clogp": 4.44,
+   "tpsa": 32.3
+  },
+  {
+   "id": "CB17-08410",
+   "smiles": "O=C(NC1CCC(N2CCC(O)CC2)C1)c1sccc1-c1cncnc1",
+   "mw": 372.5,
+   "clogp": 2.31,
+   "tpsa": 78.4
+  },
+  {
+   "id": "CB17-08418",
+   "smiles": "Cc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCC(O)CC3)C2)nc1",
+   "mw": 385.5,
+   "clogp": 3.23,
+   "tpsa": 65.5
+  },
+  {
+   "id": "CB17-08442",
+   "smiles": "CC(=O)Nc1ccc(-c2ccsc2C(=O)NC2CCC(c3ccncc3)C2)cc1",
+   "mw": 405.5,
+   "clogp": 4.83,
+   "tpsa": 71.1
+  },
+  {
+   "id": "CB17-08464",
+   "smiles": "NC1CCN(C2CCC(NC(=O)c3sccc3-c3ccc(F)cc3)C2)CC1",
+   "mw": 387.5,
+   "clogp": 3.63,
+   "tpsa": 58.4
+  },
+  {
+   "id": "CB17-08466",
+   "smiles": "CC(=O)Nc1ccc(-c2ccsc2C(=O)NC2CCC(NC3CCCCC3)C2)cc1",
+   "mw": 425.6,
+   "clogp": 4.95,
+   "tpsa": 70.2
+  },
+  {
+   "id": "CB17-08482",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3ccc(N)cc3)C2)CC1",
+   "mw": 398.6,
+   "clogp": 3.29,
+   "tpsa": 61.6
+  },
+  {
+   "id": "CB17-08484",
+   "smiles": "CC(=O)Nc1ccc(C2CCC(NC(=O)c3sccc3-c3ccc(C)cn3)C2)cc1",
+   "mw": 419.6,
+   "clogp": 5.14,
+   "tpsa": 71.1
+  },
+  {
+   "id": "CB17-08490",
+   "smiles": "O=C(NC1CCC(NC2CCCCC2)C1)c1sccc1-c1ccc(F)cc1",
+   "mw": 386.5,
+   "clogp": 5.13,
+   "tpsa": 41.1
+  },
+  {
+   "id": "CB17-08496",
+   "smiles": "NC1CCN(C2CCC(NC(=O)c3sccc3-c3cncnc3)C2)CC1",
+   "mw": 371.5,
+   "clogp": 2.28,
+   "tpsa": 84.1
+  },
+  {
+   "id": "CB17-08502",
+   "smiles": "CC(=O)Nc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCCC3)C2)cc1",
+   "mw": 397.5,
+   "clogp": 4.12,
+   "tpsa": 61.4
+  },
+  {
+   "id": "CB17-08512",
+   "smiles": "CN1CCC(OC2CCC(NC(=O)c3sccc3-c3cccnc3)C2)CC1",
+   "mw": 385.5,
+   "clogp": 3.57,
+   "tpsa": 54.5
+  },
+  {
+   "id": "CB17-08520",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3cc(F)cc(F)c3)C2)CC1",
+   "mw": 419.5,
+   "clogp": 3.98,
+   "tpsa": 35.6
+  },
+  {
+   "id": "CB17-08524",
+   "smiles": "CC(=O)Nc1ccc(C2CCC(NC(=O)c3sccc3-c3ccc(F)cc3)C2)cc1",
+   "mw": 422.5,
+   "clogp": 5.58,
+   "tpsa": 58.2
+  },
+  {
+   "id": "CB17-08532",
+   "smiles": "O=C(NC1CCC(c2ccncc2)C1)c1sccc1-c1ccc(F)cc1",
+   "mw": 366.5,
+   "clogp": 5.02,
+   "tpsa": 42.0
+  },
+  {
+   "id": "CB17-08544",
+   "smiles": "CCN1CCN(C2CCC(NC(=O)c3sccc3-c3ccncc3)C2)CC1",
+   "mw": 384.5,
+   "clogp": 3.1,
+   "tpsa": 48.5
+  },
+  {
+   "id": "CB17-08554",
+   "smiles": "O=C(NC1CCC(c2ccncc2)C1)c1sccc1-c1cccnc1",
+   "mw": 349.5,
+   "clogp": 4.27,
+   "tpsa": 54.9
+  },
+  {
+   "id": "CB17-08556",
+   "smiles": "Nc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCCC3)C2)cc1",
+   "mw": 355.5,
+   "clogp": 3.74,
+   "tpsa": 58.4
+  },
+  {
+   "id": "CB17-08566",
+   "smiles": "O=C(NC1CCC(N2CCC(O)CC2)C1)c1sccc1-c1cccnc1",
+   "mw": 371.5,
+   "clogp": 2.92,
+   "tpsa": 65.5
+  },
+  {
+   "id": "CB17-08568",
+   "smiles": "CC(=O)Nc1ccc(-c2ccsc2C(=O)NC2CCC(OC3CCN(C)CC3)C2)cc1",
+   "mw": 441.6,
+   "clogp": 4.14,
+   "tpsa": 70.7
+  },
+  {
+   "id": "CB17-08572",
+   "smiles": "Cc1ccc(-c2ccsc2C(=O)NC2CCC(N3CCCC3)C2)nc1",
+   "mw": 355.5,
+   "clogp": 3.87,
+   "tpsa": 45.2
+  },
+  {
+   "id": "CB17-08578",
+   "smiles": "CN1CCC(OC2CCC(NC(=O)c3sccc3-c3cncnc3)C2)CC1",
+   "mw": 386.5,
+   "clogp": 2.97,
+   "tpsa": 67.3
+  },
+  {
+   "id": "CB17-08580",
+   "smiles": "Cc1ccc(-c2ccsc2C(=O)NC2CCC(NC3CCCCC3)C2)nc1",
+   "mw": 383.6,
+   "clogp": 4.69,
+   "tpsa": 54.0
+  }
+ ],
+ "tables": {
+  "mic_stab": {
+   "title": "Liver microsomal stability (0.5 mg/mL protein, 1 µM)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/mg)",
+    "Human t½ (min)",
+    "Rat CLint (µL/min/mg)",
+    "Rat t½ (min)"
+   ],
+   "rows": [
+    [
+     "CB17-08400",
+     "18",
+     ">60",
+     "34",
+     "40"
+    ],
+    [
+     "CB17-08404",
+     "37",
+     "37",
+     "83",
+     "17"
+    ],
+    [
+     "CB17-08410",
+     "14",
+     ">60",
+     "18",
+     ">60"
+    ],
+    [
+     "CB17-08418",
+     "11",
+     ">60",
+     "27",
+     "52"
+    ],
+    [
+     "CB17-08442",
+     "56",
+     "25",
+     "71",
+     "19"
+    ],
+    [
+     "CB17-08464",
+     "20",
+     ">60",
+     "22",
+     ">60"
+    ],
+    [
+     "CB17-08466",
+     "44",
+     "32",
+     "79",
+     "18"
+    ],
+    [
+     "CB17-08482",
+     "8.9",
+     ">60",
+     "24",
+     "58"
+    ],
+    [
+     "CB17-08484",
+     "84",
+     "17",
+     "98",
+     "14"
+    ],
+    [
+     "CB17-08490",
+     "39",
+     "35",
+     "40",
+     "34"
+    ],
+    [
+     "CB17-08496",
+     "3.9",
+     ">60",
+     "7.7",
+     ">60"
+    ]
+   ],
+   "notes": [
+    "Controls: verapamil (high), diltiazem (medium) within historical range",
+    "INTERIM: 11 of 24 results reported; remaining in progress"
+   ]
+  },
+  "hep_stab": {
+   "title": "Cryopreserved hepatocyte stability (1 µM, 0.5×10^6 cells/mL)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/10^6 cells)",
+    "Rat CLint (µL/min/10^6 cells)"
+   ],
+   "rows": [
+    [
+     "CB17-08400",
+     "35",
+     "61"
+    ],
+    [
+     "CB17-08404",
+     "16",
+     "44"
+    ],
+    [
+     "CB17-08410",
+     "18",
+     "53"
+    ],
+    [
+     "CB17-08418",
+     "8.5",
+     "31"
+    ],
+    [
+     "CB17-08442",
+     "77",
+     "189"
+    ],
+    [
+     "CB17-08464",
+     "17",
+     "22"
+    ],
+    [
+     "CB17-08466",
+     "19",
+     "39"
+    ],
+    [
+     "CB17-08482",
+     "18",
+     "38"
+    ],
+    [
+     "CB17-08484",
+     "37",
+     "65"
+    ],
+    [
+     "CB17-08490",
+     "45",
+     "105"
+    ],
+    [
+     "CB17-08496",
+     "12",
+     "17"
+    ],
+    [
+     "CB17-08502",
+     "14",
+     "31"
+    ],
+    [
+     "CB17-08512",
+     "87",
+     "126"
+    ],
+    [
+     "CB17-08520",
+     "23",
+     "45"
+    ],
+    [
+     "CB17-08524",
+     "18",
+     "34"
+    ],
+    [
+     "CB17-08532",
+     "21",
+     "35"
+    ]
+   ],
+   "notes": [
+    "INTERIM: 16 of 24 results reported; remaining in progress"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2026-264"
+    ],
+    [
+     "Client",
+     "Cadrunelle Biosciences"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Cadrunelle thiophene amide series 17 (Thiophene amide)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Hepatocyte stability"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "USD 28,700"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 28,700",
+  "n_compounds": "24",
+  "turnaround_days": "",
+  "client_variant": "Cadrunelle Biosciences",
+  "project_id": "MV-2026-264",
+  "lims_id": "M26/BIO/06077"
+ }
+}

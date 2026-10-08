@@ -1,0 +1,538 @@
+{
+ "project_id": "PRJ0055",
+ "firm": "C",
+ "status": "completed",
+ "series": "SER08",
+ "compounds": [
+  {
+   "id": "NM08-08406",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4cc(F)cc(F)c4)n3)cc2)CC1",
+   "mw": 439.5,
+   "clogp": 2.79,
+   "tpsa": 100.3
+  },
+  {
+   "id": "NM08-08410",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(-c4ccncc4)cc3)n2)cc1",
+   "mw": 398.4,
+   "clogp": 3.44,
+   "tpsa": 115.9
+  },
+  {
+   "id": "NM08-08416",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)n2)cc1",
+   "mw": 419.5,
+   "clogp": 2.13,
+   "tpsa": 109.5
+  },
+  {
+   "id": "NM08-08418",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)nc(-c2cncnc2)n1",
+   "mw": 390.5,
+   "clogp": 2.91,
+   "tpsa": 131.6
+  },
+  {
+   "id": "NM08-08428",
+   "smiles": "COc1ccc(-c2nc(N)nc(NC(=O)c3ccc(OC4CCN(C)CC4)cc3)n2)cc1",
+   "mw": 434.5,
+   "clogp": 2.85,
+   "tpsa": 115.5
+  },
+  {
+   "id": "NM08-08440",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)nc(-c2ccncc2)n1",
+   "mw": 377.4,
+   "clogp": 1.6,
+   "tpsa": 119.1
+  },
+  {
+   "id": "NM08-08452",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(N)cc4)n3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 1.71,
+   "tpsa": 126.3
+  },
+  {
+   "id": "NM08-08454",
+   "smiles": "Cc1ccc(-c2nc(N)nc(NC(=O)c3ccc(NC4CCCCC4)cc3)n2)nc1",
+   "mw": 403.5,
+   "clogp": 3.82,
+   "tpsa": 118.7
+  },
+  {
+   "id": "NM08-08460",
+   "smiles": "Cc1ccc(-c2nc(N)nc(NC(=O)c3ccc(-c4ccncc4)cc3)n2)nc1",
+   "mw": 383.4,
+   "clogp": 3.14,
+   "tpsa": 119.6
+  },
+  {
+   "id": "NM08-08472",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)nc(-c2cccnc2)n1",
+   "mw": 377.4,
+   "clogp": 1.6,
+   "tpsa": 119.1
+  },
+  {
+   "id": "NM08-08476",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4cccnc4)n3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 1.91,
+   "tpsa": 113.2
+  },
+  {
+   "id": "NM08-08478",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)nc(-c4ccc(F)cc4)n3)cc2)CC1",
+   "mw": 422.5,
+   "clogp": 2.99,
+   "tpsa": 106.3
+  },
+  {
+   "id": "NM08-08496",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)nc(-c4ccncc4)n3)cc2)CC1",
+   "mw": 405.5,
+   "clogp": 2.24,
+   "tpsa": 119.2
+  },
+  {
+   "id": "NM08-08500",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)nc(-c4cncnc4)n3)cc2)cc1",
+   "mw": 426.4,
+   "clogp": 2.79,
+   "tpsa": 148.7
+  },
+  {
+   "id": "NM08-08502",
+   "smiles": "Nc1ccc(-c2nc(N)nc(NC(=O)c3ccc(N4CCOCC4)cc3)n2)cc1",
+   "mw": 391.4,
+   "clogp": 1.79,
+   "tpsa": 132.3
+  },
+  {
+   "id": "NM08-08508",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(N)cc4)n3)cc2)CC1",
+   "mw": 418.5,
+   "clogp": 2.1,
+   "tpsa": 126.3
+  },
+  {
+   "id": "NM08-08518",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)nc(-c4cccnc4)n3)cc2)CC1",
+   "mw": 405.5,
+   "clogp": 2.24,
+   "tpsa": 119.2
+  },
+  {
+   "id": "NM08-08526",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)nc(-c4ccc(F)cc4)n3)cc2)cc1",
+   "mw": 442.5,
+   "clogp": 4.14,
+   "tpsa": 122.9
+  },
+  {
+   "id": "NM08-08548",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCOCC3)cc2)nc(-c2cc(F)cc(F)c2)n1",
+   "mw": 412.4,
+   "clogp": 2.49,
+   "tpsa": 106.3
+  },
+  {
+   "id": "NM08-08556",
+   "smiles": "Nc1ccc(-c2nc(N)nc(NC(=O)c3ccc(NC4CCCCC4)cc3)n2)cc1",
+   "mw": 403.5,
+   "clogp": 3.7,
+   "tpsa": 131.8
+  },
+  {
+   "id": "NM08-08566",
+   "smiles": "Nc1nc(NC(=O)c2ccc(N3CCCC3)cc2)nc(-c2cncnc2)n1",
+   "mw": 362.4,
+   "clogp": 1.76,
+   "tpsa": 122.8
+  },
+  {
+   "id": "NM08-08574",
+   "smiles": "Nc1nc(NC(=O)c2ccc(NC3CCCCC3)cc2)nc(-c2cccnc2)n1",
+   "mw": 389.5,
+   "clogp": 3.51,
+   "tpsa": 118.7
+  },
+  {
+   "id": "NM08-08578",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4ccncc4)n3)cc2)CC1",
+   "mw": 390.5,
+   "clogp": 1.52,
+   "tpsa": 113.2
+  },
+  {
+   "id": "NM08-08590",
+   "smiles": "CN1CCN(c2ccc(C(=O)Nc3nc(N)nc(-c4cccnc4)n3)cc2)CC1",
+   "mw": 390.5,
+   "clogp": 1.52,
+   "tpsa": 113.2
+  }
+ ],
+ "tables": {
+  "mic_stab": {
+   "title": "Liver microsomal stability (0.5 mg/mL protein, 1 µM)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/mg)",
+    "Human t½ (min)",
+    "Rat CLint (µL/min/mg)",
+    "Rat t½ (min)"
+   ],
+   "rows": [
+    [
+     "NM08-08406",
+     "47",
+     "29",
+     "68",
+     "21"
+    ],
+    [
+     "NM08-08410",
+     "28",
+     "49",
+     "65",
+     "21"
+    ],
+    [
+     "NM08-08416",
+     "5.9",
+     ">60",
+     "9.2",
+     ">60"
+    ],
+    [
+     "NM08-08418",
+     "24",
+     "59",
+     "23",
+     ">60"
+    ],
+    [
+     "NM08-08428",
+     "<3",
+     ">60",
+     "4.0",
+     ">60"
+    ],
+    [
+     "NM08-08440",
+     "5.0",
+     ">60",
+     "10",
+     ">60"
+    ],
+    [
+     "NM08-08452",
+     "5.7",
+     ">60",
+     "7.6",
+     ">60"
+    ],
+    [
+     "NM08-08454",
+     "15",
+     ">60",
+     "16",
+     ">60"
+    ],
+    [
+     "NM08-08460",
+     "7.7",
+     ">60",
+     "7.2",
+     ">60"
+    ],
+    [
+     "NM08-08472",
+     "4.9",
+     ">60",
+     "8.5",
+     ">60"
+    ],
+    [
+     "NM08-08476",
+     "3.4",
+     ">60",
+     "11",
+     ">60"
+    ],
+    [
+     "NM08-08478",
+     "7.6",
+     ">60",
+     "15",
+     ">60"
+    ],
+    [
+     "NM08-08496",
+     "6.5",
+     ">60",
+     "13",
+     ">60"
+    ],
+    [
+     "NM08-08500",
+     "9.6",
+     ">60",
+     "12",
+     ">60"
+    ],
+    [
+     "NM08-08502",
+     "7.2",
+     ">60",
+     "14",
+     ">60"
+    ],
+    [
+     "NM08-08508",
+     "5.1",
+     ">60",
+     "6.2",
+     ">60"
+    ],
+    [
+     "NM08-08518",
+     "7.7",
+     ">60",
+     "17",
+     ">60"
+    ],
+    [
+     "NM08-08526",
+     "61",
+     "23",
+     "167",
+     "8.3"
+    ],
+    [
+     "NM08-08548",
+     "13",
+     ">60",
+     "14",
+     ">60"
+    ],
+    [
+     "NM08-08556",
+     "9.7",
+     ">60",
+     "22",
+     ">60"
+    ],
+    [
+     "NM08-08566",
+     "6.2",
+     ">60",
+     "7.9",
+     ">60"
+    ],
+    [
+     "NM08-08574",
+     "24",
+     "57",
+     "50",
+     "28"
+    ],
+    [
+     "NM08-08578",
+     "<3",
+     ">60",
+     "7.3",
+     ">60"
+    ],
+    [
+     "NM08-08590",
+     "5.0",
+     ">60",
+     "9.1",
+     ">60"
+    ]
+   ],
+   "notes": [
+    "Controls: verapamil (high), diltiazem (medium) within historical range"
+   ]
+  },
+  "hep_stab": {
+   "title": "Cryopreserved hepatocyte stability (1 µM, 0.5×10^6 cells/mL)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/10^6 cells)",
+    "Rat CLint (µL/min/10^6 cells)"
+   ],
+   "rows": [
+    [
+     "NM08-08406",
+     "6.2",
+     "11"
+    ],
+    [
+     "NM08-08410",
+     "11",
+     "20"
+    ],
+    [
+     "NM08-08416",
+     "14",
+     "20"
+    ],
+    [
+     "NM08-08418",
+     "11",
+     "28"
+    ],
+    [
+     "NM08-08428",
+     "14",
+     "16"
+    ],
+    [
+     "NM08-08440",
+     "15",
+     "24"
+    ],
+    [
+     "NM08-08452",
+     "11",
+     "22"
+    ],
+    [
+     "NM08-08454",
+     "5.3",
+     "12"
+    ],
+    [
+     "NM08-08460",
+     "13",
+     "17"
+    ],
+    [
+     "NM08-08472",
+     "24",
+     "51"
+    ],
+    [
+     "NM08-08476",
+     "28",
+     "30"
+    ],
+    [
+     "NM08-08478",
+     "4.4",
+     "11"
+    ],
+    [
+     "NM08-08496",
+     "11",
+     "23"
+    ],
+    [
+     "NM08-08500",
+     "16",
+     "30"
+    ],
+    [
+     "NM08-08502",
+     "11",
+     "22"
+    ],
+    [
+     "NM08-08508",
+     "20",
+     "36"
+    ],
+    [
+     "NM08-08518",
+     "10.0",
+     "18"
+    ],
+    [
+     "NM08-08526",
+     "25",
+     "85"
+    ],
+    [
+     "NM08-08548",
+     "14",
+     "29"
+    ],
+    [
+     "NM08-08556",
+     "21",
+     "31"
+    ],
+    [
+     "NM08-08566",
+     "23",
+     "51"
+    ],
+    [
+     "NM08-08574",
+     "47",
+     "154"
+    ],
+    [
+     "NM08-08578",
+     "13",
+     "22"
+    ],
+    [
+     "NM08-08590",
+     "15",
+     "38"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "MV-2006-090"
+    ],
+    [
+     "Client",
+     "Nimbravelle Medicines Inc"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Nimbravelle aminotriazine series 08 (Aminotriazine)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Hepatocyte stability"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "43"
+    ],
+    [
+     "Price",
+     "USD 19,200"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 19,200",
+  "n_compounds": "24",
+  "turnaround_days": "43",
+  "client_variant": "Nimbravelle Medicines Inc",
+  "project_id": "MV-2006-090",
+  "lims_id": "M06/BIO/02077"
+ }
+}

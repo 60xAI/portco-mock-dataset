@@ -1,0 +1,354 @@
+{
+ "project_id": "PRJ0125",
+ "firm": "G",
+ "status": "in_progress",
+ "series": "SER14",
+ "compounds": [
+  {
+   "id": "VM14-01000",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(NC(C)=O)cc4)C(=O)C3C2)cc1",
+   "mw": 405.5,
+   "clogp": 4.15,
+   "tpsa": 78.5
+  },
+  {
+   "id": "VM14-01010",
+   "smiles": "NC1CCN(C2CCC3CN(c4cncnc4)C(=O)C3C2)CC1",
+   "mw": 315.4,
+   "clogp": 1.03,
+   "tpsa": 75.3
+  },
+  {
+   "id": "VM14-01018",
+   "smiles": "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1cccnc1",
+   "mw": 315.4,
+   "clogp": 1.67,
+   "tpsa": 56.7
+  },
+  {
+   "id": "VM14-01030",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCC(N)CC4)CC3C2=O)cc1",
+   "mw": 343.5,
+   "clogp": 2.25,
+   "tpsa": 58.8
+  },
+  {
+   "id": "VM14-01042",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCCC4)CC3C2=O)cc1",
+   "mw": 314.4,
+   "clogp": 2.92,
+   "tpsa": 32.8
+  },
+  {
+   "id": "VM14-01046",
+   "smiles": "NC1CCN(C2CCC3CN(c4cccnc4)C(=O)C3C2)CC1",
+   "mw": 314.4,
+   "clogp": 1.64,
+   "tpsa": 62.5
+  },
+  {
+   "id": "VM14-01048",
+   "smiles": "COc1ccc(N2CC3CCC(c4ccc(NC(C)=O)cc4)CC3C2=O)cc1",
+   "mw": 378.5,
+   "clogp": 4.2,
+   "tpsa": 58.6
+  },
+  {
+   "id": "VM14-01052",
+   "smiles": "CN1CCN(C2CCC3CN(c4ccc(N)cc4)C(=O)C3C2)CC1",
+   "mw": 328.5,
+   "clogp": 1.65,
+   "tpsa": 52.8
+  },
+  {
+   "id": "VM14-01054",
+   "smiles": "COc1ccc(N2CC3CCC(c4ccncc4)CC3C2=O)cc1",
+   "mw": 322.4,
+   "clogp": 3.64,
+   "tpsa": 42.4
+  },
+  {
+   "id": "VM14-01058",
+   "smiles": "CC(=O)Nc1ccc(N2CC3CCC(N4CCC(N)CC4)CC3C2=O)cc1",
+   "mw": 370.5,
+   "clogp": 2.2,
+   "tpsa": 78.7
+  },
+  {
+   "id": "VM14-01064",
+   "smiles": "O=C1C2CC(c3ccncc3)CCC2CN1c1cncnc1",
+   "mw": 294.4,
+   "clogp": 2.42,
+   "tpsa": 59.0
+  },
+  {
+   "id": "VM14-01088",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+   "mw": 330.4,
+   "clogp": 2.16,
+   "tpsa": 42.0
+  },
+  {
+   "id": "VM14-01106",
+   "smiles": "NC1CCN(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)CC1",
+   "mw": 331.4,
+   "clogp": 2.38,
+   "tpsa": 49.6
+  },
+  {
+   "id": "VM14-01114",
+   "smiles": "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1ccc(F)cc1",
+   "mw": 332.4,
+   "clogp": 2.41,
+   "tpsa": 43.8
+  },
+  {
+   "id": "VM14-01118",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCN(C)CC4)CC3C2=O)cc1",
+   "mw": 343.5,
+   "clogp": 2.07,
+   "tpsa": 36.0
+  },
+  {
+   "id": "VM14-01136",
+   "smiles": "CN1CCN(C2CCC3CN(c4cncnc4)C(=O)C3C2)CC1",
+   "mw": 315.4,
+   "clogp": 0.86,
+   "tpsa": 52.6
+  },
+  {
+   "id": "VM14-01150",
+   "smiles": "O=C1C2CC(N3CCCC3)CCC2CN1c1ccc(F)cc1",
+   "mw": 302.4,
+   "clogp": 3.05,
+   "tpsa": 23.6
+  },
+  {
+   "id": "VM14-01160",
+   "smiles": "CC(=O)Nc1ccc(N2CC3CCC(c4ccncc4)CC3C2=O)cc1",
+   "mw": 349.4,
+   "clogp": 3.59,
+   "tpsa": 62.3
+  },
+  {
+   "id": "VM14-01162",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(C)cn4)C(=O)C3C2)cc1",
+   "mw": 363.5,
+   "clogp": 3.9,
+   "tpsa": 62.3
+  },
+  {
+   "id": "VM14-01166",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4cncnc4)C(=O)C3C2)cc1",
+   "mw": 350.4,
+   "clogp": 2.98,
+   "tpsa": 75.2
+  },
+  {
+   "id": "VM14-01168",
+   "smiles": "CN1CCN(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)CC1",
+   "mw": 338.5,
+   "clogp": 1.94,
+   "tpsa": 50.6
+  },
+  {
+   "id": "VM14-01172",
+   "smiles": "O=C1C2CC(c3ccncc3)CCC2CN1c1cccnc1",
+   "mw": 293.4,
+   "clogp": 3.02,
+   "tpsa": 46.1
+  },
+  {
+   "id": "VM14-01174",
+   "smiles": "Cc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)nc1",
+   "mw": 329.4,
+   "clogp": 1.98,
+   "tpsa": 56.7
+  },
+  {
+   "id": "VM14-01180",
+   "smiles": "Cc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)nc1",
+   "mw": 315.4,
+   "clogp": 1.85,
+   "tpsa": 45.7
+  }
+ ],
+ "tables": {
+  "cytotox": {
+   "title": "HepG2 cytotoxicity (ATP content), IC50 µM",
+   "columns": [
+    "Compound",
+    "24 h IC50 (µM)",
+    "48 h IC50 (µM)"
+   ],
+   "rows": [
+    [
+     "VM14-01000",
+     "20",
+     "14"
+    ],
+    [
+     "VM14-01010",
+     "35",
+     "24"
+    ],
+    [
+     "VM14-01018",
+     ">100",
+     ">100"
+    ],
+    [
+     "VM14-01030",
+     "36",
+     "25"
+    ],
+    [
+     "VM14-01042",
+     "29",
+     "20"
+    ],
+    [
+     "VM14-01046",
+     ">100",
+     ">100"
+    ],
+    [
+     "VM14-01048",
+     "31",
+     "22"
+    ],
+    [
+     "VM14-01052",
+     "32",
+     "22"
+    ],
+    [
+     "VM14-01054",
+     "26",
+     "18"
+    ],
+    [
+     "VM14-01058",
+     "21",
+     "15"
+    ],
+    [
+     "VM14-01064",
+     "54",
+     "38"
+    ],
+    [
+     "VM14-01088",
+     "81",
+     "57"
+    ],
+    [
+     "VM14-01106",
+     "45",
+     "31"
+    ]
+   ],
+   "notes": [
+    "Chlorpromazine control",
+    "INTERIM: 13 of 24 results reported; remaining in progress"
+   ]
+  },
+  "micronucleus": {
+   "title": "In vitro micronucleus (TK6), % MN cells",
+   "columns": [
+    "Treatment",
+    "Conc (µg/mL)",
+    "% MN cells",
+    "RPD (%)"
+   ],
+   "rows": [
+    [
+     "3 h +S9",
+     "vehicle",
+     "1.27",
+     "100"
+    ],
+    [
+     "3 h +S9",
+     50,
+     "1.13",
+     "95"
+    ],
+    [
+     "3 h +S9",
+     100,
+     "1.13",
+     "82"
+    ],
+    [
+     "3 h +S9",
+     200,
+     "1.12",
+     "78"
+    ],
+    [
+     "3 h -S9",
+     "vehicle",
+     "1.07",
+     "100"
+    ],
+    [
+     "3 h -S9",
+     50,
+     "1.12",
+     "95"
+    ]
+   ],
+   "notes": [
+    "Outcome: negative",
+    "INTERIM: 6 of 24 results reported; remaining in progress"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "OT-26-S0192"
+    ],
+    [
+     "Client",
+     "Vesselquarn Medical Research Trust"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Vesselquarn bicyclic lactam series 14 (Bicyclic lactam)"
+    ],
+    [
+     "Assays",
+     "In vitro cytotoxicity (HepG2), In vitro micronucleus"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "USD 53,000"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "USD 53,000",
+  "n_compounds": "24",
+  "turnaround_days": "",
+  "client_variant": "Vesselquarn Medical Research Trust",
+  "project_id": "OT-26-S0192",
+  "lims_id": "OQ/2026/003086"
+ }
+}

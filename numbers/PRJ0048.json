@@ -1,0 +1,378 @@
+{
+ "project_id": "PRJ0048",
+ "firm": "B",
+ "status": "in_progress",
+ "series": "SER07",
+ "compounds": [
+  {
+   "id": "QP07-08500",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3cc(F)cc(F)c3)cc2)CC1",
+   "mw": 438.5,
+   "clogp": 3.4,
+   "tpsa": 87.4
+  },
+  {
+   "id": "QP07-08506",
+   "smiles": "Nc1cnc(-c2cccnc2)c(NC(=O)c2ccc(NC3CCCCC3)cc2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  },
+  {
+   "id": "QP07-08510",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3cc(F)cc(F)c3)cc2)CC1",
+   "mw": 439.5,
+   "clogp": 3.73,
+   "tpsa": 93.4
+  },
+  {
+   "id": "QP07-08518",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3cncnc3)cc2)CC1",
+   "mw": 405.5,
+   "clogp": 2.24,
+   "tpsa": 119.2
+  },
+  {
+   "id": "QP07-08522",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3cccnc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08530",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc1",
+   "mw": 446.5,
+   "clogp": 2.9,
+   "tpsa": 133.5
+  },
+  {
+   "id": "QP07-08536",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCCC3)cc2)cc1",
+   "mw": 416.5,
+   "clogp": 3.54,
+   "tpsa": 113.2
+  },
+  {
+   "id": "QP07-08540",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc1",
+   "mw": 445.5,
+   "clogp": 2.86,
+   "tpsa": 139.3
+  },
+  {
+   "id": "QP07-08542",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(-c3ccncc3)cc2)n1",
+   "mw": 385.4,
+   "clogp": 4.18,
+   "tpsa": 93.8
+  },
+  {
+   "id": "QP07-08546",
+   "smiles": "Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCCC3)cc2)cc1",
+   "mw": 374.4,
+   "clogp": 3.16,
+   "tpsa": 110.2
+  },
+  {
+   "id": "QP07-08552",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(C)cn3)cc2)CC1",
+   "mw": 417.5,
+   "clogp": 2.82,
+   "tpsa": 100.3
+  },
+  {
+   "id": "QP07-08566",
+   "smiles": "Nc1cnc(-c2ccncc2)c(NC(=O)c2ccc(N3CCCC3)cc2)n1",
+   "mw": 360.4,
+   "clogp": 2.97,
+   "tpsa": 97.0
+  },
+  {
+   "id": "QP07-08578",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08584",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(F)cc3)cc2)cc1",
+   "mw": 441.5,
+   "clogp": 4.74,
+   "tpsa": 110.0
+  },
+  {
+   "id": "QP07-08588",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(N)CC3)cc2)nc1",
+   "mw": 403.5,
+   "clogp": 2.61,
+   "tpsa": 123.0
+  },
+  {
+   "id": "QP07-08590",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(NC(C)=O)cc3)cc2)CC1",
+   "mw": 459.6,
+   "clogp": 3.08,
+   "tpsa": 116.5
+  },
+  {
+   "id": "QP07-08612",
+   "smiles": "Nc1cnc(-c2cncnc2)c(NC(=O)c2ccc(N3CCCC3)cc2)n1",
+   "mw": 361.4,
+   "clogp": 2.37,
+   "tpsa": 109.9
+  },
+  {
+   "id": "QP07-08620",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)nc1",
+   "mw": 382.4,
+   "clogp": 3.74,
+   "tpsa": 106.7
+  },
+  {
+   "id": "QP07-08626",
+   "smiles": "Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)cc1",
+   "mw": 382.4,
+   "clogp": 3.62,
+   "tpsa": 119.8
+  },
+  {
+   "id": "QP07-08630",
+   "smiles": "Nc1cnc(-c2cc(F)cc(F)c2)c(NC(=O)c2ccc(N3CCC(O)CC3)cc2)n1",
+   "mw": 425.4,
+   "clogp": 3.22,
+   "tpsa": 104.4
+  },
+  {
+   "id": "QP07-08636",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(NC3CCCCC3)cc2)n1",
+   "mw": 405.5,
+   "clogp": 4.86,
+   "tpsa": 92.9
+  },
+  {
+   "id": "QP07-08642",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3ccncc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08666",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3cccnc3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "QP07-08674",
+   "smiles": "Nc1cnc(-c2cc(F)cc(F)c2)c(NC(=O)c2ccc(N3CCC(N)CC3)cc2)n1",
+   "mw": 424.5,
+   "clogp": 3.18,
+   "tpsa": 110.2
+  }
+ ],
+ "tables": {
+  "kinase_primary": {
+   "title": "Metabolic-signal kinase IC50 (nM)",
+   "columns": [
+    "Compound",
+    "IC50 (nM)",
+    "Hill slope"
+   ],
+   "rows": [
+    [
+     "QP07-08500",
+     "30",
+     "0.86"
+    ],
+    [
+     "QP07-08506",
+     "31",
+     "0.98"
+    ],
+    [
+     "QP07-08510",
+     "19",
+     "0.87"
+    ],
+    [
+     "QP07-08518",
+     "33",
+     "1.22"
+    ],
+    [
+     "QP07-08522",
+     "2.8",
+     "1.03"
+    ],
+    [
+     "QP07-08530",
+     "51",
+     "0.94"
+    ],
+    [
+     "QP07-08536",
+     "1623",
+     "0.92"
+    ],
+    [
+     "QP07-08540",
+     "74",
+     "1.10"
+    ],
+    [
+     "QP07-08542",
+     "18",
+     "1.11"
+    ],
+    [
+     "QP07-08546",
+     "51",
+     "1.13"
+    ]
+   ],
+   "notes": [
+    "ATP at Km; 10-point, 3-fold; staurosporine control",
+    "INTERIM: 10 of 24 results reported; remaining in progress"
+   ]
+  },
+  "kinase_panel": {
+   "title": "Kinase selectivity panel, % inhibition at 1 µM",
+   "columns": [
+    "Kinase",
+    "QP07-08500",
+    "QP07-08506",
+    "QP07-08510",
+    "QP07-08518",
+    "QP07-08522",
+    "QP07-08530"
+   ],
+   "rows": [
+    [
+     "ABL1",
+     "13",
+     "0",
+     "0",
+     "26",
+     "57",
+     "66"
+    ],
+    [
+     "AURKA",
+     "0",
+     "11",
+     "63",
+     "53",
+     "55",
+     "0"
+    ],
+    [
+     "CDK2",
+     "28",
+     "39",
+     "57",
+     "9",
+     "16",
+     "39"
+    ],
+    [
+     "CHEK1",
+     "63",
+     "48",
+     "13",
+     "13",
+     "56",
+     "56"
+    ],
+    [
+     "EGFR",
+     "53",
+     "0",
+     "65",
+     "21",
+     "4",
+     "0"
+    ],
+    [
+     "FLT3",
+     "42",
+     "0",
+     "68",
+     "5",
+     "10",
+     "13"
+    ],
+    [
+     "GSK3B",
+     "19",
+     "0",
+     "22",
+     "74",
+     "3",
+     "0"
+    ],
+    [
+     "JAK2",
+     "76",
+     "19",
+     "4",
+     "61",
+     "48",
+     "16"
+    ]
+   ],
+   "notes": [
+    "INTERIM: 8 of 24 results reported; remaining in progress"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW26_0417"
+    ],
+    [
+     "Client",
+     "Quorenthel Pharma GmbH"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Quorenthel aminopyrazine series 07 (Aminopyrazine)"
+    ],
+    [
+     "Assays",
+     "Primary kinase IC50, Kinase selectivity panel"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "GBP 21,700"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "kinase.best_ic50_nM": "2.8",
+  "price": "GBP 21,700",
+  "n_compounds": "24",
+  "turnaround_days": "",
+  "client_variant": "Quorenthel Pharma GmbH",
+  "project_id": "BW26_0417",
+  "lims_id": "B-ACC-2026-07111"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0079",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 48,100",
+  "n_compounds": "0",
+  "turnaround_days": "84",
+  "client_variant": "Vesselquarn Medical Research Trust",
+  "project_id": "QV.18.027",
+  "lims_id": "QDATA2018-0189"
+ }
+}

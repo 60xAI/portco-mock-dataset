@@ -1,0 +1,677 @@
+{
+ "project_id": "PRJ0037",
+ "firm": "B",
+ "status": "completed",
+ "series": "SER09",
+ "compounds": [
+  {
+   "id": "FT09-07000",
+   "smiles": "CCN1CCN(CNC(=O)c2n[nH]c3ccc(-c4cncnc4)cc23)CC1",
+   "mw": 365.4,
+   "clogp": 1.34,
+   "tpsa": 90.0
+  },
+  {
+   "id": "FT09-07018",
+   "smiles": "N#Cc1ccc(-c2ccc3[nH]nc(C(=O)NCN4CCC(N)CC4)c3c2)cc1",
+   "mw": 374.4,
+   "clogp": 2.21,
+   "tpsa": 110.8
+  },
+  {
+   "id": "FT09-07022",
+   "smiles": "O=C(NCN1CCC(O)CC1)c1n[nH]c2ccc(-c3cc(F)cc(F)c3)cc12",
+   "mw": 386.4,
+   "clogp": 2.65,
+   "tpsa": 81.2
+  },
+  {
+   "id": "FT09-07034",
+   "smiles": "Nc1ccc(-c2ccc3[nH]nc(C(=O)NCN4CCC(O)CC4)c3c2)cc1",
+   "mw": 365.4,
+   "clogp": 1.96,
+   "tpsa": 107.3
+  },
+  {
+   "id": "FT09-07036",
+   "smiles": "Nc1ccc(-c2ccc3[nH]nc(C(=O)NCN4CCC(N)CC4)c3c2)cc1",
+   "mw": 364.5,
+   "clogp": 1.92,
+   "tpsa": 113.1
+  },
+  {
+   "id": "FT09-07040",
+   "smiles": "N#Cc1ccc(-c2ccc3[nH]nc(C(=O)NCN4CCC(O)CC4)c3c2)cc1",
+   "mw": 375.4,
+   "clogp": 2.25,
+   "tpsa": 105.0
+  },
+  {
+   "id": "FT09-07046",
+   "smiles": "O=C(NCN1CCCC1)c1n[nH]c2ccc(-c3cccnc3)cc12",
+   "mw": 321.4,
+   "clogp": 2.41,
+   "tpsa": 73.9
+  },
+  {
+   "id": "FT09-07060",
+   "smiles": "Nc1ccc(-c2ccc3[nH]nc(C(=O)NCN4CCOCC4)c3c2)cc1",
+   "mw": 351.4,
+   "clogp": 1.83,
+   "tpsa": 96.3
+  },
+  {
+   "id": "FT09-07076",
+   "smiles": "CC(=O)Nc1ccc(CNC(=O)c2n[nH]c3ccc(-c4ccncc4)cc23)cc1",
+   "mw": 385.4,
+   "clogp": 3.51,
+   "tpsa": 99.8
+  },
+  {
+   "id": "FT09-07078",
+   "smiles": "CCN1CCN(CNC(=O)c2n[nH]c3ccc(-c4cccnc4)cc23)CC1",
+   "mw": 364.5,
+   "clogp": 1.95,
+   "tpsa": 77.1
+  },
+  {
+   "id": "FT09-07082",
+   "smiles": "CC(=O)Nc1ccc(CNC(=O)c2n[nH]c3ccc(-c4ccc(F)cc4)cc23)cc1",
+   "mw": 402.4,
+   "clogp": 4.26,
+   "tpsa": 86.9
+  },
+  {
+   "id": "FT09-07084",
+   "smiles": "N#Cc1ccc(-c2ccc3[nH]nc(C(=O)NCc4ccncc4)c3c2)cc1",
+   "mw": 353.4,
+   "clogp": 3.43,
+   "tpsa": 94.5
+  },
+  {
+   "id": "FT09-07088",
+   "smiles": "O=C(NCN1CCCC1)c1n[nH]c2ccc(-c3ccncc3)cc12",
+   "mw": 321.4,
+   "clogp": 2.41,
+   "tpsa": 73.9
+  },
+  {
+   "id": "FT09-07090",
+   "smiles": "CN1CCN(CNC(=O)c2n[nH]c3ccc(-c4cc(F)cc(F)c4)cc23)CC1",
+   "mw": 385.4,
+   "clogp": 2.44,
+   "tpsa": 64.3
+  },
+  {
+   "id": "FT09-07094",
+   "smiles": "CC(=O)Nc1ccc(CNC(=O)c2n[nH]c3ccc(-c4cccnc4)cc23)cc1",
+   "mw": 385.4,
+   "clogp": 3.51,
+   "tpsa": 99.8
+  },
+  {
+   "id": "FT09-07100",
+   "smiles": "COc1ccc(-c2ccc3[nH]nc(C(=O)NCc4ccncc4)c3c2)cc1",
+   "mw": 358.4,
+   "clogp": 3.56,
+   "tpsa": 79.9
+  },
+  {
+   "id": "FT09-07102",
+   "smiles": "NC1CCN(CNC(=O)c2n[nH]c3ccc(-c4cc(F)cc(F)c4)cc23)CC1",
+   "mw": 385.4,
+   "clogp": 2.62,
+   "tpsa": 87.0
+  },
+  {
+   "id": "FT09-07108",
+   "smiles": "NC1CCN(CNC(=O)c2n[nH]c3ccc(-c4ccc(F)cc4)cc23)CC1",
+   "mw": 367.4,
+   "clogp": 2.48,
+   "tpsa": 87.0
+  },
+  {
+   "id": "FT09-07130",
+   "smiles": "CN1CCN(CNC(=O)c2n[nH]c3ccc(-c4cncnc4)cc23)CC1",
+   "mw": 351.4,
+   "clogp": 0.95,
+   "tpsa": 90.0
+  },
+  {
+   "id": "FT09-07132",
+   "smiles": "Nc1ccc(-c2ccc3[nH]nc(C(=O)NCc4ccncc4)c3c2)cc1",
+   "mw": 343.4,
+   "clogp": 3.14,
+   "tpsa": 96.7
+  },
+  {
+   "id": "FT09-07144",
+   "smiles": "CC(=O)Nc1ccc(CNC(=O)c2n[nH]c3ccc(-c4ccc(C#N)cc4)cc23)cc1",
+   "mw": 409.4,
+   "clogp": 3.99,
+   "tpsa": 110.7
+  },
+  {
+   "id": "FT09-07148",
+   "smiles": "O=C(NCc1ccncc1)c1n[nH]c2ccc(-c3ccncc3)cc12",
+   "mw": 329.4,
+   "clogp": 2.95,
+   "tpsa": 83.6
+  },
+  {
+   "id": "FT09-07154",
+   "smiles": "O=C(NCN1CCC(O)CC1)c1n[nH]c2ccc(-c3ccncc3)cc12",
+   "mw": 351.4,
+   "clogp": 1.77,
+   "tpsa": 94.1
+  },
+  {
+   "id": "FT09-07160",
+   "smiles": "NC1CCN(CNC(=O)c2n[nH]c3ccc(-c4cccnc4)cc23)CC1",
+   "mw": 350.4,
+   "clogp": 1.74,
+   "tpsa": 99.9
+  },
+  {
+   "id": "FT09-07166",
+   "smiles": "O=C(NCN1CCOCC1)c1n[nH]c2ccc(-c3cccnc3)cc12",
+   "mw": 337.4,
+   "clogp": 1.64,
+   "tpsa": 83.1
+  },
+  {
+   "id": "FT09-07172",
+   "smiles": "CCN1CCN(CNC(=O)c2n[nH]c3ccc(-c4ccc(C#N)cc4)cc23)CC1",
+   "mw": 388.5,
+   "clogp": 2.43,
+   "tpsa": 88.0
+  },
+  {
+   "id": "FT09-07174",
+   "smiles": "COc1ccc(-c2ccc3[nH]nc(C(=O)NCN4CCOCC4)c3c2)cc1",
+   "mw": 366.4,
+   "clogp": 2.26,
+   "tpsa": 79.5
+  },
+  {
+   "id": "FT09-07178",
+   "smiles": "CCN1CCN(CNC(=O)c2n[nH]c3ccc(-c4ccc(F)cc4)cc23)CC1",
+   "mw": 381.5,
+   "clogp": 2.69,
+   "tpsa": 64.3
+  },
+  {
+   "id": "FT09-07180",
+   "smiles": "O=C(NCc1ccncc1)c1n[nH]c2ccc(-c3cncnc3)cc12",
+   "mw": 330.4,
+   "clogp": 2.34,
+   "tpsa": 96.5
+  },
+  {
+   "id": "FT09-07184",
+   "smiles": "O=C(NCN1CCC(O)CC1)c1n[nH]c2ccc(-c3ccc(F)cc3)cc12",
+   "mw": 368.4,
+   "clogp": 2.51,
+   "tpsa": 81.2
+  },
+  {
+   "id": "FT09-07186",
+   "smiles": "CCN1CCN(CNC(=O)c2n[nH]c3ccc(-c4ccc(OC)cc4)cc23)CC1",
+   "mw": 393.5,
+   "clogp": 2.56,
+   "tpsa": 73.5
+  },
+  {
+   "id": "FT09-07190",
+   "smiles": "O=C(NCN1CCOCC1)c1n[nH]c2ccc(-c3ccncc3)cc12",
+   "mw": 337.4,
+   "clogp": 1.64,
+   "tpsa": 83.1
+  }
+ ],
+ "tables": {
+  "herg": {
+   "title": "hERG IC50 (automated patch clamp)",
+   "columns": [
+    "Compound",
+    "IC50 rep 1 (µM)",
+    "IC50 rep 2 (µM)",
+    "IC50 rep 3 (µM)",
+    "IC50 mean (µM)",
+    "% inhibition @10 µM",
+    "n",
+    "QC note"
+   ],
+   "rows": [
+    [
+     "FT09-07000",
+     "22",
+     "13",
+     "",
+     "17",
+     "42",
+     2,
+     ""
+    ],
+    [
+     "FT09-07018",
+     "8.4",
+     "5.7",
+     "9.0",
+     "7.5",
+     "53",
+     3,
+     ""
+    ],
+    [
+     "FT09-07022",
+     "9.6",
+     "12",
+     "",
+     "11",
+     "41",
+     2,
+     ""
+    ],
+    [
+     "FT09-07034",
+     ">30",
+     "20",
+     "",
+     ">30",
+     "25",
+     2,
+     ""
+    ],
+    [
+     "FT09-07036",
+     "15",
+     "25",
+     "",
+     "20",
+     "33",
+     2,
+     ""
+    ],
+    [
+     "FT09-07040",
+     "19",
+     ">30",
+     "",
+     ">30",
+     "29",
+     2,
+     ""
+    ],
+    [
+     "FT09-07046",
+     "19",
+     "15",
+     "",
+     "17",
+     "33",
+     2,
+     ""
+    ],
+    [
+     "FT09-07060",
+     "12",
+     "11",
+     "",
+     "12",
+     "48",
+     2,
+     ""
+    ],
+    [
+     "FT09-07076",
+     "6.3",
+     "5.3",
+     "",
+     "5.8",
+     "59",
+     2,
+     ""
+    ],
+    [
+     "FT09-07078",
+     "10.0",
+     "7.9",
+     "6.6",
+     "8.0",
+     "54",
+     3,
+     ""
+    ],
+    [
+     "FT09-07082",
+     "3.1",
+     "2.6",
+     "",
+     "2.8",
+     "77",
+     2,
+     ""
+    ],
+    [
+     "FT09-07084",
+     "18",
+     "12",
+     "",
+     "15",
+     "38",
+     2,
+     ""
+    ],
+    [
+     "FT09-07088",
+     "7.3",
+     "7.1",
+     "",
+     "7.2",
+     "68",
+     2,
+     ""
+    ],
+    [
+     "FT09-07090",
+     "5.8",
+     "7.4",
+     "",
+     "6.6",
+     "59",
+     2,
+     ""
+    ],
+    [
+     "FT09-07094",
+     "14",
+     "6.0",
+     "",
+     "9.2",
+     "52",
+     2,
+     ""
+    ],
+    [
+     "FT09-07100",
+     "24",
+     "16",
+     "",
+     "20",
+     "34",
+     2,
+     ""
+    ],
+    [
+     "FT09-07102",
+     "3.7",
+     "4.3",
+     "3.1",
+     "3.7",
+     "75",
+     3,
+     ""
+    ],
+    [
+     "FT09-07108",
+     "4.4",
+     "6.8",
+     "",
+     "5.5",
+     "68",
+     2,
+     ""
+    ],
+    [
+     "FT09-07130",
+     "28",
+     ">30",
+     "",
+     ">30",
+     "22",
+     2,
+     ""
+    ],
+    [
+     "FT09-07132",
+     "15",
+     "13",
+     "13",
+     "14",
+     "44",
+     3,
+     ""
+    ],
+    [
+     "FT09-07144",
+     "1.8",
+     "2.4",
+     "",
+     "2.1",
+     "79",
+     2,
+     ""
+    ],
+    [
+     "FT09-07148",
+     "14",
+     "19",
+     "",
+     "16",
+     "39",
+     2,
+     ""
+    ],
+    [
+     "FT09-07154",
+     "9.1",
+     "8.7",
+     "",
+     "8.9",
+     "50",
+     2,
+     ""
+    ],
+    [
+     "FT09-07160",
+     "16",
+     "11",
+     "",
+     "14",
+     "45",
+     2,
+     ""
+    ],
+    [
+     "FT09-07166",
+     "18",
+     "23",
+     "18",
+     "19",
+     "31",
+     3,
+     ""
+    ],
+    [
+     "FT09-07172",
+     "8.1",
+     "19",
+     "",
+     "13",
+     "47",
+     2,
+     ""
+    ],
+    [
+     "FT09-07174",
+     "3.4",
+     "3.6",
+     "",
+     "3.5",
+     "67",
+     2,
+     ""
+    ],
+    [
+     "FT09-07178",
+     "3.4",
+     "3.2",
+     "",
+     "3.3",
+     "71",
+     2,
+     ""
+    ],
+    [
+     "FT09-07180",
+     ">30",
+     ">30",
+     "",
+     ">30",
+     "28",
+     2,
+     ""
+    ],
+    [
+     "FT09-07184",
+     "28",
+     "17",
+     "",
+     "22",
+     "31",
+     2,
+     ""
+    ],
+    [
+     "FT09-07186",
+     "6.4",
+     "6.8",
+     "4.9",
+     "6.0",
+     "56",
+     3,
+     ""
+    ],
+    [
+     "FT09-07190",
+     "20",
+     "27",
+     "",
+     "23",
+     "28",
+     2,
+     ""
+    ]
+   ],
+   "notes": [
+    "Top concentration 30 µM; 6-point, 3-fold dilution; positive control E-4031 IC50 16 nM (acceptance 5-50 nM)"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW18_0225"
+    ],
+    [
+     "Client",
+     "Feldorune Therapeutics BV"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Feldorune indazole series 09 (Indazole)"
+    ],
+    [
+     "Assays",
+     "hERG patch clamp"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "17"
+    ],
+    [
+     "Price",
+     "GBP 10,600"
+    ],
+    [
+     "hERG IC50 <1 µM",
+     "0"
+    ],
+    [
+     "hERG IC50 1-10 µM",
+     "14"
+    ],
+    [
+     "hERG IC50 ≥10 µM",
+     "18"
+    ],
+    [
+     "hERG median IC50 (µM)",
+     "12"
+    ],
+    [
+     "E-4031 control IC50 (nM)",
+     "16"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "herg.n_tested": "32",
+  "herg.n_lt_1uM": "0",
+  "herg.n_1_10uM": "14",
+  "herg.n_ge_10uM": "18",
+  "herg.median_ic50_uM": "12",
+  "herg.control_e4031_nM": "16",
+  "herg.top_conc_uM": "30",
+  "herg.FT09-07000.ic50_uM": "17",
+  "herg.FT09-07018.ic50_uM": "7.5",
+  "herg.FT09-07022.ic50_uM": "11",
+  "herg.FT09-07034.ic50_uM": ">30",
+  "herg.FT09-07036.ic50_uM": "20",
+  "herg.FT09-07040.ic50_uM": ">30",
+  "herg.FT09-07046.ic50_uM": "17",
+  "herg.FT09-07060.ic50_uM": "12",
+  "herg.FT09-07076.ic50_uM": "5.8",
+  "herg.FT09-07078.ic50_uM": "8.0",
+  "herg.FT09-07082.ic50_uM": "2.8",
+  "herg.FT09-07084.ic50_uM": "15",
+  "herg.FT09-07088.ic50_uM": "7.2",
+  "herg.FT09-07090.ic50_uM": "6.6",
+  "herg.FT09-07094.ic50_uM": "9.2",
+  "herg.FT09-07100.ic50_uM": "20",
+  "herg.FT09-07102.ic50_uM": "3.7",
+  "herg.FT09-07108.ic50_uM": "5.5",
+  "herg.FT09-07130.ic50_uM": ">30",
+  "herg.FT09-07132.ic50_uM": "14",
+  "herg.FT09-07144.ic50_uM": "2.1",
+  "herg.FT09-07148.ic50_uM": "16",
+  "herg.FT09-07154.ic50_uM": "8.9",
+  "herg.FT09-07160.ic50_uM": "14",
+  "herg.FT09-07166.ic50_uM": "19",
+  "herg.FT09-07172.ic50_uM": "13",
+  "herg.FT09-07174.ic50_uM": "3.5",
+  "herg.FT09-07178.ic50_uM": "3.3",
+  "herg.FT09-07180.ic50_uM": ">30",
+  "herg.FT09-07184.ic50_uM": "22",
+  "herg.FT09-07186.ic50_uM": "6.0",
+  "herg.FT09-07190.ic50_uM": "23",
+  "price": "GBP 10,600",
+  "n_compounds": "32",
+  "turnaround_days": "17",
+  "client_variant": "Feldorune Therapeutics BV",
+  "project_id": "BW18_0225",
+  "lims_id": "B-ACC-2018-03853"
+ }
+}

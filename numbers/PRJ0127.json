@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0127",
+ "firm": "G",
+ "status": "lost",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "USD 207,000",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Sarnelvessa Agrochem",
+  "project_id": "OT-24-S0136",
+  "lims_id": "OQ/2024/002184"
+ }
+}

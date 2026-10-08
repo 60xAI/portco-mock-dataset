@@ -1,0 +1,55 @@
+{
+ "project_id": "PRJ0099",
+ "firm": "E",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "method_val": {
+   "title": "Method validation summary",
+   "columns": [
+    "Parameter",
+    "Result",
+    "Acceptance"
+   ],
+   "rows": [
+    [
+     "Linearity (r²)",
+     "0.9995",
+     "≥0.999"
+    ],
+    [
+     "Range (% nominal)",
+     "50-150",
+     "80-120 minimum"
+    ],
+    [
+     "Accuracy 80% (% recovery)",
+     "99.8",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 100% (% recovery)",
+     "100.4",
+     "98.0-102.0"
+    ],
+    [
+     "Accuracy 120% (% recovery)",
+     "99.9",
+     "98.0-102.0"
+    ]
+   ],
+   "notes": [
+    "INTERIM: 5 of 5 results reported; remaining in progress"
+   ]
+  }
+ },
+ "values": {
+  "price": "GBP 61,500",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Xelvessune Pharma",
+  "project_id": "WA/2026/275",
+  "lims_id": "WST-26-008543"
+ }
+}

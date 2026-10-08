@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0083",
+ "firm": "D",
+ "status": "lost",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 69,900",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Jelmorath Therapeutics",
+  "project_id": "QV.25.108",
+  "lims_id": "QDATA2025-0672"
+ }
+}

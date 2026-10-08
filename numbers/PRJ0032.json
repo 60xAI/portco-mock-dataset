@@ -1,0 +1,517 @@
+{
+ "project_id": "PRJ0032",
+ "firm": "B",
+ "status": "completed",
+ "series": "SER07",
+ "compounds": [
+  {
+   "id": "QP07-08506",
+   "smiles": "Nc1cnc(-c2cccnc2)c(NC(=O)c2ccc(NC3CCCCC3)cc2)n1",
+   "mw": 388.5,
+   "clogp": 4.12,
+   "tpsa": 105.8
+  },
+  {
+   "id": "QP07-08518",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3cncnc3)cc2)CC1",
+   "mw": 405.5,
+   "clogp": 2.24,
+   "tpsa": 119.2
+  },
+  {
+   "id": "QP07-08522",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3cccnc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08530",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc1",
+   "mw": 446.5,
+   "clogp": 2.9,
+   "tpsa": 133.5
+  },
+  {
+   "id": "QP07-08536",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCCC3)cc2)cc1",
+   "mw": 416.5,
+   "clogp": 3.54,
+   "tpsa": 113.2
+  },
+  {
+   "id": "QP07-08542",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(-c3ccncc3)cc2)n1",
+   "mw": 385.4,
+   "clogp": 4.18,
+   "tpsa": 93.8
+  },
+  {
+   "id": "QP07-08558",
+   "smiles": "Nc1cnc(-c2cccnc2)c(NC(=O)c2ccc(-c3ccncc3)cc2)n1",
+   "mw": 368.4,
+   "clogp": 3.44,
+   "tpsa": 106.7
+  },
+  {
+   "id": "QP07-08566",
+   "smiles": "Nc1cnc(-c2ccncc2)c(NC(=O)c2ccc(N3CCCC3)cc2)n1",
+   "mw": 360.4,
+   "clogp": 2.97,
+   "tpsa": 97.0
+  },
+  {
+   "id": "QP07-08578",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08588",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(N)CC3)cc2)nc1",
+   "mw": 403.5,
+   "clogp": 2.61,
+   "tpsa": 123.0
+  },
+  {
+   "id": "QP07-08590",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(NC(C)=O)cc3)cc2)CC1",
+   "mw": 459.6,
+   "clogp": 3.08,
+   "tpsa": 116.5
+  },
+  {
+   "id": "QP07-08594",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(N3CCCC3)cc2)n1",
+   "mw": 377.4,
+   "clogp": 3.72,
+   "tpsa": 84.1
+  },
+  {
+   "id": "QP07-08608",
+   "smiles": "Nc1cnc(-c2cncnc2)c(NC(=O)c2ccc(N3CCC(O)CC3)cc2)n1",
+   "mw": 391.4,
+   "clogp": 1.73,
+   "tpsa": 130.1
+  },
+  {
+   "id": "QP07-08620",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)nc1",
+   "mw": 382.4,
+   "clogp": 3.74,
+   "tpsa": 106.7
+  },
+  {
+   "id": "QP07-08630",
+   "smiles": "Nc1cnc(-c2cc(F)cc(F)c2)c(NC(=O)c2ccc(N3CCC(O)CC3)cc2)n1",
+   "mw": 425.4,
+   "clogp": 3.22,
+   "tpsa": 104.4
+  },
+  {
+   "id": "QP07-08632",
+   "smiles": "Nc1cnc(-c2ccncc2)c(NC(=O)c2ccc(N3CCC(N)CC3)cc2)n1",
+   "mw": 389.5,
+   "clogp": 2.3,
+   "tpsa": 123.0
+  },
+  {
+   "id": "QP07-08636",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(NC3CCCCC3)cc2)n1",
+   "mw": 405.5,
+   "clogp": 4.86,
+   "tpsa": 92.9
+  },
+  {
+   "id": "QP07-08642",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3ccncc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08660",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(F)cc3)cc2)CC1",
+   "mw": 420.5,
+   "clogp": 3.26,
+   "tpsa": 87.4
+  },
+  {
+   "id": "QP07-08662",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(N3CCC(O)CC3)cc2)n1",
+   "mw": 407.4,
+   "clogp": 3.08,
+   "tpsa": 104.4
+  },
+  {
+   "id": "QP07-08668",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(N)cc3)cc2)CC1",
+   "mw": 417.5,
+   "clogp": 2.7,
+   "tpsa": 113.4
+  },
+  {
+   "id": "QP07-08672",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCCC3)cc2)nc1",
+   "mw": 374.4,
+   "clogp": 3.28,
+   "tpsa": 97.0
+  },
+  {
+   "id": "QP07-08686",
+   "smiles": "Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(N)CC3)cc2)cc1",
+   "mw": 403.5,
+   "clogp": 2.49,
+   "tpsa": 136.2
+  },
+  {
+   "id": "QP07-08690",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3cncnc3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 1.91,
+   "tpsa": 113.2
+  }
+ ],
+ "tables": {
+  "kinase_primary": {
+   "title": "Metabolic-signal kinase IC50 (nM)",
+   "columns": [
+    "Compound",
+    "IC50 (nM)",
+    "Hill slope"
+   ],
+   "rows": [
+    [
+     "QP07-08506",
+     "20",
+     "0.91"
+    ],
+    [
+     "QP07-08518",
+     "17",
+     "0.94"
+    ],
+    [
+     "QP07-08522",
+     "5.0",
+     "1.20"
+    ],
+    [
+     "QP07-08530",
+     "51",
+     "0.99"
+    ],
+    [
+     "QP07-08536",
+     "1260",
+     "1.04"
+    ],
+    [
+     "QP07-08542",
+     "19",
+     "0.94"
+    ],
+    [
+     "QP07-08558",
+     "51",
+     "0.88"
+    ],
+    [
+     "QP07-08566",
+     "162",
+     "1.20"
+    ],
+    [
+     "QP07-08578",
+     "18",
+     "1.01"
+    ],
+    [
+     "QP07-08588",
+     "3902",
+     "1.05"
+    ],
+    [
+     "QP07-08590",
+     "112",
+     "1.18"
+    ],
+    [
+     "QP07-08594",
+     "85",
+     "1.04"
+    ],
+    [
+     "QP07-08608",
+     "15",
+     "1.13"
+    ],
+    [
+     "QP07-08620",
+     "271",
+     "0.91"
+    ],
+    [
+     "QP07-08630",
+     "4.4",
+     "1.18"
+    ],
+    [
+     "QP07-08632",
+     "23",
+     "1.14"
+    ],
+    [
+     "QP07-08636",
+     "50",
+     "1.16"
+    ],
+    [
+     "QP07-08642",
+     "12",
+     "0.85"
+    ],
+    [
+     "QP07-08660",
+     "34",
+     "0.87"
+    ],
+    [
+     "QP07-08662",
+     "111",
+     "1.24"
+    ],
+    [
+     "QP07-08668",
+     "13",
+     "0.91"
+    ],
+    [
+     "QP07-08672",
+     "19",
+     "1.20"
+    ],
+    [
+     "QP07-08686",
+     "24",
+     "0.96"
+    ],
+    [
+     "QP07-08690",
+     "33",
+     "1.21"
+    ]
+   ],
+   "notes": [
+    "ATP at Km; 10-point, 3-fold; staurosporine control"
+   ]
+  },
+  "kinase_panel": {
+   "title": "Kinase selectivity panel, % inhibition at 1 µM",
+   "columns": [
+    "Kinase",
+    "QP07-08506",
+    "QP07-08518",
+    "QP07-08522",
+    "QP07-08530",
+    "QP07-08536",
+    "QP07-08542"
+   ],
+   "rows": [
+    [
+     "ABL1",
+     "21",
+     "32",
+     "0",
+     "22",
+     "0",
+     "0"
+    ],
+    [
+     "AURKA",
+     "36",
+     "12",
+     "28",
+     "0",
+     "22",
+     "12"
+    ],
+    [
+     "CDK2",
+     "21",
+     "26",
+     "72",
+     "0",
+     "47",
+     "34"
+    ],
+    [
+     "CHEK1",
+     "40",
+     "0",
+     "48",
+     "33",
+     "15",
+     "14"
+    ],
+    [
+     "EGFR",
+     "10",
+     "0",
+     "33",
+     "9",
+     "24",
+     "15"
+    ],
+    [
+     "FLT3",
+     "33",
+     "18",
+     "30",
+     "0",
+     "2",
+     "4"
+    ],
+    [
+     "GSK3B",
+     "54",
+     "70",
+     "62",
+     "23",
+     "35",
+     "0"
+    ],
+    [
+     "JAK2",
+     "8",
+     "5",
+     "21",
+     "34",
+     "35",
+     "22"
+    ],
+    [
+     "KDR",
+     "45",
+     "49",
+     "36",
+     "48",
+     "0",
+     "0"
+    ],
+    [
+     "LCK",
+     "21",
+     "4",
+     "1",
+     "12",
+     "47",
+     "20"
+    ],
+    [
+     "MAPK14",
+     "41",
+     "42",
+     "18",
+     "20",
+     "10",
+     "47"
+    ],
+    [
+     "PIK3CA",
+     "55",
+     "0",
+     "36",
+     "49",
+     "7",
+     "3"
+    ],
+    [
+     "SRC",
+     "3",
+     "64",
+     "14",
+     "23",
+     "24",
+     "18"
+    ],
+    [
+     "SYK",
+     "43",
+     "51",
+     "39",
+     "16",
+     "42",
+     "4"
+    ],
+    [
+     "BTK",
+     "35",
+     "0",
+     "35",
+     "41",
+     "16",
+     "43"
+    ],
+    [
+     "ROCK1",
+     "0",
+     "0",
+     "37",
+     "0",
+     "60",
+     "12"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW01_0059"
+    ],
+    [
+     "Client",
+     "Quorenthel Pharma GmbH"
+    ],
+    [
+     "Compounds tested",
+     "24"
+    ],
+    [
+     "Series / chemotype",
+     "Quorenthel aminopyrazine series 07 (Aminopyrazine)"
+    ],
+    [
+     "Assays",
+     "Primary kinase IC50, Kinase selectivity panel"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "42"
+    ],
+    [
+     "Price",
+     "GBP 10,700"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "kinase.best_ic50_nM": "4.4",
+  "price": "GBP 10,700",
+  "n_compounds": "24",
+  "turnaround_days": "42",
+  "client_variant": "Quorenthel Pharma GmbH",
+  "project_id": "BW01_0059",
+  "lims_id": "B-ACC-2001-01010"
+ }
+}

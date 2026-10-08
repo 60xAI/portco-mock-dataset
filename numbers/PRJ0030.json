@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0030",
+ "firm": "A",
+ "status": "unanswered",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 48,000",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Helvessora Biosciences",
+  "project_id": "VD-24-109",
+  "lims_id": "VA20240986"
+ }
+}

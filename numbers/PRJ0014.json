@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0014",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 60,400",
+  "n_compounds": "0",
+  "turnaround_days": "66",
+  "client_variant": "Drelvessa Therapeutics SAS",
+  "project_id": "QV.25.086",
+  "lims_id": "QDATA2025-0522"
+ }
+}

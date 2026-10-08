@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0028",
+ "firm": "A",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 45,400",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Nelmudara Biosciences",
+  "project_id": "VD-26-091",
+  "lims_id": "VA20260826"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0073",
+ "firm": "C",
+ "status": "on_hold",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "USD 13,000",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Celmorath Pharma",
+  "project_id": "MV-2024-171",
+  "lims_id": "M24/BIO/03939"
+ }
+}

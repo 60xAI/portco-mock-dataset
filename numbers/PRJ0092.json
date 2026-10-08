@@ -1,0 +1,157 @@
+{
+ "project_id": "PRJ0092",
+ "firm": "E",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "stability": {
+   "title": "Stability results (assay % label claim; impurities % area)",
+   "columns": [
+    "Condition",
+    "Timepoint (months)",
+    "Assay (% LC)",
+    "Imp A RRT 0.86 (%)",
+    "Imp B RRT 1.12 (%)",
+    "Total impurities (%)",
+    "Water KF (% w/w)",
+    "Result"
+   ],
+   "rows": [
+    [
+     "25 °C/60% RH",
+     0,
+     "100.2",
+     "0.05",
+     "<0.05",
+     "0.23",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     1,
+     "99.8",
+     "0.06",
+     "<0.05",
+     "0.23",
+     "2.2",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     3,
+     "99.6",
+     "0.09",
+     "<0.05",
+     "0.25",
+     "1.4",
+     "Complies"
+    ],
+    [
+     "25 °C/60% RH",
+     6,
+     "99.7",
+     "0.10",
+     "0.06",
+     "0.28",
+     "1.3",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     0,
+     "99.5",
+     "0.04",
+     "<0.05",
+     "0.11",
+     "1.5",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     1,
+     "99.6",
+     "0.05",
+     "<0.05",
+     "0.17",
+     "0.9",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     3,
+     "99.4",
+     "0.10",
+     "0.07",
+     "0.27",
+     "2.5",
+     "Complies"
+    ],
+    [
+     "30 °C/65% RH",
+     6,
+     "99.3",
+     "0.13",
+     "0.09",
+     "0.29",
+     "2.4",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     0,
+     "99.6",
+     "0.05",
+     "<0.05",
+     "0.18",
+     "1.5",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     1,
+     "98.8",
+     "0.10",
+     "0.06",
+     "0.24",
+     "2.1",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     3,
+     "99.1",
+     "0.20",
+     "0.10",
+     "0.46",
+     "1.9",
+     "Complies"
+    ],
+    [
+     "40 °C/75% RH",
+     6,
+     "98.1",
+     "0.35",
+     "0.21",
+     "0.62",
+     "2.5",
+     "Complies"
+    ]
+   ],
+   "notes": [
+    "Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%"
+   ]
+  }
+ },
+ "values": {
+  "stability.t0_assay": "99.7",
+  "stability.last_timepoint_months": "6",
+  "price": "GBP 51,700",
+  "n_compounds": "0",
+  "turnaround_days": "181",
+  "client_variant": "Odraverne Pharmaceuticals",
+  "project_id": "WA/2019/010",
+  "lims_id": "WST-19-000327"
+ }
+}

@@ -1,0 +1,550 @@
+{
+ "project_id": "PRJ0021",
+ "firm": "A",
+ "status": "completed",
+ "series": "SER14",
+ "compounds": [
+  {
+   "id": "VM14-01000",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(NC(C)=O)cc4)C(=O)C3C2)cc1",
+   "mw": 405.5,
+   "clogp": 4.15,
+   "tpsa": 78.5
+  },
+  {
+   "id": "VM14-01010",
+   "smiles": "NC1CCN(C2CCC3CN(c4cncnc4)C(=O)C3C2)CC1",
+   "mw": 315.4,
+   "clogp": 1.03,
+   "tpsa": 75.3
+  },
+  {
+   "id": "VM14-01018",
+   "smiles": "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1cccnc1",
+   "mw": 315.4,
+   "clogp": 1.67,
+   "tpsa": 56.7
+  },
+  {
+   "id": "VM14-01022",
+   "smiles": "N#Cc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+   "mw": 325.4,
+   "clogp": 2.02,
+   "tpsa": 56.6
+  },
+  {
+   "id": "VM14-01024",
+   "smiles": "CCN1CCN(C2CCC3CN(c4cccnc4)C(=O)C3C2)CC1",
+   "mw": 328.5,
+   "clogp": 1.85,
+   "tpsa": 39.7
+  },
+  {
+   "id": "VM14-01028",
+   "smiles": "O=C1C2CC(c3ccncc3)CCC2CN1c1ccc(F)cc1",
+   "mw": 310.4,
+   "clogp": 3.77,
+   "tpsa": 33.2
+  },
+  {
+   "id": "VM14-01030",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCC(N)CC4)CC3C2=O)cc1",
+   "mw": 343.5,
+   "clogp": 2.25,
+   "tpsa": 58.8
+  },
+  {
+   "id": "VM14-01036",
+   "smiles": "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1cncnc1",
+   "mw": 316.4,
+   "clogp": 1.06,
+   "tpsa": 69.6
+  },
+  {
+   "id": "VM14-01040",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)cc1",
+   "mw": 344.5,
+   "clogp": 2.28,
+   "tpsa": 53.0
+  },
+  {
+   "id": "VM14-01046",
+   "smiles": "NC1CCN(C2CCC3CN(c4cccnc4)C(=O)C3C2)CC1",
+   "mw": 314.4,
+   "clogp": 1.64,
+   "tpsa": 62.5
+  },
+  {
+   "id": "VM14-01048",
+   "smiles": "COc1ccc(N2CC3CCC(c4ccc(NC(C)=O)cc4)CC3C2=O)cc1",
+   "mw": 378.5,
+   "clogp": 4.2,
+   "tpsa": 58.6
+  },
+  {
+   "id": "VM14-01052",
+   "smiles": "CN1CCN(C2CCC3CN(c4ccc(N)cc4)C(=O)C3C2)CC1",
+   "mw": 328.5,
+   "clogp": 1.65,
+   "tpsa": 52.8
+  },
+  {
+   "id": "VM14-01058",
+   "smiles": "CC(=O)Nc1ccc(N2CC3CCC(N4CCC(N)CC4)CC3C2=O)cc1",
+   "mw": 370.5,
+   "clogp": 2.2,
+   "tpsa": 78.7
+  },
+  {
+   "id": "VM14-01060",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(N)cc4)C(=O)C3C2)cc1",
+   "mw": 363.5,
+   "clogp": 3.77,
+   "tpsa": 75.4
+  },
+  {
+   "id": "VM14-01066",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4cccnc4)C(=O)C3C2)cc1",
+   "mw": 349.4,
+   "clogp": 3.59,
+   "tpsa": 62.3
+  },
+  {
+   "id": "VM14-01072",
+   "smiles": "CC(=O)Nc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)cc1",
+   "mw": 371.5,
+   "clogp": 2.23,
+   "tpsa": 72.9
+  },
+  {
+   "id": "VM14-01076",
+   "smiles": "Nc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+   "mw": 315.4,
+   "clogp": 1.73,
+   "tpsa": 58.8
+  },
+  {
+   "id": "VM14-01082",
+   "smiles": "CCN1CCN(C2CCC3CN(c4ccc(NC(C)=O)cc4)C(=O)C3C2)CC1",
+   "mw": 384.5,
+   "clogp": 2.41,
+   "tpsa": 55.9
+  },
+  {
+   "id": "VM14-01088",
+   "smiles": "COc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+   "mw": 330.4,
+   "clogp": 2.16,
+   "tpsa": 42.0
+  },
+  {
+   "id": "VM14-01094",
+   "smiles": "O=C1C2CC(N3CCCC3)CCC2CN1c1cncnc1",
+   "mw": 286.4,
+   "clogp": 1.7,
+   "tpsa": 49.3
+  },
+  {
+   "id": "VM14-01096",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)cc1",
+   "mw": 366.4,
+   "clogp": 4.33,
+   "tpsa": 49.4
+  },
+  {
+   "id": "VM14-01106",
+   "smiles": "NC1CCN(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)CC1",
+   "mw": 331.4,
+   "clogp": 2.38,
+   "tpsa": 49.6
+  },
+  {
+   "id": "VM14-01108",
+   "smiles": "Nc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)cc1",
+   "mw": 329.4,
+   "clogp": 1.86,
+   "tpsa": 69.8
+  },
+  {
+   "id": "VM14-01114",
+   "smiles": "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1ccc(F)cc1",
+   "mw": 332.4,
+   "clogp": 2.41,
+   "tpsa": 43.8
+  },
+  {
+   "id": "VM14-01124",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)cc1",
+   "mw": 373.5,
+   "clogp": 4.06,
+   "tpsa": 73.2
+  },
+  {
+   "id": "VM14-01136",
+   "smiles": "CN1CCN(C2CCC3CN(c4cncnc4)C(=O)C3C2)CC1",
+   "mw": 315.4,
+   "clogp": 0.86,
+   "tpsa": 52.6
+  },
+  {
+   "id": "VM14-01144",
+   "smiles": "CCN1CCN(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)CC1",
+   "mw": 352.5,
+   "clogp": 2.33,
+   "tpsa": 50.6
+  },
+  {
+   "id": "VM14-01150",
+   "smiles": "O=C1C2CC(N3CCCC3)CCC2CN1c1ccc(F)cc1",
+   "mw": 302.4,
+   "clogp": 3.05,
+   "tpsa": 23.6
+  },
+  {
+   "id": "VM14-01166",
+   "smiles": "CC(=O)Nc1ccc(C2CCC3CN(c4cncnc4)C(=O)C3C2)cc1",
+   "mw": 350.4,
+   "clogp": 2.98,
+   "tpsa": 75.2
+  },
+  {
+   "id": "VM14-01168",
+   "smiles": "CN1CCN(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)CC1",
+   "mw": 338.5,
+   "clogp": 1.94,
+   "tpsa": 50.6
+  },
+  {
+   "id": "VM14-01184",
+   "smiles": "Nc1ccc(N2CC3CCC(c4ccncc4)CC3C2=O)cc1",
+   "mw": 307.4,
+   "clogp": 3.21,
+   "tpsa": 59.2
+  },
+  {
+   "id": "VM14-01190",
+   "smiles": "CCN1CCN(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)CC1",
+   "mw": 345.5,
+   "clogp": 2.59,
+   "tpsa": 26.8
+  }
+ ],
+ "tables": {
+  "synthesis": {
+   "title": "Compounds delivered",
+   "columns": [
+    "Compound",
+    "SMILES",
+    "MW",
+    "Yield (%)",
+    "Purity LCMS (%)",
+    "Amount (mg)"
+   ],
+   "rows": [
+    [
+     "VM14-01000",
+     "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(NC(C)=O)cc4)C(=O)C3C2)cc1",
+     "405.5",
+     "4",
+     "97.5",
+     "21"
+    ],
+    [
+     "VM14-01010",
+     "NC1CCN(C2CCC3CN(c4cncnc4)C(=O)C3C2)CC1",
+     "315.4",
+     "18",
+     "97.0",
+     "27"
+    ],
+    [
+     "VM14-01018",
+     "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1cccnc1",
+     "315.4",
+     "55",
+     "97.9",
+     "21"
+    ],
+    [
+     "VM14-01022",
+     "N#Cc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+     "325.4",
+     "43",
+     "96.2",
+     "36"
+    ],
+    [
+     "VM14-01024",
+     "CCN1CCN(C2CCC3CN(c4cccnc4)C(=O)C3C2)CC1",
+     "328.5",
+     "29",
+     "91.4",
+     "22"
+    ],
+    [
+     "VM14-01028",
+     "O=C1C2CC(c3ccncc3)CCC2CN1c1ccc(F)cc1",
+     "310.4",
+     "52",
+     "97.9",
+     "38"
+    ],
+    [
+     "VM14-01030",
+     "COc1ccc(N2CC3CCC(N4CCC(N)CC4)CC3C2=O)cc1",
+     "343.5",
+     "4",
+     "98.3",
+     "44"
+    ],
+    [
+     "VM14-01036",
+     "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1cncnc1",
+     "316.4",
+     "45",
+     "97.6",
+     "12"
+    ],
+    [
+     "VM14-01040",
+     "COc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)cc1",
+     "344.5",
+     "32",
+     "98.2",
+     "8"
+    ],
+    [
+     "VM14-01046",
+     "NC1CCN(C2CCC3CN(c4cccnc4)C(=O)C3C2)CC1",
+     "314.4",
+     "54",
+     "97.8",
+     "32"
+    ],
+    [
+     "VM14-01048",
+     "COc1ccc(N2CC3CCC(c4ccc(NC(C)=O)cc4)CC3C2=O)cc1",
+     "378.5",
+     "10",
+     "99.3",
+     "30"
+    ],
+    [
+     "VM14-01052",
+     "CN1CCN(C2CCC3CN(c4ccc(N)cc4)C(=O)C3C2)CC1",
+     "328.5",
+     "32",
+     "96.2",
+     "9"
+    ],
+    [
+     "VM14-01058",
+     "CC(=O)Nc1ccc(N2CC3CCC(N4CCC(N)CC4)CC3C2=O)cc1",
+     "370.5",
+     "25",
+     "95.1",
+     "47"
+    ],
+    [
+     "VM14-01060",
+     "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(N)cc4)C(=O)C3C2)cc1",
+     "363.5",
+     "22",
+     "97.2",
+     "5"
+    ],
+    [
+     "VM14-01066",
+     "CC(=O)Nc1ccc(C2CCC3CN(c4cccnc4)C(=O)C3C2)cc1",
+     "349.4",
+     "14",
+     "94.7",
+     "42"
+    ],
+    [
+     "VM14-01072",
+     "CC(=O)Nc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)cc1",
+     "371.5",
+     "9",
+     "98.6",
+     "35"
+    ],
+    [
+     "VM14-01076",
+     "Nc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+     "315.4",
+     "34",
+     "97.6",
+     "34"
+    ],
+    [
+     "VM14-01082",
+     "CCN1CCN(C2CCC3CN(c4ccc(NC(C)=O)cc4)C(=O)C3C2)CC1",
+     "384.5",
+     "66",
+     "96.2",
+     "41"
+    ],
+    [
+     "VM14-01088",
+     "COc1ccc(N2CC3CCC(N4CCOCC4)CC3C2=O)cc1",
+     "330.4",
+     "46",
+     "96.6",
+     "34"
+    ],
+    [
+     "VM14-01094",
+     "O=C1C2CC(N3CCCC3)CCC2CN1c1cncnc1",
+     "286.4",
+     "41",
+     "97.1",
+     "30"
+    ],
+    [
+     "VM14-01096",
+     "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)cc1",
+     "366.4",
+     "51",
+     "95.9",
+     "12"
+    ],
+    [
+     "VM14-01106",
+     "NC1CCN(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)CC1",
+     "331.4",
+     "61",
+     "94.0",
+     "43"
+    ],
+    [
+     "VM14-01108",
+     "Nc1ccc(N2CC3CCC(N4CCC(O)CC4)CC3C2=O)cc1",
+     "329.4",
+     "20",
+     "99.2",
+     "36"
+    ],
+    [
+     "VM14-01114",
+     "O=C1C2CC(N3CCC(O)CC3)CCC2CN1c1ccc(F)cc1",
+     "332.4",
+     "62",
+     "95.5",
+     "33"
+    ],
+    [
+     "VM14-01124",
+     "CC(=O)Nc1ccc(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)cc1",
+     "373.5",
+     "43",
+     "95.6",
+     "56"
+    ],
+    [
+     "VM14-01136",
+     "CN1CCN(C2CCC3CN(c4cncnc4)C(=O)C3C2)CC1",
+     "315.4",
+     "58",
+     "97.5",
+     "41"
+    ],
+    [
+     "VM14-01144",
+     "CCN1CCN(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)CC1",
+     "352.5",
+     "41",
+     "94.6",
+     "33"
+    ],
+    [
+     "VM14-01150",
+     "O=C1C2CC(N3CCCC3)CCC2CN1c1ccc(F)cc1",
+     "302.4",
+     "54",
+     "98.6",
+     "31"
+    ],
+    [
+     "VM14-01166",
+     "CC(=O)Nc1ccc(C2CCC3CN(c4cncnc4)C(=O)C3C2)cc1",
+     "350.4",
+     "14",
+     "97.1",
+     "29"
+    ],
+    [
+     "VM14-01168",
+     "CN1CCN(C2CCC3CN(c4ccc(C#N)cc4)C(=O)C3C2)CC1",
+     "338.5",
+     "40",
+     "99.0",
+     "25"
+    ],
+    [
+     "VM14-01184",
+     "Nc1ccc(N2CC3CCC(c4ccncc4)CC3C2=O)cc1",
+     "307.4",
+     "20",
+     "96.9",
+     "42"
+    ],
+    [
+     "VM14-01190",
+     "CCN1CCN(C2CCC3CN(c4ccc(F)cc4)C(=O)C3C2)CC1",
+     "345.5",
+     "27",
+     "91.8",
+     "24"
+    ]
+   ],
+   "notes": []
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "VD-18-059"
+    ],
+    [
+     "Client",
+     "Vesselquarn Medical Research Trust"
+    ],
+    [
+     "Compounds tested",
+     "32"
+    ],
+    [
+     "Series / chemotype",
+     "Vesselquarn bicyclic lactam series 14 (Bicyclic lactam)"
+    ],
+    [
+     "Assays",
+     "Custom synthesis and analogue preparation"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "133"
+    ],
+    [
+     "Price",
+     "GBP 37,300"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 37,300",
+  "n_compounds": "32",
+  "turnaround_days": "133",
+  "client_variant": "Vesselquarn Medical Research Trust",
+  "project_id": "VD-18-059",
+  "lims_id": "VA20180545"
+ }
+}

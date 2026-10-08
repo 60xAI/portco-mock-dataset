@@ -1,0 +1,344 @@
+{
+ "project_id": "PRJ0047",
+ "firm": "B",
+ "status": "in_progress",
+ "series": "SER07",
+ "compounds": [
+  {
+   "id": "QP07-08518",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3cncnc3)cc2)CC1",
+   "mw": 405.5,
+   "clogp": 2.24,
+   "tpsa": 119.2
+  },
+  {
+   "id": "QP07-08524",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(OC3CCN(C)CC3)cc2)nc1",
+   "mw": 418.5,
+   "clogp": 3.15,
+   "tpsa": 106.3
+  },
+  {
+   "id": "QP07-08528",
+   "smiles": "CCN1CCN(c2ccc(C(=O)Nc3nc(N)cnc3-c3ccncc3)cc2)CC1",
+   "mw": 403.5,
+   "clogp": 2.52,
+   "tpsa": 100.3
+  },
+  {
+   "id": "QP07-08530",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc1",
+   "mw": 446.5,
+   "clogp": 2.9,
+   "tpsa": 133.5
+  },
+  {
+   "id": "QP07-08542",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(-c3ccncc3)cc2)n1",
+   "mw": 385.4,
+   "clogp": 4.18,
+   "tpsa": 93.8
+  },
+  {
+   "id": "QP07-08548",
+   "smiles": "Nc1cnc(-c2cc(F)cc(F)c2)c(NC(=O)c2ccc(NC3CCCCC3)cc2)n1",
+   "mw": 423.5,
+   "clogp": 5.0,
+   "tpsa": 92.9
+  },
+  {
+   "id": "QP07-08564",
+   "smiles": "Nc1cnc(-c2cc(F)cc(F)c2)c(NC(=O)c2ccc(N3CCCC3)cc2)n1",
+   "mw": 395.4,
+   "clogp": 3.86,
+   "tpsa": 84.1
+  },
+  {
+   "id": "QP07-08578",
+   "smiles": "CC(=O)Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)cc1",
+   "mw": 424.5,
+   "clogp": 4.0,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08596",
+   "smiles": "Nc1cnc(-c2ccc(F)cc2)c(NC(=O)c2ccc(N3CCC(N)CC3)cc2)n1",
+   "mw": 406.5,
+   "clogp": 3.04,
+   "tpsa": 110.2
+  },
+  {
+   "id": "QP07-08606",
+   "smiles": "Nc1cnc(-c2cncnc2)c(NC(=O)c2ccc(-c3ccncc3)cc2)n1",
+   "mw": 369.4,
+   "clogp": 2.83,
+   "tpsa": 119.6
+  },
+  {
+   "id": "QP07-08614",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3ccncc3)cc2)CC1",
+   "mw": 404.5,
+   "clogp": 2.85,
+   "tpsa": 106.3
+  },
+  {
+   "id": "QP07-08618",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(C)cn3)cc2)cc1",
+   "mw": 438.5,
+   "clogp": 4.31,
+   "tpsa": 122.9
+  },
+  {
+   "id": "QP07-08620",
+   "smiles": "Cc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(-c3ccncc3)cc2)nc1",
+   "mw": 382.4,
+   "clogp": 3.74,
+   "tpsa": 106.7
+  },
+  {
+   "id": "QP07-08630",
+   "smiles": "Nc1cnc(-c2cc(F)cc(F)c2)c(NC(=O)c2ccc(N3CCC(O)CC3)cc2)n1",
+   "mw": 425.4,
+   "clogp": 3.22,
+   "tpsa": 104.4
+  },
+  {
+   "id": "QP07-08638",
+   "smiles": "CN1CCC(Oc2ccc(C(=O)Nc3nc(N)cnc3-c3ccc(N)cc3)cc2)CC1",
+   "mw": 418.5,
+   "clogp": 3.03,
+   "tpsa": 119.4
+  },
+  {
+   "id": "QP07-08648",
+   "smiles": "Nc1ccc(-c2ncc(N)nc2NC(=O)c2ccc(N3CCC(O)CC3)cc2)cc1",
+   "mw": 404.5,
+   "clogp": 2.52,
+   "tpsa": 130.4
+  },
+  {
+   "id": "QP07-08678",
+   "smiles": "Nc1cnc(-c2cncnc2)c(NC(=O)c2ccc(NC3CCCCC3)cc2)n1",
+   "mw": 389.5,
+   "clogp": 3.51,
+   "tpsa": 118.7
+  },
+  {
+   "id": "QP07-08684",
+   "smiles": "CC(=O)Nc1ccc(-c2ccc(C(=O)Nc3nc(N)cnc3-c3cc(F)cc(F)c3)cc2)cc1",
+   "mw": 459.5,
+   "clogp": 4.88,
+   "tpsa": 110.0
+  }
+ ],
+ "tables": {
+  "mic_stab": {
+   "title": "Liver microsomal stability (0.5 mg/mL protein, 1 µM)",
+   "columns": [
+    "Compound",
+    "Human CLint (µL/min/mg)",
+    "Human t½ (min)",
+    "Rat CLint (µL/min/mg)",
+    "Rat t½ (min)"
+   ],
+   "rows": [
+    [
+     "QP07-08518",
+     "7.6",
+     ">60",
+     "12",
+     ">60"
+    ],
+    [
+     "QP07-08524",
+     "7.6",
+     ">60",
+     "15",
+     ">60"
+    ],
+    [
+     "QP07-08528",
+     "13",
+     ">60",
+     "23",
+     ">60"
+    ],
+    [
+     "QP07-08530",
+     "22",
+     ">60",
+     "50",
+     "28"
+    ],
+    [
+     "QP07-08542",
+     "16",
+     ">60",
+     "41",
+     "34"
+    ],
+    [
+     "QP07-08548",
+     "65",
+     "21",
+     "149",
+     "9.3"
+    ],
+    [
+     "QP07-08564",
+     "19",
+     ">60",
+     "43",
+     "32"
+    ],
+    [
+     "QP07-08578",
+     "18",
+     ">60",
+     "47",
+     "30"
+    ],
+    [
+     "QP07-08596",
+     "4.6",
+     ">60",
+     "6.2",
+     ">60"
+    ],
+    [
+     "QP07-08606",
+     "14",
+     ">60",
+     "26",
+     "53"
+    ],
+    [
+     "QP07-08614",
+     "13",
+     ">60",
+     "24",
+     "57"
+    ]
+   ],
+   "notes": [
+    "Controls: verapamil (high), diltiazem (medium) within historical range",
+    "INTERIM: 11 of 18 results reported; remaining in progress"
+   ]
+  },
+  "ppb": {
+   "title": "Human plasma protein binding (RED, 4 h, 37 °C)",
+   "columns": [
+    "Compound",
+    "% bound",
+    "fu",
+    "Recovery (%)"
+   ],
+   "rows": [
+    [
+     "QP07-08518",
+     "77.4",
+     "22.65",
+     "98"
+    ],
+    [
+     "QP07-08524",
+     "92.4",
+     "7.59",
+     "82"
+    ],
+    [
+     "QP07-08528",
+     "85.8",
+     "14.17",
+     "93"
+    ],
+    [
+     "QP07-08530",
+     "85.8",
+     "14.24",
+     "91"
+    ],
+    [
+     "QP07-08542",
+     "99.9",
+     "0.10",
+     "93"
+    ],
+    [
+     "QP07-08548",
+     "99.9",
+     "0.10",
+     "84"
+    ],
+    [
+     "QP07-08564",
+     "97.5",
+     "2.54",
+     "100"
+    ],
+    [
+     "QP07-08578",
+     "98.7",
+     "1.26",
+     "99"
+    ],
+    [
+     "QP07-08596",
+     "88.3",
+     "11.75",
+     "96"
+    ]
+   ],
+   "notes": [
+    "Warfarin control 98-99% bound",
+    "INTERIM: 9 of 18 results reported; remaining in progress"
+   ]
+  },
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW26_0368"
+    ],
+    [
+     "Client",
+     "Quorenthel Pharma GmbH"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Quorenthel aminopyrazine series 07 (Aminopyrazine)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Plasma protein binding (equilibrium dialysis)"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "GBP 20,800"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 20,800",
+  "n_compounds": "18",
+  "turnaround_days": "",
+  "client_variant": "Quorenthel Pharma GmbH",
+  "project_id": "BW26_0368",
+  "lims_id": "B-ACC-2026-06283"
+ }
+}

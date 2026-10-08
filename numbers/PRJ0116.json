@@ -1,0 +1,49 @@
+{
+ "project_id": "PRJ0116",
+ "firm": "F",
+ "status": "on_hold",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "0.58",
+     "Fine suspension",
+     "Stable"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "0.62",
+     "Clear solution",
+     "Not assessed"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "1.1",
+     "Fine suspension",
+     "Not assessed"
+    ]
+   ],
+   "notes": [
+    "Work stopped; partial data only"
+   ]
+  }
+ },
+ "values": {
+  "price": "USD 47,400",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Wexanthel Medicines",
+  "project_id": "DL_2025_0130",
+  "lims_id": "DF25-01573"
+ }
+}

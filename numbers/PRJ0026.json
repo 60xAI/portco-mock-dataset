@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0026",
+ "firm": "A",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 58,000",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Valquessia Pharmaceuticals SpA",
+  "project_id": "VD-26-068",
+  "lims_id": "VA20260629"
+ }
+}

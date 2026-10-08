@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0029",
+ "firm": "A",
+ "status": "lost",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 46,700",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Zelmorven Therapeutics",
+  "project_id": "VD-25-125",
+  "lims_id": "VA20251135"
+ }
+}

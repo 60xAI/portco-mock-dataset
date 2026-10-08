@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0077",
+ "firm": "D",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 58,500",
+  "n_compounds": "0",
+  "turnaround_days": "56",
+  "client_variant": "Bravossent Therapeutics",
+  "project_id": "QV.16.049",
+  "lims_id": "QDATA2016-0318"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0027",
+ "firm": "A",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 42,900",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Doventhar Therapeutics",
+  "project_id": "VD-26-113",
+  "lims_id": "VA20261023"
+ }
+}

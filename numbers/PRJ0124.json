@@ -1,0 +1,56 @@
+{
+ "project_id": "PRJ0124",
+ "firm": "G",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "drf": {
+   "title": "7-day rat dose-range finding",
+   "columns": [
+    "Dose (mg/kg/day)",
+    "Animals",
+    "Body weight change day 1-7 (%)",
+    "Clinical observations"
+   ],
+   "rows": [
+    [
+     0,
+     "3M/3F",
+     "+7.8",
+     "None"
+    ],
+    [
+     30,
+     "3M/3F",
+     "+5.1",
+     "None"
+    ],
+    [
+     100,
+     "3M/3F",
+     "+5.0",
+     "None"
+    ],
+    [
+     300,
+     "3M/3F",
+     "-0.7",
+     "Reduced activity; 1F euthanised day 4"
+    ]
+   ],
+   "notes": [
+    "MTD estimated at 100 mg/kg/day"
+   ]
+  }
+ },
+ "values": {
+  "drf.mtd": "100 mg/kg/day",
+  "price": "USD 163,100",
+  "n_compounds": "0",
+  "turnaround_days": "92",
+  "client_variant": "Emlucera Therapeutics",
+  "project_id": "OT-20-S0198",
+  "lims_id": "OQ/2020/003196"
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "project_id": "PRJ0051",
+ "firm": "B",
+ "status": "unanswered",
+ "series": "SER16",
+ "compounds": [
+  {
+   "id": "BP16-05406",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4cc(F)cc(F)c4)co3)CC2)cc1",
+   "mw": 440.5,
+   "clogp": 3.98,
+   "tpsa": 87.5
+  },
+  {
+   "id": "BP16-05412",
+   "smiles": "CN1CCC(ON2CCC(NC(=O)c3nc(-c4ccc(N)cc4)co3)CC2)CC1",
+   "mw": 399.5,
+   "clogp": 2.14,
+   "tpsa": 96.9
+  },
+  {
+   "id": "BP16-05424",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2ccc(F)cc2)co1",
+   "mw": 386.5,
+   "clogp": 3.51,
+   "tpsa": 70.4
+  },
+  {
+   "id": "BP16-05428",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4ccncc4)co3)CC2)cc1",
+   "mw": 405.5,
+   "clogp": 3.09,
+   "tpsa": 100.4
+  },
+  {
+   "id": "BP16-05430",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2cc(F)cc(F)c2)co1",
+   "mw": 404.5,
+   "clogp": 3.65,
+   "tpsa": 70.4
+  },
+  {
+   "id": "BP16-05446",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4ccc(F)cc4)co3)CC2)CC1",
+   "mw": 387.5,
+   "clogp": 1.84,
+   "tpsa": 64.8
+  },
+  {
+   "id": "BP16-05458",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4ccc(N)cc4)co3)CC2)CC1",
+   "mw": 384.5,
+   "clogp": 1.28,
+   "tpsa": 90.9
+  },
+  {
+   "id": "BP16-05470",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCN(C)CC4)CC3)n2)cc1",
+   "mw": 426.5,
+   "clogp": 1.66,
+   "tpsa": 93.9
+  },
+  {
+   "id": "BP16-05482",
+   "smiles": "CC(=O)Nc1ccc(N2CCC(NC(=O)c3nc(-c4ccc(C)cn4)co3)CC2)cc1",
+   "mw": 419.5,
+   "clogp": 3.4,
+   "tpsa": 100.4
+  },
+  {
+   "id": "BP16-05496",
+   "smiles": "NC1CCN(N2CCC(NC(=O)c3nc(-c4ccc(F)cc4)co3)CC2)CC1",
+   "mw": 387.5,
+   "clogp": 2.01,
+   "tpsa": 87.6
+  },
+  {
+   "id": "BP16-05514",
+   "smiles": "O=C(NC1CCN(N2CCC(O)CC2)CC1)c1nc(-c2cncnc2)co1",
+   "mw": 372.4,
+   "clogp": 0.7,
+   "tpsa": 107.6
+  },
+  {
+   "id": "BP16-05518",
+   "smiles": "CC(=O)Nc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(N)CC4)CC3)n2)cc1",
+   "mw": 426.5,
+   "clogp": 1.83,
+   "tpsa": 116.7
+  },
+  {
+   "id": "BP16-05526",
+   "smiles": "CN1CCN(N2CCC(NC(=O)c3nc(-c4cncnc4)co3)CC2)CC1",
+   "mw": 371.4,
+   "clogp": 0.49,
+   "tpsa": 90.6
+  },
+  {
+   "id": "BP16-05562",
+   "smiles": "O=C(NC1CCN(c2ccncc2)CC1)c1nc(-c2ccc(F)cc2)co1",
+   "mw": 366.4,
+   "clogp": 3.27,
+   "tpsa": 71.3
+  },
+  {
+   "id": "BP16-05566",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCC(O)CC4)CC3)n2)nc1",
+   "mw": 385.5,
+   "clogp": 1.61,
+   "tpsa": 94.7
+  },
+  {
+   "id": "BP16-05568",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCN(C)CC4)CC3)n2)nc1",
+   "mw": 384.5,
+   "clogp": 1.4,
+   "tpsa": 77.7
+  },
+  {
+   "id": "BP16-05584",
+   "smiles": "Cc1ccc(-c2coc(C(=O)NC3CCN(N4CCOCC4)CC3)n2)nc1",
+   "mw": 371.4,
+   "clogp": 1.49,
+   "tpsa": 83.7
+  },
+  {
+   "id": "BP16-05590",
+   "smiles": "O=C(NC1CCN(NC2CCCCC2)CC1)c1nc(-c2ccncc2)co1",
+   "mw": 369.5,
+   "clogp": 2.77,
+   "tpsa": 83.3
+  }
+ ],
+ "tables": {
+  "benchmark": {
+   "title": "Project benchmark summary",
+   "columns": [
+    "Metric",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Project",
+     "BW25_0273"
+    ],
+    [
+     "Client",
+     "Belquorin Pharma"
+    ],
+    [
+     "Compounds tested",
+     "18"
+    ],
+    [
+     "Series / chemotype",
+     "Belquorin oxazole carboxamide series 16 (Oxazole carboxamide)"
+    ],
+    [
+     "Assays",
+     "Liver microsomal stability, Plasma protein binding (equilibrium dialysis)"
+    ],
+    [
+     "Turnaround (calendar days)",
+     "-"
+    ],
+    [
+     "Price",
+     "GBP 17,500"
+    ]
+   ],
+   "notes": []
+  }
+ },
+ "values": {
+  "price": "GBP 17,500",
+  "n_compounds": "18",
+  "turnaround_days": "",
+  "client_variant": "Belquorin Pharma",
+  "project_id": "BW25_0273",
+  "lims_id": "B-ACC-2025-04654"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "project_id": "PRJ0024",
+ "firm": "A",
+ "status": "completed",
+ "series": null,
+ "compounds": [],
+ "tables": {},
+ "values": {
+  "price": "GBP 46,800",
+  "n_compounds": "0",
+  "turnaround_days": "129",
+  "client_variant": "Vornelquith Biosciences",
+  "project_id": "VD-21-081",
+  "lims_id": "VA20210739"
+ }
+}

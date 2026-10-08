@@ -1,0 +1,49 @@
+{
+ "project_id": "PRJ0113",
+ "firm": "F",
+ "status": "in_progress",
+ "series": null,
+ "compounds": [],
+ "tables": {
+  "form_screen": {
+   "title": "Vehicle screen (target 10 mg/mL)",
+   "columns": [
+    "Vehicle",
+    "Solubility (mg/mL)",
+    "Appearance",
+    "24 h physical stability"
+   ],
+   "rows": [
+    [
+     "0.5% methylcellulose",
+     "0.81",
+     "Fine suspension",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "0.5% HPMC / 0.1% Tween 80",
+     "7.1",
+     "Clear, slight yellow tint",
+     "Crystal growth at 24 h"
+    ],
+    [
+     "20% HP-β-CD in water",
+     "0.52",
+     "Precipitate at 24 h",
+     "Crystal growth at 24 h"
+    ]
+   ],
+   "notes": [
+    "INTERIM: 3 of 3 results reported; remaining in progress"
+   ]
+  }
+ },
+ "values": {
+  "price": "USD 41,900",
+  "n_compounds": "0",
+  "turnaround_days": "",
+  "client_variant": "Esmervane Pharmaceuticals",
+  "project_id": "DL_2026_0085",
+  "lims_id": "DF26-01022"
+ }
+}
