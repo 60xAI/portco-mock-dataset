@@ -1,0 +1,150 @@
+- file_id: B-021
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: Invented contiguous compound blocks, plate IDs, edge exclusions and repeat
+      histories do not match the actual compound identities or source records.
+    change_made: Replaced fabricated plate entries with qualitative references to
+      original sample cards and run sheets; retained supported study dates.
+  - severity: fix
+    area: science
+    problem: The workbook invents Hill-slope refitting and fixed-top acceptance rules
+      absent from the assay notes.
+    change_made: Used the documented concentration-response conditions and retained
+      replicate-fit traceability without asserting a refit.
+  - severity: fix
+    area: voice
+    problem: The summary sheet lacks the legacy firm identity.
+    change_made: Added Brindlewythe Biosciences Ltd to the summary title.
+- file_id: B-023
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: The source project does not document a failed RED plate, revised-labware
+      repeat, dated rerun or microsomal repeats; the workbook invents these events.
+    change_made: Removed those events and referenced original run sheets and sample
+      cards.
+  - severity: fix
+    area: science
+    problem: The RED control is incorrectly described as propranolol instead of warfarin;
+      diltiazem is omitted from the documented microsomal controls.
+    change_made: Named warfarin for RED and verapamil plus diltiazem for microsomal
+      stability.
+  - severity: fix
+    area: science
+    problem: Recovery rerun thresholds are unsupported, and subtraction of rounded
+      bound values does not reproduce the recorded unbound precision.
+    change_made: Removed invented thresholds and directed readers to the recorded
+      unbound percentages and original recovery acceptance records.
+- file_id: B-025
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: consistency
+    problem: The supported revised-labware binding repeat is embellished with invented
+      run IDs, dates, seals, flat-turnover repeats and solubility claims.
+    change_made: Preserved the project-level repeat outcome and replaced unsupported
+      details with original-record references.
+  - severity: fix
+    area: science
+    problem: The RED control is incorrectly named propranolol, microsomal diltiazem
+      is omitted, and unsupported recovery exception handling is asserted.
+    change_made: Restored the documented control identities and removed invented acceptance
+      handling.
+  - severity: fix
+    area: science
+    problem: The instruction to calculate unbound percentage from rounded bound percentage
+      loses the precision of the recorded result.
+    change_made: Directed readers to the recorded unbound value.
+- file_id: B-027
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: The group-era summary lacks the required Tarnovell company brand line.
+    change_made: Added the prescribed brand line to the first sheet.
+  - severity: fix
+    area: consistency
+    problem: A final workbook contains invented plate-3 baseline drift and an unresolved
+      hold, plus an unsupported noisy-cell flag for TP04-02716.
+    change_made: Removed fabricated holds and flags, used the documented E-4031 acceptance
+      range, and highlighted the actual TP04-02866 solubility qualification.
+  - severity: fix
+    area: science
+    problem: Censoring and geometric-mean wording omits the majority-of-accepted-cells
+      rule and the solubility-limited bound.
+    change_made: Restated the source calculation and censoring rule, including the
+      highest evaluable concentration.
+- file_id: B-028
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: The group-era run sheet and summary omit the required company brand line.
+    change_made: Added the prescribed brand line to both summary surfaces.
+  - severity: fix
+    area: consistency
+    problem: The CYP table contains only partial interim rows, while its heading implies
+      a full compound readout and benchmark counts can be mistaken for displayed-row
+      counts.
+    change_made: Labelled the table partial, separated project benchmark counts from
+      reported-row scope, and retained open reconciliation and repeat actions.
+  - severity: fix
+    area: science
+    problem: Historical point values are treated as acceptance ranges, every plate
+      is declared accepted, and an undocumented quinidine drift is asserted.
+    change_made: Retained control and historical values for review, referred plate
+      acceptance to original run sheets, and replaced the invented drift comment.
+- file_id: B-029
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: The group-era run sheet and interim summary omit the required brand line.
+    change_made: Added the prescribed brand line to both summary surfaces.
+  - severity: fix
+    area: science
+    problem: A comment invents a low-recovery 2 h read, contradicting the 4 h RED
+      table and reconciled recovery outcome.
+    change_made: Replaced it with a recorded-precision and recovery-traceability comment.
+  - severity: fix
+    area: consistency
+    problem: The workbook assigns missing binding results to the stability reference
+      shipment, mentions absent flagged compounds and invents compound sets A/B.
+    change_made: Kept both result tables explicitly partial, confined the shipment
+      dependency to the final stability repeat, and replaced fabricated sets with
+      unfinished reconciliation records.
+- file_id: B-030
+  verdict: fix
+  fixed: true
+  issues:
+  - severity: fix
+    area: voice
+    problem: The group-era screen-gate summary omits the required brand line.
+    change_made: Added the prescribed brand line.
+  - severity: fix
+    area: consistency
+    problem: Shipment receipt dates and conditions, plate allocation dates and compound
+      ranges are invented; one range contains a nonexistent compound identity.
+    change_made: Replaced fabricated receipt and allocation entries with original-record
+      references and blank unfinished tracker cells.
+  - severity: fix
+    area: consistency
+    problem: Partial-table coverage is presented as proof that all remaining compounds
+      were unread, despite full-set benchmark values.
+    change_made: Stated only that the table is partial and work stopped; retained
+      reconciliation TODOs and distinguished full-set benchmark scope.
+  - severity: fix
+    area: science
+    problem: The tracker does not identify the actual cell-quality qualification while
+      inventing a missing numbered plate.
+    change_made: Replaced the plate-specific claim with an allocation TODO and referenced
+      the documented FM20-02108 cell exclusion for follow-up.
