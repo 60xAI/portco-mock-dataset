@@ -1,0 +1,136 @@
+{
+  "family": "deck",
+  "summary": "Final paired human and rat liver-system readout for {{PRJ0063:project_id}}. Matrix acceptance and depletion limits precede the comparison. Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist.",
+  "properties": {
+    "title": "KT12 paired liver systems: clearance readout",
+    "subject": "Kelbravik Therapeutics ApS final DMPK readout, 12/20/2021",
+    "keywords": "PRJ0063; matrix acceptance; analytical limits; final"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "KT12 paired liver systems: clearance readout",
+      "subtitle": "Kelbravik Therapeutics ApS | {{PRJ0063:project_id}} | Final readout, 12/20/2021\nDr M. Larkin | Merrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Study boundary and accession",
+      "bullets": [
+        "{{PRJ0063:n_compounds}} test articles under {{PRJ0063:lims_id}}",
+        "Study 11/16/2021–12/20/2021; interim 12/03/2021",
+        "Cyclopropyl carboxamide protease-inhibitor analogues"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrices and incubation conditions",
+      "bullets": [
+        "Microsomal CLint: human and rat liver microsomes, 0.5 mg/mL protein, 1 µM",
+        "Hepatocyte depletion CLint: human and rat cryopreserved cells, 0.5 × 10^6 cells/mL, 1 µM",
+        "Keep species and normalization separate throughout the assay worksheet"
+      ],
+      "notes": "Protein-normalized and cell-normalized clearances cannot be compared as interchangeable units. No scaled hepatic clearance calculation is included.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance before ranking",
+      "bullets": [
+        "Helen Marchwood: review matrix acceptance against the assay worksheet",
+        "Javier Quintana: review parent-analyte response, blank matrix and carryover",
+        "Inspect nonmetabolic loss and the evaluable depletion interval before assigning a biological difference"
+      ],
+      "notes": "Acceptance belongs to the incubation and analytical sequence. A favorable clearance estimate is not itself evidence that the matrix was acceptable.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analytical limits and fit assumptions",
+      "bullets": [
+        "Fit the log-linear parent depletion interval; do not extend a slope through terminal signal below quantitation",
+        "A half-life beyond the incubation window is a bound, not a precise turnover estimate",
+        "Parent disappearance alone does not identify an enzyme or metabolite"
+      ],
+      "notes": "No compound-specific quantitation limits are supplied here. Consult the analyte card before using a marginal slope for selection.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Microsomal CLint: human and rat",
+      "table": {
+        "table_ref": "PRJ0063:mic_stab",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Human microsomes: initial ranking",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0063:mic_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/mg)"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Hepatocyte depletion CLint: paired species",
+      "table": {
+        "table_ref": "PRJ0063:hep_stab",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Human hepatocytes: turnover comparison",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0063:hep_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/10^6 cells)"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "KT12 test article structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0063",
+        "n": 6
+      },
+      "notes": "Representative structures aid identity matching; they do not designate nominated leads.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exposure gate: paired-system interpretation",
+      "bullets": [
+        "Hepatocyte turnover revealed a clearance route missing from the microsomal screen, changing Kelbravik's shortlist.",
+        "Do not carry the microsomal preference forward without the intact-cell assessment",
+        "These incubations do not establish oral exposure"
+      ],
+      "notes": "The decision is the recorded project outcome. No individual shortlist or new progression threshold is supplied. Cross-system disagreement does not identify its mechanism.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final handoff and next use",
+      "bullets": [
+        "Megan Larkin: retain the paired-system assumptions in the DMPK memo",
+        "Kelbravik Therapeutics ApS: use the recorded selection direction for the next exposure assessment",
+        "Keep both matrix tables with selected analyte cards under {{PRJ0063:lims_id}}"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
