@@ -1,0 +1,167 @@
+{
+  "family": "deck",
+  "summary": "Clara Fenwick trains chemists to distinguish a proposed target, isolated material and a released delivery lot on the compound card. The deck covers identity evidence, area-percent purity, quantity and traceability, with a qualitative assignment exercise and explicit release hold points.",
+  "properties": {
+    "title": "Compound-card training",
+    "subject": "Analytical release training",
+    "keywords": "compound card; identity; area percent; delivery lot; release"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Compound cards: identity to release",
+      "subtitle": "Vellacombe Discovery Ltd, a Tarnovell company\nClara Fenwick | Analytical Release Lead\n18 Feb 2025",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "The card must describe the material",
+      "bullets": [
+        "A drawn target states the synthetic intention.",
+        "An isolated compound has physical material and supporting characterisation.",
+        "Released material has a documented release decision for a particular delivery lot.",
+        "These states must remain distinguishable throughout the card."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Check identity before interpreting purity",
+      "table": {
+        "columns": [
+          "Check",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Structure",
+            "Does the assignment describe the isolated material?"
+          ],
+          [
+            "Form",
+            "Are salt form and stereochemical claims supported?"
+          ],
+          [
+            "Sample link",
+            "Can each analytical result be traced to this material?"
+          ],
+          [
+            "Experiment",
+            "Does the preparation refer to the same compound card?"
+          ],
+          [
+            "Uncertainty",
+            "Is any unresolved assignment clearly stated?"
+          ]
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Area-percent purity needs context",
+      "bullets": [
+        "Give purity in area percent and identify the analytical method.",
+        "Retain the trace and the integration context behind the reported value.",
+        "Area percent describes detected signal; it does not alone establish identity or mass purity.",
+        "Raise co-elution, unresolved peaks or handling changes before release."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Quantity and isolated yield",
+      "bullets": [
+        "Record delivered mass in mg and amount in mmol where applicable.",
+        "State the material form used for any amount calculation.",
+        "Link isolated yield to the preparation and isolated material.",
+        "Do not substitute an analytical estimate for material actually recovered."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Trace the delivery lot in both directions",
+      "bullets": [
+        "From the container: find the compound card and delivery lot.",
+        "From the card: find the preparation and analytical samples.",
+        "From the analytical result: find the material examined."
+      ],
+      "bullets_right": [
+        "At handover",
+        "Check that labels and delivery documentation agree.",
+        "Carry forward relevant handling and impurity observations.",
+        "Andrew May coordinates sample management; resolve missing links before dispatch."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Hold points that need a decision",
+      "table": {
+        "columns": [
+          "Observation",
+          "Action"
+        ],
+        "rows": [
+          [
+            "Proposed structure shown as confirmed",
+            "Correct the status and seek assignment evidence"
+          ],
+          [
+            "Analytical sample cannot be linked",
+            "Restore traceability before release"
+          ],
+          [
+            "Purity without method context",
+            "Attach the method and underlying trace"
+          ],
+          [
+            "Unresolved impurity or form",
+            "Refer the chemical question for a decision"
+          ],
+          [
+            "Container and card disagree",
+            "Hold handover until the discrepancy is resolved"
+          ]
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Exercise: a clean trace, an uncertain assignment",
+      "bullets": [
+        "The target is drawn on the compound card and isolated material is available.",
+        "The analytical trace appears clean, but the stereochemical assignment remains open.",
+        "Describe the material as isolated with an unresolved assignment.",
+        "Refer the requirement to Ruth Calderwood and document the decision; a clean trace does not close the assignment."
+      ],
+      "notes": "Ask participants which statement is supported by the evidence. No numerical acceptance threshold is implied by this exercise.",
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Record the release decision",
+      "bullets": [
+        "Clara Fenwick reviews the analytical evidence against the agreed requirement.",
+        "The card states the delivery lot, decision, date and responsible reviewer.",
+        "Any agreed limitation is carried into the chemistry note and handover.",
+        "Later evidence is added with a clear explanation of the changed conclusion."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Before the material leaves",
+      "bullets": [
+        "Identity: the assignment and its limits are explicit.",
+        "Purity: area percent is linked to method and trace.",
+        "Quantity: the stated material and units match the delivery lot.",
+        "Traceability: container, card, preparation and analytical samples connect.",
+        "Release: the decision is documented and unresolved questions are visible."
+      ],
+      "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential"
+    }
+  ]
+}
