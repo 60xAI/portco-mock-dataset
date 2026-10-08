@@ -1,0 +1,208 @@
+- file_id: P22
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "sheet Plate acceptance, Result column"
+      problem: "The E-4031 result is an unlabelled 16; the acceptance range is in nM, but the result column does not identify the endpoint or unit."
+      suggested_change: "Label the result column 'IC50 (nM)' or label the result '16 nM'."
+    - severity: minor
+      area: realism
+      where: "sheet Summary, 'Study summary (benchmark)'"
+      problem: "'Benchmark' exposes the archive-generation purpose in an otherwise ordinary client results workbook."
+      suggested_change: "Use 'Study summary' without the parenthetical; retain the summary table and all its facts."
+- file_id: P23
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "section 7 Conclusion, page 3"
+      problem: "The hERG-only investigation recommends compounds with 'no CYP flag' and confirmation of 'CYP3A4 flags', although PRJ0005 contains no CYP measurements. This blurs the planted hERG-only distractor."
+      suggested_change: "Replace with: 'Prioritise analogues with weaker hERG inhibition, subject to exposure-based margin assessment. CYP inhibition was not assessed in this study; separate metabolism work is required before progression.'"
+    - severity: fix
+      area: science
+      where: "section 4 Methods, hERG data analysis"
+      problem: "The method describes fitting mean tail-current inhibition, while the paired P22 workbook presents individual-cell IC50s and specifies their geometric mean. These are different aggregation procedures."
+      suggested_change: "Describe fitting each accepted cell's concentration-response data, then reporting the geometric mean of evaluable cell IC50s, matching P22. State how n and the 10 µM inhibition mean are defined."
+    - severity: minor
+      area: realism
+      where: "whole report"
+      problem: "The rendered final report is four pages against the specified 8-12, with identical interpretation repeated in the summary, results and discussion."
+      suggested_change: "Add substantive sample accountability, run acceptance and limitations detail and a study-specific discussion; remove repeated boilerplate rather than padding the report."
+- file_id: P24
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "sheet Matrix acceptance"
+      problem: "The Result column contains control IC50 values without units, and 'within 3-fold of historical mean' gives no historical mean or numeric limits with which to interpret the Pass entries."
+      suggested_change: "Label 'Control IC50 (µM)' and provide the documented historical reference or numeric acceptance interval for each isoform; do not invent control limits."
+    - severity: minor
+      area: realism
+      where: "sheet Summary, 'Study summary (benchmark)'"
+      problem: "The benchmark label reads like dataset scaffolding rather than a client assay worksheet."
+      suggested_change: "Rename to 'Study summary', retaining the table."
+- file_id: P25
+  verdict: minor
+  issues:
+    - severity: minor
+      area: science
+      where: "section 7 Conclusion"
+      problem: "Follow-up concentration responses are restricted to CYP3A4 despite CYP2C9 having the most flags and comparable signals in the other isoforms. The prioritisation is unexplained."
+      suggested_change: "Recommend concentration-response follow-up in the affected isoforms, including CYP2C9, or explain a client-specific reason to prioritise CYP3A4."
+    - severity: minor
+      area: science
+      where: "section 4 Methods and CYP control results"
+      problem: "Control IC50s are reported, but their concentration-response procedure and acceptance ranges are absent. The single-concentration compound procedure does not explain these control measurements; preincubation conditions matter for furafylline and ticlopidine."
+      suggested_change: "State the actual control concentration ranges, any NADPH preincubation and the documented acceptance criteria, and distinguish them from the compound screen."
+    - severity: minor
+      area: realism
+      where: "whole report"
+      problem: "The rendered report is three pages against the specified 8-12 and repeats the same CYP2C9 sentence instead of discussing the GPCR antagonist branch in the world outcome."
+      suggested_change: "Add substantive assay acceptance, analytical limitations and a study-specific interpretation of the lipophilic antagonist branch; explicitly state that cardiac screening was outside scope."
+- file_id: P26
+  verdict: minor
+  issues:
+    - severity: minor
+      area: voice
+      where: "section 3 Study design, both assay subsections"
+      problem: "This February quotation describes testing as already completed ('were incubated', 'was measured', 'was included'), although the world start date is March 12."
+      suggested_change: "Use prospective wording throughout: 'will be incubated', 'will be measured' and 'will be included'."
+    - severity: minor
+      area: realism
+      where: "section 1 Introduction"
+      problem: "'Matrix, species and analytical limits are stated for each assay before any interpretation' echoes a writing instruction, and no analytical limits are actually stated."
+      suggested_change: "Remove that sentence or replace it with concrete deliverable wording: 'The report will identify matrices, species, analytical quantification limits and limitations of clearance and binding estimates.'"
+- file_id: P27
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "sections 6 Discussion and 7 Conclusion, page 4"
+      problem: "The clearance/PPB report discusses inhibition and clinical interaction risk, then recommends selecting compounds without CYP flags and running CYP3A4 IC50s. PRJ0007 has only microsomal stability and plasma binding assays."
+      suggested_change: "Replace with a discussion of human/rat turnover and plasma binding. State that these assays do not measure CYP inhibition, and reflect the world outcome: less rapidly cleared analogues were retained and hepatocyte follow-up was requested."
+    - severity: fix
+      area: science
+      where: "Table 3 Human plasma protein binding, page 3"
+      problem: "The column labelled 'fu' contains percent unbound rather than a dimensionless fraction: AP02-01404 has 90.8% bound and 'fu 9.18'; AP02-01416 has 'fu 20.43'. A fraction unbound cannot exceed 1."
+      suggested_change: "Rename the column 'Unbound (%)' and explain that fu,p equals this value divided by 100, or convert every value to a dimensionless fu,p and retain the fraction label."
+    - severity: minor
+      area: science
+      where: "section 4 Methods and control footnotes"
+      problem: "The report claims all runs passed but supplies only generic historical-range statements, with no measured stability controls or analytical quantification limits."
+      suggested_change: "Include the documented control results and acceptance ranges and the analytical limits used to qualify depletion and low buffer concentrations; do not fabricate measurements."
+- file_id: P37
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "section 5 Timeline"
+      problem: "The proposal promises 'within 3 weeks (15 business days)', whereas the world specifies 14 calendar days and this package is intended to answer a query requiring turnaround under three weeks. The proposal alone does not establish that stricter commitment."
+      suggested_change: "Use the world-backed commitment: 'Draft report within 14 calendar days of receipt of test articles and purchase order.' Align the summary with this wording."
+    - severity: minor
+      area: voice
+      where: "section 3 Study design, hERG and CYP methods"
+      problem: "The prospective September proposal uses past-tense methods as though the October investigation has already occurred."
+      suggested_change: "Use future tense for planned recordings, compound applications and microsomal incubations. Keep the explicit exploratory non-GLP status."
+    - severity: minor
+      area: science
+      where: "section 3 Study design, control validity"
+      problem: "The proposal gives the test-compound hERG range but no separate range for nanomolar E-4031, and no control concentration-response or CYP acceptance procedure."
+      suggested_change: "Specify a separate E-4031 series spanning the expected nanomolar IC50 and document planned CYP control concentration responses, acceptance limits and any NADPH preincubation."
+- file_id: P38
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sheet hERG (IKr), E3 comment and CVL-08860/CVL-08870/CVL-08900 rows"
+      problem: "The comment says censored replicates are excluded, yet 25 and >30 produce a mean >30 for CVL-08860, while 23, >30 and 26 produce a numeric mean 24 for CVL-08900. The censoring rule is inconsistent, and n still includes censored cells."
+      suggested_change: "Adopt one documented censoring rule for all rows. Separate total accepted cells from cells contributing evaluable IC50s, and label mixed censored summaries appropriately instead of asserting unsupported exact means or lower bounds."
+    - severity: fix
+      area: science
+      where: "sheet hERG (IKr), CVL-08882"
+      problem: "CVL-08882 is reported as >30 µM despite precipitation at the top concentration. This is not an unqualified measured lower bound at a soluble 30 µM exposure."
+      suggested_change: "Qualify the endpoint as solubility-limited, identify the highest evaluable concentration and exclude the precipitating point from interpretation; retain the recorded precipitation observation."
+    - severity: fix
+      area: consistency
+      where: "sheet Study Summary"
+      problem: "The standalone Osterquill workbook does not identify the investigation as exploratory non-GLP, although the world and paired proposal explicitly distinguish it from the firm's regulated portfolio."
+      suggested_change: "Add 'Exploratory in vitro investigation; not conducted under GLP; for compound selection only.'"
+    - severity: minor
+      area: science
+      where: "sheet Control Validity"
+      problem: "The Result column mixes E-4031 nM with CYP control µM without labelling the units; CYP pass criteria omit the historical reference values."
+      suggested_change: "Add endpoint/unit labels and the documented historical reference or numeric limits for each control."
+- file_id: P39
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "section 4 hERG methods and Table 2, page 3"
+      problem: "Fitting mean inhibition is inconsistent with the individual-cell IC50/geometric-mean convention in P38. Table 2 also carries contradictory censoring: CVL-08860 is >30 from 25 and >30, while CVL-08900 is 24 from 23, >30 and 26."
+      suggested_change: "Match the method to per-cell fitting and one explicitly documented censoring/aggregation rule. Explain total cell n versus evaluable IC50 n and qualify mixed censored endpoints."
+    - severity: fix
+      area: science
+      where: "Table 2 CVL-08882 and section 6 Discussion"
+      problem: "The >30 µM result is presented without interpreting the recorded top-concentration precipitation, so it could be mistaken for a reliable weak-inhibition result."
+      suggested_change: "State that CVL-08882 is solubility-limited and cannot support an unqualified >30 µM lower bound; discuss the highest evaluable exposure and repeat testing where compound selection depends on it."
+    - severity: minor
+      area: science
+      where: "section 4 CYP methods and control results"
+      problem: "The report gives control IC50s without their concentration-response procedure, numeric validity criteria or preincubation conditions for time-dependent controls."
+      suggested_change: "Document the actual control protocol and acceptance ranges separately from the compound single-concentration screen."
+    - severity: minor
+      area: realism
+      where: "whole report"
+      problem: "The final report is five pages against the specified 12-18 and repeats the aggregate result rather than explaining the world-backed low-liability progression branch."
+      suggested_change: "Add substantive run accountability, assay limitations and a supported discussion of the progression branch; keep the non-GLP statement and exact client name 'Corvenlea (US)'."
+- file_id: P40
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "sheet hERG (IKr), E3 comment and AP02-01428/AP02-01490/AP02-01554 rows"
+      problem: "'Censored replicates excluded' does not explain why 28 and >30 yield >30, or why >30, 26 and >30 yield >30, while 25, 28 and >30 yield 27. Total n is not distinguished from the count contributing numerical IC50s."
+      suggested_change: "Use one documented rule for mixed censored replicates and explicitly label accepted-cell n and evaluable-IC50 n; qualify summaries rather than asserting inconsistent means."
+    - severity: fix
+      area: consistency
+      where: "sheet Control Validity, final statement; sheet hERG (IKr), AP02-01566"
+      problem: "'All runs met control validity criteria' contradicts the recorded run rejection for out-of-range E-4031."
+      suggested_change: "Use 'All reported results derive from accepted runs. The rejected run for AP02-01566 was excluded and repeated.' Retain the rejection note and distinguish replacement control results."
+    - severity: fix
+      area: consistency
+      where: "sheet Study Summary"
+      problem: "The workbook omits the exploratory non-GLP status, leaving Osterquill's screening package ambiguous when read independently."
+      suggested_change: "Add 'Exploratory in vitro investigation; not conducted under GLP; for compound selection only.'"
+    - severity: minor
+      area: science
+      where: "sheet Control Validity and AP02-01590 precipitation note"
+      problem: "Control result units and historical reference values are not explicit, and the precipitation note does not state whether the affected concentration was excluded from fitting."
+      suggested_change: "Label control units and documented limits; state how the precipitating 30 µM point was treated and whether the 9 µM estimate remains evaluable."
+- file_id: P41
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "section 1 Summary and Table 2 AP02-01566"
+      problem: "'All runs met control validity criteria' conflicts with the hERG row documenting a rejected run for E-4031 failure."
+      suggested_change: "State that all reported results derive from accepted runs, identify the rejected/repeated run and confirm exclusion of its measurements."
+    - severity: fix
+      area: science
+      where: "section 4 hERG methods and Table 2"
+      problem: "The mean-inhibition fitting method differs from P40's per-cell IC50 geometric-mean convention. Mixed censored rows are also inconsistent: AP02-01428 reports >30 from 28 and >30, whereas AP02-01554 reports 27 from 25, 28 and >30."
+      suggested_change: "Describe per-cell fitting and a single documented aggregation/censoring rule consistent with the workbook; distinguish accepted-cell n from evaluable-IC50 n."
+    - severity: minor
+      area: science
+      where: "Table 2 AP02-01590 and section 6 Discussion"
+      problem: "The report records precipitation at 30 µM without explaining its effect on the fit or on the reported 9 µM IC50."
+      suggested_change: "State whether the precipitating point was excluded, whether lower soluble concentrations support the estimate and when repeat testing is needed."
+    - severity: minor
+      area: science
+      where: "section 4 CYP methods and controls"
+      problem: "The control IC50s lack a documented concentration-response procedure and numeric acceptance criteria, including preincubation conditions relevant to furafylline and ticlopidine."
+      suggested_change: "Include the actual control protocol and documented acceptance limits, separately from the compound screen."
+    - severity: minor
+      area: realism
+      where: "whole report"
+      problem: "The six-page final report falls short of the specified 12-18 pages and repeats aggregate results rather than explaining the CYP-sensitive subseries and selected alternatives in the world outcome."
+      suggested_change: "Add substantive run accountability, limitations and a supported interpretation of the selected alternatives; preserve the explicit non-GLP status."
