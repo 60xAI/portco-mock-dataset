@@ -1,0 +1,310 @@
+{
+  "family": "document",
+  "summary": "Controlled procedure for identity assessment, area-percent purity acceptance, isolated-mass recording and delivery-lot reconciliation. Defines responsibilities, holds, qualified acceptance and release sign-off for Analogue preparation.",
+  "properties": {
+    "title": "Compound-card release | SOP Revision D"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Compound-card release | SOP Revision D",
+    "subtitle": "Controlled SOP | Release",
+    "lines": [
+      "Date: 21 May 2024",
+      "Prepared by: Clara Fenwick"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose and controlled use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This procedure controls compound-card release for Analogue preparation and Route scout and delivery. It applies to isolated analogues, intermediates supplied to a client and impurity reference material. Revision D is the controlled issue dated 21 May 2024."
+        },
+        {
+          "p": "The release decision is about the material actually isolated. Proposed structures, reaction-mixture observations and intended delivery quantities must not be presented as released results. A compound card joins identity evidence, chromatographic purity, isolated mass and delivery-lot disposition."
+        },
+        {
+          "table": {
+            "columns": [
+              "State",
+              "Permitted use"
+            ],
+            "rows": [
+              [
+                "Proposed",
+                "Route discussion only"
+              ],
+              [
+                "Under assessment",
+                "Identity or release evidence incomplete"
+              ],
+              [
+                "Released",
+                "Approved material and accompanying compound card"
+              ],
+              [
+                "Held",
+                "Unresolved discrepancy; no dispatch"
+              ]
+            ],
+            "caption": "Table 1. Compound-card states"
+          }
+        },
+        {
+          "p": "Use the controlled copy when preparing a release. An earlier printed card can support traceability but cannot authorize a changed structure, mass or delivery-lot disposition."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Responsibilities and independence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The preparing chemist enters preparation and isolation particulars and links the underlying analytical evidence. Hassan Darwish, Senior Synthetic Chemist, resolves route and structure questions where synthetic interpretation is needed."
+        },
+        {
+          "p": "Clara Fenwick, Analytical Release Lead, assesses the release evidence and records the decision. Ruth Calderwood, Head of Medicinal Chemistry, resolves programme-level exceptions and client requirements. Andrew May, Sample Management Coordinator, reconciles the physical material with the released delivery list."
+        },
+        {
+          "p": "The preparer must not imply release by signing a preparation entry. A route gate passed in a chemistry discussion does not remove the analytical-release gate. If a discrepancy falls between functions, the material remains held until the responsible decision and its basis are recorded."
+        },
+        {
+          "list": [
+            "Preparing chemist: preparation and isolated-material entries.",
+            "Analytical Release Lead: evidence assessment and disposition.",
+            "Head of Medicinal Chemistry: programme requirements and justified exceptions.",
+            "Sample Management Coordinator: label, amount and delivery-lot reconciliation."
+          ],
+          "ordered": false
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Open and identify the compound card",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Open a card for the isolated material and associate it with the local programme and accession identifiers. Carry the intended structure with enough detail to distinguish substitution site, stereochemical assignment and supplied form where relevant."
+        },
+        {
+          "p": "Keep the preparation identifier and isolated material identifier linked. If recoveries are combined, describe the combined material being assessed and retain the component history. Do not reuse a released card for a structurally different preparation."
+        },
+        {
+          "p": "Enter the purpose: analogue for testing, intermediate for onward chemistry or impurity reference. A reference must remain distinguishable from the desired analogue in both the card and delivery-lot list."
+        },
+        {
+          "table": {
+            "columns": [
+              "Field",
+              "Required entry"
+            ],
+            "rows": [
+              [
+                "Structure",
+                "Intended and assigned identity; resolve differences"
+              ],
+              [
+                "Preparation",
+                "Link to route scout and isolation history"
+              ],
+              [
+                "Material form",
+                "Supplied form and qualification"
+              ],
+              [
+                "Purpose",
+                "Analogue, intermediate or impurity reference"
+              ],
+              [
+                "Evidence",
+                "Supporting analytical files"
+              ]
+            ],
+            "caption": "Table 2. Minimum identity links"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Identity acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Compare isolated-material evidence with the intended structure before release. Identity is acceptable only when evidence supports the assigned structure and no unresolved observation would materially change that assignment. A matching molecular mass alone does not resolve substitution-site or stereochemical ambiguity."
+        },
+        {
+          "p": "For alkylation-site questions, distinguish the desired site from competing assignments. For process impurities, distinguish an isolated reference from a tentative peak assignment. If evidence cannot make the required distinction, record the ambiguity and hold the material."
+        },
+        {
+          "p": "The Analytical Release Lead records the assessment and its basis. Retain chemistry questions and their resolution with the card. Do not replace an uncertain assignment with the proposed drawing merely to complete release fields."
+        },
+        {
+          "p": "A changed assignment requires a corrected structure and assessment of labels, delivery lists and earlier handover. Material already dispatched must be addressed through the programme lead with a traceable correction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Area-percent purity acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Record chromatographic purity as area percent and retain the method, detector context and evidence link. Compare the result with the programme’s agreed release requirement. If no requirement is agreed, obtain a documented decision before dispatch; do not choose a default after seeing the trace."
+        },
+        {
+          "p": "Area-percent purity is not mass purity. Do not convert it into content, potency or usable assay concentration. Where a supplied form or impurity affects interpretation, carry the qualification on the card and client handover."
+        },
+        {
+          "p": "Investigate relevant unexpected features before acceptance. An impurity reference may support identification but does not grant a general waiver. A client-approved exception must identify the material, departure, scientific consequence and approving decision."
+        },
+        {
+          "p": "Where a repeat analysis is used, retain the earlier observation and explain why the repeat governs release. Selecting the cleaner trace without a documented cause is not an acceptable basis."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Isolated mass and isolated yield",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Record the mass actually isolated, using mg for the delivery account and retaining the original measurement and units. Where a preparation entry is in g, preserve it and show the conversion explicitly."
+        },
+        {
+          "p": "Keep crude mass, isolated mass, analytical sample removal and dispatched amount distinct. An expected amount is not an isolated measurement. If material is divided between vials, reconcile their amounts to the available isolated material."
+        },
+        {
+          "p": "For isolated yield, retain the starting-material basis, molecular form and calculation source. Record mmol where needed. Mixed or incompletely characterized material must not receive a misleading isolated yield for a pure assigned product."
+        },
+        {
+          "p": "Resolve unit or transcription discrepancies against the source entry. Do not silently overwrite the original amount. The correction shows what changed, why and who accepted the corrected delivery account."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Delivery-lot reconciliation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Before dispatch, Andrew May reconciles the released list with physical labels, material form, amounts and intended recipient. A structure, identifier or amount mismatch places the affected material on hold."
+        },
+        {
+          "p": "Keep impurity references separate from test analogues and intermediates. A client expecting the desired analogue must not receive a reference under an ambiguous label. Handling qualifications travel with the delivery lot."
+        },
+        {
+          "p": "Account for retained, sampled or divided material after release. Reconciliation concerns what will leave the site, not solely the earlier isolated mass. Changes affecting identity, condition or agreed amount return to the release function."
+        },
+        {
+          "list": [
+            "Match physical labels to released cards.",
+            "Confirm supplied form and handling qualifications.",
+            "Reconcile dispatched amounts with the isolated-material account.",
+            "Separate analogue, intermediate and reference purposes.",
+            "Resolve discrepancies before dispatch."
+          ],
+          "ordered": true
+        },
+        {
+          "p": "Reconciliation confirms the delivery account. It does not substitute for identity and purity assessment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Release sign-off and exceptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The sign-off identifies the assessed card, material disposition and date. Clara Fenwick signs in the analytical-release capacity; the preparing chemist’s attribution remains separate."
+        },
+        {
+          "p": "For an exception, Ruth Calderwood records the requirement and client decision with the affected card. An exception cannot conceal uncertain identity. Record suitability for the stated purpose and the qualification the recipient must receive."
+        },
+        {
+          "p": "A change in structure, material form, purity interpretation or relevant handling condition requires renewed assessment. A clerical correction preserves history and confirms consistency of physical labels and handover."
+        },
+        {
+          "table": {
+            "columns": [
+              "Decision",
+              "Action"
+            ],
+            "rows": [
+              [
+                "Accept",
+                "Sign release; reconcile delivery"
+              ],
+              [
+                "Hold",
+                "State unresolved question and responsible function"
+              ],
+              [
+                "Reject for intended use",
+                "Retain evidence; prevent dispatch"
+              ],
+              [
+                "Qualified acceptance",
+                "Record exception and recipient qualification"
+              ]
+            ],
+            "caption": "Table 3. Release decisions"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Retention, corrections and closure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Retain the card with the route scout, analytical evidence, release decision and delivery-lot reconciliation. Keep original analytical files and the rationale for replacement assessments."
+        },
+        {
+          "p": "Correct errors with a dated, attributable correction and reason. Do not erase an earlier interpretation or detach an inconvenient trace. For dispatched material, the programme lead coordinates an amended handover and retains the disposition."
+        },
+        {
+          "p": "Revision D clarifies isolated mass versus dispatched amount, method context for area-percent purity and treatment of impurity references. Earlier cards retain their historical identity; use this procedure for current assessments and documented corrections."
+        },
+        {
+          "p": "Completion requires accepted identity, assessed purity, reconciled mass and release sign-off. Proposed structures remain outside the released-material inventory."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Clara Fenwick",
+      "role": "Analytical Release Lead",
+      "date": "21 May 2024",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "comments": [],
+  "tracked_changes": [],
+  "orientation": "portrait"
+}
