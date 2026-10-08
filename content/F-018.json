@@ -1,0 +1,314 @@
+{
+  "family": "document",
+  "summary": "Final JO-6 polymer-shortlist report for Jorvessara Pharmaceuticals. It records the stress-screen selection and the remaining development limits before the commissioned larger drying run.",
+  "properties": {
+    "title": "JO-6 amorphous dispersion: polymer shortlist and drying scale gate"
+  },
+  "header": "Durnesswick Laboratories Inc",
+  "footer": "Durnesswick Laboratories Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "JO-6 amorphous dispersion: polymer shortlist and drying scale gate",
+    "subtitle": "Final work-package report | R1",
+    "lines": [
+      "Project {{PRJ0109:project_id}}",
+      "Accession {{PRJ0109:lims_id}}",
+      "Client: Jorvessara Pharmaceuticals",
+      "Date: 01/19/2018",
+      "Prepared by: Julia Carver"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and selection",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A polymer blend resisted recrystallisation during the stress screen, and Jorvessara Pharmaceuticals commissioned a larger drying run. The blend is a development selection rather than a locked drying process or final dosage-form composition."
+        },
+        {
+          "p": "The Vehicle ladder below supports the early formulation assessment. Its liquid observations are distinct from the polymer-stress outcome. JO06_polymer-screen_011918_MS.xlsx retains the polymer-loading and stress-screen bench sheets needed to identify the selected recipe."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0109:form_screen",
+            "caption": "Table 1. Liquid Vehicle ladder supporting the JO-6 work package."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Development objective",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The work package asked whether a polymer-based amorphous dispersion offered a practical route for JO-6. Resistance to recrystallisation had to be balanced against preparation and drying practicality."
+        },
+        {
+          "p": "A satisfactory stress specimen is useful only if its formulation can move into a larger preparation. The shortlist rationale and the unresolved drying questions are therefore stated separately. Neither the liquid screen nor the stress outcome alone establishes manufacturability."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Execution history",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quotation was dated 10/23/2017 and work began on 11/07/2017. The interim discussion occurred on 12/13/2017. This report and the supporting bench sheets were completed on 01/19/2018."
+        },
+        {
+          "p": "Julia Carver directed the shortlist decision; Miguel Serrano maintained formulation-set identity. Lena Patel’s transfer concern was carrying the selected composition into the commissioned run while keeping exploratory settings distinguishable from established process limits."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Preparation identity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Materials and preparations are associated with {{PRJ0109:project_id}} / {{PRJ0109:lims_id}}. Polymer loading is recorded in weight percent on the loading bench sheet. The recipe card distinguishes dry composition from the liquid medium used during preparation."
+        },
+        {
+          "p": "Use the selected recipe identity rather than “mixed polymer” as an instruction. Polymer substitution or a change in proportions may affect feed behavior and the physical state of recovered material. Such a change would create a new formulation set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Liquid-screen method",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Vehicle ladder compared initial appearance, equilibrium solubility and standing behavior at nominal 10 mg/mL loading. Aqueous suspending media, mixed solvents, cyclodextrin and citrate buffer provided contrasting handling conditions."
+        },
+        {
+          "p": "These are liquid-screen observations. A fine suspension does not establish an amorphous solid, and liquid equilibrium solubility does not quantify a dried blend’s resistance to recrystallisation. The method labels remain distinct throughout this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Liquid-screen observations",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Methylcellulose and PEG400/water were redispersible comparators. Crystal growth affected the HPMC-containing and oil-containing entries; the cyclodextrin and citrate entries showed caking. The Labrasol/PEG400 preparation settled but was redispersible."
+        },
+        {
+          "p": "Initial dispersion and subsequent handling both matter. These observations do not determine a polymer loading or nominate a drying feed. A vehicle may help prepare a formulation without resolving the solid-state limitation that motivated the dispersion work."
+        },
+        {
+          "chart": {
+            "kind": "bar",
+            "ref": "PRJ0109:form_screen",
+            "column": 1,
+            "title": "JO-6 liquid-vehicle equilibrium solubility",
+            "y_label": "Equilibrium solubility (mg/mL)"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Polymer shortlist rationale",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The shortlist sought a blend that retained its noncrystalline state during exploratory stress while remaining practical to prepare. It was a physical-state and handling decision, not a ranking derived from liquid solubility alone."
+        },
+        {
+          "p": "The polymer-loading sheet supplies recipe identity and composition. Take the selected blend forward at its documented loading before changing it. An inferred loading would break the connection between the stress-screen specimen and the commissioned preparation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Blend preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Active and polymer must be distributed consistently before drying. Mixing sequence, feed homogeneity and visible undispersed material belong on the bench sheet because they can explain differences in the recovered product."
+        },
+        {
+          "p": "Preserve the selected dry composition during the larger run. If feed dilution is needed for mixing, record the change and assess its effect on drying. A feed-concentration adjustment can change process exposure even when the intended dry loading remains the same."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Stress-screen outcome",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The selected blend resisted recrystallisation during the stress screen. This is the observed basis for progression. It is narrower than indefinite amorphous stability and does not establish performance in the eventual storage package."
+        },
+        {
+          "p": "Retain preparation identity and exposure history when comparing specimens. A satisfactory specimen from a changed loading or handling history should not be pooled silently with the selected blend. The stress bench sheet provides that comparison context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Evidence boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The polymer-stress conclusion is qualitative in this report. The loading and stress bench sheets remain the reference for the shortlist; the liquid Vehicle ladder is reproduced without relabeling it as a polymer dataset."
+        },
+        {
+          "p": "A larger drying run can address feed, recovery and scale-handling questions. It cannot retrospectively extend the earlier stress challenge. Compare its recovered material directly with the selected small-scale preparation before transferring the earlier description."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Loading and dose burden",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Higher active loading may reduce polymer burden per dose but can reduce tolerance to recrystallisation. Lower loading may help preserve physical state while increasing carrier mass and the eventual dosage burden."
+        },
+        {
+          "p": "The selected composition is the starting point for the commissioned run. Loading optimization should be a separate formulation set with a stated rationale, not an undocumented adjustment introduced at the drying bench."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Feed manufacturability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The larger preparation must establish that the selected recipe can produce feed suitable for the intended drying arrangement. Mixing accessibility, material retained on vessel surfaces and changes during the feed hold are practical checks."
+        },
+        {
+          "p": "If feed behavior requires a solvent or mixing change, record the reason and evaluate its consequence. Composition changes and equipment-handling changes must remain distinguishable so a recovered-material difference is not attributed automatically to scale."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Drying and recovery",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Document the preparation sequence, feed handling and collection of the selected formulation. Material retained on drying surfaces may have a different exposure history from freely collected material; keep those fractions identifiable."
+        },
+        {
+          "p": "Recovery is a manufacturing question as well as a material-balance question. A blend with favorable physical-state behavior may still require process development if collection is impractical. The shortlist justifies investigating that question, not assuming it is resolved."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Recovered-material assessment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assess the recovered material before assigning it the same physical-state description as the small-scale preparation. Distinguish visible aggregation from evidence relevant to recrystallisation and retain the history of each collection fraction."
+        },
+        {
+          "p": "The earlier stress outcome is a comparator, not a substitute for evaluating material made with a different feed hold or drying exposure. The larger run may reveal handling limitations absent from the initial formulation set."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 Storage and packaging",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The stress screen does not define a shelf life. Moisture exposure, container closure and holding conditions remain development variables. Packaging decisions should follow the behavior of material from the intended preparation route."
+        },
+        {
+          "p": "Keep holding conditions defined for the larger-run material. Specimens exposed to different environments should remain distinguishable in subsequent comparisons, rather than being summarized as a single blend-stability outcome."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Transfer package",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Carry the recipe card, polymer-loading bench sheet and stress observations into the larger-run instructions. Miguel Serrano’s formulation-set identity must remain traceable through feed preparation and recovered material."
+        },
+        {
+          "p": "Lena Patel’s transfer package should enable reproduction while leaving space to record process learning. Proposed changes need a practical reason and a stated effect on composition or exposure; they should not be masked as routine execution."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Larger-run scale gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Jorvessara Pharmaceuticals commissioned the larger drying run on the strength of the selected blend’s resistance to recrystallisation. The next scale gate is practical preparation, drying and recovery of that same recipe."
+        },
+        {
+          "p": "Feed handling, recovered physical state and subsequent holding behavior remain to be established in the larger run. This report does not assign yield, a drying process window or a storage specification. Progression beyond the scale gate requires the new run’s evidence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "18 Conclusion and archive",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The stress-resistant polymer blend is the selected development candidate. Proceed with the commissioned larger drying run while preserving composition and assessing feed behavior, recovery and the physical state of recovered material."
+        },
+        {
+          "p": "Retain this report with JO06_polymer-screen_011918_MS.xlsx and the recipe cards under {{PRJ0109:lims_id}}. The liquid-screen table, loading entries and stress observations are related evidence with different purposes; preserve those differences in future summaries."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "01/19/2018",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
