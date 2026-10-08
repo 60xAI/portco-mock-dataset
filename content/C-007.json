@@ -1,0 +1,141 @@
+{
+  "family": "deck",
+  "summary": "Final NM-84 dosing-lot bridge readout for Nimbravelle Medicines Inc. Rat exposure with tandem-MS bioanalysis supports retention of the original efficacy interpretation; analytical assumptions precede the qualitative conclusion.",
+  "properties": {
+    "title": "NM-84: dosing-lot exposure bridge",
+    "subject": "Final NM-84 dosing-lot bridge readout for Nimbravelle Medicines Inc. Rat exposure with tandem-MS bioanalysis supports retention of the original efficacy interpretation; analytical assumptions precede the qualitative conclusion.",
+    "keywords": "Merrivoss; DMPK; matrix acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "NM-84: dosing-lot exposure bridge",
+      "subtitle": "MV-2023-288 | Nimbravelle Medicines Inc\n11/27/2023 | Megan Larkin | Final R1\nMerrivoss Bioanalysis Inc, a Tarnovell company",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Study question",
+      "bullets": [
+        "Does the dosing-lot change alter the exposure basis of the existing efficacy interpretation?",
+        "Study MV-2023-288; accession {{PRJ0065:lims_id}}.",
+        "Rat exposure with tandem-MS bioanalysis addresses the lot bridge, rather than a new efficacy question."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Species and matrix context",
+      "bullets": [
+        "Species: rat. Retain the original dosing and sampling context with the lot comparison.",
+        "Interpret concentrations within the sampled matrix and its matching calibration conditions.",
+        "Do not transfer the conclusion to another species or matrix."
+      ],
+      "notes": "The matrix-specific method details remain in the analytical study record. No unrecorded matrix or numerical acceptance limit is assigned here.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance before exposure",
+      "bullets": [
+        "Consider calibration, matrix controls and sample handling together.",
+        "Compare the dosing lots through measurements suitable for the same analytical question.",
+        "Helen Marchwood is the Bioanalytical Quality Manager for this study."
+      ],
+      "notes": "This readout does not reproduce individual matrix acceptance results or replace the assay worksheet.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analytical limits",
+      "bullets": [
+        "Tandem-MS response supports measurement; signal alone does not establish vial identity.",
+        "A result below the quantitation limit is qualified, not a measured zero.",
+        "Javier Quintana is the Mass-Spectrometry Manager.",
+        "No numerical lower limit is stated in this presentation."
+      ],
+      "notes": "The exposure conclusion remains conditional on the original analytical range and handling of below-quantitation observations.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Accession lots and dosing linkage",
+      "bullets": [
+        "Preserve the original lot designation alongside dosing and analytical entries.",
+        "Use {{PRJ0065:lims_id}} to trace study material.",
+        "The NM-84 name alone does not establish interchangeability.",
+        "Keep the dosing-lot change visible in the analyte card."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Study sequence",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "09/14/2023 > Quotation",
+          "10/16/2023 > Study start",
+          "11/06/2023 > Interim discussion",
+          "11/27/2023 > Completion"
+        ]
+      },
+      "notes": "Study record dates, not individual analytical run dates.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reading the exposure bridge",
+      "bullets": [
+        "The comparison concerns exposure across the original and replacement dosing lots.",
+        "Retain dose, route and sampling assumptions when quoting the conclusion.",
+        "Integrated exposure is expressed in ng·h/mL; no numerical AUC values are reproduced here."
+      ],
+      "notes": "Comparable is the completed study interpretation. It is not a formal bioequivalence interval or a manufacturing release specification.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Completed study finding",
+      "bullets": [
+        "Comparable exposure across the two lots allowed Nimbravelle Medicines Inc to retain the original efficacy interpretation.",
+        "The lot change did not require a revised exposure explanation for the efficacy observation.",
+        "This conclusion is specific to NM-84 and the completed bridge."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Boundaries of the decision",
+      "bullets": [
+        "The bridge does not establish efficacy in another model.",
+        "A new formulation, route or species requires its own exposure assessment.",
+        "Future accession lots still require their own material and analytical records."
+      ],
+      "notes": "Do not broaden this lot-specific conclusion into a general product-equivalence claim.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "DMPK memo handoff",
+      "bullets": [
+        "Megan Larkin: retain the original efficacy interpretation with this bridge cited.",
+        "Javier Quintana: preserve analytical linkage in the study record.",
+        "Helen Marchwood: retain matrix acceptance documentation with the assay worksheet.",
+        "Quote project and accession identifiers together."
+      ],
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Final disposition | 11/27/2023",
+      "bullets": [
+        "MV-2023-288 is completed.",
+        "Nimbravelle Medicines Inc may retain the original efficacy interpretation on the basis of comparable lot exposure.",
+        "Carry analytical assumptions with the conclusion whenever it is reused."
+      ],
+      "notes": "Final readout R1. No additional numerical exposure claim is made.",
+      "footer": "Merrivoss Bioanalysis Inc, a Tarnovell company | Confidential"
+    }
+  ]
+}
