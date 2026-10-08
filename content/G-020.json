@@ -1,0 +1,639 @@
+{
+  "family": "document",
+  "summary": "Final OT-19-S0100 investigation report for Valquessia Pharmaceuticals SpA. The combined package raised a genotoxicity concern and Valquessia Pharmaceuticals SpA dropped the reactive side-chain branch. The bacterial assay outcome is negative; the concern is therefore not described as a positive finding in every assay. Control validity is stated separately from interpretation, and all conclusions are confined to the exploratory in vitro package.",
+  "properties": {
+    "title": "OT-19-S0100 Final investigation report",
+    "subject": "VP10 aminoquinolines: bacterial and mammalian genotoxicity package"
+  },
+  "header": "Osterquill Toxicology Inc | OT-19-S0100",
+  "footer": "Osterquill Toxicology Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "VP10 aminoquinolines: bacterial and mammalian genotoxicity package",
+    "subtitle": "Final investigation report — exploratory package",
+    "lines": [
+      "Osterquill Toxicology Inc",
+      "Report no. G-R-2019-0100-A",
+      "Investigation OT-19-S0100",
+      "LIMS {{PRJ0123:lims_id}}",
+      "Client: Valquessia Pharmaceuticals SpA",
+      "Date: 08/19/2019",
+      "Prepared and authorized by Dr N. Takamori, Head of Toxicology"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Executive conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "OT-19-S0100 investigated the VP10 test article cohort for Valquessia Pharmaceuticals SpA. The HepG2 viability screen and Mammalian-cell micronucleus assessment were interpreted together with the Bacterial mutation assay with and without S9."
+        },
+        {
+          "p": "The combined package raised a genotoxicity concern and Valquessia Pharmaceuticals SpA dropped the reactive side-chain branch. The bacterial assay outcome is negative; the concern is therefore not described as a positive finding in every assay."
+        },
+        {
+          "p": "Dropping the reactive side-chain branch is supported as a conservative chemistry decision on the integrated exploratory package. The negative bacterial result remains part of that assessment and must be preserved in subsequent summaries."
+        },
+        {
+          "p": "Control validity was accepted for the reported endpoints. Acceptance establishes that the test systems responded appropriately under the investigation conditions; it does not establish that any test article is safe. This signed report is the final scientific account of an exploratory package and is not a statement of GLP compliance."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0123:benchmark",
+            "caption": "Table 1. Investigation identification and package summary"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Purpose and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The purpose was to inform the next chemistry decision for Valquessia Pharmaceuticals SpA before further development of the VP10 cohort. The investigation began on 07/08/2019; the interim interpretation was issued on 07/29/2019; this report closes the package on 08/19/2019. The reported cohort contains {{PRJ0123:n_compounds}} test articles. The number refers to the supplied screening cohort and does not imply that every assay table contains a separate entry for every article."
+        },
+        {
+          "p": "The package asks whether changes in cell viability affect the interpretation of the mammalian-cell endpoint, and whether the results support a practical selection or replacement decision. It is deliberately narrower than a comprehensive genetic toxicology evaluation. No clinical exposure margin, human risk estimate or definitive mechanism is derived here."
+        },
+        {
+          "p": "The observations belong to the tested material and the exposure conditions recorded on the observation sheets. A later dose lot, changed formulation or replacement analogue requires its own traceability and an assessment of whether the present observations remain applicable. Names used in this report are laboratory identifiers, not a statement of chemical equivalence."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Responsibility and report status",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dr N. Takamori held responsibility for the integrated scientific interpretation and final authorization. Dr K. Morita evaluated the genetic toxicology endpoints with attention to exposure, cell growth and the corresponding controls. Lucia Moretti assembled the archive cross-reference and checked the report against the retained investigation documentation."
+        },
+        {
+          "p": "The scientific sign-off is distinct from the archive check. The involvement of the GLP Quality Assurance and Archive Lead does not convert exploratory work into a GLP investigation. A formal GLP compliance statement is not made, and this report should not be cited as a replacement for a regulatory genetic toxicology battery."
+        },
+        {
+          "p": "The final issue supersedes the interim interpretation for the conclusions stated here. Source observation sheets retain their original entries. The report does not overwrite those entries or create a new numerical dataset. Where a table and a narrative statement address different levels of the package, the table describes the measured endpoint and the narrative identifies the bounded project decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Test article accountability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Test article accountability is maintained under LIMS {{PRJ0123:lims_id}}. The VP10 identifiers in the HepG2 table are the primary cross-reference for the screened material. Receipt, preparation, dilution and disposition documentation remain linked to that investigation identifier in the Osterquill archive."
+        },
+        {
+          "p": "Material identity was carried through preparation and exposure rather than inferred from the order of wells or tubes. Changes in container, preparation or assay position require an explicit source entry so that an apparent difference in biological response cannot be mistaken for a difference in analogue identity."
+        },
+        {
+          "p": "This report does not assign an unlisted structure, purity value or stability period to any article. The interpretation assumes the tested preparations are those identified on the observation sheets. Should later analytical information change that assumption, the scientific conclusion requires reconsideration through a study amendment rather than an informal alteration of this signed report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Exposure design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Concentration selection was guided by cell tolerance, practical preparation limits and the need to examine the relevant exposure window. A nominal concentration alone is not an exposure margin. Differences in cell system, exposure duration and metabolic activation prevent direct numerical conversion of a HepG2 IC50 into a TK6 challenge concentration."
+        },
+        {
+          "p": "The HepG2 viability screen retained the short and extended exposure readouts separately. The Mammalian-cell micronucleus assessment retained treatment condition, concentration, micronucleus frequency and relative population doubling in the same table. This layout preserves the relation between the chromosome endpoint and cell growth at the tested exposure."
+        },
+        {
+          "p": "Concentration entries in the micronucleus table are expressed in µg/mL, while the HepG2 safety potency is expressed in µM. These units are intentional and are not treated as interchangeable. No molecular-weight conversion is introduced without a traceable article-specific basis. Comparisons in this report are qualitative where such conversion is unavailable."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 HepG2 viability screen: method",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Cell viability was assessed through ATP content after the specified exposure intervals. The endpoint is a practical measure of viable cell mass under these conditions. A reduction in ATP signal may reflect loss of cells, impaired metabolic state or altered growth; it is not a direct measurement of chromosome damage."
+        },
+        {
+          "p": "Vehicle exposure supplied the comparison for the test article response. Preparation and exposure observations were retained with the assay output so that a response potentially affected by precipitation, handling or an abnormal control could be separated from a reproducible concentration-related effect."
+        },
+        {
+          "p": "Concentration-response interpretation retained censored values as reported. An entry above the tested range is not an exact IC50 at the boundary, and an unresolvable curve is not silently replaced with an estimated value. The table therefore remains the primary source for comparison of the test article cohort."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 HepG2 viability screen: results",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The complete HepG2 result table for the VP10 cohort follows. Both exposure intervals are displayed for each listed article. Readers should compare the paired entries before assigning a relative tolerance category; the later exposure can reveal a limitation that is less apparent after the shorter interval."
+        },
+        {
+          "p": "The values are screening readouts under the investigation conditions. They do not define a maximum tolerated systemic dose and should not be converted to mg/kg/day. The table provides the cytotoxicity context for the genetic toxicology discussion, rather than an independent clinical safety margin."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0123:cytotox",
+            "caption": "Table 2. HepG2 viability screen — ATP content IC50, µM"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Viability interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The comparison across exposure intervals was used to distinguish relative exposure tolerance from a simple rank order of nominal potency. A stronger effect after extended exposure indicates that the tolerated concentration window may depend on duration. It does not, by itself, identify the responsible molecular pathway."
+        },
+        {
+          "p": "The interpretation was kept at the level supported by the screening data. A test article with a higher viability IC50 can be less cytotoxic in this system without being preferable on every development criterion. Conversely, a lower IC50 can restrict the useful concentration range for a mammalian-cell follow-up without proving a primary chromosome-damaging mechanism."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Bacterial mutation assay with and without S9: method",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The bacterial endpoint was assessed under both nonactivated and metabolically activated conditions. Strain and activation are retained as separate table fields. Mean revertants, dispersion and comparison with vehicle are shown together so that an isolated count is not detached from its treatment context."
+        },
+        {
+          "p": "The bacterial observation sheets retained treatment identity, dose and the condition of the background growth. Growth inhibition or preparation effects require consideration before interpreting a low revertant count. An increase requires evaluation against the concurrent vehicle and the behavior across the tested dose range."
+        },
+        {
+          "p": "Control validity included the expected behavior of the vehicle and positive controls, the responsiveness of the strains and the metabolic activation condition. The accepted bacterial dataset supports the reported outcome within these conditions; it does not establish that every mammalian mechanism has been excluded."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Bacterial mutation assay with and without S9: results",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The bacterial outcome is {{PRJ0123:ames.outcome}}. This outcome is retained without qualification by the chemistry decision described elsewhere in the report. The source table below contains the strain, activation, dose and revertant information underlying the bacterial assessment."
+        },
+        {
+          "p": "The complete table is presented so that activated and nonactivated exposures can be read independently. A negative bacterial result is not rewritten as a positive result because the mammalian-cell assessment prompted a risk-management action. The endpoints interrogate different biological processes and remain separate findings."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0123:ames",
+            "caption": "Table 3. Bacterial mutation assay with and without S9 — complete treatment table"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Bacterial endpoint in the integrated package",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The absence of a bacterial signal under the reported conditions narrows the interpretation of the package but does not resolve the mammalian-cell concern. The bacterial endpoint addresses mutation in the test strains; the micronucleus endpoint addresses chromosomal material in a mammalian-cell system. Agreement is informative, but disagreement is also scientifically meaningful."
+        },
+        {
+          "p": "Dr K. Morita retained the negative bacterial outcome in the final endpoint assessment. No pooling of bacterial and mammalian values was performed. No combined score was calculated, since a numerical composite would obscure the different biological and exposure contexts."
+        },
+        {
+          "p": "The combined package raised a genotoxicity concern and Valquessia Pharmaceuticals SpA dropped the reactive side-chain branch. The bacterial assay outcome is negative; the concern is therefore not described as a positive finding in every assay."
+        },
+        {
+          "p": "Any later client summary should state the bacterial outcome explicitly. Phrases such as “positive battery” would lose the distinction and are not an acceptable substitute for the endpoint-specific account in this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Mammalian-cell micronucleus assessment: method",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "TK6 cells were examined under the treatment and activation conditions listed in the result table. Micronucleus frequency and relative population doubling were retained together. Cell growth is essential to interpretation because a chromosome endpoint observed at a severely cytotoxic exposure may not support the same conclusion as one observed in a well-tolerated window."
+        },
+        {
+          "p": "The assessment included concurrent vehicle and positive-control comparisons. Scoring and exposure information were kept on the genetic toxicology observation sheets. The final evaluation considered the exposure condition as well as the apparent frequency; it did not treat every numerical departure from vehicle as an independent mechanistic finding."
+        },
+        {
+          "p": "The endpoint identifies a mammalian-cell flag within the investigation conditions. It does not distinguish chromosome breakage from chromosome loss without additional evidence. No such mechanistic distinction is asserted by this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Mammalian-cell micronucleus assessment: results",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The treatment-level result table is presented intact, including the relative population doubling field. This field must accompany the micronucleus values when the results are circulated. Removing it would conceal the exposure-tolerance context on which the present interpretation depends."
+        },
+        {
+          "p": "The combined package raised a genotoxicity concern and Valquessia Pharmaceuticals SpA dropped the reactive side-chain branch. The bacterial assay outcome is negative; the concern is therefore not described as a positive finding in every assay."
+        },
+        {
+          "p": "The table describes the reported treatment conditions; it is not a compound-by-compound certificate for the entire HepG2 screening cohort. The detailed association between preparations and treatment entries is maintained in the genetic toxicology observation sheets."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0123:micronucleus",
+            "caption": "Mammalian-cell micronucleus assessment — TK6 treatment results"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Control validity statement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Control validity was accepted for the reported HepG2 and TK6 datasets and for the Bacterial mutation assay with and without S9."
+        },
+        {
+          "p": "The vehicle controls supplied an interpretable baseline, and the positive controls demonstrated the expected responsiveness of the relevant test system. Cell growth and exposure observations were considered alongside these controls. The final interpretation uses the accepted datasets and does not rely on a failed-control run."
+        },
+        {
+          "p": "Control acceptance and test article interpretation are separate decisions. An accepted control establishes that the endpoint can be evaluated, while the test article conclusion still depends on exposure tolerance and the pattern of the observations. The report makes no inference that control acceptance alone establishes absence of hazard."
+        },
+        {
+          "p": "Numerical control information is retained within the relevant source tables and observation sheets. A new control range has not been invented for this report. Historical comparisons support the laboratory evaluation but are not presented as additional measured results in this document."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Cytotoxicity and chromosome-endpoint association",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The integrated review considered whether the mammalian-cell flag occurred in an exposure range where cell proliferation was substantially affected. The rationale is biological rather than arithmetical: the chromosome endpoint is assessed in cells that must tolerate the exposure and proceed through the relevant growth process."
+        },
+        {
+          "p": "HepG2 IC50 and TK6 relative population doubling cannot be substituted for one another. They were used as complementary evidence of exposure tolerance. A quantitative margin between them would require information not established by this package, including article-specific conversion and the comparability of intracellular exposure."
+        },
+        {
+          "p": "The combined package raised a genotoxicity concern and Valquessia Pharmaceuticals SpA dropped the reactive side-chain branch. The bacterial assay outcome is negative; the concern is therefore not described as a positive finding in every assay."
+        },
+        {
+          "p": "The association informs the follow-up choice without supplying a definitive molecular mechanism. A repeat at lower exposure can test the persistence of the flag in a more interpretable window, whereas analogue replacement can manage the concern without claiming that the original mechanism has been resolved."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Integrated scientific interpretation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dropping the reactive side-chain branch is supported as a conservative chemistry decision on the integrated exploratory package. The negative bacterial result remains part of that assessment and must be preserved in subsequent summaries."
+        },
+        {
+          "p": "The final conclusion was reached by preserving the endpoint-specific findings, not by selecting the most favorable assay. The viability results define a tolerance context; the mammalian-cell results define the flag; the bacterial results provide a separate negative endpoint; the client decision states how the package was used for the next development step."
+        },
+        {
+          "p": "The investigation supports prioritization under the tested conditions. It does not define an in vivo genotoxicity outcome, a carcinogenicity classification or an acceptable human exposure. No inference of animal tolerability is drawn from these cell-based results."
+        },
+        {
+          "p": "Where a decision is more conservative than the narrow assay conclusion, the distinction is intentional. A sponsor may replace or discontinue an analogue to reduce development uncertainty while the scientific report continues to preserve the exact endpoint outcome."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Development decision and follow-up",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "p": "Valquessia Pharmaceuticals SpA owns the subsequent chemistry and nomination decision. Osterquill recommends that the next package preserve original article identities, dose lot traceability and the exposure rationale. A new result should be compared with the present package only after these elements have been reconciled."
+        },
+        {
+          "p": "The next protocol should define the intended question before testing begins: persistence of the mammalian flag at tolerated exposure, behavior of replacement material, or relative tolerance of retained analogues. These questions require different selection and exposure choices and should not be combined into an undefined confirmatory exercise."
+        },
+        {
+          "p": "The final signed report provides the scientific basis for that planning. No unperformed repeat is described as complete, and no numerical prediction is assigned to the next experiment."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Limitations and applicability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The package is exploratory. It is limited to the tested articles, preparations, cell systems and exposure conditions. It does not include a full assessment of absorption, distribution, metabolism or systemic exposure. The concentration-response results cannot be translated directly into a human dose."
+        },
+        {
+          "p": "The HepG2 screen and TK6 assessment use distinct biological systems. Different sensitivity between them is expected to require interpretation rather than forced numerical alignment. The present report deliberately avoids a calculated cross-system safety margin."
+        },
+        {
+          "p": "The available tables do not establish a definitive mechanism for the mammalian-cell finding. The chemistry decision is supported by the reported concern, but the report does not identify a reactive metabolite, DNA adduct or chromosome-loss mechanism without direct evidence."
+        },
+        {
+          "p": "The conclusions are confined to this exploratory package. Further regulatory work requires a prospectively defined protocol and its own compliance documentation; this final report is not a GLP certificate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Animal welfare and use statement",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This package used in vitro test systems. No live-animal administration, recovery cohort or animal welfare endpoint formed part of the work reported here. Consequently, this report contains no animal-card observations or inferred animal dose recommendation."
+        },
+        {
+          "p": "Metabolic activation material used in an in vitro assay does not make the package an in vivo investigation. Animal welfare language in Osterquill report practice is retained to make the boundary explicit, rather than to imply animal procedures that were not performed."
+        },
+        {
+          "p": "Any future in vivo work must have a separate welfare assessment, exposure rationale and prospective authorization. It cannot be justified solely by converting the cell-based concentrations into a systemic dose."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Data handling and numerical conventions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The numerical tables are the primary reported datasets. Units remain attached to their endpoints. Censored viability entries retain the greater-than notation; activation conditions remain attached to bacterial or mammalian treatments; dispersion is displayed with the bacterial means where available."
+        },
+        {
+          "p": "No missing result is replaced by a zero. No table entry is treated as an exact concentration-response parameter if it is reported as a bound. Narrative statements describe the qualitative interpretation and do not introduce untraceable numerical results."
+        },
+        {
+          "p": "The treatment-level micronucleus table is not expanded into invented article-level rows. Similarly, the screening cohort count is not used as an implied number of genetic toxicology treatments. These distinctions are necessary to retain the meaning of the package when the report is used outside the laboratory."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Report-to-source cross-reference",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The signed report is filed under OT-19-S0100, with preparations and observation sheets linked through {{PRJ0123:lims_id}}. The HepG2 dataset, genetic toxicology datasets and final interpretation remain identifiable as separate archive components."
+        },
+        {
+          "p": "Dr K. Morita is the scientific contact for the genetic toxicology interpretation. Dr N. Takamori is responsible for any change to the final integrated conclusion. Lucia Moretti maintains the archive linkage and the status of any subsequent study amendment."
+        },
+        {
+          "p": "A request to revise an endpoint conclusion must identify the new evidence and the affected source entries. Editorial clarification may improve readability, but it must not silently alter treatment identity, units, control status or the endpoint outcome."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Final authorization",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The combined package raised a genotoxicity concern and Valquessia Pharmaceuticals SpA dropped the reactive side-chain branch. The bacterial assay outcome is negative; the concern is therefore not described as a positive finding in every assay."
+        },
+        {
+          "p": "Dropping the reactive side-chain branch is supported as a conservative chemistry decision on the integrated exploratory package. The negative bacterial result remains part of that assessment and must be preserved in subsequent summaries."
+        },
+        {
+          "p": "Authorized on 08/19/2019 by Dr N. Takamori. The report is final for the investigation identified on the title page. Its issue closes the present exploratory package; it does not represent completion of the proposed follow-up."
+        },
+        {
+          "p": "The archive completeness signature applies to the filed report and its source cross-reference. It is expressly separate from scientific authorization and from any formal statement of GLP compliance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "heading": "Appendix A — Exposure-window note",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The exposure window must permit an interpretable cell-growth response. Selection of a lower concentration should follow the observed tolerance pattern, not an arbitrary reduction intended only to remove a flag."
+        },
+        {
+          "p": "The repeat should retain the original treatment condition as a comparator where scientifically appropriate. If duration or activation is changed, that change answers a different question and must be identified in the resulting report."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix B — Censored viability entries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A greater-than entry means the viability IC50 was not resolved within the tested range. It is a bound, not an exact value at the highest concentration."
+        },
+        {
+          "p": "For prioritization, bounded entries may support relative tolerance but cannot support a precise fold comparison. Such comparisons should await a suitable extended concentration-response experiment, if one is scientifically justified."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix C — Micronucleus reporting note",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Relative population doubling must travel with micronucleus frequency. Separating the fields would remove the context necessary to distinguish an exposure-limited flag from a finding in a tolerated window."
+        },
+        {
+          "p": "The present package supports the project decision stated in the executive conclusion. It does not establish a chromosome-breakage or chromosome-loss mechanism, and neither mechanism should be inserted into downstream summaries."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix D — Client communication record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The interim interpretation served planning while the endpoint review was being completed. The final report now supplies the authoritative package conclusion."
+        },
+        {
+          "p": "Subsequent communications should cite the final investigation identifier and the endpoint-specific findings. A shortened narrative must retain the exposure limitation and exploratory status, even if only the chemistry decision is being discussed."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix E — Replacement-material requirements",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Replacement material requires its own receipt and preparation linkage. Similarity of naming or chemical intent does not establish equivalence to the original tested preparation."
+        },
+        {
+          "p": "A replacement assessment should state which uncertainty it addresses. A favorable viability result alone would not resolve a mammalian-cell flag unless the relevant genetic toxicology endpoint were also assessed under interpretable exposure conditions."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix F — Subseries comparison note",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "A subseries preference is a relative selection within the tested cohort. It must not be generalized to all chemistry sharing a scaffold or to material prepared later."
+        },
+        {
+          "p": "Differences in tolerance can be useful for selection while remaining unexplained mechanistically. Follow-up should retain that distinction and compare like exposure conditions before treating a change as a reproducible property of the analogue."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Appendix G — Endpoint disagreement note",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Discordance between test systems does not invalidate an otherwise accepted endpoint. Each assay retains its own control validity and scientific interpretation."
+        },
+        {
+          "p": "The next experiment should be chosen to address the unresolved concern. Repeating only the favorable endpoint would not address the mammalian-cell flag and would not change the basis of the current chemistry decision."
+        },
+        {
+          "p": "The reactive side-chain branch is discontinued on the overall concern. The available package does not demonstrate a reactive intermediate or establish a causal chemical mechanism. The branch decision should not be rewritten as proof of bacterial mutagenicity."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Data annex — HepG2 table use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Table 2 is the complete screening table. The annex confirms the reporting conventions used for its two exposure intervals. The µM values remain safety potency readouts in the HepG2 system; no systemic dose conversion has been applied."
+        },
+        {
+          "p": "The source observation sheets retain preparation and exposure details. Any later correction must be assessed for its effect on both the table and the integrated interpretation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "Data annex — bacterial outcome preservation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The bacterial outcome remains {{PRJ0123:ames.outcome}}. The complete treatment table in the results section is the source for strain-specific and activation-specific reading."
+        },
+        {
+          "p": "The chemistry decision must not replace this endpoint statement. An integrated concern and a negative bacterial result can coexist; the report preserves both."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Naomi Takamori",
+      "role": "Head of Toxicology — scientific authorization",
+      "date": "08/19/2019",
+      "signed": true
+    },
+    {
+      "name": "Lucia Moretti",
+      "role": "GLP Quality Assurance and Archive Lead — archive completeness, not GLP certification",
+      "date": "08/19/2019",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait",
+  "tracked_changes": [],
+  "comments": []
+}
