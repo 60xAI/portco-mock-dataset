@@ -1,0 +1,71 @@
+{"family": "workbook",
+ "summary": "Interim excipient compatibility matrix for the Esmervane EP-11 capsule work (DL_2026_0085). Results so far cover the vehicle screen and the first blend compatibility rows. The lactose-containing blend showed a colour change, the stress analyses are still running, and the alternative filler remains under evaluation, so the conclusions are not final.",
+ "properties": {"title": "DL_2026_0085 EP-11 compatibility matrix (interim)"},
+ "sheets": [
+  {"name": "Summary", "tab_color": "#1F4E79", "col_widths": {"A": 24, "B": 52},
+   "rows": [
+    [{"v": "Durnesswick Laboratories Inc, a Tarnovell company: interim bench sheets, EP-11 compatibility", "bold": true}],
+    [{"v": "INTERIM. Partial results only. Conclusions pending stress analyses.", "bold": true}],
+    [],
+    ["Project", "{{PRJ0113:project_id}}"],
+    ["LIMS reference", "{{PRJ0113:lims_id}}"],
+    ["Title", "Esmervane EP-11 capsule excipients: compatibility matrix"],
+    ["Client", "{{PRJ0113:client_variant}}"],
+    ["Lead", "Dr J. Carver"],
+    ["Team", "Dr M. Serrano, L. Patel"],
+    ["Quote", "07/29/2026"],
+    ["Start", "08/24/2026"],
+    ["Interim review", "09/25/2026"],
+    ["Completion", "To be confirmed"],
+    ["Work package value", "{{PRJ0113:price}}"],
+    [],
+    ["Status", "In progress"],
+    ["Current position", "A colour change appeared in the lactose-containing blend during the stress preparation. Stress samples are being analysed. The alternative filler is still under evaluation."],
+    ["Sheets", "Vehicle screen, Compatibility matrix (partly filled), Stress log (partly filled), Notes"]
+   ],
+   "merged": ["A1:B1", "A2:B2"]},
+  {"name": "Vehicle screen", "tab_color": "#1F4E79", "col_widths": {"A": 36, "B": 22, "C": 36, "D": 36},
+   "rows": [
+    [{"v": "Vehicle screen, target loading 10 mg/mL (interim)", "bold": true}],
+    ["Solubility in mg/mL at equilibrium. Vehicles beyond the first three are not yet read."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0113:form_screen", "at": "A4", "header": true}],
+   "merged": ["A1:D1"],
+   "freeze": "A5",
+   "comments": [{"cell": "B6", "text": "Solubility for the HPMC/Tween row looks high against the other two. Please re-read before we quote it.", "author": "Julia Carver"}]},
+  {"name": "Compatibility matrix", "tab_color": "#2F5597", "col_widths": {"A": 34, "B": 22, "C": 30, "D": 30, "E": 30},
+   "rows": [
+    [{"v": "Excipient compatibility matrix, drug with fill blend (interim)", "bold": true}],
+    ["Blend", "Filler", "Appearance at T0", "Appearance at 2 weeks", "Notes"],
+    ["Blend 1", "Lactose monohydrate", "White, uniform", "Yellow tint", "Colour change. Under investigation"],
+    ["Blend 2", "Lactose monohydrate with magnesium stearate", "White, uniform", "Yellow tint, lighter", "As Blend 1, lower intensity"],
+    ["Blend 3", "Microcrystalline cellulose", "White, uniform", "No change", "Reference blend"],
+    ["Blend 4", "Alternative filler (under evaluation)", "White, uniform", "", ""],
+    ["Blend 5", "Alternative filler (under evaluation)", "", "", ""],
+    ["Blend 6", "", "", "", ""],
+    [],
+    ["Stress analyses for Blends 4 to 6 pending.", "", "", "", ""]
+   ],
+   "merged": ["A1:E1"],
+   "comments": [{"cell": "C4", "text": "Blank cells are not yet run. Do not read the matrix as complete.", "author": "Lena Patel"}]},
+  {"name": "Stress log", "tab_color": "#C55A11", "col_widths": {"A": 14, "B": 30, "C": 26, "D": 36},
+   "rows": [
+    [{"v": "Stress log, interim", "bold": true}],
+    ["Date", "Sample", "Condition", "Result"],
+    ["09/08/2026", "Blend 1", "Open dish, 40 °C / 75% RH", "Colour change noted at pull 1"],
+    ["09/08/2026", "Blend 3", "Open dish, 40 °C / 75% RH", "No change"],
+    ["09/22/2026", "Blend 1", "Open dish, 40 °C / 75% RH", "Colour change, unchanged from pull 1"],
+    ["09/22/2026", "Blend 2", "Open dish, 40 °C / 75% RH", "Lighter colour change"],
+    ["", "", "", ""],
+    ["", "", "", ""],
+    ["", "", "", ""]
+   ]},
+  {"name": "Notes", "tab_color": "#7F7F7F", "col_widths": {"A": 16, "B": 92},
+   "rows": [
+    ["Date", "Development note"],
+    ["09/25/2026", "Interim review. Lactose-containing blends are on hold for the colour question. Blend 3 with microcrystalline cellulose is clean and is the reference for the rest of the matrix."],
+    ["09/25/2026", "Alternative filler is in the stress set now. No conclusions until the two-week and four-week pulls are in."],
+    ["09/25/2026", "Stress samples for Blends 4 to 6 to be prepared once the sample store confirms slots. Final matrix not issued."]
+   ]}
+ ]}
