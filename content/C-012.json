@@ -20,7 +20,10 @@
    "bullets": [
     "Microsomal and hepatocyte CLint are being reported side by side on the same test article sets, and the units do not line up",
     "Need one agreed normalisation before the exposure gate memo goes out",
-    {"text": "Current memo draft uses µL/min/mg for both assays; that is not right for the hepatocyte data", "level": 1},
+    {
+     "text": "Current memo draft uses µL/min/mg for both assays; that is not right for the hepatocyte data",
+     "level": 1
+    },
     "Species assumptions still differ between the two worksheets"
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential",
@@ -30,13 +33,37 @@
    "layout": "table",
    "title": "How each assay is normalised",
    "table": {
-    "columns": ["Parameter", "Microsomal CLint", "Hepatocyte depletion CLint"],
+    "columns": [
+     "Parameter",
+     "Microsomal CLint",
+     "Hepatocyte depletion CLint"
+    ],
     "rows": [
-     ["Matrix", "Liver microsomes, pooled", "Cryopreserved hepatocytes, single lot per species"],
-     ["Scaling basis", "Microsomal protein (mg/mL in incubation)", "Viable cells (10^6 cells/mL in incubation)"],
-     ["Reported unit", "µL/min/mg", "µL/min/10^6 cells"],
-     ["Species run", "Rat, mouse, human", "Rat and human; mouse on request"],
-     ["Interpretation", "Intrinsic clearance, enzyme-only", "Intrinsic clearance including uptake and phase II"]
+     [
+      "Matrix",
+      "Liver microsomes; preparation recorded on the assay worksheet",
+      "Hepatocytes; lot and donor information recorded on the assay worksheet"
+     ],
+     [
+      "Scaling basis",
+      "Microsomal protein (mg/mL in incubation)",
+      "Viable cells (10^6 cells/mL in incubation)"
+     ],
+     [
+      "Reported unit",
+      "µL/min/mg",
+      "µL/min/10^6 cells"
+     ],
+     [
+      "Species",
+      "As specified in the study protocol",
+      "As specified in the study protocol"
+     ],
+     [
+      "Interpretation",
+      "Parent depletion through microsomal metabolism under the stated cofactor conditions",
+      "Parent depletion in intact cells; uptake, metabolism and nonspecific loss may contribute"
+     ]
     ],
     "caption": "Table 1 Normalisation basis for the two CLint assays"
    },
@@ -48,9 +75,15 @@
    "title": "Unit conversion: the trap",
    "bullets": [
     "Protein-normalised and cell-normalised values are not interchangeable",
-    {"text": "A direct comparison needs the scaling step written out in the methods, not assumed", "level": 1},
+    {
+     "text": "A direct comparison needs the scaling step written out in the methods, not assumed",
+     "level": 1
+    },
     "Some legacy worksheets carry µM and nM labels on the same column",
-    {"text": "Check the concentration unit on each worksheet before merging", "level": 1},
+    {
+     "text": "Check the concentration unit on each worksheet before merging",
+     "level": 1
+    },
     "Clearance is reported only where the depletion curve is log-linear over the sampling window"
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential"
@@ -65,14 +98,14 @@
    "layout": "two_content",
    "title": "Species: what we have and what we assume",
    "bullets": [
-    "Rat and human microsomes run on every test article set",
-    "Mouse microsomes only for compounds going into rodent PK",
-    "Hepatocyte lots are single-donor per species, so donor variability is not averaged out"
+    "Confirm the species requested against each study protocol",
+    "Record microsomal preparation and protein concentration on the assay worksheet",
+    "Check hepatocyte donor composition and viable cell density in the source lot record"
    ],
    "bullets_right": [
-    "Assumed: rat clearance tracks human closely enough to rank compounds",
-    "Not checked: whether mouse hepatocytes behave like mouse microsomes",
-    "[TBC] human hepatocyte lot for Q2 still awaiting matrix acceptance"
+    "Do not assume rat clearance predicts human rank order",
+    "Microsomal and hepatocyte depletion can differ within the same species",
+    "[TBC] check the human hepatocyte lot record before the Q2 work is scoped"
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential",
    "notes": "Carole has the donor sheets. Ask her before we say anything about mouse."
@@ -81,10 +114,13 @@
    "layout": "title_content",
    "title": "Matrix acceptance for the two assays",
    "bullets": [
-    "Microsomal runs: matrix acceptance uses the positive control set and the no-cofactor control",
-    "Hepatocyte runs: viability is checked before dosing and again at the final time point",
-    "A run is only used if both controls fall inside their historical windows",
-    {"text": "Failed runs are repeated, not interpolated", "level": 1}
+    "Microsomal acceptance checks include reference metabolism and the appropriate cofactor controls",
+    "Hepatocyte acceptance checks include viability and reference metabolism under the study conditions",
+    "Apply the assay-specific acceptance criteria recorded in the SOP",
+    {
+     "text": "Investigate failed acceptance before reporting clearance; document any repeat",
+     "level": 1
+    }
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential",
    "notes": "Helen wants the acceptance wording copied exactly from the SOP, not paraphrased."
@@ -95,7 +131,7 @@
    "bullets": [
     "Each analyte card records the calibration range used for the depletion measurement",
     "Tandem-MS quantitation on the parent-to-product transition, internal standard on every sample",
-    "Depletion half-lives derived only from points inside the calibration range"
+    "Fit depletion only to quantifiable points in an appropriate log-linear interval; report slow depletion as a limit where a half-life cannot be estimated reliably"
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential"
   },
@@ -118,7 +154,7 @@
    "bullets": [
     "Agree one unit convention for protein and cell basis across both worksheets",
     "Confirm mouse hepatocyte value is needed for any current study",
-    "Decide whether the exposure memo quotes both CLint values or only the protein-normalised one",
+    "Decide which assay informs the exposure memo, with its own normalisation basis stated",
     "Clean up the legacy worksheet labels before archiving"
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential",
@@ -139,9 +175,9 @@
    "layout": "title_content",
    "title": "Back-up: reference compounds",
    "bullets": [
-    "Verapamil and ketoconazole used as reference compounds for both assays",
-    "Reference values checked at the start of each run against the lab's historical window",
-    "Generic reagent lots recorded on the assay worksheet"
+    "Reference compounds selected for the species and assay conditions in the study protocol",
+    "Reference performance checked against the assay-specific acceptance criteria",
+    "Reagent and cell lot references recorded on the assay worksheet"
    ],
    "footer": "Merrivoss Bioanalysis Inc | Confidential",
    "notes": "Left this in from the old version. Probably delete before v3."
