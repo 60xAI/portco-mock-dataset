@@ -114,6 +114,17 @@ def build_pack(file_id: str) -> str:
             A("Assay house names at this firm: " + "; ".join(f"{a}: {', '.join(x if isinstance(x, str) else x.get('name') for x in v)}" for a, v in hv.items()))
     A("")
 
+    if e.doc_type in ("wb_pricelist", "service_catalogue", "deck_capability"):
+        from .prices import list_prices
+        firms = [e.unit] if e.unit in w.firms else [L for L, f in w.firms.items() if f.joined_group and f.joined_group <= e.created.date()]
+        A(f"## List prices ({e.created.year})")
+        A("These are the firm's list prices for this year. Price lists and catalogues may quote them as written (they are world facts, not results); "
+          "don't invent other prices. Columns: service, unit, price, currency, volume discount.")
+        for L in firms:
+            for row in list_prices(w, L, e.created.year):
+                A(f"- {L}: {row}")
+        A("")
+
     # people
     A("## People")
     on_c, on_m = e.created.date(), e.modified.date()

@@ -21,3 +21,4 @@ One line per decision taken during the build where the spec was silent or ambigu
 - Stability tables: one t=0 analysis serves every storage condition, and in-progress stability studies are cut only by months elapsed (not by the generic interim row cut); accepted E files re-rendered.
 - cyp.most_flagged names every isoform tied for the top count (e.g. 'CYP2C19, CYP2D6 and CYP3A4'); added cyp.most_flagged_n.
 - hERG table title says manual patch clamp when the project title does (PRJ0033, 2003); interim notes count planned rows, not compounds (fixes '35 of 32').
+- List prices: src/mockgen/prices.py gives deterministic list prices per firm/service/year (2024 anchors from HO-006, +3.5%/yr, USD for US firms); packs for price lists, catalogues and capability decks show them.
