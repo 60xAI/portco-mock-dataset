@@ -142,9 +142,7 @@ assays:
     D:
     - Quenverell Virtual screening and docking
 - id: bioinf
-  name: Bioinformatics analysis (target ID
-  omics: null
-  NGS): null
+  name: Bioinformatics analysis (target ID, omics, NGS)
   service_line: compchem
   endpoint: none
   units: ''

@@ -12,7 +12,7 @@ import pickle
 from functools import lru_cache
 
 import numpy as np
-from rdkit import Chem, DataStructs
+from rdkit import Chem, DataStructs, RDLogger
 from rdkit.Chem import rdFingerprintGenerator, Descriptors, Crippen, rdMolDescriptors
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 
@@ -35,6 +35,7 @@ SETS = {
     "ppb": ("ppbr_az", "reg"),
     "logd": ("lipophilicity_astrazeneca", "reg"),
 }
+RDLogger.DisableLog("rdApp.*")
 _gen = rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=1024)
 
 

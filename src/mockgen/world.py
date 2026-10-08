@@ -419,6 +419,22 @@ def validate_world(upto: Optional[str] = None) -> tuple[list[str], list[str]]:
             for fl, vs in (a.get("variants") or {}).items():
                 if fl not in FIRM_LETTERS:
                     errors.append(f"[firms] assay {aid}: variant key {fl} is not a firm letter")
+        for aid, a in w.assays.items():
+            for fl, vs in (a.get("variants") or {}).items():
+                for v in vs:
+                    nm = v if isinstance(v, str) else v.get("name", "")
+                    f = w.firms.get(fl)
+                    if f and (nm.lower().startswith(f.short_name.lower()) or nm.strip().lower() == a["name"].strip().lower() and fl != "B"):
+                        errors.append(f"[firms] assay {aid} variant '{nm}' at {fl}: use the house name staff actually say (no firm-name prefix, not just the canonical name)")
+        exs = Counter()
+        for L, f in w.firms.items():
+            for ex in f.naming_style.filename_examples:
+                exs[re.sub(r"[A-Za-z]{1,3}[-_.]?\d{2,4}[-_./]?\d{2,4}", "ID", re.sub(r"\d{4}-\d{2}-\d{2}", "DATE", ex))] += 1
+            if len(f.naming_style.filename_examples) < 4:
+                errors.append(f"[firms] {L}: give >=4 filename_examples showing this firm's own habits")
+        for k, c in exs.items():
+            if c > 2:
+                errors.append(f"[firms] filename example pattern '{k}' repeated across {c} firms; each firm needs its own naming habits")
         herg_var = set()
         for fl, vs in (w.assays.get("herg", {}).get("variants") or {}).items():
             herg_var.update(v if isinstance(v, str) else v.get("name") for v in vs)
@@ -530,6 +546,28 @@ def validate_world(upto: Optional[str] = None) -> tuple[list[str], list[str]]:
         comp = st["completed"] / tot
         if not 0.55 <= comp <= 0.75:
             warns.append(f"[projects] completed share {comp:.0%} (target ~65%)")
+        md = Counter((p.dates.quote.month, p.dates.quote.day) for p in w.projects.values())
+        for k, c in md.items():
+            if c > 3:
+                errors.append(f"[projects] {c} projects quoted on month-day {k[0]:02d}-{k[1]:02d}; spread dates realistically across the year")
+        stems = Counter(re.sub(r"[\d#]+", "", re.sub(r"\s+[-—–]\s+.*$", "", p.title)).strip().lower() for p in w.projects.values())
+        for k, c in stems.items():
+            if c > 3:
+                errors.append(f"[projects] {c} projects share the title stem '{k}'; write specific titles")
+        if any(re.search(r"work package \d+", p.title, re.I) for p in w.projects.values()):
+            errors.append("[projects] titles must not use numbered 'work package NN' placeholders")
+        oc = Counter(p.outcome.strip() for p in w.projects.values())
+        for k, c in oc.items():
+            if c > 2:
+                errors.append(f"[projects] outcome text repeated on {c} projects: '{k[:60]}'; write a specific outcome per project")
+        seqs = Counter()
+        for p in w.projects.values():
+            m = re.findall(r"\d+", p.firm_project_id)
+            if m and int(m[-1]) <= 3:
+                seqs[p.firm] += 1
+        for fl, c in seqs.items():
+            if c > 4:
+                errors.append(f"[projects] firm {fl}: {c} project ids with sequence <= 3; sequence numbers should reflect a busy CRO (e.g. 0147), not a per-world counter")
         planted = Counter(t for p in w.projects.values() for t in p.planted)
         for t in PLANTED_PROJECT_TAGS:
             if planted.get(t, 0) != 1:
@@ -657,6 +695,19 @@ def validate_world(upto: Optional[str] = None) -> tuple[list[str], list[str]]:
         from . import chem
         for sid, s in w.series.items():
             ctx = f"[compounds] {sid}"
+            try:
+                import statistics
+                from rdkit import Chem
+                prods = chem.enumerate_series(s)
+                if prods:
+                    mw = statistics.median(p["mw"] for p in prods)
+                    rings = statistics.median(Chem.MolFromSmiles(p["smiles"]).GetRingInfo().NumRings() for p in prods)
+                    if not (300 <= mw <= 560) or rings < 3:
+                        errors.append(f"{ctx}: enumerated compounds not drug-like enough (median MW {mw:.0f}, median rings {rings}); want MW 300-560 and >=3 rings")
+            except Exception as e:
+                errors.append(f"{ctx}: enumeration failed: {e}")
+            if any(len(v) < 8 for v in s.r_groups.values()):
+                errors.append(f"{ctx}: each attachment point needs >=8 fragments")
             errs = chem.check_series(s)
             errors.extend(f"{ctx}: {e}" for e in errs)
         for pid, p in w.projects.items():

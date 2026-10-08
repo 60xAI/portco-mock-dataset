@@ -33,8 +33,8 @@ def cmd_world(a):
 def cmd_manifest(a):
     from . import manifest as Mf
     if a.action == "validate":
-        errors, warns = Mf.validate_manifest()
-        return _print_result(errors, warns, "manifest validate")
+        errors, warns = Mf.validate_manifest(a.firm)
+        return _print_result(errors, warns, "manifest validate" + (f" --firm {a.firm}" if a.firm else ""))
     if a.action == "planted":
         print(Mf.planted_for(a.firm))
         return 0
