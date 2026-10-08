@@ -1,0 +1,135 @@
+{
+  "family": "deck",
+  "summary": "Final chemistry readout for Drelvessa Therapeutics SAS on the convergent aminopyridine campaign. It compares late and earlier side-chain installation, documents the delivered analogue set and establishes the route basis for follow-on preparation.",
+  "properties": {
+    "title": "DT06: convergent aminopyridine routes",
+    "subject": "PRJ0017 | Route scout and delivery",
+    "keywords": "medicinal chemistry; route gate; isolated material"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "DT06: convergent aminopyridine routes",
+      "subtitle": "Drelvessa Therapeutics SAS | VD-98-076 | 13 Apr 1999\nDr H. Darwish | Revision C",
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Route gate: delivery complete",
+      "bullets": [
+        "{{PRJ0017:n_compounds}} isolated analogues delivered for matched-pair biology.",
+        "Earlier side-chain installation improved recovery and is the preferred sequence for the next analogue set.",
+        "Material delivery establishes access to the structures; activity against the stress-response kinase remains for Drelvessa to determine."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Programme and delivery basis",
+      "table": {
+        "table_ref": "PRJ0017:benchmark"
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Route comparison: where to carry the side chain",
+      "bullets": [
+        "Late installation retains a common aminopyridine intermediate until diversification.",
+        "It offers a simple branching scheme on the route scout.",
+        "Late branch-point recovery was the practical weakness."
+      ],
+      "bullets_right": [
+        "Earlier installation introduces the side chain before convergence.",
+        "The substituted intermediate travels through the remaining sequence.",
+        "Recovered material favoured this sequence for follow-on work."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Convergence: preserve the useful common intermediate",
+      "bullets": [
+        "Keep core preparation separate from side-chain variation where substitution permits.",
+        "Treat a new side chain as a route risk until its substituted intermediate is isolated.",
+        "Record the isolated intermediate on the compound card before advancing the branch.",
+        "Do not equate a proposed structure with material in the delivery lot."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Isolated material: delivery register",
+      "table": {
+        "table_ref": "PRJ0017:synthesis",
+        "max_rows": 12,
+        "columns": [
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Recovery across the delivered analogue set",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0017:synthesis",
+        "column": 3,
+        "title": "Isolated yield (%)"
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Representative isolated structures",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0017",
+        "n": 6
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Material available for matched-pair biology",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0017:synthesis",
+        "column": 5,
+        "title": "Delivered amount (mg)"
+      },
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Release context and handover",
+      "bullets": [
+        "Hassan Darwish: route sequence and compound cards.",
+        "Clara Fenwick: analytical release and delivery register.",
+        "Ruth Calderwood: follow-on route gate."
+      ],
+      "bullets_right": [
+        "Purity is UV area percent at 254 nm, not weight percent.",
+        "Use compound-specific amounts to plan the matched pairs.",
+        "The delivery register is not a paired route-comparison experiment."
+      ],
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision: use earlier installation for the next analogue",
+      "bullets": [
+        "Close VD-98-076 with the delivered set.",
+        "Start follow-on route scouts from the earlier side-chain sequence.",
+        "Drelvessa Therapeutics SAS to return matched-pair priorities.",
+        "Confirm material requirements and route compatibility before committing the next analogue."
+      ],
+      "notes": "The route conclusion concerns isolation and recovery. No biological rank order is implied.",
+      "footer": "Vellacombe Discovery Ltd | Confidential"
+    }
+  ]
+}
