@@ -1,5 +1,5 @@
 {"family": "workbook",
- "summary": "Draft local price list for the 2026 screening services: hERG channel screen, 5-isoform CYP panel and Selectivity sweep, with GBP volume bands. Prices are still [TBC] pending finance sign-off, and the repeat-charge cells are open. Not for issue.",
+ "summary": "Draft local price list for the 2026 screening services: hERG channel screen, 5-isoform CYP panel and Selectivity sweep, with GBP volume bands. Prices follow the 2026 list, finance sign-off is still open, and the repeat-charge cells are open. Not for issue.",
  "properties": {"title": "Screening prices 2026 (local draft v3)"},
  "sheets": [
   {"name": "Price list",
@@ -8,9 +8,9 @@
     ["DRAFT: not for issue. Prices pending finance sign-off."],
     [],
     ["Service", "Assay (house name)", "Unit", "List price (GBP)", "Notes"],
-    ["In vitro screen", "hERG channel screen", "per compound", "[TBC]", "hERG automated patch clamp, E-4031 control on each run"],
-    ["In vitro screen", "5-isoform CYP panel", "per compound", "[TBC]", "% inhibition at 10 µM, five isoforms"],
-    ["In vitro screen", "Selectivity sweep", "per compound", "[TBC]", "Off-target kinase panel at 1 µM"],
+    ["In vitro screen", "hERG channel screen", "per compound", 200, "hERG automated patch clamp, E-4031 control on each run"],
+    ["In vitro screen", "5-isoform CYP panel", "per compound", 120, "% inhibition at 10 µM, five isoforms"],
+    ["In vitro screen", "Selectivity sweep", "per compound (panel)", 1550, "Off-target kinase panel at 1 µM"],
     ["", "", "", "", ""],
     ["", "", "", "", ""]
    ],
@@ -21,9 +21,9 @@
    "rows": [
     [{"v": "Volume bands", "bold": true}],
     ["Band", "Compounds per order", "Discount", "Notes"],
-    ["Standard", "1 to 10", "[TBC]", ""],
-    ["Series", "11 to 30", "[TBC]", "Repeat charge applies"],
-    ["Programme", "31 and above", "", ""],
+    ["Standard", "1 to 10", "none", ""],
+    ["Series", "11 to 30", "none", "Repeat charge applies"],
+    ["Programme", "31 and above", "5% >30 cpds; 10% >80 cpds", ""],
     [],
     ["Repeat charge not yet agreed. See Open questions."]
    ],
