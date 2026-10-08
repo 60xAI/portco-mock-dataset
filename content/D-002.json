@@ -1,0 +1,170 @@
+{
+  "family": "deck",
+  "summary": "Final DT-6 Virtual library triage readout for Drelvessa Therapeutics SAS. Protonation-state review changed the hit ranking, and the client ordered the consensus-ranked compounds; preparation provenance and interpretation limits accompany the procurement decision.",
+  "properties": {
+    "title": "QV.13.055 DT-6 docking hitlist v3",
+    "subject": "Virtual library triage and procurement decision",
+    "keywords": "DT-6; protonation; docking; consensus"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "DT-6 virtual library: docking and hit clustering",
+      "subtitle": "{{PRJ0075:project_id}} | Drelvessa Therapeutics SAS | 06 Nov 2013\nDr E. Ostlund | Quenverell Computational Ltd",
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Procurement decision",
+      "bullets": [
+        "Which candidates retain a credible rank when protonation assumptions change?",
+        "The protonation-state review changed the hit ranking.",
+        "Drelvessa Therapeutics SAS ordered the consensus-ranked compounds.",
+        "Docking prioritises experiments; it does not demonstrate activity."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Data provenance",
+      "bullets": [
+        "DT-6 virtual-library inputs are retained under {{PRJ0075:lims_id}}.",
+        "Engagement started 30 Sep 2013; interim readout 18 Oct 2013.",
+        "The final interpretation includes the protonation-state review completed for 06 Nov 2013."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Virtual library triage",
+      "bullets": [
+        "Reconcile parent identifiers before generating conformers.",
+        "Keep parent identity distinct from protonation and conformer variants.",
+        "Retain excluded entries and their disposition in the analysis notebook."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Data acceptance",
+      "bullets": [
+        "Check connectivity, stereochemical specification and duplicate parent entries.",
+        "Flag ambiguous ionisation assignments for explicit review.",
+        "Do not treat an unprepared entry as a poor docking result."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Conformer preparation",
+      "bullets": [
+        "Enumerate plausible conformers consistently across the candidate set.",
+        "Retain the preparation settings alongside the resulting variants.",
+        "Prevent a parent with many variants from gaining rank solely through more scoring opportunities."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Initial docking interpretation",
+      "bullets": [
+        "Compare candidates under a common preparation and scoring route.",
+        "Inspect poses as well as ordering.",
+        "Keep docking scores in kcal/mol; do not convert scores into predicted potency."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Why protonation was revisited",
+      "bullets": [
+        "Alternative protonation states change electrostatic interactions and pose plausibility.",
+        "A favourable score from a fragile assignment can mislead procurement.",
+        "The interim ordering therefore required a state-sensitivity review."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "State-sensitivity comparison",
+      "bullets": [
+        "Associate each state-specific result with its parent identifier.",
+        "Compare relative ordering across plausible assignments.",
+        "Separate a stable candidate from a candidate favoured only by a particular assumption."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Outcome of state review",
+      "bullets": [
+        "The protonation-state review changed the hit ranking.",
+        "Use the reviewed ordering for procurement.",
+        "Retain the earlier ordering with its preparation assumptions so the change is traceable."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Consensus ranking",
+      "bullets": [
+        "Use agreement across plausible preparation choices as a robustness check.",
+        "Assess pose plausibility alongside score order.",
+        "Consensus is a selection aid, not a probability of binding."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Hit clustering",
+      "bullets": [
+        "Group related candidates to expose redundant procurement choices.",
+        "Keep chemical similarity separate from evidence of common activity.",
+        "Record the reasoning when a cluster representative is preferred."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Procurement shortlist",
+      "bullets": [
+        "The shortlist follows the consensus-ranked interpretation.",
+        "Drelvessa Therapeutics SAS ordered those compounds.",
+        "No individual structures, compound identifiers or numerical docking table are supplied in this readout pack."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Model uncertainty",
+      "bullets": [
+        "The scoring route approximates molecular interactions.",
+        "Alternative protonation assignments remain relevant at experimental conditions.",
+        "Procurement availability and sample identity require confirmation outside the docking model."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reproducibility handover",
+      "bullets": [
+        "Dr E. Ostlund: preparation and docking interpretation.",
+        "Nadia Rahmani: parent-to-variant mapping and reproducibility records.",
+        "Dr T. Zawiernicki: engagement model gate.",
+        "Archive settings, ranking versions and procurement disposition under {{PRJ0075:lims_id}}."
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Next model gate",
+      "bullets": [
+        "Test the procured candidates experimentally before claiming activity.",
+        "Return ambiguous or discordant observations to the preparation review.",
+        "Retain the consensus ranking as the rationale for selection.",
+        "Final readout | 06 Nov 2013 | Dr E. Ostlund"
+      ],
+      "footer": "Quenverell Computational Ltd | Confidential"
+    }
+  ]
+}
