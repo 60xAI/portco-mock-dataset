@@ -701,7 +701,7 @@ def validate_world(upto: Optional[str] = None) -> tuple[list[str], list[str]]:
                 prods = chem.enumerate_series(s)
                 if prods:
                     mw = statistics.median(p["mw"] for p in prods)
-                    rings = statistics.median(Chem.MolFromSmiles(p["smiles"]).GetRingInfo().NumRings() for p in prods)
+                    from rdkit.Chem import rdMolDescriptors as _rd; rings = statistics.median(_rd.CalcNumRings(Chem.MolFromSmiles(p["smiles"])) for p in prods)
                     if not (300 <= mw <= 560) or rings < 3:
                         errors.append(f"{ctx}: enumerated compounds not drug-like enough (median MW {mw:.0f}, median rings {rings}); want MW 300-560 and >=3 rings")
             except Exception as e:
