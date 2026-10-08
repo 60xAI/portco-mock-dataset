@@ -15,7 +15,7 @@ from .names import Blocklist
 from .paths import CONTENT, TODAY
 from .render import PH, numbers, out_path, render_entry, resolve_text, get_table
 from .schemas import FAMILY_MODELS
-from .textscan import COMMON, COMPANY_RE, DR_RE, FULLNAME_RE, all_text, faker_first_names, find_dates, norm, strings
+from .textscan import ALLOW_NAMES, COMMON, COMPANY_RE, DR_RE, FULLNAME_RE, all_text, faker_first_names, find_dates, norm, strings
 from .world import load_world
 
 
@@ -194,6 +194,8 @@ def content_checks(entry, fam, raw, w) -> list[str]:
     fn = faker_first_names() | firsts
     for m in FULLNAME_RE.finditer(txt):
         first, last = m.group(1), m.group(2)
+        if f"{first} {last}".lower() in ALLOW_NAMES:
+            continue
         if first in fn and last.lower() not in COMMON and f"{first} {last}".lower() not in fulls and last.lower() not in org_tokens:
             if last.lower() not in surnames or not any(f.lower() == f"{first} {last}".lower() for f in fulls):
                 bad_people.add(f"{first} {last}")

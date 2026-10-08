@@ -6,7 +6,6 @@
   "subject": "AP02 clearance and free-fraction assessment, recovery-controlled dialysis"
  },
  "header": "MV-2018-052 | Proposal",
- "footer": null,
  "title_block": {
   "title": "Proposal and Quotation",
   "subtitle": "AP02 clearance and free-fraction assessment, recovery-controlled dialysis",
@@ -21,7 +20,7 @@
    "heading": "1 Introduction",
    "blocks": [
     {
-     "p": "Merrivoss Bioanalysis is pleased to provide this proposal. Matrix, species and analytical limits are stated for each assay before any interpretation. This document responds to the request from Avernelwick Pharma for work on 40 compounds from the Avernelwick aminopyrimidine regioisomer test article set."
+     "p": "Merrivoss Bioanalysis is pleased to provide this proposal for the work described below. Matrix, species and analytical limits for each assay are given in Section 3. This proposal responds to the request from Avernelwick Pharma for work on 40 compounds from the Avernelwick aminopyrimidine regioisomer test article set."
     },
     {
      "p": "Reference: MV-2018-052. Prepared by Dr M. Larkin, DMPK Study Director."
@@ -32,7 +31,7 @@
    "heading": "2 Scope of work",
    "blocks": [
     {
-     "p": "40 compounds, supplied by Avernelwick Pharma as 10 mM DMSO solutions (minimum 40 µL each) in a single accession lot."
+     "p": "40 compounds, to be supplied by Avernelwick Pharma as 10 mM DMSO solutions (minimum 40 µL each) in a single accession lot."
     },
     {
      "list": [
@@ -46,7 +45,7 @@
    "heading": "3 Study design",
    "blocks": [
     {
-     "p": "Methods follow our standard procedures, summarised below. Any deviation is agreed with the client before testing."
+     "p": "The work will follow our standard procedures, summarized below. Any deviation will be agreed with the client before testing."
     }
    ]
   },
@@ -55,10 +54,10 @@
    "level": 2,
    "blocks": [
     {
-     "p": "Test articles (1 µM) were incubated with pooled human and rat liver microsomes (0.5 mg/mL protein) and NADPH at 37 °C. Samples at 0, 5, 15, 30 and 45 minutes were quenched in acetonitrile with internal standard and analysed by LC-MS/MS. Intrinsic clearance was calculated from the first-order depletion rate; half-lives above 60 minutes are reported as >60."
+     "p": "Test articles (1 µM) will be incubated with pooled human and rat liver microsomes (0.5 mg/mL protein) at 37 °C with NADPH (1 mM); a no-NADPH control at 45 minutes checks for non-metabolic loss. Samples at 0, 5, 15, 30 and 45 minutes are quenched in acetonitrile with internal standard and analyzed by LC-MS/MS. CLint is calculated from the first-order depletion slope. When depletion over 45 minutes is below the quantifiable limit, CLint is reported as an upper bound (<3 µL/min/mg) and half-life as a lower bound (>60 min)."
     },
     {
-     "p": "Matrix acceptance: verapamil (high clearance) and diltiazem (moderate clearance) within historical range in each run.",
+     "p": "Matrix acceptance: verapamil (high clearance) and diltiazem (moderate clearance) within 0.5-2 times their historical CLint in each run; no-NADPH loss below 15%.",
      "style": "note"
     }
    ]
@@ -68,10 +67,10 @@
    "level": 2,
    "blocks": [
     {
-     "p": "Binding to human plasma was measured by rapid equilibrium dialysis (5 µM test article, 4 h at 37 °C, PBS pH 7.4). Plasma and buffer compartments were matrix-matched before LC-MS/MS. Fraction unbound (fu) is reported with mass-balance recovery; recoveries below 70% are footnoted."
+     "p": "Binding to human plasma will be measured by rapid equilibrium dialysis (5 µM test article, 4 h at 37 °C, PBS pH 7.4). Plasma and buffer compartments are matrix-matched before LC-MS/MS. Results are reported as percent bound and percent unbound with mass-balance recovery; recoveries below 70% are footnoted."
     },
     {
-     "p": "Warfarin was included as the binding control in every plate.",
+     "p": "Warfarin is included as the binding control in every plate (acceptance: 97-99.5% bound).",
      "style": "note"
     }
    ]
@@ -81,7 +80,7 @@
    "blocks": [
     {
      "list": [
-      "Results workbook (assay worksheets with compound-level data and a study summary sheet)",
+      "Results workbook (assay worksheets with compound-level data, control results and a study summary sheet)",
       "Final report (PDF) with methods, control results and interpretation",
       "Raw traces and instrument files on request"
      ]

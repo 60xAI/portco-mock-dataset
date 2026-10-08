@@ -1,0 +1,832 @@
+{
+  "dataset": "portco-mock-dataset",
+  "generated_by": "mockgen golden",
+  "page_numbering": "unstructured page_number (pptx: slide index; pdf: page; xlsx: sheet index; sheet name in `sheet`)",
+  "queries": [
+    {
+      "id": 1,
+      "query": "I need a slide explaining bioinformatics for drug discovery for a pitch tomorrow.",
+      "depends_on_firm_G": false,
+      "expected": [
+        {
+          "file_id": "P01",
+          "path": "archive/QuenverellData/marketing/capabilities/2025/quenverell-capabilities-bioinformatics-2025.pptx",
+          "format": "pptx",
+          "fact": "Quenverell capability deck (2025, group template). Slide 3 'Bioinformatics for drug discovery' is the canonical one-slide explanation used in pitches.",
+          "depends_on_firm_G": false,
+          "slide": 3,
+          "unstructured_page_number": [
+            3
+          ],
+          "rank_hint": 1
+        },
+        {
+          "file_id": "P02",
+          "path": "archive/QuenverellData/marketing/capabilities/2025/quenverell-capabilities-bioinformatics-2025.pdf",
+          "format": "pdf",
+          "fact": "PDF export of the 2025 capability deck, sent to clients.",
+          "depends_on_firm_G": false,
+          "page": 3,
+          "unstructured_page_number": [
+            3
+          ],
+          "rank_hint": 1
+        },
+        {
+          "file_id": "P03",
+          "path": "archive/QuenverellData/marketing/capabilities/2018/quenverell-bioinformatics-capabilities-v3-2018.pptx",
+          "format": "pptx",
+          "fact": "Quenverell capability deck from 2018 in the legacy template, with a 'Bioinformatics in drug discovery' slide.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            4
+          ],
+          "rank_hint": 2
+        },
+        {
+          "file_id": "P04",
+          "path": "archive/Tarnovell_Group/Commercial/Cross_Sell/2026/One_Tarnovell_Services_Cross_Sell_2026-06.pptx",
+          "format": "pptx",
+          "fact": "Group cross-sell deck: reuses the D bioinformatics slide and uses Corvenlea Pharma (A/C/E history under three names; never bought D or F) as the worked example.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            4,
+            7
+          ],
+          "rank_hint": 3
+        }
+      ],
+      "distractors": [
+        {
+          "file_id": "P05",
+          "path": "archive/QuenverellData/marketing/capabilities/2012/quenverell-bioinformatics-2012.ppt",
+          "format": "ppt",
+          "fact": "2012 capability deck in the original legacy template; its bioinformatics slide predates current methods (microarrays, homology models).",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            3
+          ],
+          "why": "outdated version"
+        },
+        {
+          "file_id": "P06",
+          "path": "archive/QuenverellData/marketing/capabilities/2025/Copy of quenverell-capabilities-bioinformatics-2025.pptx",
+          "format": "pptx",
+          "fact": "Copy of the 2025 capability deck saved by a colleague; slide 3 title has a typo ('Bioinfromatics') and an edited bullet.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            3
+          ],
+          "why": "near-duplicate with typo"
+        },
+        {
+          "file_id": "P07",
+          "path": "archive/VellacombeData/Marketing/Pitches/2023/VD_integrated-discovery_pitch_03Oct23.pptx",
+          "format": "pptx",
+          "fact": "Medicinal chemistry pitch with one generic 'integrated discovery' slide that mentions bioinformatics in passing.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            7
+          ],
+          "why": "generic mention in unrelated deck"
+        },
+        {
+          "file_id": "P08",
+          "path": "archive/QuenverellData/marketing/capabilities/2025/quenverell-capabilities-bioinformatics-2025_v2_DRAFT.pptx",
+          "format": "pptx",
+          "fact": "Earlier v2 draft of the 2025 capability deck with reviewer notes and an unfinished bioinformatics slide.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            3
+          ],
+          "why": "older draft version"
+        },
+        {
+          "file_id": "P09",
+          "path": "archive/QuenverellData/training/bioinformatics/2021/bioinformatics-for-chemists-training-v1.pptx",
+          "format": "pptx",
+          "fact": "Internal training deck introducing bioinformatics tools to chemists; not a client-facing slide.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "why": "internal training material"
+        }
+      ],
+      "supporting": [],
+      "closest_related": []
+    },
+    {
+      "id": 2,
+      "query": "hERG and CYP inhibition screening on ~40 compounds from a kinase series, turnaround under 3 weeks.",
+      "depends_on_firm_G": false,
+      "expected": [
+        {
+          "file_id": "P10",
+          "path": "archive/BrindlewytheData/Studies/2011/BW11_0275/Proposal/BW11_0275_Quote_revA.doc",
+          "format": "doc",
+          "fact": "Proposal BW11_0275 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0001",
+            "firm_id": "BW11_0275",
+            "lims_id": "B-ACC-2011-04692",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Anika Veldershain",
+            "lead_left": "2018-12-31",
+            "n_compounds": 40,
+            "turnaround_days": 15,
+            "price": "GBP 11,800",
+            "year": 2011
+          }
+        },
+        {
+          "file_id": "P11",
+          "path": "archive/BrindlewytheData/Studies/2011/BW11_0275/Results/BW11_0275_hERG-CYP_RUN04.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook for BW11_0275: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3
+          ],
+          "sheet": [
+            "CYP panel",
+            "Summary",
+            "hERG run sheet"
+          ],
+          "project": {
+            "id": "PRJ0001",
+            "firm_id": "BW11_0275",
+            "lims_id": "B-ACC-2011-04692",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Anika Veldershain",
+            "lead_left": "2018-12-31",
+            "n_compounds": 40,
+            "turnaround_days": 15,
+            "price": "GBP 11,800",
+            "year": 2011
+          }
+        },
+        {
+          "file_id": "P12",
+          "path": "archive/BrindlewytheData/Studies/2011/BW11_0275/Reports/BW11_0275_Rpt_revB.pdf",
+          "format": "pdf",
+          "fact": "Final report BW11_0275: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "project": {
+            "id": "PRJ0001",
+            "firm_id": "BW11_0275",
+            "lims_id": "B-ACC-2011-04692",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Anika Veldershain",
+            "lead_left": "2018-12-31",
+            "n_compounds": 40,
+            "turnaround_days": 15,
+            "price": "GBP 11,800",
+            "year": 2011
+          }
+        },
+        {
+          "file_id": "P13",
+          "path": "archive/BrindlewytheData/Studies/2021/BW21_0453/Proposal/BW21_0453_Quote_revA.docx",
+          "format": "docx",
+          "fact": "Proposal BW21_0453 to Avernelwick Pharmaceuticals Ltd: hERG + CYP panel on 42 kinase-series compounds; price and turnaround stated.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0002",
+            "firm_id": "BW21_0453",
+            "lims_id": "B-ACC-2021-07710",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Leila Benmezroun",
+            "lead_left": "",
+            "n_compounds": 42,
+            "turnaround_days": 17,
+            "price": "GBP 15,900",
+            "year": 2021
+          }
+        },
+        {
+          "file_id": "P14",
+          "path": "archive/BrindlewytheData/Studies/2021/BW21_0453/Results/BW21_0453_hERG-CYP_RUN04.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook for BW21_0453: hERG IC50 and 5-isoform CYP inhibition for 42 compounds, with a benchmark summary sheet.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "sheet": [
+            "3A4 conc response",
+            "CYP panel",
+            "Summary",
+            "hERG run sheet"
+          ],
+          "project": {
+            "id": "PRJ0002",
+            "firm_id": "BW21_0453",
+            "lims_id": "B-ACC-2021-07710",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Leila Benmezroun",
+            "lead_left": "",
+            "n_compounds": 42,
+            "turnaround_days": 17,
+            "price": "GBP 15,900",
+            "year": 2021
+          }
+        },
+        {
+          "file_id": "P15",
+          "path": "archive/BrindlewytheData/Studies/2021/BW21_0453/Reports/BW21_0453_Rpt_revB.pdf",
+          "format": "pdf",
+          "fact": "Final report BW21_0453: hERG and CYP results for 42 kinase-series compounds, with the benchmark summary table on an early page.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "project": {
+            "id": "PRJ0002",
+            "firm_id": "BW21_0453",
+            "lims_id": "B-ACC-2021-07710",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Leila Benmezroun",
+            "lead_left": "",
+            "n_compounds": 42,
+            "turnaround_days": 17,
+            "price": "GBP 15,900",
+            "year": 2021
+          }
+        },
+        {
+          "file_id": "P16",
+          "path": "archive/MerrivossData/Client_Work/ST03/MV-2015-266/MV-2015-266_Quote_110515_R1.docx",
+          "format": "docx",
+          "fact": "Proposal MV-2015-266 to Selverant: hERG + CYP panel on 38 kinase-series compounds; price and turnaround stated.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0003",
+            "firm_id": "MV-2015-266",
+            "lims_id": "M15/BIO/06146",
+            "client_name_used": "Selverant",
+            "lead": "Matteo Rinalvesi",
+            "lead_left": "2019-06-28",
+            "n_compounds": 38,
+            "turnaround_days": 20,
+            "price": "USD 18,700",
+            "year": 2015
+          }
+        },
+        {
+          "file_id": "P17",
+          "path": "archive/MerrivossData/Client_Work/ST03/MV-2015-266/MV-2015-266_AssayWorksheet_120815_R1.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook for MV-2015-266: hERG IC50 and 5-isoform CYP inhibition for 38 compounds, with a benchmark summary sheet.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2
+          ],
+          "sheet": [
+            "IKr",
+            "Summary"
+          ],
+          "project": {
+            "id": "PRJ0003",
+            "firm_id": "MV-2015-266",
+            "lims_id": "M15/BIO/06146",
+            "client_name_used": "Selverant",
+            "lead": "Matteo Rinalvesi",
+            "lead_left": "2019-06-28",
+            "n_compounds": 38,
+            "turnaround_days": 20,
+            "price": "USD 18,700",
+            "year": 2015
+          }
+        },
+        {
+          "file_id": "P18",
+          "path": "archive/MerrivossData/Client_Work/ST03/MV-2015-266/MV-2015-266_Report_122815_R1.pdf",
+          "format": "pdf",
+          "fact": "Final report MV-2015-266: hERG and CYP results for 38 kinase-series compounds, with the benchmark summary table on an early page.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "project": {
+            "id": "PRJ0003",
+            "firm_id": "MV-2015-266",
+            "lims_id": "M15/BIO/06146",
+            "client_name_used": "Selverant",
+            "lead": "Matteo Rinalvesi",
+            "lead_left": "2019-06-28",
+            "n_compounds": 38,
+            "turnaround_days": 20,
+            "price": "USD 18,700",
+            "year": 2015
+          }
+        },
+        {
+          "file_id": "P19",
+          "path": "archive/MerrivossData/Client_Work/TP04/MV-2024-358/MV-2024-358_Quote_111124_R1.docx",
+          "format": "docx",
+          "fact": "Proposal MV-2024-358 to Tervemere Pharma AG: hERG + CYP panel on 40 kinase-series compounds; price and turnaround stated.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0004",
+            "firm_id": "MV-2024-358",
+            "lims_id": "M24/BIO/08257",
+            "client_name_used": "Tervemere Pharma AG",
+            "lead": "Priya Nandekuri",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 14,
+            "price": "USD 24,700",
+            "year": 2024
+          }
+        },
+        {
+          "file_id": "P20",
+          "path": "archive/MerrivossData/Client_Work/TP04/MV-2024-358/MV-2024-358_AssayWorksheet_120524_R1.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook for MV-2024-358: hERG IC50 and 5-isoform CYP inhibition for 40 compounds, with a benchmark summary sheet.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3
+          ],
+          "sheet": [
+            "DDI screen",
+            "IKr",
+            "Summary"
+          ],
+          "project": {
+            "id": "PRJ0004",
+            "firm_id": "MV-2024-358",
+            "lims_id": "M24/BIO/08257",
+            "client_name_used": "Tervemere Pharma AG",
+            "lead": "Priya Nandekuri",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 14,
+            "price": "USD 24,700",
+            "year": 2024
+          }
+        },
+        {
+          "file_id": "P21",
+          "path": "archive/MerrivossData/Client_Work/TP04/MV-2024-358/MV-2024-358_Report_121724_R1.pdf",
+          "format": "pdf",
+          "fact": "Final report MV-2024-358: hERG and CYP results for 40 kinase-series compounds, with the benchmark summary table on an early page.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "project": {
+            "id": "PRJ0004",
+            "firm_id": "MV-2024-358",
+            "lims_id": "M24/BIO/08257",
+            "client_name_used": "Tervemere Pharma AG",
+            "lead": "Priya Nandekuri",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 14,
+            "price": "USD 24,700",
+            "year": 2024
+          }
+        }
+      ],
+      "distractors": [
+        {
+          "file_id": "P22",
+          "path": "archive/BrindlewytheData/Studies/2017/BW17_0167/Results/BW17_0167_hERG_RUN03.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "why": "q2_distractor_herg_only"
+        },
+        {
+          "file_id": "P23",
+          "path": "archive/BrindlewytheData/Studies/2017/BW17_0167/Reports/BW17_0167_Rpt_revB.pdf",
+          "format": "pdf",
+          "fact": "Report BW17_0167: ST03 ion-channel counterscreen, third chemistry shipment.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1
+          ],
+          "why": "q2_distractor_herg_only"
+        },
+        {
+          "file_id": "P24",
+          "path": "archive/MerrivossData/Client_Work/OB11/MV-2022-176/MV-2022-176_AssayWorksheet_072522_R1.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "why": "q2_distractor_cyp_other_chemotype"
+        },
+        {
+          "file_id": "P25",
+          "path": "archive/MerrivossData/Client_Work/OB11/MV-2022-176/MV-2022-176_Report_080822_R1.pdf",
+          "format": "pdf",
+          "fact": "Report MV-2022-176: OB11 GPCR antagonists: five-isoform CYP inhibition at screening concentration.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1
+          ],
+          "why": "q2_distractor_cyp_other_chemotype"
+        },
+        {
+          "file_id": "P26",
+          "path": "archive/MerrivossData/Client_Work/AP02/MV-2018-052/MV-2018-052_Quote_022018_R1.docx",
+          "format": "docx",
+          "fact": "Proposal MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "why": "q2_distractor_right_client_wrong_assay"
+        },
+        {
+          "file_id": "P27",
+          "path": "archive/MerrivossData/Client_Work/AP02/MV-2018-052/MV-2018-052_Report_041618_R1.pdf",
+          "format": "pdf",
+          "fact": "Report MV-2018-052: AP02 clearance and free-fraction assessment, recovery-controlled dialysis.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1
+          ],
+          "why": "q2_distractor_right_client_wrong_assay"
+        }
+      ],
+      "supporting": [
+        {
+          "file_id": "P28",
+          "path": "archive/Tarnovell_Group/People/Directory/2026/Staff_Directory_Export_2026-09.csv",
+          "format": "csv",
+          "fact": "Group staff directory export (A-F + head office) with start and leave dates.",
+          "depends_on_firm_G": false
+        },
+        {
+          "file_id": "P29",
+          "path": "archive/Tarnovell_Group/Integration/LIMS/Exports/2026/Group_LIMS_Export_2026-08-20.csv",
+          "format": "csv",
+          "fact": "Consolidated LIMS export (A-F) with LIMS IDs, legacy refs, clients as recorded, assays, dates and status.",
+          "depends_on_firm_G": false
+        }
+      ],
+      "closest_related": []
+    },
+    {
+      "id": 3,
+      "query": "Show Corvenlea Pharma's full history across all the legacy companies and the service lines it has never bought.",
+      "depends_on_firm_G": false,
+      "expected": [
+        {
+          "file_id": "P31",
+          "path": "archive/VellacombeData/Clients/CVL/VD-05-064/Delivery/CVL1105_revA.doc",
+          "format": "doc",
+          "fact": "report client for Corvenlea Pharma (VD-05-064): CVL azaheterocycle route scout and first analogue delivery.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0008",
+            "firm_id": "VD-05-064",
+            "lims_id": "VA20050581",
+            "client_name_used": "Corvenlea Pharma",
+            "lead": "Ruth Calderwood",
+            "lead_left": "",
+            "n_compounds": 32,
+            "turnaround_days": 108,
+            "price": "GBP 27,000",
+            "year": 2005
+          }
+        },
+        {
+          "file_id": "P32",
+          "path": "archive/MerrivossData/Client_Work/CVL/MV-2016-053/MV-2016-053_Report_050916_R1.pdf",
+          "format": "pdf",
+          "fact": "report study for Corvenlea Ltd (MV-2016-053): CVL oral discovery package: microsomes, hepatocytes and plasma binding.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "project": {
+            "id": "PRJ0009",
+            "firm_id": "MV-2016-053",
+            "lims_id": "M16/BIO/01247",
+            "client_name_used": "Corvenlea Ltd",
+            "lead": "Megan Larkin",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 25,
+            "price": "USD 23,500",
+            "year": 2016
+          }
+        },
+        {
+          "file_id": "P33",
+          "path": "archive/WestravelleData/Proposals/2020/CVL/WA-2020-313/WA-2020-313_CVL_L03_STABILITY_QUOTE_APPROVED.docx",
+          "format": "docx",
+          "fact": "word proposal for Corvenlea Pharmaceuticals plc (WA/2020/313): CVL tablet lot 3: twelve-month ICH stability with assay validation. Names the client as 'Corvenlea Pharmaceuticals plc (formerly Corvenlea Ltd)'.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0010",
+            "firm_id": "WA/2020/313",
+            "lims_id": "WST-20-009708",
+            "client_name_used": "Corvenlea Pharmaceuticals plc",
+            "lead": "Alice Penrose",
+            "lead_left": "",
+            "n_compounds": 1,
+            "turnaround_days": 365,
+            "price": "GBP 53,000",
+            "year": 2020
+          }
+        },
+        {
+          "file_id": "P34",
+          "path": "archive/Tarnovell_Group/Integration/Client_Identity/2026/Client_Identity_Bridge_v3_2026-08.xlsx",
+          "format": "xlsx",
+          "fact": "Integration workbook mapping legacy client names to group accounts; links Corvenlea Pharma's A/C/E names, flags Corvenlith Therapeutics as a different company.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2
+          ],
+          "sheet": [
+            "Bridge",
+            "Lookalikes"
+          ]
+        },
+        {
+          "file_id": "P35",
+          "path": "archive/Tarnovell_Group/Commercial/Cross_Sell/2026/Cross_Sell_White_Space_Matrix_DRAFT_v2.xlsx",
+          "format": "xlsx",
+          "fact": "Client x service-line matrix for top accounts showing which legacy firms each client has bought from; half-finished.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1
+          ],
+          "sheet": [
+            "Matrix"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "file_id": "P36",
+          "path": "archive/QuenverellData/proposals/2023/corvenlith/corvenlith-qv.23.100-omics-proposal-v1.docx",
+          "format": "docx",
+          "fact": "Proposal to Corvenlith Therapeutics (QV.23.100), a different company from Corvenlea Pharma.",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [],
+          "why": "similar client name"
+        }
+      ],
+      "supporting": [
+        {
+          "file_id": "P30",
+          "path": "archive/Tarnovell_Group/Commercial/CRM/Exports/2026/Legacy_CRM_Accounts_Export_2026-07-07.csv",
+          "format": "csv",
+          "fact": "CRM account export from all legacy systems; variant names appear as separate accounts.",
+          "depends_on_firm_G": false
+        }
+      ],
+      "closest_related": [],
+      "bought_from": [
+        "A",
+        "C",
+        "E"
+      ],
+      "white_space": [
+        "B Brindlewythe Biosciences Ltd (In vitro biology and screening)",
+        "D Quenverell Computational Ltd (Bioinformatics and computational chemistry)",
+        "F Durnesswick Laboratories Inc (Formulation and early CMC)"
+      ],
+      "client_names": [
+        "Corvenlea Ltd",
+        "Corvenlea Pharma",
+        "Corvenlea Pharmaceuticals plc"
+      ]
+    },
+    {
+      "id": 4,
+      "query": "(after ingesting the held-back firm G archive) Re-run query 2: hERG and CYP inhibition screening on ~40 compounds from a kinase series, turnaround under 3 weeks.",
+      "depends_on_firm_G": true,
+      "expected": [
+        {
+          "file_id": "P37",
+          "path": "heldback_firm_G/OsterquillData/Studies/OT-20-S0178/Proposals/OT-20-S0178_PROPOSAL_090220.docx",
+          "format": "docx",
+          "fact": "Proposal OT-20-S0178 to Corvenlea (US): in vitro safety pharmacology (hERG + CYP) on 40 kinase compounds.",
+          "depends_on_firm_G": true,
+          "unstructured_page_number": [],
+          "project": {
+            "id": "PRJ0012",
+            "firm_id": "OT-20-S0178",
+            "lims_id": "OQ/2020/002872",
+            "client_name_used": "Corvenlea (US)",
+            "lead": "Naomi Takamori",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 14,
+            "price": "USD 22,000",
+            "year": 2020
+          }
+        },
+        {
+          "file_id": "P38",
+          "path": "heldback_firm_G/OsterquillData/Studies/OT-20-S0178/Raw_Observations/OT-20-S0178_SafetyPharm_RESULTS_102020.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook OT-20-S0178: hERG and CYP data for 40 compounds with benchmark sheet.",
+          "depends_on_firm_G": true,
+          "unstructured_page_number": [
+            1,
+            2
+          ],
+          "sheet": [
+            "Study Summary",
+            "hERG (IKr)"
+          ],
+          "project": {
+            "id": "PRJ0012",
+            "firm_id": "OT-20-S0178",
+            "lims_id": "OQ/2020/002872",
+            "client_name_used": "Corvenlea (US)",
+            "lead": "Naomi Takamori",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 14,
+            "price": "USD 22,000",
+            "year": 2020
+          }
+        },
+        {
+          "file_id": "P39",
+          "path": "heldback_firm_G/OsterquillData/Studies/OT-20-S0178/Signed_Reports/OT-20-S0178_RPT_A_signed.pdf",
+          "format": "pdf",
+          "fact": "Final report OT-20-S0178 for Corvenlea (US), summarising the benchmark table.",
+          "depends_on_firm_G": true,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "project": {
+            "id": "PRJ0012",
+            "firm_id": "OT-20-S0178",
+            "lims_id": "OQ/2020/002872",
+            "client_name_used": "Corvenlea (US)",
+            "lead": "Naomi Takamori",
+            "lead_left": "",
+            "n_compounds": 40,
+            "turnaround_days": 14,
+            "price": "USD 22,000",
+            "year": 2020
+          }
+        },
+        {
+          "file_id": "P40",
+          "path": "heldback_firm_G/OsterquillData/Studies/OT-23-S0046/Raw_Observations/OT-23-S0046_SafetyPharm_RESULTS_032323.xlsx",
+          "format": "xlsx",
+          "fact": "Results workbook OT-23-S0046: hERG and CYP data for 44 compounds with benchmark sheet.",
+          "depends_on_firm_G": true,
+          "unstructured_page_number": [
+            1,
+            2
+          ],
+          "sheet": [
+            "Study Summary",
+            "hERG (IKr)"
+          ],
+          "project": {
+            "id": "PRJ0013",
+            "firm_id": "OT-23-S0046",
+            "lims_id": "OQ/2023/000755",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Naomi Takamori",
+            "lead_left": "",
+            "n_compounds": 44,
+            "turnaround_days": 15,
+            "price": "USD 25,000",
+            "year": 2023
+          }
+        },
+        {
+          "file_id": "P41",
+          "path": "heldback_firm_G/OsterquillData/Studies/OT-23-S0046/Signed_Reports/OT-23-S0046_RPT_A_signed.pdf",
+          "format": "pdf",
+          "fact": "Final report OT-23-S0046 for Avernelwick Pharmaceuticals Ltd, summarising the benchmark table.",
+          "depends_on_firm_G": true,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "project": {
+            "id": "PRJ0013",
+            "firm_id": "OT-23-S0046",
+            "lims_id": "OQ/2023/000755",
+            "client_name_used": "Avernelwick Pharmaceuticals Ltd",
+            "lead": "Naomi Takamori",
+            "lead_left": "",
+            "n_compounds": 44,
+            "turnaround_days": 15,
+            "price": "USD 25,000",
+            "year": 2023
+          }
+        }
+      ],
+      "distractors": [],
+      "supporting": [],
+      "closest_related": []
+    },
+    {
+      "id": 5,
+      "query": "Have we done any cryo-EM work?",
+      "depends_on_firm_G": false,
+      "expected": [],
+      "distractors": [],
+      "supporting": [],
+      "closest_related": [
+        {
+          "file_id": "P42",
+          "path": "archive/QuenverellData/engagements/qv.25.086/deliverables/drelvessa-qv.25.086-docking-report-v1.pdf",
+          "format": "pdf",
+          "fact": "Structure-based design report QV.25.086: docking into published-style X-ray structures. ",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2
+          ]
+        },
+        {
+          "file_id": "P43",
+          "path": "archive/VellacombeData/Clients/RI/VD-18-131/Readouts/RI13_route_readout_24Jan19.pptx",
+          "format": "pptx",
+          "fact": "Readout VD-18-131: chemistry guided by X-ray co-crystal structures from a collaborator. ",
+          "depends_on_firm_G": false,
+          "unstructured_page_number": [
+            1,
+            2,
+            3,
+            9
+          ]
+        }
+      ],
+      "expected_answer": "No evidence of cryo-EM work in the archive; closest related work is structural-biology-guided design."
+    }
+  ]
+}

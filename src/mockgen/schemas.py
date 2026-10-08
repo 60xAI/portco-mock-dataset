@@ -19,6 +19,7 @@ class InlineTable(M):
 class TableRef(M):
     table_ref: str = Field(description="PRJnnnn:table_key, e.g. PRJ0012:herg or PRJ0012:benchmark")
     max_rows: Optional[int] = None
+    start_row: int = Field(0, description="skip this many data rows (e.g. 12 to show rows 13-24)")
     columns: Optional[list[int]] = Field(None, description="subset of column indexes to show")
     caption: Optional[str] = None
 

@@ -147,12 +147,12 @@
    "layout": "title_content",
    "title": "Case study: target prioritisation for an inflammation programme",
    "bullets": [
-    "Question: which of 40 candidate genes justify an assay build?",
-    "Combined patient-tissue RNA-seq, genetic evidence and pathway context",
-    "Seven targets ranked high; two dropped for broad tissue expression risk",
-    "Client built cell assays for the top three with Brindlewythe within the quarter"
+    "Question: which candidate genes justify building a cell assay?",
+    "Combined patient-tissue RNA-seq, genetic evidence and pathway context to prioritise candidates",
+    "Flagged candidates with broad tissue expression as safety risks",
+    "The client commissioned follow-up cell assays with Brindlewythe for the top-ranked targets"
    ],
-   "notes": "Client anonymised. Numbers on this slide are the engagement's own counts, not assay results."
+   "notes": "TZ: keep it qualitative until the client signs off."
   },
   {
    "layout": "title_content",

@@ -14,6 +14,8 @@ from datetime import timedelta
 
 import numpy as np
 
+from .render import _num
+
 from . import admet, chem
 from .paths import NUMBERS, SEED
 from .world import load_world
@@ -86,33 +88,40 @@ def _herg(ctx: Ctx, top=30.0):
             reps.append(10 ** (6 - (piC + r.gauss(0, 0.12))) )
         reps_um = [x for x in reps]
         quant = [x for x in reps_um if x < top]
-        if len(quant) * 2 > len(reps_um):
-            gm = 10 ** np.mean([math.log10(x) for x in quant])
-        else:
-            gm = top * 1.01
         flag = ""
         if r.random() < 0.04:
-            flag = r.choice(["Seal resistance <500 MΩ in 1 of 3 cells; n=2 reported", "Precipitation observed at top concentration",
-                             "Run 2 rejected (E-4031 outside range); repeated"])
-        if gm >= top:
-            disp, qual = f">{top:g}", ">"
-            rep_disp = [f">{top:g}" if x >= top else sig(x, 2) for x in reps_um]
-        else:
+            flag = r.choice(["Seal resistance <500 MΩ in one cell; cell excluded", "Precipitation observed at top concentration",
+                             "First run rejected (E-4031 outside range); repeated"])
+        precip = flag.startswith("Precipitation")
+        if len(quant) * 2 > len(reps_um):
+            gm = 10 ** np.mean([math.log10(x) for x in quant])
             disp, qual = sig(gm, 2), "="
-            rep_disp = [sig(x, 2) if x < top else f">{top:g}" for x in reps_um]
+            if precip:
+                flag = "Precipitation at 30 µM; 30 µM point excluded from fits"
+        else:
+            gm = top * 1.01
+            if precip:
+                disp, qual = ">10", ">"
+                flag = "Precipitation at 30 µM; highest evaluable concentration 10 µM (solubility-limited)"
+            else:
+                disp, qual = f">{top:g}", ">"
+        rep_disp = [sig(x, 2) if x < top else f">{top:g}" for x in reps_um]
         ic50s.append((gm, qual))
         pct10 = 100 / (1 + (gm / 10) ** 1.0) + r.gauss(0, 4)
         rows.append([c["id"], rep_disp[0], rep_disp[1], rep_disp[2] if len(rep_disp) > 2 else "", disp,
-                     f"{max(-5, min(100, pct10)):.0f}", len(reps), flag])
+                     f"{max(-5, min(100, pct10)):.0f}", f"{len(reps)} ({len(quant)})", flag])
     ctrl = 10 ** (6 - r.gauss(7.85, 0.08)) * 1000  # nM
-    ctx.tables["herg"] = {"title": "hERG IC50 (automated patch clamp)", "columns": ["Compound", "IC50 rep 1 (µM)", "IC50 rep 2 (µM)", "IC50 rep 3 (µM)", "IC50 mean (µM)", "% inhibition @10 µM", "n", "QC note"],
-                          "rows": rows, "notes": [f"Top concentration {top:g} µM; 6-point, 3-fold dilution; positive control E-4031 IC50 {sig(ctrl, 2)} nM (acceptance 5-50 nM)"]}
+    ctx.tables["herg"] = {"title": "hERG IC50 (automated patch clamp)", "columns": ["Compound", "IC50 cell 1 (µM)", "IC50 cell 2 (µM)", "IC50 cell 3 (µM)", "IC50 geomean (µM)", "% inhibition @10 µM", "n cells (finite)", "QC note"],
+                          "rows": rows, "notes": [f"Top concentration {top:g} µM; 6-point, 3-fold dilution; positive control E-4031 IC50 {sig(ctrl, 2)} nM (acceptance 5-50 nM)",
+                                                  f"Compound IC50 = geometric mean of finite cell IC50s when they are the majority of accepted cells; otherwise reported as >{top:g} µM (or >10 µM where solubility-limited)"]}
     vals = [g for g, q in ic50s]
     ctx.values.update({
         "herg.n_tested": str(len(rows)),
         "herg.n_lt_1uM": str(sum(1 for g, q in ic50s if q == "=" and g < 1)),
         "herg.n_1_10uM": str(sum(1 for g, q in ic50s if q == "=" and 1 <= g < 10)),
         "herg.n_ge_10uM": str(sum(1 for g, q in ic50s if q == ">" or g >= 10)),
+        "herg.n_censored": str(sum(1 for g, q in ic50s if q == ">")),
+        "herg.n_flagged": str(sum(1 for row in rows if row[7])),
         "herg.median_ic50_uM": (f">{top:g}" if np.median(vals) >= top else sig(float(np.median(vals)), 2)),
         "herg.control_e4031_nM": sig(ctrl, 2),
         "herg.top_conc_uM": f"{top:g}",
@@ -163,6 +172,8 @@ def _cyp(ctx: Ctx):
     for iso in CYPS:
         ctx.values[f"cyp.n_gt50_{iso}"] = str(counts[iso])
         ctx.values[f"cyp.control_{iso}_uM"] = ctrls[iso]
+        ctx.values[f"cyp.hist_{iso}_uM"] = sig(CYP_CONTROLS[iso][1], 2)
+    ctx.values["cyp.most_flagged"] = max(CYPS, key=lambda k: counts[k])
     ctx.values["cyp.n_any_gt50"] = str(sum(1 for row in rows if any(float(x) > 50 for x in row[1:])))
     for row in rows:
         ctx.values[f"cyp.{row[0]}.CYP3A4_pct"] = row[5]
@@ -174,9 +185,13 @@ def _cyp_ic50(ctx: Ctx):
     rows = []
     for i, c in enumerate(ctx.c):
         ic = 10 ** (6 - pics[i]) * math.exp(r.gauss(0, 0.2))
-        rows.append([c["id"], ">50" if ic > 50 else sig(ic, 2), "midazolam" if r.random() < 0.6 else "testosterone"])
-    ctx.tables["cyp_ic50"] = {"title": "CYP3A4 IC50 (µM)", "columns": ["Compound", "IC50 (µM)", "Probe substrate"], "rows": rows,
-                              "notes": ["7-point curve, top 50 µM; ketoconazole control"]}
+        rows.append([c["id"], ">50" if ic > 50 else sig(ic, 2), "midazolam"])
+    ctx.tables["cyp_ic50"] = {"title": "CYP3A4 IC50 (µM), midazolam 1'-hydroxylation", "columns": ["Compound", "IC50 (µM)", "Probe substrate"], "rows": rows,
+                              "notes": ["7-point curve, top 50 µM; ketoconazole control run alongside on every plate"]}
+    vals = [_num(x[1]) for x in rows if not str(x[1]).startswith(">")]
+    ctx.values["cyp3a4_ic50.n_lt_1uM"] = str(sum(1 for v in vals if v < 1))
+    ctx.values["cyp3a4_ic50.n_lt_10uM"] = str(sum(1 for v in vals if v < 10))
+    ctx.values["cyp3a4_ic50.n_tested"] = str(len(rows))
 
 
 def _kinase(ctx: Ctx):
@@ -241,7 +256,7 @@ def _ppb(ctx: Ctx):
         b = (p[i] if p is not None else 92) + 2.0 * (c["clogp"] - 3) + r.gauss(0, 1.2)
         b = max(40, min(99.9, b))
         rows.append([c["id"], f"{b:.1f}", f"{100 - b:.2f}", f"{r.uniform(80, 105):.0f}"])
-    ctx.tables["ppb"] = {"title": "Human plasma protein binding (RED, 4 h, 37 °C)", "columns": ["Compound", "% bound", "fu", "Recovery (%)"], "rows": rows, "notes": ["Warfarin control 98-99% bound"]}
+    ctx.tables["ppb"] = {"title": "Human plasma protein binding (RED, 4 h, 37 °C)", "columns": ["Compound", "% bound", "Unbound (%)", "Recovery (%)"], "rows": rows, "notes": ["Warfarin control 98-99% bound"]}
 
 
 def _caco2(ctx: Ctx):
@@ -284,7 +299,7 @@ def _synthesis(ctx: Ctx):
     rows = []
     for c in ctx.c:
         rows.append([c["id"], c["smiles"], f"{c['mw']:.1f}", f"{max(4, min(88, r.gauss(42, 18))):.0f}", f"{max(90, min(99.8, r.gauss(97, 1.5))):.1f}", f"{max(5, r.gauss(28, 12)):.0f}"])
-    ctx.tables["synthesis"] = {"title": "Compounds delivered", "columns": ["Compound", "SMILES", "MW", "Yield (%)", "Purity LCMS (%)", "Amount (mg)"], "rows": rows, "notes": []}
+    ctx.tables["synthesis"] = {"title": "Compounds delivered", "columns": ["Compound", "SMILES", "MW", "Yield (%)", "HPLC purity (UV area %, 254 nm)", "Amount (mg)"], "rows": rows, "notes": []}
 
 
 def _docking(ctx: Ctx):
@@ -313,10 +328,11 @@ def _stability(ctx: Ctx):
             ia = max(0.02, 0.05 + 0.02 * k * t * 10 + r.gauss(0, 0.01))
             ib = max(0.0, 0.03 + 0.012 * k * t * 10 + r.gauss(0, 0.01))
             tot = ia + ib + r.uniform(0.05, 0.15)
-            rows.append([cond, t, f"{a:.1f}", f"{ia:.2f}", "<0.05" if ib < 0.05 else f"{ib:.2f}", f"{tot:.2f}", f"{r.uniform(0.8, 2.5):.1f}", "Complies" if a >= 95 and tot <= 2 else "OOS - investigate"])
+            ok = a >= 95 and ia <= 0.5 and ib <= 0.3 and tot <= 2.0
+            rows.append([cond, t, f"{a:.1f}", f"{ia:.2f}", "<0.05" if ib < 0.05 else f"{ib:.2f}", f"{tot:.2f}", f"{r.uniform(0.8, 2.5):.1f}", "Complies" if ok else "Does not comply"])
     ctx.tables["stability"] = {"title": "Stability results (assay % label claim; impurities % area)",
                                "columns": ["Condition", "Timepoint (months)", "Assay (% LC)", "Imp A RRT 0.86 (%)", "Imp B RRT 1.12 (%)", "Total impurities (%)", "Water KF (% w/w)", "Result"],
-                               "rows": rows, "notes": ["Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%"]}
+                               "rows": rows, "notes": ["Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%"]}
     ctx.values["stability.t0_assay"] = f"{a0:.1f}"
     ctx.values["stability.last_timepoint_months"] = str(max(tps))
 
@@ -340,9 +356,15 @@ def _formulation(ctx: Ctx):
                 "Labrasol/PEG400 1:1", "5% NMP / 15% Solutol HS15 / 80% water", "pH 4 citrate buffer"]
     rows = []
     for v in vehicles:
-        s = math.exp(r.gauss(0.5, 1.2))
-        rows.append([v, sig(s, 2), r.choice(["Clear solution", "Fine suspension", "Suspension, settles <1 h", "Precipitate at 24 h", "Clear, slight yellow tint"]), r.choice(["Stable", "Stable", "Crystal growth at 24 h", "Not assessed"])])
-    ctx.tables["form_screen"] = {"title": "Vehicle screen (target 10 mg/mL)", "columns": ["Vehicle", "Solubility (mg/mL)", "Appearance", "24 h physical stability"], "rows": rows, "notes": []}
+        sol = math.exp(r.gauss(0.5, 1.2))
+        if sol >= 10:
+            app = r.choice(["Clear solution", "Clear, slight yellow tint"])
+            stab = r.choice(["Stable", "Stable", "Precipitate at 24 h"])
+        else:
+            app = r.choice(["Fine suspension", "Suspension, settles <1 h", "Fine suspension, easily redispersed"])
+            stab = r.choice(["Redisperses on shaking", "Settles; redispersible", "Crystal growth at 24 h", "Caking at 24 h"])
+        rows.append([v, sig(sol, 2), app, stab])
+    ctx.tables["form_screen"] = {"title": "Vehicle screen (target 10 mg/mL)", "columns": ["Vehicle", "Equilibrium solubility (mg/mL)", "Appearance at 10 mg/mL loading", "24 h physical stability (10 mg/mL)"], "rows": rows, "notes": ["Solubility by shake-flask, 24 h, 25 °C, HPLC-UV; appearance and stability assessed on separately prepared 10 mg/mL formulations"]}
 
 
 def _cytotox(ctx: Ctx):

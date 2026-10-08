@@ -1,18 +1,17 @@
 {
  "family": "document",
- "summary": "Final report OT-20-S0178 for Corvenlea (US): hERG (IKr) safety pharmacology, CYP safety interaction panel on 40 compounds (Aminopyrimidine). Study summary (benchmark) table on page 1; full compound tables, methods and control results follow.",
+ "summary": "Final report OT-20-S0178 for Corvenlea (US): hERG (IKr) safety pharmacology, CYP safety interaction panel on 40 compounds (Aminopyrimidine). Study summary table on page 1; full compound tables, methods, controls and deviations follow.",
  "properties": {
   "title": "OT-20-S0178 Final Report"
  },
  "header": "OT-20-S0178 Final Report",
- "footer": null,
  "title_block": {
   "title": "CVL kinase series: cardiac ion-channel and CYP interaction triage",
   "subtitle": "Final Report",
   "lines": [
    "Study OT-20-S0178 (LIMS OQ/2020/002872)",
    "Client: Corvenlea (US)",
-   "Study Director: Dr N. Takamori",
+   "Study lead: Dr N. Takamori, Head of Toxicology",
    "Report date: October 20, 2020"
   ]
  },
@@ -21,7 +20,7 @@
    "heading": "1 Summary",
    "blocks": [
     {
-     "p": "40 compounds from the Corvenlea aminopyrimidine series 01 were tested for Corvenlea (US) in the hERG (IKr) safety pharmacology, CYP safety interaction panel. Testing started on October 6, 2020 and results were reported on October 20, 2020. All runs met control validity criteria. No compound inhibited hERG with an IC50 below 1 µM. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. Inhibition above 50% at 10 µM was most frequent for CYP2C9."
+     "p": "40 compounds from the Corvenlea aminopyrimidine series 01 were tested for Corvenlea (US) in the hERG (IKr) safety pharmacology, CYP safety interaction panel. Testing started on October 6, 2020 and results were reported on October 20, 2020. All accepted runs met control validity criteria. No compound had a hERG IC50 below 1 µM. Most compounds (25 of 40) inhibited hERG with IC50 below 10 µM, so margins will depend on free therapeutic exposure. Inhibition above 50% at 10 µM was most frequent for CYP2C9."
     },
     {
      "table": {
@@ -35,7 +34,7 @@
    "heading": "Compliance statement",
    "blocks": [
     {
-     "p": "This exploratory in vitro investigation is not conducted under GLP; procedures follow Osterquill standard operating procedures and the investigation is audited by Quality Assurance for data integrity only."
+     "p": "This exploratory in vitro investigation is not conducted under GLP. Procedures follow Osterquill standard operating procedures, and Quality Assurance audits the data for integrity only; no GLP compliance statement is made."
     }
    ]
   },
@@ -51,7 +50,14 @@
    "heading": "3 Test items",
    "blocks": [
     {
-     "p": "40 compounds were received as 10 mM DMSO solutions in one test article cohort on October 6, 2020 and logged against OQ/2020/002872. Identity and concentration were taken as supplied by the client."
+     "p": "40 compounds were received as 10 mM DMSO solutions in one test article cohort on October 6, 2020 and logged against OQ/2020/002872. Identity and concentration were taken as supplied by the client. Stocks were stored at -20 °C and thawed once for testing."
+    },
+    {
+     "image": {
+      "kind": "molecule_grid",
+      "ref": "PRJ0012",
+      "n": 8
+     }
     }
    ]
   },
@@ -64,14 +70,18 @@
    "level": 2,
    "blocks": [
     {
-     "p": "HEK293 cells stably expressing hERG (KCNH2) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells were held at -80 mV, depolarised to +40 mV for 2 s and repolarised to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final), with 3-5 minutes per concentration."
+     "p": "HEK293 cells stably expressing hERG (KCNH2) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells are held at -80 mV, depolarized to +40 mV for 2 s and repolarized to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final). Each concentration is held until the tail-current block reaches a steady state (change below 5% over the last three sweeps), with a minimum of 3 and a maximum of 8 minutes; compounds still drifting at 8 minutes are flagged as slow-onset."
+    },
+    {
+     "p": "E-4031 is run as a separate 6-point concentration response (1-300 nM) on every run."
     },
     {
      "list": [
       "Control validity: seal resistance ≥500 MΩ before break-in and ≥200 MΩ throughout",
-      "Tail current amplitude ≥200 pA at baseline; run-down ≤10% over the vehicle period",
-      "Positive control E-4031 on every run; IC50 must fall within 5-50 nM",
-      "IC50 from a four-parameter logistic fit of mean tail-current inhibition; n≥2 cells per compound"
+      "Tail current ≥200 pA at baseline; run-down ≤10% over the vehicle period",
+      "E-4031 IC50 within 5-50 nM; runs outside this range are rejected and repeated",
+      "IC50 fitted per cell (four-parameter logistic); the compound IC50 is the geometric mean of finite cell IC50s when these are the majority of accepted cells, otherwise reported as >30 µM",
+      "Where precipitation is seen at 30 µM, that concentration is excluded and the highest evaluable concentration is reported"
      ]
     }
    ]
@@ -81,7 +91,7 @@
    "level": 2,
    "blocks": [
     {
-     "p": "Pooled human liver microsomes (0.1 mg/mL protein) were incubated with each compound at 10 µM and an isoform-selective probe substrate at approximately Km, in duplicate, for 10 minutes at 37 °C after NADPH addition. Metabolite formation was measured by LC-MS/MS against vehicle (0.1% DMSO) incubations."
+     "p": "Pooled human liver microsomes (0.1 mg/mL protein) were incubated with each compound at 10 µM and an isoform-selective probe substrate at approximately Km, in duplicate, for 10 minutes at 37 °C after NADPH addition. Metabolite formation is measured by LC-MS/MS against vehicle (0.1% DMSO) incubations; the lower limit of quantitation of each metabolite is at least 20-fold below the vehicle signal."
     },
     {
      "table": {
@@ -127,7 +137,7 @@
      }
     },
     {
-     "p": "Results are reported as mean percent inhibition relative to vehicle. Values above 50% at 10 µM are flagged for follow-up; small negative values indicate no inhibition."
+     "p": "Positive controls are run as 7-point concentration responses on every run. Furafylline and ticlopidine (mechanism-based inhibitors) are preincubated with microsomes and NADPH for 15 minutes before probe addition. A run is accepted when each control IC50 falls within 0.5-2 times the laboratory historical mean. Results are reported as mean percent inhibition relative to vehicle; values above 50% at 10 µM are flagged, and small negative values indicate no inhibition."
     }
    ]
   },
@@ -140,7 +150,11 @@
    "level": 2,
    "blocks": [
     {
-     "p": "All {{PRJ0012:herg.n_tested}} compounds were tested. No compound inhibited hERG with an IC50 below 1 µM. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. The median IC50 was {{PRJ0012:herg.median_ic50_uM}} µM ({{PRJ0012:herg.n_lt_1uM}} below 1 µM, {{PRJ0012:herg.n_1_10uM}} between 1 and 10 µM, {{PRJ0012:herg.n_ge_10uM}} at or above 10 µM). E-4031 gave an IC50 of {{PRJ0012:herg.control_e4031_nM}} nM, within the acceptance range."
+     "p": "All {{PRJ0012:herg.n_tested}} compounds were tested. No compound had a hERG IC50 below 1 µM. Most compounds (25 of 40) inhibited hERG with IC50 below 10 µM, so margins will depend on free therapeutic exposure. The median IC50 was {{PRJ0012:herg.median_ic50_uM}} µM ({{PRJ0012:herg.n_lt_1uM}} below 1 µM, {{PRJ0012:herg.n_1_10uM}} between 1 and 10 µM, {{PRJ0012:herg.n_ge_10uM}} at or above 10 µM, of which {{PRJ0012:herg.n_censored}} above the highest evaluable concentration). E-4031 gave an IC50 of {{PRJ0012:herg.control_e4031_nM}} nM in the accepted runs."
+    },
+    {
+     "p": "Compounds with QC notes: CVL-08882: Precipitation at 30 µM; highest evaluable concentration 10 µM (solubility-limited); CVL-08912: Precipitation at 30 µM; 30 µM point excluded from fits. Values for these compounds should be read with the note.",
+     "style": "note"
     },
     {
      "table": {
@@ -162,29 +176,88 @@
    "level": 2,
    "blocks": [
     {
-     "p": "Inhibition above 50% at 10 µM was most frequent for CYP2C9. In total {{PRJ0012:cyp.n_any_gt50}} compounds inhibited at least one isoform by more than 50% at 10 µM (CYP3A4: {{PRJ0012:cyp.n_gt50_CYP3A4}}; CYP2D6: {{PRJ0012:cyp.n_gt50_CYP2D6}}; CYP2C19: {{PRJ0012:cyp.n_gt50_CYP2C19}}; CYP2C9: {{PRJ0012:cyp.n_gt50_CYP2C9}}; CYP1A2: {{PRJ0012:cyp.n_gt50_CYP1A2}}). Ketoconazole inhibited CYP3A4 with an IC50 of {{PRJ0012:cyp.control_CYP3A4_uM}} µM."
+     "p": "Inhibition above 50% at 10 µM was most frequent for CYP2C9. In total {{PRJ0012:cyp.n_any_gt50}} compounds inhibited at least one isoform by more than 50% at 10 µM (CYP3A4: {{PRJ0012:cyp.n_gt50_CYP3A4}}; CYP2D6: {{PRJ0012:cyp.n_gt50_CYP2D6}}; CYP2C19: {{PRJ0012:cyp.n_gt50_CYP2C19}}; CYP2C9: {{PRJ0012:cyp.n_gt50_CYP2C9}}; CYP1A2: {{PRJ0012:cyp.n_gt50_CYP1A2}}). All control IC50s were within 0.5-2 times the historical mean (ketoconazole {{PRJ0012:cyp.control_CYP3A4_uM}} µM against a historical mean of {{PRJ0012:cyp.hist_CYP3A4_uM}} µM)."
     },
     {
      "table": {
       "table_ref": "PRJ0012:cyp_inhib",
       "caption": "Table 3 Percent inhibition at 10 µM"
      }
+    },
+    {
+     "table": {
+      "columns": [
+       "Control",
+       "Isoform",
+       "IC50 (µM)",
+       "Historical mean (µM)"
+      ],
+      "rows": [
+       [
+        "Furafylline",
+        "CYP1A2",
+        "{{PRJ0012:cyp.control_CYP1A2_uM}}",
+        "{{PRJ0012:cyp.hist_CYP1A2_uM}}"
+       ],
+       [
+        "Sulfaphenazole",
+        "CYP2C9",
+        "{{PRJ0012:cyp.control_CYP2C9_uM}}",
+        "{{PRJ0012:cyp.hist_CYP2C9_uM}}"
+       ],
+       [
+        "Ticlopidine",
+        "CYP2C19",
+        "{{PRJ0012:cyp.control_CYP2C19_uM}}",
+        "{{PRJ0012:cyp.hist_CYP2C19_uM}}"
+       ],
+       [
+        "Quinidine",
+        "CYP2D6",
+        "{{PRJ0012:cyp.control_CYP2D6_uM}}",
+        "{{PRJ0012:cyp.hist_CYP2D6_uM}}"
+       ],
+       [
+        "Ketoconazole",
+        "CYP3A4",
+        "{{PRJ0012:cyp.control_CYP3A4_uM}}",
+        "{{PRJ0012:cyp.hist_CYP3A4_uM}}"
+       ]
+      ],
+      "caption": "Table 4 Positive control IC50s"
+     }
     }
    ]
   },
   {
-   "heading": "6 Discussion",
+   "heading": "6 Deviations",
    "blocks": [
     {
-     "p": "No compound inhibited hERG with an IC50 below 1 µM. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. Inhibition above 50% at 10 µM was most frequent for CYP2C9. Results are exploratory and are intended for compound selection; they are not a substitute for a definitive GLP safety pharmacology study."
+     "p": "No deviations from the study plan. Precipitation at the top concentration is noted against the affected compounds in Table 2."
     }
    ]
   },
   {
-   "heading": "7 Conclusion",
+   "heading": "7 Discussion",
    "blocks": [
     {
-     "p": "The data support ranking within the set. Recommended next step: select analogues without a hERG or CYP signal for further investigation and repeat any single-run outliers."
+     "p": "No compound had a hERG IC50 below 1 µM. Most compounds (25 of 40) inhibited hERG with IC50 below 10 µM, so margins will depend on free therapeutic exposure. Inhibition above 50% at 10 µM was most frequent for CYP2C9. Results are exploratory and support compound selection; they are not a substitute for a definitive GLP study."
+    }
+   ]
+  },
+  {
+   "heading": "8 Conclusion",
+   "blocks": [
+    {
+     "p": "Recommended next steps: prioritize compounds with hERG IC50 at or above 10 µM; for any compound below 10 µM, compare the IC50 with projected free plasma exposure before progression; repeat the flagged hERG measurements if a selection decision depends on them; run concentration responses for compounds flagged on CYP2C9 and any other isoform above 50%."
+    }
+   ]
+  },
+  {
+   "heading": "9 Records",
+   "blocks": [
+    {
+     "p": "Raw data, observation sheets and instrument files are retained for 10 years under OQ/2020/002872."
     }
    ]
   }
@@ -192,7 +265,7 @@
  "signature_block": [
   {
    "name": "Naomi Takamori",
-   "role": "Study Director",
+   "role": "Head of Toxicology",
    "date": "October 20, 2020"
   },
   {

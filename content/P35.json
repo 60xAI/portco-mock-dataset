@@ -15,7 +15,7 @@
      }
     ],
     [
-     "'-' = never bought from this firm. Rows 9-14 still to be completed from the LIMS export."
+     "'-' = no purchase recorded in reviewed A-F sources (CRM and LIMS exports to July 2026). Accounts 9-14 (worksheet rows 13-18) still to be completed."
     ],
     [],
     [
@@ -246,7 +246,7 @@
      "Service lines follow the group catalogue; Osterquill excluded until onboarding."
     ],
     [
-     "[TBC] owners for rows 9-14"
+     "[TBC] owners for accounts 9-14"
     ]
    ]
   }

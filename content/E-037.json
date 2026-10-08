@@ -1,17 +1,22 @@
 {
  "family": "scan",
- "summary": "Scan of the signed WA/2011/192 six-month accelerated stability report for Esmervane Pharmaceuticals (EP19 capsule blend, lot L02), May 2012. Assay remained within specification; a degradant grew at 40 °C/75% RH. Handwritten comment on the moisture barrier and an approval stamp.",
+ "summary": "Scan of the signed WA/2011/192 six-month accelerated stability report for Esmervane Pharmaceuticals (EP19 capsule blend, lot L02), May 2012. Assay and impurities stayed within the protocol specification at all conditions; the specified degradant Imp A (RRT 0.86) increased at 40 °C/75% RH while water content showed no matching trend. Hydrolysis is proposed as a hypothesis to confirm. Faint approval stamp and a handwritten margin note on the moisture barrier.",
  "document": {"family": "document", "summary": "Signed six-month stability report",
-   "header": "WA/2011/192 | EP19 Lot L02 | 6-month report",
+   "header": "WA/2011/192 | EP19 Lot L02 | 6-month report | Rev 00",
    "title_block": {"title": "STABILITY REPORT: EP19 CAPSULE BLEND, LOT L02", "subtitle": "Six-month accelerated data",
      "lines": ["Protocol: WA/2011/192", "Client: Esmervane Pharmaceuticals", "Report date: 07/05/2012"]},
    "sections": [
-    {"heading": "1. SCOPE", "blocks": [{"p": "1.1 This report gives results for lot L02 of the EP19 capsule blend stored under the protocol conditions up to six months. Storage started on 07/11/2011."}]},
-    {"heading": "2. RESULTS", "blocks": [
-      {"p": "2.1 Initial assay {{PRJ0086:stability.t0_assay}}% of label claim. Results to {{PRJ0086:stability.last_timepoint_months}} months are tabulated below."},
-      {"table": {"table_ref": "PRJ0086:stability", "columns": [0, 1, 2, 3, 4, 5, 7], "caption": "Table 1 Stability results"}}]},
-    {"heading": "3. DISCUSSION", "blocks": [{"p": "3.1 Assay and total impurities remain within specification at 25 °C/60% RH and 30 °C/65% RH. At 40 °C/75% RH the RRT 0.86 degradant increases with time, consistent with moisture-driven hydrolysis. 3.2 Conclusions are limited to the tested interval."}]},
-    {"heading": "4. DEVIATIONS", "blocks": [{"p": "4.1 None."}]}],
+    {"heading": "1. SCOPE", "blocks": [{"p": "1.1 This report gives results for lot L02 of the EP19 capsule blend stored under protocol WA/2011/192 for up to six months. Storage started on 07/11/2011. 1.2 Conclusions are limited to the tested interval and conditions."}]},
+    {"heading": "2. MATERIALS AND PACKAGING", "blocks": [{"list": ["2.1 Stability lot: EP19 capsule blend, lot L02, filled into size 1 hard gelatin capsules", "2.2 Pack: 60 cc HDPE bottle, induction-sealed, 1 g silica gel desiccant, 30 capsules per bottle", "2.3 Storage: 25 °C/60% RH, 30 °C/65% RH and 40 °C/75% RH in mapped chambers"]}]},
+    {"heading": "3. METHODS", "blocks": [{"list": ["3.1 Assay and related substances: HPLC method WA-AM-0412 Rev 02 (qualified 10/2011), UV 254 nm", "3.2 Water: Karl Fischer coulometric, WA-AM-0105", "3.3 System suitability per sequence: resolution Imp A / main peak ≥2.0, tailing ≤1.5, %RSD of six standard injections ≤1.0%"]},
+                                       {"p": "3.4 All sequences in this report met system suitability."}]},
+    {"heading": "4. SPECIFICATION", "blocks": [{"p": "4.1 Assay 95.0-105.0% of label claim; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%."}]},
+    {"heading": "5. RESULTS", "blocks": [
+      {"p": "5.1 Initial assay {{PRJ0086:stability.t0_assay}}% of label claim. Results to {{PRJ0086:stability.last_timepoint_months}} months are tabulated below."},
+      {"table": {"table_ref": "PRJ0086:stability", "caption": "Table 1 Stability results"}}]},
+    {"heading": "6. DISCUSSION", "blocks": [{"p": "6.1 All results comply with the specification. Assay and impurities are essentially unchanged at 25 °C/60% RH and 30 °C/65% RH. 6.2 At 40 °C/75% RH, Imp A increases with time. Water content does not show a matching upward trend, so moisture uptake through the pack is not demonstrated; hydrolysis of the amide is a hypothesis that should be confirmed by identifying the degradant and by a humidity-controlled comparison. 6.3 A tighter moisture barrier should be evaluated before long-term testing."}]},
+    {"heading": "7. DEVIATIONS", "blocks": [{"p": "7.1 None."}]},
+    {"heading": "8. RECORDS", "blocks": [{"p": "8.1 Sequence sheets, chromatograms and chamber records are held under WST-11-005959."}]}],
    "signature_block": [{"name": "Alice Penrose", "role": "Head of Analytical Services", "date": "07/05/2012"}, {"name": "Leon Wu", "role": "Stability Coordinator", "date": "07/05/2012"}]},
- "scan": {"skew_deg": -0.9, "noise": 0.35, "blur": 0.6, "stamp": "APPROVED 11 MAY 2012", "handwriting": "Moisture barrier? discuss w/ client - AP", "pages": 3}
+ "scan": {"skew_deg": -0.9, "noise": 0.35, "blur": 0.6, "stamp": "APPROVED 11 MAY 2012", "handwriting": "Moisture barrier? discuss w/ client - AP", "pages": 4}
 }

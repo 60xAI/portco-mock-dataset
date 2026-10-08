@@ -139,7 +139,7 @@
     "SMILES",
     "MW",
     "Yield (%)",
-    "Purity LCMS (%)",
+    "HPLC purity (UV area %, 254 nm)",
     "Amount (mg)"
    ],
    "rows": [

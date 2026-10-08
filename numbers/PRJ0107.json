@@ -9,61 +9,63 @@
    "title": "Vehicle screen (target 10 mg/mL)",
    "columns": [
     "Vehicle",
-    "Solubility (mg/mL)",
-    "Appearance",
-    "24 h physical stability"
+    "Equilibrium solubility (mg/mL)",
+    "Appearance at 10 mg/mL loading",
+    "24 h physical stability (10 mg/mL)"
    ],
    "rows": [
     [
      "0.5% methylcellulose",
      "1.7",
-     "Clear solution",
-     "Not assessed"
+     "Fine suspension",
+     "Caking at 24 h"
     ],
     [
      "0.5% HPMC / 0.1% Tween 80",
      "1.5",
-     "Precipitate at 24 h",
-     "Stable"
+     "Suspension, settles <1 h",
+     "Redisperses on shaking"
     ],
     [
      "20% HP-β-CD in water",
      "0.22",
      "Suspension, settles <1 h",
-     "Stable"
+     "Settles; redispersible"
     ],
     [
      "PEG400/water 30:70",
      "0.54",
-     "Clear, slight yellow tint",
-     "Not assessed"
+     "Fine suspension, easily redispersed",
+     "Caking at 24 h"
     ],
     [
      "10% DMSO / 90% corn oil",
      "0.91",
      "Suspension, settles <1 h",
-     "Stable"
+     "Redisperses on shaking"
     ],
     [
      "Labrasol/PEG400 1:1",
      "2.4",
-     "Clear solution",
-     "Not assessed"
+     "Fine suspension, easily redispersed",
+     "Redisperses on shaking"
     ],
     [
      "5% NMP / 15% Solutol HS15 / 80% water",
-     "0.93",
-     "Clear, slight yellow tint",
+     "1.3",
+     "Suspension, settles <1 h",
      "Crystal growth at 24 h"
     ],
     [
      "pH 4 citrate buffer",
-     "4.0",
-     "Precipitate at 24 h",
-     "Not assessed"
+     "0.34",
+     "Fine suspension",
+     "Crystal growth at 24 h"
     ]
    ],
-   "notes": []
+   "notes": [
+    "Solubility by shake-flask, 24 h, 25 °C, HPLC-UV; appearance and stability assessed on separately prepared 10 mg/mL formulations"
+   ]
   }
  },
  "values": {

@@ -294,7 +294,7 @@
    ]
   },
   "cyp_ic50": {
-   "title": "CYP3A4 IC50 (µM)",
+   "title": "CYP3A4 IC50 (µM), midazolam 1'-hydroxylation",
    "columns": [
     "Compound",
     "IC50 (µM)",
@@ -313,18 +313,18 @@
     ],
     [
      "OB11-08922",
-     "9.9",
+     "9.7",
      "midazolam"
     ],
     [
      "OB11-08924",
      "39",
-     "testosterone"
+     "midazolam"
     ],
     [
      "OB11-08928",
      ">50",
-     "testosterone"
+     "midazolam"
     ],
     [
      "OB11-08942",
@@ -343,13 +343,13 @@
     ],
     [
      "OB11-08960",
-     "1.6",
-     "testosterone"
+     "1.3",
+     "midazolam"
     ],
     [
      "OB11-08972",
-     "0.89",
-     "testosterone"
+     "0.83",
+     "midazolam"
     ],
     [
      "OB11-08994",
@@ -359,7 +359,7 @@
     [
      "OB11-09014",
      ">50",
-     "testosterone"
+     "midazolam"
     ],
     [
      "OB11-09024",
@@ -369,7 +369,7 @@
     [
      "OB11-09026",
      ">50",
-     "testosterone"
+     "midazolam"
     ],
     [
      "OB11-09042",
@@ -378,22 +378,22 @@
     ],
     [
      "OB11-09056",
-     "7.1",
+     "8.0",
      "midazolam"
     ],
     [
      "OB11-09062",
-     "50",
+     "38",
      "midazolam"
     ],
     [
      "OB11-09078",
      ">50",
-     "testosterone"
+     "midazolam"
     ]
    ],
    "notes": [
-    "7-point curve, top 50 µM; ketoconazole control"
+    "7-point curve, top 50 µM; ketoconazole control run alongside on every plate"
    ]
   },
   "benchmark": {
@@ -466,14 +466,20 @@
  "values": {
   "cyp.n_gt50_CYP1A2": "4",
   "cyp.control_CYP1A2_uM": "1.7",
+  "cyp.hist_CYP1A2_uM": "1.8",
   "cyp.n_gt50_CYP2C9": "5",
   "cyp.control_CYP2C9_uM": "0.29",
+  "cyp.hist_CYP2C9_uM": "0.35",
   "cyp.n_gt50_CYP2C19": "4",
   "cyp.control_CYP2C19_uM": "1.2",
+  "cyp.hist_CYP2C19_uM": "1.2",
   "cyp.n_gt50_CYP2D6": "3",
   "cyp.control_CYP2D6_uM": "0.061",
+  "cyp.hist_CYP2D6_uM": "0.060",
   "cyp.n_gt50_CYP3A4": "5",
   "cyp.control_CYP3A4_uM": "0.026",
+  "cyp.hist_CYP3A4_uM": "0.030",
+  "cyp.most_flagged": "CYP2C9",
   "cyp.n_any_gt50": "6",
   "cyp.OB11-08910.CYP3A4_pct": "6",
   "cyp.OB11-08918.CYP3A4_pct": "84",
@@ -493,6 +499,9 @@
   "cyp.OB11-09056.CYP3A4_pct": "59",
   "cyp.OB11-09062.CYP3A4_pct": "23",
   "cyp.OB11-09078.CYP3A4_pct": "6",
+  "cyp3a4_ic50.n_lt_1uM": "2",
+  "cyp3a4_ic50.n_lt_10uM": "5",
+  "cyp3a4_ic50.n_tested": "18",
   "price": "USD 27,100",
   "n_compounds": "18",
   "turnaround_days": "19",

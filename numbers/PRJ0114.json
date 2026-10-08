@@ -9,37 +9,38 @@
    "title": "Vehicle screen (target 10 mg/mL)",
    "columns": [
     "Vehicle",
-    "Solubility (mg/mL)",
-    "Appearance",
-    "24 h physical stability"
+    "Equilibrium solubility (mg/mL)",
+    "Appearance at 10 mg/mL loading",
+    "24 h physical stability (10 mg/mL)"
    ],
    "rows": [
     [
      "0.5% methylcellulose",
      "1.7",
-     "Clear, slight yellow tint",
-     "Stable"
+     "Fine suspension, easily redispersed",
+     "Settles; redispersible"
     ],
     [
      "0.5% HPMC / 0.1% Tween 80",
      "0.61",
-     "Clear, slight yellow tint",
-     "Stable"
+     "Fine suspension, easily redispersed",
+     "Settles; redispersible"
     ],
     [
      "20% HP-β-CD in water",
      "1.1",
      "Fine suspension",
-     "Stable"
+     "Settles; redispersible"
     ],
     [
      "PEG400/water 30:70",
      "0.35",
-     "Clear, slight yellow tint",
-     "Stable"
+     "Fine suspension, easily redispersed",
+     "Settles; redispersible"
     ]
    ],
    "notes": [
+    "Solubility by shake-flask, 24 h, 25 °C, HPLC-UV; appearance and stability assessed on separately prepared 10 mg/mL formulations",
     "INTERIM: 4 of 4 results reported; remaining in progress"
    ]
   }

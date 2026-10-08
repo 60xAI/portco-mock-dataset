@@ -1,18 +1,17 @@
 {
  "family": "document",
- "summary": "Final report MV-2018-052 for Avernelwick Pharma: Microsomal CLint, fu,p by equilibrium dialysis on 40 compounds (Aminopyrimidine regioisomer). Study summary (benchmark) table on page 1; full compound tables, methods and control results follow.",
+ "summary": "Final report MV-2018-052 for Avernelwick Pharma: Microsomal CLint, fu,p by equilibrium dialysis on 40 compounds (Aminopyrimidine regioisomer). Study summary table on page 1; full compound tables, methods, controls and deviations follow.",
  "properties": {
   "title": "MV-2018-052 Final Report"
  },
  "header": "MV-2018-052 Final Report",
- "footer": null,
  "title_block": {
   "title": "AP02 clearance and free-fraction assessment, recovery-controlled dialysis",
   "subtitle": "Final Report",
   "lines": [
    "Study MV-2018-052 (LIMS M18/BIO/01223)",
    "Client: Avernelwick Pharma",
-   "Study Director: Dr M. Larkin",
+   "Study lead: Dr M. Larkin, DMPK Study Director",
    "Report date: April 16, 2018"
   ]
  },
@@ -21,7 +20,7 @@
    "heading": "1 Summary",
    "blocks": [
     {
-     "p": "40 compounds from the Avernelwick aminopyrimidine regioisomer series 02 were tested for Avernelwick Pharma in the Microsomal CLint, fu,p by equilibrium dialysis. Testing started on March 12, 2018 and results were reported on April 16, 2018. All runs met matrix acceptance criteria. "
+     "p": "40 compounds from the Avernelwick aminopyrimidine regioisomer series 02 were tested for Avernelwick Pharma in the Microsomal CLint, fu,p by equilibrium dialysis. Testing started on March 12, 2018 and results were reported on April 16, 2018. All accepted runs met matrix acceptance criteria. "
     },
     {
      "table": {
@@ -43,7 +42,14 @@
    "heading": "3 Test items",
    "blocks": [
     {
-     "p": "40 compounds were received as 10 mM DMSO solutions in one accession lot on March 12, 2018 and logged against M18/BIO/01223. Identity and concentration were taken as supplied by the client."
+     "p": "40 compounds were received as 10 mM DMSO solutions in one accession lot on March 12, 2018 and logged against M18/BIO/01223. Identity and concentration were taken as supplied by the client. Stocks were stored at -20 °C and thawed once for testing."
+    },
+    {
+     "image": {
+      "kind": "molecule_grid",
+      "ref": "PRJ0007",
+      "n": 8
+     }
     }
    ]
   },
@@ -56,10 +62,10 @@
    "level": 2,
    "blocks": [
     {
-     "p": "Test articles (1 µM) were incubated with pooled human and rat liver microsomes (0.5 mg/mL protein) and NADPH at 37 °C. Samples at 0, 5, 15, 30 and 45 minutes were quenched in acetonitrile with internal standard and analysed by LC-MS/MS. Intrinsic clearance was calculated from the first-order depletion rate; half-lives above 60 minutes are reported as >60."
+     "p": "Test articles (1 µM) were incubated with pooled human and rat liver microsomes (0.5 mg/mL protein) at 37 °C with NADPH (1 mM); a no-NADPH control at 45 minutes checks for non-metabolic loss. Samples at 0, 5, 15, 30 and 45 minutes are quenched in acetonitrile with internal standard and analyzed by LC-MS/MS. CLint is calculated from the first-order depletion slope. When depletion over 45 minutes is below the quantifiable limit, CLint is reported as an upper bound (<3 µL/min/mg) and half-life as a lower bound (>60 min)."
     },
     {
-     "p": "Matrix acceptance: verapamil (high clearance) and diltiazem (moderate clearance) within historical range in each run.",
+     "p": "Matrix acceptance: verapamil (high clearance) and diltiazem (moderate clearance) within 0.5-2 times their historical CLint in each run; no-NADPH loss below 15%.",
      "style": "note"
     }
    ]
@@ -69,10 +75,10 @@
    "level": 2,
    "blocks": [
     {
-     "p": "Binding to human plasma was measured by rapid equilibrium dialysis (5 µM test article, 4 h at 37 °C, PBS pH 7.4). Plasma and buffer compartments were matrix-matched before LC-MS/MS. Fraction unbound (fu) is reported with mass-balance recovery; recoveries below 70% are footnoted."
+     "p": "Binding to human plasma was measured by rapid equilibrium dialysis (5 µM test article, 4 h at 37 °C, PBS pH 7.4). Plasma and buffer compartments are matrix-matched before LC-MS/MS. Results are reported as percent bound and percent unbound with mass-balance recovery; recoveries below 70% are footnoted."
     },
     {
-     "p": "Warfarin was included as the binding control in every plate.",
+     "p": "Warfarin is included as the binding control in every plate (acceptance: 97-99.5% bound).",
      "style": "note"
     }
    ]
@@ -106,18 +112,34 @@
    ]
   },
   {
-   "heading": "6 Discussion",
+   "heading": "6 Deviations",
    "blocks": [
     {
-     "p": " Inhibition values are in vitro, at a fixed concentration, and do not by themselves predict clinical interaction risk; free exposure estimates are needed for that assessment."
+     "p": "No deviations from the study plan."
     }
    ]
   },
   {
-   "heading": "7 Conclusion",
+   "heading": "7 Discussion",
    "blocks": [
     {
-     "p": "The data support ranking within the set. Recommended next step: carry the compounds without CYP flags into exposure studies and run CYP3A4 IC50s for flagged analogues before in vivo work."
+     "p": "Microsomal clearance varied across the set and between species. Plasma binding should be considered with clearance when ranking exposure potential. Values are in vitro and do not by themselves predict clinical risk; free exposure estimates are needed for that assessment."
+    }
+   ]
+  },
+  {
+   "heading": "8 Conclusion",
+   "blocks": [
+    {
+     "p": "Recommended next steps: take the lower-clearance analogues into hepatocyte or in vivo follow-up."
+    }
+   ]
+  },
+  {
+   "heading": "9 Records",
+   "blocks": [
+    {
+     "p": "Raw data, assay worksheets and instrument files are retained for 5 years under M18/BIO/01223."
     }
    ]
   }
@@ -125,7 +147,7 @@
  "signature_block": [
   {
    "name": "Megan Larkin",
-   "role": "Study Director",
+   "role": "DMPK Study Director",
    "date": "April 16, 2018"
   },
   {

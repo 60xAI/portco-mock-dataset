@@ -1,6 +1,6 @@
 {
  "family": "workbook",
- "summary": "Results workbook for OT-23-S0046 (Avernelwick Pharmaceuticals Ltd): hERG (IKr) safety pharmacology, CYP safety interaction panel data for 44 compounds, control results and a study summary (benchmark) sheet.",
+ "summary": "Results workbook for OT-23-S0046 (Avernelwick Pharmaceuticals Ltd): hERG (IKr) safety pharmacology, CYP safety interaction panel data for 44 compounds, control results and a study summary sheet.",
  "properties": {
   "title": "OT-23-S0046 results"
  },
@@ -37,8 +37,8 @@
      }
     ],
     [
-     "Study Director",
-     "Dr N. Takamori"
+     "Study lead",
+     "Dr N. Takamori (Head of Toxicology)"
     ],
     [
      "Received",
@@ -53,6 +53,10 @@
      {
       "ref": "PRJ0013:n_compounds"
      }
+    ],
+    [
+     "Regulatory status",
+     "Exploratory, non-GLP (QA data-integrity audit only)"
     ],
     [
      "hERG median IC50 (µM)",
@@ -81,14 +85,14 @@
     [],
     [
      {
-      "v": "Study summary (benchmark)",
+      "v": "Study summary",
       "bold": true
      }
     ]
    ],
    "col_widths": {
     "A": 30,
-    "B": 34
+    "B": 44
    },
    "merged": [
     "A1:D1",
@@ -97,7 +101,7 @@
    "data_refs": [
     {
      "table_ref": "PRJ0013:benchmark",
-     "at": "A17"
+     "at": "A18"
     }
    ]
   },
@@ -105,7 +109,7 @@
    "name": "hERG (IKr)",
    "rows": [
     [
-     "hERG (IKr) safety pharmacology: tail-current IC50, 6-point, top 30 µM"
+     "hERG (IKr) safety pharmacology: tail-current IC50 per cell, 6-point, top 30 µM"
     ]
    ],
    "data_refs": [
@@ -124,7 +128,7 @@
    "comments": [
     {
      "cell": "E3",
-     "text": "Geometric mean of accepted cells; censored replicates excluded",
+     "text": "Geometric mean of finite cell IC50s when they are the majority of accepted cells; otherwise >30 µM (>10 µM where precipitation limited the top concentration). n = accepted cells (finite).",
      "author": "Naomi Takamori"
     }
    ]
@@ -158,6 +162,8 @@
      "Control",
      "Assay",
      "Result",
+     "Unit",
+     "Historical mean",
      "Acceptance",
      "Pass"
     ],
@@ -167,6 +173,8 @@
      {
       "ref": "PRJ0013:herg.control_e4031_nM"
      },
+     "nM",
+     "",
      "5-50 nM",
      "Yes"
     ],
@@ -176,7 +184,11 @@
      {
       "ref": "PRJ0013:cyp.control_CYP1A2_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0013:cyp.hist_CYP1A2_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -185,7 +197,11 @@
      {
       "ref": "PRJ0013:cyp.control_CYP2C9_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0013:cyp.hist_CYP2C9_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -194,7 +210,11 @@
      {
       "ref": "PRJ0013:cyp.control_CYP2C19_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0013:cyp.hist_CYP2C19_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -203,7 +223,11 @@
      {
       "ref": "PRJ0013:cyp.control_CYP2D6_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0013:cyp.hist_CYP2D6_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -212,19 +236,26 @@
      {
       "ref": "PRJ0013:cyp.control_CYP3A4_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0013:cyp.hist_CYP3A4_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [],
     [
-     "All runs met control validity criteria. Checked by Lucia Moretti."
+     "All accepted runs met control validity criteria; rejected runs were repeated as noted on the hERG sheet. Checked by Lucia Moretti."
     ]
    ],
    "col_widths": {
-    "A": 16,
-    "B": 28,
-    "C": 12,
-    "D": 30
+    "A": 22,
+    "B": 30,
+    "C": 10,
+    "D": 6,
+    "E": 16,
+    "F": 26,
+    "G": 6
    }
   }
  ]

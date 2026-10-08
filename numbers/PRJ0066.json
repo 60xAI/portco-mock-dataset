@@ -239,7 +239,7 @@
    ]
   },
   "cyp_ic50": {
-   "title": "CYP3A4 IC50 (µM)",
+   "title": "CYP3A4 IC50 (µM), midazolam 1'-hydroxylation",
    "columns": [
     "Compound",
     "IC50 (µM)",
@@ -254,11 +254,11 @@
     [
      "BP16-05410",
      ">50",
-     "testosterone"
+     "midazolam"
     ],
     [
      "BP16-05422",
-     "6.3",
+     "14",
      "midazolam"
     ],
     [
@@ -268,13 +268,13 @@
     ],
     [
      "BP16-05470",
-     ">50",
-     "testosterone"
+     "42",
+     "midazolam"
     ],
     [
      "BP16-05472",
-     "0.14",
-     "testosterone"
+     "0.16",
+     "midazolam"
     ],
     [
      "BP16-05478",
@@ -283,8 +283,8 @@
     ],
     [
      "BP16-05482",
-     "0.64",
-     "testosterone"
+     "0.62",
+     "midazolam"
     ],
     [
      "BP16-05500",
@@ -293,12 +293,12 @@
     ],
     [
      "BP16-05512",
-     "48",
+     ">50",
      "midazolam"
     ]
    ],
    "notes": [
-    "7-point curve, top 50 µM; ketoconazole control",
+    "7-point curve, top 50 µM; ketoconazole control run alongside on every plate",
     "INTERIM: 10 of 18 results reported; remaining in progress"
    ]
   },
@@ -372,14 +372,20 @@
  "values": {
   "cyp.n_gt50_CYP1A2": "2",
   "cyp.control_CYP1A2_uM": "1.7",
+  "cyp.hist_CYP1A2_uM": "1.8",
   "cyp.n_gt50_CYP2C9": "4",
   "cyp.control_CYP2C9_uM": "0.41",
+  "cyp.hist_CYP2C9_uM": "0.35",
   "cyp.n_gt50_CYP2C19": "4",
   "cyp.control_CYP2C19_uM": "1.2",
+  "cyp.hist_CYP2C19_uM": "1.2",
   "cyp.n_gt50_CYP2D6": "4",
   "cyp.control_CYP2D6_uM": "0.049",
+  "cyp.hist_CYP2D6_uM": "0.060",
   "cyp.n_gt50_CYP3A4": "6",
   "cyp.control_CYP3A4_uM": "0.021",
+  "cyp.hist_CYP3A4_uM": "0.030",
+  "cyp.most_flagged": "CYP3A4",
   "cyp.n_any_gt50": "9",
   "cyp.BP16-05400.CYP3A4_pct": "82",
   "cyp.BP16-05410.CYP3A4_pct": "13",
@@ -399,6 +405,9 @@
   "cyp.BP16-05548.CYP3A4_pct": "-4",
   "cyp.BP16-05574.CYP3A4_pct": "29",
   "cyp.BP16-05586.CYP3A4_pct": "96",
+  "cyp3a4_ic50.n_lt_1uM": "4",
+  "cyp3a4_ic50.n_lt_10uM": "5",
+  "cyp3a4_ic50.n_tested": "18",
   "price": "USD 27,300",
   "n_compounds": "18",
   "turnaround_days": "",

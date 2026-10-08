@@ -586,7 +586,7 @@
    "columns": [
     "Compound",
     "% bound",
-    "fu",
+    "Unbound (%)",
     "Recovery (%)"
    ],
    "rows": [

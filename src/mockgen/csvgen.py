@@ -39,31 +39,54 @@ def staff_directory(w) -> tuple[list[str], list[list]]:
         rows.append([f"E{1000 + i:05d}", p.canonical_name, disp, p.username, email, last.title, legacy, bu,
                      sl_names.get(p.service_line, p.service_line), office, _fmt(p.joined), _fmt(p.left),
                      "Left" if p.left else "Active", ""])
-    # line managers: a deterministic senior person in same unit
+    # line managers: rank by seniority keywords; managers must outrank reports; unit heads report to the CEO; CEO to the Chair
+    def rank(title):
+        t = title.lower()
+        for k, v in [("chair", 9), ("chief executive", 8), ("head of", 7), ("group", 6), ("associate director", 5), ("director", 6),
+                     ("lead", 4), ("manager", 4), ("principal", 4), ("team leader", 4), ("senior", 3), ("study director", 3)]:
+            if k in t:
+                return v
+        return 1
+    by_name = {r[1]: r for r in rows}
+    chair = next((r for r in rows if "chair" in r[5].lower() and r[12] == "Active"), None)
+    ceo = next((r for r in rows if "chief executive" in r[5].lower() and r[12] == "Active"), None)
     by_unit = {}
     for r in rows:
-        by_unit.setdefault(r[7], []).append(r)
+        if r[12] == "Active":
+            by_unit.setdefault(r[7], []).append(r)
     for u, rs in by_unit.items():
-        actives = [r for r in rs if r[12] == "Active"]
+        rs.sort(key=lambda r: (-rank(r[5]), r[0]))
+        head = rs[0]
         for r in rs:
-            if r[12] == "Left":
+            if r is chair:
                 continue
-            if actives and rnd.random() < 0.85:
-                m = rnd.choice(actives)
-                if m is not r:
-                    r[13] = m[1]
+            if r is ceo:
+                r[13] = chair[1] if chair else ""
+                continue
+            if r is head:
+                r[13] = ceo[1] if ceo else ""
+                continue
+            seniors = [m for m in rs if rank(m[5]) > rank(r[5])]
+            r[13] = (seniors[zlib.crc32(r[0].encode()) % len(seniors)] if seniors else head)[1]
     return cols, rows
 
 
-def lims_export(w) -> tuple[list[str], list[list]]:
-    cols = ["LIMS_ID", "Legacy_Ref", "Site", "Client", "Service", "Assays", "Compounds", "Received", "Started", "Reported", "Status", "Study_Director", "Invoice_Value", "Currency"]
+def lims_export(w, snap=None) -> tuple[list[str], list[list]]:
+    cols = ["LIMS_ID", "Legacy_Ref", "Site", "Client", "Service", "Assays", "Compounds", "Received", "Started", "Reported", "Status", "Study_Director", "Invoice_Value", "Currency", "Source_Date_Format"]
     rows = []
     stat = {"completed": "REPORTED", "in_progress": "IN PROGRESS", "lost": "QUOTE - NOT WON", "unanswered": "QUOTE - NO RESPONSE",
             "on_hold": "ON HOLD", "cancelled": "CANCELLED"}
     for p in sorted(w.projects.values(), key=lambda x: (x.dates.quote, x.id)):
-        if p.firm == "G":
+        if p.firm == "G" or (snap and p.dates.quote > snap):
             continue
         f = w.firms[p.firm]
+        st_ = p.status
+        start = p.dates.start if (p.dates.start and (not snap or p.dates.start <= snap)) else None
+        done = p.dates.completion if (p.dates.completion and (not snap or p.dates.completion <= snap)) else None
+        if snap and st_ == "completed" and not done:
+            st_ = "in_progress" if start else "unanswered"
+        if snap and st_ == "in_progress" and not start:
+            st_ = "unanswered"
         conv = f.date_convention
         assays = []
         for a in p.assays:
@@ -73,17 +96,20 @@ def lims_export(w) -> tuple[list[str], list[list]]:
         lead = w.people[p.lead].username if p.lead in w.people else p.lead
         rows.append([p.lims_id, p.firm_project_id, f.short_name, p.client_variant.upper() if zlib.crc32(p.id.encode()) % 5 == 0 else p.client_variant,
                      w.service_lines.get(p.services[0], {}).get("name", p.services[0]) if p.services else "",
-                     "; ".join(assays), p.n_compounds or "", _fmt(p.dates.quote, conv), _fmt(p.dates.start, conv), _fmt(p.dates.completion, conv),
-                     stat[p.status], lead, f"{p.price.amount:.2f}" if p.status not in ("lost", "unanswered") else "", p.price.currency])
+                     "; ".join(assays), p.n_compounds or "", _fmt(p.dates.quote, conv), _fmt(start, conv), _fmt(done, conv),
+                     ("QUOTE - AWAITING PO" if (st_ == "unanswered" and p.status in ("completed", "in_progress")) else stat[st_]), lead,
+                     f"{p.price.amount:.2f}" if st_ not in ("lost", "unanswered") else "", p.price.currency, "MM/DD/YYYY" if conv == "US" else "DD/MM/YYYY"])
     return cols, rows
 
 
-def client_list(w) -> tuple[list[str], list[list]]:
+def client_list(w, snap=None) -> tuple[list[str], list[list]]:
     cols = ["Account ID", "Account Name", "Source System", "Segment", "Country", "City", "First Activity", "Last Activity", "Owner", "Notes"]
     rows = []
     rnd = random.Random(SEED + 7)
     firstlast = {}
     for p in w.projects.values():
+        if snap and p.dates.quote > snap:
+            continue
         k = (p.client_id, p.firm, p.client_variant)
         d = p.dates.quote
         a, b = firstlast.get(k, (d, d))
@@ -104,8 +130,13 @@ def client_list(w) -> tuple[list[str], list[list]]:
             note = ""
             if c.role == "q3_target" and rnd.random() < 0.5:
                 note = "possible duplicate - check with finance"
+            owner = ""
+            if firm in w.firms and fl and rnd.random() < 0.6:
+                bd = [p for p in w.people.values() if p.home_firm == firm and any(k in (p.roles[-1].title.lower()) for k in ("business development", "commercial", "bd")) and w.employed(p.id, None, fl[1])]
+                if bd:
+                    owner = bd[0].username
             rows.append([f"ACC-{n:04d}", name, src, c.segment.replace("_", " "), c.location.country, c.location.city,
-                         _fmt(fl[0]) if fl else "", _fmt(fl[1]) if fl else "", "", note])
+                         _fmt(fl[0]) if fl else "", _fmt(fl[1]) if fl else "", owner, note])
     return cols, rows
 
 
@@ -117,7 +148,7 @@ def render_csv(entry, w, errors) -> Path | None:
     if not gen:
         errors.append(f"no CSV generator for doc_type {entry.doc_type}")
         return None
-    cols, rows = gen(w)
+    cols, rows = gen(w, entry.created.date()) if entry.doc_type in ("lims_export", "client_list") else gen(w)
     dst = out_path(entry)
     dst.parent.mkdir(parents=True, exist_ok=True)
     buf = io.StringIO()

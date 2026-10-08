@@ -1,6 +1,6 @@
 {
  "family": "deck",
- "summary": "Emil Ostlund's April 2025 copy of the Quenverell capability deck, saved for a single pitch. Slide 3 title is mistyped as 'Bioinfromatics for drug discovery' and one bullet was edited for an oncology audience; the case study slide was replaced with a placeholder.",
+ "summary": "Emil Ostlund's April 2025 copy of the Quenverell capability deck, saved for an oncology pitch. Slide 3 title is mistyped as 'Bioinfromatics for drug discovery' and the biomarker bullet was edited for an oncology audience (with a typo); otherwise a near-duplicate of the final deck.",
  "properties": {
   "title": "Copy of Quenverell capabilities 2025",
   "subject": "Capability deck",
@@ -38,7 +38,7 @@
      "level": 1
     },
     {
-     "text": "Target validation: test whether the target is expressed in the right tissue, cell type and patient subgroup",
+     "text": "Target validation support: check expression in the relevant tissues, cell types and patient subgroups to guide functional testing",
      "level": 1
     },
     {
@@ -46,7 +46,7 @@
      "level": 1
     },
     {
-     "text": "Biomarkers and stratification: find the patients most likley to respond, e.g. by tumour subtype",
+     "text": "Biomarker candidates: propose response signatures for the patients most likley to respond, e.g. by tumour subtype",
      "level": 1
     },
     {
@@ -159,11 +159,14 @@
   },
   {
    "layout": "title_content",
-   "title": "Case study",
+   "title": "Case study: target prioritisation for an inflammation programme",
    "bullets": [
-    "[TBC - pick an oncology example]",
-    "Ask Fiona for the anonymised version"
-   ]
+    "Question: which candidate genes justify building a cell assay?",
+    "Combined patient-tissue RNA-seq, genetic evidence and pathway context to prioritise candidates",
+    "Flagged candidates with broad tissue expression as safety risks",
+    "The client commissioned follow-up cell assays with Brindlewythe for the top-ranked targets"
+   ],
+   "notes": "Client anonymised; details on request with the client's permission."
   },
   {
    "layout": "title_content",

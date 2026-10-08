@@ -1,6 +1,6 @@
 {
  "family": "workbook",
- "summary": "Results workbook for MV-2022-176 (Orvessant Biosciences Pty Ltd): Five-isoform DDI screen data for 40 compounds, control results and a study summary (benchmark) sheet.",
+ "summary": "Results workbook for MV-2022-176 (Orvessant Biosciences Pty Ltd): Five-isoform DDI screen data for 40 compounds, control results and a study summary sheet.",
  "properties": {
   "title": "MV-2022-176 results"
  },
@@ -37,8 +37,8 @@
      }
     ],
     [
-     "Study Director",
-     "Dr M. Larkin"
+     "Study lead",
+     "Dr M. Larkin (DMPK Study Director)"
     ],
     [
      "Received",
@@ -69,14 +69,14 @@
     [],
     [
      {
-      "v": "Study summary (benchmark)",
+      "v": "Study summary",
       "bold": true
      }
     ]
    ],
    "col_widths": {
     "A": 30,
-    "B": 34
+    "B": 44
    },
    "merged": [
     "A1:D1",
@@ -118,6 +118,8 @@
      "Control",
      "Assay",
      "Result",
+     "Unit",
+     "Historical mean",
      "Acceptance",
      "Pass"
     ],
@@ -127,7 +129,11 @@
      {
       "ref": "PRJ0006:cyp.control_CYP1A2_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0006:cyp.hist_CYP1A2_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -136,7 +142,11 @@
      {
       "ref": "PRJ0006:cyp.control_CYP2C9_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0006:cyp.hist_CYP2C9_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -145,7 +155,11 @@
      {
       "ref": "PRJ0006:cyp.control_CYP2C19_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0006:cyp.hist_CYP2C19_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -154,7 +168,11 @@
      {
       "ref": "PRJ0006:cyp.control_CYP2D6_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0006:cyp.hist_CYP2D6_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [
@@ -163,19 +181,26 @@
      {
       "ref": "PRJ0006:cyp.control_CYP3A4_uM"
      },
-     "within 3-fold of historical mean",
+     "µM",
+     {
+      "ref": "PRJ0006:cyp.hist_CYP3A4_uM"
+     },
+     "0.5-2 x historical mean",
      "Yes"
     ],
     [],
     [
-     "All runs met matrix acceptance criteria. Checked by Helen Marchwood."
+     "All accepted runs met matrix acceptance criteria. Checked by Helen Marchwood."
     ]
    ],
    "col_widths": {
-    "A": 16,
-    "B": 28,
-    "C": 12,
-    "D": 30
+    "A": 22,
+    "B": 30,
+    "C": 10,
+    "D": 6,
+    "E": 16,
+    "F": 26,
+    "G": 6
    }
   }
  ]

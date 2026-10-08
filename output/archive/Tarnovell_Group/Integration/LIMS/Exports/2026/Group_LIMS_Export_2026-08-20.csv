@@ -1,115 +1,113 @@
-﻿LIMS_ID,Legacy_Ref,Site,Client,Service,Assays,Compounds,Received,Started,Reported,Status,Study_Director,Invoice_Value,Currency
-VA19960654,VD-96-072,Vellacombe,Elvarmere Biosciences AB,Medicinal chemistry,Analogue preparation,24,04/11/1996,06/12/1996,13/02/1997,REPORTED,rcalderwood,24000.00,GBP
-VA19980690,VD-98-076,Vellacombe,Drelvessa Therapeutics SAS,Medicinal chemistry,Analogue preparation,32,19/10/1998,09/12/1998,13/04/1999,REPORTED,rcalderwood,26500.00,GBP
-B-ACC-2001-01010,BW01_0059,Brindlewythe,Quorenthel Pharma GmbH,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,14/03/2001,06/04/2001,18/05/2001,REPORTED,browcroft,10700.00,GBP
-B-ACC-2003-01676,BW03_0098,Brindlewythe,BELQUORIN PHARMA,In vitro biology and screening,hERG automated patch clamp,32,21/04/2003,07/05/2003,23/05/2003,REPORTED,browcroft,8500.00,GBP
-VA20050581,VD-05-064,Vellacombe,CORVENLEA PHARMA,Medicinal chemistry,Analogue preparation,32,08/07/2005,22/07/2005,07/11/2005,REPORTED,rcalderwood,27000.00,GBP
-M06/BIO/02077,MV-2006-090,Merrivoss,Nimbravelle Medicines Inc,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,05/22/2006,06/05/2006,07/18/2006,REPORTED,mlarkin,19200.00,USD
-M08/BIO/00303,MV-2008-013,Merrivoss,Kelbravik Therapeutics ApS,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,01/10/2008,02/18/2008,03/21/2008,REPORTED,mlarkin,14900.00,USD
-B-ACC-2011-04692,BW11_0275,Brindlewythe,Avernelwick Pharmaceuticals Ltd,In vitro biology and screening,hERG automated patch clamp; 5-isoform CYP panel,40,23/08/2011,12/09/2011,27/09/2011,REPORTED,aveldershain,11800.00,GBP
-WST-11-005959,WA/2011/192,Westravelle,Esmervane Pharmaceuticals,Analytical chemistry and stability testing,ICH chamber programme,24,12/10/2011,07/11/2011,07/05/2012,REPORTED,alicep,44800.00,GBP
-QDATA2011-0467,QV.11.073,Quenverell,Rimucavel Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,23/12/2011,25/01/2012,03/04/2012,REPORTED,tzawiernicki,45000.00,GBP
-QDATA2013-0351,QV.13.055,Quenverell,Drelvessa Therapeutics SAS,Bioinformatics and computational chemistry,Virtual library triage,,12/08/2013,30/09/2013,06/11/2013,REPORTED,tzawiernicki,49600.00,GBP
-WST-13-008363,WA/2013/269,Westravelle,KALMORVETH PHARMA,Analytical chemistry and stability testing,Assay and related-substances validation,,20/12/2013,27/01/2014,17/03/2014,REPORTED,alicep,49500.00,GBP
-WST-15-004255,WA/2015/137,Westravelle,Wexanthel Medicines,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,09/06/2015,22/07/2015,23/01/2017,REPORTED,alicep,54600.00,GBP
-B-ACC-2015-04728,BW15_0277,Brindlewythe,Cadrunelle Biosciences,In vitro biology and screening,5-isoform CYP panel,40,29/07/2015,10/08/2015,28/08/2015,REPORTED,browcroft,12000.00,GBP
-QDATA2015-0400,QV.15.065,Quenverell,Doventhar Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,24/08/2015,05/10/2015,23/12/2015,REPORTED,tzawiernicki,54600.00,GBP
-M15/BIO/05540,MV-2015-240,Merrivoss,Aldrevessa Therapeutics,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,40,10/05/2015,11/16/2015,12/21/2015,REPORTED,mlarkin,9400.00,USD
-VA20151235,VD-15-134,Vellacombe,FELDORUNE THERAPEUTICS BV,Medicinal chemistry,Analogue preparation,40,04/11/2015,28/12/2015,30/03/2016,REPORTED,rcalderwood,42300.00,GBP
-M15/BIO/06146,MV-2015-266,Merrivoss,Selverant,In vitro biology and screening,IKr inhibition; Five-isoform DDI screen,38,11/05/2015,12/08/2015,12/28/2015,REPORTED,mrinalvesi,18700.00,USD
-DF16-00173,DL_2016_0014,Durnesswick,Odraverne Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,02/01/2016,02/24/2016,04/15/2016,REPORTED,carverj,36200.00,USD
-M16/BIO/01247,MV-2016-053,Merrivoss,Corvenlea Ltd,DMPK and bioanalysis,"Microsomal CLint; Hepatocyte depletion CLint; fu,p by equilibrium dialysis",40,02/26/2016,04/14/2016,05/09/2016,REPORTED,mlarkin,23500.00,USD
-VA20160323,VD-16-033,Vellacombe,Valquessia Pharmaceuticals SpA,Medicinal chemistry,Analogue preparation,18,04/03/2016,11/04/2016,30/08/2016,REPORTED,rcalderwood,45300.00,GBP
-WST-16-002115,WA/2016/068,Westravelle,Auvrelquith Biosciences,Analytical chemistry and stability testing,ICH chamber programme,,14/03/2016,25/04/2016,25/04/2017,REPORTED,alicep,58700.00,GBP
-DF16-00334,DL_2016_0027,Durnesswick,Auvrelquith Biosciences,Formulation and early CMC,Vehicle ladder,,04/04/2016,04/19/2016,06/06/2016,REPORTED,carverj,31000.00,USD
-M16/BIO/02193,MV-2016-095,Merrivoss,Tervemere Pharma AG,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,04/14/2016,05/30/2016,06/16/2016,REPORTED,mlarkin,20300.00,USD
-B-ACC-2016-02878,BW16_0168,Brindlewythe,ELVARMERE BIOSCIENCES AB,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,02/05/2016,23/05/2016,14/07/2016,REPORTED,browcroft,12600.00,GBP
-QDATA2016-0318,QV.16.049,Quenverell,Bravossent Therapeutics,Bioinformatics and computational chemistry,Virtual library triage,,03/06/2016,21/07/2016,15/09/2016,REPORTED,tzawiernicki,58500.00,GBP
-DF16-00532,DL_2016_0044,Durnesswick,ESMERVANE PHARMACEUTICALS,Formulation and early CMC,Vehicle ladder,,07/25/2016,09/02/2016,11/23/2016,REPORTED,carverj,34500.00,USD
-QDATA2017-0146,QV.17.021,Quenverell,Corvenlith Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,27/02/2017,13/03/2017,29/05/2017,REPORTED,tzawiernicki,44300.00,GBP
-VA20170410,VD-17-044,Vellacombe,Rennelwick Institute Drug Discovery Unit,Medicinal chemistry,Analogue preparation,24,23/03/2017,24/04/2017,01/08/2017,REPORTED,rcalderwood,34300.00,GBP
-M17/BIO/02257,MV-2017-098,Merrivoss,Elvarmere Biosciences AB,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,04/12/2017,06/02/2017,07/10/2017,REPORTED,mlarkin,21900.00,USD
-B-ACC-2017-02854,BW17_0167,Brindlewythe,Selverant Therapeutics Inc,In vitro biology and screening,hERG automated patch clamp,40,27/04/2017,25/05/2017,14/06/2017,REPORTED,browcroft,10900.00,GBP
-WST-17-005742,WA/2017/185,Westravelle,ORVESSANT BIOSCIENCES PTY LTD,Analytical chemistry and stability testing,Assay and related-substances validation,,24/07/2017,30/08/2017,20/10/2017,REPORTED,alicep,62900.00,GBP
-B-ACC-2017-07069,BW17_0415,Brindlewythe,Quorenthel Pharma GmbH,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,23/10/2017,04/12/2017,23/01/2018,REPORTED,browcroft,13600.00,GBP
-DF17-00864,DL_2017_0070,Durnesswick,Jorvessara Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,10/23/2017,11/07/2017,01/19/2018,REPORTED,carverj,38900.00,USD
-DF18-00131,DL_2018_0010,Durnesswick,Nimbravelle Medicines Inc,Formulation and early CMC,Vehicle ladder,,01/10/2018,02/08/2018,04/26/2018,REPORTED,carverj,34400.00,USD
-M18/BIO/01223,MV-2018-052,Merrivoss,Avernelwick Pharma,DMPK and bioanalysis,"Microsomal CLint; fu,p by equilibrium dialysis",40,02/20/2018,03/12/2018,04/16/2018,REPORTED,mlarkin,23500.00,USD
-QDATA2018-0189,QV.18.027,Quenverell,Vesselquarn Medical Research Trust,Bioinformatics and computational chemistry,Virtual library triage,,05/03/2018,16/03/2018,08/06/2018,REPORTED,tzawiernicki,48100.00,GBP
-WST-18-002559,WA/2018/082,Westravelle,ISTRAVUNE BIOSCIENCES,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,23/03/2018,30/04/2018,30/04/2020,REPORTED,alicep,47600.00,GBP
-VA20180545,VD-18-059,Vellacombe,Vesselquarn Medical Research Trust,Medicinal chemistry,Analogue preparation,32,25/04/2018,14/05/2018,24/09/2018,REPORTED,rcalderwood,37300.00,GBP
-DF18-00421,DL_2018_0034,Durnesswick,Wexanthel Medicines,Formulation and early CMC,Vehicle ladder,,05/14/2018,06/01/2018,07/24/2018,REPORTED,carverj,41600.00,USD
-B-ACC-2018-03853,BW18_0225,Brindlewythe,Feldorune Therapeutics BV,In vitro biology and screening,hERG automated patch clamp,32,06/06/2018,06/07/2018,23/07/2018,REPORTED,browcroft,10600.00,GBP
-VA20181184,VD-18-131,Vellacombe,Rennelwick Institute Drug Discovery Unit,Medicinal chemistry,Analogue preparation,,28/09/2018,05/11/2018,28/01/2019,REPORTED,rcalderwood,39300.00,GBP
-M18/BIO/07750,MV-2018-336,Merrivoss,Quorenthel Pharma GmbH,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,12/21/2018,01/28/2019,02/28/2019,REPORTED,mlarkin,23500.00,USD
-WST-19-000327,WA/2019/010,Westravelle,Odraverne Pharmaceuticals,Analytical chemistry and stability testing,ICH chamber programme,,03/01/2019,12/02/2019,12/08/2019,REPORTED,alicep,51700.00,GBP
-M19/BIO/01882,MV-2019-081,Merrivoss,Parvessune Pharmaceuticals,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,03/20/2019,03/27/2019,05/10/2019,REPORTED,mlarkin,12600.00,USD
-QDATA2019-0323,QV.19.050,Quenverell,Pelmucent Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,20/05/2019,27/06/2019,06/08/2019,REPORTED,tzawiernicki,52100.00,GBP
-VA20191084,VD-19-120,Vellacombe,Doventhar Therapeutics,Medicinal chemistry,Analogue preparation,40,02/09/2019,28/10/2019,02/03/2020,REPORTED,rcalderwood,40300.00,GBP
-DF19-00879,DL_2019_0071,Durnesswick,Auvrelquith Biosciences,Formulation and early CMC,Vehicle ladder,,09/05/2019,10/04/2019,11/18/2019,REPORTED,carverj,31600.00,USD
-B-ACC-2019-07416,BW19_0436,Brindlewythe,ORVESSANT BIOSCIENCES PTY LTD,In vitro biology and screening,5-isoform CYP panel,40,22/10/2019,12/11/2019,29/11/2019,REPORTED,browcroft,11500.00,GBP
-VA20200254,VD-20-028,Vellacombe,FARNOVESSA MEDICINES,Medicinal chemistry,Analogue preparation,18,19/02/2020,30/03/2020,10/08/2020,REPORTED,rcalderwood,43500.00,GBP
-M20/BIO/02046,MV-2020-088,Merrivoss,Orvessant Biosciences Pty Ltd,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,03/25/2020,04/10/2020,04/29/2020,REPORTED,mlarkin,27100.00,USD
-B-ACC-2020-02338,BW20_0137,Brindlewythe,Rennelwick Institute Drug Discovery Unit,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,27/03/2020,06/04/2020,22/05/2020,REPORTED,browcroft,17100.00,GBP
-DF20-00615,DL_2020_0050,Durnesswick,Nimbravelle Medicines Inc,Formulation and early CMC,Vehicle ladder,,06/15/2020,07/06/2020,09/28/2020,REPORTED,carverj,34200.00,USD
-WST-20-006965,WA/2020/224,Westravelle,Ardelvune Pharmaceuticals,Analytical chemistry and stability testing,Assay and related-substances validation,,07/08/2020,24/08/2020,06/10/2020,REPORTED,alicep,55900.00,GBP
-WST-20-009708,WA/2020/313,Westravelle,Corvenlea Pharmaceuticals plc,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,1,05/11/2020,30/11/2020,30/11/2021,REPORTED,alicep,53000.00,GBP
-VA20210739,VD-21-081,Vellacombe,Vornelquith Biosciences,Medicinal chemistry,Analogue preparation,,04/06/2021,25/06/2021,01/11/2021,REPORTED,rcalderwood,46800.00,GBP
-B-ACC-2021-04086,BW21_0240,Brindlewythe,Tervemere Pharma AG,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,04/06/2021,05/07/2021,19/08/2021,REPORTED,browcroft,18400.00,GBP
-WST-21-008374,WA/2021/270,Westravelle,PARVESSUNE PHARMACEUTICALS,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,16/09/2021,30/09/2021,30/09/2022,REPORTED,alicep,60400.00,GBP
-M21/BIO/06539,MV-2021-284,Merrivoss,Kelbravik Therapeutics ApS,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,09/27/2021,11/16/2021,12/20/2021,REPORTED,mlarkin,20500.00,USD
-B-ACC-2021-07710,BW21_0453,Brindlewythe,Avernelwick Pharmaceuticals Ltd,In vitro biology and screening,hERG automated patch clamp; 5-isoform CYP panel; 3A4 concentration response,42,18/10/2021,08/11/2021,25/11/2021,REPORTED,lbenmezroun,15900.00,GBP
-B-ACC-2022-02415,BW22_0141,Brindlewythe,Cadrunelle Biosciences,In vitro biology and screening,hERG automated patch clamp,32,29/03/2022,26/04/2022,12/05/2022,REPORTED,browcroft,14200.00,GBP
-M22/BIO/02562,MV-2022-111,Merrivoss,RENNELWICK INSTITUTE DRUG DISCOVERY UNIT,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,04/13/2022,04/25/2022,06/20/2022,REPORTED,mlarkin,22300.00,USD
-VA20220698,VD-22-076,Vellacombe,ELVARMERE BIOSCIENCES AB,Medicinal chemistry,Analogue preparation,,26/05/2022,18/07/2022,24/10/2022,REPORTED,rcalderwood,50300.00,GBP
-M22/BIO/04063,MV-2022-176,Merrivoss,Orvessant Biosciences Pty Ltd,In vitro biology and screening,Five-isoform DDI screen,40,06/13/2022,07/25/2022,08/10/2022,REPORTED,mlarkin,12400.00,USD
-WST-22-007025,WA/2022/226,Westravelle,Xarnelvune Pharmaceuticals,Analytical chemistry and stability testing,ICH chamber programme,,27/07/2022,08/08/2022,08/02/2024,REPORTED,alicep,65000.00,GBP
-B-ACC-2023-01043,BW23_0061,Brindlewythe,Farnovessa Medicines,In vitro biology and screening,5-isoform CYP panel,40,06/02/2023,13/03/2023,29/03/2023,REPORTED,browcroft,10800.00,GBP
-WST-23-004243,WA/2023/136,Westravelle,Culdrevane Pharma,Analytical chemistry and stability testing,Assay and related-substances validation,,28/04/2023,18/05/2023,12/07/2023,REPORTED,alicep,69800.00,GBP
-QDATA2023-0617,QV.23.100,Quenverell,Corvenlith Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,11/09/2023,30/10/2023,18/12/2023,REPORTED,tzawiernicki,54400.00,GBP
-M23/BIO/06630,MV-2023-288,Merrivoss,NIMBRAVELLE MEDICINES INC,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,09/14/2023,10/16/2023,11/27/2023,REPORTED,mlarkin,12000.00,USD
-B-ACC-2024-01673,BW24_0097,Brindlewythe,AVERNELWICK PHARMACEUTICALS LTD,In vitro biology and screening,5-isoform CYP panel,40,26/02/2024,07/03/2024,,CANCELLED,browcroft,14300.00,GBP
-QDATA2024-0164,QV.24.026,Quenverell,RIMUCAVEL THERAPEUTICS,Bioinformatics and computational chemistry,RNA-seq differential expression,,01/03/2024,,,QUOTE - NO RESPONSE,tzawiernicki,,GBP
-WST-24-004452,WA/2024/143,Westravelle,Zostremal Pharma,Analytical chemistry and stability testing,Assay and related-substances validation,,02/05/2024,,,QUOTE - NO RESPONSE,alicep,,GBP
-B-ACC-2024-04310,BW24_0253,Brindlewythe,AVERNELWICK PHARMACEUTICALS LTD,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,29/05/2024,11/07/2024,26/08/2024,REPORTED,browcroft,16200.00,GBP
-M24/BIO/03939,MV-2024-171,Merrivoss,Celmorath Pharma,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,05/30/2024,07/01/2024,,ON HOLD,mlarkin,13000.00,USD
-B-ACC-2024-05167,BW24_0303,Brindlewythe,Tervemere Pharma AG,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,27/06/2024,,,QUOTE - NOT WON,browcroft,,GBP
-WST-24-006564,WA/2024/211,Westravelle,Aldrevessa Therapeutics,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,01/07/2024,22/07/2024,22/07/2025,REPORTED,alicep,74800.00,GBP
-B-ACC-2024-05636,BW24_0330,Brindlewythe,Rennelwick Institute Drug Discovery Unit,In vitro biology and screening,5-isoform CYP panel,40,15/07/2024,,,QUOTE - NOT WON,browcroft,,GBP
-VA20240986,VD-24-109,Vellacombe,Helvessora Biosciences,Medicinal chemistry,Analogue preparation,,16/07/2024,,,QUOTE - NO RESPONSE,rcalderwood,,GBP
-M24/BIO/06736,MV-2024-292,Merrivoss,Tervemere Pharma AG,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,09/13/2024,,,QUOTE - NO RESPONSE,mlarkin,,USD
-WST-24-009763,WA/2024/314,Westravelle,ESMERVANE PHARMACEUTICALS,Analytical chemistry and stability testing,ICH chamber programme,,03/10/2024,29/10/2024,,CANCELLED,alicep,74800.00,GBP
-M24/BIO/08257,MV-2024-358,Merrivoss,Tervemere Pharma AG,In vitro biology and screening,IKr inhibition; Five-isoform DDI screen; CYP3A4 inhibition curves,40,11/11/2024,12/05/2024,12/19/2024,REPORTED,pnandekuri,24700.00,USD
-DF24-01617,DL_2024_0134,Durnesswick,Jorvessara Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,12/23/2024,,,QUOTE - NOT WON,carverj,,USD
-WST-25-003364,WA/2025/108,Westravelle,Telquorath Pharma,Analytical chemistry and stability testing,ICH chamber programme,,31/03/2025,,,QUOTE - NOT WON,alicep,,GBP
-VA20250613,VD-25-066,Vellacombe,Rimucavel Therapeutics,Medicinal chemistry,Analogue preparation,,23/04/2025,21/05/2025,,ON HOLD,rcalderwood,51700.00,GBP
-B-ACC-2025-03942,BW25_0231,Brindlewythe,Tervemere Pharma AG,In vitro biology and screening,hERG automated patch clamp,32,15/05/2025,06/06/2025,25/06/2025,REPORTED,browcroft,13300.00,GBP
-B-ACC-2025-04654,BW25_0273,Brindlewythe,Belquorin Pharma,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,09/06/2025,,,QUOTE - NO RESPONSE,browcroft,,GBP
-M25/BIO/05243,MV-2025-227,Merrivoss,ELVARMERE BIOSCIENCES AB,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,07/14/2025,,,QUOTE - NOT WON,mlarkin,,USD
-QDATA2025-0522,QV.25.086,Quenverell,Drelvessa Therapeutics SAS,Bioinformatics and computational chemistry,Virtual library triage,,24/07/2025,08/09/2025,13/11/2025,REPORTED,tzawiernicki,60400.00,GBP
-VA20251135,VD-25-125,Vellacombe,ZELMORVEN THERAPEUTICS,Medicinal chemistry,Analogue preparation,,15/08/2025,,,QUOTE - NOT WON,rcalderwood,,GBP
-M25/BIO/06272,MV-2025-272,Merrivoss,SELVERANT,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,08/18/2025,,,QUOTE - NOT WON,mlarkin,,USD
-QDATA2025-0638,QV.25.103,Quenverell,Drelvessa Therapeutics SAS,Bioinformatics and computational chemistry,Virtual library triage,,27/08/2025,08/09/2025,,ON HOLD,tzawiernicki,54000.00,GBP
-QDATA2025-0672,QV.25.108,Quenverell,Jelmorath Therapeutics,Bioinformatics and computational chemistry,Virtual library triage,,09/09/2025,,,QUOTE - NOT WON,tzawiernicki,,GBP
-B-ACC-2025-08282,BW25_0486,Brindlewythe,Farnovessa Medicines,In vitro biology and screening,hERG automated patch clamp,32,13/10/2025,24/11/2025,,ON HOLD,browcroft,14000.00,GBP
-DF25-01573,DL_2025_0130,Durnesswick,Wexanthel Medicines,Formulation and early CMC,Vehicle ladder,,12/01/2025,01/19/2026,,ON HOLD,carverj,47400.00,USD
-WST-25-012645,WA/2025/407,Westravelle,Quorenthel Pharma GmbH,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,09/12/2025,14/01/2026,,ON HOLD,alicep,73300.00,GBP
-B-ACC-2025-10218,BW25_0600,Brindlewythe,Avernelwick Pharmaceuticals Ltd,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,18/12/2025,31/12/2025,26/01/2026,REPORTED,browcroft,17500.00,GBP
-WST-26-000862,WA/2026/027,Westravelle,LOMERVESSA PHARMA,Analytical chemistry and stability testing,ICH chamber programme,,20/01/2026,23/02/2026,,IN PROGRESS,alicep,58000.00,GBP
-WST-26-001463,WA/2026/047,Westravelle,JORVESSARA PHARMACEUTICALS,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,05/02/2026,16/03/2026,,IN PROGRESS,alicep,64900.00,GBP
-VA20260629,VD-26-068,Vellacombe,Valquessia Pharmaceuticals SpA,Medicinal chemistry,Analogue preparation,,22/04/2026,18/05/2026,,IN PROGRESS,rcalderwood,58000.00,GBP
-VA20260826,VD-26-091,Vellacombe,Nelmudara Biosciences,Medicinal chemistry,Analogue preparation,,09/06/2026,20/07/2026,,IN PROGRESS,rcalderwood,45400.00,GBP
-QDATA2026-0476,QV.26.077,Quenverell,Vornelquith Biosciences,Bioinformatics and computational chemistry,Virtual library triage,,12/06/2026,27/07/2026,,IN PROGRESS,tzawiernicki,65100.00,GBP
-QDATA2026-0554,QV.26.091,Quenverell,Valquessia Pharmaceuticals SpA,Bioinformatics and computational chemistry,RNA-seq differential expression,,08/07/2026,17/08/2026,,IN PROGRESS,tzawiernicki,68400.00,GBP
-VA20261023,VD-26-113,Vellacombe,Doventhar Therapeutics,Medicinal chemistry,Analogue preparation,,13/07/2026,10/08/2026,,IN PROGRESS,rcalderwood,42900.00,GBP
-M26/BIO/05530,MV-2026-240,Merrivoss,Lomervessa Pharma,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,07/16/2026,08/24/2026,,IN PROGRESS,mlarkin,15700.00,USD
-B-ACC-2026-06283,BW26_0368,Brindlewythe,Quorenthel Pharma GmbH,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,28/07/2026,31/08/2026,,IN PROGRESS,browcroft,20800.00,GBP
-DF26-01022,DL_2026_0085,Durnesswick,Esmervane Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,07/29/2026,08/24/2026,,IN PROGRESS,carverj,41900.00,USD
-DF26-01134,DL_2026_0093,Durnesswick,Odraverne Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,08/04/2026,09/01/2026,,IN PROGRESS,carverj,44100.00,USD
-M26/BIO/06077,MV-2026-264,Merrivoss,Cadrunelle Biosciences,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,08/06/2026,09/03/2026,,IN PROGRESS,mlarkin,28700.00,USD
-WST-26-008543,WA/2026/275,Westravelle,Xelvessune Pharma,Analytical chemistry and stability testing,Assay and related-substances validation,,11/08/2026,08/09/2026,,IN PROGRESS,alicep,61500.00,GBP
-M26/BIO/06402,MV-2026-278,Merrivoss,BELQUORIN PHARMA,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,08/13/2026,09/10/2026,,IN PROGRESS,mlarkin,27300.00,USD
-M26/BIO/06732,MV-2026-292,Merrivoss,FARNOVESSA MEDICINES,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,08/18/2026,09/07/2026,,IN PROGRESS,mlarkin,30000.00,USD
-B-ACC-2026-06843,BW26_0401,Brindlewythe,Elvarmere Biosciences AB,In vitro biology and screening,5-isoform CYP panel,40,19/08/2026,14/09/2026,,IN PROGRESS,browcroft,14300.00,GBP
-B-ACC-2026-07111,BW26_0417,Brindlewythe,Quorenthel Pharma GmbH,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,27/08/2026,21/09/2026,,IN PROGRESS,browcroft,21700.00,GBP
-B-ACC-2026-07296,BW26_0428,Brindlewythe,Orvessant Biosciences Pty Ltd,In vitro biology and screening,hERG automated patch clamp,32,02/09/2026,22/09/2026,,IN PROGRESS,browcroft,11600.00,GBP
+﻿LIMS_ID,Legacy_Ref,Site,Client,Service,Assays,Compounds,Received,Started,Reported,Status,Study_Director,Invoice_Value,Currency,Source_Date_Format
+VA19960654,VD-96-072,Vellacombe,Elvarmere Biosciences AB,Medicinal chemistry,Analogue preparation,24,04/11/1996,06/12/1996,13/02/1997,REPORTED,rcalderwood,24000.00,GBP,DD/MM/YYYY
+VA19980690,VD-98-076,Vellacombe,Drelvessa Therapeutics SAS,Medicinal chemistry,Analogue preparation,32,19/10/1998,09/12/1998,13/04/1999,REPORTED,rcalderwood,26500.00,GBP,DD/MM/YYYY
+B-ACC-2001-01010,BW01_0059,Brindlewythe,Quorenthel Pharma GmbH,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,14/03/2001,06/04/2001,18/05/2001,REPORTED,browcroft,10700.00,GBP,DD/MM/YYYY
+B-ACC-2003-01676,BW03_0098,Brindlewythe,BELQUORIN PHARMA,In vitro biology and screening,hERG automated patch clamp,32,21/04/2003,07/05/2003,23/05/2003,REPORTED,browcroft,8500.00,GBP,DD/MM/YYYY
+VA20050581,VD-05-064,Vellacombe,CORVENLEA PHARMA,Medicinal chemistry,Analogue preparation,32,08/07/2005,22/07/2005,07/11/2005,REPORTED,rcalderwood,27000.00,GBP,DD/MM/YYYY
+M06/BIO/02077,MV-2006-090,Merrivoss,Nimbravelle Medicines Inc,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,05/22/2006,06/05/2006,07/18/2006,REPORTED,mlarkin,19200.00,USD,MM/DD/YYYY
+M08/BIO/00303,MV-2008-013,Merrivoss,Kelbravik Therapeutics ApS,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,01/10/2008,02/18/2008,03/21/2008,REPORTED,mlarkin,14900.00,USD,MM/DD/YYYY
+B-ACC-2011-04692,BW11_0275,Brindlewythe,Avernelwick Pharmaceuticals Ltd,In vitro biology and screening,hERG automated patch clamp; 5-isoform CYP panel,40,23/08/2011,12/09/2011,27/09/2011,REPORTED,aveldershain,11800.00,GBP,DD/MM/YYYY
+WST-11-005959,WA/2011/192,Westravelle,Esmervane Pharmaceuticals,Analytical chemistry and stability testing,ICH chamber programme,24,12/10/2011,07/11/2011,07/05/2012,REPORTED,alicep,44800.00,GBP,DD/MM/YYYY
+QDATA2011-0467,QV.11.073,Quenverell,Rimucavel Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,23/12/2011,25/01/2012,03/04/2012,REPORTED,tzawiernicki,45000.00,GBP,DD/MM/YYYY
+QDATA2013-0351,QV.13.055,Quenverell,Drelvessa Therapeutics SAS,Bioinformatics and computational chemistry,Virtual library triage,,12/08/2013,30/09/2013,06/11/2013,REPORTED,tzawiernicki,49600.00,GBP,DD/MM/YYYY
+WST-13-008363,WA/2013/269,Westravelle,KALMORVETH PHARMA,Analytical chemistry and stability testing,Assay and related-substances validation,,20/12/2013,27/01/2014,17/03/2014,REPORTED,alicep,49500.00,GBP,DD/MM/YYYY
+WST-15-004255,WA/2015/137,Westravelle,Wexanthel Medicines,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,09/06/2015,22/07/2015,23/01/2017,REPORTED,alicep,54600.00,GBP,DD/MM/YYYY
+B-ACC-2015-04728,BW15_0277,Brindlewythe,Cadrunelle Biosciences,In vitro biology and screening,5-isoform CYP panel,40,29/07/2015,10/08/2015,28/08/2015,REPORTED,browcroft,12000.00,GBP,DD/MM/YYYY
+QDATA2015-0400,QV.15.065,Quenverell,Doventhar Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,24/08/2015,05/10/2015,23/12/2015,REPORTED,tzawiernicki,54600.00,GBP,DD/MM/YYYY
+M15/BIO/05540,MV-2015-240,Merrivoss,Aldrevessa Therapeutics,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,40,10/05/2015,11/16/2015,12/21/2015,REPORTED,mlarkin,9400.00,USD,MM/DD/YYYY
+VA20151235,VD-15-134,Vellacombe,FELDORUNE THERAPEUTICS BV,Medicinal chemistry,Analogue preparation,40,04/11/2015,28/12/2015,30/03/2016,REPORTED,rcalderwood,42300.00,GBP,DD/MM/YYYY
+M15/BIO/06146,MV-2015-266,Merrivoss,Selverant,In vitro biology and screening,IKr inhibition; Five-isoform DDI screen,38,11/05/2015,12/08/2015,12/28/2015,REPORTED,mrinalvesi,18700.00,USD,MM/DD/YYYY
+DF16-00173,DL_2016_0014,Durnesswick,Odraverne Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,02/01/2016,02/24/2016,04/15/2016,REPORTED,carverj,36200.00,USD,MM/DD/YYYY
+M16/BIO/01247,MV-2016-053,Merrivoss,Corvenlea Ltd,DMPK and bioanalysis,"Microsomal CLint; Hepatocyte depletion CLint; fu,p by equilibrium dialysis",40,02/26/2016,04/14/2016,05/09/2016,REPORTED,mlarkin,23500.00,USD,MM/DD/YYYY
+VA20160323,VD-16-033,Vellacombe,Valquessia Pharmaceuticals SpA,Medicinal chemistry,Analogue preparation,18,04/03/2016,11/04/2016,30/08/2016,REPORTED,rcalderwood,45300.00,GBP,DD/MM/YYYY
+WST-16-002115,WA/2016/068,Westravelle,Auvrelquith Biosciences,Analytical chemistry and stability testing,ICH chamber programme,,14/03/2016,25/04/2016,25/04/2017,REPORTED,alicep,58700.00,GBP,DD/MM/YYYY
+DF16-00334,DL_2016_0027,Durnesswick,Auvrelquith Biosciences,Formulation and early CMC,Vehicle ladder,,04/04/2016,04/19/2016,06/06/2016,REPORTED,carverj,31000.00,USD,MM/DD/YYYY
+M16/BIO/02193,MV-2016-095,Merrivoss,Tervemere Pharma AG,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,04/14/2016,05/30/2016,06/16/2016,REPORTED,mlarkin,20300.00,USD,MM/DD/YYYY
+B-ACC-2016-02878,BW16_0168,Brindlewythe,ELVARMERE BIOSCIENCES AB,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,02/05/2016,23/05/2016,14/07/2016,REPORTED,browcroft,12600.00,GBP,DD/MM/YYYY
+QDATA2016-0318,QV.16.049,Quenverell,Bravossent Therapeutics,Bioinformatics and computational chemistry,Virtual library triage,,03/06/2016,21/07/2016,15/09/2016,REPORTED,tzawiernicki,58500.00,GBP,DD/MM/YYYY
+DF16-00532,DL_2016_0044,Durnesswick,ESMERVANE PHARMACEUTICALS,Formulation and early CMC,Vehicle ladder,,07/25/2016,09/02/2016,11/23/2016,REPORTED,carverj,34500.00,USD,MM/DD/YYYY
+QDATA2017-0146,QV.17.021,Quenverell,Corvenlith Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,27/02/2017,13/03/2017,29/05/2017,REPORTED,tzawiernicki,44300.00,GBP,DD/MM/YYYY
+VA20170410,VD-17-044,Vellacombe,Rennelwick Institute Drug Discovery Unit,Medicinal chemistry,Analogue preparation,24,23/03/2017,24/04/2017,01/08/2017,REPORTED,rcalderwood,34300.00,GBP,DD/MM/YYYY
+M17/BIO/02257,MV-2017-098,Merrivoss,Elvarmere Biosciences AB,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,04/12/2017,06/02/2017,07/10/2017,REPORTED,mlarkin,21900.00,USD,MM/DD/YYYY
+B-ACC-2017-02854,BW17_0167,Brindlewythe,Selverant Therapeutics Inc,In vitro biology and screening,hERG automated patch clamp,40,27/04/2017,25/05/2017,14/06/2017,REPORTED,browcroft,10900.00,GBP,DD/MM/YYYY
+WST-17-005742,WA/2017/185,Westravelle,ORVESSANT BIOSCIENCES PTY LTD,Analytical chemistry and stability testing,Assay and related-substances validation,,24/07/2017,30/08/2017,20/10/2017,REPORTED,alicep,62900.00,GBP,DD/MM/YYYY
+B-ACC-2017-07069,BW17_0415,Brindlewythe,Quorenthel Pharma GmbH,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,23/10/2017,04/12/2017,23/01/2018,REPORTED,browcroft,13600.00,GBP,DD/MM/YYYY
+DF17-00864,DL_2017_0070,Durnesswick,Jorvessara Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,10/23/2017,11/07/2017,01/19/2018,REPORTED,carverj,38900.00,USD,MM/DD/YYYY
+DF18-00131,DL_2018_0010,Durnesswick,Nimbravelle Medicines Inc,Formulation and early CMC,Vehicle ladder,,01/10/2018,02/08/2018,04/26/2018,REPORTED,carverj,34400.00,USD,MM/DD/YYYY
+M18/BIO/01223,MV-2018-052,Merrivoss,Avernelwick Pharma,DMPK and bioanalysis,"Microsomal CLint; fu,p by equilibrium dialysis",40,02/20/2018,03/12/2018,04/16/2018,REPORTED,mlarkin,23500.00,USD,MM/DD/YYYY
+QDATA2018-0189,QV.18.027,Quenverell,Vesselquarn Medical Research Trust,Bioinformatics and computational chemistry,Virtual library triage,,05/03/2018,16/03/2018,08/06/2018,REPORTED,tzawiernicki,48100.00,GBP,DD/MM/YYYY
+WST-18-002559,WA/2018/082,Westravelle,ISTRAVUNE BIOSCIENCES,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,23/03/2018,30/04/2018,30/04/2020,REPORTED,alicep,47600.00,GBP,DD/MM/YYYY
+VA20180545,VD-18-059,Vellacombe,Vesselquarn Medical Research Trust,Medicinal chemistry,Analogue preparation,32,25/04/2018,14/05/2018,24/09/2018,REPORTED,rcalderwood,37300.00,GBP,DD/MM/YYYY
+DF18-00421,DL_2018_0034,Durnesswick,Wexanthel Medicines,Formulation and early CMC,Vehicle ladder,,05/14/2018,06/01/2018,07/24/2018,REPORTED,carverj,41600.00,USD,MM/DD/YYYY
+B-ACC-2018-03853,BW18_0225,Brindlewythe,Feldorune Therapeutics BV,In vitro biology and screening,hERG automated patch clamp,32,06/06/2018,06/07/2018,23/07/2018,REPORTED,browcroft,10600.00,GBP,DD/MM/YYYY
+VA20181184,VD-18-131,Vellacombe,Rennelwick Institute Drug Discovery Unit,Medicinal chemistry,Analogue preparation,,28/09/2018,05/11/2018,28/01/2019,REPORTED,rcalderwood,39300.00,GBP,DD/MM/YYYY
+M18/BIO/07750,MV-2018-336,Merrivoss,Quorenthel Pharma GmbH,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,12/21/2018,01/28/2019,02/28/2019,REPORTED,mlarkin,23500.00,USD,MM/DD/YYYY
+WST-19-000327,WA/2019/010,Westravelle,Odraverne Pharmaceuticals,Analytical chemistry and stability testing,ICH chamber programme,,03/01/2019,12/02/2019,12/08/2019,REPORTED,alicep,51700.00,GBP,DD/MM/YYYY
+M19/BIO/01882,MV-2019-081,Merrivoss,Parvessune Pharmaceuticals,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,03/20/2019,03/27/2019,05/10/2019,REPORTED,mlarkin,12600.00,USD,MM/DD/YYYY
+QDATA2019-0323,QV.19.050,Quenverell,Pelmucent Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,20/05/2019,27/06/2019,06/08/2019,REPORTED,tzawiernicki,52100.00,GBP,DD/MM/YYYY
+VA20191084,VD-19-120,Vellacombe,Doventhar Therapeutics,Medicinal chemistry,Analogue preparation,40,02/09/2019,28/10/2019,02/03/2020,REPORTED,rcalderwood,40300.00,GBP,DD/MM/YYYY
+DF19-00879,DL_2019_0071,Durnesswick,Auvrelquith Biosciences,Formulation and early CMC,Vehicle ladder,,09/05/2019,10/04/2019,11/18/2019,REPORTED,carverj,31600.00,USD,MM/DD/YYYY
+B-ACC-2019-07416,BW19_0436,Brindlewythe,ORVESSANT BIOSCIENCES PTY LTD,In vitro biology and screening,5-isoform CYP panel,40,22/10/2019,12/11/2019,29/11/2019,REPORTED,browcroft,11500.00,GBP,DD/MM/YYYY
+VA20200254,VD-20-028,Vellacombe,FARNOVESSA MEDICINES,Medicinal chemistry,Analogue preparation,18,19/02/2020,30/03/2020,10/08/2020,REPORTED,rcalderwood,43500.00,GBP,DD/MM/YYYY
+M20/BIO/02046,MV-2020-088,Merrivoss,Orvessant Biosciences Pty Ltd,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,03/25/2020,04/10/2020,04/29/2020,REPORTED,mlarkin,27100.00,USD,MM/DD/YYYY
+B-ACC-2020-02338,BW20_0137,Brindlewythe,Rennelwick Institute Drug Discovery Unit,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,27/03/2020,06/04/2020,22/05/2020,REPORTED,browcroft,17100.00,GBP,DD/MM/YYYY
+DF20-00615,DL_2020_0050,Durnesswick,Nimbravelle Medicines Inc,Formulation and early CMC,Vehicle ladder,,06/15/2020,07/06/2020,09/28/2020,REPORTED,carverj,34200.00,USD,MM/DD/YYYY
+WST-20-006965,WA/2020/224,Westravelle,Ardelvune Pharmaceuticals,Analytical chemistry and stability testing,Assay and related-substances validation,,07/08/2020,24/08/2020,06/10/2020,REPORTED,alicep,55900.00,GBP,DD/MM/YYYY
+WST-20-009708,WA/2020/313,Westravelle,Corvenlea Pharmaceuticals plc,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,1,05/11/2020,30/11/2020,30/11/2021,REPORTED,alicep,53000.00,GBP,DD/MM/YYYY
+VA20210739,VD-21-081,Vellacombe,Vornelquith Biosciences,Medicinal chemistry,Analogue preparation,,04/06/2021,25/06/2021,01/11/2021,REPORTED,rcalderwood,46800.00,GBP,DD/MM/YYYY
+B-ACC-2021-04086,BW21_0240,Brindlewythe,Tervemere Pharma AG,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,04/06/2021,05/07/2021,19/08/2021,REPORTED,browcroft,18400.00,GBP,DD/MM/YYYY
+WST-21-008374,WA/2021/270,Westravelle,PARVESSUNE PHARMACEUTICALS,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,16/09/2021,30/09/2021,30/09/2022,REPORTED,alicep,60400.00,GBP,DD/MM/YYYY
+M21/BIO/06539,MV-2021-284,Merrivoss,Kelbravik Therapeutics ApS,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,09/27/2021,11/16/2021,12/20/2021,REPORTED,mlarkin,20500.00,USD,MM/DD/YYYY
+B-ACC-2021-07710,BW21_0453,Brindlewythe,Avernelwick Pharmaceuticals Ltd,In vitro biology and screening,hERG automated patch clamp; 5-isoform CYP panel; 3A4 concentration response,42,18/10/2021,08/11/2021,25/11/2021,REPORTED,lbenmezroun,15900.00,GBP,DD/MM/YYYY
+B-ACC-2022-02415,BW22_0141,Brindlewythe,Cadrunelle Biosciences,In vitro biology and screening,hERG automated patch clamp,32,29/03/2022,26/04/2022,12/05/2022,REPORTED,browcroft,14200.00,GBP,DD/MM/YYYY
+M22/BIO/02562,MV-2022-111,Merrivoss,RENNELWICK INSTITUTE DRUG DISCOVERY UNIT,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,04/13/2022,04/25/2022,06/20/2022,REPORTED,mlarkin,22300.00,USD,MM/DD/YYYY
+VA20220698,VD-22-076,Vellacombe,ELVARMERE BIOSCIENCES AB,Medicinal chemistry,Analogue preparation,,26/05/2022,18/07/2022,24/10/2022,REPORTED,rcalderwood,50300.00,GBP,DD/MM/YYYY
+M22/BIO/04063,MV-2022-176,Merrivoss,Orvessant Biosciences Pty Ltd,In vitro biology and screening,Five-isoform DDI screen,40,06/13/2022,07/25/2022,08/10/2022,REPORTED,mlarkin,12400.00,USD,MM/DD/YYYY
+WST-22-007025,WA/2022/226,Westravelle,Xarnelvune Pharmaceuticals,Analytical chemistry and stability testing,ICH chamber programme,,27/07/2022,08/08/2022,08/02/2024,REPORTED,alicep,65000.00,GBP,DD/MM/YYYY
+B-ACC-2023-01043,BW23_0061,Brindlewythe,Farnovessa Medicines,In vitro biology and screening,5-isoform CYP panel,40,06/02/2023,13/03/2023,29/03/2023,REPORTED,browcroft,10800.00,GBP,DD/MM/YYYY
+WST-23-004243,WA/2023/136,Westravelle,Culdrevane Pharma,Analytical chemistry and stability testing,Assay and related-substances validation,,28/04/2023,18/05/2023,12/07/2023,REPORTED,alicep,69800.00,GBP,DD/MM/YYYY
+QDATA2023-0617,QV.23.100,Quenverell,Corvenlith Therapeutics,Bioinformatics and computational chemistry,RNA-seq differential expression,,11/09/2023,30/10/2023,18/12/2023,REPORTED,tzawiernicki,54400.00,GBP,DD/MM/YYYY
+M23/BIO/06630,MV-2023-288,Merrivoss,NIMBRAVELLE MEDICINES INC,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,09/14/2023,10/16/2023,11/27/2023,REPORTED,mlarkin,12000.00,USD,MM/DD/YYYY
+B-ACC-2024-01673,BW24_0097,Brindlewythe,AVERNELWICK PHARMACEUTICALS LTD,In vitro biology and screening,5-isoform CYP panel,40,26/02/2024,07/03/2024,,CANCELLED,browcroft,14300.00,GBP,DD/MM/YYYY
+QDATA2024-0164,QV.24.026,Quenverell,RIMUCAVEL THERAPEUTICS,Bioinformatics and computational chemistry,RNA-seq differential expression,,01/03/2024,,,QUOTE - NO RESPONSE,tzawiernicki,,GBP,DD/MM/YYYY
+WST-24-004452,WA/2024/143,Westravelle,Zostremal Pharma,Analytical chemistry and stability testing,Assay and related-substances validation,,02/05/2024,,,QUOTE - NO RESPONSE,alicep,,GBP,DD/MM/YYYY
+B-ACC-2024-04310,BW24_0253,Brindlewythe,AVERNELWICK PHARMACEUTICALS LTD,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,29/05/2024,11/07/2024,26/08/2024,REPORTED,browcroft,16200.00,GBP,DD/MM/YYYY
+M24/BIO/03939,MV-2024-171,Merrivoss,Celmorath Pharma,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,05/30/2024,07/01/2024,,ON HOLD,mlarkin,13000.00,USD,MM/DD/YYYY
+B-ACC-2024-05167,BW24_0303,Brindlewythe,Tervemere Pharma AG,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,27/06/2024,,,QUOTE - NOT WON,browcroft,,GBP,DD/MM/YYYY
+WST-24-006564,WA/2024/211,Westravelle,Aldrevessa Therapeutics,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,01/07/2024,22/07/2024,22/07/2025,REPORTED,alicep,74800.00,GBP,DD/MM/YYYY
+B-ACC-2024-05636,BW24_0330,Brindlewythe,Rennelwick Institute Drug Discovery Unit,In vitro biology and screening,5-isoform CYP panel,40,15/07/2024,,,QUOTE - NOT WON,browcroft,,GBP,DD/MM/YYYY
+VA20240986,VD-24-109,Vellacombe,Helvessora Biosciences,Medicinal chemistry,Analogue preparation,,16/07/2024,,,QUOTE - NO RESPONSE,rcalderwood,,GBP,DD/MM/YYYY
+M24/BIO/06736,MV-2024-292,Merrivoss,Tervemere Pharma AG,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,09/13/2024,,,QUOTE - NO RESPONSE,mlarkin,,USD,MM/DD/YYYY
+WST-24-009763,WA/2024/314,Westravelle,ESMERVANE PHARMACEUTICALS,Analytical chemistry and stability testing,ICH chamber programme,,03/10/2024,29/10/2024,,CANCELLED,alicep,74800.00,GBP,DD/MM/YYYY
+M24/BIO/08257,MV-2024-358,Merrivoss,Tervemere Pharma AG,In vitro biology and screening,IKr inhibition; Five-isoform DDI screen; CYP3A4 inhibition curves,40,11/11/2024,12/05/2024,12/19/2024,REPORTED,pnandekuri,24700.00,USD,MM/DD/YYYY
+DF24-01617,DL_2024_0134,Durnesswick,Jorvessara Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,12/23/2024,,,QUOTE - NOT WON,carverj,,USD,MM/DD/YYYY
+WST-25-003364,WA/2025/108,Westravelle,Telquorath Pharma,Analytical chemistry and stability testing,ICH chamber programme,,31/03/2025,,,QUOTE - NOT WON,alicep,,GBP,DD/MM/YYYY
+VA20250613,VD-25-066,Vellacombe,Rimucavel Therapeutics,Medicinal chemistry,Analogue preparation,,23/04/2025,21/05/2025,,ON HOLD,rcalderwood,51700.00,GBP,DD/MM/YYYY
+B-ACC-2025-03942,BW25_0231,Brindlewythe,Tervemere Pharma AG,In vitro biology and screening,hERG automated patch clamp,32,15/05/2025,06/06/2025,25/06/2025,REPORTED,browcroft,13300.00,GBP,DD/MM/YYYY
+B-ACC-2025-04654,BW25_0273,Brindlewythe,Belquorin Pharma,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,09/06/2025,,,QUOTE - NO RESPONSE,browcroft,,GBP,DD/MM/YYYY
+M25/BIO/05243,MV-2025-227,Merrivoss,ELVARMERE BIOSCIENCES AB,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,07/14/2025,,,QUOTE - NOT WON,mlarkin,,USD,MM/DD/YYYY
+QDATA2025-0522,QV.25.086,Quenverell,Drelvessa Therapeutics SAS,Bioinformatics and computational chemistry,Virtual library triage,,24/07/2025,08/09/2025,13/11/2025,REPORTED,tzawiernicki,60400.00,GBP,DD/MM/YYYY
+VA20251135,VD-25-125,Vellacombe,ZELMORVEN THERAPEUTICS,Medicinal chemistry,Analogue preparation,,15/08/2025,,,QUOTE - NOT WON,rcalderwood,,GBP,DD/MM/YYYY
+M25/BIO/06272,MV-2025-272,Merrivoss,SELVERANT,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,08/18/2025,,,QUOTE - NOT WON,mlarkin,,USD,MM/DD/YYYY
+QDATA2025-0638,QV.25.103,Quenverell,Drelvessa Therapeutics SAS,Bioinformatics and computational chemistry,Virtual library triage,,27/08/2025,08/09/2025,,ON HOLD,tzawiernicki,54000.00,GBP,DD/MM/YYYY
+QDATA2025-0672,QV.25.108,Quenverell,Jelmorath Therapeutics,Bioinformatics and computational chemistry,Virtual library triage,,09/09/2025,,,QUOTE - NOT WON,tzawiernicki,,GBP,DD/MM/YYYY
+B-ACC-2025-08282,BW25_0486,Brindlewythe,Farnovessa Medicines,In vitro biology and screening,hERG automated patch clamp,32,13/10/2025,24/11/2025,,ON HOLD,browcroft,14000.00,GBP,DD/MM/YYYY
+DF25-01573,DL_2025_0130,Durnesswick,Wexanthel Medicines,Formulation and early CMC,Vehicle ladder,,12/01/2025,01/19/2026,,ON HOLD,carverj,47400.00,USD,MM/DD/YYYY
+WST-25-012645,WA/2025/407,Westravelle,Quorenthel Pharma GmbH,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,09/12/2025,14/01/2026,,ON HOLD,alicep,73300.00,GBP,DD/MM/YYYY
+B-ACC-2025-10218,BW25_0600,Brindlewythe,Avernelwick Pharmaceuticals Ltd,In vitro biology and screening,Primary potency assay; Selectivity sweep,24,18/12/2025,31/12/2025,26/01/2026,REPORTED,browcroft,17500.00,GBP,DD/MM/YYYY
+WST-26-000862,WA/2026/027,Westravelle,LOMERVESSA PHARMA,Analytical chemistry and stability testing,ICH chamber programme,,20/01/2026,23/02/2026,,IN PROGRESS,alicep,58000.00,GBP,DD/MM/YYYY
+WST-26-001463,WA/2026/047,Westravelle,JORVESSARA PHARMACEUTICALS,Analytical chemistry and stability testing,ICH chamber programme; Assay and related-substances validation,,05/02/2026,16/03/2026,,IN PROGRESS,alicep,64900.00,GBP,DD/MM/YYYY
+VA20260629,VD-26-068,Vellacombe,Valquessia Pharmaceuticals SpA,Medicinal chemistry,Analogue preparation,,22/04/2026,18/05/2026,,IN PROGRESS,rcalderwood,58000.00,GBP,DD/MM/YYYY
+VA20260826,VD-26-091,Vellacombe,Nelmudara Biosciences,Medicinal chemistry,Analogue preparation,,09/06/2026,20/07/2026,,IN PROGRESS,rcalderwood,45400.00,GBP,DD/MM/YYYY
+QDATA2026-0476,QV.26.077,Quenverell,Vornelquith Biosciences,Bioinformatics and computational chemistry,Virtual library triage,,12/06/2026,27/07/2026,,IN PROGRESS,tzawiernicki,65100.00,GBP,DD/MM/YYYY
+QDATA2026-0554,QV.26.091,Quenverell,Valquessia Pharmaceuticals SpA,Bioinformatics and computational chemistry,RNA-seq differential expression,,08/07/2026,17/08/2026,,IN PROGRESS,tzawiernicki,68400.00,GBP,DD/MM/YYYY
+VA20261023,VD-26-113,Vellacombe,Doventhar Therapeutics,Medicinal chemistry,Analogue preparation,,13/07/2026,10/08/2026,,IN PROGRESS,rcalderwood,42900.00,GBP,DD/MM/YYYY
+M26/BIO/05530,MV-2026-240,Merrivoss,Lomervessa Pharma,DMPK and bioanalysis,Rat exposure with tandem-MS bioanalysis,,07/16/2026,,,QUOTE - AWAITING PO,mlarkin,,USD,MM/DD/YYYY
+B-ACC-2026-06283,BW26_0368,Brindlewythe,Quorenthel Pharma GmbH,DMPK and bioanalysis,HLM/RLM stability; RED PPB,18,28/07/2026,,,QUOTE - AWAITING PO,browcroft,,GBP,DD/MM/YYYY
+DF26-01022,DL_2026_0085,Durnesswick,Esmervane Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,07/29/2026,,,QUOTE - AWAITING PO,carverj,,USD,MM/DD/YYYY
+DF26-01134,DL_2026_0093,Durnesswick,Odraverne Pharmaceuticals,Formulation and early CMC,Vehicle ladder,,08/04/2026,,,QUOTE - AWAITING PO,carverj,,USD,MM/DD/YYYY
+M26/BIO/06077,MV-2026-264,Merrivoss,Cadrunelle Biosciences,DMPK and bioanalysis,Microsomal CLint; Hepatocyte depletion CLint,24,08/06/2026,,,QUOTE - AWAITING PO,mlarkin,,USD,MM/DD/YYYY
+WST-26-008543,WA/2026/275,Westravelle,Xelvessune Pharma,Analytical chemistry and stability testing,Assay and related-substances validation,,11/08/2026,,,QUOTE - AWAITING PO,alicep,,GBP,DD/MM/YYYY
+M26/BIO/06402,MV-2026-278,Merrivoss,BELQUORIN PHARMA,In vitro biology and screening,Five-isoform DDI screen; CYP3A4 inhibition curves,18,08/13/2026,,,QUOTE - AWAITING PO,mlarkin,,USD,MM/DD/YYYY
+M26/BIO/06732,MV-2026-292,Merrivoss,FARNOVESSA MEDICINES,DMPK and bioanalysis,"fu,p by equilibrium dialysis; Caco-2 flux and efflux ratio; DMSO-dilution solubility",32,08/18/2026,,,QUOTE - AWAITING PO,mlarkin,,USD,MM/DD/YYYY
+B-ACC-2026-06843,BW26_0401,Brindlewythe,Elvarmere Biosciences AB,In vitro biology and screening,5-isoform CYP panel,40,19/08/2026,,,QUOTE - AWAITING PO,browcroft,,GBP,DD/MM/YYYY

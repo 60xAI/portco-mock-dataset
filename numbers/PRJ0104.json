@@ -130,7 +130,7 @@
     ]
    ],
    "notes": [
-    "Specification: assay 95.0-105.0% LC; any unspecified impurity ≤0.20%; total ≤2.0%",
+    "Specification: assay 95.0-105.0% LC; Imp A (RRT 0.86, specified) ≤0.50%; Imp B (RRT 1.12, specified) ≤0.30%; any unspecified impurity ≤0.20%; total impurities ≤2.0%",
     "Work stopped; partial data only"
    ]
   }

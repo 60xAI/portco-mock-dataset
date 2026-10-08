@@ -1,18 +1,17 @@
 {
  "family": "document",
- "summary": "Final report BW17_0167 for Selverant Therapeutics Inc: hERG automated patch clamp on 40 compounds (Aminoquinazoline). Study summary (benchmark) table on page 1; full compound tables, methods and control results follow.",
+ "summary": "Final report BW17_0167 for Selverant Therapeutics Inc: hERG automated patch clamp on 40 compounds (Aminoquinazoline). Study summary table on page 1; full compound tables, methods, controls and deviations follow.",
  "properties": {
   "title": "BW17_0167 Final Report"
  },
  "header": "BW17_0167 Final Report",
- "footer": null,
  "title_block": {
   "title": "ST03 ion-channel counterscreen, third chemistry shipment",
   "subtitle": "Final Report",
   "lines": [
    "Study BW17_0167 (LIMS B-ACC-2017-02854)",
    "Client: Selverant Therapeutics Inc",
-   "Study Director: Dr B. Rowcroft",
+   "Study lead: Dr B. Rowcroft, Screening Operations Director",
    "Report date: 14 June 2017"
   ]
  },
@@ -21,7 +20,7 @@
    "heading": "1 Summary",
    "blocks": [
     {
-     "p": "40 compounds from the Selverant aminoquinazoline series 03 were tested for Selverant Therapeutics Inc in the hERG automated patch clamp. Testing started on 25 May 2017 and results were reported on 14 June 2017. All runs met plate acceptance criteria. 2 of 40 compounds had an IC50 below 1 µM and should be treated as a clear liability. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure."
+     "p": "40 compounds from the Selverant aminoquinazoline series 03 were tested for Selverant Therapeutics Inc in the hERG automated patch clamp. Testing started on 25 May 2017 and results were reported on 14 June 2017. All accepted runs met plate acceptance criteria. 2 of 40 compounds had a hERG IC50 below 1 µM. Most compounds (37 of 40) inhibited hERG with IC50 below 10 µM, so margins will depend on free therapeutic exposure."
     },
     {
      "table": {
@@ -43,7 +42,14 @@
    "heading": "3 Test items",
    "blocks": [
     {
-     "p": "40 compounds were received as 10 mM DMSO solutions in one test lot on 25 May 2017 and logged against B-ACC-2017-02854. Identity and concentration were taken as supplied by the client."
+     "p": "40 compounds were received as 10 mM DMSO solutions in one test lot on 25 May 2017 and logged against B-ACC-2017-02854. Identity and concentration were taken as supplied by the client. Stocks were stored at -20 °C and thawed once for testing."
+    },
+    {
+     "image": {
+      "kind": "molecule_grid",
+      "ref": "PRJ0005",
+      "n": 8
+     }
     }
    ]
   },
@@ -56,14 +62,18 @@
    "level": 2,
    "blocks": [
     {
-     "p": "HEK293 cells stably expressing hERG (Kv11.1) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells were held at -80 mV, depolarised to +40 mV for 2 s and repolarised to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final), with 3-5 minutes per concentration."
+     "p": "HEK293 cells stably expressing hERG (Kv11.1) were recorded in whole-cell configuration on a 16-channel automated patch clamp platform at room temperature. Cells are held at -80 mV, depolarised to +40 mV for 2 s and repolarised to -50 mV for 2 s to elicit the tail current, at 0.1 Hz. Each compound was applied cumulatively at 0.12, 0.37, 1.1, 3.3, 10 and 30 µM (0.3% DMSO final). Each concentration is held until the tail-current block reaches a steady state (change below 5% over the last three sweeps), with a minimum of 3 and a maximum of 8 minutes; compounds still drifting at 8 minutes are flagged as slow-onset."
+    },
+    {
+     "p": "E-4031 is run as a separate 6-point concentration response (1-300 nM) on every run."
     },
     {
      "list": [
       "Plate acceptance: seal resistance ≥500 MΩ before break-in and ≥200 MΩ throughout",
-      "Tail current amplitude ≥200 pA at baseline; run-down ≤10% over the vehicle period",
-      "Positive control E-4031 on every run; IC50 must fall within 5-50 nM",
-      "IC50 from a four-parameter logistic fit of mean tail-current inhibition; n≥2 cells per compound"
+      "Tail current ≥200 pA at baseline; run-down ≤10% over the vehicle period",
+      "E-4031 IC50 within 5-50 nM; runs outside this range are rejected and repeated",
+      "IC50 fitted per cell (four-parameter logistic); the compound IC50 is the geometric mean of finite cell IC50s when these are the majority of accepted cells, otherwise reported as >30 µM",
+      "Where precipitation is seen at 30 µM, that concentration is excluded and the highest evaluable concentration is reported"
      ]
     }
    ]
@@ -77,7 +87,7 @@
    "level": 2,
    "blocks": [
     {
-     "p": "All {{PRJ0005:herg.n_tested}} compounds were tested. 2 of 40 compounds had an IC50 below 1 µM and should be treated as a clear liability. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. The median IC50 was {{PRJ0005:herg.median_ic50_uM}} µM ({{PRJ0005:herg.n_lt_1uM}} below 1 µM, {{PRJ0005:herg.n_1_10uM}} between 1 and 10 µM, {{PRJ0005:herg.n_ge_10uM}} at or above 10 µM). E-4031 gave an IC50 of {{PRJ0005:herg.control_e4031_nM}} nM, within the acceptance range."
+     "p": "All {{PRJ0005:herg.n_tested}} compounds were tested. 2 of 40 compounds had a hERG IC50 below 1 µM. Most compounds (37 of 40) inhibited hERG with IC50 below 10 µM, so margins will depend on free therapeutic exposure. The median IC50 was {{PRJ0005:herg.median_ic50_uM}} µM ({{PRJ0005:herg.n_lt_1uM}} below 1 µM, {{PRJ0005:herg.n_1_10uM}} between 1 and 10 µM, {{PRJ0005:herg.n_ge_10uM}} at or above 10 µM, of which {{PRJ0005:herg.n_censored}} above the highest evaluable concentration). E-4031 gave an IC50 of {{PRJ0005:herg.control_e4031_nM}} nM in the accepted runs."
     },
     {
      "table": {
@@ -95,18 +105,34 @@
    ]
   },
   {
-   "heading": "6 Discussion",
+   "heading": "6 Deviations",
    "blocks": [
     {
-     "p": "2 of 40 compounds had an IC50 below 1 µM and should be treated as a clear liability. Most of the set fell in the 1-10 µM band, so the margin will depend on free therapeutic exposure. These are screening data; binding-site and mechanism statements are outside the scope of this study."
+     "p": "No deviations from the study plan."
     }
    ]
   },
   {
-   "heading": "7 Conclusion",
+   "heading": "7 Discussion",
    "blocks": [
     {
-     "p": "The data support ranking within the set. Recommended next step: progress the compounds with the widest hERG margin and no CYP flag, and confirm any CYP3A4 flags by concentration response."
+     "p": "2 of 40 compounds had a hERG IC50 below 1 µM. Most compounds (37 of 40) inhibited hERG with IC50 below 10 µM, so margins will depend on free therapeutic exposure. These are screening data; mechanism statements are outside the scope of this study."
+    }
+   ]
+  },
+  {
+   "heading": "8 Conclusion",
+   "blocks": [
+    {
+     "p": "Recommended next steps: prioritise compounds with hERG IC50 at or above 10 µM; for any compound below 10 µM, compare the IC50 with projected free plasma exposure before progression."
+    }
+   ]
+  },
+  {
+   "heading": "9 Records",
+   "blocks": [
+    {
+     "p": "Raw data, run sheets and instrument files are retained for 5 years under B-ACC-2017-02854."
     }
    ]
   }
@@ -114,7 +140,7 @@
  "signature_block": [
   {
    "name": "Bethany Rowcroft",
-   "role": "Study Director",
+   "role": "Screening Operations Director",
    "date": "14 June 2017"
   },
   {

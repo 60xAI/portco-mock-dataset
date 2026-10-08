@@ -1,27 +1,179 @@
 {
  "family": "deck",
  "summary": "Internal Quenverell training deck (June 2021) introducing bioinformatics to medicinal chemists across the group: what expression and genetic data can and cannot tell a chemistry team, how to read a volcano plot and a pathway table, and how to request an analysis. Not client-facing.",
- "properties": {"title": "Bioinformatics for chemists: internal training", "subject": "Training", "category": "Internal"},
+ "properties": {
+  "title": "Bioinformatics for chemists: internal training",
+  "subject": "Training",
+  "category": "Internal"
+ },
  "slides": [
-  {"layout": "title", "title": "Bioinformatics for chemists", "subtitle": "Internal training | Quenverell Computational Ltd, a Tarnovell company | June 2021"},
-  {"layout": "title_content", "title": "Why this session", "bullets": ["Group chemists increasingly receive our target and biomarker readouts", "Aim: read them critically and know what to ask", "Ninety minutes, no coding"]},
-  {"layout": "title_content", "title": "Agenda", "bullets": ["What bioinformatics is for in a discovery programme", "Expression data in one slide", "Reading a volcano plot", "Pathways and networks", "Genetic evidence", "How to request work"]},
-  {"layout": "section", "title": "Part 1", "subtitle": "Where bioinformatics fits"},
-  {"layout": "title_content", "title": "Where bioinformatics fits in a programme", "bullets": ["Before chemistry: which target, which disease subgroup", "During chemistry: what compounds do to cells", "Before the clinic: which patients, which markers", "Throughout: is the data good enough to decide?"]},
-  {"layout": "title_content", "title": "What it cannot do", "bullets": ["Replace an assay", "Make weak data strong", "Give certainty about mechanism from one experiment"]},
-  {"layout": "section", "title": "Part 2", "subtitle": "Expression data"},
-  {"layout": "title_content", "title": "RNA-seq in one slide", "bullets": ["Count how many RNA copies of each gene a sample contains", "Compare disease and control, or treated and untreated", "Thousands of genes tested at once, so false positives are expected", "Replicates matter more than sequencing depth"]},
-  {"layout": "title_content", "title": "Reading a volcano plot", "bullets": ["x-axis: size of the change (log fold change)", "y-axis: confidence (adjusted p-value)", "Top corners: large, confident changes", "Ask: how many replicates? which correction?"]},
-  {"layout": "title_content", "title": "Single-cell data", "bullets": ["Tells you which cell type expresses the target", "Useful for safety and tissue questions", "Small studies can mislead; check cell numbers"]},
-  {"layout": "section", "title": "Part 3", "subtitle": "Pathways and genetics"},
-  {"layout": "title_content", "title": "Pathway tables", "bullets": ["Groups of genes that act together", "Enrichment means more pathway genes changed than chance", "Overlapping pathways inflate the story"]},
-  {"layout": "title_content", "title": "Genetic evidence", "bullets": ["Variants associated with disease point to genes", "Strongest when the gene and direction of effect are clear", "Combined with expression to rank targets"]},
-  {"layout": "title_content", "title": "Putting it together: target ranking", "bullets": ["Evidence score per gene across sources", "Liabilities flagged: broad expression, paralogs", "Output is a ranked short list, not a decision"]},
-  {"layout": "section", "title": "Part 4", "subtitle": "Working with us"},
-  {"layout": "title_content", "title": "Good questions to ask a bioinformatician", "bullets": ["What data went in and how was it checked?", "What would change the ranking?", "Which result would you bet on?"]},
-  {"layout": "title_content", "title": "How to request an analysis", "bullets": ["Raise a request in the shared project tracker", "Include the decision you need to make", "We reply with scope and timing within a week"]},
-  {"layout": "title_content", "title": "Glossary", "bullets": ["Differential expression: change in gene activity between conditions", "Enrichment: over-representation of a gene set", "Batch effect: unwanted variation from processing", "Stratification: splitting patients by expected response"]},
-  {"layout": "title_content", "title": "Exercise", "bullets": ["Read the example target readout in the handout", "Write down two questions for the analyst", "Discuss in pairs for ten minutes"]},
-  {"layout": "title_content", "title": "Questions", "bullets": ["Dr T. Zawiernicki and the Quenverell team", "Slides on the group training site"]}
+  {
+   "layout": "title",
+   "title": "Bioinformatics for chemists",
+   "subtitle": "Internal training | Quenverell Computational Ltd, a Tarnovell company | June 2021"
+  },
+  {
+   "layout": "title_content",
+   "title": "Why this session",
+   "bullets": [
+    "Group chemists increasingly receive our target and biomarker readouts",
+    "Aim: read them critically and know what to ask",
+    "Ninety minutes, no coding"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Agenda",
+   "bullets": [
+    "What bioinformatics is for in a discovery programme",
+    "Expression data in one slide",
+    "Reading a volcano plot",
+    "Pathways and networks",
+    "Genetic evidence",
+    "How to request work"
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Part 1",
+   "subtitle": "Where bioinformatics fits"
+  },
+  {
+   "layout": "title_content",
+   "title": "Where bioinformatics fits in a programme",
+   "bullets": [
+    "Before chemistry: which target, which disease subgroup",
+    "During chemistry: what compounds do to cells",
+    "Before the clinic: which patients, which markers",
+    "Throughout: is the data good enough to decide?"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "What it cannot do",
+   "bullets": [
+    "Replace an assay",
+    "Make weak data strong",
+    "Give certainty about mechanism from one experiment"
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Part 2",
+   "subtitle": "Expression data"
+  },
+  {
+   "layout": "title_content",
+   "title": "RNA-seq in one slide",
+   "bullets": [
+    "Sequence sampled RNA-derived fragments and estimate relative transcript abundance after normalisation",
+    "Compare disease and control, or treated and untreated",
+    "Thousands of genes tested at once, so false positives are expected",
+    "Replicates matter more than sequencing depth"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Reading a volcano plot",
+   "bullets": [
+    "x-axis: log2 fold change",
+    "y-axis: -log10(adjusted p-value)",
+    "Upper corners: large changes with small adjusted p-values",
+    "Assess biological relevance and replication separately",
+    "Ask: how many replicates? which correction?"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Single-cell data",
+   "bullets": [
+    "Tells you which cell type expresses the target",
+    "Useful for safety and tissue questions",
+    "Check donor/sample replication, cell numbers and batch effects",
+    "Cells from one donor are not independent biological replicates"
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Part 3",
+   "subtitle": "Pathways and genetics"
+  },
+  {
+   "layout": "title_content",
+   "title": "Pathway tables",
+   "bullets": [
+    "Groups of genes that act together",
+    "Enrichment means more pathway genes changed than chance",
+    "Overlapping pathways inflate the story"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Genetic evidence",
+   "bullets": [
+    "Variants associated with disease point to genes",
+    "Strongest when the gene and direction of effect are clear",
+    "Combined with expression to rank targets"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Putting it together: target ranking",
+   "bullets": [
+    "Evidence score per gene across sources",
+    "Liabilities flagged: broad expression, paralogs",
+    "Output is a ranked short list, not a decision"
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Part 4",
+   "subtitle": "Working with us"
+  },
+  {
+   "layout": "title_content",
+   "title": "Good questions to ask a bioinformatician",
+   "bullets": [
+    "What data went in and how was it checked?",
+    "What would change the ranking?",
+    "Which result would you bet on?"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "How to request an analysis",
+   "bullets": [
+    "Raise a request in the shared project tracker",
+    "Include the decision you need to make",
+    "We reply with scope and timing within a week"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Glossary",
+   "bullets": [
+    "Differential expression: change in gene activity between conditions",
+    "Enrichment: over-representation of a gene set",
+    "Batch effect: unwanted variation from processing",
+    "Stratification: splitting patients by expected response"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Exercise",
+   "bullets": [
+    "Read the example target readout in the handout",
+    "Write down two questions for the analyst",
+    "Discuss in pairs for ten minutes"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Questions",
+   "bullets": [
+    "Dr T. Zawiernicki and the Quenverell team",
+    "Slides on the group training site"
+   ]
+  }
  ]
 }

@@ -1,16 +1,128 @@
 {
  "family": "deck",
- "summary": "Brindlewythe client readout (26 January 2026) for BW25_0600, Avernelwick Pharmaceuticals Ltd: primary potency and a 16-kinase selectivity sweep on 24 reserve compounds from the AP02 hinge-binder screening set. Plate acceptance met throughout; recommendation to take forward the reserve compound with the narrowest off-target fingerprint.",
- "properties": {"title": "BW25_0600 client readout", "subject": "Primary potency and selectivity sweep", "keywords": "kinase; selectivity; AP02; Avernelwick"},
+ "summary": "Brindlewythe client readout (26 January 2026) for BW25_0600, Avernelwick Pharmaceuticals Ltd: primary potency on 24 reserve compounds from the AP02 hinge-binder screening set and a 16-kinase selectivity sweep at 1 µM on six of them. AP02-01430 was selected by Avernelwick for the next chemistry round (one off-target kinase above 50%, more potent than AP02-01410, the other one-hit compound); AP02-01418 and AP02-01428 were set aside for broad off-target inhibition.",
+ "properties": {
+  "title": "BW25_0600 client readout",
+  "subject": "Primary potency and selectivity sweep",
+  "keywords": "kinase; selectivity; AP02; Avernelwick"
+ },
  "slides": [
-  {"layout": "title", "title": "AP02 reserve compounds: potency and selectivity", "subtitle": "BW25_0600 | Avernelwick Pharmaceuticals Ltd | Client readout, 26 January 2026"},
-  {"layout": "title_content", "title": "Summary", "bullets": ["{{PRJ0044:n_compounds}} reserve compounds tested in the Primary potency assay (10-point, ATP at Km)", {"text": "Best IC50 {{PRJ0044:kinase.best_ic50_nM}} nM; staurosporine control within range on every plate", "level": 1}, "Selectivity sweep at 1 µM on six representatives against 16 off-target kinases", "Recommendation: progress the compound with the narrowest off-target fingerprint (slide 7)"], "notes": "Plate acceptance first, then ranking, then the decision. Keep mechanism out of it."},
-  {"layout": "title_content", "title": "Plate acceptance", "bullets": ["All plates: Z' ≥ 0.6, staurosporine IC50 within historical range", "No compound showed signal interference in the counter-read", "Two compounds repeated on day 2 after a dispensing error; repeat data reported"]},
-  {"layout": "table", "title": "Primary potency (first 12 compounds)", "table": {"table_ref": "PRJ0044:kinase_primary", "max_rows": 12}},
-  {"layout": "chart", "title": "Potency across the screening set", "chart": {"kind": "bar", "ref": "PRJ0044:kinase_primary", "column": 1, "title": "IC50 (nM)", "y_label": "IC50 (nM)"}},
-  {"layout": "table", "title": "Selectivity sweep: % inhibition at 1 µM", "table": {"table_ref": "PRJ0044:kinase_panel"}},
-  {"layout": "title_content", "title": "Ranking", "bullets": ["Potency alone does not separate the top compounds", "The off-target fingerprint does: one compound hits fewer panel kinases above 50%", "Two potent compounds carry broad off-target inhibition and are not recommended"]},
-  {"layout": "image", "title": "Compounds in the sweep", "image": {"kind": "molecule_grid", "ref": "PRJ0044", "n": 6}},
-  {"layout": "title_content", "title": "Next steps", "bullets": ["Avernelwick to choose the reserve compound for the next chemistry round", "Optional: full concentration response on the off-targets above 50%", "Data package: run sheets and summary workbook sent with this readout", "Contact: Dr B. Rowcroft, Screening Operations Director"]}
+  {
+   "layout": "title",
+   "title": "AP02 reserve compounds: potency and selectivity",
+   "subtitle": "BW25_0600 | Avernelwick Pharmaceuticals Ltd | Client readout, 26 January 2026"
+  },
+  {
+   "layout": "title_content",
+   "title": "Summary",
+   "bullets": [
+    "{{PRJ0044:n_compounds}} reserve compounds tested in the Primary potency assay (10-point, ATP at Km)",
+    {
+     "text": "Best IC50 {{PRJ0044:kinase.best_ic50_nM}} nM",
+     "level": 1
+    },
+    "Selectivity sweep at 1 µM on six representatives against 16 off-target kinases",
+    "Decision: Avernelwick selected AP02-01430 for the next chemistry round (slide 7)"
+   ],
+   "notes": "Plate acceptance first, then ranking, then the decision. Keep mechanism out of it."
+  },
+  {
+   "layout": "title_content",
+   "title": "Plate acceptance",
+   "bullets": [
+    "Acceptance criteria as agreed in the study plan: Z' and staurosporine IC50 within the historical range on every plate",
+    "All plates accepted; per-plate values are in the run sheets sent with this readout",
+    "No compound flagged for signal interference in the counter-read"
+   ]
+  },
+  {
+   "layout": "table",
+   "title": "Primary potency (first 12 compounds)",
+   "table": {
+    "table_ref": "PRJ0044:kinase_primary",
+    "max_rows": 12
+   }
+  },
+  {
+   "layout": "chart",
+   "title": "Potency across the screening set",
+   "chart": {
+    "kind": "bar",
+    "ref": "PRJ0044:kinase_primary",
+    "column": 1,
+    "title": "IC50 (nM), log scale",
+    "y_label": "IC50 (nM)"
+   }
+  },
+  {
+   "layout": "table",
+   "title": "Selectivity sweep: % inhibition at 1 µM",
+   "table": {
+    "table_ref": "PRJ0044:kinase_panel"
+   }
+  },
+  {
+   "layout": "table",
+   "title": "Ranking and decision",
+   "table": {
+    "columns": [
+     "Compound",
+     "Off-target kinases >50% at 1 µM",
+     "Decision"
+    ],
+    "rows": [
+     [
+      "AP02-01430",
+      "1 (ABL1)",
+      "Selected by Avernelwick: narrowest fingerprint and more potent of the two one-hit compounds"
+     ],
+     [
+      "AP02-01410",
+      "1 (KDR)",
+      "Back-up: same fingerprint width, weaker primary potency"
+     ],
+     [
+      "AP02-01416",
+      "4",
+      "Not progressed"
+     ],
+     [
+      "AP02-01400",
+      "3",
+      "Not progressed"
+     ],
+     [
+      "AP02-01418",
+      "6",
+      "Set aside: broad off-target inhibition"
+     ],
+     [
+      "AP02-01428",
+      "6",
+      "Set aside: broad off-target inhibition"
+     ]
+    ]
+   },
+   "notes": "Tie-break between the two one-hit compounds was primary potency (see slide 4 and the run sheets)."
+  },
+  {
+   "layout": "image",
+   "title": "Compounds in the sweep",
+   "image": {
+    "kind": "molecule_grid",
+    "ref": "PRJ0044",
+    "n": 6
+   }
+  },
+  {
+   "layout": "title_content",
+   "title": "Next steps",
+   "bullets": [
+    "Avernelwick confirmed AP02-01430 as the reserve for the next medicinal chemistry round (call, 26 January)",
+    "AP02-01410 kept as back-up",
+    "Optional: full concentration response on ABL1 for AP02-01430",
+    "Contact: Dr B. Rowcroft, Screening Operations Director"
+   ]
+  }
  ]
 }

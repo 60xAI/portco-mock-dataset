@@ -1,42 +1,194 @@
 {
  "family": "deck",
  "summary": "Tarnovell head-office cross-sell deck (June 2026) for BD leads across the group. Reuses Quenverell's 'Bioinformatics for drug discovery' slide, maps the group's service lines, and uses Corvenlea as the worked example: it bought chemistry from Vellacombe as Corvenlea Pharma, DMPK from Merrivoss as Corvenlea Ltd and stability work from Westravelle as Corvenlea Pharmaceuticals plc, but never biology, bioinformatics or formulation.",
- "properties": {"title": "One Tarnovell: cross-selling across the group", "subject": "Cross-sell", "keywords": "cross-sell; client history; Corvenlea; bioinformatics"},
+ "properties": {
+  "title": "One Tarnovell: cross-selling across the group",
+  "subject": "Cross-sell",
+  "keywords": "cross-sell; client history; Corvenlea; bioinformatics"
+ },
  "slides": [
-  {"layout": "title", "title": "One Tarnovell: cross-selling across the group", "subtitle": "Commercial workstream | One Group, Many Practices | June 2026"},
-  {"layout": "title_content", "title": "Why this matters", "bullets": ["Most clients buy from one legacy firm only", "Each firm's CRM knows its own clients under its own names", "We lose opportunities we already have the relationship for", "Goal for 2026-27: every top-30 account reviewed for white space"]},
-  {"layout": "table", "title": "What the group offers",
-   "table": {"columns": ["Firm", "Service line", "Typical first project"],
-     "rows": [["Vellacombe Discovery", "Medicinal chemistry", "Route scout and analogue set"],
-              ["Brindlewythe Biosciences", "In vitro biology and screening", "hERG and CYP panel"],
-              ["Merrivoss Bioanalysis", "DMPK and bioanalysis", "Microsomal stability and PPB"],
-              ["Quenverell Computational", "Bioinformatics and computational chemistry", "Target prioritisation"],
-              ["Westravelle Analytical", "Analytical chemistry and stability", "ICH stability study"],
-              ["Durnesswick Laboratories", "Formulation and early CMC", "Vehicle screen"]]}},
-  {"layout": "title_content", "title": "Bioinformatics for drug discovery",
-   "bullets": ["Turns large biological datasets into decisions at each stage of a programme",
-     {"text": "Target identification: rank disease-linked genes from transcriptomics, genetics and curated pathways", "level": 1},
-     {"text": "Target validation: is the target expressed in the right tissue, cell type and patients?", "level": 1},
-     {"text": "Mechanism of action: pathway responses to compound treatment", "level": 1},
-     {"text": "Biomarkers and stratification: which patients respond, and how to track it", "level": 1},
-     "Reproducible analyses with documented data acceptance",
-     "Offered by Quenverell Computational; easy to add to chemistry or biology proposals"],
-   "notes": "Slide reused from the Quenverell 2025 capability deck with their agreement. Use it in any pitch where the client has omics data but no in-house team."},
-  {"layout": "title_content", "title": "Where to look for white space", "bullets": ["Clients buying chemistry but not biology", "Biology clients with no DMPK partner", "Late-stage clients with no stability or formulation provider", "Any client whose name changed: check all legacy CRMs"]},
-  {"layout": "section", "title": "Worked example: Corvenlea", "subtitle": "One client, three names, three firms"},
-  {"layout": "table", "title": "Corvenlea across the group",
-   "table": {"columns": ["Legacy firm", "Name on file", "Years", "What they bought"],
-     "rows": [["Vellacombe Discovery", "Corvenlea Pharma", "2001-2009", "Analogue synthesis"],
-              ["Merrivoss Bioanalysis", "Corvenlea Ltd", "2012-2018", "Microsomal and hepatocyte stability, PPB"],
-              ["Westravelle Analytical", "Corvenlea Pharmaceuticals plc", "2019-now", "ICH stability with assay validation"]]},
-   "notes": "Same company: Corvenlea Pharma became Corvenlea Ltd, then listed in 2019 as Corvenlea Pharmaceuticals plc. Three CRMs held three separate accounts until the client identity bridge linked them."},
-  {"layout": "two_content", "title": "Corvenlea: what they have never bought from us",
-   "bullets": ["Bought: chemistry (Vellacombe)", "Bought: DMPK (Merrivoss)", "Bought: stability (Westravelle)"],
-   "bullets_right": ["Never: in vitro biology (Brindlewythe)", "Never: bioinformatics (Quenverell)", "Never: formulation (Durnesswick)"],
-   "notes": "Their late-stage tablet work at Westravelle is the natural lead-in to Durnesswick formulation support."},
-  {"layout": "title_content", "title": "Don't confuse them with Corvenlith", "bullets": ["Corvenlith Therapeutics is a different company", "Quenverell and Durnesswick client; no corporate link to Corvenlea", "Always check the client identity bridge before merging accounts"]},
-  {"layout": "title_content", "title": "How to run a cross-sell review", "bullets": ["Pull the account from the client identity bridge, not one CRM", "List service lines bought and not bought", "Agree one introduction per quarter with the owning firm", "Log the outcome in the cross-sell matrix"]},
-  {"layout": "title_content", "title": "Support from head office", "bullets": ["Client identity bridge maintained by the integration team", "Cross-sell white-space matrix for top accounts", "Joint proposal templates in the group template"]},
-  {"layout": "title_content", "title": "Contacts", "bullets": ["Sofia Lindervik, Integration Director", "BD leads in each firm"]}
+  {
+   "layout": "title",
+   "title": "One Tarnovell: cross-selling across the group",
+   "subtitle": "Commercial workstream | One Group, Many Practices | June 2026"
+  },
+  {
+   "layout": "title_content",
+   "title": "Why this matters",
+   "bullets": [
+    "Most clients buy from one legacy firm only",
+    "Each firm's CRM knows its own clients under its own names",
+    "We lose opportunities we already have the relationship for",
+    "Goal for 2026-27: every top-30 account reviewed for white space"
+   ]
+  },
+  {
+   "layout": "table",
+   "title": "What the group offers",
+   "table": {
+    "columns": [
+     "Firm",
+     "Service line",
+     "Typical first project"
+    ],
+    "rows": [
+     [
+      "Vellacombe Discovery",
+      "Medicinal chemistry",
+      "Route scout and analogue set"
+     ],
+     [
+      "Brindlewythe Biosciences",
+      "In vitro biology and screening",
+      "hERG and CYP panel"
+     ],
+     [
+      "Merrivoss Bioanalysis",
+      "DMPK and bioanalysis",
+      "Microsomal stability and PPB"
+     ],
+     [
+      "Quenverell Computational",
+      "Bioinformatics and computational chemistry",
+      "Target prioritisation"
+     ],
+     [
+      "Westravelle Analytical",
+      "Analytical chemistry and stability",
+      "ICH stability study"
+     ],
+     [
+      "Durnesswick Laboratories",
+      "Formulation and early CMC",
+      "Vehicle screen"
+     ]
+    ]
+   }
+  },
+  {
+   "layout": "title_content",
+   "title": "Bioinformatics for drug discovery",
+   "bullets": [
+    "Turns large biological datasets into decisions at each stage of a programme",
+    {
+     "text": "Target identification: rank disease-linked genes from transcriptomics, genetics and curated pathways",
+     "level": 1
+    },
+    {
+     "text": "Target validation support: expression evidence in the right tissue, cell type and patients to guide functional testing",
+     "level": 1
+    },
+    {
+     "text": "Mechanism of action: pathway responses to compound treatment",
+     "level": 1
+    },
+    {
+     "text": "Biomarker candidates: response signatures and monitoring markers for validation",
+     "level": 1
+    },
+    "Reproducible analyses with documented data acceptance",
+    "Offered by Quenverell Computational; easy to add to chemistry or biology proposals"
+   ],
+   "notes": "Slide reused from the Quenverell 2025 capability deck with their agreement. Use it in any pitch where the client has omics data but no in-house team."
+  },
+  {
+   "layout": "title_content",
+   "title": "Where to look for white space",
+   "bullets": [
+    "Clients buying chemistry but not biology",
+    "Biology clients with no DMPK partner",
+    "Late-stage clients with no stability or formulation provider",
+    "Any client whose name changed: check all legacy CRMs"
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Worked example: Corvenlea",
+   "subtitle": "One client, three names, three firms"
+  },
+  {
+   "layout": "table",
+   "title": "Corvenlea across the group",
+   "table": {
+    "columns": [
+     "Legacy firm",
+     "Name on file",
+     "Years",
+     "What they bought"
+    ],
+    "rows": [
+     [
+      "Vellacombe Discovery",
+      "Corvenlea Pharma",
+      "2001-2009",
+      "Analogue synthesis"
+     ],
+     [
+      "Merrivoss Bioanalysis",
+      "Corvenlea Ltd",
+      "2012-2018",
+      "Microsomal and hepatocyte stability, PPB"
+     ],
+     [
+      "Westravelle Analytical",
+      "Corvenlea Pharmaceuticals plc",
+      "2019-now",
+      "ICH stability with assay validation"
+     ]
+    ]
+   },
+   "notes": "Same company: Corvenlea Pharma became Corvenlea Ltd, then listed in 2019 as Corvenlea Pharmaceuticals plc. Three CRMs held three separate accounts until the client identity bridge linked them."
+  },
+  {
+   "layout": "two_content",
+   "title": "Corvenlea: what they have never bought from us",
+   "bullets": [
+    "Bought: chemistry (Vellacombe)",
+    "Bought: DMPK (Merrivoss)",
+    "Bought: stability (Westravelle)"
+   ],
+   "bullets_right": [
+    "Never: in vitro biology (Brindlewythe)",
+    "Never: bioinformatics (Quenverell)",
+    "Never: formulation (Durnesswick)"
+   ],
+   "notes": "Their late-stage tablet work at Westravelle is the natural lead-in to Durnesswick formulation support."
+  },
+  {
+   "layout": "title_content",
+   "title": "Don't confuse them with Corvenlith",
+   "bullets": [
+    "Corvenlith Therapeutics is a different company",
+    "Quenverell and Durnesswick client; no corporate link to Corvenlea",
+    "Always check the client identity bridge before merging accounts"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "How to run a cross-sell review",
+   "bullets": [
+    "Pull the account from the client identity bridge, not one CRM",
+    "List service lines bought and not bought",
+    "Agree one introduction per quarter with the owning firm",
+    "Log the outcome in the cross-sell matrix"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Support from head office",
+   "bullets": [
+    "Client identity bridge maintained by the integration team",
+    "Cross-sell white-space matrix for top accounts",
+    "Joint proposal templates in the group template"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Contacts",
+   "bullets": [
+    "Sofia Lindervik, Integration Director",
+    "BD leads in each firm"
+   ]
+  }
  ]
 }

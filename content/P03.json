@@ -1,33 +1,214 @@
 {
  "family": "deck",
  "summary": "Quenverell's 2018 capability deck in the legacy template (v3). Slide 4 'Bioinformatics in drug discovery' explains how expression data, genetics and pathway analysis support target selection and biomarker work; later slides cover RNA-seq services, data acceptance, docking support, engagement types and a short case study.",
- "properties": {"title": "Quenverell Computational: bioinformatics capabilities", "subject": "Capability deck v3", "keywords": "bioinformatics; RNA-seq; target identification; biomarkers"},
+ "properties": {
+  "title": "Quenverell Computational: bioinformatics capabilities",
+  "subject": "Capability deck v3",
+  "keywords": "bioinformatics; RNA-seq; target identification; biomarkers"
+ },
  "slides": [
-  {"layout": "title", "title": "Bioinformatics and computational chemistry", "subtitle": "Quenverell Computational Ltd | Capabilities | May 2018"},
-  {"layout": "title_content", "title": "About Quenverell", "bullets": ["Founded in Edinburgh in 2009 by computational biologists", "Part of the Vellacombe group of laboratories since 2014", "Fourteen scientists across bioinformatics, computational chemistry and data management", "We work as an extension of the client's project team"]},
-  {"layout": "title_content", "title": "What clients ask us for", "bullets": ["Which target should we build an assay for?", "Is this target expressed where the disease is?", "What did our compound actually do to the cells?", "Which patients should go into the first study?"], "notes": "Open with the questions, not the methods."},
-  {"layout": "title_content", "title": "Bioinformatics in drug discovery",
-   "bullets": ["Analyses public and client data to support decisions from target to clinic",
-     {"text": "Target identification from differential expression and genetic association", "level": 1},
-     {"text": "Target validation: tissue and cell-type expression, pathway context", "level": 1},
-     {"text": "Mode of action from compound-treated expression profiles", "level": 1},
-     {"text": "Biomarker candidates for patient selection", "level": 1},
-     "Reproducible pipelines and documented data acceptance",
-     "Result: a short, evidenced list rather than a long list of hits"],
-   "notes": "Core slide. Same message as the 2016 deck, refreshed with the single-cell work."},
-  {"layout": "section", "title": "Services", "subtitle": "Engagements we run most often"},
-  {"layout": "two_content", "title": "RNA-seq differential expression", "bullets": ["Bulk RNA-seq from client or public studies", "QC, alignment and quantification", "Differential expression with batch correction", "Pathway enrichment"], "bullets_right": ["Ranked gene list", "QC report", "Figures for the client's own slides", "Analysis notebook"]},
-  {"layout": "title_content", "title": "Single-cell expression (new in 2018)", "bullets": ["Cell-type resolution for target expression questions", "Small studies first; we advise on sample numbers before sequencing", "Delivered with the same acceptance checks as bulk work"]},
-  {"layout": "title_content", "title": "Genetic evidence for targets", "bullets": ["Association results mapped to candidate genes", "Evidence summarised per target in one table", "Combined with expression to rank candidates"]},
-  {"layout": "title_content", "title": "Biomarker support", "bullets": ["Candidate markers from baseline expression", "Simple stratification rules the clinical team can use", "Honest about effect sizes and sample limits"]},
-  {"layout": "title_content", "title": "Data acceptance", "bullets": ["Sample manifests reconciled before analysis", "Outliers and exclusions documented", "Pipelines version-controlled", "Second analyst review before release"]},
-  {"layout": "section", "title": "Computational chemistry", "subtitle": "Supporting the chemists"},
-  {"layout": "title_content", "title": "Virtual screening and docking", "bullets": ["Library filtering on physicochemical properties", "Docking for hit triage against client-supplied models", "Pose review with the client's chemists", "Purchase or synthesis lists"]},
-  {"layout": "title_content", "title": "Property prediction", "bullets": ["Solubility, permeability and clearance flags", "Used to filter, not to replace, laboratory data", "Calibrated against group laboratory results where available"]},
-  {"layout": "table", "title": "Engagement types", "table": {"columns": ["Engagement", "Typical length", "Output"], "rows": [["Target ranking", "6-10 weeks", "Ranked list and readout"], ["RNA-seq study analysis", "3-6 weeks", "DE results and report"], ["Biomarker support", "8-12 weeks", "Candidate panel"], ["Virtual screen", "4-8 weeks", "Prioritised compounds"]]}},
-  {"layout": "title_content", "title": "Case study: expression-led target choice", "bullets": ["Client had 25 candidate genes and budget for three assays", "Expression in patient tissue and genetic evidence combined", "Three targets recommended; one later confirmed in cell assays", "Client returned for biomarker work"]},
-  {"layout": "title_content", "title": "Group laboratories", "bullets": ["In vitro biology at Brindlewythe Biosciences", "DMPK at Merrivoss Bioanalysis", "Chemistry at Vellacombe Discovery", "Ask us about combined proposals"]},
-  {"layout": "title_content", "title": "How we work", "bullets": ["Scoping call and data review", "Fixed-price proposal", "Interim readout at the halfway point", "Final readout with analysis notebook"]},
-  {"layout": "title_content", "title": "Contact", "bullets": ["Dr T. Zawiernicki, Head of Bioinformatics", "Quenverell Computational Ltd, Edinburgh"]}
+  {
+   "layout": "title",
+   "title": "Bioinformatics and computational chemistry",
+   "subtitle": "Quenverell Computational Ltd | Capabilities | May 2018"
+  },
+  {
+   "layout": "title_content",
+   "title": "About Quenverell",
+   "bullets": [
+    "Founded in Edinburgh in 2009 by computational biologists",
+    "Part of the Vellacombe group of laboratories since 2014",
+    "Fourteen scientists across bioinformatics, computational chemistry and data management",
+    "We work as an extension of the client's project team"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "What clients ask us for",
+   "bullets": [
+    "Which target should we build an assay for?",
+    "Is this target expressed where the disease is?",
+    "What did our compound actually do to the cells?",
+    "Which patients should go into the first study?"
+   ],
+   "notes": "Open with the questions, not the methods."
+  },
+  {
+   "layout": "title_content",
+   "title": "Bioinformatics in drug discovery",
+   "bullets": [
+    "Analyses public and client data to support decisions from target to clinic",
+    {
+     "text": "Target identification from differential expression and genetic association",
+     "level": 1
+    },
+    {
+     "text": "Target validation: tissue and cell-type expression, pathway context",
+     "level": 1
+    },
+    {
+     "text": "Mode of action from compound-treated expression profiles",
+     "level": 1
+    },
+    {
+     "text": "Biomarker candidates for patient selection",
+     "level": 1
+    },
+    "Reproducible pipelines and documented data acceptance",
+    "Result: a short, evidenced list rather than a long list of hits"
+   ],
+   "notes": "Core slide. Same message as the 2016 deck, refreshed with the single-cell work."
+  },
+  {
+   "layout": "section",
+   "title": "Services",
+   "subtitle": "Engagements we run most often"
+  },
+  {
+   "layout": "two_content",
+   "title": "RNA-seq differential expression",
+   "bullets": [
+    "Bulk RNA-seq from client or public studies",
+    "Data acceptance, alignment and quantification",
+    "Differential expression with batch correction",
+    "Pathway enrichment"
+   ],
+   "bullets_right": [
+    "Ranked gene list",
+    "Data acceptance report",
+    "Figures for the client's own slides",
+    "Analysis notebook"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Single-cell expression (new in 2018)",
+   "bullets": [
+    "Cell-type resolution for target expression questions",
+    "Small studies first; we advise on sample numbers before sequencing",
+    "Delivered with the same acceptance checks as bulk work"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Genetic evidence for targets",
+   "bullets": [
+    "Association results mapped to candidate genes",
+    "Evidence summarised per target in one table",
+    "Combined with expression to rank candidates"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Biomarker support",
+   "bullets": [
+    "Candidate markers from baseline expression",
+    "Simple stratification rules the clinical team can use",
+    "Honest about effect sizes and sample limits"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Data acceptance",
+   "bullets": [
+    "Sample manifests reconciled before analysis",
+    "Outliers and exclusions documented",
+    "Pipelines version-controlled",
+    "Second analyst review before release"
+   ]
+  },
+  {
+   "layout": "section",
+   "title": "Computational chemistry",
+   "subtitle": "Supporting the chemists"
+  },
+  {
+   "layout": "title_content",
+   "title": "Virtual screening and docking",
+   "bullets": [
+    "Library filtering on physicochemical properties",
+    "Docking for hit triage against client-supplied models",
+    "Pose review with the client's chemists",
+    "Purchase or synthesis lists"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Property prediction",
+   "bullets": [
+    "Solubility, permeability and clearance flags",
+    "Used to filter, not to replace, laboratory data",
+    "Calibrated against group laboratory results where available"
+   ]
+  },
+  {
+   "layout": "table",
+   "title": "Engagement types",
+   "table": {
+    "columns": [
+     "Engagement",
+     "Output"
+    ],
+    "rows": [
+     [
+      "Target ranking",
+      "Ranked list and readout"
+     ],
+     [
+      "RNA-seq study analysis",
+      "Differential expression results and report"
+     ],
+     [
+      "Biomarker support",
+      "Candidate panel"
+     ],
+     [
+      "Virtual screen",
+      "Prioritised compounds"
+     ]
+    ]
+   },
+   "bullets": [
+    "Scope and timing agreed after data acceptance"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Case study: expression-led target choice",
+   "bullets": [
+    "Client had more candidate genes than assay budget",
+    "Combined patient-tissue expression and genetic evidence to recommend a shortlist for cell assays",
+    "Follow-up testing supported one candidate",
+    "Client returned for biomarker work"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Group laboratories",
+   "bullets": [
+    "In vitro biology at Brindlewythe Biosciences",
+    "DMPK at Merrivoss Bioanalysis",
+    "Chemistry at Vellacombe Discovery",
+    "Ask us about combined proposals"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "How we work",
+   "bullets": [
+    "Scoping call and data review",
+    "Fixed-price proposal",
+    "Interim readout at the halfway point",
+    "Final readout with analysis notebook"
+   ]
+  },
+  {
+   "layout": "title_content",
+   "title": "Contact",
+   "bullets": [
+    "Dr T. Zawiernicki, Head of Bioinformatics",
+    "Quenverell Computational Ltd, Edinburgh"
+   ]
+  }
  ]
 }

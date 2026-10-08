@@ -9,9 +9,9 @@
    "title": "Vehicle screen (target 10 mg/mL)",
    "columns": [
     "Vehicle",
-    "Solubility (mg/mL)",
-    "Appearance",
-    "24 h physical stability"
+    "Equilibrium solubility (mg/mL)",
+    "Appearance at 10 mg/mL loading",
+    "24 h physical stability (10 mg/mL)"
    ],
    "rows": [
     [
@@ -23,17 +23,18 @@
     [
      "0.5% HPMC / 0.1% Tween 80",
      "7.1",
-     "Clear, slight yellow tint",
+     "Fine suspension, easily redispersed",
      "Crystal growth at 24 h"
     ],
     [
      "20% HP-β-CD in water",
      "0.52",
-     "Precipitate at 24 h",
+     "Suspension, settles <1 h",
      "Crystal growth at 24 h"
     ]
    ],
    "notes": [
+    "Solubility by shake-flask, 24 h, 25 °C, HPLC-UV; appearance and stability assessed on separately prepared 10 mg/mL formulations",
     "INTERIM: 3 of 3 results reported; remaining in progress"
    ]
   }

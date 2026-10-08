@@ -78,6 +78,7 @@ def table_data(tbl, errors=None) -> tuple[list[str], list[list], str | None]:
         if tbl.columns:
             cols = [cols[i] for i in tbl.columns if i < len(cols)]
             rows = [[r[i] for i in tbl.columns if i < len(r)] for r in rows]
+        rows = rows[getattr(tbl, "start_row", 0) or 0:]
         if tbl.max_rows:
             rows = rows[: tbl.max_rows]
         return cols, rows, tbl.caption or t.get("title")
@@ -205,6 +206,9 @@ def chart_png(ch, style: Style, errors=None, seed="x", size=(6.4, 3.8)) -> bytes
                 else:
                     ax.bar(x + i * wdt - 0.4 + wdt / 2, vals, wdt, color=cols[i % len(cols)], label=s.name)
             ax.set_xticks(x, labels, rotation=45 if len(labels) > 6 else 0, ha="right" if len(labels) > 6 else "center", fontsize=7)
+            allv = [v for s_ in series for v in s_.values if v and v > 0]
+            if allv and max(allv) / max(min(allv), 1e-9) > 100 and kind == "bar":
+                ax.set_yscale("log")
         elif kind == "hbar":
             s = series[0]
             ax.barh(x, (list(s.values) + [0] * len(labels))[: len(labels)], color=cols[0])
@@ -237,7 +241,7 @@ def chart_png(ch, style: Style, errors=None, seed="x", size=(6.4, 3.8)) -> bytes
     return buf.getvalue()
 
 
-def molecule_png(ref: str, n: int, errors=None) -> bytes:
+def molecule_png(ref: str, n: int, errors=None, bw: bool = False) -> bytes:
     from rdkit import Chem
     from rdkit.Chem import Draw
     smis, legends = [], []
@@ -259,7 +263,10 @@ def molecule_png(ref: str, n: int, errors=None) -> bytes:
             errors.append(f"molecule_grid: no compounds for {ref}")
         return chart_png_placeholder()
     mols = [Chem.MolFromSmiles(s) for s in smis]
-    img = Draw.MolsToGridImage(mols, molsPerRow=min(4, len(mols)), subImgSize=(260, 200), legends=legends)
+    opts = Draw.MolDrawOptions()
+    if bw:
+        opts.useBWAtomPalette()
+    img = Draw.MolsToGridImage(mols, molsPerRow=min(4, len(mols)), subImgSize=(260, 200), legends=legends, drawOptions=opts)
     buf = io.BytesIO()
     img.save(buf, format="PNG")
     return buf.getvalue()
@@ -324,7 +331,7 @@ def boxes_png(kind: str, boxes: list[str], style: Style) -> bytes:
 
 def image_png(img, style, errors=None, seed="x") -> bytes:
     if img.kind == "molecule_grid":
-        return molecule_png(img.ref, img.n, errors)
+        return molecule_png(img.ref, img.n, errors, bw=style.year < 2005)
     if img.kind == "chart" and img.chart:
         return chart_png(img.chart, style, errors, seed)
     if img.kind in ("org_chart", "timeline"):
@@ -608,6 +615,8 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
                 th = min(H - y - Inches(0.7), Inches(0.3) * nrows)
                 shape = s.shapes.add_table(nrows, len(cols), Inches(0.5), y, avail_w, th)
                 tbl = shape.table
+                if style.year < 2007:
+                    tbl.horz_banding = False
                 fs = 14 if nrows <= 8 else (12 if nrows <= 13 else 10)
                 if len(cols) > 7:
                     fs -= 1
@@ -622,6 +631,8 @@ def render_deck(content, entry, style: Style, people, out: Path, errors: list):
                     for j in range(len(cols)):
                         cell = tbl.cell(i, j)
                         cell.text = "" if j >= len(row) or row[j] is None else str(resolve_text(row[j], errors) if isinstance(row[j], str) else row[j])
+                        if style.year < 2007:
+                            cell.fill.solid(); cell.fill.fore_color.rgb = RGBColor(255, 255, 255)
                         for p in cell.text_frame.paragraphs:
                             for r in p.runs:
                                 font(r, size=fs)
@@ -760,6 +771,17 @@ def render_workbook(content, entry, style: Style, people, out: Path, errors: lis
                 ws[cm.cell].comment = Comment(resolve_text(cm.text, errors), cm.author or people(entry.author))
             except Exception as e:
                 errors.append(f"sheet {sh.name}: bad comment cell {cm.cell}: {e}")
+        for col_cells in ws.iter_cols(min_row=1, max_row=min(ws.max_row, 80)):
+            L_ = get_column_letter(col_cells[0].column)
+            if L_ in sh.col_widths:
+                continue
+            longest = max((len(str(c.value)) for c in col_cells if c.value is not None and not str(c.value).startswith("=")), default=0)
+            if longest:
+                ws.column_dimensions[L_].width = max(ws.column_dimensions[L_].width or 8, min(48, longest * 1.05 + 2))
+        ws.page_setup.orientation = "landscape"
+        ws.sheet_properties.pageSetUpPr.fitToPage = True
+        ws.page_setup.fitToWidth = 1
+        ws.page_setup.fitToHeight = 0
         if sh.freeze:
             ws.freeze_panes = sh.freeze
         if sh.hidden:
@@ -874,20 +896,24 @@ def render_document(content, entry, style: Style, people, out: Path, errors: lis
                 elif b.style == "small":
                     r.font.size = Pt(8.5)
             if b.items:
-                for it in b.items:
+                for k_, it in enumerate(b.items):
                     text = it if isinstance(it, str) else it.text
                     lvl = 0 if isinstance(it, str) else it.level
                     sname = ("List Number" if b.ordered else "List Bullet") + (f" {lvl + 1}" if lvl else "")
                     try:
-                        doc.add_paragraph(resolve_text(text, errors), style=sname)
+                        lp = doc.add_paragraph(resolve_text(text, errors), style=sname)
                     except KeyError:
-                        doc.add_paragraph(resolve_text(text, errors), style="List Bullet")
+                        lp = doc.add_paragraph(resolve_text(text, errors), style="List Bullet")
+                    lp.paragraph_format.keep_together = True
+                    if k_ < len(b.items) - 1:
+                        lp.paragraph_format.keep_with_next = True
             if b.table is not None:
                 cols, rows, cap = table_data(b.table, errors)
                 if cols:
                     if cap:
                         cp = doc.add_paragraph()
                         r = cp.add_run(resolve_text(cap, errors)); r.bold = True; r.font.size = Pt(9)
+                        cp.paragraph_format.keep_with_next = True
                     t = doc.add_table(rows=1 + len(rows), cols=len(cols))
                     t.style = "Table Grid"
                     fs = Pt(8 if len(cols) > 6 else 9)
@@ -906,6 +932,11 @@ def render_document(content, entry, style: Style, people, out: Path, errors: lis
                             for p_ in cell.paragraphs:
                                 for r in p_.runs:
                                     r.font.size = fs
+                    if len(rows) <= 25:
+                        for row_ in t.rows[:-1]:
+                            for cell_ in row_.cells:
+                                for p_ in cell_.paragraphs:
+                                    p_.paragraph_format.keep_with_next = True
                     if getattr(b.table, "table_ref", None):
                         tt = get_table(b.table.table_ref)
                         for note in (tt or {}).get("notes", []):
@@ -919,7 +950,8 @@ def render_document(content, entry, style: Style, people, out: Path, errors: lis
 
     for s in content.sections:
         if s.heading:
-            doc.add_heading(resolve_text(s.heading, errors), level=max(1, min(3, s.level)))
+            h = doc.add_heading(resolve_text(s.heading, errors), level=max(1, min(3, s.level)))
+            h.paragraph_format.keep_with_next = True
         add_blocks(s.blocks)
     if content.signature_block:
         doc.add_paragraph()
@@ -932,7 +964,7 @@ def render_document(content, entry, style: Style, people, out: Path, errors: lis
             t.cell(i, 1).text = resolve_text(sg.role, errors)
             if sg.signed:
                 p_ = t.cell(i, 2).paragraphs[0]
-                r = p_.add_run(sg.name.split()[-1] if sg.name else ""); r.italic = True; r.font.name = "Georgia"
+                p_.add_run().add_picture(io.BytesIO(signature_png(sg.name)), height=Cm(0.9))
             t.cell(i, 3).text = sg.date or ""
     for a in content.appendices:
         doc.add_page_break()
@@ -959,6 +991,30 @@ def render_document(content, entry, style: Style, people, out: Path, errors: lis
     set_core(doc.core_properties, entry, people, content.properties, resolve_text(title))
     doc.save(out)
     patch_app_xml(out, style.company, "docx", entry.created.year)
+
+
+def signature_png(name: str) -> bytes:
+    """A handwritten-looking signature image (PIL), deterministic per name."""
+    from PIL import Image, ImageDraw, ImageFont
+    rnd = random.Random(zlib.crc32(name.encode()))
+    nm = name.split()
+    text = (nm[0][0] + " " + nm[-1]) if len(nm) > 1 else name
+    try:
+        fnt = ImageFont.truetype("/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf", 64)
+    except Exception:
+        fnt = ImageFont.load_default()
+    w_ = int(len(text) * 34 + 60)
+    im = Image.new("RGBA", (w_, 110), (255, 255, 255, 0))
+    d = ImageDraw.Draw(im)
+    d.text((20, 12), text, font=fnt, fill=(28, 38, 92, 255))
+    y0 = 92 + rnd.randint(-4, 4)
+    d.line([(16, y0), (w_ - rnd.randint(10, 60), y0 - rnd.randint(4, 14))], fill=(28, 38, 92, 200), width=3)
+    im = im.rotate(rnd.uniform(-4, 3), expand=True, resample=Image.BICUBIC)
+    bg = Image.new("RGB", im.size, (255, 255, 255))
+    bg.paste(im, mask=im.split()[3])
+    buf = io.BytesIO()
+    bg.save(buf, format="PNG")
+    return buf.getvalue()
 
 
 def style_is_us(style: Style) -> bool:
@@ -1087,8 +1143,15 @@ def make_scan(pdf_in: Path, pdf_out: Path, settings, seed: str):
             x, y = int(W * 0.58), int(H * 0.06)
             tw = draw.textlength(settings.stamp, font=fnt)
             x = min(x, int(W - tw - 80))
-            draw.rectangle([x - 18, y - 12, x + tw + 18, y + 64], outline=70, width=5)
-            draw.text((x, y), settings.stamp, fill=70, font=fnt)
+            stamp = Image.new("L", (int(tw + 60), 100), 255)
+            sd = ImageDraw.Draw(stamp)
+            sd.rectangle([6, 6, tw + 50, 90], outline=150, width=4)
+            sd.text((26, 20), settings.stamp, fill=140, font=fnt)
+            sn = np.array(stamp).astype(np.float32)
+            gaps = np.random.RandomState(zlib.crc32(seed.encode())).rand(*sn.shape) < 0.25
+            sn[gaps] = 255
+            stamp = Image.fromarray(sn.clip(0, 255).astype(np.uint8)).rotate(rnd.uniform(-4, 4), fillcolor=255, expand=True)
+            im.paste(Image.composite(stamp, im.crop((x, y, x + stamp.width, y + stamp.height)), stamp.point(lambda v: 255 if v < 250 else 0)), (x, y))
         if i == 0 and settings.handwriting:
             try:
                 fnt = ImageFont.truetype("/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf", 52)
@@ -1097,7 +1160,11 @@ def make_scan(pdf_in: Path, pdf_out: Path, settings, seed: str):
                     fnt = ImageFont.truetype("/System/Library/Fonts/Supplemental/Georgia Italic.ttf", 48)
                 except Exception:
                     fnt = ImageFont.load_default()
-            draw.text((int(W * 0.12), int(H * 0.86)), settings.handwriting, fill=40, font=fnt)
+            note = Image.new("L", (int(W * 0.8), 90), 255)
+            ImageDraw.Draw(note).text((0, 10), settings.handwriting, fill=45, font=fnt)
+            note = note.rotate(rnd.uniform(-3, 2), fillcolor=255, expand=True)
+            nx, ny = int(W * 0.10), int(H * 0.935)
+            im.paste(Image.composite(note, im.crop((nx, ny, nx + note.width, ny + note.height)), note.point(lambda v: 255 if v < 250 else 0)), (nx, ny))
         arr = np.array(im).astype(np.float32)
         nrng = np.random.RandomState(zlib.crc32(f"{seed}-{i}".encode()))
         arr += nrng.normal(0, 6 + 22 * settings.noise, arr.shape)

@@ -42,7 +42,7 @@ were has have had not all any each other another more most many several some dat
 toxicological formulation formulations stability laboratories laboratory labs sciences medicines therapeutics pharmaceuticals biosciences
 bioscience holdings limited corporation inc ltd plc gmbh ag bv ab llc corp tarnovell one key target targets oncology immunology respiratory
 cns cardiovascular metabolic infectious rare disease diseases inflammation fibrosis neuroscience dermatology ophthalmology emerging established
-existing prospective potential named listed unnamed undisclosed confidential""".split())
+existing prospective potential named listed unnamed undisclosed confidential senior junior principal head lead director manager scientist biologist chemist associate assistant chief group deputy acting interim""".split())
 
 DR_RE = re.compile(r"\b(?:Dr|Prof|Professor)\.?\s+(?:[A-Z]\.\s*){0,2}([A-Z][a-z]+(?:[-'][A-Z][a-z]+)?)\b")
 FULLNAME_RE = re.compile(r"\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?)[ \t]+([A-Z][a-z]+(?:[-'][A-Z][a-z]+)?)\b")
@@ -93,3 +93,8 @@ def find_dates(text: str, us: bool = False) -> list[tuple[str, date]]:
     for m in D_TEXT_US.finditer(text):
         ok(m.group(3), MONTHS[m.group(1)[:3].lower()], m.group(2), m.group(0))
     return out
+
+
+# eponymous methods and terms that look like person names
+ALLOW_NAMES = {"karl fischer", "michaelis menten", "mann whitney", "hardy weinberg", "henderson hasselbalch", "lineweaver burk",
+               "hill slope", "bland altman", "kaplan meier", "fisher exact", "wilcoxon rank", "student t", "dean stark", "grignard reagent"}
