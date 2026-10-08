@@ -1,0 +1,19 @@
+{
+ "family": "document",
+ "summary": "Durnesswick final client report DL_2020_0050 (September 28, 2020) for Nimbravelle Medicines Inc: NM-12 oral vehicle follow-up. The cosolvent-rich vehicle precipitated on aqueous dilution and was rejected; a dispersed suspension was recommended, with practical preparation and administration instructions.",
+ "properties": {"title": "DL_2020_0050 NM-12 formulation report", "subject": "Oral vehicle follow-up"},
+ "header": "DL_2020_0050 | Nimbravelle Medicines Inc | Final Report R1",
+ "title_block": {"title": "NM-12 Oral Vehicle: Precipitation-on-Dilution Follow-up", "subtitle": "Final Report",
+   "lines": ["Work package DL_2020_0050", "Client: Nimbravelle Medicines Inc", "Date: 09/28/2020", "Prepared by: Dr J. Carver, Formulation Development Lead"]},
+ "sections": [
+  {"heading": "1. Summary", "blocks": [{"p": "Nimbravelle needed a 10 mg/mL oral vehicle for NM-12 for repeat-dose rodent studies. The cosolvent-rich vehicle selected earlier gave a clear solution but precipitated within minutes when diluted into simulated gastric fluid. We recommend a dispersed suspension in 0.5% HPMC / 0.1% Tween 80, which tolerated dilution and remained dosable for 24 hours."}]},
+  {"heading": "2. Vehicle ladder", "blocks": [
+    {"p": "Eight vehicles were screened at the 10 mg/mL target. Solubility, appearance and 24-hour physical stability are below; this is an exploratory screen, not a locked process."},
+    {"table": {"table_ref": "PRJ0112:form_screen", "caption": "Table 1 Vehicle ladder results"}}]},
+  {"heading": "3. Dilution challenge", "blocks": [{"p": "Each candidate was diluted 1:10 into simulated gastric fluid at 37 °C and observed for 30 minutes. Cosolvent-rich and DMSO-containing vehicles precipitated; the HPMC/Tween suspension and the cyclodextrin solution did not change visibly. The cyclodextrin vehicle was not carried forward because of the dose-volume loading it would need at the top dose."}]},
+  {"heading": "4. Recommended vehicle and handling", "blocks": [
+    {"list": ["Vehicle: 0.5% HPMC / 0.1% Tween 80 in water", "Prepare by wetting the powder with the Tween fraction, then adding HPMC solution in portions with stirring", "Stir continuously during dosing; use within 24 hours of preparation", "Dose volume 10 mL/kg; check homogeneity at top, middle and bottom before the first dose"]}]},
+  {"heading": "5. Limitations", "blocks": [{"p": "Particle size was not controlled; if exposure variability is high in the first study, a milled suspension should be evaluated. Chemical stability of NM-12 in the vehicle beyond 24 hours was not tested."}]}
+ ],
+ "signature_block": [{"name": "Julia Carver", "role": "Formulation Development Lead", "date": "09/28/2020"}, {"name": "Miguel Serrano", "role": "Senior Formulation Scientist", "date": "09/28/2020"}]
+}

@@ -514,11 +514,11 @@ files:
   mess: []
   planted: []
   related: []
-  tier: orchestrator
+  tier: sol
   target_length: 12 slides
   summary: 'MV-2023-288 readout for Nimbravelle Medicines Inc presents Rat exposure with tandem-MS bioanalysis, matrix acceptance and analytical
     limits before the conclusion: Comparable exposure across the two lots allowed Nimbravelle to retain the original efficacy interpretation.'
-  pilot: true
+  pilot: false
 - id: C-008
   unit: C
   root: archive
@@ -1393,7 +1393,7 @@ files:
   target_length: 12 pages
   summary: PDF export of the MV-2023-288 Nimbravelle Medicines Inc readout presents dosing-lot exposure bridging with matrix acceptance and comparable
     exposure conclusions.
-  pilot: true
+  pilot: false
 - id: C-037
   unit: C
   root: archive

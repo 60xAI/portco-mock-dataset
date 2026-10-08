@@ -1,0 +1,20 @@
+{
+ "family": "document",
+ "summary": "Westravelle Analytical service catalogue (QA-approved, June 2025, group template): ICH chamber programme, stability pulls, assay and related-substances method validation and HPLC method qualification, with sample requirements, storage options, turnaround bands and reporting boundaries.",
+ "properties": {"title": "Westravelle Analytical services 2025", "subject": "Service catalogue"},
+ "header": "WESTRAVELLE ANALYTICAL | SERVICE CATALOGUE 2025",
+ "title_block": {"title": "ANALYTICAL AND STABILITY SERVICES", "subtitle": "Service catalogue 2025",
+   "lines": ["Westravelle Analytical Ltd, a Tarnovell company, York", "Document: WA-CAT-2025 Rev 01, QA approved 12/06/2025"]},
+ "sections": [
+  {"heading": "1. ABOUT WESTRAVELLE", "blocks": [{"p": "1.1 Westravelle provides analytical chemistry and stability testing for small-molecule drug substances and products from early development to registration batches. 1.2 Work is performed in numbered protocols with batch and storage details recorded at every step."}]},
+  {"heading": "2. ICH CHAMBER PROGRAMME", "blocks": [
+    {"table": {"columns": ["Condition", "Use", "Capacity"], "rows": [["25 °C/60% RH", "Long term", "Walk-in chamber"], ["30 °C/65% RH", "Intermediate", "Reach-in chambers"], ["30 °C/75% RH", "Zone IVb long term", "Reach-in chamber"], ["40 °C/75% RH", "Accelerated", "Reach-in chambers"], ["5 °C", "Refrigerated", "Reach-in chambers"], ["Photostability", "ICH Q1B option 2", "Cabinet"]], "caption": "Table 1 Storage conditions"}},
+    {"p": "2.1 All chambers are mapped annually and monitored continuously; excursions are recorded as deviation notes."}]},
+  {"heading": "3. STABILITY PULLS", "blocks": [{"list": ["3.1 Pulls within ±7 days of the nominal date (±14 days after 12 months)", "3.2 Tests by protocol: appearance, assay, related substances, water, dissolution", "3.3 Data summary issued within 15 working days of each pull"]}]},
+  {"heading": "4. METHOD VALIDATION AND QUALIFICATION", "blocks": [{"list": ["4.1 Assay and related-substances validation to ICH Q2: specificity, linearity, range, accuracy, precision, LOQ, robustness", "4.2 HPLC method qualification for early-phase work: reduced set agreed per protocol", "4.3 Method transfer from client laboratories with comparative testing"]}]},
+  {"heading": "5. SAMPLE REQUIREMENTS", "blocks": [{"list": ["5.1 Stability lots in final packaging, with batch certificate", "5.2 Reference standards and impurity markers with certificates", "5.3 Quantities calculated per protocol plus 10% contingency"]}]},
+  {"heading": "6. REPORTING", "blocks": [{"p": "6.1 Interim reports at agreed time points; final reports with trend tables and plots against specification. 6.2 Conclusions stay within the tested interval; shelf-life proposals are the client's decision."}]},
+  {"heading": "7. GROUP SERVICES", "blocks": [{"p": "7.1 Formulation support is available from Durnesswick Laboratories and DMPK from Merrivoss Bioanalysis, both Tarnovell companies. Ask your Westravelle contact for a joint proposal."}]}
+ ],
+ "signature_block": [{"name": "Alice Penrose", "role": "Head of Analytical Services", "date": "12/06/2025"}]
+}

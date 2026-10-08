@@ -1,0 +1,31 @@
+{
+ "family": "workbook",
+ "summary": "Martin Ellerscombe's personal plate-capacity planner from his old laptop (November 2006): weekly Primary potency assay run slots for Q4 2006 to Q1 2007 by client, reference-control reservations with staurosporine stock concentrations noted inconsistently in nM and µM, and scribbled planning notes.",
+ "properties": {"title": "plate capacity"},
+ "sheets": [
+  {"name": "Slots", "rows": [
+    ["Plate capacity - primary potency runs", null, null, null, "ME 21/11/06"],
+    ["Week commencing", "Run slots", "Booked", "Client / study", "Notes"],
+    ["27/11/2006", 6, 5, "Avernelwick Pharmaceuticals Ltd", "2 plates reserved for repeats"],
+    ["04/12/2006", 6, 6, "Selverant Therapeutics Inc", "full"],
+    ["11/12/2006", 6, 4, "Tervemere Pharma AG", "check cmpd delivery date w/ Peter"],
+    ["18/12/2006", 4, 2, "Quorenthel Pharma GmbH", "short week - Xmas"],
+    ["25/12/2006", 0, 0, "CLOSED", null],
+    ["01/01/2007", 4, 1, "Elvarmere Biosciences AB", "?? confirm"],
+    ["08/01/2007", 6, null, null, null],
+    ["15/01/2007", 6, null, null, null],
+    ["Total", "=SUM(B3:B10)", "=SUM(C3:C10)", null, null]],
+   "col_widths": {"A": 16, "B": 10, "C": 10, "D": 34, "E": 34},
+   "comments": [{"cell": "C5", "text": "Tervemere may slip to Jan - Ravi to confirm", "author": "Martin Ellerscombe"}]},
+  {"name": "Controls", "rows": [
+    ["Reference control reservations"],
+    ["Control", "Stock", "Working conc", "Plates/week", "Owner"],
+    ["Staurosporine", "1 mM", "10 µM top", 6, "IA"],
+    ["Staurosporine (new lot)", "1000 µM", "10000 nM top", "6?", "IA"],
+    ["DMSO vehicle", "100%", "1% final", "all", null],
+    [],
+    ["NB: new lot labelled in µM - same as old, check before diluting!"]],
+   "col_widths": {"A": 26, "B": 12, "C": 16, "D": 12, "E": 8}},
+  {"name": "Sheet3", "rows": [["to do"], ["- ask Bethany re: 2nd reader for Jan"], ["- order tips (384)"], ["- move repeats to Fri"]]}
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "family": "scan",
+ "summary": "Scan of the signed WA/2011/192 six-month accelerated stability report for Esmervane Pharmaceuticals (EP19 capsule blend, lot L02), May 2012. Assay remained within specification; a degradant grew at 40 °C/75% RH. Handwritten comment on the moisture barrier and an approval stamp.",
+ "document": {"family": "document", "summary": "Signed six-month stability report",
+   "header": "WA/2011/192 | EP19 Lot L02 | 6-month report",
+   "title_block": {"title": "STABILITY REPORT: EP19 CAPSULE BLEND, LOT L02", "subtitle": "Six-month accelerated data",
+     "lines": ["Protocol: WA/2011/192", "Client: Esmervane Pharmaceuticals", "Report date: 07/05/2012"]},
+   "sections": [
+    {"heading": "1. SCOPE", "blocks": [{"p": "1.1 This report gives results for lot L02 of the EP19 capsule blend stored under the protocol conditions up to six months. Storage started on 07/11/2011."}]},
+    {"heading": "2. RESULTS", "blocks": [
+      {"p": "2.1 Initial assay {{PRJ0086:stability.t0_assay}}% of label claim. Results to {{PRJ0086:stability.last_timepoint_months}} months are tabulated below."},
+      {"table": {"table_ref": "PRJ0086:stability", "columns": [0, 1, 2, 3, 4, 5, 7], "caption": "Table 1 Stability results"}}]},
+    {"heading": "3. DISCUSSION", "blocks": [{"p": "3.1 Assay and total impurities remain within specification at 25 °C/60% RH and 30 °C/65% RH. At 40 °C/75% RH the RRT 0.86 degradant increases with time, consistent with moisture-driven hydrolysis. 3.2 Conclusions are limited to the tested interval."}]},
+    {"heading": "4. DEVIATIONS", "blocks": [{"p": "4.1 None."}]}],
+   "signature_block": [{"name": "Alice Penrose", "role": "Head of Analytical Services", "date": "07/05/2012"}, {"name": "Leon Wu", "role": "Stability Coordinator", "date": "07/05/2012"}]},
+ "scan": {"skew_deg": -0.9, "noise": 0.35, "blur": 0.6, "stamp": "APPROVED 11 MAY 2012", "handwriting": "Moisture barrier? discuss w/ client - AP", "pages": 3}
+}

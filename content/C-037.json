@@ -1,0 +1,21 @@
+{
+ "family": "document",
+ "summary": "Merrivoss quote MV-2006-090 (May 22, 2006) to Nimbravelle Medicines Inc: paired Microsomal CLint and Hepatocyte depletion CLint on 24 compounds from the NM08 aminotriazine series, with matrix assumptions, analytical limits, a five-to-six-week delivery window and a fixed price of $19,200.",
+ "properties": {"title": "Quote MV-2006-090", "subject": "Paired liver systems"},
+ "header": "MV-2006-090 | Quotation R1",
+ "title_block": {"title": "Quotation: Paired Liver Systems Clearance", "subtitle": "NM08 test article set",
+   "lines": ["Quote reference: MV-2006-090 R1", "Prepared for: Nimbravelle Medicines Inc", "Date: 05/22/2006", "Prepared by: Dr M. Larkin, DMPK Study Director"]},
+ "sections": [
+  {"heading": "1. Purpose", "blocks": [{"p": "Nimbravelle Medicines Inc has asked Merrivoss Bioanalysis to compare microsomal and hepatocyte clearance for 24 compounds from the NM08 aminotriazine test article set, to check whether microsomal ranking holds in a whole-cell system before compounds are chosen for in vivo work."}]},
+  {"heading": "2. Matrices and assumptions", "blocks": [
+    {"list": ["Human and rat liver microsomes, pooled, 0.5 mg/mL protein", "Cryopreserved human and rat hepatocytes, 0.5 x 10^6 viable cells/mL; lots with viability below 75% at thaw are rejected", "Test articles at 1 µM; final organic solvent below 0.5%", "Compounds supplied by the client as 10 mM DMSO solutions, 50 µL minimum"]},
+    {"p": "Analytical limits: LC-MS/MS, lower limit of quantitation 1 nM in incubation matrix (1). Depletion below 20% over the incubation is reported as a lower bound on half-life (2).", "style": "small"},
+    {"p": "(1) Compound-specific tuning included. (2) Typically >60 min in microsomes and >120 min in hepatocytes.", "style": "small"}]},
+  {"heading": "3. Study design", "blocks": [{"table": {"columns": ["Assay", "Species", "Time points", "Replicates", "Controls"], "rows": [["Microsomal CLint", "Human, rat", "0, 5, 15, 30, 45 min", "Duplicate", "Verapamil, diltiazem"], ["Hepatocyte depletion CLint", "Human, rat", "0, 15, 30, 60, 90, 120 min", "Duplicate", "7-Ethoxycoumarin, propranolol"]], "caption": "Table 1 Design"}}]},
+  {"heading": "4. Deliverables", "blocks": [{"list": ["Assay worksheet (Excel) with depletion curves and CLint per compound", "Interim data at the midpoint", "Final report with matrix acceptance and analytical limits stated before conclusions"]}]},
+  {"heading": "5. Timeline", "blocks": [{"p": "Microsomal data within 3 weeks of compound receipt; hepatocyte data and final report 5 to 6 weeks from receipt. Target start: week of 06/05/2006, subject to compound arrival."}]},
+  {"heading": "6. Price", "blocks": [{"table": {"columns": ["Item", "Compounds", "Unit price", "Amount"], "rows": [["Microsomal CLint (human + rat)", "24", "$330", "$7,920"], ["Hepatocyte depletion CLint (human + rat)", "24", "$470", "$11,280"], ["Total", "", "", "$19,200"]]}},
+                                    {"p": "Fixed price. Invoiced on issue of the final report, net 30 days. Quote valid 60 days."}]}
+ ],
+ "signature_block": [{"name": "Megan Larkin", "role": "DMPK Study Director", "date": "05/22/2006"}]
+}

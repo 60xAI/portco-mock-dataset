@@ -461,12 +461,12 @@ files:
   mess: []
   planted: []
   related: []
-  tier: sol
+  tier: orchestrator
   target_length: 9 slides
   summary: Client readout with plate acceptance, compound ranking and progression decisions for BW25_0600, Avernelwick Pharmaceuticals Ltd, covering
     Primary potency assay, Selectivity sweep on 24 compounds; Avernelwick selected a reserve compound with a narrower off-target fingerprint for
     its next medicinal chemistry round.
-  pilot: false
+  pilot: true
 - id: B-009
   unit: B
   root: archive
@@ -1573,7 +1573,7 @@ files:
   target_length: 9 pages
   summary: PDF export of the BW25_0600 client readout for Avernelwick Pharmaceuticals Ltd, preserving the accepted Primary potency assay and Selectivity
     sweep ranking slides.
-  pilot: false
+  pilot: true
 - id: B-047
   unit: B
   root: archive

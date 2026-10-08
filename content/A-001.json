@@ -1,0 +1,16 @@
+{
+ "family": "deck",
+ "summary": "Vellacombe chemistry readout (13 February 1997) to Elvarmere Biosciences AB for VD-96-072: route A to the pyrrolopyridine series, separation of the N-alkylation regioisomers by preparative chromatography, and delivery of 24 analogues for Elvarmere's first potency screen.",
+ "properties": {"title": "EB05 Route A readout", "subject": "VD-96-072"},
+ "slides": [
+  {"layout": "title", "title": "EB05 pyrrolopyridines - Route A", "subtitle": "VD-96-072 | Elvarmere Biosciences AB | 13 Feb 1997"},
+  {"layout": "title_content", "title": "Objectives", "bullets": ["Establish a route to the EB05 pyrrolopyridine core", "Resolve the N-alkylation regioisomer problem", "Deliver 24 analogues for the first potency screen"]},
+  {"layout": "title_content", "title": "Route A", "bullets": ["Core built in four steps from the aminopyridine", "N-alkylation gives two regioisomers (roughly 3:2)", "Desired isomer confirmed by NOE", "Isolated, not just proposed: all structures on the following slides were made"]},
+  {"layout": "title_content", "title": "Regioisomer separation", "bullets": ["Flash chromatography failed to resolve the pair", "Preparative HPLC (reverse phase) gave baseline separation", "Route risk: throughput limited to about 2 g per week"], "notes": "Elvarmere asked whether a selective alkylation is possible - route scout B in the next phase."},
+  {"layout": "table", "title": "Analogues delivered (1-12)", "table": {"table_ref": "PRJ0016:synthesis", "max_rows": 12, "columns": [0, 2, 3, 4, 5]}},
+  {"layout": "table", "title": "Analogues delivered (13-24)", "table": {"columns": ["Note"], "rows": [["Full compound cards for all 24 analogues are in the delivery lot paperwork"], ["Isolated yields are for the final step"], ["Purity by LCMS area percent at 254 nm"]]}},
+  {"layout": "image", "title": "Representative structures", "image": {"kind": "molecule_grid", "ref": "PRJ0016", "n": 8}},
+  {"layout": "title_content", "title": "Conclusions", "bullets": ["Route A works but separation is the bottleneck", "All 24 analogues delivered in two delivery lots", "Desired regioisomer secured for the potency screen"]},
+  {"layout": "title_content", "title": "Next analogue", "bullets": ["Route scout B: selective N-alkylation", "Second analogue set once potency data are back", "Dr R. Calderwood, Vellacombe Discovery Ltd"]}
+ ]
+}
