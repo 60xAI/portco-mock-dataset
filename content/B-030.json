@@ -1,0 +1,58 @@
+{"family": "workbook",
+ "summary": "Screen gate tracker for BW25_0486, Farnovessa Medicines: hERG screen on the FM20 imidazolidinone set. The tracker stops at the interim gate. Farnovessa paused the screen while its nomination committee reviews a new efficacy concern that is unrelated to the assay. Shipment, plate allocation and the readout reconciliation are left open.",
+ "properties": {"title": "BW25_0486 screen gate tracker"},
+ "sheets": [
+  {"name": "Gate tracker",
+   "rows": [
+    [{"v": "FM20 hERG screen: screen gate tracker", "bold": true}],
+    ["Project", "{{PRJ0053:project_id}}"],
+    ["LIMS accession", "{{PRJ0053:lims_id}}"],
+    ["Client", "Farnovessa Medicines"],
+    ["Series", "FM20 imidazolidinone series 20"],
+    ["Compounds", {"ref": "PRJ0053:n_compounds"}],
+    ["Status", "On hold since 15/12/2025. Paused while the nomination committee reviews a new efficacy concern. Not related to the assay."],
+    [],
+    ["Screen gate", "Planned", "Actual", "Owner", "Status"],
+    ["Quote", "", "13/10/2025", "John Mckinney", "Done"],
+    ["Screen start", "", "24/11/2025", "Leila Benmezroun", "Done"],
+    ["Interim readout", "", "15/12/2025", "Bethany Rowcroft", "Done"],
+    ["Nomination support decision", "", "", "Bethany Rowcroft", "Open"],
+    ["Plate allocation check", "", "", "Ines Alvarado", "TODO"],
+    ["Completion", "", "", "Bethany Rowcroft", ""]
+   ],
+   "col_widths": {"A": 30, "B": 14, "C": 14, "D": 20, "E": 14},
+   "merged": ["A1:E1"],
+   "comments": [
+    {"cell": "E14", "text": "TODO: plate 4 allocation is still missing. Stéphane to confirm before anyone signs the readout.", "author": "Ines Alvarado"},
+    {"cell": "A7", "text": "Do not send anything to Farnovessa until the nomination committee has replied.", "author": "Bethany Rowcroft"}
+   ]},
+  {"name": "Shipment receipt",
+   "rows": [
+    [{"v": "Shipment receipt", "bold": true}],
+    ["Shipment", "Received", "Compounds", "Condition", "Checked by"],
+    ["Shipment 1", "19/11/2025", "", "Intact", "Henning Flantz"],
+    ["Shipment 2", "", "", "", ""],
+    ["Shipment 3", "", "", "", ""],
+    [],
+    ["Count each shipment against the sample card list before release to plates."]
+   ],
+   "col_widths": {"A": 16, "B": 14, "C": 14, "D": 14, "E": 18}},
+  {"name": "Plate allocation",
+   "rows": [
+    [{"v": "Plate allocation", "bold": true}],
+    ["Plate", "Compound block", "Operator", "Run date", "Status"],
+    ["1", "FM20-02000 to FM20-02010", "Jason Scanlon", "25/11/2025", "Done"],
+    ["2", "FM20-02012 to FM20-02018", "Jason Scanlon", "", "Done"],
+    ["3", "", "", "", "Not started"],
+    ["4", "", "", "", ""]
+   ],
+   "col_widths": {"A": 10, "B": 28, "C": 18, "D": 14, "E": 14}},
+  {"name": "hERG IC50",
+   "rows": [
+    [{"v": "hERG IC50, automated patch clamp, rows read before the pause", "bold": true}],
+    ["The remaining compounds were not read before the pause. TODO: reconcile this sheet with the benchmark before anyone quotes a figure."]
+   ],
+   "data_refs": [{"table_ref": "PRJ0053:herg", "at": "A4"}],
+   "col_widths": {"A": 16, "B": 16, "C": 16, "D": 16, "E": 18, "F": 20, "G": 16, "H": 30},
+   "comments": [{"cell": "A2", "text": "Benchmark counts the full set, these rows do not. Keep both until the readout is signed off.", "author": "Afonso Pinho"}]}
+ ]}
