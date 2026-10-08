@@ -1,0 +1,46 @@
+{
+ "family": "workbook",
+ "summary": "INTERIM observation sheets for investigation OT-26-S0192, the VM14 channel modulator screen for Vesselquarn Medical Research Trust. HepG2 viability exposures are partly read, and micronucleus scoring is partial. Precipitation has excluded some high-concentration conditions, and repeats are pending. No final conclusions have been drawn; this workbook is not for release.",
+ "properties": {"title": "OT-26-S0192 VM14 interim observations (INTERIM)"},
+ "sheets": [
+  {"name": "Summary", "rows": [
+    [{"v": "OT-26-S0192 VM14 screen: INTERIM observations, not final", "bold": true}],
+    ["Status", "INTERIM. Partial results, final conclusions pending."],
+    ["Investigation", "{{PRJ0125:project_id}}"],
+    ["LIMS reference", "{{PRJ0125:lims_id}}"],
+    ["Client", "{{PRJ0125:client_variant}}"],
+    ["Test article cohort", "Bicyclic lactam series 14 (VM14), target ion-channel blocker"],
+    ["Test articles", {"ref": "PRJ0125:n_compounds"}],
+    ["Interim date", "09/24/2026"],
+    ["Completion", ""],
+    ["Study director", "Naomi Takamori, Head of Toxicology", null, "Prepared by Kenji Morita"],
+    [],
+    ["Exclusions", "High-concentration conditions excluded for precipitation. Repeats not yet run."]
+   ],
+   "merged": ["A1:D1"],
+   "col_widths": {"A": 26, "B": 30, "C": 22, "D": 28},
+   "comments": [{"cell": "B12", "text": "Need the precipitation check on the high-concentration stocks before this goes further. Are the repeat stocks prepared?", "author": "Lucia Moretti"}]
+  },
+  {"name": "HepG2 viability", "rows": [
+    ["HepG2 viability screen (ATP content), 24 h and 48 h exposure. INTERIM. Investigation OT-26-S0192."],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0125:cytotox", "at": "A3", "header": true}],
+   "freeze": "A4",
+   "col_widths": {"A": 16, "B": 18, "C": 18},
+   "number_formats": {"B4:C20": "0"},
+   "chart": {"kind": "bar", "ref": "PRJ0125:cytotox", "column": 1, "title": "24 h IC50 (µM), interim"},
+   "chart_at": "E3"
+  },
+  {"name": "MN scoring", "rows": [
+    ["Mammalian-cell micronucleus assessment (TK6). INTERIM: scoring partly complete."],
+    ["Conditions still to be scored are left blank below.", null, null, null],
+    []
+   ],
+   "data_refs": [{"table_ref": "PRJ0125:micronucleus", "at": "A4", "header": true}],
+   "freeze": "A5",
+   "col_widths": {"A": 14, "B": 16, "C": 14, "D": 12},
+   "comments": [{"cell": "A2", "text": "Second reader not yet done on the 3 h +S9 conditions. Hold the mammalian read until that is in.", "author": "Kenji Morita"}]
+  }
+ ]
+}
