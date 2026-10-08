@@ -1,0 +1,384 @@
+{
+  "family": "document",
+  "summary": "Final 2025 service catalogue covering biological screening and early liability services. Control acceptance, sample requirements and interpretation limits precede progression decisions, with current list prices.",
+  "properties": {
+    "title": "Brindlewythe services 2025 revB"
+  },
+  "header": "Brindlewythe Biosciences Ltd, a Tarnovell company",
+  "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Brindlewythe services 2025",
+    "subtitle": "Brindlewythe Biosciences Ltd, a Tarnovell company",
+    "lines": [
+      "Revision B | 03 Sep 2025",
+      "Dr L. Benmezroun | Study Director",
+      "Cambridge | In vitro biology and screening"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Service selection",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "An accepted assay run supports a defined screening decision. It does not establish mechanism, clinical safety or exposure. The study scope identifies the target, matrix, concentrations and intended interpretation before material is booked. Primary potency assay and Selectivity sweep address activity and breadth; hERG automated patch clamp and CYP services address selected liability questions."
+        },
+        {
+          "p": "HLM/RLM stability and RED PPB provide matrix-dependent in vitro disposition measurements. Follow-up services may be combined where preparation requirements are compatible. Choose the service from the question rather than interpreting a convenient screen as evidence for a different endpoint."
+        },
+        {
+          "p": "The report distinguishes accepted measurements, bounds outside the tested range and unresolved responses. Plate acceptance precedes compound interpretation. A compound with a weak response and a run with a failed control require different actions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Sample requirements",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Provide a sample card linking each test lot to its compound identifier, molecular weight, salt or solvate form, stock concentration or supplied mass, solvent, purity information, storage requirements and handling hazards. Identify known solubility or readout limitations before dispatch."
+        },
+        {
+          "p": "Henning Flantz reconciles labels, submission lists and analytical identity at receipt. Any discrepancy is resolved before aliquoting. The local B-ACC accession remains linked to preparation and run sheets; a relabelled vial does not erase the original test-lot history."
+        },
+        {
+          "p": "Required material depends on concentration range, assay volume, dead volume and agreed repeat reserve. Confirm the amount during scoping rather than applying a universal minimum. Neat material and stocks require different preparation plans. Precipitation after dilution is recorded as a limitation of preparation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Plate acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The run sheet defines controls, reference acceptance ranges, signal window, replicate handling and exclusions before execution. Vehicle and uninhibited controls establish the response scale. A concurrent reference tests assay performance; historical behavior informs acceptance but cannot replace it."
+        },
+        {
+          "p": "Ines Alvarado coordinates plate acceptance records. An abnormal control, spatial signal pattern or interrupted exposure prompts assessment of the affected run. Repeating only favorable compounds is not a remedy for uncertain validity. Original observations and the reason for repeat remain traceable."
+        },
+        {
+          "p": "Acceptable controls do not guarantee an interpretable compound curve. Review shape, asymptotes, replicate behavior and preparation together. Report an unresolved response plainly. A client progression threshold is a decision rule, separate from method acceptance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Primary potency assay",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Primary potency assay measures inhibition of the nominated target in a defined biochemical system. Agree construct, substrate, ATP conditions where relevant and detection chemistry in the study scope. A concentration response supports rank ordering when an IC50 estimate is needed."
+        },
+        {
+          "p": "Plate acceptance requires suitable uninhibited and background responses and an acceptable assay reference. The series must remain within preparation and readout constraints. A fit returned by software is not sufficient evidence for a reportable midpoint."
+        },
+        {
+          "p": "Provide soluble stocks with an unambiguous molar basis. Aggregation, precipitation, signal interference and substrate competition may affect apparent potency. Report nM or µM alongside the experimental conditions. Biochemical potency does not establish cellular target engagement or a unique inhibition mechanism."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Potency confirmation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Review incomplete inhibition, non-monotonic responses and poorly defined plateaus before recommending chemistry. If the range does not bracket a midpoint, report the supported bound or unresolved response rather than extrapolating a precise IC50."
+        },
+        {
+          "p": "A repeat under the same configuration examines reproducibility. An orthogonal detection method addresses a different potential artifact. Changing ATP, substrate or incubation conditions creates a separate scientific comparison and is identified as such."
+        },
+        {
+          "p": "Bethany Rowcroft coordinates screening operations so follow-up retains compound identity and test-lot provenance. At the screen gate, state whether the next decision concerns confirmation, selectivity, cellular activity or disposition. Potency alone is insufficient to recommend a development candidate."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Selectivity sweep",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Selectivity sweep compares inhibition across an agreed off-target kinase panel. The target list and screening concentration are authorized before execution. A common nominal concentration supports broad triage; different assay configurations prevent an assumption of equivalent potency across panel members."
+        },
+        {
+          "p": "Each panel assay requires accepted controls. A failed or unavailable assay is identified and is not counted as a negative result. Retain assay names, conditions, inhibition in percent at the stated concentration and flags requiring follow-up."
+        },
+        {
+          "p": "Confirm stock-solvent compatibility and material reserve for the panel. A quiet panel does not exclude effects on untested targets. A screening signal does not establish functional consequence. Selected concentration responses can resolve individual off-target questions before the chemistry decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 hERG automated patch clamp",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ravi Deshmukh oversees hERG automated patch clamp scope. The record states the cell preparation, voltage protocol, exposure sequence, vehicle and concentration series. Recording criteria address usable current and baseline stability."
+        },
+        {
+          "p": "Control acceptance precedes fitting. Vehicle behavior and a channel reference such as E-4031 are considered alongside recording quality and exposure duration. Excluded recordings retain their reasons. Insufficient usable responses are reported as a limitation."
+        },
+        {
+          "p": "Stocks must remain compatible with the recording solution through dilution. Report inhibition and potency in µM with range or bound. Slow equilibration, adsorption or precipitation may separate nominal concentration from exposure. The channel screen supports an in vitro liability assessment; a cardiac safety margin requires additional exposure and biological context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 5-isoform CYP panel",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The 5-isoform CYP panel screens direct inhibition in agreed enzyme and probe-substrate systems. Record isoforms, substrate conditions, concentration and incubation sequence. A single-concentration response prioritises follow-up and is not an IC50 determination."
+        },
+        {
+          "p": "Control acceptance includes vehicle, analytical background and appropriate inhibition references. Probe response must be suitable for the analytical method. Compound interference or a failed control compromises the affected comparison; it is not evidence of absent inhibition."
+        },
+        {
+          "p": "Supply stocks soluble at the agreed concentration and identify known analytical interference. Report inhibition in percent at that concentration and unresolved observations. Time-dependent inhibition, induction and metabolite effects are outside this standard screen. Clinical interaction assessment requires separately scoped experiments and exposure context."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 3A4 concentration response",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "3A4 concentration response follows a nominated signal using an agreed probe and concentration series. State whether the scope concerns direct inhibition. A different substrate can give a different response and must not be presented as a replicate of the original configuration."
+        },
+        {
+          "p": "Accepted vehicle and reference-inhibitor performance, including an appropriate reference such as ketoconazole, are required before curve assessment. Review analytical response, shape and preparation behavior. A series that does not bracket the midpoint supports a bound, not an extrapolated precise estimate."
+        },
+        {
+          "p": "Report µM with probe and incubation conditions. This service clarifies a screening signal without establishing a clinical interaction prediction. Time-dependent effects and induction require other experiments. The biology memo should identify the next question if CYP inhibition remains relevant to progression."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 HLM/RLM stability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HLM/RLM stability examines parent depletion in human and rat liver microsomes. Record protein and compound concentrations, cofactor conditions and sampling sequence. Keep species and matrix identity attached to each result."
+        },
+        {
+          "p": "Control acceptance includes suitable reference turnover and analytical performance. Recovery checks and a no-cofactor or matrix-free comparison, where scoped, help distinguish turnover from other loss. Precipitation, adsorption and chemical instability cannot automatically be assigned to metabolism."
+        },
+        {
+          "p": "Stocks must be compatible with incubation and extraction. Derived parameters are reported only where the time course supports them, with units and assumptions. Slow turnover may require a bound. Microsomal findings do not establish hepatocyte turnover, renal clearance or whole-body pharmacokinetics."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 RED PPB",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "RED PPB estimates unbound fraction in an agreed plasma matrix by equilibrium dialysis. Record species, concentration, temperature, equilibration period and membrane arrangement. A value in one plasma system cannot be substituted for another without justification."
+        },
+        {
+          "p": "Control acceptance considers reference behavior, analytical sensitivity, recovery and usable equilibration together. Highly bound compounds may approach receiver-compartment quantification limits. An apparently low unbound fraction is interpreted with that limit rather than accepted in isolation."
+        },
+        {
+          "p": "Supply material stable and soluble during dialysis. Report low recovery, membrane binding or other handling limitations where observed. RED PPB does not establish intracellular binding or tissue distribution. Comparisons with potency require an explicit rationale and the conditions of both measurements."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Fresh hepatocyte turnover",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Fresh hepatocyte turnover extends a metabolism question to a cellular preparation. Agree species, viable cell concentration and sampling sequence. Record cell handling and compound preparation before interpretation."
+        },
+        {
+          "p": "Accepted reference turnover and viable preparation performance are required. The analytical method must support the parent-depletion time course. A smooth compound curve cannot rescue a compromised cellular preparation; assess the run against its concurrent controls."
+        },
+        {
+          "p": "Confirm compatible stock preparation and reserve material during scoping. Results reflect the tested cell system and interval. Uptake, nonspecific binding and non-metabolic loss can influence apparent turnover. Comparison with HLM/RLM stability helps frame follow-up, but neither alone establishes in vivo clearance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Bidirectional Caco-2",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Bidirectional Caco-2 examines transport in both directions across an accepted monolayer. The scope states concentration, buffer conditions, interval and analytical method. Recovery and monolayer performance are assessed before permeability or efflux interpretation."
+        },
+        {
+          "p": "Control acceptance includes integrity and suitable transport-reference behavior. Low recovery, precipitation or an analytical limitation can compromise either direction. Retain directional measurements and state when a ratio cannot be interpreted reliably."
+        },
+        {
+          "p": "Provide stocks with known concentration and buffer compatibility. The model supports permeability and transport follow-up but does not identify a transporter solely from a directional ratio. Solubility, binding and concentration dependence remain relevant. Human absorption is not established by this assay alone."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Kinetic solubility screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Kinetic solubility screen examines apparent solubility after a specified dilution and hold. Record solvent fraction, medium, mixing order, separation and detection. Preparation history is part of the result."
+        },
+        {
+          "p": "Control acceptance addresses blank response, analytical suitability and preparation performance. Record visible material changes alongside the measurement. A clear-looking preparation alone does not show that the nominal concentration was achieved."
+        },
+        {
+          "p": "The screen helps identify feasible assay conditions and preparation follow-up. It does not establish thermodynamic solubility or formulation shelf life. Where a biological screen used a condition beyond supported solubility, discuss the interpretation limit before recommending potency or liability comparisons."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "15 2025 list prices",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Prices below are GBP list prices for the named service and charging unit. The written quotation confirms the particular configuration and authorized scope. Expanded questions, revised preparation and follow-up experiments are agreed before execution."
+        },
+        {
+          "p": "Volume discounts are 5% for more than 30 compounds and 10% for more than 80 compounds. Panel and individual-compound charging units remain distinct. Scheduling is confirmed after material acceptance; this catalogue does not promise an execution period."
+        },
+        {
+          "table": {
+            "columns": [
+              "Service",
+              "Unit",
+              "GBP"
+            ],
+            "rows": [
+              [
+                "hERG automated patch clamp",
+                "per compound",
+                "190"
+              ],
+              [
+                "5-isoform CYP panel",
+                "per compound",
+                "115"
+              ],
+              [
+                "3A4 concentration response",
+                "per compound",
+                "250"
+              ],
+              [
+                "Primary potency assay",
+                "per compound",
+                "165"
+              ],
+              [
+                "Selectivity sweep",
+                "per compound (panel)",
+                "1,500"
+              ],
+              [
+                "HLM/RLM stability",
+                "per compound",
+                "145"
+              ],
+              [
+                "Fresh hepatocyte turnover",
+                "per compound",
+                "230"
+              ],
+              [
+                "RED PPB",
+                "per compound",
+                "170"
+              ],
+              [
+                "Bidirectional Caco-2",
+                "per compound",
+                "270"
+              ],
+              [
+                "Kinetic solubility screen",
+                "per compound",
+                "60"
+              ]
+            ],
+            "caption": "2025 list prices"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "16 Booking and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "John Mckinney records the question, service set and reporting requirement before booking. Henning Flantz reconciles received test lots. The scientific team confirms preparation and method compatibility so a booking does not imply unconditional acceptance of every supplied sample."
+        },
+        {
+          "p": "Run sheets link accession, preparation, controls and observations. Ines Alvarado coordinates plate acceptance before scientific interpretation. If work cannot answer the agreed question, the report states the limitation and a follow-up is discussed."
+        },
+        {
+          "p": "The release package includes conditions, accepted results, qualified observations and repeat rationale. Bethany Rowcroft resolves operational scheduling. Dr L. Benmezroun owns the scientific interpretation. Changes in concentration range or assay scope are documented as a new decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "17 Using the report at a screen gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "First establish that controls passed and preparation was credible. Then ask whether the response answers the stated decision. A measured signal, fitted parameter and biological hypothesis have different evidential boundaries."
+        },
+        {
+          "p": "A screening set may warrant further chemistry with an unresolved liability if the next question is explicit. Attractive potency does not outweigh uninterpretable preparation or failed controls. Use limitations to design the next comparison rather than removing them from the progression discussion."
+        },
+        {
+          "p": "This revision defines standard scope as of 03 Sep 2025. Study-specific conditions and acceptance criteria remain in the authorized documentation. Retain the catalogue revision with the quotation so later service changes do not alter the meaning of completed work."
+        }
+      ]
+    }
+  ],
+  "orientation": "portrait"
+}
