@@ -1,0 +1,1442 @@
+files:
+- id: P07
+  unit: A
+  root: archive
+  path: VellacombeData/Marketing/Pitches/2023
+  filename: VD_integrated-discovery_pitch_03Oct23.pptx
+  format: pptx
+  doc_type: deck_pitch
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: A-G
+  created: '2023-10-03T16:45:16'
+  modified: '2023-10-09T17:00:09'
+  author: BG017
+  last_saved_by: BG017
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted:
+  - q1_distractor_generic_A
+  related: []
+  tier: orchestrator
+  target_length: 10 slides
+  summary: Medicinal chemistry pitch with one generic 'integrated discovery' slide that mentions bioinformatics in passing.
+  pilot: false
+- id: P31
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/CVL/VD-05-064/Delivery
+  filename: CVL1105_revA.doc
+  format: doc
+  doc_type: report_client
+  pdf_kind: null
+  year: 2005
+  era: legacy
+  template: A-L
+  created: '2005-11-07T15:35:58'
+  modified: '2005-11-08T09:01:26'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0008
+  client_id: CL001
+  client_variant: Corvenlea Pharma
+  finish: final
+  mess: []
+  planted:
+  - q3_target_A
+  related: []
+  tier: orchestrator
+  target_length: 6-12 pages
+  summary: 'report client for Corvenlea Pharma (VD-05-064): CVL azaheterocycle route scout and first analogue delivery.'
+  pilot: false
+- id: P43
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/RI/VD-18-131/Readouts
+  filename: RI13_route_readout_24Jan19.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: A-L
+  created: '2019-01-24T08:33:48'
+  modified: '2019-01-28T12:27:45'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0015
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted:
+  - q5_structbio_A
+  related: []
+  tier: orchestrator
+  target_length: 12 slides
+  summary: 'Readout VD-18-131: chemistry guided by X-ray co-crystal structures from a collaborator. '
+  pilot: false
+- id: A-001
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/EB05/VD-96-072/Readouts
+  filename: EB05_RteA_13Feb97.ppt
+  format: ppt
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 1997
+  era: legacy
+  template: A-L
+  created: '1997-02-13T10:23:00'
+  modified: '1997-02-13T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0016
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 slides
+  summary: VD-96-072 readout for Elvarmere Biosciences AB records Route scout and delivery of 24 pyrrolopyridines, regioisomer
+    separation and isolated material for the first potency screen.
+  pilot: false
+- id: A-002
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/DT06/VD-98-076/Readouts
+  filename: DT06_RteB_revC_13Apr99.ppt
+  format: ppt
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 1999
+  era: legacy
+  template: A-L
+  created: '1999-04-13T10:23:00'
+  modified: '1999-04-13T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0017
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 11 slides
+  summary: VD-98-076 readout for Drelvessa Therapeutics SAS compares the convergent aminopyridine routes and recovery after
+    earlier side-chain installation across 32 delivered analogues.
+  pilot: false
+- id: A-003
+  unit: A
+  root: archive
+  path: Archive/Users/omerriman_old_laptop/Pitches/2007
+  filename: VD_Chemistry_16May07.ppt
+  format: ppt
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2007
+  era: legacy
+  template: A-L
+  created: '2007-05-16T10:23:00'
+  modified: '2007-05-16T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - version_suffix
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 10 slides
+  summary: Owen Merriman’s superseded chemistry sales deck outlines Analogue preparation and Route scout and delivery with
+    illustrative isolation gates and an obsolete staffing slide.
+  pilot: false
+- id: A-004
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/VP10/VD-16-033/Readouts
+  filename: VP10_route_meeting_30Aug16.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2016
+  era: legacy
+  template: A-L
+  created: '2016-08-30T10:23:00'
+  modified: '2016-08-30T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0019
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: VD-16-033 readout for Valquessia Pharmaceuticals SpA compares 18 aminoquinoline side chains and explains why reproducible
+    isolation favoured the salt-forming candidate.
+  pilot: false
+- id: A-005
+  unit: A
+  root: archive
+  path: Archive/Users/cantoine_old_laptop/Projects/FM20
+  filename: FM20_analogue-delivery_10Aug20.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: A-T
+  created: '2020-08-10T10:23:00'
+  modified: '2020-08-10T16:42:00'
+  author: BG001
+  last_saved_by: BG001
+  projects:
+  - PRJ0023
+  client_id: CL021
+  client_variant: Farnovessa Medicines
+  finish: final
+  mess:
+  - leaver_folder
+  planted: []
+  related: []
+  tier: sol
+  target_length: 11 slides
+  summary: Christiane Antoine’s VD-20-028 working readout for Farnovessa Medicines records 18 imidazolidinones, desired alkylation-site
+    selectivity and the impurity reference delivered with the set.
+  pilot: false
+- id: A-006
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/EB05/VD-22-076/Readouts
+  filename: EB05_campaignB_24Oct22_FINAL.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: A-G
+  created: '2022-10-24T10:23:00'
+  modified: '2022-10-24T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0025
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 10 slides
+  summary: VD-22-076 readout for Elvarmere Biosciences AB presents chiral-intermediate resupply, measured enantiomeric purity
+    and the released delivery lot that restarted downstream synthesis.
+  pilot: false
+- id: A-007
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/VP10/VD-26-068/Readouts
+  filename: VP-C_isolation_08Jul26_DRAFT_v3.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: A-G
+  created: '2026-07-08T10:23:00'
+  modified: '2026-07-08T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0026
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: interim
+  mess:
+  - draft_mark
+  - comments
+  - version_suffix
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 slides
+  summary: VD-26-068 interim readout for Valquessia Pharmaceuticals SpA compares completed amide-coupling screens while solvent-dependent
+    isolation trials and route selection remain open.
+  pilot: false
+- id: A-008
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/DT18/VD-26-113/Readouts
+  filename: DT-R_lot2_16Sep26_interim.pptx
+  format: pptx
+  doc_type: deck_readout
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: A-G
+  created: '2026-09-16T10:23:00'
+  modified: '2026-09-16T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0027
+  client_id: CL019
+  client_variant: Doventhar Therapeutics
+  finish: interim
+  mess:
+  - tbc_placeholders
+  planted: []
+  related: []
+  tier: sol
+  target_length: 8 slides
+  summary: VD-26-113 interim readout for Doventhar Therapeutics inventories isolated basic side-chain intermediates and leaves
+    the final coupling gate pending replacement-core release.
+  pilot: false
+- id: A-009
+  unit: A
+  root: archive
+  path: VellacombeData/Marketing/Capabilities/2024
+  filename: VD_RouteScout_12Mar24_revB.pptx
+  format: pptx
+  doc_type: deck_capability
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: A-G
+  created: '2024-03-12T10:23:00'
+  modified: '2024-03-12T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 14 slides
+  summary: Vellacombe capability deck explains Route scout and delivery, impurity isolation and Analogue preparation with
+    route-risk decisions and clear limits on proposed versus isolated structures.
+  pilot: false
+- id: A-010
+  unit: A
+  root: archive
+  path: VellacombeData/QA/Training/2025
+  filename: VD_compound-card_training_18Feb25.pptx
+  format: pptx
+  doc_type: deck_training
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: A-G
+  created: '2025-02-18T10:23:00'
+  modified: '2025-02-18T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 10 slides
+  summary: Analytical-release training shows compound-card identity checks, area-percent purity, delivery-lot traceability
+    and how to distinguish proposed structures from released isolated material.
+  pilot: false
+- id: A-011
+  unit: A
+  root: archive
+  path: Archive/Users/omerriman_old_laptop/Integration/2022
+  filename: Copy of Brindlewythe_intake_09Jun22.pptx
+  format: pptx
+  doc_type: deck_internal
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: A-G
+  created: '2022-06-09T10:23:00'
+  modified: '2022-06-09T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  - copy_of
+  - duplicate_across_firms
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 9 slides
+  summary: Owen Merriman’s local copy of Brindlewythe’s 2021 sample-intake training retains the source firm’s intake-flow
+    wording with Vellacombe handover annotations and an obsolete contact box.
+  pilot: false
+- id: A-012
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/EB05/VD-96-072/Routes/RteA
+  filename: EB05_ISOL97.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 1997
+  era: legacy
+  template: A-L
+  created: '1997-02-13T10:23:00'
+  modified: '1997-02-13T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0016
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-001
+    rel: results_for
+  tier: haiku
+  target_length: 3 sheets
+  summary: VD-96-072 Route scout and delivery workbook for Elvarmere Biosciences AB logs the 24 pyrrolopyridines, regioisomer
+    assignments, isolated yields and delivery-lot purity.
+  pilot: false
+- id: A-013
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/DT06/VD-98-076/Routes/RteB
+  filename: DT06_RteB_13Apr99.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 1999
+  era: legacy
+  template: A-L
+  created: '1999-04-13T10:23:00'
+  modified: '1999-04-13T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects:
+  - PRJ0017
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-002
+    rel: results_for
+  tier: haiku
+  target_length: 4 sheets
+  summary: VD-98-076 route scout for Drelvessa Therapeutics SAS lists 32 aminopyridines, intermediate recoveries, earlier
+    side-chain installation and final release purity.
+  pilot: false
+- id: A-014
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/CVL/VD-05-064/Routes/RteB
+  filename: CVL_delivery_07Nov05.xls
+  format: xls
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2005
+  era: legacy
+  template: A-L
+  created: '2005-11-07T10:23:00'
+  modified: '2005-11-07T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects:
+  - PRJ0008
+  client_id: CL001
+  client_variant: Corvenlea Pharma
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P31
+    rel: results_for
+  tier: haiku
+  target_length: 3 sheets
+  summary: VD-05-064 results book for Corvenlea Pharma lists 32 azaheterocycle analogues, the revised heteroaryl coupling
+    sequence and release checks after removing late-stage purification.
+  pilot: false
+- id: A-015
+  unit: A
+  root: archive
+  path: Archive/Users/cantoine_old_laptop/Projects/FT09
+  filename: FT09_analogue-delivery_30Mar16.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2016
+  era: legacy
+  template: A-L
+  created: '2016-03-30T10:23:00'
+  modified: '2016-03-30T16:42:00'
+  author: BG001
+  last_saved_by: BG001
+  projects:
+  - PRJ0018
+  client_id: CL010
+  client_variant: Feldorune Therapeutics BV
+  finish: final
+  mess:
+  - leaver_folder
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: Christiane Antoine’s VD-15-134 workbook for Feldorune Therapeutics BV records 40 indazole analogues, N-substitution
+    assignments and isolated yields with retained reviewer cell comments.
+  pilot: false
+- id: A-016
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/DT18/VD-19-120/Delivery/Lot3
+  filename: DT18_route-transfer_02Mar20.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2020
+  era: transition
+  template: A-T
+  created: '2020-03-02T10:23:00'
+  modified: '2020-03-02T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects:
+  - PRJ0022
+  client_id: CL019
+  client_variant: Doventhar Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: VD-19-120 results workbook for Doventhar Therapeutics compares crystallisation and chromatography recoveries and
+    records purity for the 40-analogue delivery lot.
+  pilot: false
+- id: A-017
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/EB05/VD-22-076/Delivery/LotB
+  filename: EB05_resupply_24Oct22_v3_FINAL_final.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2022
+  era: group
+  template: A-G
+  created: '2022-10-24T10:23:00'
+  modified: '2022-10-24T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects:
+  - PRJ0025
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess:
+  - version_suffix
+  planted: []
+  related:
+  - id: A-006
+    rel: results_for
+  tier: haiku
+  target_length: 3 sheets
+  summary: VD-22-076 resupply workbook for Elvarmere Biosciences AB links chiral purity measurements, isolated mass and approved
+    delivery-lot release with a redundant final-version suffix.
+  pilot: false
+- id: A-018
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/VP10/VD-26-068/Routes/Coupling
+  filename: VP-C_screen_08Jul26_interim.xlsx
+  format: xlsx
+  doc_type: wb_results
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: A-G
+  created: '2026-07-08T10:23:00'
+  modified: '2026-07-08T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0026
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: interim
+  mess:
+  - half_filled
+  - comments
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 4 sheets
+  summary: VD-26-068 interim route scout for Valquessia Pharmaceuticals SpA contains the completed coupling matrix and partially
+    filled isolation trials without a selected final route.
+  pilot: false
+- id: A-019
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/NLM/VD-26-091/Routes/Scout
+  filename: NLM-A_boronate_21Aug26_v2.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: A-G
+  created: '2026-08-21T10:23:00'
+  modified: '2026-08-21T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0028
+  client_id: CL029
+  client_variant: Nelmudara Biosciences
+  finish: interim
+  mess:
+  - tbc_placeholders
+  - half_filled
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: VD-26-091 interim tracker for Nelmudara Biosciences logs unstable-boronate attempts, protected alternatives and
+    unresolved client decisions in the fluorinated-building-block scout.
+  pilot: false
+- id: A-020
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/RC17/VD-25-066/Routes/Paused
+  filename: RC17_storage_11Jun25.xlsx
+  format: xlsx
+  doc_type: wb_tracker
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: A-G
+  created: '2025-06-11T10:23:00'
+  modified: '2025-06-11T16:42:00'
+  author: NS02
+  last_saved_by: NS02
+  projects:
+  - PRJ0031
+  client_id: CL059
+  client_variant: Rimucavel Therapeutics
+  finish: interim
+  mess:
+  - half_filled
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 2 sheets
+  summary: VD-25-066 paused tracker for Rimucavel Therapeutics inventories isolated intermediates in controlled storage and
+    leaves backup-route milestones blank pending funding.
+  pilot: false
+- id: A-021
+  unit: A
+  root: archive
+  path: Archive/Users/omerriman_old_laptop/Commercial/2021
+  filename: VD_price_grid_18Nov21_revC.xlsx
+  format: xlsx
+  doc_type: wb_pricelist
+  pdf_kind: null
+  year: 2021
+  era: group
+  template: A-G
+  created: '2021-11-18T10:23:00'
+  modified: '2021-11-18T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: superseded
+  mess:
+  - leaver_folder
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 sheets
+  summary: Owen Merriman’s superseded GBP price grid separates Route scout and delivery, Analogue preparation and optional
+    impurity isolation, retaining historical discount approval notes.
+  pilot: false
+- id: A-022
+  unit: A
+  root: archive
+  path: VellacombeData/Proposals/1996/EB05
+  filename: EB051196.doc
+  format: doc
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 1996
+  era: legacy
+  template: A-L
+  created: '1996-11-04T10:23:00'
+  modified: '1996-11-04T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects:
+  - PRJ0016
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-001
+    rel: proposal_for
+  tier: sol
+  target_length: 5 pages
+  summary: VD-96-072 quote for Elvarmere Biosciences AB prices 24 pyrrolopyridine analogues at GBP 24,000 and scopes regioisomer
+    separation, analytical release and the route gate.
+  pilot: false
+- id: A-023
+  unit: A
+  root: archive
+  path: VellacombeData/Proposals/2005/CVL
+  filename: CVL_route-scout_08Jul05_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2005
+  era: legacy
+  template: A-L
+  created: '2005-07-08T10:23:00'
+  modified: '2005-07-08T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects:
+  - PRJ0008
+  client_id: CL001
+  client_variant: Corvenlea Pharma
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P31
+    rel: proposal_for
+  tier: sol
+  target_length: 6 pages
+  summary: VD-05-064 proposal for Corvenlea Pharma scopes 32 azaheterocycle analogues at GBP 27,000, route-risk review and
+    purity checks before biology-batch delivery.
+  pilot: false
+- id: A-024
+  unit: A
+  root: archive
+  path: VellacombeData/Proposals/2026/VP10
+  filename: VP-C_scaleup_quote_22Apr26.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2026
+  era: group
+  template: A-G
+  created: '2026-04-22T10:23:00'
+  modified: '2026-04-22T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0026
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: VD-26-068 proposal for Valquessia Pharmaceuticals SpA prices amide-coupling scale-up feasibility at GBP 58,000
+    with coupling and isolation gates before committing to a manufacturing route.
+  pilot: false
+- id: A-025
+  unit: A
+  root: archive
+  path: VellacombeData/Proposals/2025/ZT6
+  filename: ZT-6_quote_15Aug25_revA.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: A-G
+  created: '2025-08-15T10:23:00'
+  modified: '2025-08-15T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0029
+  client_id: CL041
+  client_variant: Zelmorven Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 5 pages
+  summary: VD-25-125 declined quote for Zelmorven Therapeutics offers analogue synthesis and analytical release for GBP 46,700,
+    with no work authorised after the client chose another supplier.
+  pilot: false
+- id: A-026
+  unit: A
+  root: archive
+  path: VellacombeData/Proposals/2024/HV
+  filename: HV_linker_estimate_16Jul24.docx
+  format: docx
+  doc_type: word_proposal
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: A-G
+  created: '2024-07-16T10:23:00'
+  modified: '2024-07-16T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0030
+  client_id: CL049
+  client_variant: Helvessora Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 4 pages
+  summary: VD-24-109 unanswered feasibility estimate for Helvessora Biosciences quotes GBP 48,000 for macrocycle linker supply
+    subject to receipt of target structures, with no synthesis initiated.
+  pilot: false
+- id: A-027
+  unit: A
+  root: archive
+  path: VellacombeData/QA/SOPs/Release
+  filename: VD_SOP_compound-cards_revD.docx
+  format: docx
+  doc_type: word_sop
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: A-G
+  created: '2024-05-21T10:23:00'
+  modified: '2024-05-21T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 9 pages
+  summary: Controlled compound-card SOP defines identity and area-percent purity acceptance, isolated-mass recording, delivery-lot
+    reconciliation and release sign-off for Analogue preparation.
+  pilot: false
+- id: A-028
+  unit: A
+  root: archive
+  path: Archive/Users/cantoine_old_laptop/Notes/2019
+  filename: chemistry_notes_v3.docx
+  format: docx
+  doc_type: word_memo
+  pdf_kind: null
+  year: 2019
+  era: legacy
+  template: A-L
+  created: '2019-06-19T10:23:00'
+  modified: '2019-06-19T16:42:00'
+  author: BG001
+  last_saved_by: BG001
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: draft
+  mess:
+  - leaver_folder
+  - unhelpful_name
+  - mixed_units
+  - tracked_changes
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 3 pages
+  summary: Christiane Antoine’s unfinished general chemistry note compares small-scale coupling work-ups, mixes mg and handwritten
+    g equivalents and leaves solvent-recovery recommendations unresolved.
+  pilot: false
+- id: A-029
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/EB05/VD-96-072/Reports
+  filename: EB05_VD-96-072_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 1997
+  era: legacy
+  template: A-L
+  created: '1997-02-14T10:23:00'
+  modified: '1997-02-14T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0016
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-012
+    rel: report_for
+  tier: sol
+  target_length: 18 pages
+  summary: VD-96-072 final Route scout and delivery report for Elvarmere Biosciences AB documents 24 pyrrolopyridines and
+    regioisomer separation supporting the first comparative potency screen, distinguishing isolated material from proposed
+    structures.
+  pilot: false
+- id: A-030
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/DT06/VD-98-076/Reports
+  filename: DT06_VD-98-076_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 1999
+  era: legacy
+  template: A-L
+  created: '1999-04-14T10:23:00'
+  modified: '1999-04-14T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0017
+  client_id: CL007
+  client_variant: Drelvessa Therapeutics SAS
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-013
+    rel: report_for
+  tier: sol
+  target_length: 18 pages
+  summary: VD-98-076 final Route scout and delivery report for Drelvessa Therapeutics SAS documents 32 aminopyridines and
+    improved recovery after earlier side-chain installation, distinguishing isolated material from proposed structures.
+  pilot: false
+- id: A-031
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/FT09/VD-15-134/Reports
+  filename: FT09_VD-15-134_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2016
+  era: legacy
+  template: A-L
+  created: '2016-03-31T10:23:00'
+  modified: '2016-03-31T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0018
+  client_id: CL010
+  client_variant: Feldorune Therapeutics BV
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: VD-15-134 final Route scout and delivery report for Feldorune Therapeutics BV documents 40 indazoles with positional
+    assignments separating two divergent N-substitution potency trends, distinguishing isolated material from proposed structures.
+  pilot: false
+- id: A-032
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/VP10/VD-16-033/Reports
+  filename: VP10_VD-16-033_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2016
+  era: legacy
+  template: A-L
+  created: '2016-08-31T10:23:00'
+  modified: '2016-08-31T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0019
+  client_id: CL011
+  client_variant: Valquessia Pharmaceuticals SpA
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-004
+    rel: report_for
+  tier: sol
+  target_length: 18 pages
+  summary: VD-16-033 final Route scout and delivery report for Valquessia Pharmaceuticals SpA documents 18 aminoquinolines
+    and reproducible isolation of the selected salt-forming side chain, distinguishing isolated material from proposed structures.
+  pilot: false
+- id: A-033
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/RI13/VD-17-044/Reports
+  filename: RI13_VD-17-044_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2017
+  era: legacy
+  template: A-L
+  created: '2017-08-02T10:23:00'
+  modified: '2017-08-02T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0020
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: VD-17-044 final Route scout and delivery report for Rennelwick Institute Drug Discovery Unit documents 24 phenoxyethyl
+    amides accessed through the protected aminoethyl intermediate, distinguishing isolated material from proposed structures.
+  pilot: false
+- id: A-034
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/VM14/VD-18-059/Reports
+  filename: VM14_VD-18-059_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2018
+  era: legacy
+  template: A-L
+  created: '2018-09-25T10:23:00'
+  modified: '2018-09-25T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0021
+  client_id: CL015
+  client_variant: Vesselquarn Medical Research Trust
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: VD-18-059 final Route scout and delivery report for Vesselquarn Medical Research Trust documents 32 bicyclic lactams
+    with separated stereoisomers and reference-standard identity checks, distinguishing isolated material from proposed structures.
+  pilot: false
+- id: A-035
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/RI13/VD-18-131/Reports
+  filename: RI13_VD-18-131_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2019
+  era: legacy
+  template: A-L
+  created: '2019-01-29T10:23:00'
+  modified: '2019-01-29T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0015
+  client_id: CL014
+  client_variant: Rennelwick Institute Drug Discovery Unit
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: P43
+    rel: report_for
+  tier: sol
+  target_length: 18 pages
+  summary: VD-18-131 final Route scout and delivery report for Rennelwick Institute Drug Discovery Unit documents delivered
+    receptor-programme analogues with isolated yields, identity data and binding-study handover records, distinguishing isolated
+    material from proposed structures.
+  pilot: false
+- id: A-036
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/DT18/VD-19-120/Reports
+  filename: DT18_VD-19-120_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2020
+  era: transition
+  template: A-T
+  created: '2020-03-03T10:23:00'
+  modified: '2020-03-03T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0022
+  client_id: CL019
+  client_variant: Doventhar Therapeutics
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: VD-19-120 final Route scout and delivery report for Doventhar Therapeutics documents 40 benzofuran acetamides and
+    a crystallisation work-up replacing chromatography for the shared intermediate, distinguishing isolated material from
+    proposed structures.
+  pilot: false
+- id: A-037
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/FM20/VD-20-028/Reports
+  filename: FM20_VD-20-028_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2020
+  era: transition
+  template: A-T
+  created: '2020-08-11T10:23:00'
+  modified: '2020-08-11T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0023
+  client_id: CL021
+  client_variant: Farnovessa Medicines
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: VD-20-028 final Route scout and delivery report for Farnovessa Medicines documents 18 imidazolidinones, desired
+    alkylation-site selectivity and the accepted impurity reference, distinguishing isolated material from proposed structures.
+  pilot: false
+- id: A-038
+  unit: A
+  root: archive
+  path: VellacombeData/Clients/VQ/VD-21-081/Reports
+  filename: VQ_VD-21-081_RPT_revA.pdf
+  format: pdf
+  doc_type: report_study
+  pdf_kind: native
+  year: 2021
+  era: group
+  template: A-G
+  created: '2021-11-02T10:23:00'
+  modified: '2021-11-02T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects:
+  - PRJ0024
+  client_id: CL063
+  client_variant: Vornelquith Biosciences
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 18 pages
+  summary: VD-21-081 final Route scout and delivery report for Vornelquith Biosciences documents isolated heteroaryl side-product
+    identifying the cause of variable coupling yield and tighter incoming-material requirements, distinguishing isolated material
+    from proposed structures.
+  pilot: false
+- id: A-039
+  unit: A
+  root: archive
+  path: VellacombeData/QA/Audits/2025
+  filename: VD_release-audit_11Mar25_signed.pdf
+  format: pdf
+  doc_type: word_memo
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: A-G
+  created: '2025-03-11T10:23:00'
+  modified: '2025-03-11T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: haiku
+  target_length: 5 pages
+  summary: Internal analytical-release audit records compound-card traceability, two corrected transcription findings and
+    closure evidence for delivery-lot purity reconciliation.
+  pilot: false
+- id: A-040
+  unit: A
+  root: archive
+  path: VellacombeData/Scans/1996/EB05
+  filename: EB05_signed_quote_12Nov96.pdf
+  format: pdf
+  doc_type: word_proposal
+  pdf_kind: scan
+  year: 1996
+  era: legacy
+  template: A-L
+  created: '1996-11-12T10:23:00'
+  modified: '1996-11-12T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects:
+  - PRJ0016
+  client_id: CL006
+  client_variant: Elvarmere Biosciences AB
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-022
+    rel: copy_of
+  tier: sol
+  target_length: 5 pages
+  summary: Scanned signed VD-96-072 quote for Elvarmere Biosciences AB preserves the GBP 24,000 acceptance, fax header and
+    handwritten route-gate annotation.
+  pilot: false
+- id: A-041
+  unit: A
+  root: archive
+  path: VellacombeData/Scans/2005/CVL
+  filename: CVL_signed_scope_22Jul05.pdf
+  format: pdf
+  doc_type: word_sow
+  pdf_kind: scan
+  year: 2005
+  era: legacy
+  template: A-L
+  created: '2005-07-22T10:23:00'
+  modified: '2005-07-22T16:42:00'
+  author: NS04
+  last_saved_by: NS04
+  projects:
+  - PRJ0008
+  client_id: CL001
+  client_variant: Corvenlea Pharma
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 4 pages
+  summary: Scanned VD-05-064 signed scope for Corvenlea Pharma records the 32-analogue delivery, client acceptance stamp and
+    handwritten amendment to the late-stage purification review.
+  pilot: false
+- id: A-042
+  unit: A
+  root: archive
+  path: VellacombeData/Scans/2012/QA
+  filename: VD_purity_protocol_16Oct12.pdf
+  format: pdf
+  doc_type: word_sop
+  pdf_kind: scan
+  year: 2012
+  era: legacy
+  template: A-L
+  created: '2012-10-16T10:23:00'
+  modified: '2012-10-16T16:42:00'
+  author: NS03
+  last_saved_by: NS03
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 6 pages
+  summary: Scanned signed purity-release protocol pages preserve area-percent acceptance criteria, bench annotations and a
+    faint approval stamp without obscuring the controlled revision.
+  pilot: false
+- id: A-043
+  unit: A
+  root: archive
+  path: VellacombeData/Marketing/Capabilities/2024
+  filename: VD_RouteScout_12Mar24_revB.pdf
+  format: pdf
+  doc_type: deck_capability
+  pdf_kind: export
+  year: 2024
+  era: group
+  template: A-G
+  created: '2024-03-13T10:23:00'
+  modified: '2024-03-13T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related:
+  - id: A-009
+    rel: export_of
+  tier: script
+  target_length: 14 pages
+  summary: PDF export of the Vellacombe Route scout and delivery capability deck preserves the 14-slide route-risk and isolated-material
+    presentation for client circulation.
+  pilot: false
+- id: A-044
+  unit: A
+  root: archive
+  path: VellacombeData/Marketing/Services/2025
+  filename: VD_service-catalogue_21Jan25.pdf
+  format: pdf
+  doc_type: service_catalogue
+  pdf_kind: native
+  year: 2025
+  era: group
+  template: A-G
+  created: '2025-01-21T10:23:00'
+  modified: '2025-01-21T16:42:00'
+  author: NS01
+  last_saved_by: NS01
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess: []
+  planted: []
+  related: []
+  tier: sol
+  target_length: 12 pages
+  summary: Vellacombe service catalogue defines Analogue preparation and Route scout and delivery, impurity isolation, compound-card
+    release, input requirements and realistic chemistry route-gate limitations.
+  pilot: false
+- id: A-045
+  unit: A
+  root: archive
+  path: VellacombeData/Admin/Working/2023
+  filename: Presentation1.pptx
+  format: pptx
+  doc_type: junk
+  pdf_kind: null
+  year: 2023
+  era: group
+  template: A-G
+  created: '2023-11-08T10:23:00'
+  modified: '2023-11-08T16:42:00'
+  author: BG017
+  last_saved_by: BG017
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 2 slides
+  summary: Near-empty office presentation contains only a meeting title and one blank slide from an abandoned room-booking
+    discussion.
+  pilot: false
+- id: A-046
+  unit: A
+  root: archive
+  path: VellacombeData/Admin/Working/2024
+  filename: Book1.xlsx
+  format: xlsx
+  doc_type: junk
+  pdf_kind: null
+  year: 2024
+  era: group
+  template: A-G
+  created: '2024-04-09T10:23:00'
+  modified: '2024-04-09T16:42:00'
+  author: BG017
+  last_saved_by: BG017
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: final
+  mess:
+  - near_empty
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 sheet
+  summary: Near-empty office workbook has a single room-capacity heading and no populated calculations or chemistry data.
+  pilot: false
+- id: A-047
+  unit: A
+  root: archive
+  path: VellacombeData/Templates/Unused/2025
+  filename: Document1.docx
+  format: docx
+  doc_type: junk
+  pdf_kind: null
+  year: 2025
+  era: group
+  template: A-G
+  created: '2025-04-10T10:23:00'
+  modified: '2025-04-10T16:42:00'
+  author: BG017
+  last_saved_by: BG017
+  projects: []
+  client_id: null
+  client_variant: null
+  finish: empty_template
+  mess:
+  - near_empty
+  - empty_sections
+  - unhelpful_name
+  planted: []
+  related: []
+  tier: haiku_low
+  target_length: 1 page
+  summary: Unused office meeting-note template contains a title, empty attendance table and blank action headings.
+  pilot: false
