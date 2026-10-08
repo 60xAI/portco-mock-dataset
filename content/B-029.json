@@ -1,54 +1,207 @@
-{"family": "workbook",
- "summary": "Interim run sheets for BW26_0368, Quorenthel Pharma GmbH: liver microsomal stability and RED plasma protein binding on 18 compounds of the QP07 polar-tail set. Binding recovery has been reconciled. The final stability repeat is queued until the delayed reference-control shipment arrives.",
- "properties": {"title": "BW26_0368 RUN04 stability and binding run sheets (interim)"},
- "sheets": [
-  {"name": "Run sheet",
-   "rows": [
-    [{"v": "BW26_0368 run sheet 04: microsomal stability and RED PPB (INTERIM)", "bold": true}],
-    ["Status", "Interim. Binding recovery reconciled. Final stability repeat queued after the reference-control shipment was delayed."],
-    ["Project", "{{PRJ0047:project_id}}"],
-    ["LIMS accession", "{{PRJ0047:lims_id}}"],
-    ["Client", "Quorenthel Pharma GmbH"],
-    ["Series", "QP07 polar tails (Quorenthel aminopyrazine series 07)"],
-    ["Compounds on run", {"ref": "PRJ0047:n_compounds"}],
-    ["Assays", "Liver microsomal stability (0.5 mg/mL protein, 1 µM); RED PPB (4 h, 37 °C)"],
-    ["Runs", "31/08/2026 to 18/09/2026"],
-    [],
-    ["Lead", "Bethany Rowcroft"],
-    ["Team", "Ravi Deshmukh, Ines Alvarado"],
-    ["Reference controls", "Shipment delayed. Stability repeat waits on it."],
-    ["Batch", "Expected", "Received", "Stability repeat"],
-    ["Reference control set", "", "", ""],
-    ["Compound set A", "", "", ""],
-    ["Compound set B", "", "", ""]
-   ],
-   "col_widths": {"A": 24, "B": 26, "C": 16, "D": 22},
-   "merged": ["A1:D1"],
-   "comments": [{"cell": "C13", "text": "Chase the control shipment again on Monday. The stability repeat cannot start without it.", "author": "Bethany Rowcroft"}]},
-  {"name": "Microsomal stability",
-   "rows": [
-    [{"v": "Liver microsomal stability, interim", "bold": true}],
-    ["Human and rat CLint and half-life. Repeat pending for the compounds flagged in the interim summary."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0047:mic_stab", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 22, "C": 18, "D": 18, "E": 16}},
-  {"name": "Plasma binding",
-   "rows": [
-    [{"v": "Human plasma protein binding, RED, interim", "bold": true}],
-    ["First set of compounds read and reconciled. Remaining compounds are queued behind the control shipment."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0047:ppb", "at": "A4"}],
-   "col_widths": {"A": 16, "B": 14, "C": 16, "D": 16},
-   "comments": [{"cell": "A2", "text": "Recovery on the 2 h read is low for two compounds. Check the recovery column before anyone quotes the free fraction.", "author": "Ravi Deshmukh"}]},
-  {"name": "Interim summary",
-   "rows": [
-    [{"v": "Interim summary", "bold": true}],
-    ["Status", "Interim: binding complete for the first set; stability repeat pending."],
-    ["Compounds on project", {"ref": "PRJ0047:n_compounds"}],
-    ["Price", "{{PRJ0047:price}}"],
-    [],
-    ["Open items", "Stability repeat after the control shipment; binding for the remaining compounds; biology memo review."]
-   ],
-   "data_refs": [{"table_ref": "PRJ0047:benchmark", "at": "A9"}],
-   "col_widths": {"A": 40, "B": 48}}
- ]}
+{
+  "family": "workbook",
+  "summary": "Interim run sheets for BW26_0368, Quorenthel Pharma GmbH: HLM/RLM stability and RED PPB for a planned set of {{PRJ0047:n_compounds}} QP07 polar-tail compounds. Binding recovery has been reconciled for the reported rows; both result tables remain partial. The final stability repeat is queued after a delayed reference-control shipment.",
+  "properties": {
+    "title": "BW26_0368 RUN04 stability and binding run sheets (interim)"
+  },
+  "sheets": [
+    {
+      "name": "Run sheet",
+      "rows": [
+        [
+          {
+            "v": "Brindlewythe Biosciences Ltd, a Tarnovell company\nBW26_0368 run sheet 04: microsomal stability and RED PPB (INTERIM)",
+            "bold": true
+          }
+        ],
+        [
+          "Status",
+          "Interim. Binding recovery reconciled. Final stability repeat queued after the reference-control shipment was delayed."
+        ],
+        [
+          "Project",
+          "{{PRJ0047:project_id}}"
+        ],
+        [
+          "LIMS accession",
+          "{{PRJ0047:lims_id}}"
+        ],
+        [
+          "Client",
+          "Quorenthel Pharma GmbH"
+        ],
+        [
+          "Series",
+          "QP07 polar tails (Quorenthel aminopyrazine series 07)"
+        ],
+        [
+          "Compounds on project",
+          {
+            "ref": "PRJ0047:n_compounds"
+          }
+        ],
+        [
+          "Assays",
+          "Liver microsomal stability (0.5 mg/mL protein, 1 µM); RED PPB (4 h, 37 °C)"
+        ],
+        [
+          "Study start / interim",
+          "31/08/2026 to 18/09/2026"
+        ],
+        [],
+        [
+          "Lead",
+          "Bethany Rowcroft"
+        ],
+        [
+          "Team",
+          "Ravi Deshmukh, Ines Alvarado"
+        ],
+        [
+          "Reference controls",
+          "Shipment delayed. Stability repeat waits on it."
+        ],
+        [
+          "Record",
+          "Expected",
+          "Received",
+          "Stability repeat"
+        ],
+        [
+          "Reference control set",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sample card reconciliation",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Remaining result rows",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "col_widths": {
+        "A": 24,
+        "B": 26,
+        "C": 16,
+        "D": 22
+      },
+      "merged": [
+        "A1:D1"
+      ],
+      "comments": [
+        {
+          "cell": "C13",
+          "text": "Chase the control shipment again on Monday. The stability repeat cannot start without it.",
+          "author": "Bethany Rowcroft"
+        }
+      ]
+    },
+    {
+      "name": "Microsomal stability",
+      "rows": [
+        [
+          {
+            "v": "Liver microsomal stability, interim",
+            "bold": true
+          }
+        ],
+        [
+          "Human and rat CLint and half-life; partial interim results. Verapamil and diltiazem controls were within historical range for the reported runs. The final stability repeat awaits the delayed reference-control shipment."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0047:mic_stab",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 22,
+        "C": 18,
+        "D": 18,
+        "E": 16
+      }
+    },
+    {
+      "name": "Plasma binding",
+      "rows": [
+        [
+          {
+            "v": "Human plasma protein binding, RED, interim",
+            "bold": true
+          }
+        ],
+        [
+          "Partial interim binding results, RED, 4 h, 37 °C. Recovery has been reconciled for the reported rows; remaining rows are in progress. Warfarin is the binding control."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0047:ppb",
+          "at": "A4"
+        }
+      ],
+      "col_widths": {
+        "A": 16,
+        "B": 14,
+        "C": 16,
+        "D": 16
+      },
+      "comments": [
+        {
+          "cell": "A2",
+          "text": "Use the recorded unbound percentage; subtracting the rounded bound value may give a different last digit. Retain the recovery column with each result.",
+          "author": "Ravi Deshmukh"
+        }
+      ]
+    },
+    {
+      "name": "Interim summary",
+      "rows": [
+        [
+          {
+            "v": "Brindlewythe Biosciences Ltd, a Tarnovell company\nInterim summary",
+            "bold": true
+          }
+        ],
+        [
+          "Status",
+          "Interim: binding recovery reconciled for reported rows; stability repeat and remaining result rows pending."
+        ],
+        [
+          "Compounds on project",
+          {
+            "ref": "PRJ0047:n_compounds"
+          }
+        ],
+        [
+          "Price",
+          "{{PRJ0047:price}}"
+        ],
+        [],
+        [
+          "Open items",
+          "Final stability repeat after reference-control shipment; complete remaining result rows. No final conclusions yet."
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0047:benchmark",
+          "at": "A9"
+        }
+      ],
+      "col_widths": {
+        "A": 40,
+        "B": 48
+      }
+    }
+  ]
+}
