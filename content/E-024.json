@@ -1,12 +1,112 @@
-{"family": "deck",
- "summary": "Working notes for the commercial capacity review of the stability chambers, covering chamber occupancy by programme, reserved pull windows and the lead-time assumptions used when quoting new stability work. Informal working copy kept for the review meeting.",
- "properties": {"title": "Chamber capacity review", "subject": "Commercial capacity review", "keywords": "stability; chambers; capacity; pull windows; quoting"},
- "slides": [
-  {"layout": "title", "title": "Chamber capacity review", "subtitle": "Westravelle Analytical Ltd | Commercial | GB working draft, November 2016", "footer": "Westravelle Analytical Ltd | Confidential"},
-  {"layout": "title_content", "title": "1 Why we are looking at this", "bullets": ["Requests for long-term storage have come in faster than the chamber programme was planned for", "Several quotes in the autumn were turned down or cut back because we could not confirm a chamber slot", "Need a plain view of what is booked, what is reserved and what is free before the next round of quotes", {"text": "Figures here are capacity and scheduling only; no study results are in this deck", "level": 1}], "notes": "Keep this out of the client folders. For Alice and Leon to look at before Thursday.", "footer": "Westravelle Analytical Ltd | Confidential"},
-  {"layout": "table", "title": "2 Occupancy by chamber", "table": {"columns": ["Chamber", "Programme", "Loading status", "Comment"], "rows": [["Chamber A", "ICH long-term", "Full", "Stability lots from two projects; no room for new lots until the 12 month pulls"], ["Chamber B", "ICH intermediate", "Partly reserved", "Reserved for a protocol that has not yet started; ask Leon whether it is still on"], ["Chamber C", "Accelerated", "Free from January", "Current lots pull out at the end of December"], ["Chamber D", "Photostability and cycling", "Shared", "Booked by the method validation group in the same weeks as the cycling work"]]}, "notes": "Loading status is from the chamber log as of last week. Not checked against the LIMS yet.", "footer": "Westravelle Analytical Ltd | Confidential"},
-  {"layout": "two_content", "title": "3 Pull windows", "bullets": ["Pull points follow the protocol: they are not moved to suit a chamber", "Pulls in the same week share a sample trip where possible", "Late pulls are noted on the batch card with the reason"], "bullets_right": ["Chamber A pulls cluster at the year end, so new loading there is a poor idea before February", "Chamber C has the most flexibility at present", "Ask the stability coordinator before offering any start date that falls inside a pull window"], "notes": "Pull calendar is in the shared drive. This is my reading of it, so check against the original.", "footer": "Westravelle Analytical Ltd | Confidential"},
-  {"layout": "title_content", "title": "4 Lead-time assumptions", "bullets": ["Quotes assume the standard lead time from the rate card, counted from signed protocol to first loading", "Where a chamber is full, the quote assumes the next free slot and says so", "Expedited starts are not offered for long-term storage", {"text": "Do not promise a start date until the chamber log has been checked", "level": 1}, "Analytical capacity for the first pull is checked with the QC method validation lead, not assumed"], "notes": "Saira has the current analytical slots. Confirm before we quote anything with a start in the new year.", "footer": "Westravelle Analytical Ltd | Confidential"},
-  {"layout": "title_content", "title": "5 Open points", "bullets": ["Is the Chamber B reservation still live", "Whether the rate card lead time still matches what the labs can actually do", "Who signs off a deviation from the standard lead time: Alice or the QA side", "Whether the old chamber log entries from before 2011 are worth keeping in the summary at all"], "notes": "Paper records before the electronic archive are patchy, so anything older than 2011 is from memory and should be marked that way.", "footer": "Westravelle Analytical Ltd | Confidential"},
-  {"layout": "title_content", "title": "6 Next steps", "bullets": ["Leon to confirm the Chamber B reservation and the Chamber C start", "Saira to confirm analytical slots for the pulls that fall in January", "Gareth to redraft the lead-time paragraph for the rate card", {"text": "Circulate to Alice before the next quote review", "level": 1}], "footer": "Westravelle Analytical Ltd | Confidential"}
- ]}
+{
+  "family": "deck",
+  "summary": "Gareth Bramwell’s final commercial capacity review for 2017 planning, retained as a personal meeting copy. Covers how chamber occupancy and reserved pull windows are recorded and checked, and the assumptions required before quoting a start date. Client protocol results are excluded.",
+  "properties": {
+    "title": "Chamber capacity review 2017 — Rev02",
+    "subject": "Commercial capacity review",
+    "keywords": "stability; chambers; capacity; pull windows; quoting"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Chamber capacity review 2017 — Rev02",
+      "subtitle": "Westravelle Analytical Ltd | Gareth Bramwell | 25 Nov 2016 | Personal meeting copy",
+      "footer": "Westravelle Analytical Ltd | Confidential",
+      "notes": "Final review copy for 2017 planning. Kept on my laptop; use the live chamber and pull records when quoting."
+    },
+    {
+      "layout": "title_content",
+      "title": "1 Why we are looking at this",
+      "bullets": [
+        "Commercial review for the next year: distinguish occupied storage, reservations and space available for new stability lots",
+        "Record occupancy by storage condition and stability lot in the chamber loading record; keep client analytical results out of the commercial summary",
+        "Check chamber space and analytical capacity before offering a start date",
+        {
+          "text": "This review sets the booking checks; it does not certify current free capacity",
+          "level": 1
+        }
+      ],
+      "notes": "For Alice and Leon at the quote review. Keep client result reports out of this copy.",
+      "footer": "Westravelle Analytical Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "2 Occupancy and reservations — source records",
+      "table": {
+        "columns": [
+          "Record",
+          "Capacity information to check",
+          "Commercial use"
+        ],
+        "rows": [
+          [
+            "Chamber loading record",
+            "Storage condition, occupied space and stability-lot locations",
+            "Identify usable space for the proposed storage condition"
+          ],
+          [
+            "Reservation record",
+            "Proposed loading, reservation status and booking authority",
+            "Distinguish a reservation from confirmed loading"
+          ],
+          [
+            "Protocol and pull calendar",
+            "Reserved pull windows and scheduled sample withdrawals",
+            "Check the loading plan against scheduled work"
+          ],
+          [
+            "Sample retention and disposal record",
+            "Material that must remain after a pull",
+            "Do not assume a pull frees storage space"
+          ]
+        ]
+      },
+      "notes": "Read these together. A pull date alone is not a chamber vacancy date; remaining samples may still occupy the position.",
+      "footer": "Westravelle Analytical Ltd | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "3 Pull windows",
+      "bullets": [
+        "Pull points and permitted windows follow the signed protocol",
+        "Coordinate sample handling within those windows without changing the required storage exposure",
+        "Late or missed pulls require a deviation note and an assessment of their effect"
+      ],
+      "bullets_right": [
+        "Review clustered pulls against analyst and method availability",
+        "Treat storage space and pull-testing capacity as separate booking constraints",
+        "Confirm reservations with Leon before offering a loading date"
+      ],
+      "notes": "Use the current pull calendar, not dates copied into an old commercial slide.",
+      "footer": "Westravelle Analytical Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "4 Lead-time assumptions",
+      "bullets": [
+        "Quote timing starts from the agreed prerequisites: signed protocol, sample receipt and confirmed storage allocation",
+        "State dependencies on chamber availability and analytical capacity in the quote",
+        "Treat any proposed expedited start as a separate capacity check before making a commitment",
+        {
+          "text": "Confirm a start date from current booking records; this review supplies no standard lead-time figure",
+          "level": 1
+        },
+        "Saira to confirm method readiness and analytical availability for the planned pulls"
+      ],
+      "notes": "No fixed loading interval is established here. Confirm with Alice if the requested timing depends on an exception to normal arrangements.",
+      "footer": "Westravelle Analytical Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "5 Quote review actions",
+      "bullets": [
+        "Leon: confirm current occupancy, reservation status and the proposed pull windows from the source records",
+        "Saira: confirm analytical capacity and method readiness for those windows",
+        "Gareth: state the confirmed timing dependencies in the quotation",
+        "Alice: resolve capacity exceptions before a commercial commitment"
+      ],
+      "notes": "My reminder: do not turn an old calendar entry into a promise. Earlier paper records are incomplete; use current confirmed bookings for 2017 planning.",
+      "footer": "Westravelle Analytical Ltd | Confidential"
+    }
+  ]
+}
