@@ -1,0 +1,133 @@
+{
+  "family": "deck",
+  "summary": "Final MV-2018-336 readout combining plasma binding, bidirectional permeability and DMSO-dilution solubility. The soluble branch retained an efflux liability, so Quorenthel chose to redesign the exposed amine rather than increase lipophilicity.",
+  "properties": {
+    "title": "QP07 absorption triage: soluble branch, high efflux",
+    "subject": "Quorenthel Pharma GmbH final DMPK readout, 02/28/2019",
+    "keywords": "PRJ0060; matrix acceptance; analytical limits; final"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "QP07 absorption triage: soluble branch, high efflux",
+      "subtitle": "Quorenthel Pharma GmbH | {{PRJ0060:project_id}} | Final readout, 02/28/2019\nDr M. Larkin | Merrivoss Bioanalysis Inc",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Absorption question and study record",
+      "bullets": [
+        "{{PRJ0060:n_compounds}} aminopyrazine test articles; {{PRJ0060:lims_id}}",
+        "Study 01/28/2019–02/28/2019; interim 02/12/2019",
+        "Separate dissolved availability, directional flux and unbound plasma fraction before recommending chemistry"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrices and conditions",
+      "bullets": [
+        "fu,p by equilibrium dialysis: human plasma, 4 h at 37 °C",
+        "Caco-2 flux and efflux ratio: bidirectional transport at 10 µM, pH 7.4",
+        "DMSO-dilution solubility: PBS at pH 7.4; kinetic endpoint"
+      ],
+      "notes": "Kinetic solubility after DMSO dilution is not thermodynamic solubility or proof of formulation performance.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Matrix acceptance: recovery matters",
+      "bullets": [
+        "Helen Marchwood: review dialysis and transport recovery with the assay worksheet",
+        "Javier Quintana: evaluate donor, receiver and plasma response in their respective matrices",
+        "Inspect monolayer integrity and nonspecific loss before interpreting weak receiver signal"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Analytical limits on ratios and fractions",
+      "bullets": [
+        "Efflux ratio is B-A Papp divided by A-B Papp; a weak denominator can make the ratio unstable",
+        "Very low unbound signal requires the analyte-specific quantitation limit",
+        "Neither binding nor solubility alone predicts oral exposure"
+      ],
+      "notes": "No numerical acceptance threshold or quantitation limit is added. Recovery columns travel with the corresponding measurements.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Human plasma: binding and recovery",
+      "table": {
+        "table_ref": "PRJ0060:ppb",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Caco-2: directional flux with recovery",
+      "table": {
+        "table_ref": "PRJ0060:caco2",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "Bidirectional asymmetry across QP07",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0060:caco2",
+        "column": 3,
+        "title": "Efflux ratio"
+      },
+      "notes": "Complete referenced test article set, in assay worksheet order; this is not a sorted ranking.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "DMSO-dilution solubility in PBS",
+      "table": {
+        "table_ref": "PRJ0060:solubility",
+        "max_rows": 12
+      },
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "QP07 aminopyrazines: structure context",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0060",
+        "n": 6
+      },
+      "notes": "Representative structures aid identity matching; they do not designate nominated leads.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Decision after matrix comparison",
+      "bullets": [
+        "High efflux persisted in the otherwise soluble branch",
+        "Quorenthel chose to redesign the exposed amine rather than increase lipophilicity",
+        "Keep solubility and binding alongside permeability in the next test article set"
+      ],
+      "notes": "Transport asymmetry does not identify a specific transporter. No transporter-inhibition experiment is reported.",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Carry into the next chemistry cycle",
+      "bullets": [
+        "Quorenthel Pharma GmbH: alter exposed-amine presentation and retain the soluble branch as comparator",
+        "Megan Larkin: carry directional-flux limitations into the DMPK memo",
+        "Repeat combined triage on the revised set; trace the current data through {{PRJ0060:lims_id}}"
+      ],
+      "notes": "",
+      "footer": "Merrivoss Bioanalysis Inc | Confidential"
+    }
+  ]
+}
