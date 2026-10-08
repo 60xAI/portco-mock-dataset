@@ -1,14 +1,147 @@
-{"family": "deck",
- "summary": "Working copy of the screening workflow deck, from the stage after the sample card routing was changed. Most slides match the earlier deck, but the sample card routing slide is out of date and the screen gate diagram appears twice. Kept as a personal working file.",
- "properties": {"title": "Screening workflow (working copy)", "subject": "Screening workflow from sample card to screen gate", "keywords": "screening workflow; sample card; screen gate; plate acceptance"},
- "slides": [
-  {"layout": "title", "title": "Screening workflow", "subtitle": "Brindlewythe Biosciences Ltd | Working copy, February 2013", "footer": "Brindlewythe Biosciences Ltd | Confidential", "notes": "Copy for my own use while we tidy the routing. Do not send on."},
-  {"layout": "title_content", "title": "Stages from sample card to screen gate", "bullets": ["Sample card issued when the test lot is logged in", "Test lot released to the bench once the card is signed", "Plate acceptance before any compound read", {"text": "Acceptance is on the run sheet, not in the notebook", "level": 1}, "Screening set run and reviewed by the study director", "Screen gate decision recorded in the biology memo"], "footer": "Brindlewythe Biosciences Ltd | Confidential"},
-  {"layout": "image", "title": "Workflow timeline", "image": {"kind": "timeline", "boxes": ["Sample card issued > Test lot logged > Plate acceptance > Screening set run > Screen gate decision"]}, "footer": "Brindlewythe Biosciences Ltd | Confidential"},
-  {"layout": "title_content", "title": "Sample card routing", "bullets": ["Cards printed at reception and filed by study code", "A routing sheet travels with the card to the bench", {"text": "Routing sheet is the old paper form, still in use on the medium plates", "level": 1}, "Cards are returned to the study folder after the screen gate", {"text": "Obsolete since the move: do not use this slide", "level": 1}], "footer": "Brindlewythe Biosciences Ltd | Confidential", "notes": "OLD. The routing sheet was dropped after the move. Keep only for the history of the card numbering."},
-  {"layout": "two_content", "title": "Plate acceptance and screen gate", "bullets": ["Plate acceptance answers whether the controls behaved", "Accepted plates go into the screening set", "Failed plates are rerun or excluded"], "bullets_right": ["Screen gate answers whether the compounds go forward", "Gate decisions are signed by the study director", "Mechanism is discussed separately in the memo"], "footer": "Brindlewythe Biosciences Ltd | Confidential"},
-  {"layout": "image", "title": "Screen gate flow", "image": {"kind": "timeline", "boxes": ["Screening set reviewed > Acceptance checked > Compounds ranked > Screen gate decision > Memo issued"]}, "footer": "Brindlewythe Biosciences Ltd | Confidential"},
-  {"layout": "image", "title": "Screen gate flow (second copy)", "image": {"kind": "timeline", "boxes": ["Screening set reviewed > Acceptance checked > Compounds ranked > Screen gate decision > Memo issued"]}, "footer": "Brindlewythe Biosciences Ltd | Confidential", "notes": "Duplicate of the previous slide. I pasted it twice when I was moving the slides about. Delete one."},
-  {"layout": "table", "title": "Who signs each stage", "table": {"columns": ["Stage", "Owner", "Record"], "rows": [["Sample card", "Reception", "Card number on the test lot log"], ["Plate acceptance", "Bench biologist", "Run sheet, signed and dated"], ["Screening set review", "Ines Alvarado", "Acceptance summary"], ["Screen gate decision", "Anika Veldershain", "Biology memo"]]}, "footer": "Brindlewythe Biosciences Ltd | Confidential"},
-  {"layout": "title_content", "title": "Changes to make before the next version", "bullets": ["Replace the routing slide with the card-only flow", "Remove the duplicate screen gate slide", "Check the owner column with Bethany before it goes round"], "footer": "Brindlewythe Biosciences Ltd | Confidential", "notes": "Personal list. Not the same as the group workflow sheet on the shared drive, which I have not updated."}
- ]}
+{
+  "family": "deck",
+  "summary": "Working copy of the screening workflow deck, from the stage after the sample card routing was changed. Most slides match the earlier deck, but the sample card routing slide is out of date and the screen gate diagram appears twice. Kept as a personal working file.",
+  "properties": {
+    "title": "Screening workflow (working copy)",
+    "subject": "Screening workflow from sample card to screen gate",
+    "keywords": "screening workflow; sample card; screen gate; plate acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Screening workflow",
+      "subtitle": "Brindlewythe Biosciences Ltd | Working copy, February 2013",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential",
+      "notes": "Copy for my own use while we tidy the routing. Do not send on."
+    },
+    {
+      "layout": "title_content",
+      "title": "Stages from sample card to screen gate",
+      "bullets": [
+        "Sample card issued when the test lot is logged in",
+        "Test lot released to the bench once the card is signed",
+        "Screening set run with controls; plate acceptance before compound interpretation",
+        {
+          "text": "Acceptance is on the run sheet, not in the notebook",
+          "level": 1
+        },
+        "Screening set run and reviewed by the study director",
+        "Screen gate decision recorded in the biology memo"
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Workflow timeline",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Test lot logged > Sample card issued > Screening set run > Plate acceptance > Screen gate decision"
+        ]
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Sample card routing",
+      "bullets": [
+        "Cards printed at reception and filed by study code",
+        "A routing sheet travels with the card to the bench",
+        {
+          "text": "Routing sheet is the old paper form, still in use on the medium plates",
+          "level": 1
+        },
+        "Cards are returned to the study folder after the screen gate",
+        {
+          "text": "Obsolete since the move: do not use this slide",
+          "level": 1
+        }
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential",
+      "notes": "OLD. The routing sheet was dropped after the move. Keep only for the history of the card numbering."
+    },
+    {
+      "layout": "two_content",
+      "title": "Plate acceptance and screen gate",
+      "bullets": [
+        "Plate acceptance answers whether the controls behaved",
+        "Results from accepted plates go into the screening set review",
+        "Failed plates are rerun or excluded"
+      ],
+      "bullets_right": [
+        "Screen gate answers whether the compounds go forward",
+        "Gate decisions are signed by the study director",
+        "Mechanism is discussed separately in the memo"
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Screen gate flow",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Screening set reviewed > Acceptance checked > Compounds ranked > Screen gate decision > Memo issued"
+        ]
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Screen gate flow (second copy)",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Screening set reviewed > Acceptance checked > Compounds ranked > Screen gate decision > Memo issued"
+        ]
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential",
+      "notes": "Duplicate of the previous slide. I pasted it twice when I was moving the slides about. Delete one."
+    },
+    {
+      "layout": "table",
+      "title": "Who signs each stage",
+      "table": {
+        "columns": [
+          "Stage",
+          "Owner",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Sample card",
+            "Reception",
+            "Card number on the test lot log"
+          ],
+          [
+            "Plate acceptance",
+            "Bench biologist",
+            "Run sheet, signed and dated"
+          ],
+          [
+            "Acceptance record review",
+            "Ines Alvarado",
+            "Acceptance summary"
+          ],
+          [
+            "Screen gate decision",
+            "Anika Veldershain",
+            "Biology memo"
+          ]
+        ]
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Changes to make before the next version",
+      "bullets": [
+        "Replace the routing slide with the card-only flow",
+        "Remove the duplicate screen gate slide",
+        "Check the owner column with Bethany before it goes round"
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential",
+      "notes": "Personal list. Not the same as the group workflow sheet on the shared drive, which I have not updated."
+    }
+  ]
+}
