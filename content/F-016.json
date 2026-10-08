@@ -1,0 +1,254 @@
+{
+  "family": "document",
+  "summary": "Final AU-08 report for Auvrelquith Biosciences explaining the Vehicle ladder and buffer adjustment that prevented precipitation on dilution. It defines the handling limits of the selected exposure solution.",
+  "properties": {
+    "title": "AU-08 oral solution: Vehicle ladder and dilution limits"
+  },
+  "header": "Durnesswick Laboratories Inc",
+  "footer": "Durnesswick Laboratories Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "AU-08 oral solution: Vehicle ladder and dilution limits",
+    "subtitle": "Final work-package report | R1",
+    "lines": [
+      "Project {{PRJ0105:project_id}}",
+      "Accession {{PRJ0105:lims_id}}",
+      "Client: Auvrelquith Biosciences",
+      "Date: 06/06/2016",
+      "Prepared by: Julia Carver"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Development decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Auvrelquith Biosciences selected the buffer-adjusted AU-08 solution for exposure work. The adjustment prevented precipitation on dilution under the conditions assessed. This is an exploratory dosing preparation, not a commercial formulation or a storage shelf-life assignment."
+        },
+        {
+          "p": "The initial Vehicle ladder is presented first because immediate clarity was not sufficient for selection. Equilibrium solubility, appearance at loading and behavior after standing answer different questions. The adjusted recipe card, rather than a favorable entry in the initial screen, is the reference for exposure preparation."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0105:form_screen",
+            "caption": "Table 1. Initial Vehicle ladder; not measurements of the adjusted solution."
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Scope and execution",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Work began on 04/19/2016, with an interim discussion on 05/13/2016 and completion on 06/06/2016. Julia Carver led the work package, Miguel Serrano handled the formulation set and Lena Patel addressed the preparation handoff."
+        },
+        {
+          "p": "The objective was a usable oral exposure solution. The work addressed loading, wetting, buffer adjustment and dilution handling. Pharmacological performance and excipient tolerance remain decisions for Auvrelquith Biosciences; physical clarity alone does not establish either."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Material and recipe identity",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "AU-08 preparations are associated with {{PRJ0105:lims_id}}. The recipe card identifies formulation composition and order of addition; the bench sheet links each preparation to its physical observations. Concentration is reported in mg/mL."
+        },
+        {
+          "p": "The initial formulation set used nominal 10 mg/mL loading. This describes material introduced into the vehicle, not necessarily dissolved drug. Where solids remained, the preparation was described as a suspension rather than assigned solution status from its nominal loading."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Vehicle preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Vehicle ladder compared aqueous suspending media, a cyclodextrin vehicle, mixed solvents and citrate buffer. Vehicle preparation preceded active addition. Mixing and appearance assessment were kept together so poor wetting could be distinguished from persistent solids."
+        },
+        {
+          "p": "In the adjusted preparation, the buffer adjustment belongs before the dilution step. Adding buffer after precipitation is not an equivalent preparation. Order of addition must travel with the recipe card and must not be left to the receiving operator to infer."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Screen suitability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Vehicle blanks distinguish excipient color or turbidity from changes associated with AU-08. Initial appearance must be read with the standing observation. Sediment that redistributes after shaking remains a suspension outcome; it is not proof of dissolved drug."
+        },
+        {
+          "p": "Crystal growth or delayed precipitation prevents an initial clear observation from being treated as stable solution behavior. A preparation intended for solution dosing must retain the intended material state through handling and withdrawal, not merely at the end of mixing."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Initial vehicle comparison",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Labrasol/PEG400 entry was initially clear with a slight yellow tint but subsequently precipitated. The methylcellulose and HPMC-containing entries remained suspensions and showed crystal growth. These observations made immediate clarity an inadequate selection rule."
+        },
+        {
+          "p": "The oil-containing and citrate preparations were redispersible rather than clear solutions. They remained useful handling comparators but did not resolve the solution objective. A suspension alternative would need its own withdrawal and dose-uniformity instructions."
+        },
+        {
+          "chart": {
+            "kind": "bar",
+            "ref": "PRJ0105:form_screen",
+            "column": 1,
+            "title": "Initial liquid-vehicle solubility comparison",
+            "y_label": "Equilibrium solubility (mg/mL)"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Dilution challenge",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Dilution was assessed as a preparation operation. A concentrate can appear satisfactory while losing solvent support or changing its ionization environment on aqueous contact. The receiving medium and mixing order therefore belong in the development record."
+        },
+        {
+          "p": "The buffer adjustment prevented precipitation during the assessed dilution sequence. This qualitative finding supports the selected exposure preparation. It does not authorize arbitrary receiving media, dilution ratios or holding intervals; each extension changes the conditions supporting selection."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Buffer-adjustment evidence",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The practical outcome changed after buffer adjustment: the diluted preparation no longer showed the precipitation that prompted development work. The decision rests on that handling outcome rather than an assumed solubility improvement in every initial vehicle."
+        },
+        {
+          "p": "The citrate-buffer row in Table 1 is an initial-screen comparator, not the adjusted recipe. Substituting it for the selected solution would remove the composition and preparation context that made the dilution sequence usable. No numerical dilution window is assigned by this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Preparation limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Use the selected recipe card as a complete instruction. Preserve vehicle composition, buffer preparation and order of addition. Additional electrolyte, a different receiving medium or further dilution requires development assessment when it changes the preparation environment."
+        },
+        {
+          "p": "Inspect before dose withdrawal. Visible precipitate, persistent turbidity or vessel-wall deposits trigger a hold and an entry on the bench sheet. Shaking a precipitated preparation does not restore its status as the selected clear solution."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Holding and handling",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Standing observations in the initial screen demonstrate delayed failure in several vehicles. They support attention to preparation timing, but they do not define a shelf life for the buffer-adjusted solution."
+        },
+        {
+          "p": "Transport, an overnight hold or a container change should be assessed as an additional handling condition. The stability description from an initial-screen row should not be transferred to the adjusted solution without supporting observations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Dose and loading tradeoffs",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Higher concentration may reduce administered volume while increasing the consequence of solvent loss on dilution. AU-08 selection therefore favored reliable diluted handling over the initial clarity of an unadjusted concentrate."
+        },
+        {
+          "p": "Translate any change in intended dose or volume into preparation requirements before preparing a new formulation set. Raising nominal loading can alter physical state and mixing demand; it is not a clerical revision to an otherwise unchanged recipe."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Exposure handoff",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The handoff combines Miguel Serrano’s formulation-set bench sheets with the selected recipe card. Lena Patel’s transfer focus is preparation sequence, the inspection point before withdrawal and clear instructions for conditions requiring development input."
+        },
+        {
+          "p": "Auvrelquith Biosciences selected the adjusted solution for exposure work. If the receiving team observes settling or visible solids, record the observation and suspend solution dosing from that preparation. Unrecorded substitution of a redispersible comparator is outside this handoff."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "13 Development boundaries",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This exploratory work package does not establish chemical stability, microbial control, packaging compatibility or long-term manufacturability. Physical clarity is necessary for the solution objective but does not demonstrate chemical integrity."
+        },
+        {
+          "p": "Before locking a process, reproduce the adjusted recipe with the intended material supply, mixing arrangement and container. Extensions to dilution or holding conditions need their own acceptance criteria and bench-sheet support."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "14 Conclusion and records",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The Vehicle ladder exposed the weakness of selecting on immediate clarity. Buffer adjustment prevented precipitation on dilution, and Auvrelquith Biosciences selected the solution for exposure work. The supported limit is the assessed recipe and handling sequence."
+        },
+        {
+          "p": "Retain this report, recipe cards and bench sheets under {{PRJ0105:project_id}} / {{PRJ0105:lims_id}}. The scope originated in the 04/04/2016 Vehicle ladder proposal. Exposure findings and any subsequent process work should remain distinguishable from this physical-screen report."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "06/06/2016",
+      "signed": true
+    }
+  ],
+  "orientation": "portrait"
+}
