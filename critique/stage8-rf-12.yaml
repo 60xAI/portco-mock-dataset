@@ -1,0 +1,60 @@
+- file_id: E-013
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Review-pending pull data had unsupported sign-offs; comments pointed at unrelated table cells, and the all-condition chart claimed to show only 40 °C."
+      change_made: "Kept pull sign-off pending, aligned comments with the impurity and linearity rows, and labelled the chart for all conditions; retained three comments."
+- file_id: E-014
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: voice
+      problem: "Group-era workbook lacked the required brand line."
+      change_made: "Added Westravelle group branding and dated superseded-working-copy identification."
+    - severity: minor
+      area: realism
+      problem: "Merged topic/note header lost a heading, occupancy comment pointed to pull charges, and the scratch calculation was labelled as a monetary charge. Storage-month pricing is absent from the context."
+      change_made: "Unmerged the header, moved the comment, labelled the calculation as pull events, and kept the storage-month rate explicitly open without inventing a price."
+- file_id: F-006
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "US cover date meant December rather than the March file date; deck omitted the copied Westravelle chamber-programme table and asserted an unsupported client conversion timeline."
+      change_made: "Corrected date context, identified the copied overview, restored a qualitative Westravelle service table and local terminology, and replaced the unsupported trend with planning requirements."
+- file_id: G-006
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Universal plate-control rules conflated culture and hERG records; failed-plate route said to stop reading, and amendment wording could imply retrospective acceptance-criteria changes."
+      change_made: "Used assay-specific validity checks, required retained raw observations, and distinguished deviations from prospective amendments and exploratory from GLP conclusions."
+    - severity: fix
+      area: consistency
+      problem: "Copied Brindlewythe origin and local mapping annotations were missing; Kenji's job title did not match his role."
+      change_made: "Identified the source training copy, added local mapping notes and corrected Genetic Toxicology Scientist title."
+- file_id: G-013
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Control vehicle was marked unchanged despite the pre-dosing formulation hold; recovery-arm comment was attached to pathology."
+      change_made: "Left control vehicle pending alignment with qualified formulation, moved recovery comment, and explicitly retained no dosing results or tolerated-dose conclusion. Did not use the incompatible DRF results table in the context."
+- file_id: HO-010
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "December 2021 extract named the formal integration programme prompted by the 2024 acquisition and extrapolated later workstream completion/counts backwards."
+      change_made: "Kept the five-firm 2021 scope, removed the later programme identity and unsupported mapped/completed counts, and retained local sign-off and identifiers."
+    - severity: minor
+      area: realism
+      problem: "Final board extract retained an unresolved working comment."
+      change_made: "Removed the comment; the firm table already provides the requested scope."
