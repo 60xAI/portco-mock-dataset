@@ -1,0 +1,189 @@
+{
+  "family": "scan",
+  "summary": "Signed VD-05-064 scope for Corvenlea Pharma confirms the agreed analogue delivery and programme price. The acceptance stamp and handwritten amendment bring the late-stage purification review forward to the route gate.",
+  "document": {
+    "family": "document",
+    "summary": "Signed scope for Corvenlea Pharma covering a route scout and agreed CVL analogue preparation. The amended purification review considers the coupling sequence before wider preparation.",
+    "properties": {
+      "title": "CVL signed scope"
+    },
+    "header": "Vellacombe Discovery Ltd",
+    "footer": "Vellacombe Discovery Ltd | Confidential",
+    "title_block": {
+      "title": "CVL azaheterocycle route scout and first analogue delivery",
+      "subtitle": "Signed scope | Corvenlea Pharma",
+      "lines": [
+        "{{PRJ0008:project_id}} | {{PRJ0008:lims_id}}",
+        "22 Jul 2005",
+        "Owen Merriman"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Agreed scope and commercial basis",
+        "blocks": [
+          {
+            "p": "Vellacombe Discovery Ltd and Corvenlea Pharma agree the Route scout and delivery programme {{PRJ0008:project_id}} for the CVL aminopyrimidine analogue set. This signed scope follows the quotation dated 08 Jul 2005 and authorises commencement on 22 Jul 2005. The objective is to establish a practical azaheterocycle preparation and supply assigned material for the next comparative biology work."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Agreed basis"
+              ],
+              "rows": [
+                [
+                  "Programme",
+                  "{{PRJ0008:project_id}}"
+                ],
+                [
+                  "Reference",
+                  "{{PRJ0008:lims_id}}"
+                ],
+                [
+                  "Analogue preparation",
+                  "{{PRJ0008:n_compounds}} analogues"
+                ],
+                [
+                  "Programme price",
+                  "{{PRJ0008:price}}"
+                ],
+                [
+                  "Planned interval",
+                  "{{PRJ0008:turnaround_days}} calendar days"
+                ]
+              ],
+              "caption": "Signed scope basis"
+            }
+          },
+          {
+            "p": "The chemical hypothesis is that the heteroaryl coupling sequence can provide a common route to the agreed substitution patterns. Late-stage purification is the principal route risk: apparent conversion will not establish that the desired product can be recovered in an assigned, usable form. The route scout will therefore examine isolation alongside reaction behaviour."
+          },
+          {
+            "p": "Ruth Calderwood directs the chemistry and agrees chemical decisions with Corvenlea Pharma. Hassan Darwish conducts the route scout and analogue preparation. Owen Merriman handles the commercial scope. Biological testing and interpretation of kinase activity remain with Corvenlea Pharma; this agreement makes no prediction of potency."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Route scout and amended purification review",
+        "blocks": [
+          {
+            "p": "The initial experiments will compare the intended coupling sequence with a revised order of transformations where isolation demands it. Crude samples and isolated fractions will be retained separately. The chemistry note will explain whether difficulty arises from incomplete reaction, competing products or recovery during purification."
+          },
+          {
+            "p": "The late-stage purification review will take place before commitment to the full analogue set. This is the amendment agreed on the signed scope: examine the revised coupling sequence at that review, rather than carrying the existing sequence directly into wider preparation. The amendment changes the route-gate discussion; it does not enlarge the agreed target list."
+          },
+          {
+            "list": [
+              "Compare analytical behaviour before and after work-up.",
+              "Examine the identity of isolated material rather than relying on retention time alone.",
+              "Document material lost during purification qualitatively with reference to the experiment.",
+              "Recommend continuation, a revised sequence or a hold for further agreement."
+            ]
+          },
+          {
+            "p": "Ruth Calderwood will consider the route evidence before releasing the common intermediate for wider preparation. If a revised sequence appears preferable, its critical transformations and isolation will be checked before it is treated as established. A proposed route will remain labelled as proposed until isolated material supports it."
+          },
+          {
+            "p": "A route discussion is planned for 14 Sep 2005. Difficulties affecting the delivery specification or scope will be raised when identified rather than deferred to that discussion. Further development beyond the agreed work requires written agreement through Owen Merriman before commitment."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Analogue preparation and analytical release",
+        "blocks": [
+          {
+            "p": "After the route gate, the selected intermediate will be taken into the agreed {{PRJ0008:n_compounds}}-analogue preparation. Corvenlea Pharma will confirm the target structures and intended material form. Each proposed structure will have a compound card; failed attempts and substitutions will remain visible in the chemistry note."
+          },
+          {
+            "table": {
+              "columns": [
+                "Delivery evidence",
+                "Required content"
+              ],
+              "rows": [
+                [
+                  "Identity",
+                  "CVL identifier, assigned structure and supporting observations"
+                ],
+                [
+                  "Preparation",
+                  "Route reference, deviations and isolated yield"
+                ],
+                [
+                  "Quantity",
+                  "Isolated amount in mg; mmol where appropriate"
+                ],
+                [
+                  "Purity",
+                  "HPLC UV area percent at 254 nm with trace"
+                ],
+                [
+                  "Disposition",
+                  "Release decision or reason for hold"
+                ]
+              ],
+              "caption": "Compound-card requirements"
+            }
+          },
+          {
+            "p": "Clara Fenwick will review analytical evidence against the compound cards before release. A clean chromatogram does not resolve uncertain connectivity or material form. Area-percent purity will be reported with the method context and will not be described as absolute mass purity."
+          },
+          {
+            "p": "Held material will be identified separately from released material. A nominal target that has not been isolated will not appear as a delivered compound. The delivery documentation will describe unresolved impurities and relevant handling observations so that biology is planned against the actual material available."
+          },
+          {
+            "p": "Andrew May will coordinate the sample handover. Container labels, compound cards and the delivery list will be checked against one another. Dispatch will be accompanied by the analytical package and chemistry note, with acknowledgement of receipt requested from Corvenlea Pharma."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Schedule, change control and signed acceptance",
+        "blocks": [
+          {
+            "p": "The planned commencement is 22 Jul 2005, with the route discussion on 14 Sep 2005 and closing chemistry handover on 07 Nov 2005. The programme interval is {{PRJ0008:turnaround_days}} calendar days. These dates describe the agreed plan; any route limitation affecting handover will be discussed with Corvenlea Pharma."
+          },
+          {
+            "p": "The agreed price is {{PRJ0008:price}} for the route scout, analogue preparation and analytical release described here. Biological assays, expansion of the target list and additional route development outside this scope require separate agreement. The handwritten purification-review amendment is included within this scope."
+          },
+          {
+            "p": "Changes to target structures, required form or release evidence must be recorded in writing. The chemistry effect and any change to the agreed programme will be set out before acceptance. No later change is implied merely by an experiment being proposed in a chemistry note."
+          },
+          {
+            "p": "Accepted for Corvenlea Pharma on 22 Jul 2005: {{PRJ0008:project_id}}, {{PRJ0008:n_compounds}}-analogue delivery and {{PRJ0008:price}}, including the amended late-stage purification review. Client signature retained on the accepted scope; the signatory name is not legible on this scanned copy."
+          },
+          {
+            "p": "For Vellacombe Discovery Ltd, Owen Merriman confirms the scope and amendment. The route gate remains a chemical decision based on isolation and assignment. At closing handover, the account will distinguish the route attempted, the route demonstrated and material released."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Owen Merriman",
+        "role": "Chemistry Business Development Lead",
+        "date": "22 Jul 2005",
+        "signed": true
+      }
+    ],
+    "comments": [],
+    "tracked_changes": []
+  },
+  "scan": {
+    "skew_deg": -0.5,
+    "noise": 0.16,
+    "blur": 0.25,
+    "stamp": "CORVENLEA PHARMA \u2014 ACCEPTED 22 JUL 2005",
+    "handwriting": "Review revised coupling sequence at purification gate, before full analogue preparation. Agreed \u2014 O. Merriman",
+    "pages": null
+  }
+}
