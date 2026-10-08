@@ -1,0 +1,8 @@
+{"family": "workbook",
+ "summary": "Scratch workbook from the admin share, set up for an accession lot log but never filled in. Only the heading and two blank worksheet tabs remain, with no LIMS numbers or entries.",
+ "properties": {"title": "Book1"},
+ "sheets": [
+  {"name": "Accession lots", "rows": [[{"v": "Accession lot log (2025)", "bold": true}], ["Lot", "Received", "Matrix", "Logged by"], [], ["Add one row per accession lot; LIMS number from the BIO register"]], "col_widths": {"A": 18, "B": 14, "C": 16, "D": 22}, "merged": ["A1:D1"], "freeze": "A3"},
+  {"name": "Sheet2", "rows": []},
+  {"name": "Sheet3", "rows": []}
+ ]}
