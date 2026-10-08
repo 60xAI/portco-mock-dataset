@@ -1,0 +1,211 @@
+{
+  "family": "document",
+  "summary": "Final proposal for Zostremal Pharma for ZO-31 Assay and related-substances validation. The quotation allocates impurity-standard responsibilities and sets the fee and protocol release gates. Required impurity standards remain outstanding, so the proposal is unanswered and no start or turnaround is committed.",
+  "properties": {
+    "title": "ZO-31: release-method validation"
+  },
+  "header": "Westravelle Analytical Ltd, a Tarnovell company",
+  "footer": "Westravelle Analytical Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "ZO-31: release-method validation",
+    "subtitle": "Final quotation — {{PRJ0102:project_id}}",
+    "lines": [
+      "Client: Zostremal Pharma",
+      "Date: 02/05/2024",
+      "Prepared by: Dr A. Penrose"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Scope and commercial basis",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Westravelle Analytical Ltd proposes Assay and related-substances validation for the ZO-31 release method supplied by Zostremal Pharma. The work will assess the agreed procedure using identified materials and a signed protocol. The method will not be described as validated until experiments have been completed and assessed against pre-agreed criteria."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Basis / disposition"
+            ],
+            "rows": [
+              [
+                "Project",
+                "{{PRJ0102:project_id}}"
+              ],
+              [
+                "Service",
+                "Assay and related-substances validation"
+              ],
+              [
+                "Fee",
+                "{{PRJ0102:price}}"
+              ],
+              [
+                "Start",
+                "Not agreed; standards outstanding"
+              ],
+              [
+                "Turnaround",
+                "Not committed"
+              ]
+            ],
+            "caption": "Schedule: 1 Scope and commercial basis"
+          }
+        },
+        {
+          "p": "This proposal is final as a commercial document. Protocol approval and client acceptance remain outstanding. The price assumes receipt of the materials and information described below; preparation of unidentified impurities or manufacture of new standards is excluded."
+        },
+        {
+          "p": "Dr A. Penrose directs the technical scope. Saira Mahmood will prepare the validation protocol and sequence sheets. Dr Leon Wu will coordinate storage instructions where required. The laboratory reference is {{PRJ0102:lims_id}}. This proposal includes no analytical results, validation conclusion or product-release recommendation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Required materials and information",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Zostremal Pharma shall supply the current release method, specification, calculation instructions and representative ZO-31 material. Each stability lot must reconcile to the shipment list and accompanying batch card. The allocation must permit independent preparations and preserve reserve material for resolving discrepancies."
+        },
+        {
+          "p": "The assay reference requires identity, assigned potency or purity, correction basis and expiry information. Impurity standards must cover the related substances required by the method and specification. Certificates, storage conditions, available response factors and limitations after dissolution are required for each standard. Placebo or matrix material and relevant development chromatograms must also be supplied."
+        },
+        {
+          "p": "Impurity-standard identity and suitability are prerequisites for designing specificity and sensitivity experiments. A label alone does not establish an assigned value. Saira Mahmood will reconcile the impurity set and certificates to the proposed performance characteristics before accepting materials for laboratory use."
+        },
+        {
+          "p": "Denis Miller will reconcile containers and receipt condition against the shipment list. Unresolved identity, quantity or storage instructions will be referred to Zostremal Pharma. Materials will remain under confirmed storage conditions and will not be allocated to validation sequences while suitability remains unresolved."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Proposed validation design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The protocol will define specificity, assay linearity and range, accuracy, repeatability, intermediate precision and related-substances sensitivity. It will distinguish characteristics applying to the assay from those applying to individual impurities. Acceptance criteria will be agreed before execution, with the reporting basis stated alongside each characteristic."
+        },
+        {
+          "p": "Specificity will examine reference material, representative preparations, placebo and impurity-spiked samples. The supplied impurity set must support an interpretable separation challenge. Where stressed material is required, the purpose and conditions of each preparation will be identified. Degradation alone will not establish that relevant peaks are resolved."
+        },
+        {
+          "p": "Accuracy will use independent additions across the agreed concentration interval. Precision experiments will distinguish injection repeatability from preparation variability. Intermediate precision will include an agreed change in execution conditions. Sensitivity for related substances will use suitable standards rather than an unsupported extrapolation from the main assay response."
+        },
+        {
+          "p": "Assay will be reported as percent label claim and impurities as area percent, with response-factor and purity corrections explicitly stated. Preparation calculations, integration rules and rounding conventions will be traceable through sequence sheets. The design cannot be finalised until the standards and supporting information are supplied; that dependency is not a failed validation result."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Execution controls and deliverables",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The first release gate is receipt and technical acceptance of required materials. The second is approval of the protocol. Laboratory execution follows only after those gates and commercial acceptance are complete. The present quotation does not reserve a start date."
+        },
+        {
+          "p": "Each sequence will identify preparations, material sources, method version and system suitability requirements. Failed suitability and preparation discrepancies must be documented before deciding whether an experiment supports validation. Original data and the reason for repeat work will remain visible."
+        },
+        {
+          "p": "Departures from the protocol will be entered in a deviation note and assessed against the affected characteristic. Any proposed method modification will be referred to Zostremal Pharma before adoption. A change to the validation basis may require a revised protocol and commercial scope."
+        },
+        {
+          "p": "The final report will present accepted results, criteria, materials, calculations, sequence references and deviations. Its conclusion will identify the method version and interval supported by the work; it will not extend findings to changed formulations or unexamined impurities. No interim or completion date is agreed because the prerequisite standards remain outstanding."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Fee and commissioning conditions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The quoted fee is {{PRJ0102:price}} for the agreed scope. The purchase order must identify Zostremal Pharma and {{PRJ0102:project_id}}. Invoicing stages will be agreed against protocol approval and final report issue. Payment is due within 30 days of invoice; applicable tax will be itemised separately."
+        },
+        {
+          "p": "The fee excludes synthesis or procurement of missing impurity standards, routine release testing and a continuing ICH chamber programme. Additional impurities, new method-development work or a changed specification will be assessed separately. Westravelle will state cost and schedule effects for written approval before added work begins."
+        },
+        {
+          "p": "A delivery interval will be agreed following material acceptance, protocol approval and confirmation of laboratory availability. No turnaround is committed here. The proposal date is not a laboratory start date and client silence will not be interpreted as acceptance."
+        },
+        {
+          "p": "Authorised work already performed remains chargeable if the client later suspends the protocol. Residual-material disposition requires client instructions recorded on the batch card; a commercial hold does not authorise disposal. Methods, materials and data remain confidential and controlled records will be retained under the archive procedure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Follow-up and open dependencies",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Zostremal Pharma has not supplied the impurity standards needed to finalise the protocol or accept the proposal. The opportunity remains unanswered. This final quotation is retained for follow-up; it is not evidence of customer acceptance or completed validation."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Basis / disposition"
+            ],
+            "rows": [
+              [
+                "Impurity standards and certificates",
+                "Outstanding; specificity and sensitivity design incomplete"
+              ],
+              [
+                "Protocol signature",
+                "Outstanding; execution not authorised"
+              ],
+              [
+                "Client acceptance and purchase order",
+                "Outstanding"
+              ],
+              [
+                "Start and delivery interval",
+                "No commitment made"
+              ]
+            ],
+            "caption": "Schedule: 6 Follow-up and open dependencies"
+          }
+        },
+        {
+          "p": "Saira Mahmood will reconcile the supplied impurity set to the proposed validation characteristics when material becomes available. Dr A. Penrose will confirm whether the quoted scope remains suitable. Any gap will be described to Zostremal Pharma before protocol approval is sought."
+        },
+        {
+          "p": "There are no laboratory results to attach. Missing standards must not be described as failed system suitability, an out-of-specification result or an analytical conclusion. The disposition is to hold the proposal pending client inputs and commercial acceptance."
+        },
+        {
+          "p": "Prepared by Dr A. Penrose, Head of Analytical Services, 02/05/2024. Protocol contact: Saira Mahmood. Storage interface: Dr Leon Wu. Retain {{PRJ0102:project_id}} on replies and shipment documentation."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr A. Penrose",
+      "role": "Head of Analytical Services — proposal issued",
+      "date": "2024-05-02",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "comments": [],
+  "tracked_changes": [],
+  "orientation": "portrait"
+}
