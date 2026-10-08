@@ -1,0 +1,116 @@
+- file_id: C-015
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "The summary equates the permeability-limited branch with efflux, and the Caco-2 sheet treats a ratio above 2 as proof of efflux limitation."
+      change_made: "Restored the documented permeability/solubility decision and qualified ratio interpretation by absorptive flux and recovery."
+    - severity: fix
+      area: consistency
+      problem: "The plasma-binding sheet invents a recovery flag threshold and a notes column; the ratio comment asserts an unsupported recalculation history."
+      change_made: "Removed those claims and referred to analyte cards for acceptance qualifications and calculation details."
+    - severity: minor
+      area: consistency
+      problem: "The summary hard-codes the compound count."
+      change_made: "Replaced the count with its project placeholder."
+- file_id: C-017
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The CYP comment names CYP2C19 alone as most flagged although CYP3A4 ties it, and suggests only flagged compounds entered curve work."
+      change_made: "Named both tied isoforms and clarified that CYP3A4 curves cover the full test article set."
+    - severity: minor
+      area: science
+      problem: "The controls heading calls single historical comparator values ranges."
+      change_made: "Renamed them historical comparators and made the most-flagged label plural."
+    - severity: minor
+      area: consistency
+      problem: "The summary hard-codes the compound count."
+      change_made: "Replaced the count with its project placeholder."
+- file_id: C-019
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The CYP comment names CYP2C9 alone as most flagged although CYP3A4 ties it; attribution of most CYP3A4 hits to cap variants is more specific than the documented outcome."
+      change_made: "Named both tied isoforms and limited the cap statement to the documented switch informed by CYP3A4 follow-up."
+    - severity: minor
+      area: science
+      problem: "The controls heading calls single historical comparator values ranges."
+      change_made: "Renamed them historical comparators and made the most-flagged label plural."
+    - severity: minor
+      area: consistency
+      problem: "The summary hard-codes the compound count."
+      change_made: "Replaced the count with its project placeholder."
+- file_id: C-020
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The accession sheet invents four matrix-lot identifiers, receipt dates, storage histories and a no-reuse rule."
+      change_made: "Replaced invented lot mapping with the real study accession and qualitative references to receipt and matrix-lot records."
+    - severity: fix
+      area: voice
+      problem: "The 2021 summary sheet lacks the required group brand line."
+      change_made: "Added Merrivoss Bioanalysis Inc, a Tarnovell company to the summary title."
+    - severity: fix
+      area: consistency
+      problem: "The worksheet asserts matrix acceptance passed and refers to a matrix acceptance sheet that is absent."
+      change_made: "Referred to the study records for matrix acceptance instead of asserting an undocumented pass or an absent sheet."
+    - severity: minor
+      area: science
+      problem: "The summary omits the limitation on comparing clearance values with different matrix units."
+      change_made: "Added the need for scaling and clarified that depletion alone does not identify the responsible enzyme."
+- file_id: C-022
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The identity tracker invents vial identifiers, receipt dates and confirmed identities; the text arbitrarily assigns the relabelled-vial hold to the two most potent rows."
+      change_made: "Used the study accession and source-record checks, removed unsupported row-specific holds, and preserved blank sign-off cells and comments."
+    - severity: fix
+      area: consistency
+      problem: "Whole-set potency counts are quoted beside a partial curve table whose visible rows do not support those totals."
+      change_made: "Removed the totals and explicitly labelled the table a partial result record with interpretation pending identity confirmation."
+    - severity: fix
+      area: voice
+      problem: "The 2026 summary sheet lacks the required group brand line."
+      change_made: "Added the group brand line and labelled the compound count as the study count."
+- file_id: C-023
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The recovery tracker assigns open checks and owners to specific compounds without source support, and the plasma sheet adds an undocumented binding-release hold."
+      change_made: "Replaced compound-specific assignments with qualitative source-record checks and referred binding qualifications to analyte cards; retained blank cells and reviewer comments."
+    - severity: fix
+      area: voice
+      problem: "The 2026 summary sheet lacks the required group brand line."
+      change_made: "Added the group brand line and distinguished the study count from the partial binding table."
+    - severity: minor
+      area: consistency
+      problem: "The solubility comment invents an outstanding standard check despite solubility results being available."
+      change_made: "Changed the comment to preserve the lower-limit qualifier and defer formulation recommendations to the documented open Caco-2 recovery checks."
+- file_id: C-024
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "The handover invents an SC- scratch prefix, exact memo subfolders, a filing-room shelf and a specific history of moved memo links."
+      change_made: "Replaced invented identifiers and locations with qualitative directions to the older sample log, study file index, personal working folder and paper archive."
+    - severity: fix
+      area: consistency
+      problem: "The May 2019 handover anticipates the later group-naming transition without evidence of an announced plan."
+      change_made: "Replaced the future transition statement with an instruction to retain original identifiers for archive retrieval."
+    - severity: minor
+      area: realism
+      problem: "The scratch-prefix reviewer comment points at a different prefix row."
+      change_made: "Retargeted the preserved obsolete comment to the scratch-tracking row and removed the invented prefix."
