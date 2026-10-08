@@ -1,0 +1,257 @@
+{
+  "family": "document",
+  "summary": "Final proposal for a non-GLP reserve-analogue screening package. It sets the cohort, fee and conditional schedule and requires full control and concentration documentation.",
+  "properties": {
+    "title": "AP02 reserve analogues: integrated hERG and CYP screen"
+  },
+  "header": "Osterquill Toxicology Inc | {{PRJ0013:project_id}}",
+  "footer": "Osterquill Toxicology Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "AP02 reserve analogues: integrated hERG and CYP screen",
+    "subtitle": "Final proposal",
+    "lines": [
+      "Investigation: {{PRJ0013:project_id}}",
+      "Client: {{PRJ0013:client_variant}}",
+      "LIMS allocation: {{PRJ0013:lims_id}}",
+      "Date: 02/21/2023"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Proposal summary and commercial schedule",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Osterquill Toxicology Inc proposes an integrated exploratory screen of {{PRJ0013:n_compounds}} AP02 reserve analogues for Avernelwick Pharmaceuticals Ltd. The package comprises hERG (IKr) safety pharmacology and the CYP safety interaction panel. Its purpose is to compare reserve candidates under documented screening conditions before the client chooses follow-up work."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Proposed basis"
+            ],
+            "rows": [
+              [
+                "Cohort",
+                "{{PRJ0013:n_compounds}} reserve analogues"
+              ],
+              [
+                "Package fee",
+                "{{PRJ0013:price}}"
+              ],
+              [
+                "Turnaround",
+                "{{PRJ0013:turnaround_days}} calendar days"
+              ],
+              [
+                "Planned start",
+                "03/08/2023"
+              ],
+              [
+                "Target completion",
+                "03/23/2023"
+              ],
+              [
+                "Compliance scope",
+                "Non-GLP screening"
+              ]
+            ],
+            "caption": "Proposal schedule; no assay results are included"
+          }
+        },
+        {
+          "p": "Naomi Takamori approves the scientific scope. The package includes full control and concentration documentation. It does not include an in vivo assessment or a GLP safety conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Discovery question and decision use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The AP02 reserve test article cohort consists of aminopyrimidine regioisomer analogues intended for comparison at the kinase hinge-site program. The client seeks evidence on cardiac ion-channel activity and potential CYP interactions, rather than a pooled safety score. The assay arms will therefore remain separately identifiable throughout reporting."
+        },
+        {
+          "p": "hERG concentration-response estimates and CYP inhibition at the screen concentration answer different questions. A favourable observation in one arm cannot cancel a concern in the other. Candidate ranking will preserve solubility limitations and any control-related qualification."
+        },
+        {
+          "p": "The investigation will support selection of alternatives for subsequent characterization. It will not predict a clinical therapeutic window without exposure context, establish a drug-interaction risk in patients or authorize regulatory use of these screening observations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Non-GLP scope and responsibilities",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This is an explicitly non-GLP screening package. The laboratory will retain traceable preparations, raw observations, control performance and concentration documentation, but will not issue a GLP compliance statement. If the client requires regulatory work, that requirement must be agreed under a separate scope."
+        },
+        {
+          "p": "Naomi Takamori is the scientific approval contact. Ying Hu will support the electrophysiology work. Lucia Moretti will check the documentary QA gates and reporting status. Kenji Morita may assist with review of handling and preparation documentation where required."
+        },
+        {
+          "p": "No live-animal procedures are included. Use of established cellular systems and microsomal reagents does not expand the authorization to an animal investigation. No clinical or definitive safety conclusion will be derived from this screening proposal."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Test article receipt and preparation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Avernelwick Pharmaceuticals Ltd will provide the reconciled article list, labelled dose lots, identity and purity information, solvent guidance and handling precautions. Kirsty Greenwood will coordinate receipt and flag any discrepancy to Naomi Takamori. A container may not be released on the basis of its position in a shipment."
+        },
+        {
+          "p": "Working solutions will be linked to article identity, dose lot and preparation date. Stock concentration, dilution sequence and final solvent concentration will be retained on observation sheets. The same article identifiers must be used in the hERG and CYP arms."
+        },
+        {
+          "p": "Precipitation or insufficient usable material will be documented before testing. The laboratory will agree a limitation or revised preparation with the client; it will not silently lower a nominal concentration and report it as the original condition."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 hERG (IKr) safety pharmacology design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The hERG arm will use automated patch clamp with concentration-response exposure and vehicle measurements. Planned maximum concentration is {{PRJ0013:herg.top_conc_uM}} µM, subject to formulation suitability. The observation sheet will retain concentration, cell identity, exposure sequence and current traces for interpretation."
+        },
+        {
+          "p": "E-4031 will serve as a reference compound. Vehicle stability, adequate current and recording integrity will be evaluated before accepting a cell. A cell that fails the defined recording criteria will not be used to strengthen the apparent precision of an article estimate."
+        },
+        {
+          "p": "Potency will be reported in µM with the valid-cell basis. Where inhibition does not support a finite estimate within the tested range, the report will use an appropriate range qualifier. Such an observation is not proof of an absence of channel activity at all concentrations."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 hERG control validity and limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Ying Hu will review recording stability and reference response before release of the electrophysiology arm. Control validity checks will be applied consistently across the test article cohort. A laboratory failure will be investigated and repeated where needed rather than treated as article behaviour."
+        },
+        {
+          "p": "The report will distinguish valid cells, excluded recordings and concentration limitations. A cell lost during exposure or a current affected by solvent will remain visible in the source trail. Exclusions will state their reason and will not be chosen after candidate ranking."
+        },
+        {
+          "p": "Naomi Takamori will resolve ambiguous observations before the final interpretation is issued. Any additional targeted run outside the agreed screen must have an approved study amendment. A screening estimate alone does not establish cardiac safety under a proposed human exposure."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 CYP safety interaction panel design",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The CYP safety interaction panel will measure inhibition at 10 µM in human liver microsomes using probe substrates for CYP1A2, CYP2C9, CYP2C19, CYP2D6 and CYP3A4. Incubation conditions and solvent content will be recorded for each run. This is a screening comparison rather than a complete interaction characterization."
+        },
+        {
+          "p": "Concurrent vehicle and appropriate reference inhibitor conditions will support each enzyme endpoint. Blank and background measurements will be retained where required to distinguish analytical interference from inhibition. A problematic probe readout will not be generalized to all CYP endpoints."
+        },
+        {
+          "p": "The deliverable will provide article-level inhibition with the concentration basis and control validity statement. Detailed potency follow-up, time-dependent inhibition and induction are not included. A flag in this panel is a reason to consider further characterization, not a clinical interaction conclusion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 CYP control validity and repeat rules",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Each enzyme endpoint will be released only after review of vehicle performance, reference inhibitor response and analytical suitability. Historical control context may be used to assess a concurrent reference response, but historical data cannot substitute for a missing control in the current run."
+        },
+        {
+          "p": "Signal interference, instability or precipitation will be linked to the affected article and endpoint. A repeat undertaken to resolve laboratory failure will preserve the original run in the archive. The final table will not conceal that a limitation remained unresolved."
+        },
+        {
+          "p": "Lucia Moretti will check that concentration statements match the observation sheets and that the report separates screening observations from mechanistic inference. The client may request CYP3A4 follow-up IC50 under a separate authorization; it is not part of this quoted package."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Schedule and QA gates",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The planned start is 03/08/2023 and target completion is 03/23/2023. The quoted turnaround is {{PRJ0013:turnaround_days}} calendar days after the planned start, conditional on receipt of usable material and closure of identity and preparation questions. No interim data release is promised by this schedule."
+        },
+        {
+          "p": "The initial QA gate covers article reconciliation and preparation suitability. The assay-release gate covers accepted observations and concurrent controls. The final gate covers table-to-source agreement, exclusions, limitations and the non-GLP statement."
+        },
+        {
+          "p": "Naomi Takamori will notify Avernelwick Pharmaceuticals Ltd if material constraints or unresolved controls affect the completion target. Schedule pressure cannot justify dropping a control, changing an article identity or representing an incomplete arm as final."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Report and archive deliverables",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The final report will open with the investigation scope and summary, followed by methods, control validity, full article-level hERG and CYP tables, and a discussion of their separate implications. It will identify the assay concentration and preserve range-qualified values and exclusions."
+        },
+        {
+          "p": "Preparation details, current traces, analytical observations and calculation support will be retained with the investigation archive. Lucia Moretti will check that a reader can connect a reported value to the accepted source observations. The reporting deliverable is not a GLP report."
+        },
+        {
+          "p": "The discovery discussion will describe options for follow-up without implying that the client has already chosen them. No post-investigation results are included in this proposal. Client decisions and later work will have their own dated documentation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Fee and acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The fee is {{PRJ0013:price}} for the stated cohort and integrated screen. It includes routine preparation, concurrent controls, review and the final screening report. An expanded cohort, added assays or a regulatory compliance requirement requires a revised scope before execution."
+        },
+        {
+          "p": "Avernelwick Pharmaceuticals Ltd should confirm the article list, shipment readiness and written acceptance of the non-GLP scope. Commercial agreement and laboratory readiness are separate gates. Acceptance of the price does not authorize undisclosed endpoints or follow-up investigations."
+        },
+        {
+          "p": "Issued by Naomi Takamori on 02/21/2023. Client acceptance is to be recorded separately. The dates in this proposal are planned dates; the report will state the work actually performed and any approved study amendments."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Naomi Takamori",
+      "role": "Head of Toxicology",
+      "date": "02/21/2023",
+      "signed": true
+    }
+  ]
+}
