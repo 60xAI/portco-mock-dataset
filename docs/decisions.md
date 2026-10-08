@@ -19,3 +19,4 @@ One line per decision taken during the build where the spec was silent or ambigu
 - 2026-10-08 · Before the Tarnovell brand launched (2020-01-01) the group is called 'the Vellacombe group' (A was the platform). `submit` rejects 'Tarnovell' in files last saved before 2020.
 - Stage 7: a rejected file stays claimed by its batch, and pack/submit refresh the batch's 45-minute claim, so parallel children never get handed a file another child is still working on.
 - Stability tables: one t=0 analysis serves every storage condition, and in-progress stability studies are cut only by months elapsed (not by the generic interim row cut); accepted E files re-rendered.
+- cyp.most_flagged names every isoform tied for the top count (e.g. 'CYP2C19, CYP2D6 and CYP3A4'); added cyp.most_flagged_n.

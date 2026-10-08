@@ -707,6 +707,7 @@
   "cyp.control_CYP3A4_uM": "0.033",
   "cyp.hist_CYP3A4_uM": "0.030",
   "cyp.most_flagged": "CYP3A4",
+  "cyp.most_flagged_n": "10",
   "cyp.n_any_gt50": "13",
   "cyp.FM20-02004.CYP3A4_pct": "6",
   "cyp.FM20-02006.CYP3A4_pct": "92",

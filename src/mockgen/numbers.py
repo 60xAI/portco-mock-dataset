@@ -173,7 +173,11 @@ def _cyp(ctx: Ctx):
         ctx.values[f"cyp.n_gt50_{iso}"] = str(counts[iso])
         ctx.values[f"cyp.control_{iso}_uM"] = ctrls[iso]
         ctx.values[f"cyp.hist_{iso}_uM"] = sig(CYP_CONTROLS[iso][1], 2)
-    ctx.values["cyp.most_flagged"] = max(CYPS, key=lambda k: counts[k])
+    top = max(counts.values())
+    lead = [k for k in CYPS if counts[k] == top]
+    # ties are named together ("CYP2C19, CYP2D6 and CYP3A4") so text never claims a single winner
+    ctx.values["cyp.most_flagged"] = "none" if top == 0 else (lead[0] if len(lead) == 1 else ", ".join(lead[:-1]) + " and " + lead[-1])
+    ctx.values["cyp.most_flagged_n"] = str(top)
     ctx.values["cyp.n_any_gt50"] = str(sum(1 for row in rows if any(float(x) > 50 for x in row[1:])))
     for row in rows:
         ctx.values[f"cyp.{row[0]}.CYP3A4_pct"] = row[5]

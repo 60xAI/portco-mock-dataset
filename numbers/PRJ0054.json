@@ -588,6 +588,7 @@
   "cyp.control_CYP3A4_uM": "0.039",
   "cyp.hist_CYP3A4_uM": "0.030",
   "cyp.most_flagged": "CYP3A4",
+  "cyp.most_flagged_n": "12",
   "cyp.n_any_gt50": "21",
   "cyp.AP02-01404.CYP3A4_pct": "-2",
   "cyp.AP02-01412.CYP3A4_pct": "93",
