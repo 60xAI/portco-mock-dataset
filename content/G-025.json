@@ -1,0 +1,235 @@
+{
+  "family": "document",
+  "summary": "Final quotation for Corvenlea (US) backup-branch screening. Shipment remains unconfirmed, no schedule is allocated and no investigation has been initiated.",
+  "properties": {
+    "title": "CVL backup branch: HepG2 and micronucleus package"
+  },
+  "header": "Osterquill Toxicology Inc | {{PRJ0128:project_id}}",
+  "footer": "Osterquill Toxicology Inc | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "CVL backup branch: HepG2 and micronucleus package",
+    "subtitle": "Final quotation | awaiting client response",
+    "lines": [
+      "Investigation: {{PRJ0128:project_id}}",
+      "Client: {{PRJ0128:client_variant}}",
+      "LIMS allocation: {{PRJ0128:lims_id}}",
+      "Date: 10/16/2025"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Quotation summary",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Osterquill Toxicology Inc proposes a HepG2 viability screen and Mammalian-cell micronucleus assessment for {{PRJ0128:n_compounds}} backup-branch analogues supplied by Corvenlea (US). The CVL aminopyrimidine test article cohort remains under portfolio review. Shipment has not been confirmed, and this quotation does not authorize laboratory initiation."
+        },
+        {
+          "table": {
+            "columns": [
+              "Item",
+              "Quotation basis"
+            ],
+            "rows": [
+              [
+                "Proposed cohort",
+                "{{PRJ0128:n_compounds}} backup-branch analogues"
+              ],
+              [
+                "Package fee",
+                "{{PRJ0128:price}}"
+              ],
+              [
+                "Assay scope",
+                "HepG2 viability screen; Mammalian-cell micronucleus assessment"
+              ],
+              [
+                "Shipment",
+                "Unconfirmed"
+              ],
+              [
+                "Start and turnaround",
+                "Not allocated"
+              ]
+            ],
+            "caption": "Commercial scope: proposed work only"
+          }
+        },
+        {
+          "p": "Naomi Takamori approves this quotation for client consideration. No laboratory results are available or represented by the cohort size stated here."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Purpose and scope limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client’s question is whether the backup branch warrants further discovery work after cellular viability and mammalian genotoxicity screening. The two endpoints will be reported separately. A viability reduction can affect interpretation of micronucleus observations, but it does not itself establish a genotoxic mechanism."
+        },
+        {
+          "p": "This is a proposed exploratory in vitro package, not a GLP regulatory investigation. No bacterial mutation assay, in vivo work or mechanistic confirmation is included. No live animals will be used under this scope."
+        },
+        {
+          "p": "The proposal provides a defined option while portfolio review continues. Neither the issue of a quotation nor an administrative investigation identifier demonstrates that material has arrived. A later decision to proceed must be recorded before any exposure work begins."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Shipment and receipt gate",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Corvenlea (US) should confirm whether the backup branch is proceeding and provide the proposed shipment inventory. Containers must be uniquely labelled with article and dose lot identity, with available characterization, storage instructions and handling precautions. Kirsty Greenwood will coordinate receipt only after a shipment is confirmed."
+        },
+        {
+          "p": "The laboratory will reconcile received articles with the approved cohort. Missing material, damaged containers and identity discrepancies will be placed on hold. A partial delivery will not automatically become an authorization to test a reduced cohort."
+        },
+        {
+          "p": "No start date or turnaround is committed in this copy. Shipment is currently unconfirmed. Naomi Takamori will agree laboratory readiness and the resulting schedule after the receipt and preparation gates can be completed."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Preparation and concentration selection",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The client will provide solvent guidance and any known instability or solubility limitations. Stock preparations and working dilutions will retain article identity, dose lot, concentration, preparation time and solvent content. Concentration selection will consider cellular tolerance and interpretable exposure."
+        },
+        {
+          "p": "The HepG2 and mammalian-cell arms need not use identical concentration ranges. Their preparation conditions must nevertheless be documented so that the client can understand differences in nominal exposure. Precipitation must be recorded rather than treated as evidence that the nominal concentration was achieved."
+        },
+        {
+          "p": "Additional formulation development is not assumed within the quoted package. If suitable preparations cannot be obtained routinely, Naomi Takamori will seek client agreement on a limitation, revised procedure or separately authorized development step."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 HepG2 viability screen",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed HepG2 viability screen will use cellular ATP content after 24 h and 48 h exposure. The run design will include vehicle and reference treatments and sufficient replicate wells to assess technical consistency. Plate layout and exposure timing will be retained on the observation sheets."
+        },
+        {
+          "p": "Concentration-response estimates will be reported in µM where a curve supports estimation. Range-qualified observations will remain qualified. An ATP reduction is an assay endpoint and will not be presented as a direct estimate of human toxicity."
+        },
+        {
+          "p": "Unusual signal behaviour, precipitation or failed controls will trigger review before release. A laboratory repeat to resolve an invalid run is distinct from client-requested work to explore a new concentration or mechanism."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Mammalian-cell micronucleus assessment",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed mammalian-cell assessment will use TK6 cultures with short exposure in the presence and absence of S9 and extended exposure without S9. Planned schedules are 3 h +S9, 3 h -S9 and 24 h -S9. Concentrations will be selected with proliferation and toxicity evidence in view."
+        },
+        {
+          "p": "Kenji Morita will oversee treatment identity, control validity and scoring documentation. Concurrent vehicle and positive control cultures will support the relevant exposure schedules. Population doubling and micronucleus observations must remain linked to the same treatment conditions."
+        },
+        {
+          "p": "The interpretation will distinguish an interpretable signal from a finding obtained under excessive cytotoxicity or unsuitable exposure. Follow-up confirmation is not automatically authorized by a flag in the screen. The client will receive the limitation and a proposed next step."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Control validity and exclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Each arm will have an assay-specific control validity statement. Vehicle performance, expected reference response, cell-system suitability and traceable treatment preparations will be checked before the data are released. A control failure cannot be replaced by a historical value."
+        },
+        {
+          "p": "Exclusions and repeats will retain their reason and source trail. The report must identify an unresolved limitation rather than silently omit the affected article. An invalid run will not be called negative simply because no acceptable response can be calculated."
+        },
+        {
+          "p": "Naomi Takamori will resolve scientific release questions. Lucia Moretti will check that the report and archived observation sheets agree and that the exploratory status is clear. Documentary QA does not create a GLP claim."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Reporting and client discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed report will open with scope and conditions performed, then present the HepG2 and micronucleus observations separately with control statements. It will retain article identity, concentration basis, exposure schedules, exclusions and interpretation limits."
+        },
+        {
+          "p": "The discussion will address whether further characterization is warranted, considering the limits of the screening systems. It will not declare the backup branch suitable for clinical progression on these endpoints alone. Portfolio selection remains a client decision."
+        },
+        {
+          "p": "No interim or final data release dates are assigned. Communications before receipt will concern authorization, shipment and preparation readiness. Such correspondence will not be described as investigation progress or assay completion."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Budget and change control",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The proposed package fee is {{PRJ0128:price}} for the stated backup-branch cohort and assay scope. The budget includes routine preparation, concurrent controls, data review and the exploratory report. It does not include additional assay systems or a regulatory dossier."
+        },
+        {
+          "p": "A change in article selection, cohort size or compliance requirements needs a written study amendment or revised quotation before execution. A partial shipment may affect scope and schedule, but the laboratory will not assume permission to proceed from the arrival of a container alone."
+        },
+        {
+          "p": "If portfolio review results in a decision not to proceed, the client should advise Osterquill so that the quotation can be closed administratively. No animal procurement, dose administration or other investigation activity has been authorized by this copy."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Acceptance and initiation hold",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Corvenlea (US) should confirm portfolio approval, the article list and shipment arrangements together with written acceptance of scope and price. Naomi Takamori will then determine whether the receipt and preparation prerequisites can support a laboratory schedule."
+        },
+        {
+          "p": "Current authorization position: shipment unconfirmed; start not allocated; investigation not initiated. The final status of this quotation means that the document is ready for client consideration. It does not mean the proposed work has been accepted or performed."
+        },
+        {
+          "p": "Issued 10/16/2025. Client acceptance is not recorded on this copy. Scientific instructions and any subsequent schedule will be separately approved and dated; this document must not be used as a completed investigation report."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Naomi Takamori",
+      "role": "Head of Toxicology",
+      "date": "10/16/2025",
+      "signed": true
+    }
+  ]
+}
