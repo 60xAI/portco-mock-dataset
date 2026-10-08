@@ -1,0 +1,112 @@
+{
+  "family": "deck",
+  "summary": "Final hERG readout for the BP16 oxazole carboxamide screening set. The lipophilic cap carried an ion-channel liability; Belquorin requested less basic replacements rather than further testing of that branch.",
+  "properties": {
+    "title": "BP16 protease programme: hERG channel screen",
+    "subject": "{{PRJ0033:project_id}} final readout",
+    "keywords": "Brindlewythe; plate acceptance; PRJ0033"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "BP16 protease programme: hERG channel screen",
+      "subtitle": "{{PRJ0033:project_id}} | {{PRJ0033:client_variant}}\n23 May 2003 | Dr B. Rowcroft\nBrindlewythe Biosciences Ltd",
+      "notes": "Final client readout. Study accession {{PRJ0033:lims_id}}.",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Plate acceptance and release",
+      "bullets": [
+        "Test period 07–23 May 2003; interim readout 15 May 2003.",
+        "Ravi Deshmukh checked cell-level fits; Ines Alvarado checked run sheets and sample-card mapping.",
+        "E-4031 control IC50 {{PRJ0033:herg.control_e4031_nM}} nM; accepted for interpretation.",
+        "Tested {{PRJ0033:herg.n_tested}} compounds under {{PRJ0033:lims_id}}."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Reading the channel screen",
+      "bullets": [
+        "Upper test concentration {{PRJ0033:herg.top_conc_uM}} µM; values above the range remain greater-than results.",
+        "Geometric means are accompanied by individual-cell results and finite-cell counts.",
+        "Flagged entries: {{PRJ0033:herg.n_flagged}}; censored entries: {{PRJ0033:herg.n_censored}}.",
+        "Weak inhibition at the range limit does not establish absence of channel activity."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "table",
+      "title": "Cell-supported hERG result extract",
+      "table": {
+        "table_ref": "PRJ0033:herg",
+        "columns": [
+          0,
+          4,
+          5,
+          6,
+          7
+        ],
+        "max_rows": 8
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "chart",
+      "title": "BP16 hERG profile",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0033:herg",
+        "column": 4,
+        "title": "hERG IC50 (µM)",
+        "y_label": "hERG IC50 (µM)"
+      },
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "image",
+      "title": "Oxazole carboxamide representatives",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0033",
+        "n": 6
+      },
+      "notes": "Representative structures identify the screening set; this grid is not a potency ranking.",
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Ranking at the screen gate",
+      "bullets": [
+        "Median hERG IC50 {{PRJ0033:herg.median_ic50_uM}} µM.",
+        "1–10 µM band: {{PRJ0033:herg.n_1_10uM}}; at or above 10 µM: {{PRJ0033:herg.n_ge_10uM}}.",
+        "Below 1 µM: {{PRJ0033:herg.n_lt_1uM}}. Preserve qualifications when comparing compounds.",
+        "The lipophilic cap is associated with the ion-channel liability in this screening set."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Chemistry interpretation",
+      "bullets": [
+        "Belquorin requested less basic replacements rather than further testing of the lipophilic branch.",
+        "Use the channel ranking to choose the replacement direction; protease potency is outside this readout.",
+        "The screen does not distinguish cap lipophilicity from basicity as the causal driver.",
+        "A matched replacement set is needed to separate those design effects."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Client decision and handover",
+      "bullets": [
+        "Stop further channel profiling of the current lipophilic branch.",
+        "Request less basic replacements with sample cards linked to parent identifiers.",
+        "Ravi Deshmukh to retain cell-level qualifications for the replacement comparison.",
+        "Bethany Rowcroft to close the current screen gate; test new material before assigning a safety margin."
+      ],
+      "footer": "Brindlewythe Biosciences Ltd | Confidential"
+    }
+  ]
+}
