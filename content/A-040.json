@@ -1,0 +1,220 @@
+{
+  "family": "scan",
+  "summary": "Scanned signed acceptance of the VD-96-072 quotation for Elvarmere Biosciences AB at the agreed price. The fax header, received stamp and handwritten route-gate annotation accompany the original chemistry scope and planned handover.",
+  "document": {
+    "family": "document",
+    "summary": "Signed copy of the EB05 quotation returned by Elvarmere Biosciences AB on 12 Nov 1996. The accepted scope retains the regioisomer separation and assignment route gate.",
+    "properties": {
+      "title": "EB05 pyrrolopyridine analogue preparation: quotation"
+    },
+    "header": "FAX | Elvarmere Biosciences AB | 12/11/1996\nVellacombe Discovery Ltd",
+    "footer": "Vellacombe Discovery Ltd | Confidential",
+    "watermark": null,
+    "title_block": {
+      "title": "EB05 pyrrolopyridine analogue preparation: quotation",
+      "subtitle": "Route scout and delivery | Elvarmere Biosciences AB",
+      "lines": [
+        "Programme {{PRJ0016:project_id}}",
+        "Reference {{PRJ0016:lims_id}}",
+        "Date: 04 Nov 1996",
+        "Prepared by Owen Merriman",
+        "Signed acceptance returned by fax: 12 Nov 1996"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1 Offer and chemical objective",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Vellacombe Discovery Ltd offers a route scout followed by preparation of {{PRJ0016:n_compounds}} pyrrolopyridine analogues for Elvarmere Biosciences AB. The quoted programme price is {{PRJ0016:price}}. The purpose is to provide an assigned analogue set for the first comparative potency screen; biological testing will remain with Elvarmere Biosciences AB."
+          },
+          {
+            "table": {
+              "columns": [
+                "Item",
+                "Proposed basis"
+              ],
+              "rows": [
+                [
+                  "Programme",
+                  "{{PRJ0016:project_id}}"
+                ],
+                [
+                  "Analogue preparation",
+                  "{{PRJ0016:n_compounds}} analogues"
+                ],
+                [
+                  "Price",
+                  "{{PRJ0016:price}}"
+                ],
+                [
+                  "Planned interval",
+                  "{{PRJ0016:turnaround_days}} calendar days"
+                ],
+                [
+                  "Release responsibility",
+                  "Clara Fenwick"
+                ]
+              ],
+              "caption": "Table 1. Quotation basis"
+            }
+          },
+          {
+            "p": "The route hypothesis is that bromination of the pyrrolopyridine core can provide a useful entry to the EB05 substitution pattern, provided that the ring-position regioisomers can be separated and assigned before analogue preparation. An isolated brominated fraction is not, by itself, evidence that the desired position has been obtained."
+          },
+          {
+            "p": "Ruth Calderwood will direct the chemistry. Hassan Darwish will conduct the route scout and carry the selected intermediate into the analogue set. This offer covers chemistry and analytical release, not a prediction of potency at the cell-cycle kinase target."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "2 Route scout and regioisomer gate",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "The initial work will establish a small-scale bromination and examine the crude mixture before committing material to a preparative separation. Reaction samples will be retained alongside the isolated fractions so that a clean chromatogram cannot obscure loss of the desired product during work-up."
+          },
+          {
+            "p": "Preparative HPLC is the proposed separation method. Fractions will be kept apart until the ring-position assignment has been examined by 2D NMR. The compound card will state the basis of assignment and any remaining ambiguity. A fraction described only by retention time will not pass the route gate."
+          },
+          {
+            "list": [
+              "Compare crude and isolated material by analytical HPLC.",
+              "Obtain sufficient isolated material for positional assignment.",
+              "Check that the assigned intermediate survives the next intended transformation.",
+              "Present separation losses and route limitations before extending the route."
+            ],
+            "ordered": false
+          },
+          {
+            "p": "Ruth Calderwood will decide whether the route is suitable for the planned analogue set. If the undesired regioisomer predominates, or the separation does not recover useful material, the chemistry note will set out the evidence and a proposed change. Additional route development outside this scope requires agreement before work proceeds."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "3 Analogue set and compound cards",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "After the route gate, the assigned core will be used to prepare the agreed EB05 analogue set. The order of preparation should first establish that the common intermediate tolerates the proposed substitution chemistry. More demanding members will follow only after the simpler transformations have supplied isolated material."
+          },
+          {
+            "p": "The structure list will be agreed with Elvarmere Biosciences AB before analogue preparation. Each proposed structure will be linked to an individual compound card; substitutions or changes in material form will require written agreement. The intended set size is {{PRJ0016:n_compounds}}. A proposed structure remains a target until material has been isolated and its identity checked."
+          },
+          {
+            "table": {
+              "columns": [
+                "Compound-card field",
+                "Required entry"
+              ],
+              "rows": [
+                [
+                  "Identity",
+                  "EB05 identifier, proposed structure and assignment evidence"
+                ],
+                [
+                  "Preparation",
+                  "Route reference and deviations"
+                ],
+                [
+                  "Isolation",
+                  "Isolated yield and amount in mg"
+                ],
+                [
+                  "Analytical evidence",
+                  "HPLC purity in area percent and NMR observations"
+                ],
+                [
+                  "Disposition",
+                  "Released, held or requiring further preparation"
+                ]
+              ],
+              "caption": "Table 2. Delivery documentation"
+            }
+          },
+          {
+            "p": "Unresolved mixtures will be held separately. The delivery list will distinguish a missing target from an available but unreleased sample, so that the screen is not planned around nominal structures that have not been supplied."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "4 Analytical release and delivery lot",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Clara Fenwick will check the analytical package against the compound cards before release. HPLC will report UV area percent at 254 nm; this is a chromatographic measure and will not be represented as an absolute mass assay. Identity and positional assignment must be considered together with chromatographic purity."
+          },
+          {
+            "p": "A second check of labels against compound cards will be made when the delivery lot is assembled. The material description will include its physical form, the weighed amount in mg and any handling observation made during isolation. A sample with uncertain assignment will remain on hold even if its chromatogram appears clean."
+          },
+          {
+            "list": [
+              "Supply released material with its compound card and analytical traces.",
+              "Identify residual regioisomer or unexplained features in the chemistry note.",
+              "Keep held samples out of the released delivery list.",
+              "Request confirmation of receipt before treating dispatch as the handover."
+            ],
+            "ordered": false
+          },
+          {
+            "p": "The closing discussion will address what was isolated, what remains proposed and which next analogue would best test the route or the chemistry hypothesis. Biological conclusions will await the comparative potency screen. No potency result is included in this quotation."
+          },
+          {
+            "page_break": true
+          }
+        ]
+      },
+      {
+        "heading": "5 Schedule, price and acceptance",
+        "level": 1,
+        "blocks": [
+          {
+            "p": "Subject to authorisation and receipt of the agreed target list, the planned start is 06 Dec 1996. A route discussion is proposed for 09 Jan 1997, with the closing chemistry handover planned for 13 Feb 1997. The quoted interval is {{PRJ0016:turnaround_days}} calendar days from commencement. The route gate must be passed before the full preparation sequence is committed."
+          },
+          {
+            "p": "The price of {{PRJ0016:price}} covers the route scout, the agreed analogue preparation, preparative separation, assignment work and analytical release described here. Biological assays, expansion of the target list and additional development following a failed route gate are outside the offered scope."
+          },
+          {
+            "p": "Owen Merriman will handle commercial correspondence. Ruth Calderwood will agree chemical changes with Elvarmere Biosciences AB. Any request affecting the route, the delivery specification or the agreed analogue set will be described in writing with its effect on the programme before it is accepted."
+          },
+          {
+            "p": "Accepted for Elvarmere Biosciences AB on 12 Nov 1996: {{PRJ0016:project_id}}, at {{PRJ0016:price}}, for the scope and planned programme described in this quotation. Acceptance covers the route scout and agreed analogue preparation; the regioisomer separation and assignment remain the route gate before further preparation and analytical release."
+          },
+          {
+            "p": "For Elvarmere Biosciences AB: signed acceptance received by fax. Signature retained on the returned original; name not legible on this copy. Date: 12 Nov 1996."
+          }
+        ]
+      }
+    ],
+    "signature_block": [
+      {
+        "name": "Owen Merriman",
+        "role": "Chemistry Business Development Lead",
+        "date": "04 Nov 1996",
+        "signed": true
+      }
+    ],
+    "appendices": [],
+    "tracked_changes": [],
+    "comments": [],
+    "orientation": "portrait"
+  },
+  "scan": {
+    "skew_deg": 0.6,
+    "noise": 0.18,
+    "blur": 0.3,
+    "stamp": "RECEIVED 12 NOV 1996",
+    "handwriting": "Regioisomer assignment first \u2014 route gate before analogue preparation. R. Calderwood",
+    "pages": null
+  }
+}
