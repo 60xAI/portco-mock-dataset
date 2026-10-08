@@ -1,0 +1,84 @@
+- file_id: B-031
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Acceptance bullets permitted flagged duplicates and drift while the checklist required all duplicates and no step changes; edge failures were tied to reference failure."
+      change_made: "Aligned bullets and checklist to protocol control, replicate, reference and drift criteria; investigate edge effects independently."
+    - severity: fix
+      area: consistency
+      problem: "Declared a house reference, a fixed rerun limit and a reagent-lot explanation without supporting records."
+      change_made: "Referred reference choice and repeat limits to the assay protocol, retained an open reviewer query, and made drift causes hypotheses."
+    - severity: minor
+      area: realism
+      problem: "Speaker-note initials MS did not identify the author or an available colleague."
+      change_made: "Changed the personal reminder initials to ME."
+- file_id: B-032
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Workflow placed plate acceptance before running the screening set, and issued the sample card before logging the test lot despite the receipt text."
+      change_made: "Ordered logging, card issue, assay run, acceptance and screen gate consistently; specified acceptance before interpretation."
+    - severity: minor
+      area: consistency
+      problem: "Signature table assigned screening-set review to the Assay Quality Coordinator despite the study-director review in the prose."
+      change_made: "Relabelled Ines Alvarado's stage as acceptance record review."
+- file_id: B-033
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Claimed the strongly basic side chain drives inhibition, exceeding the recorded chemistry decision and compound table."
+      change_made: "Preserved the confirmed side-chain removal decision while qualifying causality and noting other inhibiting members."
+    - severity: fix
+      area: consistency
+      problem: "Acceptance prose invented named sign-off activity, omitted the finite-cell majority rule, and the compound slide hid accepted-cell counts."
+      change_made: "Used the documented control acceptance and reporting rule, removed unsupported sign-off attribution, retained cell counts and qualifications, and qualified the censored bar chart."
+    - severity: minor
+      area: voice
+      problem: "Cover lacked the legacy brand line; readout lacked a molecule grid and called the quote date an acceptance date."
+      change_made: "Added the legacy brand to the cover and a source-referenced molecule grid; retained dates in notes with the quote described as dated."
+- file_id: B-035
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Repeat guidance confused run controls with compound responses, ruled out repeating flagged-cell results, changed test-lot identity, and automatically preferred repeat results."
+      change_made: "Separated run acceptance from cell quality, preserved sample and lot links, retained both records and required protocol-based reporting."
+    - severity: fix
+      area: consistency
+      problem: "Memo named Anika and Nikos outside the listed staff at its date; passage-log ownership contradicted its open-item list."
+      change_made: "Used Leila and Ravi in the handover and repeat discussion; left passage-log owner as TBC."
+    - severity: fix
+      area: realism
+      problem: "Invented a June reference-lot change and affected June releases despite the unresolved control-lot brief."
+      change_made: "Made lot history, need for bridging and affected sets unresolved source-record checks; retained draft placeholders and comments."
+- file_id: B-036
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: science
+      problem: "Missing paperwork prevented storage, and discrepancies prohibited any movement, risking unsuitable conditions while clarification was sought."
+      change_made: "Held release while allowing controlled storage and documented protective transfers."
+    - severity: minor
+      area: science
+      problem: "Universal within-the-hour storage instruction ignored sample-specific handling requirements."
+      change_made: "Required prompt storage under specified conditions with receipt and storage times recorded; retained both copied source footers."
+- file_id: B-045
+  verdict: fix
+  fixed: true
+  issues:
+    - severity: fix
+      area: consistency
+      problem: "Certificate invented PR-08-031, duplicate control plates, optical and repeatability observations, and a medium-throughput restriction."
+      change_made: "Removed invented identifier, observations and restriction; referred instrument identity, checks and covered settings to signed qualification records."
+    - severity: fix
+      area: science
+      problem: "Qualification release made an unclear retrospective assurance about earlier plates."
+      change_made: "Limited qualification to its certificate date and settings in the qualification record; preserved signature and handwritten review reminder."
