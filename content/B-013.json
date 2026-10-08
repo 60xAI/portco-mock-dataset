@@ -1,0 +1,266 @@
+{
+  "family": "document",
+  "summary": "HLM/RLM stability and RED PPB were accepted for the EB05 pyrrolopyridine screening set. The microsomal turnover and human plasma binding endpoints are reported separately. The paired assessment did not support using high plasma binding as an explanation for rapid microsomal turnover. Elvarmere Biosciences AB found that high binding did not explain the rapid turnover and commissioned metabolite identification on the retained lead.",
+  "properties": {
+    "title": "EB05 early DMPK: microsomal turnover and RED binding",
+    "subject": "Assess microsomal turnover in human and rat preparations and measure human plasma protein binding for the EB05 cell-cycle kinase screening set."
+  },
+  "header": "Brindlewythe Biosciences Ltd | {{PRJ0035:project_id}} | Revision B",
+  "footer": "Brindlewythe Biosciences Ltd | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "EB05 early DMPK: microsomal turnover and RED binding",
+    "subtitle": "Final signed study report — revision B",
+    "lines": [
+      "Study {{PRJ0035:project_id}}",
+      "Accession {{PRJ0035:lims_id}}",
+      "Client: Elvarmere Biosciences AB",
+      "Date: 14 Jul 2016",
+      "Author: Dr B. Rowcroft, Screening Operations Director"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Summary and control acceptance",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HLM/RLM stability and RED PPB were accepted for the EB05 pyrrolopyridine screening set. The microsomal turnover and human plasma binding endpoints are reported separately. The paired assessment did not support using high plasma binding as an explanation for rapid microsomal turnover."
+        },
+        {
+          "p": "Control acceptance preceded interpretation. Ines Alvarado checked the acceptance record and its link to the sample cards before the screening conclusions were released. Censored estimates and individual qualifications remain part of the accepted endpoint record; study acceptance does not remove them."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0035:benchmark",
+            "caption": "Table 1. Study summary and benchmarks"
+          }
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Study objective and chronology",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Assess microsomal turnover in human and rat preparations and measure human plasma protein binding for the EB05 cell-cycle kinase screening set."
+        },
+        {
+          "p": "The study covered {{PRJ0035:n_compounds}} compounds for Elvarmere Biosciences AB under {{PRJ0035:project_id}}, accession {{PRJ0035:lims_id}}. Work began on 23 May 2016. The interim position was recorded on 20 Jun 2016 and the completed assessment was issued on 14 Jul 2016. Revision B supersedes the interim position."
+        },
+        {
+          "p": "The screen gate concerned the next chemistry decision. It was not a clinical assessment or an assertion that the intended target mechanism had been demonstrated. Dr B. Rowcroft was responsible for the scientific interpretation and final release."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Test articles and accountability",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Full EB05 identifiers linked each sample card to both assay run sheets. The same identifier permits paired reading of stability and binding, but the test matrices remain different. A material identity link does not turn a plasma binding result into a correction for microsomal binding."
+        },
+        {
+          "p": "Test lot identity was preserved from receipt through preparation and measurement. The reportable compound identifier belongs to the material submitted for this study. A replacement lot, new solid form or formulation is not covered merely because it has the same chemistry designation."
+        },
+        {
+          "p": "The sample card provides the connection between retained material and the assay record. Follow-up work should carry that connection forward while recording any change of lot. Result transfer must use full identifiers rather than rack position or abbreviated suffix."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Experimental procedure",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "HLM/RLM stability was measured at 0.5 mg/mL microsomal protein and 1 µM test compound. Incubations were conducted at 37 °C with cofactor-supported turnover and time-zero sampling. A time course through 60 min was used to follow parent depletion; matched no-cofactor incubations distinguished cofactor-dependent turnover from other losses."
+        },
+        {
+          "p": "Parent response was normalised to the time-zero sample. The usable log-linear depletion interval was used to estimate the loss rate and apparent intrinsic clearance. Human and rat incubations were reduced separately. Half-life values beyond the sampled interval were retained as greater-than estimates, not reported as measured half-lives at the limit."
+        },
+        {
+          "p": "RED PPB used human plasma and equilibrium dialysis for 4 h at 37 °C. Plasma and buffer samples were analysed with matrix matching. The unbound fraction was derived from the paired compartments, and recovery was retained to show whether the binding estimate could be interpreted alongside material balance."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "5 Plate acceptance and calculation",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Stability acceptance considered reference turnover, time-zero response and behaviour in the no-cofactor condition. RED PPB acceptance considered matrix response, paired-compartment measurements and recovery. Ines Alvarado checked acceptance of each assay independently; satisfactory stability controls did not substitute for the binding controls."
+        },
+        {
+          "p": "Apparent CLint is reported in µL/min/mg and half-life in min. RED PPB reports bound fraction, unbound percent and recovery percent. Plasma unbound fraction was not applied to the microsomal clearance result. The report does not contain a measured microsomal unbound fraction, and no binding-corrected CLint was calculated."
+        },
+        {
+          "p": "Ines Alvarado checked units, column mapping and retention of qualifiers during report preparation. Bethany Rowcroft then considered the accepted endpoints against the study objective. A reference control demonstrates assay responsiveness under the test conditions; it does not establish specificity or suitability of a test compound outside those conditions."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "6 Results: numerical record",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Table 2 contains human and rat apparent CLint and half-life for {{PRJ0035:n_compounds}} compounds. Table 3 contains human RED PPB with recovery. Read both through the compound identifier; row position is a display convention and not a substitute for the identity link."
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0035:mic_stab",
+            "caption": "Table 2. HLM/RLM stability: apparent CLint and half-life"
+          }
+        },
+        {
+          "table": {
+            "table_ref": "PRJ0035:ppb",
+            "caption": "Table 3. Human RED PPB: bound, unbound and recovery (%)"
+          }
+        },
+        {
+          "p": "The released tables are the primary numerical record. A blank cell is not a zero. A greater-than value is not an exact estimate. Concentration, matrix and endpoint units must remain attached to each result when it is copied from this report."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "7 Comparison within the screening set",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "High plasma binding did not account for the rapid turnover observed in the microsomal assay. Binding in plasma and loss of parent in microsomes are different observations in different matrices. The conclusion leaves metabolism as a question requiring direct characterisation; it does not identify a metabolite, enzyme or metabolic site."
+        },
+        {
+          "p": "Comparison within the present study is preferred to an unqualified comparison with historical screening sets. Test lot, preparation and assay conditions can change the apparent separation between candidates. A useful chemistry association remains a screening observation unless a further experiment distinguishes its possible causes."
+        },
+        {
+          "p": "The assay profile should be read in full before selecting a favourable isolated result. An optimisation preference does not change the endpoint, and a less favoured branch does not become an assay failure because the client chooses another direction."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "8 Qualifications and interpretation limits",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Microsomal apparent clearance is not whole-body clearance. RED plasma binding cannot be used as a surrogate for binding to microsomal protein. Human–rat differences provide experimental context rather than a species-conversion rule. No hepatocyte turnover, metabolite identification or in vivo pharmacokinetic result is included here."
+        },
+        {
+          "p": "A half-life above the sampled interval is censored and should retain its greater-than symbol. Recovery should accompany the binding result when judging a highly bound compound. Percent bound and unbound percent may reflect reporting precision; apparent discrepancies must not be corrected by overwriting either released field."
+        },
+        {
+          "p": "No exposure margin has been calculated. Such a calculation requires an agreed exposure measure and a justified connection between that measure and this assay endpoint. The report establishes neither a dose nor an in vivo response. These limits define the intended use of the screen."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "9 Screen gate and client decision",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Elvarmere Biosciences AB found that high binding did not explain the rapid turnover and commissioned metabolite identification on the retained lead."
+        },
+        {
+          "p": "Retaining a lead while investigating turnover is a chemistry decision, not a declaration that its DMPK profile is resolved. Metabolite identification was commissioned to answer the remaining question; no metabolite identity is claimed in this report."
+        },
+        {
+          "p": "Elvarmere Biosciences AB owns the chemistry decision. Brindlewythe Biosciences Ltd supplies the accepted experimental profile and its interpretation limits. The decision is recorded separately so that a progression preference is not mistaken for an additional experimental observation."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "10 Follow-up work specification",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The commissioned metabolite identification should focus on the retained lead under conditions that give interpretable parent loss. Compare cofactor-supported and no-cofactor incubations, and retain material identity. Product assignment and pathway interpretation belong to the subsequent study; this report records the reason for commissioning it, not its outcome."
+        },
+        {
+          "p": "Any further study should state its question before allocating samples. Retain the existing compound identifier and test lot, and use a new accession for newly submitted material. A repeat intended to resolve a qualification should retain that purpose in its run sheet rather than being merged silently with the present result."
+        },
+        {
+          "p": "Proposed follow-up does not imply that the additional experiment has already been completed. Only the assays and endpoints in this report are released under the current study."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "11 Study records and data transfer",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The stability and RED PPB run sheets are separate assay records under the same study accession. Ines Alvarado checked units and matching identifiers in both tables. Preserve the species labels, recovery field and censored half-lives when importing data into the client register."
+        },
+        {
+          "p": "The study file contains the sample-card link, preparation record, run sheets and released endpoint tables. Bethany Rowcroft prepared the interpretation and Ines Alvarado checked it against the accepted assay record. The final report should be retained with those records rather than used as a replacement for them."
+        },
+        {
+          "p": "When quoting the assessment, retain {{PRJ0035:project_id}}, revision B, the report date and endpoint units. A copied ranking without its qualifications loses information needed at the screen gate. This report is confidential to Elvarmere Biosciences AB and Brindlewythe Biosciences Ltd."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "12 Conclusion and release",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Elvarmere Biosciences AB found that high binding did not explain the rapid turnover and commissioned metabolite identification on the retained lead."
+        },
+        {
+          "p": "The accepted experimental record supports that screening decision within the conditions specified. It does not extend the scope to untested compounds, matrices or biological endpoints. The numerical tables and qualifications remain the basis for any subsequent use of the results."
+        },
+        {
+          "p": "Revision B is the final report issued on 14 Jul 2016. The signatures record scientific release and the check of sample mapping, units and result qualifications."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Bethany Rowcroft",
+      "role": "Screening Operations Director — scientific release",
+      "date": "14 Jul 2016",
+      "signed": true
+    },
+    {
+      "name": "Ines Alvarado",
+      "role": "Assay Quality Coordinator — report check",
+      "date": "14 Jul 2016",
+      "signed": true
+    }
+  ],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
