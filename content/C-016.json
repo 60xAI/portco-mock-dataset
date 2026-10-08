@@ -1,60 +1,226 @@
-{"family": "workbook",
- "summary": "Assay worksheet for MV-2015-240, the AT15 GPCR lead oral and IV rat exposure study for Aldrevessa Therapeutics: 40 sulfonyl piperazine analogues dosed IV and PO, with LC-MS/MS bioanalysis and matrix acceptance. Systemic clearance was acceptable across the set, but oral exposure was limited for most analogues, which led Aldrevessa to revisit the dosing vehicle before the next exposure gate.",
- "properties": {"title": "MV-2015-240 assay worksheet (AT15 rat exposure)"},
- "sheets": [
-  {"name": "Summary",
-   "rows": [
-    [{"v": "Merrivoss Bioanalysis Inc: assay worksheet", "bold": true}],
-    ["Project", "{{PRJ0057:project_id}}", null, "LIMS", "{{PRJ0057:lims_id}}"],
-    ["Client", "{{PRJ0057:client_variant}}"],
-    ["Study", "AT15 GPCR lead: oral/IV rat exposure and LC-MS/MS assay"],
-    ["Series", "SER15, sulfonyl piperazine (AT15 prefix)"],
-    ["Compounds", "{{PRJ0057:n_compounds}}"],
-    ["Quote", "10/05/2015"],
-    ["Start", "11/16/2015"],
-    ["Interim", "12/03/2015"],
-    ["Completion", "12/21/2015"],
-    [],
-    ["Assay", "Protocol", "Sheet"],
-    ["Rodent PK", "Rat, 1 mg/kg IV and 5 mg/kg PO, n = 3 per route, tandem-MS bioanalysis", "Rat PK"],
-    ["Dosing", "Route, vehicle and sampling times as set out in the study plan", "Dosing and QC"],
-    ["Benchmark", "Project benchmark summary", "Dosing and QC"],
-    [],
-    ["Reviewed by", "Megan Larkin", null, "Checked", "Helen Marchwood, 12/21/2015"]
-   ],
-   "col_widths": {"A": 26, "B": 66, "C": 22, "D": 12, "E": 26},
-   "merged": ["A1:E1"]
+{
+  "family": "workbook",
+  "summary": "MV-2015-240 distinguishes the wider {{PRJ0057:n_compounds}}-article AT15 set from the six displayed rat Oral/IV PK profiles. The project interpretation of acceptable systemic clearance but limited oral exposure applies to the displayed PK subset, with variability between compounds. Aldrevessa revisited the dosing vehicle; this workbook does not claim the wider set was dosed or had acceptable clearance.",
+  "properties": {
+    "title": "MV-2015-240 assay worksheet (AT15 rat exposure)"
   },
-  {"name": "Rat PK",
-   "rows": [
-    [{"v": "Rat pharmacokinetics, IV and PO (house name: Rat exposure with tandem-MS bioanalysis)", "bold": true}],
-    ["Sprague-Dawley rats, n = 3 per compound per route. IV at 1 mg/kg, PO at 5 mg/kg. CL in mL/min/kg, Vss in L/kg, F from the dose-normalised AUC ratio."],
-    []
-   ],
-   "data_refs": [{"table_ref": "PRJ0057:rodent_pk", "at": "A4"}],
-   "freeze": "A5",
-   "col_widths": {"A": 16, "B": 18, "C": 14, "D": 14, "E": 14},
-   "number_formats": {"B5:B10": "0", "C5:C10": "0.0", "D5:D10": "0.0", "E5:E10": "0"},
-   "chart": {"kind": "bar", "ref": "PRJ0057:rodent_pk", "column": 4, "title": "Oral bioavailability F (%)", "y_label": "F (%)"},
-   "chart_at": "G4",
-   "comments": [{"cell": "B4", "text": "CL column is mL/min/kg, not the µL/min/mg used for the in vitro sheets in this batch.", "author": "Javier Quintana"}]
-  },
-  {"name": "Dosing and QC",
-   "rows": [
-    [{"v": "Dosing and matrix acceptance", "bold": true}],
-    ["Item", "Result", "Acceptance", "Comment"],
-    ["Dose formulation", "Verified by concentration check", "Required", "Accepted"],
-    ["IV dose volume", "Within 5 mL/kg", "Required", "Accepted"],
-    ["PO dose volume", "Within 10 mL/kg", "Required", "Accepted"],
-    ["Blank plasma", "No peak above LLOQ", "Required", "Accepted"],
-    ["Calibration", "Linear over the working range, r² above 0.99", "Required", "Accepted"],
-    ["QC samples", "Within ±15% of nominal", "Required", "Accepted; one low QC run repeated"],
-    [],
-    [{"v": "Project benchmark summary", "bold": true}]
-   ],
-   "data_refs": [{"table_ref": "PRJ0057:benchmark", "at": "A13"}],
-   "col_widths": {"A": 22, "B": 44, "C": 16, "D": 40},
-   "merged": ["A1:D1", "A11:D11"],
-   "freeze": "A3"
-  }
- ]}
+  "sheets": [
+    {
+      "name": "Summary",
+      "rows": [
+        [
+          {
+            "v": "Merrivoss Bioanalysis Inc: assay worksheet",
+            "bold": true
+          }
+        ],
+        [
+          "Project",
+          "{{PRJ0057:project_id}}",
+          null,
+          "LIMS",
+          "{{PRJ0057:lims_id}}"
+        ],
+        [
+          "Client",
+          "{{PRJ0057:client_variant}}"
+        ],
+        [
+          "Study",
+          "AT15 GPCR lead: oral/IV rat exposure and LC-MS/MS assay"
+        ],
+        [
+          "Series",
+          "SER15, sulfonyl piperazine (AT15 prefix)"
+        ],
+        [
+          "Wider test article set",
+          "{{PRJ0057:n_compounds}}",
+          "Displayed PK subset: six compounds on Rat PK"
+        ],
+        [
+          "Quote",
+          "10/05/2015"
+        ],
+        [
+          "Start",
+          "11/16/2015"
+        ],
+        [
+          "Interim",
+          "12/03/2015"
+        ],
+        [
+          "Completion",
+          "12/21/2015"
+        ],
+        [],
+        [
+          "Assay",
+          "Protocol",
+          "Sheet"
+        ],
+        [
+          "Rodent PK",
+          "Rat, 1 mg/kg IV and 5 mg/kg PO, n = 3 per route, tandem-MS bioanalysis",
+          "Rat PK"
+        ],
+        [
+          "Dosing",
+          "Route, vehicle and sampling times as set out in the study plan",
+          "Dosing and QC"
+        ],
+        [
+          "Benchmark",
+          "Project benchmark summary",
+          "Dosing and QC"
+        ],
+        [],
+        [
+          "Reviewed by",
+          "Megan Larkin",
+          null,
+          "Checked",
+          "Helen Marchwood, 12/21/2015"
+        ]
+      ],
+      "col_widths": {
+        "A": 26,
+        "B": 66,
+        "C": 22,
+        "D": 12,
+        "E": 26
+      },
+      "merged": [
+        "A1:E1"
+      ]
+    },
+    {
+      "name": "Rat PK",
+      "rows": [
+        [
+          {
+            "v": "Rat pharmacokinetics, IV and PO (house name: Rat exposure with tandem-MS bioanalysis)",
+            "bold": true
+          }
+        ],
+        [
+          "Displayed PK subset only: compounds identified below. Rat, 1 mg/kg IV and 5 mg/kg PO, n=3. CL in mL/min/kg, Vss in L/kg, F from dose-normalised AUC; do not extrapolate clearance/exposure to the wider set."
+        ],
+        []
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0057:rodent_pk",
+          "at": "A4"
+        }
+      ],
+      "freeze": "A5",
+      "col_widths": {
+        "A": 16,
+        "B": 18,
+        "C": 14,
+        "D": 14,
+        "E": 14
+      },
+      "number_formats": {
+        "B5:B10": "0",
+        "C5:C10": "0.0",
+        "D5:D10": "0.0",
+        "E5:E10": "0"
+      },
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0057:rodent_pk",
+        "column": 4,
+        "title": "Oral bioavailability F (%)",
+        "y_label": "F (%)"
+      },
+      "chart_at": "G4",
+      "comments": [
+        {
+          "cell": "B4",
+          "text": "CL column is mL/min/kg, not the µL/min/mg used for the in vitro sheets in this batch.",
+          "author": "Javier Quintana"
+        }
+      ]
+    },
+    {
+      "name": "Dosing and QC",
+      "rows": [
+        [
+          {
+            "v": "Dosing and matrix acceptance",
+            "bold": true
+          }
+        ],
+        [
+          "Item",
+          "Result",
+          "Acceptance",
+          "Comment"
+        ],
+        [
+          "Dose formulation",
+          "Verified by concentration check",
+          "Required",
+          "Accepted"
+        ],
+        [
+          "IV dose volume",
+          "Within 5 mL/kg",
+          "Required",
+          "Accepted"
+        ],
+        [
+          "PO dose volume",
+          "Within 10 mL/kg",
+          "Required",
+          "Accepted"
+        ],
+        [
+          "Blank selectivity",
+          "Analyte-specific method/run acceptance sheets under M15/BIO/05540",
+          "Study-plan limits: analyte interference relative to LLOQ; internal-standard interference relative to its response",
+          "Limits and observed responses are not reproduced; a blank below LLOQ does not establish selectivity."
+        ],
+        [
+          "Calibration",
+          "Back-calculated concentrations and exclusions: original run acceptance sheets",
+          "Method bias limits, LLOQ exception and minimum accepted calibrator proportion",
+          "Range and run identifiers remain in method/run records; no acceptance inferred from r²."
+        ],
+        [
+          "QC / failed-run disposition",
+          "Low-QC failure and repeat: run-disposition record under M15/BIO/05540",
+          "Study-plan bias limits and minimum accepted proportions overall/per level",
+          "Consult rejected-run and repeat identifiers, reason, sample reanalysis mapping and signed disposition; not transcribed here. Repeat not independently declared accepted."
+        ],
+        [],
+        [
+          {
+            "v": "Project benchmark summary",
+            "bold": true
+          }
+        ]
+      ],
+      "data_refs": [
+        {
+          "table_ref": "PRJ0057:benchmark",
+          "at": "A13"
+        }
+      ],
+      "col_widths": {
+        "A": 22,
+        "B": 44,
+        "C": 16,
+        "D": 40
+      },
+      "merged": [
+        "A1:D1",
+        "A11:D11"
+      ],
+      "freeze": "A3"
+    }
+  ]
+}
