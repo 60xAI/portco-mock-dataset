@@ -1,0 +1,119 @@
+{
+  "family": "deck",
+  "summary": "Final readout for Avernelwick Pharmaceuticals Ltd, 26 Aug 2024. Low recovery confounded the first RED PPB run; revised labware provided an interpretable free-fraction ranking. HLM/RLM stability and the repeat binding results support the next screening gate.",
+  "properties": {
+    "title": "BW24_0253 client readout",
+    "subject": "BW24_0253 client readout",
+    "keywords": "Brindlewythe; screening; plate acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "AP02: clearance and dialysis recovery",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "subtitle": "{{PRJ0043:project_id}} | Avernelwick Pharmaceuticals Ltd | 26 Aug 2024\nBrindlewythe Biosciences Ltd, a Tarnovell company",
+      "notes": "Dr B. Rowcroft | Screening Operations Director. Final client readout."
+    },
+    {
+      "layout": "title_content",
+      "title": "Acceptance before interpretation",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "The first RED PPB run was confounded by low dialysis recovery; do not use that run to rank binding.",
+        "The repeat with revised labware gave an interpretable free-fraction ranking.",
+        "Read recovery alongside unbound fraction before drawing a screening conclusion.",
+        "HLM/RLM stability and RED PPB answer different questions; neither substitutes for exposure testing."
+      ],
+      "notes": "Keep the original and repeat run sheets distinct. Recovery is an interpretation constraint, not a measure of binding strength."
+    },
+    {
+      "layout": "table",
+      "title": "HLM/RLM stability: screening set",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "table": {
+        "table_ref": "PRJ0043:mic_stab"
+      },
+      "notes": "0.5 mg/mL microsomal protein; compound at 1 µM. Compare human and rat clearance within each compound."
+    },
+    {
+      "layout": "chart",
+      "title": "Human microsomal clearance",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0043:mic_stab",
+        "column": 1,
+        "title": "Human CLint (µL/min/mg)"
+      },
+      "bullets": [
+        "Lower intrinsic clearance is the favourable direction for this screen gate.",
+        "Use the paired rat values to assess species-dependent turnover."
+      ],
+      "notes": "The plot follows the recorded screening-set order; it does not assign a mechanism."
+    },
+    {
+      "layout": "table",
+      "title": "RED PPB: interpretable repeat",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "table": {
+        "table_ref": "PRJ0043:ppb"
+      },
+      "notes": "Human plasma; equilibrium dialysis for 4 h at 37 °C. Revised labware was used after the first binding run was confounded. Read bound fraction, unbound fraction and recovery together."
+    },
+    {
+      "layout": "chart",
+      "title": "Free-fraction comparison after the repeat",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0043:ppb",
+        "column": 2,
+        "title": "Human plasma unbound fraction (%)"
+      },
+      "bullets": [
+        "The repeat permits relative free-fraction ranking within the AP02 screening set.",
+        "Higher unbound fraction alone does not establish a better exposure profile."
+      ],
+      "notes": "No correction has been inferred for the uninterpretable first run."
+    },
+    {
+      "layout": "image",
+      "title": "AP02: representative chemistry",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0043",
+        "n": 6
+      },
+      "notes": "Aminopyrimidine regioisomer screening set. These assays do not establish the cause of a clearance or binding difference."
+    },
+    {
+      "layout": "two_content",
+      "title": "Progression decision",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Use the repeat RED PPB ranking for progression; set aside the first-run binding ranking.",
+        "Prioritise compounds combining lower human clearance with an interpretable free-fraction result.",
+        "Retain the human/rat comparison for exposure-testing selection."
+      ],
+      "bullets_right": [
+        "AP02-01400 remains traceable in both assay tables.",
+        "Do not nominate a compound from binding alone.",
+        "Agree the exposure-testing selection with Avernelwick Pharmaceuticals Ltd using the paired results."
+      ],
+      "notes": "A named exposure lead is not assigned by this readout."
+    },
+    {
+      "layout": "title_content",
+      "title": "Study close and handover",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Completed 26 Aug 2024: {{PRJ0043:n_compounds}} compounds; {{PRJ0043:lims_id}}.",
+        "HLM/RLM stability and RED PPB; {{PRJ0043:turnaround_days}} calendar days.",
+        "Bethany Rowcroft: scientific handover and screening decision.",
+        "Ines Alvarado: plate acceptance and run-sheet queries.",
+        "Carry the revised-labware repeat forward; retain the first-run recovery limitation in the biology memo."
+      ]
+    }
+  ]
+}
