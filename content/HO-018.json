@@ -1,0 +1,7 @@
+{"family": "deck",
+ "summary": "Two-slide working deck from the integration programme at group head office, May 2024. A title slide with a short subtitle and an agenda placeholder that was never filled in.",
+ "properties": {"title": "Presentation1", "subject": "Integration programme working", "keywords": "integration; One Group, Many Practices"},
+ "slides": [
+  {"layout": "title", "title": "One Group, Many Practices", "subtitle": "Integration programme working draft | Tarnovell Bioscience Group | May 2024", "footer": "Tarnovell Bioscience Group | Confidential"},
+  {"layout": "title_content", "title": "Agenda", "bullets": [], "footer": "Tarnovell Bioscience Group | Confidential"}
+ ]}
