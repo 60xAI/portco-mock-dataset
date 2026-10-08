@@ -1,0 +1,174 @@
+{
+  "family": "document",
+  "summary": "Final feasibility estimate to Helvessora Biosciences for macrocycle linker supply. Target structures remain outstanding despite a reminder, so no synthesis, schedule or analytical release has been initiated.",
+  "properties": {
+    "title": "HV macrocycle linker supply: feasibility estimate"
+  },
+  "header": "Vellacombe Discovery Ltd, a Tarnovell company",
+  "footer": "Vellacombe Discovery Ltd, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "HV macrocycle linker supply: feasibility estimate",
+    "subtitle": "Route scout and delivery | Helvessora Biosciences",
+    "lines": [
+      "Programme {{PRJ0030:project_id}}",
+      "Reference {{PRJ0030:lims_id}}",
+      "Date: 16 Jul 2024",
+      "Prepared by Dr R. Calderwood"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Estimate and present position",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The feasibility estimate for Helvessora Biosciences is {{PRJ0030:price}} under {{PRJ0030:project_id}}. It concerns macrocycle linker supply, subject to receipt and assessment of the target structures. The estimate is a basis for scope discussion; it cannot establish a synthesis route while the linker identities remain undefined."
+        },
+        {
+          "table": {
+            "columns": [
+              "Estimate item",
+              "Basis"
+            ],
+            "rows": [
+              [
+                "Client",
+                "Helvessora Biosciences"
+              ],
+              [
+                "Reference",
+                "{{PRJ0030:lims_id}}"
+              ],
+              [
+                "Indicative programme price",
+                "{{PRJ0030:price}}"
+              ],
+              [
+                "Required input",
+                "Target structures and material requirements"
+              ],
+              [
+                "Laboratory status",
+                "No synthesis initiated"
+              ]
+            ],
+            "caption": "Table 1. Feasibility estimate"
+          }
+        },
+        {
+          "p": "The target structures requested following the feasibility discussion have not been returned. The enquiry remains unanswered despite a reminder. No start date or delivery interval has been agreed, and no laboratory instruction has been issued. The date above is the estimate issue date; no separate reminder date is asserted."
+        },
+        {
+          "p": "The chemical hypothesis is that a suitable linker preparation may be defined once terminal groups, stereochemistry and intended material form are known. Without those details, it would be premature to choose protection, coupling or isolation conditions. Ruth Calderwood is the scientific contact for the outstanding scope decision."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "2 Information needed to define the route",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Helvessora Biosciences should supply the intended target structures in a form that distinguishes attachment points and any stereochemical requirements. A general description of a macrocycle linker does not establish whether the request concerns an open-chain precursor, a protected intermediate or the final material for coupling."
+        },
+        {
+          "list": [
+            "Target structures with attachment points and terminal-group definitions.",
+            "Required stereochemistry and permitted protection state.",
+            "Desired material form and handling requirements.",
+            "Prior route information and known instability or solubility concerns.",
+            "Intended use sufficient to agree analytical release requirements."
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Hassan Darwish would examine the route once those inputs are available. The initial route scout would identify transformations most likely to control access to the target and isolation steps most likely to limit supply. A route proposal would distinguish information supplied by the client from assumptions requiring experiment."
+        },
+        {
+          "p": "No target list has been approved. The estimate therefore fixes neither an analogue count nor a material quantity. A linker cannot be substituted merely because it is easier to prepare: any structural change would need explicit agreement with Helvessora Biosciences before the chemical scope could be finalised."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "3 Conditional preparation and release plan",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "If the missing information is received and the programme is authorised, the first route gate would be agreement that a credible preparation can be tested. Representative small-scale work would then examine access to the target, identity of the isolated material and practicality of purification. This is the proposed sequence, not work already carried out."
+        },
+        {
+          "table": {
+            "columns": [
+              "Conditional step",
+              "Evidence required before advancing"
+            ],
+            "rows": [
+              [
+                "Structure review",
+                "Defined target and material form"
+              ],
+              [
+                "Route scout",
+                "Plausible preparation and stated chemical risks"
+              ],
+              [
+                "Isolation review",
+                "Identified material with practicable recovery"
+              ],
+              [
+                "Analytical release",
+                "Compound card and agreed identity and purity evidence"
+              ]
+            ],
+            "caption": "Table 2. Proposed route gates"
+          }
+        },
+        {
+          "p": "Clara Fenwick would assess the analytical evidence attached to any isolated material. The compound card would report the preparation reference, isolated yield, amount in mg and HPLC purity in area percent with its method reference. Unresolved identity or purity features would be held for a route decision rather than hidden in the delivery list."
+        },
+        {
+          "p": "The estimate contains no experimental results, released material or compound cards from this enquiry. A supply recommendation can only follow evidence from an authorised route scout. At present the next action is receipt of structures, not commencement of synthesis."
+        },
+        {
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "heading": "4 Commercial conditions and follow-up",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The estimated price is {{PRJ0030:price}} for the proposed feasibility and linker-supply scope. The chemical scope must be confirmed against the structures before this can become an executable programme. Changes arising from that assessment would be set out for agreement, including their effect on the material specification and programme schedule."
+        },
+        {
+          "p": "No fixed turnaround is offered while the target information is outstanding. Biological testing, manufacture and an unspecified expansion of linker targets are outside this estimate. Written authorisation, agreed structures and release requirements are needed before laboratory commencement."
+        },
+        {
+          "p": "The request remains unanswered after a reminder following the feasibility discussion. Ruth Calderwood will resume the scope discussion when Helvessora Biosciences returns the target structures. The unanswered enquiry should not be described as a failed synthesis programme: no synthesis has been initiated."
+        },
+        {
+          "p": "Retain this final estimate as the record of the proposed commercial basis. It does not certify feasibility and it is not a delivery report. The appropriate next decision is whether the supplied structures support the proposed route scout; until they are received, the enquiry remains open without laboratory activity."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Dr R. Calderwood",
+      "role": "Head of Medicinal Chemistry",
+      "date": "16 Jul 2024",
+      "signed": true
+    }
+  ],
+  "appendices": [],
+  "tracked_changes": [],
+  "comments": [],
+  "orientation": "portrait"
+}
