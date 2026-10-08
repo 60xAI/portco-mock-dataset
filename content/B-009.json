@@ -1,0 +1,122 @@
+{
+  "family": "deck",
+  "summary": "Final hERG automated patch clamp readout for Tervemere Pharma AG, 25 Jun 2025. The soluble-tail design reduced the channel signal, allowing exposure testing of the retained branch to resume. Censored results and the flagged compound remain visible in interpretation.",
+  "properties": {
+    "title": "BW25_0231 client readout",
+    "subject": "BW25_0231 client readout",
+    "keywords": "Brindlewythe; screening; plate acceptance"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "TP04 soluble-tail analogues: hERG follow-up",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "subtitle": "{{PRJ0045:project_id}} | Tervemere Pharma AG | 25 Jun 2025\nBrindlewythe Biosciences Ltd, a Tarnovell company",
+      "notes": "Dr B. Rowcroft | Screening Operations Director. Final client readout."
+    },
+    {
+      "layout": "title_content",
+      "title": "Plate acceptance and interpretation limits",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "E-4031 control IC50: {{PRJ0045:herg.control_e4031_nM}} nM; consider the control response before compound ranking.",
+        "Top concentration: {{PRJ0045:herg.top_conc_uM}} µM. Results above this limit are censored, not measured IC50s.",
+        "{{PRJ0045:herg.n_flagged}} compound carries a plate-acceptance note; retain it with the result.",
+        "Cell-level responses and finite-cell counts remain in the results table."
+      ],
+      "notes": "Ravi Deshmukh: electrophysiology; Ines Alvarado: plate acceptance. Do not infer an acceptance window from the control value or treat every row as unqualified."
+    },
+    {
+      "layout": "title_content",
+      "title": "Screening outcome",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "{{PRJ0045:herg.n_tested}} compounds tested in the TP04 screening set.",
+        "{{PRJ0045:herg.n_lt_1uM}} below 1 µM; {{PRJ0045:herg.n_1_10uM}} in the 1–10 µM band; {{PRJ0045:herg.n_ge_10uM}} at or above 10 µM.",
+        "Median IC50: {{PRJ0045:herg.median_ic50_uM}} µM; {{PRJ0045:herg.n_censored}} censored results.",
+        "The soluble-tail design reduced the channel signal; Tervemere Pharma AG resumed exposure testing of the retained branch."
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "Compound results and acceptance notes",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "table": {
+        "table_ref": "PRJ0045:herg"
+      },
+      "notes": "Read geomean with individual-cell IC50s, inhibition at 10 µM, finite-cell count and acceptance note. An empty cell is not evidence of zero inhibition."
+    },
+    {
+      "layout": "chart",
+      "title": "Channel inhibition at a common concentration",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "chart": {
+        "kind": "bar",
+        "ref": "PRJ0045:herg",
+        "column": 5,
+        "title": "hERG inhibition at 10 µM (%)"
+      },
+      "bullets": [
+        "Compare responses at the same tested concentration.",
+        "Use concentration responses to resolve close screening ranks."
+      ],
+      "notes": "Measured inhibition avoids substituting a numeric IC50 for censored entries."
+    },
+    {
+      "layout": "two_content",
+      "title": "Ranking: measured versus bounded",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Lower inhibition at 10 µM is the favourable direction.",
+        "Finite IC50s support ordering within the tested range.",
+        "Censored IC50s define a bound, not an exact order above the top concentration."
+      ],
+      "bullets_right": [
+        "TP04-02700 has censored cell responses in the results table.",
+        "Keep its finite-cell count attached to the summary.",
+        "Read the flagged row in context before a close compound selection."
+      ],
+      "notes": "A bounded response is not absence of channel interaction. Screening decisions do not identify a molecular explanation for the tail effect."
+    },
+    {
+      "layout": "image",
+      "title": "TP04: representative chemistry",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "image": {
+        "kind": "molecule_grid",
+        "ref": "PRJ0045",
+        "n": 6
+      },
+      "notes": "Aminopyrazolopyrimidine screening set. Structural context does not establish a channel-binding mechanism."
+    },
+    {
+      "layout": "two_content",
+      "title": "Screen gate: retained branch progresses",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Resume exposure testing of the retained soluble-tail branch.",
+        "Keep compounds with stronger channel signal behind the retained branch in screening order.",
+        "Carry the flagged result as a qualified comparison."
+      ],
+      "bullets_right": [
+        "Combine hERG findings with achieved exposure before assessing a margin.",
+        "Confirm sample-card identities for exposure-testing test lots.",
+        "Refer close choices involving censored or flagged results to Ravi Deshmukh."
+      ],
+      "notes": "No exposure margin is calculated in this study."
+    },
+    {
+      "layout": "title_content",
+      "title": "Final handover",
+      "footer": "Brindlewythe Biosciences Ltd, a Tarnovell company | Confidential",
+      "bullets": [
+        "Completed 25 Jun 2025 | {{PRJ0045:lims_id}}.",
+        "{{PRJ0045:n_compounds}} compounds; {{PRJ0045:turnaround_days}} calendar days.",
+        "Bethany Rowcroft: client handover and progression.",
+        "Ravi Deshmukh: concentration-response interpretation.",
+        "Ines Alvarado: acceptance notes and run-sheet traceability.",
+        "Preserve censored values and the acceptance note in the exposure-testing handover."
+      ]
+    }
+  ]
+}
