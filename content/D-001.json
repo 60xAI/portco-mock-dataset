@@ -80,7 +80,7 @@
       "layout": "title_content",
       "title": "Reproducible analysis route",
       "bullets": [
-        "Supplied data drop → identifier reconciliation → data acceptance.",
+        "Client data drop → identifier reconciliation → data acceptance.",
         "Unadjusted expression model → handling-aware model → subtype assessment.",
         "Retain input mapping, contrast definitions and analysis settings together."
       ],
