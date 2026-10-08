@@ -1,0 +1,125 @@
+- file_id: E-001
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Suitability sheet; Deviations DN-02"
+      problem: "The suitability sheet contains method validation only. The claimed repeat system suitability after column replacement has no sequence-level controls, criteria, results or traceable sequence reference."
+      suggested_change: "Distinguish method validation from system suitability and identify the accepted sequence records and control criteria for each pull, including the replacement-column sequence; do not invent measured results."
+    - severity: minor
+      area: consistency
+      where: "Summary A12"
+      problem: "The stated pull schedule omits the one-month pulls and does not distinguish the six-month accelerated endpoint from the twelve-month long-term/intermediate endpoints."
+      suggested_change: "Replace the schedule with: 'Long-term and intermediate pulls at 0, 1, 3, 6, 9 and 12 months; accelerated pulls at 0, 1, 3 and 6 months.'"
+- file_id: E-008
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Resuspension check C8; Sign-off row 6"
+      problem: "The workbook issued on 08/02/2024 records a client label request dated 14/03/2024, which had not happened at issuance."
+      suggested_change: "Remove the future request date and retain only the documented shake-before-use outcome known at issue; use a later revision if the March request must be recorded."
+    - severity: fix
+      area: science
+      where: "Summary text; Stability A2; Resuspension check rows 2 and 5-7"
+      problem: "The text implies eighteen-month storage of reconstituted, repeatedly withdrawn suspension, while the table gives conventional ICH storage pulls. It never separates shelf storage from the opened/reconstituted in-use interval, and the resuspension observations lack bottle identifiers and an explicit procedure."
+      suggested_change: "Separate product age at each ICH pull from the protocol-defined in-use interval. Identify reconstitution/opening dates, bottle/sample references, withdrawal and shaking procedure, and the source record for dose-uniformity acceptance; do not imply eighteen months of in-use suitability without that evidence."
+- file_id: C-016
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Summary text; Summary row 6; Rat PK sheet"
+      problem: "The summary says all 40 analogues were dosed IV/PO and clearance was acceptable across the set, but only six PK profiles are shown. The related readout explicitly distinguishes the displayed PK subset from the wider test article set."
+      suggested_change: "Label 40 as the wider test article set and the six displayed compounds as the PK subset. Limit the clearance/exposure interpretation to that subset and retain vehicle reconsideration as the project decision."
+    - severity: fix
+      area: science
+      where: "Dosing and QC rows 6-8"
+      problem: "Blank acceptance at 'no peak above LLOQ' and calibration r² alone do not establish LC-MS/MS selectivity or calibration acceptance. The repeated low-QC run is accepted without a traceable failed/repeat run disposition."
+      suggested_change: "State the study-plan limits for blank analyte/internal-standard interference and back-calculated calibrators, with accepted QC proportions and run references. Identify the rejected/repeated run and its disposition rather than relying on r² and 'Required'."
+- file_id: B-024
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Plate acceptance rows 2-5; Primary IC50 rows 5-28"
+      problem: "All plate blocks stop at TP04-02748, but 18 reported compounds run from TP04-02764 through TP04-02880. The blocks therefore cannot account for the stated accepted full set, and four consecutive twelve-ID blocks also imply a different inventory from the 24 actual compounds."
+      suggested_change: "Replace invented consecutive ranges with the actual compound-to-plate mapping for all 24 reported IDs, and align the interim subset with that mapping."
+    - severity: fix
+      area: science
+      where: "Primary IC50 A2"
+      problem: "The sheet says replicate fits are on the run sheet, but only one IC50 and slope per compound is present. It also claims out-of-window slopes were rescued by fixing the top without identifying affected compounds or a predefined fit rule."
+      suggested_change: "Supply a traceable replicate/curve record reference and the prespecified fitting rule and affected compounds, or remove these unsupported processing claims."
+- file_id: A-012
+  verdict: minor
+  issues:
+    - severity: minor
+      area: realism
+      where: "Delivery lots; Route scout step 3"
+      problem: "The final delivery workbook has no delivery-lot identifiers, its header comment says lot numbers remain to be added, and the accepted regioisomer assignment is only called 'A' without a compound-card or spectrum reference."
+      suggested_change: "Cross-reference the signed delivery note and compound cards, including the accepted ring-position assignment and HMBC/NOESY record, so the delivered material can be traced without inventing results."
+- file_id: G-010
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Summary text and comment B7; Micronucleus A2 and table"
+      problem: "The narrative claims repeated mammalian genotoxicity across reactive analogues, but micronucleus values remain around vehicle levels, the rendered endpoint says 'Outcome: negative', and the table has no analogue identifiers. HepG2 viability loss is not evidence of genotoxicity."
+      suggested_change: "State that the displayed Ames and micronucleus results are negative. Retain Valquessia's branch-drop decision as a world fact, but explicitly say its genotoxicity rationale is not supported by these displayed tables and needs an identified source record; do not relabel cytotoxicity as genotoxicity."
+    - severity: fix
+      area: science
+      where: "Ames A1 and Fold vs vehicle column"
+      problem: "The stated fold calculation against the same-strain vehicle is inconsistent with the table: vehicle rows themselves are not 1.00 (for example TA98 -S9 is 1.02 and +S9 is 0.92)."
+      suggested_change: "Confirm and label the actual denominator for the supplied fold values, or correct the authoritative table to use the concurrent strain/activation-matched vehicle; do not silently change the interpretation."
+    - severity: minor
+      area: voice
+      where: "Summary sheet"
+      problem: "The consolidated in vitro package does not state whether it is exploratory or GLP, despite the firm's required distinction."
+      suggested_change: "Add the documented compliance status and identify which conclusions, if any, belong to a GLP investigation."
+- file_id: F-011
+  verdict: fix
+  issues:
+    - severity: fix
+      area: consistency
+      where: "Notes rows 3-4; Compatibility matrix row 6"
+      problem: "On the same review date the alternative filler is both already in the stress set and awaiting preparation when storage slots are confirmed. Blend 4 has a T0 observation but its actual stress-start status is unclear."
+      suggested_change: "Record status per blend: identify which samples were prepared and placed on stress, and which still await slots. Make both notes and the matrix agree with those statuses."
+    - severity: minor
+      area: science
+      where: "Compatibility matrix; Stress log"
+      problem: "Appearance results cannot be reproduced from the blend names alone: drug loading, excipient proportions and blend-specific stress-start dates are missing, so the '2 weeks' heading is not traceable."
+      suggested_change: "Reference recipe cards with drug/excipient weight proportions and add stress-start dates or elapsed time for each reported observation."
+- file_id: C-021
+  verdict: fix
+  issues:
+    - severity: fix
+      area: science
+      where: "Dosing record; Matrix acceptance"
+      problem: "The final assay worksheet lists animals and times but no administered doses or vehicle, and 'Met' acceptance has no analytical range, LLOQ, matrix definition or criteria reference. It cannot substantiate the exposure bridge or establish the assay's limits."
+      suggested_change: "Identify the dosing-plan and assay-method records containing doses, vehicles, rat matrix, calibration range/LLOQ and run acceptance criteria. Since the pack supplies no result tables, use explicit source references and retain the known qualitative bridge outcome without fabricating exposure numbers."
+- file_id: D-009
+  verdict: fix
+  issues:
+    - severity: fix
+      area: realism
+      where: "Contrasts sheet; Pathway ranking sheet"
+      problem: "Columns labelled log2 fold change and adjusted probability contain prose rather than results. Generic 'Receptor pathway' and 'Other pathways' labels plus 'Reported in readout v3' provide no identifiable target ranking or numerical evidence, despite the workbook claiming to contain those contrasts."
+      suggested_change: "Describe this as a qualitative design/decision summary unless authoritative results are available. Give exact source-table or analysis-output references and pathway identifiers for the contrasts and ranking; do not invent fold changes or probabilities absent from the pack."
+    - severity: fix
+      area: science
+      where: "Design rows 4-6"
+      problem: "Donor is specified as a random term, but the fitting method, condition coefficient, normalization method and multiple-testing correction are unspecified. 'Adjusted probability threshold 0.05 across all contrasts' does not define the tested family or reproduce the analysis."
+      suggested_change: "Reference the actual analysis specification and state its model formula with condition, mixed-model fitting method, normalization and correction method/test family. Keep donor-balance assumptions explicit."
+- file_id: HO-013
+  verdict: minor
+  issues:
+    - severity: minor
+      area: realism
+      where: "Section 2, paragraph after Table 1; tracked deletion"
+      problem: "Deleting 'Nothing in this draft assumes G's accession scheme' leaves a sentence beginning ', and the row above stays [TBC]' in the revised reading."
+      suggested_change: "Extend the tracked deletion through the following comma and conjunction, and start the remaining sentence 'The row above stays [TBC] until its LIMS owner has been named.'"
+    - severity: minor
+      area: consistency
+      where: "Section 3, dictionary list"
+      problem: "'Dosing route and date fields: ISO 8601' implies that dosing routes use a date/time standard."
+      suggested_change: "Replace with: 'Dosing route: agreed controlled vocabulary. Date fields: ISO 8601 in the export, with local display formats unchanged in the source.'"
