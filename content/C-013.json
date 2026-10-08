@@ -1,0 +1,162 @@
+{
+ "family": "deck",
+ "summary": "Copy of the Madison DMPK capability deck as at August 2017, listing the assay menu, the 2017 list prices and how matrix acceptance is applied. Carries reviewer comments asking for updated matrix acceptance footnotes before it goes to business development.",
+ "properties": {
+  "title": "DMPK capabilities 2017",
+  "subject": "Capability deck",
+  "keywords": "DMPK; capabilities; list price; fu,p; Oral/IV PK"
+ },
+ "slides": [
+  {
+   "layout": "title",
+   "title": "DMPK and bioanalysis capabilities",
+   "subtitle": "Merrivoss Bioanalysis Inc, Madison | August 2017",
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "Copy of DMPK_Capabilities_081417. Changed the cover date only. Please don't send this one out until the matrix acceptance footnotes are updated (Helen)."
+  },
+  {
+   "layout": "title_content",
+   "title": "Who we are",
+   "bullets": [
+    "Independent DMPK and bioanalysis group in Madison since 2003",
+    "Bioanalysis, in vitro ADME and early safety screening under one roof",
+    "Local scientific leadership retained since the 2008 acquisition",
+    "Studies run to a written protocol with matrix acceptance applied to every accession lot"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "table",
+   "title": "Assay menu and 2017 list prices",
+   "table": {
+    "columns": ["Service", "Unit", "List price (USD)", "Volume discount"],
+    "rows": [
+     ["IKr inhibition", "per compound", "230", "5% >30 cpds; 10% >80 cpds"],
+     ["Five-isoform DDI screen", "per compound", "130", "5% >30 cpds; 10% >80 cpds"],
+     ["CYP3A4 inhibition curves", "per compound", "290", "5% >30 cpds; 10% >80 cpds"],
+     ["Microsomal CLint", "per compound (2 species)", "260", "5% >30 cpds; 10% >80 cpds"],
+     ["Hepatocyte depletion CLint", "per compound", "270", "5% >30 cpds; 10% >80 cpds"],
+     ["fu,p by equilibrium dialysis", "per compound", "205", "5% >30 cpds; 10% >80 cpds"],
+     ["Caco-2 flux and efflux ratio", "per compound", "315", "5% >30 cpds; 10% >80 cpds"],
+     ["DMSO-dilution solubility", "per compound", "75", "5% >30 cpds; 10% >80 cpds"],
+     ["Rat exposure with tandem-MS bioanalysis", "per compound (single route, 3 animals)", "4650", "5% >30 cpds; 10% >80 cpds"]
+    ],
+    "caption": "Table 1 Standard list prices, 2017"
+   },
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "Prices as on the 2017 list. Quotes for multi-route PK are priced separately."
+  },
+  {
+   "layout": "section",
+   "title": "In vitro ADME",
+   "subtitle": "Permeability, binding, metabolism and solubility",
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Microsomal and hepatocyte CLint",
+   "bullets": [
+    "Microsomal CLint run on two species per compound as standard",
+    "Hepatocyte depletion CLint for compounds where phase II or uptake is a concern",
+    "Clearance reported with units stated in the table header",
+    {"text": "µL/min/mg for microsomes, µL/min/10^6 cells for hepatocytes", "level": 1}
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "fu,p by equilibrium dialysis",
+   "bullets": [
+    "Plasma and buffer dialysis run in parallel with the same test article set",
+    "Unbound fraction reported for each species requested",
+    "Recovery checked against the matrix acceptance criteria before a result is accepted",
+    "Highly bound compounds flagged where the unbound fraction sits near the limit of the assay"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "Comment (Helen): the recovery wording needs the 2016 matrix acceptance limits, not the 2014 ones."
+  },
+  {
+   "layout": "title_content",
+   "title": "Caco-2 flux and efflux",
+   "bullets": [
+    "Bidirectional transport across monolayers, apical to basolateral and back",
+    "Monolayer integrity checked on each plate before compounds are added",
+    "Efflux ratio reported with the transport controls on the same worksheet"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "DMSO-dilution solubility",
+   "bullets": [
+    "Kinetic solubility from DMSO stock into aqueous buffer",
+    "Read by UV after filtration; LC-MS confirmation on request",
+    "Suitable for early triage of screening sets, not for formulation"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "section",
+   "title": "Safety pharmacology and DDI",
+   "subtitle": "Ion channel and CYP screening",
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "two_content",
+   "title": "IKr and CYP work",
+   "bullets": [
+    "IKr inhibition by whole-cell patch clamp on the standard cell line",
+    "Concentration response on each compound, reference compound on every run"
+   ],
+   "bullets_right": [
+    "Five-isoform DDI screen for first-pass CYP liability",
+    "CYP3A4 inhibition curves where the screen flags a concern"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Rat exposure and bioanalysis",
+   "bullets": [
+    "Oral and IV PK in rat, single route per compound, three animals per group",
+    "Tandem-MS bioanalysis with matrix matched calibration standards",
+    "Exposure reported in ng·h/mL with the matrix and species stated"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "Comment (Helen): 'matrix acceptance footnotes' still missing on this slide. Add the rat plasma lot wording."
+  },
+  {
+   "layout": "title_content",
+   "title": "Quality",
+   "bullets": [
+    "Work done to the bioanalytical SOPs, reviewed by the quality manager",
+    "Every accession lot carries its own matrix acceptance record",
+    "Analyst and study director sign-off recorded on the assay worksheet"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential"
+  },
+  {
+   "layout": "title_content",
+   "title": "Contacts",
+   "bullets": [
+    "Business development: Adeel Farooqi, Head of BD North America",
+    "DMPK studies: Megan Larkin, DMPK Study Director",
+    "Bioanalysis: Javier Quintana, Mass-Spectrometry Manager",
+    "Quality: Helen Marchwood, Bioanalytical Quality Manager"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "Check these are still right before anything goes out. Kalpit may want to replace Helen's line."
+  },
+  {
+   "layout": "title_content",
+   "title": "Next steps",
+   "bullets": [
+    "Update matrix acceptance footnotes across slides 8 to 11",
+    "Refresh the price table once the autumn list is signed off",
+    "Share the updated deck with business development"
+   ],
+   "footer": "Merrivoss Bioanalysis Inc | Confidential",
+   "notes": "Comment (Carole): the 2017 prices are the ones in the price list file, not the ones in my draft. Double-check."
+  }
+ ]
+}
