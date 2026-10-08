@@ -1,0 +1,43 @@
+{"family": "workbook",
+ "summary": "QV.25.086 analysis notebook for Drelvessa Therapeutics SAS. It records the docking set-up against the client's crystal-derived receptor models, the rule used to keep or drop conserved pocket waters, and the ranked solvent-facing substitution designs. The solvent-facing vector is the one Drelvessa took into its next chemistry cycle, as set out in the client report (P42).",
+ "properties": {"title": "DT-8 pocket-water hit ranks", "subject": "Docking and pocket-water assessment, QV.25.086", "keywords": "docking; pocket waters; substitution; Drelvessa"},
+ "sheets": [
+  {"name": "Cover",
+   "rows": [
+    [{"v": "Quenverell Computational Ltd, a Tarnovell company", "bold": true}],
+    [{"v": "Drelvessa stress-kinase co-crystal docking and pocket-water assessment (analysis notebook)", "bold": true}],
+    [],
+    ["Project", "{{PRJ0014:project_id}}"],
+    ["LIMS", "{{PRJ0014:lims_id}}"],
+    ["Client", "{{PRJ0014:client_variant}}"],
+    ["Price", "{{PRJ0014:price}}"],
+    ["Turnaround (days)", {"ref": "PRJ0014:turnaround_days"}],
+    [],
+    ["Author", "Nadia Rahmani"],
+    ["Checked by", "Dr E. Ostlund"],
+    ["Data acceptance", "Accepted 13/11/2025"],
+    [],
+    ["Notebook status", "Final. Read with the client report (P42)."]
+   ],
+   "col_widths": {"A": 24, "B": 70}, "merged": ["A1:B1", "A2:B2"]},
+  {"name": "Pocket waters",
+   "rows": [
+    ["Item", "Rule applied", "Note"],
+    ["Input structures", "Client-supplied structures of the stress kinase, one per ligand series", "Structures used as supplied; no re-refinement by Quenverell"],
+    ["Water retention", "Water kept if it is conserved across the supplied structures and within the binding site", "Waters seen in one structure only were treated as uncertain"],
+    ["Displaceable waters", "Waters near the solvent-facing edge scored as displaceable", "Assumption set by the medicinal chemistry question"],
+    ["Docking", "Ligands docked with conserved waters present and, separately, with them removed", "Both runs kept so the water assumption can be checked"],
+    ["Interpretation", "Pose ranking is conditional on the water model", "Limits recorded in the report"]
+   ],
+   "col_widths": {"A": 22, "B": 62, "C": 52}, "merged": ["A1:C1"], "freeze": "A2",
+   "comments": [{"cell": "B3", "text": "Check the chain labels against the client's file list before the next series is added", "author": "Dr E. Ostlund"}]},
+  {"name": "Design ranking",
+   "rows": [
+    ["Rank order", "Substitution vector", "Basis", "Decision"],
+    ["First", "Solvent-facing vector", "Stable pose with conserved waters retained and removed", "Taken to the next chemistry cycle by Drelvessa"],
+    ["Second", "Vector toward the hinge-side pocket", "Pose depends on a single water", "Kept as back-up"],
+    ["Third", "Other vectors", "Clash or unstable pose in more than one structure", "Not progressed"]
+   ],
+   "col_widths": {"A": 14, "B": 34, "C": 54, "D": 40}, "freeze": "A2",
+   "comments": [{"cell": "A1", "text": "Ranking is the design order used in the report; the water-removed runs are in the pocket waters sheet", "author": "Nadia Rahmani"}]}
+ ]}
