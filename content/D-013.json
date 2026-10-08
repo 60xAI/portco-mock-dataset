@@ -1,0 +1,67 @@
+{
+ "family": "workbook",
+ "summary": "Superseded scope-rate workbook (May 2022) for the computational chemistry and bioinformatics services, with the two list rates in GBP, effort bands and reviewer comments on discount handling. Kept as a working copy before the rates were reissued.",
+ "properties": {
+  "title": "Computational scope rates 2022 (v3)"
+ },
+ "sheets": [
+  {
+   "name": "Summary",
+   "start": "A1",
+   "rows": [
+    [{"v": "Computational scope rates, 2022", "bold": true}],
+    ["Quenverell Computational Ltd, a Tarnovell company"],
+    [],
+    ["Purpose", "Working rates for scoping new engagements. Not for client issue until the rates are signed off."],
+    ["Prepared by", "Callum Strachan, Scientific Partnerships Manager"],
+    ["Date", "19/05/2022"],
+    ["Currency", "GBP, excluding VAT"],
+    [],
+    ["Sheet", "What it holds"],
+    ["Rates 2022", "List rates for the two priced services"],
+    ["Effort bands", "How a scope is sized before a rate is applied"]
+   ],
+   "col_widths": {"A": 22, "B": 60},
+   "merged": ["A1:B1"],
+   "comments": [
+    {"cell": "B4", "text": "Rates are list only. Negotiated discount is handled on the engagement sheet, not here.", "author": "Tina Powell"}
+   ],
+   "freeze": "A2",
+   "tab_color": "#1F4E79"
+  },
+  {
+   "name": "Rates 2022",
+   "start": "A1",
+   "rows": [
+    ["Service", "Unit", "List rate", "Currency", "Volume discount"],
+    ["Virtual library triage", "per target campaign", 8850, "GBP", "none"],
+    ["RNA-seq differential expression", "per dataset", 11650, "GBP", "none"],
+    [],
+    ["Note: docking and hit clustering are scoped as part of virtual library triage and not priced separately in this sheet."]
+   ],
+   "col_widths": {"A": 34, "B": 24, "C": 14, "D": 11, "E": 18},
+   "number_formats": {"C2:C3": "#,##0"},
+   "comments": [
+    {"cell": "E3", "text": "Callum: 'none' is what we have actually been applying, but the old note mentioned a volume discount. Needs checking with finance before the rates go out.", "author": "Julie Lindsey"},
+    {"cell": "C3", "text": "Dataset rate assumes the standard reanalysis pipeline. Custom pipelines are a new scope.", "author": "Gianna Aulenti"}
+   ],
+   "freeze": "A2",
+   "tab_color": "#1F4E79"
+  },
+  {
+   "name": "Effort bands",
+   "start": "A1",
+   "rows": [
+    ["Band", "Typical scope", "Applies to"],
+    ["Small", "Single library or a short list of targets, existing data reused", "Virtual library triage"],
+    ["Standard", "Full library screen with docking and clustering", "Virtual library triage"],
+    ["Large", "Several libraries or a new receptor model build", "Virtual library triage"],
+    ["Standard", "One dataset with the standard reanalysis pipeline", "RNA-seq differential expression"],
+    ["Large", "Multi-dataset comparison or custom pipeline", "RNA-seq differential expression"]
+   ],
+   "col_widths": {"A": 14, "B": 62, "C": 34},
+   "freeze": "A2",
+   "tab_color": "#1F4E79"
+  }
+ ]
+}
