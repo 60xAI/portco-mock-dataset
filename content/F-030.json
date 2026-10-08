@@ -1,28 +1,160 @@
-{"family": "document",
- "summary": "Approved development note that sets the handoff fields a pilot lot must carry from development to the scale team. It covers recipe card identity, concentrations in mg/mL, loading in weight percent, dose and particle size assumptions in µm, and the manufacturability risks still open before the scale gate.",
- "properties": {"title": "Pilot lot handoff development note"},
- "header": "Durnesswick Laboratories Inc, a Tarnovell company",
- "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
- "watermark": null,
- "title_block": {"title": "Pilot Lot Handoff: Required Fields for Recipe Cards", "subtitle": "Development note, approved before the scale gate", "lines": ["Report no. F-R-2024-0094-A", "Date: 09/19/2024"]},
- "sections": [
-  {"heading": "1 Purpose and scope", "level": 1, "blocks": [
-   {"p": "This note defines the fields that must travel with a pilot lot from development to the scale team. The aim is that the scale gate review works from the same information the bench used, rather than from a verbal account of it."},
-   {"p": "The note applies to pilot lots made from a locked recipe card. Exploratory screens are not handed off this way. Their results stay on the bench sheets and are cited from there, so a screen is never mistaken for a locked process."}]},
-  {"heading": "2 Required handoff fields", "level": 1, "blocks": [
-   {"p": "Every field below is required. A handoff with a blank field is returned to the sender before the scale team opens the lot record."},
-   {"table": {"columns": ["Field", "What to record", "Owner"], "rows": [["Recipe card", "Card number, revision letter and issue date", "Formulation scientist"], ["Concentrations", "mg/mL for each stock and for the final formulation", "Formulation scientist"], ["Loading", "Weight percent for each component, with the basis stated", "Pre-formulation scientist"], ["Dose assumption", "Dose level, its basis per kg or per unit, and the source of the assumption", "Formulation development lead"], ["Particle size", "D50 and span in µm, the method and the date measured", "Pre-formulation scientist"], ["Retained material", "Storage location as recorded by Sample Management", "Sample management coordinator"], ["Open risks", "Each open manufacturability risk, its owner and the date it must close", "CMC lead"]], "caption": "Table 1 Handoff fields"}}]},
-  {"heading": "3 Dose and loading assumptions", "level": 1, "blocks": [
-   {"p": "Loading is always given in weight percent with the basis stated, for example weight of active per total weight of the final blend. Concentrations in mg/mL are given separately and are never used in place of a loading."},
-   {"p": "A dose assumption is a design basis, not a tested outcome. The handoff must say so. An assumption written as though it were a result will be returned, because the scale team will otherwise build the lot plan on it."},
-   {"p": "Higher loading improves the dose delivered per unit of blend but raises the viscosity risk at pilot scale. Where a lead formulation is selected on dose grounds, the trade-off against that risk is written into the handoff in one short paragraph, not left for the scale team to find.", "style": "note"}]},
-  {"heading": "4 Particle size", "level": 1, "blocks": [
-   {"p": "Particle sizes are given in µm. The handoff states the measurement method and whether the sample was wet or dry. Where the material is measured both before and after blending, both values are given, with the blend step named, so a change in size can be traced to the step that caused it."},
-   {"p": "Milling conditions are recorded on the recipe card and not repeated in the note. The note records only the outcome that the scale team needs to match."}]},
-  {"heading": "5 Manufacturability risks", "level": 1, "blocks": [
-   {"p": "The following risks were open when this note was approved. Each has a named owner and must be closed or accepted before the scale gate."},
-   {"list": ["Blend flow at the selected loading has not yet been checked on a pilot blender. This is to be done before the scale gate.", "One excipient is sensitive to moisture. The storage conditions for the lot are to be confirmed with Sample Management.", "Particle size drifts on milling between runs. Size is to be re-measured on each pilot lot and not carried forward from the last one.", "The dose assumption depends on a single literature basis that the group has not yet checked against its own bench data."], "ordered": false},
-   {"p": "Risks that are accepted rather than closed are signed off by the formulation development lead, with the reason written next to the risk."}]},
-  {"heading": "6 Status and use", "level": 1, "blocks": [
-   {"p": "This note is approved for use from the date of issue. It replaces the informal handoff email used for the previous pilot lots. The local master applies to this note during the transition period, and the recipe card and accession numbers quoted in it are the local ones."}]}],
- "signature_block": [{"name": "Lena Patel", "role": "CMC Technical Transfer Manager", "date": "2024-09-19", "signed": true}, {"name": "Julia Carver", "role": "Formulation Development Lead", "date": "2024-09-19", "signed": true}]}
+{
+  "family": "document",
+  "summary": "Approved development note defining information accompanying a pilot lot at handoff. It covers recipe-card identity, concentrations in mg/mL, loading in weight percent, dose assumptions, particle size in µm and unresolved manufacturability risks before the scale gate.",
+  "properties": {
+    "title": "Pilot lot handoff development note"
+  },
+  "header": "Durnesswick Laboratories Inc, a Tarnovell company",
+  "footer": "Durnesswick Laboratories Inc, a Tarnovell company | Confidential",
+  "watermark": null,
+  "title_block": {
+    "title": "Pilot Lot Handoff: Required Fields for Recipe Cards",
+    "subtitle": "Development note, approved before the scale gate",
+    "lines": [
+      "Revision A",
+      "Date: 09/19/2024"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1 Purpose and scope",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This note defines the fields that must travel with a pilot lot from development to the scale team. The aim is that the scale gate review works from the same information the bench used, rather than from a verbal account of it."
+        },
+        {
+          "p": "The note applies to pilot lots made from a locked recipe card. Exploratory screens are not handed off this way. Their results stay on the bench sheets and are cited from there, so a screen is never mistaken for a locked process."
+        }
+      ]
+    },
+    {
+      "heading": "2 Required handoff fields",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Each field must contain relevant information or a justified not-applicable entry. For example, a true solution has no dispersed-particle size to report. Unexplained blanks are returned before the scale team accepts the handoff."
+        },
+        {
+          "table": {
+            "columns": [
+              "Field",
+              "What to record",
+              "Owner"
+            ],
+            "rows": [
+              [
+                "Recipe card",
+                "Card number, revision letter and issue date",
+                "Formulation scientist"
+              ],
+              [
+                "Concentrations",
+                "mg/mL for each stock and for the final formulation",
+                "Formulation scientist"
+              ],
+              [
+                "Loading",
+                "Weight percent for each component, with the basis stated",
+                "Pre-formulation scientist"
+              ],
+              [
+                "Dose assumption",
+                "Dose level, its basis per kg or per unit, and the source of the assumption",
+                "Formulation development lead"
+              ],
+              [
+                "Particle size",
+                "Applicable size percentiles in µm; span is dimensionless. State distribution basis, method and date, or justify not applicable.",
+                "Pre-formulation scientist"
+              ],
+              [
+                "Retained material",
+                "Storage location as recorded by Sample Management",
+                "Sample management coordinator"
+              ],
+              [
+                "Open risks",
+                "Each open manufacturability risk, its owner and the date it must close",
+                "CMC lead"
+              ]
+            ],
+            "caption": "Table 1 Handoff fields"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "3 Dose and loading assumptions",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Loading is always given in weight percent with the basis stated, for example weight of active per total weight of the final blend. Concentrations in mg/mL are given separately and are never used in place of a loading."
+        },
+        {
+          "p": "A dose assumption is a design basis, not a tested outcome. The handoff must say so. An assumption written as though it were a result will be returned, because the scale team will otherwise build the lot plan on it."
+        },
+        {
+          "p": "Higher active loading increases active content per unit mass of blend. Effects on viscosity, flow, mixing and dose uniformity depend on formulation and process. The handoff states observed trade-offs and unresolved scale risks rather than assuming the same effect for every formulation.",
+          "style": "note"
+        }
+      ]
+    },
+    {
+      "heading": "4 Particle size",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "Particle-size percentiles are given in µm; distribution span is dimensionless. State method, distribution basis and wet or dry preparation. If measurements exist before and after blending, cite both source records. A difference alone does not establish which step caused it."
+        },
+        {
+          "p": "Milling conditions are recorded on the recipe card and not repeated in the note. The note records only the outcome that the scale team needs to match."
+        }
+      ]
+    },
+    {
+      "heading": "5 Manufacturability risks",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "The handoff identifies actual open risks for the pilot lot, with an owner and disposition before the scale gate. The following are prompts for review, not findings for a particular lot."
+        },
+        {
+          "list": [
+            "Has blend flow been assessed under intended pilot-scale conditions?",
+            "Do excipient moisture sensitivity and storage requirements need further control?",
+            "Are milling and particle-size results reproducible under the intended process?",
+            "Is the dose assumption supported by an identified source, and what remains unverified?"
+          ],
+          "ordered": false
+        },
+        {
+          "p": "Risks that are accepted rather than closed are signed off by the formulation development lead, with the reason written next to the risk."
+        }
+      ]
+    },
+    {
+      "heading": "6 Status and use",
+      "level": 1,
+      "blocks": [
+        {
+          "p": "This note is approved for use from the date of issue. The local master applies during the transition period; recipe-card and accession references retain their local identities."
+        }
+      ]
+    }
+  ],
+  "signature_block": [
+    {
+      "name": "Lena Patel",
+      "role": "CMC Technical Transfer Manager",
+      "date": "2024-09-19",
+      "signed": true
+    },
+    {
+      "name": "Julia Carver",
+      "role": "Formulation Development Lead",
+      "date": "2024-09-19",
+      "signed": true
+    }
+  ]
+}
