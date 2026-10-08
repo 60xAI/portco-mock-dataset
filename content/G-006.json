@@ -1,13 +1,124 @@
-{"family": "deck",
- "summary": "Internal working copy of an assay-control training deck on plate acceptance, with the legacy Osterquill cover. The body explains how control validity is judged for in vitro plates and how a failed plate is handled. It is not a client deliverable and it is superseded by the approved training version.",
- "properties": {"title": "Plate acceptance and control validity (working copy)", "subject": "Assay-control training", "keywords": "control validity; plate acceptance; in vitro; training"},
- "slides": [
-  {"layout": "title", "title": "Plate acceptance and control validity", "subtitle": "In vitro assay-control training | Working copy 09/24/2024", "footer": "Osterquill Toxicology Inc | Confidential"},
-  {"layout": "title_content", "title": "Purpose of this session", "bullets": ["Who signs off a plate before its data are used", "What makes a control valid for each in vitro package", "What to do when a plate fails, and who has to be told"], "footer": "Osterquill Toxicology Inc | Confidential", "notes": "NK: Lucia asked for the failed-plate route to be first, not last. Move it before the walk-through if there is time."},
-  {"layout": "title_content", "title": "Control validity: the basics", "bullets": ["Every plate carries its own positive and negative controls", "Control validity is judged against the criteria in the study plan, not on the day", {"text": "Criteria are fixed before the first plate is read", "level": 1}, "A plate with an invalid control is not used for a potency or safety call"], "footer": "Osterquill Toxicology Inc | Confidential"},
-  {"layout": "two_content", "title": "Packages and their controls", "bullets": ["Cytotoxicity screen", {"text": "Vehicle and cell-free wells on every plate", "level": 1}, {"text": "Reference cytotoxic agent per run", "level": 1}, "Mutation assay", {"text": "Strain-specific positive controls with and without S9", "level": 1}], "bullets_right": ["Micronucleus assessment", {"text": "Vehicle and reference clastogen per culture", "level": 1}, {"text": "Scoring only on valid cultures", "level": 1}, "hERG and CYP panels", {"text": "Reference inhibitor on every run", "level": 1}], "footer": "Osterquill Toxicology Inc | Confidential"},
-  {"layout": "title_content", "title": "Plate acceptance on the day", "bullets": ["Check the vehicle wells against the range in the study plan before reading the test wells", "Check the reference compound response against its own range", "Record the plate ID and the reader settings on the observation sheet", {"text": "Initials and date on every printed plate map", "level": 1}], "footer": "Osterquill Toxicology Inc | Confidential", "notes": "KM: The vehicle range wording is from the old SOP. Confirm with Lucia before this version is reused."},
-  {"layout": "image", "title": "Failed plate route", "image": {"kind": "timeline", "boxes": ["Control outside range > Stop the read", "Study director told > Decision recorded", "Repeat plate or exclude > Amendment if needed"]}, "footer": "Osterquill Toxicology Inc | Confidential"},
-  {"layout": "title_content", "title": "What goes in the study record", "bullets": ["Plate acceptance decision and who made it", "Any repeat plate, with the reason", "Study amendment reference if the criteria changed during the work"], "footer": "Osterquill Toxicology Inc | Confidential"},
-  {"layout": "title_content", "title": "Contacts", "bullets": ["Kenji Morita, Scientist (mutagenicity)", "Rachel Okafor, Toxicology Study Director", "Lucia Moretti, GLP Quality Assurance and Archive Lead"], "footer": "Osterquill Toxicology Inc | Confidential"}
- ]}
+{
+  "family": "deck",
+  "summary": "Superseded internal working copy of Brindlewythe assay-control training, with an Osterquill legacy cover. The body retains plate acceptance wording; local notes map it to control validity and distinguish plate assays from culture and electrophysiology records. Not a client deliverable.",
+  "properties": {
+    "title": "Plate acceptance and control validity (working copy)",
+    "subject": "Assay-control training",
+    "keywords": "control validity; plate acceptance; in vitro; training"
+  },
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Plate acceptance and control validity",
+      "subtitle": "Copy of Brindlewythe assay-control training | Working copy 09/24/2024",
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Purpose of this session",
+      "bullets": [
+        "Who signs off a plate before its data are used",
+        "What makes a control valid for each in vitro package",
+        "What to do when a plate fails, and who has to be told"
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential",
+      "notes": "KM: Brindlewythe plate acceptance wording retained for discussion. Lucia: map acceptance decisions to Osterquill control validity and the investigation plan before local use."
+    },
+    {
+      "layout": "title_content",
+      "title": "Control validity: the basics",
+      "bullets": [
+        "Each assay run includes the controls required by its approved investigation plan or SOP",
+        "Control validity is judged against criteria fixed before results are reviewed",
+        {
+          "text": "Plate acceptance applies to plate assays; culture and electrophysiology records have their own acceptance checks",
+          "level": 1
+        },
+        "Data from a run with invalid controls are not used for a safety conclusion"
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "two_content",
+      "title": "Packages and their controls",
+      "bullets": [
+        "Cytotoxicity screen",
+        {
+          "text": "Vehicle and cell-free wells on every plate",
+          "level": 1
+        },
+        {
+          "text": "Reference cytotoxic agent per run",
+          "level": 1
+        },
+        "Mutation assay",
+        {
+          "text": "Strain-specific positive controls with and without S9",
+          "level": 1
+        }
+      ],
+      "bullets_right": [
+        "Micronucleus assessment",
+        {
+          "text": "Concurrent vehicle and appropriate positive controls; assess cytotoxicity and scoring eligibility",
+          "level": 1
+        },
+        "hERG and CYP panels",
+        {
+          "text": "Reference response and assay-specific suitability checks; hERG patch-clamp records are not plate-reader maps",
+          "level": 1
+        }
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Plate acceptance on the day",
+      "bullets": [
+        "Check the vehicle wells against the range in the study plan before reading the test wells",
+        "Check the reference compound response against its own range",
+        "Record the plate ID and the reader settings on the observation sheet",
+        {
+          "text": "Initials and date on every printed plate map",
+          "level": 1
+        }
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential",
+      "notes": "KM: The vehicle range wording is from the old SOP. Confirm with Lucia before this version is reused."
+    },
+    {
+      "layout": "image",
+      "title": "Failed plate route",
+      "image": {
+        "kind": "timeline",
+        "boxes": [
+          "Control outside range > Flag run; retain raw data",
+          "Study director told > Deviation and impact recorded",
+          "Repeat or exclude under approved criteria > Document decision"
+        ]
+      },
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "What goes in the study record",
+      "bullets": [
+        "Plate acceptance / control-validity decision and responsible scientist",
+        "Failed run and any repeat, with the reason; retain all original observations",
+        "Record departures as deviations; prospective plan changes require an authorised amendment, never retrospective relaxation of acceptance criteria",
+        "Exploratory in vitro results carry their actual quality status; GLP conclusions require the applicable approved plan and QA review"
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    },
+    {
+      "layout": "title_content",
+      "title": "Contacts",
+      "bullets": [
+        "Kenji Morita, genetic toxicology scientist",
+        "Rachel Okafor, Toxicology Study Director",
+        "Lucia Moretti, GLP Quality Assurance and Archive Lead"
+      ],
+      "footer": "Osterquill Toxicology Inc | Confidential"
+    }
+  ]
+}
