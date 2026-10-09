@@ -106,7 +106,7 @@ A list, one entry per screened name (kept and rejected):
 
 - Use web search. Do it in parallel where you can.
 - Write the two YAML files. Check they parse: `cd /Users/kertlaansalu/projects/portco-mock-dataset && uv run python -c "import yaml; yaml.safe_load(open('names/names.yaml')); yaml.safe_load(open('names/screening.yaml')); print('ok')"`.
-- Then commit and push: `git add names/ && git commit -m "Stage 2: names and screening" && git push` (if the push is rejected, `git pull --rebase` and push again).
+- Then commit and push: `uv run mockgen commit --path names/names.yaml --path names/screening.yaml -m "Stage 2: names and screening"`. On push failure, follow the drain-and-sync procedure in `briefs/orchestration.md`.
 - Generate and screen; don't test, review or verify beyond the YAML parsing. Don't invoke any skills. Don't edit files outside `names/`.
 
 ## Final reply

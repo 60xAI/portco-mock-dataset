@@ -22,11 +22,11 @@ routing:
   world_core: sol
   manifest_firm: sol
   science_content: sol        # reports, readouts, proposals with prices, SOPs, capability decks
-  admin_content: haiku_medium # admin/HR/finance docs, tracker notes, older copies of Sol-written files
+  admin_content: haiku_medium # bounded administrative content without project/result interpretation
   junk_content: haiku_low     # junk files, filenames, document properties
   planted_content: orchestrator
-  pilot_content: orchestrator
-  critique: sol               # all planted-answer files + 1 in 5 Haiku files; content only
+  # Pilots use each writer tier's own target below; the parent format pilot does not qualify.
+  critique: sol               # every pilot, planted answer and cheap-tier file; content only
 
 # manifest writer_tier -> target used by `mockgen next --tier`
 tiers:
@@ -35,9 +35,28 @@ tiers:
   haiku_low: haiku_low
   orchestrator: orchestrator
 
+writer_policy:
+  stronger_tier: sol
+  promoted_tiers: [] # add a failed writer tier here before dispatching its remaining files
+  bounded_admin_types: [word_memo, wb_tracker, wb_other, deck_internal]
+  interpretation_types: [wb_results, wb_pricelist, report_study, report_client, deck_readout,
+                         deck_capability, deck_pitch, deck_training, word_proposal, word_sow,
+                         word_sop, service_catalogue, board_pack, integration_doc]
+  pilot:
+    required_per_tier: 10
+    tiers: [sol, haiku, haiku_low]
+    minimum_ok_or_minor: 9
+    maximum_fix: 1
+    maximum_source_contradictions: 0
+    require_all_fixes_accepted: true
+    on_failure: stop_tier_and_promote_remaining
+    evidence_path: critique/pilot-<tier>.yaml
+  cheap_tier_review_fraction: 1.0
+
 delegation_rules:
   runtimeMode: full-access
   mode: async
   max_concurrent: 20
   batch_size: [5, 8]
+  tail_pool_max: 48
   client_request_id_pattern: "dev1369-content-{firm}-{nn}"

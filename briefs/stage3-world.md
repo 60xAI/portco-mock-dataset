@@ -72,5 +72,5 @@ Top-level key `series:`, one `Series` per chemical series used by projects (≈1
 ## Finish
 
 1. `uv run mockgen world validate` passes with 0 errors.
-2. Commit and push: `git add world/ && git commit -m "Stage 3: world core" && git push` (if rejected: `git pull --rebase`, then push).
+2. Commit and push: `uv run mockgen commit --path world/<changed-file>.yaml -m "Stage 3: world core"`, repeating `--path` for each changed file. On push failure, follow `briefs/orchestration.md`.
 3. Reply briefly: the firm timeline (letter, name, founded, joined_group, location), counts (people, clients, projects by firm and status, series), the planted projects (tag → project id, firm, client variant, year, lead), and any validator issues you worked around.
