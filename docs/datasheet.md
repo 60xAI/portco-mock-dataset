@@ -58,7 +58,11 @@ uv run mockgen golden
 uv run mockgen export
 ```
 
-Re-rendering from the committed `content/` reproduces the archive without any model calls. Git does not keep file modification times, so run `uv run mockgen export` after cloning to restore each file's archive date (it also rewrites `output/MANIFEST.tsv`). Writing new content uses `mockgen next` (which prints the model target for each batch), `mockgen pack <id>`, `mockgen submit <id> <json>` and `mockgen commit <id>`; the writer briefs are in `briefs/`.
+Re-rendering from the committed `content/` reproduces the archive without any model calls. Git does not keep file modification times, so run `uv run mockgen export` after cloning to restore each file's archive date (it also rewrites `output/MANIFEST.tsv`).
+
+For new generation, follow [`briefs/orchestration.md`](../briefs/orchestration.md). Run `uv run mockgen preflight`, pilot every writer tier, then claim with `mockgen next` and read `mockgen pack <id>`. Submit with `mockgen submit <id> <json> --source <pack-fingerprint>`. Accepted source records live in `content/<id>.source.json` and are committed with the content. `mockgen sources changed` exits 1 and lists documents needing content re-review when their source fingerprint changes or is missing; render-only passes never update it. The original archive predates these receipts and is reported as untracked until reviewed, not automatically migrated.
+
+Use `mockgen commit <id>` for content, `mockgen commit --path <exact-file> -m "<message>"` for critique/config/brief artifacts, and `mockgen sync` for a clean-tree fast-forward. A rejected push requires stopping writers and resolving claims before `mockgen sync --rebase`. These commands share the Git lock and never autostash active drafts.
 
 ## Known limitations
 

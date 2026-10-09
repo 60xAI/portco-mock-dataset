@@ -6,9 +6,9 @@ Repo: `/Users/kertlaansalu/projects/portco-mock-dataset`. Run every command from
 
 ## For each file id
 
-1. `uv run mockgen pack <file-id>`. This prints everything you need: the file's manifest entry, the firm's style and era, the people and their roles at the time, the project record, the numbers you may use (as `{{PRJnnnn:key}}` placeholders and `table_ref` tables), the client name to use, related files, the content schema, an exemplar path and the prohibitions. Read it in full.
+1. `uv run mockgen pack <file-id>`. This runs source preflight and prints the source fingerprint plus the file's entry, style, era, people, project, numbers, client, related files, schema, exemplar and prohibitions. Read it in full. Mixed-firm tail batches need a separate pack and voice for every file. On a preflight failure, stop that file and report the source gap; never improvise prices or study results.
 2. Write the content JSON to `content/<file-id>.json`, matching the schema for the file's family (deck, workbook, document or scan). Look at the exemplar named in the pack (`exemplars/<family>.json`) for shape. Accepted files such as `content/P12.json`, `content/P14.json` and `content/B-008.json` show the expected quality.
-3. `uv run mockgen submit <file-id> content/<file-id>.json`. It validates, renders and reopens the file. If it is REJECTED, fix every numbered reason and resubmit. If a file still fails after 3 attempts, run `uv run mockgen release <file-id>` and report why in your reply.
+3. Run the exact submit command printed by the pack, including `--source <fingerprint>`. It validates, renders and reopens the file. If the source changed, get a new pack and re-review all content, including trends and conclusions, before resubmitting with its fingerprint. Fix every numbered rejection. After 3 failed attempts, release the file and report why.
 4. When a file is ACCEPTED, commit it: `uv run mockgen commit <file-id>`. This commits and pushes your content JSON and rendered file safely, even with other agents working in the same checkout. Never use `git add -A`, `git stash`, `git reset` or `git checkout`: other agents' work is in this tree.
 
 ## Writing rules
