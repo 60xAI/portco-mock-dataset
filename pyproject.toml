@@ -16,6 +16,9 @@ golden = ["unstructured[pdf,pptx,docx,xlsx]"]
 [project.scripts]
 mockgen = "mockgen.cli:main"
 
+[dependency-groups]
+dev = ["pytest>=8"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"

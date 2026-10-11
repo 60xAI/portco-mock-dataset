@@ -8,5 +8,6 @@ data/public/
 data/models/
 /scratch/
 state/git.lock
+state/packs/
 .serena/
 .~lock.*

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
 
 
@@ -66,13 +67,29 @@ def cmd_pack(a):
     from .pack import build_pack
     from .state import touch
     touch(a.file_id)
-    print(build_pack(a.file_id))
+    try:
+        print(build_pack(a.file_id))
+    except ValueError as exc:
+        print(exc)
+        return 1
     return 0
+
+
+def cmd_preflight(a):
+    from .pack import preflight
+    return _print_result(preflight(a.file), [], "generation preflight")
+
+
+def cmd_sources(a):
+    from .pack import changed_sources
+    changed = changed_sources()
+    print("\n".join(changed) if changed else "no source changes")
+    return 1 if changed else 0
 
 
 def cmd_submit(a):
     from .submit import submit
-    ok, msg = submit(a.file_id, a.content, force=a.force)
+    ok, msg = submit(a.file_id, a.content, force=a.force, source_fingerprint=a.source)
     print(msg)
     return 0 if ok else 1
 
@@ -107,37 +124,85 @@ def cmd_golden(a):
     return 0
 
 
-def cmd_commit(a):
-    """Commit (and push) accepted files for the given ids under a repo-wide lock; safe with parallel agents."""
-    import subprocess
+def git_lock():
     from filelock import FileLock
+    from .paths import STATE
+    STATE.mkdir(parents=True, exist_ok=True)
+    return FileLock(str(STATE / "git.lock"), timeout=60)
+
+
+def git_run(*args, check=True):
+    from .paths import ROOT
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, check=check)
+
+
+def cmd_sync(a):
+    import time
+    from . import state
+    with git_lock():
+        if git_run("status", "--porcelain", "--untracked-files=all").stdout.strip():
+            print("sync refused: dirty tree; stop writers and commit their named files first")
+            return 1
+        if state.DB.exists():
+            with state.db() as con:
+                active = con.execute("select count(*) from files where state='claimed' and claimed_at>=?", (time.time() - state.CLAIM_TTL,)).fetchone()[0]
+            if active:
+                print("sync refused: active writer claims; stop writers and finish or release their claims first")
+                return 1
+        git_run("pull", "--rebase" if a.rebase else "--ff-only")
+        print("synced")
+    return 0
+
+
+def cmd_commit(a):
+    """Commit only named files under the same lock used by sync."""
+    from pathlib import Path
     from . import manifest as Mf
-    from .paths import ROOT, STATE, CONTENT
+    from .paths import ROOT, CONTENT
     from .render import out_path
-    es = Mf.entries_by_id()
-    paths = []
-    for i in a.file_ids:
-        e = es.get(i)
-        if not e:
-            print(f"unknown id {i}"); continue
-        for p in (CONTENT / f"{i}.json", out_path(e)):
-            if p.exists():
-                paths.append(str(p.relative_to(ROOT)))
-        for x in es.values():
-            if x.pdf_kind == "export" and any(r.id == i for r in x.related) and out_path(x).exists():
-                paths.append(str(out_path(x).relative_to(ROOT)))
-    if not paths:
-        print("nothing to commit"); return 1
-    with FileLock(str(STATE / "git.lock"), timeout=600):
-        subprocess.run(["git", "add", "-f", "--"] + paths, cwd=ROOT, check=True)
-        r = subprocess.run(["git", "commit", "-m", a.message or f"Content: {' '.join(a.file_ids)}", "--"] + paths, cwd=ROOT, capture_output=True, text=True)
-        print(r.stdout.strip().splitlines()[0] if r.stdout.strip() else r.stderr.strip()[:300])
+    if bool(a.file_ids) == bool(a.path):
+        print("provide file ids or exact --path files")
+        return 1
+    with git_lock():
+        paths = []
+        if a.path:
+            for name in a.path:
+                path = (ROOT / name).resolve()
+                if (Path(name).is_absolute() or not path.is_relative_to(ROOT.resolve())
+                        or ".git" in path.relative_to(ROOT.resolve()).parts or not path.is_file()):
+                    print(f"not a repository file: {name}")
+                    return 1
+                paths.append(str(path.relative_to(ROOT.resolve())))
+        else:
+            es = {e.id: e for e in Mf.load_entries([])}
+            for i in a.file_ids:
+                e = es.get(i)
+                if not e:
+                    print(f"unknown id {i}")
+                    return 1
+                files = [CONTENT / f"{i}.json", CONTENT / f"{i}.source.json", out_path(e)]
+                for x in es.values():
+                    if x.pdf_kind == "export" and any(r.id == i for r in x.related):
+                        files += [out_path(x), CONTENT / f"{x.id}.source.json"]
+                paths += [str(p.relative_to(ROOT)) for p in files if p.exists()]
+        if not paths:
+            print("nothing to commit")
+            return 1
+        paths = sorted(set(paths))
+        git_run("add", "-f", "--", *paths)
+        changed = git_run("diff", "--cached", "--quiet", "--", *paths, check=False)
+        if changed.returncode:
+            message = a.message or f"Content: {' '.join(a.file_ids)}"
+            git_run("commit", "-m", message, "--only", "--", *paths)
+            print("committed named files")
+        else:
+            print("named files unchanged")
         if not a.no_push:
-            r = subprocess.run(["git", "push", "-q"], cwd=ROOT, capture_output=True, text=True)
-            if r.returncode:
-                subprocess.run(["git", "pull", "--rebase", "--autostash", "-q"], cwd=ROOT)
-                r = subprocess.run(["git", "push", "-q"], cwd=ROOT, capture_output=True, text=True)
-            print("pushed" if r.returncode == 0 else f"push failed: {r.stderr.strip()[:200]}")
+            pushed = git_run("push", "-q", check=False)
+            if pushed.returncode:
+                print("push failed; stop writers, commit their files, run mockgen sync --rebase, then retry")
+                return 1
+            print("pushed")
     return 0
 
 
@@ -177,7 +242,10 @@ def main(argv=None):
     s.set_defaults(fn=cmd_next)
 
     s = sub.add_parser("pack"); s.add_argument("file_id"); s.set_defaults(fn=cmd_pack)
+    s = sub.add_parser("preflight"); s.add_argument("--file"); s.set_defaults(fn=cmd_preflight)
+    s = sub.add_parser("sources"); s.add_argument("action", choices=["changed"]); s.set_defaults(fn=cmd_sources)
     s = sub.add_parser("submit"); s.add_argument("file_id"); s.add_argument("content")
+    s.add_argument("--source", help="fingerprint of the pack used to write/re-review this content")
     s.add_argument("--force", action="store_true", help="accept even if not claimed")
     s.set_defaults(fn=cmd_submit)
     s = sub.add_parser("release"); s.add_argument("file_id"); s.set_defaults(fn=cmd_release)
@@ -188,8 +256,16 @@ def main(argv=None):
     s = sub.add_parser("golden"); s.set_defaults(fn=cmd_golden)
     s = sub.add_parser("export"); s.set_defaults(fn=cmd_export)
     s = sub.add_parser("zips"); s.set_defaults(fn=cmd_zips)
-    s = sub.add_parser("commit"); s.add_argument("file_ids", nargs="+"); s.add_argument("-m", "--message"); s.add_argument("--no-push", action="store_true")
+    s = sub.add_parser("commit"); s.add_argument("file_ids", nargs="*"); s.add_argument("--path", action="append")
+    s.add_argument("-m", "--message"); s.add_argument("--no-push", action="store_true")
     s.set_defaults(fn=cmd_commit)
+    s = sub.add_parser("sync"); s.add_argument("--rebase", action="store_true")
+    s.set_defaults(fn=cmd_sync)
 
     a = p.parse_args(argv)
-    sys.exit(a.fn(a) or 0)
+    try:
+        code = a.fn(a) or 0
+    except subprocess.CalledProcessError as exc:
+        print(f"git {exc.cmd[1]} failed (exit {exc.returncode}); inspect the repository before retrying")
+        code = 1
+    sys.exit(code)

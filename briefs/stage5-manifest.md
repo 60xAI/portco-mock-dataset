@@ -39,7 +39,7 @@ Your unit is given in the task message (`UNIT`). Repo: `/Users/kertlaansalu/proj
 
 1. `uv run mockgen manifest validate --firm UNIT` must report 0 errors (warnings OK). Fix and re-run until clean.
 2. `uv run mockgen manifest tree --firm UNIT` prints your tree. Glance at it for realism.
-3. Commit and push only your file: `git add manifest/UNIT.yaml && git commit -m "Stage 5: manifest UNIT" && git push`. If the push is rejected: `git pull --rebase` and push again.
+3. Commit and push only your file: `uv run mockgen commit --path manifest/UNIT.yaml -m "Stage 5: manifest UNIT"`. On push failure, follow `briefs/orchestration.md`.
 4. Don't edit other units' files, `world/`, `src/`, `docs/` or `config/`. Don't write tests, review code or invoke any skills; generate and validate only.
 
 ## Reply

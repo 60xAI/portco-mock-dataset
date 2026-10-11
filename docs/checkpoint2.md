@@ -46,23 +46,14 @@ See below; it is also in `briefs/stage7-content.md` (the per-batch child brief).
 
 Remaining: 287 files (Sol 153, Haiku medium 104, Haiku low 20, script 10 exports, which render automatically when their source is accepted).
 
-### Ready-to-paste: start stage 7
+### Starting another generation run
 
-```
-Approved. Run stage 7 (background content) for DEV-1369 in ~/projects/portco-mock-dataset.
+The counts and review results above describe the original run. For the next run, follow `briefs/orchestration.md` and `config/models.yaml`. The parent-written format pilot does not qualify as a writer-tier pilot. Each writer tier must pass its own critiqued pilot before bulk dispatch, and cheap-tier files receive full review.
 
-Loop until `uv run mockgen status` shows no pending sol/haiku/haiku_low files:
-1. Claim a batch: `uv run mockgen next --tier <sol|haiku|haiku_low> --batch 6 --who t3`. It prints the batch id,
-   the exact T3 target and the file ids (same firm and type where possible).
-2. Delegate with t3-code delegate_task: target = the printed target; runtimeMode "full-access"; mode "async";
-   clientRequestId = the printed batch id; cwd = the repo. Task text:
-   "Read and follow /Users/kertlaansalu/projects/portco-mock-dataset/briefs/stage7-content.md exactly.
-    Batch <batch id>. File ids: <ids>. Generate and submit; don't test, review or verify beyond `mockgen submit`
-    succeeding, and don't invoke any skills. Commit each accepted file with `uv run mockgen commit <file-id>`."
-3. Keep at most 20 tasks running. Start with Sol batches, interleave Haiku batches. Re-claim files whose
-   claims expired (45 min) or that a child released.
-4. Stage 8 as batches finish: Sol critique (briefs/critique.md) on 1 in 5 Haiku-written files, batches of ~10;
-   apply fixes and resubmit.
-Then stage 9: `mockgen validate --all`, `mockgen golden`, `mockgen export`, datasheet; push and report.
-Don't change the world, manifest or planted files without asking. No new Linear comments; edit the existing one at the end.
+```text
+Run background generation using briefs/orchestration.md. Freeze and preflight the sources,
+pilot every writer tier using its own target, record the original critique verdicts and
+promotion decision, then dispatch only passing tiers. Writers follow briefs/stage7-content.md
+and submit with the source fingerprint printed by their pack. Use mockgen commit and
+mockgen sync for all Git changes, with exact paths for critique and orchestration artifacts.
 ```

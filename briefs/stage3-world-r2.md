@@ -26,7 +26,7 @@ The validator now has realism checks. `cd /Users/kertlaansalu/projects/portco-mo
 - Edit `world/*.yaml` directly (a helper script is fine, but the output must read as hand-curated). If you change named staff, re-run `uv run mockgen world fill-staff --total 200`.
 - Validate: `uv run mockgen world validate` must report 0 errors.
 - Don't edit `src/`, `docs/`, `config/` or `names/`. Don't write tests, don't review code, don't invoke any skills.
-- Commit and push: `git add world/ && git commit -m "Stage 3: world core realism pass" && git push` (if rejected, `git pull --rebase`, then push).
+- Commit and push: `uv run mockgen commit --path world/<changed-file>.yaml -m "Stage 3: world core realism pass"`, repeating `--path` for each changed file. On push failure, follow `briefs/orchestration.md`.
 
 ## Reply
 

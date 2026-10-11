@@ -1,15 +1,128 @@
 """`mockgen pack <file-id>`: self-contained context pack for one file (~8k tokens max)."""
 from __future__ import annotations
 
+import hashlib
 import json
+from pathlib import Path
 
 import yaml
 
 from . import manifest as Mf
-from . import state
-from .paths import CONTENT, EXEMPLARS, NUMBERS, ROOT, TODAY
+from .paths import CONTENT, EXEMPLARS, NUMBERS, ROOT, STATE, WORLD, TODAY
 from .schemas import schema_text
 from .world import load_world
+
+
+def preflight(file_id: str | None = None) -> list[str]:
+    errors = []
+    es = Mf.load_entries(errors)
+    w = load_world(errors)
+    if errors:
+        return errors
+    if file_id and file_id not in {e.id for e in es}:
+        return [f"unknown file id {file_id}"]
+    for e in es:
+        if file_id and e.id != file_id:
+            continue
+        if e.doc_type in ("wb_pricelist", "service_catalogue"):
+            from .prices import list_prices
+            firms = [e.unit] if e.unit in w.firms else [k for k, f in w.firms.items() if f.joined_group and f.joined_group <= e.created.date()]
+            if not firms or any(not list_prices(w, k, e.created.year) for k in firms):
+                errors.append(f"{e.id}: required list prices missing")
+        for pid in e.projects:
+            p = w.projects.get(pid)
+            if p is None:
+                errors.append(f"{e.id}: unknown project {pid}")
+                continue
+            try:
+                nd = json.loads((NUMBERS / f"{pid}.json").read_text())
+                errors += [f"{e.id}/{pid}: {x}" for x in check_numbers(p, nd)]
+            except (OSError, ValueError, KeyError, TypeError, IndexError) as exc:
+                errors.append(f"{e.id}/{pid}: invalid or missing numbers: {exc}")
+    return sorted(set(errors))
+
+
+def check_numbers(p, nd) -> list[str]:
+    errors = []
+    values, tables = nd["values"], nd["tables"]
+    for key, expected in (("project_id", p.id), ("firm", p.firm), ("status", p.status)):
+        if nd.get(key) != expected:
+            errors.append(f"{key} disagrees with world")
+    price = f"{p.price.currency} {p.price.amount:,.0f}"
+    if not p.price.amount or values.get("price") != price:
+        errors.append("required prices missing or disagree with world")
+    if values.get("n_compounds") != str(p.n_compounds):
+        errors.append("compound count summary disagrees with world")
+    for name, table in tables.items():
+        if not table["columns"] or any(len(row) != len(table["columns"]) for row in table["rows"]):
+            errors.append(f"{name}: row width disagrees with columns")
+    if "stability" in p.assays and p.status in ("completed", "in_progress", "on_hold", "cancelled"):
+        rows = tables.get("stability", {}).get("rows", [])
+        if not rows or not p.dates.start:
+            return errors + ["stability results or study start missing"]
+        end = p.dates.completion or p.dates.interim or TODAY
+        months = max(0, (end - p.dates.start).days // 30)
+        if end < p.dates.start or any(float(row[1]) < 0 or float(row[1]) > months for row in rows):
+            errors.append("stability table exceeds study cutoff")
+        last = max(float(row[1]) for row in rows)
+        if float(values.get("stability.last_timepoint_months", -1)) != last:
+            errors.append("stability timepoint summary disagrees with table")
+        t0 = [row for row in rows if float(row[1]) == 0]
+        if not t0 or any(row[2:] != t0[0][2:] for row in t0) or values.get("stability.t0_assay") != t0[0][2]:
+            errors.append("stability initial summary/conditions disagree with table")
+    return errors
+
+
+def source_snapshot(file_id: str) -> dict:
+    entries = {e.id: e for e in Mf.load_entries([])}
+    e = entries[file_id]
+    files = list(WORLD.glob("*.yaml")) + [EXEMPLARS / f"{Mf.family(e)}.json"]
+    files += list(NUMBERS.glob("*.json")) if e.unit == "HO" else [NUMBERS / f"{pid}.json" for pid in e.projects]
+    if e.projects:
+        files.append(NUMBERS / "compounds.json")
+    files += [CONTENT / f"{r.id}.json" for r in e.related]
+    inputs = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() if p.exists() else None for p in files}
+    for name in ("pack.py", "prices.py", "schemas.py"):
+        inputs[f"src/mockgen/{name}"] = hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
+    inputs["entry"] = e.model_dump(mode="json")
+    inputs["related_entries"] = {r.id: entries[r.id].model_dump(mode="json") for r in e.related if r.id in entries}
+    inputs["required_facts"] = next((p for p in Mf.load_planted() if p["entry"]["id"] == file_id), None)
+    blob = json.dumps(inputs, sort_keys=True, ensure_ascii=False).encode()
+    return {"fingerprint": hashlib.sha256(blob).hexdigest(), "inputs": inputs}
+
+
+def source_receipt(file_id: str):
+    path = STATE / "packs" / f"{file_id}.json"
+    return json.loads(path.read_text()) if path.exists() else None
+
+
+def source_errors(file_id: str, fingerprint: str | None) -> list[str]:
+    receipt = source_receipt(file_id)
+    if receipt is None or not fingerprint:
+        return ["source fingerprint missing; run mockgen pack and pass its --source fingerprint when submitting"]
+    if fingerprint != receipt["fingerprint"] or fingerprint != source_snapshot(file_id)["fingerprint"]:
+        return ["source changed since pack; obtain a new pack and re-review content, including prose, before submitting"]
+    return preflight(file_id)
+
+
+def changed_sources() -> list[str]:
+    changed = []
+    for e in Mf.load_entries([]):
+        receipt = CONTENT / f"{e.id}.source.json"
+        if not (CONTENT / f"{e.id}.json").exists() and not receipt.exists():
+            continue
+        if not receipt.exists():
+            changed.append(f"{e.id}: untracked; content re-review required")
+            continue
+        try:
+            saved = json.loads(receipt.read_text())
+            current = source_snapshot(e.id)
+            if saved["fingerprint"] != current["fingerprint"]:
+                changed.append(f"{e.id}: changed; content re-review required")
+        except (OSError, ValueError, KeyError, TypeError):
+            changed.append(f"{e.id}: invalid fingerprint; content re-review required")
+    return changed
+
 
 MESS_HELP = {
     "copy_of": "it is a 'Copy of' another file: mostly the same content, slightly edited",
@@ -68,6 +181,10 @@ def _brand(w, e):
 
 
 def build_pack(file_id: str) -> str:
+    errors = preflight(file_id)
+    if errors:
+        raise ValueError("generation preflight failed:\n" + "\n".join(errors))
+    snapshot = source_snapshot(file_id)
     es = {e.id: e for e in Mf.load_entries([])}
     if file_id not in es:
         return f"unknown file id {file_id}"
@@ -77,8 +194,9 @@ def build_pack(file_id: str) -> str:
     out = []
     A = out.append
     A(f"# Context pack: {file_id}\n")
+    A(f"Source fingerprint: `{snapshot['fingerprint']}`. Submit rejects a changed source. A new pack requires content re-review.\n")
     A(f"Write the content JSON for ONE file. Family: **{fam}**. Save it to `{CONTENT}/{file_id}.json`, then run from `{ROOT}`:\n"
-      f"`uv run mockgen submit {file_id} content/{file_id}.json`. On rejection, fix every numbered reason and resubmit (aim to pass in one retry).\n")
+      f"`uv run mockgen submit {file_id} content/{file_id}.json --source {snapshot['fingerprint']}`. On rejection, fix every numbered reason and resubmit (aim to pass in one retry).\n")
     A("## File entry\n```yaml\n" + yaml.safe_dump(e.model_dump(mode="json"), sort_keys=False, allow_unicode=True, width=120) + "```")
     A(f"Finish state: **{e.finish}**: {FINISH_HELP.get(e.finish, '')}.")
     if e.mess:
@@ -188,7 +306,11 @@ def build_pack(file_id: str) -> str:
     # related
     if e.related:
         A("## Related files")
-        sums = state.summaries([r.id for r in e.related])
+        sums = {}
+        for r in e.related:
+            cp = CONTENT / f"{r.id}.json"
+            if cp.exists():
+                sums[r.id] = json.loads(cp.read_text()).get("summary")
         for r in e.related:
             re_ = es.get(r.id)
             line = f"- {r.rel} {r.id}"
@@ -213,4 +335,9 @@ def build_pack(file_id: str) -> str:
     A("Placeholders `{{PRJnnnn:key}}` work in any string. `table_ref` / `data_refs` render full tables from the numbers. "
       "Charts with `ref` plot those tables. Don't paste numeric results by hand.\n")
     A("## Prohibitions\n" + PROHIBITIONS)
+    if source_snapshot(file_id)["fingerprint"] != snapshot["fingerprint"]:
+        raise ValueError("source changed while building pack; retry after source edits stop")
+    receipt = STATE / "packs" / f"{file_id}.json"
+    receipt.parent.mkdir(parents=True, exist_ok=True)
+    receipt.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n")
     return "\n".join(out)

@@ -38,13 +38,15 @@ def db():
 
 def sync(con):
     es = Mf.load_entries([])
+    cfg = models_cfg()
     have = {r["id"] for r in con.execute("select id from files")}
     for e in es:
         fam = Mf.family(e)
+        tier = writer_tier(e, cfg)
         if e.id not in have:
-            con.execute("insert into files(id, unit, doc_type, tier, family) values(?,?,?,?,?)", (e.id, e.unit, e.doc_type, e.tier, fam))
+            con.execute("insert into files(id, unit, doc_type, tier, family) values(?,?,?,?,?)", (e.id, e.unit, e.doc_type, tier, fam))
         else:
-            con.execute("update files set unit=?, doc_type=?, tier=?, family=? where id=?", (e.unit, e.doc_type, e.tier, fam, e.id))
+            con.execute("update files set unit=?, doc_type=?, tier=?, family=? where id=?", (e.unit, e.doc_type, tier, fam, e.id))
     ids = {e.id for e in es}
     for i in have - ids:
         con.execute("delete from files where id=?", (i,))
@@ -60,6 +62,20 @@ def models_cfg():
 def target_for_tier(tier: str):
     cfg = models_cfg()
     return cfg["targets"][cfg["tiers"][tier]]
+
+
+def writer_tier(e, cfg):
+    policy = cfg["writer_policy"]
+    if e.tier in policy.get("promoted_tiers", []):
+        return policy["stronger_tier"]
+    if e.tier not in ("haiku", "haiku_low"):
+        return e.tier
+    if e.doc_type == "junk" and not e.projects and not e.planted:
+        return e.tier
+    if (e.tier == "haiku" and e.doc_type in policy["bounded_admin_types"]
+            and e.doc_type not in policy["interpretation_types"] and not e.projects and not e.planted):
+        return e.tier
+    return policy["stronger_tier"]
 
 
 def next_batch(tier: str, unit: str | None, doc_type: str | None, n: int, who: str):
@@ -90,16 +106,22 @@ def next_batch(tier: str, unit: str | None, doc_type: str | None, n: int, who: s
             fam = rows[pick[0]]["family"]
             more = sorted(i for i in cand if i not in pick and rows[i]["unit"] == key[0] and rows[i]["family"] == fam)
             pick += more[: n - len(pick)]
-        nb = con.execute("select count(*) from batches where unit=?", (key[0],)).fetchone()[0] + 1
-        bid = f"dev1369-content-{key[0]}-{nb:02d}" + ("" if tier != "haiku_low" else "-low")
+        tail_max = models_cfg()["delegation_rules"].get("tail_pool_max", 48)
+        if len(cand) <= tail_max and len(pick) < n:
+            more = sorted(i for i in cand if i not in pick)
+            pick += more[: n - len(pick)]
+        batch_unit = key[0] if len({rows[i]["unit"] for i in pick}) == 1 else "mixed"
+        batch_type = key[1] if len({rows[i]["doc_type"] for i in pick}) == 1 else "mixed"
+        nb = con.execute("select count(*) from batches where unit=?", (batch_unit,)).fetchone()[0] + 1
+        bid = f"dev1369-content-{batch_unit}-{nb:02d}" + ("" if tier != "haiku_low" else "-low")
         now = time.time()
         for i in pick:
             con.execute("update files set state='claimed', claimed_by=?, claimed_at=?, batch=? where id=?", (who, now, bid, i))
-        con.execute("insert or replace into batches values(?,?,?,?,?)", (bid, tier, key[0], now, json.dumps(pick)))
+        con.execute("insert or replace into batches values(?,?,?,?,?)", (bid, tier, batch_unit, now, json.dumps(pick)))
         return {"batch": bid, "clientRequestId": bid, "tier": tier, "target": target_for_tier(tier),
-                "unit": key[0], "doc_type": key[1], "files": pick,
+                "unit": batch_unit, "doc_type": batch_type, "files": pick,
                 "claim_expires_min": CLAIM_TTL // 60,
-                "per_file": ["uv run mockgen pack <file-id>", "write content JSON to content/<file-id>.json", "uv run mockgen submit <file-id> content/<file-id>.json"]}
+                "per_file": ["uv run mockgen pack <file-id>", "write content JSON to content/<file-id>.json", "uv run mockgen submit <file-id> content/<file-id>.json --source <pack-fingerprint>"]}
 
 
 def claim_specific(ids: list[str], who: str):
