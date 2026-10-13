@@ -2,6 +2,10 @@
 
 A fictional document archive for demoing AI Brain on a buy-and-build portfolio company (DEV-1369, DEV-1370). Everything in it is invented: the firms, people, clients, compounds, projects and results.
 
+![Tarnovell before and after AI Brain: double-siloed systems, then every firm's connectors feeding one knowledge graph that all 200 staff query](docs/architecture/ai-brain-architecture.gif)
+
+The animation's source is [`docs/architecture/ai-brain-architecture.html`](docs/architecture/ai-brain-architecture.html); regenerate the GIF with `uv run --script docs/architecture/render.py`.
+
 - **Ready to ingest:** the eight zips in `tarnovell_archive/` first (306 files, one zip per top-level folder; select them all in one upload), then `tarnovell_firm_G_heldback.zip` (34 files, firm G) for the acquisition step. Every zip is under AI Brain's 30 MB upload limit; the archive as one zip (49 MB) is not. Unzipped sources: `output/archive/` and `output/heldback_firm_G/`.
 - **Why firm G is held back:** buy-and-build groups keep acquiring, so the demo needs to show what happens the day a new company's archive lands. Firm G (Osterquill Toxicology) is the newest acquisition, closing on 1 October 2026. You ingest the main archive and ask a question, then ingest firm G and ask the same question again. New answers appear straight away: two more matching projects, and a client record ("Corvenlea (US)") that links to the group's existing Corvenlea history. That shows AI Brain makes a newly bought firm's knowledge usable from day one, without any integration work.
 - **Answer key:** `output/golden_set.json`. Don't ingest it.

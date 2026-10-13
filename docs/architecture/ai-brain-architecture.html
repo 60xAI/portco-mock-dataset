@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Brain across Tarnovell Bioscience Group: before and after</title>
+<style>
+  html, body { margin: 0; background: #0a1520; }
+  canvas { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script>
+// Animated before/after architecture for the Tarnovell demo dataset.
+// Open this file in a browser to watch it; docs/architecture/render.py turns it into the GIF.
+const W = 1280, H = 720;
+const cv = document.getElementById('c');
+const ctx = cv.getContext('2d');
+const FONT = '"Liberation Sans", Arial, Helvetica, sans-serif';
+const C = {
+  bg: '#0a1520', card: '#122435', tile: '#0d1c2a', edge: '#28465e', text: '#e8eef3',
+  dim: '#93a8b9', faint: '#56708a', gold: '#C5A35A', red: '#e5534b', green: '#4cc38a', hub: '#e6edf3',
+};
+
+const T = {
+  silo1: 1.6, silo2: 3.4, q0: 5.6, trans: 9.8, ingestA: 11.0, ingestB: 14.6,
+  mergeA: 15.2, mergeB: 16.4, staff: 16.7, F1: 17.1, F2: 20.2, F3: 23.3,
+  G: 26.3, gIngA: 27.1, gIngB: 28.6, gMergeA: 28.8, gMergeB: 29.5, gStaff: 29.0,
+  F4: 29.7, end: 33.0,
+};
+// The loop opens on the finished brain (a hook), then wipes back to the
+// before state; the story ends where the hook starts, so the GIF loops seamlessly.
+// PACE plays each stretch of story time at its own rate: transitions run fast,
+// question/answer beats slow enough to read.
+const HOOK = 1.6, WIPE = 0.4, HOOK_RATE = 1.5, C0 = 1.3, CEND = T.end + 1.2;
+const PACE = [[C0, 1.6], [T.q0, 1.3], [T.trans, 2.2], [T.F1, 1.25], [T.G, 1.8], [T.F4, 1.25], [CEND, 0]];
+const STORY_LEN = PACE.slice(0, -1).reduce((s, [a, r], i) => s + (PACE[i + 1][0] - a) / r, 0);
+const DUR = HOOK - WIPE + STORY_LEN;
+function storyAt(u) {
+  for (let i = 0; i < PACE.length - 1; i++) {
+    const [a, r] = PACE[i], len = (PACE[i + 1][0] - a) / r;
+    if (u < len) return a + u * r;
+    u -= len;
+  }
+  return CEND;
+}
+
+const FIRMS = [
+  { k: 'HO', badge: 'HO', name: 'Tarnovell HO', focus: 'Group head office', place: 'Nottingham, UK', color: '#C5A35A', staff: 13,
+    tiles: [['SharePoint', 'group'], ['HR system', 'A–F staff'], ['Mail', 'tarnovell-group.co.uk'], ['LIMS export', 'dictionary']] },
+  { k: 'A', badge: 'A', name: 'Vellacombe', focus: 'Medicinal chemistry', place: 'Nottingham · since 1996', color: '#5fb37a', staff: 31,
+    tiles: [['Share', 'VellacombeData'], ['LIMS', 'VA20240012'], ['Mail', 'vellacombe.co.uk'], ['CRM', 'own client names']] },
+  { k: 'B', badge: 'B', name: 'Brindlewythe', focus: 'In vitro biology', place: 'Cambridge · joined 2001', color: '#4fa3e0', staff: 35,
+    tiles: [['Share', 'BrindlewytheData'], ['LIMS', 'B-ACC-2024-00012'], ['Mail', 'brindlewythe.co.uk'], ['CRM', 'own client names']] },
+  { k: 'C', badge: 'C', name: 'Merrivoss', focus: 'DMPK & bioanalysis', place: 'Madison, US · joined 2008', color: '#e8795f', staff: 31,
+    tiles: [['Share', 'MerrivossData'], ['LIMS', 'M24/BIO/00012'], ['Mail', 'merrivoss.com'], ['CRM', 'own client names']] },
+  { k: 'D', badge: 'D', name: 'Quenverell', focus: 'Computational', place: 'Edinburgh · joined 2014', color: '#a78bfa', staff: 20,
+    tiles: [['Share', 'QuenverellData'], ['LIMS', 'QDATA2024-0012'], ['Mail', 'quenverell.co.uk'], ['CRM', 'own client names']] },
+  { k: 'E', badge: 'E', name: 'Westravelle', focus: 'Analytical & stability', place: 'York · joined 2019', color: '#3cc6c0', staff: 26,
+    tiles: [['Share', 'WestravelleData'], ['LIMS', 'WST-24-000012'], ['Mail', 'westravelle.co.uk'], ['CRM', 'own client names']] },
+  { k: 'F', badge: 'F', name: 'Durnesswick', focus: 'Formulation & CMC', place: 'Durham, US · joined 2024', color: '#f28fb1', staff: 18,
+    tiles: [['Share', 'DurnesswickData'], ['LIMS', 'DF24-00012'], ['Mail', 'durnesswick.com'], ['CRM', 'own client names']] },
+  { k: 'G', badge: 'G', name: 'Osterquill', focus: 'GLP toxicology', place: 'Portland · joins 1 Oct 2026', color: '#f59e42', staff: 26,
+    tiles: [['Share', 'OsterquillData'], ['LIMS', 'OQ/2024/000012'], ['Mail', 'osterquill.com'], ['CRM', 'own client names']] },
+];
+const M = 16, GAP = 10, CW = (W - 2 * M - 7 * GAP) / 8, CARD_Y = 80, CARD_H = 164;
+const CARD_B = CARD_Y + CARD_H;
+const BR = { x: 24, y: 284, w: W - 48, h: 284 };
+const STAFF_TOP = 598, STAFF_Y = 616;
+const F = {};
+FIRMS.forEach((f, i) => {
+  f.i = i; f.x = M + i * (CW + GAP); f.cx = f.x + CW / 2; F[f.k] = f;
+  f.connectT = f.k === 'G' ? T.G + 0.4 : T.ingestA - 0.7 + i * 0.12;
+  f.staffT = f.k === 'G' ? T.gStaff : T.staff + i * 0.1;
+});
+const wallX = i => M + (i + 1) * (CW + GAP) - GAP / 2;
+
+// ---------- helpers ----------
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const ease = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const easeOut = x => 1 - Math.pow(1 - x, 3);
+const back = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const env = (t, a, b, fi = 0.4, fo = 0.4) => Math.min(seg(t, a, a + fi), 1 - seg(t, b - fo, b));
+const lerp = (a, b, k) => a + (b - a) * k;
+function rgba(hex, a) {
+  const n = parseInt(hex.slice(1), 16);
+  return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},${clamp(a)})`;
+}
+function mulberry(seed) {
+  return () => {
+    seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+    let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+function font(size, weight = 'normal') { ctx.font = `${weight} ${size}px ${FONT}`; }
+function fitFont(text, maxW, size, weight = 'normal', min = 7) {
+  for (let s = size; s >= min; s -= 0.5) { font(s, weight); if (ctx.measureText(text).width <= maxW) return s; }
+  return min;
+}
+function text(str, x, y, { size = 12, weight = 'normal', color = C.text, align = 'left', alpha = 1, maxW } = {}) {
+  if (alpha <= 0) return;
+  ctx.save();
+  if (maxW) fitFont(str, maxW, size, weight); else font(size, weight);
+  ctx.fillStyle = color; ctx.globalAlpha *= alpha; ctx.textAlign = align; ctx.textBaseline = 'alphabetic';
+  ctx.fillText(str, x, y);
+  ctx.restore();
+}
+function wrap(str, maxW, size, weight) {
+  font(size, weight);
+  const words = str.split(' '), lines = [];
+  let line = '';
+  for (const w of words) {
+    const test = line ? line + ' ' + w : w;
+    if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = w; } else line = test;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+function rr(x, y, w, h, r) { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); }
+function quad(p0, p1, p2, k) {
+  const a = (1 - k) * (1 - k), b = 2 * (1 - k) * k, c = k * k;
+  return { x: a * p0.x + b * p1.x + c * p2.x, y: a * p0.y + b * p1.y + c * p2.y };
+}
+function dot(x, y, r, color, alpha = 1, glow = 10) {
+  if (alpha <= 0) return;
+  ctx.save();
+  ctx.globalAlpha *= alpha; ctx.fillStyle = color; ctx.shadowColor = color; ctx.shadowBlur = glow;
+  ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+}
+function trail(path, k, color, alpha = 1, r = 2.6) {
+  for (let j = 0; j < 4; j++) {
+    const kk = k - j * 0.035;
+    if (kk < 0 || kk > 1) continue;
+    const p = path(kk);
+    dot(p.x, p.y, r * (1 - j * 0.18), color, alpha * (1 - j * 0.25), j === 0 ? 12 : 0);
+  }
+}
+
+// ---------- knowledge graph ----------
+const GR = { cx: 640, cy: 424, rx: 285, ry: 116 };
+const nodes = [], byId = {};
+const add = n => { n.ph = nodes.length * 1.7; nodes.push(n); byId[n.id] = n; return n; };
+[
+  ['herg', 'hERG', 575, 385], ['cyp', 'CYP inhibition', 705, 385], ['kinase', 'Kinase series', 640, 472],
+  ['aver', 'Avernelwick', 795, 458], ['bioinf', 'Bioinformatics', 822, 352], ['stab', 'ICH stability', 462, 352],
+].forEach(([id, label, x, y]) => add({ id, label, x, y, kind: 'hub', r: 6.5 }));
+const CORV = add({ id: 'corv', label: 'Corvenlea', x: 492, y: 452, kind: 'corv', r: 9, ts: T.mergeB - 0.25 });
+const COUNTS = { HO: 6, A: 9, B: 10, C: 9, D: 7, E: 8, F: 6, G: 7 };
+const SPECIAL = {
+  A: [{ kind: 'variant', label: 'Corvenlea Pharma', x: 420, y: 398 }],
+  B: [{ kind: 'project', label: 'BW11_0275' }, { kind: 'project', label: 'BW21_0453' }],
+  C: [{ kind: 'variant', label: 'Corvenlea Ltd', x: 548, y: 333 }, { kind: 'project', label: 'MV-2015-266' }, { kind: 'project', label: 'MV-2024-358' }],
+  D: [{ kind: 'lookalike', label: 'Corvenlith Therapeutics', x: 604, y: 520 }, { kind: 'deck', label: 'Capabilities deck 2025' }],
+  E: [{ kind: 'variant', label: 'Corvenlea Pharmaceuticals plc', x: 468, y: 512 }],
+  G: [{ kind: 'variant', label: 'Corvenlea (US)' }, { kind: 'project', label: 'OT-20-S0178' }, { kind: 'project', label: 'OT-23-S0046' }],
+};
+const AFF = { HO: ['aver', 'bioinf', 'stab'], A: ['kinase', 'stab'], B: ['herg', 'cyp', 'aver'], C: ['cyp', 'kinase'],
+  D: ['bioinf', 'kinase'], E: ['stab'], F: ['stab', 'kinase'], G: ['herg', 'cyp', 'aver'] };
+const edges = [];
+const edgeKey = new Set();
+function link(a, b) {
+  const k = [a.id, b.id].sort().join('|');
+  if (a === b || edgeKey.has(k)) return;
+  edgeKey.add(k); edges.push({ a, b });
+}
+(function build() {
+  const r = mulberry(1369);
+  const inEllipse = (x, y) => ((x - GR.cx) / GR.rx) ** 2 + ((y - GR.cy) / GR.ry) ** 2 < 0.9;
+  const place = (bx) => {
+    for (let tries = 0, minD = 26; ; tries++) {
+      if (tries % 300 === 299) minD -= 3;
+      const x = bx + (r() - 0.5) * 160, y = GR.cy + (r() - 0.5) * 2 * GR.ry * 0.95;
+      if (!inEllipse(x, y)) continue;
+      if (nodes.every(n => Math.hypot(n.x - x, n.y - y) > (n.kind === 'hub' || n.kind === 'corv' ? 40 : minD))
+        && reserved.every(q => Math.hypot(q.x - x, q.y - y) > 34)) return { x, y };
+    }
+  };
+  const reserved = Object.values(SPECIAL).flat().filter(s => s.x);
+  const nearest = (n, pool) => pool.filter(o => o !== n).sort((p, q) => Math.hypot(p.x - n.x, p.y - n.y) - Math.hypot(q.x - n.x, q.y - n.y));
+  for (const f of FIRMS) {
+    const bx = GR.cx + (f.i - 3.5) / 3.5 * 235;
+    const specials = SPECIAL[f.k] || [];
+    f.nodes = [];
+    for (let j = 0; j < COUNTS[f.k]; j++) {
+      const s = specials[j] || { kind: 'doc' };
+      const p = s.x ? { x: s.x, y: s.y } : place(bx);
+      const n = add({ id: `${f.k}${j}`, j, firm: f.k, kind: s.kind, label: s.label, x: p.x, y: p.y,
+        r: { doc: 3.6, project: 5, variant: 6, lookalike: 5.5, deck: 5 }[s.kind] });
+      f.nodes.push(n);
+    }
+    for (const n of f.nodes) {
+      const same = nearest(n, f.nodes.slice(0, f.nodes.indexOf(n)));
+      if (same[0]) link(n, same[0]);
+      if (n.kind === 'project') ['herg', 'cyp', 'kinase'].forEach(h => link(n, byId[h]));
+      else if (n.kind === 'deck') link(n, byId.bioinf);
+      else if (n.kind === 'variant') { const s2 = nearest(n, f.nodes); link(n, s2[0]); link(n, s2[1]); }
+      else if (n.kind === 'doc' && r() < 0.8) link(n, byId[AFF[f.k][Math.floor(r() * AFF[f.k].length)]]);
+    }
+  }
+  // cross-company links: shared people, compounds and clients
+  const docs = nodes.filter(n => n.kind === 'doc');
+  for (const n of docs) {
+    if (r() < 0.3) {
+      const other = nearest(n, docs.filter(o => o.firm !== n.firm))[0];
+      if (other) link(n, other);
+    }
+  }
+  // spawn times: interleave companies so every connector streams at once
+  const main = FIRMS.filter(f => f.k !== 'G').flatMap(f => f.nodes.map(n => ({ n, key: r() })));
+  main.sort((p, q) => p.key - q.key).forEach(({ n }, k, all) => { n.ts = lerp(T.ingestA, T.ingestB, k / (all.length - 1)); });
+  // variants arrive early so the merge has something to merge
+  F.G.nodes.forEach((n, k) => { n.ts = lerp(T.gIngA, T.gIngB, k / (F.G.nodes.length - 1)); });
+  F.G.nodes[0].ts = T.gIngA + 0.2;
+  for (const h of nodes.filter(n => n.kind === 'hub')) {
+    h.ts = Math.min(...edges.filter(e => e.a === h || e.b === h).map(e => (e.a === h ? e.b : e.a).ts));
+  }
+  for (const e of edges) e.ts = Math.max(e.a.ts, e.b.ts);
+})();
+const VARIANTS = nodes.filter(n => n.kind === 'variant');
+const mergeWin = n => n.firm === 'G' ? [T.gMergeA, T.gMergeB] : [T.mergeA, T.mergeB];
+function pos(n, t) {
+  let x = n.x + Math.sin(t * 0.9 + n.ph) * 1.8, y = n.y + Math.cos(t * 0.7 + n.ph) * 1.6;
+  if (n.kind === 'variant') {
+    const [a, b] = mergeWin(n);
+    const k = ease(seg(t, a + 0.4, b));
+    const c = pos(CORV, t);
+    x = lerp(x, c.x, k); y = lerp(y, c.y, k);
+  }
+  return { x, y };
+}
+const merged = (n, t) => n.kind === 'variant' && t >= mergeWin(n)[1];
+
+// ---------- featured queries ----------
+const PROJ_BC = ['B', 'C'].flatMap(k => F[k].nodes.filter(n => n.kind === 'project'));
+const PROJ_G = F.G.nodes.filter(n => n.kind === 'project');
+const corvSet = () => {
+  const s = new Set([CORV]);
+  edges.forEach(e => { if (e.a.kind === 'variant' && e.a.firm !== 'G') s.add(e.b); if (e.b.kind === 'variant' && e.b.firm !== 'G') s.add(e.a); });
+  return s;
+};
+const FQ = [
+  { a: T.F1, b: T.F2 - 0.1, firm: 'E', q: "Show Corvenlea's full history across the group", target: CORV,
+    hl: corvSet(), ans: { title: 'Corvenlea: one client, three names', lines: [
+      ['A', 'Vellacombe 2001–09 · "Corvenlea Pharma"'], ['C', 'Merrivoss 2012–18 · "Corvenlea Ltd"'],
+      ['E', 'Westravelle 2019 on · "…Pharmaceuticals plc"'], [null, 'Never bought from Quenverell or Durnesswick']] } },
+  { a: T.F2, b: T.F3 - 0.1, firm: 'HO', q: 'hERG + CYP on ~40 kinase compounds, under 3 weeks?', target: byId.herg,
+    hl: new Set([byId.herg, byId.cyp, byId.kinase, ...PROJ_BC]), ans: { title: '4 matching past projects', lines: [
+      ['B', 'BW11_0275 · BW21_0453 (Brindlewythe)'], ['C', 'MV-2015-266 · MV-2024-358 (Merrivoss)'],
+      [null, 'Proposals with price and turnaround']] } },
+  { a: T.F3, b: T.G - 0.1, firm: 'A', q: 'I need a bioinformatics slide for a pitch tomorrow', target: byId.bioinf,
+    hl: new Set([byId.bioinf, F.D.nodes.find(n => n.kind === 'deck')]), ans: { title: 'Quenverell capabilities deck 2025', lines: [
+      ['D', 'Slide 3: "Bioinformatics for drug discovery"'], ['D', 'Plus the PDF export sent to clients']] } },
+  { a: T.F4, b: T.end, firm: 'HO', q: 'Same question again: hERG + CYP on ~40 kinase compounds', target: byId.herg,
+    hl: new Set([byId.herg, byId.cyp, byId.kinase, ...PROJ_BC, ...PROJ_G]), ans: { title: '2 more projects, from Osterquill', lines: [
+      ['G', 'OT-20-S0178 · OT-23-S0046 (Osterquill)'], ['B', '2 at Brindlewythe'], ['C', '2 at Merrivoss'],
+      ['G', '"Corvenlea (US)" joins Corvenlea\'s history']] } },
+];
+const activeFQ = t => FQ.find(q => t >= q.a && t < q.b);
+
+// ---------- ambient events ----------
+const r2 = mulberry(77);
+const queryEvents = [];
+for (let t = T.staff + 0.4; t < CEND + HOOK * HOOK_RATE + 0.5; t += t > T.end ? 0.06 + r2() * 0.05 : 0.16 + r2() * 0.12) {
+  const firms = FIRMS.filter(f => t > f.staffT + 0.4);
+  if (!firms.length) continue;
+  const f = firms[Math.floor(r2() * firms.length)];
+  const pool = nodes.filter(n => n.ts !== undefined && n.ts < t && !merged(n, t + 2));
+  queryEvents.push({ t, f, n: pool[Math.floor(r2() * pool.length)] });
+}
+const syncEvents = [];
+for (const f of FIRMS) {
+  const start = f.k === 'G' ? T.gIngB : T.ingestB;
+  for (let t = start + r2() * 0.6; t < CEND + HOOK * HOOK_RATE + 0.5; t += t > T.end ? 0.25 + r2() * 0.25 : 0.5 + r2() * 0.5) {
+    const pool = f.nodes.filter(n => !merged(n, t + 1));
+    syncEvents.push({ t, f, n: pool[Math.floor(r2() * pool.length)] });
+  }
+}
+const beforePings = [];
+for (const f of FIRMS) for (let t = 1.0 + r2() * 0.6; t < T.trans - 0.6; t += 0.7 + r2() * 0.6) beforePings.push({ t, f });
+const blockedPings = [];
+for (let t = T.silo2 + 0.4; t < T.trans - 0.5; t += 0.18 + r2() * 0.2) {
+  const i = Math.floor(r2() * 8), dir = i === 0 ? 1 : i === 7 ? -1 : r2() < 0.5 ? -1 : 1;
+  blockedPings.push({ t, f: FIRMS[i], to: FIRMS[i + dir], wall: wallX(Math.min(i, i + dir)), y: 300 + r2() * 220 });
+}
+
+// ---------- drawing ----------
+function lock(x, y, color, alpha, scale = 1) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.fillStyle = color; ctx.strokeStyle = color; ctx.lineWidth = 1.2;
+  ctx.translate(x, y); ctx.scale(scale, scale); ctx.translate(-x, -y);
+  ctx.fillRect(x - 3, y - 1, 6, 5);
+  ctx.beginPath(); ctx.arc(x, y - 1, 2.2, Math.PI, 0); ctx.stroke();
+  ctx.restore();
+}
+function person(x, y, color, alpha) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.fillStyle = color;
+  ctx.beginPath(); ctx.arc(x, y - 7, 4.4, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(x, y + 6, 7.5, Math.PI, 0); ctx.closePath(); ctx.fill();
+  ctx.restore();
+}
+function cross(x, y, s, alpha) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.strokeStyle = C.red; ctx.lineWidth = 3; ctx.lineCap = 'round';
+  ctx.shadowColor = C.red; ctx.shadowBlur = 8;
+  ctx.beginPath(); ctx.moveTo(x - s, y - s); ctx.lineTo(x + s, y + s); ctx.moveTo(x + s, y - s); ctx.lineTo(x - s, y + s); ctx.stroke();
+  ctx.restore();
+}
+
+function drawHeader(t) {
+  const titles = [
+    [0, T.trans, 'Before AI Brain: knowledge is double-siloed'],
+    [T.trans, T.end, 'After: AI Brain deployed across the whole group'],
+    [T.end, 1e6, 'One AI Brain for the whole group'],
+  ];
+  for (const [a, b, s] of titles) text(s, 32, 38, { size: 25, weight: 'bold', alpha: env(t, a, b, 0.5, 0.5) });
+  const subs = [
+    [0.3, T.silo2, 'Silo 1 · ', 'inside each company, file share, LIMS, mail and CRM are separate systems'],
+    [T.silo2, T.q0 - 0.2, 'Silo 2 · ', 'across the group, every acquired firm kept its own archive, IDs and client names'],
+    [T.q0 - 0.2, T.trans, '', 'Staff can only search their own company, one system at a time'],
+    [T.trans, T.mergeA, '', 'Connectors stream every system of every company into one knowledge graph'],
+    [T.mergeA, T.staff, '', 'One client under three names becomes one entity; the lookalike stays separate'],
+    [T.staff, T.G, '', 'Every member of staff, in every company, retrieves from the whole group'],
+    [T.G, T.F4, '', 'Acquisition day: Osterquill connects and its archive is searchable straight away'],
+    [T.F4, T.end, '', 'The same question now finds the newly acquired firm\'s work'],
+    [T.end, 1e6, '', 'Every system · every company · every member of staff'],
+  ];
+  for (const [a, b, pre, s] of subs) {
+    const al = env(t, a, b, 0.45, 0.35);
+    if (al <= 0) continue;
+    font(15, 'bold');
+    const pw = pre ? ctx.measureText(pre).width : 0;
+    if (pre) text(pre, 32, 62, { size: 15, weight: 'bold', color: C.red, alpha: al });
+    text(s, 32 + pw, 62, { size: 15, color: C.dim, alpha: al });
+  }
+  text('Tarnovell Bioscience Group · fictional demo dataset', W - 32, 34, { size: 11, color: C.faint, align: 'right' });
+}
+
+function siloStrength(t) { return seg(t, T.silo1, T.silo1 + 0.8) * (1 - seg(t, T.trans, T.trans + 0.9)); }
+function wallStrength(t) { return seg(t, T.silo2, T.silo2 + 0.8) * (1 - seg(t, T.trans, T.trans + 0.9)); }
+const connected = (f, t) => seg(t, f.connectT, f.connectT + 0.5);
+const gSolid = t => seg(t, T.G, T.G + 0.8);
+
+function drawCard(f, t) {
+  const appear = easeOut(seg(t, 0.15 + f.i * 0.07, 0.75 + f.i * 0.07));
+  if (appear <= 0) return;
+  const isG = f.k === 'G';
+  const dimG = isG ? lerp(0.6, 1, gSolid(t)) : 1;
+  ctx.save();
+  ctx.globalAlpha = appear * dimG;
+  const y = CARD_Y + (1 - appear) * 12;
+  const ws = wallStrength(t), con = connected(f, t);
+  rr(f.x, y, CW, CARD_H, 10);
+  ctx.fillStyle = C.card; ctx.fill();
+  ctx.lineWidth = 1.4;
+  if (isG && gSolid(t) < 1) ctx.setLineDash([5, 4]);
+  ctx.strokeStyle = isG && gSolid(t) < 1 ? rgba(f.color, 0.8) : ws > 0 ? rgba(C.red, 0.25 + 0.45 * ws) : rgba(f.color, 0.25 + 0.45 * con);
+  ctx.stroke(); ctx.setLineDash([]);
+  if (con > 0) { ctx.save(); ctx.shadowColor = f.color; ctx.shadowBlur = 14 * con; rr(f.x, y, CW, CARD_H, 10); ctx.strokeStyle = rgba(f.color, 0.4 * con); ctx.stroke(); ctx.restore(); }
+  // header
+  dot(f.x + 17, y + 19, 11, f.color, 1, 0);
+  text(f.badge, f.x + 17, y + 23, { size: f.badge.length > 1 ? 9 : 11, weight: 'bold', color: '#0a1520', align: 'center' });
+  text(f.name, f.x + 33, y + 18, { size: 13, weight: 'bold', maxW: CW - 38 });
+  text(f.focus, f.x + 33, y + 32, { size: 10, color: C.dim, maxW: CW - 38 });
+  const placeStr = isG && t > T.G ? 'Portland · acquired 1 Oct 2026' : f.place;
+  text(placeStr, f.x + 10, y + 48, { size: 9.5, color: isG ? f.color : C.faint, maxW: CW - 18 });
+  // system tiles
+  const hlE = f.k === 'E' ? env(t, T.q0 + 1.0, T.trans, 0.3, 0.4) : 0;
+  f.tiles.forEach(([label, detail], j) => {
+    const ty = y + 56 + j * 26, tx = f.x + 8, tw = CW - 16;
+    rr(tx, ty, tw, 22, 5);
+    ctx.fillStyle = C.tile; ctx.fill();
+    const s = siloStrength(t);
+    const pulse = s * (0.5 + 0.5 * Math.sin(t * 5 + j + f.i)) * (t < T.silo2 ? 1 : 0.4);
+    let stroke = rgba(C.edge, 1);
+    if (s > 0) stroke = rgba(C.red, 0.2 + 0.5 * pulse);
+    if (con > 0) stroke = rgba(f.color, 0.2 + 0.35 * con);
+    const found = hlE * (label === 'CRM' || label === 'Share' ? 1 : 0);
+    if (found > 0) stroke = rgba(f.color, found);
+    ctx.lineWidth = found > 0 ? 1.8 : 1; ctx.strokeStyle = stroke; ctx.stroke();
+    const d = T.silo1 + (f.i * 4 + j) * 0.02;
+    const snap = seg(t, d, d + 0.22) * (1 - seg(t, T.trans, T.trans + 0.9));
+    const lockA = snap;
+    if (snap > 0 && snap < 1) { rr(tx, ty, tw, 22, 5); ctx.fillStyle = rgba(C.red, 0.4 * (1 - snap)); ctx.fill(); }
+    if (lockA > 0) lock(tx + 8, ty + 11, C.red, lockA, back(snap) * (1 + 0.8 * (1 - snap)));
+    if (con > 0) dot(tx + 8, ty + 11, 2.6, C.green, con, 6);
+    if (lockA <= 0 && con <= 0) dot(tx + 8, ty + 11, 2, C.faint, 1, 0);
+    text(label, tx + 16, ty + 15, { size: 10, weight: 'bold', color: C.text });
+    font(10, 'bold');
+    const lw = ctx.measureText(label).width;
+    const dw = tw - 16 - lw - 12;
+    text(detail, tx + tw - 6, ty + 15, { size: 9, color: C.dim, align: 'right', maxW: dw });
+  });
+  ctx.restore();
+}
+
+function drawWalls(t) {
+  const s = wallStrength(t);
+  if (s <= 0) return;
+  for (let i = 0; i < 7; i++) {
+    const x = wallX(i);
+    const grow = easeOut(seg(t, T.silo2 + i * 0.04, T.silo2 + 0.3 + i * 0.04));
+    const hot = 1 - seg(t, T.silo2 + 0.3 + i * 0.04, T.silo2 + 0.9 + i * 0.04);
+    const collapse = 1 - seg(t, T.trans, T.trans + 0.9);
+    const top = 76, bot = 704;
+    const mid = (top + bot) / 2, half = (bot - top) / 2 * grow * collapse;
+    ctx.save();
+    ctx.strokeStyle = rgba(C.red, 0.75 * s); ctx.lineWidth = 3 + 3 * hot; ctx.shadowColor = C.red; ctx.shadowBlur = 10 + 20 * hot;
+    ctx.beginPath(); ctx.moveTo(x, mid - half); ctx.lineTo(x, mid + half); ctx.stroke();
+    if (hot > 0 && grow >= 1) { ctx.strokeStyle = rgba('#ffffff', 0.7 * hot); ctx.lineWidth = 1.5; ctx.stroke(); }
+    ctx.restore();
+  }
+}
+
+function drawBlocked(t) {
+  const a = wallStrength(t) * (t > T.q0 ? 0.2 : 1);
+  if (a <= 0) return;
+  for (const e of blockedPings) {
+    const go = seg(t, e.t, e.t + 0.45), back_ = seg(t, e.t + 0.45, e.t + 0.85);
+    if (go <= 0 || back_ >= 1) continue;
+    const p0 = { x: e.f.cx, y: STAFF_TOP - 6 }, p1 = { x: e.wall, y: e.y };
+    const k = back_ > 0 ? 1 - 0.35 * easeOut(back_) : ease(go);
+    const x = lerp(p0.x, p1.x, k), y = lerp(p0.y, p1.y, k);
+    ctx.save(); ctx.globalAlpha = a * (1 - back_);
+    ctx.setLineDash([3, 4]); ctx.strokeStyle = rgba(e.f.color, 0.6); ctx.lineWidth = 1.3;
+    ctx.beginPath(); ctx.moveTo(p0.x, p0.y); ctx.lineTo(x, y); ctx.stroke(); ctx.restore();
+    dot(x, y, 3, e.f.color, a * (1 - back_), 10);
+    if (back_ > 0) {
+      dot(p1.x, p1.y, 10 * easeOut(back_) + 3, C.red, a * 0.5 * (1 - back_), 18);
+      cross(p1.x, p1.y, 5 * back(Math.min(1, back_ * 2.5)), a * (1 - back_));
+    }
+  }
+}
+
+function drawStaff(f, t) {
+  const appear = seg(t, 0.4 + f.i * 0.07, 1.0 + f.i * 0.07);
+  if (appear <= 0) return;
+  const n = Math.max(2, Math.round(f.staff / 6));
+  const conn = seg(t, f.staffT, f.staffT + 0.5);
+  const before = 1 - seg(t, T.trans, T.trans + 0.6);
+  const asking = FQ.some(q => q.firm === f.k && t > q.a && t < q.b) || (f.k === 'E' && t > T.q0 && t < T.trans);
+  const bright = Math.max(conn, 0.55 * before, 0.45);
+  for (let j = 0; j < n; j++) {
+    const x = f.cx + (j - (n - 1) / 2) * 18;
+    person(x, STAFF_Y + 8, asking ? '#ffffff' : f.color, appear * bright);
+  }
+  text(`${f.name} · ${f.staff} people`, f.cx, STAFF_Y + 40, { size: 10, color: C.dim, align: 'center', alpha: appear, maxW: CW - 8 });
+  if (asking) dot(f.cx, STAFF_Y + 2, 26, f.color, 0.12 * appear, 30);
+}
+
+function drawBeforeLinks(t) {
+  const a = seg(t, 1.0, 1.8) * (1 - seg(t, T.trans, T.trans + 0.6));
+  if (a <= 0) return;
+  for (const f of FIRMS) {
+    ctx.save(); ctx.setLineDash([3, 5]); ctx.strokeStyle = rgba(f.color, 0.35 * a); ctx.lineWidth = 1.3;
+    ctx.beginPath(); ctx.moveTo(f.cx, STAFF_TOP); ctx.lineTo(f.cx, CARD_B + 2); ctx.stroke(); ctx.restore();
+  }
+  for (const p of beforePings) {
+    const k = seg(t, p.t, p.t + 1.0);
+    if (k <= 0 || k >= 1) continue;
+    const kk = k < 0.5 ? k * 2 : 2 - k * 2;
+    dot(p.f.cx, lerp(STAFF_TOP, CARD_B + 4, ease(kk)), 2.4, p.f.color, a * 0.8, 8);
+  }
+}
+
+function drawBeforeQuery(t) {
+  const a = env(t, T.q0, T.trans + 0.2, 0.3, 0.5);
+  if (a <= 0) return;
+  const f = F.E;
+  const up = ease(seg(t, T.q0 + 0.3, T.q0 + 1.0));
+  ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = rgba(f.color, 0.9); ctx.lineWidth = 2; ctx.shadowColor = f.color; ctx.shadowBlur = 8;
+  ctx.beginPath(); ctx.moveTo(f.cx, STAFF_TOP); ctx.lineTo(f.cx, lerp(STAFF_TOP, CARD_B + 2, up)); ctx.stroke();
+  ctx.restore();
+  if (up > 0 && up < 1) dot(f.cx, lerp(STAFF_TOP, CARD_B + 2, up), 3.5, '#fff', a, 12);
+  const wx = wallX(4);
+  [[F.C, 380, 0], [F.A, 450, 0.25]].forEach(([to, cy, dl]) => {
+    const p0 = { x: f.cx, y: 520 }, p1 = { x: (f.cx + to.cx) / 2, y: cy }, p2 = { x: to.cx, y: CARD_B + 4 };
+    let kc = 0;
+    for (let k = 0; k <= 1; k += 0.005) if (quad(p0, p1, p2, k).x > wx) kc = k;
+    const g = ease(seg(t, T.q0 + 1.1 + dl, T.q0 + 1.7 + dl)) * kc;
+    if (g <= 0) return;
+    ctx.save(); ctx.globalAlpha = a; ctx.setLineDash([4, 4]); ctx.strokeStyle = rgba(f.color, 0.8); ctx.lineWidth = 1.6;
+    ctx.beginPath();
+    for (let k = 0; k <= g; k += 0.01) { const p = quad(p0, p1, p2, k); k === 0 ? ctx.moveTo(p.x, p.y) : ctx.lineTo(p.x, p.y); }
+    ctx.stroke(); ctx.restore();
+    const hit = seg(t, T.q0 + 1.7 + dl, T.q0 + 1.95 + dl);
+    if (hit > 0) {
+      const p = quad(p0, p1, p2, kc);
+      cross(p.x, p.y, 7 * back(hit), a);
+      text(`no access to ${to.name}`, p.x - 12, p.y + 4, { size: 10, weight: 'bold', color: C.red, align: 'right', alpha: a * hit });
+    }
+  });
+  qCard(F.E, 'Have we worked with Corvenlea before?', t, T.q0, T.trans + 0.2);
+  aCard({ title: 'Partial answer', tone: C.red, lines: [
+    ['E', 'Westravelle files only (2019 on)'], [null, 'Vellacombe and Merrivoss history: not visible'],
+    [null, 'Each firm\'s CRM uses a different name']] }, t, T.q0 + 2.3, T.trans + 0.2);
+}
+
+function panel(x, y, w, h, alpha, border) {
+  ctx.save(); ctx.globalAlpha = alpha;
+  ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 18;
+  rr(x, y, w, h, 10); ctx.fillStyle = 'rgba(14,30,45,0.96)'; ctx.fill();
+  ctx.shadowBlur = 0; ctx.lineWidth = 1.4; ctx.strokeStyle = border; ctx.stroke();
+  ctx.restore();
+}
+function qCard(f, q, t, a, b) {
+  const al = env(t, a, b, 0.35, 0.35);
+  if (al <= 0) return;
+  const x = 40, y = 322 + (1 - easeOut(seg(t, a, a + 0.35))) * 10, w = 272;
+  const lines = wrap(q, w - 28, 15, 'bold');
+  const h = 44 + lines.length * 20;
+  panel(x, y, w, h, al, rgba(f.color, 0.8));
+  ctx.save(); ctx.globalAlpha = al;
+  dot(x + 18, y + 19, 5, f.color, 1, 0);
+  text(`${f.name} · asks`, x + 30, y + 23, { size: 11, color: C.dim });
+  lines.forEach((l, i) => text(l, x + 14, y + 46 + i * 20, { size: 15, weight: 'bold' }));
+  ctx.restore();
+}
+function aCard(ans, t, a, b) {
+  const al = env(t, a, b, 0.35, 0.35);
+  if (al <= 0) return;
+  const x = 968, y = 322 + (1 - easeOut(seg(t, a, a + 0.35))) * 10, w = 272;
+  const tone = ans.tone || C.gold;
+  const h = 50 + ans.lines.length * 21;
+  panel(x, y, w, h, al, rgba(tone, 0.85));
+  ctx.save(); ctx.globalAlpha = al;
+  text(ans.tone ? 'SEARCH RESULT' : 'AI BRAIN ANSWER', x + 14, y + 20, { size: 10, weight: 'bold', color: tone });
+  text(ans.title, x + 14, y + 39, { size: 14, weight: 'bold', maxW: w - 28 });
+  ans.lines.forEach(([fk, l], i) => {
+    const li = seg(t, a + 0.25 + i * 0.18, a + 0.5 + i * 0.18);
+    const ly = y + 61 + i * 21;
+    if (fk) dot(x + 19, ly - 4, 4, F[fk].color, li, 0); else dot(x + 19, ly - 4, 2.2, C.dim, li, 0);
+    text(l, x + 30, ly, { size: 11.5, color: C.text, alpha: li, maxW: w - 42 });
+  });
+  ctx.restore();
+}
+
+function drawBrain(t) {
+  const a = ease(seg(t, T.trans + 0.2, T.trans + 1.2));
+  if (a <= 0) return;
+  ctx.save();
+  ctx.globalAlpha = a;
+  const s = lerp(0.94, 1, a);
+  ctx.translate(W / 2, BR.y + BR.h / 2); ctx.scale(s, s); ctx.translate(-W / 2, -(BR.y + BR.h / 2));
+  const g = ctx.createRadialGradient(GR.cx, GR.cy, 20, GR.cx, GR.cy, 520);
+  g.addColorStop(0, 'rgba(197,163,90,0.16)'); g.addColorStop(1, 'rgba(197,163,90,0.02)');
+  rr(BR.x, BR.y, BR.w, BR.h, 18); ctx.fillStyle = '#0c1b28'; ctx.fill(); ctx.fillStyle = g; ctx.fill();
+  ctx.shadowColor = C.gold; ctx.shadowBlur = 22 + (t > T.end ? 14 * (0.5 + 0.5 * Math.sin(t * 4)) : 0); ctx.lineWidth = 1.6; ctx.strokeStyle = rgba(C.gold, 0.65); ctx.stroke();
+  ctx.restore();
+  ctx.save(); ctx.globalAlpha = a;
+  text('AI BRAIN', BR.x + 20, BR.y + 26, { size: 14, weight: 'bold', color: C.gold });
+  font(14, 'bold');
+  text('knowledge graph of the whole group', BR.x + 28 + ctx.measureText('AI BRAIN').width, BR.y + 26, { size: 12, color: C.dim });
+  const firms = FIRMS.filter(f => t >= f.connectT + 0.25).length;
+  const people = FIRMS.filter(f => t >= f.staffT + 0.25).reduce((s, f) => s + f.staff, 0);
+  text(`${firms} companies · ${firms * 4} systems connected`, BR.x + BR.w - 20, BR.y + 26, { size: 12, weight: 'bold', color: C.text, align: 'right' });
+  if (people) text(`${people} people with access`, BR.x + BR.w - 20, BR.y + BR.h - 14, { size: 12, weight: 'bold', color: C.text, align: 'right' });
+  ctx.restore();
+}
+
+function drawConnectors(t) {
+  for (const f of FIRMS) {
+    const c = connected(f, t);
+    if (c <= 0) continue;
+    ctx.save();
+    ctx.strokeStyle = rgba(f.color, 0.7 * c); ctx.lineWidth = 2; ctx.shadowColor = f.color; ctx.shadowBlur = 8;
+    ctx.beginPath(); ctx.moveTo(f.cx, CARD_B + 1); ctx.lineTo(f.cx, lerp(CARD_B + 1, BR.y, ease(c))); ctx.stroke();
+    ctx.restore();
+    rr(f.cx - 38, CARD_B + 11, 76, 18, 9);
+    ctx.save(); ctx.globalAlpha = c; ctx.fillStyle = '#0a1520'; ctx.fill(); ctx.strokeStyle = rgba(f.color, 0.8); ctx.lineWidth = 1.2; ctx.stroke(); ctx.restore();
+    text('4 connectors', f.cx, CARD_B + 24, { size: 9.5, weight: 'bold', color: f.color, align: 'center', alpha: c });
+  }
+  for (const f of FIRMS) {
+    const c = seg(t, f.staffT, f.staffT + 0.5);
+    if (c <= 0) continue;
+    ctx.save(); ctx.strokeStyle = rgba(f.color, 0.65 * c); ctx.lineWidth = 2; ctx.shadowColor = f.color; ctx.shadowBlur = 8;
+    ctx.beginPath(); ctx.moveTo(f.cx, STAFF_TOP); ctx.lineTo(f.cx, lerp(STAFF_TOP, BR.y + BR.h, ease(c))); ctx.stroke(); ctx.restore();
+  }
+}
+
+function particlePath(f, n, t) {
+  const p0 = { x: f.cx, y: CARD_B + 2 }, p1 = { x: f.cx, y: BR.y + 60 };
+  return k => quad(p0, p1, pos(n, t), k);
+}
+function staffPath(f, n, t) {
+  const p0 = { x: f.cx, y: STAFF_TOP }, p1 = { x: f.cx, y: BR.y + BR.h - 40 };
+  return k => quad(p0, p1, pos(n, t), k);
+}
+
+function drawGraph(t) {
+  if (t < T.ingestA - 1) return;
+  const fq = activeFQ(t);
+  const hlA = fq ? env(t, fq.a + 1.2, fq.b, 0.3, 0.3) : 0;
+  const hl = fq ? fq.hl : new Set();
+  const isHl = n => hl.has(n) || (merged(n, t) && hl.has(CORV));
+  const vis = n => n.ts !== undefined && t >= n.ts;
+  // edges
+  for (const e of edges) {
+    if (t < e.ts) continue;
+    const g = easeOut(seg(t, e.ts, e.ts + 0.5));
+    const [older, newer] = e.a.ts <= e.b.ts ? [e.a, e.b] : [e.b, e.a];
+    const p = pos(older, t), q = pos(newer, t);
+    const firmNode = e.a.firm ? e.a : e.b;
+    const col = firmNode.firm ? F[firmNode.firm].color : C.hub;
+    const h = isHl(e.a) && isHl(e.b) ? hlA : 0;
+    ctx.save();
+    ctx.strokeStyle = h > 0 ? rgba(col, 0.3 + 0.7 * h) : rgba(col, fq ? lerp(0.3, 0.12, hlA) : 0.3);
+    ctx.lineWidth = 1 + 1.2 * h;
+    if (h > 0) { ctx.shadowColor = col; ctx.shadowBlur = 10 * h; }
+    ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(lerp(p.x, q.x, g), lerp(p.y, q.y, g)); ctx.stroke();
+    ctx.restore();
+  }
+  // lookalike guard
+  const lk = F.D.nodes[0];
+  const ga = env(t, T.mergeA + 0.9, T.staff + 0.8, 0.3, 0.4);
+  if (ga > 0) {
+    const p = pos(lk, t), c = pos(CORV, t);
+    ctx.save(); ctx.globalAlpha = ga; ctx.setLineDash([3, 4]); ctx.strokeStyle = C.red; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(c.x, c.y); ctx.lineTo(p.x, p.y); ctx.stroke(); ctx.restore();
+    const mx = (p.x + c.x) / 2, my = (p.y + c.y) / 2;
+    dot(mx, my, 9, '#0a1520', ga, 0);
+    text('≠', mx, my + 5, { size: 15, weight: 'bold', color: C.red, align: 'center', alpha: ga });
+  }
+  // nodes
+  for (const n of nodes) {
+    if (!vis(n) || merged(n, t)) continue;
+    const p = pos(n, t);
+    const pop = seg(t, n.ts, n.ts + 0.45);
+    const s = pop < 1 ? Math.max(0, back(pop)) : 1;
+    const col = n.kind === 'hub' ? C.hub : n.kind === 'corv' ? C.gold : F[n.firm].color;
+    const h = isHl(n) ? hlA : 0;
+    if (pop < 1) {
+      ctx.save(); ctx.globalAlpha = 1 - pop; ctx.strokeStyle = col; ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.arc(p.x, p.y, n.r + pop * 14, 0, Math.PI * 2); ctx.stroke(); ctx.restore();
+    }
+    const dimmed = fq && !h ? lerp(1, 0.45, hlA) : 1;
+    dot(p.x, p.y, n.r * s * (1 + 0.35 * h), col, dimmed, n.kind === 'doc' ? 4 : 10 + 10 * h);
+    if (n.kind === 'corv') {
+      ctx.save(); ctx.strokeStyle = rgba(C.gold, 0.6); ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.arc(p.x, p.y, n.r * s + 5 + Math.sin(t * 3) * 1.5, 0, Math.PI * 2); ctx.stroke(); ctx.restore();
+    }
+    if (n.kind === 'lookalike' && ga > 0) {
+      ctx.save(); ctx.globalAlpha = ga; ctx.strokeStyle = C.red; ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.arc(p.x, p.y, n.r + 4, 0, Math.PI * 2); ctx.stroke(); ctx.restore();
+    }
+    // labels
+    let la = 0, lsize = 10, lcol = C.dim, lw = 'normal';
+    if (n.kind === 'hub') { la = 0.9 * dimmed; }
+    if (n.kind === 'corv') { la = 1; lsize = 12; lcol = C.gold; lw = 'bold'; }
+    if (n.kind === 'variant') { const [a] = mergeWin(n); la = env(t, a - 0.2, a + 0.7, 0.3, 0.3); lcol = F[n.firm].color; lw = 'bold'; }
+    if (n.kind === 'lookalike') { la = ga; lcol = C.red; lw = 'bold'; }
+    if ((n.kind === 'project' || n.kind === 'deck') && h > 0) { la = h; lcol = '#fff'; lw = 'bold'; lsize = 10.5; }
+    if (la > 0) {
+      const above = (n.kind === 'variant' && n.firm !== 'E') || (n.kind === 'project' && n.j % 2 === 1);
+      text(n.label, p.x, above ? p.y - n.r - 6 : p.y + n.r + 13, { size: lsize, weight: lw, color: lcol, align: 'center', alpha: la });
+    }
+  }
+}
+
+function drawParticles(t) {
+  // ingestion: one particle per new node
+  for (const n of nodes) {
+    if (!n.firm) continue;
+    const k = seg(t, n.ts - 0.85, n.ts);
+    if (k <= 0 || k >= 1) continue;
+    const f = F[n.firm];
+    trail(particlePath(f, n, t), ease(k), f.color, 1);
+  }
+  for (const e of syncEvents) {
+    const k = seg(t, e.t, e.t + 1.0);
+    if (k <= 0 || k >= 1 || !e.n) continue;
+    trail(particlePath(e.f, e.n, t), ease(k), e.f.color, 0.7, 2.2);
+  }
+  // ambient staff retrieval
+  const fq = activeFQ(t);
+  for (const e of queryEvents) {
+    const k = seg(t, e.t, e.t + 1.8);
+    if (k <= 0 || k >= 1 || !e.n) continue;
+    const path = staffPath(e.f, e.n, t);
+    const al = fq ? 0.35 : 0.85;
+    if (k < 0.5) trail(path, ease(k * 2), e.f.color, al, 2.2);
+    else trail(path, ease(2 - k * 2), C.gold, al, 2.2);
+    if (Math.abs(k - 0.5) < 0.06) { const p = pos(e.n, t); dot(p.x, p.y, 7, C.gold, 0.5 * al, 14); }
+  }
+  // featured queries
+  if (fq) {
+    const f = F[fq.firm];
+    const path = staffPath(f, fq.target, t);
+    const up = seg(t, fq.a + 0.4, fq.a + 1.2), down = seg(t, fq.a + 1.6, fq.a + 2.4);
+    const trace = env(t, fq.a + 0.4, fq.b, 0.2, 0.3);
+    ctx.save(); ctx.globalAlpha = trace; ctx.strokeStyle = rgba(f.color, 0.9); ctx.lineWidth = 2.2; ctx.shadowColor = f.color; ctx.shadowBlur = 10;
+    ctx.beginPath();
+    for (let k = 0; k <= ease(up); k += 0.01) { const p = path(k); k === 0 ? ctx.moveTo(p.x, p.y) : ctx.lineTo(p.x, p.y); }
+    ctx.stroke(); ctx.restore();
+    if (up > 0 && up < 1) trail(path, ease(up), '#ffffff', 1, 3.6);
+    if (down > 0 && down < 1) trail(path, 1 - ease(down), C.gold, 1, 3.6);
+    if (up >= 1) {
+      // fan out from the matched entity to the related records
+      const c = pos(fq.target, t);
+      const fan = seg(t, fq.a + 1.2, fq.a + 1.7);
+      for (const n of fq.hl) {
+        if (n === fq.target || n.ts === undefined || t < n.ts) continue;
+        const p = pos(n, t);
+        if (fan < 1) dot(lerp(c.x, p.x, ease(fan)), lerp(c.y, p.y, ease(fan)), 2.8, '#fff', 1, 10);
+      }
+    }
+    qCard(f, fq.q, t, fq.a, fq.b);
+    aCard(fq.ans, t, fq.a + 1.6, fq.b);
+  }
+}
+
+function renderCore(t) {
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.globalAlpha = 1;
+  ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
+  const shake = (1 - seg(t, T.silo2 + 0.3, T.silo2 + 0.8)) * (t > T.silo2 + 0.3 ? 1 : 0);
+  if (shake > 0) ctx.translate(3.5 * shake * Math.sin(t * 95), 2 * shake * Math.cos(t * 77));
+  const vg = ctx.createRadialGradient(W / 2, H / 2, 100, W / 2, H / 2, 800);
+  vg.addColorStop(0, 'rgba(24,60,76,0.35)'); vg.addColorStop(1, 'rgba(10,21,32,0)');
+  ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
+  drawHeader(t);
+  drawBeforeLinks(t);
+  drawBrain(t);
+  drawConnectors(t);
+  drawGraph(t);
+  FIRMS.forEach(f => drawCard(f, t));
+  FIRMS.forEach(f => drawStaff(f, t));
+  drawWalls(t);
+  drawBlocked(t);
+  drawParticles(t);
+  drawBeforeQuery(t);
+}
+
+function renderAt(g) {
+  g = ((g % DUR) + DUR) % DUR;
+  if (g < HOOK - WIPE) return renderCore(CEND + g * HOOK_RATE);
+  if (g >= HOOK) return renderCore(storyAt(g - (HOOK - WIPE)));
+  const k = ease(seg(g, HOOK - WIPE, HOOK)), wx = W * (1 - k);
+  ctx.save(); ctx.beginPath(); ctx.rect(0, 0, wx, H); ctx.clip(); renderCore(CEND + g * HOOK_RATE); ctx.restore();
+  ctx.save(); ctx.beginPath(); ctx.rect(wx, 0, W - wx, H); ctx.clip(); renderCore(storyAt(g - (HOOK - WIPE))); ctx.restore();
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  const glow = ctx.createLinearGradient(wx, 0, wx + 60, 0);
+  glow.addColorStop(0, rgba(C.gold, 0.35)); glow.addColorStop(1, rgba(C.gold, 0));
+  ctx.fillStyle = glow; ctx.fillRect(wx, 0, 60, H);
+  ctx.save(); ctx.strokeStyle = '#fff4d6'; ctx.lineWidth = 3; ctx.shadowColor = C.gold; ctx.shadowBlur = 24;
+  ctx.beginPath(); ctx.moveTo(wx, 0); ctx.lineTo(wx, H); ctx.stroke(); ctx.restore();
+}
+
+window.DURATION = DUR;
+window.renderAt = renderAt;
+window.frame = t => { renderAt(t); return cv.toDataURL('image/png'); };
+if (!new URLSearchParams(location.search).has('render')) {
+  const start = performance.now();
+  const tick = now => { renderAt((now - start) / 1000); requestAnimationFrame(tick); };
+  requestAnimationFrame(tick);
+}
+</script>
+</body>
+</html>
