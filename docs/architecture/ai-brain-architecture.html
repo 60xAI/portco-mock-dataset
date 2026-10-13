@@ -30,8 +30,20 @@ const T = {
 };
 // The loop opens on the finished brain (a hook), then wipes back to the
 // before state; the story ends where the hook starts, so the GIF loops seamlessly.
-const HOOK = 2.5, WIPE = 0.5, C0 = 1.3, CEND = T.end + 1.2;
-const DUR = HOOK + (CEND - C0);
+// PACE plays each stretch of story time at its own rate: transitions run fast,
+// question/answer beats slow enough to read.
+const HOOK = 1.6, WIPE = 0.4, HOOK_RATE = 1.5, C0 = 1.3, CEND = T.end + 1.2;
+const PACE = [[C0, 1.6], [T.q0, 1.3], [T.trans, 2.2], [T.F1, 1.25], [T.G, 1.8], [T.F4, 1.25], [CEND, 0]];
+const STORY_LEN = PACE.slice(0, -1).reduce((s, [a, r], i) => s + (PACE[i + 1][0] - a) / r, 0);
+const DUR = HOOK - WIPE + STORY_LEN;
+function storyAt(u) {
+  for (let i = 0; i < PACE.length - 1; i++) {
+    const [a, r] = PACE[i], len = (PACE[i + 1][0] - a) / r;
+    if (u < len) return a + u * r;
+    u -= len;
+  }
+  return CEND;
+}
 
 const FIRMS = [
   { k: 'HO', badge: 'HO', name: 'Tarnovell HO', focus: 'Group head office', place: 'Nottingham, UK', color: '#C5A35A', staff: 13,
@@ -252,7 +264,7 @@ const activeFQ = t => FQ.find(q => t >= q.a && t < q.b);
 // ---------- ambient events ----------
 const r2 = mulberry(77);
 const queryEvents = [];
-for (let t = T.staff + 0.4; t < CEND + HOOK; t += t > T.end ? 0.06 + r2() * 0.05 : 0.16 + r2() * 0.12) {
+for (let t = T.staff + 0.4; t < CEND + HOOK * HOOK_RATE + 0.5; t += t > T.end ? 0.06 + r2() * 0.05 : 0.16 + r2() * 0.12) {
   const firms = FIRMS.filter(f => t > f.staffT + 0.4);
   if (!firms.length) continue;
   const f = firms[Math.floor(r2() * firms.length)];
@@ -262,7 +274,7 @@ for (let t = T.staff + 0.4; t < CEND + HOOK; t += t > T.end ? 0.06 + r2() * 0.05
 const syncEvents = [];
 for (const f of FIRMS) {
   const start = f.k === 'G' ? T.gIngB : T.ingestB;
-  for (let t = start + r2() * 0.6; t < CEND + HOOK; t += t > T.end ? 0.25 + r2() * 0.25 : 0.5 + r2() * 0.5) {
+  for (let t = start + r2() * 0.6; t < CEND + HOOK * HOOK_RATE + 0.5; t += t > T.end ? 0.25 + r2() * 0.25 : 0.5 + r2() * 0.5) {
     const pool = f.nodes.filter(n => !merged(n, t + 1));
     syncEvents.push({ t, f, n: pool[Math.floor(r2() * pool.length)] });
   }
@@ -723,11 +735,11 @@ function renderCore(t) {
 
 function renderAt(g) {
   g = ((g % DUR) + DUR) % DUR;
-  if (g < HOOK - WIPE) return renderCore(CEND + g);
-  if (g >= HOOK) return renderCore(C0 + g - (HOOK - WIPE));
+  if (g < HOOK - WIPE) return renderCore(CEND + g * HOOK_RATE);
+  if (g >= HOOK) return renderCore(storyAt(g - (HOOK - WIPE)));
   const k = ease(seg(g, HOOK - WIPE, HOOK)), wx = W * (1 - k);
-  ctx.save(); ctx.beginPath(); ctx.rect(0, 0, wx, H); ctx.clip(); renderCore(CEND + g); ctx.restore();
-  ctx.save(); ctx.beginPath(); ctx.rect(wx, 0, W - wx, H); ctx.clip(); renderCore(C0 + g - (HOOK - WIPE)); ctx.restore();
+  ctx.save(); ctx.beginPath(); ctx.rect(0, 0, wx, H); ctx.clip(); renderCore(CEND + g * HOOK_RATE); ctx.restore();
+  ctx.save(); ctx.beginPath(); ctx.rect(wx, 0, W - wx, H); ctx.clip(); renderCore(storyAt(g - (HOOK - WIPE))); ctx.restore();
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   const glow = ctx.createLinearGradient(wx, 0, wx + 60, 0);
   glow.addColorStop(0, rgba(C.gold, 0.35)); glow.addColorStop(1, rgba(C.gold, 0));
