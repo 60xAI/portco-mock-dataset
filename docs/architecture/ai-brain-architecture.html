@@ -32,8 +32,8 @@ const T = {
 // before state; the story ends where the hook starts, so the GIF loops seamlessly.
 // PACE plays each stretch of story time at its own rate: transitions run fast,
 // question/answer beats slow enough to read.
-const HOOK = 1.6, WIPE = 0.4, HOOK_RATE = 1.5, C0 = 1.3, CEND = T.end + 1.2;
-const PACE = [[C0, 1.6], [T.q0, 1.3], [T.trans, 2.2], [T.F1, 1.25], [T.G, 1.8], [T.F4, 1.25], [CEND, 0]];
+const HOOK = 1.2, WIPE = 0.35, HOOK_RATE = 2, C0 = 1.3, CEND = T.end + 1.2;
+const PACE = [[C0, 2.4], [T.q0, 2.0], [T.trans, 3.5], [T.F1, 2.1], [T.G, 2.6], [T.F4, 1.9], [CEND, 0]];
 const STORY_LEN = PACE.slice(0, -1).reduce((s, [a, r], i) => s + (PACE[i + 1][0] - a) / r, 0);
 const DUR = HOOK - WIPE + STORY_LEN;
 function storyAt(u) {
